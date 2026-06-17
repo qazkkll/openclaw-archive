@@ -1,0 +1,49 @@
+{
+  "market": "us",
+  "updated": "2026-06-17",
+  "active_models": {
+    "greenshaft": {
+      "name": "绿箭 V19 (GreenShaft)",
+      "file": "greenshaft_v19_final.json",
+      "calibrator": "greenshaft_v19_calib.pkl",
+      "version": "v19",
+      "status": "production",
+      "description": "XGBoost分类，$1-10低价股彩票策略，Top5命中率17.1%",
+      "data_sources": ["us_hist_yf_10y.parquet", "us_ml_feats_v71_v19.parquet"],
+      "train_script": "scripts/us/us_v19_train.py"
+    },
+    "blueshield": {
+      "name": "蓝盾 V3 (BlueShield)",
+      "file": "blueshield_v2c.model",
+      "calibrator": "blueshield_v2c.pkl",
+      "version": "v3",
+      "status": "production",
+      "description": "纯公式评分，110分制防御策略，无ML依赖"
+    },
+    "v8": {
+      "name": "V8 Lottery",
+      "file": "us_v8_1.json",
+      "version": "v8.1",
+      "status": "legacy",
+      "description": "XGBoost回归，43特征，绿箭前身"
+    },
+    "v9": {
+      "name": "V9 Lottery",
+      "file": "us_v9_lottery_v2.json",
+      "version": "v9",
+      "status": "testing",
+      "description": "V8改进版，更大特征集"
+    }
+  },
+  "legacy_models": [
+    "greenshaft_v5_5pct.json",
+    "greenshaft_v6.json",
+    "us_xgb_v71.json",
+    "us_xgb_v2.json",
+    "us_v7_5.json",
+    "blueshield_v2.model",
+    "blueshield_v2b.model",
+    "blueshield_v2d.model",
+    "blueshield_v4.model"
+  ]
+}

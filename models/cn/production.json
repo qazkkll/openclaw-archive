@@ -1,0 +1,46 @@
+{
+  "market": "cn",
+  "updated": "2026-06-17",
+  "active_models": {
+    "a2": {
+      "name": "A2 Layer3 XGBoost 10日回归",
+      "file": "a1_layer3_xgb_10d.json",
+      "meta": "a1_layer3_xgb_10d_meta.json",
+      "version": "v1.0",
+      "trained": "2026-06-17",
+      "status": "production",
+      "features": 37,
+      "target": "fwd_10d",
+      "description": "多因子评分，技术+资金流，预测10日涨幅。训练期2016-2020，验证2021-2023H1，测试2023H2-2026",
+      "data_sources": ["a_hist_10y.parquet", "moneyflow_full.json"],
+      "scoring_script": "scripts/score/a2_score_only.py",
+      "train_script": "scripts/train/a1_layer3_xgb.py"
+    },
+    "a2_clf": {
+      "name": "A2 Layer3 XGBoost 5日分类",
+      "file": "a1_l3_clf_5d.json",
+      "meta": "a1_l3_clf_5d_meta.json",
+      "version": "v1.0",
+      "status": "testing",
+      "features": 37,
+      "target": "fwd_5d > 0 (binary)",
+      "description": "二分类版本，预测5日涨跌概率"
+    },
+    "a3": {
+      "name": "A3 LightGBM融合",
+      "file": "a3_v3_lightgbm_full.txt",
+      "version": "v3.0",
+      "status": "testing",
+      "description": "LightGBM分类+回归融合，技术+资金流因子"
+    }
+  },
+  "legacy_models": [
+    "a1_layer1_xgb.json",
+    "a1_tech_v1.json",
+    "a_xgb_tech_v1.json",
+    "a_xgb_tech_v2.json",
+    "a3_v1.json",
+    "a3_classifier_v1.json",
+    "a3_regression_v1.json"
+  ]
+}

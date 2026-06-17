@@ -1,0 +1,10 @@
+vhdx*
+*.pyc
+__pycache__/
+output/
+data/cn/a_hist_10y.parquet
+data/us/*.parquet
+data/us/features/*.parquet
+data/moneyflow_full.json
+scripts/_tmp/
+数据大文件用git-lfs或外部备份，不进git
