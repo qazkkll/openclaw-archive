@@ -2,15 +2,16 @@
   "market": "us",
   "updated": "2026-06-17",
   "active_models": {
-    "greenshaft": {
-      "name": "绿箭 V19 (GreenShaft)",
-      "file": "greenshaft_v19_final.json",
-      "calibrator": "greenshaft_v19_calib.pkl",
-      "version": "v19",
+    "v8": {
+      "name": "绿箭 V8 (GreenArrow)",
+      "file": "us_v8_1.json",
+      "calibrator": "us_v8_1_calibrator.pkl",
+      "version": "v8.1",
       "status": "production",
-      "description": "XGBoost分类，$1-10低价股彩票策略，Top5命中率17.1%",
-      "data_sources": ["us_hist_yf_10y.parquet", "us_ml_feats_v71_v19.parquet"],
-      "train_script": "scripts/us/us_v19_train.py"
+      "description": "XGBoost回归，51特征，彩票策略，AUC 0.67",
+      "data_sources": ["us_hist_yf_10y.parquet", "us_ml_feats_v75.parquet"],
+      "train_script": "scripts/us/us_v8_1_p1_bt.py",
+      "report": "us_v8_1_report.json"
     },
     "blueshield": {
       "name": "蓝盾 V3 (BlueShield)",

@@ -1,0 +1,25 @@
+{
+  "mission": "A3_v1模型验证与优化",
+  "status": "paused",
+  "paused_at": "2026-06-15T10:40:00+08:00",
+  "paused_by": "Andy（session膨胀，开新session）",
+  "progress": {
+    "wf_full": "done — 胜率52%，去boom后仅+0.7%",
+    "param_sweep": "running — 4/14完成，胜率48-52%无改善",
+    "conclusion": "纯技术33特征模型胜率太低，参数调优无效"
+  },
+  "next_steps": [
+    "检查参数扫描是否完成（a3_v1_param_sweep.json）",
+    "特征诊断：看feature_importance，找过拟合",
+    "方案A：加入市场状态特征（大盘MA20/波动率）重训",
+    "方案B：换思路做趋势跟踪（突破买入）",
+    "方案C：放弃A3，保持A2现状"
+  ],
+  "key_files": {
+    "model": "D:/openclaw/data/a1_models/a3_v1.json",
+    "wf_report": "D:/openclaw/data/a1_models/a3_v1_wf_full.json",
+    "sweep_script": "scripts/a3_v1_param_sweep.py",
+    "wf_script": "scripts/a3_v1_wf_full.py"
+  },
+  "pending_sync": false
+}

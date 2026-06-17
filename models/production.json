@@ -1,0 +1,25 @@
+{
+  "us": {
+    "arrow": {
+      "name": "绿箭V9-Lottery",
+      "model_file": "us_v9_lottery.json",
+      "version": "V9",
+      "type": "xgboost",
+      "status": "active"
+    },
+    "shield": {
+      "name": "蓝盾V3",
+      "version": "V3",
+      "type": "formula",
+      "status": "active"
+    }
+  },
+  "cn": {
+    "a2": {
+      "name": "A2模型",
+      "model_file": "a1_layer3_xgb_10d.json",
+      "version": "A2",
+      "status": "active"
+    }
+  }
+}

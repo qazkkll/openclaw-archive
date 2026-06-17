@@ -38,9 +38,9 @@ CN_A2_MODEL   = os.path.join(CN_MODELS, 'a1_layer3_xgb_10d.json')
 CN_A2_META    = os.path.join(CN_MODELS, 'a1_layer3_xgb_10d_meta.json')
 
 # ======= 兼容旧脚本（D盘路径 → 本地路径映射） =======
-# 旧脚本用 D_DATA = 'D:/openclaw/data'，这里提供别名
 D_DATA = CN_DATA  # 兼容
 D_MODELS = CN_MODELS  # 兼容
+ML_DIR = os.path.join(DATA_DIR, 'us')  # 美股ML数据目录（兼容旧脚本）
 
 def ensure_dirs():
     """确保所有必要目录存在"""

@@ -1,0 +1,119 @@
+{
+  "_comment": "OpenClaw 配置中心 — 所有模型/阈值/逻辑从此文件读取，改配置不改代码",
+
+  "models": {
+    "shield": {
+      "name": "蓝盾V3",
+      "type": "formula",
+      "version": "V3",
+      "description": "纯公式评分，趋势跟踪"
+    },
+    "arrow": {
+      "name": "绿箭V9-Lottery",
+      "type": "xgboost",
+      "version": "V9",
+      "model_file": "models/us/us_v9_lottery.json",
+      "data_file": "data/us_all_ohlcv.json",
+      "feature_count": 50,
+      "description": "XGBoost二分类，预测5天涨50%概率"
+    }
+  },
+
+  "scoring": {
+    "shield": {
+      "top_n": 15,
+      "thresholds": {
+        "strong_buy": 95,
+        "buy": 90,
+        "watch_bullish": 85,
+        "watch": 75,
+        "avoid": 0
+      }
+    },
+    "arrow": {
+      "top_n": 10,
+      "pool_size": 30,
+      "sort_method": "prob/price_top30->prob_top10",
+      "thresholds": {
+        "high_prob": 0.8,
+        "medium_prob": 0.6,
+        "low_prob": 0.4,
+        "very_low": 0
+      }
+    }
+  },
+
+  "display": {
+    "traffic_light": {
+      "\ud83d\udfe2\ud83d\udfe2": { "label": "\u5f3a\u70c8\u4e70\u5165", "min_score": 95 },
+      "\ud83d\udfe2": { "label": "\u4e70\u5165", "min_score": 90 },
+      "\ud83d\udfe1": { "label": "\u89c2\u671b", "min_score": 75 },
+      "\ud83d\udd34": { "label": "\u4e0d\u5efa\u8bae", "min_score": 0 }
+    },
+    "arrow_light": {
+      "\ud83d\udfe2\ud83d\udfe2": { "label": "\u9ad8\u6982\u7387", "min_prob": 0.8 },
+      "\ud83d\udfe2": { "label": "\u4e2d\u6982\u7387", "min_prob": 0.6 },
+      "\ud83d\udfe1": { "label": "\u4f4e\u6982\u7387", "min_prob": 0.4 },
+      "\ud83d\udd34": { "label": "\u6781\u4f4e", "min_prob": 0 }
+    }
+  },
+
+  "portfolio_actions": {
+    "rules": [
+      { "condition": "shield_score >= 95", "action": "ADD", "reason": "\u84dd\u76fe{score}\u5206 \u00b7 \u8d8b\u52bf\u5f3a\u52b2" },
+      { "condition": "shield_score >= 90", "action": "BUY", "reason": "\u84dd\u76fe{score}\u5206 \u00b7 \u8d8b\u52bf\u786e\u8ba4" },
+      { "condition": "arrow_prob >= 0.6", "action": "BUY", "reason": "\u7eff\u7bad{prob}\u6982\u7387 \u00b7 \u91cf\u5316\u4fe1\u53f7" },
+      { "condition": "rsi > 70", "action": "HOLD", "reason": "RSI {rsi}\u8d85\u4e70 \u00b7 \u7b49\u56de\u8c03" }
+    ]
+  },
+
+  "risk_rules": [
+    { "type": "sector_concentration", "threshold": 4, "message": "\u677f\u5757\u96c6\u4e2d\uff1a{sector}\u5360Top10\u7684{count}\u5e2d" },
+    { "type": "rsi_overbought", "threshold": 65, "message": "\u77ed\u671f\u8d85\u4e70\uff1a{tickers}" },
+    { "type": "arrow_weak", "threshold": 0.3, "message": "\u7eff\u7bad\u4fe1\u53f7\u504f\u5f31\uff0c\u6700\u9ad8\u6982\u7387<30%" }
+  ],
+
+  "watchdog": {
+    "cooldown_minutes": 15,
+    "triggers": {
+      "top5_change": true,
+      "shield_score_delta": 5,
+      "arrow_prob_threshold": 0.90,
+      "vix_delta": 2.0,
+      "sp500_pct_delta": 1.5
+    }
+  },
+
+  "market": {
+    "indices": {
+      "S&P 500": "^GSPC",
+      "VIX": "^VIX",
+      "NASDAQ": "^IXIC",
+      "DJI": "^DJI"
+    },
+    "bond": "^TNX",
+    "forex": "DX-Y.NYB"
+  },
+
+  "dashboard": {
+    "auto_refresh_seconds": 300,
+    "poll_interval_seconds": 30,
+    "rank_snapshot_at_open": true,
+    "entry_signal_thresholds": {
+      "strong": 0.6,
+      "watch": 0.4,
+      "monitor": 0.2
+    },
+    "max_shield_display": 15,
+    "max_arrow_display": 10,
+    "max_entry_signals": 15
+  },
+
+  "universe": {
+    "us_large-cap": ["AAPL","MSFT","AMZN","NVDA","GOOGL","META","TSLA","AVGO","JPM","V","UNH","JNJ","LLY","XOM","MA","PG","COST","HD","ABBV","CRM"],
+    "us_industrial": ["CAT","HON","UPS","RTX","GE","DE","LMT","BA","ETN","ITW"],
+    "us_financial": ["JPM","BAC","GS","MS","WFC","C","AXP","BLK","FITB","MTB"],
+    "us_healthcare": ["UNH","JNJ","LLY","PFE","ABBV","MRK","TMO","ABT","DHR","BMY"],
+    "us_lottery": ["MAYS","PRAX","JAZZ","HALO","OCC","PCSA","CMPS","AXSM","BGNE","ITCI"]
+  }
+}

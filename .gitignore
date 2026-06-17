@@ -1,10 +1,28 @@
+# WSL虚拟磁盘
 vhdx*
+
+# Python
 *.pyc
 __pycache__/
+
+# 临时文件
+scripts/_tmp/
+
+# 输出（可重新生成）
 output/
+
+# 大数据文件（>100MB，不进git，需要时从tushare重建）
 data/cn/a_hist_10y.parquet
+data/cn/moneyflow_full.json
 data/us/*.parquet
 data/us/features/*.parquet
-data/moneyflow_full.json
-scripts/_tmp/
-数据大文件用git-lfs或外部备份，不进git
+data/us/ml_training_data.parquet
+data/moneyflow_pool.json
+data/quality_pool.json
+data/sp500_symbols.json
+data/stock_info.json
+data/us_quality_pool.json
+
+# 检查点（可重新生成）
+data/layer3_checkpoints/
+data/moneyflow_checkpoints/
