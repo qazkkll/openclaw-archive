@@ -1,0 +1,46 @@
+{
+  "_comment": "🍤 输出模板 — 改这里即可调整报告格式",
+  "version": "2026-05-22",
+  "source": "skills/stock-decision/SKILL.md 第九节",
+
+  "headers": {
+    "a_stock_morning": "📊 A股简报 · {date}\\n🕐 {time} HKT · 盘前",
+    "us_stock_evening": "📊 美股简报 · {date}\\n🕐 {time} HKT · 盘中第1小时",
+    "a_stock_close": "📊 A股复盘 · {date}\\n🕐 {time} · 收盘",
+    "us_stock_close": "📊 美股复盘 · {date}\\n🕐 次日{time} · 过夜检查",
+    "individual_stock": "{flag} {name} · {code} · {price} · {signal} #{rank}",
+    "alert": "⏰ 价格预警 · {name}",
+    "intraday": "📊 盘中 · {time}"
+  },
+
+  "divider": "──────────────────────────────────",
+
+  "required_sections": [
+    "❤️ 大势",
+    "💰 盈亏总账",
+    "❤️ 评分红绿灯 · 今日推荐",
+    "📦 你的持仓",
+    "🎯 今天该做的事"
+  ],
+
+  "individual_sections": [
+    "① 📊 评分排名",
+    "② 📈 技术面",
+    "③ 📰 新闻情绪",
+    "④ 🏭 基本面",
+    "⑤ 🔄 同板块对比",
+    "⑥ 🎯 催化剂",
+    "⑦ 🧠 我的判断"
+  ],
+
+  "hold_check_sections": [
+    "① 📊 评分变化",
+    "② 📈 趋势检查",
+    "③ 📰 有负面新闻吗？",
+    "④ ⏰ 止损/目标到了吗？",
+    "⑤ 💡 结论"
+  ],
+
+  "divider_template": "────────────────────",
+  "conclusion_template": "   ─────────────────────\\n   操作: {action}\\n   理由: {reason}\\n   等: {wait}\\n   担心: {worry}\\n   ─────────────────────"
+}

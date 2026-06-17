@@ -1,0 +1,41 @@
+{
+  "model": "a_xgb_tech_v2",
+  "date": "2026-06-10",
+  "features": [
+    "r1",
+    "r5",
+    "r20",
+    "m5_div_m20",
+    "d5",
+    "d20",
+    "d60",
+    "align",
+    "v5",
+    "v20",
+    "rsi",
+    "macd",
+    "vr",
+    "pos",
+    "c_div_m60",
+    "vp_signal",
+    "vr20",
+    "vol_ratio",
+    "price_norm"
+  ],
+  "n_features": 19,
+  "params": {
+    "n_estimators": 100,
+    "max_depth": 8,
+    "learning_rate": 0.2,
+    "subsample": 0.7
+  },
+  "performance": {
+    "acc": 0.6901597463294411,
+    "auc": 0.675416752606673,
+    "cal_auc": 0.6750804375724555
+  },
+  "n_train": 5323440,
+  "n_val": 665430,
+  "n_test": 665430,
+  "pos_rate": 0.33572202920913696
+}

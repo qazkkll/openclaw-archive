@@ -1,0 +1,126 @@
+{
+  "model": "us_v7_5_l30",
+  "model_path": "D:/openclaw/data/models/us_v7_5_l30.json",
+  "params": {
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "max_depth": 8,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.9,
+    "min_child_weight": 2,
+    "gamma": 0.1,
+    "reg_alpha": 0.3,
+    "reg_lambda": 2,
+    "tree_method": "gpu_hist",
+    "random_state": 42,
+    "scale_pos_weight": 69.661883543539
+  },
+  "features": [
+    "ma5",
+    "ma5_ratio",
+    "ma20_ratio",
+    "ma60_ratio",
+    "vol5",
+    "vol20",
+    "vol_ratio",
+    "ema12",
+    "ema26",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "rsi14",
+    "k",
+    "d",
+    "j",
+    "bb_upper",
+    "bb_lower",
+    "bb_width",
+    "bb_position",
+    "vol_ratio_ma5",
+    "vol_ratio_ma20",
+    "adx",
+    "plus_di",
+    "minus_di",
+    "price_position",
+    "price_position_60",
+    "cmf",
+    "vix_close",
+    "close_log",
+    "close_x_vol",
+    "plus_di_x_low_vol",
+    "adx_x_rsi",
+    "bb_x_vol",
+    "rsi_x_kdj",
+    "low_price"
+  ],
+  "train_auc": 0.921237162622373,
+  "val_auc": 0.7245454607711906,
+  "test_auc": 0.7425979970219209,
+  "pos_rate": 0.01415190127763634,
+  "pos_weight": 69.661883543539,
+  "best_iteration": 58,
+  "top15_features": [
+    [
+      "bb_width",
+      2270.331787109375
+    ],
+    [
+      "bb_x_vol",
+      956.8040771484375
+    ],
+    [
+      "bb_lower",
+      616.3619384765625
+    ],
+    [
+      "ma60_ratio",
+      466.4911804199219
+    ],
+    [
+      "vol5",
+      433.46002197265625
+    ],
+    [
+      "close_x_vol",
+      397.32061767578125
+    ],
+    [
+      "vol20",
+      374.9570007324219
+    ],
+    [
+      "minus_di",
+      350.6598205566406
+    ],
+    [
+      "ema26",
+      344.5719299316406
+    ],
+    [
+      "d",
+      339.4287414550781
+    ],
+    [
+      "bb_upper",
+      338.8077697753906
+    ],
+    [
+      "low_price",
+      330.9392395019531
+    ],
+    [
+      "ema12",
+      304.1572570800781
+    ],
+    [
+      "close_log",
+      303.65557861328125
+    ],
+    [
+      "vol_ratio_ma20",
+      285.9482116699219
+    ]
+  ],
+  "date_trained": "2026-06-12 02:12:43"
+}

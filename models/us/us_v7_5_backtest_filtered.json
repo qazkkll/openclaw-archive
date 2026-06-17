@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-06-11 13:13:16",
+  "model": "us_v7_5_filtered",
+  "range": "2022-01-03~2026-06-10",
+  "days": 1113,
+  "method": "\u6b21\u65e5\u5f00\u76d8\u4e70\u5356+\u57fa\u672c\u9762\u8fc7\u6ee4",
+  "filter_criteria": {
+    "min_mcap_m": 300.0,
+    "min_vol_m": 5.0,
+    "min_price": 3.0
+  },
+  "filtered_syms": 231,
+  "original_syms": 2474,
+  "all": [
+    {
+      "tag": "T5_H5_S15_R10",
+      "tr": 6426.4,
+      "an": 157.6,
+      "sh": 2.44,
+      "mdd": -25.6,
+      "wr": 0.613,
+      "trades": 555,
+      "filtered_syms": 231
+    },
+    {
+      "tag": "T5_H10_S15_R10",
+      "tr": 11530.2,
+      "an": 193.5,
+      "sh": 2.26,
+      "mdd": -23.3,
+      "wr": 0.56,
+      "trades": 555,
+      "filtered_syms": 231
+    },
+    {
+      "tag": "T5_H10_S10_R10",
+      "tr": 7539.2,
+      "an": 166.9,
+      "sh": 2.18,
+      "mdd": -26.0,
+      "wr": 0.517,
+      "trades": 557,
+      "filtered_syms": 231
+    },
+    {
+      "tag": "T5_H10_S5_R10",
+      "tr": 2564.8,
+      "an": 110.3,
+      "sh": 1.88,
+      "mdd": -32.1,
+      "wr": 0.391,
+      "trades": 560,
+      "filtered_syms": 231
+    }
+  ]
+}

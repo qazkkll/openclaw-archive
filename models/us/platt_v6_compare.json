@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-06-11 00:19:51",
+  "best": "xgboost",
+  "xgb": {
+    "auc_platt": 0.728,
+    "auc_ir": 0.7279,
+    "bias_pct": -0.11,
+    "prob_unique_platt": 5451,
+    "prob_unique_ir": 232
+  }
+}

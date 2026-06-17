@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-06-09 17:07:17.493120",
+  "model": "us_xgb_v14",
+  "features": [
+    "ma5",
+    "ma10",
+    "ma20",
+    "ma60",
+    "rsi14",
+    "vol20",
+    "p52",
+    "ret1",
+    "ret5",
+    "ret20",
+    "ret60",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "vol_ratio",
+    "ma_bias20",
+    "price",
+    "volume",
+    "vol20_ma20",
+    "vol20_ma60",
+    "ret60_vol20",
+    "trend_accel",
+    "macd_accel",
+    "vol_price_div",
+    "vol_surge",
+    "p52_momentum"
+  ],
+  "es_map": {
+    "WF1": 30,
+    "WF2": 25,
+    "WF3": 15
+  },
+  "wf_sharpe": 0.8773,
+  "wf_win_rate": 0.5073,
+  "test_sharpe": 0.7069,
+  "test_win_rate": 0.5083
+}

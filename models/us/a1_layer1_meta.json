@@ -1,0 +1,61 @@
+{
+  "features": [
+    "pct_ma5",
+    "pct_ma10",
+    "pct_ma20",
+    "pct_ma60",
+    "ma20_slope",
+    "ma60_slope",
+    "ma_align",
+    "vol_ratio",
+    "atr20_pct",
+    "rsi",
+    "ret_5d",
+    "ret_10d",
+    "ret_20d",
+    "ret_60d",
+    "ret20d_pct"
+  ],
+  "n_estimators": 3,
+  "params": {
+    "max_depth": 5,
+    "learning_rate": 0.05,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "label_map": {
+    "0": "defensive",
+    "1": "neutral",
+    "2": "aggressive"
+  },
+  "label_cutoffs": {
+    "defensive": "<= -3%",
+    "neutral": "-3% ~ +3%",
+    "aggressive": ">= +3%"
+  },
+  "test_accuracy": 0.3507246376811594,
+  "feature_importance": {
+    "atr20_pct": 4.569807529449463,
+    "ret_20d": 3.9830079078674316,
+    "ret20d_pct": 3.883992910385132,
+    "ma60_slope": 3.865626811981201,
+    "ret_60d": 3.7436814308166504,
+    "ma20_slope": 3.681569814682007,
+    "vol_ratio": 3.464693784713745,
+    "pct_ma60": 3.3373987674713135,
+    "pct_ma20": 3.3227763175964355,
+    "ma_align": 3.290046453475952,
+    "rsi": 2.8910720348358154,
+    "ret_10d": 2.8827054500579834,
+    "ret_5d": 2.4191601276397705,
+    "pct_ma10": 2.3180761337280273,
+    "pct_ma5": 1.3318425416946411
+  },
+  "data_dates": {
+    "train": "2016-2020",
+    "val": "2021-2023H1",
+    "test": "2023H2-2026"
+  },
+  "generated": "2026-06-12"
+}

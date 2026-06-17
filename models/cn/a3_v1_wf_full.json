@@ -1,0 +1,56 @@
+{
+  "model": "a3_v1",
+  "type": "walk_forward_full_vectorized",
+  "params": {
+    "n_splits": 5,
+    "hold_days": 5,
+    "top_k": 10,
+    "sl_pct": -15
+  },
+  "n_stocks": 4536,
+  "avg_ret_5d": 6.38,
+  "win_rate": 52.0,
+  "folds": [
+    {
+      "fold": 1,
+      "train_end": "20180214",
+      "n_candidates": 3107,
+      "avg_ret_5d": 2.38,
+      "wins": 5,
+      "total": 10
+    },
+    {
+      "fold": 2,
+      "train_end": "20191015",
+      "n_candidates": 3386,
+      "avg_ret_5d": -0.31,
+      "wins": 4,
+      "total": 10
+    },
+    {
+      "fold": 3,
+      "train_end": "20210607",
+      "n_candidates": 3705,
+      "avg_ret_5d": -1.78,
+      "wins": 2,
+      "total": 10
+    },
+    {
+      "fold": 4,
+      "train_end": "20230201",
+      "n_candidates": 4167,
+      "avg_ret_5d": 2.52,
+      "wins": 5,
+      "total": 10
+    },
+    {
+      "fold": 5,
+      "train_end": "20240920",
+      "n_candidates": 4457,
+      "avg_ret_5d": 29.07,
+      "wins": 10,
+      "total": 10
+    }
+  ],
+  "elapsed_sec": 327.4
+}

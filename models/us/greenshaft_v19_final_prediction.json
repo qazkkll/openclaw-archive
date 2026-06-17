@@ -1,0 +1,428 @@
+{
+  "timestamp": "2026-06-09 23:37:17",
+  "model": "greenshaft_v19_final",
+  "calibrated": true,
+  "calib_coef_a": 5.821212152126631,
+  "calib_intercept_b": -2.5616812862670133,
+  "data_date": "2026-06-08",
+  "calibration_bias_mean": 7.16,
+  "configs": {
+    "d5_T10": {
+      "interval": 5,
+      "top_n": 10,
+      "desc": "每5天调仓 Top10 激进型"
+    },
+    "d10_T15": {
+      "interval": 10,
+      "top_n": 15,
+      "desc": "★甜点 每10天调仓 Top15 平衡型"
+    },
+    "d10_T20": {
+      "interval": 10,
+      "top_n": 20,
+      "desc": "每10天调仓 Top20 稳健型"
+    }
+  },
+  "predictions": [
+    {
+      "rank": 1,
+      "sym": "QCOM",
+      "price": 248.82,
+      "up5_calib": 0.5806,
+      "up5_raw": 0.4959,
+      "actual_5d": -3.21
+    },
+    {
+      "rank": 2,
+      "sym": "SDOT",
+      "price": 2.88,
+      "up5_calib": 0.5234,
+      "up5_raw": 0.4562,
+      "actual_5d": 13.89
+    },
+    {
+      "rank": 3,
+      "sym": "NOK",
+      "price": 16.46,
+      "up5_calib": 0.5232,
+      "up5_raw": 0.456,
+      "actual_5d": 2.37
+    },
+    {
+      "rank": 4,
+      "sym": "PENG",
+      "price": 54.95,
+      "up5_calib": 0.5117,
+      "up5_raw": 0.4481,
+      "actual_5d": 28.57
+    },
+    {
+      "rank": 5,
+      "sym": "RTB",
+      "price": 3.7,
+      "up5_calib": 0.506,
+      "up5_raw": 0.4442,
+      "actual_5d": 12.16
+    },
+    {
+      "rank": 6,
+      "sym": "SNSE",
+      "price": 16.47,
+      "up5_calib": 0.4852,
+      "up5_raw": 0.4299,
+      "actual_5d": -2.31
+    },
+    {
+      "rank": 7,
+      "sym": "ENPH",
+      "price": 66.9,
+      "up5_calib": 0.4816,
+      "up5_raw": 0.4274,
+      "actual_5d": 8.12
+    },
+    {
+      "rank": 8,
+      "sym": "INOD",
+      "price": 95.91,
+      "up5_calib": 0.4778,
+      "up5_raw": 0.4248,
+      "actual_5d": 19.09
+    },
+    {
+      "rank": 9,
+      "sym": "FLEX",
+      "price": 143.24,
+      "up5_calib": 0.4648,
+      "up5_raw": 0.4158,
+      "actual_5d": 11.3
+    },
+    {
+      "rank": 10,
+      "sym": "OSS",
+      "price": 17.44,
+      "up5_calib": 0.4645,
+      "up5_raw": 0.4156,
+      "actual_5d": 14.39
+    },
+    {
+      "rank": 11,
+      "sym": "KEEL",
+      "price": 5.13,
+      "up5_calib": 0.4533,
+      "up5_raw": 0.4079,
+      "actual_5d": 19.69
+    },
+    {
+      "rank": 12,
+      "sym": "STX",
+      "price": 845.76,
+      "up5_calib": 0.4527,
+      "up5_raw": 0.4075,
+      "actual_5d": 9.56
+    },
+    {
+      "rank": 13,
+      "sym": "BAND",
+      "price": 61.18,
+      "up5_calib": 0.444,
+      "up5_raw": 0.4014,
+      "actual_5d": 10.93
+    },
+    {
+      "rank": 14,
+      "sym": "ALM",
+      "price": 19.77,
+      "up5_calib": 0.4435,
+      "up5_raw": 0.4011,
+      "actual_5d": 4.45
+    },
+    {
+      "rank": 15,
+      "sym": "AMD",
+      "price": 503.89,
+      "up5_calib": 0.4413,
+      "up5_raw": 0.3996,
+      "actual_5d": 3.5
+    },
+    {
+      "rank": 16,
+      "sym": "FROG",
+      "price": 73.01,
+      "up5_calib": 0.4411,
+      "up5_raw": 0.3994,
+      "actual_5d": 20.6
+    },
+    {
+      "rank": 17,
+      "sym": "LESL",
+      "price": 3.46,
+      "up5_calib": 0.4374,
+      "up5_raw": 0.3968,
+      "actual_5d": 14.16
+    },
+    {
+      "rank": 18,
+      "sym": "EXTR",
+      "price": 27.02,
+      "up5_calib": 0.4373,
+      "up5_raw": 0.3967,
+      "actual_5d": 9.1
+    },
+    {
+      "rank": 19,
+      "sym": "MXL",
+      "price": 96.12,
+      "up5_calib": 0.4352,
+      "up5_raw": 0.3953,
+      "actual_5d": -7.66
+    },
+    {
+      "rank": 20,
+      "sym": "FLNT",
+      "price": 2.39,
+      "up5_calib": 0.434,
+      "up5_raw": 0.3945,
+      "actual_5d": 6.28
+    },
+    {
+      "rank": 21,
+      "sym": "NGEN",
+      "price": 2.13,
+      "up5_calib": 0.433,
+      "up5_raw": 0.3937,
+      "actual_5d": -6.1
+    },
+    {
+      "rank": 22,
+      "sym": "VSH",
+      "price": 50.37,
+      "up5_calib": 0.4266,
+      "up5_raw": 0.3893,
+      "actual_5d": 24.06
+    },
+    {
+      "rank": 23,
+      "sym": "ASTS",
+      "price": 119.7,
+      "up5_calib": 0.4258,
+      "up5_raw": 0.3887,
+      "actual_5d": -1.28
+    },
+    {
+      "rank": 24,
+      "sym": "AMC",
+      "price": 1.59,
+      "up5_calib": 0.4224,
+      "up5_raw": 0.3863,
+      "actual_5d": 30.19
+    },
+    {
+      "rank": 25,
+      "sym": "PLUR",
+      "price": 2.31,
+      "up5_calib": 0.4214,
+      "up5_raw": 0.3856,
+      "actual_5d": 2.6
+    },
+    {
+      "rank": 26,
+      "sym": "SDST",
+      "price": 2.27,
+      "up5_calib": 0.421,
+      "up5_raw": 0.3853,
+      "actual_5d": -0.88
+    },
+    {
+      "rank": 27,
+      "sym": "PIII",
+      "price": 12.99,
+      "up5_calib": 0.4107,
+      "up5_raw": 0.378,
+      "actual_5d": -1.54
+    },
+    {
+      "rank": 28,
+      "sym": "RKLB",
+      "price": 143.2,
+      "up5_calib": 0.41,
+      "up5_raw": 0.3775,
+      "actual_5d": -13.88
+    },
+    {
+      "rank": 29,
+      "sym": "STM",
+      "price": 70.69,
+      "up5_calib": 0.4084,
+      "up5_raw": 0.3764,
+      "actual_5d": 12.48
+    },
+    {
+      "rank": 30,
+      "sym": "TNGX",
+      "price": 20.04,
+      "up5_calib": 0.4076,
+      "up5_raw": 0.3758,
+      "actual_5d": 7.29
+    },
+    {
+      "rank": 31,
+      "sym": "CC",
+      "price": 22.1,
+      "up5_calib": 0.4063,
+      "up5_raw": 0.3749,
+      "actual_5d": 5.2
+    },
+    {
+      "rank": 32,
+      "sym": "GTM",
+      "price": 3.5,
+      "up5_calib": 0.4027,
+      "up5_raw": 0.3723,
+      "actual_5d": -2.29
+    },
+    {
+      "rank": 33,
+      "sym": "STRL",
+      "price": 783.53,
+      "up5_calib": 0.4008,
+      "up5_raw": 0.371,
+      "actual_5d": 11.74
+    },
+    {
+      "rank": 34,
+      "sym": "ON",
+      "price": 127.0,
+      "up5_calib": 0.4007,
+      "up5_raw": 0.3709,
+      "actual_5d": 1.29
+    },
+    {
+      "rank": 35,
+      "sym": "CHR",
+      "price": 1.97,
+      "up5_calib": 0.3982,
+      "up5_raw": 0.3691,
+      "actual_5d": 40.1
+    },
+    {
+      "rank": 36,
+      "sym": "LITE",
+      "price": 910.81,
+      "up5_calib": 0.3978,
+      "up5_raw": 0.3689,
+      "actual_5d": 12.99
+    },
+    {
+      "rank": 37,
+      "sym": "EOSE",
+      "price": 8.73,
+      "up5_calib": 0.3974,
+      "up5_raw": 0.3685,
+      "actual_5d": 7.9
+    },
+    {
+      "rank": 38,
+      "sym": "CEVA",
+      "price": 41.79,
+      "up5_calib": 0.3964,
+      "up5_raw": 0.3679,
+      "actual_5d": 18.71
+    },
+    {
+      "rank": 39,
+      "sym": "MRVL",
+      "price": 208.26,
+      "up5_calib": 0.3961,
+      "up5_raw": 0.3676,
+      "actual_5d": 39.63
+    },
+    {
+      "rank": 40,
+      "sym": "PLUG",
+      "price": 3.84,
+      "up5_calib": 0.3942,
+      "up5_raw": 0.3662,
+      "actual_5d": 6.51
+    },
+    {
+      "rank": 41,
+      "sym": "LFVN",
+      "price": 6.89,
+      "up5_calib": 0.3937,
+      "up5_raw": 0.3659,
+      "actual_5d": 25.11
+    },
+    {
+      "rank": 42,
+      "sym": "INTC",
+      "price": 123.52,
+      "up5_calib": 0.3932,
+      "up5_raw": 0.3655,
+      "actual_5d": -12.62
+    },
+    {
+      "rank": 43,
+      "sym": "CRWD",
+      "price": 671.55,
+      "up5_calib": 0.3928,
+      "up5_raw": 0.3653,
+      "actual_5d": 14.5
+    },
+    {
+      "rank": 44,
+      "sym": "PSIX",
+      "price": 42.99,
+      "up5_calib": 0.3926,
+      "up5_raw": 0.3651,
+      "actual_5d": -5.58
+    },
+    {
+      "rank": 45,
+      "sym": "MEI",
+      "price": 11.67,
+      "up5_calib": 0.3922,
+      "up5_raw": 0.3648,
+      "actual_5d": 7.11
+    },
+    {
+      "rank": 46,
+      "sym": "TROX",
+      "price": 7.65,
+      "up5_calib": 0.3917,
+      "up5_raw": 0.3644,
+      "actual_5d": 11.37
+    },
+    {
+      "rank": 47,
+      "sym": "GPGI",
+      "price": 12.6,
+      "up5_calib": 0.3904,
+      "up5_raw": 0.3635,
+      "actual_5d": -5.24
+    },
+    {
+      "rank": 48,
+      "sym": "QUIK",
+      "price": 22.75,
+      "up5_calib": 0.3894,
+      "up5_raw": 0.3628,
+      "actual_5d": -4.18
+    },
+    {
+      "rank": 49,
+      "sym": "SEDG",
+      "price": 70.75,
+      "up5_calib": 0.3879,
+      "up5_raw": 0.3617,
+      "actual_5d": 10.97
+    },
+    {
+      "rank": 50,
+      "sym": "XCUR",
+      "price": 2.67,
+      "up5_calib": 0.3853,
+      "up5_raw": 0.3598,
+      "actual_5d": 16.48
+    }
+  ]
+}

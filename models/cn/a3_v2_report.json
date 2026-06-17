@@ -1,0 +1,238 @@
+{
+  "model": "A3_v2",
+  "n_features": 41,
+  "n_market": 8,
+  "n_stocks": 1000,
+  "params": {
+    "hold_days": 10,
+    "top_k": 20,
+    "sl_pct": -15.0
+  },
+  "v1_feature_importance_top15": [
+    [
+      "ret_10d",
+      31649.7
+    ],
+    [
+      "ma5_ma10_cross",
+      25205.4
+    ],
+    [
+      "kdj_j",
+      23497.3
+    ],
+    [
+      "bb_width",
+      22032.8
+    ],
+    [
+      "vol_breakout",
+      20569.1
+    ],
+    [
+      "kdj_k",
+      19083.6
+    ],
+    [
+      "ret_20d",
+      18975.8
+    ],
+    [
+      "ma20_slope",
+      17878.8
+    ],
+    [
+      "vol_ratio_5_20",
+      16005.2
+    ],
+    [
+      "ma60_slope",
+      15796.2
+    ],
+    [
+      "kdj_d",
+      15573.8
+    ],
+    [
+      "pct_ma10",
+      15434.3
+    ],
+    [
+      "atr20_pct",
+      14160.9
+    ],
+    [
+      "ret3_vs_ema12",
+      13651.8
+    ],
+    [
+      "pct_ma20",
+      13551.2
+    ]
+  ],
+  "v2_feature_importance_top20": [
+    [
+      "mkt_vol_20d",
+      6961.9
+    ],
+    [
+      "mkt_regime",
+      6218.4
+    ],
+    [
+      "mkt_rsi14",
+      5808.6
+    ],
+    [
+      "mkt_ret_20d",
+      5162.7
+    ],
+    [
+      "mkt_ret_5d",
+      4854.8
+    ],
+    [
+      "mkt_vol_ratio",
+      4766.6
+    ],
+    [
+      "mkt_ma60_trend",
+      4228.0
+    ],
+    [
+      "mkt_ma20_trend",
+      3456.1
+    ],
+    [
+      "macd_dif",
+      3241.1
+    ],
+    [
+      "ret3_vs_ema12",
+      2725.8
+    ],
+    [
+      "ret_60d",
+      2438.1
+    ],
+    [
+      "ret_5d",
+      2428.5
+    ],
+    [
+      "macd_dea",
+      2205.7
+    ],
+    [
+      "ret_10d",
+      2169.7
+    ],
+    [
+      "bb_position",
+      2152.2
+    ],
+    [
+      "pct_ma120",
+      2108.0
+    ],
+    [
+      "rsi14",
+      2098.9
+    ],
+    [
+      "pct_ma20",
+      2053.3
+    ],
+    [
+      "ma5_ma10_cross",
+      1980.2
+    ],
+    [
+      "bb_width",
+      1948.4
+    ]
+  ],
+  "market_features_in_top20": 8,
+  "walk_forward_v1": [
+    {
+      "fold": "fold1",
+      "train_end": "20171231",
+      "n_days": 2037,
+      "avg_ret": 0.75,
+      "win_rate": 47.1
+    },
+    {
+      "fold": "fold2",
+      "train_end": "20181231",
+      "n_days": 1794,
+      "avg_ret": 1.09,
+      "win_rate": 47.7
+    },
+    {
+      "fold": "fold3",
+      "train_end": "20201231",
+      "n_days": 1307,
+      "avg_ret": 1.0,
+      "win_rate": 46.4
+    },
+    {
+      "fold": "fold4",
+      "train_end": "20221231",
+      "n_days": 822,
+      "avg_ret": 1.16,
+      "win_rate": 46.8
+    },
+    {
+      "fold": "fold5",
+      "train_end": "20240831",
+      "n_days": 418,
+      "avg_ret": 1.98,
+      "win_rate": 50.2
+    }
+  ],
+  "walk_forward_v2": [
+    {
+      "fold": "fold1",
+      "train_end": "20171231",
+      "n_days": 2037,
+      "avg_ret": 0.56,
+      "win_rate": 46.2
+    },
+    {
+      "fold": "fold2",
+      "train_end": "20181231",
+      "n_days": 1794,
+      "avg_ret": 0.91,
+      "win_rate": 46.9
+    },
+    {
+      "fold": "fold3",
+      "train_end": "20201231",
+      "n_days": 1307,
+      "avg_ret": 0.79,
+      "win_rate": 45.7
+    },
+    {
+      "fold": "fold4",
+      "train_end": "20221231",
+      "n_days": 822,
+      "avg_ret": 0.97,
+      "win_rate": 46.9
+    },
+    {
+      "fold": "fold5",
+      "train_end": "20240831",
+      "n_days": 418,
+      "avg_ret": 2.08,
+      "win_rate": 50.3
+    }
+  ],
+  "summary": {
+    "v1_avg_ret": 1.2,
+    "v2_avg_ret": 1.06,
+    "v1_win_rate": 47.6,
+    "v2_win_rate": 47.2,
+    "v1_no_boom": 1.0,
+    "v2_no_boom": 0.81
+  }
+}

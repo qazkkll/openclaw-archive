@@ -1,0 +1,83 @@
+{
+  "auto_sync": {
+    "source": "data/portfolio.json",
+    "last_sync": "2026-05-23 02:30"
+  },
+  "categories": [
+    {
+      "name": "📦 持仓动态",
+      "rss_query": "NVDA OR Nvidia 英伟达 OR ORCL OR Oracle 甲骨文 OR ZS OR Zscaler stock",
+      "hl": "zh-CN",
+      "gl": "HK",
+      "score_threshold": 50,
+      "auto_update": true
+    },
+    {
+      "name": "💰 宏观财经",
+      "rss_query": "Federal Reserve OR Fed OR interest rate OR inflation OR 美联储 OR 利率 OR 通胀",
+      "hl": "zh-CN",
+      "gl": "HK",
+      "score_threshold": 65
+    },
+    {
+      "name": "🌍 地缘政治",
+      "rss_query": "tariff OR trade war OR sanctions OR 关税 OR 制裁",
+      "hl": "zh-CN",
+      "gl": "HK",
+      "score_threshold": 70
+    },
+    {
+      "name": "📈 美股科技",
+      "rss_query": "semiconductor OR AI OR chip stock OR tech stock",
+      "hl": "zh-CN",
+      "gl": "HK",
+      "score_threshold": 70
+    },
+    {
+      "name": "⚽ 足球",
+      "rss_query": "Premier League OR Champions League OR 英超 OR 欧冠",
+      "hl": "en-US",
+      "gl": "US",
+      "score_threshold": 75
+    },
+    {
+      "name": "🎮 CS",
+      "rss_query": "Counter-Strike OR CS2 OR ESL OR Major",
+      "hl": "en-US",
+      "gl": "US",
+      "score_threshold": 80
+    }
+  ],
+  "priority_keywords": {
+    "holdings": [
+      "NVDA",
+      "ORCL",
+      "ZS"
+    ],
+    "earnings": [
+      "earnings",
+      "财报",
+      "EPS",
+      "revenue"
+    ],
+    "movers": [
+      "upgrade",
+      "downgrade",
+      "target price",
+      "buyback"
+    ],
+    "risk": [
+      "crash",
+      "SEC",
+      "layoffs",
+      "裁员"
+    ]
+  },
+  "rate_limit": {
+    "cooldown_minutes": 60,
+    "max_per_day": 15,
+    "quiet_hours": [
+      "23:00-08:00"
+    ]
+  }
+}

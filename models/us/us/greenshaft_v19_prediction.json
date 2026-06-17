@@ -1,0 +1,266 @@
+{
+  "timestamp": "2026-06-11 08:48:17",
+  "model": "greenshaft_v19_final",
+  "calibrated": true,
+  "data_date": "2026-06-08",
+  "data_source": "us_ml_feats_v3_dated.parquet",
+  "summary": {
+    "d5_T10 (每5天调仓, Top10)": {
+      "avg_calib_prob": 0.5113,
+      "avg_raw_prob": 0.4479,
+      "count": 10
+    },
+    "d10_T15 ★甜点 (每10天调仓, Top15)": {
+      "avg_calib_prob": 0.4937,
+      "avg_raw_prob": 0.4358,
+      "count": 15
+    },
+    "d10_T20 (每10天调仓, Top20)": {
+      "avg_calib_prob": 0.4819,
+      "avg_raw_prob": 0.4276,
+      "count": 20
+    }
+  },
+  "predictions": [
+    {
+      "rank": 1,
+      "sym": "QCOM",
+      "price": 248.82,
+      "up5_calib": 0.5911,
+      "up5_raw": 0.5034,
+      "sector": "Technology"
+    },
+    {
+      "rank": 2,
+      "sym": "NOK",
+      "price": 16.46,
+      "up5_calib": 0.5429,
+      "up5_raw": 0.4696,
+      "sector": "Technology"
+    },
+    {
+      "rank": 3,
+      "sym": "SDOT",
+      "price": 2.88,
+      "up5_calib": 0.5269,
+      "up5_raw": 0.4586,
+      "sector": "Consumer Defensive"
+    },
+    {
+      "rank": 4,
+      "sym": "PENG",
+      "price": 54.95,
+      "up5_calib": 0.5232,
+      "up5_raw": 0.456,
+      "sector": "Technology"
+    },
+    {
+      "rank": 5,
+      "sym": "RTB",
+      "price": 3.7,
+      "up5_calib": 0.5131,
+      "up5_raw": 0.4491,
+      "sector": "Technology"
+    },
+    {
+      "rank": 6,
+      "sym": "ENPH",
+      "price": 66.9,
+      "up5_calib": 0.4884,
+      "up5_raw": 0.4321,
+      "sector": "Technology"
+    },
+    {
+      "rank": 7,
+      "sym": "SNSE",
+      "price": 16.47,
+      "up5_calib": 0.4876,
+      "up5_raw": 0.4315,
+      "sector": "Healthcare"
+    },
+    {
+      "rank": 8,
+      "sym": "INOD",
+      "price": 95.91,
+      "up5_calib": 0.4837,
+      "up5_raw": 0.4289,
+      "sector": "Technology"
+    },
+    {
+      "rank": 9,
+      "sym": "FLEX",
+      "price": 143.24,
+      "up5_calib": 0.4818,
+      "up5_raw": 0.4276,
+      "sector": "Technology"
+    },
+    {
+      "rank": 10,
+      "sym": "STX",
+      "price": 845.76,
+      "up5_calib": 0.4742,
+      "up5_raw": 0.4223,
+      "sector": "Technology"
+    },
+    {
+      "rank": 11,
+      "sym": "OSS",
+      "price": 17.44,
+      "up5_calib": 0.4638,
+      "up5_raw": 0.4151,
+      "sector": "Technology"
+    },
+    {
+      "rank": 12,
+      "sym": "ALM",
+      "price": 19.77,
+      "up5_calib": 0.458,
+      "up5_raw": 0.4112,
+      "sector": "Basic Materials"
+    },
+    {
+      "rank": 13,
+      "sym": "BAND",
+      "price": 61.18,
+      "up5_calib": 0.4576,
+      "up5_raw": 0.4109,
+      "sector": "Technology"
+    },
+    {
+      "rank": 14,
+      "sym": "KEEL",
+      "price": 5.13,
+      "up5_calib": 0.4569,
+      "up5_raw": 0.4104,
+      "sector": "Technology"
+    },
+    {
+      "rank": 15,
+      "sym": "FROG",
+      "price": 73.01,
+      "up5_calib": 0.4568,
+      "up5_raw": 0.4103,
+      "sector": "Technology"
+    },
+    {
+      "rank": 16,
+      "sym": "EXTR",
+      "price": 27.02,
+      "up5_calib": 0.4526,
+      "up5_raw": 0.4074,
+      "sector": "Technology"
+    },
+    {
+      "rank": 17,
+      "sym": "FLNT",
+      "price": 2.39,
+      "up5_calib": 0.4504,
+      "up5_raw": 0.4059,
+      "sector": "Communication Services"
+    },
+    {
+      "rank": 18,
+      "sym": "AMD",
+      "price": 503.89,
+      "up5_calib": 0.4441,
+      "up5_raw": 0.4015,
+      "sector": "Technology"
+    },
+    {
+      "rank": 19,
+      "sym": "MXL",
+      "price": 96.12,
+      "up5_calib": 0.4439,
+      "up5_raw": 0.4013,
+      "sector": "Technology"
+    },
+    {
+      "rank": 20,
+      "sym": "NGEN",
+      "price": 2.13,
+      "up5_calib": 0.4405,
+      "up5_raw": 0.399,
+      "sector": "Healthcare"
+    },
+    {
+      "rank": 21,
+      "sym": "VSH",
+      "price": 50.37,
+      "up5_calib": 0.4382,
+      "up5_raw": 0.3974,
+      "sector": "Technology"
+    },
+    {
+      "rank": 22,
+      "sym": "PLUR",
+      "price": 2.31,
+      "up5_calib": 0.4361,
+      "up5_raw": 0.3959,
+      "sector": "Healthcare"
+    },
+    {
+      "rank": 23,
+      "sym": "SDST",
+      "price": 2.27,
+      "up5_calib": 0.4297,
+      "up5_raw": 0.3914,
+      "sector": "Industrials"
+    },
+    {
+      "rank": 24,
+      "sym": "AMC",
+      "price": 1.59,
+      "up5_calib": 0.4292,
+      "up5_raw": 0.3911,
+      "sector": "Communication Services"
+    },
+    {
+      "rank": 25,
+      "sym": "ASTS",
+      "price": 119.7,
+      "up5_calib": 0.4278,
+      "up5_raw": 0.3901,
+      "sector": "Technology"
+    },
+    {
+      "rank": 26,
+      "sym": "STM",
+      "price": 70.69,
+      "up5_calib": 0.4248,
+      "up5_raw": 0.388,
+      "sector": "Technology"
+    },
+    {
+      "rank": 27,
+      "sym": "LESL",
+      "price": 3.46,
+      "up5_calib": 0.4237,
+      "up5_raw": 0.3872,
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "rank": 28,
+      "sym": "PIII",
+      "price": 12.99,
+      "up5_calib": 0.4235,
+      "up5_raw": 0.3871,
+      "sector": "Healthcare"
+    },
+    {
+      "rank": 29,
+      "sym": "STRL",
+      "price": 783.53,
+      "up5_calib": 0.4227,
+      "up5_raw": 0.3865,
+      "sector": "Industrials"
+    },
+    {
+      "rank": 30,
+      "sym": "CC",
+      "price": 22.1,
+      "up5_calib": 0.4218,
+      "up5_raw": 0.3859,
+      "sector": "Basic Materials"
+    }
+  ]
+}

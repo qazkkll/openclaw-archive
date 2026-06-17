@@ -1,0 +1,149 @@
+{
+  "_comment": "🍤 策略参数 — 改这里就行，不用改代码",
+  "version": "2026-05-25",
+  "defensive_allocation": {
+    "_comment": "无买入信号时的防守配置（空仓=亏钱，钱必须工作）",
+    "default_ratio": "70%防守ETF + 30%现金备用",
+    "assets": [
+      {
+        "code": "512800",
+        "name": "银行ETF",
+        "type": "ETF",
+        "reason": "银行板块防守+分红，建设银行同逻辑"
+      },
+      {
+        "code": "518880",
+        "name": "黄金ETF",
+        "type": "ETF",
+        "reason": "避险+抗通胀，市场下跌时对冲"
+      },
+      {
+        "code": "511010",
+        "name": "国债ETF",
+        "type": "ETF",
+        "reason": "最安全防守，收益虽低但稳"
+      },
+      {
+        "code": "601939",
+        "name": "建设银行",
+        "type": "个股",
+        "reason": "已持仓，可加仓"
+      }
+    ],
+    "suggested": [
+      {"asset": "512800 银行ETF", "pct": 40, "note": "银行防守+分红"},
+      {"asset": "518880 黄金ETF", "pct": 30, "note": "避险对冲"},
+      {"asset": "预留现金", "pct": 30, "note": "等机会"}
+    ]
+  },
+  "a_stock": {
+    "name": "小火轮 v4 直选",
+    "scoring": "V1原始",
+    "buy_threshold": 62,
+    "sell_threshold": 50,
+    "watch_upper": 61,
+    "watch_lower": 50,
+    "min_holding_days": 5,
+    "max_positions": 8,
+    "position_weight": 0.125,
+    "rebalance_days": 7,
+    "stop_loss_pct": -8,
+    "kline_days": 120,
+    "min_kline_days": 60,
+    "index_code": "000001"
+  },
+  "us_stock": {
+    "name": "V4.2 比例扣分",
+    "scoring": "V4.2",
+    "momentum_days": 30,
+    "deduct_start": 40,
+    "deduct_coeff": 0.7,
+    "max_momentum_days": 30,
+    "top_n": 5,
+    "holding_days": 20,
+    "us_index": "SPY",
+    "us_index_ma": 200,
+    "bull_mode": "动量排序不评分",
+    "bear_mode": "V2逆向防守"
+  },
+  "trading_rules": {
+    "hard_stop_loss_pct": -8,
+    "soft_stop": "MA20",
+    "position_limit_pct": 25,
+    "max_single_loss_pct": -50
+  },
+  "fundamental_filter": {
+    "min_mv_亿": 30,
+    "max_mv_亿": 1000,
+    "min_turnover_pct": 1,
+    "min_pe": 8,
+    "max_pe": 80,
+    "min_price": 3,
+    "note": "激进型短线风格：市值30-1000亿+换手率>1%+PE8-80+股价>¥3"
+  },
+  "fundamental_filter_note": "市值单位:万元, PE单位:倍, 换手率单位:%",
+  "quality_pool": {
+    "daily_scan_top": 1500,
+    "total_qualified": 5074,
+    "min_mv_亿": 15,
+    "min_turnover_pct": 0.3,
+    "min_price": 2,
+    "pe_filter": "无(不限制高PE)",
+    "ranking": "活跃度: 换手率×0.7 + 量比×0.3",
+    "note": "只去掉ST、僵尸股、超小市值。高PE和亏损股保留。"
+  },
+  "strategy": {
+    "quality_pool": {
+      "refresh_cron": "0 17 * * 1-5",
+      "refresh_note": "收盘后Tushare daily_basic已更新",
+      "daily_scan_top": 100,
+      "filters": {
+        "min_mv_亿": 15,
+        "min_turnover_pct": 0.3,
+        "min_price": 2,
+        "exclude_st": true,
+        "pe_filter": "不限制"
+      },
+      "activity_ranking": "换手率×0.7 + 量比×0.3",
+      "scan_scope": "主板+创业板+科创板"
+    },
+
+    "daily_schedule": {
+      "08:15": {
+        "task": "晨扫主板Top 100",
+        "script": "morning_scan.py",
+        "output": "评分报告 → 推TG",
+        "note": "非主板不扫，除非Andy说要"
+      },
+      "09:30-15:00": {
+        "task": "盘中监控（仅持仓+Top20）",
+        "interval": "每30分钟",
+        "data": "腾讯实时行情",
+        "trigger": "异动>±3%才推"
+      },
+      "15:30": {
+        "task": "收盘复盘",
+        "script": "A_收盘复盘(cron)",
+        "output": "持仓评分变化 + 资金流向"
+      },
+      "17:00": {
+        "task": "质量池刷新",
+        "script": "refresh_pool.py",
+        "data": "Tushare daily_basic"
+      }
+    },
+    "data_sources": {
+      "realtime_price": {
+        "source": "腾讯行情 qt.gtimg.cn",
+        "status": "✅ 已实现",
+        "cost": "免费"
+      },
+      "money_flow": {
+        "source": "Tushare moneyflow",
+        "status": "🟡 待接入",
+        "cost": "已有积分(15000)",
+        "note": "可拉大单/小单资金流向"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "final_value": 675828.71,
+  "total_return_pct": 575.83,
+  "cagr_pct": 129.38,
+  "sharpe": 1.57,
+  "max_drawdown_pct": -53.22,
+  "test_dates": 580,
+  "config": {
+    "top_k": 10,
+    "stop_loss": -0.15,
+    "rebalance": 5,
+    "max_hold": 60
+  },
+  "timestamp": "2026-06-14 16:00"
+}

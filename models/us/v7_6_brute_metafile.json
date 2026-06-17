@@ -1,0 +1,14 @@
+{
+  "version": "V7.6_暴力版",
+  "params": {"T":7,"H":10,"S":20,"R":5},
+  "filter": "$5过滤版(价≥$5+成交额≥$5M)",
+  "pool_size": 1602,
+  "model": "D:/openclaw/data/models/us_v7_5.json",
+  "backtest_results": "D:/openclaw/data/models/greenarrow_extreme_p1_v2.json",
+  "xval": "D:/openclaw/data/models/greenarrow_extreme_xval.json",
+  "sell_signal_test": "D:/openclaw/data/models/greenarrow_extreme_sell_signals.json",
+  "10y_bt": "D:/openclaw/data/models/greenarrow_10y_backtest.json",
+  "note": "暴力版(牛市放大器), 非穿越周期策略. 夏普0.64(10年)/回撤-97.4%",
+  "archived_at": "2026-06-11",
+  "status": "archived"
+}

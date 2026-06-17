@@ -1,0 +1,170 @@
+{
+  "model": "us_v7_5_g2",
+  "model_path": "D:/openclaw/data/models/us_v7_5_g2.json",
+  "params": {
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "max_depth": 8,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "scale_pos_weight": 2.0518528200182082,
+    "min_child_weight": 3,
+    "gamma": 0.2,
+    "reg_alpha": 0.5,
+    "reg_lambda": 3,
+    "tree_method": "gpu_hist",
+    "random_state": 42,
+    "n_estimators": 2000,
+    "early_stopping_rounds": 100
+  },
+  "features": [
+    "ma5",
+    "ma10",
+    "ma20",
+    "ma30",
+    "ma60",
+    "ma5_ratio",
+    "ma20_ratio",
+    "ma60_ratio",
+    "vol5",
+    "vol20",
+    "vol_ratio",
+    "ema12",
+    "ema26",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "rsi14",
+    "k",
+    "d",
+    "j",
+    "bb_upper",
+    "bb_lower",
+    "bb_width",
+    "bb_position",
+    "vol_ratio_ma5",
+    "vol_ratio_ma20",
+    "adx",
+    "plus_di",
+    "minus_di",
+    "price_position",
+    "price_position_60",
+    "cmf",
+    "spy_ret1",
+    "spy_ret5",
+    "spy_ret20",
+    "spy_ret60",
+    "qqq_ret1",
+    "qqq_ret5",
+    "qqq_ret20",
+    "qqq_ret60",
+    "iwm_ret1",
+    "iwm_ret5",
+    "iwm_ret20",
+    "iwm_ret60",
+    "vix_close",
+    "pe_trailing",
+    "pe_forward",
+    "div_yield",
+    "beta",
+    "sector_etf_ret5",
+    "sc",
+    "close_log",
+    "close_x_vol_ratio",
+    "plus_di_x_low_vol",
+    "adx_x_rsi"
+  ],
+  "num_features": 55,
+  "val_auc": 0.6609417491891508,
+  "test_auc": 0.5023180812476513,
+  "best_iteration": 272,
+  "train_samples": 5417112,
+  "val_samples": 49444,
+  "test_samples": 19720,
+  "pos_weight": 2.0518528200182082,
+  "top20_features": [
+    [
+      "bb_width",
+      676.3051147460938
+    ],
+    [
+      "vix_close",
+      404.93109130859375
+    ],
+    [
+      "sector_etf_ret5",
+      393.388916015625
+    ],
+    [
+      "spy_ret60",
+      366.0069885253906
+    ],
+    [
+      "iwm_ret5",
+      330.3195495605469
+    ],
+    [
+      "qqq_ret60",
+      328.0306396484375
+    ],
+    [
+      "spy_ret20",
+      310.17254638671875
+    ],
+    [
+      "iwm_ret60",
+      304.2882385253906
+    ],
+    [
+      "qqq_ret20",
+      302.1799011230469
+    ],
+    [
+      "iwm_ret20",
+      282.3951416015625
+    ],
+    [
+      "qqq_ret1",
+      282.2770690917969
+    ],
+    [
+      "iwm_ret1",
+      265.6700439453125
+    ],
+    [
+      "qqq_ret5",
+      261.5722351074219
+    ],
+    [
+      "spy_ret1",
+      249.79759216308594
+    ],
+    [
+      "spy_ret5",
+      242.5037078857422
+    ],
+    [
+      "ma5_ratio",
+      115.23097229003906
+    ],
+    [
+      "div_yield",
+      110.09380340576172
+    ],
+    [
+      "bb_lower",
+      106.86753845214844
+    ],
+    [
+      "close_log",
+      96.53788757324219
+    ],
+    [
+      "adx_x_rsi",
+      95.19491577148438
+    ]
+  ],
+  "training_time": 38.444934368133545,
+  "date_trained": "2026-06-12 01:44:57"
+}

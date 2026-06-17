@@ -1,0 +1,17 @@
+{
+  "period": "2023-2025",
+  "a1": {
+    "trades": 2903,
+    "win_rate": 0.4223,
+    "annual_return": 0.0127,
+    "max_drawdown": 1.0,
+    "sharpe": 0.0269
+  },
+  "xgb": {
+    "trades": 2905,
+    "win_rate": 0.3429,
+    "annual_return": -0.0699,
+    "max_drawdown": 1.0,
+    "sharpe": -0.1146
+  }
+}

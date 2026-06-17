@@ -1,0 +1,16 @@
+{
+  "model": "blueshield_v2d",
+  "strategy": "trend_ML_sector_diversified_stop8pct",
+  "backtest": {
+    "final_equity": 219483.6149542404,
+    "total_return": 1.1948361495424038,
+    "annual_return": 16.654680400791392,
+    "sharpe": 32.052930807909476,
+    "max_drawdown": -0.10048114269156483,
+    "avg_positions": 10.0,
+    "n_days": 69,
+    "v2_benchmark": "annual_49.7_sharpe_1.85_dd_31.7",
+    "v55_target": "annual_21.2_sharpe_3.87"
+  },
+  "date": "2026-06-11 15:49"
+}

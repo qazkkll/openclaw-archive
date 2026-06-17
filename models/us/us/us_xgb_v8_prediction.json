@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-06-09T15:49:32.879163+08:00",
+  "model": "us_xgb_v8_regressor",
+  "wf_sharpe": 0.7589,
+  "wf_win_rate": 0.4799,
+  "final_sharpe": 0.5253,
+  "final_win_rate": 0.4648,
+  "final_mae": 2.23,
+  "predictions": [
+    {
+      "rank": 1,
+      "sym": "BNZI",
+      "price": 3.52,
+      "predicted_ret": 0.22150307893753052,
+      "predicted_ret_pct": 

@@ -1,0 +1,47 @@
+{
+  "_comment": "数据源切换配置 — 改 primary 即可全局切换",
+  "a_share_kline": {
+    "primary": "baostock",
+    "secondary": "baostock",
+    "sources": {
+      "sina": {
+        "name": "新浪财经",
+        "url": "https://quotes.sina.cn/cn/api/json_v2.php/CN_MarketData.getKLineData",
+        "note": "免费，日K线最多120天，速度快(~0.2s)，但盘前可能滞后"
+      },
+      "baostock": {
+        "name": "Baostock",
+        "url": "http://baostock.com",
+        "note": "免费开源，数据准确，从HK服务器可达，速度~0.3s/只"
+      },
+      "tushare": {
+        "name": "Tushare Pro (直接API)",
+        "url": "http://api.tushare.pro",
+        "token": "ca0ba9b80be379ea2f9ae466772d42bd270ac71b95ab6d116fa094db",
+        "note": "Andy账号2000积分，2026-05-30测试通过，全市场5506只一次拉完"
+      }
+    }
+  },
+  "a_share_realtime": {
+    "primary": "tencent",
+    "sources": {
+      "tencent": {
+        "name": "腾讯行情",
+        "url": "http://qt.gtimg.cn/q=",
+        "note": "免费实时，速度快"
+      }
+    }
+  },
+  "us_stock_kline": {
+    "primary": "minishare",
+    "secondary": "yfinance",
+    "token": "Jarvne6fmgArRa46Xfon0e1kw55E6hes5IB2Fy2X0ndqnvrL48jsVOtTbf014f06",
+    "note": "实时美股行情，通过minishare SDK"
+  },
+  "us_news": {
+    "primary": "minishare",
+    "secondary": "finnhub",
+    "token": "Jarvne6fmgArRa46Xfon0e1kw55E6hes5IB2Fy2X0ndqnvrL48jsVOtTbf014f06"
+  },
+  "_last_switch_reason": "2026-06-01 11:00 切baostock主源, 去掉tushare 200次/分钟限流, 支持16线程全速跑"
+}

@@ -1,0 +1,177 @@
+{
+  "model": "greenshaft_v5.1",
+  "filter": ">=5USD",
+  "n_trades": 20,
+  "n_windows": 11,
+  "annual_return_pct": 7129.04,
+  "sharpe_ratio": 1.84,
+  "max_drawdown_pct": 40.42,
+  "calmar_ratio": 176.36,
+  "avg_trade_ret_pct": 11.34,
+  "std_trade_ret_pct": 40.36,
+  "win_rate_5pct": 55.0,
+  "win_rate_any": 60.0,
+  "win_rate_peak": 85.0,
+  "trades": [
+    {
+      "date": "2025-10-29",
+      "ticker": "PTN",
+      "ret_5d": 0.1017,
+      "entry": 5.9,
+      "exit": 6.5,
+      "peak_ret": 0.1322
+    },
+    {
+      "date": "2025-10-29",
+      "ticker": "PSNL",
+      "ret_5d": -0.1979,
+      "entry": 9.55,
+      "exit": 7.66,
+      "peak_ret": 0.0534
+    },
+    {
+      "date": "2025-11-12",
+      "ticker": "AGPU",
+      "ret_5d": -0.0772,
+      "entry": 6.74,
+      "exit": 6.22,
+      "peak_ret": 0.2254
+    },
+    {
+      "date": "2025-11-12",
+      "ticker": "FBRX",
+      "ret_5d": 0.2939,
+      "entry": 14.46,
+      "exit": 18.71,
+      "peak_ret": 0.3845
+    },
+    {
+      "date": "2025-11-26",
+      "ticker": "FGNX",
+      "ret_5d": 0.0694,
+      "entry": 14.4,
+      "exit": 15.4,
+      "peak_ret": 0.1632
+    },
+    {
+      "date": "2025-12-26",
+      "ticker": "AQMS",
+      "ret_5d": 0.1794,
+      "entry": 4.85,
+      "exit": 5.72,
+      "peak_ret": 0.1959
+    },
+    {
+      "date": "2025-12-26",
+      "ticker": "ASTS",
+      "ret_5d": 0.2637,
+      "entry": 71.95,
+      "exit": 90.92,
+      "peak_ret": 0.2849
+    },
+    {
+      "date": "2026-01-12",
+      "ticker": "KXIN",
+      "ret_5d": 0.3317,
+      "entry": 123.9,
+      "exit": 165.0,
+      "peak_ret": 0.3499
+    },
+    {
+      "date": "2026-01-27",
+      "ticker": "JAGX",
+      "ret_5d": -0.1418,
+      "entry": 24.67,
+      "exit": 21.17,
+      "peak_ret": 0.0369
+    },
+    {
+      "date": "2026-01-27",
+      "ticker": "PRCH",
+      "ret_5d": -0.1148,
+      "entry": 7.93,
+      "exit": 7.02,
+      "peak_ret": 0.0311
+    },
+    {
+      "date": "2026-01-27",
+      "ticker": "LPCN",
+      "ret_5d": -0.1956,
+      "entry": 10.38,
+      "exit": 8.35,
+      "peak_ret": 0.0698
+    },
+    {
+      "date": "2026-02-10",
+      "ticker": "BCAB",
+      "ret_5d": -0.2985,
+      "entry": 10.05,
+      "exit": 7.05,
+      "peak_ret": 0.0597
+    },
+    {
+      "date": "2026-03-11",
+      "ticker": "QURE",
+      "ret_5d": -0.1612,
+      "entry": 17.56,
+      "exit": 14.73,
+      "peak_ret": 0.0809
+    },
+    {
+      "date": "2026-03-11",
+      "ticker": "BNAI",
+      "ret_5d": 0.2099,
+      "entry": 35.93,
+      "exit": 43.47,
+      "peak_ret": 0.2689
+    },
+    {
+      "date": "2026-04-09",
+      "ticker": "DUKR",
+      "ret_5d": -0.0527,
+      "entry": 10.24,
+      "exit": 9.7,
+      "peak_ret": 0.0
+    },
+    {
+      "date": "2026-04-09",
+      "ticker": "PSIX",
+      "ret_5d": 0.0959,
+      "entry": 75.25,
+      "exit": 82.47,
+      "peak_ret": 0.1718
+    },
+    {
+      "date": "2026-04-09",
+      "ticker": "KXIN",
+      "ret_5d": 0.0856,
+      "entry": 5.84,
+      "exit": 6.34,
+      "peak_ret": 0.2192
+    },
+    {
+      "date": "2026-04-09",
+      "ticker": "AEHR",
+      "ret_5d": 0.1741,
+      "entry": 68.86,
+      "exit": 80.85,
+      "peak_ret": 0.3278
+    },
+    {
+      "date": "2026-04-23",
+      "ticker": "EDSA",
+      "ret_5d": 1.6962,
+      "entry": 6.78,
+      "exit": 18.28,
+      "peak_ret": 1.7611
+    },
+    {
+      "date": "2026-05-07",
+      "ticker": "LWLG",
+      "ret_5d": 0.0067,
+      "entry": 14.83,
+      "exit": 14.93,
+      "peak_ret": 0.2616
+    }
+  ]
+}

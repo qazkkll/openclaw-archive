@@ -1,0 +1,1191 @@
+{
+  "timestamp": "2026-06-11 10:50",
+  "model": "us_v7_4",
+  "range": "2022~2026",
+  "capital": 10000,
+  "combos": 108,
+  "sharpe_top": [
+    {
+      "tag": "T15_H10_S10_R5_AllOut",
+      "tr": 1069.3,
+      "an": 72.6,
+      "sh": 1.99,
+      "mdd": -13.6,
+      "wr": 0.519,
+      "trades": 2982,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S5_R5_AllOut",
+      "tr": 1037.1,
+      "an": 71.6,
+      "sh": 1.97,
+      "mdd": -13.1,
+      "wr": 0.47,
+      "trades": 3032,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S15_R5_AllOut",
+      "tr": 957.2,
+      "an": 68.8,
+      "sh": 1.97,
+      "mdd": -14.6,
+      "wr": 0.533,
+      "trades": 2957,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S15_R10_AllOut",
+      "tr": 1362.5,
+      "an": 81.4,
+      "sh": 1.92,
+      "mdd": -12.2,
+      "wr": 0.539,
+      "trades": 1606,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H10_S15_R5_AllOut",
+      "tr": 1694.6,
+      "an": 89.9,
+      "sh": 1.91,
+      "mdd": -12.8,
+      "wr": 0.537,
+      "trades": 2092,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H10_S10_R5_AllOut",
+      "tr": 1827.8,
+      "an": 92.9,
+      "sh": 1.88,
+      "mdd": -12.6,
+      "wr": 0.524,
+      "trades": 2116,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S10_R10_AllOut",
+      "tr": 1218.4,
+      "an": 77.3,
+      "sh": 1.86,
+      "mdd": -12.2,
+      "wr": 0.524,
+      "trades": 1612,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S15_R5_Half",
+      "tr": 485.3,
+      "an": 48.0,
+      "sh": 1.85,
+      "mdd": -14.7,
+      "wr": 0.526,
+      "trades": 2045,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H10_S5_R5_AllOut",
+      "tr": 1970.7,
+      "an": 96.0,
+      "sh": 1.84,
+      "mdd": -13.2,
+      "wr": 0.471,
+      "trades": 2123,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S10_R5_Half",
+      "tr": 498.4,
+      "an": 48.8,
+      "sh": 1.83,
+      "mdd": -13.8,
+      "wr": 0.516,
+      "trades": 2058,
+      "ctrl": "Half"
+    }
+  ],
+  "all": [
+    {
+      "tag": "T5_H5_S5_R5_No",
+      "tr": 75.3,
+      "an": 13.3,
+      "sh": 0.89,
+      "mdd": -18.1,
+      "wr": 0.458,
+      "trades": 491,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H5_S5_R5_Half",
+      "tr": 245.1,
+      "an": 31.7,
+      "sh": 1.59,
+      "mdd": -18.1,
+      "wr": 0.472,
+      "trades": 744,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H5_S5_R5_AllOut",
+      "tr": 1111.7,
+      "an": 74.0,
+      "sh": 1.5,
+      "mdd": -18.1,
+      "wr": 0.491,
+      "trades": 1126,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H5_S5_R10_No",
+      "tr": 47.0,
+      "an": 8.9,
+      "sh": 0.78,
+      "mdd": -15.8,
+      "wr": 0.409,
+      "trades": 242,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H5_S5_R10_Half",
+      "tr": 162.3,
+      "an": 23.9,
+      "sh": 1.48,
+      "mdd": -15.8,
+      "wr": 0.447,
+      "trades": 369,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H5_S5_R10_AllOut",
+      "tr": 497.0,
+      "an": 48.7,
+      "sh": 1.7,
+      "mdd": -15.8,
+      "wr": 0.477,
+      "trades": 562,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H5_S10_R5_No",
+      "tr": 91.2,
+      "an": 15.5,
+      "sh": 0.98,
+      "mdd": -14.2,
+      "wr": 0.489,
+      "trades": 489,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H5_S10_R5_Half",
+      "tr": 254.4,
+      "an": 32.4,
+      "sh": 1.57,
+      "mdd": -14.2,
+      "wr": 0.499,
+      "trades": 742,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H5_S10_R5_AllOut",
+      "tr": 1166.9,
+      "an": 75.7,
+      "sh": 1.53,
+      "mdd": -14.2,
+      "wr": 0.516,
+      "trades": 1124,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H5_S10_R10_No",
+      "tr": 47.0,
+      "an": 8.9,
+      "sh": 0.77,
+      "mdd": -15.5,
+      "wr": 0.438,
+      "trades": 240,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H5_S10_R10_Half",
+      "tr": 153.9,
+      "an": 23.0,
+      "sh": 1.42,
+      "mdd": -15.5,
+      "wr": 0.471,
+      "trades": 367,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H5_S10_R10_AllOut",
+      "tr": 479.5,
+      "an": 47.7,
+      "sh": 1.65,
+      "mdd": -15.5,
+      "wr": 0.5,
+      "trades": 560,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H5_S15_R5_No",
+      "tr": 79.7,
+      "an": 13.9,
+      "sh": 0.88,
+      "mdd": -15.3,
+      "wr": 0.491,
+      "trades": 489,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H5_S15_R5_Half",
+      "tr": 226.5,
+      "an": 30.0,
+      "sh": 1.47,
+      "mdd": -15.3,
+      "wr": 0.501,
+      "trades": 742,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H5_S15_R5_AllOut",
+      "tr": 1019.8,
+      "an": 71.0,
+      "sh": 1.46,
+      "mdd": -15.3,
+      "wr": 0.519,
+      "trades": 1124,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H5_S15_R10_No",
+      "tr": 44.3,
+      "an": 8.5,
+      "sh": 0.73,
+      "mdd": -16.9,
+      "wr": 0.442,
+      "trades": 240,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H5_S15_R10_Half",
+      "tr": 144.0,
+      "an": 21.9,
+      "sh": 1.37,
+      "mdd": -16.9,
+      "wr": 0.477,
+      "trades": 367,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H5_S15_R10_AllOut",
+      "tr": 453.7,
+      "an": 46.2,
+      "sh": 1.63,
+      "mdd": -16.9,
+      "wr": 0.505,
+      "trades": 560,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H10_S5_R5_No",
+      "tr": 115.0,
+      "an": 18.5,
+      "sh": 1.16,
+      "mdd": -16.5,
+      "wr": 0.455,
+      "trades": 484,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H10_S5_R5_Half",
+      "tr": 947.1,
+      "an": 68.4,
+      "sh": 1.3,
+      "mdd": -16.5,
+      "wr": 0.464,
+      "trades": 735,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H10_S5_R5_AllOut",
+      "tr": 3568.3,
+      "an": 122.5,
+      "sh": 1.58,
+      "mdd": -16.3,
+      "wr": 0.478,
+      "trades": 1116,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H10_S5_R10_No",
+      "tr": 114.8,
+      "an": 18.5,
+      "sh": 1.13,
+      "mdd": -11.9,
+      "wr": 0.434,
+      "trades": 242,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H10_S5_R10_Half",
+      "tr": 852.9,
+      "an": 65.0,
+      "sh": 1.25,
+      "mdd": -11.9,
+      "wr": 0.45,
+      "trades": 369,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H10_S5_R10_AllOut",
+      "tr": 3650.1,
+      "an": 123.6,
+      "sh": 1.41,
+      "mdd": -11.9,
+      "wr": 0.473,
+      "trades": 562,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H10_S10_R5_No",
+      "tr": 130.6,
+      "an": 20.4,
+      "sh": 1.24,
+      "mdd": -16.1,
+      "wr": 0.499,
+      "trades": 481,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H10_S10_R5_Half",
+      "tr": 1050.6,
+      "an": 72.0,
+      "sh": 1.35,
+      "mdd": -16.1,
+      "wr": 0.512,
+      "trades": 731,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H10_S10_R5_AllOut",
+      "tr": 3309.2,
+      "an": 118.9,
+      "sh": 1.55,
+      "mdd": -16.1,
+      "wr": 0.528,
+      "trades": 1111,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H10_S10_R10_No",
+      "tr": 122.0,
+      "an": 19.4,
+      "sh": 1.12,
+      "mdd": -9.7,
+      "wr": 0.471,
+      "trades": 240,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H10_S10_R10_Half",
+      "tr": 859.3,
+      "an": 65.2,
+      "sh": 1.26,
+      "mdd": -9.7,
+      "wr": 0.49,
+      "trades": 367,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H10_S10_R10_AllOut",
+      "tr": 3551.7,
+      "an": 122.3,
+      "sh": 1.43,
+      "mdd": -9.7,
+      "wr": 0.516,
+      "trades": 560,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H10_S15_R5_No",
+      "tr": 120.3,
+      "an": 19.2,
+      "sh": 1.18,
+      "mdd": -17.3,
+      "wr": 0.509,
+      "trades": 479,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H10_S15_R5_Half",
+      "tr": 997.7,
+      "an": 70.2,
+      "sh": 1.31,
+      "mdd": -17.3,
+      "wr": 0.527,
+      "trades": 731,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H10_S15_R5_AllOut",
+      "tr": 2997.7,
+      "an": 114.3,
+      "sh": 1.52,
+      "mdd": -17.3,
+      "wr": 0.535,
+      "trades": 1107,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T5_H10_S15_R10_No",
+      "tr": 119.6,
+      "an": 19.1,
+      "sh": 1.09,
+      "mdd": -11.3,
+      "wr": 0.475,
+      "trades": 240,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T5_H10_S15_R10_Half",
+      "tr": 884.9,
+      "an": 66.2,
+      "sh": 1.27,
+      "mdd": -11.3,
+      "wr": 0.507,
+      "trades": 367,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T5_H10_S15_R10_AllOut",
+      "tr": 3537.1,
+      "an": 122.1,
+      "sh": 1.46,
+      "mdd": -11.3,
+      "wr": 0.532,
+      "trades": 560,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H5_S5_R5_No",
+      "tr": 53.1,
+      "an": 9.9,
+      "sh": 0.69,
+      "mdd": -16.0,
+      "wr": 0.456,
+      "trades": 969,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H5_S5_R5_Half",
+      "tr": 210.9,
+      "an": 28.6,
+      "sh": 1.22,
+      "mdd": -16.0,
+      "wr": 0.479,
+      "trades": 1588,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H5_S5_R5_AllOut",
+      "tr": 645.9,
+      "an": 56.2,
+      "sh": 1.49,
+      "mdd": -16.0,
+      "wr": 0.491,
+      "trades": 2216,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H5_S5_R10_No",
+      "tr": 14.4,
+      "an": 3.0,
+      "sh": 0.33,
+      "mdd": -21.1,
+      "wr": 0.428,
+      "trades": 477,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H5_S5_R10_Half",
+      "tr": 75.7,
+      "an": 13.3,
+      "sh": 1.05,
+      "mdd": -21.1,
+      "wr": 0.467,
+      "trades": 784,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H5_S5_R10_AllOut",
+      "tr": 269.2,
+      "an": 33.6,
+      "sh": 1.52,
+      "mdd": -21.1,
+      "wr": 0.491,
+      "trades": 1109,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H5_S10_R5_No",
+      "tr": 63.1,
+      "an": 11.5,
+      "sh": 0.77,
+      "mdd": -14.9,
+      "wr": 0.482,
+      "trades": 966,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H5_S10_R5_Half",
+      "tr": 231.6,
+      "an": 30.5,
+      "sh": 1.29,
+      "mdd": -14.9,
+      "wr": 0.503,
+      "trades": 1582,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H5_S10_R5_AllOut",
+      "tr": 706.0,
+      "an": 58.9,
+      "sh": 1.54,
+      "mdd": -14.9,
+      "wr": 0.514,
+      "trades": 2210,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H5_S10_R10_No",
+      "tr": 13.5,
+      "an": 2.9,
+      "sh": 0.32,
+      "mdd": -22.0,
+      "wr": 0.447,
+      "trades": 474,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H5_S10_R10_Half",
+      "tr": 74.8,
+      "an": 13.2,
+      "sh": 1.05,
+      "mdd": -22.0,
+      "wr": 0.487,
+      "trades": 780,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H5_S10_R10_AllOut",
+      "tr": 274.2,
+      "an": 34.0,
+      "sh": 1.51,
+      "mdd": -22.0,
+      "wr": 0.511,
+      "trades": 1105,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H5_S15_R5_No",
+      "tr": 58.1,
+      "an": 10.7,
+      "sh": 0.73,
+      "mdd": -16.0,
+      "wr": 0.484,
+      "trades": 965,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H5_S15_R5_Half",
+      "tr": 220.4,
+      "an": 29.5,
+      "sh": 1.25,
+      "mdd": -16.0,
+      "wr": 0.505,
+      "trades": 1579,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H5_S15_R5_AllOut",
+      "tr": 652.3,
+      "an": 56.5,
+      "sh": 1.5,
+      "mdd": -16.0,
+      "wr": 0.516,
+      "trades": 2204,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H5_S15_R10_No",
+      "tr": 13.3,
+      "an": 2.8,
+      "sh": 0.32,
+      "mdd": -22.7,
+      "wr": 0.45,
+      "trades": 473,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H5_S15_R10_Half",
+      "tr": 75.0,
+      "an": 13.2,
+      "sh": 1.04,
+      "mdd": -22.7,
+      "wr": 0.492,
+      "trades": 779,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H5_S15_R10_AllOut",
+      "tr": 279.4,
+      "an": 34.5,
+      "sh": 1.54,
+      "mdd": -22.7,
+      "wr": 0.516,
+      "trades": 1104,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H10_S5_R5_No",
+      "tr": 120.2,
+      "an": 19.2,
+      "sh": 1.17,
+      "mdd": -13.1,
+      "wr": 0.463,
+      "trades": 930,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H10_S5_R5_Half",
+      "tr": 682.5,
+      "an": 57.9,
+      "sh": 1.7,
+      "mdd": -13.3,
+      "wr": 0.471,
+      "trades": 1532,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H10_S5_R5_AllOut",
+      "tr": 1970.7,
+      "an": 96.0,
+      "sh": 1.84,
+      "mdd": -13.2,
+      "wr": 0.471,
+      "trades": 2123,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H10_S5_R10_No",
+      "tr": 102.0,
+      "an": 16.9,
+      "sh": 1.04,
+      "mdd": -11.7,
+      "wr": 0.441,
+      "trades": 476,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H10_S5_R10_Half",
+      "tr": 479.9,
+      "an": 47.7,
+      "sh": 1.56,
+      "mdd": -11.7,
+      "wr": 0.466,
+      "trades": 783,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H10_S5_R10_AllOut",
+      "tr": 1928.5,
+      "an": 95.1,
+      "sh": 1.72,
+      "mdd": -11.6,
+      "wr": 0.479,
+      "trades": 1108,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H10_S10_R5_No",
+      "tr": 137.6,
+      "an": 21.2,
+      "sh": 1.27,
+      "mdd": -12.6,
+      "wr": 0.504,
+      "trades": 927,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H10_S10_R5_Half",
+      "tr": 741.1,
+      "an": 60.5,
+      "sh": 1.77,
+      "mdd": -12.7,
+      "wr": 0.521,
+      "trades": 1529,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H10_S10_R5_AllOut",
+      "tr": 1827.8,
+      "an": 92.9,
+      "sh": 1.88,
+      "mdd": -12.6,
+      "wr": 0.524,
+      "trades": 2116,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H10_S10_R10_No",
+      "tr": 107.5,
+      "an": 17.6,
+      "sh": 1.1,
+      "mdd": -11.7,
+      "wr": 0.482,
+      "trades": 473,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H10_S10_R10_Half",
+      "tr": 496.7,
+      "an": 48.7,
+      "sh": 1.61,
+      "mdd": -11.7,
+      "wr": 0.51,
+      "trades": 780,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H10_S10_R10_AllOut",
+      "tr": 2019.7,
+      "an": 97.0,
+      "sh": 1.77,
+      "mdd": -11.6,
+      "wr": 0.526,
+      "trades": 1104,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H10_S15_R5_No",
+      "tr": 136.0,
+      "an": 21.0,
+      "sh": 1.31,
+      "mdd": -12.8,
+      "wr": 0.519,
+      "trades": 919,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H10_S15_R5_Half",
+      "tr": 698.2,
+      "an": 58.6,
+      "sh": 1.77,
+      "mdd": -12.9,
+      "wr": 0.531,
+      "trades": 1516,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H10_S15_R5_AllOut",
+      "tr": 1694.6,
+      "an": 89.9,
+      "sh": 1.91,
+      "mdd": -12.8,
+      "wr": 0.537,
+      "trades": 2092,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T10_H10_S15_R10_No",
+      "tr": 107.9,
+      "an": 17.6,
+      "sh": 1.08,
+      "mdd": -11.4,
+      "wr": 0.496,
+      "trades": 472,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T10_H10_S15_R10_Half",
+      "tr": 514.4,
+      "an": 49.6,
+      "sh": 1.64,
+      "mdd": -11.4,
+      "wr": 0.529,
+      "trades": 779,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T10_H10_S15_R10_AllOut",
+      "tr": 2091.5,
+      "an": 98.5,
+      "sh": 1.8,
+      "mdd": -11.3,
+      "wr": 0.541,
+      "trades": 1103,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H5_S5_R5_No",
+      "tr": 45.3,
+      "an": 8.7,
+      "sh": 0.65,
+      "mdd": -17.8,
+      "wr": 0.465,
+      "trades": 1416,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H5_S5_R5_Half",
+      "tr": 162.1,
+      "an": 23.9,
+      "sh": 1.21,
+      "mdd": -17.8,
+      "wr": 0.482,
+      "trades": 2208,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H5_S5_R5_AllOut",
+      "tr": 484.1,
+      "an": 48.0,
+      "sh": 1.52,
+      "mdd": -17.8,
+      "wr": 0.491,
+      "trades": 3242,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H5_S5_R10_No",
+      "tr": 5.7,
+      "an": 1.2,
+      "sh": 0.18,
+      "mdd": -24.3,
+      "wr": 0.434,
+      "trades": 691,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H5_S5_R10_Half",
+      "tr": 56.4,
+      "an": 10.4,
+      "sh": 0.9,
+      "mdd": -24.3,
+      "wr": 0.468,
+      "trades": 1091,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H5_S5_R10_AllOut",
+      "tr": 173.3,
+      "an": 25.0,
+      "sh": 1.38,
+      "mdd": -24.3,
+      "wr": 0.486,
+      "trades": 1625,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H5_S10_R5_No",
+      "tr": 52.2,
+      "an": 9.8,
+      "sh": 0.73,
+      "mdd": -17.0,
+      "wr": 0.492,
+      "trades": 1412,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H5_S10_R5_Half",
+      "tr": 181.1,
+      "an": 25.8,
+      "sh": 1.3,
+      "mdd": -17.0,
+      "wr": 0.508,
+      "trades": 2200,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H5_S10_R5_AllOut",
+      "tr": 509.5,
+      "an": 49.4,
+      "sh": 1.57,
+      "mdd": -16.9,
+      "wr": 0.516,
+      "trades": 3220,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H5_S10_R10_No",
+      "tr": 4.9,
+      "an": 1.1,
+      "sh": 0.16,
+      "mdd": -25.4,
+      "wr": 0.456,
+      "trades": 686,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H5_S10_R10_Half",
+      "tr": 57.1,
+      "an": 10.5,
+      "sh": 0.92,
+      "mdd": -25.4,
+      "wr": 0.491,
+      "trades": 1083,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H5_S10_R10_AllOut",
+      "tr": 181.8,
+      "an": 25.9,
+      "sh": 1.39,
+      "mdd": -25.4,
+      "wr": 0.511,
+      "trades": 1615,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H5_S15_R5_No",
+      "tr": 50.8,
+      "an": 9.5,
+      "sh": 0.71,
+      "mdd": -17.8,
+      "wr": 0.495,
+      "trades": 1411,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H5_S15_R5_Half",
+      "tr": 180.2,
+      "an": 25.7,
+      "sh": 1.29,
+      "mdd": -17.8,
+      "wr": 0.512,
+      "trades": 2196,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H5_S15_R5_AllOut",
+      "tr": 495.5,
+      "an": 48.6,
+      "sh": 1.55,
+      "mdd": -17.7,
+      "wr": 0.522,
+      "trades": 3206,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H5_S15_R10_No",
+      "tr": 5.4,
+      "an": 1.2,
+      "sh": 0.17,
+      "mdd": -25.6,
+      "wr": 0.46,
+      "trades": 685,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H5_S15_R10_Half",
+      "tr": 59.2,
+      "an": 10.9,
+      "sh": 0.94,
+      "mdd": -25.6,
+      "wr": 0.496,
+      "trades": 1081,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H5_S15_R10_AllOut",
+      "tr": 192.7,
+      "an": 26.9,
+      "sh": 1.43,
+      "mdd": -25.6,
+      "wr": 0.517,
+      "trades": 1612,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S5_R5_No",
+      "tr": 93.0,
+      "an": 15.7,
+      "sh": 1.07,
+      "mdd": -13.1,
+      "wr": 0.46,
+      "trades": 1324,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H10_S5_R5_Half",
+      "tr": 458.5,
+      "an": 46.5,
+      "sh": 1.76,
+      "mdd": -13.2,
+      "wr": 0.467,
+      "trades": 2066,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H10_S5_R5_AllOut",
+      "tr": 1037.1,
+      "an": 71.6,
+      "sh": 1.97,
+      "mdd": -13.1,
+      "wr": 0.47,
+      "trades": 3032,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S5_R10_No",
+      "tr": 76.9,
+      "an": 13.5,
+      "sh": 0.95,
+      "mdd": -13.0,
+      "wr": 0.442,
+      "trades": 693,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H10_S5_R10_Half",
+      "tr": 337.4,
+      "an": 38.8,
+      "sh": 1.61,
+      "mdd": -13.0,
+      "wr": 0.461,
+      "trades": 1093,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H10_S5_R10_AllOut",
+      "tr": 1116.7,
+      "an": 74.2,
+      "sh": 1.79,
+      "mdd": -12.8,
+      "wr": 0.473,
+      "trades": 1622,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S10_R5_No",
+      "tr": 101.5,
+      "an": 16.8,
+      "sh": 1.16,
+      "mdd": -13.8,
+      "wr": 0.497,
+      "trades": 1305,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H10_S10_R5_Half",
+      "tr": 498.4,
+      "an": 48.8,
+      "sh": 1.83,
+      "mdd": -13.8,
+      "wr": 0.516,
+      "trades": 2058,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H10_S10_R5_AllOut",
+      "tr": 1069.3,
+      "an": 72.6,
+      "sh": 1.99,
+      "mdd": -13.6,
+      "wr": 0.519,
+      "trades": 2982,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S10_R10_No",
+      "tr": 83.5,
+      "an": 14.4,
+      "sh": 1.04,
+      "mdd": -12.4,
+      "wr": 0.49,
+      "trades": 690,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H10_S10_R10_Half",
+      "tr": 360.6,
+      "an": 40.4,
+      "sh": 1.69,
+      "mdd": -12.4,
+      "wr": 0.51,
+      "trades": 1087,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H10_S10_R10_AllOut",
+      "tr": 1218.4,
+      "an": 77.3,
+      "sh": 1.86,
+      "mdd": -12.2,
+      "wr": 0.524,
+      "trades": 1612,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S15_R5_No",
+      "tr": 98.4,
+      "an": 16.4,
+      "sh": 1.15,
+      "mdd": -14.8,
+      "wr": 0.509,
+      "trades": 1299,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H10_S15_R5_Half",
+      "tr": 485.3,
+      "an": 48.0,
+      "sh": 1.85,
+      "mdd": -14.7,
+      "wr": 0.526,
+      "trades": 2045,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H10_S15_R5_AllOut",
+      "tr": 957.2,
+      "an": 68.8,
+      "sh": 1.97,
+      "mdd": -14.6,
+      "wr": 0.533,
+      "trades": 2957,
+      "ctrl": "AllOut"
+    },
+    {
+      "tag": "T15_H10_S15_R10_No",
+      "tr": 85.5,
+      "an": 14.7,
+      "sh": 1.03,
+      "mdd": -12.4,
+      "wr": 0.502,
+      "trades": 689,
+      "ctrl": "No"
+    },
+    {
+      "tag": "T15_H10_S15_R10_Half",
+      "tr": 374.9,
+      "an": 41.3,
+      "sh": 1.72,
+      "mdd": -12.4,
+      "wr": 0.525,
+      "trades": 1085,
+      "ctrl": "Half"
+    },
+    {
+      "tag": "T15_H10_S15_R10_AllOut",
+      "tr": 1362.5,
+      "an": 81.4,
+      "sh": 1.92,
+      "mdd": -12.2,
+      "wr": 0.539,
+      "trades": 1606,
+      "ctrl": "AllOut"
+    }
+  ]
+}

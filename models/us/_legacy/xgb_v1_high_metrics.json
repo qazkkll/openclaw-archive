@@ -1,0 +1,33 @@
+{
+  "train_time_sec": 23.3,
+  "best_iteration": 59,
+  "label_type": "high_return (>2%)",
+  "n_train": 5624774,
+  "n_val": 2131237,
+  "n_test": 1489736,
+  "test_positive_rate": 0.16903599026941687,
+  "feature_count": 19,
+  "auc_on_normal_label": 0.5193,
+  "normal_model_auc": 0.5456,
+  "normal_model_auc_on_high": 0.5256,
+  "results": {
+    "\u8bad\u7ec3": {
+      "acc": 0.6188,
+      "precision": 0.2414,
+      "recall": 0.5691,
+      "auc": 0.6413
+    },
+    "\u9a8c\u8bc1": {
+      "acc": 0.5969,
+      "precision": 0.2239,
+      "recall": 0.5569,
+      "auc": 0.6144
+    },
+    "\u6d4b\u8bd5": {
+      "acc": 0.5436,
+      "precision": 0.2124,
+      "recall": 0.6276,
+      "auc": 0.6104
+    }
+  }
+}

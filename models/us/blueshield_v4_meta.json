@@ -1,0 +1,51 @@
+{
+  "model": "blueshield_v4",
+  "strategy": "v55_rules + ml_weight_allocation",
+  "features": [
+    "ret_1d",
+    "ret_3d",
+    "ret_5d",
+    "ret_10d",
+    "ret_20d",
+    "ma_5_ratio",
+    "ma_10_ratio",
+    "ma_20_ratio",
+    "ma_50_ratio",
+    "vol_5d",
+    "vol_10d",
+    "vol_20d",
+    "rsi_14",
+    "rsi_50_pct",
+    "vol_ratio_5",
+    "vol_ratio_20",
+    "vol_5d_norm",
+    "price_pos_20",
+    "price_pos_50",
+    "price_pos_100",
+    "macd",
+    "macd_sig",
+    "macd_hist",
+    "atr_pct",
+    "rel_ret_5d",
+    "rel_ret_10d",
+    "ma20_ma50_cross",
+    "dvol_ratio",
+    "dvol_ma5",
+    "price_above_ma50",
+    "price_above_ma20",
+    "market_ret"
+  ],
+  "n_features": 32,
+  "backtest": {
+    "ml_weighted": {
+      "annual_return": NaN,
+      "sharpe": NaN,
+      "max_drawdown": NaN
+    },
+    "v55_pure": {
+      "annual_return": NaN,
+      "sharpe": NaN
+    }
+  },
+  "date": "2026-06-11"
+}

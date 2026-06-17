@@ -1,0 +1,9 @@
+{
+  "method": "platt",
+  "framework": "xgboost",
+  "slope": 0.9336414860984867,
+  "intercept": -0.2263707111303912,
+  "bias_pct": -0.11,
+  "auc": 0.728,
+  "prob_unique": 5451
+}

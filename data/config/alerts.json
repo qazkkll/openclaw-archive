@@ -1,0 +1,71 @@
+{
+  "_comment": "⏰ 价格预警 — 盘中自动检查，改这里即可",
+  "version": "2026-05-30",
+  "a_stock": [
+    {
+      "code": "002636",
+      "name": "金安国纪",
+      "cost": 0,
+      "take_profit_1": 0,
+      "take_profit_1_note": "",
+      "hard_stop_pct": -8,
+      "note": "今日新买入，成本待补"
+    },
+    {
+      "code": "603002",
+      "name": "宏昌电子",
+      "cost": 0,
+      "take_profit_1": 0,
+      "take_profit_1_note": "",
+      "hard_stop_pct": -8,
+      "note": "今日新买入，成本待补"
+    },
+    {
+      "code": "601939",
+      "name": "建设银行",
+      "cost": 0,
+      "note": "防守持仓"
+    }
+  ],
+  "us_stock": [
+    {
+      "code": "NVDA",
+      "name": "英伟达",
+      "shares": 9,
+      "cost": 185.98,
+      "take_profit_1": 230,
+      "take_profit_1_note": "出3股止盈",
+      "take_profit_2": 250,
+      "hard_stop": 170,
+      "hard_stop_pct": -8
+    },
+    {
+      "code": "ORCL",
+      "name": "甲骨文",
+      "shares": 8,
+      "cost": 192.35,
+      "take_profit_1": 240,
+      "take_profit_1_note": "+25%",
+      "hard_stop": 175,
+      "hard_stop_pct": -9
+    },
+    {
+      "code": "INTC",
+      "name": "英特尔",
+      "shares": 7,
+      "cost": 117.26,
+      "hard_stop": 105,
+      "hard_stop_pct": -10
+    },
+    {
+      "code": "QCOM",
+      "name": "高通",
+      "shares": 3,
+      "cost": 233.86,
+      "take_profit_1": 270,
+      "take_profit_1_note": "+15%",
+      "hard_stop": 215,
+      "hard_stop_pct": -8
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "timestamp": "2026-06-11 00:32:01",
+  "model": "greenshaft_v5_5pct (Platt\u6821\u51c6)",
+  "auc": 0.7299,
+  "calib_method": "platt",
+  "calib_slope": 0.9282167212867811,
+  "calib_intercept": -0.2046340604088115,
+  "calib_bias_pct": -0.0,
+  "n_above_35": 20,
+  "n_above_30": 119,
+  "top_50": [
+    {
+      "ticker": "QH",
+      "prob": 0.4633
+    },
+    {
+      "ticker": "MDAI",
+      "prob": 0.4147
+    },
+    {
+      "ticker": "NGEN",
+      "prob": 0.4113
+    },
+    {
+      "ticker": "RTB",
+      "prob": 0.389
+    },
+    {
+      "ticker": "MRAM",
+      "prob": 0.3824
+    },
+    {
+      "ticker": "GNLN",
+      "prob": 0.373
+    },
+    {
+      "ticker": "FATE",
+      "prob": 0.3706
+    },
+    {
+      "ticker": "KC",
+      "prob": 0.3645
+    },
+    {
+      "ticker": "DUKR",
+      "prob": 0.3582
+    },
+    {
+      "ticker": "FRMM",
+      "prob": 0.3582
+    },
+    {
+      "ticker": "PLUG",
+      "prob": 0.3578
+    },
+    {
+      "ticker": "DDD",
+      "prob": 0.3576
+    },
+    {
+      "ticker": "DGXX",
+      "prob": 0.3576
+    },
+    {
+      "ticker": "DAVA",
+      "prob": 0.3552
+    },
+    {
+      "ticker": "PRFX",
+      "prob": 0.3536
+    },
+    {
+      "ticker": "KOPN",
+      "prob": 0.3526
+    },
+    {
+      "ticker": "BNZI",
+      "prob": 0.3523
+    },
+    {
+      "ticker": "IPWR",
+      "prob": 0.3523
+    },
+    {
+      "ticker": "EVC",
+      "prob": 0.3523
+    },
+    {
+      "ticker": "LAR",
+      "prob": 0.3504
+    },
+    {
+      "ticker": "AMC",
+      "prob": 0.3482
+    },
+    {
+      "ticker": "EEIQ",
+      "prob": 0.3481
+    },
+    {
+      "ticker": "PPBT",
+      "prob": 0.3456
+    },
+    {
+      "ticker": "CHR",
+      "prob": 0.3452
+    },
+    {
+      "ticker": "OWLT",
+      "prob": 0.3449
+    },
+    {
+      "ticker": "CD",
+      "prob": 0.3447
+    },
+    {
+      "ticker": "QURE",
+      "prob": 0.3445
+    },
+    {
+      "ticker": "RYM",
+      "prob": 0.341
+    },
+    {
+      "ticker": "GSIT",
+      "prob": 0.3405
+    },
+    {
+      "ticker": "BNAI",
+      "prob": 0.3393
+    },
+    {
+      "ticker": "OLOX",
+      "prob": 0.3392
+    },
+    {
+      "ticker": "CNSP",
+      "prob": 0.3386
+    },
+    {
+      "ticker": "BTMD",
+      "prob": 0.3377
+    },
+    {
+      "ticker": "QMCO",
+      "prob": 0.336
+    },
+    {
+      "ticker": "LWLG",
+      "prob": 0.3357
+    },
+    {
+      "ticker": "RMCO",
+      "prob": 0.3353
+    },
+    {
+      "ticker": "GRCE",
+      "prob": 0.3345
+    },
+    {
+      "ticker": "MXL",
+      "prob": 0.3343
+    },
+    {
+      "ticker": "BCAB",
+      "prob": 0.3342
+    },
+    {
+      "ticker": "CDXS",
+      "prob": 0.334
+    },
+    {
+      "ticker": "AUC",
+      "prob": 0.3339
+    },
+    {
+      "ticker": "EOSE",
+      "prob": 0.3338
+    },
+    {
+      "ticker": "KZIA",
+      "prob": 0.3332
+    },
+    {
+      "ticker": "CMPX",
+      "prob": 0.3328
+    },
+    {
+      "ticker": "LNAI",
+      "prob": 0.3324
+    },
+    {
+      "ticker": "QNTM",
+      "prob": 0.3318
+    },
+    {
+      "ticker": "POET",
+      "prob": 0.3316
+    },
+    {
+      "ticker": "MTVA",
+      "prob": 0.3313
+    },
+    {
+      "ticker": "ALTO",
+      "prob": 0.3312
+    },
+    {
+      "ticker": "CPIX",
+      "prob": 0.3298
+    }
+  ]
+}

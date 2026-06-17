@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-06-11 10:35",
+  "model": "us_v7_4",
+  "strategy": "T10_H10_S15_R5",
+  "results": {
+    "2022": {
+      "days": 251,
+      "total_return": -23.0,
+      "annualized": -23.1,
+      "sharpe": -1.13,
+      "max_dd": -24.6,
+      "wins": 184,
+      "trades": 429,
+      "win_rate": 0.429,
+      "final": 7699.0
+    },
+    "2023": {
+      "days": 250,
+      "total_return": 35.4,
+      "annualized": 35.7,
+      "sharpe": 2.43,
+      "max_dd": -9.6,
+      "wins": 265,
+      "trades": 435,
+      "win_rate": 0.609,
+      "final": 13540.0
+    },
+    "2024": {
+      "days": 252,
+      "total_return": 162.4,
+      "annualized": 162.4,
+      "sharpe": 3.77,
+      "max_dd": -4.6,
+      "wins": 271,
+      "trades": 451,
+      "win_rate": 0.601,
+      "final": 26241.0
+    },
+    "2025": {
+      "days": 250,
+      "total_return": 265.3,
+      "annualized": 269.1,
+      "sharpe": 2.55,
+      "max_dd": -16.0,
+      "wins": 249,
+      "trades": 483,
+      "win_rate": 0.516,
+      "final": 36531.0
+    },
+    "2026": {
+      "days": 110,
+      "total_return": 30.7,
+      "annualized": 84.5,
+      "sharpe": 1.85,
+      "max_dd": -15.4,
+      "wins": 100,
+      "trades": 195,
+      "win_rate": 0.513,
+      "final": 13066.0
+    }
+  }
+}

@@ -1,0 +1,680 @@
+{
+  "type": "param_sweep",
+  "n_stocks": 4536,
+  "best_by_no_boom": "5d/K20/SL15",
+  "results": [
+    {
+      "label": "5d/K20/SL15",
+      "hold": 5,
+      "top_k": 20,
+      "sl": -15,
+      "market_filter": false,
+      "avg_ret": 7.41,
+      "avg_no_boom": 2.44,
+      "win_rate": 59.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 3.02,
+          "wins": 13,
+          "total": 20
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": 1.76,
+          "wins": 9,
+          "total": 20
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": 3.43,
+          "wins": 6,
+          "total": 20
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 1.56,
+          "wins": 12,
+          "total": 20
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 27.3,
+          "wins": 19,
+          "total": 20
+        }
+      ]
+    },
+    {
+      "label": "5d/K5/SL10",
+      "hold": 5,
+      "top_k": 5,
+      "sl": -10,
+      "market_filter": false,
+      "avg_ret": 6.17,
+      "avg_no_boom": 1.81,
+      "win_rate": 48.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 6.45,
+          "wins": 3,
+          "total": 5
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": -0.69,
+          "wins": 2,
+          "total": 5
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": -3.52,
+          "wins": 1,
+          "total": 5
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 5.01,
+          "wins": 2,
+          "total": 5
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 23.58,
+          "wins": 4,
+          "total": 5
+        }
+      ]
+    },
+    {
+      "label": "5d/K5/SL15",
+      "hold": 5,
+      "top_k": 5,
+      "sl": -15,
+      "market_filter": false,
+      "avg_ret": 6.58,
+      "avg_no_boom": 1.75,
+      "win_rate": 52.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 6.45,
+          "wins": 3,
+          "total": 5
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": -0.69,
+          "wins": 2,
+          "total": 5
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": -2.77,
+          "wins": 1,
+          "total": 5
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 4.01,
+          "wins": 2,
+          "total": 5
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 25.88,
+          "wins": 5,
+          "total": 5
+        }
+      ]
+    },
+    {
+      "label": "10d/K10/SL15",
+      "hold": 10,
+      "top_k": 10,
+      "sl": -15,
+      "market_filter": false,
+      "avg_ret": 7.94,
+      "avg_no_boom": 1.69,
+      "win_rate": 60.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 1.38,
+          "wins": 6,
+          "total": 10
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": 0.09,
+          "wins": 3,
+          "total": 10
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": 4.04,
+          "wins": 7,
+          "total": 10
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 1.27,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 32.91,
+          "wins": 10,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "label": "10d/K10/SL20",
+      "hold": 10,
+      "top_k": 10,
+      "sl": -20,
+      "market_filter": false,
+      "avg_ret": 7.64,
+      "avg_no_boom": 1.32,
+      "win_rate": 60.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 0.88,
+          "wins": 6,
+          "total": 10
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": -0.41,
+          "wins": 3,
+          "total": 10
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": 4.04,
+          "wins": 7,
+          "total": 10
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 0.77,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 32.91,
+          "wins": 10,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "label": "5d/K10/SL15",
+      "hold": 5,
+      "top_k": 10,
+      "sl": -15,
+      "market_filter": false,
+      "avg_ret": 6.38,
+      "avg_no_boom": 0.7,
+      "win_rate": 52.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 2.38,
+          "wins": 5,
+          "total": 10
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": -0.31,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": -1.78,
+          "wins": 2,
+          "total": 10
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 2.52,
+          "wins": 5,
+          "total": 10
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 29.07,
+          "wins": 10,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "label": "10d/K10/SL15+大盘过滤",
+      "hold": 10,
+      "top_k": 10,
+      "sl": -15,
+      "market_filter": true,
+      "avg_ret": 7.12,
+      "avg_no_boom": 0.67,
+      "win_rate": 56.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": -4.54,
+          "wins": 3,
+          "total": 10
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": 1.92,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": 4.04,
+          "wins": 7,
+          "total": 10
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 1.27,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 32.91,
+          "wins": 10,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "label": "5d/K10/SL10",
+      "hold": 5,
+      "top_k": 10,
+      "sl": -10,
+      "market_filter": false,
+      "avg_ret": 6.0,
+      "avg_no_boom": 0.52,
+      "win_rate": 48.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 2.88,
+          "wins": 5,
+          "total": 10
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": -0.31,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": -3.52,
+          "wins": 1,
+          "total": 10
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 3.02,
+          "wins": 5,
+          "total": 10
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 27.92,
+          "wins": 9,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "label": "5d/K10/SL20",
+      "hold": 5,
+      "top_k": 10,
+      "sl": -20,
+      "market_filter": false,
+      "avg_ret": 6.18,
+      "avg_no_boom": 0.45,
+      "win_rate": 52.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 1.88,
+          "wins": 5,
+          "total": 10
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": -0.31,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": -1.78,
+          "wins": 2,
+          "total": 10
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 2.02,
+          "wins": 5,
+          "total": 10
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 29.07,
+          "wins": 10,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "label": "3d/K10/SL10",
+      "hold": 3,
+      "top_k": 10,
+      "sl": -10,
+      "market_filter": false,
+      "avg_ret": 2.29,
+      "avg_no_boom": 0.37,
+      "win_rate": 48.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 0.98,
+          "wins": 6,
+          "total": 10
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": 1.03,
+          "wins": 5,
+          "total": 10
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": -3.22,
+          "wins": 1,
+          "total": 10
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 2.7,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 9.96,
+          "wins": 8,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "label": "3d/K10/SL10+大盘过滤",
+      "hold": 3,
+      "top_k": 10,
+      "sl": -10,
+      "market_filter": true,
+      "avg_ret": 2.1,
+      "avg_no_boom": 0.14,
+      "win_rate": 42.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 0.87,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": 0.19,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": -3.22,
+          "wins": 1,
+          "total": 10
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 2.7,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 9.96,
+          "wins": 8,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "label": "3d/K10/SL15",
+      "hold": 3,
+      "top_k": 10,
+      "sl": -15,
+      "market_filter": false,
+      "avg_ret": 2.09,
+      "avg_no_boom": 0.13,
+      "win_rate": 48.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": 0.55,
+          "wins": 6,
+          "total": 10
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": 1.03,
+          "wins": 5,
+          "total": 10
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": -3.25,
+          "wins": 1,
+          "total": 10
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 2.2,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 9.92,
+          "wins": 8,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "label": "5d/K10/SL15+大盘过滤",
+      "hold": 5,
+      "top_k": 10,
+      "sl": -15,
+      "market_filter": true,
+      "avg_ret": 5.72,
+      "avg_no_boom": -0.12,
+      "win_rate": 50.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": -0.91,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": -0.3,
+          "wins": 4,
+          "total": 10
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": -1.78,
+          "wins": 2,
+          "total": 10
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 2.52,
+          "wins": 5,
+          "total": 10
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 29.07,
+          "wins": 10,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "label": "5d/K5/SL10+大盘过滤",
+      "hold": 5,
+      "top_k": 5,
+      "sl": -10,
+      "market_filter": true,
+      "avg_ret": 4.27,
+      "avg_no_boom": -0.56,
+      "win_rate": 40.0,
+      "n_folds": 5,
+      "folds": [
+        {
+          "fold": 1,
+          "train_end": "20180214",
+          "avg_ret": -3.41,
+          "wins": 1,
+          "total": 5
+        },
+        {
+          "fold": 2,
+          "train_end": "20191015",
+          "avg_ret": -0.31,
+          "wins": 2,
+          "total": 5
+        },
+        {
+          "fold": 3,
+          "train_end": "20210607",
+          "avg_ret": -3.52,
+          "wins": 1,
+          "total": 5
+        },
+        {
+          "fold": 4,
+          "train_end": "20230201",
+          "avg_ret": 5.01,
+          "wins": 2,
+          "total": 5
+        },
+        {
+          "fold": 5,
+          "train_end": "20240920",
+          "avg_ret": 23.58,
+          "wins": 4,
+          "total": 5
+        }
+      ]
+    }
+  ],
+  "elapsed_sec": 1188.8
+}
