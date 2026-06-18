@@ -1,0 +1,4425 @@
+{
+  "date": "2026-06-19",
+  "model": "V9-Lottery",
+  "sort_method": "prob/price_top30->prob_top10",
+  "buy_signals": [
+    {
+      "sym": "GOVX",
+      "prob": 0.8732,
+      "price": 1.17,
+      "ratio_bp": 0.7463,
+      "sector": "Micro"
+    },
+    {
+      "sym": "KUST",
+      "prob": 0.8942,
+      "price": 1.51,
+      "ratio_bp": 0.5922,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NYXH",
+      "prob": 0.9056,
+      "price": 1.58,
+      "ratio_bp": 0.5732,
+      "sector": "Micro"
+    },
+    {
+      "sym": "PPBT",
+      "prob": 0.9117,
+      "price": 1.64,
+      "ratio_bp": 0.5559,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BDTX",
+      "prob": 0.8898,
+      "price": 1.68,
+      "ratio_bp": 0.5297,
+      "sector": "Micro"
+    },
+    {
+      "sym": "MTVA",
+      "prob": 0.8721,
+      "price": 1.65,
+      "ratio_bp": 0.5285,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SY",
+      "prob": 0.888,
+      "price": 1.73,
+      "ratio_bp": 0.5133,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NEOV",
+      "prob": 0.8864,
+      "price": 1.78,
+      "ratio_bp": 0.498,
+      "sector": "Micro"
+    },
+    {
+      "sym": "LIDR",
+      "prob": 0.7314,
+      "price": 1.52,
+      "ratio_bp": 0.4812,
+      "sector": "Micro"
+    },
+    {
+      "sym": "PRFX",
+      "prob": 0.8852,
+      "price": 1.84,
+      "ratio_bp": 0.4811,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NGEN",
+      "prob": 0.8916,
+      "price": 2.0,
+      "ratio_bp": 0.4458,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CHR",
+      "prob": 0.8597,
+      "price": 1.96,
+      "ratio_bp": 0.4398,
+      "sector": "Micro"
+    },
+    {
+      "sym": "MDAI",
+      "prob": 0.8004,
+      "price": 1.82,
+      "ratio_bp": 0.4398,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NXTC",
+      "prob": 0.9115,
+      "price": 2.08,
+      "ratio_bp": 0.4393,
+      "sector": "Micro"
+    },
+    {
+      "sym": "FATE",
+      "prob": 0.8096,
+      "price": 1.9,
+      "ratio_bp": 0.4261,
+      "sector": "Micro"
+    },
+    {
+      "sym": "POLA",
+      "prob": 0.7524,
+      "price": 1.81,
+      "ratio_bp": 0.4157,
+      "sector": "Micro"
+    },
+    {
+      "sym": "ATOS",
+      "prob": 0.9068,
+      "price": 2.22,
+      "ratio_bp": 0.4085,
+      "sector": "Micro"
+    },
+    {
+      "sym": "PETS",
+      "prob": 0.7209,
+      "price": 1.8,
+      "ratio_bp": 0.4005,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SDST",
+      "prob": 0.7264,
+      "price": 1.84,
+      "ratio_bp": 0.3948,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CRMT",
+      "prob": 0.9136,
+      "price": 2.34,
+      "ratio_bp": 0.3904,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CMPX",
+      "prob": 0.7575,
+      "price": 1.97,
+      "ratio_bp": 0.3845,
+      "sector": "Micro"
+    },
+    {
+      "sym": "XCUR",
+      "prob": 0.834,
+      "price": 2.17,
+      "ratio_bp": 0.3843,
+      "sector": "Micro"
+    },
+    {
+      "sym": "GNSS",
+      "prob": 0.6607,
+      "price": 1.72,
+      "ratio_bp": 0.3841,
+      "sector": "Micro"
+    },
+    {
+      "sym": "XELB",
+      "prob": 0.8017,
+      "price": 2.09,
+      "ratio_bp": 0.3836,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CGEN",
+      "prob": 0.772,
+      "price": 2.03,
+      "ratio_bp": 0.3803,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NHTC",
+      "prob": 0.7617,
+      "price": 2.03,
+      "ratio_bp": 0.3752,
+      "sector": "Micro"
+    },
+    {
+      "sym": "UXIN",
+      "prob": 0.7064,
+      "price": 1.9,
+      "ratio_bp": 0.3718,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BTMD",
+      "prob": 0.8036,
+      "price": 2.19,
+      "ratio_bp": 0.3669,
+      "sector": "Micro"
+    },
+    {
+      "sym": "PCSA",
+      "prob": 0.7588,
+      "price": 2.09,
+      "ratio_bp": 0.3631,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CTRM",
+      "prob": 0.7614,
+      "price": 2.11,
+      "ratio_bp": 0.3609,
+      "sector": "Micro"
+    },
+    {
+      "sym": "AMC",
+      "prob": 0.888,
+      "price": 2.48,
+      "ratio_bp": 0.3581,
+      "sector": "Micro"
+    },
+    {
+      "sym": "INBS",
+      "prob": 0.8104,
+      "price": 2.3,
+      "ratio_bp": 0.3523,
+      "sector": "Micro"
+    },
+    {
+      "sym": "EBON",
+      "prob": 0.6776,
+      "price": 1.95,
+      "ratio_bp": 0.3475,
+      "sector": "Micro"
+    },
+    {
+      "sym": "WIT",
+      "prob": 0.8171,
+      "price": 2.37,
+      "ratio_bp": 0.3448,
+      "sector": "Micro"
+    },
+    {
+      "sym": "MSC",
+      "prob": 0.6881,
+      "price": 2.0,
+      "ratio_bp": 0.344,
+      "sector": "Micro"
+    },
+    {
+      "sym": "IMNN",
+      "prob": 0.6298,
+      "price": 1.88,
+      "ratio_bp": 0.335,
+      "sector": "Micro"
+    },
+    {
+      "sym": "STG",
+      "prob": 0.8616,
+      "price": 2.58,
+      "ratio_bp": 0.334,
+      "sector": "Micro"
+    },
+    {
+      "sym": "EGHT",
+      "prob": 0.6039,
+      "price": 1.81,
+      "ratio_bp": 0.3337,
+      "sector": "Micro"
+    },
+    {
+      "sym": "PLUR",
+      "prob": 0.7499,
+      "price": 2.25,
+      "ratio_bp": 0.3333,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CLRB",
+      "prob": 0.8146,
+      "price": 2.45,
+      "ratio_bp": 0.3325,
+      "sector": "Micro"
+    },
+    {
+      "sym": "OPAL",
+      "prob": 0.6152,
+      "price": 1.85,
+      "ratio_bp": 0.3325,
+      "sector": "Micro"
+    },
+    {
+      "sym": "EVGO",
+      "prob": 0.6616,
+      "price": 2.0,
+      "ratio_bp": 0.3308,
+      "sector": "Micro"
+    },
+    {
+      "sym": "MBOT",
+      "prob": 0.6016,
+      "price": 1.82,
+      "ratio_bp": 0.3306,
+      "sector": "Micro"
+    },
+    {
+      "sym": "DARE",
+      "prob": 0.6894,
+      "price": 2.11,
+      "ratio_bp": 0.3267,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BMRA",
+      "prob": 0.6295,
+      "price": 1.93,
+      "ratio_bp": 0.3262,
+      "sector": "Micro"
+    },
+    {
+      "sym": "TROO",
+      "prob": 0.8636,
+      "price": 2.67,
+      "ratio_bp": 0.3234,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CLVT",
+      "prob": 0.6825,
+      "price": 2.12,
+      "ratio_bp": 0.3219,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SQFT",
+      "prob": 0.8429,
+      "price": 2.64,
+      "ratio_bp": 0.3193,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BGLC",
+      "prob": 0.8238,
+      "price": 2.6,
+      "ratio_bp": 0.3168,
+      "sector": "Micro"
+    },
+    {
+      "sym": "THCH",
+      "prob": 0.5511,
+      "price": 1.74,
+      "ratio_bp": 0.3167,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SINT",
+      "prob": 0.6757,
+      "price": 2.16,
+      "ratio_bp": 0.3128,
+      "sector": "Micro"
+    },
+    {
+      "sym": "LEDS",
+      "prob": 0.5778,
+      "price": 1.85,
+      "ratio_bp": 0.3123,
+      "sector": "Micro"
+    },
+    {
+      "sym": "EDIT",
+      "prob": 0.7773,
+      "price": 2.5,
+      "ratio_bp": 0.3109,
+      "sector": "Micro"
+    },
+    {
+      "sym": "LNAI",
+      "prob": 0.8805,
+      "price": 2.85,
+      "ratio_bp": 0.3095,
+      "sector": "Micro"
+    },
+    {
+      "sym": "AQMS",
+      "prob": 0.846,
+      "price": 2.75,
+      "ratio_bp": 0.3076,
+      "sector": "Micro"
+    },
+    {
+      "sym": "RETO",
+      "prob": 0.8234,
+      "price": 2.7,
+      "ratio_bp": 0.3049,
+      "sector": "Micro"
+    },
+    {
+      "sym": "FLNT",
+      "prob": 0.8194,
+      "price": 2.69,
+      "ratio_bp": 0.3046,
+      "sector": "Micro"
+    },
+    {
+      "sym": "ADIL",
+      "prob": 0.8972,
+      "price": 2.98,
+      "ratio_bp": 0.3011,
+      "sector": "Micro"
+    },
+    {
+      "sym": "LX",
+      "prob": 0.6085,
+      "price": 2.03,
+      "ratio_bp": 0.2997,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CNTB",
+      "prob": 0.5915,
+      "price": 1.99,
+      "ratio_bp": 0.2972,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BNZI",
+      "prob": 0.8884,
+      "price": 3.0,
+      "ratio_bp": 0.2961,
+      "sector": "Small"
+    },
+    {
+      "sym": "CMTL",
+      "prob": 0.8829,
+      "price": 2.99,
+      "ratio_bp": 0.2953,
+      "sector": "Micro"
+    },
+    {
+      "sym": "WKHS",
+      "prob": 0.8197,
+      "price": 2.79,
+      "ratio_bp": 0.2938,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BAOS",
+      "prob": 0.7729,
+      "price": 2.65,
+      "ratio_bp": 0.2917,
+      "sector": "Micro"
+    },
+    {
+      "sym": "MBRX",
+      "prob": 0.7852,
+      "price": 2.7,
+      "ratio_bp": 0.2908,
+      "sector": "Micro"
+    },
+    {
+      "sym": "LPRO",
+      "prob": 0.9011,
+      "price": 3.11,
+      "ratio_bp": 0.2897,
+      "sector": "Small"
+    },
+    {
+      "sym": "CCLD",
+      "prob": 0.6438,
+      "price": 2.24,
+      "ratio_bp": 0.2874,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NKTX",
+      "prob": 0.7502,
+      "price": 2.62,
+      "ratio_bp": 0.2863,
+      "sector": "Micro"
+    },
+    {
+      "sym": "IPM",
+      "prob": 0.4993,
+      "price": 1.75,
+      "ratio_bp": 0.2853,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NCNA",
+      "prob": 0.555,
+      "price": 1.95,
+      "ratio_bp": 0.2846,
+      "sector": "Micro"
+    },
+    {
+      "sym": "FLL",
+      "prob": 0.8237,
+      "price": 2.92,
+      "ratio_bp": 0.2821,
+      "sector": "Micro"
+    },
+    {
+      "sym": "JAGX",
+      "prob": 0.7565,
+      "price": 2.69,
+      "ratio_bp": 0.2812,
+      "sector": "Micro"
+    },
+    {
+      "sym": "LPCN",
+      "prob": 0.6462,
+      "price": 2.3,
+      "ratio_bp": 0.281,
+      "sector": "Micro"
+    },
+    {
+      "sym": "ICU",
+      "prob": 0.8489,
+      "price": 3.04,
+      "ratio_bp": 0.2792,
+      "sector": "Small"
+    },
+    {
+      "sym": "EVTL",
+      "prob": 0.5902,
+      "price": 2.13,
+      "ratio_bp": 0.2771,
+      "sector": "Micro"
+    },
+    {
+      "sym": "ODV",
+      "prob": 0.7668,
+      "price": 2.79,
+      "ratio_bp": 0.2748,
+      "sector": "Micro"
+    },
+    {
+      "sym": "GTM",
+      "prob": 0.7693,
+      "price": 2.8,
+      "ratio_bp": 0.2747,
+      "sector": "Micro"
+    },
+    {
+      "sym": "DSX",
+      "prob": 0.6325,
+      "price": 2.31,
+      "ratio_bp": 0.2738,
+      "sector": "Micro"
+    },
+    {
+      "sym": "LITB",
+      "prob": 0.872,
+      "price": 3.19,
+      "ratio_bp": 0.2734,
+      "sector": "Small"
+    },
+    {
+      "sym": "RMCO",
+      "prob": 0.7255,
+      "price": 2.66,
+      "ratio_bp": 0.2727,
+      "sector": "Micro"
+    },
+    {
+      "sym": "KOS",
+      "prob": 0.6779,
+      "price": 2.49,
+      "ratio_bp": 0.2723,
+      "sector": "Micro"
+    },
+    {
+      "sym": "EEIQ",
+      "prob": 0.8163,
+      "price": 3.0,
+      "ratio_bp": 0.2721,
+      "sector": "Small"
+    },
+    {
+      "sym": "GRCE",
+      "prob": 0.6008,
+      "price": 2.22,
+      "ratio_bp": 0.2706,
+      "sector": "Micro"
+    },
+    {
+      "sym": "DAVA",
+      "prob": 0.781,
+      "price": 2.9,
+      "ratio_bp": 0.2693,
+      "sector": "Micro"
+    },
+    {
+      "sym": "EQ",
+      "prob": 0.7442,
+      "price": 2.81,
+      "ratio_bp": 0.2648,
+      "sector": "Micro"
+    },
+    {
+      "sym": "AYTU",
+      "prob": 0.5505,
+      "price": 2.08,
+      "ratio_bp": 0.2647,
+      "sector": "Micro"
+    },
+    {
+      "sym": "HYPD",
+      "prob": 0.8551,
+      "price": 3.24,
+      "ratio_bp": 0.2639,
+      "sector": "Small"
+    },
+    {
+      "sym": "SPCE",
+      "prob": 0.8828,
+      "price": 3.35,
+      "ratio_bp": 0.2635,
+      "sector": "Small"
+    },
+    {
+      "sym": "MOGU",
+      "prob": 0.5793,
+      "price": 2.2,
+      "ratio_bp": 0.2633,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CURI",
+      "prob": 0.6685,
+      "price": 2.56,
+      "ratio_bp": 0.2611,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CNVS",
+      "prob": 0.7974,
+      "price": 3.06,
+      "ratio_bp": 0.2606,
+      "sector": "Small"
+    },
+    {
+      "sym": "PLUG",
+      "prob": 0.7036,
+      "price": 2.71,
+      "ratio_bp": 0.2596,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BLRX",
+      "prob": 0.791,
+      "price": 3.05,
+      "ratio_bp": 0.2593,
+      "sector": "Small"
+    },
+    {
+      "sym": "TTEC",
+      "prob": 0.6058,
+      "price": 2.34,
+      "ratio_bp": 0.2589,
+      "sector": "Micro"
+    },
+    {
+      "sym": "KRKR",
+      "prob": 0.7816,
+      "price": 3.02,
+      "ratio_bp": 0.2588,
+      "sector": "Small"
+    },
+    {
+      "sym": "EFOI",
+      "prob": 0.7204,
+      "price": 2.79,
+      "ratio_bp": 0.2582,
+      "sector": "Micro"
+    },
+    {
+      "sym": "AISP",
+      "prob": 0.719,
+      "price": 2.79,
+      "ratio_bp": 0.2577,
+      "sector": "Micro"
+    },
+    {
+      "sym": "UWMC",
+      "prob": 0.6215,
+      "price": 2.45,
+      "ratio_bp": 0.2537,
+      "sector": "Micro"
+    },
+    {
+      "sym": "LPSN",
+      "prob": 0.4941,
+      "price": 1.95,
+      "ratio_bp": 0.2534,
+      "sector": "Micro"
+    },
+    {
+      "sym": "MLCI",
+      "prob": 0.7176,
+      "price": 2.84,
+      "ratio_bp": 0.2527,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BCTX",
+      "prob": 0.7041,
+      "price": 2.83,
+      "ratio_bp": 0.2488,
+      "sector": "Micro"
+    },
+    {
+      "sym": "FABC",
+      "prob": 0.8521,
+      "price": 3.43,
+      "ratio_bp": 0.2484,
+      "sector": "Small"
+    },
+    {
+      "sym": "BAK",
+      "prob": 0.824,
+      "price": 3.33,
+      "ratio_bp": 0.2474,
+      "sector": "Small"
+    },
+    {
+      "sym": "CSAN",
+      "prob": 0.6392,
+      "price": 2.59,
+      "ratio_bp": 0.2468,
+      "sector": "Micro"
+    },
+    {
+      "sym": "RAVE",
+      "prob": 0.7998,
+      "price": 3.24,
+      "ratio_bp": 0.2468,
+      "sector": "Small"
+    },
+    {
+      "sym": "SYPR",
+      "prob": 0.6367,
+      "price": 2.59,
+      "ratio_bp": 0.2458,
+      "sector": "Micro"
+    },
+    {
+      "sym": "AVD",
+      "prob": 0.6523,
+      "price": 2.66,
+      "ratio_bp": 0.2452,
+      "sector": "Micro"
+    },
+    {
+      "sym": "VUZI",
+      "prob": 0.808,
+      "price": 3.33,
+      "ratio_bp": 0.2426,
+      "sector": "Small"
+    },
+    {
+      "sym": "CMCM",
+      "prob": 0.8167,
+      "price": 3.38,
+      "ratio_bp": 0.2416,
+      "sector": "Small"
+    },
+    {
+      "sym": "CMCT",
+      "prob": 0.8945,
+      "price": 3.71,
+      "ratio_bp": 0.2411,
+      "sector": "Small"
+    },
+    {
+      "sym": "SST",
+      "prob": 0.7342,
+      "price": 3.06,
+      "ratio_bp": 0.2399,
+      "sector": "Small"
+    },
+    {
+      "sym": "WNW",
+      "prob": 0.8377,
+      "price": 3.5,
+      "ratio_bp": 0.2393,
+      "sector": "Small"
+    },
+    {
+      "sym": "WTI",
+      "prob": 0.7663,
+      "price": 3.22,
+      "ratio_bp": 0.238,
+      "sector": "Small"
+    },
+    {
+      "sym": "ORGO",
+      "prob": 0.5661,
+      "price": 2.4,
+      "ratio_bp": 0.2359,
+      "sector": "Micro"
+    },
+    {
+      "sym": "FULC",
+      "prob": 0.8151,
+      "price": 3.46,
+      "ratio_bp": 0.2356,
+      "sector": "Small"
+    },
+    {
+      "sym": "QNTM",
+      "prob": 0.8551,
+      "price": 3.64,
+      "ratio_bp": 0.2349,
+      "sector": "Small"
+    },
+    {
+      "sym": "SQNS",
+      "prob": 0.752,
+      "price": 3.22,
+      "ratio_bp": 0.2335,
+      "sector": "Small"
+    },
+    {
+      "sym": "JWEL",
+      "prob": 0.5883,
+      "price": 2.52,
+      "ratio_bp": 0.2334,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CODX",
+      "prob": 0.8883,
+      "price": 3.84,
+      "ratio_bp": 0.2313,
+      "sector": "Small"
+    },
+    {
+      "sym": "ODYS",
+      "prob": 0.8411,
+      "price": 3.67,
+      "ratio_bp": 0.2292,
+      "sector": "Small"
+    },
+    {
+      "sym": "SRTS",
+      "prob": 0.6174,
+      "price": 2.71,
+      "ratio_bp": 0.2278,
+      "sector": "Micro"
+    },
+    {
+      "sym": "IVA",
+      "prob": 0.811,
+      "price": 3.58,
+      "ratio_bp": 0.2265,
+      "sector": "Small"
+    },
+    {
+      "sym": "BMBL",
+      "prob": 0.6878,
+      "price": 3.06,
+      "ratio_bp": 0.2248,
+      "sector": "Small"
+    },
+    {
+      "sym": "NEXM",
+      "prob": 0.5435,
+      "price": 2.42,
+      "ratio_bp": 0.2246,
+      "sector": "Micro"
+    },
+    {
+      "sym": "TRVG",
+      "prob": 0.8663,
+      "price": 3.86,
+      "ratio_bp": 0.2244,
+      "sector": "Small"
+    },
+    {
+      "sym": "CELZ",
+      "prob": 0.4825,
+      "price": 2.24,
+      "ratio_bp": 0.2154,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SSP",
+      "prob": 0.6189,
+      "price": 2.89,
+      "ratio_bp": 0.2142,
+      "sector": "Micro"
+    },
+    {
+      "sym": "DAIO",
+      "prob": 0.8246,
+      "price": 3.88,
+      "ratio_bp": 0.2125,
+      "sector": "Small"
+    },
+    {
+      "sym": "SPRO",
+      "prob": 0.5863,
+      "price": 2.77,
+      "ratio_bp": 0.2117,
+      "sector": "Micro"
+    },
+    {
+      "sym": "TMCI",
+      "prob": 0.857,
+      "price": 4.12,
+      "ratio_bp": 0.208,
+      "sector": "Small"
+    },
+    {
+      "sym": "WBX",
+      "prob": 0.8151,
+      "price": 3.94,
+      "ratio_bp": 0.2069,
+      "sector": "Small"
+    },
+    {
+      "sym": "SANA",
+      "prob": 0.5849,
+      "price": 2.83,
+      "ratio_bp": 0.2067,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SLNG",
+      "prob": 0.8468,
+      "price": 4.1,
+      "ratio_bp": 0.2065,
+      "sector": "Small"
+    },
+    {
+      "sym": "UROY",
+      "prob": 0.6401,
+      "price": 3.1,
+      "ratio_bp": 0.2065,
+      "sector": "Small"
+    },
+    {
+      "sym": "MMLP",
+      "prob": 0.5445,
+      "price": 2.64,
+      "ratio_bp": 0.2062,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BLDP",
+      "prob": 0.8509,
+      "price": 4.13,
+      "ratio_bp": 0.206,
+      "sector": "Small"
+    },
+    {
+      "sym": "BCAB",
+      "prob": 0.7105,
+      "price": 3.45,
+      "ratio_bp": 0.2059,
+      "sector": "Small"
+    },
+    {
+      "sym": "STTK",
+      "prob": 0.8858,
+      "price": 4.33,
+      "ratio_bp": 0.2046,
+      "sector": "Small"
+    },
+    {
+      "sym": "SFIX",
+      "prob": 0.785,
+      "price": 3.85,
+      "ratio_bp": 0.2042,
+      "sector": "Small"
+    },
+    {
+      "sym": "QTRX",
+      "prob": 0.6311,
+      "price": 3.1,
+      "ratio_bp": 0.2036,
+      "sector": "Small"
+    },
+    {
+      "sym": "EZRA",
+      "prob": 0.7155,
+      "price": 3.53,
+      "ratio_bp": 0.2027,
+      "sector": "Small"
+    },
+    {
+      "sym": "HTOO",
+      "prob": 0.5836,
+      "price": 2.9,
+      "ratio_bp": 0.2012,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CRVO",
+      "prob": 0.9019,
+      "price": 4.52,
+      "ratio_bp": 0.1995,
+      "sector": "Small"
+    },
+    {
+      "sym": "ZIP",
+      "prob": 0.6695,
+      "price": 3.36,
+      "ratio_bp": 0.1993,
+      "sector": "Small"
+    },
+    {
+      "sym": "NIU",
+      "prob": 0.4353,
+      "price": 2.19,
+      "ratio_bp": 0.1988,
+      "sector": "Micro"
+    },
+    {
+      "sym": "PLCE",
+      "prob": 0.6816,
+      "price": 3.44,
+      "ratio_bp": 0.1981,
+      "sector": "Small"
+    },
+    {
+      "sym": "ACB",
+      "prob": 0.593,
+      "price": 3.0,
+      "ratio_bp": 0.1977,
+      "sector": "Small"
+    },
+    {
+      "sym": "NNBR",
+      "prob": 0.563,
+      "price": 2.85,
+      "ratio_bp": 0.1976,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CDXS",
+      "prob": 0.4889,
+      "price": 2.48,
+      "ratio_bp": 0.1972,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CRNT",
+      "prob": 0.5588,
+      "price": 2.86,
+      "ratio_bp": 0.1954,
+      "sector": "Micro"
+    },
+    {
+      "sym": "FIEE",
+      "prob": 0.8598,
+      "price": 4.4,
+      "ratio_bp": 0.1954,
+      "sector": "Small"
+    },
+    {
+      "sym": "DTST",
+      "prob": 0.6356,
+      "price": 3.26,
+      "ratio_bp": 0.195,
+      "sector": "Small"
+    },
+    {
+      "sym": "RZLT",
+      "prob": 0.8911,
+      "price": 4.57,
+      "ratio_bp": 0.195,
+      "sector": "Small"
+    },
+    {
+      "sym": "TONX",
+      "prob": 0.6594,
+      "price": 3.4,
+      "ratio_bp": 0.194,
+      "sector": "Small"
+    },
+    {
+      "sym": "CLLS",
+      "prob": 0.5971,
+      "price": 3.09,
+      "ratio_bp": 0.1932,
+      "sector": "Small"
+    },
+    {
+      "sym": "DDD",
+      "prob": 0.6148,
+      "price": 3.19,
+      "ratio_bp": 0.1927,
+      "sector": "Small"
+    },
+    {
+      "sym": "JRSH",
+      "prob": 0.8064,
+      "price": 4.2,
+      "ratio_bp": 0.1922,
+      "sector": "Small"
+    },
+    {
+      "sym": "CLRO",
+      "prob": 0.7025,
+      "price": 3.66,
+      "ratio_bp": 0.1919,
+      "sector": "Small"
+    },
+    {
+      "sym": "GURE",
+      "prob": 0.7535,
+      "price": 3.93,
+      "ratio_bp": 0.1917,
+      "sector": "Small"
+    },
+    {
+      "sym": "ALTI",
+      "prob": 0.5847,
+      "price": 3.06,
+      "ratio_bp": 0.1911,
+      "sector": "Small"
+    },
+    {
+      "sym": "FKWL",
+      "prob": 0.5057,
+      "price": 2.65,
+      "ratio_bp": 0.1908,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SCYX",
+      "prob": 0.7703,
+      "price": 4.09,
+      "ratio_bp": 0.1883,
+      "sector": "Small"
+    },
+    {
+      "sym": "HIVE",
+      "prob": 0.7649,
+      "price": 4.07,
+      "ratio_bp": 0.1879,
+      "sector": "Small"
+    },
+    {
+      "sym": "GEG",
+      "prob": 0.4408,
+      "price": 2.35,
+      "ratio_bp": 0.1876,
+      "sector": "Micro"
+    },
+    {
+      "sym": "KPRX",
+      "prob": 0.489,
+      "price": 2.62,
+      "ratio_bp": 0.1867,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CATO",
+      "prob": 0.6021,
+      "price": 3.23,
+      "ratio_bp": 0.1864,
+      "sector": "Small"
+    },
+    {
+      "sym": "CHNR",
+      "prob": 0.7343,
+      "price": 3.94,
+      "ratio_bp": 0.1864,
+      "sector": "Small"
+    },
+    {
+      "sym": "PLTK",
+      "prob": 0.6198,
+      "price": 3.35,
+      "ratio_bp": 0.185,
+      "sector": "Small"
+    },
+    {
+      "sym": "BHST",
+      "prob": 0.6091,
+      "price": 3.31,
+      "ratio_bp": 0.184,
+      "sector": "Small"
+    },
+    {
+      "sym": "PPSI",
+      "prob": 0.802,
+      "price": 4.39,
+      "ratio_bp": 0.1827,
+      "sector": "Small"
+    },
+    {
+      "sym": "ATLX",
+      "prob": 0.7003,
+      "price": 3.85,
+      "ratio_bp": 0.1819,
+      "sector": "Small"
+    },
+    {
+      "sym": "RXRX",
+      "prob": 0.5779,
+      "price": 3.18,
+      "ratio_bp": 0.1817,
+      "sector": "Small"
+    },
+    {
+      "sym": "CTMX",
+      "prob": 0.5447,
+      "price": 3.01,
+      "ratio_bp": 0.181,
+      "sector": "Small"
+    },
+    {
+      "sym": "OVID",
+      "prob": 0.4089,
+      "price": 2.3,
+      "ratio_bp": 0.1778,
+      "sector": "Micro"
+    },
+    {
+      "sym": "KTCC",
+      "prob": 0.689,
+      "price": 3.89,
+      "ratio_bp": 0.1771,
+      "sector": "Small"
+    },
+    {
+      "sym": "AIOT",
+      "prob": 0.7325,
+      "price": 4.14,
+      "ratio_bp": 0.1769,
+      "sector": "Small"
+    },
+    {
+      "sym": "ZEPP",
+      "prob": 0.9031,
+      "price": 5.16,
+      "ratio_bp": 0.175,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "APYX",
+      "prob": 0.7255,
+      "price": 4.15,
+      "ratio_bp": 0.1748,
+      "sector": "Small"
+    },
+    {
+      "sym": "CLOV",
+      "prob": 0.8633,
+      "price": 4.94,
+      "ratio_bp": 0.1748,
+      "sector": "Small"
+    },
+    {
+      "sym": "NWL",
+      "prob": 0.8247,
+      "price": 4.74,
+      "ratio_bp": 0.174,
+      "sector": "Small"
+    },
+    {
+      "sym": "UIS",
+      "prob": 0.6578,
+      "price": 3.78,
+      "ratio_bp": 0.174,
+      "sector": "Small"
+    },
+    {
+      "sym": "WOOF",
+      "prob": 0.4836,
+      "price": 2.78,
+      "ratio_bp": 0.174,
+      "sector": "Micro"
+    },
+    {
+      "sym": "VRRM",
+      "prob": 0.8732,
+      "price": 5.02,
+      "ratio_bp": 0.1739,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "GRDX",
+      "prob": 0.8807,
+      "price": 5.09,
+      "ratio_bp": 0.173,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PGEN",
+      "prob": 0.8139,
+      "price": 4.75,
+      "ratio_bp": 0.1713,
+      "sector": "Small"
+    },
+    {
+      "sym": "CABA",
+      "prob": 0.5148,
+      "price": 3.01,
+      "ratio_bp": 0.171,
+      "sector": "Small"
+    },
+    {
+      "sym": "AMPY",
+      "prob": 0.6938,
+      "price": 4.08,
+      "ratio_bp": 0.1701,
+      "sector": "Small"
+    },
+    {
+      "sym": "GNLN",
+      "prob": 0.558,
+      "price": 3.28,
+      "ratio_bp": 0.1701,
+      "sector": "Small"
+    },
+    {
+      "sym": "ARQ",
+      "prob": 0.471,
+      "price": 2.77,
+      "ratio_bp": 0.17,
+      "sector": "Micro"
+    },
+    {
+      "sym": "DWSN",
+      "prob": 0.751,
+      "price": 4.42,
+      "ratio_bp": 0.1699,
+      "sector": "Small"
+    },
+    {
+      "sym": "HTT",
+      "prob": 0.5145,
+      "price": 3.04,
+      "ratio_bp": 0.1692,
+      "sector": "Small"
+    },
+    {
+      "sym": "CRWS",
+      "prob": 0.4663,
+      "price": 2.76,
+      "ratio_bp": 0.1689,
+      "sector": "Micro"
+    },
+    {
+      "sym": "LINK",
+      "prob": 0.7184,
+      "price": 4.27,
+      "ratio_bp": 0.1682,
+      "sector": "Small"
+    },
+    {
+      "sym": "VSA",
+      "prob": 0.8412,
+      "price": 5.0,
+      "ratio_bp": 0.1682,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BWEN",
+      "prob": 0.8023,
+      "price": 4.78,
+      "ratio_bp": 0.1679,
+      "sector": "Small"
+    },
+    {
+      "sym": "QNRX",
+      "prob": 0.7467,
+      "price": 4.46,
+      "ratio_bp": 0.1674,
+      "sector": "Small"
+    },
+    {
+      "sym": "NMTC",
+      "prob": 0.5437,
+      "price": 3.25,
+      "ratio_bp": 0.1673,
+      "sector": "Small"
+    },
+    {
+      "sym": "NAII",
+      "prob": 0.4119,
+      "price": 2.5,
+      "ratio_bp": 0.1647,
+      "sector": "Micro"
+    },
+    {
+      "sym": "VOC",
+      "prob": 0.4571,
+      "price": 2.79,
+      "ratio_bp": 0.1638,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BRFH",
+      "prob": 0.3526,
+      "price": 2.16,
+      "ratio_bp": 0.1632,
+      "sector": "Micro"
+    },
+    {
+      "sym": "COTY",
+      "prob": 0.3408,
+      "price": 2.09,
+      "ratio_bp": 0.1631,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CMRC",
+      "prob": 0.4572,
+      "price": 2.81,
+      "ratio_bp": 0.1627,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SMWB",
+      "prob": 0.819,
+      "price": 5.06,
+      "ratio_bp": 0.1619,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "TTGT",
+      "prob": 0.5958,
+      "price": 3.68,
+      "ratio_bp": 0.1619,
+      "sector": "Small"
+    },
+    {
+      "sym": "PSTV",
+      "prob": 0.7356,
+      "price": 4.57,
+      "ratio_bp": 0.161,
+      "sector": "Small"
+    },
+    {
+      "sym": "TOUR",
+      "prob": 0.7426,
+      "price": 4.65,
+      "ratio_bp": 0.1597,
+      "sector": "Small"
+    },
+    {
+      "sym": "LTRN",
+      "prob": 0.6232,
+      "price": 3.91,
+      "ratio_bp": 0.1594,
+      "sector": "Small"
+    },
+    {
+      "sym": "OLOX",
+      "prob": 0.8907,
+      "price": 5.59,
+      "ratio_bp": 0.1593,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "GOGO",
+      "prob": 0.5695,
+      "price": 3.59,
+      "ratio_bp": 0.1586,
+      "sector": "Small"
+    },
+    {
+      "sym": "PRLD",
+      "prob": 0.662,
+      "price": 4.2,
+      "ratio_bp": 0.1576,
+      "sector": "Small"
+    },
+    {
+      "sym": "VRA",
+      "prob": 0.5652,
+      "price": 3.59,
+      "ratio_bp": 0.1574,
+      "sector": "Small"
+    },
+    {
+      "sym": "OFS",
+      "prob": 0.6114,
+      "price": 3.92,
+      "ratio_bp": 0.156,
+      "sector": "Small"
+    },
+    {
+      "sym": "RSSS",
+      "prob": 0.3496,
+      "price": 2.25,
+      "ratio_bp": 0.1554,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CCCC",
+      "prob": 0.5945,
+      "price": 3.84,
+      "ratio_bp": 0.1548,
+      "sector": "Small"
+    },
+    {
+      "sym": "QCLS",
+      "prob": 0.5976,
+      "price": 3.87,
+      "ratio_bp": 0.1544,
+      "sector": "Small"
+    },
+    {
+      "sym": "GRI",
+      "prob": 0.339,
+      "price": 2.2,
+      "ratio_bp": 0.1541,
+      "sector": "Micro"
+    },
+    {
+      "sym": "ALTO",
+      "prob": 0.7451,
+      "price": 4.84,
+      "ratio_bp": 0.1539,
+      "sector": "Small"
+    },
+    {
+      "sym": "QXL",
+      "prob": 0.8418,
+      "price": 5.54,
+      "ratio_bp": 0.152,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "NCEL",
+      "prob": 0.4864,
+      "price": 3.21,
+      "ratio_bp": 0.1515,
+      "sector": "Small"
+    },
+    {
+      "sym": "ZSTK",
+      "prob": 0.7019,
+      "price": 4.64,
+      "ratio_bp": 0.1513,
+      "sector": "Small"
+    },
+    {
+      "sym": "RLX",
+      "prob": 0.2986,
+      "price": 1.98,
+      "ratio_bp": 0.1508,
+      "sector": "Micro"
+    },
+    {
+      "sym": "KXIN",
+      "prob": 0.7079,
+      "price": 4.7,
+      "ratio_bp": 0.1506,
+      "sector": "Small"
+    },
+    {
+      "sym": "CD",
+      "prob": 0.7146,
+      "price": 4.75,
+      "ratio_bp": 0.1504,
+      "sector": "Small"
+    },
+    {
+      "sym": "ANGH",
+      "prob": 0.8668,
+      "price": 5.77,
+      "ratio_bp": 0.1502,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ATHE",
+      "prob": 0.6972,
+      "price": 4.65,
+      "ratio_bp": 0.1499,
+      "sector": "Small"
+    },
+    {
+      "sym": "NCTY",
+      "prob": 0.7672,
+      "price": 5.12,
+      "ratio_bp": 0.1498,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "AGEN",
+      "prob": 0.4462,
+      "price": 2.98,
+      "ratio_bp": 0.1497,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SABS",
+      "prob": 0.5461,
+      "price": 3.66,
+      "ratio_bp": 0.1492,
+      "sector": "Small"
+    },
+    {
+      "sym": "CERS",
+      "prob": 0.3682,
+      "price": 2.47,
+      "ratio_bp": 0.1491,
+      "sector": "Micro"
+    },
+    {
+      "sym": "INDI",
+      "prob": 0.5847,
+      "price": 3.93,
+      "ratio_bp": 0.1488,
+      "sector": "Small"
+    },
+    {
+      "sym": "CLNE",
+      "prob": 0.2797,
+      "price": 1.89,
+      "ratio_bp": 0.148,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BORR",
+      "prob": 0.6348,
+      "price": 4.31,
+      "ratio_bp": 0.1473,
+      "sector": "Small"
+    },
+    {
+      "sym": "SCLX",
+      "prob": 0.8637,
+      "price": 5.88,
+      "ratio_bp": 0.1469,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LRMR",
+      "prob": 0.4978,
+      "price": 3.4,
+      "ratio_bp": 0.1464,
+      "sector": "Small"
+    },
+    {
+      "sym": "CDZI",
+      "prob": 0.5521,
+      "price": 3.78,
+      "ratio_bp": 0.1461,
+      "sector": "Small"
+    },
+    {
+      "sym": "API",
+      "prob": 0.6289,
+      "price": 4.32,
+      "ratio_bp": 0.1456,
+      "sector": "Small"
+    },
+    {
+      "sym": "LFVN",
+      "prob": 0.8776,
+      "price": 6.04,
+      "ratio_bp": 0.1453,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "YHGJ",
+      "prob": 0.4999,
+      "price": 3.44,
+      "ratio_bp": 0.1453,
+      "sector": "Small"
+    },
+    {
+      "sym": "BAFN",
+      "prob": 0.7219,
+      "price": 4.98,
+      "ratio_bp": 0.145,
+      "sector": "Small"
+    },
+    {
+      "sym": "VIVO",
+      "prob": 0.689,
+      "price": 4.77,
+      "ratio_bp": 0.1444,
+      "sector": "Small"
+    },
+    {
+      "sym": "NDRA",
+      "prob": 0.6738,
+      "price": 4.69,
+      "ratio_bp": 0.1437,
+      "sector": "Small"
+    },
+    {
+      "sym": "IPWR",
+      "prob": 0.8182,
+      "price": 5.7,
+      "ratio_bp": 0.1435,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "KOPN",
+      "prob": 0.6954,
+      "price": 4.86,
+      "ratio_bp": 0.1431,
+      "sector": "Small"
+    },
+    {
+      "sym": "NEPH",
+      "prob": 0.4564,
+      "price": 3.19,
+      "ratio_bp": 0.1431,
+      "sector": "Small"
+    },
+    {
+      "sym": "CLAR",
+      "prob": 0.4395,
+      "price": 3.08,
+      "ratio_bp": 0.1427,
+      "sector": "Small"
+    },
+    {
+      "sym": "ALT",
+      "prob": 0.3741,
+      "price": 2.63,
+      "ratio_bp": 0.1422,
+      "sector": "Micro"
+    },
+    {
+      "sym": "EDSA",
+      "prob": 0.8859,
+      "price": 6.27,
+      "ratio_bp": 0.1413,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "KEEL",
+      "prob": 0.8415,
+      "price": 5.96,
+      "ratio_bp": 0.1412,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ATXG",
+      "prob": 0.6821,
+      "price": 4.84,
+      "ratio_bp": 0.1409,
+      "sector": "Small"
+    },
+    {
+      "sym": "SONM",
+      "prob": 0.6681,
+      "price": 4.74,
+      "ratio_bp": 0.1409,
+      "sector": "Small"
+    },
+    {
+      "sym": "TOI",
+      "prob": 0.7171,
+      "price": 5.1,
+      "ratio_bp": 0.1406,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ERNA",
+      "prob": 0.8552,
+      "price": 6.1,
+      "ratio_bp": 0.1402,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SATL",
+      "prob": 0.858,
+      "price": 6.14,
+      "ratio_bp": 0.1397,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LCID",
+      "prob": 0.699,
+      "price": 5.02,
+      "ratio_bp": 0.1392,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "TCPC",
+      "prob": 0.4806,
+      "price": 3.48,
+      "ratio_bp": 0.1381,
+      "sector": "Small"
+    },
+    {
+      "sym": "PAVM",
+      "prob": 0.684,
+      "price": 4.99,
+      "ratio_bp": 0.1372,
+      "sector": "Small"
+    },
+    {
+      "sym": "BOLT",
+      "prob": 0.5895,
+      "price": 4.31,
+      "ratio_bp": 0.1368,
+      "sector": "Small"
+    },
+    {
+      "sym": "POWW",
+      "prob": 0.2667,
+      "price": 1.95,
+      "ratio_bp": 0.1368,
+      "sector": "Micro"
+    },
+    {
+      "sym": "PRHI",
+      "prob": 0.6608,
+      "price": 4.83,
+      "ratio_bp": 0.1368,
+      "sector": "Small"
+    },
+    {
+      "sym": "TACT",
+      "prob": 0.6913,
+      "price": 5.09,
+      "ratio_bp": 0.1358,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CULP",
+      "prob": 0.4357,
+      "price": 3.21,
+      "ratio_bp": 0.1357,
+      "sector": "Small"
+    },
+    {
+      "sym": "RRGB",
+      "prob": 0.8162,
+      "price": 6.05,
+      "ratio_bp": 0.1349,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SPRU",
+      "prob": 0.3812,
+      "price": 2.83,
+      "ratio_bp": 0.1347,
+      "sector": "Micro"
+    },
+    {
+      "sym": "TDUP",
+      "prob": 0.7118,
+      "price": 5.29,
+      "ratio_bp": 0.1346,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CCO",
+      "prob": 0.3228,
+      "price": 2.4,
+      "ratio_bp": 0.1345,
+      "sector": "Micro"
+    },
+    {
+      "sym": "DCOY",
+      "prob": 0.7903,
+      "price": 5.88,
+      "ratio_bp": 0.1344,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BFLY",
+      "prob": 0.7494,
+      "price": 5.62,
+      "ratio_bp": 0.1333,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PSEC",
+      "prob": 0.2997,
+      "price": 2.25,
+      "ratio_bp": 0.1332,
+      "sector": "Micro"
+    },
+    {
+      "sym": "OPEN",
+      "prob": 0.6318,
+      "price": 4.75,
+      "ratio_bp": 0.133,
+      "sector": "Small"
+    },
+    {
+      "sym": "IHRT",
+      "prob": 0.5297,
+      "price": 3.99,
+      "ratio_bp": 0.1328,
+      "sector": "Small"
+    },
+    {
+      "sym": "VOXR",
+      "prob": 0.7267,
+      "price": 5.47,
+      "ratio_bp": 0.1328,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "AUC",
+      "prob": 0.7681,
+      "price": 5.8,
+      "ratio_bp": 0.1324,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "XNET",
+      "prob": 0.7255,
+      "price": 5.5,
+      "ratio_bp": 0.1319,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CIG",
+      "prob": 0.2764,
+      "price": 2.1,
+      "ratio_bp": 0.1316,
+      "sector": "Micro"
+    },
+    {
+      "sym": "APVO",
+      "prob": 0.5964,
+      "price": 4.54,
+      "ratio_bp": 0.1314,
+      "sector": "Small"
+    },
+    {
+      "sym": "BYRN",
+      "prob": 0.743,
+      "price": 5.66,
+      "ratio_bp": 0.1313,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CLIR",
+      "prob": 0.5411,
+      "price": 4.12,
+      "ratio_bp": 0.1313,
+      "sector": "Small"
+    },
+    {
+      "sym": "GRAB",
+      "prob": 0.4575,
+      "price": 3.49,
+      "ratio_bp": 0.1311,
+      "sector": "Small"
+    },
+    {
+      "sym": "JBLU",
+      "prob": 0.682,
+      "price": 5.22,
+      "ratio_bp": 0.1306,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "EVAX",
+      "prob": 0.4461,
+      "price": 3.42,
+      "ratio_bp": 0.1304,
+      "sector": "Small"
+    },
+    {
+      "sym": "LPL",
+      "prob": 0.6091,
+      "price": 4.67,
+      "ratio_bp": 0.1304,
+      "sector": "Small"
+    },
+    {
+      "sym": "FTCI",
+      "prob": 0.5768,
+      "price": 4.43,
+      "ratio_bp": 0.1302,
+      "sector": "Small"
+    },
+    {
+      "sym": "VSTM",
+      "prob": 0.5207,
+      "price": 4.01,
+      "ratio_bp": 0.1298,
+      "sector": "Small"
+    },
+    {
+      "sym": "LSTA",
+      "prob": 0.452,
+      "price": 3.49,
+      "ratio_bp": 0.1295,
+      "sector": "Small"
+    },
+    {
+      "sym": "ANNX",
+      "prob": 0.5832,
+      "price": 4.52,
+      "ratio_bp": 0.129,
+      "sector": "Small"
+    },
+    {
+      "sym": "NCMI",
+      "prob": 0.4691,
+      "price": 3.64,
+      "ratio_bp": 0.1289,
+      "sector": "Small"
+    },
+    {
+      "sym": "CERT",
+      "prob": 0.7788,
+      "price": 6.05,
+      "ratio_bp": 0.1287,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CRON",
+      "prob": 0.3344,
+      "price": 2.6,
+      "ratio_bp": 0.1286,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SKIL",
+      "prob": 0.7906,
+      "price": 6.16,
+      "ratio_bp": 0.1284,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "VNCE",
+      "prob": 0.8804,
+      "price": 6.87,
+      "ratio_bp": 0.1282,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "DHX",
+      "prob": 0.4522,
+      "price": 3.53,
+      "ratio_bp": 0.1281,
+      "sector": "Small"
+    },
+    {
+      "sym": "CREX",
+      "prob": 0.4713,
+      "price": 3.7,
+      "ratio_bp": 0.1274,
+      "sector": "Small"
+    },
+    {
+      "sym": "ASTL",
+      "prob": 0.6237,
+      "price": 4.91,
+      "ratio_bp": 0.127,
+      "sector": "Small"
+    },
+    {
+      "sym": "ELDN",
+      "prob": 0.4386,
+      "price": 3.48,
+      "ratio_bp": 0.126,
+      "sector": "Small"
+    },
+    {
+      "sym": "BTE",
+      "prob": 0.53,
+      "price": 4.22,
+      "ratio_bp": 0.1256,
+      "sector": "Small"
+    },
+    {
+      "sym": "MYGN",
+      "prob": 0.5336,
+      "price": 4.25,
+      "ratio_bp": 0.1256,
+      "sector": "Small"
+    },
+    {
+      "sym": "NUVB",
+      "prob": 0.6476,
+      "price": 5.16,
+      "ratio_bp": 0.1255,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BBAI",
+      "prob": 0.4969,
+      "price": 3.97,
+      "ratio_bp": 0.1252,
+      "sector": "Small"
+    },
+    {
+      "sym": "LESL",
+      "prob": 0.8828,
+      "price": 7.05,
+      "ratio_bp": 0.1252,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LFMD",
+      "prob": 0.6033,
+      "price": 4.82,
+      "ratio_bp": 0.1252,
+      "sector": "Small"
+    },
+    {
+      "sym": "CCM",
+      "prob": 0.5672,
+      "price": 4.54,
+      "ratio_bp": 0.1249,
+      "sector": "Small"
+    },
+    {
+      "sym": "PNNT",
+      "prob": 0.4619,
+      "price": 3.71,
+      "ratio_bp": 0.1245,
+      "sector": "Small"
+    },
+    {
+      "sym": "OSUR",
+      "prob": 0.5373,
+      "price": 4.32,
+      "ratio_bp": 0.1244,
+      "sector": "Small"
+    },
+    {
+      "sym": "EOSE",
+      "prob": 0.8444,
+      "price": 6.81,
+      "ratio_bp": 0.124,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "MCRB",
+      "prob": 0.7037,
+      "price": 5.7,
+      "ratio_bp": 0.1235,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "MTEX",
+      "prob": 0.67,
+      "price": 5.43,
+      "ratio_bp": 0.1234,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "GROW",
+      "prob": 0.3529,
+      "price": 2.91,
+      "ratio_bp": 0.1213,
+      "sector": "Micro"
+    },
+    {
+      "sym": "CPSH",
+      "prob": 0.881,
+      "price": 7.29,
+      "ratio_bp": 0.1209,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LIXT",
+      "prob": 0.8271,
+      "price": 6.88,
+      "ratio_bp": 0.1202,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "EVH",
+      "prob": 0.5658,
+      "price": 4.71,
+      "ratio_bp": 0.1201,
+      "sector": "Small"
+    },
+    {
+      "sym": "UGP",
+      "prob": 0.5615,
+      "price": 4.69,
+      "ratio_bp": 0.1197,
+      "sector": "Small"
+    },
+    {
+      "sym": "OKUR",
+      "prob": 0.5032,
+      "price": 4.25,
+      "ratio_bp": 0.1184,
+      "sector": "Small"
+    },
+    {
+      "sym": "AVAL",
+      "prob": 0.6521,
+      "price": 5.51,
+      "ratio_bp": 0.1183,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BDRX",
+      "prob": 0.3511,
+      "price": 2.98,
+      "ratio_bp": 0.1178,
+      "sector": "Micro"
+    },
+    {
+      "sym": "AGPU",
+      "prob": 0.8686,
+      "price": 7.4,
+      "ratio_bp": 0.1174,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CNF",
+      "prob": 0.3593,
+      "price": 3.09,
+      "ratio_bp": 0.1163,
+      "sector": "Small"
+    },
+    {
+      "sym": "DBI",
+      "prob": 0.7532,
+      "price": 6.5,
+      "ratio_bp": 0.1159,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "RIG",
+      "prob": 0.6454,
+      "price": 5.58,
+      "ratio_bp": 0.1157,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "NERV",
+      "prob": 0.5168,
+      "price": 4.51,
+      "ratio_bp": 0.1146,
+      "sector": "Small"
+    },
+    {
+      "sym": "PAYO",
+      "prob": 0.8004,
+      "price": 7.02,
+      "ratio_bp": 0.114,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "MGNX",
+      "prob": 0.4421,
+      "price": 3.88,
+      "ratio_bp": 0.1139,
+      "sector": "Small"
+    },
+    {
+      "sym": "DGXX",
+      "prob": 0.7629,
+      "price": 6.73,
+      "ratio_bp": 0.1134,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "RGP",
+      "prob": 0.4978,
+      "price": 4.39,
+      "ratio_bp": 0.1134,
+      "sector": "Small"
+    },
+    {
+      "sym": "DTIL",
+      "prob": 0.689,
+      "price": 6.1,
+      "ratio_bp": 0.1129,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "EVO",
+      "prob": 0.2995,
+      "price": 2.69,
+      "ratio_bp": 0.1113,
+      "sector": "Micro"
+    },
+    {
+      "sym": "EH",
+      "prob": 0.7818,
+      "price": 7.06,
+      "ratio_bp": 0.1107,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ENIC",
+      "prob": 0.5131,
+      "price": 4.65,
+      "ratio_bp": 0.1104,
+      "sector": "Small"
+    },
+    {
+      "sym": "ENVX",
+      "prob": 0.7321,
+      "price": 6.63,
+      "ratio_bp": 0.1104,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CNSP",
+      "prob": 0.5384,
+      "price": 4.89,
+      "ratio_bp": 0.1101,
+      "sector": "Small"
+    },
+    {
+      "sym": "ORMP",
+      "prob": 0.4152,
+      "price": 3.77,
+      "ratio_bp": 0.1101,
+      "sector": "Small"
+    },
+    {
+      "sym": "BBBY",
+      "prob": 0.6589,
+      "price": 6.02,
+      "ratio_bp": 0.1095,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "FRMM",
+      "prob": 0.5817,
+      "price": 5.31,
+      "ratio_bp": 0.1095,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PASG",
+      "prob": 0.6,
+      "price": 5.5,
+      "ratio_bp": 0.1091,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "GSM",
+      "prob": 0.4185,
+      "price": 3.84,
+      "ratio_bp": 0.109,
+      "sector": "Small"
+    },
+    {
+      "sym": "POCI",
+      "prob": 0.6424,
+      "price": 5.9,
+      "ratio_bp": 0.1089,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ANGI",
+      "prob": 0.5853,
+      "price": 5.39,
+      "ratio_bp": 0.1086,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SRTA",
+      "prob": 0.6332,
+      "price": 5.84,
+      "ratio_bp": 0.1084,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SCOR",
+      "prob": 0.77,
+      "price": 7.17,
+      "ratio_bp": 0.1074,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ALTG",
+      "prob": 0.7721,
+      "price": 7.21,
+      "ratio_bp": 0.1071,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BGDE",
+      "prob": 0.8928,
+      "price": 8.34,
+      "ratio_bp": 0.1071,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "FGNX",
+      "prob": 0.6837,
+      "price": 6.4,
+      "ratio_bp": 0.1068,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PCT",
+      "prob": 0.875,
+      "price": 8.19,
+      "ratio_bp": 0.1068,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "ARTW",
+      "prob": 0.2815,
+      "price": 2.64,
+      "ratio_bp": 0.1066,
+      "sector": "Micro"
+    },
+    {
+      "sym": "WHWK",
+      "prob": 0.4425,
+      "price": 4.17,
+      "ratio_bp": 0.1061,
+      "sector": "Small"
+    },
+    {
+      "sym": "PRTS",
+      "prob": 0.7228,
+      "price": 6.82,
+      "ratio_bp": 0.106,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BNR",
+      "prob": 0.8611,
+      "price": 8.13,
+      "ratio_bp": 0.1059,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "GTN",
+      "prob": 0.4141,
+      "price": 3.91,
+      "ratio_bp": 0.1059,
+      "sector": "Small"
+    },
+    {
+      "sym": "CENN",
+      "prob": 0.4211,
+      "price": 4.0,
+      "ratio_bp": 0.1053,
+      "sector": "Small"
+    },
+    {
+      "sym": "OWLT",
+      "prob": 0.4665,
+      "price": 4.45,
+      "ratio_bp": 0.1048,
+      "sector": "Small"
+    },
+    {
+      "sym": "GSIT",
+      "prob": 0.7896,
+      "price": 7.55,
+      "ratio_bp": 0.1046,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SDOT",
+      "prob": 0.9,
+      "price": 8.67,
+      "ratio_bp": 0.1038,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "DUKR",
+      "prob": 0.6999,
+      "price": 6.8,
+      "ratio_bp": 0.1029,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PACK",
+      "prob": 0.7607,
+      "price": 7.4,
+      "ratio_bp": 0.1028,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PXLW",
+      "prob": 0.6574,
+      "price": 6.4,
+      "ratio_bp": 0.1027,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "WKEY",
+      "prob": 0.7807,
+      "price": 7.6,
+      "ratio_bp": 0.1027,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "AENT",
+      "prob": 0.5366,
+      "price": 5.25,
+      "ratio_bp": 0.1022,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "FF",
+      "prob": 0.4432,
+      "price": 4.34,
+      "ratio_bp": 0.1021,
+      "sector": "Small"
+    },
+    {
+      "sym": "AMPG",
+      "prob": 0.8929,
+      "price": 8.78,
+      "ratio_bp": 0.1017,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "NL",
+      "prob": 0.6064,
+      "price": 5.97,
+      "ratio_bp": 0.1016,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LFWD",
+      "prob": 0.7017,
+      "price": 6.92,
+      "ratio_bp": 0.1015,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ECOR",
+      "prob": 0.8749,
+      "price": 8.68,
+      "ratio_bp": 0.1009,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "IZEA",
+      "prob": 0.3679,
+      "price": 3.65,
+      "ratio_bp": 0.1008,
+      "sector": "Small"
+    },
+    {
+      "sym": "SCZM",
+      "prob": 0.802,
+      "price": 7.97,
+      "ratio_bp": 0.1006,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ZNTL",
+      "prob": 0.3542,
+      "price": 3.52,
+      "ratio_bp": 0.1006,
+      "sector": "Small"
+    },
+    {
+      "sym": "RNAC",
+      "prob": 0.8986,
+      "price": 9.05,
+      "ratio_bp": 0.0993,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "CSBR",
+      "prob": 0.6822,
+      "price": 6.88,
+      "ratio_bp": 0.0992,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BZUN",
+      "prob": 0.2704,
+      "price": 2.73,
+      "ratio_bp": 0.099,
+      "sector": "Micro"
+    },
+    {
+      "sym": "OEC",
+      "prob": 0.778,
+      "price": 7.89,
+      "ratio_bp": 0.0986,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "MDXG",
+      "prob": 0.3636,
+      "price": 3.7,
+      "ratio_bp": 0.0983,
+      "sector": "Small"
+    },
+    {
+      "sym": "CLNN",
+      "prob": 0.5746,
+      "price": 5.85,
+      "ratio_bp": 0.0982,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "GRNT",
+      "prob": 0.4614,
+      "price": 4.7,
+      "ratio_bp": 0.0982,
+      "sector": "Small"
+    },
+    {
+      "sym": "ARRY",
+      "prob": 0.767,
+      "price": 7.86,
+      "ratio_bp": 0.0976,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ATOM",
+      "prob": 0.8603,
+      "price": 8.81,
+      "ratio_bp": 0.0976,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "BKKT",
+      "prob": 0.8567,
+      "price": 8.79,
+      "ratio_bp": 0.0975,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "CRBP",
+      "prob": 0.7666,
+      "price": 7.88,
+      "ratio_bp": 0.0973,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "KVHI",
+      "prob": 0.869,
+      "price": 8.97,
+      "ratio_bp": 0.0969,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "LFCR",
+      "prob": 0.5176,
+      "price": 5.35,
+      "ratio_bp": 0.0968,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "VYX",
+      "prob": 0.7251,
+      "price": 7.51,
+      "ratio_bp": 0.0966,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LYG",
+      "prob": 0.5356,
+      "price": 5.56,
+      "ratio_bp": 0.0963,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "VLRS",
+      "prob": 0.8382,
+      "price": 8.7,
+      "ratio_bp": 0.0963,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "MNTS",
+      "prob": 0.896,
+      "price": 9.31,
+      "ratio_bp": 0.0962,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "SRL",
+      "prob": 0.5894,
+      "price": 6.13,
+      "ratio_bp": 0.0961,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "QH",
+      "prob": 0.9057,
+      "price": 9.46,
+      "ratio_bp": 0.0957,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "PTON",
+      "prob": 0.5293,
+      "price": 5.55,
+      "ratio_bp": 0.0954,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "OLMA",
+      "prob": 0.8753,
+      "price": 9.19,
+      "ratio_bp": 0.0952,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "MRVI",
+      "prob": 0.4764,
+      "price": 5.01,
+      "ratio_bp": 0.0951,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CRSR",
+      "prob": 0.7936,
+      "price": 8.39,
+      "ratio_bp": 0.0946,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "RTB",
+      "prob": 0.8837,
+      "price": 9.37,
+      "ratio_bp": 0.0943,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "TPVG",
+      "prob": 0.4852,
+      "price": 5.15,
+      "ratio_bp": 0.0942,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "EPSN",
+      "prob": 0.5037,
+      "price": 5.38,
+      "ratio_bp": 0.0936,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SLN",
+      "prob": 0.6275,
+      "price": 6.71,
+      "ratio_bp": 0.0935,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "STEM",
+      "prob": 0.7243,
+      "price": 7.78,
+      "ratio_bp": 0.0931,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "REPL",
+      "prob": 0.8135,
+      "price": 8.78,
+      "ratio_bp": 0.0927,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "LUCK",
+      "prob": 0.7395,
+      "price": 7.99,
+      "ratio_bp": 0.0926,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SKLZ",
+      "prob": 0.7669,
+      "price": 8.33,
+      "ratio_bp": 0.0921,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "OBIO",
+      "prob": 0.3542,
+      "price": 3.85,
+      "ratio_bp": 0.092,
+      "sector": "Small"
+    },
+    {
+      "sym": "AUR",
+      "prob": 0.5628,
+      "price": 6.14,
+      "ratio_bp": 0.0917,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "FINV",
+      "prob": 0.4441,
+      "price": 4.85,
+      "ratio_bp": 0.0916,
+      "sector": "Small"
+    },
+    {
+      "sym": "ICL",
+      "prob": 0.4954,
+      "price": 5.42,
+      "ratio_bp": 0.0914,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "KFFB",
+      "prob": 0.4253,
+      "price": 4.7,
+      "ratio_bp": 0.0905,
+      "sector": "Small"
+    },
+    {
+      "sym": "AZ",
+      "prob": 0.5233,
+      "price": 5.79,
+      "ratio_bp": 0.0904,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "VYGR",
+      "prob": 0.3161,
+      "price": 3.5,
+      "ratio_bp": 0.0903,
+      "sector": "Small"
+    },
+    {
+      "sym": "RUM",
+      "prob": 0.6656,
+      "price": 7.39,
+      "ratio_bp": 0.0901,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "NIO",
+      "prob": 0.4492,
+      "price": 5.02,
+      "ratio_bp": 0.0895,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "AVAH",
+      "prob": 0.6707,
+      "price": 7.52,
+      "ratio_bp": 0.0892,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "WNC",
+      "prob": 0.8212,
+      "price": 9.29,
+      "ratio_bp": 0.0884,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "HPK",
+      "prob": 0.6638,
+      "price": 7.52,
+      "ratio_bp": 0.0883,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "INNV",
+      "prob": 0.81,
+      "price": 9.28,
+      "ratio_bp": 0.0873,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "RLMD",
+      "prob": 0.5712,
+      "price": 6.55,
+      "ratio_bp": 0.0872,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PYPD",
+      "prob": 0.4037,
+      "price": 4.66,
+      "ratio_bp": 0.0866,
+      "sector": "Small"
+    },
+    {
+      "sym": "AMWL",
+      "prob": 0.7469,
+      "price": 8.64,
+      "ratio_bp": 0.0864,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "EAF",
+      "prob": 0.686,
+      "price": 8.09,
+      "ratio_bp": 0.0848,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "LTRX",
+      "prob": 0.5556,
+      "price": 6.6,
+      "ratio_bp": 0.0842,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "MASS",
+      "prob": 0.7257,
+      "price": 8.64,
+      "ratio_bp": 0.084,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "PERI",
+      "prob": 0.7242,
+      "price": 8.63,
+      "ratio_bp": 0.0839,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "VALN",
+      "prob": 0.4499,
+      "price": 5.36,
+      "ratio_bp": 0.0839,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "JXG",
+      "prob": 0.7539,
+      "price": 9.0,
+      "ratio_bp": 0.0838,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "PRTH",
+      "prob": 0.5322,
+      "price": 6.4,
+      "ratio_bp": 0.0831,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LUXE",
+      "prob": 0.6553,
+      "price": 7.94,
+      "ratio_bp": 0.0825,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "TSHA",
+      "prob": 0.4811,
+      "price": 5.85,
+      "ratio_bp": 0.0822,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CODA",
+      "prob": 0.7629,
+      "price": 9.31,
+      "ratio_bp": 0.0819,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "COMP",
+      "prob": 0.771,
+      "price": 9.42,
+      "ratio_bp": 0.0818,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "STLA",
+      "prob": 0.5432,
+      "price": 6.64,
+      "ratio_bp": 0.0818,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "MAKO",
+      "prob": 0.6204,
+      "price": 7.59,
+      "ratio_bp": 0.0817,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CIA",
+      "prob": 0.4582,
+      "price": 5.62,
+      "ratio_bp": 0.0815,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "VTSI",
+      "prob": 0.2767,
+      "price": 3.4,
+      "ratio_bp": 0.0814,
+      "sector": "Small"
+    },
+    {
+      "sym": "SOC",
+      "prob": 0.8123,
+      "price": 9.99,
+      "ratio_bp": 0.0813,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "SHLS",
+      "prob": 0.8079,
+      "price": 9.96,
+      "ratio_bp": 0.0811,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "LONA",
+      "prob": 0.6381,
+      "price": 7.88,
+      "ratio_bp": 0.081,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BVS",
+      "prob": 0.705,
+      "price": 8.72,
+      "ratio_bp": 0.0809,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "BODI",
+      "prob": 0.7045,
+      "price": 8.72,
+      "ratio_bp": 0.0808,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "OMER",
+      "prob": 0.7655,
+      "price": 9.48,
+      "ratio_bp": 0.0807,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "PXS",
+      "prob": 0.3608,
+      "price": 4.52,
+      "ratio_bp": 0.0798,
+      "sector": "Small"
+    },
+    {
+      "sym": "TBI",
+      "prob": 0.5433,
+      "price": 6.82,
+      "ratio_bp": 0.0797,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "IMA",
+      "prob": 0.4338,
+      "price": 5.45,
+      "ratio_bp": 0.0796,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "AVIR",
+      "prob": 0.3374,
+      "price": 4.26,
+      "ratio_bp": 0.0792,
+      "sector": "Small"
+    },
+    {
+      "sym": "CPIX",
+      "prob": 0.4482,
+      "price": 5.67,
+      "ratio_bp": 0.079,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LAR",
+      "prob": 0.7611,
+      "price": 9.63,
+      "ratio_bp": 0.079,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "EVC",
+      "prob": 0.7222,
+      "price": 9.15,
+      "ratio_bp": 0.0789,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "KPTI",
+      "prob": 0.7182,
+      "price": 9.1,
+      "ratio_bp": 0.0789,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "GT",
+      "prob": 0.4945,
+      "price": 6.31,
+      "ratio_bp": 0.0784,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ONDS",
+      "prob": 0.7223,
+      "price": 9.21,
+      "ratio_bp": 0.0784,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "OPRT",
+      "prob": 0.4109,
+      "price": 5.25,
+      "ratio_bp": 0.0783,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SXC",
+      "prob": 0.6895,
+      "price": 8.92,
+      "ratio_bp": 0.0773,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "WEN",
+      "prob": 0.5226,
+      "price": 6.77,
+      "ratio_bp": 0.0772,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "TPCS",
+      "prob": 0.2683,
+      "price": 3.48,
+      "ratio_bp": 0.0771,
+      "sector": "Small"
+    },
+    {
+      "sym": "LWLG",
+      "prob": 0.7224,
+      "price": 9.39,
+      "ratio_bp": 0.0769,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "PAYS",
+      "prob": 0.5481,
+      "price": 7.13,
+      "ratio_bp": 0.0769,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "GDYN",
+      "prob": 0.4895,
+      "price": 6.37,
+      "ratio_bp": 0.0768,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ESPR",
+      "prob": 0.2421,
+      "price": 3.16,
+      "ratio_bp": 0.0766,
+      "sector": "Small"
+    },
+    {
+      "sym": "LEE",
+      "prob": 0.717,
+      "price": 9.51,
+      "ratio_bp": 0.0754,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "DRTS",
+      "prob": 0.6989,
+      "price": 9.35,
+      "ratio_bp": 0.0748,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "CSPI",
+      "prob": 0.6974,
+      "price": 9.34,
+      "ratio_bp": 0.0747,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "NEXT",
+      "prob": 0.5425,
+      "price": 7.27,
+      "ratio_bp": 0.0746,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BGS",
+      "prob": 0.2936,
+      "price": 3.95,
+      "ratio_bp": 0.0743,
+      "sector": "Small"
+    },
+    {
+      "sym": "ELTK",
+      "prob": 0.7042,
+      "price": 9.5,
+      "ratio_bp": 0.0741,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "TKC",
+      "prob": 0.4539,
+      "price": 6.13,
+      "ratio_bp": 0.074,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ZH",
+      "prob": 0.236,
+      "price": 3.19,
+      "ratio_bp": 0.074,
+      "sector": "Small"
+    },
+    {
+      "sym": "SENS",
+      "prob": 0.5352,
+      "price": 7.24,
+      "ratio_bp": 0.0739,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ARCT",
+      "prob": 0.5263,
+      "price": 7.14,
+      "ratio_bp": 0.0737,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ARVN",
+      "prob": 0.558,
+      "price": 7.58,
+      "ratio_bp": 0.0736,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "RPD",
+      "prob": 0.5251,
+      "price": 7.14,
+      "ratio_bp": 0.0736,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "JYNT",
+      "prob": 0.6779,
+      "price": 9.24,
+      "ratio_bp": 0.0734,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "OPRX",
+      "prob": 0.3876,
+      "price": 5.28,
+      "ratio_bp": 0.0734,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "XERS",
+      "prob": 0.5055,
+      "price": 6.9,
+      "ratio_bp": 0.0733,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "RES",
+      "prob": 0.4903,
+      "price": 6.71,
+      "ratio_bp": 0.0731,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PD",
+      "prob": 0.6402,
+      "price": 8.81,
+      "ratio_bp": 0.0727,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "QS",
+      "prob": 0.5045,
+      "price": 6.94,
+      "ratio_bp": 0.0727,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ADXN",
+      "prob": 0.4506,
+      "price": 6.21,
+      "ratio_bp": 0.0726,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PSNL",
+      "prob": 0.6929,
+      "price": 9.59,
+      "ratio_bp": 0.0723,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "DNA",
+      "prob": 0.592,
+      "price": 8.22,
+      "ratio_bp": 0.072,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "ASAN",
+      "prob": 0.5278,
+      "price": 7.37,
+      "ratio_bp": 0.0716,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LTBR",
+      "prob": 0.6609,
+      "price": 9.28,
+      "ratio_bp": 0.0713,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "BCYC",
+      "prob": 0.2881,
+      "price": 4.05,
+      "ratio_bp": 0.0711,
+      "sector": "Small"
+    },
+    {
+      "sym": "GWAV",
+      "prob": 0.245,
+      "price": 3.46,
+      "ratio_bp": 0.0708,
+      "sector": "Small"
+    },
+    {
+      "sym": "LAKE",
+      "prob": 0.7029,
+      "price": 9.93,
+      "ratio_bp": 0.0708,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "GO",
+      "prob": 0.6956,
+      "price": 9.88,
+      "ratio_bp": 0.0704,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "WVE",
+      "prob": 0.412,
+      "price": 5.87,
+      "ratio_bp": 0.0702,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "VRCA",
+      "prob": 0.4209,
+      "price": 6.0,
+      "ratio_bp": 0.0701,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LVO",
+      "prob": 0.4368,
+      "price": 6.24,
+      "ratio_bp": 0.07,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ORIC",
+      "prob": 0.5807,
+      "price": 8.31,
+      "ratio_bp": 0.0699,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "NVAX",
+      "prob": 0.6399,
+      "price": 9.2,
+      "ratio_bp": 0.0696,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "GEOS",
+      "prob": 0.4969,
+      "price": 7.18,
+      "ratio_bp": 0.0692,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "MOMO",
+      "prob": 0.3959,
+      "price": 5.73,
+      "ratio_bp": 0.0691,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "TLRY",
+      "prob": 0.3345,
+      "price": 4.88,
+      "ratio_bp": 0.0686,
+      "sector": "Small"
+    },
+    {
+      "sym": "TROX",
+      "prob": 0.503,
+      "price": 7.53,
+      "ratio_bp": 0.0668,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "WU",
+      "prob": 0.4841,
+      "price": 7.26,
+      "ratio_bp": 0.0667,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ASPS",
+      "prob": 0.4508,
+      "price": 6.79,
+      "ratio_bp": 0.0664,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SRI",
+      "prob": 0.5011,
+      "price": 7.55,
+      "ratio_bp": 0.0664,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SBS",
+      "prob": 0.3669,
+      "price": 5.53,
+      "ratio_bp": 0.0663,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LND",
+      "prob": 0.2449,
+      "price": 3.7,
+      "ratio_bp": 0.0662,
+      "sector": "Small"
+    },
+    {
+      "sym": "KURA",
+      "prob": 0.6212,
+      "price": 9.4,
+      "ratio_bp": 0.0661,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "DLNG",
+      "prob": 0.2418,
+      "price": 3.67,
+      "ratio_bp": 0.0659,
+      "sector": "Small"
+    },
+    {
+      "sym": "KRMD",
+      "prob": 0.2588,
+      "price": 3.94,
+      "ratio_bp": 0.0657,
+      "sector": "Small"
+    },
+    {
+      "sym": "OTLY",
+      "prob": 0.5227,
+      "price": 8.03,
+      "ratio_bp": 0.0651,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "VNET",
+      "prob": 0.5871,
+      "price": 9.03,
+      "ratio_bp": 0.065,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "FORR",
+      "prob": 0.4433,
+      "price": 6.88,
+      "ratio_bp": 0.0644,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BGSF",
+      "prob": 0.3283,
+      "price": 5.11,
+      "ratio_bp": 0.0643,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "FDMT",
+      "prob": 0.5545,
+      "price": 8.67,
+      "ratio_bp": 0.064,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "OI",
+      "prob": 0.5753,
+      "price": 9.05,
+      "ratio_bp": 0.0636,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "SSTI",
+      "prob": 0.5101,
+      "price": 8.03,
+      "ratio_bp": 0.0635,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "JOBY",
+      "prob": 0.588,
+      "price": 9.34,
+      "ratio_bp": 0.063,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "OFIX",
+      "prob": 0.5929,
+      "price": 9.41,
+      "ratio_bp": 0.063,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "AMCX",
+      "prob": 0.6003,
+      "price": 9.57,
+      "ratio_bp": 0.0627,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "FLWS",
+      "prob": 0.2657,
+      "price": 4.27,
+      "ratio_bp": 0.0622,
+      "sector": "Small"
+    },
+    {
+      "sym": "GWRS",
+      "prob": 0.4279,
+      "price": 6.88,
+      "ratio_bp": 0.0622,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PRTA",
+      "prob": 0.5136,
+      "price": 8.29,
+      "ratio_bp": 0.062,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "AUDC",
+      "prob": 0.5767,
+      "price": 9.36,
+      "ratio_bp": 0.0616,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "LUMN",
+      "prob": 0.5152,
+      "price": 8.43,
+      "ratio_bp": 0.0611,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "SITC",
+      "prob": 0.2927,
+      "price": 4.82,
+      "ratio_bp": 0.0607,
+      "sector": "Small"
+    },
+    {
+      "sym": "OIS",
+      "prob": 0.4843,
+      "price": 8.0,
+      "ratio_bp": 0.0605,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "SPT",
+      "prob": 0.4274,
+      "price": 7.06,
+      "ratio_bp": 0.0605,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "EGY",
+      "prob": 0.3276,
+      "price": 5.43,
+      "ratio_bp": 0.0603,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "IMTX",
+      "prob": 0.5469,
+      "price": 9.09,
+      "ratio_bp": 0.0602,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "SSYS",
+      "prob": 0.5265,
+      "price": 8.74,
+      "ratio_bp": 0.0602,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "ASRV",
+      "prob": 0.224,
+      "price": 3.75,
+      "ratio_bp": 0.0597,
+      "sector": "Small"
+    },
+    {
+      "sym": "SIGA",
+      "prob": 0.255,
+      "price": 4.3,
+      "ratio_bp": 0.0593,
+      "sector": "Small"
+    },
+    {
+      "sym": "VIRC",
+      "prob": 0.3678,
+      "price": 6.2,
+      "ratio_bp": 0.0593,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "EVLV",
+      "prob": 0.3484,
+      "price": 5.92,
+      "ratio_bp": 0.0589,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CGNT",
+      "prob": 0.5078,
+      "price": 8.69,
+      "ratio_bp": 0.0584,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "UEIC",
+      "prob": 0.2305,
+      "price": 3.96,
+      "ratio_bp": 0.0582,
+      "sector": "Small"
+    },
+    {
+      "sym": "NMFC",
+      "prob": 0.4389,
+      "price": 7.56,
+      "ratio_bp": 0.0581,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "FOCL",
+      "prob": 0.2748,
+      "price": 4.75,
+      "ratio_bp": 0.0579,
+      "sector": "Small"
+    },
+    {
+      "sym": "CRCT",
+      "prob": 0.2582,
+      "price": 4.51,
+      "ratio_bp": 0.0573,
+      "sector": "Small"
+    },
+    {
+      "sym": "BCRX",
+      "prob": 0.5104,
+      "price": 8.92,
+      "ratio_bp": 0.0572,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "KOSS",
+      "prob": 0.2273,
+      "price": 3.98,
+      "ratio_bp": 0.0571,
+      "sector": "Small"
+    },
+    {
+      "sym": "CAAS",
+      "prob": 0.2528,
+      "price": 4.45,
+      "ratio_bp": 0.0568,
+      "sector": "Small"
+    },
+    {
+      "sym": "PROF",
+      "prob": 0.3824,
+      "price": 6.73,
+      "ratio_bp": 0.0568,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LSAK",
+      "prob": 0.2636,
+      "price": 4.67,
+      "ratio_bp": 0.0564,
+      "sector": "Small"
+    },
+    {
+      "sym": "MATV",
+      "prob": 0.4555,
+      "price": 8.11,
+      "ratio_bp": 0.0562,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "LNSR",
+      "prob": 0.3463,
+      "price": 6.18,
+      "ratio_bp": 0.056,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "EBS",
+      "prob": 0.4267,
+      "price": 7.66,
+      "ratio_bp": 0.0557,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SPRY",
+      "prob": 0.5364,
+      "price": 9.7,
+      "ratio_bp": 0.0553,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "UA",
+      "prob": 0.3143,
+      "price": 5.69,
+      "ratio_bp": 0.0552,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "UTZ",
+      "prob": 0.3983,
+      "price": 7.22,
+      "ratio_bp": 0.0552,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CCC",
+      "prob": 0.2506,
+      "price": 4.7,
+      "ratio_bp": 0.0533,
+      "sector": "Small"
+    },
+    {
+      "sym": "MGTX",
+      "prob": 0.5168,
+      "price": 9.71,
+      "ratio_bp": 0.0532,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "KYNB",
+      "prob": 0.3657,
+      "price": 6.91,
+      "ratio_bp": 0.0529,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "DMAC",
+      "prob": 0.2958,
+      "price": 5.65,
+      "ratio_bp": 0.0523,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "FENC",
+      "prob": 0.468,
+      "price": 8.96,
+      "ratio_bp": 0.0522,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "ACTG",
+      "prob": 0.241,
+      "price": 4.68,
+      "ratio_bp": 0.0515,
+      "sector": "Small"
+    },
+    {
+      "sym": "BOOM",
+      "prob": 0.3524,
+      "price": 6.9,
+      "ratio_bp": 0.0511,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "VNDA",
+      "prob": 0.2906,
+      "price": 5.73,
+      "ratio_bp": 0.0507,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "INSE",
+      "prob": 0.4099,
+      "price": 8.13,
+      "ratio_bp": 0.0504,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "RMAX",
+      "prob": 0.4871,
+      "price": 9.66,
+      "ratio_bp": 0.0504,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "MLCO",
+      "prob": 0.2689,
+      "price": 5.42,
+      "ratio_bp": 0.0496,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BHC",
+      "prob": 0.2453,
+      "price": 4.96,
+      "ratio_bp": 0.0495,
+      "sector": "Small"
+    },
+    {
+      "sym": "GJH",
+      "prob": 0.4647,
+      "price": 9.55,
+      "ratio_bp": 0.0487,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "OSG",
+      "prob": 0.2691,
+      "price": 5.6,
+      "ratio_bp": 0.0481,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BSBR",
+      "prob": 0.2577,
+      "price": 5.4,
+      "ratio_bp": 0.0477,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "OESX",
+      "prob": 0.4493,
+      "price": 9.44,
+      "ratio_bp": 0.0476,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "BRID",
+      "prob": 0.3335,
+      "price": 7.04,
+      "ratio_bp": 0.0474,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "EEX",
+      "prob": 0.2386,
+      "price": 5.03,
+      "ratio_bp": 0.0474,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "LSPD",
+      "prob": 0.451,
+      "price": 9.56,
+      "ratio_bp": 0.0472,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "ADMA",
+      "prob": 0.4018,
+      "price": 8.58,
+      "ratio_bp": 0.0468,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "ALLT",
+      "prob": 0.3295,
+      "price": 7.15,
+      "ratio_bp": 0.0461,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "BRBR",
+      "prob": 0.404,
+      "price": 8.85,
+      "ratio_bp": 0.0457,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "STGW",
+      "prob": 0.312,
+      "price": 6.86,
+      "ratio_bp": 0.0455,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "KRO",
+      "prob": 0.3158,
+      "price": 6.96,
+      "ratio_bp": 0.0454,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ASUR",
+      "prob": 0.3742,
+      "price": 8.34,
+      "ratio_bp": 0.0449,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "COUR",
+      "prob": 0.2361,
+      "price": 5.34,
+      "ratio_bp": 0.0442,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "NEOG",
+      "prob": 0.4104,
+      "price": 9.31,
+      "ratio_bp": 0.0441,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "SUZ",
+      "prob": 0.3661,
+      "price": 8.43,
+      "ratio_bp": 0.0434,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "TALK",
+      "prob": 0.224,
+      "price": 5.2,
+      "ratio_bp": 0.0431,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "NMR",
+      "prob": 0.3825,
+      "price": 8.93,
+      "ratio_bp": 0.0428,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "TSQ",
+      "prob": 0.2665,
+      "price": 6.39,
+      "ratio_bp": 0.0417,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "OCUL",
+      "prob": 0.3718,
+      "price": 8.94,
+      "ratio_bp": 0.0416,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "PSFE",
+      "prob": 0.2978,
+      "price": 7.18,
+      "ratio_bp": 0.0415,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "SKYH",
+      "prob": 0.3854,
+      "price": 9.39,
+      "ratio_bp": 0.041,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "DXC",
+      "prob": 0.3758,
+      "price": 9.23,
+      "ratio_bp": 0.0407,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "PANL",
+      "prob": 0.3088,
+      "price": 7.62,
+      "ratio_bp": 0.0405,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "KPLT",
+      "prob": 0.2428,
+      "price": 6.14,
+      "ratio_bp": 0.0395,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PHR",
+      "prob": 0.3696,
+      "price": 9.42,
+      "ratio_bp": 0.0392,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "SGA",
+      "prob": 0.3487,
+      "price": 8.93,
+      "ratio_bp": 0.039,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "MBI",
+      "prob": 0.2397,
+      "price": 6.3,
+      "ratio_bp": 0.038,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "CDRO",
+      "prob": 0.3711,
+      "price": 9.8,
+      "ratio_bp": 0.0379,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "PFLT",
+      "prob": 0.2972,
+      "price": 7.84,
+      "ratio_bp": 0.0379,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "TG",
+      "prob": 0.289,
+      "price": 7.73,
+      "ratio_bp": 0.0374,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ASLE",
+      "prob": 0.2272,
+      "price": 6.27,
+      "ratio_bp": 0.0362,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "IMMR",
+      "prob": 0.2338,
+      "price": 6.54,
+      "ratio_bp": 0.0358,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "PDM",
+      "prob": 0.3302,
+      "price": 9.21,
+      "ratio_bp": 0.0358,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "AIRG",
+      "prob": 0.2415,
+      "price": 6.83,
+      "ratio_bp": 0.0354,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "EGAN",
+      "prob": 0.2615,
+      "price": 7.4,
+      "ratio_bp": 0.0353,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "FLO",
+      "prob": 0.2682,
+      "price": 7.6,
+      "ratio_bp": 0.0353,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "ICCC",
+      "prob": 0.3187,
+      "price": 9.38,
+      "ratio_bp": 0.034,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "TDAY",
+      "prob": 0.2638,
+      "price": 7.77,
+      "ratio_bp": 0.034,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "OPFI",
+      "prob": 0.2971,
+      "price": 8.84,
+      "ratio_bp": 0.0336,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "CRMD",
+      "prob": 0.289,
+      "price": 8.65,
+      "ratio_bp": 0.0334,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "ITUB",
+      "prob": 0.2636,
+      "price": 7.95,
+      "ratio_bp": 0.0332,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "KMDA",
+      "prob": 0.2476,
+      "price": 7.46,
+      "ratio_bp": 0.0332,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "TIL",
+      "prob": 0.2465,
+      "price": 7.61,
+      "ratio_bp": 0.0324,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "WB",
+      "prob": 0.2418,
+      "price": 7.5,
+      "ratio_bp": 0.0322,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "GRFS",
+      "prob": 0.2431,
+      "price": 7.59,
+      "ratio_bp": 0.032,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "AOUT",
+      "prob": 0.3132,
+      "price": 9.89,
+      "ratio_bp": 0.0317,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "ELSE",
+      "prob": 0.2421,
+      "price": 7.66,
+      "ratio_bp": 0.0316,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "TAL",
+      "prob": 0.2872,
+      "price": 9.2,
+      "ratio_bp": 0.0312,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "MFIN",
+      "prob": 0.3073,
+      "price": 9.87,
+      "ratio_bp": 0.0311,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "BCIC",
+      "prob": 0.2272,
+      "price": 7.43,
+      "ratio_bp": 0.0306,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "TRAK",
+      "prob": 0.2883,
+      "price": 9.41,
+      "ratio_bp": 0.0306,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "ATEC",
+      "prob": 0.2544,
+      "price": 8.44,
+      "ratio_bp": 0.0301,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "QUAD",
+      "prob": 0.224,
+      "price": 7.5,
+      "ratio_bp": 0.0299,
+      "sector": "MidLo"
+    },
+    {
+      "sym": "KRNY",
+      "prob": 0.2566,
+      "price": 8.61,
+      "ratio_bp": 0.0298,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "FVRR",
+      "prob": 0.2912,
+      "price": 9.85,
+      "ratio_bp": 0.0296,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "KODK",
+      "prob": 0.2785,
+      "price": 9.43,
+      "ratio_bp": 0.0295,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "TME",
+      "prob": 0.2628,
+      "price": 8.93,
+      "ratio_bp": 0.0294,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "PAGS",
+      "prob": 0.2564,
+      "price": 8.99,
+      "ratio_bp": 0.0285,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "BBDC",
+      "prob": 0.2381,
+      "price": 8.41,
+      "ratio_bp": 0.0283,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "NTIC",
+      "prob": 0.2272,
+      "price": 8.06,
+      "ratio_bp": 0.0282,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "MFG",
+      "prob": 0.273,
+      "price": 9.76,
+      "ratio_bp": 0.028,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "BSBK",
+      "prob": 0.2519,
+      "price": 9.11,
+      "ratio_bp": 0.0277,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "CFFN",
+      "prob": 0.2238,
+      "price": 8.17,
+      "ratio_bp": 0.0274,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "CPSS",
+      "prob": 0.2535,
+      "price": 9.58,
+      "ratio_bp": 0.0265,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "GNW",
+      "prob": 0.2333,
+      "price": 8.95,
+      "ratio_bp": 0.0261,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "AEG",
+      "prob": 0.2238,
+      "price": 8.65,
+      "ratio_bp": 0.0259,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "KORE",
+      "prob": 0.224,
+      "price": 9.18,
+      "ratio_bp": 0.0244,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "OWL",
+      "prob": 0.2332,
+      "price": 9.83,
+      "ratio_bp": 0.0237,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "AFRI",
+      "prob": 0.2337,
+      "price": 9.97,
+      "ratio_bp": 0.0234,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "HNNA",
+      "prob": 0.2316,
+      "price": 9.88,
+      "ratio_bp": 0.0234,
+      "sector": "MidHi"
+    },
+    {
+      "sym": "GOOS",
+      "prob": 0.2315,
+      "price": 9.96,
+      "ratio_bp": 0.0232,
+      "sector": "MidHi"
+    }
+  ],
+  "top10_picks": [
+    {
+      "sym": "CRMT",
+      "prob": 0.9136,
+      "price": 2.34,
+      "ratio_bp": 0.3904,
+      "sector": "Micro"
+    },
+    {
+      "sym": "PPBT",
+      "prob": 0.9117,
+      "price": 1.64,
+      "ratio_bp": 0.5559,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NXTC",
+      "prob": 0.9115,
+      "price": 2.08,
+      "ratio_bp": 0.4393,
+      "sector": "Micro"
+    },
+    {
+      "sym": "ATOS",
+      "prob": 0.9068,
+      "price": 2.22,
+      "ratio_bp": 0.4085,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NYXH",
+      "prob": 0.9056,
+      "price": 1.58,
+      "ratio_bp": 0.5732,
+      "sector": "Micro"
+    },
+    {
+      "sym": "KUST",
+      "prob": 0.8942,
+      "price": 1.51,
+      "ratio_bp": 0.5922,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NGEN",
+      "prob": 0.8916,
+      "price": 2.0,
+      "ratio_bp": 0.4458,
+      "sector": "Micro"
+    },
+    {
+      "sym": "BDTX",
+      "prob": 0.8898,
+      "price": 1.68,
+      "ratio_bp": 0.5297,
+      "sector": "Micro"
+    },
+    {
+      "sym": "SY",
+      "prob": 0.888,
+      "price": 1.73,
+      "ratio_bp": 0.5133,
+      "sector": "Micro"
+    },
+    {
+      "sym": "NEOV",
+      "prob": 0.8864,
+      "price": 1.78,
+      "ratio_bp": 0.498,
+      "sector": "Micro"
+    }
+  ],
+  "top_pick": {
+    "sym": "CRMT",
+    "prob": 0.9136,
+    "price": 2.34,
+    "ratio_bp": 0.3904,
+    "sector": "Micro"
+  },
+  "prob_thresholds": {
+    "0.90+": 10,
+    "0.85+": 65,
+    "0.80+": 113,
+    "0.70+": 215
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "timestamp": "2026-06-18T21:21:02.920552",
+  "test_period": "2018-01-02 ~ 2026-06-10",
+  "n_years": 9,
+  "results": [
+    {
+      "name": "LGB Top-15 5d",
+      "annual_return": 0.483954793784273,
+      "max_drawdown": -0.568217568099563,
+      "avg_drawdown": -0.04774729486123075,
+      "n_dd_events": 153,
+      "sharpe": 1.128901968821886,
+      "sortino": 1.568522481262514,
+      "win_rate": 0.5457124842370744,
+      "n_trades": 6344,
+      "avg_win": 0.06555318425226266,
+      "avg_loss": 0.056833266142338086
+    },
+    {
+      "name": "XGB Top-15 10d",
+      "annual_return": 0.42955051604067584,
+      "max_drawdown": -0.5976248866853784,
+      "avg_drawdown": -0.04660737469270825,
+      "n_dd_events": 141,
+      "sharpe": 1.0148069360169425,
+      "sortino": 1.3256655436006384,
+      "win_rate": 0.5532722099272842,
+      "n_trades": 3163,
+      "avg_win": 0.09364604773391036,
+      "avg_loss": 0.07708236596454528
+    },
+    {
+      "name": "LGB Top-10 10d",
+      "annual_return": 0.47881095574544297,
+      "max_drawdown": -0.5678580381847634,
+      "avg_drawdown": -0.05650928532869998,
+      "n_dd_events": 124,
+      "sharpe": 1.0231106526744407,
+      "sortino": 1.3860315918676371,
+      "win_rate": 0.5554502369668246,
+      "n_trades": 2110,
+      "avg_win": 0.09907174789254997,
+      "avg_loss": 0.08095721781809424
+    },
+    {
+      "name": "\u96c6\u6210 Top-15 10d",
+      "annual_return": 0.4018838288630837,
+      "max_drawdown": -0.5858064580207567,
+      "avg_drawdown": -0.04709835911096326,
+      "n_dd_events": 136,
+      "sharpe": 0.9817448992323753,
+      "sortino": 1.3089299153724276,
+      "win_rate": 0.5521491782553729,
+      "n_trades": 3164,
+      "avg_win": 0.0917789841012962,
+      "avg_loss": 0.0769830741462759
+    },
+    {
+      "name": "\u96c6\u6210 Top-15 7d SL-8%",
+      "annual_return": 0.3707428762688447,
+      "max_drawdown": -0.4799038844406256,
+      "avg_drawdown": -0.04561987367296663,
+      "n_dd_events": 114,
+      "sharpe": 0.962880941221191,
+      "sortino": 1.2967520026634045,
+      "win_rate": 0.5254537405931828,
+      "n_trades": 4518,
+      "avg_win": 0.07967389508224051,
+      "avg_loss": 0.0648643387274484
+    },
+    {
+      "name": "\u96c6\u6210 Top-15 7d SL-10%",
+      "annual_return": 0.3434514688600929,
+      "max_drawdown": -0.5536458012243974,
+      "avg_drawdown": -0.047549793861654296,
+      "n_dd_events": 113,
+      "sharpe": 0.895922364844006,
+      "sortino": 1.218383569759203,
+      "win_rate": 0.5339827319017046,
+      "n_trades": 4517,
+      "avg_win": 0.0793701586047832,
+      "avg_loss": 0.06798621587320759
+    },
+    {
+      "name": "\u96c6\u6210 Top-15 7d",
+      "annual_return": 0.33878612781158,
+      "max_drawdown": -0.6174854794575311,
+      "avg_drawdown": -0.053449950263305596,
+      "n_dd_events": 111,
+      "sharpe": 0.8373254397535582,
+      "sortino": 1.1069898555289424,
+      "win_rate": 0.543078626799557,
+      "n_trades": 4515,
+      "avg_win": 0.07982710635302354,
+      "avg_loss": 0.0698233481678368
+    },
+    {
+      "name": "Cat Top-15 7d",
+      "annual_return": 0.24770444014641124,
+      "max_drawdown": -0.4955484983207942,
+      "avg_drawdown": -0.048238024332888985,
+      "n_dd_events": 115,
+      "sharpe": 0.7610100858899999,
+      "sortino": 1.0534011625764992,
+      "win_rate": 0.5297895902547065,
+      "n_trades": 4515,
+      "avg_win": 0.06858526596075609,
+      "avg_loss": 0.060296039814885155
+    },
+    {
+      "name": "Cat Top-20 10d",
+      "annual_return": 0.20079344177263048,
+      "max_drawdown": -0.4617470426756983,
+      "avg_drawdown": -0.050750812497575494,
+      "n_dd_events": 91,
+      "sharpe": 0.6696197793045917,
+      "sortino": 0.9006123158914139,
+      "win_rate": 0.531294452347084,
+      "n_trades": 4218,
+      "avg_win": 0.07899686551098115,
+      "avg_loss": 0.0691584434053272
+    },
+    {
+      "name": "Cat Top-15 10d",
+      "annual_return": 0.18706120377123336,
+      "max_drawdown": -0.47783122976089976,
+      "avg_drawdown": -0.05831673300441626,
+      "n_dd_events": 77,
+      "sharpe": 0.6159070221657855,
+      "sortino": 0.8164231130564595,
+      "win_rate": 0.5287610619469026,
+      "n_trades": 3164,
+      "avg_win": 0.08197213805929786,
+      "avg_loss": 0.07247582210962142
+    },
+    {
+      "name": "Cat Top-15 10d SL-10%",
+      "annual_return": 0.13761360926712918,
+      "max_drawdown": -0.47817407514701316,
+      "avg_drawdown": -0.05778589611612875,
+      "n_dd_events": 64,
+      "sharpe": 0.5340423942027417,
+      "sortino": 0.6927649579784291,
+      "win_rate": 0.5167509481668774,
+      "n_trades": 3164,
+      "avg_win": 0.08119963033346313,
+      "avg_loss": 0.07188964284202043
+    }
+  ],
+  "cost_sensitivity": [
+    {
+      "strategy": "Cat Top-15 10d",
+      "cost_per_trade": 0,
+      "sharpe": 0.6159070221657855,
+      "annual_return": 0.18706120377123336,
+      "max_drawdown": -0.47783122976089976,
+      "avg_drawdown": -0.05831673300441626
+    },
+    {
+      "strategy": "Cat Top-15 10d",
+      "cost_per_trade": 0.0005,
+      "sharpe": 0.6159070221657843,
+      "annual_return": 0.18706120377123336,
+      "max_drawdown": -0.47783122976089976,
+      "avg_drawdown": -0.05831673300441626
+    },
+    {
+      "strategy": "Cat Top-15 10d",
+      "cost_per_trade": 0.001,
+      "sharpe": 0.6159070221657847,
+      "annual_return": 0.18706120377123336,
+      "max_drawdown": -0.47783122976089976,
+      "avg_drawdown": -0.05831673300441626
+    },
+    {
+      "strategy": "Cat Top-15 10d",
+      "cost_per_trade": 0.002,
+      "sharpe": 0.6159070221657856,
+      "annual_return": 0.18706120377123336,
+      "max_drawdown": -0.47783122976089976,
+      "avg_drawdown": -0.05831673300441626
+    },
+    {
+      "strategy": "Cat Top-15 10d",
+      "cost_per_trade": 0.005,
+      "sharpe": 0.6159070221657856,
+      "annual_return": 0.18706120377123336,
+      "max_drawdown": -0.47783122976089976,
+      "avg_drawdown": -0.05831673300441626
+    },
+    {
+      "strategy": "Cat Top-20 10d",
+      "cost_per_trade": 0,
+      "sharpe": 0.6696197793045917,
+      "annual_return": 0.20079344177263048,
+      "max_drawdown": -0.4617470426756983,
+      "avg_drawdown": -0.050750812497575494
+    },
+    {
+      "strategy": "Cat Top-20 10d",
+      "cost_per_trade": 0.0005,
+      "sharpe": 0.6696197793045917,
+      "annual_return": 0.20079344177263048,
+      "max_drawdown": -0.4617470426756983,
+      "avg_drawdown": -0.050750812497575494
+    },
+    {
+      "strategy": "Cat Top-20 10d",
+      "cost_per_trade": 0.001,
+      "sharpe": 0.6696197793045908,
+      "annual_return": 0.20079344177263048,
+      "max_drawdown": -0.4617470426756983,
+      "avg_drawdown": -0.050750812497575494
+    },
+    {
+      "strategy": "Cat Top-20 10d",
+      "cost_per_trade": 0.002,
+      "sharpe": 0.6696197793045908,
+      "annual_return": 0.20079344177263048,
+      "max_drawdown": -0.4617470426756983,
+      "avg_drawdown": -0.050750812497575494
+    },
+    {
+      "strategy": "Cat Top-20 10d",
+      "cost_per_trade": 0.005,
+      "sharpe": 0.6696197793045929,
+      "annual_return": 0.20079344177263048,
+      "max_drawdown": -0.4617470426756983,
+      "avg_drawdown": -0.050750812497575494
+    },
+    {
+      "strategy": "Cat Top-15 7d",
+      "cost_per_trade": 0,
+      "sharpe": 0.7610100858899999,
+      "annual_return": 0.24770444014641124,
+      "max_drawdown": -0.4955484983207942,
+      "avg_drawdown": -0.048238024332888985
+    },
+    {
+      "strategy": "Cat Top-15 7d",
+      "cost_per_trade": 0.0005,
+      "sharpe": 0.7610100858900002,
+      "annual_return": 0.24770444014641124,
+      "max_drawdown": -0.4955484983207942,
+      "avg_drawdown": -0.048238024332888985
+    },
+    {
+      "strategy": "Cat Top-15 7d",
+      "cost_per_trade": 0.001,
+      "sharpe": 0.7610100858900005,
+      "annual_return": 0.24770444014641124,
+      "max_drawdown": -0.4955484983207942,
+      "avg_drawdown": -0.048238024332888985
+    },
+    {
+      "strategy": "Cat Top-15 7d",
+      "cost_per_trade": 0.002,
+      "sharpe": 0.7610100858900003,
+      "annual_return": 0.24770444014641124,
+      "max_drawdown": -0.4955484983207942,
+      "avg_drawdown": -0.048238024332888985
+    },
+    {
+      "strategy": "Cat Top-15 7d",
+      "cost_per_trade": 0.005,
+      "sharpe": 0.7610100858899996,
+      "annual_return": 0.24770444014641124,
+      "max_drawdown": -0.4955484983207942,
+      "avg_drawdown": -0.048238024332888985
+    },
+    {
+      "strategy": "LGB Top-10 10d",
+      "cost_per_trade": 0,
+      "sharpe": 1.0231106526744407,
+      "annual_return": 0.47881095574544297,
+      "max_drawdown": -0.5678580381847634,
+      "avg_drawdown": -0.05650928532869998
+    },
+    {
+      "strategy": "LGB Top-10 10d",
+      "cost_per_trade": 0.0005,
+      "sharpe": 1.0231106526744411,
+      "annual_return": 0.47881095574544297,
+      "max_drawdown": -0.5678580381847634,
+      "avg_drawdown": -0.05650928532869998
+    },
+    {
+      "strategy": "LGB Top-10 10d",
+      "cost_per_trade": 0.001,
+      "sharpe": 1.0231106526744416,
+      "annual_return": 0.47881095574544297,
+      "max_drawdown": -0.5678580381847634,
+      "avg_drawdown": -0.05650928532869998
+    },
+    {
+      "strategy": "LGB Top-10 10d",
+      "cost_per_trade": 0.002,
+      "sharpe": 1.0231106526744411,
+      "annual_return": 0.47881095574544297,
+      "max_drawdown": -0.5678580381847634,
+      "avg_drawdown": -0.05650928532869998
+    },
+    {
+      "strategy": "LGB Top-10 10d",
+      "cost_per_trade": 0.005,
+      "sharpe": 1.0231106526744425,
+      "annual_return": 0.47881095574544297,
+      "max_drawdown": -0.5678580381847634,
+      "avg_drawdown": -0.05650928532869998
+    },
+    {
+      "strategy": "LGB Top-15 5d",
+      "cost_per_trade": 0,
+      "sharpe": 1.128901968821886,
+      "annual_return": 0.483954793784273,
+      "max_drawdown": -0.568217568099563,
+      "avg_drawdown": -0.04774729486123075
+    },
+    {
+      "strategy": "LGB Top-15 5d",
+      "cost_per_trade": 0.0005,
+      "sharpe": 1.128901968821885,
+      "annual_return": 0.483954793784273,
+      "max_drawdown": -0.568217568099563,
+      "avg_drawdown": -0.04774729486123075
+    },
+    {
+      "strategy": "LGB Top-15 5d",
+      "cost_per_trade": 0.001,
+      "sharpe": 1.1289019688218858,
+      "annual_return": 0.483954793784273,
+      "max_drawdown": -0.568217568099563,
+      "avg_drawdown": -0.04774729486123075
+    },
+    {
+      "strategy": "LGB Top-15 5d",
+      "cost_per_trade": 0.002,
+      "sharpe": 1.128901968821886,
+      "annual_return": 0.483954793784273,
+      "max_drawdown": -0.568217568099563,
+      "avg_drawdown": -0.04774729486123075
+    },
+    {
+      "strategy": "LGB Top-15 5d",
+      "cost_per_trade": 0.005,
+      "sharpe": 1.128901968821886,
+      "annual_return": 0.483954793784273,
+      "max_drawdown": -0.568217568099563,
+      "avg_drawdown": -0.04774729486123075
+    }
+  ],
+  "feature_importance": {
+    "XGB": {
+      "ret_5": 0.03451519086956978,
+      "vol_20": 0.02489609457552433,
+      "rsi_14": 0.027989370748400688,
+      "macd_hist": 0.027735164389014244,
+      "bb_pos": 0.028864499181509018,
+      "vol_ratio": 0.024070747196674347,
+      "mom_5": 0.039037734270095825,
+      "mom_20": 0.02165471389889717,
+      "bias_20": 0.03724151477217674,
+      "atr_pct": 0.04168596863746643
+    },
+    "LGB": {
+      "ret_5": 214.11111111111111,
+      "vol_20": 519.0,
+      "rsi_14": 376.44444444444446,
+      "macd_hist": 573.2222222222222,
+      "bb_pos": 242.0,
+      "vol_ratio": 405.3333333333333,
+      "mom_5": 64.22222222222223,
+      "mom_20": 119.66666666666667,
+      "bias_20": 209.0,
+      "atr_pct": 758.6666666666666
+    },
+    "Cat": {
+      "ret_5": 3.049476478957123,
+      "vol_20": 1.073148349696175,
+      "rsi_14": 2.015459819307973,
+      "macd_hist": 0.6387775003260702,
+      "bb_pos": 2.350507211711734,
+      "vol_ratio": 0.3278764815232569,
+      "mom_5": 5.003102713190165,
+      "mom_20": 1.1467299126405868,
+      "bias_20": 11.328880725764012,
+      "atr_pct": 9.159726941376634
+    }
+  },
+  "pick_overlap": {
+    "XGB_LGB": 0.7376080465189376,
+    "XGB_Cat": 0.3057048561999057,
+    "LGB_Cat": 0.3122426528367122,
+    "All_3": 0.2522395096652522
+  }
+}

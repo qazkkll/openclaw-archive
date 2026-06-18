@@ -1,6 +1,7 @@
 {
   "model": "blueshield_v4",
-  "strategy": "v55_rules + ml_weight_allocation",
+  "version": "V4",
+  "strategy": "V2_V3_fusion_regression",
   "features": [
     "ret_1d",
     "ret_3d",
@@ -26,26 +27,38 @@
     "macd_sig",
     "macd_hist",
     "atr_pct",
+    "rel_ret_1d",
     "rel_ret_5d",
     "rel_ret_10d",
     "ma20_ma50_cross",
     "dvol_ratio",
     "dvol_ma5",
-    "price_above_ma50",
-    "price_above_ma20",
-    "market_ret"
+    "spy_ret1",
+    "spy_ret5",
+    "spy_ret20",
+    "vix_close"
   ],
-  "n_features": 32,
-  "backtest": {
-    "ml_weighted": {
-      "annual_return": NaN,
-      "sharpe": NaN,
-      "max_drawdown": NaN
-    },
-    "v55_pure": {
-      "annual_return": NaN,
-      "sharpe": NaN
-    }
+  "n_features": 34,
+  "data_split": {
+    "train": "2016-2021 (630,424行)",
+    "val": "2022-2023 (253,046行)",
+    "test": "2024-2026.6 (312,436行)"
   },
-  "date": "2026-06-11"
+  "walk_forward": {
+    "n_folds": 5,
+    "avg_rmse": 0.05099899453047463,
+    "avg_annual_return": 0.33986753487323024,
+    "avg_sharpe": 1.0073163576042428,
+    "avg_max_drawdown": -0.8496608596421664,
+    "avg_win_rate": 0.5265972222222223
+  },
+  "test_set": {
+    "rmse": 0.049680472494546817,
+    "annual_return": 0.45289265456886607,
+    "sharpe": 1.572504444697632,
+    "max_drawdown": -0.6462072809396788,
+    "win_rate": 0.5254901960784314
+  },
+  "date": "2026-06-18",
+  "data_latest": "2026-06-10"
 }

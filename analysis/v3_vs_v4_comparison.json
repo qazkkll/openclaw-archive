@@ -1,0 +1,555 @@
+{
+  "timestamp": "2026-06-18T22:13:58.506834",
+  "comparison": "V3 formula vs V4-LGB",
+  "n_experiments": 28,
+  "results": [
+    {
+      "name": "V4-LGB Top-15 5d",
+      "annual_return": 0.586665500535781,
+      "max_drawdown": -0.29073371919401003,
+      "avg_drawdown": -0.04193827811996839,
+      "n_dd_events": 59,
+      "sharpe": 1.4015133167037974,
+      "sortino": 1.8658302613138567,
+      "calmar": 2.017879116884589,
+      "win_rate": 0.5350248207391064,
+      "n_trades": 1813,
+      "avg_win": 0.07083890864636354,
+      "avg_loss": 0.056089729286286354,
+      "exit_reasons": {
+        "expire": 1813
+      },
+      "total_return": 2.082157014950434,
+      "efficiency": 1.3427362614390341
+    },
+    {
+      "name": "V4-LGB Top-15 10d",
+      "annual_return": 0.5426811631631494,
+      "max_drawdown": -0.3180970434438154,
+      "avg_drawdown": -0.03932776884984442,
+      "n_dd_events": 59,
+      "sharpe": 1.3078044832839113,
+      "sortino": 1.7223481074808384,
+      "calmar": 1.706023914236731,
+      "win_rate": 0.5690423162583519,
+      "n_trades": 898,
+      "avg_win": 0.10077413035308078,
+      "avg_loss": 0.08113080238409,
+      "exit_reasons": {
+        "expire": 898
+      },
+      "total_return": 1.877957497573223,
+      "efficiency": 1.2563714508645314
+    },
+    {
+      "name": "V4-LGB Top-20 10d",
+      "annual_return": 0.47135061938207934,
+      "max_drawdown": -0.3172845740526262,
+      "avg_drawdown": -0.041780588560346804,
+      "n_dd_events": 50,
+      "sharpe": 1.2729155072090548,
+      "sortino": 1.7264520308783955,
+      "calmar": 1.4855768541205505,
+      "win_rate": 0.5584307178631052,
+      "n_trades": 1198,
+      "avg_win": 0.09443292622172032,
+      "avg_loss": 0.07575606586357214,
+      "exit_reasons": {
+        "expire": 1198
+      },
+      "total_return": 1.5641992724050464,
+      "efficiency": 1.219732348130268
+    },
+    {
+      "name": "V4-LGB Top-20 5d",
+      "annual_return": 0.4940253430550301,
+      "max_drawdown": -0.3034873595886344,
+      "avg_drawdown": -0.0390857970423004,
+      "n_dd_events": 60,
+      "sharpe": 1.2671483241320727,
+      "sortino": 1.578430232254467,
+      "calmar": 1.627828400249232,
+      "win_rate": 0.5378568473314026,
+      "n_trades": 2417,
+      "avg_win": 0.06694019055644163,
+      "avg_loss": 0.05497206968349039,
+      "exit_reasons": {
+        "expire": 2417
+      },
+      "total_return": 1.6616246955639706,
+      "efficiency": 1.2176208219125553
+    },
+    {
+      "name": "V4-LGB Top-15 7d SL-10%",
+      "annual_return": 0.460646790846303,
+      "max_drawdown": -0.2781641232064215,
+      "avg_drawdown": -0.04362898718544463,
+      "n_dd_events": 50,
+      "sharpe": 1.2691581042604934,
+      "sortino": 1.574601035888939,
+      "calmar": 1.656025175124629,
+      "win_rate": 0.5441860465116279,
+      "n_trades": 1290,
+      "avg_win": 0.0794758234713393,
+      "avg_loss": 0.06168438912975146,
+      "exit_reasons": {
+        "expire": 937,
+        "trailing": 187,
+        "stop_loss": 166
+      },
+      "total_return": 1.518951608436387,
+      "efficiency": 1.213786021593409
+    },
+    {
+      "name": "V4-LGB Top-20 7d",
+      "annual_return": 0.4385500935094875,
+      "max_drawdown": -0.329607722739774,
+      "avg_drawdown": -0.040661886898047,
+      "n_dd_events": 56,
+      "sharpe": 1.1985308430809254,
+      "sortino": 1.4948079037467346,
+      "calmar": 1.3305212932032047,
+      "win_rate": 0.5494186046511628,
+      "n_trades": 1720,
+      "avg_win": 0.0781618231529216,
+      "avg_loss": 0.06384568862813102,
+      "exit_reasons": {
+        "expire": 1720
+      },
+      "total_return": 1.4270424470926528,
+      "efficiency": 1.149796317495748
+    },
+    {
+      "name": "V4-LGB Top-15 7d SL-8%",
+      "annual_return": 0.40660928349748793,
+      "max_drawdown": -0.2781641232064215,
+      "avg_drawdown": -0.04454076166856604,
+      "n_dd_events": 50,
+      "sharpe": 1.176732303911365,
+      "sortino": 1.450036160748022,
+      "calmar": 1.4617603406595652,
+      "win_rate": 0.5364341085271318,
+      "n_trades": 1290,
+      "avg_win": 0.07943662862608722,
+      "avg_loss": 0.061699587364198824,
+      "exit_reasons": {
+        "expire": 860,
+        "stop_loss": 247,
+        "trailing": 183
+      },
+      "total_return": 1.2977338214183956,
+      "efficiency": 1.1243197508151463
+    },
+    {
+      "name": "V4-LGB Top-10 5d",
+      "annual_return": 0.5327379141664221,
+      "max_drawdown": -0.31967542913494174,
+      "avg_drawdown": -0.051787734321521534,
+      "n_dd_events": 47,
+      "sharpe": 1.1790536888564298,
+      "sortino": 1.4890925556221983,
+      "calmar": 1.666496282207358,
+      "win_rate": 0.5215231788079471,
+      "n_trades": 1208,
+      "avg_win": 0.07738772593761198,
+      "avg_loss": 0.059113440819549154,
+      "exit_reasons": {
+        "expire": 1208
+      },
+      "total_return": 1.8329362269593008,
+      "efficiency": 1.117993169667123
+    },
+    {
+      "name": "V4-LGB Top-15 7d SL-5%",
+      "annual_return": 0.3512249256797948,
+      "max_drawdown": -0.276631302468493,
+      "avg_drawdown": -0.04098971572003195,
+      "n_dd_events": 51,
+      "sharpe": 1.1273601892791403,
+      "sortino": 1.33096285826171,
+      "calmar": 1.2696499728905324,
+      "win_rate": 0.4984567901234568,
+      "n_trades": 1296,
+      "avg_win": 0.07956462744261883,
+      "avg_loss": 0.054770305692926215,
+      "exit_reasons": {
+        "expire": 687,
+        "stop_loss": 438,
+        "trailing": 171
+      },
+      "total_return": 1.0833419853547688,
+      "efficiency": 1.0811500156065068
+    },
+    {
+      "name": "V4-LGB Top-15 7d",
+      "annual_return": 0.4033327733968519,
+      "max_drawdown": -0.31841513986904124,
+      "avg_drawdown": -0.04755510252303967,
+      "n_dd_events": 49,
+      "sharpe": 1.0605845978310608,
+      "sortino": 1.2789058846830907,
+      "calmar": 1.2666884293339062,
+      "win_rate": 0.5496124031007752,
+      "n_trades": 1290,
+      "avg_win": 0.08129906803310279,
+      "avg_loss": 0.06716583657639377,
+      "exit_reasons": {
+        "expire": 1290
+      },
+      "total_return": 1.284704944373066,
+      "efficiency": 1.010148388546848
+    },
+    {
+      "name": "V4-LGB Top-15 7d + \u62e9\u65f6+SL-8%",
+      "annual_return": 0.25177963331473796,
+      "max_drawdown": -0.2058100878731578,
+      "avg_drawdown": -0.03651276728134353,
+      "n_dd_events": 48,
+      "sharpe": 0.9989028953622571,
+      "sortino": 1.208681651694361,
+      "calmar": 1.223359048706648,
+      "win_rate": 0.5364341085271318,
+      "n_trades": 1290,
+      "avg_win": 0.07943662862608722,
+      "avg_loss": 0.061699587364198824,
+      "exit_reasons": {
+        "expire": 860,
+        "stop_loss": 247,
+        "trailing": 183
+      },
+      "total_return": 0.7290506297003003,
+      "efficiency": 0.9624301864072347
+    },
+    {
+      "name": "V4-LGB Top-10 10d",
+      "annual_return": 0.42955052740321054,
+      "max_drawdown": -0.3594284921402586,
+      "avg_drawdown": -0.06047087915997181,
+      "n_dd_events": 42,
+      "sharpe": 1.017991586112844,
+      "sortino": 1.281548250952629,
+      "calmar": 1.1950931459145104,
+      "win_rate": 0.5468227424749164,
+      "n_trades": 598,
+      "avg_win": 0.10927732265797166,
+      "avg_loss": 0.08541373646911522,
+      "exit_reasons": {
+        "expire": 598
+      },
+      "total_return": 1.3901859110789303,
+      "efficiency": 0.956432739923146
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-10 10d",
+      "annual_return": 0.140144276201422,
+      "max_drawdown": -0.1381757326909896,
+      "avg_drawdown": -0.025880819020952888,
+      "n_dd_events": 24,
+      "sharpe": 0.954836291176057,
+      "sortino": 1.383070150667724,
+      "calmar": 1.0142466659817522,
+      "win_rate": 0.5366666666666666,
+      "n_trades": 600,
+      "avg_win": 0.04200493605778007,
+      "avg_loss": 0.03618735514321886,
+      "exit_reasons": {
+        "expire": 600
+      },
+      "total_return": 0.37685532032912605,
+      "efficiency": 0.9301243459294916
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-20 10d",
+      "annual_return": 0.15082734397450093,
+      "max_drawdown": -0.08433841166691658,
+      "avg_drawdown": -0.02462769737216027,
+      "n_dd_events": 31,
+      "sharpe": 0.9476184613945606,
+      "sortino": 1.228466660568924,
+      "calmar": 1.788358839032606,
+      "win_rate": 0.554628857381151,
+      "n_trades": 1199,
+      "avg_win": 0.04388779767094481,
+      "avg_loss": 0.03913871245388796,
+      "exit_reasons": {
+        "expire": 1199
+      },
+      "total_return": 0.4085249027046489,
+      "efficiency": 0.9242808007030632
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-20 7d",
+      "annual_return": 0.1400556145105607,
+      "max_drawdown": -0.14510023928608806,
+      "avg_drawdown": -0.02235791566731611,
+      "n_dd_events": 37,
+      "sharpe": 0.9292524622416661,
+      "sortino": 1.1928899898844998,
+      "calmar": 0.9652335185638041,
+      "win_rate": 0.536046511627907,
+      "n_trades": 1720,
+      "avg_win": 0.03478229342645366,
+      "avg_loss": 0.030770442547181254,
+      "exit_reasons": {
+        "expire": 1720
+      },
+      "total_return": 0.3765942621174234,
+      "efficiency": 0.9084763140572211
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-15 10d",
+      "annual_return": 0.14474954108636506,
+      "max_drawdown": -0.09321861934681963,
+      "avg_drawdown": -0.02992793966650292,
+      "n_dd_events": 31,
+      "sharpe": 0.8946301094539688,
+      "sortino": 1.1664386575082257,
+      "calmar": 1.552796448827726,
+      "win_rate": 0.5550611790878754,
+      "n_trades": 899,
+      "avg_win": 0.04326934673621931,
+      "avg_loss": 0.03818714787214652,
+      "exit_reasons": {
+        "expire": 899
+      },
+      "total_return": 0.3904553779455866,
+      "efficiency": 0.8678556735143936
+    },
+    {
+      "name": "V4-LGB Top-10 7d",
+      "annual_return": 0.3417103852679664,
+      "max_drawdown": -0.3778532524729429,
+      "avg_drawdown": -0.05360818512258931,
+      "n_dd_events": 48,
+      "sharpe": 0.8582177764536799,
+      "sortino": 0.9886038852918532,
+      "calmar": 0.9043468146206718,
+      "win_rate": 0.5488372093023256,
+      "n_trades": 860,
+      "avg_win": 0.08673490414411043,
+      "avg_loss": 0.07199118479897479,
+      "exit_reasons": {
+        "expire": 860
+      },
+      "total_return": 1.047753026533992,
+      "efficiency": 0.812210279018054
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-15 7d + \u62e9\u65f6",
+      "annual_return": 0.1016414729557158,
+      "max_drawdown": -0.11470913764728785,
+      "avg_drawdown": -0.01892028130907016,
+      "n_dd_events": 32,
+      "sharpe": 0.8135262385791799,
+      "sortino": 0.9945601075127062,
+      "calmar": 0.886080002346866,
+      "win_rate": 0.5364341085271318,
+      "n_trades": 1290,
+      "avg_win": 0.03407502953434579,
+      "avg_loss": 0.030721262149668534,
+      "exit_reasons": {
+        "expire": 1290
+      },
+      "total_return": 0.266220000556578,
+      "efficiency": 0.7981340932929522
+    },
+    {
+      "name": "V4-LGB Top-15 7d + \u62e9\u65f6",
+      "annual_return": 0.2382522240173124,
+      "max_drawdown": -0.3425966791944387,
+      "avg_drawdown": -0.04621802607597699,
+      "n_dd_events": 40,
+      "sharpe": 0.8318851729799529,
+      "sortino": 0.9542998198572201,
+      "calmar": 0.6954306287425914,
+      "win_rate": 0.5496124031007752,
+      "n_trades": 1290,
+      "avg_win": 0.08129906803310279,
+      "avg_loss": 0.06716583657639377,
+      "exit_reasons": {
+        "expire": 1290
+      },
+      "total_return": 0.6838433332956555,
+      "efficiency": 0.7934370823629467
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-15 7d",
+      "annual_return": 0.1189414702495637,
+      "max_drawdown": -0.1368769478217997,
+      "avg_drawdown": -0.022853216346781773,
+      "n_dd_events": 36,
+      "sharpe": 0.7682483087037969,
+      "sortino": 0.9859322273390183,
+      "calmar": 0.8689664121120948,
+      "win_rate": 0.5364341085271318,
+      "n_trades": 1290,
+      "avg_win": 0.03407502953434579,
+      "avg_loss": 0.030721262149668534,
+      "exit_reasons": {
+        "expire": 1290
+      },
+      "total_return": 0.3152543640401655,
+      "efficiency": 0.7506913638969399
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-15 5d",
+      "annual_return": 0.12362373992463538,
+      "max_drawdown": -0.11546622363929104,
+      "avg_drawdown": -0.027150930109521187,
+      "n_dd_events": 30,
+      "sharpe": 0.7702766427234502,
+      "sortino": 1.0204352030404122,
+      "calmar": 1.070648506794748,
+      "win_rate": 0.5319735391400221,
+      "n_trades": 1814,
+      "avg_win": 0.031055756706934484,
+      "avg_loss": 0.02862413764976093,
+      "exit_reasons": {
+        "expire": 1814
+      },
+      "total_return": 0.32871488172935015,
+      "efficiency": 0.7493629154318692
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-20 5d",
+      "annual_return": 0.1313677867397034,
+      "max_drawdown": -0.14020140277396265,
+      "avg_drawdown": -0.025213667110792228,
+      "n_dd_events": 37,
+      "sharpe": 0.7512759683327669,
+      "sortino": 0.8940950592369313,
+      "calmar": 0.9369933833793297,
+      "win_rate": 0.5339123242349049,
+      "n_trades": 2418,
+      "avg_win": 0.031696742853813034,
+      "avg_loss": 0.028672287660275953,
+      "exit_reasons": {
+        "expire": 2418
+      },
+      "total_return": 0.35115501669634086,
+      "efficiency": 0.7323335461588865
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-15 7d SL-8%",
+      "annual_return": 0.10858869775826774,
+      "max_drawdown": -0.1409717116523408,
+      "avg_drawdown": -0.024047810560995576,
+      "n_dd_events": 37,
+      "sharpe": 0.7195028668598169,
+      "sortino": 0.905878665985277,
+      "calmar": 0.7702871482901843,
+      "win_rate": 0.5341085271317829,
+      "n_trades": 1290,
+      "avg_win": 0.033797728352138234,
+      "avg_loss": 0.030628437179589355,
+      "exit_reasons": {
+        "expire": 1211,
+        "stop_loss": 55,
+        "trailing": 24
+      },
+      "total_return": 0.28577889942071444,
+      "efficiency": 0.7022003982194788
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-15 7d + \u62e9\u65f6+SL-8%",
+      "annual_return": 0.08618286195074121,
+      "max_drawdown": -0.11871920908298961,
+      "avg_drawdown": -0.020880727594476914,
+      "n_dd_events": 32,
+      "sharpe": 0.7146382026767062,
+      "sortino": 0.856047946593066,
+      "calmar": 0.725938646461971,
+      "win_rate": 0.5341085271317829,
+      "n_trades": 1290,
+      "avg_win": 0.033797728352138234,
+      "avg_loss": 0.030628437179589355,
+      "exit_reasons": {
+        "expire": 1211,
+        "stop_loss": 55,
+        "trailing": 24
+      },
+      "total_return": 0.2233315317873812,
+      "efficiency": 0.6997160370380073
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-15 7d SL-10%",
+      "annual_return": 0.10696048910569234,
+      "max_drawdown": -0.1412087197742421,
+      "avg_drawdown": -0.023939553913726448,
+      "n_dd_events": 37,
+      "sharpe": 0.7088067544494124,
+      "sortino": 0.8998540552869184,
+      "calmar": 0.7574637690696139,
+      "win_rate": 0.5341085271317829,
+      "n_trades": 1290,
+      "avg_win": 0.033797728352138234,
+      "avg_loss": 0.03072100299357423,
+      "exit_reasons": {
+        "expire": 1229,
+        "stop_loss": 37,
+        "trailing": 24
+      },
+      "total_return": 0.2811790441103277,
+      "efficiency": 0.6918382369368572
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-15 7d SL-5%",
+      "annual_return": 0.08383682147966631,
+      "max_drawdown": -0.1598458431630404,
+      "avg_drawdown": -0.0241424860527649,
+      "n_dd_events": 31,
+      "sharpe": 0.5935003842719085,
+      "sortino": 0.7346680297863747,
+      "calmar": 0.5244854656254901,
+      "win_rate": 0.5271317829457365,
+      "n_trades": 1290,
+      "avg_win": 0.03381677176109833,
+      "avg_loss": 0.031063178257497288,
+      "exit_reasons": {
+        "expire": 1107,
+        "stop_loss": 160,
+        "trailing": 23
+      },
+      "total_return": 0.2168987481593303,
+      "efficiency": 0.5791718095223134
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-10 7d",
+      "annual_return": 0.08078747557466937,
+      "max_drawdown": -0.181497908134318,
+      "avg_drawdown": -0.02379969089318745,
+      "n_dd_events": 44,
+      "sharpe": 0.5592394405887687,
+      "sortino": 0.7090621592668928,
+      "calmar": 0.44511518840692305,
+      "win_rate": 0.522093023255814,
+      "n_trades": 860,
+      "avg_win": 0.03410768954840342,
+      "avg_loss": 0.029980030826325325,
+      "exit_reasons": {
+        "expire": 860
+      },
+      "total_return": 0.2085674034756937,
+      "efficiency": 0.545929714767477
+    },
+    {
+      "name": "V3\u516c\u5f0f Top-10 5d",
+      "annual_return": 0.08927593533706935,
+      "max_drawdown": -0.13720017213674818,
+      "avg_drawdown": -0.03610894492265078,
+      "n_dd_events": 25,
+      "sharpe": 0.5343869009623659,
+      "sortino": 0.6630542095937296,
+      "calmar": 0.6506984207577198,
+      "win_rate": 0.5318444995864351,
+      "n_trades": 1209,
+      "avg_win": 0.030058369903487706,
+      "avg_loss": 0.028065151380754633,
+      "exit_reasons": {
+        "expire": 1209
+      },
+      "total_return": 0.23184325460067123,
+      "efficiency": 0.5150907537881297
+    }
+  ]
+}

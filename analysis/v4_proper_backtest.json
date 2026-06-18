@@ -1,0 +1,834 @@
+{
+  "timestamp": "2026-06-18T20:24:53.493646",
+  "n_experiments": 41,
+  "results": [
+    {
+      "name": "Cat Top-15 10d",
+      "annual_return": 0.41015080713282814,
+      "max_drawdown": -0.18341708295261328,
+      "avg_drawdown": -0.025303866999439914,
+      "n_dd_events": 53,
+      "sharpe": 1.742738448882262,
+      "sortino": 2.4502552373509556,
+      "calmar": 2.2361647046736244,
+      "win_rate": 0.5717463848720801,
+      "n_trades": 899,
+      "avg_win": 0.06472797853930061,
+      "avg_loss": 0.04929206445059395,
+      "avg_hold_days": 14.567296996662959,
+      "exit_reasons": {
+        "expire": 899
+      },
+      "total_return": 1.3118656867676641,
+      "efficiency": 1.698640426956935
+    },
+    {
+      "name": "LGB Top-10 10d",
+      "annual_return": 0.7100656970597812,
+      "max_drawdown": -0.3307065989400104,
+      "avg_drawdown": -0.04446832419861829,
+      "n_dd_events": 46,
+      "sharpe": 1.7205060556375484,
+      "sortino": 2.467571556315059,
+      "calmar": 2.1471168078765364,
+      "win_rate": 0.5616666666666666,
+      "n_trades": 600,
+      "avg_win": 0.09926255018731253,
+      "avg_loss": 0.0717987057475627,
+      "avg_hold_days": 14.566666666666666,
+      "exit_reasons": {
+        "expire": 600
+      },
+      "total_return": 2.699714281171828,
+      "efficiency": 1.6439980345697718
+    },
+    {
+      "name": "LGB Top-10 5d",
+      "annual_return": 0.7049552792674529,
+      "max_drawdown": -0.2905501555352984,
+      "avg_drawdown": -0.04207283139718042,
+      "n_dd_events": 56,
+      "sharpe": 1.7051669206160203,
+      "sortino": 2.4027950115624983,
+      "calmar": 2.4262774114461254,
+      "win_rate": 0.5467328370554178,
+      "n_trades": 1209,
+      "avg_win": 0.06778730476283439,
+      "avg_loss": 0.053273173016955416,
+      "avg_hold_days": 7.289495450785774,
+      "exit_reasons": {
+        "expire": 1209
+      },
+      "total_return": 2.672812876915001,
+      "efficiency": 1.633425720260893
+    },
+    {
+      "name": "LGB Top-15 5d",
+      "annual_return": 0.5776830763018401,
+      "max_drawdown": -0.27886640511544525,
+      "avg_drawdown": -0.03564396552635346,
+      "n_dd_events": 63,
+      "sharpe": 1.623334135641762,
+      "sortino": 2.2587541160269486,
+      "calmar": 2.0715405861193306,
+      "win_rate": 0.5474090407938258,
+      "n_trades": 1814,
+      "avg_win": 0.062202416527103205,
+      "avg_loss": 0.051485621807144666,
+      "avg_hold_days": 7.289415656008821,
+      "exit_reasons": {
+        "expire": 1814
+      },
+      "total_return": 2.039783961997475,
+      "efficiency": 1.5654720696731945
+    },
+    {
+      "name": "Cat Top-20 10d",
+      "annual_return": 0.3791301596228773,
+      "max_drawdown": -0.15119386980863025,
+      "avg_drawdown": -0.024687616501649405,
+      "n_dd_events": 56,
+      "sharpe": 1.572617848721211,
+      "sortino": 1.956009051602524,
+      "calmar": 2.507576266833778,
+      "win_rate": 0.5767946577629383,
+      "n_trades": 1198,
+      "avg_win": 0.06160631254351212,
+      "avg_loss": 0.04700117113915667,
+      "avg_hold_days": 14.567612687813021,
+      "exit_reasons": {
+        "expire": 1198
+      },
+      "total_return": 1.18981454712072,
+      "efficiency": 1.5337936623683328
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-15 7d SL-10%",
+      "annual_return": 0.5319266837916665,
+      "max_drawdown": -0.20100537470849333,
+      "avg_drawdown": -0.03533526541236416,
+      "n_dd_events": 56,
+      "sharpe": 1.569829489477056,
+      "sortino": 2.0583286898558724,
+      "calmar": 2.646330649432084,
+      "win_rate": 0.5565891472868217,
+      "n_trades": 1290,
+      "avg_win": 0.07038986259927545,
+      "avg_loss": 0.054541844587423026,
+      "avg_hold_days": 9.564341085271318,
+      "exit_reasons": {
+        "expire": 1008,
+        "trailing": 157,
+        "stop_loss": 125
+      },
+      "total_return": 1.8292815843312682,
+      "efficiency": 1.514359147814228
+    },
+    {
+      "name": "Cat Top-10 10d",
+      "annual_return": 0.38209679768477534,
+      "max_drawdown": -0.18308120548940077,
+      "avg_drawdown": -0.03214625447650843,
+      "n_dd_events": 44,
+      "sharpe": 1.5305403110843165,
+      "sortino": 2.3137358090904927,
+      "calmar": 2.087034530187733,
+      "win_rate": 0.5583333333333333,
+      "n_trades": 600,
+      "avg_win": 0.06567148598109644,
+      "avg_loss": 0.05123573101382505,
+      "avg_hold_days": 14.566666666666666,
+      "exit_reasons": {
+        "expire": 600
+      },
+      "total_return": 1.2013181886696773,
+      "efficiency": 1.4813391727576457
+    },
+    {
+      "name": "Cat Top-20 5d",
+      "annual_return": 0.32777647971878277,
+      "max_drawdown": -0.18374264373261706,
+      "avg_drawdown": -0.023078657715572097,
+      "n_dd_events": 51,
+      "sharpe": 1.50036686959362,
+      "sortino": 2.0621209546943327,
+      "calmar": 1.7838889931058368,
+      "win_rate": 0.5475206611570248,
+      "n_trades": 2420,
+      "avg_win": 0.042756683587496264,
+      "avg_loss": 0.037786027336068506,
+      "avg_hold_days": 7.289256198347108,
+      "exit_reasons": {
+        "expire": 2420
+      },
+      "total_return": 0.9962849502513424,
+      "efficiency": 1.4657404161624845
+    },
+    {
+      "name": "XGB Top-15 10d",
+      "annual_return": 0.5524775980256533,
+      "max_drawdown": -0.2720088436136865,
+      "avg_drawdown": -0.03507400146964619,
+      "n_dd_events": 57,
+      "sharpe": 1.5163956068808448,
+      "sortino": 2.1639421038607134,
+      "calmar": 2.0311016020137025,
+      "win_rate": 0.5528364849833148,
+      "n_trades": 899,
+      "avg_win": 0.09074487717980464,
+      "avg_loss": 0.06583683077090367,
+      "avg_hold_days": 14.567296996662959,
+      "exit_reasons": {
+        "expire": 899
+      },
+      "total_return": 1.922724098713263,
+      "efficiency": 1.463209545136541
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-10 10d",
+      "annual_return": 0.6214430435732334,
+      "max_drawdown": -0.30262775408340936,
+      "avg_drawdown": -0.04465427263911194,
+      "n_dd_events": 52,
+      "sharpe": 1.489163317996125,
+      "sortino": 2.07408428320684,
+      "calmar": 2.053489923471967,
+      "win_rate": 0.5525876460767947,
+      "n_trades": 599,
+      "avg_win": 0.10086186020131552,
+      "avg_loss": 0.07161233936124495,
+      "avg_hold_days": 14.567612687813021,
+      "exit_reasons": {
+        "expire": 599
+      },
+      "total_return": 2.2494892067210412,
+      "efficiency": 1.4226658131901615
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-10 5d",
+      "annual_return": 0.5938945567921947,
+      "max_drawdown": -0.25182152179692663,
+      "avg_drawdown": -0.042968738576683915,
+      "n_dd_events": 59,
+      "sharpe": 1.484857295516731,
+      "sortino": 2.120439539129717,
+      "calmar": 2.3583947573437425,
+      "win_rate": 0.5401157981803143,
+      "n_trades": 1209,
+      "avg_win": 0.06641552113477227,
+      "avg_loss": 0.05316631508123628,
+      "avg_hold_days": 7.289495450785774,
+      "exit_reasons": {
+        "expire": 1209
+      },
+      "total_return": 2.1165104195241224,
+      "efficiency": 1.4210548505619907
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-15 7d + \u62e9\u65f6+SL-8%",
+      "annual_return": 0.36479468620389155,
+      "max_drawdown": -0.20087558821782103,
+      "avg_drawdown": -0.03053728257708913,
+      "n_dd_events": 49,
+      "sharpe": 1.451113692152405,
+      "sortino": 1.8418737786039285,
+      "calmar": 1.8160229893555984,
+      "win_rate": 0.5503875968992248,
+      "n_trades": 1290,
+      "avg_win": 0.07012689489861752,
+      "avg_loss": 0.055406171846630534,
+      "avg_hold_days": 9.2984496124031,
+      "exit_reasons": {
+        "expire": 935,
+        "stop_loss": 201,
+        "trailing": 154
+      },
+      "total_return": 1.1347264905416443,
+      "efficiency": 1.406800623283664
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-15 7d SL-8%",
+      "annual_return": 0.4659257699492092,
+      "max_drawdown": -0.20622733565885376,
+      "avg_drawdown": -0.03505267290866463,
+      "n_dd_events": 52,
+      "sharpe": 1.4501661798278893,
+      "sortino": 1.9035206724111928,
+      "calmar": 2.2592823034864535,
+      "win_rate": 0.5503875968992248,
+      "n_trades": 1290,
+      "avg_win": 0.07012689489861752,
+      "avg_loss": 0.055406171846630534,
+      "avg_hold_days": 9.2984496124031,
+      "exit_reasons": {
+        "expire": 935,
+        "stop_loss": 201,
+        "trailing": 154
+      },
+      "total_return": 1.5412077385875276,
+      "efficiency": 1.3993339790631745
+    },
+    {
+      "name": "XGB Top-10 10d",
+      "annual_return": 0.6020186142583979,
+      "max_drawdown": -0.2820329670419788,
+      "avg_drawdown": -0.044268540443424285,
+      "n_dd_events": 53,
+      "sharpe": 1.442297879751561,
+      "sortino": 2.0466326843441465,
+      "calmar": 2.134568240629796,
+      "win_rate": 0.5542570951585977,
+      "n_trades": 599,
+      "avg_win": 0.09814366628337738,
+      "avg_loss": 0.07069120493414667,
+      "avg_hold_days": 14.567612687813021,
+      "exit_reasons": {
+        "expire": 599
+      },
+      "total_return": 2.1553853264094758,
+      "efficiency": 1.378449457730314
+    },
+    {
+      "name": "LGB Top-15 10d",
+      "annual_return": 0.5071811444979408,
+      "max_drawdown": -0.2853100423258267,
+      "avg_drawdown": -0.037855472092378724,
+      "n_dd_events": 58,
+      "sharpe": 1.4094190632211392,
+      "sortino": 1.9440279321634724,
+      "calmar": 1.7776491159001522,
+      "win_rate": 0.5550611790878754,
+      "n_trades": 899,
+      "avg_win": 0.09112097037678367,
+      "avg_loss": 0.06950851237468564,
+      "avg_hold_days": 14.567296996662959,
+      "exit_reasons": {
+        "expire": 899
+      },
+      "total_return": 1.7191353680143289,
+      "efficiency": 1.3560648392069048
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-20 5d",
+      "annual_return": 0.4400132072007059,
+      "max_drawdown": -0.2566026045587909,
+      "avg_drawdown": -0.03463143007271033,
+      "n_dd_events": 57,
+      "sharpe": 1.3937991633307327,
+      "sortino": 1.8692535904030492,
+      "calmar": 1.7147651636555907,
+      "win_rate": 0.5345183960314179,
+      "n_trades": 2419,
+      "avg_win": 0.06032174912279861,
+      "avg_loss": 0.05056799033537299,
+      "avg_hold_days": 7.289375775113683,
+      "exit_reasons": {
+        "expire": 2419
+      },
+      "total_return": 1.4330658955449103,
+      "efficiency": 1.3455299050704423
+    },
+    {
+      "name": "LGB Top-10 7d",
+      "annual_return": 0.5690673758786413,
+      "max_drawdown": -0.3819177844825291,
+      "avg_drawdown": -0.0507323292727557,
+      "n_dd_events": 49,
+      "sharpe": 1.412539170976952,
+      "sortino": 1.8610920674327343,
+      "calmar": 1.4900258615861168,
+      "win_rate": 0.5558139534883721,
+      "n_trades": 860,
+      "avg_win": 0.07992684964384358,
+      "avg_loss": 0.06373956307508183,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 860
+      },
+      "total_return": 1.999465585409629,
+      "efficiency": 1.3408777686442839
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-15 5d",
+      "annual_return": 0.47072870198325534,
+      "max_drawdown": -0.2551602733178703,
+      "avg_drawdown": -0.03897509985608533,
+      "n_dd_events": 59,
+      "sharpe": 1.376154576872511,
+      "sortino": 1.939084360710906,
+      "calmar": 1.8448353886062703,
+      "win_rate": 0.535832414553473,
+      "n_trades": 1814,
+      "avg_win": 0.06259100522796482,
+      "avg_loss": 0.052095642071982154,
+      "avg_hold_days": 7.289415656008821,
+      "exit_reasons": {
+        "expire": 1814
+      },
+      "total_return": 1.5615572687501387,
+      "efficiency": 1.322518814821496
+    },
+    {
+      "name": "Cat Top-15 5d",
+      "annual_return": 0.3094427913986346,
+      "max_drawdown": -0.1967152388266472,
+      "avg_drawdown": -0.023763547006430845,
+      "n_dd_events": 47,
+      "sharpe": 1.3198982546960285,
+      "sortino": 1.8346090108051656,
+      "calmar": 1.5730494152073655,
+      "win_rate": 0.543801652892562,
+      "n_trades": 1815,
+      "avg_win": 0.043715997315314996,
+      "avg_loss": 0.03883646307839492,
+      "avg_hold_days": 7.289256198347108,
+      "exit_reasons": {
+        "expire": 1815
+      },
+      "total_return": 0.9297393827449081,
+      "efficiency": 1.2885327904768535
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-15 7d SL-5%",
+      "annual_return": 0.3770000691037665,
+      "max_drawdown": -0.16773339494513007,
+      "avg_drawdown": -0.03406135748562237,
+      "n_dd_events": 48,
+      "sharpe": 1.3245471302538183,
+      "sortino": 1.6921369027230804,
+      "calmar": 2.2476148487132988,
+      "win_rate": 0.5166279969064191,
+      "n_trades": 1293,
+      "avg_win": 0.06997513895014151,
+      "avg_loss": 0.05093339974437639,
+      "avg_hold_days": 8.408352668213457,
+      "exit_reasons": {
+        "expire": 768,
+        "stop_loss": 378,
+        "trailing": 147
+      },
+      "total_return": 1.181576681258902,
+      "efficiency": 1.2794312569436879
+    },
+    {
+      "name": "XGB Top-20 10d",
+      "annual_return": 0.42742684294220323,
+      "max_drawdown": -0.2708102768576103,
+      "avg_drawdown": -0.03228311738859333,
+      "n_dd_events": 56,
+      "sharpe": 1.3214077649259262,
+      "sortino": 1.83626145739133,
+      "calmar": 1.5783257854979433,
+      "win_rate": 0.5454545454545454,
+      "n_trades": 1199,
+      "avg_win": 0.0858737534991874,
+      "avg_loss": 0.06606189172102163,
+      "avg_hold_days": 14.567139282735614,
+      "exit_reasons": {
+        "expire": 1199
+      },
+      "total_return": 1.3815371248352175,
+      "efficiency": 1.2787486029326236
+    },
+    {
+      "name": "LGB Top-20 5d",
+      "annual_return": 0.42067749877171234,
+      "max_drawdown": -0.28846136354756247,
+      "avg_drawdown": -0.04082125261235918,
+      "n_dd_events": 52,
+      "sharpe": 1.3116648421621084,
+      "sortino": 1.6904329301972423,
+      "calmar": 1.4583495467057572,
+      "win_rate": 0.5368072787427626,
+      "n_trades": 2418,
+      "avg_win": 0.06029461593145238,
+      "avg_loss": 0.05079514635355537,
+      "avg_hold_days": 7.289495450785774,
+      "exit_reasons": {
+        "expire": 2418
+      },
+      "total_return": 1.3541728528654415,
+      "efficiency": 1.2581210402974587
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-10 7d",
+      "annual_return": 0.54240901354966,
+      "max_drawdown": -0.33867237554896457,
+      "avg_drawdown": -0.04942892992975362,
+      "n_dd_events": 49,
+      "sharpe": 1.3125587828139085,
+      "sortino": 1.5755210079439552,
+      "calmar": 1.6015744203242215,
+      "win_rate": 0.5604651162790698,
+      "n_trades": 860,
+      "avg_win": 0.07873403432901455,
+      "avg_loss": 0.06192388404763184,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 860
+      },
+      "total_return": 1.8767196762460658,
+      "efficiency": 1.247680406709517
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-15 7d",
+      "annual_return": 0.4476964083499828,
+      "max_drawdown": -0.32419230569805135,
+      "avg_drawdown": -0.0409441670778246,
+      "n_dd_events": 51,
+      "sharpe": 1.2873589726682717,
+      "sortino": 1.5944775357313945,
+      "calmar": 1.38095938886027,
+      "win_rate": 0.5550387596899224,
+      "n_trades": 1290,
+      "avg_win": 0.07205676794195799,
+      "avg_loss": 0.05907846555907358,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 1290
+      },
+      "total_return": 1.4648413164282008,
+      "efficiency": 1.2346491318022055
+    },
+    {
+      "name": "XGB Top-15 5d",
+      "annual_return": 0.4606379148854034,
+      "max_drawdown": -0.2757273883120641,
+      "avg_drawdown": -0.04224372197633801,
+      "n_dd_events": 52,
+      "sharpe": 1.2746706421031295,
+      "sortino": 1.6692367839074862,
+      "calmar": 1.6706280711006494,
+      "win_rate": 0.5488141202426917,
+      "n_trades": 1813,
+      "avg_win": 0.060119257140164285,
+      "avg_loss": 0.05150807312189007,
+      "avg_hold_days": 7.289575289575289,
+      "exit_reasons": {
+        "expire": 1813
+      },
+      "total_return": 1.5189142846891102,
+      "efficiency": 1.2208238098867248
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-15 10d",
+      "annual_return": 0.41175607717347185,
+      "max_drawdown": -0.2767990101840062,
+      "avg_drawdown": -0.03741476111688807,
+      "n_dd_events": 54,
+      "sharpe": 1.2186808337944515,
+      "sortino": 1.7371181415257633,
+      "calmar": 1.4875634016890122,
+      "win_rate": 0.5339265850945495,
+      "n_trades": 899,
+      "avg_win": 0.09227841141801299,
+      "avg_loss": 0.06950404997946852,
+      "avg_hold_days": 14.567296996662959,
+      "exit_reasons": {
+        "expire": 899
+      },
+      "total_return": 1.3182880926301017,
+      "efficiency": 1.1730841815203021
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-15 7d + \u62e9\u65f6",
+      "annual_return": 0.335366419271091,
+      "max_drawdown": -0.331173867422466,
+      "avg_drawdown": -0.03947615244989567,
+      "n_dd_events": 35,
+      "sharpe": 1.2198289153463078,
+      "sortino": 1.4142120527086908,
+      "calmar": 1.0126596699227983,
+      "win_rate": 0.5550387596899224,
+      "n_trades": 1290,
+      "avg_win": 0.07205676794195799,
+      "avg_loss": 0.05907846555907358,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 1290
+      },
+      "total_return": 1.0242242964397024,
+      "efficiency": 1.171674763121306
+    },
+    {
+      "name": "LGB Top-15 7d",
+      "annual_return": 0.41357040531202105,
+      "max_drawdown": -0.36394330073667236,
+      "avg_drawdown": -0.04376641179840065,
+      "n_dd_events": 50,
+      "sharpe": 1.2092632116146247,
+      "sortino": 1.4856477131141081,
+      "calmar": 1.1363594397118904,
+      "win_rate": 0.5550387596899224,
+      "n_trades": 1290,
+      "avg_win": 0.07316519568792208,
+      "avg_loss": 0.06148936137803178,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 1290
+      },
+      "total_return": 1.3255595591103182,
+      "efficiency": 1.1563380999224424
+    },
+    {
+      "name": "XGB Top-10 5d",
+      "annual_return": 0.5135771283701485,
+      "max_drawdown": -0.2666334342401011,
+      "avg_drawdown": -0.04942287736529079,
+      "n_dd_events": 49,
+      "sharpe": 1.2100026470789482,
+      "sortino": 1.5436468794438476,
+      "calmar": 1.9261542718145268,
+      "win_rate": 0.5438741721854304,
+      "n_trades": 1208,
+      "avg_win": 0.06543045463625237,
+      "avg_loss": 0.053214964773417923,
+      "avg_hold_days": 7.289735099337748,
+      "exit_reasons": {
+        "expire": 1208
+      },
+      "total_return": 1.7473577799799576,
+      "efficiency": 1.150200834640688
+    },
+    {
+      "name": "LGB Top-20 10d",
+      "annual_return": 0.39182851046770284,
+      "max_drawdown": -0.27215939120825183,
+      "avg_drawdown": -0.03180630126981487,
+      "n_dd_events": 63,
+      "sharpe": 1.1728928612198424,
+      "sortino": 1.509874663403383,
+      "calmar": 1.4397023329901637,
+      "win_rate": 0.5509181969949917,
+      "n_trades": 1198,
+      "avg_win": 0.08704667978794933,
+      "avg_loss": 0.06930567449772976,
+      "avg_hold_days": 14.567612687813021,
+      "exit_reasons": {
+        "expire": 1198
+      },
+      "total_return": 1.2393044647649054,
+      "efficiency": 1.135587477518669
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-20 10d",
+      "annual_return": 0.3794149148171184,
+      "max_drawdown": -0.27435885337823185,
+      "avg_drawdown": -0.03261094878593166,
+      "n_dd_events": 61,
+      "sharpe": 1.1627334580419506,
+      "sortino": 1.5500715321736878,
+      "calmar": 1.3829147853087722,
+      "win_rate": 0.5434056761268782,
+      "n_trades": 1198,
+      "avg_win": 0.0865912697169737,
+      "avg_loss": 0.06725839926517203,
+      "avg_hold_days": 14.567612687813021,
+      "exit_reasons": {
+        "expire": 1198
+      },
+      "total_return": 1.1909171912357261,
+      "efficiency": 1.1248156167900554
+    },
+    {
+      "name": "LGB Top-20 7d",
+      "annual_return": 0.37494025025586875,
+      "max_drawdown": -0.35087835956378366,
+      "avg_drawdown": -0.041689128052306144,
+      "n_dd_events": 45,
+      "sharpe": 1.1670256794429146,
+      "sortino": 1.4431842768369458,
+      "calmar": 1.0685761604733879,
+      "win_rate": 0.5476744186046512,
+      "n_trades": 1720,
+      "avg_win": 0.07197287073891444,
+      "avg_loss": 0.06084091679675637,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 1720
+      },
+      "total_return": 1.173627995510488,
+      "efficiency": 1.1183733964522893
+    },
+    {
+      "name": "XGB Top-20 5d",
+      "annual_return": 0.3894700775705091,
+      "max_drawdown": -0.26741395784366995,
+      "avg_drawdown": -0.03700745667439923,
+      "n_dd_events": 54,
+      "sharpe": 1.1542686677029284,
+      "sortino": 1.4080335373512227,
+      "calmar": 1.4564313722105453,
+      "win_rate": 0.5482002482416218,
+      "n_trades": 2417,
+      "avg_win": 0.05735400631999404,
+      "avg_loss": 0.05013399761296143,
+      "avg_hold_days": 7.2896152254861395,
+      "exit_reasons": {
+        "expire": 2417
+      },
+      "total_return": 1.2300634716818344,
+      "efficiency": 1.1115521199922958
+    },
+    {
+      "name": "Cat Top-10 5d",
+      "annual_return": 0.2862304275277199,
+      "max_drawdown": -0.21066278249101922,
+      "avg_drawdown": -0.029057299017667012,
+      "n_dd_events": 42,
+      "sharpe": 1.0983662865604207,
+      "sortino": 1.548427725445222,
+      "calmar": 1.3587137896079113,
+      "win_rate": 0.5454545454545454,
+      "n_trades": 1210,
+      "avg_win": 0.04465375527395829,
+      "avg_loss": 0.04078639772838433,
+      "avg_hold_days": 7.289256198347108,
+      "exit_reasons": {
+        "expire": 1210
+      },
+      "total_return": 0.8473880036713781,
+      "efficiency": 1.06645072894091
+    },
+    {
+      "name": "XGB Top-10 7d",
+      "annual_return": 0.4051752639767452,
+      "max_drawdown": -0.32848817383649054,
+      "avg_drawdown": -0.049512108985268186,
+      "n_dd_events": 47,
+      "sharpe": 1.098081796798803,
+      "sortino": 1.4382207976104344,
+      "calmar": 1.2334546453974526,
+      "win_rate": 0.5476744186046512,
+      "n_trades": 860,
+      "avg_win": 0.07523550006161266,
+      "avg_loss": 0.06266648694569042,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 860
+      },
+      "total_return": 1.2920261370070802,
+      "efficiency": 1.0437134512009616
+    },
+    {
+      "name": "\u52a0\u6743\u96c6\u6210 Top-20 7d",
+      "annual_return": 0.3210819994269969,
+      "max_drawdown": -0.3039580239498111,
+      "avg_drawdown": -0.038159073806754124,
+      "n_dd_events": 54,
+      "sharpe": 1.0631045592086292,
+      "sortino": 1.2553120256920736,
+      "calmar": 1.0563366456152947,
+      "win_rate": 0.5401162790697674,
+      "n_trades": 1720,
+      "avg_win": 0.06861875402207467,
+      "avg_loss": 0.05627322861002752,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 1720
+      },
+      "total_return": 0.9718317828787302,
+      "efficiency": 1.0225374738694903
+    },
+    {
+      "name": "XGB Top-15 7d",
+      "annual_return": 0.3052494677104547,
+      "max_drawdown": -0.30758723794274334,
+      "avg_drawdown": -0.04500788524415746,
+      "n_dd_events": 45,
+      "sharpe": 0.959691899161201,
+      "sortino": 1.1099627913486565,
+      "calmar": 0.99239965140321,
+      "win_rate": 0.5348837209302325,
+      "n_trades": 1290,
+      "avg_win": 0.07208949584614056,
+      "avg_loss": 0.05794213655949311,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 1290
+      },
+      "total_return": 0.9147056521594075,
+      "efficiency": 0.9164981962940062
+    },
+    {
+      "name": "XGB Top-20 7d",
+      "annual_return": 0.2641331934123583,
+      "max_drawdown": -0.3025209623042373,
+      "avg_drawdown": -0.04145657213391261,
+      "n_dd_events": 42,
+      "sharpe": 0.9224774028056545,
+      "sortino": 1.0856980026397767,
+      "calmar": 0.8731070779377151,
+      "win_rate": 0.5372093023255814,
+      "n_trades": 1720,
+      "avg_win": 0.06661754456721829,
+      "avg_loss": 0.05615433977180097,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 1720
+      },
+      "total_return": 0.7709536180110717,
+      "efficiency": 0.8842346518143375
+    },
+    {
+      "name": "Cat Top-20 7d",
+      "annual_return": 0.26184002448266797,
+      "max_drawdown": -0.21432294820431885,
+      "avg_drawdown": -0.0276804479958068,
+      "n_dd_events": 54,
+      "sharpe": 0.8979496616775365,
+      "sortino": 0.9674206266272568,
+      "calmar": 1.221707832392498,
+      "win_rate": 0.5581395348837209,
+      "n_trades": 1720,
+      "avg_win": 0.05015481847990856,
+      "avg_loss": 0.04158197589256261,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 1720
+      },
+      "total_return": 0.7631304845394578,
+      "efficiency": 0.8730940127646192
+    },
+    {
+      "name": "Cat Top-15 7d",
+      "annual_return": 0.19914585624684444,
+      "max_drawdown": -0.20071770104283482,
+      "avg_drawdown": -0.0308766788010568,
+      "n_dd_events": 48,
+      "sharpe": 0.7909705780366232,
+      "sortino": 0.8536286284282241,
+      "calmar": 0.9921688780420271,
+      "win_rate": 0.5496124031007752,
+      "n_trades": 1290,
+      "avg_win": 0.04885166817839385,
+      "avg_loss": 0.04151748346262718,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 1290
+      },
+      "total_return": 0.5571055559932283,
+      "efficiency": 0.7665480335575001
+    },
+    {
+      "name": "Cat Top-10 7d",
+      "annual_return": 0.20340141129250022,
+      "max_drawdown": -0.21167601501038735,
+      "avg_drawdown": -0.037430428252498815,
+      "n_dd_events": 46,
+      "sharpe": 0.7076435766209679,
+      "sortino": 0.7826019739627048,
+      "calmar": 0.9609091104748874,
+      "win_rate": 0.5511627906976744,
+      "n_trades": 860,
+      "avg_win": 0.05129771025294323,
+      "avg_loss": 0.04425967985601274,
+      "avg_hold_days": 10.220930232558139,
+      "exit_reasons": {
+        "expire": 860
+      },
+      "total_return": 0.5706140514312632,
+      "efficiency": 0.6811561744979151
+    }
+  ]
+}

@@ -1,194 +1,362 @@
 # -*- coding: utf-8 -*-
 """
-蓝盾V4 — ML做仓位分配，不做买卖决策
-买卖由V5.5规则体系决定
-ML的任务：每天给候选票打置信度分，规则决定买不买，ML决定买多少
+蓝盾V4 — 纯Raw数据版
+从S&P 500 OHLCV直接计算V2的30个特征
+严格划分：训练(2016-2021) / 验证(2022-2023) / 测试(2024-2026.6)
+Walk-Forward 5折（训练+验证集）
 """
-import warnings, json, os
+import warnings, json, os, time
 warnings.filterwarnings('ignore')
 import pandas as pd
 import numpy as np
 import xgboost as xgb
+from sklearn.metrics import mean_squared_error
 
-print('加载数据...')
-feat = pd.read_parquet('/home/hermes/.hermes/openclaw-project/data/us/sp500_feats.parquet')
-feat = feat.sort_values(['Code','Date']).reset_index(drop=True)
-feat['Date'] = pd.to_datetime(feat['Date'])
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+DATA_DIR = os.path.join(ROOT, 'data', 'us')
+MODEL_DIR = os.path.join(ROOT, 'models', 'us')
+os.makedirs(MODEL_DIR, exist_ok=True)
 
-raw_dir = '/home/hermes/.hermes/openclaw-project/data/hist_sp500'
-all_rows = []
-for f in sorted(os.listdir(raw_dir)):
-    if not f.startswith('sp500_chunk_') or not f.endswith('.json'): continue
-    raw = json.load(open(os.path.join(raw_dir, f)))
-    for sym, bars in raw.items():
-        for b in bars: b['Code'] = sym
-        all_rows.extend(bars)
-raw_df = pd.DataFrame(all_rows)
-raw_df['Date'] = pd.to_datetime(raw_df['Date'])
-raw_df['DollarVol'] = raw_df['C'] * raw_df['V']
+# ════════════════════════════════════════
+#  1. 加载数据
+# ════════════════════════════════════════
+print("📊 加载S&P 500数据...")
+df = pd.read_parquet(os.path.join(DATA_DIR, 'us_hist_sp500_10y.parquet'))
+df['date'] = pd.to_datetime(df['date'])
+df = df.sort_values(['sym', 'date']).reset_index(drop=True)
+print(f"  {len(df):,}行, {df['sym'].nunique()}只, {df['date'].min().date()}~{df['date'].max().date()}")
 
-feat = feat.merge(raw_df[['Code','Date','C','DollarVol']], on=['Code','Date'], how='left')
-feat['dvol_ma5'] = feat.groupby('Code')['DollarVol'].transform(lambda x: x.rolling(5).mean())
+# ════════════════════════════════════════
+#  2. 计算V2完整30特征
+# ════════════════════════════════════════
+print("\n🔧 计算V2特征（30维）...")
 
-# 基础特征
-market_ret = feat.groupby('Date')['ret_1d'].mean().reset_index()
-market_ret.columns = ['Date', 'market_ret']
-feat = feat.merge(market_ret, on='Date', how='left')
-feat['rel_ret_5d'] = feat['ret_5d'] - feat.groupby('Date')['ret_5d'].transform('mean')
-feat['rel_ret_10d'] = feat['ret_10d'] - feat.groupby('Date')['ret_10d'].transform('mean')
-feat['vol_5d_norm'] = feat['vol_5d'] / (feat.groupby('Date')['vol_5d'].transform('mean') + 1e-8)
-feat['rsi_50_pct'] = (feat['rsi_14'] - 50) / 50
-feat['ma20_ma50_cross'] = feat['ma_20_ratio'] - feat['ma_50_ratio']
-feat['dvol_ratio'] = np.where(feat['dvol_ma5'] > 0, feat['DollarVol'] / feat['dvol_ma5'], 1.0)
-feat['price_above_ma50'] = (feat['ma_50_ratio'] > 1.0).astype(int)
-feat['price_above_ma20'] = (feat['ma_20_ratio'] > 1.0).astype(int)
+def compute_v2_features(group):
+    g = group.copy().reset_index(drop=True)
+    c = g['close'].values.astype(float)
+    h = g['high'].values.astype(float)
+    l = g['low'].values.astype(float)
+    v = g['volume'].values.astype(float)
+    cs = pd.Series(c)
 
-# V5.5信号
-feat['v55_trend_up'] = ((feat['ret_5d'] > 0) & (feat['ma_50_ratio'] > 1.0) & (feat['dvol_ma5'] >= 5_000_000)).astype(int)
-feat['v55_strong'] = ((feat['ret_10d'] > feat['ret_20d']) & (feat['ret_5d'] > 0) & (feat['ma_50_ratio'] > 1.05)).astype(int)
+    # ── 收益率 (5个) ──
+    g['ret_1d'] = cs.pct_change()
+    g['ret_3d'] = cs.pct_change(3)
+    g['ret_5d'] = cs.pct_change(5)
+    g['ret_10d'] = cs.pct_change(10)
+    g['ret_20d'] = cs.pct_change(20)
 
-feat_cols = [
-    'ret_1d','ret_3d','ret_5d','ret_10d','ret_20d',
-    'ma_5_ratio','ma_10_ratio','ma_20_ratio','ma_50_ratio',
-    'vol_5d','vol_10d','vol_20d','rsi_14','rsi_50_pct',
-    'vol_ratio_5','vol_ratio_20','vol_5d_norm',
-    'price_pos_20','price_pos_50','price_pos_100',
-    'macd','macd_sig','macd_hist','atr_pct',
-    'rel_ret_5d','rel_ret_10d','ma20_ma50_cross','dvol_ratio','dvol_ma5',
-    'price_above_ma50','price_above_ma20',
-    'market_ret',
+    # ── 均线比例 (4个) ──
+    ma5 = cs.rolling(5).mean()
+    ma10 = cs.rolling(10).mean()
+    ma20 = cs.rolling(20).mean()
+    ma50 = cs.rolling(50).mean()
+    g['ma_5_ratio'] = c / ma5.values
+    g['ma_10_ratio'] = c / ma10.values
+    g['ma_20_ratio'] = c / ma20.values
+    g['ma_50_ratio'] = c / ma50.values
+
+    # ── 波动率 (3个) ──
+    g['vol_5d'] = cs.pct_change().rolling(5).std()
+    g['vol_10d'] = cs.pct_change().rolling(10).std()
+    g['vol_20d'] = cs.pct_change().rolling(20).std()
+
+    # ── RSI (2个) ──
+    delta = cs.diff()
+    gain = delta.where(delta > 0, 0).rolling(14).mean()
+    loss = (-delta.where(delta < 0, 0)).rolling(14).mean()
+    rs = gain / loss.replace(0, 0.001)
+    g['rsi_14'] = 100 - 100 / (1 + rs)
+    g['rsi_50_pct'] = (g['rsi_14'] - 50) / 50
+
+    # ── 量比 (3个) ──
+    vol5 = pd.Series(v).rolling(5).mean()
+    vol20 = pd.Series(v).rolling(20).mean()
+    g['vol_ratio_5'] = v / vol5.values
+    g['vol_ratio_20'] = v / vol20.values
+    vol5_ret = cs.pct_change().rolling(5).std()
+    vol20_ret = cs.pct_change().rolling(20).std()
+    v20r_safe = np.where(vol20_ret.values == 0, 0.001, vol20_ret.values)
+    g['vol_5d_norm'] = vol5_ret.values / v20r_safe
+
+    # ── 价格位置 (3个) ──
+    for period, name in [(20, 'price_pos_20'), (50, 'price_pos_50'), (100, 'price_pos_100')]:
+        hh = pd.Series(h).rolling(period).max().values
+        ll = pd.Series(l).rolling(period).min().values
+        rng = hh - ll
+        rng = np.where(rng == 0, 0.001, rng)
+        g[name] = (c - ll) / rng
+
+    # ── MACD (3个) ──
+    ema12 = cs.ewm(span=12).mean()
+    ema26 = cs.ewm(span=26).mean()
+    g['macd'] = ema12 - ema26
+    g['macd_sig'] = g['macd'].ewm(span=9).mean()
+    g['macd_hist'] = g['macd'] - g['macd_sig']
+
+    # ── ATR (1个) ──
+    tr = np.maximum(h - l, np.maximum(abs(h - np.roll(c, 1)), abs(l - np.roll(c, 1))))
+    tr[0] = h[0] - l[0]
+    g['atr_pct'] = pd.Series(tr).rolling(20).mean() / c * 100
+
+    # ── MA交叉 (1个) ──
+    g['ma20_ma50_cross'] = ma20.values - ma50.values
+
+    # ── 成交额 (2个) ──
+    dollar_vol = c * v
+    dvol_ma5 = pd.Series(dollar_vol).rolling(5).mean()
+    g['dvol_ma5'] = dvol_ma5.values
+    g['dvol_ratio'] = np.where(dvol_ma5.values > 0, dollar_vol / dvol_ma5.values, 1.0)
+
+    return g
+
+t0 = time.time()
+results = []
+for sym, group in df.groupby('sym'):
+    results.append(compute_v2_features(group))
+df = pd.concat(results, ignore_index=True)
+print(f"  计算完成: {time.time()-t0:.1f}s")
+
+# ════════════════════════════════════════
+#  3. 添加市场特征
+# ════════════════════════════════════════
+print("\n📈 添加市场特征...")
+import yfinance as yf
+start_date = df['date'].min().strftime('%Y-%m-%d')
+end_date = (df['date'].max() + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
+
+spy = yf.download('SPY', start=start_date, end=end_date, progress=False)
+vix = yf.download('^VIX', start=start_date, end=end_date, progress=False)
+
+spy_df = spy[['Close']].reset_index()
+spy_df.columns = ['date', 'spy_close']
+spy_df['date'] = pd.to_datetime(spy_df['date']).dt.tz_localize(None)
+spy_df = spy_df.drop_duplicates(subset='date', keep='last')
+spy_df['spy_ret1'] = spy_df['spy_close'].pct_change()
+spy_df['spy_ret5'] = spy_df['spy_close'].pct_change(5)
+spy_df['spy_ret20'] = spy_df['spy_close'].pct_change(20)
+df = df.merge(spy_df[['date', 'spy_ret1', 'spy_ret5', 'spy_ret20']], on='date', how='left')
+
+vix_df = vix[['Close']].reset_index()
+vix_df.columns = ['date', 'vix_close']
+vix_df['date'] = pd.to_datetime(vix_df['date']).dt.tz_localize(None)
+vix_df = vix_df.drop_duplicates(subset='date', keep='last')
+df = df.merge(vix_df, on='date', how='left')
+
+# 相对强度
+df['rel_ret_1d'] = df['ret_1d'] - df['spy_ret1']
+df['rel_ret_5d'] = df['ret_5d'] - df['spy_ret5']
+df['rel_ret_10d'] = df['ret_10d'] - df['spy_ret20']  # 近似
+
+print("  完成")
+
+# ════════════════════════════════════════
+#  4. 标签 + 严格划分
+# ════════════════════════════════════════
+print("\n🎯 标签 + 严格划分...")
+
+df['fwd_5d_ret'] = df.groupby('sym')['close'].transform(lambda x: x.shift(-5) / x - 1)
+
+feature_cols = [
+    'ret_1d', 'ret_3d', 'ret_5d', 'ret_10d', 'ret_20d',
+    'ma_5_ratio', 'ma_10_ratio', 'ma_20_ratio', 'ma_50_ratio',
+    'vol_5d', 'vol_10d', 'vol_20d', 'rsi_14', 'rsi_50_pct',
+    'vol_ratio_5', 'vol_ratio_20', 'vol_5d_norm',
+    'price_pos_20', 'price_pos_50', 'price_pos_100',
+    'macd', 'macd_sig', 'macd_hist', 'atr_pct',
+    'rel_ret_1d', 'rel_ret_5d', 'rel_ret_10d', 'ma20_ma50_cross',
+    'dvol_ratio', 'dvol_ma5',
+    'spy_ret1', 'spy_ret5', 'spy_ret20', 'vix_close',
 ]
 
-valid = feat.dropna(subset=feat_cols + ['ret_f5']).copy()
-valid = valid[valid['dvol_ma5'] >= 5_000_000].copy()
+valid = df.dropna(subset=['fwd_5d_ret'] + feature_cols).copy()
+valid = valid.groupby('sym').filter(lambda x: len(x) >= 100)
 
-dates = sorted(valid['Date'].unique())
-dates_set = set(dates)
-train_dates = set(dates[:int(len(dates)*0.7)])
-val_dates = set(dates[int(len(dates)*0.7):int(len(dates)*0.85)])
-test_dates = set(dates[int(len(dates)*0.85):])
+# 严格划分
+train = valid[valid['date'] < '2022-01-01'].copy()
+val = valid[(valid['date'] >= '2022-01-01') & (valid['date'] < '2024-01-01')].copy()
+test = valid[valid['date'] >= '2024-01-01'].copy()
 
-train = valid[valid['Date'].isin(train_dates)].copy()
-val = valid[valid['Date'].isin(val_dates)].copy()
-test = valid[valid['Date'].isin(test_dates)].copy()
+print(f"  特征数: {len(feature_cols)}")
+print(f"  训练集: {len(train):,}行 ({train['date'].min().date()}~{train['date'].max().date()})")
+print(f"  验证集: {len(val):,}行 ({val['date'].min().date()}~{val['date'].max().date()})")
+print(f"  测试集: {len(test):,}行 ({test['date'].min().date()}~{test['date'].max().date()})")
 
-# ========= 分位数回归：预测收益的分位，而不是具体数值 =========
-# 目标：将每个票在同一天的所有票中排名
-# 构建排名标签：同一日，按ret_f5排序，前10%=赢家
-def rank_within_day(df):
-    df = df.copy()
-    df['day_rank'] = df['ret_f5'].rank(pct=True)
-    df['is_top10pct'] = (df['day_rank'] >= 0.9).astype(int)
-    return df
+# ════════════════════════════════════════
+#  5. Walk-Forward（训练+验证集）
+# ════════════════════════════════════════
+print("\n🔄 Walk-Forward验证...")
 
-# rank within each day
-for name, df_ in [('train',train),('val',val),('test',test)]:
-    df_.loc[:,'day_rank'] = df_.groupby('Date')['ret_f5'].rank(pct=True)
-    df_.loc[:,'is_top10pct'] = (df_['day_rank'] >= 0.9).astype(int)
+trainval = pd.concat([train, val]).sort_values('date')
+tv_dates = sorted(trainval['date'].unique())
+n_tv = len(tv_dates)
+n_folds = 5
+step = n_tv // n_folds
 
-print(f'\n同日前10%赢家占比: 训练{train["is_top10pct"].mean()*100:.1f}%, 验证{val["is_top10pct"].mean()*100:.1f}%, 测试{test["is_top10pct"].mean()*100:.1f}%')
+wf_results = []
+for i in range(n_folds - 1):
+    train_end = tv_dates[min((i + 1) * step, n_tv - 1)]
+    test_end = tv_dates[min((i + 2) * step, n_tv - 1)]
 
-# 训练：预测排名
-model = xgb.XGBClassifier(
-    n_estimators=500, max_depth=4, learning_rate=0.03,
-    subsample=0.8, colsample_bytree=0.4,
-    reg_alpha=0.3, reg_lambda=1.0,
-    scale_pos_weight=9.0,  # 前10% vs 后90%
-    eval_metric='auc',
-    early_stopping_rounds=80,
+    wf_train = trainval[trainval['date'] <= train_end].copy()
+    wf_test = trainval[(trainval['date'] > train_end) & (trainval['date'] <= test_end)].copy()
+
+    if len(wf_test) < 500:
+        continue
+
+    model = xgb.XGBRegressor(
+        n_estimators=500, max_depth=6, learning_rate=0.03,
+        subsample=0.7, colsample_bytree=0.5,
+        reg_alpha=0.1, reg_lambda=1.0,
+        eval_metric='rmse', early_stopping_rounds=50,
+        random_state=42, n_jobs=-1
+    )
+    model.fit(
+        wf_train[feature_cols].values, wf_train['fwd_5d_ret'].values,
+        eval_set=[(wf_test[feature_cols].values, wf_test['fwd_5d_ret'].values)],
+        verbose=False
+    )
+
+    pred = model.predict(wf_test[feature_cols].values)
+    rmse = np.sqrt(mean_squared_error(wf_test['fwd_5d_ret'].values, pred))
+
+    wf_test_copy = wf_test.copy()
+    wf_test_copy['pred'] = pred
+    top10_daily = []
+    for d, day in wf_test_copy.groupby('date'):
+        if len(day) < 10:
+            continue
+        top10 = day.nlargest(10, 'pred')
+        avg_ret = top10['fwd_5d_ret'].mean()
+        win_rate = (top10['fwd_5d_ret'] > 0).mean()
+        top10_daily.append({'date': d, 'avg_ret': avg_ret, 'win_rate': win_rate})
+
+    if top10_daily:
+        tdf = pd.DataFrame(top10_daily)
+        geo = np.exp(np.log(1 + tdf['avg_ret']).mean()) - 1
+        ann = geo * 252 / 5
+        sharpe = tdf['avg_ret'].mean() / max(tdf['avg_ret'].std(), 0.001) * np.sqrt(252/5)
+        dd = (1 + tdf['avg_ret']).cumprod()
+        dd_max = (dd / dd.cummax() - 1).min()
+        wr = tdf['win_rate'].mean()
+    else:
+        ann, sharpe, dd_max, wr = 0, 0, 0, 0
+
+    wf_results.append({'fold': i+1, 'rmse': rmse, 'annual_return': ann,
+                       'sharpe': sharpe, 'max_drawdown': dd_max, 'win_rate': wr})
+    print(f"  Fold {i+1}: RMSE={rmse*100:.2f}%, 年化={ann*100:.1f}%, "
+          f"夏普={sharpe:.2f}, 回撤={dd_max*100:.1f}%, 胜率={wr*100:.1f}%")
+
+print(f"\n  Walk-Forward平均:")
+for k in ['rmse', 'annual_return', 'sharpe', 'max_drawdown', 'win_rate']:
+    v = np.mean([r[k] for r in wf_results])
+    label = {'rmse': 'RMSE', 'annual_return': '年化', 'sharpe': '夏普',
+             'max_drawdown': '回撤', 'win_rate': '胜率'}[k]
+    fmt = f"{v*100:.2f}%" if k != 'sharpe' else f"{v:.2f}"
+    print(f"    {label}: {fmt}")
+
+# ════════════════════════════════════════
+#  6. 最终模型 + 测试集评估
+# ════════════════════════════════════════
+print(f"\n🎯 训练最终模型...")
+
+final_model = xgb.XGBRegressor(
+    n_estimators=800, max_depth=6, learning_rate=0.02,
+    subsample=0.7, colsample_bytree=0.5,
+    reg_alpha=0.1, reg_lambda=1.0,
+    eval_metric='rmse', early_stopping_rounds=100,
     random_state=42, n_jobs=-1
 )
-
-model.fit(
-    train[feat_cols].values, train['is_top10pct'].values,
-    eval_set=[(train[feat_cols].values, train['is_top10pct'].values),
-              (val[feat_cols].values, val['is_top10pct'].values)],
+final_model.fit(
+    trainval[feature_cols].values, trainval['fwd_5d_ret'].values,
+    eval_set=[(val[feature_cols].values, val['fwd_5d_ret'].values)],
     verbose=200
 )
 
-# ========= 评估 =========
-from sklearn.metrics import roc_auc_score
+print(f"\n📊 测试集最终评估（完全隔离）...")
+pred = final_model.predict(test[feature_cols].values)
+rmse = np.sqrt(mean_squared_error(test['fwd_5d_ret'].values, pred))
 
-for name, df, X in [('训练', train, train[feat_cols].values),
-                     ('验证', val, val[feat_cols].values),
-                     ('测试', test, test[feat_cols].values)]:
-    prob = model.predict_proba(X)[:, 1]
-    auc = roc_auc_score(df['is_top10pct'], prob)
-    print(f'{name}: AUC={auc:.4f}')
+test_copy = test.copy()
+test_copy['pred'] = pred
+top10_daily = []
+for d, day in test_copy.groupby('date'):
+    if len(day) < 10:
+        continue
+    top10 = day.nlargest(10, 'pred')
+    avg_ret = top10['fwd_5d_ret'].mean()
+    win_rate = (top10['fwd_5d_ret'] > 0).mean()
+    top10_daily.append({'date': d, 'avg_ret': avg_ret, 'win_rate': win_rate})
 
-# ========= 回测：ML仓位分配 =========
-print('\n=== 蓝盾V4 回测（V5.5规则+ML仓位分配）===')
-test_df = test.copy()
-test_df['prob'] = model.predict_proba(test[feat_cols].values)[:, 1]
+if top10_daily:
+    tdf = pd.DataFrame(top10_daily)
+    geo = np.exp(np.log(1 + tdf['avg_ret']).mean()) - 1
+    ann = geo * 252 / 5
+    sharpe = tdf['avg_ret'].mean() / max(tdf['avg_ret'].std(), 0.001) * np.sqrt(252/5)
+    dd = (1 + tdf['avg_ret']).cumprod()
+    dd_max = (dd / dd.cummax() - 1).min()
+    wr = tdf['win_rate'].mean()
 
-# 策略：每一天只买V5.5信号票，但ML评分高的多买
-all_trades = []
-te_dates_clean = sorted(test_df['Date'].dropna().unique())
-for d in te_dates_clean:
-    day = test_df[test_df['Date'] == d]
-    if len(day) < 10: continue
-    
-    # V5.5核心条件：趋势向上
-    v55 = day[(day['ret_5d'] > 0) & (day['ma_50_ratio'] > 1.0)].copy()
-    if len(v55) < 3: continue
-    
-    # 按ML评分分三层
-    v55['weight'] = pd.qcut(v55['prob'], 3, labels=[0.5, 1.0, 1.5]).astype(float)
-    # 最多选12只
-    v55 = v55.nlargest(min(12, len(v55)), 'prob')
-    
-    # 等权加权
-    total_weight = v55['weight'].sum()
-    v55['wgt'] = v55['weight'] / total_weight
-    
-    avg_ret = (v55['ret_f5'] * v55['wgt']).sum()
-    all_trades.append(avg_ret)
+    print(f"\n  测试集结果:")
+    print(f"    RMSE: {rmse*100:.2f}%")
+    print(f"    年化: {ann*100:.1f}%")
+    print(f"    夏普: {sharpe:.2f}")
+    print(f"    最大回撤: {dd_max*100:.1f}%")
+    print(f"    平均5日收益: {tdf['avg_ret'].mean()*100:.2f}%")
+    print(f"    胜率: {wr*100:.1f}%")
 
-arr = np.array(all_trades)
-vm = (arr > 0).mean()
-geo = np.exp(np.log(1 + arr).mean()) - 1
-ann = geo * 252 / 5
-std = arr.std() * np.sqrt(252/5)
-shp = ann / max(std, 0.001)
-cum = (1 + pd.Series(arr)).cumprod()
-dd = (cum / cum.cummax() - 1).min()
+    print(f"\n  对比蓝盾V3:")
+    print(f"    V3: 年化+39.6%, 回撤~4%, 胜率48.4% (50只池70天)")
+    print(f"    V4: 年化{ann*100:.1f}%, 回撤{dd_max*100:.1f}%, 胜率{wr*100:.1f}% (S&P500 2.5年)")
 
-print(f'ML仓位分配: 年化={ann*100:.1f}%, 夏普={shp:.2f}, 回撤={dd*100:.1f}%, 方向率={vm*100:.1f}%')
+# ════════════════════════════════════════
+#  7. 特征重要性
+# ════════════════════════════════════════
+print(f"\n📊 特征重要性 Top 15:")
+importances = final_model.feature_importances_
+for name, imp in sorted(zip(feature_cols, importances), key=lambda x: -x[1])[:15]:
+    bar = '█' * int(imp * 200)
+    print(f"  {name:25s} {imp:.4f} {bar}")
 
-# ========= 对比：V5.5纯规则（每日Top10等权，只用V5.5条件） =========
-print('\n--- V5.5纯规则对比 ---')
-v55_trades = []
-for d in te_dates_clean:
-    day = test_df[test_df['Date'] == d]
-    if len(day) < 10: continue
-    v55 = day[(day['ret_5d'] > 0) & (day['ma_50_ratio'] > 1.0)]
-    if len(v55) < 3: continue
-    picks = v55.nlargest(10, 'ret_5d')  # V5.5按涨幅选
-    v55_trades.append(picks['ret_f5'].mean())
+# ════════════════════════════════════════
+#  8. 保存
+# ════════════════════════════════════════
+print(f"\n💾 保存模型...")
+model_path = os.path.join(MODEL_DIR, 'blueshield_v4.model')
+final_model.save_model(model_path)
 
-v55_arr = np.array(v55_trades)
-v55_vm = (v55_arr > 0).mean()
-v55_geo = np.exp(np.log(1 + v55_arr).mean()) - 1
-v55_ann = v55_geo * 252 / 5
-v55_std = v55_arr.std() * np.sqrt(252/5)
-v55_shp = v55_ann / max(v55_std, 0.001)
-
-print(f'V5.5: 年化={v55_ann*100:.1f}%, 夏普={v55_shp:.2f}, 方向率={v55_vm*100:.1f}%')
-print(f'V4增量: 年化+{(ann-v55_ann)*100:.1f}%, 夏普+{shp-v55_shp:.2f}')
-
-# 保存
-booster = model.get_booster()
-booster.save_model('/home/hermes/.hermes/openclaw-project/data/models/blueshield_v4.model')
 meta = {
     'model': 'blueshield_v4',
-    'strategy': 'v55_rules + ml_weight_allocation',
-    'features': feat_cols,
-    'n_features': len(feat_cols),
-    'backtest': {
-        'ml_weighted': {'annual_return': float(ann), 'sharpe': float(shp), 'max_drawdown': float(dd)},
-        'v55_pure': {'annual_return': float(v55_ann), 'sharpe': float(v55_shp)},
+    'version': 'V4',
+    'strategy': 'V2_V3_fusion_regression',
+    'features': feature_cols,
+    'n_features': len(feature_cols),
+    'data_split': {
+        'train': f"2016-2021 ({len(train):,}行)",
+        'val': f"2022-2023 ({len(val):,}行)",
+        'test': f"2024-2026.6 ({len(test):,}行)",
     },
-    'date': '2026-06-11'
+    'walk_forward': {
+        'n_folds': 5,
+        'avg_rmse': float(np.mean([r['rmse'] for r in wf_results])),
+        'avg_annual_return': float(np.mean([r['annual_return'] for r in wf_results])),
+        'avg_sharpe': float(np.mean([r['sharpe'] for r in wf_results])),
+        'avg_max_drawdown': float(np.mean([r['max_drawdown'] for r in wf_results])),
+        'avg_win_rate': float(np.mean([r['win_rate'] for r in wf_results])),
+    },
+    'test_set': {
+        'rmse': float(rmse),
+        'annual_return': float(ann),
+        'sharpe': float(sharpe),
+        'max_drawdown': float(dd_max),
+        'win_rate': float(wr),
+    },
+    'date': '2026-06-18',
+    'data_latest': str(valid['date'].max().date()),
 }
-json.dump(meta, open('/home/hermes/.hermes/openclaw-project/data/models/blueshield_v4_meta.json', 'w'), indent=2)
-print(f'\n完成: blueshield_v4')
+meta_path = os.path.join(MODEL_DIR, 'blueshield_v4_meta.json')
+with open(meta_path, 'w') as f:
+    json.dump(meta, f, indent=2, ensure_ascii=False)
+print(f"  模型: {model_path}")
+print(f"  元数据: {meta_path}")
+print(f"\n✅ 蓝盾V4训练完成")
