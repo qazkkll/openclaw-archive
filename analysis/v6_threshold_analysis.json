@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-06-19T17:31:08.622138",
+  "w1_full_stats": {
+    "rank_0.9": {
+      "n": 17,
+      "net": 35.24,
+      "wr": 94
+    },
+    "rank_0.8": {
+      "n": 209,
+      "net": 26.77,
+      "wr": 84
+    },
+    "rank_0.7": {
+      "n": 927,
+      "net": 19.19,
+      "wr": 68
+    },
+    "rank_0.6": {
+      "n": 9469,
+      "net": 3.51,
+      "wr": 57
+    },
+    "rank_0.5": {
+      "n": 17355,
+      "net": 1.62,
+      "wr": 54
+    }
+  },
+  "recommendation": {
+    "green2": {
+      "threshold": 0.9,
+      "note": "\u7cbe\u54c1\uff0c\u6837\u672c\u5c11\u4f46\u6536\u76ca\u7387\u6781\u9ad8"
+    },
+    "green1": {
+      "threshold": 0.8,
+      "note": "\u4e3b\u529b\u4fe1\u53f7\uff0c\u6837\u672c\u5145\u8db3"
+    },
+    "observe": {
+      "threshold": 0.7,
+      "note": "\u89c2\u5bdf\u6c60"
+    },
+    "no_buy": {
+      "threshold": 0.6,
+      "note": "\u4e0d\u63a8\u8350"
+    }
+  },
+  "sample_analysis": [
+    {
+      "threshold": 0.5,
+      "n_sample": 500,
+      "avg_net": 0.76,
+      "win_rate": 61.2,
+      "signal": "\ud83d\udfe1"
+    },
+    {
+      "threshold": 0.525,
+      "n_sample": 500,
+      "avg_net": 0.76,
+      "win_rate": 61.2,
+      "signal": "\ud83d\udfe1"
+    },
+    {
+      "threshold": 0.55,
+      "n_sample": 500,
+      "avg_net": 0.76,
+      "win_rate": 61.2,
+      "signal": "\ud83d\udfe1"
+    },
+    {
+      "threshold": 0.575,
+      "n_sample": 396,
+      "avg_net": 1.67,
+      "win_rate": 66.2,
+      "signal": "\ud83d\udfe1"
+    },
+    {
+      "threshold": 0.6,
+      "n_sample": 193,
+      "avg_net": 3.19,
+      "win_rate": 71.5,
+      "signal": "\ud83d\udfe1"
+    },
+    {
+      "threshold": 0.625,
+      "n_sample": 98,
+      "avg_net": 5.66,
+      "win_rate": 77.6,
+      "signal": "\ud83d\udfe2"
+    },
+    {
+      "threshold": 0.65,
+      "n_sample": 48,
+      "avg_net": 10.23,
+      "win_rate": 89.6,
+      "signal": "\ud83d\udfe2\u5f3a"
+    },
+    {
+      "threshold": 0.675,
+      "n_sample": 22,
+      "avg_net": 12.51,
+      "win_rate": 95.5,
+      "signal": "\ud83d\udfe2\u5f3a"
+    },
+    {
+      "threshold": 0.7,
+      "n_sample": 10,
+      "avg_net": 18.37,
+      "win_rate": 100.0,
+      "signal": "\ud83d\udfe2\u5f3a"
+    },
+    {
+      "threshold": 0.725,
+      "n_sample": 8,
+      "avg_net": 18.62,
+      "win_rate": 100.0,
+      "signal": "\ud83d\udfe2\u5f3a"
+    },
+    {
+      "threshold": 0.75,
+      "n_sample": 5,
+      "avg_net": 22.01,
+      "win_rate": 100.0,
+      "signal": "\ud83d\udfe2\ud83d\udfe2\u7cbe\u54c1"
+    }
+  ]
+}

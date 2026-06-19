@@ -1,17 +1,27 @@
 {
   "us": {
-    "arrow": {
-      "name": "绿箭V9-Lottery",
-      "model_file": "us_v9_lottery.json",
-      "version": "V9",
-      "type": "xgboost",
-      "status": "active"
-    },
     "shield": {
-      "name": "蓝盾V3",
-      "version": "V3",
-      "type": "formula",
-      "status": "active"
+      "name": "蓝盾V6",
+      "version": "V6",
+      "type": "xgboost_ranking",
+      "model_file": "blueshield_v6_xgb.json",
+      "status": "active",
+      "validated": true,
+      "oos_sharpe": 1.44,
+      "oos_annual_return": 30.1,
+      "oos_max_dd": -11.1
+    },
+    "arrow": {
+      "name": "绿箭V11",
+      "version": "V11",
+      "type": "xgboost_ranking",
+      "model_file": "arrow_v11_xgb.json",
+      "status": "active",
+      "validated": true,
+      "oos_sharpe": 2.18,
+      "oos_avg_net_per_5d": 5.56,
+      "oos_win_rate": 50,
+      "replaces": "V9-Lottery"
     }
   },
   "cn": {

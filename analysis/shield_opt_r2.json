@@ -1,0 +1,73 @@
+{
+  "baseline": {
+    "label": "XGB\u57fa\u7ebf",
+    "annual": 1.719437147112301,
+    "sharpe": 3.6931168629344477,
+    "max_dd": NaN,
+    "real_dd": 0.0,
+    "win_rate": 1.0,
+    "avg_ret": 0.8187795938630004,
+    "n": 1260
+  },
+  "xgb": {
+    "label": "XGB\u5355\u72ec",
+    "annual": 1.719437147112301,
+    "sharpe": 3.6931168629344477,
+    "max_dd": NaN,
+    "real_dd": 0.0,
+    "win_rate": 1.0,
+    "avg_ret": 0.8187795938630004,
+    "n": 1260
+  },
+  "catboost": {
+    "label": "CatBoost\u5355\u72ec",
+    "annual": 1.7126317838592007,
+    "sharpe": 3.774242939234854,
+    "max_dd": NaN,
+    "real_dd": 0.0,
+    "win_rate": 1.0,
+    "avg_ret": 0.8155389446948574,
+    "n": 1260
+  },
+  "ensemble": {
+    "label": "XGB(0.6)+Cat(0.4)",
+    "annual": 1.7169121654658535,
+    "sharpe": 3.727684389562633,
+    "max_dd": NaN,
+    "real_dd": 0.0,
+    "win_rate": 1.0,
+    "avg_ret": 0.8175772216504064,
+    "n": 1260
+  },
+  "features": [
+    "ma5",
+    "ma20",
+    "ma60",
+    "ret1",
+    "ret5",
+    "ret20",
+    "ret60",
+    "vol20",
+    "vol5",
+    "rsi14",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "ma_bias20",
+    "vol_ratio",
+    "trend_accel",
+    "bb_std",
+    "bb_width",
+    "bb_pos",
+    "rsi_change",
+    "vol_change",
+    "ret_quality",
+    "ma_align",
+    "price_position",
+    "momentum_6m",
+    "momentum_1m",
+    "mom_divergence",
+    "fwd"
+  ],
+  "best": "CatBoost"
+}

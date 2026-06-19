@@ -1,0 +1,149 @@
+{
+  "timestamp": "2026-06-19T17:58:28.544997",
+  "checks": {
+    "WF\u9a8c\u8bc1(5\u6298)": true,
+    "\u6837\u672c\u91cf>100": true,
+    "\u590f\u666e>0.5": true,
+    "DD>-30%": false,
+    "5/6\u5e74\u76c8\u5229": true,
+    "\u6837\u672c\u5916\u6b63\u6536\u76ca": "True"
+  },
+  "overall_score": 83.0,
+  "segment_results": {
+    "\ud83d\udfe2\ud83d\udfe2\u22650.90": {
+      "label": "\ud83d\udfe2\ud83d\udfe2\u22650.90",
+      "n_trades": 17,
+      "n_days": 6,
+      "avg_ret_per_trade": 28.83,
+      "ann_return": 526.1,
+      "sharpe": 5.237,
+      "sortino": 0,
+      "max_dd": -23.4,
+      "win_rate": 83.3
+    },
+    "\ud83d\udfe2\u22650.80": {
+      "label": "\ud83d\udfe2\u22650.80",
+      "n_trades": 209,
+      "n_days": 32,
+      "avg_ret_per_trade": 23.14,
+      "ann_return": 422.3,
+      "sharpe": 2.616,
+      "sortino": 4.504,
+      "max_dd": -78.5,
+      "win_rate": 84.4
+    },
+    "\ud83d\udfe2\u6807\u51c6\u22650.70": {
+      "label": "\ud83d\udfe2\u6807\u51c6\u22650.70",
+      "n_trades": 1025,
+      "n_days": 263,
+      "avg_ret_per_trade": 14.92,
+      "ann_return": 272.3,
+      "sharpe": 0.901,
+      "sortino": 6.015,
+      "max_dd": -99.6,
+      "win_rate": 62.4
+    },
+    "\u5168\u90e8\u22650.50": {
+      "label": "\u5168\u90e8\u22650.50",
+      "n_trades": 26235,
+      "n_days": 1665,
+      "avg_ret_per_trade": 1.43,
+      "ann_return": 26.2,
+      "sharpe": 0.618,
+      "sortino": 0.941,
+      "max_dd": -100.0,
+      "win_rate": 57.8
+    }
+  },
+  "feature_comparison": {
+    "27dim": {
+      "label": "27\u7ef4\u6280\u672f",
+      "n_trades": 26235,
+      "n_days": 1665,
+      "avg_ret_per_trade": 1.1,
+      "ann_return": 20.1,
+      "sharpe": 0.434,
+      "sortino": 0.759,
+      "max_dd": -100.0,
+      "win_rate": 52.8
+    },
+    "44dim": {
+      "label": "44\u7ef4\u5168\u91cf",
+      "n_trades": 26235,
+      "n_days": 1665,
+      "avg_ret_per_trade": 1.43,
+      "ann_return": 26.2,
+      "sharpe": 0.618,
+      "sortino": 0.941,
+      "max_dd": -100.0,
+      "win_rate": 57.8
+    }
+  },
+  "oos_result": {
+    "label": "OOS",
+    "n_trades": 8880,
+    "n_days": 592,
+    "avg_ret_per_trade": 1.06,
+    "ann_return": 19.4,
+    "sharpe": 0.896,
+    "sortino": 1.361,
+    "max_dd": -94.2,
+    "win_rate": 61.1
+  },
+  "fold_results": [
+    {
+      "fold": 0,
+      "train": "2016-06-2019-05",
+      "test": "2019-06-2020-05",
+      "n": 3480,
+      "gross": 2.18,
+      "net": 2.08,
+      "wr": 59.0
+    },
+    {
+      "fold": 1,
+      "train": "2017-06-2020-05",
+      "test": "2020-06-2021-05",
+      "n": 3480,
+      "gross": 3.23,
+      "net": 3.13,
+      "wr": 59.7
+    },
+    {
+      "fold": 2,
+      "train": "2018-06-2021-05",
+      "test": "2021-06-2022-05",
+      "n": 3480,
+      "gross": -2.07,
+      "net": -2.17,
+      "wr": 45.9
+    },
+    {
+      "fold": 3,
+      "train": "2019-06-2022-05",
+      "test": "2022-06-2023-05",
+      "n": 3450,
+      "gross": 4.04,
+      "net": 3.94,
+      "wr": 50.1
+    },
+    {
+      "fold": 4,
+      "train": "2020-06-2023-05",
+      "test": "2023-06-2024-05",
+      "n": 3465,
+      "gross": 1.22,
+      "net": 1.12,
+      "wr": 55.2
+    },
+    {
+      "fold": 5,
+      "train": "2020-06-2023-12",
+      "test": "2024-01-2026-06",
+      "n": 8880,
+      "gross": 1.16,
+      "net": 1.06,
+      "wr": 52.8
+    }
+  ]
+}

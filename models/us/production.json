@@ -1,50 +1,155 @@
 {
   "market": "us",
-  "updated": "2026-06-17",
+  "updated": "2026-06-19",
   "active_models": {
-    "v8": {
-      "name": "绿箭 V8 (GreenArrow)",
-      "file": "us_v8_1.json",
-      "calibrator": "us_v8_1_calibrator.pkl",
-      "version": "v8.1",
+    "blueshield_v6": {
+      "name": "蓝盾V6 (BlueShield)",
+      "type": "xgboost_gpu",
+      "version": "V6",
       "status": "production",
-      "description": "XGBoost回归，51特征，彩票策略，AUC 0.67",
-      "data_sources": ["us_hist_yf_10y.parquet", "us_ml_feats_v75.parquet"],
-      "train_script": "scripts/us/us_v8_1_p1_bt.py",
-      "report": "us_v8_1_report.json"
+      "description": "XGBoost排名, 44维特征(技术27+宏观13+基本面4), 20天Top-15, 全市场>$10",
+      "model_file": "models/us/blueshield_v6_xgb.json",
+      "meta_file": "models/us/blueshield_v6_meta.json",
+      "features": 44,
+      "feature_breakdown": {
+        "technical": 27,
+        "macro": 13,
+        "fundamental": 4
+      },
+      "top_n": 15,
+      "hold_days": 20,
+      "universe": "全市场>$10 (2359只)",
+      "stop_loss": -0.15,
+      "retrain_frequency": "6个月",
+      "metrics": {
+        "oos_annual_return": "+30.1%",
+        "oos_sharpe": 1.44,
+        "oos_sortino": 2.825,
+        "oos_max_dd": "-11.1%",
+        "oos_win_rate": "60%",
+        "oos_trades": 30
+      },
+      "signal_system": "three_layer_percentile",
+      "signal_thresholds": {
+        "L1_vix_filter": "VIX > 30 → 关闭所有信号",
+        "L2_absolute": "分数必须 > 当日中位数",
+        "L3_percentile": {
+          "green2": {"percentile": 95, "label": "🟢🟢精品买入", "action": "马上下单"},
+          "green1": {"percentile": 90, "label": "🟢强信号", "action": "主力信号"},
+          "observe": {"percentile": 80, "label": "🟡观察", "action": "不买，放watchlist"}
+        }
+      },
+      "backtest": "analysis/shield_10yr_full.json"
     },
-    "blueshield": {
-      "name": "蓝盾 V3 (BlueShield)",
-      "file": "blueshield_v2c.model",
-      "calibrator": "blueshield_v2c.pkl",
-      "version": "v3",
+    "greenarrow_v11": {
+      "name": "绿箭V11 (GreenArrow)",
+      "type": "xgboost",
+      "version": "V11",
       "status": "production",
-      "description": "纯公式评分，110分制防御策略，无ML依赖"
-    },
-    "v8": {
-      "name": "V8 Lottery",
-      "file": "us_v8_1.json",
-      "version": "v8.1",
-      "status": "legacy",
-      "description": "XGBoost回归，43特征，绿箭前身"
-    },
-    "v9": {
-      "name": "V9 Lottery",
-      "file": "us_v9_lottery_v2.json",
-      "version": "v9",
-      "status": "testing",
-      "description": "V8改进版，更大特征集"
+      "description": "XGBoost排名, 41维特征(技术28+宏观13), 5天Top-5, $1-$10彩票股",
+      "model_file": "models/us/arrow_v11_xgb.json",
+      "meta_file": "models/us/arrow_v11_meta.json",
+      "features": 41,
+      "top_n": 5,
+      "hold_days": 5,
+      "universe": "$1-$10 (1442只)",
+      "stop_loss": -0.1,
+      "retrain_frequency": "6个月",
+      "metrics": {
+        "oos_avg_net_per_5d": "+5.56%",
+        "oos_win_rate": "50%",
+        "oos_big50_rate": "4%",
+        "oos_sharpe": 2.18
+      },
+      "signal_system": "three_layer_percentile",
+      "signal_thresholds": {
+        "L1_vix_filter": "VIX > 30 → 关闭所有信号",
+        "L2_absolute": "分数必须 > 当日中位数",
+        "L3_percentile": {
+          "green2": {"percentile": 95, "label": "🟢🟢精品买入", "action": "马上下单, 每只$2000"},
+          "green1": {"percentile": 90, "label": "🟢强信号", "action": "可买, 每只$1000"},
+          "observe": {"percentile": 80, "label": "🟡观察", "action": "不买"}
+        }
+      }
     }
   },
-  "legacy_models": [
-    "greenshaft_v5_5pct.json",
-    "greenshaft_v6.json",
-    "us_xgb_v71.json",
-    "us_xgb_v2.json",
-    "us_v7_5.json",
-    "blueshield_v2.model",
-    "blueshield_v2b.model",
-    "blueshield_v2d.model",
-    "blueshield_v4.model"
+  "archive": {
+    "blueshield_v5": {
+      "name": "蓝盾V5 (已归档)",
+      "status": "archived",
+      "location": "models/us/archive/v5_legacy/",
+      "description": "120天持有, S&P500, 夏普1.36（有幸存者偏差，已废弃）"
+    },
+    "blueshield_v4": {
+      "name": "蓝盾V4 (已归档)",
+      "status": "archived",
+      "location": "models/us/archive/v5_legacy/",
+      "description": "5天持有, 全市场, 夏普0.949（成本过高，已升级为V6）"
+    },
+    "blueshield_v3": {
+      "name": "蓝盾V3 (已归档)",
+      "status": "archived",
+      "location": "models/us/archive/",
+      "description": "110分制纯公式, 夏普0.77"
+    },
+    "greenarrow_v9": {
+      "name": "绿箭V9 (已归档)",
+      "status": "archived",
+      "location": "models/us/archive/",
+      "description": "5天涨50%彩票, 命中率1.1%, 已升级为V11"
+    }
+  },
+  "scoring": {
+    "shield": {
+      "script": "scripts/us/blueshield_v6_score.py",
+      "top_n": 15,
+      "description": "每日扫描全市场>$10, 三层过滤信号分级"
+    },
+    "arrow": {
+      "script": "scripts/us/arrow_v11_score.py",
+      "top_n": 5,
+      "description": "低价股池$1-$10, 三层过滤信号分级"
+    }
+  },
+  "strategy": {
+    "shield": {
+      "rebalance_days": 20,
+      "position_sizing": "equal_weight",
+      "max_positions": 15,
+      "description": "20天轮换, 三层过滤(百分位Top5/10/20%), VIX>30关闭信号",
+      "exit_rules": {
+        "three_layer_filter": "L1:VIX>30暂停 L2:>中位数 L3:Top5%=🟢🟢 Top10%=🟢 Top20%=🟡",
+        "stop_loss": "从买入价跌>15%止损",
+        "macro_stop": "VIX>35且持仓Beta>1.5时清仓"
+      }
+    },
+    "arrow": {
+      "rebalance_days": 5,
+      "position_sizing": "equal_weight",
+      "max_positions": 5,
+      "description": "5天轮换, 三层过滤, 止损-10%, 梯度止盈(+20%→1/3, +40%→1/3, +60%→清仓)"
+    }
+  },
+  "risk_rules": [
+    {
+      "type": "sector_concentration",
+      "threshold": 4,
+      "message": "板块集中：{sector}占Top15的{count}席"
+    },
+    {
+      "type": "vix_spike",
+      "threshold": 35,
+      "message": "VIX>{threshold}·考虑减仓"
+    },
+    {
+      "type": "vix_shutdown",
+      "threshold": 30,
+      "message": "VIX>{threshold}·三层过滤L1触发·信号全部关闭"
+    },
+    {
+      "type": "drawdown",
+      "threshold": 0.1,
+      "message": "组合回撤>{threshold}·收紧止损"
+    }
   ]
 }

@@ -1,126 +1,152 @@
 {
-  "_comment": "Hermes Trading System Config v2 — 模型+阈值+逻辑唯一来源",
-
-  "models": {
-    "shield": {
-      "name": "蓝盾V4",
-      "type": "xgboost_gpu",
-      "version": "V4",
-      "model_file": "models/us/blueshield_v4_cs16_xgb.json",
-      "description": "XGBoost CUDA, 16维截面排名特征, WF夏普1.203",
-      "features": "cs16",
-      "top_n": 15,
-      "hold_days": 5
+    "_comment": "Hermes Trading System Config v4 — 蓝盾V6定版 2026-06-19",
+    "models": {
+        "shield": {
+            "name": "蓝盾V6",
+            "type": "xgboost_ranking",
+            "version": "V6",
+            "model_file": "models/us/blueshield_v6_xgb.json",
+            "description": "XGBoost排名模型, 44维特征(技术27+宏观13+基本面4), 20天Top-15, 全市场>$10",
+            "features": 44,
+            "feature_breakdown": {
+                "technical": 27,
+                "macro": 13,
+                "fundamental": 4
+            },
+            "top_n": 15,
+            "hold_days": 20,
+            "universe": "全市场>$10 (2359只)",
+            "retrain_frequency": "6个月",
+            "train_window": "3年",
+            "validation": {
+                "method": "Walk-Forward 5折 + 样本外2024-2026",
+                "oos_annual_return": 30.1,
+                "oos_sharpe": 1.44,
+                "oos_max_dd": -11.1,
+                "oos_win_rate": 60,
+                "oos_trades": 30
+            },
+            "signal_thresholds": {
+                "system": "three_layer_percentile",
+                "L1_vix_filter": "VIX > 30 → 关闭所有信号",
+                "L2_absolute": "分数必须 > 当日中位数",
+                "L3_percentile": {
+                    "green2": {"percentile": 95, "label": "🟢🟢精品买入", "action": "马上下单"},
+                    "green1": {"percentile": 90, "label": "🟢强信号", "action": "主力信号"},
+                    "observe": {"percentile": 80, "label": "🟡观察", "action": "不买，放watchlist"}
+                }
+            }
+        },
+        "arrow": {
+            "name": "绿箭V11",
+            "type": "xgboost_ranking",
+            "version": "V11",
+            "model_file": "models/us/arrow_v11_xgb.json",
+            "description": "XGBoost排名, 41维特征(技术28+宏观13), 5天Top-5, $1-$10彩票股",
+            "features": 41,
+            "top_n": 5,
+            "hold_days": 5,
+            "universe": "$1-$10 (1442只)",
+            "stop_loss": -0.1,
+            "cost_per_trade": 0.001,
+            "retrain_frequency": "6个月",
+            "validation": {
+                "method": "Walk-Forward 5折 + OOS 2024-2026",
+                "oos_avg_net_per_5d": 5.56,
+                "oos_win_rate": 50,
+                "oos_big50_rate": 4,
+                "oos_sharpe": 2.18
+            },
+            "signal_thresholds": {
+                "system": "three_layer_percentile",
+                "L1_vix_filter": "VIX > 30 → 关闭所有信号",
+                "L2_absolute": "分数必须 > 当日中位数",
+                "L3_percentile": {
+                    "green2": {"percentile": 95, "label": "🟢🟢精品买入", "action": "马上下单, 每只$2000"},
+                    "green1": {"percentile": 90, "label": "🟢强信号", "action": "可买, 每只$1000"},
+                    "observe": {"percentile": 80, "label": "🟡观察", "action": "不买"}
+                }
+            }
+        }
     },
-    "arrow": {
-      "name": "绿箭V9-Lottery",
-      "type": "xgboost",
-      "version": "V9",
-      "model_file": "models/us/us_v9_lottery.json",
-      "data_file": "data/us_all_ohlcv.json",
-      "feature_count": 50,
-      "description": "XGBoost二分类，预测5天涨50%概率，高波动高收益",
-      "top_n": 10,
-      "hold_days": 5
+    "scoring": {
+        "shield": {
+            "script": "scripts/us/blueshield_v6_score.py",
+            "top_n": 15,
+            "description": "每日扫描全市场>$10, 输出Top-15排名+信号分级"
+        },
+        "arrow": {
+            "top_n": 5,
+            "description": "低价股池, 彩票策略"
+        }
+    },
+    "display": {
+        "traffic_light": {
+            "strong": {
+                "label": "精品买入",
+                "emoji": "🟢🟢"
+            },
+            "buy": {
+                "label": "强信号",
+                "emoji": "🟢"
+            },
+            "watch": {
+                "label": "观察",
+                "emoji": "🟡"
+            },
+            "avoid": {
+                "label": "不推荐",
+                "emoji": "⚪"
+            }
+        }
+    },
+    "strategy": {
+        "shield": {
+            "rebalance_days": 20,
+            "position_sizing": "equal_weight",
+            "max_positions": 15,
+            "description": "20天轮换, 三层过滤(百分位Top5/10/20%), VIX>30关闭信号",
+            "exit_rules": {
+                "rank_drop": "排名跌出0.70以下考虑卖出",
+                "macro_stop": "VIX>35且持仓Beta>1.5时清仓",
+                "trailing_stop": "从最高点回撤>10%减仓"
+            }
+        },
+        "arrow": {
+            "rebalance_days": 5,
+            "position_sizing": "equal_weight",
+            "max_positions": 5,
+            "description": "5天轮换, 三层过滤, 止损-10%, 梯度止盈"
+        }
+    },
+    "risk_rules": [
+        {
+            "type": "sector_concentration",
+            "threshold": 4,
+            "message": "板块集中：{sector}占Top15的{count}席"
+        },
+        {
+            "type": "vix_spike",
+            "threshold": 35,
+            "message": "VIX>{threshold}·考虑减仓"
+        },
+        {
+            "type": "drawdown",
+            "threshold": 0.1,
+            "message": "组合回撤>{threshold}·收紧止损"
+        },
+        {
+            "type": "macro_stop",
+            "threshold": "VIX>35 & Beta>1.5",
+            "message": "宏观恶化+高Beta·清仓"
+        }
+    ],
+    "market": {
+        "indices": {
+            "S&P 500": "^GSPC",
+            "VIX": "^VIX",
+            "NASDAQ": "^IXIC",
+            "DJI": "^DJI"
+        }
     }
-  },
-
-  "scoring": {
-    "shield": {
-      "top_n": 15,
-      "thresholds": {
-        "strong_buy": 0.85,
-        "buy": 0.75,
-        "watch_bullish": 0.65,
-        "watch": 0.50,
-        "avoid": 0
-      }
-    },
-    "arrow": {
-      "top_n": 10,
-      "pool_size": 30,
-      "sort_method": "prob/price_top30->prob_top10",
-      "thresholds": {
-        "high_prob": 0.8,
-        "medium_prob": 0.6,
-        "low_prob": 0.4,
-        "very_low": 0
-      }
-    }
-  },
-
-  "display": {
-    "traffic_light": {
-      "strong": { "label": "强烈买入", "emoji": "🟢🟢" },
-      "buy": { "label": "买入", "emoji": "🟢" },
-      "watch": { "label": "观望", "emoji": "🟡" },
-      "avoid": { "label": "回避", "emoji": "🔴" }
-    },
-    "arrow_light": {
-      "high": { "label": "高概率", "emoji": "🟢🟢" },
-      "medium": { "label": "中概率", "emoji": "🟢" },
-      "low": { "label": "低概率", "emoji": "🟡" },
-      "very_low": { "label": "极低", "emoji": "🔴" }
-    }
-  },
-
-  "strategy": {
-    "shield": {
-      "rebalance_days": 5,
-      "position_sizing": "equal_weight",
-      "max_positions": 15,
-      "v3_risk_monitor": {
-        "enabled": true,
-        "normal_threshold": 60,
-        "reduce_threshold": 40,
-        "exit_threshold": 20
-      }
-    },
-    "arrow": {
-      "rebalance_days": 5,
-      "position_sizing": "equal_weight",
-      "max_positions": 10,
-      "lottery_rules": {
-        "profit_take": [0.2, 0.4, 0.6, 1.0],
-        "stop_loss": null
-      }
-    }
-  },
-
-  "portfolio_actions": {
-    "rules": [
-      { "condition": "shield_rank <= 3", "action": "STRONG_BUY", "reason": "蓝盾Top-3·强趋势" },
-      { "condition": "shield_rank <= 10", "action": "BUY", "reason": "蓝盾Top-10·趋势确认" },
-      { "condition": "arrow_prob >= 0.6", "action": "BUY", "reason": "绿箭高概率·量化信号" },
-      { "condition": "position_pnl >= 0.20", "action": "TAKE_PROFIT_1", "reason": "盈利20%·梯度止盈" },
-      { "condition": "position_pnl >= 0.40", "action": "TAKE_PROFIT_2", "reason": "盈利40%·梯度止盈" },
-      { "condition": "shield_v3_score < 40", "action": "REDUCE", "reason": "V3监控·趋势转弱" }
-    ]
-  },
-
-  "risk_rules": [
-    { "type": "sector_concentration", "threshold": 4, "message": "板块集中：{sector}占Top10的{count}席" },
-    { "type": "vix_spike", "threshold": 25, "message": "VIX>{threshold}·市场恐慌" },
-    { "type": "drawdown", "threshold": 0.10, "message": "组合回撤>{threshold}·考虑减仓" }
-  ],
-
-  "dashboard": {
-    "auto_refresh_seconds": 300,
-    "poll_interval_seconds": 30,
-    "max_shield_display": 15,
-    "max_arrow_display": 10,
-    "show_model_health": true,
-    "show_token_cost": true
-  },
-
-  "market": {
-    "indices": {
-      "S&P 500": "^GSPC",
-      "VIX": "^VIX",
-      "NASDAQ": "^IXIC",
-      "DJI": "^DJI"
-    },
-    "bond": "^TNX",
-    "forex": "DX-Y.NYB"
-  }
 }

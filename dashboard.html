@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050508">
+<title>Hermes Trading Intelligence</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+:root{--bg:#050508;--bg-card:rgba(255,255,255,0.03);--bg-hover:rgba(255,255,255,0.05);--border:rgba(255,255,255,0.06);--border-lt:rgba(255,255,255,0.03);--text:#e8e8ed;--dim:#6b6b76;--muted:#3d3d47;--gn:#10b981;--rd:#ef4444;--am:#f59e0b;--ind:#6366f1;--r:16px;--rs:10px;--rx:6px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',-apple-system,'SF Pro Text',sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(ellipse at 20% 20%,rgba(99,102,241,0.04) 0%,transparent 50%),radial-gradient(ellipse at 80% 80%,rgba(16,185,129,0.03) 0%,transparent 50%);pointer-events:none;z-index:0}
+.wrap{max-width:1440px;margin:0 auto;padding:24px 32px;position:relative;z-index:1}
+.header{display:flex;justify-content:space-between;align-items:center;padding:0 0 16px;border-bottom:1px solid var(--border);margin-bottom:8px}
+.header-left{display:flex;align-items:center;gap:16px}
+.logo{font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:700;letter-spacing:-0.5px;color:#fff}.logo-dot{color:var(--ind)}
+.header-badge{font-size:10px;font-weight:600;letter-spacing:0.5px;padding:3px 10px;border-radius:20px;background:rgba(99,102,241,0.1);color:var(--ind);border:1px solid rgba(99,102,241,0.2)}
+.header-right{display:flex;align-items:center;gap:16px}
+.timestamp{font-size:12px;color:var(--dim);font-family:'JetBrains Mono',monospace}
+.live-dot{width:6px;height:6px;border-radius:50%;background:var(--gn);box-shadow:0 0 8px rgba(16,185,129,0.3);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+.tab-bar{display:flex;gap:2px;padding:16px 0 0;border-bottom:1px solid var(--border)}
+.tab{padding:10px 20px;font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--dim);cursor:pointer;border-bottom:2px solid transparent;transition:all 0.3s;user-select:none}
+.tab:hover{color:var(--text);background:rgba(255,255,255,0.02)}.tab.active{color:#fff;border-bottom-color:var(--ind)}
+.tab-content{display:none;padding-top:16px}.tab-content.active{display:block}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);border-radius:var(--r);overflow:hidden;margin-bottom:16px;border:1px solid var(--border)}
+.metric{background:var(--bg);padding:16px 20px;transition:background 0.3s}.metric:hover{background:rgba(255,255,255,0.02)}
+.metric-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--dim);margin-bottom:6px}
+.metric-value{font-family:'JetBrains Mono',monospace;font-size:20px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-0.5px}
+.metric-sub{font-size:11px;color:var(--dim);margin-top:2px;font-family:'JetBrains Mono',monospace}
+.bento{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.bento-item{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);padding:20px;backdrop-filter:blur(20px);transition:all 0.4s cubic-bezier(0.32,0.72,0,1);position:relative;overflow:hidden}
+.bento-item::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.08),transparent)}
+.bento-item:hover{background:var(--bg-hover);border-color:rgba(255,255,255,0.1)}
+.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.section-title{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--dim);display:flex;align-items:center;gap:10px}
+.section-title .dot{width:8px;height:8px;border-radius:50%}.section-count{font-size:11px;color:var(--muted);font-family:'JetBrains Mono',monospace}
+
+/* SIGNAL BADGES */
+.sig{display:inline-flex;align-items:center;gap:4px;font-size:9px;font-weight:700;letter-spacing:0.5px;padding:2px 8px;border-radius:4px;border:1px solid}
+.sig-dot{width:6px;height:6px;border-radius:50%;display:inline-block}
+.sig-strong{color:#10b981;border-color:#10b98130;background:#10b98110}.sig-buy{color:#34d399;border-color:#34d39930;background:#34d39910}
+.sig-watch{color:#f59e0b;border-color:#f59e0b30;background:#f59e0b10}.sig-skip{color:#ef4444;border-color:#ef444430;background:#ef444410}
+
+/* POSITIONS */
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
+.pos-card{background:rgba(255,255,255,0.02);border:1px solid var(--border-lt);border-radius:var(--rs);padding:12px 14px;transition:all 0.3s cubic-bezier(0.32,0.72,0,1)}
+.pos-card:hover{background:rgba(255,255,255,0.04);border-color:var(--border);transform:translateY(-2px)}
+.pos-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:2px}
+.pos-code{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px}
+.pos-model{font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;border-radius:4px;border:1px solid}
+.pos-name{font-size:10px;color:var(--dim);margin-bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pos-metrics{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:8px}
+.pos-pnl{text-align:left}.pnl-sign{font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700;display:block;letter-spacing:-0.5px}
+.pnl-usd{font-family:'JetBrains Mono',monospace;font-size:10px;opacity:0.7;display:block}
+.pos-price{text-align:right}.price-cur{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;display:block}
+.price-cost{font-size:9px;color:var(--muted);display:block}
+.pos-progress{margin-top:6px}.prog-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-bottom:3px}
+.prog-bar{height:3px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden}.prog-fill{height:100%;border-radius:2px;transition:width 0.8s cubic-bezier(0.32,0.72,0,1)}
+.stop-badge{margin-top:6px;font-size:9px;font-weight:700;letter-spacing:1px;color:var(--rd);background:rgba(239,68,68,0.1);padding:3px 8px;border-radius:4px;text-align:center}
+.warn-badge{margin-top:6px;font-size:9px;font-weight:700;letter-spacing:1px;color:var(--am);background:rgba(245,158,11,0.1);padding:3px 8px;border-radius:4px;text-align:center}
+
+/* PICKS */
+.pick-list{display:flex;flex-direction:column;gap:1px}
+.pick-row{display:grid;grid-template-columns:24px 90px 1fr auto 40px;align-items:center;gap:10px;padding:6px 10px;border-radius:var(--rx);transition:background 0.2s}
+.pick-row:hover{background:rgba(255,255,255,0.03)}
+.pick-rank{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);text-align:center}
+.pick-info{display:flex;flex-direction:column}.pick-ticker{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;color:#fff}
+.pick-price{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--dim)}
+.pick-score-bar{display:flex;align-items:center;gap:8px}.score-track{flex:1;height:4px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden}
+.score-fill{height:100%;border-radius:2px;transition:width 1s cubic-bezier(0.32,0.72,0,1)}
+.score-val{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;min-width:40px;text-align:right}
+.pick-hold{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);text-align:right}
+
+/* LEGEND */
+.legend{display:flex;gap:16px;justify-content:center;padding:12px;border-top:1px solid var(--border);margin-top:8px}
+.legend-item{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--dim);letter-spacing:0.5px}
+
+/* TRACKING */
+.tracking-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:16px}
+.stat-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--rs);padding:16px;text-align:center}
+.stat-label{font-size:9px;font-weight:700;letter-spacing:1px;color:var(--dim);margin-bottom:6px}
+.stat-value{font-family:'JetBrains Mono',monospace;font-size:22px;font-weight:700;color:#fff}
+.stat-sub{font-size:10px;color:var(--muted);margin-top:4px}
+.tracking-charts{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+
+/* DATA TABLE */
+.data-table{width:100%;border-collapse:collapse}
+.data-table th{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px;text-align:left;padding:6px 8px;border-bottom:1px solid var(--border)}
+.data-table td{padding:6px 8px;border-bottom:1px solid var(--border-lt);font-size:12px}
+
+/* CHARTS */
+.chart-svg{width:100%;height:auto}.axis-label{font-family:'JetBrains Mono',monospace;font-size:9px;fill:var(--muted)}
+
+/* MODELS */
+.model-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.model-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);padding:24px}
+.model-name{font-family:'JetBrains Mono',monospace;font-size:18px;font-weight:700;margin-bottom:4px}
+.model-algo{font-size:11px;color:var(--dim);margin-bottom:16px}
+.model-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:16px}
+.ms{text-align:center;padding:8px;background:rgba(255,255,255,0.02);border-radius:var(--rx)}
+.ms-val{font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700;color:#fff;display:block}
+.ms-lbl{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px}
+.model-feats{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.feat-tag{font-size:9px;font-weight:600;letter-spacing:0.5px;padding:3px 8px;border-radius:4px}
+.feat-tag.macro{background:rgba(99,102,241,0.1);color:#6366f1;border:1px solid rgba(99,102,241,0.2)}
+.feat-tag.tech{background:rgba(16,185,129,0.1);color:#10b981;border:1px solid rgba(16,185,129,0.2)}
+.feat-tag.fund{background:rgba(245,158,11,0.1);color:#f59e0b;border:1px solid rgba(245,158,11,0.2)}
+.model-universe{font-size:11px;color:var(--dim)}
+.params-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.param{padding:10px;background:rgba(255,255,255,0.02);border-radius:var(--rx);text-align:center}
+.param-key{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px;display:block;margin-bottom:4px}
+.param-val{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;color:#fff}
+.empty{text-align:center;padding:24px;color:var(--muted);font-size:12px}
+.footer{text-align:center;padding:16px 0;border-top:1px solid var(--border);margin-top:8px}
+.footer-text{font-size:10px;color:var(--muted);letter-spacing:0.5px}
+
+/* AUTO-REFRESH INDICATOR */
+.refresh-bar{position:fixed;bottom:0;left:0;right:0;height:2px;background:rgba(99,102,241,0.3);z-index:100}
+.refresh-fill{height:100%;background:var(--ind);width:0%;transition:width 5s linear}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.bento-item,.stat-card,.model-card{animation:fadeUp 0.5s cubic-bezier(0.32,0.72,0,1) both}
+
+@media(max-width:900px){.wrap{padding:16px}.bento,.tracking-charts,.model-cards{grid-template-columns:1fr}.metrics,.tracking-summary{grid-template-columns:repeat(2,1fr)}.pos-grid{grid-template-columns:1fr 1fr}.pick-row{grid-template-columns:20px 70px 1fr auto 30px}.params-grid{grid-template-columns:repeat(2,1fr)}.model-stats{grid-template-columns:repeat(2,1fr)}}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:3px}
+
+/* INSIGHTS */
+.insights-title{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--dim);text-transform:uppercase;margin:24px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.cal-header{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-bottom:6px;text-align:center;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px}
+.cal-row{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-bottom:4px}
+.cal-cell{padding:6px 4px;border-radius:4px;text-align:center;min-height:44px;display:flex;flex-direction:column;justify-content:center;cursor:default;transition:transform 0.2s}
+.cal-cell:hover{transform:scale(1.05)}.cal-cell.empty{background:transparent}
+.cal-day{font-family:'JetBrains Mono',monospace;font-size:8px;opacity:0.7}.cal-ret{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700}
+.cal-legend{font-size:9px;color:var(--muted);margin-top:8px;display:flex;gap:8px;justify-content:center}
+.wf-container{display:flex;flex-direction:column;gap:4px}
+.wf-row{display:grid;grid-template-columns:50px 1fr 55px 65px;align-items:center;gap:8px;padding:3px 0}
+.wf-label{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#fff}
+.wf-bar-container{height:14px;background:rgba(255,255,255,0.04);border-radius:3px;overflow:hidden}
+.wf-bar{height:100%;border-radius:3px;transition:width 0.8s cubic-bezier(0.32,0.72,0,1)}
+.wf-val{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;text-align:right}
+.wf-usd{font-family:'JetBrains Mono',monospace;font-size:10px;opacity:0.7;text-align:right}
+.wf-total{border-top:1px solid var(--border);padding-top:8px;margin-top:4px}
+.sp-row{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;background:rgba(255,255,255,0.02);border-radius:var(--rx);margin-bottom:6px}
+.sp-label{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600}
+.sp-stats{display:flex;gap:12px;font-family:'JetBrains Mono',monospace;font-size:11px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div class="header-left"><div class="logo">HERMES<span class="logo-dot">.</span></div><div class="header-badge">INTELLIGENCE PLATFORM 智能平台</div></div>
+    <div class="header-right"><div class="live-dot"></div><div class="timestamp">2026-06-20 02:44</div><div id="countdown" class="timestamp" style="color:var(--ind)">5:00</div></div>
+  </div>
+  <div class="tab-bar">
+    <div class="tab active" onclick="showTab(0)">Trading 操盘</div>
+    <div class="tab" onclick="showTab(1)">Tracking 追踪</div>
+    <div class="tab" onclick="showTab(2)">Models 模型</div>
+  </div>
+  <div class="tab-content active" id="tab-0">
+<div class="metrics">
+  <div class="metric"><div class="metric-label">Portfolio 组合</div><div class="metric-value" style="color:#fff">$17,542</div><div class="metric-sub">9 positions 持仓</div></div>
+  <div class="metric"><div class="metric-label">P&L 盈亏</div><div class="metric-value" style="color:#10b981">+267</div><div class="metric-sub">+1.5% total</div></div>
+  <div class="metric"><div class="metric-label">VIX 波动率</div><div class="metric-value" style="color:#10b981">16.8</div><div class="metric-sub">CALM 平静</div></div>
+  <div class="metric"><div class="metric-label">Win/Loss 盈亏比</div><div class="metric-value"><span style="color:#10b981">6</span> / <span style="color:#ef4444">3</span></div><div class="metric-sub">Today 今日</div></div>
+</div>
+<div class="bento">
+  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#6366f1"></span>Shield Holdings 蓝盾持仓</div><div class="section-count">5 active</div></div>
+    <div class="pos-grid"><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">ASML</span>
+        <span class="pos-model" style="color:#6366f1;border-color:#6366f130;background:#6366f110">SHIELD 盾</span></div>
+        <span style="color:#ef4444;font-size:10px;font-weight:700">Top 96%</span>
+      </div>
+      <div class="pos-name">阿斯麦</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#10b981">
+          <span class="pnl-sign">+8.0%</span>
+          <span class="pnl-usd">+$286</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$1929.68</span>
+          <span class="price-cost">Entry 入$1786.59</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">8/20d · 12d left 剩12天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:40%;background:#6366f1"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">ANET</span>
+        <span class="pos-model" style="color:#6366f1;border-color:#6366f130;background:#6366f110">SHIELD 盾</span></div>
+        <span style="color:#ef4444;font-size:10px;font-weight:700">Top 79%</span>
+      </div>
+      <div class="pos-name">Arista Networks</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#10b981">
+          <span class="pnl-sign">+1.6%</span>
+          <span class="pnl-usd">+$27</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$169.67</span>
+          <span class="price-cost">Entry 入$166.99</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">4/20d · 16d left 剩16天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:20%;background:#6366f1"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">COHR</span>
+        <span class="pos-model" style="color:#6366f1;border-color:#6366f130;background:#6366f110">SHIELD 盾</span></div>
+        <span style="color:#ef4444;font-size:10px;font-weight:700">Top 98%</span>
+      </div>
+      <div class="pos-name">Coherent</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#10b981">
+          <span class="pnl-sign">+0.9%</span>
+          <span class="pnl-usd">+$29</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$389.57</span>
+          <span class="price-cost">Entry 入$386.00</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">1/20d · 19d left 剩19天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:5%;background:#6366f1"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">CARR</span>
+        <span class="pos-model" style="color:#6366f1;border-color:#6366f130;background:#6366f110">SHIELD 盾</span></div>
+        <span style="color:#34d399;font-size:10px;font-weight:700">Top 6%</span>
+      </div>
+      <div class="pos-name">开利全球</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#ef4444">
+          <span class="pnl-sign">-0.5%</span>
+          <span class="pnl-usd">$10</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$71.81</span>
+          <span class="price-cost">Entry 入$72.20</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">4/20d · 16d left 剩16天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:20%;background:#6366f1"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">NET</span>
+        <span class="pos-model" style="color:#6366f1;border-color:#6366f130;background:#6366f110">SHIELD 盾</span></div>
+        <span style="color:#ef4444;font-size:10px;font-weight:700">Top 94%</span>
+      </div>
+      <div class="pos-name">Cloudflare</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#ef4444">
+          <span class="pnl-sign">-3.5%</span>
+          <span class="pnl-usd">$90</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$224.06</span>
+          <span class="price-cost">Entry 入$232.24</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">2/20d · 18d left 剩18天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:10%;background:#6366f1"></div></div>
+      </div>
+      
+    </div></div></div>
+  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#10b981"></span>Arrow Holdings 绿箭持仓</div><div class="section-count">4 active</div></div>
+    <div class="pos-grid"><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">NGEN</span>
+        <span class="pos-model" style="color:#10b981;border-color:#10b98130;background:#10b98110">ARROW 箭</span></div>
+        <span style="color:#6b7280;font-size:10px;font-weight:700">Top 32%</span>
+      </div>
+      <div class="pos-name">NervGen Pharma</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#10b981">
+          <span class="pnl-sign">+11.1%</span>
+          <span class="pnl-usd">+$114</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$2.20</span>
+          <span class="price-cost">Entry 入$1.98</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">4/5d · 1d left 剩1天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:80%;background:#f59e0b"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">PPBT</span>
+        <span class="pos-model" style="color:#10b981;border-color:#10b98130;background:#10b98110">ARROW 箭</span></div>
+        <span style="color:#ef4444;font-size:10px;font-weight:700">Top 43%</span>
+      </div>
+      <div class="pos-name">Purple Biotech</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#10b981">
+          <span class="pnl-sign">+5.7%</span>
+          <span class="pnl-usd">+$57</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$1.70</span>
+          <span class="price-cost">Entry 入$1.61</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">4/5d · 1d left 剩1天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:80%;background:#f59e0b"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">NYXH</span>
+        <span class="pos-model" style="color:#10b981;border-color:#10b98130;background:#10b98110">ARROW 箭</span></div>
+        <span style="color:#10b981;font-size:10px;font-weight:700">Top 1%</span>
+      </div>
+      <div class="pos-name">Nyxoah SA</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#10b981">
+          <span class="pnl-sign">+1.3%</span>
+          <span class="pnl-usd">+$16</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$1.60</span>
+          <span class="price-cost">Entry 入$1.58</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">2/5d · 3d left 剩3天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:40%;background:#6366f1"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">NXTC</span>
+        <span class="pos-model" style="color:#10b981;border-color:#10b98130;background:#10b98110">ARROW 箭</span></div>
+        <span style="color:#34d399;font-size:10px;font-weight:700">Top 10%</span>
+      </div>
+      <div class="pos-name">NextCure</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#ef4444">
+          <span class="pnl-sign">-12.6%</span>
+          <span class="pnl-usd">$162</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$2.02</span>
+          <span class="price-cost">Entry 入$2.31</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">4/5d · 1d left 剩1天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:80%;background:#f59e0b"></div></div>
+      </div>
+      <div class="stop-badge">STOP 止损</div>
+    </div></div></div>
+  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#6366f1"></span>Shield V6 Top Picks 蓝盾推荐</div><div class="section-count">2397 universe</div></div>
+    <div class="pick-list"><div class="pick-row">
+      <div class="pick-rank">1</div>
+      <div class="pick-info"><div class="pick-ticker">FATE</div><div class="pick-price">$11.00</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:61%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.622</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">2</div>
+      <div class="pick-info"><div class="pick-ticker">FLO</div><div class="pick-price">$10.08</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:54%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.608</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">3</div>
+      <div class="pick-info"><div class="pick-ticker">CSGP</div><div class="pick-price">$34.23</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:47%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.594</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">4</div>
+      <div class="pick-info"><div class="pick-ticker">HUN</div><div class="pick-price">$14.23</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:45%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.589</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">5</div>
+      <div class="pick-info"><div class="pick-ticker">CDRO</div><div class="pick-price">$10.02</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:43%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.585</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">6</div>
+      <div class="pick-info"><div class="pick-ticker">WTM</div><div class="pick-price">$2004.76</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:39%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.578</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">7</div>
+      <div class="pick-info"><div class="pick-ticker">ATR</div><div class="pick-price">$120.32</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:39%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.577</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">8</div>
+      <div class="pick-info"><div class="pick-ticker">MASI</div><div class="pick-price">$179.95</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:38%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.577</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">9</div>
+      <div class="pick-info"><div class="pick-ticker">WTS</div><div class="pick-price">$319.83</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:38%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.577</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">10</div>
+      <div class="pick-info"><div class="pick-ticker">TPH</div><div class="pick-price">$46.95</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:37%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.573</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">11</div>
+      <div class="pick-info"><div class="pick-ticker">CMG</div><div class="pick-price">$30.42</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:37%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.573</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">12</div>
+      <div class="pick-info"><div class="pick-ticker">ORLY</div><div class="pick-price">$90.46</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:36%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.572</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">13</div>
+      <div class="pick-info"><div class="pick-ticker">PSKY</div><div class="pick-price">$10.31</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:35%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.570</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">14</div>
+      <div class="pick-info"><div class="pick-ticker">USFD</div><div class="pick-price">$90.18</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:35%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.569</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">15</div>
+      <div class="pick-info"><div class="pick-ticker">ACGL</div><div class="pick-price">$91.18</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:35%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.569</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">20d</div>
+    </div></div></div>
+  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#10b981"></span>Arrow V11 Top Picks 绿箭推荐</div><div class="section-count">1125 universe</div></div>
+    <div class="pick-list"><div class="pick-row">
+      <div class="pick-rank">1</div>
+      <div class="pick-info"><div class="pick-ticker">ZEPP</div><div class="pick-price">$4.41</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:100%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.814</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">2</div>
+      <div class="pick-info"><div class="pick-ticker">CHRD</div><div class="pick-price">$0.52</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:100%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.745</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">3</div>
+      <div class="pick-info"><div class="pick-ticker">SKIL</div><div class="pick-price">$5.29</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:72%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.644</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">4</div>
+      <div class="pick-info"><div class="pick-ticker">NYXH</div><div class="pick-price">$1.31</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:68%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.636</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">5</div>
+      <div class="pick-info"><div class="pick-ticker">TROO</div><div class="pick-price">$2.16</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:60%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.620</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">6</div>
+      <div class="pick-info"><div class="pick-ticker">DGXX</div><div class="pick-price">$5.99</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:56%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.613</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">7</div>
+      <div class="pick-info"><div class="pick-ticker">BLDP</div><div class="pick-price">$4.38</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:49%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.598</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">8</div>
+      <div class="pick-info"><div class="pick-ticker">IPWR</div><div class="pick-price">$5.78</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:44%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.587</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">9</div>
+      <div class="pick-info"><div class="pick-ticker">CRVO</div><div class="pick-price">$2.25</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:43%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.585</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">10</div>
+      <div class="pick-info"><div class="pick-ticker">LAR</div><div class="pick-price">$8.10</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:42%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.584</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">5d</div>
+    </div></div></div>
+</div>
+<div class="legend">
+  <div class="legend-item"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强 Top5%</div>
+  <div class="legend-item"><span class="sig-dot" style="background:#34d399"></span>BUY 买 Top10%</div>
+  <div class="legend-item"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看 Top20%</div>
+  <div class="legend-item"><span class="sig-dot" style="background:#ef4444"></span>Skip 跳</div>
+</div>
+
+<!-- INSIGHTS SECTION -->
+<div class="insights-title">INSIGHTS 洞察</div>
+
+<div class="bento">
+  <!-- P&L Calendar Heatmap -->
+  <div class="bento-item">
+    <div class="section-head"><div class="section-title"><span class="dot" style="background:#f59e0b"></span>Daily P&L Calendar 每日盈亏日历</div>
+    <div class="section-count">2 weeks 两周</div></div>
+    <div class="cal-grid">
+      <div class="cal-header"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span></div><div class="cal-row"><div class="cal-cell" style="background:#ef444440" title="2026-06-08: -0.68% (20 picks)"><span class="cal-day">06-08</span><span class="cal-ret" style="color:#e8e8ed">-0.7%</span></div><div class="cal-cell" style="background:#10b981" title="2026-06-09: +3.42% (20 picks)"><span class="cal-day">06-09</span><span class="cal-ret" style="color:#fff">+3.4%</span></div><div class="cal-cell" style="background:#10b981" title="2026-06-10: +3.02% (20 picks)"><span class="cal-day">06-10</span><span class="cal-ret" style="color:#fff">+3.0%</span></div><div class="cal-cell" style="background:#10b981" title="2026-06-11: +2.76% (20 picks)"><span class="cal-day">06-11</span><span class="cal-ret" style="color:#fff">+2.8%</span></div><div class="cal-cell" style="background:#10b98160" title="2026-06-12: +0.13% (20 picks)"><span class="cal-day">06-12</span><span class="cal-ret" style="color:#e8e8ed">+0.1%</span></div></div><div class="cal-row"><div class="cal-cell" style="background:#10b98160" title="2026-06-15: +0.41% (20 picks)"><span class="cal-day">06-15</span><span class="cal-ret" style="color:#e8e8ed">+0.4%</span></div><div class="cal-cell" style="background:#10b98160" title="2026-06-16: +0.58% (20 picks)"><span class="cal-day">06-16</span><span class="cal-ret" style="color:#e8e8ed">+0.6%</span></div><div class="cal-cell" style="background:#10b98160" title="2026-06-17: +0.44% (20 picks)"><span class="cal-day">06-17</span><span class="cal-ret" style="color:#e8e8ed">+0.4%</span></div><div class="cal-cell" style="background:#10b981cc" title="2026-06-18: +1.41% (20 picks)"><span class="cal-day">06-18</span><span class="cal-ret" style="color:#fff">+1.4%</span></div><div class="cal-cell" style="background:#10b98160" title="2026-06-19: +0.22% (20 picks)"><span class="cal-day">06-19</span><span class="cal-ret" style="color:#e8e8ed">+0.2%</span></div></div>
+    </div>
+    <div class="cal-legend"><span style="color:#ef4444">■</span> Loss 亏 <span style="color:#3d3d47">■</span> Flat 平 <span style="color:#10b98140">■</span> <span style="color:#10b98180">■</span> <span style="color:#10b981">■</span> Gain 盈</div>
+  </div>
+  
+  <!-- Position Waterfall -->
+  <div class="bento-item">
+    <div class="section-head"><div class="section-title"><span class="dot" style="background:#6366f1"></span>P&L Waterfall 盈亏瀑布图</div>
+    <div class="section-count">By position 按持仓</div></div>
+    <div class="wf-container"><div class="wf-row">
+      <div class="wf-label">NGEN</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:56%;background:#10b981"></div>
+      </div>
+      <div class="wf-val" style="color:#10b981">+11.1%</div>
+      <div class="wf-usd" style="color:#10b981">+$114</div>
+    </div><div class="wf-row">
+      <div class="wf-label">ASML</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:40%;background:#10b981"></div>
+      </div>
+      <div class="wf-val" style="color:#10b981">+8.0%</div>
+      <div class="wf-usd" style="color:#10b981">+$286</div>
+    </div><div class="wf-row">
+      <div class="wf-label">PPBT</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:29%;background:#10b981"></div>
+      </div>
+      <div class="wf-val" style="color:#10b981">+5.7%</div>
+      <div class="wf-usd" style="color:#10b981">+$57</div>
+    </div><div class="wf-row">
+      <div class="wf-label">ANET</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:8%;background:#10b981"></div>
+      </div>
+      <div class="wf-val" style="color:#10b981">+1.6%</div>
+      <div class="wf-usd" style="color:#10b981">+$27</div>
+    </div><div class="wf-row">
+      <div class="wf-label">NYXH</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:6%;background:#10b981"></div>
+      </div>
+      <div class="wf-val" style="color:#10b981">+1.3%</div>
+      <div class="wf-usd" style="color:#10b981">+$16</div>
+    </div><div class="wf-row">
+      <div class="wf-label">COHR</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:5%;background:#10b981"></div>
+      </div>
+      <div class="wf-val" style="color:#10b981">+0.9%</div>
+      <div class="wf-usd" style="color:#10b981">+$29</div>
+    </div><div class="wf-row">
+      <div class="wf-label">CARR</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:3%;background:#ef4444"></div>
+      </div>
+      <div class="wf-val" style="color:#ef4444">-0.5%</div>
+      <div class="wf-usd" style="color:#ef4444">$-10</div>
+    </div><div class="wf-row">
+      <div class="wf-label">NET</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:18%;background:#ef4444"></div>
+      </div>
+      <div class="wf-val" style="color:#ef4444">-3.5%</div>
+      <div class="wf-usd" style="color:#ef4444">$-90</div>
+    </div><div class="wf-row">
+      <div class="wf-label">NXTC</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:63%;background:#ef4444"></div>
+      </div>
+      <div class="wf-val" style="color:#ef4444">-12.6%</div>
+      <div class="wf-usd" style="color:#ef4444">$-162</div>
+    </div><div class="wf-row wf-total">
+  <div class="wf-label">TOTAL</div>
+  <div class="wf-bar-container"><div class="wf-bar" style="width:60%;background:#10b981"></div></div>
+  <div class="wf-val" style="color:#10b981">+1.5%</div>
+  <div class="wf-usd" style="color:#10b981">+$267</div>
+</div></div>
+  </div>
+</div>
+
+<div class="bento">
+  <!-- Radar Chart: Model Comparison -->
+  <div class="bento-item">
+    <div class="section-head"><div class="section-title"><span class="dot" style="background:#8b5cf6"></span>Model Comparison 模型对比</div></div>
+    <svg viewBox="0 0 300 260" class="chart-svg"><circle cx="150" cy="130" r="25.0" fill="none" stroke="rgba(255,255,255,0.06)"/><circle cx="150" cy="130" r="50.0" fill="none" stroke="rgba(255,255,255,0.06)"/><circle cx="150" cy="130" r="75.0" fill="none" stroke="rgba(255,255,255,0.06)"/><circle cx="150" cy="130" r="100.0" fill="none" stroke="rgba(255,255,255,0.06)"/><line x1="150" y1="130" x2="150.0" y2="30.0" stroke="rgba(255,255,255,0.06)"/><text x="150.0" y="12.0" text-anchor="middle" class="axis-label" style="font-size:9px">Sharpe</text><line x1="150" y1="130" x2="245.10565162951536" y2="99.09830056250526" stroke="rgba(255,255,255,0.06)"/><text x="262.22466892282813" y="93.53599466375621" text-anchor="start" class="axis-label" style="font-size:9px">Return 收益</text><line x1="150" y1="130" x2="208.77852522924732" y2="210.90169943749476" stroke="rgba(255,255,255,0.06)"/><text x="219.35865977051185" y="225.46400533624382" text-anchor="start" class="axis-label" style="font-size:9px">Win Rate 胜率</text><line x1="150" y1="130" x2="91.2214747707527" y2="210.90169943749476" stroke="rgba(255,255,255,0.06)"/><text x="80.64134022948818" y="225.46400533624382" text-anchor="end" class="axis-label" style="font-size:9px">Risk Mgmt 风控</text><line x1="150" y1="130" x2="54.894348370484636" y2="99.09830056250527" stroke="rgba(255,255,255,0.06)"/><text x="37.77533107717187" y="93.53599466375621" text-anchor="end" class="axis-label" style="font-size:9px">Features 特征</text><polygon points="150.0,82.0 207.3,111.4 185.3,178.5 123.8,166.0 66.3,102.8" fill="rgba(99,102,241,0.15)" stroke="#6366f1" stroke-width="2"/><polygon points="150.0,30.0 202.9,112.8 179.4,170.5 108.9,186.6 70.1,104.0" fill="rgba(16,185,129,0.15)" stroke="#10b981" stroke-width="2"/><rect x="10" y="230" width="12" height="3" rx="1" fill="#6366f1"/><text x="26" y="233" class="axis-label" style="font-size:10px">Shield V6</text><rect x="100" y="230" width="12" height="3" rx="1" fill="#10b981"/><text x="116" y="233" class="axis-label" style="font-size:10px">Arrow V11</text></svg>
+  </div>
+  
+  <!-- Signal Performance Summary -->
+  <div class="bento-item">
+    <div class="section-head"><div class="section-title"><span class="dot" style="background:#10b981"></span>Signal Performance 信号表现</div>
+    <div class="section-count">2 weeks</div></div>
+    <div class="sp-row">
+              <div class="sp-label"><span class="sig-dot" style="background:#10b981"></span>STRONG 强</div>
+              <div class="sp-stats">
+                <span class="sp-count">60 picks</span>
+                <span class="sp-wr" style="color:#10b981">WR 70%</span>
+                <span class="sp-avg" style="color:#10b981">Avg +3.03%</span>
+                <span class="sp-cum" style="color:#10b981">Cum +182.0%</span>
+              </div>
+            </div><div class="sp-row">
+              <div class="sp-label"><span class="sig-dot" style="background:#34d399"></span>BUY 买</div>
+              <div class="sp-stats">
+                <span class="sp-count">60 picks</span>
+                <span class="sp-wr" style="color:#34d399">WR 63%</span>
+                <span class="sp-avg" style="color:#34d399">Avg +0.95%</span>
+                <span class="sp-cum" style="color:#34d399">Cum +57.1%</span>
+              </div>
+            </div><div class="sp-row">
+              <div class="sp-label"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</div>
+              <div class="sp-stats">
+                <span class="sp-count">80 picks</span>
+                <span class="sp-wr" style="color:#f59e0b">WR 51%</span>
+                <span class="sp-avg" style="color:#f59e0b">Avg -0.06%</span>
+                <span class="sp-cum" style="color:#f59e0b">Cum -4.7%</span>
+              </div>
+            </div>
+  </div>
+</div></div>
+  <div class="tab-content" id="tab-1">
+    <div class="tracking-summary">
+      <div class="stat-card"><div class="stat-label">TOTAL PICKS 推荐总数</div><div class="stat-value">200</div><div class="stat-sub">This week 本周</div></div>
+      <div class="stat-card"><div class="stat-label">WIN RATE 胜率</div><div class="stat-value" style="color:#10b981">60%</div><div class="stat-sub">121/200</div></div>
+      <div class="stat-card"><div class="stat-label">AVG RETURN 平均收益</div><div class="stat-value" style="color:#10b981">+1.17%</div><div class="stat-sub">Per pick 每笔</div></div>
+      <div class="stat-card" style="border-top:3px solid #10b981">
+              <div class="stat-label">STRONG 强</div>
+              <div class="stat-value" style="color:#10b981">60</div>
+              <div class="stat-sub">WR 70% · Avg +3.03%</div>
+              <div class="stat-sub" style="color:#10b981">Cum +182.0%</div>
+            </div><div class="stat-card" style="border-top:3px solid #34d399">
+              <div class="stat-label">BUY 买</div>
+              <div class="stat-value" style="color:#34d399">60</div>
+              <div class="stat-sub">WR 63% · Avg +0.95%</div>
+              <div class="stat-sub" style="color:#34d399">Cum +57.1%</div>
+            </div><div class="stat-card" style="border-top:3px solid #f59e0b">
+              <div class="stat-label">WATCH 看</div>
+              <div class="stat-value" style="color:#f59e0b">80</div>
+              <div class="stat-sub">WR 51% · Avg -0.06%</div>
+              <div class="stat-sub" style="color:#f59e0b">Cum -4.7%</div>
+            </div>
+    </div>
+    
+    <div class="bento-item" style="margin-bottom:16px">
+      <div class="section-head"><div class="section-title"><span class="dot" style="background:#10b981"></span>Cumulative Return by Signal 按信号累计收益</div>
+      <div class="section-count">2026-06-08 ~ 2026-06-19</div></div>
+      <svg viewBox="0 0 650 200" class="chart-svg"><line x1="50" y1="20.0" x2="530" y2="20.0" stroke="rgba(255,255,255,0.04)"/><text x="44" y="24.0" text-anchor="end" class="axis-label">+183.4%</text><line x1="50" y1="57.5" x2="530" y2="57.5" stroke="rgba(255,255,255,0.04)"/><text x="44" y="61.5" text-anchor="end" class="axis-label">+128.6%</text><line x1="50" y1="95.0" x2="530" y2="95.0" stroke="rgba(255,255,255,0.04)"/><text x="44" y="99.0" text-anchor="end" class="axis-label">+73.8%</text><line x1="50" y1="132.5" x2="530" y2="132.5" stroke="rgba(255,255,255,0.04)"/><text x="44" y="136.5" text-anchor="end" class="axis-label">+19.0%</text><line x1="50" y1="170.0" x2="530" y2="170.0" stroke="rgba(255,255,255,0.04)"/><text x="44" y="174.0" text-anchor="end" class="axis-label">-35.8%</text><line x1="50" y1="145.51439390483142" x2="530" y2="145.51439390483142" stroke="rgba(255,255,255,0.15)" stroke-dasharray="4"/><polyline points="50.0,145.5 58.0,146.9 66.0,147.9 74.0,149.6 82.0,149.4 90.0,150.5 98.0,139.2 106.0,135.8 114.0,135.8 122.0,132.1 130.0,130.5 138.0,121.2 146.0,111.9 154.0,111.2 162.0,108.7 170.0,110.3 178.0,108.9 186.0,99.6 194.0,85.6 202.0,82.1 210.0,80.9 218.0,79.1 226.0,75.2 234.0,66.0 242.0,55.4 250.0,53.1 258.0,50.8 266.0,48.8 274.0,49.1 282.0,55.9 290.0,54.4 298.0,54.0 306.0,52.5 314.0,52.4 322.0,50.8 330.0,47.3 338.0,48.0 346.0,46.3 354.0,45.8 362.0,46.3 370.0,44.4 378.0,46.3 386.0,29.1 394.0,29.6 402.0,28.8 410.0,28.9 418.0,29.0 426.0,31.6 434.0,31.8 442.0,31.9 450.0,32.0 458.0,31.6 466.0,31.1 474.0,30.5 482.0,22.8 490.0,22.7 498.0,22.4 506.0,22.1 514.0,22.1 522.0,20.0 530.0,20.9" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round"/><polyline points="50.0,145.5 58.0,149.1 66.0,144.0 74.0,141.6 82.0,143.5 90.0,143.4 98.0,144.0 106.0,146.8 114.0,146.5 122.0,146.0 130.0,142.5 138.0,141.5 146.0,125.9 154.0,125.8 162.0,121.8 170.0,120.3 178.0,122.8 186.0,123.9 194.0,127.3 202.0,128.0 210.0,128.6 218.0,129.7 226.0,126.5 234.0,121.6 242.0,118.2 250.0,115.7 258.0,117.3 266.0,116.7 274.0,114.3 282.0,114.9 290.0,110.3 298.0,109.6 306.0,109.2 314.0,107.4 322.0,106.9 330.0,105.9 338.0,110.7 346.0,110.9 354.0,110.2 362.0,110.6 370.0,110.7 378.0,109.9 386.0,114.8 394.0,114.3 402.0,112.9 410.0,112.4 418.0,112.8 426.0,111.7 434.0,109.9 442.0,109.8 450.0,109.3 458.0,109.1 466.0,109.0 474.0,109.5 482.0,108.3 490.0,108.3 498.0,108.7 506.0,108.6 514.0,108.9 522.0,108.8 530.0,106.4" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"/><polyline points="50.0,145.5 56.0,149.1 62.0,147.9 68.0,148.2 74.0,147.4 80.0,146.6 86.0,148.9 92.0,155.7 98.0,162.6 104.0,161.3 110.0,163.0 116.0,162.2 122.0,162.6 128.0,162.1 134.0,163.2 140.0,170.0 146.0,161.2 152.0,158.8 158.0,159.2 164.0,158.0 170.0,154.8 176.0,156.2 182.0,153.9 188.0,143.9 194.0,144.7 200.0,142.5 206.0,143.8 212.0,143.9 218.0,144.0 224.0,143.5 230.0,144.4 236.0,139.3 242.0,146.2 248.0,146.2 254.0,146.9 260.0,146.4 266.0,146.0 272.0,146.8 278.0,146.7 284.0,153.5 290.0,153.3 296.0,152.9 302.0,153.6 308.0,154.1 314.0,153.0 320.0,152.4 326.0,151.2 332.0,152.6 338.0,153.7 344.0,154.7 350.0,155.0 356.0,155.2 362.0,156.2 368.0,156.8 374.0,157.1 380.0,162.6 386.0,160.4 392.0,160.0 398.0,159.7 404.0,160.2 410.0,159.5 416.0,159.5 422.0,159.2 428.0,161.2 434.0,156.7 440.0,156.6 446.0,156.7 452.0,156.0 458.0,155.9 464.0,156.0 470.0,155.5 476.0,149.1 482.0,148.0 488.0,148.0 494.0,147.9 500.0,148.2 506.0,147.9 512.0,147.7 518.0,147.7 524.0,147.6 530.0,148.7" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/><line x1="540" y1="20" x2="555" y2="20" stroke="#10b981" stroke-width="2"/><text x="560" y="24" class="axis-label" style="font-size:10px">STRONG 强 (60)</text><text x="560" y="36" class="axis-label" style="font-size:9px;fill:#10b981">+182.0%</text><line x1="540" y1="40" x2="555" y2="40" stroke="#34d399" stroke-width="2"/><text x="560" y="44" class="axis-label" style="font-size:10px">BUY 买 (60)</text><text x="560" y="56" class="axis-label" style="font-size:9px;fill:#34d399">+57.1%</text><line x1="540" y1="60" x2="555" y2="60" stroke="#f59e0b" stroke-width="2"/><text x="560" y="64" class="axis-label" style="font-size:10px">WATCH 看 (80)</text><text x="560" y="76" class="axis-label" style="font-size:9px;fill:#f59e0b">-4.7%</text></svg>
+    </div>
+    
+    <div class="bento-item">
+      <div class="section-head"><div class="section-title"><span class="dot" style="background:#6366f1"></span>Recent Picks 近期推荐</div>
+      <div class="section-count">20 shown</div></div>
+      <table class="data-table">
+        <tr><th>Date 日期</th><th>Ticker 代码</th><th>Model 模型</th><th>Signal 信号</th><th>Entry 入场</th><th>Return 收益</th><th>Status 状态</th></tr>
+        <tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">ACN</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$5.16</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.17%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">CARR</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$1.45</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.46%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">PANW</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$4.41</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.42%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">HD</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$2.90</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.08%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">IBM</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$3.94</td>
+          <td style="color:#ef4444;font-weight:700;font-family:'JetBrains Mono',monospace">-0.00%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">TMO</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$7.85</td>
+          <td style="color:#ef4444;font-weight:700;font-family:'JetBrains Mono',monospace">-0.63%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">SNPS</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$4.41</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.11%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">GS</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$7.77</td>
+          <td style="color:#ef4444;font-weight:700;font-family:'JetBrains Mono',monospace">-0.47%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">CRWD</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$8.49</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.26%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">CRM</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$3.27</td>
+          <td style="color:#ef4444;font-weight:700;font-family:'JetBrains Mono',monospace">-0.04%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">MRK</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$1.74</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.14%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">DDOG</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$1.17</td>
+          <td style="color:#ef4444;font-weight:700;font-family:'JetBrains Mono',monospace">-0.44%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">KO</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$5.85</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.41%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">LOW</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$10.00</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.33%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">FTNT</td>
+          <td>Shield 盾</td>
+          <td><span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$4.15</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.09%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">FATE</td>
+          <td>Arrow 箭</td>
+          <td><span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$379.63</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+3.00%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">NXTC</td>
+          <td>Arrow 箭</td>
+          <td><span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$191.36</td>
+          <td style="color:#ef4444;font-weight:700;font-family:'JetBrains Mono',monospace">-1.38%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">DGXX</td>
+          <td>Arrow 箭</td>
+          <td><span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$109.94</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+3.44%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">NYXH</td>
+          <td>Arrow 箭</td>
+          <td><span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$153.87</td>
+          <td style="color:#10b981;font-weight:700;font-family:'JetBrains Mono',monospace">+0.02%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#6b7280">06-19</td>
+          <td style="font-weight:700;font-family:'JetBrains Mono',monospace">CHRD</td>
+          <td>Arrow 箭</td>
+          <td><span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span></td>
+          <td style="font-family:'JetBrains Mono',monospace">$246.30</td>
+          <td style="color:#ef4444;font-weight:700;font-family:'JetBrains Mono',monospace">-1.60%</td>
+          <td style="color:#6366f1;font-size:10px">Holding 持有</td>
+        </tr>
+      </table>
+    </div>
+    </div>
+  <div class="tab-content" id="tab-2">
+    <div class="model-cards">
+      <div class="model-card" style="border-left:3px solid #6366f1">
+        <div class="model-name" style="color:#6366f1">Shield V6 蓝盾</div>
+        <div class="model-algo">XGBoost · 500 trees · 44 features</div>
+        <div class="model-stats">
+          <div class="ms"><span class="ms-val">1.44</span><span class="ms-lbl">Sharpe 夏普</span></div>
+          <div class="ms"><span class="ms-val">30%</span><span class="ms-lbl">Annual 年化</span></div>
+          <div class="ms"><span class="ms-val">-11.1%</span><span class="ms-lbl">Max DD 回撤</span></div>
+          <div class="ms"><span class="ms-val">60%</span><span class="ms-lbl">Win Rate 胜率</span></div>
+        </div>
+        <div class="model-feats">
+          <span class="feat-tag macro">13 macro 宏观</span>
+          <span class="feat-tag tech">27 tech 技术</span>
+          <span class="feat-tag fund">4 fund 基本</span>
+        </div>
+        <div class="model-universe">全市场>$10 (2359只) · 20d hold 持有</div>
+      </div>
+      <div class="model-card" style="border-left:3px solid #10b981">
+        <div class="model-name" style="color:#10b981">Arrow V11 绿箭</div>
+        <div class="model-algo">XGBoost · 500 trees · 42 features</div>
+        <div class="model-stats">
+          <div class="ms"><span class="ms-val">4.56</span><span class="ms-lbl">WF Net</span></div>
+          <div class="ms"><span class="ms-val">5.6%</span><span class="ms-lbl">5d Net 净收</span></div>
+          <div class="ms"><span class="ms-val">50%</span><span class="ms-lbl">Win Rate 胜率</span></div>
+          <div class="ms"><span class="ms-val">4</span><span class="ms-lbl">Big50 大奖</span></div>
+        </div>
+        <div class="model-feats">
+          <span class="feat-tag macro">13 macro 宏观</span>
+          <span class="feat-tag tech">40 tech 技术</span>
+        </div>
+        <div class="model-universe">$1-$10 (1442只) · 5d hold 持有</div>
+      </div>
+    </div>
+    <div class="tracking-charts">
+      <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#6366f1"></span>Shield V6 Feature Importance 特征重要性</div><div class="section-count">Top 15 / 44</div></div>
+        <svg viewBox="0 0 600 320.0" class="chart-svg"><g>
+          <text x="94" y="22.75" text-anchor="end" class="axis-label" style="font-size:10px">vol20</text>
+          <rect x="100" y="10.0" width="440.0" height="17.0" rx="2" fill="#10b981" opacity="0.8"/>
+          <text x="544.0" y="22.75" class="axis-label" style="font-size:10px;fill:#fff">14.1</text>
+        </g><g>
+          <text x="94" y="42.75" text-anchor="end" class="axis-label" style="font-size:10px">bb_std</text>
+          <rect x="100" y="30.0" width="345.7" height="17.0" rx="2" fill="#f59e0b" opacity="0.8"/>
+          <text x="449.71428571428567" y="42.75" class="axis-label" style="font-size:10px;fill:#fff">11.1</text>
+        </g><g>
+          <text x="94" y="62.75" text-anchor="end" class="axis-label" style="font-size:10px">spy_ret60</text>
+          <rect x="100" y="50.0" width="339.5" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="443.49080622347947" y="62.75" class="axis-label" style="font-size:10px;fill:#fff">10.9</text>
+        </g><g>
+          <text x="94" y="82.75" text-anchor="end" class="axis-label" style="font-size:10px">vol5</text>
+          <rect x="100" y="70.0" width="279.1" height="17.0" rx="2" fill="#10b981" opacity="0.8"/>
+          <text x="383.1230551626591" y="82.75" class="axis-label" style="font-size:10px;fill:#fff">9.0</text>
+        </g><g>
+          <text x="94" y="102.75" text-anchor="end" class="axis-label" style="font-size:10px">vix_close</text>
+          <rect x="100" y="90.0" width="258.3" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="362.2743988684583" y="102.75" class="axis-label" style="font-size:10px;fill:#fff">8.3</text>
+        </g><g>
+          <text x="94" y="122.75" text-anchor="end" class="axis-label" style="font-size:10px">iwm_ret20</text>
+          <rect x="100" y="110.0" width="243.6" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="347.64922206506367" y="122.75" class="axis-label" style="font-size:10px;fill:#fff">7.8</text>
+        </g><g>
+          <text x="94" y="142.75" text-anchor="end" class="axis-label" style="font-size:10px">iwm_ret60</text>
+          <rect x="100" y="130.0" width="241.8" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="345.78217821782175" y="142.75" class="axis-label" style="font-size:10px;fill:#fff">7.8</text>
+        </g><g>
+          <text x="94" y="162.75" text-anchor="end" class="axis-label" style="font-size:10px">momentum_6m</text>
+          <rect x="100" y="150.0" width="226.5" height="17.0" rx="2" fill="#10b981" opacity="0.8"/>
+          <text x="330.53465346534654" y="162.75" class="axis-label" style="font-size:10px;fill:#fff">7.3</text>
+        </g><g>
+          <text x="94" y="182.75" text-anchor="end" class="axis-label" style="font-size:10px">qqq_ret60</text>
+          <rect x="100" y="170.0" width="223.7" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="327.7340876944837" y="182.75" class="axis-label" style="font-size:10px;fill:#fff">7.2</text>
+        </g><g>
+          <text x="94" y="202.75" text-anchor="end" class="axis-label" style="font-size:10px">qqq_ret20</text>
+          <rect x="100" y="190.0" width="221.9" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="325.8670438472418" y="202.75" class="axis-label" style="font-size:10px;fill:#fff">7.1</text>
+        </g><g>
+          <text x="94" y="222.75" text-anchor="end" class="axis-label" style="font-size:10px">spy_ret20</text>
+          <rect x="100" y="210.0" width="202.3" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="306.26308345120225" y="222.75" class="axis-label" style="font-size:10px;fill:#fff">6.5</text>
+        </g><g>
+          <text x="94" y="242.75" text-anchor="end" class="axis-label" style="font-size:10px">ret60</text>
+          <rect x="100" y="230.0" width="199.2" height="17.0" rx="2" fill="#10b981" opacity="0.8"/>
+          <text x="303.15134370579915" y="242.75" class="axis-label" style="font-size:10px;fill:#fff">6.4</text>
+        </g><g>
+          <text x="94" y="262.75" text-anchor="end" class="axis-label" style="font-size:10px">vol_change</text>
+          <rect x="100" y="250.0" width="189.8" height="17.0" rx="2" fill="#10b981" opacity="0.8"/>
+          <text x="293.8161244695898" y="262.75" class="axis-label" style="font-size:10px;fill:#fff">6.1</text>
+        </g><g>
+          <text x="94" y="282.75" text-anchor="end" class="axis-label" style="font-size:10px">macd_signal</text>
+          <rect x="100" y="270.0" width="178.0" height="17.0" rx="2" fill="#f59e0b" opacity="0.8"/>
+          <text x="281.99151343705796" y="282.75" class="axis-label" style="font-size:10px;fill:#fff">5.7</text>
+        </g><g>
+          <text x="94" y="302.75" text-anchor="end" class="axis-label" style="font-size:10px">bb_width</text>
+          <rect x="100" y="290.0" width="173.0" height="17.0" rx="2" fill="#f59e0b" opacity="0.8"/>
+          <text x="277.012729844413" y="302.75" class="axis-label" style="font-size:10px;fill:#fff">5.6</text>
+        </g></svg></div>
+      <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#10b981"></span>Arrow V11 Feature Importance 特征重要性</div><div class="section-count">Top 15 / 42</div></div>
+        <svg viewBox="0 0 600 320.0" class="chart-svg"><g>
+          <text x="94" y="22.75" text-anchor="end" class="axis-label" style="font-size:10px">price</text>
+          <rect x="100" y="10.0" width="440.0" height="17.0" rx="2" fill="#8b5cf6" opacity="0.8"/>
+          <text x="544.0" y="22.75" class="axis-label" style="font-size:10px;fill:#fff">7.1</text>
+        </g><g>
+          <text x="94" y="42.75" text-anchor="end" class="axis-label" style="font-size:10px">ret1</text>
+          <rect x="100" y="30.0" width="205.4" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="309.37482319660535" y="42.75" class="axis-label" style="font-size:10px;fill:#fff">3.3</text>
+        </g><g>
+          <text x="94" y="62.75" text-anchor="end" class="axis-label" style="font-size:10px">vol20</text>
+          <rect x="100" y="50.0" width="168.0" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="272.03394625176804" y="62.75" class="axis-label" style="font-size:10px;fill:#fff">2.7</text>
+        </g><g>
+          <text x="94" y="82.75" text-anchor="end" class="axis-label" style="font-size:10px">ma_bias20</text>
+          <rect x="100" y="70.0" width="153.7" height="17.0" rx="2" fill="#f59e0b" opacity="0.8"/>
+          <text x="257.71994342291373" y="82.75" class="axis-label" style="font-size:10px;fill:#fff">2.5</text>
+        </g><g>
+          <text x="94" y="102.75" text-anchor="end" class="axis-label" style="font-size:10px">ma5</text>
+          <rect x="100" y="90.0" width="138.8" height="17.0" rx="2" fill="#f59e0b" opacity="0.8"/>
+          <text x="242.7835926449788" y="102.75" class="axis-label" style="font-size:10px;fill:#fff">2.2</text>
+        </g><g>
+          <text x="94" y="122.75" text-anchor="end" class="axis-label" style="font-size:10px">range_pct</text>
+          <rect x="100" y="110.0" width="132.6" height="17.0" rx="2" fill="#8b5cf6" opacity="0.8"/>
+          <text x="236.56011315417254" y="122.75" class="axis-label" style="font-size:10px;fill:#fff">2.1</text>
+        </g><g>
+          <text x="94" y="142.75" text-anchor="end" class="axis-label" style="font-size:10px">ret5</text>
+          <rect x="100" y="130.0" width="127.0" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="230.95898161244696" y="142.75" class="axis-label" style="font-size:10px;fill:#fff">2.0</text>
+        </g><g>
+          <text x="94" y="162.75" text-anchor="end" class="axis-label" style="font-size:10px">ma20</text>
+          <rect x="100" y="150.0" width="117.6" height="17.0" rx="2" fill="#f59e0b" opacity="0.8"/>
+          <text x="221.6237623762376" y="162.75" class="axis-label" style="font-size:10px;fill:#fff">1.9</text>
+        </g><g>
+          <text x="94" y="182.75" text-anchor="end" class="axis-label" style="font-size:10px">price_position</text>
+          <rect x="100" y="170.0" width="110.2" height="17.0" rx="2" fill="#8b5cf6" opacity="0.8"/>
+          <text x="214.15558698727017" y="182.75" class="axis-label" style="font-size:10px;fill:#fff">1.8</text>
+        </g><g>
+          <text x="94" y="202.75" text-anchor="end" class="axis-label" style="font-size:10px">vol_ratio</text>
+          <rect x="100" y="190.0" width="106.4" height="17.0" rx="2" fill="#6366f1" opacity="0.8"/>
+          <text x="210.42149929278642" y="202.75" class="axis-label" style="font-size:10px;fill:#fff">1.7</text>
+        </g><g>
+          <text x="94" y="222.75" text-anchor="end" class="axis-label" style="font-size:10px">bb_std</text>
+          <rect x="100" y="210.0" width="103.9" height="17.0" rx="2" fill="#f59e0b" opacity="0.8"/>
+          <text x="207.9321074964639" y="222.75" class="axis-label" style="font-size:10px;fill:#fff">1.7</text>
+        </g><g>
+          <text x="94" y="242.75" text-anchor="end" class="axis-label" style="font-size:10px">qqq_ret60</text>
+          <rect x="100" y="230.0" width="99.6" height="17.0" rx="2" fill="#10b981" opacity="0.8"/>
+          <text x="203.57567185289957" y="242.75" class="axis-label" style="font-size:10px;fill:#fff">1.6</text>
+        </g><g>
+          <text x="94" y="262.75" text-anchor="end" class="axis-label" style="font-size:10px">iwm_ret60</text>
+          <rect x="100" y="250.0" width="99.6" height="17.0" rx="2" fill="#10b981" opacity="0.8"/>
+          <text x="203.57567185289957" y="262.75" class="axis-label" style="font-size:10px;fill:#fff">1.6</text>
+        </g><g>
+          <text x="94" y="282.75" text-anchor="end" class="axis-label" style="font-size:10px">spy_ret60</text>
+          <rect x="100" y="270.0" width="98.3" height="17.0" rx="2" fill="#10b981" opacity="0.8"/>
+          <text x="202.33097595473834" y="282.75" class="axis-label" style="font-size:10px;fill:#fff">1.6</text>
+        </g><g>
+          <text x="94" y="302.75" text-anchor="end" class="axis-label" style="font-size:10px">iwm_ret20</text>
+          <rect x="100" y="290.0" width="97.7" height="17.0" rx="2" fill="#10b981" opacity="0.8"/>
+          <text x="201.70862800565772" y="302.75" class="axis-label" style="font-size:10px;fill:#fff">1.6</text>
+        </g></svg></div>
+    </div>
+    <div class="bento-item" style="margin-top:16px">
+      <div class="section-head"><div class="section-title"><span class="dot" style="background:#f59e0b"></span>XGBoost Hyperparameters 超参数</div></div>
+      <div class="params-grid">
+        <div class="param"><span class="param-key">Objective 目标</span><span class="param-val">reg:squarederror</span></div>
+        <div class="param"><span class="param-key">Max Depth 深度</span><span class="param-val">6</span></div>
+        <div class="param"><span class="param-key">Learning Rate 学习率</span><span class="param-val">0.03</span></div>
+        <div class="param"><span class="param-key">Subsample 采样</span><span class="param-val">0.8</span></div>
+        <div class="param"><span class="param-key">Colsample 列采样</span><span class="param-val">0.8</span></div>
+        <div class="param"><span class="param-key">Min Child 最小子</span><span class="param-val">10</span></div>
+        <div class="param"><span class="param-key">Device 设备</span><span class="param-val">cuda</span></div>
+        <div class="param"><span class="param-key">Trees 树数</span><span class="param-val">500</span></div>
+      </div>
+    </div>
+    </div>
+  <div class="footer"><div class="footer-text">Hermes Trading Intelligence · Shield V6 + Arrow V11 · Three-Layer Signal Filter 三层过滤</div></div>
+</div>
+<div class="refresh-bar"><div class="refresh-fill" id="refreshFill"></div></div>
+
+<script>
+function showTab(n){
+  document.querySelectorAll('.tab-content').forEach((s,i)=>s.classList.toggle('active',i===n));
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',i===n));
+}
+
+// Auto-refresh every 5 minutes during market hours (9:30-16:00 ET = 21:30-04:00 Beijing)
+const REFRESH_MS = 5 * 60 * 1000;
+let countdown = REFRESH_MS / 1000;
+const fill = document.getElementById('refreshFill');
+const cdEl = document.getElementById('countdown');
+
+function isMarketOpen() {
+  const now = new Date();
+  const utc = now.getUTCHours() * 60 + now.getUTCMinutes();
+  // ET = UTC-4 (summer) or UTC-5 (winter). Use UTC-4 for summer.
+  let et = (utc - 4 * 60 + 1440) % 1440;
+  // Market: 9:30 (570) to 16:00 (960)
+  return et >= 570 && et <= 960 && now.getDay() >= 1 && now.getDay() <= 5;
+}
+
+setInterval(() => {
+  countdown--;
+  const min = Math.floor(countdown / 60);
+  const sec = countdown % 60;
+  cdEl.textContent = min + ':' + String(sec).padStart(2, '0');
+  fill.style.width = ((1 - countdown / (REFRESH_MS/1000)) * 100) + '%';
+  
+  if (countdown <= 0) {
+    if (isMarketOpen()) {
+      location.reload();
+    } else {
+      countdown = REFRESH_MS / 1000;
+    }
+  }
+}, 1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+{
+  "timestamp": "2026-06-19T17:11:59.442597",
+  "config": {
+    "feats": 27,
+    "labels": [
+      "y_10d",
+      "y_15d",
+      "y_20d",
+      "y_25d",
+      "y_30d"
+    ],
+    "top_n": 15
+  },
+  "fold_results": [
+    {
+      "fold": 0,
+      "train": "2016-06-2019-05",
+      "test": "2019-06-2020-05",
+      "n_trades": 2673,
+      "avg_pred": 37.89,
+      "avg_actual": -1.07,
+      "win_rate": 44.2,
+      "correlation": 0.143,
+      "hold_distribution": {
+        "30": 676,
+        "25": 500,
+        "10": 400,
+        "15": 527,
+        "20": 570
+      }
+    },
+    {
+      "fold": 1,
+      "train": "2017-06-2020-05",
+      "test": "2020-06-2021-05",
+      "n_trades": 2870,
+      "avg_pred": 27.67,
+      "avg_actual": 14.44,
+      "win_rate": 50.2,
+      "correlation": -0.05,
+      "hold_distribution": {
+        "10": 387,
+        "30": 960,
+        "20": 417,
+        "15": 472,
+        "25": 634
+      }
+    },
+    {
+      "fold": 2,
+      "train": "2018-06-2021-05",
+      "test": "2021-06-2022-05",
+      "n_trades": 2809,
+      "avg_pred": 29.7,
+      "avg_actual": -7.41,
+      "win_rate": 37.4,
+      "correlation": 0.028,
+      "hold_distribution": {
+        "20": 554,
+        "25": 624,
+        "30": 950,
+        "15": 501,
+        "10": 180
+      }
+    },
+    {
+      "fold": 3,
+      "train": "2019-06-2022-05",
+      "test": "2022-06-2023-05",
+      "n_trades": 2708,
+      "avg_pred": 23.22,
+      "avg_actual": -1.66,
+      "win_rate": 38.3,
+      "correlation": -0.061,
+      "hold_distribution": {
+        "15": 531,
+        "20": 423,
+        "30": 815,
+        "25": 541,
+        "10": 398
+      }
+    },
+    {
+      "fold": 4,
+      "train": "2020-06-2023-05",
+      "test": "2023-06-2024-05",
+      "n_trades": 2739,
+      "avg_pred": 18.32,
+      "avg_actual": -1.47,
+      "win_rate": 38.8,
+      "correlation": 0.008,
+      "hold_distribution": {
+        "25": 515,
+        "15": 432,
+        "30": 841,
+        "10": 560,
+        "20": 391
+      }
+    }
+  ],
+  "summary": {
+    "total_trades": 13799,
+    "avg_pred_return": 27.33,
+    "avg_actual_return": 0.67,
+    "win_rate": 41.9,
+    "correlation": 0.026,
+    "hold_distribution": {
+      "30": 4242,
+      "25": 2814,
+      "10": 1925,
+      "15": 2463,
+      "20": 2355
+    },
+    "hold_stats": {
+      "10d": {
+        "avg": 0.95,
+        "win_rate": 43.9
+      },
+      "15d": {
+        "avg": 0.43,
+        "win_rate": 43.0
+      },
+      "20d": {
+        "avg": -0.39,
+        "win_rate": 41.5
+      },
+      "25d": {
+        "avg": -0.37,
+        "win_rate": 41.3
+      },
+      "30d": {
+        "avg": -0.28,
+        "win_rate": 40.7
+      }
+    },
+    "direction_accuracy": 41.9
+  }
+}

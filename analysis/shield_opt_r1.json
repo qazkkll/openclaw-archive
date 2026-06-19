@@ -1,0 +1,293 @@
+{
+  "xgb_baseline": {
+    "label": "XGB\u5168\u7279\u5f81",
+    "annual": 0.56599256974134,
+    "sharpe": 1.2104373843867469,
+    "max_dd": -0.9999999999999996,
+    "win_rate": 0.846031746031746,
+    "avg_ret": 0.2695202713054,
+    "n": 1260
+  },
+  "cat_baseline": {
+    "label": "CatBoost\u5168\u7279\u5f81",
+    "annual": 0.5728475065588451,
+    "sharpe": 1.1899694127277798,
+    "max_dd": -0.9999999999999998,
+    "win_rate": 0.830952380952381,
+    "avg_ret": 0.2727845269327834,
+    "n": 1260
+  },
+  "feature_selection": {
+    "Top5": {
+      "label": "Top5\u7279\u5f81",
+      "annual": 0.5483262658397038,
+      "sharpe": 1.1842348692893077,
+      "max_dd": -0.9999999999999994,
+      "win_rate": 0.8261904761904761,
+      "avg_ret": 0.2611077456379542,
+      "n": 1260,
+      "n_feat": 5,
+      "feats": [
+        "vol20",
+        "ma60",
+        "bb_std",
+        "momentum_6m",
+        "ret60"
+      ]
+    },
+    "Top8": {
+      "label": "Top8\u7279\u5f81",
+      "annual": 0.5353448079800368,
+      "sharpe": 1.1786324256406846,
+      "max_dd": -0.999999999999998,
+      "win_rate": 0.8293650793650794,
+      "avg_ret": 0.25492609903811275,
+      "n": 1260,
+      "n_feat": 8,
+      "feats": [
+        "vol20",
+        "ma60",
+        "bb_std",
+        "momentum_6m",
+        "ret60",
+        "ma5",
+        "ma20",
+        "bb_width"
+      ]
+    },
+    "Top10": {
+      "label": "Top10\u7279\u5f81",
+      "annual": 0.5412533451115891,
+      "sharpe": 1.1552438017648563,
+      "max_dd": -0.9999999999999994,
+      "win_rate": 0.8333333333333334,
+      "avg_ret": 0.2577396881483757,
+      "n": 1260,
+      "n_feat": 10,
+      "feats": [
+        "vol20",
+        "ma60",
+        "bb_std",
+        "momentum_6m",
+        "ret60",
+        "ma5",
+        "ma20",
+        "bb_width",
+        "macd_signal",
+        "vol_change"
+      ]
+    },
+    "Top12": {
+      "label": "Top12\u7279\u5f81",
+      "annual": 0.5555702148687175,
+      "sharpe": 1.1921068083251047,
+      "max_dd": -0.9999999999999845,
+      "win_rate": 0.8373015873015873,
+      "avg_ret": 0.26455724517557977,
+      "n": 1260,
+      "n_feat": 12,
+      "feats": [
+        "vol20",
+        "ma60",
+        "bb_std",
+        "momentum_6m",
+        "ret60",
+        "ma5",
+        "ma20",
+        "bb_width",
+        "macd_signal",
+        "vol_change",
+        "macd",
+        "price_position"
+      ]
+    },
+    "Top14": {
+      "label": "Top14\u7279\u5f81",
+      "annual": 0.5568544731807515,
+      "sharpe": 1.1895808445031595,
+      "max_dd": -0.9999999999999984,
+      "win_rate": 0.8357142857142857,
+      "avg_ret": 0.2651687967527388,
+      "n": 1260,
+      "n_feat": 14,
+      "feats": [
+        "vol20",
+        "ma60",
+        "bb_std",
+        "momentum_6m",
+        "ret60",
+        "ma5",
+        "ma20",
+        "bb_width",
+        "macd_signal",
+        "vol_change",
+        "macd",
+        "price_position",
+        "macd_hist",
+        "ret20"
+      ]
+    }
+  },
+  "cat_optimal": {
+    "label": "CatBoost\u6700\u4f18\u7279\u5f81",
+    "annual": 0.5613810671151929,
+    "sharpe": 1.1751984923275507,
+    "max_dd": -0.9999999999999999,
+    "win_rate": 0.8214285714285714,
+    "avg_ret": 0.26732431767390136,
+    "n": 1260
+  },
+  "xgb_importance": [
+    [
+      "vol20",
+      7.969599723815918
+    ],
+    [
+      "ma60",
+      7.427083492279053
+    ],
+    [
+      "bb_std",
+      5.220488548278809
+    ],
+    [
+      "momentum_6m",
+      4.850716590881348
+    ],
+    [
+      "ret60",
+      4.388526916503906
+    ],
+    [
+      "ma5",
+      4.195998191833496
+    ],
+    [
+      "ma20",
+      4.002724647521973
+    ],
+    [
+      "bb_width",
+      3.4490010738372803
+    ],
+    [
+      "macd_signal",
+      3.430185317993164
+    ],
+    [
+      "vol_change",
+      3.288820743560791
+    ],
+    [
+      "macd",
+      3.1890382766723633
+    ],
+    [
+      "price_position",
+      2.9488658905029297
+    ],
+    [
+      "macd_hist",
+      2.3950352668762207
+    ],
+    [
+      "ret20",
+      2.3130288124084473
+    ],
+    [
+      "vol5",
+      2.1877353191375732
+    ],
+    [
+      "ret_quality",
+      2.110969305038452
+    ],
+    [
+      "ma_align",
+      2.0903048515319824
+    ],
+    [
+      "momentum_1m",
+      2.048557758331299
+    ],
+    [
+      "ma_bias20",
+      1.7858822345733643
+    ],
+    [
+      "vol_ratio",
+      1.6432265043258667
+    ],
+    [
+      "bb_pos",
+      1.5944401025772095
+    ],
+    [
+      "rsi14",
+      1.3335336446762085
+    ],
+    [
+      "ret5",
+      1.249401569366455
+    ],
+    [
+      "rsi_change",
+      1.1385773420333862
+    ],
+    [
+      "trend_accel",
+      1.0985198020935059
+    ],
+    [
+      "ret1",
+      0.8543202877044678
+    ],
+    [
+      "mom_divergence",
+      0.8415564894676208
+    ]
+  ],
+  "best_features": [
+    "vol20",
+    "ma60",
+    "bb_std",
+    "momentum_6m",
+    "ret60",
+    "ma5",
+    "ma20",
+    "bb_width",
+    "macd_signal",
+    "vol_change",
+    "macd",
+    "price_position"
+  ],
+  "features": [
+    "ma5",
+    "ma20",
+    "ma60",
+    "ret1",
+    "ret5",
+    "ret20",
+    "ret60",
+    "vol20",
+    "vol5",
+    "rsi14",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "ma_bias20",
+    "vol_ratio",
+    "trend_accel",
+    "bb_std",
+    "bb_width",
+    "bb_pos",
+    "rsi_change",
+    "vol_change",
+    "ret_quality",
+    "ma_align",
+    "price_position",
+    "momentum_6m",
+    "momentum_1m",
+    "mom_divergence"
+  ]
+}

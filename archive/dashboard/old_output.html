@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="300">
+<title>Hermes Trading System</title>
+<style>
+:root {
+    --bg: #0a0a0a; --c1: #111; --c2: #1a1a1a; --bd: #222;
+    --tx: #e0e0e0; --dm: #888;
+    --gn: #4caf50; --yl: #ffc107; --rd: #f44336; --bl: #2196f3;
+    --f: 'SF Mono', 'Consolas', monospace;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--tx); font-family:var(--f); font-size:13px; padding:10px; }
+.header { display:flex; justify-content:space-between; align-items:center; padding:10px 15px; background:var(--c1); border-radius:6px; margin-bottom:10px; }
+.header h1 { font-size:16px; color:var(--bl); }
+.header .meta { color:var(--dm); font-size:11px; }
+.btn { background:var(--c2); border:1px solid var(--bd); color:var(--tx); padding:5px 12px; border-radius:4px; cursor:pointer; font-size:11px; }
+.btn:hover { background:var(--bd); }
+.section { padding:12px; background:var(--c1); border-radius:6px; margin-bottom:10px; border-left:3px solid var(--bd); }
+.section.shield { border-left-color:var(--bl); }
+.section.arrow { border-left-color:var(--gn); }
+.section.portfolio { border-left-color:var(--yl); }
+.section.health { border-left-color:var(--bl); }
+.section.actions { border-left-color:var(--gn); }
+.section.risks { border-left-color:var(--rd); }
+.section h2 { font-size:14px; margin-bottom:8px; color:var(--tx); }
+.section h3 { font-size:12px; margin-bottom:6px; color:var(--dm); }
+.cols { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+@media(max-width:1200px) { .cols { grid-template-columns:1fr; } }
+.market-row { display:flex; gap:15px; flex-wrap:wrap; margin-bottom:8px; }
+.market-item { display:flex; align-items:center; gap:6px; }
+.market-item .name { color:var(--dm); }
+.market-item .price { font-weight:bold; }
+.stock-row { display:flex; align-items:center; padding:4px 8px; border-bottom:1px solid var(--bd); }
+.stock-row:hover { background:var(--c2); }
+.stock-row .rank { width:25px; color:var(--dm); }
+.stock-row .ticker { width:60px; font-weight:bold; }
+.stock-row .score { width:50px; text-align:right; }
+.stock-row .delta { width:40px; text-align:center; }
+.stock-row .signal { width:30px; text-align:center; }
+.ru { color:var(--gn); font-size:11px; }
+.rd { color:var(--rd); font-size:11px; }
+.rn { color:var(--dm); font-size:10px; }
+.rf { color:var(--dm); }
+.health-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:10px; }
+.health-card { background:var(--c2); padding:10px; border-radius:4px; }
+.health-card .label { color:var(--dm); font-size:11px; }
+.health-card .value { font-size:18px; font-weight:bold; margin:4px 0; }
+.health-card .sub { color:var(--dm); font-size:10px; }
+.risk-item { padding:6px 10px; margin:4px 0; border-radius:4px; background:var(--c2); }
+.risk-item.high { border-left:3px solid var(--rd); }
+.risk-item.medium { border-left:3px solid var(--yl); }
+.risk-item.low { border-left:3px solid var(--gn); }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>📊 Hermes Trading System</h1>
+    <div class="meta">
+        <span>2026-06-19 02:30:00</span> · 
+        <span>Token: $28.94</span> ·
+        <button class="btn" onclick="location.reload()">↻ 刷新</button>
+    </div>
+</div>
+
+<!-- MARKET CONTEXT -->
+<div class="section">
+    <h2>📈 市场环境</h2>
+    <div class="market-row">
+
+        <div class="market-item">
+            <span class="name">S&P 500</span>
+            <span class="price">5,546.23</span>
+            <span class="g">+0.5%</span>
+        </div>
+        <div class="market-item">
+            <span class="name">VIX</span>
+            <span class="price">15.60</span>
+            <span class="r">-2.1%</span>
+        </div>
+        <div class="market-item">
+            <span class="name">NASDAQ</span>
+            <span class="price">17,890.12</span>
+            <span class="g">+0.8%</span>
+        </div>
+        <div class="market-item">
+            <span class="name">DJI</span>
+            <span class="price">42,345.67</span>
+            <span class="g">+0.3%</span>
+        </div>
+    </div>
+</div>
+
+<!-- TWO COLUMNS: SHIELD + ARROW -->
+<div class="cols">
+
+    <div class="section shield">
+        <h2>🔵 蓝盾V4 · ML排序</h2>
+        <h3>Top-15, 5天轮换, XGBoost CUDA, WF夏普1.203</h3>
+
+        <div class="stock-row">
+            <span class="rank">1</span>
+            <span class="ticker">AAPL</span>
+            <span class="score g">0.92</span>
+            <span class="delta"><span class="ru">▲2</span></span>
+            <span class="signal">🟢🟢</span>
+        </div>
+        <div class="stock-row">
+            <span class="rank">2</span>
+            <span class="ticker">MSFT</span>
+            <span class="score g">0.88</span>
+            <span class="delta"><span class="rd">▼1</span></span>
+            <span class="signal">🟢🟢</span>
+        </div>
+        <div class="stock-row">
+            <span class="rank">3</span>
+            <span class="ticker">NVDA</span>
+            <span class="score g">0.85</span>
+            <span class="delta"><span class="rf">→</span></span>
+            <span class="signal">🟢🟢</span>
+        </div>
+        <div class="stock-row">
+            <span class="rank">4</span>
+            <span class="ticker">AMZN</span>
+            <span class="score g">0.82</span>
+            <span class="delta"><span class="rf">→</span></span>
+            <span class="signal">🟢</span>
+        </div>
+        <div class="stock-row">
+            <span class="rank">5</span>
+            <span class="ticker">GOOGL</span>
+            <span class="score g">0.79</span>
+            <span class="delta"><span class="rf">→</span></span>
+            <span class="signal">🟢</span>
+        </div>
+    </div>
+
+    <div class="section arrow">
+        <h2>🟢 绿箭V9 · 量化彩票</h2>
+        <h3>Top-10, 高波动高收益, 概率预测</h3>
+
+        <div class="stock-row">
+            <span class="rank">1</span>
+            <span class="ticker">MAYS</span>
+            <span class="score g">85.0%</span>
+            <span class="delta"><span class="ru">▲5</span></span>
+            <span class="signal">🟢🟢</span>
+        </div>
+        <div class="stock-row">
+            <span class="rank">2</span>
+            <span class="ticker">PRAX</span>
+            <span class="score g">78.0%</span>
+            <span class="delta"><span class="rf">→</span></span>
+            <span class="signal">🟢</span>
+        </div>
+        <div class="stock-row">
+            <span class="rank">3</span>
+            <span class="ticker">JAZZ</span>
+            <span class="score g">72.0%</span>
+            <span class="delta"><span class="rf">→</span></span>
+            <span class="signal">🟢</span>
+        </div>
+    </div>
+</div>
+
+<div class="section portfolio">
+    <h2>💼 持仓状态</h2>
+    <div class="cols">
+
+        <div>
+            <h3>大盘持仓 (蓝盾)</h3>
+
+            <div class="stock-row">
+                <span class="ticker">AAPL</span>
+                <span class="score g">+2.3%</span>
+            </div>
+            <div class="stock-row">
+                <span class="ticker">MSFT</span>
+                <span class="score r">-0.5%</span>
+            </div>
+        </div>
+
+        <div>
+            <h3>小盘持仓 (绿箭)</h3>
+
+            <div class="stock-row">
+                <span class="ticker">MAYS</span>
+                <span class="score g">+15.2%</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section health">
+    <h2>📊 模型健康</h2>
+    <div class="health-grid">
+        <div class="health-card">
+            <div class="label">蓝盾 WF 夏普</div>
+            <div class="value g">1.203</div>
+            <div class="sub">年化 34.5% · DD -80.4%</div>
+        </div>
+        <div class="health-card">
+            <div class="label">蓝盾模型</div>
+            <div class="value">XGBoost CUDA</div>
+            <div class="sub">16维特征 · 训练 2026-06-19</div>
+        </div>
+        <div class="health-card">
+            <div class="label">绿箭 WF 夏普</div>
+            <div class="value g">0.850</div>
+            <div class="sub">年化 42.0% · DD -45.0%</div>
+        </div>
+        <div class="health-card">
+            <div class="label">Token 费用</div>
+            <div class="value">$28.94</div>
+            <div class="sub">缓存命中 98%</div>
+        </div>
+    </div>
+</div>
+
+<div class="cols">
+    <div class="section actions">
+        <h2>🎯 操作建议</h2>
+
+        <div class="stock-row">
+            <span class="signal">🟢🟢</span>
+            <span class="ticker">AAPL</span>
+            <span style="flex:1;color:var(--dm);">蓝盾92分·趋势确认</span>
+        </div>
+        <div class="stock-row">
+            <span class="signal">🟢</span>
+            <span class="ticker">NVDA</span>
+            <span style="flex:1;color:var(--dm);">蓝盾85分·趋势确认</span>
+        </div>
+        <div class="stock-row">
+            <span class="signal">🟢🟢</span>
+            <span class="ticker">MAYS</span>
+            <span style="flex:1;color:var(--dm);">绿箭85%概率·量化信号</span>
+        </div>
+    </div>
+    <div class="section risks">
+        <h2>⚠️ 风险提示</h2>
+
+        <div class="risk-item medium">
+            VIX 15.6 · 波动升高
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

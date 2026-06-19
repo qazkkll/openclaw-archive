@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-Hermes 盯盘监控器 — 蓝盾V3 + 绿箭V9-Lottery
+Hermes 盯盘监控器 — 蓝盾V5 + 绿箭V11(待接入)
 定时刷新数据 → 跑模型 → 更新HTML仪表盘
 
 用法：
     python3 live_monitor.py                    # 单次运行
     python3 live_monitor.py --loop 300         # 每300秒循环
     python3 live_monitor.py --loop 300 --open  # 循环 + 自动打开浏览器
+
+⚠️ V5评分脚本: scripts/us/blueshield_v5_score.py
 """
 
 import json, sys, os, time, argparse, warnings

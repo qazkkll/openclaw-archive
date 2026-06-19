@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-19T18:41:56.260719",
+  "checks": {
+    "\u6837\u672c\u91cf>500": true,
+    "\u5e74\u5ea6\u76c8\u5229": true,
+    "\u6b62\u635f\u7387<20%": true,
+    "\u6da850%+>5%": false,
+    "5/5\u6298\u76c8\u5229": true,
+    "\u6210\u672c\u5df2\u6263": true
+  },
+  "passed": 5,
+  "total": 6,
+  "portfolio": {
+    "initial": 100000,
+    "final_sample": 195557,
+    "total_return": 95.6,
+    "sharpe": 1.35,
+    "max_dd": -33.6
+  },
+  "signal_grades": {
+    "green2": {
+      "threshold": 0.9,
+      "n": 72,
+      "net": 16.25,
+      "wr": 54,
+      "big50": 12
+    },
+    "green1": {
+      "threshold": 0.8,
+      "n": 225,
+      "net": 16.02,
+      "wr": 59,
+      "big50": 12
+    },
+    "observe": {
+      "threshold": 0.7,
+      "n": 880,
+      "net": 10.89,
+      "wr": 60,
+      "big50": 6
+    }
+  }
+}

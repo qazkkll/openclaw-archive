@@ -1,0 +1,245 @@
+#!/usr/bin/env python3
+"""
+绿箭V11 每日评分脚本（全市场版）
+扫描全市场$1-$10股票 → 41维特征 → XGBoost排名 → Top-5+信号分级
+
+用法:
+    python3 arrow_v11_score.py              # 标准输出
+    python3 arrow_v11_score.py --json        # JSON输出
+    python3 arrow_v11_score.py --top 10      # 只输出Top-10
+"""
+import json, sys, os, time, argparse, warnings
+from datetime import datetime, timedelta
+import numpy as np
+import pandas as pd
+
+warnings.filterwarnings('ignore')
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+MACRO_COLS = ['vix_close','spy_ret1','spy_ret5','spy_ret20','spy_ret60',
+              'qqq_ret1','qqq_ret5','qqq_ret20','qqq_ret60',
+              'iwm_ret1','iwm_ret5','iwm_ret20','iwm_ret60']
+TECH_FEATS = ['ma5','ma20','ma60','ma_bias20','ma_align','price_position',
+    'ret1','ret5','ret20','ret60','momentum_6m','momentum_1m',
+    'mom_divergence','trend_accel','vol20','vol5','vol_ratio','vol_change',
+    'rsi14','rsi_change','macd','macd_signal','macd_hist',
+    'bb_std','bb_width','bb_pos','ret_quality','price','range_pct']
+ALL_FEATS = TECH_FEATS + MACRO_COLS
+
+def compute_features(group):
+    g = group.sort_values('date').copy()
+    c = g['close']
+    g['ma5'] = c.rolling(5).mean(); g['ma20'] = c.rolling(20).mean(); g['ma60'] = c.rolling(60).mean()
+    g['ma_bias20'] = (c - g['ma20']) / g['ma20']
+    g['ma_align'] = ((c > g['ma5']).astype(int) + (g['ma5'] > g['ma20']).astype(int))
+    mn60 = c.rolling(60).min(); mx60 = c.rolling(60).max()
+    g['price_position'] = (c - mn60) / (mx60 - mn60 + 1e-10)
+    g['ret1'] = c.pct_change(1); g['ret5'] = c.pct_change(5)
+    g['ret20'] = c.pct_change(20); g['ret60'] = c.pct_change(60)
+    g['momentum_6m'] = c.pct_change(126); g['momentum_1m'] = c.pct_change(21)
+    g['mom_divergence'] = g['momentum_1m'] - g['ret20']
+    g['trend_accel'] = g['ret5'] - g['ret5'].shift(5)
+    dr = c.pct_change(1)
+    g['vol20'] = dr.rolling(20).std(); g['vol5'] = dr.rolling(5).std()
+    g['vol_ratio'] = g['volume'] / g['volume'].rolling(20).mean()
+    g['vol_change'] = g['vol20'] / g['vol20'].shift(20)
+    delta = c.diff()
+    gain = delta.clip(lower=0).rolling(14).mean()
+    loss = (-delta).clip(lower=0).rolling(14).mean()
+    g['rsi14'] = 100 - 100 / (1 + gain / loss.replace(0, np.nan))
+    g['rsi_change'] = g['rsi14'].diff(5)
+    e12 = c.ewm(span=12).mean(); e26 = c.ewm(span=26).mean()
+    g['macd'] = e12 - e26; g['macd_signal'] = g['macd'].ewm(span=9).mean()
+    g['macd_hist'] = g['macd'] - g['macd_signal']
+    g['bb_std'] = c.rolling(20).std()
+    g['bb_width'] = 2 * g['bb_std'] / g['ma20']
+    g['bb_pos'] = (c - g['ma20']) / (2 * g['bb_std'] + 1e-10)
+    g['ret_quality'] = g['ret20'] / (g['vol20'] + 1e-10)
+    g['price'] = c
+    g['range_pct'] = (g['high'] - g['low']) / (c + 1e-10)
+    return g
+
+def score_all():
+    import xgboost as xgb
+    
+    print("🎯 绿箭V11 全市场评分 ($1-$10)", flush=True)
+    print("="*50, flush=True)
+    
+    # 加载数据
+    print("1. 加载历史数据...", flush=True)
+    df = pd.read_parquet(os.path.join(ROOT, 'data/us/us_hist_yf_10y.parquet'))
+    df = df.rename(columns={'ticker': 'sym'})
+    df = df[(df['close'] > 0.5) & (df['close'] < 10) & (df['volume'] > 0)]
+    
+    # 计算特征
+    print("2. 计算特征...", flush=True)
+    t0 = time.time()
+    parts = []
+    for i, (sym, g) in enumerate(df.groupby('sym')):
+        f = compute_features(g); f['sym'] = sym; parts.append(f)
+    df = pd.concat(parts, ignore_index=True)
+    print(f"   完成: {time.time()-t0:.0f}s", flush=True)
+    
+    # 宏观特征
+    try:
+        v75 = pd.read_parquet(os.path.join(ROOT, 'data/us/features/us_ml_feats_v75_filtered.parquet'))
+        macro_daily = v75[['date']+MACRO_COLS].drop_duplicates(subset=['date'])
+        df = pd.merge(df, macro_daily, on='date', how='left')
+        for col in MACRO_COLS:
+            if col in df.columns: df[col] = df[col].ffill().fillna(0)
+    except:
+        for col in MACRO_COLS:
+            df[col] = 0
+    
+    # 取每个股票最后一行
+    latest = df.groupby('sym').last().reset_index()
+    latest = latest.dropna(subset=ALL_FEATS)
+    print(f"3. 评分股票: {len(latest)}只 ($1-$10)", flush=True)
+    
+    # 加载模型
+    model_path = os.path.join(ROOT, 'models/us/arrow_v11_xgb.json')
+    meta_path = os.path.join(ROOT, 'models/us/arrow_v11_meta.json')
+    
+    if not os.path.exists(model_path):
+        print("❌ 模型文件不存在", flush=True)
+        return
+    
+    model = xgb.Booster()
+    model.load_model(model_path)
+    with open(meta_path) as f:
+        meta = json.load(f)
+    feats = meta['features']
+    
+    # 预测
+    X = latest[feats].values.astype(np.float32)
+    X = np.nan_to_num(X, nan=0, posinf=0, neginf=0)
+    dtest = xgb.DMatrix(X, feature_names=feats)
+    preds = model.predict(dtest)
+    latest['pred_rank'] = preds
+    latest = latest.sort_values('pred_rank', ascending=False)
+    
+    return latest
+
+def classify_signal_percentile(score, all_scores, vix=None):
+    """三层过滤信号分级
+    L1: VIX > 30 → 关闭信号（返回🔴）
+    L2: 分数必须 > 中位数（否则返回🔴）
+    L3: 百分位 Top5%=🟢🟢, Top10%=🟢, Top20%=🟡
+    """
+    # L1: VIX市场状态
+    if vix is not None and vix > 30:
+        return '🔴', 'VIX>30暂停'
+    
+    median = np.median(all_scores)
+    
+    # L2: 绝对门槛（必须高于中位数）
+    if score <= median:
+        return '🔴', '低于中位数'
+    
+    # L3: 百分位
+    p95 = np.percentile(all_scores, 95)
+    p90 = np.percentile(all_scores, 90)
+    p80 = np.percentile(all_scores, 80)
+    
+    if score >= p95: return '🟢🟢', f'Top5%(>{p95:.3f})'
+    elif score >= p90: return '🟢', f'Top10%(>{p90:.3f})'
+    elif score >= p80: return '🟡', f'Top20%(>{p80:.3f})'
+    else: return '🔴', '不推荐'
+
+def main():
+    parser = argparse.ArgumentParser(description='绿箭V11全市场评分')
+    parser.add_argument('--json', action='store_true')
+    parser.add_argument('--top', type=int, default=5)
+    args = parser.parse_args()
+    
+    latest = score_all()
+    if latest is None:
+        return
+    
+    now = datetime.now().strftime('%Y-%m-%d %H:%M')
+    
+    # 获取VIX
+    vix_val = None
+    try:
+        import yfinance as yf
+        vix_val = float(yf.Ticker('^VIX').history(period='1d')['Close'].iloc[-1])
+    except:
+        pass
+    
+    all_scores = latest['pred_rank'].values
+    
+    if args.json:
+        picks = []
+        for _, r in latest.head(args.top).iterrows():
+            emoji, desc = classify_signal_percentile(r['pred_rank'], all_scores, vix_val)
+            picks.append({
+                'ticker': r['sym'], 'price': round(r['close'], 2),
+                'pred_rank': round(r['pred_rank'], 4),
+                'signal': emoji, 'signal_desc': desc,
+            })
+        output = {
+            'timestamp': now, 'model': 'arrow_v11',
+            'total_scanned': len(latest), 'top_n': args.top, 'picks': picks
+        }
+        print(json.dumps(output, indent=2))
+    else:
+        print(f"\n🎯 绿箭V11 选股报告 ({now})", flush=True)
+        print(f"{'='*60}", flush=True)
+        print(f"模型: V11排名 (41维特征, 5天Top-5, $1-$10)", flush=True)
+        print(f"扫描: {len(latest)}只股票", flush=True)
+        print(f"", flush=True)
+        print(f"{'排名':<5} {'代码':<8} {'价格':>8} {'排名分':>7} {'RSI':>5} {'5日':>7} {'20日':>7} {'信号'}", flush=True)
+        print(f"{'-'*60}", flush=True)
+        
+        for i, (_, r) in enumerate(latest.head(args.top).iterrows()):
+            emoji, desc = classify_signal_percentile(r['pred_rank'], all_scores, vix_val)
+            print(f"{emoji}{i+1:<3} {r['sym']:<8} ${r['close']:>7.2f} {r['pred_rank']:>7.4f} "
+                  f"{r.get('rsi14',0):>5.1f} {r.get('ret5',0)*100:>+6.1f}% {r.get('ret20',0)*100:>+6.1f}% {desc}", flush=True)
+        
+        median = np.median(all_scores)
+        p95 = np.percentile(all_scores, 95)
+        p90 = np.percentile(all_scores, 90)
+        p80 = np.percentile(all_scores, 80)
+        above_median = len(latest[latest['pred_rank'] > median])
+        g2 = len(latest[latest['pred_rank'] >= p95])
+        g1 = len(latest[(latest['pred_rank'] >= p90) & (latest['pred_rank'] < p95)])
+        obs = len(latest[(latest['pred_rank'] >= p80) & (latest['pred_rank'] < p90)])
+        vix_str = f"VIX={vix_val:.1f}" if vix_val else "VIX=未知"
+        l1_status = "🔴暂停" if (vix_val and vix_val > 30) else "🟢正常"
+        print(f"\n📊 三层过滤: {vix_str} {l1_status} | 中位数:{median:.3f} | >中位数:{above_median}只", flush=True)
+        print(f"📊 信号分级: 🟢🟢精品(Top5%):{g2}只 | 🟢强信号(Top10%):{g1}只 | 🟡观察(Top20%):{obs}只", flush=True)
+        print(f"💰 建议: 🟢🟢每只$2000 | 🟢每只$1000 | 🟡观察不买 | 止损-10%", flush=True)
+        
+        # VIX止损检查
+    if vix_val:
+        if vix_val > 35:
+            print(f"\n🔴🔴 VIX={vix_val:.1f} > 35 恐慌！绿箭暂停买入", flush=True)
+        elif vix_val > 30:
+            print(f"\n🔴 VIX={vix_val:.1f} > 30 三层过滤L1触发！绿箭信号全部关闭", flush=True)
+        elif vix_val > 25:
+            print(f"\n🟠 VIX={vix_val:.1f} > 25 警戒，绿箭减仓", flush=True)
+        elif vix_val > 20:
+            print(f"\n🟡 VIX={vix_val:.1f} > 20 注意，收紧止损到-8%", flush=True)
+        else:
+            print(f"\n🟢 VIX={vix_val:.1f} 正常，可正常操作", flush=True)
+    else:
+        print(f"\n⚠️ VIX获取失败", flush=True)
+    
+    # 保存
+    output_dir = os.path.join(ROOT, 'output')
+    os.makedirs(output_dir, exist_ok=True)
+    save_path = os.path.join(output_dir, 'v11_latest.json')
+    with open(save_path, 'w') as f:
+        json.dump({
+            'timestamp': now, 'model': 'arrow_v11',
+            'total': len(latest),
+            'picks': [{
+                'ticker': r['sym'], 'price': round(r['close'], 2),
+                'pred_rank': round(r['pred_rank'], 4),
+                'signal': classify_signal_percentile(r['pred_rank'], all_scores, vix_val)[0]
+            } for _, r in latest.head(args.top).iterrows()]
+        }, f, indent=2, default=str)
+    print(f"\n✅ 保存: output/v11_latest.json", flush=True)
+
+if __name__ == '__main__':
+    main()
