@@ -1,0 +1,47 @@
+Phase 4: 分类模型 + 行业轮动
+
+[1] 加载数据...
+  4,532,318行, 3148只, 111个行业
+  采样后: 454,786行, 154天
+
+[2] 计算特征...
+
+[3] 行业轮动特征...
+  基础特征: 9, 行业特征: 12, 总计: 21
+
+[4] 实验矩阵...
+  Train: 107天, Test: 47天
+  A_regress_base       reg hd=10  9f IC=0.0968 LS=0.2782 (21s)
+  B_classif_base       clf hd=10  9f IC=0.0941 LS=0.2375 Acc=0.513 (19s)
+  C_clf_5d             clf hd= 5  9f IC=0.0739 LS=0.1295 Acc=0.522 (18s)
+  D_clf_20d            clf hd=20  9f IC=0.1495 LS=0.5229 Acc=0.625 (18s)
+  E_reg_20d            reg hd=20  9f IC=0.1516 LS=0.5519 (18s)
+  F_clf_industry       clf hd=10 21f IC=0.0918 LS=0.2253 Acc=0.506 (19s)
+  G_reg_industry       reg hd=10 21f IC=0.0924 LS=0.2785 (18s)
+  H_clf_indonly        clf hd=10 12f IC=0.0439 LS=0.0767 Acc=0.443 (18s)
+  I_clf_ind_20d        clf hd=20 21f IC=0.1330 LS=0.5934 Acc=0.651 (19s)
+
+============================================================
+结果汇总:
+
+按IC排序:
+  * E_reg_20d            IC=0.1516 LS=0.5519 Acc=0.000
+  * D_clf_20d            IC=0.1495 LS=0.5229 Acc=0.625
+  * I_clf_ind_20d        IC=0.1330 LS=0.5934 Acc=0.651
+  + A_regress_base       IC=0.0968 LS=0.2782 Acc=0.000
+  + B_classif_base       IC=0.0941 LS=0.2375 Acc=0.513
+  + G_reg_industry       IC=0.0924 LS=0.2785 Acc=0.000
+  + F_clf_industry       IC=0.0918 LS=0.2253 Acc=0.506
+  + C_clf_5d             IC=0.0739 LS=0.1295 Acc=0.522
+  - H_clf_indonly        IC=0.0439 LS=0.0767 Acc=0.443
+
+分类 vs 回归:
+  hd=10: Clf IC=0.0941 vs Reg IC=0.0968
+  hd=20: Clf IC=0.1495 vs Reg IC=0.1516
+
+行业特征效果:
+  基础: IC=0.0941
+  +行业: IC=0.0918
+  提升: -2.4%
+
+Done.

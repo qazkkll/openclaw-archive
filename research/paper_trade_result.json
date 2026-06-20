@@ -1,0 +1,131 @@
+{
+  "signal_date": "2026-06-18",
+  "eval_date": "1457395200000000",
+  "days": 21,
+  "portfolio_return": 53.23,
+  "win_rate": 27.0,
+  "benchmark_return": 8.78,
+  "alpha": 44.45,
+  "stocks": [
+    {
+      "code": "603108",
+      "name": "\u6da6\u8fbe\u533b\u7597",
+      "entry": 10.39,
+      "exit": 64.92,
+      "ret": 5.248315688161694,
+      "industry": "\u533b\u836f\u5546\u4e1a"
+    },
+    {
+      "code": "600376",
+      "name": "\u9996\u5f00\u80a1\u4efd",
+      "entry": 3.45,
+      "exit": 10.42,
+      "ret": 2.0202898550724635,
+      "industry": "\u533a\u57df\u5730\u4ea7"
+    },
+    {
+      "code": "600693",
+      "name": "\u4e1c\u767e\u96c6\u56e2",
+      "entry": 8.38,
+      "exit": 11.89,
+      "ret": 0.41885441527446293,
+      "industry": "\u767e\u8d27"
+    },
+    {
+      "code": "600481",
+      "name": "\u53cc\u826f\u8282\u80fd",
+      "entry": 4.74,
+      "exit": 6.15,
+      "ret": 0.2974683544303798,
+      "industry": "\u7535\u6c14\u8bbe\u5907"
+    },
+    {
+      "code": "605598",
+      "name": "\u4e0a\u6d77\u6e2f\u6e7e",
+      "entry": 37.4,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u5efa\u7b51\u5de5\u7a0b"
+    },
+    {
+      "code": "603121",
+      "name": "\u534e\u57f9\u52a8\u529b",
+      "entry": 14.18,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u6c7d\u8f66\u914d\u4ef6"
+    },
+    {
+      "code": "603829",
+      "name": "\u6d1b\u51ef\u80a1\u4efd",
+      "entry": 18.32,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u7535\u6c14\u8bbe\u5907"
+    },
+    {
+      "code": "605500",
+      "name": "\u68ee\u6797\u5305\u88c5",
+      "entry": 6.6,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u9020\u7eb8"
+    },
+    {
+      "code": "605069",
+      "name": "\u6b63\u548c\u751f\u6001",
+      "entry": 11.07,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u73af\u5883\u4fdd\u62a4"
+    },
+    {
+      "code": "603897",
+      "name": "\u957f\u57ce\u79d1\u6280",
+      "entry": 38.36,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u7535\u6c14\u8bbe\u5907"
+    },
+    {
+      "code": "603336",
+      "name": "\u5b8f\u8f89\u679c\u852c",
+      "entry": 8.09,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u519c\u4e1a\u7efc\u5408"
+    },
+    {
+      "code": "601615",
+      "name": "\u660e\u9633\u667a\u80fd",
+      "entry": 12.23,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u7535\u6c14\u8bbe\u5907"
+    },
+    {
+      "code": "603110",
+      "name": "\u4e1c\u65b9\u6750\u6599",
+      "entry": 24.11,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u67d3\u6599\u6d82\u6599"
+    },
+    {
+      "code": "600488",
+      "name": "\u6d25\u836f\u836f\u4e1a",
+      "entry": 4.55,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u5316\u5b66\u5236\u836f"
+    },
+    {
+      "code": "605167",
+      "name": "\u5229\u67cf\u7279",
+      "entry": 14.22,
+      "exit": null,
+      "ret": 0,
+      "industry": "\u5efa\u7b51\u5de5\u7a0b"
+    }
+  ]
+}

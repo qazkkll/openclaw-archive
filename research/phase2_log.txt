@@ -1,0 +1,67 @@
+Phase 2: 深度实验
+Sample: 367,614 rows, 122 dates
+Train: 85 dates, Test: 37 dates
+
+Group                      N    5d IC   10d IC   20d IC   30d IC
+-----------------------------------------------------------------
+flow_lg_5d                 1   0.0645   0.0851   0.1143   0.0971
+flow_lg_20d                1   0.0398   0.0519   0.0917   0.0754
+flow_elg_5d                1   0.0736   0.0901   0.1274   0.1108
+flow_elg_20d               1   0.0320   0.0434   0.0744   0.0344
+flow_sm_5d                 1   0.0758   0.0920   0.1164   0.1070
+flow_md_5d                 1   0.0806   0.0976   0.1336   0.1161
+flow_total_5d              1   0.0657   0.0851   0.1263   0.1064
+flow_total_20d             1   0.0225   0.0301   0.0708   0.0595
+flow_mom_lg                1   0.0579   0.0697   0.0917   0.0696
+flow_mom_elg               1   0.0518   0.0644   0.0864   0.0478
+flow_mom_total             1   0.0576   0.0812   0.1026   0.0714
+flow_accel_lg              1   0.0558   0.0768   0.0992   0.0844
+flow_accel_elg             1   0.0582   0.0764   0.1101   0.0672
+flow_streak_lg             1  -0.0145  -0.0132  -0.0106  -0.0013
+flow_streak_elg            1   0.0427   0.0552   0.0965   0.1132
+flow_lg_5d_rk              1   0.0635   0.0850   0.1179   0.0982
+flow_lg_20d_rk             1   0.0426   0.0586   0.0958   0.0766
+flow_elg_5d_rk             1   0.0659   0.0832   0.1190   0.0991
+flow_total_5d_rk           1   0.0713   0.0907   0.1182   0.1063
+flow_total_20d_rk          1   0.0373   0.0453   0.0800   0.0657
+tech_reversal              3   0.0335   0.0207   0.0251  -0.0032
+tech_rsi                   1   0.0219   0.0027  -0.0222  -0.0137
+tech_macd                  3   0.0524   0.0412   0.0622   0.0767
+tech_vol                   3   0.0508   0.0341   0.0796   0.0037
+interact_rev_flow          1   0.0300   0.0289   0.0250   0.0011
+interact_rsi_flow          1   0.0561   0.0636   0.0854   0.0636
+combo_flow                 5   0.0601   0.0775   0.1134   0.0959
+combo_tech                 3   0.0537   0.0467   0.0591   0.0606
+combo_all                  9   0.0970   0.1108   0.1385   0.1386
+
+============================================================
+
+持有5天 Top5:
+  combo_all                 IC=0.0970 LS=0.1879
+  flow_md_5d                IC=0.0806 LS=0.0439
+  flow_sm_5d                IC=0.0758 LS=0.0308
+  flow_elg_5d               IC=0.0736 LS=0.0790
+  flow_total_5d_rk          IC=0.0713 LS=0.0706
+
+持有10天 Top5:
+  combo_all                 IC=0.1108 LS=0.3164
+  flow_md_5d                IC=0.0976 LS=0.0826
+  flow_sm_5d                IC=0.0920 LS=0.0908
+  flow_total_5d_rk          IC=0.0907 LS=0.0865
+  flow_elg_5d               IC=0.0901 LS=0.1053
+
+持有20天 Top5:
+  combo_all                 IC=0.1385 LS=0.5534
+  flow_md_5d                IC=0.1336 LS=0.1765
+  flow_elg_5d               IC=0.1274 LS=0.3733
+  flow_total_5d             IC=0.1263 LS=0.2465
+  flow_elg_5d_rk            IC=0.1190 LS=0.3486
+
+持有30天 Top5:
+  combo_all                 IC=0.1386 LS=0.8694
+  flow_md_5d                IC=0.1161 LS=0.3216
+  flow_streak_elg           IC=0.1132 LS=0.3000
+  flow_elg_5d               IC=0.1108 LS=0.3680
+  flow_sm_5d                IC=0.1070 LS=0.4358
+
+Done.

@@ -1,0 +1,133 @@
+{
+  "date": "2026-06-18",
+  "model": "a_stock_xgb_v2",
+  "wf": {
+    "ic": 0.0809,
+    "rank_ic": 0.0817,
+    "icir": 0.996,
+    "ls": 0.0262
+  },
+  "filters": "excl ST, price>=3, 20d drop>-50%",
+  "top15": [
+    {
+      "sym": "605598",
+      "close": 37.4,
+      "score": 0.2912195920944214,
+      "expected_ret": 29.121959686279297,
+      "industry": "\u5efa\u7b51\u5de5\u7a0b",
+      "name": "\u4e0a\u6d77\u6e2f\u6e7e"
+    },
+    {
+      "sym": "603121",
+      "close": 14.18,
+      "score": 0.255572646856308,
+      "expected_ret": 25.55726432800293,
+      "industry": "\u6c7d\u8f66\u914d\u4ef6",
+      "name": "\u534e\u57f9\u52a8\u529b"
+    },
+    {
+      "sym": "603829",
+      "close": 18.32,
+      "score": 0.23700863122940063,
+      "expected_ret": 23.700862884521484,
+      "industry": "\u7535\u6c14\u8bbe\u5907",
+      "name": "\u6d1b\u51ef\u80a1\u4efd"
+    },
+    {
+      "sym": "605500",
+      "close": 6.6,
+      "score": 0.2178962528705597,
+      "expected_ret": 21.78962516784668,
+      "industry": "\u9020\u7eb8",
+      "name": "\u68ee\u6797\u5305\u88c5"
+    },
+    {
+      "sym": "605069",
+      "close": 11.07,
+      "score": 0.20766963064670563,
+      "expected_ret": 20.766963958740234,
+      "industry": "\u73af\u5883\u4fdd\u62a4",
+      "name": "\u6b63\u548c\u751f\u6001"
+    },
+    {
+      "sym": "603897",
+      "close": 38.36,
+      "score": 0.2062530666589737,
+      "expected_ret": 20.625307083129883,
+      "industry": "\u7535\u6c14\u8bbe\u5907",
+      "name": "\u957f\u57ce\u79d1\u6280"
+    },
+    {
+      "sym": "603336",
+      "close": 8.09,
+      "score": 0.19765391945838928,
+      "expected_ret": 19.765392303466797,
+      "industry": "\u519c\u4e1a\u7efc\u5408",
+      "name": "\u5b8f\u8f89\u679c\u852c"
+    },
+    {
+      "sym": "600376",
+      "close": 3.45,
+      "score": 0.19322983920574188,
+      "expected_ret": 19.32298469543457,
+      "industry": "\u533a\u57df\u5730\u4ea7",
+      "name": "\u9996\u5f00\u80a1\u4efd"
+    },
+    {
+      "sym": "600481",
+      "close": 4.74,
+      "score": 0.18811966478824615,
+      "expected_ret": 18.811965942382812,
+      "industry": "\u7535\u6c14\u8bbe\u5907",
+      "name": "\u53cc\u826f\u8282\u80fd"
+    },
+    {
+      "sym": "600693",
+      "close": 8.38,
+      "score": 0.18217746913433075,
+      "expected_ret": 18.21774673461914,
+      "industry": "\u767e\u8d27",
+      "name": "\u4e1c\u767e\u96c6\u56e2"
+    },
+    {
+      "sym": "601615",
+      "close": 12.23,
+      "score": 0.16661016643047333,
+      "expected_ret": 16.6610164642334,
+      "industry": "\u7535\u6c14\u8bbe\u5907",
+      "name": "\u660e\u9633\u667a\u80fd"
+    },
+    {
+      "sym": "603110",
+      "close": 24.11,
+      "score": 0.16600574553012848,
+      "expected_ret": 16.600574493408203,
+      "industry": "\u67d3\u6599\u6d82\u6599",
+      "name": "\u4e1c\u65b9\u6750\u6599"
+    },
+    {
+      "sym": "603108",
+      "close": 10.39,
+      "score": 0.1609673947095871,
+      "expected_ret": 16.096738815307617,
+      "industry": "\u533b\u836f\u5546\u4e1a",
+      "name": "\u6da6\u8fbe\u533b\u7597"
+    },
+    {
+      "sym": "600488",
+      "close": 4.55,
+      "score": 0.16090905666351318,
+      "expected_ret": 16.090906143188477,
+      "industry": "\u5316\u5b66\u5236\u836f",
+      "name": "\u6d25\u836f\u836f\u4e1a"
+    },
+    {
+      "sym": "605167",
+      "close": 14.22,
+      "score": 0.15971305966377258,
+      "expected_ret": 15.971305847167969,
+      "industry": "\u5efa\u7b51\u5de5\u7a0b",
+      "name": "\u5229\u67cf\u7279"
+    }
+  ]
+}

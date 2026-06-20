@@ -31,9 +31,21 @@
                 "L1_vix_filter": "VIX > 30 → 关闭所有信号",
                 "L2_absolute": "分数必须 > 当日中位数",
                 "L3_percentile": {
-                    "green2": {"percentile": 95, "label": "🟢🟢精品买入", "action": "马上下单"},
-                    "green1": {"percentile": 90, "label": "🟢强信号", "action": "主力信号"},
-                    "observe": {"percentile": 80, "label": "🟡观察", "action": "不买，放watchlist"}
+                    "green2": {
+                        "percentile": 95,
+                        "label": "🟢🟢精品买入",
+                        "action": "马上下单"
+                    },
+                    "green1": {
+                        "percentile": 90,
+                        "label": "🟢强信号",
+                        "action": "主力信号"
+                    },
+                    "observe": {
+                        "percentile": 80,
+                        "label": "🟡观察",
+                        "action": "不买，放watchlist"
+                    }
                 }
             }
         },
@@ -62,9 +74,21 @@
                 "L1_vix_filter": "VIX > 30 → 关闭所有信号",
                 "L2_absolute": "分数必须 > 当日中位数",
                 "L3_percentile": {
-                    "green2": {"percentile": 95, "label": "🟢🟢精品买入", "action": "马上下单, 每只$2000"},
-                    "green1": {"percentile": 90, "label": "🟢强信号", "action": "可买, 每只$1000"},
-                    "observe": {"percentile": 80, "label": "🟡观察", "action": "不买"}
+                    "green2": {
+                        "percentile": 95,
+                        "label": "🟢🟢精品买入",
+                        "action": "马上下单, 每只$2000"
+                    },
+                    "green1": {
+                        "percentile": 90,
+                        "label": "🟢强信号",
+                        "action": "可买, 每只$1000"
+                    },
+                    "observe": {
+                        "percentile": 80,
+                        "label": "🟡观察",
+                        "action": "不买"
+                    }
                 }
             }
         }
@@ -102,10 +126,10 @@
     },
     "strategy": {
         "shield": {
-            "rebalance_days": 20,
+            "rebalance_days": 10,
             "position_sizing": "equal_weight",
             "max_positions": 15,
-            "description": "20天轮换, 三层过滤(百分位Top5/10/20%), VIX>30关闭信号",
+            "description": "10天轮换, 三层过滤(百分位Top5/10/20%), 市场过滤器(bear空仓/cautious半仓/bull满仓)",
             "exit_rules": {
                 "rank_drop": "排名跌出0.70以下考虑卖出",
                 "macro_stop": "VIX>35且持仓Beta>1.5时清仓",

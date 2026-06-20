@@ -1,0 +1,36 @@
+Data: 6,912,597 (6s)
+Features: 6,785,247 (13s)
+Saved features parquet
+
+Portfolio Backtest...
+  10/110 periods done (39s)
+  20/110 periods done (71s)
+  30/110 periods done (107s)
+  40/110 periods done (145s)
+  50/110 periods done (184s)
+  60/110 periods done (224s)
+  70/110 periods done (264s)
+  80/110 periods done (307s)
+  90/110 periods done (352s)
+  100/110 periods done (395s)
+  110/110 periods done (440s)
+
+=======================================================
+A股模型V2 Portfolio Backtest
+=======================================================
+回测: 2017-02-03 ~ 2026-02-24 (9.1年)
+调仓: 每20交易日 | 持仓: Top15等权
+
+指标                 模型组合           全市场基准         
+----------------------------------------------
+年化收益                      59.06%         2.71%
+年化波动率                     28.02%        21.27%
+Sharpe                     2.04         0.03
+Sortino                    2.76
+最大回撤                     -43.40%       -48.85%
+Calmar                     1.36
+Alpha                     56.34%
+总收益                     6589.66%        27.46%
+
+IC: 9.55% (2310 dates)
+Time: 440s

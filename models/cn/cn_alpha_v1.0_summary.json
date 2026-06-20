@@ -1,0 +1,57 @@
+{
+  "version": "cn-alpha-v1.0",
+  "date": "2026-06-20",
+  "logic": "\u53cd\u8f6c+\u8d44\u91d1\u6d41+\u5e02\u573a\u8fc7\u6ee4\u5668",
+  "features": 23,
+  "feature_list": [
+    "rev_5d",
+    "rev_10d",
+    "rev_20d",
+    "rsi_reversal",
+    "macd_reversal",
+    "macd_hist",
+    "low_vol_5d",
+    "low_vol_20d",
+    "low_atr",
+    "md_net_5",
+    "md_net_20",
+    "lg_net_5",
+    "lg_net_20",
+    "total_net_5",
+    "total_net_20",
+    "small_cap",
+    "residual_mom_5d",
+    "residual_mom_20d",
+    "vol_r",
+    "sm_net_5",
+    "sm_net_20",
+    "elg_net_5",
+    "elg_net_20"
+  ],
+  "wf": {
+    "ic": 0.1452,
+    "icir": 1.059,
+    "ic_positive_pct": 86.0,
+    "n_days": 1974
+  },
+  "paper_trade": {
+    "total_periods": 99,
+    "active_periods": 51,
+    "cash_periods": 48,
+    "avg_return": 1.03,
+    "avg_alpha": 1.04,
+    "ann_return": 13.0,
+    "sharpe": 0.72,
+    "max_dd": -26.9,
+    "win_rate": 50.0,
+    "alpha_positive_pct": 67.0
+  },
+  "market_filter": {
+    "L1": "MA60>MA120 (\u8d8b\u52bf)",
+    "L2": "20\u65e5\u52a8\u91cf>0 (\u52a8\u91cf)",
+    "L3": "\u6da8\u8dcc\u5bb6\u6570\u6bd4>0.5 (\u5bbd\u5ea6)",
+    "bear": "\u5173\u95ed",
+    "cautious/weak": "\u534a\u4ed3",
+    "bull": "\u5168\u4ed3"
+  }
+}
