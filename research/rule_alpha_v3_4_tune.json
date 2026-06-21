@@ -1,0 +1,122 @@
+[
+  {
+    "label": "v2.1_T15",
+    "cagr": 4.3,
+    "sharpe": 0.565,
+    "sortino": 0.697,
+    "max_dd": -11.7,
+    "wr": 23.7,
+    "plr": 4.48,
+    "slr": 73.0,
+    "nt": 1765,
+    "elapsed": 3.9
+  },
+  {
+    "label": "v2.1_T20",
+    "cagr": 5.1,
+    "sharpe": 0.655,
+    "sortino": 0.798,
+    "max_dd": -13.7,
+    "wr": 23.8,
+    "plr": 4.5,
+    "slr": 74.0,
+    "nt": 2346,
+    "elapsed": 4.9
+  },
+  {
+    "label": "v2.1_T25",
+    "cagr": 5.4,
+    "sharpe": 0.698,
+    "sortino": 0.845,
+    "max_dd": -13.0,
+    "wr": 24.0,
+    "plr": 4.51,
+    "slr": 74.0,
+    "nt": 2935,
+    "elapsed": 6.0
+  },
+  {
+    "label": "v2.1_T30",
+    "cagr": 5.2,
+    "sharpe": 0.679,
+    "sortino": 0.797,
+    "max_dd": -12.2,
+    "wr": 23.9,
+    "plr": 4.52,
+    "slr": 74.0,
+    "nt": 3519,
+    "elapsed": 7.0
+  },
+  {
+    "label": "v2.1+fm_T15",
+    "cagr": 6.0,
+    "sharpe": 0.741,
+    "sortino": 0.928,
+    "max_dd": -12.0,
+    "wr": 24.7,
+    "plr": 4.46,
+    "slr": 72.0,
+    "nt": 1757,
+    "elapsed": 3.9
+  },
+  {
+    "label": "v2.1+fm_T20",
+    "cagr": 4.1,
+    "sharpe": 0.545,
+    "sortino": 0.664,
+    "max_dd": -12.5,
+    "wr": 23.2,
+    "plr": 4.49,
+    "slr": 74.0,
+    "nt": 2350,
+    "elapsed": 4.8
+  },
+  {
+    "label": "v2.1+fm_T25",
+    "cagr": 4.2,
+    "sharpe": 0.555,
+    "sortino": 0.663,
+    "max_dd": -12.3,
+    "wr": 23.3,
+    "plr": 4.49,
+    "slr": 74.0,
+    "nt": 2934,
+    "elapsed": 6.0
+  },
+  {
+    "label": "v2.1+fm_T30",
+    "cagr": 4.7,
+    "sharpe": 0.625,
+    "sortino": 0.758,
+    "max_dd": -11.4,
+    "wr": 23.5,
+    "plr": 4.5,
+    "slr": 74.0,
+    "nt": 3523,
+    "elapsed": 7.1
+  },
+  {
+    "label": "v2.1+fm_T15_SL-2%",
+    "cagr": 6.7,
+    "sharpe": 0.727,
+    "sortino": 0.948,
+    "max_dd": -14.7,
+    "wr": 32.5,
+    "plr": 2.89,
+    "slr": 63.0,
+    "nt": 1759,
+    "elapsed": 0
+  },
+  {
+    "label": "v2.1+fm_T15_SL-3%",
+    "cagr": 8.3,
+    "sharpe": 0.812,
+    "sortino": 1.109,
+    "max_dd": -14.6,
+    "wr": 37.9,
+    "plr": 2.29,
+    "slr": 54.0,
+    "nt": 1758,
+    "elapsed": 0
+  }
+]

@@ -18,6 +18,10 @@ v11 = load('output/v11_latest.json')
 held = load('output/held_scores.json')
 tracking = load('output/tracking_history.json')
 shield_meta = load('models/us/blueshield_v6_meta.json')
+
+# CN Redwood data
+cn_signal = load('signals/cn/latest_xgb.json')
+cn_prod = load('models/cn/production.json')
 arrow_meta = load('models/us/arrow_v11_meta.json')
 
 positions = futu.get('positions', [])
@@ -659,6 +663,17 @@ def model_tab():
     '''
 
 # ============================================================
+# CN REDWOOD TAB v3.0 — Industrial Brutalist Design
+# ============================================================
+def cn_redwood_tab():
+    """Load the Redwood tab HTML from template file."""
+    template_path = os.path.join(ROOT, 'scripts/cn/redwood_tab_template.html')
+    try:
+        with open(template_path) as f:
+            return f.read()
+    except FileNotFoundError:
+        return '<div style="padding:20px;color:var(--dim)">红杉看板模板未找到，请运行 gen_xgb_signal.py 生成数据</div>'
+
 # ASSEMBLE HTML
 # ============================================================
 tab1 = f'''
@@ -724,6 +739,7 @@ tab1 = f'''
 
 tab2 = tracking_tab()
 tab3 = model_tab()
+tab4 = cn_redwood_tab()
 
 html = f'''<!DOCTYPE html>
 <html lang="zh">
@@ -731,6 +747,7 @@ html = f'''<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#050508">
+<meta http-equiv="refresh" content="300" id="autoRefresh">
 <title>Hermes Trading Intelligence</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
@@ -884,11 +901,13 @@ body::before{{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200
     <div class="tab active" onclick="showTab(0)">Trading 操盘</div>
     <div class="tab" onclick="showTab(1)">Tracking 追踪</div>
     <div class="tab" onclick="showTab(2)">Models 模型</div>
+    <div class="tab" onclick="showTab(3)" style="color:#dc2626">Redwood 红杉</div>
   </div>
   <div class="tab-content active" id="tab-0">{tab1}</div>
   <div class="tab-content" id="tab-1">{tab2}</div>
   <div class="tab-content" id="tab-2">{tab3}</div>
-  <div class="footer"><div class="footer-text">Hermes Trading Intelligence · Shield V6 + Arrow V11 · Three-Layer Signal Filter 三层过滤</div></div>
+  <div class="tab-content" id="tab-3">{tab4}</div>
+  <div class="footer"><div class="footer-text">Hermes Trading Intelligence · Shield V6 + Arrow V11 + Redwood v1.0 · Three-Layer Signal Filter 三层过滤</div></div>
 </div>
 <div class="refresh-bar"><div class="refresh-fill" id="refreshFill"></div></div>
 
@@ -898,35 +917,43 @@ function showTab(n){{
   document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',i===n));
 }}
 
-// Auto-refresh every 5 minutes during market hours (9:30-16:00 ET = 21:30-04:00 Beijing)
-const REFRESH_MS = 5 * 60 * 1000;
-let countdown = REFRESH_MS / 1000;
+// Auto-refresh: meta refresh每300秒自动刷新（不弹窗）
+// 非工作时间通过JS移除meta refresh停止自动刷新
 const fill = document.getElementById('refreshFill');
 const cdEl = document.getElementById('countdown');
+let countdown = 300;
 
 function isMarketOpen() {{
   const now = new Date();
   const utc = now.getUTCHours() * 60 + now.getUTCMinutes();
-  // ET = UTC-4 (summer) or UTC-5 (winter). Use UTC-4 for summer.
   let et = (utc - 4 * 60 + 1440) % 1440;
-  // Market: 9:30 (570) to 16:00 (960)
   return et >= 570 && et <= 960 && now.getDay() >= 1 && now.getDay() <= 5;
 }}
 
+function isCNMarketOpen() {{
+  const now = new Date();
+  const bj = (now.getUTCHours() + 8) % 24;
+  const bjMin = bj * 60 + now.getUTCMinutes();
+  const day = now.getDay();
+  const morning = bjMin >= 570 && bjMin <= 690;
+  const afternoon = bjMin >= 780 && bjMin <= 900;
+  return (morning || afternoon) && day >= 1 && day <= 5;
+}}
+
+if (!isMarketOpen() && !isCNMarketOpen()) {{
+  const meta = document.getElementById('autoRefresh');
+  if (meta) meta.remove();
+  if (cdEl) cdEl.textContent = '休市中';
+  countdown = 0;
+}}
+
 setInterval(() => {{
+  if (countdown <= 0) return;
   countdown--;
   const min = Math.floor(countdown / 60);
   const sec = countdown % 60;
-  cdEl.textContent = min + ':' + String(sec).padStart(2, '0');
-  fill.style.width = ((1 - countdown / (REFRESH_MS/1000)) * 100) + '%';
-  
-  if (countdown <= 0) {{
-    if (isMarketOpen()) {{
-      location.reload();
-    }} else {{
-      countdown = REFRESH_MS / 1000;
-    }}
-  }}
+  if (cdEl) cdEl.textContent = min + ':' + String(sec).padStart(2, '0');
+  if (fill) fill.style.width = ((1 - countdown / 300) * 100) + '%';
 }}, 1000);
 </script>
 </body>

@@ -1,0 +1,17 @@
+{
+  "version": "rule-alpha-v1.0",
+  "validation": "paper_trade_multi_point",
+  "n_points": 35,
+  "alpha_positive_rate": 0.743,
+  "avg_alpha": 0.0237,
+  "avg_model_ret": 0.018,
+  "avg_benchmark": -0.0057,
+  "alpha_sharpe": 1.07,
+  "model_absolute_sharpe": 0.81,
+  "gates": {
+    "Alpha正占比>55%": true,
+    "平均Alpha>0": true,
+    "Bear期Alpha正>40%": true
+  },
+  "status": "PASSED - 生产就绪"
+}

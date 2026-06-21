@@ -1,5 +1,5 @@
 {
-    "_comment": "Hermes Trading System Config v4 — 蓝盾V6定版 2026-06-19",
+    "_comment": "Hermes Trading System Config v5 — 蓝盾V6(US) + rule-alpha-v1.0(CN) 2026-06-21",
     "models": {
         "shield": {
             "name": "蓝盾V6",
@@ -31,21 +31,9 @@
                 "L1_vix_filter": "VIX > 30 → 关闭所有信号",
                 "L2_absolute": "分数必须 > 当日中位数",
                 "L3_percentile": {
-                    "green2": {
-                        "percentile": 95,
-                        "label": "🟢🟢精品买入",
-                        "action": "马上下单"
-                    },
-                    "green1": {
-                        "percentile": 90,
-                        "label": "🟢强信号",
-                        "action": "主力信号"
-                    },
-                    "observe": {
-                        "percentile": 80,
-                        "label": "🟡观察",
-                        "action": "不买，放watchlist"
-                    }
+                    "green2": {"percentile": 95, "label": "🟢🟢精品买入", "action": "马上下单"},
+                    "green1": {"percentile": 90, "label": "🟢强信号", "action": "主力信号"},
+                    "observe": {"percentile": 80, "label": "🟡观察", "action": "不买，放watchlist"}
                 }
             }
         },
@@ -74,23 +62,63 @@
                 "L1_vix_filter": "VIX > 30 → 关闭所有信号",
                 "L2_absolute": "分数必须 > 当日中位数",
                 "L3_percentile": {
-                    "green2": {
-                        "percentile": 95,
-                        "label": "🟢🟢精品买入",
-                        "action": "马上下单, 每只$2000"
-                    },
-                    "green1": {
-                        "percentile": 90,
-                        "label": "🟢强信号",
-                        "action": "可买, 每只$1000"
-                    },
-                    "observe": {
-                        "percentile": 80,
-                        "label": "🟡观察",
-                        "action": "不买"
-                    }
+                    "green2": {"percentile": 95, "label": "🟢🟢精品买入", "action": "马上下单, 每只$2000"},
+                    "green1": {"percentile": 90, "label": "🟢强信号", "action": "可买, 每只$1000"},
+                    "observe": {"percentile": 80, "label": "🟡观察", "action": "不买"}
                 }
             }
+        },
+        "cn_rule_alpha": {
+            "name": "rule-alpha-v2.1 (legacy)",
+            "type": "rule_based_scoring",
+            "version": "v2.1 (legacy, replaced by cn_alpha_v2.0)",
+            "model_file": null,
+            "description": "纯规则型A股选股: 反转+资金流+低波动+超卖+大单+均线偏离, 6因子评分, DD-based position sizing",
+            "factors": ["反转(ret20)", "资金流入(total_net_5d)", "低波动(vol20)", "RSI超卖(rsi_14<35)", "大单流入(lg_net_5d)", "均线偏离(ma20_bias)"],
+            "features": 6,
+            "top_n": 15,
+            "hold_days": 10,
+            "stop_loss": -0.01,
+            "universe": "A股主板+创业板 (科创板688x排除, 价格3-200元)",
+            "position_sizing": {
+                "type": "DD-based",
+                "thresholds": [
+                    {"dd": -0.03, "pct": 0.80},
+                    {"dd": -0.06, "pct": 0.60},
+                    {"dd": -0.10, "pct": 0.40},
+                    {"dd": -0.14, "pct": 0.20},
+                    {"dd": -0.18, "pct": 0.00}
+                ],
+                "description": "DD-based渐进减仓: DD-3%→80%, DD-6%→60%, DD-10%→40%, DD-14%→20%, DD-18%→空仓"
+            },
+            "market_filter": {
+                "description": "市场状态叠加DD-based: bear最多50%, cautious最多80%",
+                "bear_cap": 0.5,
+                "cautious_cap": 0.8
+            },
+            "market_filter_rules": "DD-based为主, 市场状态为辅(bear降上限, cautious降上限)",
+            "retrain_frequency": "不需要（纯规则型）",
+            "validation": {
+                "method": "Walk-Forward 8-fold + DD-based sizing",
+                "wf_sharpe": 1.75,
+                "wf_sharpe_std": 1.25,
+                "wf_cagr": 51.8,
+                "wf_max_dd": -13.6,
+                "wf_win_rate": 46.6,
+                "backtest_sharpe": 2.02,
+                "backtest_cagr": 50.8,
+                "backtest_max_dd": -14.3,
+                "paper_trade_alpha_positive": "66.2%",
+                "paper_trade_sharpe": 0.95
+            },
+            "signal_thresholds": {
+                "system": "percentile",
+                "P95": {"label": "🟢🟢精品买入", "action": "Top15中的P95+"},
+                "P90": {"label": "🟢强信号", "action": "Top15中的P90+"},
+                "P80": {"label": "🟡观察", "action": "Top15中的P80+"}
+            },
+            "cost_per_trade": 0.003,
+            "source": "research/rule_alpha_v2_1_walkforward.json, research/rule_alpha_v2_1_dd_sizing.json"
         }
     },
     "scoring": {
@@ -102,26 +130,24 @@
         "arrow": {
             "top_n": 5,
             "description": "低价股池, 彩票策略"
+        },
+        "cn_rule_alpha": {
+            "script": "scripts/cn/gen_rule_signal.py",
+            "top_n": 15,
+            "description": "A股规则型选股(legacy), 被红杉v1.0取代"
+        },
+        "redwood_v1": {
+            "script": "scripts/cn/gen_xgb_signal.py",
+            "top_n": 15,
+            "description": "红杉v1.0 A股XGBoost选股, SL-2%收盘止损, 含科创板688, 每日盘后Top15 (WF Sharpe 3.89, PT Sharpe 3.11)"
         }
     },
     "display": {
         "traffic_light": {
-            "strong": {
-                "label": "精品买入",
-                "emoji": "🟢🟢"
-            },
-            "buy": {
-                "label": "强信号",
-                "emoji": "🟢"
-            },
-            "watch": {
-                "label": "观察",
-                "emoji": "🟡"
-            },
-            "avoid": {
-                "label": "不推荐",
-                "emoji": "⚪"
-            }
+            "strong": {"label": "精品买入", "emoji": "🟢🟢"},
+            "buy": {"label": "强信号", "emoji": "🟢"},
+            "watch": {"label": "观察", "emoji": "🟡"},
+            "avoid": {"label": "不推荐", "emoji": "⚪"}
         }
     },
     "strategy": {
@@ -141,29 +167,33 @@
             "position_sizing": "equal_weight",
             "max_positions": 5,
             "description": "5天轮换, 三层过滤, 止损-10%, 梯度止盈"
+        },
+        "cn_rule_alpha": {
+            "rebalance_days": 10,
+            "position_sizing": "DD-based",
+            "max_positions": 15,
+            "stop_loss": -0.01,
+            "description": "10天轮换, SL1%止损, DD-based渐进减仓, 市场状态叠加调整, 6因子评分",
+            "dd_thresholds": [
+                {"dd": -0.03, "pct": 0.80},
+                {"dd": -0.06, "pct": 0.60},
+                {"dd": -0.10, "pct": 0.40},
+                {"dd": -0.14, "pct": 0.20},
+                {"dd": -0.18, "pct": 0.00}
+            ],
+            "exit_rules": {
+                "stop_loss": "持有期内累计亏损>1%即止损",
+                "hold_expiry": "持有10天后调仓",
+                "dd_exit": "DD>18%时空仓",
+                "market_cap": "bear时最多50%, cautious时最多80%"
+            }
         }
     },
     "risk_rules": [
-        {
-            "type": "sector_concentration",
-            "threshold": 4,
-            "message": "板块集中：{sector}占Top15的{count}席"
-        },
-        {
-            "type": "vix_spike",
-            "threshold": 35,
-            "message": "VIX>{threshold}·考虑减仓"
-        },
-        {
-            "type": "drawdown",
-            "threshold": 0.1,
-            "message": "组合回撤>{threshold}·收紧止损"
-        },
-        {
-            "type": "macro_stop",
-            "threshold": "VIX>35 & Beta>1.5",
-            "message": "宏观恶化+高Beta·清仓"
-        }
+        {"type": "sector_concentration", "threshold": 4, "message": "板块集中：{sector}占Top15的{count}席"},
+        {"type": "vix_spike", "threshold": 35, "message": "VIX>{threshold}·考虑减仓"},
+        {"type": "drawdown", "threshold": 0.1, "message": "组合回撤>{threshold}·收紧止损"},
+        {"type": "macro_stop", "threshold": "VIX>35 & Beta>1.5", "message": "宏观恶化+高Beta·清仓"}
     ],
     "market": {
         "indices": {

@@ -1,0 +1,15 @@
+{
+  "experiment": "sector_rotation_v1",
+  "date": "2026-06-21",
+  "test_period": "2020-01 ~ 2026-06",
+  "results": [
+    {
+      "name": "E_board+ind",
+      "cagr": -0.0979,
+      "sharpe": -0.4961,
+      "sortino": -0.3586,
+      "max_dd": -0.6388,
+      "win_rate": 0.3682,
+      "pl_ratio": 1.8287,
+      "n_trades": 516,
+      "sl_trades": 

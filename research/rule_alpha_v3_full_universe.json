@@ -1,0 +1,80 @@
+[
+  {
+    "label": "A: v2.1 baseline",
+    "cagr": 0.06,
+    "sharpe": 0.217,
+    "sortino": 0.255,
+    "max_dd": -29.44,
+    "win_rate": 29.5,
+    "pl_ratio": 2.74,
+    "avg_win": 6.39,
+    "avg_loss": -2.33,
+    "n_trades": 3546,
+    "elapsed": 5.0
+  },
+  {
+    "label": "B: Flow-heavy (60/40)",
+    "cagr": -0.01,
+    "sharpe": 0.015,
+    "sortino": 0.021,
+    "max_dd": -28.13,
+    "win_rate": 25.2,
+    "pl_ratio": 3.17,
+    "avg_win": 7.56,
+    "avg_loss": -2.38,
+    "n_trades": 3543,
+    "elapsed": 4.6
+  },
+  {
+    "label": "C: Pure flow",
+    "cagr": -0.09,
+    "sharpe": -0.191,
+    "sortino": -0.257,
+    "max_dd": -38.46,
+    "win_rate": 22.6,
+    "pl_ratio": 3.45,
+    "avg_win": 9.58,
+    "avg_loss": -2.78,
+    "n_trades": 3551,
+    "elapsed": 4.2
+  },
+  {
+    "label": "D: Flow+reversal",
+    "cagr": -0.25,
+    "sharpe": -0.62,
+    "sortino": -0.715,
+    "max_dd": -53.84,
+    "win_rate": 23.0,
+    "pl_ratio": 3.04,
+    "avg_win": 8.86,
+    "avg_loss": -2.92,
+    "n_trades": 3530,
+    "elapsed": 4.1
+  },
+  {
+    "label": "E: Extended (v2.1+new)",
+    "cagr": 0.05,
+    "sharpe": 0.209,
+    "sortino": 0.247,
+    "max_dd": -19.97,
+    "win_rate": 29.2,
+    "pl_ratio": 2.73,
+    "avg_win": 6.56,
+    "avg_loss": -2.4,
+    "n_trades": 3538,
+    "elapsed": 5.1
+  },
+  {
+    "label": "F: Regime-adaptive",
+    "cagr": -0.11,
+    "sharpe": -0.306,
+    "sortino": -0.377,
+    "max_dd": -39.06,
+    "win_rate": 26.7,
+    "pl_ratio": 2.75,
+    "avg_win": 6.31,
+    "avg_loss": -2.3,
+    "n_trades": 3521,
+    "elapsed": 4.8
+  }
+]

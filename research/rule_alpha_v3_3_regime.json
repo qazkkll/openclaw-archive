@@ -1,0 +1,79 @@
+[
+  {
+    "label": "A: Regime-conditional (flow+bear-rev)",
+    "cagr": -1.1,
+    "sharpe": -0.07,
+    "sortino": -0.086,
+    "max_dd": -30.6,
+    "wr": 27.1,
+    "plr": 2.81,
+    "nt": 3521,
+    "elapsed": 4.8
+  },
+  {
+    "label": "B: Bear-only reversal",
+    "cagr": 0.0,
+    "sharpe": 0.066,
+    "sortino": 0.085,
+    "max_dd": -24.4,
+    "wr": 14.2,
+    "plr": 6.22,
+    "nt": 1791,
+    "elapsed": 6.4
+  },
+  {
+    "label": "C: Flow always + bear reversal",
+    "cagr": -5.0,
+    "sharpe": -0.517,
+    "sortino": -0.634,
+    "max_dd": -48.8,
+    "wr": 25.0,
+    "plr": 2.8,
+    "nt": 3500,
+    "elapsed": 5.0
+  },
+  {
+    "label": "D: v2.1 regime-filtered",
+    "cagr": -0.7,
+    "sharpe": -0.022,
+    "sortino": -0.025,
+    "max_dd": -28.4,
+    "wr": 27.6,
+    "plr": 2.8,
+    "nt": 3527,
+    "elapsed": 5.1
+  },
+  {
+    "label": "E: v2.1 original (baseline)",
+    "cagr": -5.2,
+    "sharpe": -0.561,
+    "sortino": -0.692,
+    "max_dd": -46.7,
+    "wr": 25.0,
+    "plr": 2.69,
+    "nt": 3494,
+    "elapsed": 4.7
+  },
+  {
+    "label": "B: Bear-only reversal_SL-3%",
+    "cagr": 0.4,
+    "sharpe": 0.098,
+    "sortino": 0.13,
+    "max_dd": -25.3,
+    "wr": 25.0,
+    "plr": 3.04,
+    "nt": 1335,
+    "elapsed": 0
+  },
+  {
+    "label": "B: Bear-only reversal_SL-5%",
+    "cagr": 0.5,
+    "sharpe": 0.106,
+    "sortino": 0.142,
+    "max_dd": -25.9,
+    "wr": 31.4,
+    "plr": 2.24,
+    "nt": 1130,
+    "elapsed": 0
+  }
+]

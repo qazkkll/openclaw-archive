@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-06-21 13:24:29",
+  "feature_importance": [
+    {
+      "feature": "mkt_ret20",
+      "importance": 0.10055240243673325,
+      "type": "market"
+    },
+    {
+      "feature": "breadth",
+      "importance": 0.08754123747348785,
+      "type": "market"
+    },
+    {
+      "feature": "ma60_bias",
+      "importance": 0.07991441339254379,
+      "type": "trend"
+    },
+    {
+      "feature": "total_net_20d",
+      "importance": 0.07969980686903,
+      "type": "flow"
+    },
+    {
+      "feature": "lg_net_20d",
+      "importance": 0.07033181190490723,
+      "type": "flow"
+    },
+    {
+      "feature": "atr_pct",
+      "importance": 0.060296960175037384,
+      "type": "volatility"
+    },
+    {
+      "feature": "lg_net_5d",
+      "importance": 0.047851886600255966,
+      "type": "flow"
+    },
+    {
+      "feature": "ret20",
+      "importance": 0.04706200584769249,
+      "type": "momentum"
+    },
+    {
+      "feature": "ret10",
+      "importance": 0.046471208333969116,
+      "type": "momentum"
+    },
+    {
+      "feature": "lg_net_5d_rk",
+      "importance": 0.04069885239005089,
+      "type": "flow_rank"
+    },
+    {
+      "feature": "vol20",
+      "importance": 0.04059479758143425,
+      "type": "volatility"
+    },
+    {
+      "feature": "ma20_bias",
+      "importance": 0.0348169282078743,
+      "type": "trend"
+    },
+    {
+      "feature": "macd_hist",
+      "importance": 0.030630582943558693,
+      "type": "technical"
+    },
+    {
+      "feature": "vol_ratio",
+      "importance": 0.027797922492027283,
+      "type": "volume"
+    },
+    {
+      "feature": "vol5",
+      "importance": 0.027650434523820877,
+      "type": "volatility"
+    },
+    {
+      "feature": "ret5",
+      "importance": 0.02708149328827858,
+      "type": "momentum"
+    },
+    {
+      "feature": "rsi_14",
+      "importance": 0.022820599377155304,
+      "type": "technical"
+    },
+    {
+      "feature": "total_net_5d",
+      "importance": 0.02010548859834671,
+      "type": "flow"
+    },
+    {
+      "feature": "md_net_20d",
+      "importance": 0.019307168200612068,
+      "type": "flow"
+    },
+    {
+      "feature": "elg_net_20d",
+      "importance": 0.01913553476333618,
+      "type": "flow"
+    },
+    {
+      "feature": "elg_net_5d",
+      "importance": 0.017724543809890747,
+      "type": "flow"
+    },
+    {
+      "feature": "total_net_5d_rk",
+      "importance": 0.016388854011893272,
+      "type": "flow_rank"
+    },
+    {
+      "feature": "elg_net_5d_rk",
+      "importance": 0.012772420421242714,
+      "type": "flow_rank"
+    },
+    {
+      "feature": "md_net_5d_rk",
+      "importance": 0.012331350706517696,
+      "type": "flow_rank"
+    },
+    {
+      "feature": "md_net_5d",
+      "importance": 0.01042132917791605,
+      "type": "flow"
+    }
+  ],
+  "type_importance": {
+    "market": 0.1880936324596405,
+    "trend": 0.11473134160041809,
+    "flow": 0.2845775783061981,
+    "volatility": 0.12854218482971191,
+    "momentum": 0.12061470746994019,
+    "flow_rank": 0.08219147473573685,
+    "technical": 0.05345118045806885,
+    "volume": 0.027797922492027283
+  }
+}

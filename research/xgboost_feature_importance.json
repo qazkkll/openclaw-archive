@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-06-21T11:19:22.558641",
+  "feature_importance": [
+    {
+      "feature": "breadth",
+      "importance": 0.15942364931106567
+    },
+    {
+      "feature": "mkt_ret20",
+      "importance": 0.15800358355045319
+    },
+    {
+      "feature": "total_net_5d",
+      "importance": 0.06677839905023575
+    },
+    {
+      "feature": "vol20",
+      "importance": 0.05103481560945511
+    },
+    {
+      "feature": "atr_pct",
+      "importance": 0.04125909507274628
+    },
+    {
+      "feature": "ma60_bias",
+      "importance": 0.03896595910191536
+    },
+    {
+      "feature": "vol5",
+      "importance": 0.03881343454122543
+    },
+    {
+      "feature": "vol_ratio",
+      "importance": 0.03863105922937393
+    },
+    {
+      "feature": "total_net_20d",
+      "importance": 0.03801664337515831
+    },
+    {
+      "feature": "ret10",
+      "importance": 0.03539464995265007
+    },
+    {
+      "feature": "lg_net_20d",
+      "importance": 0.03427916020154953
+    },
+    {
+      "feature": "macd_hist",
+      "importance": 0.032524485141038895
+    },
+    {
+      "feature": "ma20_bias",
+      "importance": 0.029770080000162125
+    },
+    {
+      "feature": "rsi_14",
+      "importance": 0.027563398703932762
+    },
+    {
+      "feature": "ret5",
+      "importance": 0.027039343491196632
+    },
+    {
+      "feature": "ret20",
+      "importance": 0.02637631632387638
+    },
+    {
+      "feature": "md_net_5d",
+      "importance": 0.02223297767341137
+    },
+    {
+      "feature": "lg_net_5d",
+      "importance": 0.020595425739884377
+    },
+    {
+      "feature": "elg_net_5d",
+      "importance": 0.017609497532248497
+    },
+    {
+      "feature": "elg_net_5d_rk",
+      "importance": 0.017453044652938843
+    },
+    {
+      "feature": "elg_net_20d",
+      "importance": 0.017243729904294014
+    },
+    {
+      "feature": "md_net_20d",
+      "importance": 0.016992507502436638
+    },
+    {
+      "feature": "total_net_5d_rk",
+      "importance": 0.0160493403673172
+    },
+    {
+      "feature": "md_net_5d_rk",
+      "importance": 0.014665218070149422
+    },
+    {
+      "feature": "lg_net_5d_rk",
+      "importance": 0.013284227810800076
+    }
+  ],
+  "rule_weights": {
+    "ret20": 3.0,
+    "total_net_5d": 2.0,
+    "vol20": 2.0,
+    "rsi_14": 1.5,
+    "lg_net_5d": 1.0,
+    "ma20_bias": 1.0
+  },
+  "correlation": -0.01777239901045272,
+  "top5_xgb": [
+    "breadth",
+    "mkt_ret20",
+    "total_net_5d",
+    "vol20",
+    "atr_pct"
+  ],
+  "top5_rule": [
+    "ret20",
+    "total_net_5d",
+    "vol20",
+    "rsi_14",
+    "lg_net_5d"
+  ]
+}

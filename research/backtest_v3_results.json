@@ -1,0 +1,264 @@
+{
+  "results": [
+    {
+      "strategy": "Q_sl5_opt_10d",
+      "trades": 2340,
+      "win_rate": 0.4816,
+      "avg_return": 0.0156,
+      "cagr": 0.4228,
+      "sharpe": 0.9385,
+      "max_dd": 0.1338,
+      "final_equity": 992763.0
+    },
+    {
+      "strategy": "R_sl8_opt_10d",
+      "trades": 2340,
+      "win_rate": 0.4816,
+      "avg_return": 0.0108,
+      "cagr": 0.2639,
+      "sharpe": 0.6164,
+      "max_dd": 0.226,
+      "final_equity": 463508.0
+    },
+    {
+      "strategy": "D_low_vol_5d",
+      "trades": 4665,
+      "win_rate": 0.4662,
+      "avg_return": 0.0073,
+      "cagr": 0.3672,
+      "sharpe": 0.5615,
+      "max_dd": 0.4798,
+      "final_equity": 758328.0
+    },
+    {
+      "strategy": "S_sl10_opt_10d",
+      "trades": 2340,
+      "win_rate": 0.4816,
+      "avg_return": 0.009,
+      "cagr": 0.2081,
+      "sharpe": 0.501,
+      "max_dd": 0.2704,
+      "final_equity": 346497.0
+    },
+    {
+      "strategy": "N_top10_opt_10d",
+      "trades": 1560,
+      "win_rate": 0.491,
+      "avg_return": 0.0081,
+      "cagr": 0.1689,
+      "sharpe": 0.4203,
+      "max_dd": 0.3189,
+      "final_equity": 289721.0
+    },
+    {
+      "strategy": "H_default_10d",
+      "trades": 2340,
+      "win_rate": 0.4893,
+      "avg_return": 0.0079,
+      "cagr": 0.17,
+      "sharpe": 0.4119,
+      "max_dd": 0.256,
+      "final_equity": 287200.0
+    },
+    {
+      "strategy": "Z_best_combo",
+      "trades": 1275,
+      "win_rate": 0.4533,
+      "avg_return": 0.0066,
+      "cagr": 0.0752,
+      "sharpe": 0.3696,
+      "max_dd": 0.0934,
+      "final_equity": 164273.0
+    },
+    {
+      "strategy": "I_default_20d",
+      "trades": 1170,
+      "win_rate": 0.4957,
+      "avg_return": 0.0104,
+      "cagr": 0.1046,
+      "sharpe": 0.292,
+      "max_dd": 0.309,
+      "final_equity": 191194.0
+    },
+    {
+      "strategy": "J_optimized_10d",
+      "trades": 2340,
+      "win_rate": 0.4816,
+      "avg_return": 0.0054,
+      "cagr": 0.1049,
+      "sharpe": 0.2851,
+      "max_dd": 0.3488,
+      "final_equity": 195379.0
+    },
+    {
+      "strategy": "W_entry_oversold_10d",
+      "trades": 2340,
+      "win_rate": 0.4833,
+      "avg_return": 0.0052,
+      "cagr": 0.0943,
+      "sharpe": 0.2818,
+      "max_dd": 0.3692,
+      "final_equity": 182580.0
+    },
+    {
+      "strategy": "L_conservative_10d",
+      "trades": 2340,
+      "win_rate": 0.4859,
+      "avg_return": 0.0042,
+      "cagr": 0.081,
+      "sharpe": 0.2536,
+      "max_dd": 0.3211,
+      "final_equity": 165798.0
+    },
+    {
+      "strategy": "K_optimized_20d",
+      "trades": 1170,
+      "win_rate": 0.4846,
+      "avg_return": 0.0083,
+      "cagr": 0.0818,
+      "sharpe": 0.2285,
+      "max_dd": 0.3311,
+      "final_equity": 157121.0
+    },
+    {
+      "strategy": "O_top20_opt_10d",
+      "trades": 3120,
+      "win_rate": 0.4753,
+      "avg_return": 0.0041,
+      "cagr": 0.0701,
+      "sharpe": 0.216,
+      "max_dd": 0.3361,
+      "final_equity": 158041.0
+    },
+    {
+      "strategy": "P_top30_opt_10d",
+      "trades": 4680,
+      "win_rate": 0.4761,
+      "avg_return": 0.0037,
+      "cagr": 0.062,
+      "sharpe": 0.2003,
+      "max_dd": 0.3477,
+      "final_equity": 150303.0
+    },
+    {
+      "strategy": "A_default_5d",
+      "trades": 4665,
+      "win_rate": 0.469,
+      "avg_return": 0.0019,
+      "cagr": 0.0531,
+      "sharpe": 0.1963,
+      "max_dd": 0.4577,
+      "final_equity": 143704.0
+    },
+    {
+      "strategy": "Y_entry_both_10d",
+      "trades": 2330,
+      "win_rate": 0.4738,
+      "avg_return": 0.003,
+      "cagr": 0.0593,
+      "sharpe": 0.1604,
+      "max_dd": 0.4539,
+      "final_equity": 145841.0
+    },
+    {
+      "strategy": "M_conservative_20d",
+      "trades": 1170,
+      "win_rate": 0.4752,
+      "avg_return": 0.0046,
+      "cagr": 0.0376,
+      "sharpe": 0.1394,
+      "max_dd": 0.3843,
+      "final_equity": 124923.0
+    },
+    {
+      "strategy": "T_mf_opt_5d",
+      "trades": 2430,
+      "win_rate": 0.4572,
+      "avg_return": 0.0011,
+      "cagr": 0.0108,
+      "sharpe": 0.1183,
+      "max_dd": 0.208,
+      "final_equity": 109071.0
+    },
+    {
+      "strategy": "X_entry_flow_10d",
+      "trades": 2340,
+      "win_rate": 0.4675,
+      "avg_return": 0.0018,
+      "cagr": 0.022,
+      "sharpe": 0.0962,
+      "max_dd": 0.5103,
+      "final_equity": 115404.0
+    },
+    {
+      "strategy": "U_mf_opt_10d",
+      "trades": 1275,
+      "win_rate": 0.4533,
+      "avg_return": 0.0018,
+      "cagr": 0.0257,
+      "sharpe": 0.0959,
+      "max_dd": 0.1673,
+      "final_equity": 121289.0
+    },
+    {
+      "strategy": "V_mf_conservative_10d",
+      "trades": 1275,
+      "win_rate": 0.4682,
+      "avg_return": 0.0014,
+      "cagr": 0.0361,
+      "sharpe": 0.0867,
+      "max_dd": 0.1426,
+      "final_equity": 126304.0
+    },
+    {
+      "strategy": "G_conservative_5d",
+      "trades": 4665,
+      "win_rate": 0.4589,
+      "avg_return": 0.0006,
+      "cagr": 0.0023,
+      "sharpe": 0.0727,
+      "max_dd": 0.5408,
+      "final_equity": 103201.0
+    },
+    {
+      "strategy": "F_optimized_5d",
+      "trades": 4665,
+      "win_rate": 0.4587,
+      "avg_return": 0.0005,
+      "cagr": -0.0107,
+      "sharpe": 0.0586,
+      "max_dd": 0.5566,
+      "final_equity": 95017.0
+    },
+    {
+      "strategy": "B_reversal_5d",
+      "trades": 4665,
+      "win_rate": 0.4512,
+      "avg_return": 0.0003,
+      "cagr": -0.0526,
+      "sharpe": 0.0227,
+      "max_dd": 0.735,
+      "final_equity": 74236.0
+    },
+    {
+      "strategy": "C_flow_5d",
+      "trades": 4665,
+      "win_rate": 0.4279,
+      "avg_return": -0.0024,
+      "cagr": -0.1419,
+      "sharpe": -0.2202,
+      "max_dd": 0.7482,
+      "final_equity": 37643.0
+    },
+    {
+      "strategy": "E_rsi_5d",
+      "trades": 4665,
+      "win_rate": 0.4341,
+      "avg_return": -0.0048,
+      "cagr": -0.2422,
+      "sharpe": -0.4479,
+      "max_dd": 0.862,
+      "final_equity": 17296.0
+    }
+  ]
+}

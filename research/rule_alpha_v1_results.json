@@ -1,0 +1,224 @@
+{
+  "version": "rule-alpha-v1.0",
+  "test_period": "2020-01-02 ~ 2026-06-16",
+  "config": {
+    "hold_days": 10,
+    "top_n": 15,
+    "stop_loss": -0.03,
+    "cost": 0.003
+  },
+  "metrics": {
+    "strategy": "BEST",
+    "trades": 2340,
+    "win_rate": 0.4816,
+    "avg_return": 0.0207,
+    "cagr": 0.6118,
+    "sharpe": 1.3066,
+    "sortino": 9.7191,
+    "max_dd": 0.0686,
+    "final_equity": 2213980.0,
+    "avg_win": 0.0706,
+    "avg_loss": -0.0257,
+    "pl_ratio": 2.75
+  },
+  "wf_results": [
+    {
+      "strategy": "WF1: 2016-17→2018",
+      "trades": 375,
+      "win_rate": 0.376,
+      "avg_return": 0.0072,
+      "cagr": 0.2049,
+      "sharpe": 0.6393,
+      "sortino": 3.4043,
+      "max_dd": 0.0711,
+      "final_equity": 118343.0,
+      "avg_win": 0.062,
+      "avg_loss": -0.0259,
+      "pl_ratio": 2.39
+    },
+    {
+      "strategy": "WF2: 2017-18→2019",
+      "trades": 375,
+      "win_rate": 0.56,
+      "avg_return": 0.03,
+      "cagr": 0.9796,
+      "sharpe": 1.8003,
+      "sortino": 14.9287,
+      "max_dd": 0.0329,
+      "final_equity": 204135.0,
+      "avg_win": 0.0737,
+      "avg_loss": -0.0258,
+      "pl_ratio": 2.86
+    },
+    {
+      "strategy": "WF3: 2018-19→2020",
+      "trades": 375,
+      "win_rate": 0.4533,
+      "avg_return": 0.0273,
+      "cagr": 0.8819,
+      "sharpe": 1.3205,
+      "sortino": 12.6844,
+      "max_dd": 0.0395,
+      "final_equity": 194110.0,
+      "avg_win": 0.0904,
+      "avg_loss": -0.025,
+      "pl_ratio": 3.61
+    },
+    {
+      "strategy": "WF4: 2019-20→2021",
+      "trades": 375,
+      "win_rate": 0.5307,
+      "avg_return": 0.023,
+      "cagr": 0.7212,
+      "sharpe": 1.8183,
+      "sortino": 11.1367,
+      "max_dd": 0.0202,
+      "final_equity": 175524.0,
+      "avg_win": 0.0663,
+      "avg_loss": -0.0258,
+      "pl_ratio": 2.57
+    },
+    {
+      "strategy": "WF5: 2020-21→2022",
+      "trades": 375,
+      "win_rate": 0.4533,
+      "avg_return": 0.0118,
+      "cagr": 0.3562,
+      "sharpe": 1.0531,
+      "sortino": 6.0363,
+      "max_dd": 0.0589,
+      "final_equity": 132663.0,
+      "avg_win": 0.0593,
+      "avg_loss": -0.0276,
+      "pl_ratio": 2.15
+    },
+    {
+      "strategy": "WF6: 2021-22→2023",
+      "trades": 375,
+      "win_rate": 0.44,
+      "avg_return": 0.0041,
+      "cagr": 0.0884,
+      "sharpe": 0.4774,
+      "sortino": 1.9859,
+      "max_dd": 0.044,
+      "final_equity": 110374.0,
+      "avg_win": 0.0418,
+      "avg_loss": -0.0254,
+      "pl_ratio": 1.64
+    },
+    {
+      "strategy": "WF7: 2022-23→2024",
+      "trades": 375,
+      "win_rate": 0.4827,
+      "avg_return": 0.0286,
+      "cagr": 0.9898,
+      "sharpe": 1.534,
+      "sortino": 13.9655,
+      "max_dd": 0.038,
+      "final_equity": 194811.0,
+      "avg_win": 0.0878,
+      "avg_loss": -0.0267,
+      "pl_ratio": 3.29
+    },
+    {
+      "strategy": "WF8: 2023-24→2025",
+      "trades": 375,
+      "win_rate": 0.5973,
+      "avg_return": 0.0285,
+      "cagr": 0.9593,
+      "sharpe": 1.8319,
+      "sortino": 13.2969,
+      "max_dd": 0.0242,
+      "final_equity": 199272.0,
+      "avg_win": 0.064,
+      "avg_loss": -0.0243,
+      "pl_ratio": 2.64
+    },
+    {
+      "strategy": "WF9: 2024-25→2026",
+      "trades": 150,
+      "win_rate": 0.4533,
+      "avg_return": 0.0279,
+      "cagr": 0.7904,
+      "sharpe": 1.7175,
+      "sortino": 10.4502,
+      "max_dd": 0.003,
+      "final_equity": 131298.0,
+      "avg_win": 0.0867,
+      "avg_loss": -0.0209,
+      "pl_ratio": 4.15
+    }
+  ],
+  "wf_summary": {
+    "sharpe_mean": 1.3547,
+    "sharpe_std": 0.492,
+    "cagr_mean": 0.6635,
+    "cagr_std": 0.3328,
+    "all_positive_sharpe": true
+  },
+  "yearly": {
+    "2020": {
+      "trades": 375,
+      "win_rate": 0.4533333333333333,
+      "avg_return": 0.027306394132333423,
+      "cagr": 0.6881211321348022,
+      "avg_win": 0.09043234927020213,
+      "avg_loss": -0.025041958908825983,
+      "pl_ratio": 3.6112330349016526
+    },
+    "2021": {
+      "trades": 360,
+      "win_rate": 0.5166666666666667,
+      "avg_return": 0.03088108810593049,
+      "cagr": 0.7782034202694483,
+      "avg_win": 0.08428520973216296,
+      "avg_loss": -0.026206076391076607,
+      "pl_ratio": 3.2162468152181223
+    },
+    "2022": {
+      "trades": 360,
+      "win_rate": 0.48055555555555557,
+      "avg_return": 0.016492854849659993,
+      "cagr": 0.41561994221143184,
+      "avg_win": 0.06461853353028456,
+      "avg_loss": -0.02802983184417985,
+      "pl_ratio": 2.3053485975051267
+    },
+    "2023": {
+      "trades": 360,
+      "win_rate": 0.46111111111111114,
+      "avg_return": 0.0068291089159445185,
+      "cagr": 0.17209354468180185,
+      "avg_win": 0.045021040869510864,
+      "avg_loss": -0.02585058543607617,
+      "pl_ratio": 1.7415868967780157
+    },
+    "2024": {
+      "trades": 375,
+      "win_rate": 0.4826666666666667,
+      "avg_return": 0.028551679795761998,
+      "cagr": 0.7195023308532024,
+      "avg_win": 0.08777080046385423,
+      "avg_loss": -0.026699149281169416,
+      "pl_ratio": 3.287400641104243
+    },
+    "2025": {
+      "trades": 360,
+      "win_rate": 0.55,
+      "avg_return": 0.017461646424631324,
+      "cagr": 0.44003348990070934,
+      "avg_win": 0.05134919558845659,
+      "avg_loss": -0.023956469220043988,
+      "pl_ratio": 2.143437545691982
+    },
+    "2026": {
+      "trades": 150,
+      "win_rate": 0.35333333333333333,
+      "avg_return": 0.010972972443828588,
+      "cagr": 0.2765189055844804,
+      "avg_win": 0.07104565646429511,
+      "avg_loss": -0.02185024666013767,
+      "pl_ratio": 3.251480753025398
+    }
+  }
+}

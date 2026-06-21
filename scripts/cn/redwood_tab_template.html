@@ -1,0 +1,564 @@
+<!-- REDWOOD TAB v3.0 — Industrial Brutalist + High-End Design -->
+<style>
+  .rw-section { margin-bottom: 20px; }
+  .rw-eyebrow { font-family: JetBrains Mono, monospace; font-size: 9px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+  .rw-metric-box { background: rgba(255,255,255,0.02); border: 1px solid var(--border); padding: 12px; text-align: center; }
+  .rw-metric-label { font-family: JetBrains Mono, monospace; font-size: 8px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  .rw-metric-value { font-family: JetBrains Mono, monospace; font-size: 22px; font-weight: 700; }
+  .rw-metric-sub { font-size: 9px; color: var(--dim); margin-top: 2px; }
+</style>
+
+<div style="background:rgba(239,68,68,0.04);border:1px solid rgba(239,68,68,0.15);border-left:3px solid #ef4444;border-radius:0;padding:16px 20px;margin-bottom:20px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+        <span style="font-family:JetBrains Mono,monospace;font-size:9px;font-weight:700;letter-spacing:2px;color:#ef4444;text-transform:uppercase">[ ALERT ]</span>
+        <span style="font-size:13px;font-weight:700;color:#ef4444">当前不建议新买入</span>
+      </div>
+      <div style="font-size:11px;color:var(--dim);line-height:1.6;margin-bottom:8px">市场涨跌比仅20.2%（低于30%警戒线），近20日整体下跌11.0%。以下推荐仅供参考。</div>
+      <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)"><div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px">[ 距离满仓条件 ]</div><div style="margin-bottom:6px"><div style="display:flex;justify-content:space-between;font-size:10px;margin-bottom:2px"><span style="color:var(--dim)">涨跌比需>40%</span><span style="color:var(--dim)">当前20.2%</span></div><div style="height:3px;background:rgba(255,255,255,0.06);border-radius:0;overflow:hidden"><div style="width:50%;height:100%;background:#ef4444"></div></div></div><div style="margin-bottom:6px"><div style="display:flex;justify-content:space-between;font-size:10px;margin-bottom:2px"><span style="color:var(--dim)">20日动量需>-5%</span><span style="color:var(--dim)">当前-11.0%</span></div><div style="height:3px;background:rgba(255,255,255,0.06);border-radius:0;overflow:hidden"><div style="width:40%;height:100%;background:#ef4444"></div></div></div></div>
+    </div>
+
+<!-- MARKET TEMPERATURE -->
+<div class="rw-section" style="display:grid;grid-template-columns:200px 1fr;gap:12px">
+  <div style="background:var(--bg-card);border:1px solid var(--border);padding:16px;text-align:center">
+    <div class="rw-eyebrow">市场温度</div>
+    <svg width="160" height="90" viewBox="0 0 160 90">
+  <defs><linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#ef4444"/><stop offset="50%" style="stop-color:#f59e0b"/><stop offset="100%" style="stop-color:#10b981"/>
+  </linearGradient></defs>
+  <path d="M 15 80 A 65 65 0 0 1 145 80" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 15 80 A 65 65 0 0 1 145 80" fill="none" stroke="url(#gaugeGrad)" stroke-width="10" stroke-linecap="round" stroke-dasharray="26.52 204" opacity="0.8"/>
+  <text x="80" y="65" text-anchor="middle" fill="#ef4444" font-family="JetBrains Mono,monospace" font-size="28" font-weight="700">13</text>
+  <text x="80" y="82" text-anchor="middle" fill="#6b6b76" font-family="Inter,sans-serif" font-size="10">危险</text>
+</svg>
+    <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;margin-top:4px">BREADTH 50% + MOMENTUM 50%</div>
+  </div>
+  <div style="background:var(--bg-card);border:1px solid var(--border);padding:16px">
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px">
+      <div>
+        <div class="rw-eyebrow">市场状态</div>
+        <div style="font-size:18px;font-weight:700;color:#ef4444;margin-bottom:2px">熊市</div>
+        <div style="font-size:10px;color:var(--dim)">不建议新买入</div>
+      </div>
+      <div>
+        <div class="rw-eyebrow">涨跌比</div>
+        <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#ef4444">20.2%</div>
+        <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted)">HEALTHLINE 40%</div>
+      </div>
+      <div>
+        <div class="rw-eyebrow">20日动量</div>
+        <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#ef4444">-11.0%</div>
+        <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted)">SAFELINE -5%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SIGNALS -->
+<div class="rw-section">
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px">
+    <div style="font-size:14px;font-weight:700;color:#fff;letter-spacing:-0.3px">红杉精选推荐</div>
+    <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">TOP 15 /// HOLD 10D /// SL 2%</div>
+  </div>
+  <div style="margin-bottom:16px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+        <div style="width:3px;height:16px;background:#10b981"></div>
+        <span style="font-family:JetBrains Mono,monospace;font-size:9px;font-weight:700;letter-spacing:2px;color:#10b981;text-transform:uppercase">精品推荐</span>
+        <span style="font-size:10px;color:var(--muted)">3只 /// 模型最高评分，最有信心</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px"><div style="background:#10b98108;border:1px solid #10b98130;padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#10b98160';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#10b98130';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#01</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">002552</div>
+                <div style="font-size:10px;color:var(--dim)">宝鼎科技</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="106.22 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#10b981" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">94</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#10b98115;color:#10b981;text-transform:uppercase">精品</span>
+              <span style="font-size:10px;color:var(--dim)">元器件</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥72.39</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">90 <span style="font-size:8px">超买</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#10b981">+138.0%</div></div>
+            </div>
+          </div>
+        </div><div style="background:#10b98108;border:1px solid #10b98130;padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#10b98160';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#10b98130';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#02</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">300260</div>
+                <div style="font-size:10px;color:var(--dim)">新莱应材</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="79.1 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#10b981" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">70</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#10b98115;color:#10b981;text-transform:uppercase">精品</span>
+              <span style="font-size:10px;color:var(--dim)">机械基件</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥82.97</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#10b981">63 <span style="font-size:8px">正常</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#10b981">+51.8%</div></div>
+            </div>
+          </div>
+        </div><div style="background:#10b98108;border:1px solid #10b98130;padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#10b98160';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#10b98130';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#03</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">600353</div>
+                <div style="font-size:10px;color:var(--dim)">旭光电子</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="72.32000000000001 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#10b981" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">64</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#10b98115;color:#10b981;text-transform:uppercase">精品</span>
+              <span style="font-size:10px;color:var(--dim)">元器件</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥42.01</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">81 <span style="font-size:8px">超买</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#10b981">+124.6%</div></div>
+            </div>
+          </div>
+        </div></div></div><div style="margin-bottom:16px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+        <div style="width:3px;height:16px;background:#34d399"></div>
+        <span style="font-family:JetBrains Mono,monospace;font-size:9px;font-weight:700;letter-spacing:2px;color:#34d399;text-transform:uppercase">强信号</span>
+        <span style="font-size:10px;color:var(--muted)">11只 /// 评分较高，值得重点关注</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px"><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#04</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">300136</div>
+                <div style="font-size:10px;color:var(--dim)">信维通信</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="58.760000000000005 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">52</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">元器件</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥107.45</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#10b981">47 <span style="font-size:8px">正常</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-7.0%</div></div>
+            </div>
+          </div>
+        </div><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#05</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">002929</div>
+                <div style="font-size:10px;color:var(--dim)">润建股份</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="50.85 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">45</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">通信设备</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥62.18</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#f59e0b">17 <span style="font-size:8px">超卖</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-19.9%</div></div>
+            </div>
+          </div>
+        </div><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#06</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">000029</div>
+                <div style="font-size:10px;color:var(--dim)">深深房A</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="50.85 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">45</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">区域地产</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥29.23</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#10b981">49 <span style="font-size:8px">正常</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#10b981">+21.4%</div></div>
+            </div>
+          </div>
+        </div><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#07</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">300004</div>
+                <div style="font-size:10px;color:var(--dim)">南风股份</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="48.59 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">43</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">电气设备</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥12.30</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#f59e0b">29 <span style="font-size:8px">超卖</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-9.0%</div></div>
+            </div>
+          </div>
+        </div><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#08</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">301081</div>
+                <div style="font-size:10px;color:var(--dim)">严牌股份</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="47.46 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">42</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">环境保护</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥14.66</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#10b981">32 <span style="font-size:8px">正常</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-13.2%</div></div>
+            </div>
+          </div>
+        </div><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#09</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">600156</div>
+                <div style="font-size:10px;color:var(--dim)">华升股份</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="46.33 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">41</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">纺织</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥9.01</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#f59e0b">29 <span style="font-size:8px">超卖</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-25.5%</div></div>
+            </div>
+          </div>
+        </div><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#10</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">301538</div>
+                <div style="font-size:10px;color:var(--dim)">骏鼎达</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="46.33 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">41</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">塑料</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥66.54</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#f59e0b">10 <span style="font-size:8px">超卖</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-24.2%</div></div>
+            </div>
+          </div>
+        </div><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#11</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">300210</div>
+                <div style="font-size:10px;color:var(--dim)">森远股份</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="46.33 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">41</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">专用机械</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥9.48</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#f59e0b">30 <span style="font-size:8px">超卖</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-7.9%</div></div>
+            </div>
+          </div>
+        </div><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#12</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">002940</div>
+                <div style="font-size:10px;color:var(--dim)">昂利康</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="45.2 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">40</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">化学制药</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥28.52</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#f59e0b">24 <span style="font-size:8px">超卖</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-16.7%</div></div>
+            </div>
+          </div>
+        </div><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#13</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">003023</div>
+                <div style="font-size:10px;color:var(--dim)">彩虹集团</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="45.2 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">40</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">家用电器</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥21.82</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#f59e0b">26 <span style="font-size:8px">超卖</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-34.6%</div></div>
+            </div>
+          </div>
+        </div><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#34d39960';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#14</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">301361</div>
+                <div style="font-size:10px;color:var(--dim)">众智科技</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="45.2 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">40</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#34d39915;color:#34d399;text-transform:uppercase">强信</span>
+              <span style="font-size:10px;color:var(--dim)">电气设备</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥34.96</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#f59e0b">28 <span style="font-size:8px">超卖</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-8.0%</div></div>
+            </div>
+          </div>
+        </div></div></div><div style="margin-bottom:16px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+        <div style="width:3px;height:16px;background:#f59e0b"></div>
+        <span style="font-family:JetBrains Mono,monospace;font-size:9px;font-weight:700;letter-spacing:2px;color:#f59e0b;text-transform:uppercase">观察池</span>
+        <span style="font-size:10px;color:var(--muted)">1只 /// 评分中等，纳入观察</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px"><div style="background:rgba(255,255,255,0.02);border:1px solid var(--border);padding:3px;transition:all 0.4s cubic-bezier(0.32,0.72,0,1)" onmouseover="this.style.borderColor='#f59e0b60';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+          <div style="background:var(--bg);padding:12px 14px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+              <div style="font-family:JetBrains Mono,monospace;font-size:9px;color:var(--muted);letter-spacing:1px">#15</div>
+              <div style="flex:1">
+                <div style="font-family:JetBrains Mono,monospace;font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.3px">300616</div>
+                <div style="font-size:10px;color:var(--dim)">尚品宅配</div>
+              </div>
+              <svg width="44" height="44" viewBox="0 0 44 44">
+          <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="3"/>
+          <circle cx="22" cy="22" r="18" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="44.07 113" transform="rotate(-90 22 22)" opacity="0.9"/>
+          <text x="22" y="26" text-anchor="middle" fill="#f59e0b" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700">39</text>
+        </svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+              <span style="font-family:JetBrains Mono,monospace;font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 6px;background:#f59e0b15;color:#f59e0b;text-transform:uppercase">观察</span>
+              <span style="font-size:10px;color:var(--dim)">家居用品</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:8px;border-top:1px solid var(--border-lt)">
+              <div><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">价格</div><div style="font-family:JetBrains Mono,monospace;font-size:14px;font-weight:700;color:#fff">¥13.40</div></div>
+              <div style="text-align:center"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">RSI</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#f59e0b">17 <span style="font-size:8px">超卖</span></div></div>
+              <div style="text-align:right"><div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">20D</div><div style="font-family:JetBrains Mono,monospace;font-size:12px;font-weight:700;color:#ef4444">-23.8%</div></div>
+            </div>
+          </div>
+        </div></div></div>
+</div>
+
+<!-- BOTTOM: SECTOR + MODEL + FEATURES -->
+<div class="rw-section" style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+  <div>
+    <!-- Sector -->
+    <div style="background:var(--bg-card);border:1px solid var(--border);padding:16px;margin-bottom:12px">
+      <div class="rw-eyebrow">板块分布 /// 12 SECTORS</div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px"><div style="background:rgba(220,38,38,0.24000000000000002);border:1px solid rgba(220,38,38,0.35);padding:8px 12px;text-align:center;flex:1;min-width:80px">
+      <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">元器件</div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#f87171">3</div>
+    </div><div style="background:rgba(220,38,38,0.17333333333333334);border:1px solid rgba(220,38,38,0.26666666666666666);padding:8px 12px;text-align:center;flex:1;min-width:80px">
+      <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">电气设备</div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#f87171">2</div>
+    </div><div style="background:rgba(220,38,38,0.10666666666666666);border:1px solid rgba(220,38,38,0.18333333333333335);padding:8px 12px;text-align:center;flex:1;min-width:80px">
+      <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">机械基件</div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#f87171">1</div>
+    </div><div style="background:rgba(220,38,38,0.10666666666666666);border:1px solid rgba(220,38,38,0.18333333333333335);padding:8px 12px;text-align:center;flex:1;min-width:80px">
+      <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">通信设备</div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#f87171">1</div>
+    </div><div style="background:rgba(220,38,38,0.10666666666666666);border:1px solid rgba(220,38,38,0.18333333333333335);padding:8px 12px;text-align:center;flex:1;min-width:80px">
+      <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">区域地产</div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#f87171">1</div>
+    </div><div style="background:rgba(220,38,38,0.10666666666666666);border:1px solid rgba(220,38,38,0.18333333333333335);padding:8px 12px;text-align:center;flex:1;min-width:80px">
+      <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">环境保护</div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#f87171">1</div>
+    </div><div style="background:rgba(220,38,38,0.10666666666666666);border:1px solid rgba(220,38,38,0.18333333333333335);padding:8px 12px;text-align:center;flex:1;min-width:80px">
+      <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">纺织</div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#f87171">1</div>
+    </div><div style="background:rgba(220,38,38,0.10666666666666666);border:1px solid rgba(220,38,38,0.18333333333333335);padding:8px 12px;text-align:center;flex:1;min-width:80px">
+      <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">塑料</div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#f87171">1</div>
+    </div><div style="background:rgba(220,38,38,0.10666666666666666);border:1px solid rgba(220,38,38,0.18333333333333335);padding:8px 12px;text-align:center;flex:1;min-width:80px">
+      <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">专用机械</div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#f87171">1</div>
+    </div><div style="background:rgba(220,38,38,0.10666666666666666);border:1px solid rgba(220,38,38,0.18333333333333335);padding:8px 12px;text-align:center;flex:1;min-width:80px">
+      <div style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">化学制药</div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:18px;font-weight:700;color:#f87171">1</div>
+    </div></div>
+    </div>
+    <!-- Model -->
+    <div style="background:var(--bg-card);border:1px solid var(--border);padding:16px">
+      <div class="rw-eyebrow">模型档案 /// BACKTEST 16-FOLD</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px">
+        <div class="rw-metric-box"><div class="rw-metric-label">回测夏普比</div><div class="rw-metric-value" style="color:#10b981">3.89</div><div class="rw-metric-sub">波动 ±2.18</div></div>
+        <div class="rw-metric-box"><div class="rw-metric-label">模拟夏普比</div><div class="rw-metric-value" style="color:#10b981">3.11</div><div class="rw-metric-sub">模拟交易</div></div>
+        <div class="rw-metric-box"><div class="rw-metric-label">跑赢大盘</div><div class="rw-metric-value" style="color:#10b981">76%</div><div class="rw-metric-sub">正Alpha占比</div></div>
+        <div class="rw-metric-box"><div class="rw-metric-label">最大回撤</div><div class="rw-metric-value" style="color:#ef4444">-13.1%</div><div class="rw-metric-sub">历史最差</div></div>
+      </div>
+      <div style="font-size:10px;color:var(--dim);line-height:1.6;border-top:1px solid var(--border);padding-top:8px">
+        <div><span style="color:#10b981">✓</span> 止损2%收盘卖出（不追盘中假突破）</div>
+        <div><span style="color:#10b981">✓</span> 含科创板 /// 交易成本不敏感</div>
+        <div><span style="color:#10b981">✓</span> 16折全部正收益 /// 资金流驱动</div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <!-- Tracking + Features + Strategy -->
+    <div style="background:var(--bg-card);border:1px solid var(--border);padding:16px;height:100%">
+      <div class="rw-eyebrow">推荐跟踪</div>
+      <div style="font-size:11px;color:var(--dim);line-height:1.8">
+      <div>已跟踪 <span style="color:var(--text);font-weight:600">1</span> 个交易日 /// <span style="color:var(--text);font-weight:600">15</span> 条记录</div>
+      <div style="font-size:10px;color:var(--muted);margin-top:2px">收益数据积累中，10个交易日后显示</div>
+    </div>
+      <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border)">
+        <div class="rw-eyebrow">特征权重分布</div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+      <div style="font-family:JetBrains Mono,monospace;width:65px;font-size:9px;color:var(--dim);text-align:right;letter-spacing:0.5px">资金流向</div>
+      <div style="flex:1;height:6px;background:rgba(255,255,255,0.04);overflow:hidden"><div style="width:92%;height:100%;background:#dc2626"></div></div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:10px;color:#dc2626;width:30px;text-align:right">36.7%</div>
+    </div><div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+      <div style="font-family:JetBrains Mono,monospace;width:65px;font-size:9px;color:var(--dim);text-align:right;letter-spacing:0.5px">市场趋势</div>
+      <div style="flex:1;height:6px;background:rgba(255,255,255,0.04);overflow:hidden"><div style="width:47%;height:100%;background:#6366f1"></div></div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:10px;color:#6366f1;width:30px;text-align:right">18.8%</div>
+    </div><div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+      <div style="font-family:JetBrains Mono,monospace;width:65px;font-size:9px;color:var(--dim);text-align:right;letter-spacing:0.5px">价格波动</div>
+      <div style="flex:1;height:6px;background:rgba(255,255,255,0.04);overflow:hidden"><div style="width:32%;height:100%;background:#f59e0b"></div></div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:10px;color:#f59e0b;width:30px;text-align:right">12.9%</div>
+    </div><div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+      <div style="font-family:JetBrains Mono,monospace;width:65px;font-size:9px;color:var(--dim);text-align:right;letter-spacing:0.5px">涨跌动量</div>
+      <div style="flex:1;height:6px;background:rgba(255,255,255,0.04);overflow:hidden"><div style="width:30%;height:100%;background:#10b981"></div></div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:10px;color:#10b981;width:30px;text-align:right">12.1%</div>
+    </div><div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+      <div style="font-family:JetBrains Mono,monospace;width:65px;font-size:9px;color:var(--dim);text-align:right;letter-spacing:0.5px">均线偏离</div>
+      <div style="flex:1;height:6px;background:rgba(255,255,255,0.04);overflow:hidden"><div style="width:29%;height:100%;background:#8b5cf6"></div></div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:10px;color:#8b5cf6;width:30px;text-align:right">11.5%</div>
+    </div><div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+      <div style="font-family:JetBrains Mono,monospace;width:65px;font-size:9px;color:var(--dim);text-align:right;letter-spacing:0.5px">技术指标</div>
+      <div style="flex:1;height:6px;background:rgba(255,255,255,0.04);overflow:hidden"><div style="width:20%;height:100%;background:#6b7280"></div></div>
+      <div style="font-family:JetBrains Mono,monospace;font-size:10px;color:#6b7280;width:30px;text-align:right">8.1%</div>
+    </div>
+      </div>
+      <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border)">
+        <div class="rw-eyebrow">策略参数</div>
+        <div style="font-size:10px;color:var(--dim);line-height:1.8">
+          <div><span style="color:var(--text);font-weight:600">选股模型:</span> XGBoost回归 /// 25个因子</div>
+          <div><span style="color:var(--text);font-weight:600">持有周期:</span> 10个交易日 /// 等权配置</div>
+          <div><span style="color:var(--text);font-weight:600">止损规则:</span> 收盘价跌破买入价2%卖出</div>
+          <div><span style="color:var(--text);font-weight:600">选股范围:</span> A股全市场（含科创板）</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="text-align:center;padding:8px 0;border-top:1px solid var(--border)">
+  <span style="font-family:JetBrains Mono,monospace;font-size:8px;color:var(--muted);letter-spacing:2px">HERMES TRADING INTELLIGENCE /// REDWOOD V1.0 /// 20260618</span>
+</div>
+

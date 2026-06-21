@@ -1,0 +1,15 @@
+{
+  "date": "20260616",
+  "strategy": "rule-alpha-v1.0",
+  "hold_days": 10,
+  "top_n": 15,
+  "stop_loss": -0.01,
+  "regime": "bear",
+  "position_pct": 0,
+  "market": {
+    "breadth": 0.2418,
+    "ret20": -0.08397,
+    "ma_bias": -0.066138
+  },
+  "top": []
+}

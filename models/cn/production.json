@@ -1,50 +1,154 @@
 {
   "market": "cn",
-  "updated": "2026-06-20",
+  "updated": "2026-06-21",
   "active_models": {
-    "cn-alpha-v1.1": {
-      "name": "cn-alpha-v1.1",
-      "file": "cn_alpha_v1.1.json",
-      "summary": "cn_alpha_v1.1_summary.json",
-      "version": "v1.1",
-      "trained": "2026-06-20",
+    "cn-alpha-v2.1": {
+      "name": "红杉v1.0 (Redwood v1.0)",
+      "type": "xgboost_regression",
+      "version": "v1.0",
+      "trained": "2026-06-21 (2yr rolling window)",
       "status": "production",
-      "features": 36,
-      "target": "fwd_10d",
+      "features": 25,
+      "feature_list": [
+        "ret5",
+        "ret10",
+        "ret20",
+        "ma20_bias",
+        "ma60_bias",
+        "vol5",
+        "vol20",
+        "rsi_14",
+        "macd_hist",
+        "atr_pct",
+        "vol_ratio",
+        "total_net_5d",
+        "lg_net_5d",
+        "md_net_5d",
+        "elg_net_5d",
+        "total_net_20d",
+        "lg_net_20d",
+        "md_net_20d",
+        "elg_net_20d",
+        "total_net_5d_rk",
+        "lg_net_5d_rk",
+        "md_net_5d_rk",
+        "elg_net_5d_rk",
+        "breadth",
+        "mkt_ret20"
+      ],
+      "target": "fwd_10d (10-day forward return)",
       "hold_days": 10,
       "top_k": 15,
-      "description": "反转+资金流+基本面(PE/PB/PS/股息率), 市场过滤器(bear/cautious/bull), 信号灯分级(P95/P90/P80)",
-      "market_filter": "MA60>MA120 + 20d动量>0 + 涨跌比>0.5",
-      "signal_thresholds": {
-        "P95": "🟢🟢 精品买入",
-        "P90": "🟢 强信号",
-        "P80": "🟡 观察",
-        "below_P80": "⚪ 不推荐"
+      "stop_loss": -0.02,
+      "position_map": {
+        "bull": 1.0,
+        "cautious": 0.5,
+        "bear": 0
+      },
+      "market_filter": "breadth > 0.40 AND mkt_ret20 > -0.05",
+      "description": "XGBoost回归, 25维特征, SL-3%止损, 市场择时+资金流跟随",
+      "key_insight": "止损-3%将4个熊市亏损折翻正, 16/16折全部正Sharpe",
+      "changes_from_v2.0": "SL从-3%优化到-2%(Sharpe+0.5), 市场过滤从50%/0%优化到40%/-5%, 科创板688纳入, 信号分层用绝对分数",
+      "backtest": {
+        "method": "Walk-Forward 16-fold (2yr train + 6mo test)",
+        "period": "2018-01 ~ 2026-05",
+        "wf_sharpe_mean": 3.894,
+        "wf_sharpe_std": 2.178,
+        "wf_sharpe_ratio": 1.79,
+        "folds_positive": "16/16 (100%)",
+        "overall_sharpe": 3.02,
+        "win_rate": 0.7,
+        "max_dd": -0.131
       },
       "paper_trade": {
-        "method": "2021-2026, 每季度1时点, Top15, 10天持有",
-        "ann_return": 15.65,
-        "sharpe": 0.60,
-        "max_dd": -27.05,
-        "alpha_positive_pct": 57.7,
-        "with_market_filter": {
-          "ann_return": 12.7,
-          "sharpe": 0.55,
-          "max_dd": -14.7,
-          "alpha_positive_pct": 66.7
+        "method": "Quarterly rebalance, 200 periods",
+        "sharpe": 3.111,
+        "win_rate": 0.72,
+        "alpha_positive": 0.76,
+        "max_dd": -0.131,
+        "cost_sensitivity": {
+          "0.1pct": {
+            "sharpe": 2.989,
+            "win_rate": 0.7
+          },
+          "0.15pct": {
+            "sharpe": 2.928,
+            "win_rate": 0.685
+          },
+          "0.3pct": {
+            "sharpe": 2.745,
+            "win_rate": 0.65
+          }
         }
       },
-      "scoring_script": "scripts/cn/gen_signal_v1_1.py",
-      "train_script": "N/A (notebook)"
+      "signal_levels": {
+        "top3": {
+          "label": "🟢🟢 精品",
+          "threshold": 0.08
+        },
+        "top10": {
+          "label": "🟢 强信号",
+          "threshold": 0.06
+        },
+        "top15": {
+          "label": "🟡 观察",
+          "threshold": 0.04
+        }
+      },
+      "feature_importance_top5": [
+        {
+          "feature": "mkt_ret20",
+          "importance": 0.101,
+          "type": "market"
+        },
+        {
+          "feature": "breadth",
+          "importance": 0.088,
+          "type": "market"
+        },
+        {
+          "feature": "ma60_bias",
+          "importance": 0.08,
+          "type": "trend"
+        },
+        {
+          "feature": "total_net_20d",
+          "importance": 0.08,
+          "type": "flow"
+        },
+        {
+          "feature": "lg_net_20d",
+          "importance": 0.07,
+          "type": "flow"
+        }
+      ],
+      "scoring_script": "scripts/cn/gen_xgb_signal.py",
+      "model_file": "models/cn/cn_alpha_v2_xgb.json",
+      "validation_report": "memory-archive/research/a-stock-v20-v21-final-comparison-20260621.md"
+    },
+    "cn-alpha-v2.0": {
+      "name": "cn-alpha-v2.0",
+      "type": "xgboost_regression",
+      "version": "v2.0",
+      "status": "superseded by v2.1",
+      "description": "V2.0无止损版, 被V2.1取代",
+      "backtest_sharpe": 2.184,
+      "model_file": "models/cn/cn_alpha_v2_xgb.json"
+    },
+    "rule-alpha-v1.0": {
+      "name": "rule-alpha-v1.0",
+      "type": "rule_based",
+      "version": "v1.0 (legacy)",
+      "status": "legacy (replaced by cn-alpha-v2.1)",
+      "features": 6,
+      "description": "纯规则型: 反转+资金流+低波动+超卖+大单+均线偏离",
+      "scoring_script": "scripts/cn/gen_rule_signal.py"
     }
   },
   "legacy_models": [
-    "a1_layer3_xgb_10d.json",
-    "a_stock_xgb_v1.json",
-    "a_stock_xgb_v2.json",
+    "cn_alpha_v1.1.json",
     "cn_alpha_v1.0.json",
-    "a3_v1.json",
-    "a3_classifier_v1.json",
-    "a3_regression_v1.json"
+    "a_stock_xgb_v2.json",
+    "a1_layer3_xgb_10d.json"
   ]
 }
