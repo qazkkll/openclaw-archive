@@ -1,0 +1,185 @@
+{
+  "predictions": [
+    {
+      "market": "cn",
+      "date": "20260622",
+      "time": "09:00",
+      "type": "morning",
+      "source": "yuanbao",
+      "macro_context": "Bear regime, 上证-0.27%, 个股分化严重",
+      "predictions": [
+        {
+          "target": "300136 信维通信",
+          "direction": "bullish",
+          "confidence": 0.8,
+          "reasoning": "RSI适中+回调充分，元器件龙头，技术面最健康的GG信号",
+          "timeframe": "1d"
+        },
+        {
+          "target": "600233 圆通速递",
+          "direction": "bullish",
+          "confidence": 0.8,
+          "reasoning": "物流白马超卖，RSI=14极度超卖区域，估值有底",
+          "timeframe": "1d"
+        },
+        {
+          "target": "000848 承德露露",
+          "direction": "bullish",
+          "confidence": 0.65,
+          "reasoning": "消费白马，品牌价值+低估值，防御型配置首选",
+          "timeframe": "1d"
+        },
+        {
+          "target": "300347 泰格医药",
+          "direction": "bullish",
+          "confidence": 0.55,
+          "reasoning": "CRO龙头回调到位，但熊市中医药板块也承压",
+          "timeframe": "1d"
+        },
+        {
+          "target": "300142 沃森生物",
+          "direction": "bullish",
+          "confidence": 0.55,
+          "reasoning": "疫苗龙头回调深+RSI合理，但政策风险需关注",
+          "timeframe": "1d"
+        },
+        {
+          "target": "大盘",
+          "direction": "bearish",
+          "confidence": 0.7,
+          "reasoning": "Bear regime, position_pct=0%, 不建议新买入",
+          "timeframe": "1d"
+        }
+      ],
+      "reviewed": true,
+      "actual_results": {
+        "300136 信维通信": {
+          "actual": -8.26,
+          "verdict": "❌"
+        },
+        "600233 圆通速递": {
+          "actual": 9.4,
+          "verdict": "✅ 超卖反弹兑现"
+        },
+        "000848 承德露露": {
+          "actual": 0.5,
+          "verdict": "⚠️ 持平，防御有效"
+        },
+        "300347 泰格医药": {
+          "actual": 2.69,
+          "verdict": "✅ 回调到位反弹"
+        },
+        "300142 沃森生物": {
+          "actual": null,
+          "verdict": "数据暂缺"
+        },
+        "大盘": {
+          "actual": -0.27,
+          "verdict": "✅ bearish正确"
+        }
+      }
+    },
+    {
+      "market": "cn",
+      "date": "20260622",
+      "time": "15:00",
+      "type": "close_review",
+      "source": "yuanbao",
+      "macro_context": "上证-0.27%, 5涨5跌, GG信号动量有效, G信号低RSI不安全",
+      "predictions": [
+        {
+          "target": "002552 宝鼎科技",
+          "direction": "bullish",
+          "confidence": 0.5,
+          "reasoning": "GG信号但RSI=90超买",
+          "timeframe": "1d"
+        },
+        {
+          "target": "600353 旭光电子",
+          "direction": "neutral",
+          "confidence": 0.4,
+          "reasoning": "GG信号但不建议追",
+          "timeframe": "1d"
+        },
+        {
+          "target": "300136 信维通信",
+          "direction": "bullish",
+          "confidence": 0.8,
+          "reasoning": "头号推荐，RSI适中",
+          "timeframe": "1d"
+        }
+      ],
+      "reviewed": true,
+      "actual_results": {
+        "002552 宝鼎科技": {
+          "actual": 3.33,
+          "verdict": "⚠️ 涨了但我不该否定GG"
+        },
+        "600353 旭光电子": {
+          "actual": 10.0,
+          "verdict": "❌ 涨停，我说不追错了"
+        },
+        "300136 信维通信": {
+          "actual": -8.26,
+          "verdict": "❌ 头号推荐跌最多"
+        }
+      },
+      "lessons": [
+        "用RSI低/超卖来否定GG信号是错误的",
+        "低RSI≠安全，骏鼎达RSI=10继续跌-6.36%",
+        "GG信号2/3涨，动量有效；G信号3涨4跌，不如GG"
+      ]
+    },
+    {
+      "market": "us",
+      "date": "20260622",
+      "time": "21:00",
+      "type": "pre_market",
+      "macro_context": "Fed鹰派转向,美伊停火油价-8%,科技反弹半导体+6.63%,本周PCE关键",
+      "predictions": [
+        {
+          "target": "SPY",
+          "direction": "bullish",
+          "confidence": 0.6,
+          "reasoning": "停火利好+科技反弹，但PCE是变数",
+          "timeframe": "1w"
+        },
+        {
+          "target": "QQQ",
+          "direction": "bullish",
+          "confidence": 0.65,
+          "reasoning": "半导体强势，AI支出不减",
+          "timeframe": "1w"
+        },
+        {
+          "target": "FATE",
+          "direction": "bullish",
+          "confidence": 0.7,
+          "reasoning": "蓝盾最高分$11合理区间",
+          "timeframe": "1w"
+        },
+        {
+          "target": "ZEPP",
+          "direction": "bullish",
+          "confidence": 0.75,
+          "reasoning": "绿箭最强信号0.814，消费电子回暖",
+          "timeframe": "1w"
+        },
+        {
+          "target": "NXTC",
+          "direction": "neutral",
+          "confidence": 0.5,
+          "reasoning": "微盘波动大，之前有止损信号",
+          "timeframe": "1w"
+        },
+        {
+          "target": "VIX",
+          "direction": "bearish",
+          "confidence": 0.65,
+          "reasoning": "恐慌已大幅回落趋势向下",
+          "timeframe": "1w"
+        }
+      ]
+    }
+  ]
+}

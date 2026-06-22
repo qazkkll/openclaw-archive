@@ -117,11 +117,12 @@ def score_all():
         for col in FUND_COLS:
             df[col] = 0
     
-    # 5. 过滤>$10
-    shield = df[df['close'] > 10].copy()
+    # 5. 先取每个股票最新一行（必须先按日期排序）
+    df = df.sort_values('date')
+    latest = df.groupby('sym').tail(1).reset_index(drop=True)
     
-    # 6. 取每个股票最后一行
-    latest = shield.groupby('sym').last().reset_index()
+    # 6. 再过滤>$10（用当前价格，不是历史价格）
+    latest = latest[latest['close'] > 10].copy()
     latest = latest.dropna(subset=ALL_FEATS)
     print(f"3. 评分股票: {len(latest)}只", flush=True)
     

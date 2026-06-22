@@ -17,7 +17,7 @@ Hermes Trading Dashboard Engine v3
 └──────────────────────────────────────────────────────────────┘
 """
 
-import json, os, time, subprocess
+import json, os, sys, time, subprocess
 from datetime import datetime, timedelta
 from collections import defaultdict
 
@@ -101,7 +101,22 @@ def get_arrow_scores():
 # ════════════════════════════════════════════════════════════
 
 def get_portfolio():
-    """获取持仓数据（从OpenD）"""
+    """获取持仓数据（从OpenD实时同步）"""
+    # 先从OpenD同步最新持仓到portfolio.json
+    try:
+        sync_script = os.path.join(ROOT, "scripts", "sync_portfolio_from_opend.py")
+        result = subprocess.run(
+            [sys.executable, sync_script],
+            capture_output=True, text=True, timeout=15,
+            cwd=ROOT
+        )
+        if result.returncode == 0:
+            print(f"[engine] 持仓同步成功")
+        else:
+            print(f"[engine] 持仓同步失败: {result.stderr[:200]}")
+    except Exception as e:
+        print(f"[engine] 持仓同步异常: {e}")
+    
     portfolio_file = os.path.join(STATE_DIR, "portfolio.json")
     if not os.path.exists(portfolio_file):
         return {"large_cap": [], "small_cap": []}

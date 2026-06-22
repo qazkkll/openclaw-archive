@@ -69,7 +69,7 @@ def score_all():
     print("1. 加载历史数据...", flush=True)
     df = pd.read_parquet(os.path.join(ROOT, 'data/us/us_hist_yf_10y.parquet'))
     df = df.rename(columns={'ticker': 'sym'})
-    df = df[(df['close'] > 0.5) & (df['close'] < 10) & (df['volume'] > 0)]
+    df = df[(df['close'] > 0.5) & (df['volume'] > 0)]
     
     # 计算特征
     print("2. 计算特征...", flush=True)
@@ -91,8 +91,11 @@ def score_all():
         for col in MACRO_COLS:
             df[col] = 0
     
-    # 取每个股票最后一行
-    latest = df.groupby('sym').last().reset_index()
+    # 取每个股票最后一行（必须先按日期排序，groupby.last()会取到不同行的不同列）
+    df = df.sort_values('date')
+    latest = df.groupby('sym').tail(1).reset_index(drop=True)
+    # 用当前价格过滤$1-$10（不是历史价格）
+    latest = latest[(latest['close'] >= 1) & (latest['close'] < 10)].copy()
     latest = latest.dropna(subset=ALL_FEATS)
     print(f"3. 评分股票: {len(latest)}只 ($1-$10)", flush=True)
     
