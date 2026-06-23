@@ -180,6 +180,113 @@
           "timeframe": "1w"
         }
       ]
+    },
+    {
+      "market": "cn",
+      "date": "20260623",
+      "time": "09:00",
+      "type": "morning",
+      "macro_context": "券商保险有色拉涨 深成指创新高 LPR不变 美股存储芯片爆发中概股普跌 信号5天前数据regime=bear市场已变",
+      "predictions": [
+        {
+          "target": "002552 宝鼎科技",
+          "direction": "bullish",
+          "confidence": 0.5,
+          "reasoning": "GG 94分 元器件 RSI=90.4超买 20日涨138% 追高风险大",
+          "timeframe": "1d"
+        },
+        {
+          "target": "300260 新莱应材",
+          "direction": "bullish",
+          "confidence": 0.65,
+          "reasoning": "GG 70分 机械基件 RSI=62.6温和 20日涨52%",
+          "timeframe": "1d"
+        },
+        {
+          "target": "600353 旭光电子",
+          "direction": "bullish",
+          "confidence": 0.55,
+          "reasoning": "GG 64分 元器件 RSI=80.6偏高 20日涨125%",
+          "timeframe": "1d"
+        }
+      ]
+    },
+    {
+      "market": "us",
+      "date": "20260623",
+      "time": "09:30",
+      "type": "morning",
+      "macro_context": "Fed hawkish Warsh debut, rates 3.5-3.75, PCE forecast 3.6pct. Iran peace deal oil -5pct. VIX 16.4 low but PCE Thu key.",
+      "predictions": [
+        {
+          "target": "SPY",
+          "direction": "neutral",
+          "confidence": 0.55,
+          "reasoning": "Oil crash helps consumption but Fed hawkish caps valuations, pre-PCE wait-and-see"
+        },
+        {
+          "target": "CRMT",
+          "direction": "bullish",
+          "confidence": 0.6,
+          "reasoning": "BlueShield V9 top prob 0.9136, microcap momentum strong but liquidity risk"
+        },
+        {
+          "target": "NXTC",
+          "direction": "bullish",
+          "confidence": 0.55,
+          "reasoning": "BlueShield V9 prob 0.9115, biotech M&A active"
+        },
+        {
+          "target": "Semiconductor",
+          "direction": "bullish",
+          "confidence": 0.65,
+          "reasoning": "Micron earnings Wed, Nasdaq rebalance adds semi weight, CoreWeave -6.7pct shows divergence"
+        }
+      ]
+    },
+    {
+      "market": "us",
+      "date": "20260623",
+      "time": "21:00",
+      "type": "pre_market",
+      "macro_context": "Fed Warsh维持3.5-3.75%不变，移除前瞻指引暗示10月可能加息；美伊协议进展积极，油价下跌；VIX升至17.28；纳指跌1.32%，SpaceX/GOOGL领跌；亚太KOSPI暴跌8%",
+      "predictions": [
+        {
+          "target": "CSGP",
+          "direction": "bullish",
+          "confidence": 0.65,
+          "reasoning": "蓝盾V6评分0.5938排名第一，$34估值折价，已持仓+0.8%，基本面强劲",
+          "timeframe": "1d"
+        },
+        {
+          "target": "HUN",
+          "direction": "bullish",
+          "confidence": 0.6,
+          "reasoning": "蓝盾V6评分0.5893排名第二，$14化工龙头估值低，利率环境利好防御",
+          "timeframe": "1d"
+        },
+        {
+          "target": "CRMT",
+          "direction": "bullish",
+          "confidence": 0.55,
+          "reasoning": "绿箭V11评分0.6538排名第一，$2.37超小盘，RSI极低有反弹空间但波动大",
+          "timeframe": "1d"
+        },
+        {
+          "target": "S&P 500",
+          "direction": "bearish",
+          "confidence": 0.6,
+          "reasoning": "期货跌0.53%，VIX升5.37%，Fed加息预期+科技股抛售+KOSPI暴跌传导",
+          "timeframe": "1d"
+        },
+        {
+          "target": "NVDA",
+          "direction": "neutral",
+          "confidence": 0.5,
+          "reasoning": "半导体板块昨日涨2.6%但今日期货跌，AI叙事仍强但估值高+利率风险",
+          "timeframe": "1d"
+        }
+      ]
     }
   ]
 }

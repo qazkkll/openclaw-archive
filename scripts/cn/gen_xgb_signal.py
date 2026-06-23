@@ -97,6 +97,11 @@ df = df[(df['close'] >= 3) & (df['close'] <= 200)].copy()
 df = df[df['volume'] > 0].copy()
 df = df.sort_values(['sym', 'date']).reset_index(drop=True)
 
+# Filter out stocks with <20 trading days (次新股, features are all zeros)
+day_counts = df.groupby('sym')['date'].transform('count')
+df = df[day_counts >= 20].copy()
+print(f"  Filtered: {df['sym'].nunique()} stocks with ≥20 trading days")
+
 print(f"  Data loaded: {len(df):,} rows, {df['sym'].nunique()} stocks ({time.time()-t0:.0f}s)")
 
 # ============================================================

@@ -152,17 +152,7 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
 <div class="wrap">
   <div class="header">
     <div class="header-left"><div class="logo">HERMES<span class="logo-dot">.</span></div><div class="header-badge">INTELLIGENCE PLATFORM 智能平台</div></div>
-    <div class="header-right">
-      <button onclick="refreshPortfolio()" id="refreshBtn" style="background:rgba(99,102,241,0.1);border:1px solid rgba(99,102,241,0.3);color:#6366f1;padding:6px 14px;border-radius:8px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.3s;display:flex;align-items:center;gap:6px">
-        <span id="refreshIcon">↻</span> 刷新持仓
-      </button>
-      <button onclick="refreshAll()" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.3);color:#10b981;padding:6px 14px;border-radius:8px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.3s">
-        ↻ 全部刷新
-      </button>
-      <div class="live-dot"></div>
-      <div class="timestamp" id="lastUpdate">加载中...</div>
-      <div id="countdown" class="timestamp" style="color:var(--ind)">5:00</div>
-    </div>
+    <div class="header-right"><div class="live-dot"></div><div class="timestamp">2026-06-23 05:00</div><div id="countdown" class="timestamp" style="color:var(--ind)">5:00</div></div>
   </div>
   <div class="tab-bar">
     <div class="tab active" onclick="showTab(0)">Trading 操盘</div>
@@ -172,14 +162,36 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
   </div>
   <div class="tab-content active" id="tab-0">
 <div class="metrics">
-  <div class="metric"><div class="metric-label">Portfolio 组合</div><div class="metric-value" style="color:#fff">$17,542</div><div class="metric-sub">9 positions 持仓</div></div>
-  <div class="metric"><div class="metric-label">P&L 盈亏</div><div class="metric-value" style="color:#10b981">+267</div><div class="metric-sub">+1.5% total</div></div>
-  <div class="metric"><div class="metric-label">VIX 波动率</div><div class="metric-value" style="color:#10b981">16.8</div><div class="metric-sub">CALM 平静</div></div>
-  <div class="metric"><div class="metric-label">Win/Loss 盈亏比</div><div class="metric-value"><span style="color:#10b981">6</span> / <span style="color:#ef4444">3</span></div><div class="metric-sub">Today 今日</div></div>
+  <div class="metric"><div class="metric-label">Portfolio 组合</div><div class="metric-value" style="color:#fff">$19,545</div><div class="metric-sub">12 positions 持仓</div></div>
+  <div class="metric"><div class="metric-label">P&L 盈亏</div><div class="metric-value" style="color:#10b981">+253</div><div class="metric-sub">+1.3% total</div></div>
+  <div class="metric"><div class="metric-label">VIX 波动率</div><div class="metric-value" style="color:#10b981">17.2</div><div class="metric-sub">CALM 平静</div></div>
+  <div class="metric"><div class="metric-label">Win/Loss 盈亏比</div><div class="metric-value"><span style="color:#10b981">4</span> / <span style="color:#ef4444">8</span></div><div class="metric-sub">Today 今日</div></div>
 </div>
 <div class="bento">
-  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#6366f1"></span>Shield Holdings 蓝盾持仓</div><div class="section-count">5 active</div></div>
-    <div class="pos-grid" id="shield-grid"><div class="pos-card">
+  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#6366f1"></span>Shield Holdings 蓝盾持仓</div><div class="section-count">6 active</div></div>
+    <div class="pos-grid"><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">COHR</span>
+        <span class="pos-model" style="color:#6366f1;border-color:#6366f130;background:#6366f110">SHIELD 盾</span></div>
+        <span style="color:#ef4444;font-size:10px;font-weight:700">Top 98%</span>
+      </div>
+      <div class="pos-name">Coherent</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#10b981">
+          <span class="pnl-sign">+8.2%</span>
+          <span class="pnl-usd">+$252</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$417.45</span>
+          <span class="price-cost">Entry 入$386.00</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">5/20d · 15d left 剩15天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:25%;background:#6366f1"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
       <div class="pos-head">
         <div><span class="pos-code">ASML</span>
         <span class="pos-model" style="color:#6366f1;border-color:#6366f130;background:#6366f110">SHIELD 盾</span></div>
@@ -188,17 +200,17 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
       <div class="pos-name">阿斯麦</div>
       <div class="pos-metrics">
         <div class="pos-pnl" style="color:#10b981">
-          <span class="pnl-sign">+8.0%</span>
-          <span class="pnl-usd">+$286</span>
+          <span class="pnl-sign">+5.9%</span>
+          <span class="pnl-usd">+$210</span>
         </div>
         <div class="pos-price">
-          <span class="price-cur">$1929.68</span>
+          <span class="price-cur">$1891.50</span>
           <span class="price-cost">Entry 入$1786.59</span>
         </div>
       </div>
       <div class="pos-progress">
-        <div class="prog-label">8/20d · 12d left 剩12天</div>
-        <div class="prog-bar"><div class="prog-fill" style="width:40%;background:#6366f1"></div></div>
+        <div class="prog-label">12/20d · 8d left 剩8天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:60%;background:#f59e0b"></div></div>
       </div>
       
     </div><div class="pos-card">
@@ -210,39 +222,17 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
       <div class="pos-name">Arista Networks</div>
       <div class="pos-metrics">
         <div class="pos-pnl" style="color:#10b981">
-          <span class="pnl-sign">+1.6%</span>
-          <span class="pnl-usd">+$27</span>
+          <span class="pnl-sign">+3.0%</span>
+          <span class="pnl-usd">+$50</span>
         </div>
         <div class="pos-price">
-          <span class="price-cur">$169.67</span>
+          <span class="price-cur">$171.99</span>
           <span class="price-cost">Entry 入$166.99</span>
         </div>
       </div>
       <div class="pos-progress">
-        <div class="prog-label">4/20d · 16d left 剩16天</div>
-        <div class="prog-bar"><div class="prog-fill" style="width:20%;background:#6366f1"></div></div>
-      </div>
-      
-    </div><div class="pos-card">
-      <div class="pos-head">
-        <div><span class="pos-code">COHR</span>
-        <span class="pos-model" style="color:#6366f1;border-color:#6366f130;background:#6366f110">SHIELD 盾</span></div>
-        <span style="color:#ef4444;font-size:10px;font-weight:700">Top 98%</span>
-      </div>
-      <div class="pos-name">Coherent</div>
-      <div class="pos-metrics">
-        <div class="pos-pnl" style="color:#10b981">
-          <span class="pnl-sign">+0.9%</span>
-          <span class="pnl-usd">+$29</span>
-        </div>
-        <div class="pos-price">
-          <span class="price-cur">$389.57</span>
-          <span class="price-cost">Entry 入$386.00</span>
-        </div>
-      </div>
-      <div class="pos-progress">
-        <div class="prog-label">1/20d · 19d left 剩19天</div>
-        <div class="prog-bar"><div class="prog-fill" style="width:5%;background:#6366f1"></div></div>
+        <div class="prog-label">8/20d · 12d left 剩12天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:40%;background:#6366f1"></div></div>
       </div>
       
     </div><div class="pos-card">
@@ -254,17 +244,39 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
       <div class="pos-name">开利全球</div>
       <div class="pos-metrics">
         <div class="pos-pnl" style="color:#ef4444">
-          <span class="pnl-sign">-0.5%</span>
-          <span class="pnl-usd">$10</span>
+          <span class="pnl-sign">-0.3%</span>
+          <span class="pnl-usd">$6</span>
         </div>
         <div class="pos-price">
-          <span class="price-cur">$71.81</span>
+          <span class="price-cur">$71.98</span>
           <span class="price-cost">Entry 入$72.20</span>
         </div>
       </div>
       <div class="pos-progress">
-        <div class="prog-label">4/20d · 16d left 剩16天</div>
-        <div class="prog-bar"><div class="prog-fill" style="width:20%;background:#6366f1"></div></div>
+        <div class="prog-label">8/20d · 12d left 剩12天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:40%;background:#6366f1"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">CSGP</span>
+        <span class="pos-model" style="color:#6366f1;border-color:#6366f130;background:#6366f110">SHIELD 盾</span></div>
+        
+      </div>
+      <div class="pos-name">科斯塔</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#ef4444">
+          <span class="pnl-sign">-4.7%</span>
+          <span class="pnl-usd">$102</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$29.22</span>
+          <span class="price-cost">Entry 入$30.68</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">1/20d · 19d left 剩19天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:5%;background:#6366f1"></div></div>
       </div>
       
     </div><div class="pos-card">
@@ -276,41 +288,41 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
       <div class="pos-name">Cloudflare</div>
       <div class="pos-metrics">
         <div class="pos-pnl" style="color:#ef4444">
-          <span class="pnl-sign">-3.5%</span>
-          <span class="pnl-usd">$90</span>
+          <span class="pnl-sign">-8.3%</span>
+          <span class="pnl-usd">$212</span>
         </div>
         <div class="pos-price">
-          <span class="price-cur">$224.06</span>
+          <span class="price-cur">$212.99</span>
           <span class="price-cost">Entry 入$232.24</span>
         </div>
       </div>
       <div class="pos-progress">
-        <div class="prog-label">2/20d · 18d left 剩18天</div>
-        <div class="prog-bar"><div class="prog-fill" style="width:10%;background:#6366f1"></div></div>
+        <div class="prog-label">6/20d · 14d left 剩14天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:30%;background:#6366f1"></div></div>
       </div>
-      
+      <div class="warn-badge">WATCH 关注</div>
     </div></div></div>
-  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#10b981"></span>Arrow Holdings 绿箭持仓</div><div class="section-count">4 active</div></div>
-    <div class="pos-grid" id="arrow-grid"><div class="pos-card">
+  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#10b981"></span>Arrow Holdings 绿箭持仓</div><div class="section-count">6 active</div></div>
+    <div class="pos-grid"><div class="pos-card">
       <div class="pos-head">
-        <div><span class="pos-code">NGEN</span>
+        <div><span class="pos-code">FATE</span>
         <span class="pos-model" style="color:#10b981;border-color:#10b98130;background:#10b98110">ARROW 箭</span></div>
-        <span style="color:#6b7280;font-size:10px;font-weight:700">Top 32%</span>
+        
       </div>
-      <div class="pos-name">NervGen Pharma</div>
+      <div class="pos-name">Fate Therapeutics</div>
       <div class="pos-metrics">
         <div class="pos-pnl" style="color:#10b981">
-          <span class="pnl-sign">+11.1%</span>
-          <span class="pnl-usd">+$114</span>
+          <span class="pnl-sign">+4.2%</span>
+          <span class="pnl-usd">+$87</span>
         </div>
         <div class="pos-price">
-          <span class="price-cur">$2.20</span>
-          <span class="price-cost">Entry 入$1.98</span>
+          <span class="price-cur">$2.19</span>
+          <span class="price-cost">Entry 入$2.10</span>
         </div>
       </div>
       <div class="pos-progress">
-        <div class="prog-label">4/5d · 1d left 剩1天</div>
-        <div class="prog-bar"><div class="prog-fill" style="width:80%;background:#f59e0b"></div></div>
+        <div class="prog-label">1/5d · 4d left 剩4天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:20%;background:#6366f1"></div></div>
       </div>
       
     </div><div class="pos-card">
@@ -322,39 +334,17 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
       <div class="pos-name">Purple Biotech</div>
       <div class="pos-metrics">
         <div class="pos-pnl" style="color:#10b981">
-          <span class="pnl-sign">+5.7%</span>
-          <span class="pnl-usd">+$57</span>
+          <span class="pnl-sign">+0.0%</span>
+          <span class="pnl-usd">+$64</span>
         </div>
         <div class="pos-price">
-          <span class="price-cur">$1.70</span>
-          <span class="price-cost">Entry 入$1.61</span>
+          <span class="price-cur">$1.71</span>
+          <span class="price-cost">Entry 入$0.00</span>
         </div>
       </div>
       <div class="pos-progress">
-        <div class="prog-label">4/5d · 1d left 剩1天</div>
-        <div class="prog-bar"><div class="prog-fill" style="width:80%;background:#f59e0b"></div></div>
-      </div>
-      
-    </div><div class="pos-card">
-      <div class="pos-head">
-        <div><span class="pos-code">NYXH</span>
-        <span class="pos-model" style="color:#10b981;border-color:#10b98130;background:#10b98110">ARROW 箭</span></div>
-        <span style="color:#10b981;font-size:10px;font-weight:700">Top 1%</span>
-      </div>
-      <div class="pos-name">Nyxoah SA</div>
-      <div class="pos-metrics">
-        <div class="pos-pnl" style="color:#10b981">
-          <span class="pnl-sign">+1.3%</span>
-          <span class="pnl-usd">+$16</span>
-        </div>
-        <div class="pos-price">
-          <span class="price-cur">$1.60</span>
-          <span class="price-cost">Entry 入$1.58</span>
-        </div>
-      </div>
-      <div class="pos-progress">
-        <div class="prog-label">2/5d · 3d left 剩3天</div>
-        <div class="prog-bar"><div class="prog-fill" style="width:40%;background:#6366f1"></div></div>
+        <div class="prog-label">8/5d · EXPIRED 到期</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:100%;background:#10b981"></div></div>
       </div>
       
     </div><div class="pos-card">
@@ -365,148 +355,263 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
       </div>
       <div class="pos-name">NextCure</div>
       <div class="pos-metrics">
-        <div class="pos-pnl" style="color:#ef4444">
-          <span class="pnl-sign">-12.6%</span>
-          <span class="pnl-usd">$162</span>
+        <div class="pos-pnl" style="color:#10b981">
+          <span class="pnl-sign">+0.0%</span>
+          <span class="pnl-usd">$193</span>
         </div>
         <div class="pos-price">
-          <span class="price-cur">$2.02</span>
-          <span class="price-cost">Entry 入$2.31</span>
+          <span class="price-cur">$1.75</span>
+          <span class="price-cost">Entry 入$0.00</span>
         </div>
       </div>
       <div class="pos-progress">
-        <div class="prog-label">4/5d · 1d left 剩1天</div>
-        <div class="prog-bar"><div class="prog-fill" style="width:80%;background:#f59e0b"></div></div>
+        <div class="prog-label">8/5d · EXPIRED 到期</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:100%;background:#10b981"></div></div>
       </div>
-      <div class="stop-badge">STOP 止损</div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">NGEN</span>
+        <span class="pos-model" style="color:#10b981;border-color:#10b98130;background:#10b98110">ARROW 箭</span></div>
+        <span style="color:#6b7280;font-size:10px;font-weight:700">Top 32%</span>
+      </div>
+      <div class="pos-name">NervGen Pharma</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#10b981">
+          <span class="pnl-sign">+0.0%</span>
+          <span class="pnl-usd">+$125</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$2.17</span>
+          <span class="price-cost">Entry 入$0.00</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">8/5d · EXPIRED 到期</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:100%;background:#10b981"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">NYXH</span>
+        <span class="pos-model" style="color:#10b981;border-color:#10b98130;background:#10b98110">ARROW 箭</span></div>
+        <span style="color:#10b981;font-size:10px;font-weight:700">Top 1%</span>
+      </div>
+      <div class="pos-name">Nyxoah SA</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#ef4444">
+          <span class="pnl-sign">-0.6%</span>
+          <span class="pnl-usd">$8</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$1.57</span>
+          <span class="price-cost">Entry 入$1.58</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">6/5d · EXPIRED 到期</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:100%;background:#10b981"></div></div>
+      </div>
+      
+    </div><div class="pos-card">
+      <div class="pos-head">
+        <div><span class="pos-code">ZEPP</span>
+        <span class="pos-model" style="color:#10b981;border-color:#10b98130;background:#10b98110">ARROW 箭</span></div>
+        
+      </div>
+      <div class="pos-name">华米科技</div>
+      <div class="pos-metrics">
+        <div class="pos-pnl" style="color:#ef4444">
+          <span class="pnl-sign">-1.3%</span>
+          <span class="pnl-usd">$15</span>
+        </div>
+        <div class="pos-price">
+          <span class="price-cur">$4.86</span>
+          <span class="price-cost">Entry 入$4.93</span>
+        </div>
+      </div>
+      <div class="pos-progress">
+        <div class="prog-label">1/5d · 4d left 剩4天</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:20%;background:#6366f1"></div></div>
+      </div>
+      
     </div></div></div>
-  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#6366f1"></span>Shield V6 Top Picks 蓝盾推荐</div><div class="section-count">2397 universe</div></div>
+  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#6366f1"></span>Shield V6 Top Picks 蓝盾推荐</div><div class="section-count">1846 universe</div></div>
     <div class="pick-list"><div class="pick-row">
       <div class="pick-rank">1</div>
-      <div class="pick-info"><div class="pick-ticker">FATE</div><div class="pick-price">$11.00</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:61%;background:#10b981"></div></div>
-      <span class="score-val" style="color:#10b981">0.622</span></div>
-      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
-      <div class="pick-hold">20d</div>
-    </div><div class="pick-row">
-      <div class="pick-rank">2</div>
-      <div class="pick-info"><div class="pick-ticker">FLO</div><div class="pick-price">$10.08</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:54%;background:#10b981"></div></div>
-      <span class="score-val" style="color:#10b981">0.608</span></div>
-      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
-      <div class="pick-hold">20d</div>
-    </div><div class="pick-row">
-      <div class="pick-rank">3</div>
       <div class="pick-info"><div class="pick-ticker">CSGP</div><div class="pick-price">$34.23</div></div>
       <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:47%;background:#10b981"></div></div>
       <span class="score-val" style="color:#10b981">0.594</span></div>
       <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
       <div class="pick-hold">20d</div>
     </div><div class="pick-row">
-      <div class="pick-rank">4</div>
+      <div class="pick-rank">2</div>
       <div class="pick-info"><div class="pick-ticker">HUN</div><div class="pick-price">$14.23</div></div>
       <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:45%;background:#10b981"></div></div>
       <span class="score-val" style="color:#10b981">0.589</span></div>
       <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
       <div class="pick-hold">20d</div>
     </div><div class="pick-row">
-      <div class="pick-rank">5</div>
-      <div class="pick-info"><div class="pick-ticker">CDRO</div><div class="pick-price">$10.02</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:43%;background:#34d399"></div></div>
-      <span class="score-val" style="color:#34d399">0.585</span></div>
-      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
-      <div class="pick-hold">20d</div>
-    </div><div class="pick-row">
-      <div class="pick-rank">6</div>
+      <div class="pick-rank">3</div>
       <div class="pick-info"><div class="pick-ticker">WTM</div><div class="pick-price">$2004.76</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:39%;background:#34d399"></div></div>
-      <span class="score-val" style="color:#34d399">0.578</span></div>
-      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:39%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.578</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
       <div class="pick-hold">20d</div>
     </div><div class="pick-row">
-      <div class="pick-rank">7</div>
+      <div class="pick-rank">4</div>
       <div class="pick-info"><div class="pick-ticker">ATR</div><div class="pick-price">$120.32</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:39%;background:#34d399"></div></div>
-      <span class="score-val" style="color:#34d399">0.577</span></div>
-      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:39%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.577</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
       <div class="pick-hold">20d</div>
     </div><div class="pick-row">
-      <div class="pick-rank">8</div>
+      <div class="pick-rank">5</div>
       <div class="pick-info"><div class="pick-ticker">MASI</div><div class="pick-price">$179.95</div></div>
       <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:38%;background:#34d399"></div></div>
       <span class="score-val" style="color:#34d399">0.577</span></div>
       <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
       <div class="pick-hold">20d</div>
     </div><div class="pick-row">
-      <div class="pick-rank">9</div>
+      <div class="pick-rank">6</div>
       <div class="pick-info"><div class="pick-ticker">WTS</div><div class="pick-price">$319.83</div></div>
       <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:38%;background:#34d399"></div></div>
       <span class="score-val" style="color:#34d399">0.577</span></div>
       <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
       <div class="pick-hold">20d</div>
     </div><div class="pick-row">
-      <div class="pick-rank">10</div>
+      <div class="pick-rank">7</div>
       <div class="pick-info"><div class="pick-ticker">TPH</div><div class="pick-price">$46.95</div></div>
       <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:37%;background:#34d399"></div></div>
       <span class="score-val" style="color:#34d399">0.573</span></div>
       <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
       <div class="pick-hold">20d</div>
     </div><div class="pick-row">
-      <div class="pick-rank">11</div>
+      <div class="pick-rank">8</div>
       <div class="pick-info"><div class="pick-ticker">CMG</div><div class="pick-price">$30.42</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:37%;background:#f59e0b"></div></div>
-      <span class="score-val" style="color:#f59e0b">0.573</span></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:37%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.573</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">9</div>
+      <div class="pick-info"><div class="pick-ticker">ORLY</div><div class="pick-price">$90.46</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:36%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.572</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">10</div>
+      <div class="pick-info"><div class="pick-ticker">ACGL</div><div class="pick-price">$91.18</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:36%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.571</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">11</div>
+      <div class="pick-info"><div class="pick-ticker">AER</div><div class="pick-price">$145.06</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:35%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.571</span></div>
       <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
       <div class="pick-hold">20d</div>
     </div><div class="pick-row">
       <div class="pick-rank">12</div>
-      <div class="pick-info"><div class="pick-ticker">ORLY</div><div class="pick-price">$90.46</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:36%;background:#f59e0b"></div></div>
-      <span class="score-val" style="color:#f59e0b">0.572</span></div>
-      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
-      <div class="pick-hold">20d</div>
-    </div><div class="pick-row">
-      <div class="pick-rank">13</div>
       <div class="pick-info"><div class="pick-ticker">PSKY</div><div class="pick-price">$10.31</div></div>
       <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:35%;background:#f59e0b"></div></div>
       <span class="score-val" style="color:#f59e0b">0.570</span></div>
       <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
       <div class="pick-hold">20d</div>
     </div><div class="pick-row">
-      <div class="pick-rank">14</div>
+      <div class="pick-rank">13</div>
       <div class="pick-info"><div class="pick-ticker">USFD</div><div class="pick-price">$90.18</div></div>
       <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:35%;background:#f59e0b"></div></div>
       <span class="score-val" style="color:#f59e0b">0.569</span></div>
       <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
       <div class="pick-hold">20d</div>
     </div><div class="pick-row">
+      <div class="pick-rank">14</div>
+      <div class="pick-info"><div class="pick-ticker">ZBH</div><div class="pick-price">$89.63</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:34%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.568</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">20d</div>
+    </div><div class="pick-row">
       <div class="pick-rank">15</div>
-      <div class="pick-info"><div class="pick-ticker">ACGL</div><div class="pick-price">$91.18</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:35%;background:#f59e0b"></div></div>
-      <span class="score-val" style="color:#f59e0b">0.569</span></div>
+      <div class="pick-info"><div class="pick-ticker">ATO</div><div class="pick-price">$170.11</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:33%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.566</span></div>
       <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
       <div class="pick-hold">20d</div>
     </div></div></div>
-  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#10b981"></span>Arrow V11 Top Picks 绿箭推荐</div><div class="section-count">1153 universe</div></div>
+  <div class="bento-item"><div class="section-head"><div class="section-title"><span class="dot" style="background:#10b981"></span>Arrow V11 Top Picks 绿箭推荐</div><div class="section-count">627 universe</div></div>
     <div class="pick-list"><div class="pick-row">
       <div class="pick-rank">1</div>
-      <div class="pick-info"><div class="pick-ticker">ZEPP</div><div class="pick-price">$4.41</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:100%;background:#34d399"></div></div>
-      <span class="score-val" style="color:#34d399">0.814</span></div>
-      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-info"><div class="pick-ticker">CRMT</div><div class="pick-price">$2.37</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:77%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.654</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
       <div class="pick-hold">5d</div>
     </div><div class="pick-row">
       <div class="pick-rank">2</div>
-      <div class="pick-info"><div class="pick-ticker">CHRD</div><div class="pick-price">$0.52</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:100%;background:#34d399"></div></div>
-      <span class="score-val" style="color:#34d399">0.745</span></div>
-      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-info"><div class="pick-ticker">SKIL</div><div class="pick-price">$5.29</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:72%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.644</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
       <div class="pick-hold">5d</div>
     </div><div class="pick-row">
       <div class="pick-rank">3</div>
-      <div class="pick-info"><div class="pick-ticker">SKIL</div><div class="pick-price">$5.29</div></div>
-      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:72%;background:#f59e0b"></div></div>
-      <span class="score-val" style="color:#f59e0b">0.644</span></div>
+      <div class="pick-info"><div class="pick-ticker">NYXH</div><div class="pick-price">$1.31</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:68%;background:#10b981"></div></div>
+      <span class="score-val" style="color:#10b981">0.636</span></div>
+      <span class="sig sig-strong"><span class="sig-dot" style="background:#10b981"></span><span class="sig-dot" style="background:#10b981"></span>STRONG 强</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">4</div>
+      <div class="pick-info"><div class="pick-ticker">TROO</div><div class="pick-price">$2.16</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:60%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.620</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">5</div>
+      <div class="pick-info"><div class="pick-ticker">DGXX</div><div class="pick-price">$5.99</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:56%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.613</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">6</div>
+      <div class="pick-info"><div class="pick-ticker">BLDP</div><div class="pick-price">$4.38</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:49%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.598</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">7</div>
+      <div class="pick-info"><div class="pick-ticker">ZEPP</div><div class="pick-price">$4.41</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:47%;background:#34d399"></div></div>
+      <span class="score-val" style="color:#34d399">0.593</span></div>
+      <span class="sig sig-buy"><span class="sig-dot" style="background:#34d399"></span>BUY 买</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">8</div>
+      <div class="pick-info"><div class="pick-ticker">IPWR</div><div class="pick-price">$5.78</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:44%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.587</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">9</div>
+      <div class="pick-info"><div class="pick-ticker">CRVO</div><div class="pick-price">$2.25</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:43%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.585</span></div>
+      <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
+      <div class="pick-hold">5d</div>
+    </div><div class="pick-row">
+      <div class="pick-rank">10</div>
+      <div class="pick-info"><div class="pick-ticker">FABC</div><div class="pick-price">$3.38</div></div>
+      <div class="pick-score-bar"><div class="score-track"><div class="score-fill" style="width:41%;background:#f59e0b"></div></div>
+      <span class="score-val" style="color:#f59e0b">0.583</span></div>
       <span class="sig sig-watch"><span class="sig-dot" style="background:#f59e0b"></span>WATCH 看</span>
       <div class="pick-hold">5d</div>
     </div></div></div>
@@ -537,73 +642,94 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
     <div class="section-head"><div class="section-title"><span class="dot" style="background:#6366f1"></span>P&L Waterfall 盈亏瀑布图</div>
     <div class="section-count">By position 按持仓</div></div>
     <div class="wf-container"><div class="wf-row">
-      <div class="wf-label">NGEN</div>
+      <div class="wf-label">COHR</div>
       <div class="wf-bar-container">
-        <div class="wf-bar" style="width:56%;background:#10b981"></div>
+        <div class="wf-bar" style="width:41%;background:#10b981"></div>
       </div>
-      <div class="wf-val" style="color:#10b981">+11.1%</div>
-      <div class="wf-usd" style="color:#10b981">+$114</div>
+      <div class="wf-val" style="color:#10b981">+8.2%</div>
+      <div class="wf-usd" style="color:#10b981">+$252</div>
     </div><div class="wf-row">
       <div class="wf-label">ASML</div>
       <div class="wf-bar-container">
-        <div class="wf-bar" style="width:40%;background:#10b981"></div>
-      </div>
-      <div class="wf-val" style="color:#10b981">+8.0%</div>
-      <div class="wf-usd" style="color:#10b981">+$286</div>
-    </div><div class="wf-row">
-      <div class="wf-label">PPBT</div>
-      <div class="wf-bar-container">
         <div class="wf-bar" style="width:29%;background:#10b981"></div>
       </div>
-      <div class="wf-val" style="color:#10b981">+5.7%</div>
-      <div class="wf-usd" style="color:#10b981">+$57</div>
+      <div class="wf-val" style="color:#10b981">+5.9%</div>
+      <div class="wf-usd" style="color:#10b981">+$210</div>
+    </div><div class="wf-row">
+      <div class="wf-label">FATE</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:21%;background:#10b981"></div>
+      </div>
+      <div class="wf-val" style="color:#10b981">+4.2%</div>
+      <div class="wf-usd" style="color:#10b981">+$87</div>
     </div><div class="wf-row">
       <div class="wf-label">ANET</div>
       <div class="wf-bar-container">
-        <div class="wf-bar" style="width:8%;background:#10b981"></div>
+        <div class="wf-bar" style="width:15%;background:#10b981"></div>
       </div>
-      <div class="wf-val" style="color:#10b981">+1.6%</div>
-      <div class="wf-usd" style="color:#10b981">+$27</div>
+      <div class="wf-val" style="color:#10b981">+3.0%</div>
+      <div class="wf-usd" style="color:#10b981">+$50</div>
     </div><div class="wf-row">
-      <div class="wf-label">NYXH</div>
+      <div class="wf-label">PPBT</div>
       <div class="wf-bar-container">
-        <div class="wf-bar" style="width:6%;background:#10b981"></div>
+        <div class="wf-bar" style="width:0%;background:#10b981"></div>
       </div>
-      <div class="wf-val" style="color:#10b981">+1.3%</div>
-      <div class="wf-usd" style="color:#10b981">+$16</div>
-    </div><div class="wf-row">
-      <div class="wf-label">COHR</div>
-      <div class="wf-bar-container">
-        <div class="wf-bar" style="width:5%;background:#10b981"></div>
-      </div>
-      <div class="wf-val" style="color:#10b981">+0.9%</div>
-      <div class="wf-usd" style="color:#10b981">+$29</div>
-    </div><div class="wf-row">
-      <div class="wf-label">CARR</div>
-      <div class="wf-bar-container">
-        <div class="wf-bar" style="width:3%;background:#ef4444"></div>
-      </div>
-      <div class="wf-val" style="color:#ef4444">-0.5%</div>
-      <div class="wf-usd" style="color:#ef4444">$-10</div>
-    </div><div class="wf-row">
-      <div class="wf-label">NET</div>
-      <div class="wf-bar-container">
-        <div class="wf-bar" style="width:18%;background:#ef4444"></div>
-      </div>
-      <div class="wf-val" style="color:#ef4444">-3.5%</div>
-      <div class="wf-usd" style="color:#ef4444">$-90</div>
+      <div class="wf-val" style="color:#10b981">+0.0%</div>
+      <div class="wf-usd" style="color:#10b981">+$64</div>
     </div><div class="wf-row">
       <div class="wf-label">NXTC</div>
       <div class="wf-bar-container">
-        <div class="wf-bar" style="width:63%;background:#ef4444"></div>
+        <div class="wf-bar" style="width:0%;background:#10b981"></div>
       </div>
-      <div class="wf-val" style="color:#ef4444">-12.6%</div>
-      <div class="wf-usd" style="color:#ef4444">$-162</div>
+      <div class="wf-val" style="color:#10b981">+0.0%</div>
+      <div class="wf-usd" style="color:#10b981">$-193</div>
+    </div><div class="wf-row">
+      <div class="wf-label">NGEN</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:0%;background:#10b981"></div>
+      </div>
+      <div class="wf-val" style="color:#10b981">+0.0%</div>
+      <div class="wf-usd" style="color:#10b981">+$125</div>
+    </div><div class="wf-row">
+      <div class="wf-label">CARR</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:2%;background:#ef4444"></div>
+      </div>
+      <div class="wf-val" style="color:#ef4444">-0.3%</div>
+      <div class="wf-usd" style="color:#ef4444">$-6</div>
+    </div><div class="wf-row">
+      <div class="wf-label">NYXH</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:3%;background:#ef4444"></div>
+      </div>
+      <div class="wf-val" style="color:#ef4444">-0.6%</div>
+      <div class="wf-usd" style="color:#ef4444">$-8</div>
+    </div><div class="wf-row">
+      <div class="wf-label">ZEPP</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:7%;background:#ef4444"></div>
+      </div>
+      <div class="wf-val" style="color:#ef4444">-1.3%</div>
+      <div class="wf-usd" style="color:#ef4444">$-15</div>
+    </div><div class="wf-row">
+      <div class="wf-label">CSGP</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:24%;background:#ef4444"></div>
+      </div>
+      <div class="wf-val" style="color:#ef4444">-4.7%</div>
+      <div class="wf-usd" style="color:#ef4444">$-102</div>
+    </div><div class="wf-row">
+      <div class="wf-label">NET</div>
+      <div class="wf-bar-container">
+        <div class="wf-bar" style="width:41%;background:#ef4444"></div>
+      </div>
+      <div class="wf-val" style="color:#ef4444">-8.3%</div>
+      <div class="wf-usd" style="color:#ef4444">$-212</div>
     </div><div class="wf-row wf-total">
   <div class="wf-label">TOTAL</div>
   <div class="wf-bar-container"><div class="wf-bar" style="width:60%;background:#10b981"></div></div>
-  <div class="wf-val" style="color:#10b981">+1.5%</div>
-  <div class="wf-usd" style="color:#10b981">+$267</div>
+  <div class="wf-val" style="color:#10b981">+1.3%</div>
+  <div class="wf-usd" style="color:#10b981">+$253</div>
 </div></div>
   </div>
 </div>
@@ -1593,29 +1719,6 @@ function showTab(n){
   document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',i===n));
 }
 
-// API地址 + ngrok绕过header（必须在所有fetch调用之前定义）
-const API_BASE = '';
-const NGROK_HEADERS = { 'ngrok-skip-browser-warning': 'true' };
-
-// 更新时间显示
-function updateTimestamp() {
-  fetch('/output/live_data.json', { headers: NGROK_HEADERS })
-    .then(r => r.json())
-    .then(data => {
-      const el = document.getElementById('lastUpdate');
-      if (el && data.timestamp) {
-        el.textContent = data.timestamp;
-      }
-    })
-    .catch(() => {
-      const el = document.getElementById('lastUpdate');
-      if (el) el.textContent = new Date().toLocaleString('zh-CN');
-    });
-}
-
-// 页面加载时更新时间
-updateTimestamp();
-
 // Auto-refresh: meta refresh每300秒自动刷新（不弹窗）
 // 非工作时间通过JS移除meta refresh停止自动刷新
 const fill = document.getElementById('refreshFill');
@@ -1654,144 +1757,6 @@ setInterval(() => {
   if (cdEl) cdEl.textContent = min + ':' + String(sec).padStart(2, '0');
   if (fill) fill.style.width = ((1 - countdown / 300) * 100) + '%';
 }, 1000);
-
-async function refreshPortfolio() {
-  const btn = document.getElementById('refreshBtn');
-  const icon = document.getElementById('refreshIcon');
-  
-  btn.disabled = true;
-  btn.style.opacity = '0.6';
-  icon.style.animation = 'spin 1s linear infinite';
-  
-  try {
-    const res = await fetch(API_BASE + '/api/refresh-portfolio', { headers: NGROK_HEADERS });
-    const data = await res.json();
-    
-    if (data.success) {
-      // 等待后端完成，然后刷新页面
-      btn.textContent = '✓ 刷新中...';
-      setTimeout(() => location.reload(), 3000);
-    } else {
-      alert('刷新失败: ' + data.message);
-      btn.disabled = false;
-      btn.style.opacity = '1';
-      icon.style.animation = '';
-    }
-  } catch (e) {
-    alert('连接失败: 请检查网络后刷新页面重试');
-    btn.disabled = false;
-    btn.style.opacity = '1';
-    icon.style.animation = '';
-  }
-}
-
-async function refreshAll() {
-  const btn = event.target;
-  btn.disabled = true;
-  btn.style.opacity = '0.6';
-  
-  try {
-    const res = await fetch(API_BASE + '/api/refresh-all', { headers: NGROK_HEADERS });
-    const data = await res.json();
-    
-    if (data.success) {
-      btn.textContent = '✓ 刷新中...';
-      setTimeout(() => location.reload(), 5000);
-    }
-  } catch (e) {
-    alert('连接失败: 请确保 API 服务已启动');
-    btn.disabled = false;
-    btn.style.opacity = '1';
-  }
-}
 </script>
-<script>
-// === 动态渲染持仓（从live_data.json） ===
-(function() {
-  function renderPositions(data) {
-    const pf = data.portfolio || {};
-    const large = pf.large_cap || [];
-    const small = pf.small_cap || [];
-    const acct = pf.account || {};
-
-    // 更新顶部metrics
-    const totalMV = acct.market_val || 0;
-    const totalCash = acct.cash || 0;
-    const totalAssets = acct.total_assets || totalMV + totalCash;
-    const totalPL = large.concat(small).reduce((s, h) => s + (h.pnl_usd || 0), 0);
-    const totalCost = large.concat(small).reduce((s, h) => s + (h.cost_price * h.qty), 0);
-    const plPct = totalCost > 0 ? (totalPL / totalCost * 100) : 0;
-    const winners = large.concat(small).filter(h => h.pnl_usd > 0).length;
-    const losers = large.concat(small).filter(h => h.pnl_usd < 0).length;
-    const vix = (data.market && data.market['VIX']) ? data.market['VIX'] : {};
-
-    const metrics = document.querySelectorAll('.metric');
-    if (metrics[0]) {
-      metrics[0].querySelector('.metric-value').textContent = '$' + Math.round(totalAssets).toLocaleString();
-      metrics[0].querySelector('.metric-sub').textContent = (large.length + small.length) + ' positions 持仓';
-    }
-    if (metrics[1]) {
-      const sign = totalPL >= 0 ? '+' : '';
-      metrics[1].querySelector('.metric-value').textContent = sign + Math.round(totalPL);
-      metrics[1].querySelector('.metric-value').style.color = totalPL >= 0 ? '#10b981' : '#ef4444';
-      metrics[1].querySelector('.metric-sub').textContent = (plPct >= 0 ? '+' : '') + plPct.toFixed(1) + '% total';
-    }
-    if (metrics[2] && vix.price) {
-      metrics[2].querySelector('.metric-value').textContent = vix.price.toFixed(1);
-      metrics[2].querySelector('.metric-value').style.color = vix.price > 25 ? '#ef4444' : '#10b981';
-      metrics[2].querySelector('.metric-sub').textContent = vix.price > 25 ? 'HIGH 高' : vix.price > 20 ? 'ELEVATED 偏高' : 'CALM 平静';
-    }
-    if (metrics[3]) {
-      metrics[3].querySelector('.metric-value').innerHTML = '<span style="color:#10b981">' + winners + '</span> / <span style="color:#ef4444">' + losers + '</span>';
-    }
-
-    // 渲染持仓卡片
-    function renderGrid(gridId, holdings, isShield) {
-      const grid = document.getElementById(gridId);
-      if (!grid) return;
-      if (!holdings.length) {
-        grid.innerHTML = '<div style="color:#6b7280;padding:20px;text-align:center">无持仓</div>';
-        return;
-      }
-      const color = isShield ? '#6366f1' : '#10b981';
-      const label = isShield ? 'SHIELD 盾' : 'ARROW 箭';
-      grid.innerHTML = holdings.map(h => {
-        const pnlColor = h.pnl_pct >= 0 ? '#10b981' : '#ef4444';
-        const sign = h.pnl_pct >= 0 ? '+' : '';
-        const usdSign = h.pnl_usd >= 0 ? '+$' : '-$';
-        const pct = h.hold_days > 0 ? Math.min(100, Math.round((h.days_held || 0) / h.hold_days * 100)) : 0;
-        const barColor = pct > 75 ? '#f59e0b' : color;
-        const left = h.hold_days > 0 ? Math.max(0, h.hold_days - (h.days_held || 0)) : 0;
-        return '<div class="pos-card">' +
-          '<div class="pos-head"><div><span class="pos-code">' + h.ticker + '</span> ' +
-          '<span class="pos-model" style="color:' + color + ';border-color:' + color + '30;background:' + color + '10">' + label + '</span></div></div>' +
-          '<div class="pos-name">' + (h.name || h.ticker) + '</div>' +
-          '<div class="pos-metrics">' +
-          '<div class="pos-pnl" style="color:' + pnlColor + '"><span class="pnl-sign">' + sign + h.pnl_pct.toFixed(1) + '%</span> <span class="pnl-usd">' + usdSign + Math.abs(h.pnl_usd).toFixed(0) + '</span></div>' +
-          '<div class="pos-price"><span class="price-cur">$' + h.current_price.toFixed(2) + '</span> <span class="price-cost">Entry 入$' + h.cost_price.toFixed(2) + '</span></div>' +
-          '</div>' +
-          '<div class="pos-progress"><div class="prog-label">' + (h.days_held || 0) + '/' + h.hold_days + 'd · ' + left + 'd left 剩' + left + '天</div>' +
-          '<div class="prog-bar"><div class="prog-fill" style="width:' + pct + '%;background:' + barColor + '"></div></div></div>' +
-          '</div>';
-      }).join('');
-      // 更新section count
-      const head = grid.closest('.bento-item').querySelector('.section-count');
-      if (head) head.textContent = holdings.length + ' active';
-    }
-
-    renderGrid('shield-grid', large, true);
-    renderGrid('arrow-grid', small, false);
-  }
-
-  // 页面加载时立即渲染
-  fetch('/output/live_data.json')
-    .then(r => r.json())
-    .then(data => { renderPositions(data); })
-    .catch(e => console.warn('持仓渲染失败:', e));
-})();
-</script>
-<style>
-@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-</style>
 </body>
 </html>

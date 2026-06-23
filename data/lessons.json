@@ -1,0 +1,19 @@
+{
+  "lessons": [
+    {
+      "id": "L001",
+      "created": "2026-06-23",
+      "category": "cron_process",
+      "rule": "A股晨报cron必须读取signals/cn/latest_xgb.json，不能自己写筛选脚本",
+      "reason": "2026-06-23元宝晨报自己写了screen_3_688.py，导致：(1)丢失GG/G/Y信号标签 (2)按资金排名而非模型score排序 (3)漏掉603595等非3xxx股票",
+      "action": "read_existing_data",
+      "evidence_count": 1,
+      "status": "confirmed",
+      "applies_to": [
+        "A股晨报",
+        "综合晨报",
+        "A股日终总结"
+      ]
+    }
+  ]
+}
