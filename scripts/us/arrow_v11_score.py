@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-绿箭V11 每日评分脚本（全市场版）
-扫描全市场$1-$10股票 → 41维特征 → XGBoost排名 → Top-5+信号分级
+绿箭V12 每日评分脚本（全市场版）
+扫描全市场$1-$10股票 → 42维特征 → XGBoost排名 → Top-5+信号分级
 
 用法:
     python3 arrow_v11_score.py              # 标准输出
@@ -62,14 +62,17 @@ def compute_features(group):
 def score_all():
     import xgboost as xgb
     
-    print("🎯 绿箭V11 全市场评分 ($1-$10)", flush=True)
+    print("🎯 绿箭V12 全市场评分 ($1-$10)", flush=True)
     print("="*50, flush=True)
     
-    # 加载数据
+    # 加载数据（只取最近150天，特征最长窗口126天+buffer）
     print("1. 加载历史数据...", flush=True)
-    df = pd.read_parquet(os.path.join(ROOT, 'data/us/us_hist_yf_10y.parquet'))
-    df = df.rename(columns={'ticker': 'sym'})
+    df = pd.read_parquet(os.path.join(ROOT, 'data/us/us_hist_full_10y.parquet'))
+    df = df.dropna(subset=['close', 'volume'])
     df = df[(df['close'] > 0.5) & (df['volume'] > 0)]
+    cutoff = (datetime.now() - timedelta(days=250)).strftime('%Y-%m-%d')
+    df = df[df['date'] >= cutoff]
+    print(f"   数据量: {len(df)}行, {df['sym'].nunique()}只 (最近250天)", flush=True)
     
     # 计算特征
     print("2. 计算特征...", flush=True)
@@ -80,28 +83,31 @@ def score_all():
     df = pd.concat(parts, ignore_index=True)
     print(f"   完成: {time.time()-t0:.0f}s", flush=True)
     
-    # 宏观特征
-    try:
-        v75 = pd.read_parquet(os.path.join(ROOT, 'data/us/features/us_ml_feats_v75_filtered.parquet'))
-        macro_daily = v75[['date']+MACRO_COLS].drop_duplicates(subset=['date'])
-        df = pd.merge(df, macro_daily, on='date', how='left')
-        for col in MACRO_COLS:
-            if col in df.columns: df[col] = df[col].ffill().fillna(0)
-    except:
-        for col in MACRO_COLS:
-            df[col] = 0
-    
     # 取每个股票最后一行（必须先按日期排序，groupby.last()会取到不同行的不同列）
     df = df.sort_values('date')
     latest = df.groupby('sym').tail(1).reset_index(drop=True)
+    print(f"   最新行: {len(latest)}只", flush=True)
+    
+    # 宏观特征（只在latest上merge）
+    try:
+        v75 = pd.read_parquet(os.path.join(ROOT, 'data/us/features/us_ml_feats_v75_filtered.parquet'))
+        macro_daily = v75[['date']+MACRO_COLS].drop_duplicates(subset=['date'])
+        latest = pd.merge(latest, macro_daily, on='date', how='left')
+        for col in MACRO_COLS:
+            if col in latest.columns: latest[col] = latest[col].ffill().fillna(0)
+    except:
+        for col in MACRO_COLS:
+            latest[col] = 0
+    
     # 用当前价格过滤$1-$10（不是历史价格）
     latest = latest[(latest['close'] >= 1) & (latest['close'] < 10)].copy()
+    latest = latest[latest['volume'] > 50000].copy()  # 流动性过滤
     latest = latest.dropna(subset=ALL_FEATS)
     print(f"3. 评分股票: {len(latest)}只 ($1-$10)", flush=True)
     
     # 加载模型
-    model_path = os.path.join(ROOT, 'models/us/arrow_v11_xgb.json')
-    meta_path = os.path.join(ROOT, 'models/us/arrow_v11_meta.json')
+    model_path = os.path.join(ROOT, 'models/us/arrow_v12_xgb.json')
+    meta_path = os.path.join(ROOT, 'models/us/arrow_v12_meta.json')
     
     if not os.path.exists(model_path):
         print("❌ 模型文件不存在", flush=True)
@@ -123,31 +129,62 @@ def score_all():
     
     return latest
 
-def classify_signal_percentile(score, all_scores, vix=None):
-    """三层过滤信号分级
-    L1: VIX > 30 → 关闭信号（返回🔴）
-    L2: 分数必须 > 中位数（否则返回🔴）
-    L3: 百分位 Top5%=🟢🟢, Top10%=🟢, Top20%=🟡
+def classify_signal_percentile(score, all_scores, vix=None, meta_thresholds=None):
+    """三层过滤信号分级（动态校准+绝对底线）
+    
+    设计原则：🟢🟢必须是精品，无论市场环境。
+    
+    机制：
+    - L1: VIX>30 → 全部🔴（熊市保护）
+    - L2: 低于中位数 → 🔴（基本门槛）
+    - L3: 百分位排名（Top5%/10%/20%）→ 初步分级
+    - L4: 绝对底线校验 → 如果meta阈值在当前分布的合理范围内，执行双重过滤
+      * 当meta阈值 > 当前P99时，说明市场低迷，只用百分位（避免全🔴）
+      * 当meta阈值 <= 当前P95时，必须同时过绝对底线（精品保证）
     """
-    # L1: VIX市场状态
     if vix is not None and vix > 30:
         return '🔴', 'VIX>30暂停'
     
     median = np.median(all_scores)
-    
-    # L2: 绝对门槛（必须高于中位数）
     if score <= median:
         return '🔴', '低于中位数'
     
-    # L3: 百分位
+    p99 = np.percentile(all_scores, 99)
     p95 = np.percentile(all_scores, 95)
     p90 = np.percentile(all_scores, 90)
     p80 = np.percentile(all_scores, 80)
     
-    if score >= p95: return '🟢🟢', f'Top5%(>{p95:.3f})'
-    elif score >= p90: return '🟢', f'Top10%(>{p90:.3f})'
-    elif score >= p80: return '🟡', f'Top20%(>{p80:.3f})'
-    else: return '🔴', '不推荐'
+    gg_abs = meta_thresholds.get('green2', {}).get('threshold', 0) if meta_thresholds else 0
+    g_abs = meta_thresholds.get('green1', {}).get('threshold', 0) if meta_thresholds else 0
+    y_abs = meta_thresholds.get('observe', {}).get('threshold', 0) if meta_thresholds else 0
+    
+    gg_use_abs = gg_abs <= p99
+    g_use_abs = g_abs <= p95
+    y_use_abs = y_abs <= p90
+    
+    if score >= p95:
+        if gg_use_abs and score >= gg_abs:
+            return '🟢🟢', f'Top5%(≥{p95:.3f}) 绝对≥{gg_abs:.3f}'
+        elif not gg_use_abs:
+            return '🟢🟢', f'Top5%(≥{p95:.3f})'
+        else:
+            return '🟢', f'Top5%但未过绝对线'
+    elif score >= p90:
+        if g_use_abs and score >= g_abs:
+            return '🟢', f'Top10%(≥{p90:.3f}) 绝对≥{g_abs:.3f}'
+        elif not g_use_abs:
+            return '🟢', f'Top10%(≥{p90:.3f})'
+        else:
+            return '🟡', f'Top10%但未过绝对线'
+    elif score >= p80:
+        if y_use_abs and score >= y_abs:
+            return '🟡', f'Top20%(≥{p80:.3f})'
+        elif not y_use_abs:
+            return '🟡', f'Top20%(≥{p80:.3f})'
+        else:
+            return '🔴', '不推荐'
+    else:
+        return '🔴', '不推荐'
 
 def main():
     parser = argparse.ArgumentParser(description='绿箭V11全市场评分')
@@ -158,6 +195,16 @@ def main():
     latest = score_all()
     if latest is None:
         return
+    
+    # 加载绝对阈值
+    meta_path = os.path.join(ROOT, 'models/us/arrow_v12_meta.json')
+    meta_thresholds = None
+    try:
+        with open(meta_path) as f:
+            meta_data = json.load(f)
+        meta_thresholds = meta_data.get('signal_thresholds', None)
+    except:
+        pass
     
     now = datetime.now().strftime('%Y-%m-%d %H:%M')
     
@@ -174,28 +221,31 @@ def main():
     if args.json:
         picks = []
         for _, r in latest.head(args.top).iterrows():
-            emoji, desc = classify_signal_percentile(r['pred_rank'], all_scores, vix_val)
+            emoji, desc = classify_signal_percentile(r['pred_rank'], all_scores, vix_val, meta_thresholds)
             picks.append({
                 'ticker': r['sym'], 'price': round(r['close'], 2),
                 'pred_rank': round(r['pred_rank'], 4),
                 'signal': emoji, 'signal_desc': desc,
+                'rsi': round(r.get('rsi14', 0), 1),
+                'ret_5d': round(r.get('ret5', 0) * 100, 1),
+                'ret_20d': round(r.get('ret20', 0) * 100, 1),
             })
         output = {
-            'timestamp': now, 'model': 'arrow_v11',
+            'timestamp': now, 'model': 'arrow_v12',
             'total_scanned': len(latest), 'top_n': args.top, 'picks': picks
         }
         print(json.dumps(output, indent=2))
     else:
-        print(f"\n🎯 绿箭V11 选股报告 ({now})", flush=True)
+        print(f"🎯 绿箭V12 选股报告 ({now})", flush=True)
         print(f"{'='*60}", flush=True)
-        print(f"模型: V11排名 (41维特征, 5天Top-5, $1-$10)", flush=True)
+        print(f"模型: V12排名 (42维特征, 5天Top-5, $1-$10, 全市场)", flush=True)
         print(f"扫描: {len(latest)}只股票", flush=True)
         print(f"", flush=True)
         print(f"{'排名':<5} {'代码':<8} {'价格':>8} {'排名分':>7} {'RSI':>5} {'5日':>7} {'20日':>7} {'信号'}", flush=True)
         print(f"{'-'*60}", flush=True)
         
         for i, (_, r) in enumerate(latest.head(args.top).iterrows()):
-            emoji, desc = classify_signal_percentile(r['pred_rank'], all_scores, vix_val)
+            emoji, desc = classify_signal_percentile(r['pred_rank'], all_scores, vix_val, meta_thresholds)
             print(f"{emoji}{i+1:<3} {r['sym']:<8} ${r['close']:>7.2f} {r['pred_rank']:>7.4f} "
                   f"{r.get('rsi14',0):>5.1f} {r.get('ret5',0)*100:>+6.1f}% {r.get('ret20',0)*100:>+6.1f}% {desc}", flush=True)
         
@@ -231,18 +281,28 @@ def main():
     # 保存
     output_dir = os.path.join(ROOT, 'output')
     os.makedirs(output_dir, exist_ok=True)
-    save_path = os.path.join(output_dir, 'v11_latest.json')
+    save_path = os.path.join(ROOT, 'signals/us/arrow_v12_scores.json')
     with open(save_path, 'w') as f:
         json.dump({
-            'timestamp': now, 'model': 'arrow_v11',
+            'timestamp': now, 'model': 'arrow_v12',
             'total': len(latest),
             'picks': [{
                 'ticker': r['sym'], 'price': round(r['close'], 2),
                 'pred_rank': round(r['pred_rank'], 4),
-                'signal': classify_signal_percentile(r['pred_rank'], all_scores, vix_val)[0]
+                'signal': classify_signal_percentile(r['pred_rank'], all_scores, vix_val, meta_thresholds)[0]
             } for _, r in latest.head(args.top).iterrows()]
         }, f, indent=2, default=str)
-    print(f"\n✅ 保存: output/v11_latest.json", flush=True)
+    # 兼容旧路径
+    compat_path = os.path.join(output_dir, 'v11_latest.json')
+    with open(compat_path, 'w') as f:
+        json.dump({
+            'timestamp': now, 'model': 'arrow_v12', 'total': len(latest),
+            'picks': [{'ticker': r['sym'], 'price': round(r['close'], 2),
+                'pred_rank': round(r['pred_rank'], 4),
+                'signal': classify_signal_percentile(r['pred_rank'], all_scores, vix_val, meta_thresholds)[0]
+            } for _, r in latest.head(args.top).iterrows()]
+        }, f, indent=2, default=str)
+    print(f"\n✅ 保存: signals/us/arrow_v12_scores.json + output/v11_latest.json", flush=True)
 
 if __name__ == '__main__':
     main()

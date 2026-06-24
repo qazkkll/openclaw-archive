@@ -1,0 +1,142 @@
+{
+  "experiment": "v12_with_flow",
+  "config": {
+    "price_range": "arrow",
+    "hold_days": 5,
+    "feat_set": "full",
+    "objective": "reg:squarederror"
+  },
+  "n_features": 45,
+  "n_samples": 3084187,
+  "features": [
+    "ma5",
+    "ma20",
+    "ma60",
+    "ma_bias20",
+    "ma_align",
+    "price_position",
+    "ret1",
+    "ret5",
+    "ret20",
+    "ret60",
+    "momentum_6m",
+    "momentum_1m",
+    "mom_divergence",
+    "trend_accel",
+    "vol20",
+    "vol5",
+    "vol_ratio",
+    "vol_change",
+    "rsi14",
+    "rsi_change",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "bb_std",
+    "bb_width",
+    "bb_pos",
+    "ret_quality",
+    "price",
+    "range_pct",
+    "cmf",
+    "obv_slope",
+    "vol_price_corr",
+    "vix_close",
+    "spy_ret1",
+    "spy_ret5",
+    "spy_ret20",
+    "spy_ret60",
+    "qqq_ret1",
+    "qqq_ret5",
+    "qqq_ret20",
+    "qqq_ret60",
+    "iwm_ret1",
+    "iwm_ret5",
+    "iwm_ret20",
+    "iwm_ret60"
+  ],
+  "wf": [
+    {
+      "fold": 0,
+      "ic": 0.0371,
+      "icir": 0.358,
+      "ic_pos": 0.682,
+      "spread": 3.22,
+      "n_days": 374,
+      "best_iter": 10,
+      "period": "2018-01-18~2019-07-15"
+    },
+    {
+      "fold": 1,
+      "ic": 0.046,
+      "icir": 0.538,
+      "ic_pos": 0.765,
+      "spread": 2.75,
+      "n_days": 374,
+      "best_iter": 2,
+      "period": "2019-07-16~2021-01-06"
+    },
+    {
+      "fold": 2,
+      "ic": 0.0237,
+      "icir": 0.142,
+      "ic_pos": 0.623,
+      "spread": 3.41,
+      "n_days": 374,
+      "best_iter": 10,
+      "period": "2021-01-07~2022-07-01"
+    },
+    {
+      "fold": 3,
+      "ic": 0.0486,
+      "icir": 0.82,
+      "ic_pos": 0.826,
+      "spread": 4.08,
+      "n_days": 374,
+      "best_iter": 43,
+      "period": "2022-07-05~2023-12-27"
+    }
+  ],
+  "wf_summary": {
+    "ic": 0.0388,
+    "icir": 0.464,
+    "ic_pos": 0.724,
+    "spread": 3.36
+  },
+  "oos": {
+    "ic": 0.0624,
+    "icir": 1.031,
+    "ic_pos": 0.863,
+    "spread": 12.43,
+    "top5_avg": 10.69,
+    "top5_win": 75.4,
+    "n_days": 615,
+    "yearly": {
+      "2024": {
+        "ic": 0.0676,
+        "n_days": 252
+      },
+      "2025": {
+        "ic": 0.0659,
+        "n_days": 250
+      },
+      "2026": {
+        "ic": 0.043,
+        "n_days": 113
+      }
+    }
+  },
+  "best_iter": 200,
+  "params": {
+    "objective": "reg:squarederror",
+    "max_depth": 6,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 10,
+    "tree_method": "hist",
+    "seed": 42,
+    "verbosity": 0
+  },
+  "timestamp": "2026-06-25 02:17:26"
+}

@@ -1,0 +1,37 @@
+{
+  "positions": [
+    {
+      "id": "P_c9389ba6",
+      "rec_id": "",
+      "market": "cn",
+      "ticker": "301002",
+      "name": "崧盛股份",
+      "entry_price": 41.82,
+      "entry_date": "20260624",
+      "hold_days": 10,
+      "stop_loss_pct": -2.0,
+      "model_score": 0.0516,
+      "signal": "Y",
+      "status": "stopped",
+      "current_price": 41.41,
+      "pnl_pct": -0.98,
+      "days_held": 1,
+      "checks": [
+        {
+          "date": "20260624",
+          "price": 41.41,
+          "pnl_pct": -0.98,
+          "days_held": 1,
+          "status": "✅正常"
+        }
+      ],
+      "close_price": 41.41,
+      "close_date": "20260624",
+      "close_reason": "test"
+    }
+  ],
+  "meta": {
+    "created": "2026-06-24T16:50:12.194604",
+    "version": 1
+  }
+}

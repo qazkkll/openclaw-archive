@@ -1,0 +1,91 @@
+{
+  "version": "3.1",
+  "updated": "2026-06-24",
+  "baseline": {
+    "hit_rate_live": 0.176,
+    "hit_rate_backtest_cn": 0.286,
+    "hit_rate_backtest_us": 0.325,
+    "target_hit_rate": 0.30,
+    "scored_records": 17,
+    "backtest_records": {"蓝盾V7": 46030, "红杉V2": 233787, "绿箭V12": 0},
+    "actual_fwd_5d_top5": {"蓝盾": 0.496, "绿箭": 0.476},
+    "actual_fwd_20d_top5": {"蓝盾": 0.391, "绿箭": 0.423},
+    "ic_5d": -0.0234,
+    "ic_20d": -0.0265
+  },
+  "diagnosis": {
+    "root_cause": "模型62%靠宏观+33%靠技术动量，Top10特征全是宏观，0个区分个股",
+    "macro_importance": 0.62,
+    "tech_importance": 0.33,
+    "fund_importance": 0.05,
+    "cross_sectional_features": 0,
+    "detail": "memory-archive/research/us-model-optimization-roadmap.md"
+  },
+  "verified_dead_ends": [
+    "零成本特征工程（板块相对强度/截面排名/成交量异常）→ 预测力<0.3%",
+    "去掉宏观特征 → Top5%从+2.05%降到-0.03%",
+    "Regime切换策略 → 累计44.5% < 纯动量53.2%"
+  ],
+  "current_phase": "Phase 2",
+  "phases": [
+    {
+      "id": "Phase 1",
+      "name": "零成本特征工程",
+      "status": "verified_not_viable",
+      "timeline": "已验证",
+      "note": "板块相对强度/截面排名等特征预测力太弱（<0.3%差距），不能改善模型",
+      "actions": [
+        {"task": "板块相对强度特征", "done": true, "result": "差距+0.15%，不可行"},
+        {"task": "截面排名特征", "done": true, "result": "差距+0.19%，不可行"},
+        {"task": "成交量异常", "done": true, "result": "差距-0.24%，不可行"},
+        {"task": "波动率regime", "done": true, "result": "差距+0.07%，不可行"}
+      ]
+    },
+    {
+      "id": "Phase 2",
+      "name": "外部数据接入（新闻情绪）",
+      "status": "pending_validation",
+      "timeline": "本周",
+      "goal": "验证EODHD新闻情绪是否有预测力，如果有→付费拉全量",
+      "actions": [
+        {"task": "小规模验证（3-5只大市值，6个月新闻）", "done": false, "note": "用免费tier 20次/天"},
+        {"task": "计算7日情绪均值与前瞻收益的IC", "done": false},
+        {"task": "如果IC>0.03 → 付费拉全量", "done": false},
+        {"task": "创建fetch_news_sentiment.py", "done": false}
+      ],
+      "success_criteria": "新闻情绪IC>0.03，Top5%胜率>52%",
+      "prerequisites": ["EODHD API key: 6a3b5b96b64a59.28667511", "Andy确认是否付费$19.99/月"]
+    },
+    {
+      "id": "Phase 3",
+      "name": "模型重训练（加入新闻情绪）",
+      "status": "pending",
+      "timeline": "第2-3周",
+      "goal": "用原特征+新闻情绪特征重训蓝盾V8+绿箭V13",
+      "actions": [
+        {"task": "合并新闻情绪特征到训练数据", "done": false},
+        {"task": "Walk-Forward 6折验证", "done": false},
+        {"task": "阈值自动校准", "file": "scripts/us/calibrate_thresholds.py", "done": false}
+      ],
+      "success_criteria": "WF Sharpe>1.5, Top5%实际胜率>55%",
+      "prerequisites": ["Phase 2验证通过"]
+    },
+    {
+      "id": "Phase 4",
+      "name": "持续监控",
+      "status": "pending",
+      "timeline": "长期",
+      "goal": "自动检测模型衰退，定期重校准阈值",
+      "actions": [
+        {"task": "模型衰退检测脚本", "done": false},
+        {"task": "每月自动校准cron", "done": false}
+      ]
+    }
+  ],
+  "shared_rules": {
+    "all_sessions_read_this": true,
+    "rule": "执行前读取此文件+memory-archive/research/us-model-optimization-roadmap.md+memory-archive/daily/2026-06-24.md",
+    "update_rule": "完成一项后done改为true。阶段全部完成后推进current_phase。",
+    "dead_ends": "Phase 1已验证不可行，不要重复尝试零成本特征工程"
+  }
+}

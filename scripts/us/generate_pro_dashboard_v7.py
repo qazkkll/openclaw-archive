@@ -17,12 +17,12 @@ v6 = load('output/v6_latest.json')
 v11 = load('output/v11_latest.json')
 held = load('output/held_scores.json')
 tracking = load('output/tracking_history.json')
-shield_meta = load('models/us/blueshield_v6_meta.json')
+shield_meta = load('models/us/blueshield_v8_meta.json')
 
 # CN Redwood data
 cn_signal = load('signals/cn/latest_xgb.json')
 cn_prod = load('models/cn/production.json')
-arrow_meta = load('models/us/arrow_v11_meta.json')
+arrow_meta = load('models/us/arrow_v12_meta.json')
 
 positions = futu.get('positions', [])
 shield_pos = [p for p in positions if p.get('cost_price',0) > 10]

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 美股综合评分报告
-蓝盾V6(>$10) + 绿箭V11($1-$10) + 持仓分类 + 信号说明
+蓝盾V8(>$10) + 绿箭V12($1-$10) + 持仓分类 + 信号说明
 """
 import json, os
 from datetime import datetime
@@ -42,9 +42,9 @@ def main():
     print(f'{vix_s}')
     print(f'持仓: {len(positions)}只 | 市值: ${futu.get("total_value",0):,.0f} | 盈亏: ${futu.get("total_pnl",0):+,.0f}({futu.get("total_pnl_pct",0):+.1f}%)')
     
-    # ── 蓝盾V6持仓 ──
+    # ── 蓝盾V8持仓 ──
     print(f'\n{"─"*60}')
-    print(f'🛡️ 蓝盾V6持仓 ({len(shield_pos)}只, 持有20天, 止损-15%)')
+    print(f'🛡️ 蓝盾V8持仓 ({len(shield_pos)}只, 持有20天, 止损-15%)')
     print(f'{"─"*60}')
     if shield_pos:
         for p in sorted(shield_pos, key=lambda x: x['pnl_pct'], reverse=True):
@@ -64,9 +64,9 @@ def main():
     else:
         print('  (无蓝盾持仓)')
     
-    # ── 绿箭V11持仓 ──
+    # ── 绿箭V12持仓 ──
     print(f'\n{"─"*60}')
-    print(f'🎯 绿箭V11持仓 ({len(arrow_pos)}只, 持有5天, 止损-10%)')
+    print(f'🎯 绿箭V12持仓 ({len(arrow_pos)}只, 持有5天, 止损-10%)')
     print(f'{"─"*60}')
     if arrow_pos:
         for p in sorted(arrow_pos, key=lambda x: x['pnl_pct'], reverse=True):
@@ -85,9 +85,9 @@ def main():
     else:
         print('  (无绿箭持仓)')
     
-    # ── 蓝盾V6今日推荐 ──
+    # ── 蓝盾V8今日推荐 ──
     print(f'\n{"─"*60}')
-    print(f'🛡️ 蓝盾V6今日推荐 (全市场>{len(v6.get("picks",[]))}只, Top-15)')
+    print(f'🛡️ 蓝盾V8今日推荐 (全市场>{len(v6.get("picks",[]))}只, Top-15)')
     print(f'{"─"*60}')
     v6_picks = v6.get('picks', [])
     if v6_picks:
@@ -104,9 +104,9 @@ def main():
     else:
         print('  (无推荐)')
     
-    # ── 绿箭V11今日推荐 ──
+    # ── 绿箭V12今日推荐 ──
     print(f'\n{"─"*60}')
-    print(f'🎯 绿箭V11今日推荐 ($1-$10, Top-5)')
+    print(f'🎯 绿箭V12今日推荐 ($1-$10, Top-5)')
     print(f'{"─"*60}')
     v11_picks = v11.get('picks', [])
     if v11_picks:

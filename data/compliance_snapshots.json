@@ -1,5 +1,18 @@
 {
-  "snapshots": [],
+  "snapshots": [
+    {
+      "total": 33,
+      "agent_compliance": 36.36363636363637,
+      "system_coverage": 100.0,
+      "agent_applied": 12,
+      "auto_inferred": 21,
+      "auto_default": 0,
+      "unknown": 0,
+      "close_review_violations": 2,
+      "date": "2026-06-24",
+      "timestamp": "2026-06-24T06:30:12.238369"
+    }
+  ],
   "meta": {
     "note": "重置：之前基于错误评分",
     "reset_date": "2026-06-24"

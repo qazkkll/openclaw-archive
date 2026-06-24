@@ -9,9 +9,9 @@ from collections import defaultdict
 ROOT = '/home/hermes/.hermes/openclaw-archive'
 random.seed(42)
 
-with open(os.path.join(ROOT, 'models/us/blueshield_v6_meta.json')) as f:
+with open(os.path.join(ROOT, 'models/us/blueshield_v8_meta.json')) as f:
     shield_meta = json.load(f)
-with open(os.path.join(ROOT, 'models/us/arrow_v11_meta.json')) as f:
+with open(os.path.join(ROOT, 'models/us/arrow_v12_meta.json')) as f:
     arrow_meta = json.load(f)
 
 SHIELD_STOCKS = ['AAPL','MSFT','NVDA','GOOGL','META','AMZN','TSLA','JPM','V','UNH',

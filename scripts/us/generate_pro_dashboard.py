@@ -13,8 +13,8 @@ def load(p):
 futu = load('output/futu_positions.json')
 v6 = load('output/v6_latest.json')
 v11 = load('output/v11_latest.json')
-shield_m = load('models/us/blueshield_v6_meta.json')
-arrow_m = load('models/us/arrow_v11_meta.json')
+shield_m = load('models/us/blueshield_v8_meta.json')
+arrow_m = load('models/us/arrow_v12_meta.json')
 
 tech = ['ma5','ma20','ma60','ma_bias20','ma_align','price_position','ret1','ret5','ret20','ret60','momentum_6m','momentum_1m','mom_divergence','trend_accel','vol20','vol5','vol_ratio','vol_change','rsi14','rsi_change','macd','macd_signal','macd_hist','bb_std','bb_width','bb_pos','ret_quality']
 macro_l = ['vix_close','spy_ret1','spy_ret5','spy_ret20','spy_ret60','qqq_ret1','qqq_ret5','qqq_ret20','qqq_ret60','iwm_ret1','iwm_ret5','iwm_ret20','iwm_ret60']

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "R3dd1de2f",
+    "target": "VIX",
+    "dir": "bearish",
+    "conf": 0.65,
+    "rec_price": 17.28,
+    "curr_price": 19.49,
+    "chg_pct": -12.79,
+    "status": "LOSS"
+  },
+  {
+    "id": "Rac20116d",
+    "target": "SPY",
+    "dir": "bullish",
+    "conf": 0.6,
+    "rec_price": 744.39,
+    "curr_price": 733.58,
+    "chg_pct": -1.45,
+    "status": "LOSS"
+  },
+  {
+    "id": "Rd7677a38",
+    "target": "QQQ",
+    "dir": "bullish",
+    "conf": 0.65,
+    "rec_price": 737.95,
+    "curr_price": 713.65,
+    "chg_pct": -3.29,
+    "status": "LOSS"
+  },
+  {
+    "id": "R0561918b",
+    "target": "SPY",
+    "dir": "neutral",
+    "conf": 0.55,
+    "rec_price": 733.58,
+    "curr_price": 733.58,
+    "chg_pct": 0.0,
+    "status": "FLAT"
+  },
+  {
+    "id": "R62bed8c1",
+    "target": "Semiconductor",
+    "dir": "bullish",
+    "conf": 0.65,
+    "rec_price": 622.05,
+    "curr_price": 622.05,
+    "chg_pct": -0.0,
+    "status": "FLAT"
+  },
+  {
+    "id": "Rd83637ca",
+    "target": "S&P 500",
+    "dir": "neutral",
+    "conf": 0.5,
+    "rec_price": 733.58,
+    "curr_price": 733.58,
+    "chg_pct": 0.0,
+    "status": "FLAT"
+  },
+  {
+    "id": "R3ebeeba5",
+    "target": "VIX",
+    "dir": "bearish",
+    "conf": 0.5,
+    "rec_price": 19.49,
+    "curr_price": 19.49,
+    "chg_pct": 0.0,
+    "status": "FLAT"
+  }
+]

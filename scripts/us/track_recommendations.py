@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 推荐追踪系统
-1. 读取蓝盾V6和绿箭V11的最新评分快照
+1. 读取蓝盾V8和绿箭V12的最新评分快照
 2. 保存为带元数据的推荐记录
 3. 每日更新当前价格、计算盈亏、标记过期
 4. 输出追踪数据供看板使用
@@ -24,15 +24,15 @@ LATEST_DIR = OUTPUT_DIR  # v6_latest.json, v11_latest.json
 
 # 推荐配置
 MODEL_CONFIG = {
-    'blueshield_v6': {
-        'name': '🛡️ 蓝盾V6',
+    'blueshield_v8': {
+        'name': '🛡️ 蓝盾V8',
         'hold_days': 20,
         'stop_loss': -0.15,  # -15% 止损
         'position_size': '按仓位比例',
         'universe': '>$10',
     },
-    'arrow_v11': {
-        'name': '🎯 绿箭V11',
+    'arrow_v12': {
+        'name': '🎯 绿箭V12',
         'hold_days': 5,
         'stop_loss': -0.10,  # -10% 止损
         'position_size': '$1000/只',
@@ -59,8 +59,8 @@ def save_recommendations(data):
 def load_latest(model_key):
     """加载最新评分"""
     file_map = {
-        'blueshield_v6': 'v6_latest.json',
-        'arrow_v11': 'v11_latest.json'
+        'blueshield_v8': 'v6_latest.json',
+        'arrow_v12': 'v11_latest.json'
     }
     path = os.path.join(LATEST_DIR, file_map.get(model_key, ''))
     if os.path.exists(path):
@@ -292,8 +292,8 @@ def main():
     args = parser.parse_args()
     
     if args.save or args.both:
-        save_snapshot('blueshield_v6')
-        save_snapshot('arrow_v11')
+        save_snapshot('blueshield_v8')
+        save_snapshot('arrow_v12')
     
     if args.update or args.both:
         update_prices()
@@ -314,8 +314,8 @@ def main():
                     print(f"{k}: {v}")
     elif not (args.save or args.update or args.both):
         # 默认：保存+更新+统计
-        save_snapshot('blueshield_v6')
-        save_snapshot('arrow_v11')
+        save_snapshot('blueshield_v8')
+        save_snapshot('arrow_v12')
         update_prices()
         stats = compute_stats()
         print(f"\n✅ 完成: {stats.get('total',0)}条记录, {stats.get('active',0)}条活跃")

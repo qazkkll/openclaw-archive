@@ -79,13 +79,13 @@ except:
 
 # 加载模型
 shield_model = xgb.Booster()
-shield_model.load_model(os.path.join(ROOT, 'models/us/blueshield_v6_xgb.json'))
-shield_meta = json.load(open(os.path.join(ROOT, 'models/us/blueshield_v6_meta.json')))
+shield_model.load_model(os.path.join(ROOT, 'models/us/blueshield_v8_xgb.json'))
+shield_meta = json.load(open(os.path.join(ROOT, 'models/us/blueshield_v8_meta.json')))
 shield_feats = shield_meta['features']
 
 arrow_model = xgb.Booster()
-arrow_model.load_model(os.path.join(ROOT, 'models/us/arrow_v11_xgb.json'))
-arrow_meta = json.load(open(os.path.join(ROOT, 'models/us/arrow_v11_meta.json')))
+arrow_model.load_model(os.path.join(ROOT, 'models/us/arrow_v12_xgb.json'))
+arrow_meta = json.load(open(os.path.join(ROOT, 'models/us/arrow_v12_meta.json')))
 arrow_feats = arrow_meta['features']
 
 # 获取最近2年的交易日（每周采样1天）

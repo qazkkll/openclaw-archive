@@ -68,8 +68,8 @@ except:
 
 # 加载模型
 model = xgb.Booster()
-model.load_model(os.path.join(ROOT, 'models/us/arrow_v11_xgb.json'))
-meta = json.load(open(os.path.join(ROOT, 'models/us/arrow_v11_meta.json')))
+model.load_model(os.path.join(ROOT, 'models/us/arrow_v12_xgb.json'))
+meta = json.load(open(os.path.join(ROOT, 'models/us/arrow_v12_meta.json')))
 feats = meta['features']
 
 # 获取所有交易日
