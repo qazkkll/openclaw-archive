@@ -1,0 +1,92 @@
+{
+  "experiment": "v8_baseline",
+  "config": {
+    "price_range": "blueshield",
+    "hold_days": 20,
+    "feat_set": "tech_macro"
+  },
+  "n_features": 40,
+  "wf": [
+    {
+      "fold": 0,
+      "ic": 0.0232,
+      "icir": 0.147,
+      "ic_pos": 0.521,
+      "spread": 1.57,
+      "best_iter": 2
+    },
+    {
+      "fold": 1,
+      "ic": 0.0638,
+      "icir": 0.314,
+      "ic_pos": 0.614,
+      "spread": 5.83,
+      "best_iter": 45
+    },
+    {
+      "fold": 2,
+      "ic": -0.0137,
+      "icir": -0.073,
+      "ic_pos": 0.476,
+      "spread": 1.8,
+      "best_iter": 5
+    },
+    {
+      "fold": 3,
+      "ic": 0.0342,
+      "icir": 0.253,
+      "ic_pos": 0.606,
+      "spread": 3.85,
+      "best_iter": 51
+    }
+  ],
+  "wf_summary": {
+    "ic": 0.0269,
+    "icir": 0.16,
+    "ic_pos": 0.554,
+    "spread": 3.26
+  },
+  "oos": {
+    "ic": 0.0382,
+    "icir": 0.31,
+    "ic_pos": 0.652,
+    "spread": 7.61,
+    "top5_avg": 8.46,
+    "top5_win": 85.2
+  },
+  "feature_importance": {
+    "spy_ret60": 6.75,
+    "ma5": 6.24,
+    "ma60": 4.77,
+    "ret60": 4.76,
+    "vix_close": 4.56,
+    "spy_ret1": 4.01,
+    "ma20": 3.95,
+    "spy_ret20": 3.92,
+    "price_position": 3.84,
+    "macd_signal": 3.75,
+    "macd_hist": 3.72,
+    "ret20": 3.68,
+    "ret_quality": 3.68,
+    "vol_ratio": 3.45,
+    "spy_ret5": 3.44,
+    "momentum_6m": 3.4,
+    "vol_change": 3.31,
+    "bb_std": 2.94,
+    "bb_width": 2.63,
+    "momentum_1m": 2.46,
+    "bb_pos": 2.35,
+    "vol20": 2.32,
+    "macd": 2.23,
+    "rsi_change": 2.1,
+    "mom_divergence": 1.98,
+    "rsi14": 1.95,
+    "ma_bias20": 1.7,
+    "vol5": 1.39,
+    "ma_align": 1.37,
+    "ret5": 1.16,
+    "trend_accel": 1.09,
+    "ret1": 1.09
+  },
+  "timestamp": "2026-06-25 09:23:18"
+}

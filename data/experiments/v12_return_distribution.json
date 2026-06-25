@@ -1,0 +1,50 @@
+{
+  "total": {
+    "n": 54162,
+    "mean": 9.72,
+    "median": -0.83,
+    "std": 596.82,
+    "win_rate": 46.1,
+    "small_win_5pct": 33.3,
+    "mid_win_10pct": 23.6,
+    "big_win_20pct": 12.7,
+    "explosion_50pct": 3.86,
+    "small_loss_5pct": 37.0,
+    "big_loss_10pct": 23.6,
+    "max_gain": 102359.0,
+    "max_loss": -97.1
+  },
+  "2024": {
+    "n": 20461,
+    "mean": 18.76,
+    "win_rate": 48.2,
+    "small_win_5pct": 33.9,
+    "mid_win_10pct": 23.5,
+    "big_win_20pct": 12.4,
+    "explosion_50pct": 3.47,
+    "small_loss_5pct": 33.5,
+    "big_loss_10pct": 19.9
+  },
+  "2025": {
+    "n": 22556,
+    "mean": 3.71,
+    "win_rate": 45.8,
+    "small_win_5pct": 33.5,
+    "mid_win_10pct": 23.8,
+    "big_win_20pct": 12.4,
+    "explosion_50pct": 3.69,
+    "small_loss_5pct": 37.7,
+    "big_loss_10pct": 24.4
+  },
+  "2026": {
+    "n": 11145,
+    "mean": 5.28,
+    "win_rate": 42.9,
+    "small_win_5pct": 31.7,
+    "mid_win_10pct": 23.5,
+    "big_win_20pct": 13.8,
+    "explosion_50pct": 4.91,
+    "small_loss_5pct": 42.1,
+    "big_loss_10pct": 29.0
+  }
+}

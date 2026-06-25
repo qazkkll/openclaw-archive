@@ -1,0 +1,28 @@
+{
+  "experiment": "v6_audit",
+  "method": "OOS 2024-2026, 3000 sampled, >0",
+  "n_features": 44,
+  "note": "\u57fa\u672c\u9762\u7279\u5f81(pe/div/beta)\u75280\u5360\u4f4d,\u7ed3\u679c\u53ef\u80fd\u4f4e\u4e8eV6\u539f\u59cb\u9a8c\u8bc1",
+  "oos": {
+    "ic": 0.0317,
+    "icir": 0.219,
+    "ic_pos": 0.556,
+    "spread": 1.73,
+    "top5_avg": 3.6,
+    "top5_win": 76.9
+  },
+  "yearly": {
+    "2024": {
+      "ic": 0.0387,
+      "n_days": 252
+    },
+    "2025": {
+      "ic": 0.0264,
+      "n_days": 250
+    },
+    "2026": {
+      "ic": 0.0271,
+      "n_days": 99
+    }
+  }
+}

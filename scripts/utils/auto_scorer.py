@@ -93,7 +93,7 @@ def score_one(rec: dict, dry_run: bool = False, score_1day: bool = False) -> dic
     
     if not date or not target:
         return None
-    if target == '大盘':
+    if target in ('大盘', 'A股大盘', '美股大盘'):
         return None
     
     ticker = to_yahoo_ticker(target)
@@ -193,7 +193,7 @@ def main():
         rec_date = r.get('date', '')
         if rec_date >= today_str:
             continue
-        if r.get('target') == '大盘':
+        if r.get('target') in ('大盘', 'A股大盘', '美股大盘'):
             continue
         pending.append(r)
     
@@ -239,7 +239,7 @@ def main():
     
     all_scored = [r for r in recs if r.get('status') == 'scored']
     if all_scored:
-        correct = sum(1 for r in all_scored if r.get('score', 0) >= 0.5)
+        correct = sum(1 for r in all_scored if (r.get('score') or 0) >= 0.5)
         print(f"\n📈 累计统计: {len(all_scored)}条已评分, 命中{correct}/{len(all_scored)} = {correct/len(all_scored)*100:.1f}%")
 
 if __name__ == '__main__':

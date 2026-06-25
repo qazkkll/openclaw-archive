@@ -2,29 +2,32 @@
     "_comment": "Hermes Trading System Config v5 — 蓝盾V6(US) + rule-alpha-v1.0(CN) 2026-06-21",
     "models": {
         "shield": {
-            "name": "蓝盾V6",
-            "type": "xgboost_ranking",
-            "version": "V6",
-            "model_file": "models/us/blueshield_v6_xgb.json",
-            "description": "XGBoost排名模型, 44维特征(技术27+宏观13+基本面4), 20天Top-15, 全市场>$10",
-            "features": 44,
+            "name": "蓝盾V10",
+            "type": "lightgbm_quantile",
+            "version": "V10",
+            "model_file": "models/us/blueshield_lgb_v9_quantile_lgb.txt",
+            "description": "LightGBM分位回归, 43维特征(27技术+13扩展+3基本面), 10天Top-30, 全市场>$10, WF ICIR=0.734",
+            "features": 43,
             "feature_breakdown": {
                 "technical": 27,
-                "macro": 13,
-                "fundamental": 4
+                "extended": 13,
+                "fundamental": 3
             },
-            "top_n": 15,
-            "hold_days": 20,
-            "universe": "全市场>$10 (2359只)",
+            "top_n": 30,
+            "hold_days": 10,
+            "stop_loss": -0.05,
+            "universe": "全市场>$10 (~4300只)",
             "retrain_frequency": "6个月",
             "train_window": "3年",
             "validation": {
-                "method": "Walk-Forward 5折 + 样本外2024-2026",
-                "oos_annual_return": 30.1,
-                "oos_sharpe": 1.44,
-                "oos_max_dd": -11.1,
-                "oos_win_rate": 60,
-                "oos_trades": 30
+                "method": "Walk-Forward 5折 + 交易成本0.5%",
+                "wf_avg_sharpe": 3.253,
+                "wf_min_sharpe": 1.997,
+                "wf_oos_sharpe_2024_25": 3.158,
+                "wf_consistency": "100% (5/5 folds positive)",
+                "wf_avg_annual_return": "90.5%",
+                "wf_avg_max_dd": -11.85,
+                "survivorship_bias_note": "含成本后Sharpe仍高, 保守估计x0.5=1.6"
             },
             "signal_thresholds": {
                 "system": "three_layer_percentile",
@@ -38,24 +41,26 @@
             }
         },
         "arrow": {
-            "name": "绿箭V11",
-            "type": "xgboost_ranking",
-            "version": "V11",
-            "model_file": "models/us/arrow_v11_xgb.json",
-            "description": "XGBoost排名, 41维特征(技术28+宏观13), 5天Top-5, $1-$10彩票股",
-            "features": 41,
-            "top_n": 5,
-            "hold_days": 5,
-            "universe": "$1-$10 (1442只)",
-            "stop_loss": -0.1,
-            "cost_per_trade": 0.001,
+            "name": "绿箭V12",
+            "type": "lightgbm_regression",
+            "version": "V12",
+            "model_file": "models/us/arrow_v12_lgb_v12_10d_hold.txt",
+            "description": "LightGBM回归, 36维特征(27技术+价格+range+5宏观+2资金流), 20天Top-20, $1-$10, WF ICIR=2.005",
+            "features": 36,
+            "top_n": 20,
+            "hold_days": 20,
+            "universe": "$1-$10 (~1200只)",
+            "stop_loss": -0.15,
+            "cost_per_trade": 0.015,
             "retrain_frequency": "6个月",
             "validation": {
-                "method": "Walk-Forward 5折 + OOS 2024-2026",
-                "oos_avg_net_per_5d": 5.56,
-                "oos_win_rate": 50,
-                "oos_big50_rate": 4,
-                "oos_sharpe": 2.18
+                "method": "Walk-Forward 5折 + 交易成本1.5%",
+                "wf_avg_sharpe": 1.498,
+                "wf_min_sharpe": -0.708,
+                "wf_oos_sharpe_2024_25": 1.131,
+                "wf_consistency": "80% (4/5 folds positive)",
+                "wf_avg_annual_return": "66.2%",
+                "wf_avg_max_dd": -23.27
             },
             "signal_thresholds": {
                 "system": "three_layer_percentile",
@@ -123,13 +128,14 @@
     },
     "scoring": {
         "shield": {
-            "script": "scripts/us/blueshield_v6_score.py",
-            "top_n": 15,
-            "description": "每日扫描全市场>$10, 输出Top-15排名+信号分级"
+            "script": "scripts/us/blueshield_v9_score.py",
+            "top_n": 30,
+            "description": "每日扫描全市场>$10, 输出Top-30排名+信号分级"
         },
         "arrow": {
-            "top_n": 5,
-            "description": "低价股池, 彩票策略"
+            "script": "scripts/us/arrow_v11_score.py",
+            "top_n": 20,
+            "description": "低价股池, 彩票策略, 20天持有, -15%止损"
         },
         "cn_rule_alpha": {
             "script": "scripts/cn/gen_rule_signal.py",
@@ -154,8 +160,9 @@
         "shield": {
             "rebalance_days": 10,
             "position_sizing": "equal_weight",
-            "max_positions": 15,
-            "description": "10天轮换, 三层过滤(百分位Top5/10/20%), 市场过滤器(bear空仓/cautious半仓/bull满仓)",
+            "max_positions": 30,
+            "stop_loss": -0.05,
+            "description": "10天轮换, Top-30等权, -5%止损, 三层百分位过滤",
             "exit_rules": {
                 "rank_drop": "排名跌出0.70以下考虑卖出",
                 "macro_stop": "VIX>35且持仓Beta>1.5时清仓",
@@ -163,10 +170,11 @@
             }
         },
         "arrow": {
-            "rebalance_days": 5,
+            "rebalance_days": 20,
             "position_sizing": "equal_weight",
-            "max_positions": 5,
-            "description": "5天轮换, 三层过滤, 止损-10%, 梯度止盈"
+            "max_positions": 20,
+            "stop_loss": -0.15,
+            "description": "20天轮换, Top-20等权, -15%止损, 梯度止盈"
         },
         "cn_rule_alpha": {
             "rebalance_days": 10,

@@ -220,8 +220,8 @@ def stats(days=30):
     print(f"待评分: {len(pending)}")
     
     if scored:
-        avg_score = sum(r.get('score', 0) for r in scored) / len(scored)
-        correct = sum(1 for r in scored if r.get('score', 0) >= 0.5)
+        avg_score = sum((r.get('score') or 0) for r in scored) / len(scored)
+        correct = sum(1 for r in scored if (r.get('score') or 0) >= 0.5)
         print(f"平均分: {avg_score:.2f}")
         print(f"命中率: {correct}/{len(scored)} = {correct/len(scored)*100:.1f}%")
         
@@ -229,7 +229,7 @@ def stats(days=30):
         by_source = {}
         for r in scored:
             src = r.get('source', 'unknown')
-            by_source.setdefault(src, []).append(r.get('score', 0))
+            by_source.setdefault(src, []).append((r.get('score') or 0))
         print(f"\n按来源:")
         for src, scores in sorted(by_source.items()):
             avg = sum(scores) / len(scores)
@@ -240,7 +240,7 @@ def stats(days=30):
         by_dir = {}
         for r in scored:
             d = r.get('direction', 'unknown')
-            by_dir.setdefault(d, []).append(r.get('score', 0))
+            by_dir.setdefault(d, []).append((r.get('score') or 0))
         print(f"\n按方向:")
         for d, scores in sorted(by_dir.items()):
             avg = sum(scores) / len(scores)
@@ -266,8 +266,8 @@ def analyze_patterns(days=30):
     for lo, hi in brackets:
         bracket = [r for r in scored if lo <= r.get('confidence', 0) < hi]
         if bracket:
-            avg_score = sum(r.get('score', 0) for r in bracket) / len(bracket)
-            hit = sum(1 for r in bracket if r.get('score', 0) >= 0.5)
+            avg_score = sum((r.get('score') or 0) for r in bracket) / len(bracket)
+            hit = sum(1 for r in bracket if (r.get('score') or 0) >= 0.5)
             print(f"  置信度{lo:.1f}-{hi:.1f}: {len(bracket)}条, 命中率{hit/len(bracket)*100:.0f}%, 实际均分{avg_score:.2f}")
     
     # 2. 按标的特征
@@ -281,14 +281,14 @@ def analyze_patterns(days=30):
     for d in ['bullish', 'bearish', 'neutral']:
         dir_recs = [r for r in scored if r.get('direction') == d]
         if dir_recs:
-            correct = sum(1 for r in dir_recs if r.get('score', 0) >= 0.5)
+            correct = sum(1 for r in dir_recs if (r.get('score') or 0) >= 0.5)
             print(f"  {d}: {correct}/{len(dir_recs)} = {correct/len(dir_recs)*100:.0f}%")
     
     # 4. source vs accuracy
     print("\n【来源准确性】")
     for src in set(r.get('source','') for r in scored):
         src_recs = [r for r in scored if r.get('source') == src]
-        correct = sum(1 for r in src_recs if r.get('score', 0) >= 0.5)
+        correct = sum(1 for r in src_recs if (r.get('score') or 0) >= 0.5)
         print(f"  {src}: {correct}/{len(src_recs)} = {correct/len(src_recs)*100:.0f}%")
 
 def backfill():

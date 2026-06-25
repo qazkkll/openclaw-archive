@@ -1,0 +1,9 @@
+{
+  "test1_feature_consistency": "FAIL",
+  "test2_model_load": "PASS",
+  "test3_feature_computation": "FAIL",
+  "test4_prediction": "FAIL",
+  "test5_end_to_end": "PASS",
+  "test6_signal_classification": "PASS",
+  "test7_output_format": "PASS"
+}

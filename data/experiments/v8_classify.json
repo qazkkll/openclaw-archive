@@ -1,0 +1,58 @@
+{
+  "experiment": "v8_classify",
+  "config": {
+    "price_range": "blueshield",
+    "hold_days": 20,
+    "feat_set": "tech_macro",
+    "objective": "binary:logistic"
+  },
+  "n_features": 40,
+  "wf": [
+    {
+      "fold": 0,
+      "ic": 0.2028,
+      "icir": 2.333,
+      "ic_pos": 0.974,
+      "spread": 27.45,
+      "best_iter": 52
+    },
+    {
+      "fold": 1,
+      "ic": 0.1957,
+      "icir": 1.824,
+      "ic_pos": 0.926,
+      "spread": 26.03,
+      "best_iter": 65
+    },
+    {
+      "fold": 2,
+      "ic": 0.2172,
+      "icir": 2.03,
+      "ic_pos": 0.968,
+      "spread": 29.74,
+      "best_iter": 187
+    },
+    {
+      "fold": 3,
+      "ic": 0.1995,
+      "icir": 1.906,
+      "ic_pos": 0.934,
+      "spread": 24.61,
+      "best_iter": 72
+    }
+  ],
+  "wf_summary": {
+    "ic": 0.2038,
+    "icir": 2.023,
+    "ic_pos": 0.95
+  },
+  "oos": {
+    "ic": 0.2835,
+    "icir": 3.223,
+    "ic_pos": 1.0,
+    "spread": 41.08,
+    "top5_avg": 47.82,
+    "top5_win": 100.0
+  },
+  "timestamp": "2026-06-25 09:26:00"
+}

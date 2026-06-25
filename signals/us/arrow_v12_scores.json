@@ -1,66 +1,66 @@
 {
-  "timestamp": "2026-06-25 02:54",
-  "model": "arrow_v12",
-  "total": 1412,
+  "timestamp": "2026-06-26 02:52",
+  "model": "arrow_v12_lgb",
+  "total": 1400,
   "picks": [
     {
-      "ticker": "RKTO",
-      "price": 1.03,
-      "pred_rank": 0.7183,
+      "ticker": "HAO",
+      "price": 1.11,
+      "pred_rank": 0.8411,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
-      "ticker": "CRMT",
-      "price": 3.86,
-      "pred_rank": 0.1702,
+      "ticker": "EZGO",
+      "price": 1.42,
+      "pred_rank": 0.76,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
-      "ticker": "TDIC",
-      "price": 6.43,
-      "pred_rank": 0.1614,
+      "ticker": "HUBC",
+      "price": 1.56,
+      "pred_rank": 0.4919,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
-      "ticker": "GDC",
-      "price": 1.24,
-      "pred_rank": 0.1576,
-      "signal": "\ud83d\udfe2\ud83d\udfe2"
-    },
-    {
-      "ticker": "CPSH",
-      "price": 5.81,
-      "pred_rank": 0.1428,
-      "signal": "\ud83d\udfe2\ud83d\udfe2"
-    },
-    {
-      "ticker": "FLYT",
-      "price": 9.39,
-      "pred_rank": 0.1391,
+      "ticker": "VRXA",
+      "price": 2.3,
+      "pred_rank": 0.4583,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
       "ticker": "VCIG",
-      "price": 4.3,
-      "pred_rank": 0.1333,
+      "price": 4.5,
+      "pred_rank": 0.3422,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
-      "ticker": "CODX",
-      "price": 3.23,
-      "pred_rank": 0.1261,
+      "ticker": "NIQ",
+      "price": 8.2,
+      "pred_rank": 0.2526,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
-      "ticker": "MNTS",
-      "price": 8.23,
-      "pred_rank": 0.1252,
+      "ticker": "BYAH",
+      "price": 1.25,
+      "pred_rank": 0.2222,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
-      "ticker": "SOXS",
-      "price": 4.04,
-      "pred_rank": 0.124,
+      "ticker": "PRFX",
+      "price": 1.41,
+      "pred_rank": 0.1888,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "VMAR",
+      "price": 1.96,
+      "pred_rank": 0.1703,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "MTEN",
+      "price": 1.78,
+      "pred_rank": 0.1554,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     }
   ]

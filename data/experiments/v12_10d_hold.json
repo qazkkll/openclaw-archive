@@ -1,0 +1,137 @@
+{
+  "experiment": "v12_10d_hold",
+  "config": {
+    "price_range": "arrow",
+    "hold_days": 10,
+    "feat_set": "tech_macro",
+    "objective": "reg:squarederror"
+  },
+  "n_features": 40,
+  "n_samples": 3074216,
+  "features": [
+    "ma5",
+    "ma20",
+    "ma60",
+    "ma_bias20",
+    "ma_align",
+    "price_position",
+    "ret1",
+    "ret5",
+    "ret20",
+    "ret60",
+    "momentum_6m",
+    "momentum_1m",
+    "mom_divergence",
+    "trend_accel",
+    "vol20",
+    "vol5",
+    "vol_ratio",
+    "vol_change",
+    "rsi14",
+    "rsi_change",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "bb_std",
+    "bb_width",
+    "bb_pos",
+    "ret_quality",
+    "vix_close",
+    "spy_ret1",
+    "spy_ret5",
+    "spy_ret20",
+    "spy_ret60",
+    "qqq_ret1",
+    "qqq_ret5",
+    "qqq_ret20",
+    "qqq_ret60",
+    "iwm_ret1",
+    "iwm_ret5",
+    "iwm_ret20",
+    "iwm_ret60"
+  ],
+  "wf": [
+    {
+      "fold": 0,
+      "ic": 0.0425,
+      "icir": 0.436,
+      "ic_pos": 0.695,
+      "spread": 4.47,
+      "n_days": 374,
+      "best_iter": 2,
+      "period": "2018-01-18~2019-07-15"
+    },
+    {
+      "fold": 1,
+      "ic": 0.0705,
+      "icir": 0.821,
+      "ic_pos": 0.848,
+      "spread": 5.46,
+      "n_days": 374,
+      "best_iter": 13,
+      "period": "2019-07-16~2021-01-06"
+    },
+    {
+      "fold": 2,
+      "ic": 0.0456,
+      "icir": 0.296,
+      "ic_pos": 0.658,
+      "spread": 5.83,
+      "n_days": 374,
+      "best_iter": 1,
+      "period": "2021-01-07~2022-07-01"
+    },
+    {
+      "fold": 3,
+      "ic": 0.0801,
+      "icir": 1.285,
+      "ic_pos": 0.89,
+      "spread": 9.75,
+      "n_days": 374,
+      "best_iter": 84,
+      "period": "2022-07-05~2023-12-27"
+    }
+  ],
+  "wf_summary": {
+    "ic": 0.0597,
+    "icir": 0.71,
+    "ic_pos": 0.773,
+    "spread": 6.38
+  },
+  "oos": {
+    "ic": 0.0938,
+    "icir": 1.637,
+    "ic_pos": 0.941,
+    "spread": 15.64,
+    "top5_avg": 12.44,
+    "top5_win": 76.7,
+    "n_days": 610,
+    "yearly": {
+      "2024": {
+        "ic": 0.0989,
+        "n_days": 252
+      },
+      "2025": {
+        "ic": 0.0976,
+        "n_days": 250
+      },
+      "2026": {
+        "ic": 0.0729,
+        "n_days": 108
+      }
+    }
+  },
+  "best_iter": 200,
+  "params": {
+    "objective": "reg:squarederror",
+    "max_depth": 6,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 10,
+    "tree_method": "hist",
+    "seed": 42,
+    "verbosity": 0
+  },
+  "timestamp": "2026-06-25 08:54:51"
+}

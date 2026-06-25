@@ -1,0 +1,138 @@
+{
+  "experiment": "v12_classify",
+  "config": {
+    "price_range": "arrow",
+    "hold_days": 5,
+    "feat_set": "tech_macro",
+    "objective": "binary:logistic"
+  },
+  "n_features": 40,
+  "n_samples": 3084186,
+  "features": [
+    "ma5",
+    "ma20",
+    "ma60",
+    "ma_bias20",
+    "ma_align",
+    "price_position",
+    "ret1",
+    "ret5",
+    "ret20",
+    "ret60",
+    "momentum_6m",
+    "momentum_1m",
+    "mom_divergence",
+    "trend_accel",
+    "vol20",
+    "vol5",
+    "vol_ratio",
+    "vol_change",
+    "rsi14",
+    "rsi_change",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "bb_std",
+    "bb_width",
+    "bb_pos",
+    "ret_quality",
+    "vix_close",
+    "spy_ret1",
+    "spy_ret5",
+    "spy_ret20",
+    "spy_ret60",
+    "qqq_ret1",
+    "qqq_ret5",
+    "qqq_ret20",
+    "qqq_ret60",
+    "iwm_ret1",
+    "iwm_ret5",
+    "iwm_ret20",
+    "iwm_ret60"
+  ],
+  "wf": [
+    {
+      "fold": 0,
+      "ic": 0.1721,
+      "icir": 2.323,
+      "ic_pos": 0.965,
+      "spread": 26.68,
+      "n_days": 374,
+      "best_iter": 52,
+      "period": "2018-01-18~2019-07-15"
+    },
+    {
+      "fold": 1,
+      "ic": 0.1485,
+      "icir": 1.774,
+      "ic_pos": 0.944,
+      "spread": 23.52,
+      "n_days": 374,
+      "best_iter": 46,
+      "period": "2019-07-16~2021-01-06"
+    },
+    {
+      "fold": 2,
+      "ic": 0.1398,
+      "icir": 1.4,
+      "ic_pos": 0.952,
+      "spread": 21.91,
+      "n_days": 374,
+      "best_iter": 64,
+      "period": "2021-01-07~2022-07-01"
+    },
+    {
+      "fold": 3,
+      "ic": 0.1282,
+      "icir": 2.252,
+      "ic_pos": 0.976,
+      "spread": 20.41,
+      "n_days": 374,
+      "best_iter": 124,
+      "period": "2022-07-05~2023-12-27"
+    }
+  ],
+  "wf_summary": {
+    "ic": 0.1472,
+    "icir": 1.937,
+    "ic_pos": 0.959,
+    "spread": 23.13
+  },
+  "oos": {
+    "ic": 0.1352,
+    "icir": 2.262,
+    "ic_pos": 0.985,
+    "spread": 21.52,
+    "top5_avg": 43.39,
+    "top5_win": 100.0,
+    "n_days": 615,
+    "yearly": {
+      "2024": {
+        "ic": 0.1437,
+        "n_days": 252
+      },
+      "2025": {
+        "ic": 0.1306,
+        "n_days": 250
+      },
+      "2026": {
+        "ic": 0.1262,
+        "n_days": 113
+      }
+    }
+  },
+  "best_iter": 200,
+  "params": {
+    "objective": "binary:logistic",
+    "max_depth": 6,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 10,
+    "tree_method": "hist",
+    "seed": 42,
+    "verbosity": 0,
+    "eval_metric": "logloss"
+  },
+  "timestamp": "2026-06-25 09:01:03"
+}

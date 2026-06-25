@@ -11,6 +11,18 @@
       "close_review_violations": 2,
       "date": "2026-06-24",
       "timestamp": "2026-06-24T06:30:12.238369"
+    },
+    {
+      "total": 44,
+      "agent_compliance": 52.27272727272727,
+      "system_coverage": 100.0,
+      "agent_applied": 23,
+      "auto_inferred": 21,
+      "auto_default": 0,
+      "unknown": 0,
+      "close_review_violations": 2,
+      "date": "2026-06-25",
+      "timestamp": "2026-06-25T06:30:35.350533"
     }
   ],
   "meta": {

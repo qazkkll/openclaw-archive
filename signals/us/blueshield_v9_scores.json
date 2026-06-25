@@ -1,0 +1,188 @@
+{
+  "timestamp": "2026-06-26 00:10",
+  "model": "blueshield_v9_lgb",
+  "version": "v9",
+  "total": 4361,
+  "picks": [
+    {
+      "ticker": "MUD",
+      "price": 11.11,
+      "pred_rank": 0.0587,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "SAMG",
+      "price": 10.27,
+      "pred_rank": 0.0523,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "OTF",
+      "price": 10.22,
+      "pred_rank": 0.0506,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "CRGY",
+      "price": 10.17,
+      "pred_rank": 0.0484,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "GDXY",
+      "price": 10.03,
+      "pred_rank": 0.0463,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "VITL",
+      "price": 11.11,
+      "pred_rank": 0.0439,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "BRBR",
+      "price": 11.91,
+      "pred_rank": 0.0429,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "STRC",
+      "price": 80.84,
+      "pred_rank": 0.0421,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "ICOI",
+      "price": 10.07,
+      "pred_rank": 0.0414,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "SSL",
+      "price": 10.5,
+      "pred_rank": 0.0411,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "HCKT",
+      "price": 10.54,
+      "pred_rank": 0.039,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "OLMA",
+      "price": 11.14,
+      "pred_rank": 0.0385,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "INFY",
+      "price": 10.93,
+      "pred_rank": 0.035,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "NXE",
+      "price": 10.07,
+      "pred_rank": 0.0349,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "SMCX",
+      "price": 11.11,
+      "pred_rank": 0.0347,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "XOMO",
+      "price": 10.55,
+      "pred_rank": 0.0344,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "MSFO",
+      "price": 10.35,
+      "pred_rank": 0.0342,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "LBTYK",
+      "price": 10.72,
+      "pred_rank": 0.0337,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "VREX",
+      "price": 10.37,
+      "pred_rank": 0.0313,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "SHPU",
+      "price": 11.2,
+      "pred_rank": 0.0305,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "VG",
+      "price": 10.51,
+      "pred_rank": 0.0304,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "PATH",
+      "price": 10.31,
+      "pred_rank": 0.0304,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "AHCO",
+      "price": 10.03,
+      "pred_rank": 0.0298,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "FVRR",
+      "price": 10.58,
+      "pred_rank": 0.0292,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "XRAY",
+      "price": 10.52,
+      "pred_rank": 0.0292,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "CODI",
+      "price": 10.15,
+      "pred_rank": 0.0287,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "SSG",
+      "price": 12.52,
+      "pred_rank": 0.0287,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "UXRP",
+      "price": 10.18,
+      "pred_rank": 0.0286,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "OMER",
+      "price": 10.58,
+      "pred_rank": 0.0283,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "AXIA",
+      "price": 10.43,
+      "pred_rank": 0.0275,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    }
+  ]
+}

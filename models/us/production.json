@@ -2,108 +2,116 @@
   "market": "us",
   "updated": "2026-06-25",
   "active_models": {
-    "blueshield_v8": {
-      "name": "蓝盾V8 (BlueShield)",
-      "type": "xgboost",
-      "version": "V8",
-      "status": "production",
-      "description": "XGBoost二分类, 29维特征(技术27+vix_close+spy_ret20), 20天持有, 全市场>$10",
-      "model_file": "models/us/blueshield_v8_xgb.json",
-      "meta_file": "models/us/blueshield_v8_meta.json",
-      "score_script": "scripts/us/blueshield_v8_score.py",
-      "features": 29,
-      "feature_breakdown": {
-        "technical": 27,
-        "macro": 2,
-        "fundamental": 0
-      },
-      "top_n": 15,
-      "hold_days": 20,
-      "universe": "全市场>$10 (4368只)",
-      "stop_loss": -0.15,
-      "retrain_frequency": "6个月",
-      "metrics": {
-        "ic": 0.055,
-        "icir": 0.271,
-        "monthly_ic_pos": "71%",
-        "top5_win_rate": "50.7%",
-        "top5_avg_ret": "+4.63%"
-      },
-      "signal_system": "three_layer_percentile",
-      "signal_thresholds": {
-        "L1_vix_filter": "VIX > 30 → 关闭所有信号",
-        "L2_absolute": "分数必须 > 当日中位数",
-        "L3_percentile": {
-          "green2": {"percentile": 95, "absolute": 0.55, "label": "🟢🟢精品买入", "action": "马上下单"},
-          "green1": {"percentile": 90, "absolute": 0.50, "label": "🟢强信号", "action": "主力信号"},
-          "observe": {"percentile": 80, "absolute": 0.45, "label": "🟡观察", "action": "不买，放watchlist"}
-        }
-      }
-    },
     "arrow_v12": {
       "name": "绿箭V12 (GreenArrow)",
-      "type": "xgboost",
-      "version": "V12",
+      "type": "lightgbm",
+      "version": "V12-LGB",
       "status": "production",
-      "description": "XGBoost二分类, 42维特征(29技术+价格+range_pct+13宏观), 5天持有, $1-$10",
-      "model_file": "models/us/arrow_v12_xgb.json",
-      "meta_file": "models/us/arrow_v12_meta.json",
+      "description": "LightGBM回归, 36维特征(29技术+价格+range+2资金流+5宏观), 10天持有, $1-$10",
+      "model_file": "models/us/arrow_v12_lgb_v12_10d_hold.txt",
+      "meta_file": "models/us/arrow_v12_lgb_meta.json",
       "score_script": "scripts/us/arrow_v11_score.py",
-      "features": 42,
+      "features": 36,
       "top_n": 5,
-      "hold_days": 5,
-      "universe": "$1-$10 (1412只)",
-      "stop_loss": -0.10,
+      "hold_days": 10,
+      "universe": "$1-$10",
+      "stop_loss": -0.1,
       "retrain_frequency": "6个月",
       "metrics": {
-        "ic": 0.013,
-        "icir": 0.092,
-        "monthly_ic_pos": "61.1%",
-        "top5_win_rate": "46.4%",
-        "note": "⚠️ 原ICIR=0.573有数据泄漏, 0.092是真实OOS"
+        "ic": 0.106,
+        "icir": 2.005,
+        "ic_pos": "96.9%",
+        "note": "LGBM重训, 10天持有最优"
       },
       "signal_system": "three_layer_percentile",
       "signal_thresholds": {
         "L1_vix_filter": "VIX > 30 → 关闭所有信号",
         "L2_absolute": "分数必须 > 当日中位数",
         "L3_percentile": {
-          "green2": {"percentile": 95, "absolute": 0.50, "label": "🟢🟢精品买入", "action": "马上下单, 每只$2000"},
+          "green2": {"percentile": 95, "absolute": 0.5, "label": "🟢🟢精品买入", "action": "马上下单, 每只$2000"},
           "green1": {"percentile": 90, "absolute": 0.42, "label": "🟢强信号", "action": "可买, 每只$1000"},
           "observe": {"percentile": 80, "absolute": 0.35, "label": "🟡观察", "action": "不买"}
         }
       }
+    },
+    "blueshield_v10": {
+      "name": "蓝盾V10 (BlueShield)",
+      "type": "lightgbm",
+      "version": "V10-LGB",
+      "status": "production",
+      "description": "LightGBM分位回归, 43维特征(27技术+13价量衍生+3基本面), 20天持有, 全市场>$10",
+      "model_file": "models/us/blueshield_lgb_v9_quantile_lgb.txt",
+      "meta_file": "models/us/blueshield_v10_meta.json",
+      "score_script": "scripts/us/blueshield_v9_score.py",
+      "features": 43,
+      "feature_breakdown": {
+        "technical": 27,
+        "extended_price_volume": 13,
+        "fundamental": 3
+      },
+      "top_n": 15,
+      "hold_days": 20,
+      "universe": "全市场>$10",
+      "stop_loss": -0.15,
+      "retrain_frequency": "6个月",
+      "metrics": {
+        "ic": 0.0743,
+        "icir": 0.734,
+        "ic_pos": "75%",
+        "top15_win": "99.5%",
+        "top15_spread": "19.4%",
+        "note": "LGBM分位回归, 比V9 XGBoost提升117%"
+      }
     }
   },
   "archive": {
+    "blueshield_v9": {
+      "name": "蓝盾V9 (已归档)",
+      "status": "archived",
+      "location": "models/us/blueshield_v9_xgb.json",
+      "description": "XGBoost 44维特征, ICIR=0.338, XGBoost在WSL2上segfault无法运行"
+    },
+    "blueshield_v8": {
+      "name": "蓝盾V8 (已归档)",
+      "status": "archived",
+      "location": "models/us/blueshield_v8_xgb.json",
+      "description": "29维特征, ICIR=0.310"
+    },
     "blueshield_v7": {
       "name": "蓝盾V7 (已归档)",
       "status": "archived",
       "location": "models/us/blueshield_v7_xgb.json",
-      "description": "44维特征(27技术+13宏观+4基本面), 全市场重训练, ICIR虚高(内样本验证)"
+      "description": "44维特征, 全市场重训练"
     },
     "blueshield_v6": {
       "name": "蓝盾V6 (已归档)",
       "status": "archived",
       "location": "models/us/blueshield_v6_xgb.json",
-      "description": "44维特征, 2359只子集, S&P500有幸存者偏差"
+      "description": "44维特征, 2359只子集"
     },
     "arrow_v11": {
       "name": "绿箭V11 (已归档)",
       "status": "archived",
       "location": "models/us/archive/",
       "description": "41维特征, 已升级为V12"
+    },
+    "arrow_v12_xgb": {
+      "name": "绿箭V12 XGBoost (已归档)",
+      "status": "archived",
+      "location": "models/us/arrow_v12_xgb.json",
+      "description": "XGBoost 42维特征, ICIR=1.031, XGBoost在WSL2上segfault无法运行"
     }
   },
   "scoring": {
     "shield": {
-      "script": "scripts/us/blueshield_v8_score.py",
+      "script": "scripts/us/blueshield_v9_score.py",
       "top_n": 15,
-      "description": "每日扫描全市场>$10, 29维特征, 三层过滤信号分级"
+      "description": "每日扫描全市场>$10, 43维特征, LightGBM分位回归"
     },
     "arrow": {
       "script": "scripts/us/arrow_v11_score.py",
       "top_n": 5,
-      "description": "低价股池$1-$10, 42维特征, 三层过滤信号分级"
+      "description": "低价股池$1-$10, 36维特征(含资金流), LightGBM 10天持有"
     }
   },
   "strategy": {
@@ -111,24 +119,18 @@
       "rebalance_days": 20,
       "position_sizing": "equal_weight",
       "max_positions": 15,
-      "description": "20天轮换, 三层过滤(百分位Top5/10/20% + 绝对底线), VIX>30关闭信号",
+      "description": "20天轮换, 三层过滤信号, VIX>30关闭信号",
       "exit_rules": {
-        "three_layer_filter": "L1:VIX>30暂停 L2:>中位数 L3:Top5%=🟢🟢 Top10%=🟢 Top20%=🟡",
         "stop_loss": "从买入价跌>15%止损",
         "macro_stop": "VIX>35且持仓Beta>1.5时清仓"
       }
     },
     "arrow": {
-      "rebalance_days": 5,
+      "rebalance_days": 10,
       "position_sizing": "equal_weight",
       "max_positions": 5,
-      "description": "5天轮换, 三层过滤, 止损-10%, 梯度止盈(+20%→1/3, +40%→1/3, +60%→清仓)"
+      "description": "10天轮换, 止损-10%, 梯度止盈(+20%→1/3, +40%→1/3, +60%→清仓)"
     }
   },
-  "risk_rules": [
-    {"type": "sector_concentration", "threshold": 4, "message": "板块集中：{sector}占Top15的{count}席"},
-    {"type": "vix_spike", "threshold": 35, "message": "VIX>{threshold}·考虑减仓"},
-    {"type": "vix_shutdown", "threshold": 30, "message": "VIX>{threshold}·三层过滤L1触发·信号全部关闭"},
-    {"type": "drawdown", "threshold": 0.1, "message": "组合回撤>{threshold}·收紧止损"}
-  ]
+  "xgboost_warning": "XGBoost 1.7.6/2.x/3.x在WSL2上全部segfault(DMatrix C库crash). 所有模型已迁移至LightGBM 4.6.0."
 }
