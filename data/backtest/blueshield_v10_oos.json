@@ -1,0 +1,17 @@
+{
+  "model": "blueshield_v10",
+  "period": "2025-01-01 ~ OOS",
+  "top_n": 15,
+  "hold_days": 10,
+  "signal": "\ud83d\udfe2\ud83d\udfe2 (top 5%)",
+  "universe_filter": true,
+  "total_return_pct": 170510.4,
+  "annualized_return_pct": 16014.7,
+  "sharpe": 3.118,
+  "max_drawdown_pct": -71.5,
+  "win_rate_pct": 54.0,
+  "spy_return_pct": 27.6,
+  "excess_return_pct": 170482.8,
+  "universe_size": 9035,
+  "backtest_days": 369
+}

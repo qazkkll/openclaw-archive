@@ -1,0 +1,45 @@
+{
+  "model": "arrow_v12",
+  "features": [
+    "ret5",
+    "ret20",
+    "ret60",
+    "momentum_6m",
+    "momentum_1m",
+    "ma_bias20",
+    "vol20",
+    "vol_ratio",
+    "rsi14",
+    "macd_hist",
+    "bb_pos",
+    "price_position",
+    "beta_c",
+    "vix_close",
+    "spy_ret5",
+    "spy_ret20",
+    "spy_ret60"
+  ],
+  "n_features": 17,
+  "results": {
+    "2025": {
+      "ic": 0.011051532094704747,
+      "icir": 0.13805668346738834,
+      "top5": 0.007434557192027569,
+      "bot20": 0.0006854303646832705,
+      "mono": true,
+      "win": 0.576,
+      "time_s": 15.884175539016724
+    },
+    "2026": {
+      "ic": 0.015690056329385856,
+      "icir": 0.633781042816936,
+      "top5": 0.0024321761447936296,
+      "bot20": -0.0041414122097194195,
+      "mono": false,
+      "win": 0.7807017543859649,
+      "time_s": 15.637130737304688
+    }
+  },
+  "gpu": true,
+  "time_total_s": 40.528228521347046
+}

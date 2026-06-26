@@ -1,0 +1,19 @@
+{
+  "backtest": "V10 BlueShield Quantile Model (43 features, LightGBM)",
+  "period": "2025-01-01 to 2026-06-24",
+  "universe": "800 stocks (>$10, >$5M avg daily dollar volume, no leveraged ETFs)",
+  "model": "blueshield_lgb_v9_quantile_lgb.txt (217 trees)",
+  "spy_benchmark": {
+    "total_return": 0.276,
+    "sharpe": 1.02,
+    "max_drawdown": -0.188
+  },
+  "results": {
+    "hold5_fixed": {"total_return": 0.446, "sharpe": 1.00, "max_drawdown": -0.221, "win_rate": 0.550, "avg_profit": 0.0123, "trades": 958},
+    "hold10_fixed": {"total_return": 0.208, "sharpe": 0.57, "max_drawdown": -0.243, "win_rate": 0.557, "avg_profit": 0.0201, "trades": 447},
+    "hold15_fixed": {"total_return": 0.339, "sharpe": 0.78, "max_drawdown": -0.274, "win_rate": 0.543, "avg_profit": 0.0333, "trades": 276},
+    "hold20_fixed": {"total_return": 0.349, "sharpe": 0.81, "max_drawdown": -0.239, "win_rate": 0.584, "avg_profit": 0.0368, "trades": 209},
+    "hold10_trailing_stop": {"total_return": 0.590, "sharpe": 1.23, "max_drawdown": -0.192, "win_rate": 0.547, "avg_profit": 0.0153, "trades": 453, "exits": {"holding_period": 410, "stop_loss": 43}},
+    "hold10_rsi_bb": {"total_return": -0.105, "sharpe": -0.10, "max_drawdown": -0.302, "win_rate": 0.574, "avg_profit": 0.0207, "trades": 448, "exits": {"rsi_bb": 72, "holding_period": 376}}
+  }
+}

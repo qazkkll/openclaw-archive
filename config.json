@@ -1,214 +1,315 @@
 {
-    "_comment": "Hermes Trading System Config v5 — 蓝盾V6(US) + rule-alpha-v1.0(CN) 2026-06-21",
-    "models": {
-        "shield": {
-            "name": "蓝盾V10",
-            "type": "lightgbm_quantile",
-            "version": "V10",
-            "model_file": "models/us/blueshield_lgb_v9_quantile_lgb.txt",
-            "description": "LightGBM分位回归, 43维特征(27技术+13扩展+3基本面), 10天Top-30, 全市场>$10, WF ICIR=0.734",
-            "features": 43,
-            "feature_breakdown": {
-                "technical": 27,
-                "extended": 13,
-                "fundamental": 3
-            },
-            "top_n": 30,
-            "hold_days": 10,
-            "stop_loss": -0.05,
-            "universe": "全市场>$10 (~4300只)",
-            "retrain_frequency": "6个月",
-            "train_window": "3年",
-            "validation": {
-                "method": "Walk-Forward 5折 + 交易成本0.5%",
-                "wf_avg_sharpe": 3.253,
-                "wf_min_sharpe": 1.997,
-                "wf_oos_sharpe_2024_25": 3.158,
-                "wf_consistency": "100% (5/5 folds positive)",
-                "wf_avg_annual_return": "90.5%",
-                "wf_avg_max_dd": -11.85,
-                "survivorship_bias_note": "含成本后Sharpe仍高, 保守估计x0.5=1.6"
-            },
-            "signal_thresholds": {
-                "system": "three_layer_percentile",
-                "L1_vix_filter": "VIX > 30 → 关闭所有信号",
-                "L2_absolute": "分数必须 > 当日中位数",
-                "L3_percentile": {
-                    "green2": {"percentile": 95, "label": "🟢🟢精品买入", "action": "马上下单"},
-                    "green1": {"percentile": 90, "label": "🟢强信号", "action": "主力信号"},
-                    "observe": {"percentile": 80, "label": "🟡观察", "action": "不买，放watchlist"}
-                }
-            }
-        },
-        "arrow": {
-            "name": "绿箭V12",
-            "type": "lightgbm_regression",
-            "version": "V12",
-            "model_file": "models/us/arrow_v12_lgb_v12_10d_hold.txt",
-            "description": "LightGBM回归, 36维特征(27技术+价格+range+5宏观+2资金流), 20天Top-20, $1-$10, WF ICIR=2.005",
-            "features": 36,
-            "top_n": 20,
-            "hold_days": 20,
-            "universe": "$1-$10 (~1200只)",
-            "stop_loss": -0.15,
-            "cost_per_trade": 0.015,
-            "retrain_frequency": "6个月",
-            "validation": {
-                "method": "Walk-Forward 5折 + 交易成本1.5%",
-                "wf_avg_sharpe": 1.498,
-                "wf_min_sharpe": -0.708,
-                "wf_oos_sharpe_2024_25": 1.131,
-                "wf_consistency": "80% (4/5 folds positive)",
-                "wf_avg_annual_return": "66.2%",
-                "wf_avg_max_dd": -23.27
-            },
-            "signal_thresholds": {
-                "system": "three_layer_percentile",
-                "L1_vix_filter": "VIX > 30 → 关闭所有信号",
-                "L2_absolute": "分数必须 > 当日中位数",
-                "L3_percentile": {
-                    "green2": {"percentile": 95, "label": "🟢🟢精品买入", "action": "马上下单, 每只$2000"},
-                    "green1": {"percentile": 90, "label": "🟢强信号", "action": "可买, 每只$1000"},
-                    "observe": {"percentile": 80, "label": "🟡观察", "action": "不买"}
-                }
-            }
-        },
-        "cn_rule_alpha": {
-            "name": "rule-alpha-v2.1 (legacy)",
-            "type": "rule_based_scoring",
-            "version": "v2.1 (legacy, replaced by cn_alpha_v2.0)",
-            "model_file": null,
-            "description": "纯规则型A股选股: 反转+资金流+低波动+超卖+大单+均线偏离, 6因子评分, DD-based position sizing",
-            "factors": ["反转(ret20)", "资金流入(total_net_5d)", "低波动(vol20)", "RSI超卖(rsi_14<35)", "大单流入(lg_net_5d)", "均线偏离(ma20_bias)"],
-            "features": 6,
-            "top_n": 15,
-            "hold_days": 10,
-            "stop_loss": -0.01,
-            "universe": "A股主板+创业板 (科创板688x排除, 价格3-200元)",
-            "position_sizing": {
-                "type": "DD-based",
-                "thresholds": [
-                    {"dd": -0.03, "pct": 0.80},
-                    {"dd": -0.06, "pct": 0.60},
-                    {"dd": -0.10, "pct": 0.40},
-                    {"dd": -0.14, "pct": 0.20},
-                    {"dd": -0.18, "pct": 0.00}
-                ],
-                "description": "DD-based渐进减仓: DD-3%→80%, DD-6%→60%, DD-10%→40%, DD-14%→20%, DD-18%→空仓"
-            },
-            "market_filter": {
-                "description": "市场状态叠加DD-based: bear最多50%, cautious最多80%",
-                "bear_cap": 0.5,
-                "cautious_cap": 0.8
-            },
-            "market_filter_rules": "DD-based为主, 市场状态为辅(bear降上限, cautious降上限)",
-            "retrain_frequency": "不需要（纯规则型）",
-            "validation": {
-                "method": "Walk-Forward 8-fold + DD-based sizing",
-                "wf_sharpe": 1.75,
-                "wf_sharpe_std": 1.25,
-                "wf_cagr": 51.8,
-                "wf_max_dd": -13.6,
-                "wf_win_rate": 46.6,
-                "backtest_sharpe": 2.02,
-                "backtest_cagr": 50.8,
-                "backtest_max_dd": -14.3,
-                "paper_trade_alpha_positive": "66.2%",
-                "paper_trade_sharpe": 0.95
-            },
-            "signal_thresholds": {
-                "system": "percentile",
-                "P95": {"label": "🟢🟢精品买入", "action": "Top15中的P95+"},
-                "P90": {"label": "🟢强信号", "action": "Top15中的P90+"},
-                "P80": {"label": "🟡观察", "action": "Top15中的P80+"}
-            },
-            "cost_per_trade": 0.003,
-            "source": "research/rule_alpha_v2_1_walkforward.json, research/rule_alpha_v2_1_dd_sizing.json"
+  "_comment": "Hermes Trading System Config v5 \u2014 \u84dd\u76feV6(US) + rule-alpha-v1.0(CN) 2026-06-21",
+  "models": {
+    "shield": {
+      "name": "\u84dd\u76feV10",
+      "type": "lightgbm_quantile",
+      "version": "V10",
+      "model_file": "models/us/blueshield_lgb_v9_quantile_lgb.txt",
+      "description": "LightGBM\u5206\u4f4d\u56de\u5f52, 43\u7ef4\u7279\u5f81(27\u6280\u672f+13\u6269\u5c55+3\u57fa\u672c\u9762), 10\u5929Top-30, \u5168\u5e02\u573a>$10, WF ICIR=0.734",
+      "features": 43,
+      "feature_breakdown": {
+        "technical": 27,
+        "extended": 13,
+        "fundamental": 3
+      },
+      "top_n": 30,
+      "hold_days": 10,
+      "stop_loss": -0.05,
+      "universe": "\u5168\u5e02\u573a>$10 (~4300\u53ea)",
+      "retrain_frequency": "6\u4e2a\u6708",
+      "train_window": "3\u5e74",
+      "validation": {
+        "method": "Walk-Forward 5\u6298 + \u4ea4\u6613\u6210\u672c0.5%",
+        "wf_avg_sharpe": 3.253,
+        "wf_min_sharpe": 1.997,
+        "wf_oos_sharpe_2024_25": 3.158,
+        "wf_consistency": "100% (5/5 folds positive)",
+        "wf_avg_annual_return": "90.5%",
+        "wf_avg_max_dd": -11.85,
+        "survivorship_bias_note": "\u542b\u6210\u672c\u540eSharpe\u4ecd\u9ad8, \u4fdd\u5b88\u4f30\u8ba1x0.5=1.6"
+      },
+      "signal_thresholds": {
+        "system": "three_layer_percentile",
+        "L1_vix_filter": "VIX > 30 \u2192 \u5173\u95ed\u6240\u6709\u4fe1\u53f7",
+        "L2_absolute": "\u5206\u6570\u5fc5\u987b > \u5f53\u65e5\u4e2d\u4f4d\u6570",
+        "L3_percentile": {
+          "green2": {
+            "percentile": 95,
+            "label": "\ud83d\udfe2\ud83d\udfe2\u7cbe\u54c1\u4e70\u5165",
+            "action": "\u9a6c\u4e0a\u4e0b\u5355"
+          },
+          "green1": {
+            "percentile": 90,
+            "label": "\ud83d\udfe2\u5f3a\u4fe1\u53f7",
+            "action": "\u4e3b\u529b\u4fe1\u53f7"
+          },
+          "observe": {
+            "percentile": 80,
+            "label": "\ud83d\udfe1\u89c2\u5bdf",
+            "action": "\u4e0d\u4e70\uff0c\u653ewatchlist"
+          }
         }
+      }
     },
-    "scoring": {
-        "shield": {
-            "script": "scripts/us/blueshield_v9_score.py",
-            "top_n": 30,
-            "description": "每日扫描全市场>$10, 输出Top-30排名+信号分级"
-        },
-        "arrow": {
-            "script": "scripts/us/arrow_v11_score.py",
-            "top_n": 20,
-            "description": "低价股池, 彩票策略, 20天持有, -15%止损"
-        },
-        "cn_rule_alpha": {
-            "script": "scripts/cn/gen_rule_signal.py",
-            "top_n": 15,
-            "description": "A股规则型选股(legacy), 被红杉v1.0取代"
-        },
-        "redwood_v1": {
-            "script": "scripts/cn/gen_xgb_signal.py",
-            "top_n": 15,
-            "description": "红杉v1.0 A股XGBoost选股, SL-2%收盘止损, 含科创板688, 每日盘后Top15 (WF Sharpe 3.89, PT Sharpe 3.11)"
+    "arrow": {
+      "name": "\u7eff\u7badV12",
+      "type": "lightgbm_regression",
+      "version": "V12",
+      "model_file": "models/us/arrow_v12_lgb_v12_10d_hold.txt",
+      "description": "LightGBM\u56de\u5f52, 36\u7ef4\u7279\u5f81(27\u6280\u672f+\u4ef7\u683c+range+5\u5b8f\u89c2+2\u8d44\u91d1\u6d41), 20\u5929Top-20, $1-$10, WF ICIR=2.005",
+      "features": 36,
+      "top_n": 20,
+      "hold_days": 20,
+      "universe": "$1-$10 (~1200\u53ea)",
+      "stop_loss": -0.15,
+      "cost_per_trade": 0.015,
+      "retrain_frequency": "6\u4e2a\u6708",
+      "validation": {
+        "method": "Walk-Forward 5\u6298 + \u4ea4\u6613\u6210\u672c1.5%",
+        "wf_avg_sharpe": 1.498,
+        "wf_min_sharpe": -0.708,
+        "wf_oos_sharpe_2024_25": 1.131,
+        "wf_consistency": "80% (4/5 folds positive)",
+        "wf_avg_annual_return": "66.2%",
+        "wf_avg_max_dd": -23.27
+      },
+      "signal_thresholds": {
+        "system": "three_layer_percentile",
+        "L1_vix_filter": "VIX > 30 \u2192 \u5173\u95ed\u6240\u6709\u4fe1\u53f7",
+        "L2_absolute": "\u5206\u6570\u5fc5\u987b > \u5f53\u65e5\u4e2d\u4f4d\u6570",
+        "L3_percentile": {
+          "green2": {
+            "percentile": 95,
+            "label": "\ud83d\udfe2\ud83d\udfe2\u7cbe\u54c1\u4e70\u5165",
+            "action": "\u9a6c\u4e0a\u4e0b\u5355, \u6bcf\u53ea$2000"
+          },
+          "green1": {
+            "percentile": 90,
+            "label": "\ud83d\udfe2\u5f3a\u4fe1\u53f7",
+            "action": "\u53ef\u4e70, \u6bcf\u53ea$1000"
+          },
+          "observe": {
+            "percentile": 80,
+            "label": "\ud83d\udfe1\u89c2\u5bdf",
+            "action": "\u4e0d\u4e70"
+          }
         }
+      }
     },
-    "display": {
-        "traffic_light": {
-            "strong": {"label": "精品买入", "emoji": "🟢🟢"},
-            "buy": {"label": "强信号", "emoji": "🟢"},
-            "watch": {"label": "观察", "emoji": "🟡"},
-            "avoid": {"label": "不推荐", "emoji": "⚪"}
-        }
-    },
-    "strategy": {
-        "shield": {
-            "rebalance_days": 10,
-            "position_sizing": "equal_weight",
-            "max_positions": 30,
-            "stop_loss": -0.05,
-            "description": "10天轮换, Top-30等权, -5%止损, 三层百分位过滤",
-            "exit_rules": {
-                "rank_drop": "排名跌出0.70以下考虑卖出",
-                "macro_stop": "VIX>35且持仓Beta>1.5时清仓",
-                "trailing_stop": "从最高点回撤>10%减仓"
-            }
+    "cn_rule_alpha": {
+      "name": "rule-alpha-v2.1 (legacy)",
+      "type": "rule_based_scoring",
+      "version": "v2.1 (legacy, replaced by cn_alpha_v2.0)",
+      "model_file": null,
+      "description": "\u7eaf\u89c4\u5219\u578bA\u80a1\u9009\u80a1: \u53cd\u8f6c+\u8d44\u91d1\u6d41+\u4f4e\u6ce2\u52a8+\u8d85\u5356+\u5927\u5355+\u5747\u7ebf\u504f\u79bb, 6\u56e0\u5b50\u8bc4\u5206, DD-based position sizing",
+      "factors": [
+        "\u53cd\u8f6c(ret20)",
+        "\u8d44\u91d1\u6d41\u5165(total_net_5d)",
+        "\u4f4e\u6ce2\u52a8(vol20)",
+        "RSI\u8d85\u5356(rsi_14<35)",
+        "\u5927\u5355\u6d41\u5165(lg_net_5d)",
+        "\u5747\u7ebf\u504f\u79bb(ma20_bias)"
+      ],
+      "features": 6,
+      "top_n": 15,
+      "hold_days": 10,
+      "stop_loss": -0.01,
+      "universe": "A\u80a1\u4e3b\u677f+\u521b\u4e1a\u677f (\u79d1\u521b\u677f688x\u6392\u9664, \u4ef7\u683c3-200\u5143)",
+      "position_sizing": {
+        "type": "DD-based",
+        "thresholds": [
+          {
+            "dd": -0.03,
+            "pct": 0.8
+          },
+          {
+            "dd": -0.06,
+            "pct": 0.6
+          },
+          {
+            "dd": -0.1,
+            "pct": 0.4
+          },
+          {
+            "dd": -0.14,
+            "pct": 0.2
+          },
+          {
+            "dd": -0.18,
+            "pct": 0.0
+          }
+        ],
+        "description": "DD-based\u6e10\u8fdb\u51cf\u4ed3: DD-3%\u219280%, DD-6%\u219260%, DD-10%\u219240%, DD-14%\u219220%, DD-18%\u2192\u7a7a\u4ed3"
+      },
+      "market_filter": {
+        "description": "\u5e02\u573a\u72b6\u6001\u53e0\u52a0DD-based: bear\u6700\u591a50%, cautious\u6700\u591a80%",
+        "bear_cap": 0.5,
+        "cautious_cap": 0.8
+      },
+      "market_filter_rules": "DD-based\u4e3a\u4e3b, \u5e02\u573a\u72b6\u6001\u4e3a\u8f85(bear\u964d\u4e0a\u9650, cautious\u964d\u4e0a\u9650)",
+      "retrain_frequency": "\u4e0d\u9700\u8981\uff08\u7eaf\u89c4\u5219\u578b\uff09",
+      "validation": {
+        "method": "Walk-Forward 8-fold + DD-based sizing",
+        "wf_sharpe": 1.75,
+        "wf_sharpe_std": 1.25,
+        "wf_cagr": 51.8,
+        "wf_max_dd": -13.6,
+        "wf_win_rate": 46.6,
+        "backtest_sharpe": 2.02,
+        "backtest_cagr": 50.8,
+        "backtest_max_dd": -14.3,
+        "paper_trade_alpha_positive": "66.2%",
+        "paper_trade_sharpe": 0.95
+      },
+      "signal_thresholds": {
+        "system": "percentile",
+        "P95": {
+          "label": "\ud83d\udfe2\ud83d\udfe2\u7cbe\u54c1\u4e70\u5165",
+          "action": "Top15\u4e2d\u7684P95+"
         },
-        "arrow": {
-            "rebalance_days": 20,
-            "position_sizing": "equal_weight",
-            "max_positions": 20,
-            "stop_loss": -0.15,
-            "description": "20天轮换, Top-20等权, -15%止损, 梯度止盈"
+        "P90": {
+          "label": "\ud83d\udfe2\u5f3a\u4fe1\u53f7",
+          "action": "Top15\u4e2d\u7684P90+"
         },
-        "cn_rule_alpha": {
-            "rebalance_days": 10,
-            "position_sizing": "DD-based",
-            "max_positions": 15,
-            "stop_loss": -0.01,
-            "description": "10天轮换, SL1%止损, DD-based渐进减仓, 市场状态叠加调整, 6因子评分",
-            "dd_thresholds": [
-                {"dd": -0.03, "pct": 0.80},
-                {"dd": -0.06, "pct": 0.60},
-                {"dd": -0.10, "pct": 0.40},
-                {"dd": -0.14, "pct": 0.20},
-                {"dd": -0.18, "pct": 0.00}
-            ],
-            "exit_rules": {
-                "stop_loss": "持有期内累计亏损>1%即止损",
-                "hold_expiry": "持有10天后调仓",
-                "dd_exit": "DD>18%时空仓",
-                "market_cap": "bear时最多50%, cautious时最多80%"
-            }
+        "P80": {
+          "label": "\ud83d\udfe1\u89c2\u5bdf",
+          "action": "Top15\u4e2d\u7684P80+"
         }
-    },
-    "risk_rules": [
-        {"type": "sector_concentration", "threshold": 4, "message": "板块集中：{sector}占Top15的{count}席"},
-        {"type": "vix_spike", "threshold": 35, "message": "VIX>{threshold}·考虑减仓"},
-        {"type": "drawdown", "threshold": 0.1, "message": "组合回撤>{threshold}·收紧止损"},
-        {"type": "macro_stop", "threshold": "VIX>35 & Beta>1.5", "message": "宏观恶化+高Beta·清仓"}
-    ],
-    "market": {
-        "indices": {
-            "S&P 500": "^GSPC",
-            "VIX": "^VIX",
-            "NASDAQ": "^IXIC",
-            "DJI": "^DJI"
-        }
+      },
+      "cost_per_trade": 0.003,
+      "source": "research/rule_alpha_v2_1_walkforward.json, research/rule_alpha_v2_1_dd_sizing.json"
     }
+  },
+  "scoring": {
+    "shield": {
+      "script": "scripts/us/blueshield_v9_score.py",
+      "top_n": 30,
+      "description": "\u6bcf\u65e5\u626b\u63cf\u5168\u5e02\u573a>$10, \u8f93\u51faTop-30\u6392\u540d+\u4fe1\u53f7\u5206\u7ea7"
+    },
+    "arrow": {
+      "script": "scripts/us/arrow_v11_score.py",
+      "top_n": 20,
+      "description": "\u4f4e\u4ef7\u80a1\u6c60, \u5f69\u7968\u7b56\u7565, 20\u5929\u6301\u6709, -15%\u6b62\u635f"
+    },
+    "cn_rule_alpha": {
+      "script": "scripts/cn/gen_rule_signal.py",
+      "top_n": 15,
+      "description": "A\u80a1\u89c4\u5219\u578b\u9009\u80a1(legacy), \u88ab\u7ea2\u6749v1.0\u53d6\u4ee3"
+    },
+    "redwood_v1": {
+      "script": "scripts/cn/gen_xgb_signal.py",
+      "top_n": 15,
+      "description": "\u7ea2\u6749v1.0 A\u80a1XGBoost\u9009\u80a1, SL-2%\u6536\u76d8\u6b62\u635f, \u542b\u79d1\u521b\u677f688, \u6bcf\u65e5\u76d8\u540eTop15 (WF Sharpe 3.89, PT Sharpe 3.11)"
+    }
+  },
+  "display": {
+    "traffic_light": {
+      "strong": {
+        "label": "\u7cbe\u54c1\u4e70\u5165",
+        "emoji": "\ud83d\udfe2\ud83d\udfe2"
+      },
+      "buy": {
+        "label": "\u5f3a\u4fe1\u53f7",
+        "emoji": "\ud83d\udfe2"
+      },
+      "watch": {
+        "label": "\u89c2\u5bdf",
+        "emoji": "\ud83d\udfe1"
+      },
+      "avoid": {
+        "label": "\u4e0d\u63a8\u8350",
+        "emoji": "\u26aa"
+      }
+    }
+  },
+  "strategy": {
+    "shield": {
+      "rebalance_days": 10,
+      "position_sizing": "equal_weight",
+      "max_positions": 30,
+      "stop_loss": -0.05,
+      "description": "10\u5929\u8f6e\u6362, Top-30\u7b49\u6743, -5%\u6b62\u635f, \u4e09\u5c42\u767e\u5206\u4f4d\u8fc7\u6ee4",
+      "exit_rules": {
+        "rank_drop": "\u6392\u540d\u8dcc\u51fa0.70\u4ee5\u4e0b\u8003\u8651\u5356\u51fa",
+        "macro_stop": "VIX>35\u4e14\u6301\u4ed3Beta>1.5\u65f6\u6e05\u4ed3",
+        "trailing_stop": "\u4ece\u6700\u9ad8\u70b9\u56de\u64a4>10%\u51cf\u4ed3"
+      }
+    },
+    "arrow": {
+      "rebalance_days": 20,
+      "position_sizing": "equal_weight",
+      "max_positions": 20,
+      "stop_loss": -0.15,
+      "description": "20\u5929\u8f6e\u6362, Top-20\u7b49\u6743, -15%\u6b62\u635f, \u68af\u5ea6\u6b62\u76c8"
+    },
+    "cn_rule_alpha": {
+      "rebalance_days": 10,
+      "position_sizing": "DD-based",
+      "max_positions": 15,
+      "stop_loss": -0.01,
+      "description": "10\u5929\u8f6e\u6362, SL1%\u6b62\u635f, DD-based\u6e10\u8fdb\u51cf\u4ed3, \u5e02\u573a\u72b6\u6001\u53e0\u52a0\u8c03\u6574, 6\u56e0\u5b50\u8bc4\u5206",
+      "dd_thresholds": [
+        {
+          "dd": -0.03,
+          "pct": 0.8
+        },
+        {
+          "dd": -0.06,
+          "pct": 0.6
+        },
+        {
+          "dd": -0.1,
+          "pct": 0.4
+        },
+        {
+          "dd": -0.14,
+          "pct": 0.2
+        },
+        {
+          "dd": -0.18,
+          "pct": 0.0
+        }
+      ],
+      "exit_rules": {
+        "stop_loss": "\u6301\u6709\u671f\u5185\u7d2f\u8ba1\u4e8f\u635f>1%\u5373\u6b62\u635f",
+        "hold_expiry": "\u6301\u670910\u5929\u540e\u8c03\u4ed3",
+        "dd_exit": "DD>18%\u65f6\u7a7a\u4ed3",
+        "market_cap": "bear\u65f6\u6700\u591a50%, cautious\u65f6\u6700\u591a80%"
+      }
+    }
+  },
+  "risk_rules": [
+    {
+      "type": "sector_concentration",
+      "threshold": 4,
+      "message": "\u677f\u5757\u96c6\u4e2d\uff1a{sector}\u5360Top15\u7684{count}\u5e2d"
+    },
+    {
+      "type": "vix_spike",
+      "threshold": 35,
+      "message": "VIX>{threshold}\u00b7\u8003\u8651\u51cf\u4ed3"
+    },
+    {
+      "type": "drawdown",
+      "threshold": 0.1,
+      "message": "\u7ec4\u5408\u56de\u64a4>{threshold}\u00b7\u6536\u7d27\u6b62\u635f"
+    },
+    {
+      "type": "macro_stop",
+      "threshold": "VIX>35 & Beta>1.5",
+      "message": "\u5b8f\u89c2\u6076\u5316+\u9ad8Beta\u00b7\u6e05\u4ed3"
+    }
+  ],
+  "market": {
+    "indices": {
+      "S&P 500": "^GSPC",
+      "VIX": "^VIX",
+      "NASDAQ": "^IXIC",
+      "DJI": "^DJI"
+    }
+  },
+  "us": {
+    "hold_days": 10
+  }
 }

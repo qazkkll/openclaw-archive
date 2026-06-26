@@ -1,0 +1,333 @@
+{
+  "model": "arrow_v12",
+  "timestamp": "2026-06-26T13:43:18.359874",
+  "passed": false,
+  "first_failure": "L5 Cross-Layer Consistency",
+  "elapsed_s": 8.3,
+  "layers": [
+    {
+      "name": "L1 Data Integrity",
+      "passed": true,
+      "checks": [
+        {
+          "name": "1.1 Price data exists",
+          "passed": true,
+          "value": "11864 stocks, 29813975 rows",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "1.2 Stock coverage >= 5000",
+          "passed": true,
+          "value": 11864,
+          "threshold": 5000,
+          "detail": "Need full market coverage"
+        },
+        {
+          "name": "1.3 Price data fresh (<=3 trading days)",
+          "passed": true,
+          "value": "2 days old",
+          "threshold": "<=5",
+          "detail": "Latest date: 2026-06-24"
+        },
+        {
+          "name": "1.5 pe_trailing has variety (unique ratio > 5%)",
+          "passed": true,
+          "value": "36.1% (4278/11864)",
+          "threshold": ">5%",
+          "detail": "CRITICAL: All-same values = fake data, model loses discrimination"
+        },
+        {
+          "name": "1.6 pe_trailing median reasonable",
+          "passed": true,
+          "value": "median=21.362402",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "1.5 beta has variety (unique ratio > 5%)",
+          "passed": true,
+          "value": "92.4% (10961/11864)",
+          "threshold": ">5%",
+          "detail": "CRITICAL: All-same values = fake data, model loses discrimination"
+        },
+        {
+          "name": "1.6 beta median reasonable",
+          "passed": true,
+          "value": "median=0.73",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "1.7 VIX data exists",
+          "passed": true,
+          "value": "2531 rows",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "1.8 Data source dedup check",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Only one source exists"
+        }
+      ]
+    },
+    {
+      "name": "L2 Feature Consistency",
+      "passed": true,
+      "checks": [
+        {
+          "name": "2.1 Model file exists",
+          "passed": true,
+          "value": "2057KB",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.2 Model loads successfully",
+          "passed": true,
+          "value": "17 features, 300 trees",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.3 Feature count matches",
+          "passed": true,
+          "value": 17,
+          "threshold": 17,
+          "detail": ""
+        },
+        {
+          "name": "2.4 Meta has required fields",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "All present"
+        },
+        {
+          "name": "2.5 trained_on specified (prevents look-ahead)",
+          "passed": true,
+          "value": "2024-01-01 to 2025-12-31",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.6 Score script exists",
+          "passed": true,
+          "value": "7124 chars",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.7 No .fill(0) bug",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.8 Data window check",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "No explicit window cutoff (using full data)"
+        },
+        {
+          "name": "2.9 Uses correct data source",
+          "passed": true,
+          "value": "us_hist_full_10y",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.10 Key technical features present (bb/rsi/macd)",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "bb=✅ rsi=✅ macd=✅"
+        }
+      ]
+    },
+    {
+      "name": "L3 Model Validity",
+      "passed": true,
+      "checks": [
+        {
+          "name": "3.1 Load training report",
+          "passed": true,
+          "value": "17 features, gpu=True",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "3.3-2025 Model IC positive",
+          "passed": true,
+          "value": "IC=+0.0111",
+          "threshold": ">0",
+          "detail": ""
+        },
+        {
+          "name": "3.4-2025 Rank monotonicity (Top > Bottom)",
+          "passed": true,
+          "value": "Top5=+0.0074, Bot20=+0.0007",
+          "threshold": null,
+          "detail": "Top group should outperform Bottom group"
+        },
+        {
+          "name": "3.5-2025 Top group win rate",
+          "passed": true,
+          "value": "57.6%",
+          "threshold": ">50%",
+          "detail": ""
+        },
+        {
+          "name": "3.3-2026 Model IC positive",
+          "passed": true,
+          "value": "IC=+0.0157",
+          "threshold": ">0",
+          "detail": ""
+        },
+        {
+          "name": "3.4-2026 Rank monotonicity (Top > Bottom)",
+          "passed": true,
+          "value": "Top5=+0.0024, Bot20=-0.0041",
+          "threshold": null,
+          "detail": "Top group should outperform Bottom group"
+        },
+        {
+          "name": "3.5-2026 Top group win rate",
+          "passed": true,
+          "value": "78.1%",
+          "threshold": ">50%",
+          "detail": ""
+        },
+        {
+          "name": "3.6 ICIR > 0.3 (yearly consistency)",
+          "passed": true,
+          "value": "0.386",
+          "threshold": ">0.3",
+          "detail": "ICIR = mean(IC)/std(IC), measures year-to-year consistency"
+        },
+        {
+          "name": "3.7 All years Top > Bottom",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Every test year should show Top group outperforming Bottom"
+        }
+      ]
+    },
+    {
+      "name": "L4 Signal Production",
+      "passed": true,
+      "checks": [
+        {
+          "name": "4.1 Score script syntax OK",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "4.2 Score script runs successfully",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "4.3 Output file exists",
+          "passed": true,
+          "value": "/home/hermes/.hermes/openclaw-archive/data/us/arrow_v12_scored_20260624.json",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "4.4 Output has required keys",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "All present"
+        },
+        {
+          "name": "4.5 Version label matches",
+          "passed": true,
+          "value": "arrow_v12_lambdamart",
+          "threshold": "arrow_v12",
+          "detail": ""
+        },
+        {
+          "name": "4.6 Score range > 0.001",
+          "passed": true,
+          "value": "373.8044",
+          "threshold": null,
+          "detail": "If all scores identical, features are dead"
+        },
+        {
+          "name": "4.7 Picks count >= 5",
+          "passed": true,
+          "value": 20,
+          "threshold": ">=5",
+          "detail": "Need enough picks for signal to be meaningful"
+        },
+        {
+          "name": "4.8 Top1 vs Top30 spread",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Only 20 picks, skip spread check"
+        },
+        {
+          "name": "4.9 Price range check",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Green-arrow universe, 0 < $3 picks OK"
+        }
+      ]
+    },
+    {
+      "name": "L5 Cross-Layer Consistency",
+      "passed": false,
+      "checks": [
+        {
+          "name": "5.1 production.json points to correct model",
+          "passed": true,
+          "value": "models/us/arrow_v12_lambdamart.txt",
+          "threshold": "arrow_v12_lambdamart.txt",
+          "detail": ""
+        },
+        {
+          "name": "5.2 Feature count consistency (model/meta/config)",
+          "passed": true,
+          "value": "model=17, meta=17, config=17",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "5.3 hold_days compatible with training target",
+          "passed": false,
+          "value": "hold_days=0, train_fwd=5d",
+          "threshold": null,
+          "detail": "hold_days should be 1-3x training forward period"
+        },
+        {
+          "name": "5.4 Score script uses training data source",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Data refs: {'data/us/fundamentals_latest.parquet', 'data/us/vix_10y.parquet', 'data/us/us_hist_full_10y.parquet'}"
+        },
+        {
+          "name": "5.5 Signal thresholds in meta",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Without thresholds, signal levels cannot be assigned"
+        }
+      ]
+    }
+  ]
+}

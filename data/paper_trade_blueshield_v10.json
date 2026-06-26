@@ -1,0 +1,241 @@
+{
+  "model": "blueshield_v10",
+  "period": "5d",
+  "initial_capital": 100000,
+  "final_capital": 99100.44,
+  "total_pnl": -899.56,
+  "total_return": -0.009,
+  "total_trades": 21,
+  "win_rate": 0.5714,
+  "avg_win": 0.0575,
+  "avg_loss": -0.0915,
+  "sharpe": -1.1275,
+  "exit_reasons": {
+    "trailing_stop": 6,
+    "simulation_end": 15
+  },
+  "trades": [
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "GLP",
+      "action": "BUY",
+      "price": 42.5,
+      "shares": 156,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "CVLT",
+      "action": "BUY",
+      "price": 129.9199981689453,
+      "shares": 51,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "VAC",
+      "action": "BUY",
+      "price": 98.31500244140625,
+      "shares": 67,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "QDEL",
+      "action": "BUY",
+      "price": 13.550000190734863,
+      "shares": 492,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "KLIC",
+      "action": "BUY",
+      "price": 123.41999816894531,
+      "shares": 54,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "FWRD",
+      "action": "BUY",
+      "price": 13.609999656677246,
+      "shares": 489,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "PWRL",
+      "action": "BUY",
+      "price": 16.299999237060547,
+      "shares": 408,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "QPUX",
+      "action": "BUY",
+      "price": 31.364999771118164,
+      "shares": 212,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "AADX",
+      "action": "BUY",
+      "price": 18.510000228881836,
+      "shares": 360,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "OCTV",
+      "action": "BUY",
+      "price": 15.850000381469727,
+      "shares": 420,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "SRPT",
+      "action": "BUY",
+      "price": 17.93000030517578,
+      "shares": 371,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "QUBX",
+      "action": "BUY",
+      "price": 13.390000343322754,
+      "shares": 497,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "DNLI",
+      "action": "BUY",
+      "price": 23.795000076293945,
+      "shares": 280,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "WGS",
+      "action": "BUY",
+      "price": 58.619998931884766,
+      "shares": 113,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:31:00-04:00",
+      "symbol": "LILAP",
+      "action": "BUY",
+      "price": 18.759899139404297,
+      "shares": 355,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-23 14:16:00-04:00",
+      "symbol": "QUBX",
+      "action": "SELL",
+      "price": 12.8100004196167,
+      "shares": 497,
+      "pnl_pct": "-4.33%",
+      "reason": "trailing_stop"
+    },
+    {
+      "time": "2026-06-24 09:30:00-04:00",
+      "symbol": "QPUX",
+      "action": "SELL",
+      "price": 30.700000762939453,
+      "shares": 212,
+      "pnl_pct": "-2.12%",
+      "reason": "trailing_stop"
+    },
+    {
+      "time": "2026-06-24 09:30:00-04:00",
+      "symbol": "QPUX",
+      "action": "BUY",
+      "price": 30.700000762939453,
+      "shares": 217,
+      "rsi": "25.1"
+    },
+    {
+      "time": "2026-06-24 09:30:00-04:00",
+      "symbol": "QUBX",
+      "action": "BUY",
+      "price": 12.140000343322754,
+      "shares": 549,
+      "rsi": "25.7"
+    },
+    {
+      "time": "2026-06-24 10:09:00-04:00",
+      "symbol": "PWRL",
+      "action": "SELL",
+      "price": 13.84000015258789,
+      "shares": 408,
+      "pnl_pct": "-15.09%",
+      "reason": "trailing_stop"
+    },
+    {
+      "time": "2026-06-25 09:30:00-04:00",
+      "symbol": "PWRL",
+      "action": "BUY",
+      "price": 14.425000190734863,
+      "shares": 462,
+      "rsi": "68.9"
+    },
+    {
+      "time": "2026-06-25 09:53:00-04:00",
+      "symbol": "QPUX",
+      "action": "SELL",
+      "price": 26.0,
+      "shares": 217,
+      "pnl_pct": "-15.31%",
+      "reason": "trailing_stop"
+    },
+    {
+      "time": "2026-06-25 09:53:00-04:00",
+      "symbol": "QPUX",
+      "action": "BUY",
+      "price": 26.0,
+      "shares": 256,
+      "rsi": "10.4"
+    },
+    {
+      "time": "2026-06-25 09:55:00-04:00",
+      "symbol": "QUBX",
+      "action": "SELL",
+      "price": 10.300000190734863,
+      "shares": 549,
+      "pnl_pct": "-15.16%",
+      "reason": "trailing_stop"
+    },
+    {
+      "time": "2026-06-25 09:57:00-04:00",
+      "symbol": "QUBX",
+      "action": "BUY",
+      "price": 10.380000114440918,
+      "shares": 642,
+      "rsi": "25.1"
+    },
+    {
+      "time": "2026-06-26 09:33:00-04:00",
+      "symbol": "QUBX",
+      "action": "SELL",
+      "price": 9.300000190734863,
+      "shares": 642,
+      "pnl_pct": "-10.40%",
+      "reason": "trailing_stop"
+    },
+    {
+      "time": "2026-06-26 09:33:00-04:00",
+      "symbol": "QUBX",
+      "action": "BUY",
+      "price": 9.300000190734863,
+      "shares": 716,
+      "rsi": "30.6"
+    }
+  ]
+}

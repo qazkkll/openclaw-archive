@@ -1,0 +1,5 @@
+# Falcons/猎鹰项目
+.env
+__pycache__/
+*.pyc
+output/state/*.json

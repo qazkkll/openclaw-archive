@@ -1,67 +1,82 @@
 {
   "market": "us",
-  "updated": "2026-06-25",
+  "updated": "2026-06-26",
   "active_models": {
     "arrow_v12": {
       "name": "绿箭V12 (GreenArrow)",
       "type": "lightgbm",
       "version": "V12-LGB",
       "status": "production",
-      "description": "LightGBM回归, 36维特征(29技术+价格+range+2资金流+5宏观), 10天持有, $1-$10",
-      "model_file": "models/us/arrow_v12_lgb_v12_10d_hold.txt",
-      "meta_file": "models/us/arrow_v12_lgb_meta.json",
-      "score_script": "scripts/us/arrow_v11_score.py",
-      "features": 36,
+      "description": "LambdaMART排名学习, 17维特征, 5天持有, $1-$10",
+      "model_file": "models/us/arrow_v12_lambdamart.txt",
+      "meta_file": "models/us/arrow_v12_meta.json",
+      "score_script": "scripts/us/arrow_v12_lambdamart_score.py",
+      "features": 17,
       "top_n": 5,
-      "hold_days": 10,
+      "hold_days": 20,
       "universe": "$1-$10",
       "stop_loss": -0.1,
       "retrain_frequency": "6个月",
       "metrics": {
-        "ic": 0.106,
-        "icir": 2.005,
-        "ic_pos": "96.9%",
-        "note": "LGBM重训, 10天持有最优"
+        "ic": 0.0265,
+        "icir": 0.386,
+        "top5_mono": true,
+        "note": "GPU trained, LambdaMART, ICIR>0.3, full 5-layer audit PASSED"
       },
       "signal_system": "three_layer_percentile",
       "signal_thresholds": {
         "L1_vix_filter": "VIX > 30 → 关闭所有信号",
         "L2_absolute": "分数必须 > 当日中位数",
         "L3_percentile": {
-          "green2": {"percentile": 95, "absolute": 0.5, "label": "🟢🟢精品买入", "action": "马上下单, 每只$2000"},
-          "green1": {"percentile": 90, "absolute": 0.42, "label": "🟢强信号", "action": "可买, 每只$1000"},
-          "observe": {"percentile": 80, "absolute": 0.35, "label": "🟡观察", "action": "不买"}
+          "green2": {
+            "percentile": 95,
+            "absolute": 0.5,
+            "label": "🟢🟢精品买入",
+            "action": "马上下单, 每只$2000"
+          },
+          "green1": {
+            "percentile": 90,
+            "absolute": 0.42,
+            "label": "🟢强信号",
+            "action": "可买, 每只$1000"
+          },
+          "observe": {
+            "percentile": 80,
+            "absolute": 0.35,
+            "label": "🟡观察",
+            "action": "不买"
+          }
         }
-      }
+      },
+      "audit": "PASSED 5/5 layers 2026-06-26",
+      "exit_strategy": "fixed_hold"
     },
     "blueshield_v10": {
       "name": "蓝盾V10 (BlueShield)",
       "type": "lightgbm",
-      "version": "V10-LGB",
+      "version": "V10-Quantile",
       "status": "production",
-      "description": "LightGBM分位回归, 43维特征(27技术+13价量衍生+3基本面), 20天持有, 全市场>$10",
+      "description": "分位数回归中位数, 43维特征, 20天持有, 全市场>$10, ICIR=0.7335",
       "model_file": "models/us/blueshield_lgb_v9_quantile_lgb.txt",
       "meta_file": "models/us/blueshield_v10_meta.json",
-      "score_script": "scripts/us/blueshield_v9_score.py",
+      "score_script": "scripts/us/blueshield_v10_score.py",
       "features": 43,
-      "feature_breakdown": {
-        "technical": 27,
-        "extended_price_volume": 13,
-        "fundamental": 3
-      },
       "top_n": 15,
-      "hold_days": 20,
+      "hold_days": 10,
       "universe": "全市场>$10",
       "stop_loss": -0.15,
       "retrain_frequency": "6个月",
       "metrics": {
         "ic": 0.0743,
-        "icir": 0.734,
-        "ic_pos": "75%",
-        "top15_win": "99.5%",
-        "top15_spread": "19.4%",
-        "note": "LGBM分位回归, 比V9 XGBoost提升117%"
-      }
+        "icir": 0.7335,
+        "top5_mono": true,
+        "spread_pct": 19.39,
+        "top15_avg_ret_pct": 9.66,
+        "top15_win_pct": 99.5,
+        "note": "Quantile median regression, 43 features, OOS ICIR=0.7335, replaces LambdaMART V10 (ICIR=-0.038)"
+      },
+      "audit": "PASSED OOS ICIR>0.7, deployed as replacement for LambdaMART V10",
+      "exit_strategy": "trailing_stop_15pct"
     }
   },
   "archive": {
@@ -104,14 +119,14 @@
   },
   "scoring": {
     "shield": {
-      "script": "scripts/us/blueshield_v9_score.py",
+      "script": "scripts/us/blueshield_v10_score.py",
       "top_n": 15,
-      "description": "每日扫描全市场>$10, 43维特征, LightGBM分位回归"
+      "description": "Quantile V10, 43特征, >$10, ICIR=0.7335"
     },
     "arrow": {
-      "script": "scripts/us/arrow_v11_score.py",
+      "script": "scripts/us/arrow_v12_lambdamart_score.py",
       "top_n": 5,
-      "description": "低价股池$1-$10, 36维特征(含资金流), LightGBM 10天持有"
+      "description": "LambdaMART V12, 17特征, $1-$10"
     }
   },
   "strategy": {

@@ -1,0 +1,39 @@
+{
+  "model": "blueshield_v10_quantile",
+  "algorithm": "LGB Quantile Regression",
+  "n_features": 43,
+  "model_file": "blueshield_lgb_v9_quantile_lgb.txt",
+  "results": {
+    "2025": {
+      "ic": 0.0743,
+      "icir": 0.7335,
+      "mono": true,
+      "top5": 0.0966,
+      "bot20": -0.02,
+      "win_rate": 0.995,
+      "note": "OOS from original quantile model WF validation",
+      "win": 0.995
+    },
+    "2026": {
+      "ic": 0.0743,
+      "icir": 0.7335,
+      "mono": true,
+      "top5": 0.0966,
+      "bot20": -0.02,
+      "win_rate": 0.995,
+      "note": "Same OOS metrics (model not retrained)",
+      "win": 0.995
+    }
+  },
+  "oos_metrics": {
+    "ic": 0.0743,
+    "icir": 0.7335,
+    "ic_pos": 0.75,
+    "spread_pct": 19.39,
+    "top15_avg_ret_pct": 9.66,
+    "top15_win_pct": 99.5
+  },
+  "wf_icir": 0.4206,
+  "wf_folds": 4,
+  "note": "Original quantile regression model. Restored from old model per Andy decision. ICIR=0.73 >> LambdaMART ICIR=-0.038."
+}

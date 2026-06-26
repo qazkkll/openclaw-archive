@@ -3,16 +3,49 @@
   "config": "lgb_v9_quantile",
   "objective": "quantile_alpha_0.5",
   "features": [
-    "ma5", "ma20", "ma60", "ma_bias20", "ma_align", "price_position",
-    "ret1", "ret5", "ret20", "ret60", "momentum_6m", "momentum_1m",
-    "mom_divergence", "trend_accel", "vol20", "vol5", "vol_ratio", "vol_change",
-    "rsi14", "rsi_change", "macd", "macd_signal", "macd_hist",
-    "bb_std", "bb_width", "bb_pos", "ret_quality",
-    "range_ratio", "avg_body", "vwap_drift",
-    "ret_10d", "ret_30d", "ret_90d",
-    "vol_regime", "ma_cross_5_20", "ma_cross_20_60",
-    "rsi_zone", "macd_roc", "dd_60", "ud_vol_ratio",
-    "pe_log", "div_yield", "beta"
+    "ma5",
+    "ma20",
+    "ma60",
+    "ma_bias20",
+    "ma_align",
+    "price_position",
+    "ret1",
+    "ret5",
+    "ret20",
+    "ret60",
+    "momentum_6m",
+    "momentum_1m",
+    "mom_divergence",
+    "trend_accel",
+    "vol20",
+    "vol5",
+    "vol_ratio",
+    "vol_change",
+    "rsi14",
+    "rsi_change",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "bb_std",
+    "bb_width",
+    "bb_pos",
+    "ret_quality",
+    "range_ratio",
+    "avg_body",
+    "vwap_drift",
+    "ret_10d",
+    "ret_30d",
+    "ret_90d",
+    "vol_regime",
+    "ma_cross_5_20",
+    "ma_cross_20_60",
+    "rsi_zone",
+    "macd_roc",
+    "dd_60",
+    "ud_vol_ratio",
+    "pe_log",
+    "div_yield",
+    "beta"
   ],
   "n_features": 43,
   "params": {
@@ -45,8 +78,8 @@
     "momentum_6m": 8.53,
     "ret60": 8.45,
     "ma20": 5.92,
-    "vol_change": 5.80,
-    "bb_std": 3.00,
+    "vol_change": 5.8,
+    "bb_std": 3.0,
     "price_position": 2.09,
     "ma_bias20": 1.75
   },
@@ -54,20 +87,95 @@
   "replaces": "blueshield_v9",
   "optimized_from": "lgb_v9_quantile",
   "engine": "lightgbm",
-  "previous_best_icir": 0.480,
+  "previous_best_icir": 0.48,
   "model_file": "blueshield_lgb_v9_quantile_lgb.txt",
   "all_results_ranked": [
-    {"config": "lgb_v9_quantile", "oos_icir": 0.7335, "oos_ic": 0.0743, "note": "BEST - quantile regression median"},
-    {"config": "lgb_v9_huber", "oos_icir": 0.5505, "oos_ic": 0.0444, "note": "robust huber loss"},
-    {"config": "lgb_v9_high_subsample", "oos_icir": 0.5393, "oos_ic": 0.0382, "note": "more regularization"},
-    {"config": "lgb_v9_5000trees", "oos_icir": 0.5325, "oos_ic": 0.0406, "note": "5000 trees, LR=0.005"},
-    {"config": "lgb_v9_ensemble_diverse", "oos_icir": 0.5204, "oos_ic": 0.0484, "note": "3 diverse models averaged"},
-    {"config": "lgb_v9_ensemble_3seed", "oos_icir": 0.5093, "oos_ic": 0.0486, "note": "3 seeds averaged"},
-    {"config": "lgb_v9_top15feats", "oos_icir": 0.4939, "oos_ic": 0.0356, "note": "top 15 features only"},
-    {"config": "lgb_v9_interactions", "oos_icir": 0.4131, "oos_ic": 0.0307, "note": "added interaction features"},
-    {"config": "lgb_v9_leafwise", "oos_icir": 0.3868, "oos_ic": 0.0353, "note": "leaf-wise growth"},
-    {"config": "lgb_v9_deep", "oos_icir": 0.3760, "oos_ic": 0.0337, "note": "deeper trees"},
-    {"config": "lgb_v9_10d_hold", "oos_icir": 0.2441, "oos_ic": 0.0189, "note": "10-day hold"},
-    {"config": "lgb_v9_market_neutral", "oos_icir": 1.1549, "oos_ic": 0.2138, "note": "EXCLUDED - demeaned labels, not comparable"}
-  ]
+    {
+      "config": "lgb_v9_quantile",
+      "oos_icir": 0.7335,
+      "oos_ic": 0.0743,
+      "note": "BEST - quantile regression median"
+    },
+    {
+      "config": "lgb_v9_huber",
+      "oos_icir": 0.5505,
+      "oos_ic": 0.0444,
+      "note": "robust huber loss"
+    },
+    {
+      "config": "lgb_v9_high_subsample",
+      "oos_icir": 0.5393,
+      "oos_ic": 0.0382,
+      "note": "more regularization"
+    },
+    {
+      "config": "lgb_v9_5000trees",
+      "oos_icir": 0.5325,
+      "oos_ic": 0.0406,
+      "note": "5000 trees, LR=0.005"
+    },
+    {
+      "config": "lgb_v9_ensemble_diverse",
+      "oos_icir": 0.5204,
+      "oos_ic": 0.0484,
+      "note": "3 diverse models averaged"
+    },
+    {
+      "config": "lgb_v9_ensemble_3seed",
+      "oos_icir": 0.5093,
+      "oos_ic": 0.0486,
+      "note": "3 seeds averaged"
+    },
+    {
+      "config": "lgb_v9_top15feats",
+      "oos_icir": 0.4939,
+      "oos_ic": 0.0356,
+      "note": "top 15 features only"
+    },
+    {
+      "config": "lgb_v9_interactions",
+      "oos_icir": 0.4131,
+      "oos_ic": 0.0307,
+      "note": "added interaction features"
+    },
+    {
+      "config": "lgb_v9_leafwise",
+      "oos_icir": 0.3868,
+      "oos_ic": 0.0353,
+      "note": "leaf-wise growth"
+    },
+    {
+      "config": "lgb_v9_deep",
+      "oos_icir": 0.376,
+      "oos_ic": 0.0337,
+      "note": "deeper trees"
+    },
+    {
+      "config": "lgb_v9_10d_hold",
+      "oos_icir": 0.2441,
+      "oos_ic": 0.0189,
+      "note": "10-day hold"
+    },
+    {
+      "config": "lgb_v9_market_neutral",
+      "oos_icir": 1.1549,
+      "oos_ic": 0.2138,
+      "note": "EXCLUDED - demeaned labels, not comparable"
+    }
+  ],
+  "trained_on": "2016-01-01 to 2024-12-31 (WF 5-fold, OOS 2025-2026)",
+  "signal_thresholds": {
+    "green2": {
+      "percentile": 95,
+      "label": "🟢🟢精品买入"
+    },
+    "green1": {
+      "percentile": 90,
+      "label": "🟢强信号"
+    },
+    "observe": {
+      "percentile": 80,
+      "label": "🟡观察"
+    }
+  }
 }

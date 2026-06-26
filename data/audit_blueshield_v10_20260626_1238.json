@@ -1,0 +1,229 @@
+{
+  "model": "blueshield_v10",
+  "timestamp": "2026-06-26T12:38:12.809870",
+  "passed": true,
+  "first_failure": null,
+  "elapsed_s": 14.9,
+  "layers": [
+    {
+      "name": "L1 Data Integrity",
+      "passed": true,
+      "checks": [
+        {
+          "name": "1.1 Price data exists",
+          "passed": true,
+          "value": "11864 stocks, 29813975 rows",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "1.2 Stock coverage >= 5000",
+          "passed": true,
+          "value": 11864,
+          "threshold": 5000,
+          "detail": "Need full market coverage"
+        },
+        {
+          "name": "1.3 Price data fresh (<=3 trading days)",
+          "passed": true,
+          "value": "2 days old",
+          "threshold": "<=5",
+          "detail": "Latest date: 2026-06-24"
+        },
+        {
+          "name": "1.5 pe_trailing has variety (unique ratio > 5%)",
+          "passed": true,
+          "value": "36.1% (4278/11864)",
+          "threshold": ">5%",
+          "detail": "CRITICAL: All-same values = fake data, model loses discrimination"
+        },
+        {
+          "name": "1.6 pe_trailing median reasonable",
+          "passed": true,
+          "value": "median=21.362402",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "1.5 beta has variety (unique ratio > 5%)",
+          "passed": true,
+          "value": "92.4% (10961/11864)",
+          "threshold": ">5%",
+          "detail": "CRITICAL: All-same values = fake data, model loses discrimination"
+        },
+        {
+          "name": "1.6 beta median reasonable",
+          "passed": true,
+          "value": "median=0.73",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "1.7 VIX data exists",
+          "passed": true,
+          "value": "2531 rows",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "1.8 Data source dedup check",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Only one source exists"
+        }
+      ]
+    },
+    {
+      "name": "L2 Feature Consistency",
+      "passed": true,
+      "checks": [
+        {
+          "name": "2.1 Model file exists",
+          "passed": true,
+          "value": "680KB",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.2 Model loads successfully",
+          "passed": true,
+          "value": "43 features, 217 trees",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.3 Feature count matches",
+          "passed": true,
+          "value": 43,
+          "threshold": 43,
+          "detail": ""
+        },
+        {
+          "name": "2.4 Meta has required fields",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "All present"
+        },
+        {
+          "name": "2.5 trained_on specified (prevents look-ahead)",
+          "passed": true,
+          "value": "2016-01-01 to 2023-12-31",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.6 Score script exists",
+          "passed": true,
+          "value": "17199 chars",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.7 No .fill(0) bug",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.8 Data window >= 250 days",
+          "passed": true,
+          "value": "250 days",
+          "threshold": ">=250",
+          "detail": "momentum_6m needs 127 trading days ≈ 180 calendar days"
+        },
+        {
+          "name": "2.9 Uses correct data source",
+          "passed": true,
+          "value": "us_hist_full_10y",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "2.10 Key technical features present (bb/rsi/macd)",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "bb=✅ rsi=✅ macd=✅"
+        },
+        {
+          "name": "2.11 Anonymous features detected",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Features: Column_0..Column_42. Order must match training exactly!"
+        },
+        {
+          "name": "2.12 Meta feature list matches count",
+          "passed": true,
+          "value": "43 features in meta",
+          "threshold": null,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "name": "L3 Model Validity",
+      "passed": true,
+      "checks": [
+        {
+          "name": "3.1 Load training data",
+          "passed": true,
+          "value": "29813975 rows, 11864 stocks",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "3.3 IC calculation",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Skipped — need full feature pipeline for Column_0"
+        },
+        {
+          "name": "3.7 Crash stocks ratio < 5%",
+          "passed": true,
+          "value": "4.3% (506/11864)",
+          "threshold": "<5%",
+          "detail": "Stocks that lost 99%+ — likely reverse splits or delistings"
+        }
+      ]
+    },
+    {
+      "name": "L5 Cross-Layer Consistency",
+      "passed": true,
+      "checks": [
+        {
+          "name": "5.1 production.json points to correct model",
+          "passed": true,
+          "value": "models/us/blueshield_lgb_v9_quantile_lgb.txt",
+          "threshold": "blueshield_lgb_v9_quantile_lgb.txt",
+          "detail": ""
+        },
+        {
+          "name": "5.2 Feature count consistency (model/meta/config)",
+          "passed": true,
+          "value": "model=43, meta=43, config=43",
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "name": "5.4 Score script uses training data source",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Data refs: {'data/us/us_hist_full_10y.parquet', 'data/us/fundamentals_latest.parquet', 'data/us/vix_10y.parquet'}"
+        },
+        {
+          "name": "5.5 Signal thresholds in meta",
+          "passed": true,
+          "value": null,
+          "threshold": null,
+          "detail": "Without thresholds, signal levels cannot be assigned"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-26 14:59",
+  "session_id": "20260626_143123_bcbb7643",
+  "what": "搭建代码级契约系统：central_config.json锁死所有接口，manifest.py训练后自动生成+评分前校验，session_handoff.py标准化存档。已改造retrain_full.py、两个评分脚本、run_audit.py。",
+  "how": "1. config/central_config.json定义特征列表/模型路径/universe规则 2. scripts/us/contract/manifest.py用SHA256校验特征一致性和模型文件完整性 3. scripts/us/contract/session_handoff.py强制4项必填存档 4. retrain_full.py末尾加manifest自动生成 5. 评分脚本开头加validate_before_scoring() 6. run_audit.py的MODEL_REGISTRY改为从central_config读取",
+  "why": "根本问题是session间传递的是记忆碎片而不是工程契约。用代码强制替代人脑记忆——特征不匹配=拒绝运行，不是靠session记住用的是哪17个特征。",
+  "next_step": "生产验证：下次评分cron自动触发manifest校验，任何不一致会abort并报错。新训练也会自动生成manifest。",
+  "files_changed": [
+    "config/central_config.json",
+    "scripts/us/contract/manifest.py",
+    "scripts/us/contract/session_handoff.py",
+    "scripts/us/contract/__init__.py",
+    "scripts/us/audit/retrain_full.py",
+    "scripts/us/arrow_v12_lambdamart_score.py",
+    "scripts/us/blueshield_v10_lambdamart_score.py",
+    "scripts/us/audit/run_audit.py"
+  ],
+  "risks": ""
+}

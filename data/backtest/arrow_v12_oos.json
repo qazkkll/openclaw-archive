@@ -1,0 +1,17 @@
+{
+  "model": "arrow_v12",
+  "period": "2025-01-01 ~ OOS",
+  "top_n": 5,
+  "hold_days": 5,
+  "signal": "\ud83d\udfe2\ud83d\udfe2 (top 5%)",
+  "universe_filter": true,
+  "total_return_pct": -62.2,
+  "annualized_return_pct": -48.6,
+  "sharpe": 0.47,
+  "max_drawdown_pct": -91.5,
+  "win_rate_pct": 48.0,
+  "spy_return_pct": 27.6,
+  "excess_return_pct": -89.8,
+  "universe_size": 3172,
+  "backtest_days": 369
+}

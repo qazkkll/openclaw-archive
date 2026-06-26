@@ -1,0 +1,177 @@
+{
+  "_description": "中央配置 — 所有脚本读这个文件，不硬编码。修改此文件=修改系统行为。",
+  "_version": "1.0.0",
+  "_updated": "2026-06-26",
+  "_owner": "Andy",
+  "features": {
+    "lambdamart_v10_v12": [
+      "ret5",
+      "ret20",
+      "ret60",
+      "momentum_6m",
+      "momentum_1m",
+      "ma_bias20",
+      "vol20",
+      "vol_ratio",
+      "rsi14",
+      "macd_hist",
+      "bb_pos",
+      "price_position",
+      "beta_c",
+      "vix_close",
+      "spy_ret5",
+      "spy_ret20",
+      "spy_ret60"
+    ],
+    "quantile_v10_v43": [
+      "ma5",
+      "ma20",
+      "ma60",
+      "ma_bias20",
+      "ma_align",
+      "price_position",
+      "ret1",
+      "ret5",
+      "ret20",
+      "ret60",
+      "momentum_6m",
+      "momentum_1m",
+      "mom_divergence",
+      "trend_accel",
+      "vol20",
+      "vol5",
+      "vol_ratio",
+      "vol_change",
+      "rsi14",
+      "rsi_change",
+      "macd",
+      "macd_signal",
+      "macd_hist",
+      "bb_std",
+      "bb_width",
+      "bb_pos",
+      "ret_quality",
+      "range_ratio",
+      "avg_body",
+      "vwap_drift",
+      "ret_10d",
+      "ret_30d",
+      "ret_90d",
+      "vol_regime",
+      "ma_cross_5_20",
+      "ma_cross_20_60",
+      "rsi_zone",
+      "macd_roc",
+      "dd_60",
+      "ud_vol_ratio",
+      "pe_log",
+      "div_yield",
+      "beta"
+    ],
+    "_model_feature_map": {
+      "blueshield_v10": "quantile_v10_v43",
+      "arrow_v12": "lambdamart_v10_v12"
+    }
+  },
+  "models": {
+    "arrow_v12": {
+      "model_file": "models/us/arrow_v12_lambdamart.txt",
+      "score_script": "scripts/us/arrow_v12_lambdamart_score.py",
+      "train_script": "scripts/us/audit/retrain_full.py",
+      "universe": {
+        "min_price": 1,
+        "max_price": 10
+      },
+      "hold_days": 5,
+      "top_n": 5,
+      "stop_loss": -0.15,
+      "status": "production",
+      "feature_set": "lambdamart_v10_v12",
+      "meta_file": "models/us/arrow_v12_meta.json"
+    },
+    "blueshield_v10": {
+      "model_file": "models/us/blueshield_lgb_v9_quantile_lgb.txt",
+      "score_script": "scripts/us/blueshield_v10_score.py",
+      "train_script": "scripts/us/audit/retrain_full.py",
+      "universe": {
+        "min_price": 10,
+        "max_price": 999999
+      },
+      "hold_days": 20,
+      "top_n": 15,
+      "stop_loss": -0.15,
+      "status": "production",
+      "features_count": 43,
+      "features_key": "quantile_v10_v43",
+      "version": "V10-Quantile",
+      "metrics": {
+        "ic": 0.0743,
+        "icir": 0.7335
+      },
+      "feature_set": "quantile_v10_v43",
+      "meta_file": "models/us/blueshield_v10_meta.json"
+    }
+  },
+  "data": {
+    "hist_parquet": "data/us/us_hist_full_10y.parquet",
+    "fundamentals_parquet": "data/us/fundamentals_latest.parquet",
+    "vix_parquet": "data/us/vix_10y.parquet",
+    "universe_filter": "scripts/us/universe_filter.py"
+  },
+  "paths": {
+    "root": "/home/hermes/.hermes/openclaw-archive",
+    "manifest_dir": "models/us/manifests",
+    "audit_output": "data/audit",
+    "scored_output": "data/us",
+    "handoff_file": "session-handoff.md"
+  },
+  "scoring": {
+    "output_format": {
+      "top_level_keys": [
+        "model",
+        "date",
+        "universe_size",
+        "scored_count",
+        "picks"
+      ],
+      "pick_keys": [
+        "sym",
+        "score",
+        "close",
+        "signal"
+      ]
+    }
+  },
+  "universe": {
+    "arrow": {
+      "description": "$1-$10, 排除权证/SPAC/杠杆ETF, $1-2需$200万/日流动性",
+      "filter_rules": [
+        "exclude_warrants",
+        "exclude_spacs",
+        "exclude_leveraged_etfs",
+        "min_dollar_volume_layered"
+      ],
+      "approximate_count": 1156
+    },
+    "blueshield": {
+      "description": ">$10, 排除杠杆ETF/SPAC, 需$500万/日流动性",
+      "filter_rules": [
+        "exclude_leveraged_etfs",
+        "exclude_spacs",
+        "min_dollar_volume_5m"
+      ],
+      "approximate_count": 3395
+    }
+  },
+  "audit": {
+    "min_icir": 0.3,
+    "required_layers": [
+      "L1_data_integrity",
+      "L2_feature_consistency",
+      "L3_model_effectiveness",
+      "L4_signal_production",
+      "L5_cross_layer"
+    ],
+    "pass_threshold": "5/5"
+  }
+}

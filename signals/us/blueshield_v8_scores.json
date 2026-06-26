@@ -1,97 +1,97 @@
 {
-  "timestamp": "2026-06-25 04:32",
+  "timestamp": "2026-06-26 04:35",
   "model": "blueshield_v8",
   "version": "v8",
-  "total": 4368,
+  "total": 4361,
   "picks": [
     {
-      "ticker": "INSG",
-      "price": 10.25,
-      "pred_rank": 0.7938,
+      "ticker": "SAMG",
+      "price": 10.27,
+      "pred_rank": 0.8432,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
       "ticker": "CRGY",
-      "price": 10.52,
-      "pred_rank": 0.7282,
+      "price": 10.17,
+      "pred_rank": 0.8155,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "ICOI",
+      "price": 10.07,
+      "pred_rank": 0.8142,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
       "ticker": "OTF",
-      "price": 10.49,
-      "pred_rank": 0.6949,
-      "signal": "\ud83d\udfe2\ud83d\udfe2"
-    },
-    {
-      "ticker": "PTEN",
-      "price": 10.07,
-      "pred_rank": 0.6792,
+      "price": 10.22,
+      "pred_rank": 0.8141,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
       "ticker": "MUD",
-      "price": 11.03,
-      "pred_rank": 0.6753,
+      "price": 11.11,
+      "pred_rank": 0.8043,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
-      "ticker": "IE",
-      "price": 10.07,
-      "pred_rank": 0.6745,
+      "ticker": "GDXY",
+      "price": 10.03,
+      "pred_rank": 0.7885,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "MSFO",
+      "price": 10.35,
+      "pred_rank": 0.7653,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "SSL",
+      "price": 10.5,
+      "pred_rank": 0.7555,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "AHCO",
+      "price": 10.03,
+      "pred_rank": 0.7517,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "SPOK",
+      "price": 10.45,
+      "pred_rank": 0.7443,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "LBTYK",
+      "price": 10.72,
+      "pred_rank": 0.7436,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
       "ticker": "PATH",
-      "price": 10.16,
-      "pred_rank": 0.6631,
+      "price": 10.31,
+      "pred_rank": 0.7416,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
-      "ticker": "FVRR",
-      "price": 10.15,
-      "pred_rank": 0.6554,
+      "ticker": "UXRP",
+      "price": 10.18,
+      "pred_rank": 0.7339,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
       "ticker": "HCKT",
-      "price": 10.49,
-      "pred_rank": 0.6424,
+      "price": 10.54,
+      "pred_rank": 0.7334,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
-      "ticker": "OLMA",
-      "price": 10.53,
-      "pred_rank": 0.6415,
-      "signal": "\ud83d\udfe2\ud83d\udfe2"
-    },
-    {
-      "ticker": "XRAY",
-      "price": 10.2,
-      "pred_rank": 0.6373,
-      "signal": "\ud83d\udfe2\ud83d\udfe2"
-    },
-    {
-      "ticker": "CODI",
-      "price": 10.25,
-      "pred_rank": 0.6365,
-      "signal": "\ud83d\udfe2\ud83d\udfe2"
-    },
-    {
-      "ticker": "CRNC",
-      "price": 10.08,
-      "pred_rank": 0.632,
-      "signal": "\ud83d\udfe2\ud83d\udfe2"
-    },
-    {
-      "ticker": "OMER",
-      "price": 10.48,
-      "pred_rank": 0.6229,
-      "signal": "\ud83d\udfe2\ud83d\udfe2"
-    },
-    {
-      "ticker": "SHLS",
-      "price": 10.28,
-      "pred_rank": 0.6208,
+      "ticker": "NXE",
+      "price": 10.07,
+      "pred_rank": 0.7327,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     }
   ]

@@ -1,0 +1,93 @@
+{
+  "model": "arrow_v12",
+  "period": "5d",
+  "initial_capital": 100000,
+  "final_capital": 100478.35,
+  "total_pnl": 478.35,
+  "total_return": 0.0048,
+  "total_trades": 7,
+  "win_rate": 0.4286,
+  "avg_win": 0.1783,
+  "avg_loss": -0.1277,
+  "sharpe": 0.2484,
+  "exit_reasons": {
+    "hard_stop": 2,
+    "simulation_end": 5
+  },
+  "trades": [
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "HDRN",
+      "action": "BUY",
+      "price": 2.6254000663757324,
+      "shares": 7617,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "SHPH",
+      "action": "BUY",
+      "price": 3.2100000381469727,
+      "shares": 6230,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "GPRK",
+      "action": "BUY",
+      "price": 10.399999618530273,
+      "shares": 1923,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "KMRK",
+      "action": "BUY",
+      "price": 0.9779999852180481,
+      "shares": 20449,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-22 09:30:00-04:00",
+      "symbol": "DXC",
+      "action": "BUY",
+      "price": 8.520000457763672,
+      "shares": 2347,
+      "rsi": "50.0"
+    },
+    {
+      "time": "2026-06-23 09:35:00-04:00",
+      "symbol": "HDRN",
+      "action": "SELL",
+      "price": 2.200000047683716,
+      "shares": 7617,
+      "pnl_pct": "-16.20%",
+      "reason": "hard_stop"
+    },
+    {
+      "time": "2026-06-23 09:35:00-04:00",
+      "symbol": "HDRN",
+      "action": "BUY",
+      "price": 2.200000047683716,
+      "shares": 9090,
+      "rsi": "32.6"
+    },
+    {
+      "time": "2026-06-25 09:59:00-04:00",
+      "symbol": "HDRN",
+      "action": "SELL",
+      "price": 1.8600000143051147,
+      "shares": 9090,
+      "pnl_pct": "-15.45%",
+      "reason": "hard_stop"
+    },
+    {
+      "time": "2026-06-25 09:59:00-04:00",
+      "symbol": "HDRN",
+      "action": "BUY",
+      "price": 1.8600000143051147,
+      "shares": 10752,
+      "rsi": "36.8"
+    }
+  ]
+}

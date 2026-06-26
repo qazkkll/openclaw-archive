@@ -1,0 +1,53 @@
+{
+  "model_name": "arrow_v12",
+  "model_file": "models/us/arrow_v12_lambdamart.txt",
+  "model_file_sha256": "ac1272fbabaa42c1",
+  "features": [
+    "ret5",
+    "ret20",
+    "ret60",
+    "momentum_6m",
+    "momentum_1m",
+    "ma_bias20",
+    "vol20",
+    "vol_ratio",
+    "rsi14",
+    "macd_hist",
+    "bb_pos",
+    "price_position",
+    "beta_c",
+    "vix_close",
+    "spy_ret5",
+    "spy_ret20",
+    "spy_ret60"
+  ],
+  "features_count": 17,
+  "features_hash": "e696be24fb55",
+  "universe": {
+    "min_price": 1,
+    "max_price": 10
+  },
+  "hold_days": 5,
+  "top_n": 20,
+  "stop_loss": -0.15,
+  "metrics": {
+    "icir": 0.3859,
+    "ic": 0.013371,
+    "per_year": {
+      "2025": {
+        "icir": 0.1381,
+        "ic": 0.011052,
+        "mono": true
+      },
+      "2026": {
+        "icir": 0.6338,
+        "ic": 0.01569,
+        "mono": false
+      }
+    }
+  },
+  "trained_at": "2026-06-26T13:40:00",
+  "trained_by_session": "20260626_124143",
+  "central_config_version": "1.0.0",
+  "notes": "GPU trained, LambdaMART, 5/5 audit PASSED"
+}

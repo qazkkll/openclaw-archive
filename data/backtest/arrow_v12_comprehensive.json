@@ -1,0 +1,536 @@
+{
+  "model": "arrow_v12_lambdamart",
+  "features": 17,
+  "period": "2025-01-01 to present",
+  "data_start": "2024-06-01",
+  "universe": "green_arrow $1-$10",
+  "top_n": 5,
+  "spy_benchmark": {
+    "total_return_pct": 27.6,
+    "sharpe": 1.018,
+    "max_drawdown_pct": -18.8,
+    "yearly": {
+      "2025": 18.0,
+      "2026": 7.9
+    }
+  },
+  "configs": [
+    {
+      "label": "H5_fixed",
+      "hold_days": 5,
+      "exit_strategy": "fixed",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": 122.5,
+      "annualized_return_pct": 72.7,
+      "sharpe": 1.014,
+      "max_drawdown_pct": -37.9,
+      "num_trades": 323,
+      "win_rate_pct": 49.2,
+      "avg_trade_return_pct": 2.5,
+      "avg_days_held": 7.3,
+      "exit_counts": {
+        "hold_period": 323
+      },
+      "yearly": {
+        "2025": {
+          "trades": 244,
+          "win_rate": 50.81967213114754,
+          "total_return_pct": 412.67370529409357,
+          "avg_return_pct": 1.6912856774348097
+        },
+        "2026": {
+          "trades": 79,
+          "win_rate": 44.303797468354425,
+          "total_return_pct": 394.90083156821265,
+          "avg_return_pct": 4.998744703395097
+        }
+      }
+    },
+    {
+      "label": "H5_stop_only",
+      "hold_days": 5,
+      "exit_strategy": "stop_only",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": 114.6,
+      "annualized_return_pct": 68.4,
+      "sharpe": 0.988,
+      "max_drawdown_pct": -37.9,
+      "num_trades": 341,
+      "win_rate_pct": 49.9,
+      "avg_trade_return_pct": 2.25,
+      "avg_days_held": 7.0,
+      "exit_counts": {
+        "hold_period": 319,
+        "stop_loss": 22
+      },
+      "yearly": {
+        "2025": {
+          "trades": 256,
+          "win_rate": 52.34375,
+          "total_return_pct": 408.2671788685868,
+          "avg_return_pct": 1.5947936674554173
+        },
+        "2026": {
+          "trades": 85,
+          "win_rate": 42.35294117647059,
+          "total_return_pct": 359.697156333413,
+          "avg_return_pct": 4.231731250981328
+        }
+      }
+    },
+    {
+      "label": "H5_trailing_stop",
+      "hold_days": 5,
+      "exit_strategy": "trailing_stop",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": 78.3,
+      "annualized_return_pct": 48.4,
+      "sharpe": 0.882,
+      "max_drawdown_pct": -62.6,
+      "num_trades": 483,
+      "win_rate_pct": 44.5,
+      "avg_trade_return_pct": 1.0,
+      "avg_days_held": 5.3,
+      "exit_counts": {
+        "trailing_stop": 182,
+        "hold_period": 290,
+        "stop_loss": 11
+      },
+      "yearly": {
+        "2025": {
+          "trades": 331,
+          "win_rate": 49.244712990936556,
+          "total_return_pct": 378.87682485519645,
+          "avg_return_pct": 1.1446429753933427
+        },
+        "2026": {
+          "trades": 152,
+          "win_rate": 34.21052631578947,
+          "total_return_pct": 102.73388477389034,
+          "avg_return_pct": 0.6758808208808575
+        }
+      }
+    },
+    {
+      "label": "H5_rsi_bb_exit",
+      "hold_days": 5,
+      "exit_strategy": "rsi_bb_exit",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": 120.2,
+      "annualized_return_pct": 71.4,
+      "sharpe": 1.008,
+      "max_drawdown_pct": -40.2,
+      "num_trades": 357,
+      "win_rate_pct": 49.9,
+      "avg_trade_return_pct": 2.23,
+      "avg_days_held": 6.6,
+      "exit_counts": {
+        "hold_period": 319,
+        "rsi_bb_overbought": 18,
+        "stop_loss": 20
+      },
+      "yearly": {
+        "2025": {
+          "trades": 267,
+          "win_rate": 52.05992509363296,
+          "total_return_pct": 356.6771922585743,
+          "avg_return_pct": 1.3358696339272444
+        },
+        "2026": {
+          "trades": 90,
+          "win_rate": 43.333333333333336,
+          "total_return_pct": 439.3791463635649,
+          "avg_return_pct": 4.881990515150721
+        }
+      }
+    },
+    {
+      "label": "H10_fixed",
+      "hold_days": 10,
+      "exit_strategy": "fixed",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": 29.9,
+      "annualized_return_pct": 19.5,
+      "sharpe": 0.836,
+      "max_drawdown_pct": -58.5,
+      "num_trades": 184,
+      "win_rate_pct": 47.8,
+      "avg_trade_return_pct": 2.41,
+      "avg_days_held": 11.5,
+      "exit_counts": {
+        "hold_period": 184
+      },
+      "yearly": {
+        "2025": {
+          "trades": 143,
+          "win_rate": 50.349650349650354,
+          "total_return_pct": 311.7969716354029,
+          "avg_return_pct": 2.1803984030447756
+        },
+        "2026": {
+          "trades": 41,
+          "win_rate": 39.02439024390244,
+          "total_return_pct": 131.09124914833802,
+          "avg_return_pct": 3.1973475402033666
+        }
+      }
+    },
+    {
+      "label": "H10_stop_only",
+      "hold_days": 10,
+      "exit_strategy": "stop_only",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": -64.7,
+      "annualized_return_pct": -50.9,
+      "sharpe": 0.19,
+      "max_drawdown_pct": -72.2,
+      "num_trades": 200,
+      "win_rate_pct": 45.0,
+      "avg_trade_return_pct": 0.06,
+      "avg_days_held": 10.6,
+      "exit_counts": {
+        "hold_period": 179,
+        "stop_loss": 21
+      },
+      "yearly": {
+        "2025": {
+          "trades": 154,
+          "win_rate": 47.4025974025974,
+          "total_return_pct": 84.71772072064157,
+          "avg_return_pct": 0.5501150696145556
+        },
+        "2026": {
+          "trades": 46,
+          "win_rate": 36.95652173913043,
+          "total_return_pct": -72.08385040097974,
+          "avg_return_pct": -1.5670402261082552
+        }
+      }
+    },
+    {
+      "label": "H10_trailing_stop",
+      "hold_days": 10,
+      "exit_strategy": "trailing_stop",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": -46.1,
+      "annualized_return_pct": -34.5,
+      "sharpe": 0.414,
+      "max_drawdown_pct": -64.1,
+      "num_trades": 265,
+      "win_rate_pct": 42.3,
+      "avg_trade_return_pct": 0.35,
+      "avg_days_held": 8.0,
+      "exit_counts": {
+        "trailing_stop": 134,
+        "hold_period": 122,
+        "stop_loss": 9
+      },
+      "yearly": {
+        "2025": {
+          "trades": 194,
+          "win_rate": 46.391752577319586,
+          "total_return_pct": 106.1746567139831,
+          "avg_return_pct": 0.5472920449174387
+        },
+        "2026": {
+          "trades": 71,
+          "win_rate": 30.985915492957744,
+          "total_return_pct": -13.683419528491825,
+          "avg_return_pct": -0.19272421871115247
+        }
+      }
+    },
+    {
+      "label": "H10_rsi_bb_exit",
+      "hold_days": 10,
+      "exit_strategy": "rsi_bb_exit",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": -66.9,
+      "annualized_return_pct": -53.0,
+      "sharpe": 0.173,
+      "max_drawdown_pct": -73.3,
+      "num_trades": 206,
+      "win_rate_pct": 43.2,
+      "avg_trade_return_pct": -0.36,
+      "avg_days_held": 10.2,
+      "exit_counts": {
+        "hold_period": 172,
+        "stop_loss": 23,
+        "rsi_bb_overbought": 11
+      },
+      "yearly": {
+        "2025": {
+          "trades": 157,
+          "win_rate": 47.13375796178344,
+          "total_return_pct": 38.0352525706116,
+          "avg_return_pct": 0.24226275522682547
+        },
+        "2026": {
+          "trades": 49,
+          "win_rate": 30.612244897959183,
+          "total_return_pct": -111.28387767348596,
+          "avg_return_pct": -2.271099544356856
+        }
+      }
+    },
+    {
+      "label": "H15_fixed",
+      "hold_days": 15,
+      "exit_strategy": "fixed",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": 25.0,
+      "annualized_return_pct": 16.5,
+      "sharpe": 0.602,
+      "max_drawdown_pct": -38.5,
+      "num_trades": 155,
+      "win_rate_pct": 52.3,
+      "avg_trade_return_pct": 2.94,
+      "avg_days_held": 16.5,
+      "exit_counts": {
+        "hold_period": 155
+      },
+      "yearly": {
+        "2025": {
+          "trades": 109,
+          "win_rate": 56.88073394495413,
+          "total_return_pct": 448.9952547987263,
+          "avg_return_pct": 4.119222521089232
+        },
+        "2026": {
+          "trades": 46,
+          "win_rate": 41.30434782608695,
+          "total_return_pct": 6.649858575425549,
+          "avg_return_pct": 0.1445621429440337
+        }
+      }
+    },
+    {
+      "label": "H15_stop_only",
+      "hold_days": 15,
+      "exit_strategy": "stop_only",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": -42.2,
+      "annualized_return_pct": -31.2,
+      "sharpe": 0.229,
+      "max_drawdown_pct": -58.5,
+      "num_trades": 116,
+      "win_rate_pct": 49.1,
+      "avg_trade_return_pct": 0.87,
+      "avg_days_held": 16.2,
+      "exit_counts": {
+        "hold_period": 98,
+        "stop_loss": 18
+      },
+      "yearly": {
+        "2025": {
+          "trades": 90,
+          "win_rate": 51.11111111111111,
+          "total_return_pct": 67.75325500943093,
+          "avg_return_pct": 0.7528139445492326
+        },
+        "2026": {
+          "trades": 26,
+          "win_rate": 42.30769230769231,
+          "total_return_pct": 32.778873972142556,
+          "avg_return_pct": 1.2607259220054827
+        }
+      }
+    },
+    {
+      "label": "H15_trailing_stop",
+      "hold_days": 15,
+      "exit_strategy": "trailing_stop",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": -32.4,
+      "annualized_return_pct": -23.5,
+      "sharpe": 0.623,
+      "max_drawdown_pct": -68.2,
+      "num_trades": 192,
+      "win_rate_pct": 41.7,
+      "avg_trade_return_pct": 0.13,
+      "avg_days_held": 9.9,
+      "exit_counts": {
+        "trailing_stop": 125,
+        "hold_period": 59,
+        "stop_loss": 8
+      },
+      "yearly": {
+        "2025": {
+          "trades": 132,
+          "win_rate": 44.696969696969695,
+          "total_return_pct": 103.19428656867196,
+          "avg_return_pct": 0.7817748982475148
+        },
+        "2026": {
+          "trades": 60,
+          "win_rate": 35.0,
+          "total_return_pct": -77.2855032676429,
+          "avg_return_pct": -1.2880917211273817
+        }
+      }
+    },
+    {
+      "label": "H15_rsi_bb_exit",
+      "hold_days": 15,
+      "exit_strategy": "rsi_bb_exit",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": -9.4,
+      "annualized_return_pct": -6.5,
+      "sharpe": 0.655,
+      "max_drawdown_pct": -82.1,
+      "num_trades": 143,
+      "win_rate_pct": 46.2,
+      "avg_trade_return_pct": 1.0,
+      "avg_days_held": 15.3,
+      "exit_counts": {
+        "hold_period": 106,
+        "stop_loss": 26,
+        "rsi_bb_overbought": 11
+      },
+      "yearly": {
+        "2025": {
+          "trades": 101,
+          "win_rate": 48.51485148514851,
+          "total_return_pct": -4.508368402642715,
+          "avg_return_pct": -0.044637310917254605
+        },
+        "2026": {
+          "trades": 42,
+          "win_rate": 40.476190476190474,
+          "total_return_pct": 147.50581687858016,
+          "avg_return_pct": 3.5120432590138133
+        }
+      }
+    },
+    {
+      "label": "H20_fixed",
+      "hold_days": 20,
+      "exit_strategy": "fixed",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": 160.6,
+      "annualized_return_pct": 92.4,
+      "sharpe": 1.102,
+      "max_drawdown_pct": -39.6,
+      "num_trades": 120,
+      "win_rate_pct": 56.7,
+      "avg_trade_return_pct": 7.62,
+      "avg_days_held": 22.1,
+      "exit_counts": {
+        "hold_period": 120
+      },
+      "yearly": {
+        "2025": {
+          "trades": 85,
+          "win_rate": 60.0,
+          "total_return_pct": 510.63711212954263,
+          "avg_return_pct": 6.007495436818148
+        },
+        "2026": {
+          "trades": 35,
+          "win_rate": 48.57142857142857,
+          "total_return_pct": 403.21151353432344,
+          "avg_return_pct": 11.520328958123526
+        }
+      }
+    },
+    {
+      "label": "H20_stop_only",
+      "hold_days": 20,
+      "exit_strategy": "stop_only",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": 68.6,
+      "annualized_return_pct": 42.9,
+      "sharpe": 0.837,
+      "max_drawdown_pct": -35.9,
+      "num_trades": 107,
+      "win_rate_pct": 55.1,
+      "avg_trade_return_pct": 5.17,
+      "avg_days_held": 21.9,
+      "exit_counts": {
+        "hold_period": 92,
+        "stop_loss": 15
+      },
+      "yearly": {
+        "2025": {
+          "trades": 76,
+          "win_rate": 57.89473684210527,
+          "total_return_pct": 351.05535464147357,
+          "avg_return_pct": 4.619149403177284
+        },
+        "2026": {
+          "trades": 31,
+          "win_rate": 48.38709677419355,
+          "total_return_pct": 201.8187891257423,
+          "avg_return_pct": 6.5102835201852365
+        }
+      }
+    },
+    {
+      "label": "H20_trailing_stop",
+      "hold_days": 20,
+      "exit_strategy": "trailing_stop",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": 3.4,
+      "annualized_return_pct": 2.3,
+      "sharpe": 0.658,
+      "max_drawdown_pct": -65.7,
+      "num_trades": 161,
+      "win_rate_pct": 41.6,
+      "avg_trade_return_pct": 1.17,
+      "avg_days_held": 11.8,
+      "exit_counts": {
+        "trailing_stop": 99,
+        "hold_period": 52,
+        "stop_loss": 10
+      },
+      "yearly": {
+        "2025": {
+          "trades": 113,
+          "win_rate": 44.24778761061947,
+          "total_return_pct": 231.448715338761,
+          "avg_return_pct": 2.048218719812044
+        },
+        "2026": {
+          "trades": 48,
+          "win_rate": 35.41666666666667,
+          "total_return_pct": -42.93433309279001,
+          "avg_return_pct": -0.8944652727664586
+        }
+      }
+    },
+    {
+      "label": "H20_rsi_bb_exit",
+      "hold_days": 20,
+      "exit_strategy": "rsi_bb_exit",
+      "stop_loss_pct": -0.15,
+      "total_return_pct": 32.3,
+      "annualized_return_pct": 21.1,
+      "sharpe": 0.752,
+      "max_drawdown_pct": -68.1,
+      "num_trades": 99,
+      "win_rate_pct": 54.5,
+      "avg_trade_return_pct": 3.72,
+      "avg_days_held": 20.0,
+      "exit_counts": {
+        "hold_period": 66,
+        "rsi_bb_overbought": 15,
+        "stop_loss": 18
+      },
+      "yearly": {
+        "2025": {
+          "trades": 70,
+          "win_rate": 61.42857142857143,
+          "total_return_pct": 397.15808823448185,
+          "avg_return_pct": 5.673686974778312
+        },
+        "2026": {
+          "trades": 29,
+          "win_rate": 37.93103448275862,
+          "total_return_pct": -28.575097907505942,
+          "avg_return_pct": -0.9853482037071015
+        }
+      }
+    }
+  ],
+  "timestamp": "2026-06-26T17:29:08.181773"
+}
