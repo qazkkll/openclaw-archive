@@ -1,0 +1,338 @@
+[
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "AVGO",
+    "message": "🟡 AVGO ↓3.7% (阈值±3.0%)",
+    "data": {
+      "price": 365.26,
+      "change": -0.03707902194687932
+    },
+    "alert_level": "L1",
+    "timestamp": "2026-06-27T17:19:54.970155+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "APP",
+    "message": "🟡 APP ↑6.9% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 476.75,
+      "change": 0.06928183734804644
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: 🔴负面(置信度65%)\n  • AppLovin: This Catalyst Changes Everything\n  • The Market Rotation Is On. ServiceNow, Workday, and AppLovin Rise as Software To\n  • AppLovin (APP) Suffers a Larger Drop Than the General Market: Key Insights",
+      "sentiment": {
+        "positive": 0.1364,
+        "negative": 0.6527,
+        "neutral": 0.2109,
+        "label": "negative",
+        "confidence": 0.6527
+      }
+    },
+    "timestamp": "2026-06-27T17:19:54.970155+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "TXN",
+    "message": "🟡 TXN ↓8.5% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 285.415,
+      "change": -0.08459219346354918
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: ⚪中性(置信度64%)\n  • Texas Instruments (TXN) Declines More Than Market: Some Information for Investor\n  • Is onsemi's Synaptics Buyout a Defining Bet on the Physical AI Market?",
+      "sentiment": {
+        "positive": 0.0656,
+        "negative": 0.2902,
+        "neutral": 0.6442,
+        "label": "neutral",
+        "confidence": 0.6442
+      }
+    },
+    "timestamp": "2026-06-27T17:19:54.970155+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "PLTR",
+    "message": "🟡 PLTR ↑5.6% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 113.29,
+      "change": 0.05582479030754901
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: 🟢正面(置信度71%)\n  • Why Palantir Stock Soared Today\n  • Palantir Stock Surges to Snap a 7-Day Losing Streak. One Big Tech Investor Just \n  • Palantir's Stock Looks Set to Snap Its Losing Streak. One Big Tech Investor Just",
+      "sentiment": {
+        "positive": 0.7136,
+        "negative": 0.1022,
+        "neutral": 0.1841,
+        "label": "positive",
+        "confidence": 0.7136
+      }
+    },
+    "timestamp": "2026-06-27T17:19:54.970155+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "AVGO",
+    "message": "🟡 AVGO ↓3.7% (阈值±3.0%)",
+    "data": {
+      "price": 365.26,
+      "change": -0.03707902194687932
+    },
+    "alert_level": "L1",
+    "timestamp": "2026-06-27T17:49:57.899252+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "APP",
+    "message": "🟡 APP ↑6.9% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 476.75,
+      "change": 0.06928183734804644
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: 🔴负面(置信度65%)\n  • AppLovin: This Catalyst Changes Everything\n  • The Market Rotation Is On. ServiceNow, Workday, and AppLovin Rise as Software To\n  • AppLovin (APP) Suffers a Larger Drop Than the General Market: Key Insights",
+      "sentiment": {
+        "positive": 0.1364,
+        "negative": 0.6527,
+        "neutral": 0.2109,
+        "label": "negative",
+        "confidence": 0.6527
+      }
+    },
+    "timestamp": "2026-06-27T17:49:57.899252+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "TXN",
+    "message": "🟡 TXN ↓8.5% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 285.415,
+      "change": -0.08459219346354918
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: ⚪中性(置信度64%)\n  • Texas Instruments (TXN) Declines More Than Market: Some Information for Investor\n  • Is onsemi's Synaptics Buyout a Defining Bet on the Physical AI Market?",
+      "sentiment": {
+        "positive": 0.0656,
+        "negative": 0.2902,
+        "neutral": 0.6442,
+        "label": "neutral",
+        "confidence": 0.6442
+      }
+    },
+    "timestamp": "2026-06-27T17:49:57.899252+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "PLTR",
+    "message": "🟡 PLTR ↑5.6% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 113.29,
+      "change": 0.05582479030754901
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: 🟢正面(置信度71%)\n  • Why Palantir Stock Soared Today\n  • Palantir Stock Surges to Snap a 7-Day Losing Streak. One Big Tech Investor Just \n  • Palantir's Stock Looks Set to Snap Its Losing Streak. One Big Tech Investor Just",
+      "sentiment": {
+        "positive": 0.7136,
+        "negative": 0.1022,
+        "neutral": 0.1841,
+        "label": "positive",
+        "confidence": 0.7136
+      }
+    },
+    "timestamp": "2026-06-27T17:49:57.899252+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "AVGO",
+    "message": "🟡 AVGO ↓3.7% (阈值±3.0%)",
+    "data": {
+      "price": 365.26,
+      "change": -0.03707902194687932
+    },
+    "alert_level": "L1",
+    "timestamp": "2026-06-27T18:20:00.780465+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "APP",
+    "message": "🟡 APP ↑6.9% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 476.75,
+      "change": 0.06928183734804644
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: 🔴负面(置信度65%)\n  • AppLovin: This Catalyst Changes Everything\n  • The Market Rotation Is On. ServiceNow, Workday, and AppLovin Rise as Software To\n  • AppLovin (APP) Suffers a Larger Drop Than the General Market: Key Insights",
+      "sentiment": {
+        "positive": 0.1364,
+        "negative": 0.6527,
+        "neutral": 0.2109,
+        "label": "negative",
+        "confidence": 0.6527
+      }
+    },
+    "timestamp": "2026-06-27T18:20:00.780465+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "TXN",
+    "message": "🟡 TXN ↓8.5% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 285.415,
+      "change": -0.08459219346354918
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: ⚪中性(置信度64%)\n  • Texas Instruments (TXN) Declines More Than Market: Some Information for Investor\n  • Is onsemi's Synaptics Buyout a Defining Bet on the Physical AI Market?",
+      "sentiment": {
+        "positive": 0.0656,
+        "negative": 0.2902,
+        "neutral": 0.6442,
+        "label": "neutral",
+        "confidence": 0.6442
+      }
+    },
+    "timestamp": "2026-06-27T18:20:00.780465+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "PLTR",
+    "message": "🟡 PLTR ↑5.6% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 113.29,
+      "change": 0.05582479030754901
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: 🟢正面(置信度71%)\n  • Why Palantir Stock Soared Today\n  • Palantir Stock Surges to Snap a 7-Day Losing Streak. One Big Tech Investor Just \n  • Palantir's Stock Looks Set to Snap Its Losing Streak. One Big Tech Investor Just",
+      "sentiment": {
+        "positive": 0.7136,
+        "negative": 0.1022,
+        "neutral": 0.1841,
+        "label": "positive",
+        "confidence": 0.7136
+      }
+    },
+    "timestamp": "2026-06-27T18:20:00.780465+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "AVGO",
+    "message": "🟡 AVGO ↓3.7% (阈值±3.0%)",
+    "data": {
+      "price": 365.26,
+      "change": -0.03707902194687932
+    },
+    "alert_level": "L1",
+    "timestamp": "2026-06-27T18:50:03.336742+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "APP",
+    "message": "🟡 APP ↑6.9% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 476.75,
+      "change": 0.06928183734804644
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: 🔴负面(置信度65%)\n  • AppLovin: This Catalyst Changes Everything\n  • The Market Rotation Is On. ServiceNow, Workday, and AppLovin Rise as Software To\n  • AppLovin (APP) Suffers a Larger Drop Than the General Market: Key Insights",
+      "sentiment": {
+        "positive": 0.1364,
+        "negative": 0.6527,
+        "neutral": 0.2109,
+        "label": "negative",
+        "confidence": 0.6527
+      }
+    },
+    "timestamp": "2026-06-27T18:50:03.336742+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "TXN",
+    "message": "🟡 TXN ↓8.5% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 285.415,
+      "change": -0.08459219346354918
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: ⚪中性(置信度64%)\n  • Texas Instruments (TXN) Declines More Than Market: Some Information for Investor\n  • Is onsemi's Synaptics Buyout a Defining Bet on the Physical AI Market?",
+      "sentiment": {
+        "positive": 0.0656,
+        "negative": 0.2902,
+        "neutral": 0.6442,
+        "label": "neutral",
+        "confidence": 0.6442
+      }
+    },
+    "timestamp": "2026-06-27T18:50:03.336742+00:00"
+  },
+  {
+    "type": "price_move",
+    "severity": "warning",
+    "ticker": "PLTR",
+    "message": "🟡 PLTR ↑5.6% (阈值±3.0%)\n  模型: ⏳持有 | 价格异动但未触及任何阈值，继续持有。",
+    "data": {
+      "price": 113.29,
+      "change": 0.05582479030754901
+    },
+    "alert_level": "L2",
+    "analysis": {
+      "recommendation": "hold",
+      "model_reasoning": "价格异动但未触及任何阈值，继续持有。",
+      "news_context": "新闻情感: 🟢正面(置信度71%)\n  • Why Palantir Stock Soared Today\n  • Palantir Stock Surges to Snap a 7-Day Losing Streak. One Big Tech Investor Just \n  • Palantir's Stock Looks Set to Snap Its Losing Streak. One Big Tech Investor Just",
+      "sentiment": {
+        "positive": 0.7136,
+        "negative": 0.1022,
+        "neutral": 0.1841,
+        "label": "positive",
+        "confidence": 0.7136
+      }
+    },
+    "timestamp": "2026-06-27T18:50:03.336742+00:00"
+  }
+]

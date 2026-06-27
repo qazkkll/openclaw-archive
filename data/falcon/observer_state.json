@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-06-27T14:59:36.818685-04:00",
+  "session": "market",
+  "poll_interval": 300,
+  "tickers": {
+    "AVGO": {
+      "price": 365.26,
+      "prev_close": 379.325,
+      "bid": 366.53,
+      "ask": 0.0,
+      "vwap": null,
+      "day_volume": 0,
+      "avg_volume_20d": 1086174.9,
+      "daily_change_pct": -3.71,
+      "vol_ratio": 0.0
+    },
+    "APP": {
+      "price": 476.75,
+      "prev_close": 445.86,
+      "bid": 452.02,
+      "ask": 502.31,
+      "vwap": null,
+      "day_volume": 0,
+      "avg_volume_20d": 173662.9,
+      "daily_change_pct": 6.93,
+      "vol_ratio": 0.0
+    },
+    "NVDA": {
+      "price": 191.88,
+      "prev_close": 195.89,
+      "bid": 192.36,
+      "ask": 211.65,
+      "vwap": null,
+      "day_volume": 0,
+      "avg_volume_20d": 4966643.6,
+      "daily_change_pct": -2.05,
+      "vol_ratio": 0.0
+    },
+    "TXN": {
+      "price": 285.415,
+      "prev_close": 311.79,
+      "bid": 268.85,
+      "ask": 295.89,
+      "vwap": null,
+      "day_volume": 0,
+      "avg_volume_20d": 415925.4,
+      "daily_change_pct": -8.46,
+      "vol_ratio": 0.0
+    },
+    "PLTR": {
+      "price": 113.29,
+      "prev_close": 107.3,
+      "bid": 107.92,
+      "ask": 119.1,
+      "vwap": null,
+      "day_volume": 0,
+      "avg_volume_20d": 1104807.95,
+      "daily_change_pct": 5.58,
+      "vol_ratio": 0.0
+    }
+  },
+  "signal_tickers": [
+    "AVGO",
+    "APP",
+    "NVDA",
+    "TXN",
+    "PLTR"
+  ],
+  "has_alerts": true,
+  "alert_count": 4
+}

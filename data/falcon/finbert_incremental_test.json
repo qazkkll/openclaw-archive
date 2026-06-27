@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "config": "\u7eaf\u57fa\u672c\u9762 (\u57fa\u51c6)",
+      "sharpe": 2.206,
+      "dd": 16.91,
+      "ret": 210.98,
+      "wr": 63.7,
+      "trades": 80,
+      "rebalances": 17,
+      "avg_cost_pct": 0.04
+    },
+    {
+      "config": "+\u60c5\u7eea5%",
+      "sharpe": 2.277,
+      "dd": 16.91,
+      "ret": 220.54,
+      "wr": 65.0,
+      "trades": 80,
+      "rebalances": 17,
+      "avg_cost_pct": 0.04
+    },
+    {
+      "config": "+\u60c5\u7eea10%",
+      "sharpe": 2.277,
+      "dd": 16.91,
+      "ret": 220.54,
+      "wr": 65.0,
+      "trades": 80,
+      "rebalances": 17,
+      "avg_cost_pct": 0.04
+    },
+    {
+      "config": "+\u60c5\u7eea15%",
+      "sharpe": 2.281,
+      "dd": 16.91,
+      "ret": 222.85,
+      "wr": 65.0,
+      "trades": 80,
+      "rebalances": 17,
+      "avg_cost_pct": 0.04
+    },
+    {
+      "config": "+\u60c5\u7eea20%",
+      "sharpe": 2.301,
+      "dd": 16.91,
+      "ret": 223.02,
+      "wr": 65.0,
+      "trades": 80,
+      "rebalances": 17,
+      "avg_cost_pct": 0.04
+    }
+  ],
+  "baseline_sharpe": 2.206
+}

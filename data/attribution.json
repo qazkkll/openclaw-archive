@@ -1,8 +1,707 @@
 {
-  "attributions": [],
+  "attributions": [
+    {
+      "rec_id": "Rc758d98e",
+      "target": "300136 信维通信",
+      "source": "morning",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.8,
+      "is_correct": false,
+      "actual_return": -3.87,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "conf_no_evidence",
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.8
+    },
+    {
+      "rec_id": "Rdc8feaba",
+      "target": "600233 圆通速递",
+      "source": "morning",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.8,
+      "is_correct": true,
+      "actual_return": 0.5,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.19999999999999996
+    },
+    {
+      "rec_id": "R16c17214",
+      "target": "000848 承德露露",
+      "source": "morning",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.65,
+      "is_correct": true,
+      "actual_return": 0.79,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.35
+    },
+    {
+      "rec_id": "Rccdfe739",
+      "target": "300347 泰格医药",
+      "source": "morning",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.55,
+      "is_correct": false,
+      "actual_return": -0.29,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.55
+    },
+    {
+      "rec_id": "R6bac681b",
+      "target": "300142 沃森生物",
+      "source": "morning",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.55,
+      "is_correct": true,
+      "actual_return": 1.13,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.44999999999999996
+    },
+    {
+      "rec_id": "Re79a2986",
+      "target": "002552 宝鼎科技",
+      "source": "close_review",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.5,
+      "is_correct": false,
+      "actual_return": -9.91,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "close_review_recommend",
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.5
+    },
+    {
+      "rec_id": "R1d24cd84",
+      "target": "600353 旭光电子",
+      "source": "close_review",
+      "date": "20260622",
+      "direction": "neutral",
+      "confidence": 0.4,
+      "is_correct": false,
+      "actual_return": 0,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "close_review_recommend",
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.4
+    },
+    {
+      "rec_id": "Rb7f2d2ad",
+      "target": "300136 信维通信",
+      "source": "close_review",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.8,
+      "is_correct": false,
+      "actual_return": -3.87,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "conf_no_evidence",
+        "close_review_recommend",
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.8
+    },
+    {
+      "rec_id": "Rac20116d",
+      "target": "SPY",
+      "source": "pre_market",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.6,
+      "is_correct": false,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "macro_wrong",
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.6
+    },
+    {
+      "rec_id": "Rd7677a38",
+      "target": "QQQ",
+      "source": "pre_market",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.65,
+      "is_correct": false,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "macro_wrong",
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.65
+    },
+    {
+      "rec_id": "R3f2fccff",
+      "target": "FATE",
+      "source": "pre_market",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.7,
+      "is_correct": false,
+      "actual_return": -2.33,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "model_signal_wrong"
+      ],
+      "calibration_gap": 0.7
+    },
+    {
+      "rec_id": "Rbb5aedd1",
+      "target": "ZEPP",
+      "source": "pre_market",
+      "date": "20260622",
+      "direction": "bullish",
+      "confidence": 0.75,
+      "is_correct": false,
+      "actual_return": -8.88,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "conf_no_evidence"
+      ],
+      "calibration_gap": 0.75
+    },
+    {
+      "rec_id": "R7ce387d9",
+      "target": "NXTC",
+      "source": "pre_market",
+      "date": "20260622",
+      "direction": "neutral",
+      "confidence": 0.5,
+      "is_correct": false,
+      "actual_return": 0,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.5
+    },
+    {
+      "rec_id": "R3dd1de2f",
+      "target": "VIX",
+      "source": "pre_market",
+      "date": "20260622",
+      "direction": "bearish",
+      "confidence": 0.65,
+      "is_correct": false,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "macro_wrong",
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.65
+    },
+    {
+      "rec_id": "R7c6ce8d5",
+      "target": "002552 宝鼎科技",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.5,
+      "is_correct": false,
+      "actual_return": 0.0,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.5
+    },
+    {
+      "rec_id": "R30387e57",
+      "target": "300260 新莱应材",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.65,
+      "is_correct": false,
+      "actual_return": 0.0,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.65
+    },
+    {
+      "rec_id": "Ra5e45e35",
+      "target": "600353 旭光电子",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.55,
+      "is_correct": false,
+      "actual_return": 0.0,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.55
+    },
+    {
+      "rec_id": "R0561918b",
+      "target": "SPY",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "neutral",
+      "confidence": 0.55,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.44999999999999996
+    },
+    {
+      "rec_id": "Ra90b580e",
+      "target": "CRMT",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.5,
+      "is_correct": false,
+      "actual_return": 0.0,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "model_signal_wrong"
+      ],
+      "calibration_gap": 0.5
+    },
+    {
+      "rec_id": "R087f12c1",
+      "target": "NXTC",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.55,
+      "is_correct": false,
+      "actual_return": 0.0,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "model_signal_wrong"
+      ],
+      "calibration_gap": 0.55
+    },
+    {
+      "rec_id": "R62bed8c1",
+      "target": "Semiconductor",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.65,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.35
+    },
+    {
+      "rec_id": "R202578da",
+      "target": "CSGP",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.6,
+      "is_correct": false,
+      "actual_return": 0.0,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "model_signal_wrong"
+      ],
+      "calibration_gap": 0.6
+    },
+    {
+      "rec_id": "R67d4d35b",
+      "target": "HUN",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.55,
+      "is_correct": false,
+      "actual_return": 0.0,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "model_signal_wrong"
+      ],
+      "calibration_gap": 0.55
+    },
+    {
+      "rec_id": "R5df4d181",
+      "target": "HUN",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.63,
+      "is_correct": false,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "model_signal_wrong"
+      ],
+      "calibration_gap": 0.63
+    },
+    {
+      "rec_id": "Rb7f30cb7",
+      "target": "CMG",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.62,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.38
+    },
+    {
+      "rec_id": "Rbb6ffbf8",
+      "target": "CRMT",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.68,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.31999999999999995
+    },
+    {
+      "rec_id": "R730b396c",
+      "target": "NEE",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.55,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.44999999999999996
+    },
+    {
+      "rec_id": "Rd83637ca",
+      "target": "S&P 500",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "neutral",
+      "confidence": 0.5,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.5
+    },
+    {
+      "rec_id": "R576000e2",
+      "target": "CSGP",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.65,
+      "is_correct": false,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "model_signal_wrong"
+      ],
+      "calibration_gap": 0.65
+    },
+    {
+      "rec_id": "R81884979",
+      "target": "SKIL",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bullish",
+      "confidence": 0.66,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.33999999999999997
+    },
+    {
+      "rec_id": "R293bf61b",
+      "target": "NET",
+      "source": "manual",
+      "date": "20260623",
+      "direction": "bearish",
+      "confidence": 0.7,
+      "is_correct": false,
+      "actual_return": 0.0,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "no_model_signal"
+      ],
+      "calibration_gap": 0.7
+    },
+    {
+      "rec_id": "R3ebeeba5",
+      "target": "VIX",
+      "source": "morning",
+      "date": "20260623",
+      "direction": "bearish",
+      "confidence": 0.5,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.5
+    },
+    {
+      "rec_id": "R46c6872b",
+      "target": "002552 宝鼎科技",
+      "source": "morning",
+      "date": "20260624",
+      "direction": "bullish",
+      "confidence": 0.5,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.5
+    },
+    {
+      "rec_id": "Rab2bd03c",
+      "target": "SPY",
+      "source": "morning",
+      "date": "20260624",
+      "direction": "neutral",
+      "confidence": 0.55,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.44999999999999996
+    },
+    {
+      "rec_id": "Rbd13fd80",
+      "target": "KWEB",
+      "source": "morning",
+      "date": "20260624",
+      "direction": "bearish",
+      "confidence": 0.55,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.44999999999999996
+    },
+    {
+      "rec_id": "Rcacf3d48",
+      "target": "NVDA",
+      "source": "morning",
+      "date": "20260624",
+      "direction": "bearish",
+      "confidence": 0.6,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.4
+    },
+    {
+      "rec_id": "R1287032c",
+      "target": "SPY/QQQ",
+      "source": "cron",
+      "date": "20260624",
+      "direction": "bearish",
+      "confidence": 0.5,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.5
+    },
+    {
+      "rec_id": "R96c38bf8",
+      "target": "INTC $132.28",
+      "source": "cron",
+      "date": "20260624",
+      "direction": "bullish",
+      "confidence": 0.45,
+      "is_correct": false,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "model_signal_wrong"
+      ],
+      "calibration_gap": 0.45
+    },
+    {
+      "rec_id": "Rdbf11840",
+      "target": "MRVL $279.04",
+      "source": "cron",
+      "date": "20260624",
+      "direction": "bullish",
+      "confidence": 0.4,
+      "is_correct": false,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": [
+        "model_signal_wrong"
+      ],
+      "calibration_gap": 0.4
+    },
+    {
+      "rec_id": "R9cec4dc6",
+      "target": "BE $321.98",
+      "source": "cron",
+      "date": "20260624",
+      "direction": "bullish",
+      "confidence": 0.4,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.6
+    },
+    {
+      "rec_id": "R1be3d45a",
+      "target": "GDC $1.24",
+      "source": "cron",
+      "date": "20260624",
+      "direction": "bullish",
+      "confidence": 0.35,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.65
+    },
+    {
+      "rec_id": "Rf4bf1e19",
+      "target": "A股大盘",
+      "source": "morning",
+      "date": "20260625",
+      "direction": "bearish",
+      "confidence": 0.7,
+      "is_correct": false,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": [],
+      "failure_modes": null,
+      "calibration_gap": 0.7
+    },
+    {
+      "rec_id": "Re27ad151",
+      "target": "大盘(SPY)",
+      "source": "morning",
+      "date": "20260625",
+      "direction": "neutral",
+      "confidence": 0.5,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.5
+    },
+    {
+      "rec_id": "R85caea1b",
+      "target": "INSG",
+      "source": "cron_pre_market",
+      "date": "20260625",
+      "direction": "bullish",
+      "confidence": 0.5,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.5
+    },
+    {
+      "rec_id": "Rb1ba2200",
+      "target": "SPY",
+      "source": "cron_pre_market",
+      "date": "20260625",
+      "direction": "bullish",
+      "confidence": 0.45,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.55
+    },
+    {
+      "rec_id": "R013cd466",
+      "target": "A股大盘",
+      "source": "morning",
+      "date": "20260626",
+      "direction": "bearish",
+      "confidence": 0.7,
+      "is_correct": true,
+      "actual_return": null,
+      "actual_return_pct": 0,
+      "success_modes": null,
+      "failure_modes": [],
+      "calibration_gap": -0.30000000000000004
+    }
+  ],
   "meta": {
     "created": "2026-06-24T00:14:44.171135",
-    "last_run": "2026-06-24T00:14:44.171169",
+    "last_run": "2026-06-27T12:03:51.367028",
     "note": "重置：之前基于1天评分，需5天评分后重新归因",
     "reset_date": "2026-06-24"
   }

@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-06-27 18:06:07",
+  "start_date": "2024-12-01",
+  "end_date": "2024-12-31",
+  "config": {
+    "hold_days": 30,
+    "stop_loss": -0.15,
+    "model": "falcon_v031",
+    "weights": {
+      "fund_ratio": 0.7,
+      "analyst": 0.2,
+      "fund_metric": 0.1,
+      "tech": 0.0,
+      "sentiment": 0.0
+    },
+    "backtest_comparison": {
+      "metrics": {
+        "sharpe": 1.836,
+        "dd": 18.19,
+        "ret": 33.78,
+        "wr": 60.0,
+        "trades": 20,
+        "rebalances": 5,
+        "avg_cost_pct": 0.04
+      }
+    }
+  },
+  "metrics": {
+    "total_trades": 0,
+    "win_rate": 0,
+    "total_return_pct": 0,
+    "avg_return_pct": 0,
+    "median_return_pct": 0,
+    "sharpe_ratio": 0,
+    "max_drawdown_pct": 0,
+    "total_pnl": 0,
+    "avg_win_pct": 0,
+    "avg_loss_pct": 0,
+    "best_trade_pct": 0,
+    "worst_trade_pct": 0,
+    "profit_factor": 0
+  },
+  "trade_results": [],
+  "signals_summary": [
+    {
+      "model": "falcon_v031",
+      "date": "2024-12-31",
+      "universe_size": 476,
+      "scored_count": 476,
+      "weights": {
+        "fund_ratio": 0.7,
+        "analyst": 0.2,
+        "fund_metric": 0.1,
+        "tech": 0.0
+      },
+      "strategy": "fixed_30d",
+      "top_n": 5,
+      "picks": [
+        {
+          "sym": "APP",
+          "score": 0.7506,
+          "close": 323.83,
+          "rank_pct": 1.0,
+          "signal": "🟢🟢",
+          "fund_ratio": 0.7516,
+          "analyst": 0.8074,
+          "fund_metric": 0.6295
+        },
+        {
+          "sym": "NVDA",
+          "score": 0.7504,
+          "close": 134.29,
+          "rank_pct": 0.9979,
+          "signal": "🟢🟢",
+          "fund_ratio": 0.7517,
+          "analyst": 0.778,
+          "fund_metric": 0.6865
+        },
+        {
+          "sym": "AAPL",
+          "score": 0.7169,
+          "close": 250.42,
+          "rank_pct": 0.9958,
+          "signal": "🟢🟢",
+          "fund_ratio": 0.6917,
+          "analyst": 0.841,
+          "fund_metric": 0.6453
+        },
+        {
+          "sym": "LLY",
+          "score": 0.7152,
+          "close": 772.0,
+          "rank_pct": 0.9937,
+          "signal": "🟢🟢",
+          "fund_ratio": 0.6643,
+          "analyst": 0.8704,
+          "fund_metric": 0.7609
+        },
+        {
+          "sym": "CDNS",
+          "score": 0.6976,
+          "close": 300.46,
+          "rank_pct": 0.9916,
+          "signal": "🟢🟢",
+          "fund_ratio": 0.7069,
+          "analyst": 0.6842,
+          "fund_metric": 0.6589
+        }
+      ]
+    }
+  ]
+}

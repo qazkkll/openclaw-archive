@@ -1,0 +1,9 @@
+{
+  "version": "V0.2.1",
+  "audit_status": "FAILED",
+  "look_ahead_bias": "FIXED",
+  "data": "PIT (point-in-time quarterly FMP + analyst)",
+  "total_combos": 2640,
+  "passed_combos": 0,
+  "note": "Sharpe下降是正常的(去除了前视偏差)"
+}

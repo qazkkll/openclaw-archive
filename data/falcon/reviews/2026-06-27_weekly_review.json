@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-06-27 18:11:48",
+  "start_date": "2026-06-20",
+  "end_date": "2026-06-27",
+  "config": {
+    "hold_days": 30,
+    "stop_loss": -0.15,
+    "model": "falcon_v031",
+    "weights": {
+      "fund_ratio": 0.7,
+      "analyst": 0.2,
+      "fund_metric": 0.1,
+      "tech": 0.0,
+      "sentiment": 0.0
+    },
+    "backtest_comparison": {
+      "metrics": {
+        "sharpe": 1.836,
+        "dd": 18.19,
+        "ret": 33.78,
+        "wr": 60.0,
+        "trades": 20,
+        "rebalances": 5,
+        "avg_cost_pct": 0.04
+      }
+    }
+  },
+  "metrics": {
+    "total_trades": 0,
+    "win_rate": 0,
+    "total_return_pct": 0,
+    "avg_return_pct": 0,
+    "median_return_pct": 0,
+    "sharpe_ratio": 0,
+    "max_drawdown_pct": 0,
+    "total_pnl": 0,
+    "avg_win_pct": 0,
+    "avg_loss_pct": 0,
+    "best_trade_pct": 0,
+    "worst_trade_pct": 0,
+    "profit_factor": 0
+  },
+  "trade_results": [],
+  "signals_summary": []
+}

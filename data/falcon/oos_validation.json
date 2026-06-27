@@ -1,0 +1,84 @@
+{
+  "config": {
+    "weights": {
+      "fund_ratio": 0.7,
+      "analyst": 0.2,
+      "fund_metric": 0.1,
+      "tech": 0.0
+    },
+    "strategy": "fixed",
+    "params": {
+      "hold_days": 30,
+      "stop_loss": -0.15,
+      "bear_alloc": 0.5
+    },
+    "top_n": 5
+  },
+  "n_tickers": 476,
+  "date_ranges": {
+    "IS": {
+      "start": "2022-01-03",
+      "end": "2023-12-29",
+      "n_days": 501
+    },
+    "Validation": {
+      "start": "2024-01-02",
+      "end": "2024-06-28",
+      "n_days": 124
+    },
+    "OOS": {
+      "start": "2024-07-01",
+      "end": "2024-12-31",
+      "n_days": 128
+    }
+  },
+  "results": {
+    "IS": {
+      "sharpe": 1.109,
+      "dd": 12.4,
+      "ret": 46.94,
+      "wr": 58.8,
+      "trades": 80,
+      "rebalances": 17,
+      "avg_cost_pct": 0.04
+    },
+    "Validation": {
+      "sharpe": 1.862,
+      "dd": 9.59,
+      "ret": 21.63,
+      "wr": 50.0,
+      "trades": 20,
+      "rebalances": 5,
+      "avg_cost_pct": 0.04
+    },
+    "OOS": {
+      "sharpe": 1.836,
+      "dd": 18.19,
+      "ret": 33.78,
+      "wr": 60.0,
+      "trades": 20,
+      "rebalances": 5,
+      "avg_cost_pct": 0.04
+    }
+  },
+  "degradation": {
+    "sharpe_ratio_oos_is": 1.6555,
+    "maxdd_ratio_oos_is": 1.4669,
+    "winrate_ratio_oos_is": 1.0204,
+    "sharpe_is": 1.109,
+    "sharpe_oos": 1.836,
+    "maxdd_is": 12.4,
+    "maxdd_oos": 18.19,
+    "winrate_is": 58.8,
+    "winrate_oos": 60.0,
+    "overall_grade": "\ud83d\udfe2 ROBUST",
+    "pass_rate_pct": 100.0,
+    "criteria": [
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS"
+    ],
+    "val_oos_sharpe_ratio": 0.986
+  }
+}

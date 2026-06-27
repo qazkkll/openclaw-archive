@@ -1,0 +1,101 @@
+{
+  "config": {
+    "vwap_trigger": 0.0,
+    "fallback_minutes": 60,
+    "top_n": 5,
+    "signal_dates": [
+      "2024-12-31",
+      "2024-12-31"
+    ],
+    "n_days": 1
+  },
+  "summary": {
+    "total_entries": 5,
+    "good_entries": 5,
+    "forced_entries": 0,
+    "vwap_dev_mean_pct": -0.1634,
+    "vwap_dev_median_pct": -0.0233,
+    "vs_open_mean_pct": -0.6294,
+    "vs_open_median_pct": -0.1989,
+    "vs_open_better_count": 4,
+    "vs_open_total": 5,
+    "entry_bars_mean": 1.2
+  },
+  "entries": [
+    {
+      "ticker": "APP",
+      "entry_type": "good_entry",
+      "entry_price": 322.5,
+      "entry_vwap": 324.882336,
+      "entry_bar": 6,
+      "entry_score": 76.9,
+      "vwap_deviation_pct": -0.7333,
+      "bars_waited": 2,
+      "date": "2024-12-31",
+      "signal_score": 0.7506,
+      "signal_close": 323.83,
+      "open_price": 331.415,
+      "vs_open_pct": -2.69
+    },
+    {
+      "ticker": "NVDA",
+      "entry_type": "good_entry",
+      "entry_price": 137.26,
+      "entry_vwap": 137.337857,
+      "entry_bar": 5,
+      "entry_score": 45.9,
+      "vwap_deviation_pct": -0.0567,
+      "bars_waited": 1,
+      "date": "2024-12-31",
+      "signal_score": 0.7504,
+      "signal_close": 134.29,
+      "open_price": 138.035,
+      "vs_open_pct": -0.5615
+    },
+    {
+      "ticker": "AAPL",
+      "entry_type": "good_entry",
+      "entry_price": 252.35,
+      "entry_vwap": 252.408714,
+      "entry_bar": 5,
+      "entry_score": 56.7,
+      "vwap_deviation_pct": -0.0233,
+      "bars_waited": 1,
+      "date": "2024-12-31",
+      "signal_score": 0.7169,
+      "signal_close": 250.42,
+      "open_price": 252.6,
+      "vs_open_pct": -0.099
+    },
+    {
+      "ticker": "LLY",
+      "entry_type": "good_entry",
+      "entry_price": 773.14,
+      "entry_vwap": 773.17,
+      "entry_bar": 5,
+      "entry_score": 40.8,
+      "vwap_deviation_pct": -0.0039,
+      "bars_waited": 1,
+      "date": "2024-12-31",
+      "signal_score": 0.7152,
+      "signal_close": 772.0,
+      "open_price": 770.04,
+      "vs_open_pct": 0.4026
+    },
+    {
+      "ticker": "CDNS",
+      "entry_type": "good_entry",
+      "entry_price": 301.12,
+      "entry_vwap": 301.12,
+      "entry_bar": 5,
+      "entry_score": 54.2,
+      "vwap_deviation_pct": 0.0,
+      "bars_waited": 1,
+      "date": "2024-12-31",
+      "signal_score": 0.6976,
+      "signal_close": 300.46,
+      "open_price": 301.72,
+      "vs_open_pct": -0.1989
+    }
+  ]
+}

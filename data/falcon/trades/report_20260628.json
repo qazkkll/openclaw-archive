@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-06-28T00:15:41.150324",
+  "sells": [],
+  "buys": [
+    {
+      "symbol": "APP",
+      "qty": 39,
+      "side": "BUY",
+      "price": 477.08,
+      "score": 0.7221,
+      "reason": "[SPX] \u8d22\u52a1\u5065\u5eb7\u5ea6\u9ad8(72%)\uff0c\u5206\u6790\u5e08\u770b\u597d(77%)",
+      "dry_run": true,
+      "fund_ratio": 0.7213,
+      "analyst": 0.771,
+      "fund_metric": 0.6303
+    },
+    {
+      "symbol": "PLTR",
+      "qty": 165,
+      "side": "BUY",
+      "price": 112.93,
+      "score": 0.7157,
+      "reason": "[SPX] \u5206\u6790\u5e08\u770b\u597d(83%)",
+      "dry_run": true,
+      "fund_ratio": 0.69,
+      "analyst": 0.8347,
+      "fund_metric": 0.6576
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 97,
+      "side": "BUY",
+      "price": 192.53,
+      "score": 0.714,
+      "reason": "[SPX] \u5206\u6790\u5e08\u770b\u597d(79%)\uff0c\u76c8\u5229\u80fd\u529b\u5f3a(72%)",
+      "dry_run": true,
+      "fund_ratio": 0.692,
+      "analyst": 0.7892,
+      "fund_metric": 0.7176
+    },
+    {
+      "symbol": "AVGO",
+      "qty": 51,
+      "side": "BUY",
+      "price": 365.02,
+      "score": 0.7136,
+      "reason": "[SPX] \u8d22\u52a1\u5065\u5eb7\u5ea6\u9ad8(74%)",
+      "dry_run": true,
+      "fund_ratio": 0.7404,
+      "analyst": 0.6401,
+      "fund_metric": 0.673
+    },
+    {
+      "symbol": "TXN",
+      "qty": 65,
+      "side": "BUY",
+      "price": 285.43,
+      "score": 0.709,
+      "reason": "[SPX] \u8d22\u52a1\u5065\u5eb7\u5ea6\u9ad8(72%)\uff0c\u76c8\u5229\u80fd\u529b\u5f3a(71%)",
+      "dry_run": true,
+      "fund_ratio": 0.7236,
+      "analyst": 0.6555,
+      "fund_metric": 0.7139
+    }
+  ],
+  "holds": [],
+  "errors": [],
+  "account": {
+    "cash": 98433.3,
+    "equity": 98433.3,
+    "buying_power": 393733.2,
+    "position_count": 0
+  }
+}

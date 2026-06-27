@@ -14,6 +14,24 @@
         "综合晨报",
         "A股日终总结"
       ]
+    },
+    {
+      "id": "auto_R007",
+      "created": "2026-06-27",
+      "category": "auto_extracted",
+      "rule": "close_review来源不产生新推荐",
+      "reason": "数据支撑：close_review来源命中率仅0%（0/3），需限制",
+      "status": "suggested",
+      "evidence_count": 0
+    },
+    {
+      "id": "auto_R008",
+      "created": "2026-06-27",
+      "category": "auto_extracted",
+      "rule": "高置信度(>0.7)推荐需额外量化证据，否则降权",
+      "reason": "数据支撑：置信度反转：高置信度命中率38% < 低置信度50%",
+      "status": "suggested",
+      "evidence_count": 0
     }
   ]
 }

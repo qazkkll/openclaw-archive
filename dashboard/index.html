@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🦅 Falcon Trading Dashboard</title>
+<style>
+/* ═══════════════════════════════════════════════════════════
+   FALCON TRADING DASHBOARD — Bloomberg Terminal Style
+   Dark theme, monospace numbers, color-coded signals
+   ═══════════════════════════════════════════════════════════ */
+
+:root {
+  --bg-primary: #0a0e17;
+  --bg-secondary: #111827;
+  --bg-card: #1a2332;
+  --bg-card-hover: #1f2b3d;
+  --border: #2a3a50;
+  --border-bright: #3b5998;
+  --text-primary: #e8ecf1;
+  --text-secondary: #8899aa;
+  --text-muted: #556677;
+  --green: #00d68f;
+  --green-dim: #00a06a;
+  --red: #ff4d6a;
+  --red-dim: #cc3355;
+  --amber: #ffb020;
+  --amber-dim: #cc8800;
+  --blue: #3b82f6;
+  --cyan: #22d3ee;
+  --purple: #a78bfa;
+  --font-mono: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.header {
+  background: linear-gradient(135deg, #0f1923 0%, #1a2a3a 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-left { display: flex; align-items: center; gap: 16px; }
+.logo { font-size: 24px; font-weight: 700; letter-spacing: 2px; color: var(--cyan); text-shadow: 0 0 20px rgba(34,211,238,0.3); }
+.logo span { color: var(--text-muted); font-weight: 400; font-size: 14px; }
+.header-right { display: flex; align-items: center; gap: 20px; font-family: var(--font-mono); font-size: 13px; }
+.clock { color: var(--cyan); font-weight: 600; font-size: 15px; }
+.status-pill { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.status-pill.live { background: rgba(0,214,143,0.15); color: var(--green); border: 1px solid rgba(0,214,143,0.3); }
+.status-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+.dashboard { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 16px; max-width: 1800px; margin: 0 auto; }
+.card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; transition: border-color 0.2s; }
+.card:hover { border-color: var(--border-bright); }
+.card-header { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; background: rgba(255,255,255,0.02); border-bottom: 1px solid var(--border); }
+.card-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-secondary); }
+.card-badge { font-family: var(--font-mono); font-size: 11px; padding: 2px 8px; border-radius: 4px; background: rgba(59,130,246,0.15); color: var(--blue); }
+.card-body { padding: 16px; }
+.card-full { grid-column: 1 / -1; }
+
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+.stat-box { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; padding: 12px; text-align: center; }
+.stat-label { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 6px; }
+.stat-value { font-family: var(--font-mono); font-size: 22px; font-weight: 700; line-height: 1.2; }
+.stat-sub { font-size: 11px; color: var(--text-secondary); margin-top: 4px; }
+
+.green { color: var(--green); } .red { color: var(--red); } .amber { color: var(--amber); }
+.blue { color: var(--blue); } .cyan { color: var(--cyan); } .purple { color: var(--purple); } .muted { color: var(--text-muted); }
+
+.ds-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.ds-table th { text-align: left; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); padding: 8px 12px; border-bottom: 1px solid var(--border); }
+.ds-table td { padding: 8px 12px; border-bottom: 1px solid rgba(42,58,80,0.5); vertical-align: middle; }
+.ds-table tr:last-child td { border-bottom: none; }
+.ds-table tr:hover td { background: rgba(255,255,255,0.02); }
+.ds-name { color: var(--text-primary); font-weight: 600; }
+.ds-desc { color: var(--text-secondary); font-size: 12px; }
+.ds-status { display: inline-flex; align-items: center; gap: 4px; font-family: var(--font-mono); font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; }
+.ds-status.ok { background: rgba(0,214,143,0.12); color: var(--green); }
+.ds-status.warn { background: rgba(255,176,32,0.12); color: var(--amber); }
+.ds-status.err { background: rgba(255,77,106,0.12); color: var(--red); }
+.ds-size { font-family: var(--font-mono); color: var(--text-secondary); font-size: 12px; }
+.ds-age { font-family: var(--font-mono); font-size: 12px; }
+
+.signal-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.signal-table th { text-align: left; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); padding: 8px 12px; border-bottom: 1px solid var(--border); font-weight: 600; }
+.signal-table td { padding: 10px 12px; border-bottom: 1px solid rgba(42,58,80,0.5); vertical-align: middle; }
+.signal-table tr:last-child td { border-bottom: none; }
+.signal-table tr:hover td { background: rgba(255,255,255,0.02); }
+.ticker-cell { font-family: var(--font-mono); font-weight: 700; font-size: 15px; color: var(--cyan); }
+.score-bar { display: flex; align-items: center; gap: 8px; }
+.score-bar-fill { flex: 1; height: 6px; background: var(--bg-secondary); border-radius: 3px; overflow: hidden; }
+.score-bar-inner { height: 100%; border-radius: 3px; transition: width 0.5s ease; }
+.score-value { font-family: var(--font-mono); font-weight: 700; font-size: 14px; min-width: 50px; text-align: right; }
+.signal-badge { display: inline-flex; align-items: center; gap: 4px; font-family: var(--font-mono); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 4px; }
+.signal-badge.buy { background: rgba(0,214,143,0.15); color: var(--green); border: 1px solid rgba(0,214,143,0.25); }
+
+.config-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.config-section { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; padding: 12px; }
+.config-section-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 8px; font-weight: 600; }
+.config-row { display: flex; justify-content: space-between; align-items: center; padding: 4px 0; font-size: 13px; }
+.config-key { color: var(--text-secondary); }
+.config-val { font-family: var(--font-mono); font-weight: 600; color: var(--text-primary); }
+
+.oos-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.oos-phase { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; padding: 12px; text-align: center; }
+.oos-phase-title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+.oos-phase.is .oos-phase-title { color: var(--blue); }
+.oos-phase.val .oos-phase-title { color: var(--purple); }
+.oos-phase.oos .oos-phase-title { color: var(--cyan); }
+.oos-metric { display: flex; justify-content: space-between; padding: 4px 0; font-size: 13px; }
+.oos-metric-label { color: var(--text-secondary); }
+.oos-metric-val { font-family: var(--font-mono); font-weight: 600; }
+
+.grade-badge { display: inline-flex; align-items: center; gap: 6px; padding: 8px 20px; border-radius: 8px; font-size: 18px; font-weight: 700; letter-spacing: 1px; margin: 12px 0; }
+.grade-badge.robust { background: rgba(0,214,143,0.15); color: var(--green); border: 2px solid rgba(0,214,143,0.3); box-shadow: 0 0 20px rgba(0,214,143,0.1); }
+.grade-badge.degraded { background: rgba(255,176,32,0.15); color: var(--amber); border: 2px solid rgba(255,176,32,0.3); }
+.grade-badge.failed { background: rgba(255,77,106,0.15); color: var(--red); border: 2px solid rgba(255,77,106,0.3); }
+
+.bt-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 12px; }
+.bt-table th { text-align: left; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); padding: 8px 12px; border-bottom: 1px solid var(--border); }
+.bt-table td { padding: 8px 12px; border-bottom: 1px solid rgba(42,58,80,0.5); font-family: var(--font-mono); }
+.bt-table tr:last-child td { border-bottom: none; }
+
+.trade-list { max-height: 300px; overflow-y: auto; }
+.trade-item { display: grid; grid-template-columns: 100px 1fr 100px; gap: 12px; padding: 8px 0; border-bottom: 1px solid rgba(42,58,80,0.3); font-size: 13px; align-items: center; }
+.trade-item:last-child { border-bottom: none; }
+
+.empty-state { text-align: center; padding: 32px; color: var(--text-muted); font-style: italic; }
+.footer { text-align: center; padding: 16px; color: var(--text-muted); font-size: 12px; border-top: 1px solid var(--border); margin-top: 16px; }
+
+@media (max-width: 1200px) { .dashboard { grid-template-columns: 1fr; } .card-full { grid-column: 1; } .oos-grid { grid-template-columns: 1fr; } .config-grid { grid-template-columns: 1fr; } }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-secondary); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--border-bright); }
+
+.loading { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 24px; color: var(--text-muted); }
+.loading::before { content: ''; width: 16px; height: 16px; border: 2px solid var(--border); border-top-color: var(--cyan); border-radius: 50%; animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.weights-bar { display: flex; height: 28px; border-radius: 4px; overflow: hidden; margin: 8px 0; }
+.weights-bar .seg { display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 10px; font-weight: 700; color: rgba(0,0,0,0.7); transition: flex 0.5s ease; }
+.weights-legend { display: flex; gap: 16px; font-size: 12px; margin-top: 4px; flex-wrap: wrap; }
+.weights-legend span { display: flex; align-items: center; gap: 4px; }
+.weights-legend .dot { width: 8px; height: 8px; border-radius: 2px; }
+.tip { cursor: help; border-bottom: 1px dashed var(--text-muted); }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.table-wrap table { min-width: 100%; }
+@media (max-width: 768px) {
+  .table-wrap { margin: 0 -16px; padding: 0 16px; }
+}
+.table-wrap::-webkit-scrollbar { height: 4px; }
+.table-wrap::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+@media (max-width: 768px) {
+  .header { flex-direction: column; gap: 8px; padding: 10px 12px; }
+  .header-right { font-size: 11px; gap: 10px; }
+  .logo { font-size: 18px; }
+  .dashboard { padding: 8px; gap: 8px; }
+  .card-body { padding: 12px 8px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .stat-value { font-size: 18px; }
+  .config-grid { grid-template-columns: 1fr; }
+  .signal-table th, .signal-table td, .ds-table th, .ds-table td, .bt-table th, .bt-table td { padding: 6px 8px; font-size: 12px; }
+  .ticker-cell { font-size: 13px; }
+  .score-value { font-size: 12px; min-width: 40px; }
+  .signal-badge { font-size: 11px; padding: 2px 6px; }
+  .trade-item { grid-template-columns: 80px 1fr 80px; font-size: 12px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="logo">FALCON <span>v0.4.0</span></div>
+    <div class="status-pill live"><div class="dot"></div>LIVE</div>
+  </div>
+  <div class="header-right">
+    <span id="clock" class="clock">--:--:--</span>
+    <span class="muted" id="last-update">更新: --</span>
+    <span class="muted" id="next-refresh">下次刷新: --</span>
+  </div>
+</div>
+
+<div class="dashboard" id="dashboard">
+  <div class="loading">正在加载 Falcon 数据...</div>
+</div>
+
+
+<div class="card card-full" style="margin-top:0">
+  <div class="card-header">
+    <span class="card-title">📖 Falcon 模型说明 How It Works</span>
+    <span class="card-badge" onclick="this.parentElement.parentElement.querySelector('.card-body').style.display=this.parentElement.parentElement.querySelector('.card-body').style.display==='none'?'block':'none';this.textContent=this.textContent==='展开 ▼'?'收起 ▲':'展开 ▼'" style="cursor:pointer">展开 ▼</span>
+  </div>
+  <div class="card-body" style="display:none;font-size:14px;line-height:1.8;color:var(--text-secondary)">
+    <div style="max-width:900px">
+
+    <h3 style="color:var(--cyan);margin:20px 0 8px">🦅 Falcon 是什么？</h3>
+    <p>Falcon 是一个<strong>自动选股系统</strong>。它每天收盘后自动给标普500的476只股票打分，选出最值得买的5只，告诉你什么时候买、什么时候卖。</p>
+    <p>核心思路：<em>用公司财务数据判断"值不值"，用分析师预期判断"市场怎么看"，两者结合选出既有实力又被看好的股票。</em></p>
+
+    <h3 style="color:var(--cyan);margin:20px 0 8px">📊 打分逻辑（三个维度）</h3>
+    <table class="bt-table" style="margin:8px 0">
+    <thead><tr><th>维度</th><th>权重</th><th>通俗解释</th><th>举例</th></tr></thead>
+    <tbody>
+    <tr><td style="color:var(--cyan);font-weight:700">财务健康<br><span style="font-size:11px;color:var(--text-muted)">Fundamentals</span></td><td>70%</td><td>公司赚不赚钱、贵不贵、财务有没有风险。看PE、利润率、负债率等20个指标。</td><td>苹果PE=28，利润率26%，负债低 → 高分</td></tr>
+    <tr><td style="color:var(--purple);font-weight:700">分析师态度<br><span style="font-size:11px;color:var(--text-muted)">Analyst</span></td><td>20%</td><td>华尔街分析师最近上调还是下调了盈利预期。上调=看好，下调=看空。</td><td>NVDA分析师连续3个月上调预期 → 高分</td></tr>
+    <tr><td style="color:var(--amber);font-weight:700">关键指标<br><span style="font-size:11px;color:var(--text-muted)">Key Metrics</span></td><td>10%</td><td>ROE（赚钱效率）、ROA（资产利用效率）等核心经营数字。</td><td>ROE=30%说明每投入1块钱赚3毛 → 高分</td></tr>
+    </tbody>
+    </table>
+    <p style="font-size:13px;color:var(--text-muted)">为什么财务占70%？因为历史回测证明，公司基本面是长期股价最可靠的驱动力。分析师修正提供短期催化剂，两者互补。</p>
+
+    <h3 style="color:var(--cyan);margin:20px 0 8px">🔄 工作流程（每天自动）</h3>
+    <div style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:6px;padding:16px;margin:8px 0;font-family:var(--font-mono);font-size:13px">
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <span style="color:var(--cyan)">16:00 纽约</span> <span style="color:var(--text-muted)">→</span>
+      <span>美股收盘</span> <span style="color:var(--text-muted)">→</span>
+      <span style="color:var(--amber)">falcon_score.py</span> <span style="color:var(--text-muted)">→</span>
+      <span>拉取最新财务数据</span> <span style="color:var(--text-muted)">→</span>
+      <span>476只股票打分排名</span> <span style="color:var(--text-muted)">→</span>
+      <span style="color:var(--green)">输出Top 5信号文件</span>
+    </div>
+    <div style="margin-top:12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <span style="color:var(--cyan)">次日 9:30</span> <span style="color:var(--text-muted)">→</span>
+      <span style="color:var(--amber)">Observer</span> <span style="color:var(--text-muted)">→</span>
+      <span>监控这5只股票实时价格</span> <span style="color:var(--text-muted)">→</span>
+      <span>VWAP择时（低于均价时买入）</span> <span style="color:var(--text-muted)">→</span>
+      <span style="color:var(--green)">Alpaca纸交易下单</span>
+    </div>
+    <div style="margin-top:12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <span style="color:var(--cyan)">持有30天</span> <span style="color:var(--text-muted)">→</span>
+      <span>到期卖出</span> <span style="color:var(--text-muted)">或</span>
+      <span style="color:var(--red)">亏15%止损</span> <span style="color:var(--text-muted)">→</span>
+      <span>记录盈亏</span> <span style="color:var(--text-muted)">→</span>
+      <span style="color:var(--green)">周六自动复盘</span>
+    </div>
+    </div>
+
+    <h3 style="color:var(--cyan);margin:20px 0 8px">📈 信号等级怎么看？</h3>
+    <table class="bt-table" style="margin:8px 0">
+    <thead><tr><th>信号</th><th>含义</th><th>操作</th></tr></thead>
+    <tbody>
+    <tr><td style="font-size:18px">🟢🟢</td><td>排名前5%，<strong>强烈推荐</strong></td><td>可以立即买入</td></tr>
+    <tr><td style="font-size:18px">🟢</td><td>排名5-20%，推荐</td><td>可以关注，等回调再买</td></tr>
+    <tr><td style="font-size:18px">🟡</td><td>排名20-50%，一般</td><td>不建议买入</td></tr>
+    <tr><td style="font-size:18px">🔴</td><td>排名后50%，不推荐</td><td>不要买</td></tr>
+    </tbody>
+    </table>
+
+    <h3 style="color:var(--cyan);margin:20px 0 8px">⚠️ 已知限制</h3>
+    <ul style="margin:8px 0;padding-left:20px">
+    <li><strong>财务数据更新频率：</strong>季度更新（财报发布后），非实时。财报之间的数据可能过时。</li>
+    <li><strong>样本外表现：</strong>2024下半年 Sharpe=1.84，胜率62%。但过去不代表未来。</li>
+    <li><strong>交易成本：</strong>每次买卖约0.1%成本，频繁交易会侵蚀利润。</li>
+    <li><strong>技术面因子已关闭：</strong>历史验证无增量alpha，只用财务+分析师。</li>
+    <li><strong>情绪因子待部署：</strong>FinBERT新闻情绪数据还在补全中。</li>
+    </ul>
+
+    <h3 style="color:var(--cyan);margin:20px 0 8px">📁 数据文件说明</h3>
+    <table class="bt-table" style="margin:8px 0">
+    <thead><tr><th>文件名</th><th>是什么</th><th>为什么需要</th></tr></thead>
+    <tbody>
+    <tr><td style="font-family:var(--font-mono);font-size:12px">features_v02.parquet</td><td>476只股票的技术指标矩阵</td><td>每只股票的打分依据</td></tr>
+    <tr><td style="font-family:var(--font-mono);font-size:12px">fmp_ratios_*.json</td><td>PE/PB/利润率等20项财务比率</td><td>判断公司贵不贵、赚不赚钱</td></tr>
+    <tr><td style="font-family:var(--font-mono);font-size:12px">analyst_*.json</td><td>分析师盈利预期修正</td><td>华尔街是看好还是看空</td></tr>
+    <tr><td style="font-family:var(--font-mono);font-size:12px">fmp_key_metrics_*.json</td><td>ROE/ROA等23项经营指标</td><td>衡量公司经营效率</td></tr>
+    <tr><td style="font-family:var(--font-mono);font-size:12px">fmp_financial_growth_*.json</td><td>收入/利润增长率</td><td>判断公司在变好还是变差</td></tr>
+    <tr><td style="font-family:var(--font-mono);font-size:12px">finbert_sentiment/</td><td>AI读新闻打出的情绪分</td><td>市场是恐慌还是贪婪</td></tr>
+    <tr><td style="font-family:var(--font-mono);font-size:12px">observer_state.json</td><td>实时监控状态</td><td>5只推荐股票的当前价格和涨跌</td></tr>
+    <tr><td style="font-family:var(--font-mono);font-size:12px">oos_validation.json</td><td>样本外验证结果</td><td>模型在没见过的数据上靠不靠谱</td></tr>
+    </tbody>
+    </table>
+
+    <h3 style="color:var(--cyan);margin:20px 0 8px">🧪 模型验证方法</h3>
+    <p>Falcon用<strong>Walk-Forward验证</strong>——把历史数据切成三段：</p>
+    <table class="bt-table" style="margin:8px 0">
+    <thead><tr><th>阶段</th><th>时间段</th><th>干什么</th><th>类比</th></tr></thead>
+    <tbody>
+    <tr><td style="color:var(--blue);font-weight:700">训练集</td><td>2023.1 - 2024.3</td><td>模型学习规律</td><td>高考前刷真题</td></tr>
+    <tr><td style="color:var(--purple);font-weight:700">验证集</td><td>2024.4 - 2024.6</td><td>调参数</td><td>模拟考试</td></tr>
+    <tr><td style="color:var(--cyan);font-weight:700">样本外</td><td>2024.7 - 2024.12</td><td>最终考试</td><td>高考真题（模型从没见过）</td></tr>
+    </tbody>
+    </table>
+    <p style="font-size:13px">只有样本外的成绩才算数。训练集表现好不代表模型靠谱——可能是"背答案"（过拟合）。</p>
+
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  🦅 Falcon 看板 — 自动每5分钟刷新 — 纽约时间显示
+</div>
+
+<script>
+const API_URL = '/api/data';
+const REFRESH_MS = 5 * 60 * 1000;
+let dashData = null;
+
+function updateClock() {
+  const now = new Date();
+  const et = now.toLocaleString('en-US', { timeZone: 'America/New_York', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+  document.getElementById('clock').textContent = et + ' 纽约';
+}
+setInterval(updateClock, 1000); updateClock();
+
+function fmt(n, d=2) { return (n===null||n===undefined||isNaN(n)) ? '--' : Number(n).toFixed(d); }
+function fmtPct(n) { return (n===null||n===undefined||isNaN(n)) ? '--' : Number(n).toFixed(2)+'%'; }
+function fmtMoney(n) { if(n===null||n===undefined||isNaN(n)) return '--'; const v=Number(n); if(Math.abs(v)>=1e9) return '$'+(v/1e9).toFixed(2)+'B'; if(Math.abs(v)>=1e6) return '$'+(v/1e6).toFixed(2)+'M'; if(Math.abs(v)>=1e3) return '$'+(v/1e3).toFixed(1)+'K'; return '$'+v.toFixed(2); }
+function cls(v, pos=true) { if(v===null||v===undefined) return 'muted'; const n=Number(v); if(n===0) return 'muted'; return pos ? (n>0?'green':'red') : (n>0?'red':'green'); }
+function ageClass(d) { return d<=7 ? 'green' : d<=30 ? 'amber' : 'red'; }
+
+// ── 主渲染 ──────────────────────────────────────────
+function render(data) {
+  const d = document.getElementById('dashboard');
+  let html = '';
+
+  // ── 第0行: 大盘指标 ──
+  html += `<div class="card card-full">
+    <div class="card-header">
+      <span class="card-title">📊 大盘指标 Market Overview</span>
+      <span class="card-badge">实时参考</span>
+    </div>
+    <div class="card-body"><div class="stat-grid" id="market-grid"></div></div>
+  </div>`;
+
+  // ── 第1行: 系统概览 ──
+  html += `<div class="card card-full">
+    <div class="card-header">
+      <span class="card-title">系统概览 System Overview</span>
+      <span class="card-badge">${data.system.model} · ${data.system.universe} · ${data.system.universe_size} 只股票</span>
+    </div>
+    <div class="card-body"><div class="stat-grid" id="stat-grid"></div></div>
+  </div>`;
+
+  // ── 第2行: 选股信号 + 数据源 ──
+  html += `<div class="card">
+    <div class="card-header">
+      <span class="card-title">最新选股信号 Latest Signals</span>
+      <span class="card-badge" id="signal-date">--</span>
+    </div>
+    <div class="card-body"><div id="signals-content"></div></div>
+  </div>`;
+
+  html += `<div class="card">
+    <div class="card-header">
+      <span class="card-title">数据源 Data Sources</span>
+      <span class="card-badge" id="ds-count">--</span>
+    </div>
+    <div class="card-body" style="padding:0;"><div id="ds-content"></div></div>
+  </div>`;
+
+  // ── 第3行: 系统参数 + 模型验证 ──
+  html += `<div class="card">
+    <div class="card-header">
+      <span class="card-title">系统参数 Parameters</span>
+      <span class="card-badge">config/falcon.yaml</span>
+    </div>
+    <div class="card-body"><div id="config-content"></div></div>
+  </div>`;
+
+  html += `<div class="card">
+    <div class="card-header">
+      <span class="card-title">模型权重 & 验证 Weights & Validation</span>
+      <span class="card-badge" id="grade-badge">--</span>
+    </div>
+    <div class="card-body"><div id="model-content"></div></div>
+  </div>`;
+
+  // ── 第4行: 实时监控 ──
+  html += `<div class="card card-full">
+    <div class="card-header">
+      <span class="card-title">🦅 实时监控 Live Observer</span>
+      <span class="card-badge" id="observer-session">--</span>
+    </div>
+    <div class="card-body"><div id="observer-content"></div></div>
+  </div>`;
+
+  // ── 第5行: 回测 + 交易记录 ──
+  html += `<div class="card">
+    <div class="card-header">
+      <span class="card-title">回测表现 Backtest</span>
+      <span class="card-badge">历史模拟</span>
+    </div>
+    <div class="card-body"><div id="backtest-content"></div></div>
+  </div>`;
+
+  html += `<div class="card">
+    <div class="card-header">
+      <span class="card-title">交易记录 Trades</span>
+      <span class="card-badge" id="trade-count">0 笔</span>
+    </div>
+    <div class="card-body"><div id="trades-content"></div></div>
+  </div>`;
+
+  d.innerHTML = html;
+  renderStats(data); renderMarket(data); renderSignals(data); renderDataSources(data);
+  renderConfig(data); renderModel(data); renderBacktest(data);
+  renderTrades(data); renderObserver(data);
+}
+
+// ── 大盘指标 ───────────────────────────────────────────
+function renderMarket(data) {
+  const g = document.getElementById('market-grid');
+  if (!g) return;
+  const mo = data.market_overview || {};
+  const indicators = [
+    {key:'sp500', cls:'cyan'},
+    {key:'vix', cls:'amber'},
+    {key:'tnx', cls:'purple'},
+    {key:'dxy', cls:'blue'},
+    {key:'oil', cls:'amber'},
+    {key:'gold', cls:'amber'},
+  ];
+  g.innerHTML = indicators.map(({key, cls}) => {
+    const m = mo[key] || {};
+    const val = m.value !== null && m.value !== undefined ? (key==='sp500' ? fmtMoney(m.value) : fmt(m.value)) : '--';
+    const chg = m.change !== null && m.change !== undefined ? fmtPct(m.change) : '';
+    const chgCls = m.change > 0 ? 'green' : m.change < 0 ? 'red' : 'muted';
+    return `<div class="stat-box">
+      <div class="stat-label">${m.name || key}</div>
+      <div class="stat-value ${cls}">${val}</div>
+      <div class="stat-sub"><span class="${chgCls}">${chg}</span> ${m.note ? '· '+m.note : ''}</div>
+    </div>`;
+  }).join('');
+}
+
+// ── 系统概览统计 ─────────────────────────────────────
+function renderStats(data) {
+  const g = document.getElementById('stat-grid');
+  const oos = data.oos_validation?.results?.OOS || {};
+  const sig = data.latest_signals?.picks || [];
+  const ds = data.data_sources || {};
+  const dsOk = Object.values(ds).filter(v => v.ok).length;
+
+  const stats = [
+    { label: '股票池 Universe', value: data.system.universe_size, sub: '标普500成分股', cls: 'cyan' },
+    { label: '靠谱度 Sharpe', value: oos.sharpe!==undefined ? fmt(oos.sharpe) : '--', sub: '>1算不错，越高越稳', cls: cls(oos.sharpe) },
+    { label: '收益率 Return', value: oos.ret!==undefined ? fmtPct(oos.ret) : '--', sub: '2024下半年样本外', cls: cls(oos.ret) },
+    { label: '胜率 Win Rate', value: oos.wr!==undefined ? fmtPct(oos.wr) : '--', sub: '赚钱的交易占比', cls: cls(oos.wr-50) },
+    { label: '最大回撤 Max DD', value: oos.dd!==undefined ? fmtPct(oos.dd) : '--', sub: '最惨一次跌多少', cls: 'red' },
+    { label: '今日推荐 Picks', value: sig.length, sub: '模型选出的股票数', cls: 'amber' },
+    { label: '数据源 Sources', value: dsOk+'/'+Object.keys(ds).length, sub: '正常工作的数据源', cls: dsOk===Object.keys(ds).length ? 'green' : 'amber' },
+    { label: '模型评级 Grade', value: data.oos_validation?.degradation?.overall_grade || '--', sub: '模型是否靠谱', cls: 'green' },
+  ];
+
+  g.innerHTML = stats.map(s => `
+    <div class="stat-box">
+      <div class="stat-label">${s.label}</div>
+      <div class="stat-value ${s.cls}">${s.value}</div>
+      <div class="stat-sub">${s.sub}</div>
+    </div>`).join('');
+}
+
+// ── 选股信号表 ────────────────────────────────────────
+function renderSignals(data) {
+  const c = document.getElementById('signals-content');
+  const sig = data.latest_signals;
+  if (!sig || sig.error) { c.innerHTML = '<div class="empty-state">暂无信号数据</div>'; return; }
+  document.getElementById('signal-date').textContent = sig.date || '--';
+  const picks = sig.picks || [];
+  if (!picks.length) { c.innerHTML = '<div class="empty-state">该日期无推荐</div>'; return; }
+
+  let html = `<div class="table-wrap"><table class="signal-table"><thead><tr>
+    <th>#</th>
+    <th>代码 Ticker</th>
+    <th>综合评分 Score <span class="tip" title="越高越值得买，满分100%">ⓘ</span></th>
+    <th>财务健康 Fundamentals <span class="tip" title="公司赚钱能力、负债、现金流等">ⓘ</span></th>
+    <th>分析师 Analyst <span class="tip" title="华尔街分析师对盈利预期的修正方向">ⓘ</span></th>
+    <th>关键指标 Key Metrics <span class="tip" title="估值高低、投资回报率等核心数字">ⓘ</span></th>
+    <th>信号 Signal</th>
+  </tr></thead><tbody>`;
+
+  picks.forEach((p, i) => {
+    const pct = (p.score*100).toFixed(1);
+    const barColor = p.score>=0.7 ? 'var(--green)' : p.score>=0.6 ? 'var(--amber)' : 'var(--red)';
+    html += `<tr>
+      <td class="muted">${i+1}</td>
+      <td class="ticker-cell">${p.sym}</td>
+      <td><div class="score-bar"><div class="score-bar-fill"><div class="score-bar-inner" style="width:${pct}%;background:${barColor}"></div></div><span class="score-value green">${pct}%</span></div></td>
+      <td style="font-family:var(--font-mono);font-size:12px">${(p.fund_ratio*100).toFixed(1)}%</td>
+      <td style="font-family:var(--font-mono);font-size:12px">${(p.analyst*100).toFixed(1)}%</td>
+      <td style="font-family:var(--font-mono);font-size:12px">${(p.fund_metric*100).toFixed(1)}%</td>
+      <td><span class="signal-badge buy">▲ 买入 BUY</span></td>
+    </tr>`;
+  });
+  html += '</tbody></table></div>';
+  c.innerHTML = html;
+}
+
+// ── 数据源状态 ─────────────────────────────────────────
+const DS_CN = {
+  'features_v02.parquet': { cn: '特征矩阵（476只股票×9个技术指标）', why: '每只股票的打分依据' },
+  'fmp_ratios_historical.json': { cn: '财务比率历史（PE/PB/利润率等20项）', why: '判断公司贵不贵、赚不赚钱' },
+  'analyst_historical.json': { cn: '分析师预期历史', why: '华尔街对这家公司乐观还是悲观' },
+  'fmp_key_metrics.json': { cn: '关键财务指标（ROE/ROA等23项）', why: '衡量公司经营效率' },
+  'fmp_financial_growth.json': { cn: '财务增长数据（收入/利润增长率）', why: '判断公司是在变好还是变差' },
+  'data_quality_report.json': { cn: '数据质量报告', why: '检查数据有没有缺漏' },
+  'oos_validation.json': { cn: '样本外验证结果', why: '模型在没见过的数据上表现如何' },
+  'timing_backtest_result.json': { cn: '择时回测结果', why: '什么时候买更划算' },
+  'finbert_sentiment/': { cn: '新闻情绪数据（AI读新闻打分）', why: '市场情绪是恐慌还是贪婪' },
+};
+
+function renderDataSources(data) {
+  const c = document.getElementById('ds-content');
+  const ds = data.data_sources || {};
+  const entries = Object.entries(ds);
+  document.getElementById('ds-count').textContent = entries.filter(([,v])=>v.ok).length + '/' + entries.length + ' 正常';
+
+  let html = `<div class="table-wrap"><table class="ds-table"><thead><tr>
+    <th>状态</th><th>数据文件</th><th>大小</th><th>最后更新</th><th>年龄</th>
+  </tr></thead><tbody>`;
+
+  entries.forEach(([name, info]) => {
+    const statusCls = info.ok ? 'ok' : (info.exists ? 'warn' : 'err');
+    const statusText = info.ok ? '✓ 正常' : (info.exists ? '⚠ 过期' : '✗ 缺失');
+    const size = info.size_mb !== undefined ? info.size_mb+' MB' : (info.ticker_count ? info.ticker_count+' 只' : '--');
+    const cn = DS_CN[name] || { cn: info.desc || name, why: '' };
+    html += `<tr>
+      <td><span class="ds-status ${statusCls}">${statusText}</span></td>
+      <td><div class="ds-name">${cn.cn}</div><div class="ds-desc">${cn.why}</div></td>
+      <td class="ds-size">${size}</td>
+      <td class="ds-age muted">${info.modified||'--'}</td>
+      <td class="ds-age ${info.age_days!==undefined?ageClass(info.age_days):'muted'}">${info.age_days!==undefined?info.age_days+'天':'--'}</td>
+    </tr>`;
+  });
+  html += '</tbody></table></div>';
+  c.innerHTML = html;
+}
+
+// ── 系统参数 ────────────────────────────────────────────
+function renderConfig(data) {
+  const c = document.getElementById('config-content');
+  const cfg = data.config || {};
+  if (cfg.error) { c.innerHTML = '<div class="empty-state">配置加载失败</div>'; return; }
+  const t = cfg.trading || {}, e = t.entry || {}, x = t.exit || {};
+
+  c.innerHTML = `<div class="config-grid">
+    <div class="config-section">
+      <div class="config-section-title">交易参数 Trading</div>
+      <div class="config-row"><span class="config-key">持仓天数 Hold Days</span><span class="config-val">${t.hold_days||'--'} 天</span></div>
+      <div class="config-row"><span class="config-key">止损线 Stop Loss</span><span class="config-val red">${t.stop_loss?(t.stop_loss*100).toFixed(0)+'%':'--'}</span></div>
+      <div class="config-row"><span class="config-key">单笔成本 Cost/Trade</span><span class="config-val">${t.cost_per_trade?(t.cost_per_trade*100).toFixed(1)+'%':'--'}</span></div>
+      <div class="config-row"><span class="config-key">熊市仓位 Bear Alloc</span><span class="config-val amber">${t.bear_alloc?(t.bear_alloc*100).toFixed(0)+'%':'--'}</span></div>
+    </div>
+    <div class="config-section">
+      <div class="config-section-title">入场/出场 Entry & Exit</div>
+      <div class="config-row"><span class="config-key">入场策略 Entry</span><span class="config-val cyan">${e.strategy||'--'}</span></div>
+      <div class="config-row"><span class="config-key">VWAP触发条件</span><span class="config-val">${e.vwap_trigger||'--'}</span></div>
+      <div class="config-row"><span class="config-key">最低入场评分 Min Score</span><span class="config-val green">${e.min_entry_score||'--'}</span></div>
+      <div class="config-row"><span class="config-key">出场策略 Exit</span><span class="config-val cyan">${x.strategy||'--'}</span></div>
+      <div class="config-row"><span class="config-key">移动止损 Trailing Stop</span><span class="config-val">${x.trailing_stop||'未启用'}</span></div>
+    </div>
+    <div class="config-section" style="grid-column:1/-1">
+      <div class="config-section-title">自动任务时间表 Cron Schedule (纽约时间)</div>
+      <div class="config-row"><span class="config-key">每日评分 Daily Scoring</span><span class="config-val">${cfg.cron?.daily_scoring||'--'}</span></div>
+      <div class="config-row"><span class="config-key">VWAP监控 VWAP Monitor</span><span class="config-val">${cfg.cron?.vwap_monitor||'--'}</span></div>
+      <div class="config-row"><span class="config-key">每周复盘 Weekly Review</span><span class="config-val">${cfg.cron?.weekly_review||'--'}</span></div>
+      <div class="config-row"><span class="config-key">看板刷新 Dashboard Refresh</span><span class="config-val">${cfg.cron?.dashboard_refresh||'--'}</span></div>
+    </div>
+  </div>`;
+}
+
+// ── 模型权重 & 验证 ────────────────────────────────────
+const W_CN = { fund_ratio:'财务比率', analyst:'分析师', fund_metric:'关键指标', tech:'技术面', sentiment:'情绪面' };
+function renderModel(data) {
+  const c = document.getElementById('model-content');
+  const oos = data.oos_validation || {};
+  const weights = oos.config?.weights || {};
+  const results = oos.results || {};
+  const deg = oos.degradation || {};
+  const ranges = oos.date_ranges || {};
+
+  const grade = deg.overall_grade || '--';
+  const ge = grade.includes('ROBUST') ? '🟢' : grade.includes('DEGRADED') ? '🟡' : '🔴';
+  const gb = document.getElementById('grade-badge');
+  if (gb) {
+    gb.textContent = ge + ' ' + grade;
+    gb.style.cssText = grade.includes('ROBUST') ? 'background:rgba(0,214,143,0.15);color:var(--green)' : grade.includes('DEGRADED') ? 'background:rgba(255,176,32,0.15);color:var(--amber)' : 'background:rgba(255,77,106,0.15);color:var(--red)';
+  }
+
+  const wC = { fund_ratio:'#22d3ee', analyst:'#a78bfa', fund_metric:'#ffb020', tech:'#3b82f6', sentiment:'#556677' };
+  let wBar = '<div class="weights-bar">', wLeg = '<div class="weights-legend">';
+  for (const [k,v] of Object.entries(weights)) {
+    if (v>0) { wBar += `<div class="seg" style="flex:${v};background:${wC[k]||'#666'}">${(v*100).toFixed(0)}%</div>`; wLeg += `<span><span class="dot" style="background:${wC[k]||'#666'}"></span>${W_CN[k]||k} ${(v*100).toFixed(0)}%</span>`; }
+  }
+  wBar += '</div>'; wLeg += '</div>';
+
+  let ph = `<div class="table-wrap"><table class="bt-table"><thead><tr>
+    <th>阶段 Phase</th><th>时间段 Period</th><th>天数</th><th>靠谱度 Sharpe</th><th>收益率</th><th>胜率</th><th>最大回撤</th><th>交易数</th>
+  </tr></thead><tbody>`;
+
+  for (const [phase,label,cn,color] of [['IS','训练集','In-Sample','blue'],['Validation','验证集','Validation','purple'],['OOS','样本外','Out-of-Sample','cyan']]) {
+    const r = results[phase]||{}, range = ranges[phase]||{};
+    ph += `<tr>
+      <td style="color:var(--${color});font-weight:700">${cn}<br><span style="font-size:10px;color:var(--text-muted)">${label}</span></td>
+      <td class="muted">${range.start||'--'} → ${range.end||'--'}</td>
+      <td>${range.n_days||'--'}</td>
+      <td class="${cls(r.sharpe)}">${fmt(r.sharpe,3)}</td>
+      <td class="${cls(r.ret)}">${fmtPct(r.ret)}</td>
+      <td>${fmtPct(r.wr)}</td>
+      <td class="red">${fmtPct(r.dd)}</td>
+      <td>${r.trades||'--'}</td>
+    </tr>`;
+  }
+  ph += '</tbody></table></div>';
+
+  c.innerHTML = `
+    <div style="text-align:center;margin-bottom:12px"><span style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted)">模型权重 Model Weights</span></div>
+    ${wBar}${wLeg}
+    <div style="margin-top:16px">${ph}</div>
+    <div style="margin-top:12px;font-size:12px;color:var(--text-secondary)">
+      <span>通过率: <strong class="green">${deg.pass_rate_pct||'--'}%</strong></span>
+      &nbsp;·&nbsp;
+      <span>样本外/训练集 Sharpe: <strong class="${cls(deg.val_oos_sharpe_ratio-1)}">${fmt(deg.val_oos_sharpe_ratio,3)}</strong></span>
+    </div>`;
+}
+
+// ── 回测表现 ────────────────────────────────────────────
+function renderBacktest(data) {
+  const c = document.getElementById('backtest-content');
+  const bt = data.backtest || {}, summary = bt.summary || {}, config = bt.config || {};
+  if (!Object.keys(summary).length) { c.innerHTML = '<div class="empty-state">暂无回测数据</div>'; return; }
+
+  let html = `<div style="font-size:12px;color:var(--text-secondary);margin-bottom:12px">
+    配置: 每次买${config.top_n||'--'}只, 持有${config.hold_days||'--'}天, 止损${config.stop_loss||'--'}, ${config.n_stocks||'--'}只股票
+  </div>`;
+
+  html += `<div class="table-wrap"><table class="bt-table"><thead><tr>
+    <th>策略 Strategy</th><th>交易数</th><th>胜率</th><th>平均收益</th><th>总收益</th><th>靠谱度 Sharpe</th><th>平均盈利</th><th>平均亏损</th>
+  </tr></thead><tbody>`;
+
+  for (const [key,val] of Object.entries(summary)) {
+    html += `<tr>
+      <td style="font-weight:700;color:var(--cyan)">${val.name||key}</td>
+      <td>${val.trades||'--'}</td>
+      <td>${fmtPct(val.win_rate)}</td>
+      <td class="${cls(val.avg_ret)}">${fmtPct(val.avg_ret)}</td>
+      <td class="${cls(val.total_ret)}" style="font-weight:700">${fmtPct(val.total_ret)}</td>
+      <td class="${cls(val.sharpe)}">${fmt(val.sharpe,3)}</td>
+      <td class="green">${fmtPct(val.avg_win)}</td>
+      <td class="red">${fmtPct(val.avg_loss)}</td>
+    </tr>`;
+  }
+  html += '</tbody></table></div>';
+  c.innerHTML = html;
+}
+
+// ── 交易记录 ────────────────────────────────────────────
+function renderTrades(data) {
+  const c = document.getElementById('trades-content');
+  const trades = data.trades || [];
+  document.getElementById('trade-count').textContent = trades.length + ' 笔';
+  if (!trades.length) {
+    c.innerHTML = `<div class="empty-state">暂无交易记录<br><br><span style="font-size:12px;color:var(--text-muted)">系统执行交易后会在这里显示</span></div>`;
+    return;
+  }
+  let html = '<div class="trade-list">';
+  trades.forEach(t => {
+    if (t.error) return;
+    html += `<div class="trade-item">
+      <span class="muted">${t.date||t.timestamp||'--'}</span>
+      <span><strong class="ticker-cell">${t.ticker||t.sym||'--'}</strong> <span class="muted">${t.action||t.side||''}</span></span>
+      <span class="${cls(t.pnl||t.return_pct)}" style="font-family:var(--font-mono);font-weight:600">${t.pnl!==undefined?fmtMoney(t.pnl):(t.return_pct!==undefined?fmtPct(t.return_pct):'--')}</span>
+    </div>`;
+  });
+  html += '</div>';
+  c.innerHTML = html;
+}
+
+// ── 实时监控 Observer ───────────────────────────────────
+function renderObserver(data) {
+  const c = document.getElementById('observer-content');
+  const obs = data.observer || {};
+  const alerts = data.alerts || [];
+
+  const se = document.getElementById('observer-session');
+  const session = obs.session || 'unknown';
+  const sessionNames = {premarket:'盘前 PRE', market:'盘中 LIVE', postmarket:'盘后 POST', closed:'已关闭 CLOSED', not_running:'未运行'};
+  if (se) {
+    se.textContent = sessionNames[session] || session.toUpperCase();
+    se.style.cssText = session==='not_running' ? 'background:rgba(255,77,106,0.15);color:var(--red)' : session==='market' ? 'background:rgba(0,214,143,0.15);color:var(--green)' : 'background:rgba(255,176,32,0.15);color:var(--amber)';
+  }
+
+  if (session==='not_running'||!obs.tickers) { c.innerHTML = '<div class="empty-state">监控未运行或无数据</div>'; return; }
+
+  const tickers = obs.tickers || {};
+  const ts = obs.timestamp ? new Date(obs.timestamp).toLocaleString() : '--';
+
+  let html = `<div style="font-size:12px;color:var(--text-secondary);margin-bottom:12px">
+    上次刷新: ${ts} · 间隔: ${obs.poll_interval||300}秒 · 告警: <strong class="${obs.has_alerts?'red':'green'}">${obs.alert_count||0} 条</strong>
+  </div>`;
+
+  html += `<div class="table-wrap"><table class="signal-table"><thead><tr>
+    <th>代码</th>
+    <th>当前价 Price</th>
+    <th>昨收 Prev Close</th>
+    <th>今日涨跌 Day Chg <span class="tip" title="当前价相比昨收的变化幅度">ⓘ</span></th>
+    <th>均价 VWAP <span class="tip" title="今天的成交量加权平均价，低于它说明买得便宜">ⓘ</span></th>
+    <th>偏离均价 VWAP Dev <span class="tip" title="当前价比均价高/低多少，负数=低于均价=好的买点">ⓘ</span></th>
+    <th>放量比 Vol Ratio <span class="tip" title="今天成交量是平时的几倍，>3倍说明有大事发生">ⓘ</span></th>
+    <th>持仓盈亏 P&L <span class="tip" title="如果你已经买了，现在赚/亏多少">ⓘ</span></th>
+    <th>持有天数 Days</th>
+  </tr></thead><tbody>`;
+
+  for (const [ticker, s] of Object.entries(tickers)) {
+    html += `<tr>
+      <td class="ticker-cell">${ticker}</td>
+      <td style="font-family:var(--font-mono)">${s.price?'$'+fmt(s.price):'--'}</td>
+      <td style="font-family:var(--font-mono)">${s.prev_close?'$'+fmt(s.prev_close):'--'}</td>
+      <td class="${cls(s.daily_change_pct)}" style="font-family:var(--font-mono);font-weight:600">${fmtPct(s.daily_change_pct)}</td>
+      <td style="font-family:var(--font-mono)">${s.vwap?'$'+fmt(s.vwap):'--'}</td>
+      <td class="${cls(-s.vwap_dev_pct,false)}" style="font-family:var(--font-mono)">${fmtPct(s.vwap_dev_pct)}</td>
+      <td style="font-family:var(--font-mono)">${s.vol_ratio?fmt(s.vol_ratio)+'x':'--'}</td>
+      <td class="${cls(s.unrealized_pnl_pct)}" style="font-family:var(--font-mono);font-weight:600">${fmtPct(s.unrealized_pnl_pct)}</td>
+      <td style="font-family:var(--font-mono)">${s.hold_days||'--'}</td>
+    </tr>`;
+  }
+  html += '</tbody></table></div>';
+
+  if (alerts.length) {
+    html += `<div style="margin-top:16px"><div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);margin-bottom:8px">异动告警 Alerts</div>`;
+    alerts.slice(-10).reverse().forEach(a => {
+      const ats = a.timestamp ? new Date(a.timestamp).toLocaleString() : '--';
+      const sc = a.severity==='critical'?'red':a.severity==='warning'?'amber':'blue';
+      html += `<div style="padding:6px 0;border-bottom:1px solid rgba(42,58,80,0.3);font-size:13px">
+        <span class="muted" style="font-size:11px">${ats}</span>
+        <span class="${sc}" style="margin-left:8px">${a.message||'--'}</span>
+      </div>`;
+    });
+    html += '</div>';
+  }
+  c.innerHTML = html;
+}
+
+// ── 数据刷新 ────────────────────────────────────────────
+async function fetchData() {
+  try {
+    const resp = await fetch(API_URL);
+    if (!resp.ok) throw new Error('HTTP '+resp.status);
+    dashData = await resp.json();
+    render(dashData);
+    const now = new Date();
+    document.getElementById('last-update').textContent = '更新: ' + now.toLocaleTimeString('en-US', {hour12:false});
+    const next = new Date(now.getTime() + REFRESH_MS);
+    document.getElementById('next-refresh').textContent = '下次: ' + next.toLocaleTimeString('en-US', {hour12:false});
+  } catch (err) {
+    console.error('Fetch error:', err);
+    document.getElementById('dashboard').innerHTML = `<div class="card card-full"><div class="card-body empty-state">
+      <div style="font-size:18px;margin-bottom:8px">⚠️ 加载失败</div>
+      <div style="font-size:13px;color:var(--text-muted)">${err.message}</div>
+    </div></div>`;
+  }
+}
+fetchData();
+refreshTimer = setInterval(fetchData, REFRESH_MS);
+</script>
+</body>
+</html>

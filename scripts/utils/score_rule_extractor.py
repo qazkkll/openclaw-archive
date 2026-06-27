@@ -48,7 +48,7 @@ def analyze(days=30):
         by_source[r.get('source', 'unknown')].append(r)
     
     for src, recs_list in by_source.items():
-        correct = sum(1 for r in recs_list if r.get('score', 0) >= 0.5)
+        correct = sum(1 for r in recs_list if (r.get('score') or 0) >= 0.5)
         total = len(recs_list)
         rate = correct / total if total > 0 else 0
         
@@ -77,7 +77,7 @@ def analyze(days=30):
     for label, lo, hi in conf_brackets:
         bracket = [r for r in scored if lo <= r.get('confidence', 0) < hi]
         if bracket:
-            correct = sum(1 for r in bracket if r.get('score', 0) >= 0.5)
+            correct = sum(1 for r in bracket if r.get('score') or 0 >= 0.5)
             conf_data[label] = {'total': len(bracket), 'correct': correct, 'rate': correct/len(bracket)}
     
     # 检查置信度反转（高置信度反而低命中率）
@@ -95,7 +95,7 @@ def analyze(days=30):
         by_dir[r.get('direction', 'unknown')].append(r)
     
     for direction, dir_recs in by_dir.items():
-        correct = sum(1 for r in dir_recs if r.get('score', 0) >= 0.5)
+        correct = sum(1 for r in dir_recs if r.get('score') or 0 >= 0.5)
         total = len(dir_recs)
         if total >= 3:
             rate = correct / total
@@ -122,7 +122,7 @@ def analyze(days=30):
     streak = 0
     max_streak = 0
     for r in sorted_recs:
-        if r.get('score', 0) < 0.5:
+        if r.get('score') or 0 < 0.5:
             streak += 1
             max_streak = max(max_streak, streak)
         else:
@@ -136,7 +136,7 @@ def analyze(days=30):
     
     # 整体统计
     total_scored = len(scored)
-    total_correct = sum(1 for r in scored if r.get('score', 0) >= 0.5)
+    total_correct = sum(1 for r in scored if r.get('score') or 0 >= 0.5)
     overall_rate = total_correct / total_scored if total_scored > 0 else 0
     
     return {
@@ -146,7 +146,7 @@ def analyze(days=30):
         'overall_rate': overall_rate,
         'conf_data': conf_data,
         'findings': findings,
-        'by_source': {src: {'total': len(rs), 'correct': sum(1 for r in rs if r.get('score', 0) >= 0.5)} for src, rs in by_source.items()},
+        'by_source': {src: {'total': len(rs), 'correct': sum(1 for r in rs if r.get('score') or 0 >= 0.5)} for src, rs in by_source.items()},
     }
 
 def generate_rules(analysis):

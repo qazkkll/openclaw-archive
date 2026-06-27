@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-06-27T15:32:45.495974",
+  "files": {
+    "fmp_ratios_historical.json": {
+      "ticker_count": 476,
+      "date_range": {
+        "earliest": "2010-06-30",
+        "latest": "2026-05-31",
+        "total_dates": 719
+      },
+      "record_count_distribution": {
+        "27": 1,
+        "29": 7,
+        "33": 2,
+        "34": 2,
+        "35": 2,
+        "37": 3,
+        "40": 459
+      },
+      "aapl_records": 40,
+      "aapl_sample_values": {
+        "date": "2016-06-25",
+        "priceToEarningsRatio": 16.21527777777778,
+        "priceToBookRatio": 4.017524890746873,
+        "priceToSalesRatio": 12.00202127579206
+      },
+      "aapl_nan_pct": {
+        "priceToEarningsRatio": 0.0,
+        "priceToBookRatio": 0.0,
+        "priceToSalesRatio": 0.0,
+        "grossProfitMargin": 0.0,
+        "netProfitMargin": 0.0
+      },
+      "aapl_zero_pct": {
+        "priceToEarningsRatio": 0.0,
+        "priceToBookRatio": 0.0,
+        "priceToSalesRatio": 0.0,
+        "grossProfitMargin": 0.0,
+        "netProfitMargin": 0.0
+      },
+      "pe_range_aapl": {
+        "min": 8.51764705882353,
+        "max": 58.70876288659794
+      },
+      "negative_pe_count_aapl": 0,
+      "pit_staleness_days": {
+        "AAPL": 3,
+        "MSFT": 0,
+        "NVDA": 65
+      }
+    },
+    "analyst_historical.json": {
+      "ticker_count": 476,
+      "date_range": {
+        "earliest": "2013-03-31",
+        "latest": "2031-01-04",
+        "total_dates": 1059
+      },
+      "all_fields": [
+        "date",
+        "epsAvg",
+        "epsHigh",
+        "epsLow",
+        "eps_dispersion",
+        "eps_revision",
+        "numAnalystsEps",
+        "numAnalystsRevenue",
+        "revenueAvg",
+        "revenue_revision"
+      ],
+      "has_eps_revision": true,
+      "has_revenue_revision": true,
+      "has_eps_dispersion": true,
+      "aapl_records": 40,
+      "aapl_sample_values": {
+        "date": "2018-12-26",
+        "epsAvg": 1.03,
+        "revenueAvg": 83507047619,
+        "numAnalystsEps": 15,
+        "numAnalystsRevenue": 15
+      },
+      "aapl_nan_pct": {
+        "epsAvg": 0.0,
+        "revenueAvg": 0.0,
+        "numAnalystsEps": 0.0,
+        "numAnalystsRevenue": 0.0
+      },
+      "future_date_records": 8173,
+      "pit_staleness_days": {
+        "AAPL": 3,
+        "MSFT": 0,
+        "NVDA": 66
+      }
+    },
+    "fmp_key_metrics.json": {
+      "ticker_count": 476,
+      "date_range": {
+        "earliest": "2010-06-30",
+        "latest": "2026-05-31",
+        "total_dates": 719
+      },
+      "record_count_distribution": {
+        "27": 1,
+        "29": 7,
+        "33": 2,
+        "34": 2,
+        "35": 2,
+        "37": 3,
+        "40": 459
+      },
+      "aapl_records": 40,
+      "aapl_sample_values": {
+        "date": "2016-06-25",
+        "earningsYield": 0.015334936858924647,
+        "evToEBITDA": 42.90358230378991,
+        "returnOnEquity": 0.06160849052876143
+      },
+      "aapl_nan_pct": {
+        "earningsYield": 0.0,
+        "evToEBITDA": 0.0,
+        "returnOnEquity": 0.0,
+        "returnOnAssets": 0.0,
+        "freeCashFlowYield": 0.0
+      },
+      "pit_staleness_days": {
+        "AAPL": 3,
+        "MSFT": 0,
+        "NVDA": 65
+      }
+    },
+    "fmp_financial_growth.json": {
+      "ticker_count": 476,
+      "date_range": {
+        "earliest": "2010-06-30",
+        "latest": "2026-05-31",
+        "total_dates": 717
+      },
+      "aapl_records": 40,
+      "aapl_sample_values": {
+        "date": "2016-06-25",
+        "revenueGrowth": -0.16217338845263762,
+        "netIncomeGrowth": -0.2586534804108026
+      },
+      "aapl_nan_pct": {
+        "revenueGrowth": 0.0,
+        "netIncomeGrowth": 0.0,
+        "epsdilutedGrowth": 0.0,
+        "freeCashFlowGrowth": 0.0
+      }
+    },
+    "features_v02.parquet": {
+      "shape": {
+        "rows": 358284,
+        "columns": 80
+      },
+      "column_names": [
+        "ticker",
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "vwap",
+        "ma5",
+        "ma20",
+        "ma60",
+        "ma_bias20",
+        "ma_align",
+        "ma_cross_5_20",
+        "ma_cross_20_60",
+        "price_position",
+        "ret1",
+        "ret5",
+        "ret10",
+        "ret20",
+        "ret30",
+        "ret60",
+        "ret90",
+        "momentum_6m",
+        "momentum_1m",
+        "mom_divergence",
+        "trend_accel",
+        "vol20",
+        "vol5",
+        "vol_ratio",
+        "vol_change",
+        "vol_regime",
+        "rsi14",
+        "rsi_change",
+        "rsi_zone",
+        "macd",
+        "macd_signal",
+        "macd_hist",
+        "macd_roc",
+        "bb_std",
+        "bb_width",
+        "bb_pos",
+        "ret_quality",
+        "range_ratio",
+        "avg_body",
+        "vwap_drift",
+        "dd_60",
+        "ud_vol_ratio",
+        "beta",
+        "priceToEarningsRatio",
+        "priceToBookRatio",
+        "priceToSalesRatio",
+        "priceToFreeCashFlowRatio",
+        "enterpriseValueMultiple",
+        "grossProfitMargin",
+        "netProfitMargin",
+        "operatingProfitMargin",
+        "ebitdaMargin",
+        "assetTurnover",
+        "inventoryTurnover",
+        "receivablesTurnover",
+        "debtToEquityRatio",
+        "currentRatio",
+        "quickRatio",
+        "financialLeverageRatio",
+        "freeCashFlowOperatingCashFlowRatio",
+        "operatingCashFlowRatio",
+        "dividendYieldPercentage",
+        "dividendPayoutRatio",
+        "grossProfitMargin_qoq",
+        "netProfitMargin_qoq",
+        "operatingProfitMargin_qoq",
+        "ebitdaMargin_qoq",
+        "eps_revision",
+        "revenue_revision",
+        "num_analysts_eps",
+        "num_analysts_rev",
+        "eps_dispersion",
+        "fmp_covered",
+        "analyst_covered"
+      ],
+      "ticker_count": 476,
+      "date_range": {
+        "earliest": "2022-01-03",
+        "latest": "2024-12-31",
+        "count": 753
+      },
+      "expected_vs_actual_trading_days": {
+        "expected": 753,
+        "actual": 753,
+        "missing": 0
+      },
+      "dates_per_ticker": {
+        "min": 663,
+        "max": 753,
+        "avg": 752.7
+      },
+      "tickers_low_date_count": {
+        "count": 1,
+        "details": {
+          "META": 663
+        }
+      },
+      "top_nan_columns": [
+        {
+          "column": "beta",
+          "nan_pct": 100.0
+        },
+        {
+          "column": "momentum_6m",
+          "nan_pct": 16.74
+        },
+        {
+          "column": "mom_divergence",
+          "nan_pct": 16.74
+        },
+        {
+          "column": "ret90",
+          "nan_pct": 11.96
+        },
+        {
+          "column": "ret60",
+          "nan_pct": 7.97
+        },
+        {
+          "column": "trend_accel",
+          "nan_pct": 7.97
+        },
+        {
+          "column": "ma60",
+          "nan_pct": 7.84
+        },
+        {
+          "column": "price_position",
+          "nan_pct": 7.84
+        },
+        {
+          "column": "vol_change",
+          "nan_pct": 4.65
+        },
+        {
+          "column": "ret30",
+          "nan_pct": 3.99
+        }
+      ],
+      "beta_column": "100% NaN - not computed",
+      "pit_fmp_columns": [
+        "priceToEarningsRatio",
+        "priceToBookRatio",
+        "priceToSalesRatio",
+        "grossProfitMargin",
+        "netProfitMargin",
+        "eps_revision",
+        "revenue_revision",
+        "eps_dispersion"
+      ],
+      "fmp_covered_all_ones": true,
+      "analyst_covered_all_ones": true
+    },
+    "russell_prices.json": {
+      "ticker_count": 691,
+      "date_range": {
+        "earliest": "2022-01-03",
+        "latest": "2024-12-31",
+        "total_dates": 753
+      },
+      "record_counts": {
+        "min": 202,
+        "max": 753,
+        "avg": 625.2
+      },
+      "sample_tickers_present": {
+        "AAPL": false,
+        "MSFT": false,
+        "NVDA": false
+      },
+      "sample_tickers_note": "AAPL/MSFT/NVDA not in russell_prices (different universe)",
+      "actual_samples": {
+        "AATRL": {
+          "records": 281,
+          "date_range": [
+            "2022-01-04",
+            "2024-12-26"
+          ]
+        },
+        "AAVMY": {
+          "records": 750,
+          "date_range": [
+            "2022-01-03",
+            "2024-12-31"
+          ]
+        },
+        "ABL": {
+          "records": 377,
+          "date_range": [
+            "2023-07-05",
+            "2024-12-31"
+          ]
+        }
+      },
+      "tickers_low_data": {
+        "count": 0,
+        "examples": {}
+      }
+    }
+  },
+  "cross_file_analysis": {
+    "ticker_overlap": {
+      "fmp_tickers": 476,
+      "parquet_tickers": 476,
+      "russell_tickers": 691,
+      "fmp_in_parquet": 476,
+      "russell_in_parquet": 0,
+      "fmp_vs_parquet_note": "Perfect 1:1 match (476 tickers)",
+      "russell_vs_parquet_note": "Zero overlap - russell_prices is a different universe (691 tickers, not used by features_v02.parquet)"
+    },
+    "date_alignment": {
+      "parquet_range": "2022-01-03 to 2024-12-31 (753 trading days)",
+      "fmp_range": "2010-06-30 to 2026-05-31 (quarterly)",
+      "analyst_range": "2013-03-31 to 2031-01-04 (quarterly + future forecasts)",
+      "note": "FMP data extends well beyond parquet range, allowing PIT forward-fill with minimal staleness"
+    },
+    "pit_integrity": {
+      "mechanism": "Quarterly FMP/analyst data forward-filled to daily frequency in parquet",
+      "fmp_covered": "All 358,284 rows have fmp_covered=1",
+      "analyst_covered": "All 358,284 rows have analyst_covered=1",
+      "max_staleness": "65 days (NVDA at parquet end - quarterly lag)",
+      "typical_staleness": "0-3 days for most tickers"
+    }
+  },
+  "key_findings": [
+    {
+      "severity": "CRITICAL",
+      "finding": "beta column is 100% NaN across all 358,284 rows",
+      "impact": "Beta feature is completely non-functional - either compute it or remove it",
+      "recommendation": "Implement beta computation (e.g., 60-day rolling vs SPY) or drop column"
+    },
+    {
+      "severity": "WARNING",
+      "finding": "russell_prices.json contains 691 tickers with ZERO overlap with features_v02.parquet (476 tickers)",
+      "impact": "Russell price data is not being used by the current feature set - may be orphaned data or intended for a different pipeline",
+      "recommendation": "Clarify whether russell_prices should be integrated or removed"
+    },
+    {
+      "severity": "WARNING",
+      "finding": "META has only 663 trading days in parquet (vs 753 expected)",
+      "impact": "Missing ~90 days of data (likely IPO/halting period handling issue)",
+      "recommendation": "Check if META was missing from the price universe for early 2022 or has data gaps"
+    },
+    {
+      "severity": "INFO",
+      "finding": "Analyst data contains future forecast dates (up to 2031-01-04) for 475 of 476 tickers",
+      "impact": "Not an issue if PIT logic correctly filters to only use dates <= current date, but future data in raw file is a look-ahead bias risk",
+      "recommendation": "Ensure PIT joining uses only historical analyst dates, not forecasts"
+    },
+    {
+      "severity": "INFO",
+      "finding": "NVDA has 65-day staleness at parquet end (FMP data ends 2024-10-27 vs parquet end 2024-12-31)",
+      "impact": "Minor - NVDA's Q3 FY2025 ended Oct 27, 2024; data reflects pre-earnings snapshot",
+      "recommendation": "Acceptable for quarterly PIT data; document the staleness"
+    },
+    {
+      "severity": "INFO",
+      "finding": "FMP ratios, key_metrics, and financial_growth all have 0% NaN for AAPL key fields",
+      "impact": "FMP fundamental data quality is high for covered tickers",
+      "recommendation": "Good - no action needed"
+    },
+    {
+      "severity": "INFO",
+      "finding": "753/753 expected trading days present in parquet",
+      "impact": "Full date coverage for the 2022-2024 backtest window",
+      "recommendation": "Good - no action needed"
+    },
+    {
+      "severity": "INFO",
+      "finding": "FMP data record counts: 459/476 tickers have 40 records, 17 have 27-37 (newer/smaller tickers)",
+      "impact": "Minor coverage variation - newer tickers have shorter history which is expected",
+      "recommendation": "Acceptable - newer companies naturally have less history"
+    }
+  ]
+}

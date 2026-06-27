@@ -1,0 +1,127 @@
+# ═══════════════════════════════════════════════════════════
+# 🦅 Falcon 交易系统 — 主配置文件
+# 所有脚本读这个文件，不硬编码。
+# ═══════════════════════════════════════════════════════════
+
+system:
+  name: "Falcon"
+  version: "0.4.0"
+  timezone: "US/Eastern"
+  base_dir: "/home/hermes/.hermes/openclaw-archive"
+
+# ── 模型参数 ──
+model:
+  name: "falcon_v031"
+  universe: "SPX"           # 标普500成分股
+  universe_size: 476        # 股票池大小
+  top_n: 5                  # 每次推荐几只
+
+  weights:                  # 各因子的权重（加起来=100%）
+    fund_ratio: 0.70        # 财务比率 70%（PE/PB/利润率等）
+    analyst: 0.20           # 分析师修正 20%（预期上调还是下调）
+    fund_metric: 0.10       # 关键指标 10%（ROE/ROA等）
+    tech: 0.0               # 技术面 0%（已验证无增量）
+    sentiment: 0.0          # 情绪面 0%（等FinBERT数据补全后启用）
+
+  features:
+    fund_ratio: "FMP 财务比率 (20项): PE/PB/PS/利润率/周转率/负债率等"
+    fund_metric: "FMP 关键指标 (23项): 赚钱能力/估值/投资回报率等"
+    analyst: "FMP 分析师预期 (3项): 盈利修正/收入修正/预期分歧度"
+    tech: "技术指标 (9项): RSI/动量/波动率等"
+    sentiment: "FinBERT 新闻情绪 (待部署): AI读新闻判断正面/负面"
+
+# ── 交易参数 ──
+trading:
+  hold_days: 30             # 买了之后持有多少天
+  stop_loss: -0.15          # 止损线：亏15%就卖
+  cost_per_trade: 0.001     # 每笔交易成本 0.1%
+  bear_alloc: 0.50          # 熊市时只用50%的钱
+
+  entry:                    # 买入规则
+    strategy: "vwap_timing" # 用VWAP均价择时
+    vwap_trigger: 0.0       # 价格低于均价时买入
+    fallback_minutes: 60    # 60分钟内没触发就直接买
+    min_entry_score: 60     # 最低入场评分
+
+  exit:                     # 卖出规则
+    strategy: "fixed_hold"  # 固定持有天数到期卖出
+    hold_days: 30
+    stop_loss: -0.15
+    trailing_stop: null     # 移动止损（未启用）
+
+# ── 数据源说明 ──
+data_sources:
+  fmp_fundamentals:
+    name: "FMP 财务数据"
+    cn: "公司财务报表数据（收入/利润/资产负债等）"
+    why: "判断公司赚不赚钱、财务健不健康"
+    url: "https://financialmodelingprep.com"
+    api_endpoint: "/stable/ratios, /stable/key-metrics, /stable/financial-growth"
+    cost: "$29/月 (Basic), $99/月 (Premium)"
+    current_plan: "Premium (通过闲鱼转售)"
+    refresh: "季度 (财报发布后)"
+    covers: "476只标普500, 20+23+18个财务指标"
+
+  fmp_analyst:
+    name: "FMP 分析师预期"
+    cn: "华尔街分析师对公司的盈利预测和修正"
+    why: "分析师上调预期=看好，下调=看空"
+    url: "https://financialmodelingprep.com"
+    api_endpoint: "/stable/analyst-estimates"
+    cost: "包含在Premium计划"
+    refresh: "每周"
+    covers: "476只标普500, 3个分析师指标"
+
+  massive_market:
+    name: "Massive.io 市场数据"
+    cn: "股票价格和成交量历史"
+    why: "计算技术指标和VWAP均价"
+    url: "https://massive.io"
+    cost: "$0 (免费tier)"
+    refresh: "实时 / 日频"
+
+  alpaca:
+    name: "Alpaca Markets"
+    cn: "美股交易和行情平台"
+    why: "Paper Trading模拟交易 + 实时行情"
+    url: "https://alpaca.markets"
+    cost: "$0 (Paper Trading免费)"
+    refresh: "实时快照 + 历史分钟K线"
+
+  finbert:
+    name: "FinBERT 新闻情绪"
+    cn: "用AI读新闻判断市场情绪"
+    why: "恐慌时少买，贪婪时谨慎"
+    url: "本地HuggingFace模型"
+    cost: "$0 (本地推理)"
+    refresh: "每日"
+    status: "补全中 (2024年1月已完成)"
+
+  futu:
+    name: "Futu OpenD"
+    cn: "港股/A股/美股实盘交易平台"
+    why: "Paper Trading验证后切换到实盘"
+    url: "https://openapi.futunn.com"
+    cost: "$0 (已有账户)"
+    refresh: "实时"
+
+# ── 路径 ──
+paths:
+  data: "data/falcon"
+  models: "models"
+  signals: "data/falcon"
+  trades: "data/falcon/trades"
+  logs: "data/falcon/logs"
+  dashboard: "dashboard"
+  archive: "archive"
+  config: "config"
+
+# ── 自动任务时间表 (由Hermes agent cron管理) ──
+cron:
+  daily_scoring_and_trade: "30 21 * * 1-5"  # HKT 21:30 Mon-Fri = ET 9:30开盘
+  alert_checker: "*/5 * * * 1-5"            # 每5分钟检查告警(盘中)
+  daily_report: "30 4 * * 2-6"              # HKT 04:30 Tue-Sat = ET 16:30收盘后
+  daily_scoring_only: "30 5 * * 2-6"        # HKT 05:30 Tue-Sat = ET 17:30收盘后(仅评分)
+  data_check: "0 16 * * 1-5"               # HKT 16:00 Mon-Fri = ET 4:00AM(数据检查)
+  weekly_review: "0 12 * * 6"               # HKT 12:00 Sat
+  note: "所有通知通过Hermes cron deliver到Telegram, 不再用system crontab"

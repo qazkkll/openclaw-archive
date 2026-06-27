@@ -74,6 +74,31 @@
     }
   },
   "models": {
+    "falcon_v031": {
+      "score_script": "scripts/falcon/falcon_score.py",
+      "engine": "scripts/falcon/falcon_v03_engine.py",
+      "universe": {
+        "min_price": 10,
+        "max_price": 999999,
+        "source": "falcon_sp500"
+      },
+      "hold_days": 30,
+      "top_n": 5,
+      "stop_loss": -0.15,
+      "bear_alloc": 0.50,
+      "status": "production",
+      "weights": {
+        "fund_ratio": 0.7,
+        "analyst": 0.2,
+        "fund_metric": 0.1,
+        "tech": 0.0
+      },
+      "strategy": "fixed",
+      "cost_model": "futu_tiered",
+      "data_source": "fmp_pit",
+      "version": "V0.3.1",
+      "meta_file": "data/falcon/data_quality_report.json"
+    },
     "arrow_v12": {
       "model_file": "models/us/arrow_v12_lambdamart.txt",
       "score_script": "scripts/us/arrow_v12_lambdamart_score.py",

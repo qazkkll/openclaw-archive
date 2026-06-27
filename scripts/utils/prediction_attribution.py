@@ -38,7 +38,7 @@ def classify_failure_mode(rec):
     conf = rec.get('confidence', 0)
     
     # 如果成功，不是失败
-    if rec.get('score', 0) >= 0.5:
+    if rec.get('score') or 0 >= 0.5:
         return None
     
     modes = []
@@ -72,7 +72,7 @@ def classify_failure_mode(rec):
 
 def classify_success_mode(rec):
     """分类成功原因"""
-    if rec.get('score', 0) < 0.5:
+    if rec.get('score') or 0 < 0.5:
         return None
     
     modes = []
@@ -99,7 +99,7 @@ def classify_success_mode(rec):
 
 def attribute_one(rec):
     """对单条推荐做归因"""
-    is_correct = rec.get('score', 0) >= 0.5
+    is_correct = (rec.get('score') or 0) >= 0.5
     actual_return = rec.get('actual_return', '0%')
     
     # 解析实际收益率
@@ -188,9 +188,9 @@ def generate_report(attributions):
         by_source[src]['total'] += 1
         if a['is_correct']:
             by_source[src]['correct'] += 1
-            by_source[src]['success_modes'].extend(a.get('success_modes', []))
+            by_source[src]['success_modes'].extend(a.get('success_modes') or [])
         else:
-            by_source[src]['failure_modes'].extend(a.get('failure_modes', []))
+            by_source[src]['failure_modes'].extend(a.get('failure_modes') or [])
     
     for src, d in sorted(by_source.items()):
         rate = d['correct']/d['total']*100 if d['total'] else 0
@@ -232,7 +232,7 @@ def generate_report(attributions):
     all_failure_modes = []
     for a in attributions:
         if not a['is_correct']:
-            all_failure_modes.extend(a.get('failure_modes', []))
+            all_failure_modes.extend(a.get('failure_modes') or [])
     
     if all_failure_modes:
         mode_counts = defaultdict(int)
@@ -255,8 +255,8 @@ def generate_report(attributions):
     print(f'\n--- 关键发现 ---')
     
     # 发现1: Agent主观判断 vs 纯模型信号
-    agent_override_fails = sum(1 for a in attributions if 'agent_override' in a.get('failure_modes', []))
-    model_only_correct = sum(1 for a in attributions if 'model_signal_only' in a.get('success_modes', []))
+    agent_override_fails = sum(1 for a in attributions if 'agent_override' in (a.get('failure_modes') or []))
+    model_only_correct = sum(1 for a in attributions if 'model_signal_only' in (a.get('success_modes') or []))
     print(f'  Agent主观加戏失败: {agent_override_fails}次')
     print(f'  纯模型信号成功: {model_only_correct}次')
     

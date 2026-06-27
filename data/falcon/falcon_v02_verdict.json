@@ -1,0 +1,54 @@
+{
+  "version": "V0.2",
+  "audit_status": "PASSED",
+  "timestamp": "2026-06-27",
+  "optimal_params": {
+    "hold_days": 30,
+    "stop_loss": "dynamic -30% (scaled by vol20)",
+    "bear_allocation": 0.50,
+    "weights": {"tech": 0.2, "fund": 0.7, "analyst": 0.1},
+    "top_n": 5
+  },
+  "bull_market_2023_2024": {
+    "sharpe": 2.744,
+    "max_drawdown_pct": 14,
+    "total_return_pct": 280
+  },
+  "bear_market_2022": {
+    "sharpe": -0.214,
+    "max_drawdown_pct": 14,
+    "win_rate_pct": 47,
+    "constraint_dd_28": "PASS",
+    "constraint_wr_42": "PASS"
+  },
+  "feature_set": {
+    "total_features": 80,
+    "technical": 43,
+    "fmp_ratios": 20,
+    "analyst": 5,
+    "beta": 1,
+    "coverage_flags": 2,
+    "fmp_coverage": "476/476 (100%)",
+    "analyst_coverage": "476/476 (100%)"
+  },
+  "grid_search": {
+    "total_combos": 2640,
+    "passed_combos": 320,
+    "weight_step": 0.1,
+    "stop_levels": [-0.10, -0.15, -0.20, -0.25, -0.30],
+    "bear_allocations": [0.0, 0.15, 0.30, 0.50],
+    "hold_periods": [30, 60]
+  },
+  "v01_comparison": {
+    "v01_bull_sharpe": 0.192,
+    "v02_bull_sharpe": 2.744,
+    "improvement": "14.3x"
+  },
+  "key_findings": [
+    "FMP付费特征是alpha核心(Wf=0.7最优)",
+    "技术指标权重极低(Wt=0.2)",
+    "动态止损(-30%按波动率)比固定-10%提升WR从27%到47%",
+    "市场状态感知将熊市DD从65%降到14%",
+    "320/2640组合通过全部Falcon协议压测"
+  ]
+}
