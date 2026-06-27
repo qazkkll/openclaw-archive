@@ -1,0 +1,222 @@
+{
+  "timestamp": "2026-06-27T04:30:00",
+  "weights": {
+    "tech": 0.5,
+    "fund": 0.2,
+    "sent": 0.3
+  },
+  "parameters": {
+    "top_n": 5,
+    "hold_days": 10,
+    "stop_loss": -0.1
+  },
+  "performance": {
+    "train_period": "2023-01-01 \u2192 2023-12-31",
+    "test_period": "2024-01-01 \u2192 2024-12-31",
+    "best_threshold": -0.4,
+    "train_sharpe": 0.059,
+    "total_trades": 393,
+    "sell_trades": 194,
+    "sharpe_ratio": 1.055,
+    "max_drawdown_pct": -16.23,
+    "win_rate": 53.6,
+    "profit_factor": 1.29,
+    "total_return_pct": 37.07,
+    "final_value": 137074.68
+  },
+  "attribution": {
+    "total_losing": 5,
+    "total_winning": 4,
+    "loss_rate": 55.6,
+    "avg_loss_pct": -6.05,
+    "avg_win_pct": 8.98,
+    "high_rsi_loss_pct": 0.0,
+    "strong_signal_losses": 1,
+    "losing_tickers": [
+      "EZGO",
+      "INFY",
+      "GDXY",
+      "SMCX",
+      "AHCO"
+    ],
+    "loss_by_reason": {
+      "\u6b62\u635f": {
+        "count": 2,
+        "total_pnl": -23.009999999999998
+      },
+      "\u5230\u671f": {
+        "count": 3,
+        "total_pnl": -7.25
+      }
+    }
+  },
+  "recent_trades": [
+    {
+      "ticker": "XRAY",
+      "side": "SELL",
+      "date": "2024-12-16",
+      "price": 19.59,
+      "qty": 1325,
+      "pnl_pct": 2.67,
+      "reason": "\u5230\u671f",
+      "days_held": 10
+    },
+    {
+      "ticker": "AHCO",
+      "side": "BUY",
+      "date": "2024-12-16",
+      "price": 10.0,
+      "qty": 2555
+    },
+    {
+      "ticker": "EZGO",
+      "side": "BUY",
+      "date": "2024-12-16",
+      "price": 2910.0,
+      "qty": 8
+    },
+    {
+      "ticker": "GDXY",
+      "side": "BUY",
+      "date": "2024-12-16",
+      "price": 15.02,
+      "qty": 1701
+    },
+    {
+      "ticker": "SSG",
+      "side": "SELL",
+      "date": "2024-12-19",
+      "price": 116.2,
+      "qty": 202,
+      "pnl_pct": 3.09,
+      "reason": "\u5230\u671f",
+      "days_held": 10
+    },
+    {
+      "ticker": "CODI",
+      "side": "BUY",
+      "date": "2024-12-19",
+      "price": 23.01,
+      "qty": 1229
+    },
+    {
+      "ticker": "EZGO",
+      "side": "SELL",
+      "date": "2024-12-20",
+      "price": 2547.0,
+      "qty": 8,
+      "pnl_pct": -12.47,
+      "reason": "\u6b62\u635f",
+      "days_held": 4
+    },
+    {
+      "ticker": "BNAI",
+      "side": "BUY",
+      "date": "2024-12-20",
+      "price": 6.931,
+      "qty": 2998
+    },
+    {
+      "ticker": "INFY",
+      "side": "SELL",
+      "date": "2024-12-23",
+      "price": 22.78,
+      "qty": 1427,
+      "pnl_pct": -2.02,
+      "reason": "\u5230\u671f",
+      "days_held": 11
+    },
+    {
+      "ticker": "LBTYK",
+      "side": "BUY",
+      "date": "2024-12-23",
+      "price": 12.87,
+      "qty": 2480
+    },
+    {
+      "ticker": "AHCO",
+      "side": "SELL",
+      "date": "2024-12-26",
+      "price": 9.79,
+      "qty": 2555,
+      "pnl_pct": -2.1,
+      "reason": "\u5230\u671f",
+      "days_held": 10
+    },
+    {
+      "ticker": "GDXY",
+      "side": "SELL",
+      "date": "2024-12-26",
+      "price": 14.55,
+      "qty": 1701,
+      "pnl_pct": -3.13,
+      "reason": "\u5230\u671f",
+      "days_held": 10
+    },
+    {
+      "ticker": "MTEN",
+      "side": "BUY",
+      "date": "2024-12-26",
+      "price": 1224.0,
+      "qty": 19
+    },
+    {
+      "ticker": "SMCX",
+      "side": "BUY",
+      "date": "2024-12-26",
+      "price": 96.96,
+      "qty": 252
+    },
+    {
+      "ticker": "SMCX",
+      "side": "SELL",
+      "date": "2024-12-27",
+      "price": 86.74,
+      "qty": 252,
+      "pnl_pct": -10.54,
+      "reason": "\u6b62\u635f",
+      "days_held": 1
+    },
+    {
+      "ticker": "FVRR",
+      "side": "BUY",
+      "date": "2024-12-27",
+      "price": 32.19,
+      "qty": 756
+    },
+    {
+      "ticker": "CODI",
+      "side": "SELL",
+      "date": "2024-12-30",
+      "price": 23.08,
+      "qty": 1229,
+      "pnl_pct": 0.3,
+      "reason": "\u5230\u671f",
+      "days_held": 11
+    },
+    {
+      "ticker": "BNAI",
+      "side": "SELL",
+      "date": "2024-12-30",
+      "price": 9.0,
+      "qty": 2998,
+      "pnl_pct": 29.85,
+      "reason": "\u5230\u671f",
+      "days_held": 10
+    },
+    {
+      "ticker": "MSFO",
+      "side": "BUY",
+      "date": "2024-12-30",
+      "price": 18.38,
+      "qty": 1463
+    },
+    {
+      "ticker": "SSL",
+      "side": "BUY",
+      "date": "2024-12-30",
+      "price": 4.46,
+      "qty": 6031
+    }
+  ]
+}
