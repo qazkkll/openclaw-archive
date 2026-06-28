@@ -1,6 +1,14 @@
 {
-  "timestamp": "2026-06-27T18:59:37.215791+00:00",
+  "timestamp": "2026-06-28T19:00:15.839298+00:00",
   "data": {
+    "PLTR": {
+      "prev_close": 107.3,
+      "last_close": 112.82,
+      "last_volume": 1516740.0,
+      "avg_volume_20d": 1104807.95,
+      "last_high": 114.07,
+      "last_low": 108.56
+    },
     "AVGO": {
       "prev_close": 379.325,
       "last_close": 363.91,
@@ -32,14 +40,6 @@
       "avg_volume_20d": 415925.4,
       "last_high": 304.725,
       "last_low": 279.86
-    },
-    "PLTR": {
-      "prev_close": 107.3,
-      "last_close": 112.82,
-      "last_volume": 1516740.0,
-      "avg_volume_20d": 1104807.95,
-      "last_high": 114.07,
-      "last_low": 108.56
     }
   }
 }

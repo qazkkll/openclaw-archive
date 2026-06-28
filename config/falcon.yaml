@@ -119,7 +119,7 @@ paths:
 # ── 自动任务时间表 (由Hermes agent cron管理) ──
 cron:
   daily_scoring_and_trade: "30 21 * * 1-5"  # HKT 21:30 Mon-Fri = ET 9:30开盘
-  alert_checker: "*/5 * * * 1-5"            # 每5分钟检查告警(盘中)
+  alert_checker: "*/3 * * * 1-5"            # 智能告警: 市场关闭静默, 盘中3分钟, L2/L3加频
   daily_report: "30 4 * * 2-6"              # HKT 04:30 Tue-Sat = ET 16:30收盘后
   daily_scoring_only: "30 5 * * 2-6"        # HKT 05:30 Tue-Sat = ET 17:30收盘后(仅评分)
   data_check: "0 16 * * 1-5"               # HKT 16:00 Mon-Fri = ET 4:00AM(数据检查)

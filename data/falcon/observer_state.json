@@ -1,8 +1,19 @@
 {
-  "timestamp": "2026-06-27T14:59:36.818685-04:00",
+  "timestamp": "2026-06-28T15:00:15.437107-04:00",
   "session": "market",
   "poll_interval": 300,
   "tickers": {
+    "PLTR": {
+      "price": 113.29,
+      "prev_close": 107.3,
+      "bid": 107.92,
+      "ask": 119.1,
+      "vwap": null,
+      "day_volume": 0,
+      "avg_volume_20d": 1104807.95,
+      "daily_change_pct": 5.58,
+      "vol_ratio": 0.0
+    },
     "AVGO": {
       "price": 365.26,
       "prev_close": 379.325,
@@ -46,25 +57,14 @@
       "avg_volume_20d": 415925.4,
       "daily_change_pct": -8.46,
       "vol_ratio": 0.0
-    },
-    "PLTR": {
-      "price": 113.29,
-      "prev_close": 107.3,
-      "bid": 107.92,
-      "ask": 119.1,
-      "vwap": null,
-      "day_volume": 0,
-      "avg_volume_20d": 1104807.95,
-      "daily_change_pct": 5.58,
-      "vol_ratio": 0.0
     }
   },
   "signal_tickers": [
+    "PLTR",
     "AVGO",
     "APP",
     "NVDA",
-    "TXN",
-    "PLTR"
+    "TXN"
   ],
   "has_alerts": true,
   "alert_count": 4

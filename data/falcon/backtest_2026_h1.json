@@ -1,0 +1,72 @@
+{
+  "config": {
+    "initial_capital": 1000000.0,
+    "weights": {
+      "fund_ratio": 0.7,
+      "analyst": 0.2,
+      "fund_metric": 0.1
+    },
+    "params": {
+      "hold_days": 30,
+      "stop_loss": -0.15,
+      "bear_alloc": 0.5,
+      "cost": 0.001
+    },
+    "top_n": 5
+  },
+  "performance": {
+    "total_return_pct": 1.56,
+    "sharpe": 0.293,
+    "max_drawdown_pct": -10.49,
+    "spy_return_pct": 0,
+    "excess_return_pct": 1.56,
+    "win_rate": 35.0,
+    "total_trades": 20,
+    "stop_losses": 4
+  },
+  "monthly": [
+    {
+      "month": "2026-01",
+      "nav": 964217.7377901755,
+      "return_pct": -3.57822622098245,
+      "positions": 4,
+      "cash_pct": 60.609165063192584
+    },
+    {
+      "month": "2026-02",
+      "nav": 972625.1016758544,
+      "return_pct": -2.7374898324145636,
+      "positions": 5,
+      "cash_pct": 49.195284046744725
+    },
+    {
+      "month": "2026-03",
+      "nav": 947018.4126961211,
+      "return_pct": -5.298158730387881,
+      "positions": 5,
+      "cash_pct": 50.00233483151999
+    },
+    {
+      "month": "2026-04",
+      "nav": 1042975.49557458,
+      "return_pct": 4.2975495574580025,
+      "positions": 5,
+      "cash_pct": 45.40196003086244
+    },
+    {
+      "month": "2026-05",
+      "nav": 1124768.372322246,
+      "return_pct": 12.476837232224591,
+      "positions": 5,
+      "cash_pct": 47.34940731547108
+    },
+    {
+      "month": "2026-06",
+      "nav": 1015623.6546938813,
+      "return_pct": 1.5623654693881273,
+      "positions": 5,
+      "cash_pct": 0.0
+    }
+  ],
+  "final_nav": 1015623.65
+}
