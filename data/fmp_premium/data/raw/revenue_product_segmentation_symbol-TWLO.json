@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "TWLO",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Messaging": 2878304000,
+      "Other Communications": 746541000,
+      "Segment": 303250000
+    }
+  },
+  {
+    "symbol": "TWLO",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Communications Segment": 4160340000
+    }
+  },
+  {
+    "symbol": "TWLO",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Communications Segment": 3858693000
+    }
+  },
+  {
+    "symbol": "TWLO",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Communication": 3251240000,
+      "Other Communications": 376650000,
+      "Product and Service, Other": 133604000,
+      "Software": 441477000
+    }
+  }
+]

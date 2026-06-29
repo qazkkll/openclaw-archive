@@ -1,0 +1,20 @@
+{
+  "data_weights": {
+    "fund_ratio": 0.0,
+    "fund_metric": 0.169,
+    "analyst": 0.273,
+    "earnings": 0.265,
+    "grade_sentiment": 0.294,
+    "tech": 0.0,
+    "growth": 0.0
+  },
+  "ic_means": {
+    "fund_ratio": -0.0027055524816208317,
+    "fund_metric": 0.012064813429433241,
+    "analyst": 0.01454210346228654,
+    "earnings": 0.010676729627111447,
+    "grade_sentiment": 0.012949188089494067,
+    "tech": -0.013849001904735422,
+    "growth": 0
+  }
+}

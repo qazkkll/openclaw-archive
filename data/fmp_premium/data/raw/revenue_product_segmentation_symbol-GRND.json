@@ -1,0 +1,36 @@
+[
+  {
+    "symbol": "GRND",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Advertising": 53746000,
+      "License and Service": 290890000
+    }
+  },
+  {
+    "symbol": "GRND",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Advertising": 34406000,
+      "License and Service": 225285000
+    }
+  },
+  {
+    "symbol": "GRND",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Other Countries": 58718000,
+      "North America": 121958000,
+      "Europe": 14339000
+    }
+  }
+]

@@ -1,0 +1,659 @@
+[
+  {
+    "symbol": "AMCR",
+    "date": "2026-08-19",
+    "epsActual": null,
+    "epsEstimated": 1.19,
+    "revenueActual": null,
+    "revenueEstimated": 6076599000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2026-08-13",
+    "epsActual": null,
+    "epsEstimated": 1.18,
+    "revenueActual": null,
+    "revenueEstimated": 6004701000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2026-05-06",
+    "epsActual": 0.96,
+    "epsEstimated": 0.96,
+    "revenueActual": 5914000000,
+    "revenueEstimated": 5712234000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2026-02-03",
+    "epsActual": 0.86,
+    "epsEstimated": 0.83,
+    "revenueActual": 5449000000,
+    "revenueEstimated": 5507888000,
+    "lastUpdated": "2026-05-03"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2025-11-05",
+    "epsActual": 0.95,
+    "epsEstimated": 0.925,
+    "revenueActual": 5745000000,
+    "revenueEstimated": 5753477738,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2025-08-14",
+    "epsActual": 1,
+    "epsEstimated": 0.2133,
+    "revenueActual": 5082000000,
+    "revenueEstimated": 5186843470,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2025-04-30",
+    "epsActual": 0.9,
+    "epsEstimated": 0.185,
+    "revenueActual": 3333000000,
+    "revenueEstimated": 3472005456,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2025-02-04",
+    "epsActual": 0.8,
+    "epsEstimated": 0.16,
+    "revenueActual": 3241000000,
+    "revenueEstimated": 3431200000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2024-10-31",
+    "epsActual": 0.8,
+    "epsEstimated": 0.1637,
+    "revenueActual": 3353000000,
+    "revenueEstimated": 3432308109,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2024-08-15",
+    "epsActual": 1.05,
+    "epsEstimated": 0.2047,
+    "revenueActual": 3535000000,
+    "revenueEstimated": 3616813283,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2024-04-30",
+    "epsActual": 0.9,
+    "epsEstimated": 0.1648,
+    "revenueActual": 3411000000,
+    "revenueEstimated": 3491015112,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2024-02-06",
+    "epsActual": 0.8,
+    "epsEstimated": 0.75,
+    "revenueActual": 3251000000,
+    "revenueEstimated": 3409010000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2023-10-31",
+    "epsActual": 0.8,
+    "epsEstimated": 0.7,
+    "revenueActual": 3443000000,
+    "revenueEstimated": 3348420000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2023-08-16",
+    "epsActual": 0.95,
+    "epsEstimated": 0.9,
+    "revenueActual": 3673000000,
+    "revenueEstimated": 3694330000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2023-05-02",
+    "epsActual": 0.9,
+    "epsEstimated": 0.9,
+    "revenueActual": 3667000000,
+    "revenueEstimated": 3697420000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2023-02-07",
+    "epsActual": 0.95,
+    "epsEstimated": 0.9,
+    "revenueActual": 3642000000,
+    "revenueEstimated": 3676400000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2022-11-01",
+    "epsActual": 0.9,
+    "epsEstimated": 0.95,
+    "revenueActual": 3712000000,
+    "revenueEstimated": 3580377500,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2022-08-17",
+    "epsActual": 1.2,
+    "epsEstimated": 1.2,
+    "revenueActual": 3909000000,
+    "revenueEstimated": 3782849451,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2022-05-03",
+    "epsActual": 1.05,
+    "epsEstimated": 1,
+    "revenueActual": 3708000000,
+    "revenueEstimated": 3435357369,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2022-02-01",
+    "epsActual": 0.9,
+    "epsEstimated": 0.9,
+    "revenueActual": 3507000000,
+    "revenueEstimated": 3316895479,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2021-11-02",
+    "epsActual": 0.9,
+    "epsEstimated": 0.9,
+    "revenueActual": 3420000000,
+    "revenueEstimated": 3282080000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2021-08-17",
+    "epsActual": 1.15,
+    "epsEstimated": 1.1,
+    "revenueActual": 3454000000,
+    "revenueEstimated": 3282080000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2021-05-04",
+    "epsActual": 0.85,
+    "epsEstimated": 0.9,
+    "revenueActual": 3207000000,
+    "revenueEstimated": 3207000000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2021-02-02",
+    "epsActual": 0.9,
+    "epsEstimated": 0.85,
+    "revenueActual": 3103000000,
+    "revenueEstimated": 3081120000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2020-11-05",
+    "epsActual": 0.8,
+    "epsEstimated": 0.75,
+    "revenueActual": 3097000000,
+    "revenueEstimated": 2903437500,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2020-08-18",
+    "epsActual": 0.19,
+    "epsEstimated": 0.19,
+    "revenueActual": 3142900000,
+    "revenueEstimated": 3142700000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2020-05-11",
+    "epsActual": 0.8,
+    "epsEstimated": 0.8,
+    "revenueActual": 3141000000,
+    "revenueEstimated": 3350400000,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2020-02-11",
+    "epsActual": 0.8,
+    "epsEstimated": 0.7,
+    "revenueActual": 3043000000,
+    "revenueEstimated": 2852906250,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2019-11-07",
+    "epsActual": 0.65,
+    "epsEstimated": 0.15,
+    "revenueActual": 3141000000,
+    "revenueEstimated": 3623884615,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2019-08-20",
+    "epsActual": 0.2478,
+    "epsEstimated": 0.21,
+    "revenueActual": 2602900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2019-05-09",
+    "epsActual": 0.3912,
+    "epsEstimated": null,
+    "revenueActual": 2309900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2019-02-10",
+    "epsActual": 0.4816,
+    "epsEstimated": null,
+    "revenueActual": 2285400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2018-09-30",
+    "epsActual": 0.4238,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2018-08-20",
+    "epsActual": 0.642,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2018-03-31",
+    "epsActual": 0.642,
+    "epsEstimated": null,
+    "revenueActual": 2408450000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2017-12-31",
+    "epsActual": 0.623,
+    "epsEstimated": null,
+    "revenueActual": 2251100000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2017-09-30",
+    "epsActual": 0.563,
+    "epsEstimated": null,
+    "revenueActual": 2251100000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2017-06-30",
+    "epsActual": 0.666,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2017-03-31",
+    "epsActual": 0.666,
+    "epsEstimated": null,
+    "revenueActual": 2316850000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2016-12-31",
+    "epsActual": 0.62,
+    "epsEstimated": null,
+    "revenueActual": 2233650000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2016-09-30",
+    "epsActual": 0.612,
+    "epsEstimated": null,
+    "revenueActual": 2233650000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2016-06-30",
+    "epsActual": -0.13251,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2016-03-31",
+    "epsActual": -0.13251,
+    "epsEstimated": null,
+    "revenueActual": 2436800000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2015-12-31",
+    "epsActual": 0.645,
+    "epsEstimated": null,
+    "revenueActual": 2273850000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2015-09-30",
+    "epsActual": 0.645,
+    "epsEstimated": null,
+    "revenueActual": 2273850000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2015-06-30",
+    "epsActual": 0.733,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2015-03-31",
+    "epsActual": 0.733,
+    "epsEstimated": null,
+    "revenueActual": 2401400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2014-12-31",
+    "epsActual": 0.655,
+    "epsEstimated": null,
+    "revenueActual": 2404500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2014-09-30",
+    "epsActual": 0.655,
+    "epsEstimated": null,
+    "revenueActual": 2404500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2014-06-30",
+    "epsActual": 0.781,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2014-03-31",
+    "epsActual": 0.781,
+    "epsEstimated": null,
+    "revenueActual": 2584050000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2013-12-31",
+    "epsActual": 0.624,
+    "epsEstimated": null,
+    "revenueActual": 2398200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2013-09-30",
+    "epsActual": 0.624,
+    "epsEstimated": null,
+    "revenueActual": 2398200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2013-06-30",
+    "epsActual": 0.594,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2013-03-31",
+    "epsActual": 0.676,
+    "epsEstimated": null,
+    "revenueActual": 2571949000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2012-12-31",
+    "epsActual": 0.574,
+    "epsEstimated": null,
+    "revenueActual": 2358823000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2012-09-30",
+    "epsActual": 0.573,
+    "epsEstimated": null,
+    "revenueActual": 2357354000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2012-06-30",
+    "epsActual": 0.07336,
+    "epsEstimated": null,
+    "revenueActual": 12478150520,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2011-06-30",
+    "epsActual": 0.06623,
+    "epsEstimated": null,
+    "revenueActual": 13265823055,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2010-06-30",
+    "epsActual": 0.02702,
+    "epsEstimated": null,
+    "revenueActual": 8370798453,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2009-06-30",
+    "epsActual": 0.02968,
+    "epsEstimated": null,
+    "revenueActual": 7695548310,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2008-06-30",
+    "epsActual": 0.04302,
+    "epsEstimated": null,
+    "revenueActual": 8835449335,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2007-06-30",
+    "epsActual": 0.07864,
+    "epsEstimated": null,
+    "revenueActual": 8447921967,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2006-06-30",
+    "epsActual": 0.04529,
+    "epsEstimated": null,
+    "revenueActual": 8193630251,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2005-06-30",
+    "epsActual": 0.02294,
+    "epsEstimated": null,
+    "revenueActual": 8463415378,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2004-06-30",
+    "epsActual": 0.04199,
+    "epsEstimated": null,
+    "revenueActual": 7275275989,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2003-06-30",
+    "epsActual": 0.04229,
+    "epsEstimated": null,
+    "revenueActual": 7216330215,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2002-06-30",
+    "epsActual": 0.08331,
+    "epsEstimated": null,
+    "revenueActual": 4215797770,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2001-06-30",
+    "epsActual": 0.02504,
+    "epsEstimated": null,
+    "revenueActual": 2891974505,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2000-06-30",
+    "epsActual": 0.03017,
+    "epsEstimated": null,
+    "revenueActual": 3425398531,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "1999-06-30",
+    "epsActual": 0.03293,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "1998-06-30",
+    "epsActual": 0.00545,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "AMCR",
+    "date": "1997-06-30",
+    "epsActual": -0.01049,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  }
+]

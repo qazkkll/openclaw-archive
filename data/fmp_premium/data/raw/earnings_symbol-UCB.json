@@ -1,0 +1,956 @@
+[
+  {
+    "symbol": "UCB",
+    "date": "2026-07-22",
+    "epsActual": null,
+    "epsEstimated": 0.73,
+    "revenueActual": null,
+    "revenueEstimated": 280406900,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2026-04-21",
+    "epsActual": 0.7,
+    "epsEstimated": 0.71,
+    "revenueActual": 276510000,
+    "revenueEstimated": 273874200,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2026-01-14",
+    "epsActual": 0.71,
+    "epsEstimated": 0.73,
+    "revenueActual": 278388000,
+    "revenueEstimated": 273598000,
+    "lastUpdated": "2026-04-14"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2025-10-22",
+    "epsActual": 0.75,
+    "epsEstimated": 0.696,
+    "revenueActual": 276848000,
+    "revenueEstimated": 270980833,
+    "lastUpdated": "2026-01-21"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2025-07-23",
+    "epsActual": 0.66,
+    "epsEstimated": 0.62,
+    "revenueActual": 254339000,
+    "revenueEstimated": 271132000,
+    "lastUpdated": "2025-10-23"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2025-04-22",
+    "epsActual": 0.59,
+    "epsEstimated": 0.56,
+    "revenueActual": 242927000,
+    "revenueEstimated": 260643200,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2025-01-22",
+    "epsActual": 0.63,
+    "epsEstimated": 0.55,
+    "revenueActual": 245004000,
+    "revenueEstimated": 245600000,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2024-10-23",
+    "epsActual": 0.57,
+    "epsEstimated": 0.578,
+    "revenueActual": 210617000,
+    "revenueEstimated": 241460957,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2024-07-24",
+    "epsActual": 0.58,
+    "epsEstimated": 0.51,
+    "revenueActual": 240430000,
+    "revenueEstimated": 238951114,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2024-04-24",
+    "epsActual": 0.523,
+    "epsEstimated": 0.4962,
+    "revenueActual": 233991000,
+    "revenueEstimated": 231995748,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2024-01-24",
+    "epsActual": 0.53,
+    "epsEstimated": 0.524,
+    "revenueActual": 232052000,
+    "revenueEstimated": 226065200,
+    "lastUpdated": "2026-05-07"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2023-10-18",
+    "epsActual": 0.45,
+    "epsEstimated": 0.44,
+    "revenueActual": 234533000,
+    "revenueEstimated": 242989800,
+    "lastUpdated": "2026-05-07"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2023-07-18",
+    "epsActual": 0.55,
+    "epsEstimated": 0.625,
+    "revenueActual": 236673000,
+    "revenueEstimated": 241455000,
+    "lastUpdated": "2026-05-07"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2023-04-18",
+    "epsActual": 0.58,
+    "epsEstimated": 0.694,
+    "revenueActual": 241679000,
+    "revenueEstimated": 249823700,
+    "lastUpdated": "2026-05-07"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2023-02-25",
+    "epsActual": 0.74,
+    "epsEstimated": 0.828,
+    "revenueActual": 268627000,
+    "revenueEstimated": 238759300,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2023-01-17",
+    "epsActual": 0.75,
+    "epsEstimated": 0.828,
+    "revenueActual": 223411000,
+    "revenueEstimated": 238759300,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2022-08-05",
+    "epsActual": 0.61,
+    "epsEstimated": 0.683,
+    "revenueActual": 214842000,
+    "revenueEstimated": 213428400,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2022-05-06",
+    "epsActual": 0.43,
+    "epsEstimated": 0.551,
+    "revenueActual": 205143000,
+    "revenueEstimated": 202885700,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2022-02-25",
+    "epsActual": 0.56,
+    "epsEstimated": 0.65,
+    "revenueActual": 175924000,
+    "revenueEstimated": 178667200,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2021-11-05",
+    "epsActual": 0.82,
+    "epsEstimated": 0.661,
+    "revenueActual": 183012000,
+    "revenueEstimated": 172717300,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2021-08-07",
+    "epsActual": 0.78,
+    "epsEstimated": 0.665,
+    "revenueActual": 176184000,
+    "revenueEstimated": 169898400,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2021-05-07",
+    "epsActual": 0.82,
+    "epsEstimated": 0.648,
+    "revenueActual": 181152000,
+    "revenueEstimated": 179047700,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2021-02-26",
+    "epsActual": 0.66,
+    "epsEstimated": 0.598,
+    "revenueActual": 192981000,
+    "revenueEstimated": 180263500,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2020-11-07",
+    "epsActual": 0.52,
+    "epsEstimated": 0.3438,
+    "revenueActual": 185524000,
+    "revenueEstimated": 167609000,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2020-08-06",
+    "epsActual": 0.32,
+    "epsEstimated": 0.3029,
+    "revenueActual": 158858000,
+    "revenueEstimated": 142227700,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2020-05-08",
+    "epsActual": 0.4,
+    "epsEstimated": 0.4725,
+    "revenueActual": 158236000,
+    "revenueEstimated": 141496300,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2020-02-28",
+    "epsActual": 0.615,
+    "epsEstimated": null,
+    "revenueActual": 150166000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2019-11-08",
+    "epsActual": 0.607,
+    "epsEstimated": null,
+    "revenueActual": 165156000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2019-08-09",
+    "epsActual": 0.553,
+    "epsEstimated": null,
+    "revenueActual": 159510000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2019-05-09",
+    "epsActual": 0.555,
+    "epsEstimated": null,
+    "revenueActual": 153541000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2019-02-28",
+    "epsActual": 0.565,
+    "epsEstimated": null,
+    "revenueActual": 156899000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2018-11-09",
+    "epsActual": 0.547,
+    "epsEstimated": null,
+    "revenueActual": 152901000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2018-08-07",
+    "epsActual": 0.4969,
+    "epsEstimated": null,
+    "revenueActual": 145555000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2018-05-09",
+    "epsActual": 0.4754,
+    "epsEstimated": null,
+    "revenueActual": 137686000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2018-02-28",
+    "epsActual": -0.15522,
+    "epsEstimated": null,
+    "revenueActual": 128685000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2017-11-04",
+    "epsActual": 0.382,
+    "epsEstimated": null,
+    "revenueActual": 119412000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2017-08-04",
+    "epsActual": 0.3936,
+    "epsEstimated": null,
+    "revenueActual": 116851000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2017-05-05",
+    "epsActual": 0.3281,
+    "epsEstimated": null,
+    "revenueActual": 113032000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2017-02-28",
+    "epsActual": 0.3799,
+    "epsEstimated": null,
+    "revenueActual": 113011000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2016-11-05",
+    "epsActual": 0.3616,
+    "epsEstimated": null,
+    "revenueActual": 111800000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2016-08-08",
+    "epsActual": 0.3499,
+    "epsEstimated": null,
+    "revenueActual": 104579000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2016-05-09",
+    "epsActual": 0.3089,
+    "epsEstimated": null,
+    "revenueActual": 99327000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2016-02-27",
+    "epsActual": 0.2524,
+    "epsEstimated": null,
+    "revenueActual": 100646000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2015-11-07",
+    "epsActual": 0.2698,
+    "epsEstimated": null,
+    "revenueActual": 89125000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2015-08-07",
+    "epsActual": 0.2848,
+    "epsEstimated": null,
+    "revenueActual": 83074000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2015-05-09",
+    "epsActual": 0.2901,
+    "epsEstimated": null,
+    "revenueActual": 78216000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2015-02-28",
+    "epsActual": 0.3,
+    "epsEstimated": null,
+    "revenueActual": 78778000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2014-11-11",
+    "epsActual": 0.2898,
+    "epsEstimated": null,
+    "revenueActual": 77345000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2014-08-11",
+    "epsActual": 0.2694,
+    "epsEstimated": null,
+    "revenueActual": 75549000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2014-05-10",
+    "epsActual": 0.2564,
+    "epsEstimated": null,
+    "revenueActual": 72314000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2014-02-28",
+    "epsActual": 0.2655,
+    "epsEstimated": null,
+    "revenueActual": 75069000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2013-11-08",
+    "epsActual": 0.2618,
+    "epsEstimated": null,
+    "revenueActual": 75281000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2013-08-02",
+    "epsActual": 3.96,
+    "epsEstimated": null,
+    "revenueActual": 77663000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2013-05-09",
+    "epsActual": 0.2026,
+    "epsEstimated": null,
+    "revenueActual": 74660000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2013-03-01",
+    "epsActual": 0.09075,
+    "epsEstimated": null,
+    "revenueActual": 72149000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2012-11-07",
+    "epsActual": 0.1826,
+    "epsEstimated": null,
+    "revenueActual": 79323000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2012-08-07",
+    "epsActual": 0.1124,
+    "epsEstimated": null,
+    "revenueActual": 79203000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2012-05-08",
+    "epsActual": 0.1996,
+    "epsEstimated": null,
+    "revenueActual": 85154000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2012-03-14",
+    "epsActual": -1.75668,
+    "epsEstimated": null,
+    "revenueActual": 84149000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2011-11-09",
+    "epsActual": -0.19686,
+    "epsEstimated": null,
+    "revenueActual": 85621000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2011-08-09",
+    "epsActual": 0.209,
+    "epsEstimated": null,
+    "revenueActual": 91198000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2011-05-05",
+    "epsActual": -12.85259,
+    "epsEstimated": null,
+    "revenueActual": 87368000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2011-03-17",
+    "epsActual": -0.87697,
+    "epsEstimated": null,
+    "revenueActual": 93160000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2010-11-05",
+    "epsActual": -12.48495,
+    "epsEstimated": null,
+    "revenueActual": 96710000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2010-08-05",
+    "epsActual": -3.14901,
+    "epsEstimated": null,
+    "revenueActual": 98778000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2010-05-05",
+    "epsActual": -1.76359,
+    "epsEstimated": null,
+    "revenueActual": 101022000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2010-02-26",
+    "epsActual": -2.57399,
+    "epsEstimated": null,
+    "revenueActual": 114101000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2009-11-05",
+    "epsActual": -6.90356,
+    "epsEstimated": null,
+    "revenueActual": 113990000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2009-08-07",
+    "epsActual": -1.62711,
+    "epsEstimated": null,
+    "revenueActual": 113579000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2009-05-07",
+    "epsActual": -10.73699,
+    "epsEstimated": null,
+    "revenueActual": 114897000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2009-02-27",
+    "epsActual": -4.80689,
+    "epsEstimated": null,
+    "revenueActual": 118599000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2008-11-08",
+    "epsActual": -4.08754,
+    "epsEstimated": null,
+    "revenueActual": 125060000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2008-08-08",
+    "epsActual": 0.745,
+    "epsEstimated": null,
+    "revenueActual": 131483000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2008-05-08",
+    "epsActual": 1.64,
+    "epsEstimated": null,
+    "revenueActual": 142707000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2008-03-01",
+    "epsActual": 0.4231,
+    "epsEstimated": null,
+    "revenueActual": 156385000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2007-11-08",
+    "epsActual": 2.21,
+    "epsEstimated": null,
+    "revenueActual": 160027000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2007-08-09",
+    "epsActual": 1.25,
+    "epsEstimated": null,
+    "revenueActual": 152347000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2007-05-09",
+    "epsActual": 2.12,
+    "epsEstimated": null,
+    "revenueActual": 142928000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2007-02-28",
+    "epsActual": 2.08,
+    "epsEstimated": null,
+    "revenueActual": 125066000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2006-11-07",
+    "epsActual": 2.02,
+    "epsEstimated": null,
+    "revenueActual": 127997000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2006-08-04",
+    "epsActual": 1.97,
+    "epsEstimated": null,
+    "revenueActual": 119410000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2006-05-09",
+    "epsActual": 1.87,
+    "epsEstimated": null,
+    "revenueActual": 110354000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2006-03-02",
+    "epsActual": 1.85,
+    "epsEstimated": null,
+    "revenueActual": 106393000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2005-11-08",
+    "epsActual": 1.73,
+    "epsEstimated": null,
+    "revenueActual": 100979000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2005-08-05",
+    "epsActual": 1.68,
+    "epsEstimated": null,
+    "revenueActual": 92493000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2005-05-07",
+    "epsActual": 1.64,
+    "epsEstimated": null,
+    "revenueActual": 83465000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2005-03-02",
+    "epsActual": 1.63,
+    "epsEstimated": null,
+    "revenueActual": 77122000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2004-11-09",
+    "epsActual": 1.54,
+    "epsEstimated": null,
+    "revenueActual": 70829000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2004-08-06",
+    "epsActual": 1.44,
+    "epsEstimated": null,
+    "revenueActual": 65923000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2004-05-06",
+    "epsActual": 1.44,
+    "epsEstimated": null,
+    "revenueActual": 63446000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2004-03-09",
+    "epsActual": 1.37,
+    "epsEstimated": null,
+    "revenueActual": 62544000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2003-11-14",
+    "epsActual": 1.38,
+    "epsEstimated": null,
+    "revenueActual": 63596000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2003-08-13",
+    "epsActual": 1.29,
+    "epsEstimated": null,
+    "revenueActual": 62985000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2003-05-15",
+    "epsActual": 1.18,
+    "epsEstimated": null,
+    "revenueActual": 56248000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2003-03-20",
+    "epsActual": 1.24,
+    "epsEstimated": null,
+    "revenueActual": 56780000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2002-11-15",
+    "epsActual": 1.21,
+    "epsEstimated": null,
+    "revenueActual": 56218000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2002-08-15",
+    "epsActual": 1.16,
+    "epsEstimated": null,
+    "revenueActual": 56029000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2002-05-10",
+    "epsActual": 1.12,
+    "epsEstimated": null,
+    "revenueActual": 55260000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2002-03-15",
+    "epsActual": 0.979,
+    "epsEstimated": null,
+    "revenueActual": 130550000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2001-11-14",
+    "epsActual": 1.07,
+    "epsEstimated": null,
+    "revenueActual": 31732000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2001-08-14",
+    "epsActual": 1.03,
+    "epsEstimated": null,
+    "revenueActual": 34288000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2001-05-15",
+    "epsActual": 0.957,
+    "epsEstimated": null,
+    "revenueActual": 35039000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2001-04-02",
+    "epsActual": 0.923,
+    "epsEstimated": null,
+    "revenueActual": 37646000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2000-11-16",
+    "epsActual": -0.23291,
+    "epsEstimated": null,
+    "revenueActual": 34143000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2000-08-14",
+    "epsActual": 0.785,
+    "epsEstimated": null,
+    "revenueActual": 35410000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  },
+  {
+    "symbol": "UCB",
+    "date": "2000-05-15",
+    "epsActual": 0.738,
+    "epsEstimated": null,
+    "revenueActual": 28801000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-17"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "symbol": "TV",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "MXN",
+    "date": "2025-12-31",
+    "data": {
+      "Enterprise": 4299565000,
+      "Residential": 42181601000,
+      "Satellite": 12396984000
+    }
+  },
+  {
+    "symbol": "TV",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "MXN",
+    "date": "2020-12-31",
+    "data": {
+      "Radio Advertising": 223272000
+    }
+  },
+  {
+    "symbol": "TV",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "MXN",
+    "date": "2019-12-31",
+    "data": {
+      "Radio Advertising": 841437000
+    }
+  }
+]

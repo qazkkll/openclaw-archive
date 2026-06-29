@@ -1,0 +1,842 @@
+[
+  {
+    "symbol": "LULU",
+    "date": "2026-02-01",
+    "stockPrice": 179.08,
+    "numberOfShares": 118981000,
+    "marketCapitalization": 21307117480,
+    "minusCashAndCashEquivalents": 1807202000,
+    "addTotalDebt": 1798441000,
+    "enterpriseValue": 21298356480
+  },
+  {
+    "symbol": "LULU",
+    "date": "2025-11-02",
+    "stockPrice": 165.47,
+    "numberOfShares": 118535000,
+    "marketCapitalization": 19613986450,
+    "minusCashAndCashEquivalents": 1035862000,
+    "addTotalDebt": 1762794000,
+    "enterpriseValue": 20340918450
+  },
+  {
+    "symbol": "LULU",
+    "date": "2025-08-03",
+    "stockPrice": 196.45,
+    "numberOfShares": 119600000,
+    "marketCapitalization": 23495420000,
+    "minusCashAndCashEquivalents": 1155794000,
+    "addTotalDebt": 1762718000,
+    "enterpriseValue": 24102344000
+  },
+  {
+    "symbol": "LULU",
+    "date": "2025-05-04",
+    "stockPrice": 278.55,
+    "numberOfShares": 120632000,
+    "marketCapitalization": 33602043600,
+    "minusCashAndCashEquivalents": 1325272000,
+    "addTotalDebt": 1706782000,
+    "enterpriseValue": 33983553600
+  },
+  {
+    "symbol": "LULU",
+    "date": "2025-02-02",
+    "stockPrice": 410.29,
+    "numberOfShares": 121683000,
+    "marketCapitalization": 49925318070,
+    "minusCashAndCashEquivalents": 1984336000,
+    "addTotalDebt": 1575791000,
+    "enterpriseValue": 49516773070
+  },
+  {
+    "symbol": "LULU",
+    "date": "2024-10-27",
+    "stockPrice": 307.54,
+    "numberOfShares": 122697000,
+    "marketCapitalization": 37734235380,
+    "minusCashAndCashEquivalents": 1188419000,
+    "addTotalDebt": 1514101000,
+    "enterpriseValue": 38059917380
+  },
+  {
+    "symbol": "LULU",
+    "date": "2024-07-28",
+    "stockPrice": 259.03,
+    "numberOfShares": 124721000,
+    "marketCapitalization": 32306480629,
+    "minusCashAndCashEquivalents": 1610112000,
+    "addTotalDebt": 1458890000,
+    "enterpriseValue": 32155258629
+  },
+  {
+    "symbol": "LULU",
+    "date": "2024-04-28",
+    "stockPrice": 363.96,
+    "numberOfShares": 125989000,
+    "marketCapitalization": 45854956440,
+    "minusCashAndCashEquivalents": 1900672000,
+    "addTotalDebt": 1402074000,
+    "enterpriseValue": 45356358440
+  },
+  {
+    "symbol": "LULU",
+    "date": "2024-01-28",
+    "stockPrice": 481.99,
+    "numberOfShares": 126228000,
+    "marketCapitalization": 60840633720,
+    "minusCashAndCashEquivalents": 2243971000,
+    "addTotalDebt": 1403282000,
+    "enterpriseValue": 59999944720
+  },
+  {
+    "symbol": "LULU",
+    "date": "2023-10-29",
+    "stockPrice": 391.75,
+    "numberOfShares": 126460000,
+    "marketCapitalization": 49540705000,
+    "minusCashAndCashEquivalents": 1091138000,
+    "addTotalDebt": 1168092000,
+    "enterpriseValue": 49617659000
+  },
+  {
+    "symbol": "LULU",
+    "date": "2023-07-30",
+    "stockPrice": 378.53,
+    "numberOfShares": 126969000,
+    "marketCapitalization": 48061575570,
+    "minusCashAndCashEquivalents": 1107530000,
+    "addTotalDebt": 1193573000,
+    "enterpriseValue": 48147618570
+  },
+  {
+    "symbol": "LULU",
+    "date": "2023-04-30",
+    "stockPrice": 384.99,
+    "numberOfShares": 127246000,
+    "marketCapitalization": 48988437540,
+    "minusCashAndCashEquivalents": 950607000,
+    "addTotalDebt": 1099088000,
+    "enterpriseValue": 49136918540
+  },
+  {
+    "symbol": "LULU",
+    "date": "2023-01-29",
+    "stockPrice": 302.59,
+    "numberOfShares": 127456000,
+    "marketCapitalization": 38566911040,
+    "minusCashAndCashEquivalents": 1154867000,
+    "addTotalDebt": 1070334000,
+    "enterpriseValue": 38482378040
+  },
+  {
+    "symbol": "LULU",
+    "date": "2022-10-30",
+    "stockPrice": 329.04,
+    "numberOfShares": 127511000,
+    "marketCapitalization": 41956219440,
+    "minusCashAndCashEquivalents": 352624000,
+    "addTotalDebt": 1038483000,
+    "enterpriseValue": 42642078440
+  },
+  {
+    "symbol": "LULU",
+    "date": "2022-07-31",
+    "stockPrice": 310.01,
+    "numberOfShares": 127619000,
+    "marketCapitalization": 39563166190,
+    "minusCashAndCashEquivalents": 498831000,
+    "addTotalDebt": 954124000,
+    "enterpriseValue": 40018459190
+  },
+  {
+    "symbol": "LULU",
+    "date": "2022-05-01",
+    "stockPrice": 360.84,
+    "numberOfShares": 128077000,
+    "marketCapitalization": 46215304680,
+    "minusCashAndCashEquivalents": 649016000,
+    "addTotalDebt": 904543000,
+    "enterpriseValue": 46470831680
+  },
+  {
+    "symbol": "LULU",
+    "date": "2022-01-30",
+    "stockPrice": 333.76,
+    "numberOfShares": 129015000,
+    "marketCapitalization": 43060046400,
+    "minusCashAndCashEquivalents": 1259871000,
+    "addTotalDebt": 881052000,
+    "enterpriseValue": 42681227400
+  },
+  {
+    "symbol": "LULU",
+    "date": "2021-10-31",
+    "stockPrice": 458.88,
+    "numberOfShares": 129684000,
+    "marketCapitalization": 59509393920,
+    "minusCashAndCashEquivalents": 993591000,
+    "addTotalDebt": 859905000,
+    "enterpriseValue": 59375707920
+  },
+  {
+    "symbol": "LULU",
+    "date": "2021-08-01",
+    "stockPrice": 402.65,
+    "numberOfShares": 130007000,
+    "marketCapitalization": 52347318550,
+    "minusCashAndCashEquivalents": 1170041000,
+    "addTotalDebt": 794821000,
+    "enterpriseValue": 51972098550
+  },
+  {
+    "symbol": "LULU",
+    "date": "2021-05-02",
+    "stockPrice": 335.38,
+    "numberOfShares": 130358000,
+    "marketCapitalization": 43719466040,
+    "minusCashAndCashEquivalents": 1179739000,
+    "addTotalDebt": 785062000,
+    "enterpriseValue": 43324789040
+  },
+  {
+    "symbol": "LULU",
+    "date": "2021-01-31",
+    "stockPrice": 333.47,
+    "numberOfShares": 130340000,
+    "marketCapitalization": 43464479800,
+    "minusCashAndCashEquivalents": 1150517000,
+    "addTotalDebt": 798681000,
+    "enterpriseValue": 43112643800
+  },
+  {
+    "symbol": "LULU",
+    "date": "2020-11-01",
+    "stockPrice": 315.5,
+    "numberOfShares": 130318000,
+    "marketCapitalization": 41115329000,
+    "minusCashAndCashEquivalents": 481581000,
+    "addTotalDebt": 773468000,
+    "enterpriseValue": 41407216000
+  },
+  {
+    "symbol": "LULU",
+    "date": "2020-08-02",
+    "stockPrice": 328.59,
+    "numberOfShares": 130245000,
+    "marketCapitalization": 42797204550,
+    "minusCashAndCashEquivalents": 522998000,
+    "addTotalDebt": 780587000,
+    "enterpriseValue": 43054793550
+  },
+  {
+    "symbol": "LULU",
+    "date": "2020-05-03",
+    "stockPrice": 218.69,
+    "numberOfShares": 130251000,
+    "marketCapitalization": 28484591190,
+    "minusCashAndCashEquivalents": 823006000,
+    "addTotalDebt": 783888000,
+    "enterpriseValue": 28445473190
+  },
+  {
+    "symbol": "LULU",
+    "date": "2020-02-02",
+    "stockPrice": 246.37,
+    "numberOfShares": 130311000,
+    "marketCapitalization": 32104721070,
+    "minusCashAndCashEquivalents": 1093505000,
+    "addTotalDebt": 739961000,
+    "enterpriseValue": 31751177070
+  },
+  {
+    "symbol": "LULU",
+    "date": "2019-11-03",
+    "stockPrice": 196.48,
+    "numberOfShares": 130282000,
+    "marketCapitalization": 25597807360,
+    "minusCashAndCashEquivalents": 586153000,
+    "addTotalDebt": 695310000,
+    "enterpriseValue": 25706964360
+  },
+  {
+    "symbol": "LULU",
+    "date": "2019-08-04",
+    "stockPrice": 174.46,
+    "numberOfShares": 130285000,
+    "marketCapitalization": 22729521100,
+    "minusCashAndCashEquivalents": 623738000,
+    "addTotalDebt": 698493000,
+    "enterpriseValue": 22804276100
+  },
+  {
+    "symbol": "LULU",
+    "date": "2019-05-05",
+    "stockPrice": 177.69,
+    "numberOfShares": 130694000,
+    "marketCapitalization": 23223016860,
+    "minusCashAndCashEquivalents": 576241000,
+    "addTotalDebt": 664938000,
+    "enterpriseValue": 23311713860
+  },
+  {
+    "symbol": "LULU",
+    "date": "2019-02-03",
+    "stockPrice": 146.64,
+    "numberOfShares": 131878000,
+    "marketCapitalization": 19338589920,
+    "minusCashAndCashEquivalents": 881320000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 18457269920
+  },
+  {
+    "symbol": "LULU",
+    "date": "2018-10-28",
+    "stockPrice": 135.88,
+    "numberOfShares": 132406000,
+    "marketCapitalization": 17991327280,
+    "minusCashAndCashEquivalents": 703607000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 17287720280
+  },
+  {
+    "symbol": "LULU",
+    "date": "2018-07-29",
+    "stockPrice": 118.84,
+    "numberOfShares": 133986000,
+    "marketCapitalization": 15922896240,
+    "minusCashAndCashEquivalents": 777841000,
+    "addTotalDebt": 100000000,
+    "enterpriseValue": 15245055240
+  },
+  {
+    "symbol": "LULU",
+    "date": "2018-04-29",
+    "stockPrice": 99.8,
+    "numberOfShares": 135502000,
+    "marketCapitalization": 13523099600,
+    "minusCashAndCashEquivalents": 966571000,
+    "addTotalDebt": 5523000,
+    "enterpriseValue": 12562051600
+  },
+  {
+    "symbol": "LULU",
+    "date": "2018-01-28",
+    "stockPrice": 79.96,
+    "numberOfShares": 135381000,
+    "marketCapitalization": 10825064760,
+    "minusCashAndCashEquivalents": 990501000,
+    "addTotalDebt": 6427000,
+    "enterpriseValue": 9840990760
+  },
+  {
+    "symbol": "LULU",
+    "date": "2017-10-29",
+    "stockPrice": 61.72,
+    "numberOfShares": 135364000,
+    "marketCapitalization": 8354666080,
+    "minusCashAndCashEquivalents": 650054000,
+    "addTotalDebt": 12164000,
+    "enterpriseValue": 7716776080
+  },
+  {
+    "symbol": "LULU",
+    "date": "2017-07-30",
+    "stockPrice": 61.64,
+    "numberOfShares": 136171000,
+    "marketCapitalization": 8393580440,
+    "minusCashAndCashEquivalents": 721212000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7672368440
+  },
+  {
+    "symbol": "LULU",
+    "date": "2017-04-30",
+    "stockPrice": 51.59,
+    "numberOfShares": 137037000,
+    "marketCapitalization": 7069738830,
+    "minusCashAndCashEquivalents": 698289000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6371449830
+  },
+  {
+    "symbol": "LULU",
+    "date": "2017-01-29",
+    "stockPrice": 66.89,
+    "numberOfShares": 137059000,
+    "marketCapitalization": 9167876510,
+    "minusCashAndCashEquivalents": 734846000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8433030510
+  },
+  {
+    "symbol": "LULU",
+    "date": "2016-10-30",
+    "stockPrice": 57.25,
+    "numberOfShares": 137033000,
+    "marketCapitalization": 7845139250,
+    "minusCashAndCashEquivalents": 480386000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7364753250
+  },
+  {
+    "symbol": "LULU",
+    "date": "2016-07-31",
+    "stockPrice": 78.33,
+    "numberOfShares": 136987000,
+    "marketCapitalization": 10730191710,
+    "minusCashAndCashEquivalents": 535350000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10194841710
+  },
+  {
+    "symbol": "LULU",
+    "date": "2016-05-01",
+    "stockPrice": 66.72,
+    "numberOfShares": 137263000,
+    "marketCapitalization": 9158187360,
+    "minusCashAndCashEquivalents": 550046000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8608141360
+  },
+  {
+    "symbol": "LULU",
+    "date": "2016-01-31",
+    "stockPrice": 60.82,
+    "numberOfShares": 138076000,
+    "marketCapitalization": 8397782320,
+    "minusCashAndCashEquivalents": 501482000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7896300320
+  },
+  {
+    "symbol": "LULU",
+    "date": "2015-11-01",
+    "stockPrice": 51.08,
+    "numberOfShares": 140282000,
+    "marketCapitalization": 7165604560,
+    "minusCashAndCashEquivalents": 403446000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6762158560
+  },
+  {
+    "symbol": "LULU",
+    "date": "2015-08-02",
+    "stockPrice": 61.87,
+    "numberOfShares": 141372000,
+    "marketCapitalization": 8746685640,
+    "minusCashAndCashEquivalents": 541262000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8205423640
+  },
+  {
+    "symbol": "LULU",
+    "date": "2015-05-03",
+    "stockPrice": 64.76,
+    "numberOfShares": 141967000,
+    "marketCapitalization": 9193782920,
+    "minusCashAndCashEquivalents": 655881000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8537901920
+  },
+  {
+    "symbol": "LULU",
+    "date": "2015-02-01",
+    "stockPrice": 65.52,
+    "numberOfShares": 141999000,
+    "marketCapitalization": 9303774480,
+    "minusCashAndCashEquivalents": 664479000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8639295480
+  },
+  {
+    "symbol": "LULU",
+    "date": "2014-11-02",
+    "stockPrice": 41.93,
+    "numberOfShares": 143180000,
+    "marketCapitalization": 6003537400,
+    "minusCashAndCashEquivalents": 633582000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5369955400
+  },
+  {
+    "symbol": "LULU",
+    "date": "2014-08-03",
+    "stockPrice": 38.5,
+    "numberOfShares": 145180000,
+    "marketCapitalization": 5589430000,
+    "minusCashAndCashEquivalents": 725073000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4864357000
+  },
+  {
+    "symbol": "LULU",
+    "date": "2014-05-04",
+    "stockPrice": 45.57,
+    "numberOfShares": 145383000,
+    "marketCapitalization": 6625103310,
+    "minusCashAndCashEquivalents": 751965000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5873138310
+  },
+  {
+    "symbol": "LULU",
+    "date": "2014-02-02",
+    "stockPrice": 44.78,
+    "numberOfShares": 145235000,
+    "marketCapitalization": 6503623300,
+    "minusCashAndCashEquivalents": 698649000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5804974300
+  },
+  {
+    "symbol": "LULU",
+    "date": "2013-11-03",
+    "stockPrice": 69.33,
+    "numberOfShares": 145120000,
+    "marketCapitalization": 10061169600,
+    "minusCashAndCashEquivalents": 600745000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 9460424600
+  },
+  {
+    "symbol": "LULU",
+    "date": "2013-08-04",
+    "stockPrice": 73.54,
+    "numberOfShares": 144818000,
+    "marketCapitalization": 10649915720,
+    "minusCashAndCashEquivalents": 610273000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10039642720
+  },
+  {
+    "symbol": "LULU",
+    "date": "2013-05-05",
+    "stockPrice": 74.4,
+    "numberOfShares": 144482000,
+    "marketCapitalization": 10749460800,
+    "minusCashAndCashEquivalents": 588418000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10161042800
+  },
+  {
+    "symbol": "LULU",
+    "date": "2013-02-03",
+    "stockPrice": 66.82,
+    "numberOfShares": 144291000,
+    "marketCapitalization": 9641524619,
+    "minusCashAndCashEquivalents": 590179000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 9051345619
+  },
+  {
+    "symbol": "LULU",
+    "date": "2012-10-28",
+    "stockPrice": 67.49,
+    "numberOfShares": 144057000,
+    "marketCapitalization": 9722406930,
+    "minusCashAndCashEquivalents": 439423000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 9282983930
+  },
+  {
+    "symbol": "LULU",
+    "date": "2012-07-29",
+    "stockPrice": 59.69,
+    "numberOfShares": 143972000,
+    "marketCapitalization": 8593688680,
+    "minusCashAndCashEquivalents": 444286000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8149402680
+  },
+  {
+    "symbol": "LULU",
+    "date": "2012-04-29",
+    "stockPrice": 74.14,
+    "numberOfShares": 143678000,
+    "marketCapitalization": 10652286920,
+    "minusCashAndCashEquivalents": 424330000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10227956920
+  },
+  {
+    "symbol": "LULU",
+    "date": "2012-01-29",
+    "stockPrice": 63.13,
+    "numberOfShares": 143496000,
+    "marketCapitalization": 9058902480,
+    "minusCashAndCashEquivalents": 409437000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8649465480
+  },
+  {
+    "symbol": "LULU",
+    "date": "2011-10-30",
+    "stockPrice": 56.48,
+    "numberOfShares": 143370000,
+    "marketCapitalization": 8097537600,
+    "minusCashAndCashEquivalents": 276946000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7820591600
+  },
+  {
+    "symbol": "LULU",
+    "date": "2011-07-31",
+    "stockPrice": 62.15,
+    "numberOfShares": 143163000,
+    "marketCapitalization": 8897580450,
+    "minusCashAndCashEquivalents": 264728000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8632852450
+  },
+  {
+    "symbol": "LULU",
+    "date": "2011-05-01",
+    "stockPrice": 48.18,
+    "numberOfShares": 142760000,
+    "marketCapitalization": 6877463000,
+    "minusCashAndCashEquivalents": 260871000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6616592000
+  },
+  {
+    "symbol": "LULU",
+    "date": "2011-01-30",
+    "stockPrice": 34.34,
+    "numberOfShares": 142164000,
+    "marketCapitalization": 4881911760,
+    "minusCashAndCashEquivalents": 316286000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4565625760
+  },
+  {
+    "symbol": "LULU",
+    "date": "2010-10-31",
+    "stockPrice": 22.36,
+    "numberOfShares": 141876000,
+    "marketCapitalization": 3172347360,
+    "minusCashAndCashEquivalents": 224775000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2947572360
+  },
+  {
+    "symbol": "LULU",
+    "date": "2010-08-01",
+    "stockPrice": 20.74,
+    "numberOfShares": 141640000,
+    "marketCapitalization": 2936905400,
+    "minusCashAndCashEquivalents": 178172000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2758733400
+  },
+  {
+    "symbol": "LULU",
+    "date": "2010-05-02",
+    "stockPrice": 20.78,
+    "numberOfShares": 141198000,
+    "marketCapitalization": 2933388450,
+    "minusCashAndCashEquivalents": 173640000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2759748450
+  },
+  {
+    "symbol": "LULU",
+    "date": "2010-01-31",
+    "stockPrice": 14.18,
+    "numberOfShares": 140778000,
+    "marketCapitalization": 1995528150,
+    "minusCashAndCashEquivalents": 159573000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1835955150
+  },
+  {
+    "symbol": "LULU",
+    "date": "2009-11-01",
+    "stockPrice": 12.35,
+    "numberOfShares": 140558000,
+    "marketCapitalization": 1735188510,
+    "minusCashAndCashEquivalents": 101832000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1633356510
+  },
+  {
+    "symbol": "LULU",
+    "date": "2009-08-02",
+    "stockPrice": 9.35,
+    "numberOfShares": 139896000,
+    "marketCapitalization": 1308027600,
+    "minusCashAndCashEquivalents": 83797000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1224230600
+  },
+  {
+    "symbol": "LULU",
+    "date": "2009-05-03",
+    "stockPrice": 7.47,
+    "numberOfShares": 140262000,
+    "marketCapitalization": 1047055830,
+    "minusCashAndCashEquivalents": 59271000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 987784830
+  },
+  {
+    "symbol": "LULU",
+    "date": "2009-02-01",
+    "stockPrice": 3.32,
+    "numberOfShares": 139789968,
+    "marketCapitalization": 464102693,
+    "minusCashAndCashEquivalents": 56796981,
+    "addTotalDebt": 0,
+    "enterpriseValue": 407305712
+  },
+  {
+    "symbol": "LULU",
+    "date": "2008-11-02",
+    "stockPrice": 6.17,
+    "numberOfShares": 138324000,
+    "marketCapitalization": 853459080,
+    "minusCashAndCashEquivalents": 52039394,
+    "addTotalDebt": 0,
+    "enterpriseValue": 801419686
+  },
+  {
+    "symbol": "LULU",
+    "date": "2008-08-03",
+    "stockPrice": 10.46,
+    "numberOfShares": 136214000,
+    "marketCapitalization": 1424798440,
+    "minusCashAndCashEquivalents": 43735233,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1381063207
+  },
+  {
+    "symbol": "LULU",
+    "date": "2008-05-04",
+    "stockPrice": 16.34,
+    "numberOfShares": 135356698,
+    "marketCapitalization": 2211051661,
+    "minusCashAndCashEquivalents": 34061642,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2176990019
+  },
+  {
+    "symbol": "LULU",
+    "date": "2008-02-03",
+    "stockPrice": 17,
+    "numberOfShares": 135553690,
+    "marketCapitalization": 2304412730,
+    "minusCashAndCashEquivalents": 52544971,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2251867759
+  },
+  {
+    "symbol": "LULU",
+    "date": "2007-10-31",
+    "stockPrice": 26.61,
+    "numberOfShares": 134953944,
+    "marketCapitalization": 3591124449,
+    "minusCashAndCashEquivalents": 36324627,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3554799822
+  },
+  {
+    "symbol": "LULU",
+    "date": "2007-07-31",
+    "stockPrice": 16,
+    "numberOfShares": 130451638,
+    "marketCapitalization": 2087226208,
+    "minusCashAndCashEquivalents": 9726553,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2077499655
+  },
+  {
+    "symbol": "LULU",
+    "date": "2007-04-30",
+    "stockPrice": 14,
+    "numberOfShares": 130451638,
+    "marketCapitalization": 1826322932,
+    "minusCashAndCashEquivalents": 4392601,
+    "addTotalDebt": 1454775,
+    "enterpriseValue": 1823385106
+  },
+  {
+    "symbol": "LULU",
+    "date": "2007-01-31",
+    "stockPrice": 14,
+    "numberOfShares": 130451638,
+    "marketCapitalization": 1826322932,
+    "minusCashAndCashEquivalents": 16028534,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1810294398
+  },
+  {
+    "symbol": "LULU",
+    "date": "2006-10-31",
+    "stockPrice": 14,
+    "numberOfShares": 89549332,
+    "marketCapitalization": 1253690648,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1253690648
+  },
+  {
+    "symbol": "LULU",
+    "date": "2006-07-31",
+    "stockPrice": 14,
+    "numberOfShares": 89549332,
+    "marketCapitalization": 1253690648,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1253690648
+  },
+  {
+    "symbol": "LULU",
+    "date": "2006-04-30",
+    "stockPrice": 14,
+    "numberOfShares": 89549332,
+    "marketCapitalization": 1253690648,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1253690648
+  },
+  {
+    "symbol": "LULU",
+    "date": "2006-01-31",
+    "stockPrice": 14,
+    "numberOfShares": 89549332,
+    "marketCapitalization": 1253690648,
+    "minusCashAndCashEquivalents": 3877017,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1249813631
+  },
+  {
+    "symbol": "LULU",
+    "date": "2005-10-31",
+    "stockPrice": 14,
+    "numberOfShares": 89549332,
+    "marketCapitalization": 1253690648,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1253690648
+  },
+  {
+    "symbol": "LULU",
+    "date": "2005-07-31",
+    "stockPrice": 14,
+    "numberOfShares": 89549332,
+    "marketCapitalization": 1253690648,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1253690648
+  },
+  {
+    "symbol": "LULU",
+    "date": "2005-04-30",
+    "stockPrice": 14,
+    "numberOfShares": 89549332,
+    "marketCapitalization": 1253690648,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1253690648
+  }
+]

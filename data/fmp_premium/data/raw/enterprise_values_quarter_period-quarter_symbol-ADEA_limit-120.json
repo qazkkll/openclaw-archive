@@ -1,0 +1,932 @@
+[
+  {
+    "symbol": "ADEA",
+    "date": "2026-03-31",
+    "stockPrice": 24.03,
+    "numberOfShares": 109503000,
+    "marketCapitalization": 2631357090,
+    "minusCashAndCashEquivalents": 53325000,
+    "addTotalDebt": 29518000,
+    "enterpriseValue": 2607550090
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2025-12-31",
+    "stockPrice": 17.25,
+    "numberOfShares": 109173000,
+    "marketCapitalization": 1883234250,
+    "minusCashAndCashEquivalents": 73136000,
+    "addTotalDebt": 435922000,
+    "enterpriseValue": 2246020250
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2025-09-30",
+    "stockPrice": 16.8,
+    "numberOfShares": 110350000,
+    "marketCapitalization": 1853880000,
+    "minusCashAndCashEquivalents": 56090000,
+    "addTotalDebt": 447604000,
+    "enterpriseValue": 2245394000
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2025-06-30",
+    "stockPrice": 14.14,
+    "numberOfShares": 108832000,
+    "marketCapitalization": 1538884480,
+    "minusCashAndCashEquivalents": 84247000,
+    "addTotalDebt": 458372000,
+    "enterpriseValue": 1913009480
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2025-03-31",
+    "stockPrice": 13.22,
+    "numberOfShares": 107948000,
+    "marketCapitalization": 1427072560,
+    "minusCashAndCashEquivalents": 84184000,
+    "addTotalDebt": 468825000,
+    "enterpriseValue": 1811713560
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2024-12-31",
+    "stockPrice": 13.98,
+    "numberOfShares": 109113000,
+    "marketCapitalization": 1525399740,
+    "minusCashAndCashEquivalents": 78825000,
+    "addTotalDebt": 485417000,
+    "enterpriseValue": 1931991740
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2024-09-30",
+    "stockPrice": 11.91,
+    "numberOfShares": 109035000,
+    "marketCapitalization": 1298606850,
+    "minusCashAndCashEquivalents": 60698000,
+    "addTotalDebt": 533924000,
+    "enterpriseValue": 1771832850
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2024-06-30",
+    "stockPrice": 11.2,
+    "numberOfShares": 108667000,
+    "marketCapitalization": 1217070400,
+    "minusCashAndCashEquivalents": 66454000,
+    "addTotalDebt": 545404000,
+    "enterpriseValue": 1696020400
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2024-03-31",
+    "stockPrice": 10.8,
+    "numberOfShares": 107765000,
+    "marketCapitalization": 1163862000,
+    "minusCashAndCashEquivalents": 58024000,
+    "addTotalDebt": 556468000,
+    "enterpriseValue": 1662306000
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2023-12-31",
+    "stockPrice": 12.39,
+    "numberOfShares": 107242000,
+    "marketCapitalization": 1328728380,
+    "minusCashAndCashEquivalents": 54560000,
+    "addTotalDebt": 595928000,
+    "enterpriseValue": 1870096380
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2023-09-30",
+    "stockPrice": 10.68,
+    "numberOfShares": 106902000,
+    "marketCapitalization": 1141713360,
+    "minusCashAndCashEquivalents": 51855000,
+    "addTotalDebt": 619120000,
+    "enterpriseValue": 1708978360
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2023-06-30",
+    "stockPrice": 11.01,
+    "numberOfShares": 106464000,
+    "marketCapitalization": 1172168640,
+    "minusCashAndCashEquivalents": 60470000,
+    "addTotalDebt": 633767000,
+    "enterpriseValue": 1745465640
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2023-03-31",
+    "stockPrice": 8.86,
+    "numberOfShares": 105585000,
+    "marketCapitalization": 935483099,
+    "minusCashAndCashEquivalents": 82429000,
+    "addTotalDebt": 653344000,
+    "enterpriseValue": 1506398099
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2022-12-31",
+    "stockPrice": 9.48,
+    "numberOfShares": 105135000,
+    "marketCapitalization": 996679800,
+    "minusCashAndCashEquivalents": 114555000,
+    "addTotalDebt": 736295000,
+    "enterpriseValue": 1618419800
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2022-09-30",
+    "stockPrice": 3.74,
+    "numberOfShares": 104510000,
+    "marketCapitalization": 390867400,
+    "minusCashAndCashEquivalents": 271092000,
+    "addTotalDebt": 853492000,
+    "enterpriseValue": 973267400
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2022-06-30",
+    "stockPrice": 3.82,
+    "numberOfShares": 104001000,
+    "marketCapitalization": 397283820,
+    "minusCashAndCashEquivalents": 275319000,
+    "addTotalDebt": 812240000,
+    "enterpriseValue": 934204820
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2022-03-31",
+    "stockPrice": 4.58,
+    "numberOfShares": 103679000,
+    "marketCapitalization": 474849820,
+    "minusCashAndCashEquivalents": 214095000,
+    "addTotalDebt": 824692000,
+    "enterpriseValue": 1085446820
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2021-12-31",
+    "stockPrice": 5,
+    "numberOfShares": 104249000,
+    "marketCapitalization": 521245000,
+    "minusCashAndCashEquivalents": 80428000,
+    "addTotalDebt": 772870000,
+    "enterpriseValue": 1213687000
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2021-09-30",
+    "stockPrice": 4.98,
+    "numberOfShares": 104849000,
+    "marketCapitalization": 522148020,
+    "minusCashAndCashEquivalents": 165438000,
+    "addTotalDebt": 848042999,
+    "enterpriseValue": 1204753019
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2021-06-30",
+    "stockPrice": 5.88,
+    "numberOfShares": 104906000,
+    "marketCapitalization": 616847280,
+    "minusCashAndCashEquivalents": 128960000,
+    "addTotalDebt": 861611000,
+    "enterpriseValue": 1349498280
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2021-03-31",
+    "stockPrice": 5.76,
+    "numberOfShares": 104940000,
+    "marketCapitalization": 604454400,
+    "minusCashAndCashEquivalents": 134759000,
+    "addTotalDebt": 911585000,
+    "enterpriseValue": 1381280400
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2020-12-31",
+    "stockPrice": 5.53,
+    "numberOfShares": 105498000,
+    "marketCapitalization": 583403940,
+    "minusCashAndCashEquivalents": 170188000,
+    "addTotalDebt": 923486000,
+    "enterpriseValue": 1336701940
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2020-09-30",
+    "stockPrice": 3.04,
+    "numberOfShares": 107499000,
+    "marketCapitalization": 326796960,
+    "minusCashAndCashEquivalents": 115725000,
+    "addTotalDebt": 1091049000,
+    "enterpriseValue": 1302120960
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2020-06-30",
+    "stockPrice": 3.9,
+    "numberOfShares": 69160000,
+    "marketCapitalization": 269724000,
+    "minusCashAndCashEquivalents": 174013000,
+    "addTotalDebt": 1106380000,
+    "enterpriseValue": 1202091000
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2020-03-31",
+    "stockPrice": 3.68,
+    "numberOfShares": 49945000,
+    "marketCapitalization": 183797600,
+    "minusCashAndCashEquivalents": 108405000,
+    "addTotalDebt": 357697000,
+    "enterpriseValue": 433089600
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2019-12-31",
+    "stockPrice": 4.89,
+    "numberOfShares": 48793750,
+    "marketCapitalization": 238601437,
+    "minusCashAndCashEquivalents": 74551000,
+    "addTotalDebt": 353938000,
+    "enterpriseValue": 517988437
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2019-09-30",
+    "stockPrice": 5.47,
+    "numberOfShares": 48793750,
+    "marketCapitalization": 266901812,
+    "minusCashAndCashEquivalents": 75717000,
+    "addTotalDebt": 404232000,
+    "enterpriseValue": 595416812
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2019-06-30",
+    "stockPrice": 5.44,
+    "numberOfShares": 48508333,
+    "marketCapitalization": 263885331,
+    "minusCashAndCashEquivalents": 50508000,
+    "addTotalDebt": 404453000,
+    "enterpriseValue": 617830331
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2019-03-31",
+    "stockPrice": 6.33,
+    "numberOfShares": 48721000,
+    "marketCapitalization": 308403930,
+    "minusCashAndCashEquivalents": 76489000,
+    "addTotalDebt": 451269000,
+    "enterpriseValue": 683183930
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2018-12-31",
+    "stockPrice": 4.87,
+    "numberOfShares": 48277000,
+    "marketCapitalization": 235108990,
+    "minusCashAndCashEquivalents": 113625000,
+    "addTotalDebt": 482193000,
+    "enterpriseValue": 603676990
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2018-09-30",
+    "stockPrice": 3.93,
+    "numberOfShares": 48958000,
+    "marketCapitalization": 192404940,
+    "minusCashAndCashEquivalents": 51866000,
+    "addTotalDebt": 481574000,
+    "enterpriseValue": 622112940
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2018-06-30",
+    "stockPrice": 4.26,
+    "numberOfShares": 48717241,
+    "marketCapitalization": 207535446,
+    "minusCashAndCashEquivalents": 55804000,
+    "addTotalDebt": 480952000,
+    "enterpriseValue": 632683446
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2018-03-31",
+    "stockPrice": 5.37,
+    "numberOfShares": 49279104,
+    "marketCapitalization": 264628788,
+    "minusCashAndCashEquivalents": 34966000,
+    "addTotalDebt": 480330000,
+    "enterpriseValue": 709992788
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2017-12-31",
+    "stockPrice": 6.52,
+    "numberOfShares": 49217000,
+    "marketCapitalization": 320894840,
+    "minusCashAndCashEquivalents": 138260000,
+    "addTotalDebt": 579662000,
+    "enterpriseValue": 762296840
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2017-09-30",
+    "stockPrice": 6.69,
+    "numberOfShares": 49469000,
+    "marketCapitalization": 330947610,
+    "minusCashAndCashEquivalents": 88535000,
+    "addTotalDebt": 580557000,
+    "enterpriseValue": 822969610
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2017-06-30",
+    "stockPrice": 7.88,
+    "numberOfShares": 49439240,
+    "marketCapitalization": 389581211,
+    "minusCashAndCashEquivalents": 74415000,
+    "addTotalDebt": 581451000,
+    "enterpriseValue": 896617211
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2017-03-31",
+    "stockPrice": 8.98,
+    "numberOfShares": 49139000,
+    "marketCapitalization": 441268220,
+    "minusCashAndCashEquivalents": 60548000,
+    "addTotalDebt": 582345000,
+    "enterpriseValue": 963065220
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2016-12-31",
+    "stockPrice": 11.69,
+    "numberOfShares": 48603000,
+    "marketCapitalization": 568169070,
+    "minusCashAndCashEquivalents": 65626000,
+    "addTotalDebt": 583239000,
+    "enterpriseValue": 1085782070
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2016-09-30",
+    "stockPrice": 10.17,
+    "numberOfShares": 48545000,
+    "marketCapitalization": 493702650,
+    "minusCashAndCashEquivalents": 50401000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 443301650
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2016-06-30",
+    "stockPrice": 8.11,
+    "numberOfShares": 48836000,
+    "marketCapitalization": 396059960,
+    "minusCashAndCashEquivalents": 43427000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 352632960
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2016-03-31",
+    "stockPrice": 8.2,
+    "numberOfShares": 49998000,
+    "marketCapitalization": 409983599,
+    "minusCashAndCashEquivalents": 33435000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 376548599
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2015-12-31",
+    "stockPrice": 7.94,
+    "numberOfShares": 50817000,
+    "marketCapitalization": 403486980,
+    "minusCashAndCashEquivalents": 22599000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 380887980
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2015-09-30",
+    "stockPrice": 8.57,
+    "numberOfShares": 51825000,
+    "marketCapitalization": 444140250,
+    "minusCashAndCashEquivalents": 32028000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 412112250
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2015-06-30",
+    "stockPrice": 10.05,
+    "numberOfShares": 52293000,
+    "marketCapitalization": 525544650,
+    "minusCashAndCashEquivalents": 21412000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 504132650
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2015-03-31",
+    "stockPrice": 10.66,
+    "numberOfShares": 52559000,
+    "marketCapitalization": 560278940,
+    "minusCashAndCashEquivalents": 17306000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 542972940
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2014-12-31",
+    "stockPrice": 9.46,
+    "numberOfShares": 52758000,
+    "marketCapitalization": 499090680,
+    "minusCashAndCashEquivalents": 50908000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 448182680
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2014-09-30",
+    "stockPrice": 7.03,
+    "numberOfShares": 52500000,
+    "marketCapitalization": 369075000,
+    "minusCashAndCashEquivalents": 47338000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 321737000
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2014-06-30",
+    "stockPrice": 5.84,
+    "numberOfShares": 52812000,
+    "marketCapitalization": 308422080,
+    "minusCashAndCashEquivalents": 31638000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 276784080
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2014-03-31",
+    "stockPrice": 6.25,
+    "numberOfShares": 53223000,
+    "marketCapitalization": 332643750,
+    "minusCashAndCashEquivalents": 74304000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 258339750
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2013-12-31",
+    "stockPrice": 5.21,
+    "numberOfShares": 53866000,
+    "marketCapitalization": 280641860,
+    "minusCashAndCashEquivalents": 359587000,
+    "addTotalDebt": 0,
+    "enterpriseValue": -78945140
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2013-09-30",
+    "stockPrice": 5.12,
+    "numberOfShares": 54076000,
+    "marketCapitalization": 276869120,
+    "minusCashAndCashEquivalents": 78276000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 198593120
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2013-06-30",
+    "stockPrice": 5.55,
+    "numberOfShares": 53157000,
+    "marketCapitalization": 295021350,
+    "minusCashAndCashEquivalents": 76770000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 218251350
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2013-03-31",
+    "stockPrice": 4.87,
+    "numberOfShares": 51277272,
+    "marketCapitalization": 249720314,
+    "minusCashAndCashEquivalents": 73736000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 175984314
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2012-12-31",
+    "stockPrice": 4.35,
+    "numberOfShares": 52226000,
+    "marketCapitalization": 227183099,
+    "minusCashAndCashEquivalents": 103802000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 123381099
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2012-09-30",
+    "stockPrice": 3.63,
+    "numberOfShares": 52093000,
+    "marketCapitalization": 189097590,
+    "minusCashAndCashEquivalents": 124954000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 64143590
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2012-06-30",
+    "stockPrice": 4.07,
+    "numberOfShares": 51881000,
+    "marketCapitalization": 211155670,
+    "minusCashAndCashEquivalents": 115438000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 95717670
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2012-03-31",
+    "stockPrice": 4.56,
+    "numberOfShares": 51738000,
+    "marketCapitalization": 235925279,
+    "minusCashAndCashEquivalents": 78913000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 157012279
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2011-12-31",
+    "stockPrice": 4.43,
+    "numberOfShares": 51517000,
+    "marketCapitalization": 228220310,
+    "minusCashAndCashEquivalents": 55758000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 172462310
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2011-09-30",
+    "stockPrice": 3.16,
+    "numberOfShares": 51364000,
+    "marketCapitalization": 162310240,
+    "minusCashAndCashEquivalents": 91398000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 70912240
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2011-06-30",
+    "stockPrice": 4.53,
+    "numberOfShares": 51106000,
+    "marketCapitalization": 231510180,
+    "minusCashAndCashEquivalents": 77086000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 154424180
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2011-03-31",
+    "stockPrice": 4.83,
+    "numberOfShares": 50823000,
+    "marketCapitalization": 245475090,
+    "minusCashAndCashEquivalents": 108592000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 136883090
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2010-12-31",
+    "stockPrice": 5.86,
+    "numberOfShares": 50823000,
+    "marketCapitalization": 297822780,
+    "minusCashAndCashEquivalents": 69268000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 228554780
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2010-09-30",
+    "stockPrice": 4.89,
+    "numberOfShares": 50247000,
+    "marketCapitalization": 245707829,
+    "minusCashAndCashEquivalents": 119675000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 126032829
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2010-06-30",
+    "stockPrice": 4.25,
+    "numberOfShares": 50028000,
+    "marketCapitalization": 212619000,
+    "minusCashAndCashEquivalents": 116878000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 95741000
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2010-03-31",
+    "stockPrice": 5.37,
+    "numberOfShares": 49810000,
+    "marketCapitalization": 267479700,
+    "minusCashAndCashEquivalents": 106115000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 161364700
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2009-12-31",
+    "stockPrice": 6.16,
+    "numberOfShares": 49810000,
+    "marketCapitalization": 306829600,
+    "minusCashAndCashEquivalents": 107873000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 198956600
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2009-09-30",
+    "stockPrice": 7.38,
+    "numberOfShares": 49201000,
+    "marketCapitalization": 363103380,
+    "minusCashAndCashEquivalents": 160412000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 202691380
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2009-06-30",
+    "stockPrice": 6.69,
+    "numberOfShares": 48420000,
+    "marketCapitalization": 323929800,
+    "minusCashAndCashEquivalents": 115675000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 208254800
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2009-03-31",
+    "stockPrice": 3.54,
+    "numberOfShares": 48147000,
+    "marketCapitalization": 170440380,
+    "minusCashAndCashEquivalents": 153761000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 16679380
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2008-12-31",
+    "stockPrice": 3.14,
+    "numberOfShares": 48147000,
+    "marketCapitalization": 151181580,
+    "minusCashAndCashEquivalents": 87890000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 63291580
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2008-09-30",
+    "stockPrice": 4.32,
+    "numberOfShares": 47904000,
+    "marketCapitalization": 206945280,
+    "minusCashAndCashEquivalents": 52710000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 154235280
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2008-06-30",
+    "stockPrice": 4.33,
+    "numberOfShares": 47793000,
+    "marketCapitalization": 206943690,
+    "minusCashAndCashEquivalents": 175142000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 31801690
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2008-03-31",
+    "stockPrice": 5.5,
+    "numberOfShares": 48157000,
+    "marketCapitalization": 264863500,
+    "minusCashAndCashEquivalents": 126827000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 138036500
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2007-12-31",
+    "stockPrice": 11.01,
+    "numberOfShares": 48157000,
+    "marketCapitalization": 530208570,
+    "minusCashAndCashEquivalents": 207158000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 323050570
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2007-09-30",
+    "stockPrice": 10.21,
+    "numberOfShares": 47688000,
+    "marketCapitalization": 486894480,
+    "minusCashAndCashEquivalents": 230596000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 256298480
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2007-06-30",
+    "stockPrice": 10.73,
+    "numberOfShares": 47424000,
+    "marketCapitalization": 508859520,
+    "minusCashAndCashEquivalents": 198911000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 309948520
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2007-03-31",
+    "stockPrice": 10.51,
+    "numberOfShares": 47001000,
+    "marketCapitalization": 493980510,
+    "minusCashAndCashEquivalents": 204259000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 289721510
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2006-12-31",
+    "stockPrice": 10.67,
+    "numberOfShares": 47001000,
+    "marketCapitalization": 501500670,
+    "minusCashAndCashEquivalents": 194076000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 307424670
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2006-09-30",
+    "stockPrice": 9.2,
+    "numberOfShares": 46252000,
+    "marketCapitalization": 425518399,
+    "minusCashAndCashEquivalents": 156784000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 268734399
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2006-06-30",
+    "stockPrice": 7.28,
+    "numberOfShares": 45905000,
+    "marketCapitalization": 334188400,
+    "minusCashAndCashEquivalents": 146503000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 187685400
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2006-03-31",
+    "stockPrice": 8.49,
+    "numberOfShares": 45432000,
+    "marketCapitalization": 385717680,
+    "minusCashAndCashEquivalents": 133677000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 252040680
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2005-12-31",
+    "stockPrice": 6.84,
+    "numberOfShares": 45432000,
+    "marketCapitalization": 310754880,
+    "minusCashAndCashEquivalents": 127594000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 183160880
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2005-09-30",
+    "stockPrice": 7.91,
+    "numberOfShares": 44452000,
+    "marketCapitalization": 351615320,
+    "minusCashAndCashEquivalents": 146142000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 205473320
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2005-06-30",
+    "stockPrice": 8.84,
+    "numberOfShares": 43873000,
+    "marketCapitalization": 387837320,
+    "minusCashAndCashEquivalents": 138046000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 249791320
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2005-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 42873000,
+    "marketCapitalization": 490467120,
+    "minusCashAndCashEquivalents": 127127000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 363340120
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2004-12-31",
+    "stockPrice": 9.84,
+    "numberOfShares": 42873000,
+    "marketCapitalization": 421870320,
+    "minusCashAndCashEquivalents": 108339000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 313531320
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2004-09-30",
+    "stockPrice": 5.85,
+    "numberOfShares": 40448000,
+    "marketCapitalization": 236620800,
+    "minusCashAndCashEquivalents": 96376000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 140244800
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2004-06-30",
+    "stockPrice": 4.77,
+    "numberOfShares": 39446000,
+    "marketCapitalization": 188157419,
+    "minusCashAndCashEquivalents": 76286000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 111871419
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2004-03-31",
+    "stockPrice": 4.83,
+    "numberOfShares": 38465000,
+    "marketCapitalization": 185785950,
+    "minusCashAndCashEquivalents": 67980000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 117805950
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2003-12-31",
+    "stockPrice": 4.98,
+    "numberOfShares": 38465000,
+    "marketCapitalization": 191555700,
+    "minusCashAndCashEquivalents": 64379000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 127176700
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2003-09-30",
+    "stockPrice": 4.89,
+    "numberOfShares": 6851000,
+    "marketCapitalization": 33501389,
+    "minusCashAndCashEquivalents": 132000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 33369389
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2003-06-30",
+    "stockPrice": 4.89,
+    "numberOfShares": 6851000,
+    "marketCapitalization": 33501389,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 33501389
+  },
+  {
+    "symbol": "ADEA",
+    "date": "2003-03-31",
+    "stockPrice": 4.89,
+    "numberOfShares": 6851000,
+    "marketCapitalization": 33501389,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 33501389
+  }
+]

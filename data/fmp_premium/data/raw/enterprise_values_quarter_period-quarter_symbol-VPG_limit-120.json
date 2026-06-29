@@ -1,0 +1,682 @@
+[
+  {
+    "symbol": "VPG",
+    "date": "2026-04-04",
+    "stockPrice": 44.77,
+    "numberOfShares": 13297000,
+    "marketCapitalization": 595306690,
+    "minusCashAndCashEquivalents": 82486000,
+    "addTotalDebt": 44387000,
+    "enterpriseValue": 557207690
+  },
+  {
+    "symbol": "VPG",
+    "date": "2025-12-31",
+    "stockPrice": 38.5,
+    "numberOfShares": 13279000,
+    "marketCapitalization": 511241500,
+    "minusCashAndCashEquivalents": 87366000,
+    "addTotalDebt": 64024000,
+    "enterpriseValue": 487899500
+  },
+  {
+    "symbol": "VPG",
+    "date": "2025-09-27",
+    "stockPrice": 32.19,
+    "numberOfShares": 13318644,
+    "marketCapitalization": 428727150,
+    "minusCashAndCashEquivalents": 86253000,
+    "addTotalDebt": 43832000,
+    "enterpriseValue": 386306150
+  },
+  {
+    "symbol": "VPG",
+    "date": "2025-06-28",
+    "stockPrice": 28.31,
+    "numberOfShares": 13263000,
+    "marketCapitalization": 375475530,
+    "minusCashAndCashEquivalents": 90375000,
+    "addTotalDebt": 55059000,
+    "enterpriseValue": 340159530
+  },
+  {
+    "symbol": "VPG",
+    "date": "2025-03-29",
+    "stockPrice": 24.08,
+    "numberOfShares": 13257000,
+    "marketCapitalization": 319228560,
+    "minusCashAndCashEquivalents": 83892000,
+    "addTotalDebt": 54727000,
+    "enterpriseValue": 290063560
+  },
+  {
+    "symbol": "VPG",
+    "date": "2024-12-31",
+    "stockPrice": 23.47,
+    "numberOfShares": 13239000,
+    "marketCapitalization": 310719330,
+    "minusCashAndCashEquivalents": 79272000,
+    "addTotalDebt": 55367000,
+    "enterpriseValue": 286814330
+  },
+  {
+    "symbol": "VPG",
+    "date": "2024-09-28",
+    "stockPrice": 25.49,
+    "numberOfShares": 13254000,
+    "marketCapitalization": 337844460,
+    "minusCashAndCashEquivalents": 81077000,
+    "addTotalDebt": 56081000,
+    "enterpriseValue": 312848460
+  },
+  {
+    "symbol": "VPG",
+    "date": "2024-06-29",
+    "stockPrice": 30.44,
+    "numberOfShares": 13348000,
+    "marketCapitalization": 406313120,
+    "minusCashAndCashEquivalents": 84128000,
+    "addTotalDebt": 57300000,
+    "enterpriseValue": 379485120
+  },
+  {
+    "symbol": "VPG",
+    "date": "2024-03-30",
+    "stockPrice": 35.33,
+    "numberOfShares": 13405000,
+    "marketCapitalization": 473598650,
+    "minusCashAndCashEquivalents": 83016000,
+    "addTotalDebt": 58328000,
+    "enterpriseValue": 448910650
+  },
+  {
+    "symbol": "VPG",
+    "date": "2023-12-31",
+    "stockPrice": 34.07,
+    "numberOfShares": 13509000,
+    "marketCapitalization": 460251630,
+    "minusCashAndCashEquivalents": 83965000,
+    "addTotalDebt": 58485000,
+    "enterpriseValue": 434771630
+  },
+  {
+    "symbol": "VPG",
+    "date": "2023-09-30",
+    "stockPrice": 33.58,
+    "numberOfShares": 13600000,
+    "marketCapitalization": 456688000,
+    "minusCashAndCashEquivalents": 94632000,
+    "addTotalDebt": 80228000,
+    "enterpriseValue": 442284000
+  },
+  {
+    "symbol": "VPG",
+    "date": "2023-07-01",
+    "stockPrice": 37.15,
+    "numberOfShares": 13601000,
+    "marketCapitalization": 505277150,
+    "minusCashAndCashEquivalents": 98521000,
+    "addTotalDebt": 83858000,
+    "enterpriseValue": 490614150
+  },
+  {
+    "symbol": "VPG",
+    "date": "2023-04-01",
+    "stockPrice": 41.76,
+    "numberOfShares": 13586000,
+    "marketCapitalization": 567351360,
+    "minusCashAndCashEquivalents": 93281000,
+    "addTotalDebt": 84728000,
+    "enterpriseValue": 558798360
+  },
+  {
+    "symbol": "VPG",
+    "date": "2022-12-31",
+    "stockPrice": 38.65,
+    "numberOfShares": 13579000,
+    "marketCapitalization": 524828350,
+    "minusCashAndCashEquivalents": 88562000,
+    "addTotalDebt": 85050000,
+    "enterpriseValue": 521316350
+  },
+  {
+    "symbol": "VPG",
+    "date": "2022-10-01",
+    "stockPrice": 29.59,
+    "numberOfShares": 13649000,
+    "marketCapitalization": 403873910,
+    "minusCashAndCashEquivalents": 79910000,
+    "addTotalDebt": 85321000,
+    "enterpriseValue": 409284910
+  },
+  {
+    "symbol": "VPG",
+    "date": "2022-07-02",
+    "stockPrice": 28.2,
+    "numberOfShares": 13648000,
+    "marketCapitalization": 384873600,
+    "minusCashAndCashEquivalents": 79429000,
+    "addTotalDebt": 86850000,
+    "enterpriseValue": 392294600
+  },
+  {
+    "symbol": "VPG",
+    "date": "2022-04-02",
+    "stockPrice": 32.27,
+    "numberOfShares": 13637000,
+    "marketCapitalization": 440065990,
+    "minusCashAndCashEquivalents": 78181000,
+    "addTotalDebt": 89248000,
+    "enterpriseValue": 451132990
+  },
+  {
+    "symbol": "VPG",
+    "date": "2021-12-31",
+    "stockPrice": 37.12,
+    "numberOfShares": 13626000,
+    "marketCapitalization": 505797119,
+    "minusCashAndCashEquivalents": 84335000,
+    "addTotalDebt": 90464000,
+    "enterpriseValue": 511926119
+  },
+  {
+    "symbol": "VPG",
+    "date": "2021-10-02",
+    "stockPrice": 35.26,
+    "numberOfShares": 13626000,
+    "marketCapitalization": 480452760,
+    "minusCashAndCashEquivalents": 75544000,
+    "addTotalDebt": 89569000,
+    "enterpriseValue": 494477760
+  },
+  {
+    "symbol": "VPG",
+    "date": "2021-07-03",
+    "stockPrice": 34.61,
+    "numberOfShares": 13618000,
+    "marketCapitalization": 471318980,
+    "minusCashAndCashEquivalents": 73456000,
+    "addTotalDebt": 87461000,
+    "enterpriseValue": 485323980
+  },
+  {
+    "symbol": "VPG",
+    "date": "2021-04-03",
+    "stockPrice": 31.2,
+    "numberOfShares": 13593000,
+    "marketCapitalization": 424101600,
+    "minusCashAndCashEquivalents": 96154000,
+    "addTotalDebt": 62327000,
+    "enterpriseValue": 390274600
+  },
+  {
+    "symbol": "VPG",
+    "date": "2020-12-31",
+    "stockPrice": 31.48,
+    "numberOfShares": 13575000,
+    "marketCapitalization": 427341000,
+    "minusCashAndCashEquivalents": 98438000,
+    "addTotalDebt": 64159000,
+    "enterpriseValue": 393062000
+  },
+  {
+    "symbol": "VPG",
+    "date": "2020-09-26",
+    "stockPrice": 24.28,
+    "numberOfShares": 13575000,
+    "marketCapitalization": 329601000,
+    "minusCashAndCashEquivalents": 89795000,
+    "addTotalDebt": 63220000,
+    "enterpriseValue": 303026000
+  },
+  {
+    "symbol": "VPG",
+    "date": "2020-06-27",
+    "stockPrice": 22.27,
+    "numberOfShares": 13571000,
+    "marketCapitalization": 302226170,
+    "minusCashAndCashEquivalents": 87197000,
+    "addTotalDebt": 63633000,
+    "enterpriseValue": 278662170
+  },
+  {
+    "symbol": "VPG",
+    "date": "2020-03-28",
+    "stockPrice": 19.28,
+    "numberOfShares": 13541000,
+    "marketCapitalization": 261070480,
+    "minusCashAndCashEquivalents": 82731000,
+    "addTotalDebt": 40714000,
+    "enterpriseValue": 219053480
+  },
+  {
+    "symbol": "VPG",
+    "date": "2019-12-31",
+    "stockPrice": 34,
+    "numberOfShares": 13523000,
+    "marketCapitalization": 459782000,
+    "minusCashAndCashEquivalents": 86910000,
+    "addTotalDebt": 53171000,
+    "enterpriseValue": 426043000
+  },
+  {
+    "symbol": "VPG",
+    "date": "2019-09-28",
+    "stockPrice": 32.76,
+    "numberOfShares": 13523000,
+    "marketCapitalization": 443013480,
+    "minusCashAndCashEquivalents": 101299000,
+    "addTotalDebt": 32643000,
+    "enterpriseValue": 374357480
+  },
+  {
+    "symbol": "VPG",
+    "date": "2019-06-29",
+    "stockPrice": 40.63,
+    "numberOfShares": 13518000,
+    "marketCapitalization": 549236340,
+    "minusCashAndCashEquivalents": 98705000,
+    "addTotalDebt": 33663000,
+    "enterpriseValue": 484194340
+  },
+  {
+    "symbol": "VPG",
+    "date": "2019-03-30",
+    "stockPrice": 34.21,
+    "numberOfShares": 13495000,
+    "marketCapitalization": 461663950,
+    "minusCashAndCashEquivalents": 93144000,
+    "addTotalDebt": 25938000,
+    "enterpriseValue": 394457950
+  },
+  {
+    "symbol": "VPG",
+    "date": "2018-12-31",
+    "stockPrice": 30.23,
+    "numberOfShares": 13474000,
+    "marketCapitalization": 407319020,
+    "minusCashAndCashEquivalents": 90159000,
+    "addTotalDebt": 27075000,
+    "enterpriseValue": 344235020
+  },
+  {
+    "symbol": "VPG",
+    "date": "2018-09-29",
+    "stockPrice": 37.4,
+    "numberOfShares": 13474000,
+    "marketCapitalization": 503927600,
+    "minusCashAndCashEquivalents": 78628000,
+    "addTotalDebt": 27917000,
+    "enterpriseValue": 453216600
+  },
+  {
+    "symbol": "VPG",
+    "date": "2018-06-30",
+    "stockPrice": 38.15,
+    "numberOfShares": 13464000,
+    "marketCapitalization": 513651600,
+    "minusCashAndCashEquivalents": 74713000,
+    "addTotalDebt": 30778000,
+    "enterpriseValue": 469716600
+  },
+  {
+    "symbol": "VPG",
+    "date": "2018-03-31",
+    "stockPrice": 31.15,
+    "numberOfShares": 13342000,
+    "marketCapitalization": 415603300,
+    "minusCashAndCashEquivalents": 73734000,
+    "addTotalDebt": 31643000,
+    "enterpriseValue": 373512300
+  },
+  {
+    "symbol": "VPG",
+    "date": "2017-12-31",
+    "stockPrice": 25.15,
+    "numberOfShares": 13292000,
+    "marketCapitalization": 334293800,
+    "minusCashAndCashEquivalents": 74292000,
+    "addTotalDebt": 32355000,
+    "enterpriseValue": 292356800
+  },
+  {
+    "symbol": "VPG",
+    "date": "2017-09-30",
+    "stockPrice": 24.4,
+    "numberOfShares": 13291000,
+    "marketCapitalization": 324300400,
+    "minusCashAndCashEquivalents": 69891000,
+    "addTotalDebt": 32982000,
+    "enterpriseValue": 287391400
+  },
+  {
+    "symbol": "VPG",
+    "date": "2017-07-01",
+    "stockPrice": 17.3,
+    "numberOfShares": 13257000,
+    "marketCapitalization": 229346100,
+    "minusCashAndCashEquivalents": 63158000,
+    "addTotalDebt": 33616000,
+    "enterpriseValue": 199804100
+  },
+  {
+    "symbol": "VPG",
+    "date": "2017-04-01",
+    "stockPrice": 15.8,
+    "numberOfShares": 13210000,
+    "marketCapitalization": 208718000,
+    "minusCashAndCashEquivalents": 59251000,
+    "addTotalDebt": 35548000,
+    "enterpriseValue": 185015000
+  },
+  {
+    "symbol": "VPG",
+    "date": "2016-12-31",
+    "stockPrice": 18.9,
+    "numberOfShares": 13210000,
+    "marketCapitalization": 249668999,
+    "minusCashAndCashEquivalents": 58452000,
+    "addTotalDebt": 36152000,
+    "enterpriseValue": 227368999
+  },
+  {
+    "symbol": "VPG",
+    "date": "2016-10-01",
+    "stockPrice": 16.03,
+    "numberOfShares": 13192000,
+    "marketCapitalization": 211467760,
+    "minusCashAndCashEquivalents": 56133000,
+    "addTotalDebt": 36734000,
+    "enterpriseValue": 192068760
+  },
+  {
+    "symbol": "VPG",
+    "date": "2016-07-02",
+    "stockPrice": 13.34,
+    "numberOfShares": 13184000,
+    "marketCapitalization": 175874560,
+    "minusCashAndCashEquivalents": 52223000,
+    "addTotalDebt": 37249000,
+    "enterpriseValue": 160900560
+  },
+  {
+    "symbol": "VPG",
+    "date": "2016-04-02",
+    "stockPrice": 14.47,
+    "numberOfShares": 13178000,
+    "marketCapitalization": 190685660,
+    "minusCashAndCashEquivalents": 61380000,
+    "addTotalDebt": 32712000,
+    "enterpriseValue": 162017660
+  },
+  {
+    "symbol": "VPG",
+    "date": "2015-12-31",
+    "stockPrice": 11.32,
+    "numberOfShares": 13178000,
+    "marketCapitalization": 149174960,
+    "minusCashAndCashEquivalents": 62641000,
+    "addTotalDebt": 33711000,
+    "enterpriseValue": 120244960
+  },
+  {
+    "symbol": "VPG",
+    "date": "2015-09-26",
+    "stockPrice": 11.6,
+    "numberOfShares": 12953333,
+    "marketCapitalization": 150258662,
+    "minusCashAndCashEquivalents": 63174000,
+    "addTotalDebt": 18992000,
+    "enterpriseValue": 106076662
+  },
+  {
+    "symbol": "VPG",
+    "date": "2015-06-27",
+    "stockPrice": 15.55,
+    "numberOfShares": 13580000,
+    "marketCapitalization": 211169000,
+    "minusCashAndCashEquivalents": 65456000,
+    "addTotalDebt": 21001000,
+    "enterpriseValue": 166714000
+  },
+  {
+    "symbol": "VPG",
+    "date": "2015-03-28",
+    "stockPrice": 15.55,
+    "numberOfShares": 13746000,
+    "marketCapitalization": 213750300,
+    "minusCashAndCashEquivalents": 70212000,
+    "addTotalDebt": 21555000,
+    "enterpriseValue": 165093300
+  },
+  {
+    "symbol": "VPG",
+    "date": "2014-12-31",
+    "stockPrice": 17.16,
+    "numberOfShares": 13755000,
+    "marketCapitalization": 236035800,
+    "minusCashAndCashEquivalents": 79642000,
+    "addTotalDebt": 22833000,
+    "enterpriseValue": 179226800
+  },
+  {
+    "symbol": "VPG",
+    "date": "2014-09-27",
+    "stockPrice": 15.16,
+    "numberOfShares": 13757000,
+    "marketCapitalization": 208556120,
+    "minusCashAndCashEquivalents": 75424000,
+    "addTotalDebt": 23942000,
+    "enterpriseValue": 157074120
+  },
+  {
+    "symbol": "VPG",
+    "date": "2014-06-28",
+    "stockPrice": 16.19,
+    "numberOfShares": 13756000,
+    "marketCapitalization": 222709640,
+    "minusCashAndCashEquivalents": 72455000,
+    "addTotalDebt": 25034000,
+    "enterpriseValue": 175288640
+  },
+  {
+    "symbol": "VPG",
+    "date": "2014-03-29",
+    "stockPrice": 17.11,
+    "numberOfShares": 13752000,
+    "marketCapitalization": 235296720,
+    "minusCashAndCashEquivalents": 72041000,
+    "addTotalDebt": 26066000,
+    "enterpriseValue": 189321720
+  },
+  {
+    "symbol": "VPG",
+    "date": "2013-12-31",
+    "stockPrice": 14.89,
+    "numberOfShares": 13737000,
+    "marketCapitalization": 204543930,
+    "minusCashAndCashEquivalents": 72785000,
+    "addTotalDebt": 27073000,
+    "enterpriseValue": 158831930
+  },
+  {
+    "symbol": "VPG",
+    "date": "2013-09-28",
+    "stockPrice": 14.55,
+    "numberOfShares": 13734000,
+    "marketCapitalization": 199829700,
+    "minusCashAndCashEquivalents": 68273000,
+    "addTotalDebt": 27925000,
+    "enterpriseValue": 159481700
+  },
+  {
+    "symbol": "VPG",
+    "date": "2013-06-29",
+    "stockPrice": 15.14,
+    "numberOfShares": 13392000,
+    "marketCapitalization": 202754880,
+    "minusCashAndCashEquivalents": 68156000,
+    "addTotalDebt": 34583000,
+    "enterpriseValue": 169181880
+  },
+  {
+    "symbol": "VPG",
+    "date": "2013-03-30",
+    "stockPrice": 14.69,
+    "numberOfShares": 13387000,
+    "marketCapitalization": 196655030,
+    "minusCashAndCashEquivalents": 64690000,
+    "addTotalDebt": 35424000,
+    "enterpriseValue": 167389030
+  },
+  {
+    "symbol": "VPG",
+    "date": "2012-12-31",
+    "stockPrice": 13.22,
+    "numberOfShares": 13387000,
+    "marketCapitalization": 176976140,
+    "minusCashAndCashEquivalents": 93881000,
+    "addTotalDebt": 11321000,
+    "enterpriseValue": 94416140
+  },
+  {
+    "symbol": "VPG",
+    "date": "2012-09-29",
+    "stockPrice": 13.98,
+    "numberOfShares": 13371000,
+    "marketCapitalization": 186926580,
+    "minusCashAndCashEquivalents": 89250000,
+    "addTotalDebt": 11510000,
+    "enterpriseValue": 109186580
+  },
+  {
+    "symbol": "VPG",
+    "date": "2012-06-30",
+    "stockPrice": 13.95,
+    "numberOfShares": 13366000,
+    "marketCapitalization": 186455700,
+    "minusCashAndCashEquivalents": 82134000,
+    "addTotalDebt": 11520000,
+    "enterpriseValue": 115841700
+  },
+  {
+    "symbol": "VPG",
+    "date": "2012-03-31",
+    "stockPrice": 14.83,
+    "numberOfShares": 13362000,
+    "marketCapitalization": 198158460,
+    "minusCashAndCashEquivalents": 83042000,
+    "addTotalDebt": 11500000,
+    "enterpriseValue": 126616460
+  },
+  {
+    "symbol": "VPG",
+    "date": "2011-12-31",
+    "stockPrice": 15.98,
+    "numberOfShares": 13362000,
+    "marketCapitalization": 213524760,
+    "minusCashAndCashEquivalents": 80828000,
+    "addTotalDebt": 11648000,
+    "enterpriseValue": 144344760
+  },
+  {
+    "symbol": "VPG",
+    "date": "2011-10-01",
+    "stockPrice": 13.18,
+    "numberOfShares": 13346000,
+    "marketCapitalization": 175900280,
+    "minusCashAndCashEquivalents": 83318000,
+    "addTotalDebt": 13016000,
+    "enterpriseValue": 105598280
+  },
+  {
+    "symbol": "VPG",
+    "date": "2011-07-02",
+    "stockPrice": 17.05,
+    "numberOfShares": 13341000,
+    "marketCapitalization": 227464050,
+    "minusCashAndCashEquivalents": 79943000,
+    "addTotalDebt": 12408000,
+    "enterpriseValue": 159929050
+  },
+  {
+    "symbol": "VPG",
+    "date": "2011-04-02",
+    "stockPrice": 15.98,
+    "numberOfShares": 13340000,
+    "marketCapitalization": 213173200,
+    "minusCashAndCashEquivalents": 79135000,
+    "addTotalDebt": 12343000,
+    "enterpriseValue": 146381200
+  },
+  {
+    "symbol": "VPG",
+    "date": "2010-12-31",
+    "stockPrice": 18.84,
+    "numberOfShares": 13340000,
+    "marketCapitalization": 251325600,
+    "minusCashAndCashEquivalents": 82245000,
+    "addTotalDebt": 11692000,
+    "enterpriseValue": 180772600
+  },
+  {
+    "symbol": "VPG",
+    "date": "2010-10-02",
+    "stockPrice": 15.67,
+    "numberOfShares": 13332000,
+    "marketCapitalization": 208912440,
+    "minusCashAndCashEquivalents": 81390000,
+    "addTotalDebt": 12363000,
+    "enterpriseValue": 139885440
+  },
+  {
+    "symbol": "VPG",
+    "date": "2010-07-03",
+    "stockPrice": 11.45,
+    "numberOfShares": 13332000,
+    "marketCapitalization": 152651400,
+    "minusCashAndCashEquivalents": 70979000,
+    "addTotalDebt": 21493000,
+    "enterpriseValue": 103165400
+  },
+  {
+    "symbol": "VPG",
+    "date": "2010-03-31",
+    "stockPrice": 12.5,
+    "numberOfShares": 13332000,
+    "marketCapitalization": 166650000,
+    "minusCashAndCashEquivalents": 80400000,
+    "addTotalDebt": 1600000,
+    "enterpriseValue": 87850000
+  },
+  {
+    "symbol": "VPG",
+    "date": "2009-12-31",
+    "stockPrice": 12.5,
+    "numberOfShares": 13332000,
+    "marketCapitalization": 166650000,
+    "minusCashAndCashEquivalents": 63192000,
+    "addTotalDebt": 1735000,
+    "enterpriseValue": 105193000
+  },
+  {
+    "symbol": "VPG",
+    "date": "2009-09-30",
+    "stockPrice": 12.5,
+    "numberOfShares": 13332000,
+    "marketCapitalization": 166650000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 166650000
+  },
+  {
+    "symbol": "VPG",
+    "date": "2009-06-30",
+    "stockPrice": 12.5,
+    "numberOfShares": 13332000,
+    "marketCapitalization": 166650000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 166650000
+  }
+]

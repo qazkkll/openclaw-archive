@@ -1,0 +1,884 @@
+[
+  {
+    "symbol": "NFLX",
+    "date": "2026-07-16",
+    "epsActual": null,
+    "epsEstimated": 0.79,
+    "revenueActual": null,
+    "revenueEstimated": 12580160000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2026-04-16",
+    "epsActual": 1.23,
+    "epsEstimated": 0.763,
+    "revenueActual": 12250000000,
+    "revenueEstimated": 12177460000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2026-01-20",
+    "epsActual": 0.56,
+    "epsEstimated": 0.552,
+    "revenueActual": 12051000000,
+    "revenueEstimated": 11969860000,
+    "lastUpdated": "2026-04-20"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2025-10-21",
+    "epsActual": 0.59,
+    "epsEstimated": 0.696,
+    "revenueActual": 11510307000,
+    "revenueEstimated": 11508430066,
+    "lastUpdated": "2026-01-21"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2025-07-17",
+    "epsActual": 0.72,
+    "epsEstimated": 0.71,
+    "revenueActual": 11079166000,
+    "revenueEstimated": 11057365203,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2025-04-17",
+    "epsActual": 0.66,
+    "epsEstimated": 0.57,
+    "revenueActual": 10542801000,
+    "revenueEstimated": 10506867221,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2025-01-21",
+    "epsActual": 0.43,
+    "epsEstimated": 0.42,
+    "revenueActual": 10246513000,
+    "revenueEstimated": 10108143048,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2024-10-17",
+    "epsActual": 0.54,
+    "epsEstimated": 0.51,
+    "revenueActual": 9824703000,
+    "revenueEstimated": 10119600000,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2024-07-18",
+    "epsActual": 0.49,
+    "epsEstimated": 0.47,
+    "revenueActual": 9559310000,
+    "revenueEstimated": 9528670000,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2024-04-18",
+    "epsActual": 0.53,
+    "epsEstimated": 0.45,
+    "revenueActual": 9381681000,
+    "revenueEstimated": 8732720000,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2024-01-23",
+    "epsActual": 0.21,
+    "epsEstimated": 0.22,
+    "revenueActual": 8832825000,
+    "revenueEstimated": 8718570000,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2023-10-18",
+    "epsActual": 0.37,
+    "epsEstimated": 0.35,
+    "revenueActual": 8541668000,
+    "revenueEstimated": 8541300000,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2023-07-19",
+    "epsActual": 0.33,
+    "epsEstimated": 0.28,
+    "revenueActual": 8187301000,
+    "revenueEstimated": 8295360000,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2023-04-18",
+    "epsActual": 0.29,
+    "epsEstimated": 0.28,
+    "revenueActual": 8161503000,
+    "revenueEstimated": 8173790000,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2023-01-19",
+    "epsActual": 0.01,
+    "epsEstimated": 0.05,
+    "revenueActual": 7852053000,
+    "revenueEstimated": 7861576156,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2022-10-18",
+    "epsActual": 0.31,
+    "epsEstimated": 0.21,
+    "revenueActual": 7925589000,
+    "revenueEstimated": 7838110575,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2022-07-19",
+    "epsActual": 0.32,
+    "epsEstimated": 0.29,
+    "revenueActual": 7970141000,
+    "revenueEstimated": 8026263897,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2022-04-19",
+    "epsActual": 0.35,
+    "epsEstimated": 0.29,
+    "revenueActual": 7867767000,
+    "revenueEstimated": 7929118675,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2022-01-20",
+    "epsActual": 0.13,
+    "epsEstimated": 0.08,
+    "revenueActual": 7709318000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2021-10-19",
+    "epsActual": 0.32,
+    "epsEstimated": 0.26,
+    "revenueActual": 7483467000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2021-07-20",
+    "epsActual": 0.3,
+    "epsEstimated": 0.32,
+    "revenueActual": 7341777000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2021-04-20",
+    "epsActual": 0.38,
+    "epsEstimated": 0.3,
+    "revenueActual": 7163282000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2021-01-19",
+    "epsActual": 0.12,
+    "epsEstimated": 0.14,
+    "revenueActual": 6644442000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2020-10-20",
+    "epsActual": 0.17,
+    "epsEstimated": 0.21,
+    "revenueActual": 6435637000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2020-07-16",
+    "epsActual": 0.16,
+    "epsEstimated": 0.18,
+    "revenueActual": 6148286000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2020-04-21",
+    "epsActual": 0.16,
+    "epsEstimated": 0.16,
+    "revenueActual": 5767691000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2020-01-21",
+    "epsActual": 0.13,
+    "epsEstimated": 0.05,
+    "revenueActual": 5467434000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2019-10-16",
+    "epsActual": 0.15,
+    "epsEstimated": 0.1,
+    "revenueActual": 5244905000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2019-07-17",
+    "epsActual": 0.06,
+    "epsEstimated": 0.06,
+    "revenueActual": 4923116000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2019-04-16",
+    "epsActual": 0.08,
+    "epsEstimated": 0.06,
+    "revenueActual": 4520992000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2019-01-17",
+    "epsActual": 0.03,
+    "epsEstimated": 0.02392,
+    "revenueActual": 4186841000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2018-10-16",
+    "epsActual": 0.09,
+    "epsEstimated": 0.07,
+    "revenueActual": 3999374000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2018-07-16",
+    "epsActual": 0.09,
+    "epsEstimated": 0.08,
+    "revenueActual": 3907270000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2018-04-16",
+    "epsActual": 0.06,
+    "epsEstimated": 0.06,
+    "revenueActual": 3700856000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2018-01-22",
+    "epsActual": 0.04,
+    "epsEstimated": 0.04023,
+    "revenueActual": 3285755000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2017-10-16",
+    "epsActual": 0.03,
+    "epsEstimated": 0.03313,
+    "revenueActual": 2984859000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2017-07-17",
+    "epsActual": 0.02,
+    "epsEstimated": 0.02034,
+    "revenueActual": 2785464000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2017-04-17",
+    "epsActual": 0.04,
+    "epsEstimated": 0.03735,
+    "revenueActual": 2636635000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2017-01-18",
+    "epsActual": 0.02,
+    "epsEstimated": 0.01766,
+    "revenueActual": 2477541000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2016-10-17",
+    "epsActual": 0.01,
+    "epsEstimated": 0.00467,
+    "revenueActual": 2290188000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2016-07-18",
+    "epsActual": 0.01,
+    "epsEstimated": null,
+    "revenueActual": 2105204000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2016-04-18",
+    "epsActual": 0.01,
+    "epsEstimated": null,
+    "revenueActual": 1957736000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2016-01-19",
+    "epsActual": 0.01,
+    "epsEstimated": null,
+    "revenueActual": 1823333000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2015-10-14",
+    "epsActual": 0.01,
+    "epsEstimated": 0.01077,
+    "revenueActual": 1738355000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2015-07-15",
+    "epsActual": 0.06,
+    "epsEstimated": 0.04425,
+    "revenueActual": 1644694000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2015-04-15",
+    "epsActual": 0.01,
+    "epsEstimated": 0.00897,
+    "revenueActual": 1573129000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2015-01-20",
+    "epsActual": 0.01,
+    "epsEstimated": 0.00619,
+    "revenueActual": 1484728000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2014-10-15",
+    "epsActual": 0.01,
+    "epsEstimated": 0.00964,
+    "revenueActual": 1409432000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2014-07-21",
+    "epsActual": 0.02,
+    "epsEstimated": 0.02011,
+    "revenueActual": 1340407000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2014-04-21",
+    "epsActual": 0.01,
+    "epsEstimated": 0.00963,
+    "revenueActual": 1270089000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2014-01-22",
+    "epsActual": 0.01,
+    "epsEstimated": null,
+    "revenueActual": 1175230000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2013-10-21",
+    "epsActual": 0.01,
+    "epsEstimated": 0.0095,
+    "revenueActual": 1105999000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2013-07-22",
+    "epsActual": 0.01,
+    "epsEstimated": 0.00819,
+    "revenueActual": 1069372000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2013-04-22",
+    "epsActual": 0.04,
+    "epsEstimated": 0.02507,
+    "revenueActual": 1023961000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2013-01-23",
+    "epsActual": 0.02,
+    "epsEstimated": 0.00659,
+    "revenueActual": 945239000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2012-10-23",
+    "epsActual": 0.02,
+    "epsEstimated": null,
+    "revenueActual": 905089000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2012-07-24",
+    "epsActual": 0.02,
+    "epsEstimated": null,
+    "revenueActual": 889163000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2012-04-23",
+    "epsActual": -0.00118,
+    "epsEstimated": -0.00069,
+    "revenueActual": 869791000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2012-01-25",
+    "epsActual": 0.1,
+    "epsEstimated": 0.08,
+    "revenueActual": 875575000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2011-10-24",
+    "epsActual": 0.17,
+    "epsEstimated": 0.13,
+    "revenueActual": 821839000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2011-07-25",
+    "epsActual": 0.18,
+    "epsEstimated": 0.16,
+    "revenueActual": 788610000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2011-04-25",
+    "epsActual": 0.16,
+    "epsEstimated": 0.15,
+    "revenueActual": 718553000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2011-01-26",
+    "epsActual": 0.12,
+    "epsEstimated": 0.1,
+    "revenueActual": 595922000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2010-10-20",
+    "epsActual": 0.1,
+    "epsEstimated": 0.1,
+    "revenueActual": 553219000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2010-07-21",
+    "epsActual": 0.11,
+    "epsEstimated": 0.1,
+    "revenueActual": 519819000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2010-04-21",
+    "epsActual": 0.08,
+    "epsEstimated": 0.08,
+    "revenueActual": 493665000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2010-01-27",
+    "epsActual": 0.08,
+    "epsEstimated": 0.06,
+    "revenueActual": 444542000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2009-10-22",
+    "epsActual": 0.07,
+    "epsEstimated": 0.06,
+    "revenueActual": 423120000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2009-07-23",
+    "epsActual": 0.08,
+    "epsEstimated": 0.07,
+    "revenueActual": 408509000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2009-04-23",
+    "epsActual": 0.05,
+    "epsEstimated": 0.04229,
+    "revenueActual": 394098000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2009-01-26",
+    "epsActual": 0.05,
+    "epsEstimated": 0.05,
+    "revenueActual": 359595000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2008-10-20",
+    "epsActual": 0.05,
+    "epsEstimated": 0.04679,
+    "revenueActual": 341269000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2008-07-25",
+    "epsActual": 0.06,
+    "epsEstimated": 0.06,
+    "revenueActual": 337614000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2008-04-21",
+    "epsActual": 0.03,
+    "epsEstimated": 0.02943,
+    "revenueActual": 326183000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2008-01-23",
+    "epsActual": 0.03,
+    "epsEstimated": 0.01787,
+    "revenueActual": 302355000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2007-10-22",
+    "epsActual": 0.03,
+    "epsEstimated": 0.01935,
+    "revenueActual": 293972000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2007-07-23",
+    "epsActual": 0.05,
+    "epsEstimated": 0.03055,
+    "revenueActual": 303693000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2007-04-18",
+    "epsActual": 0.02,
+    "epsEstimated": 0.02252,
+    "revenueActual": 305320000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2007-01-24",
+    "epsActual": 0.03,
+    "epsEstimated": 0.0208,
+    "revenueActual": 277233000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2006-10-23",
+    "epsActual": 0.03,
+    "epsEstimated": 0.02064,
+    "revenueActual": 255950000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2006-07-24",
+    "epsActual": 0.03,
+    "epsEstimated": 0.02228,
+    "revenueActual": 239351000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2006-04-24",
+    "epsActual": 0.00095,
+    "epsEstimated": null,
+    "revenueActual": 224126000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2006-03-16",
+    "epsActual": 0.00989,
+    "epsEstimated": null,
+    "revenueActual": 189259000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2005-10-19",
+    "epsActual": 0.03,
+    "epsEstimated": 0.02227,
+    "revenueActual": 174317000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2005-07-25",
+    "epsActual": 0.02,
+    "epsEstimated": null,
+    "revenueActual": 164497000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2005-04-21",
+    "epsActual": -0.00238,
+    "epsEstimated": -0.00152,
+    "revenueActual": 154140000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2005-03-15",
+    "epsActual": 0.00151,
+    "epsEstimated": null,
+    "revenueActual": 143893000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2004-10-14",
+    "epsActual": 0.05,
+    "epsEstimated": 0.05,
+    "revenueActual": 141644000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2004-07-15",
+    "epsActual": 0.02,
+    "epsEstimated": 0.02304,
+    "revenueActual": 120321000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2004-04-15",
+    "epsActual": -0.00161,
+    "epsEstimated": null,
+    "revenueActual": 100370000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2004-01-21",
+    "epsActual": 0.00063,
+    "epsEstimated": null,
+    "revenueActual": 81185000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2003-10-15",
+    "epsActual": 0.00075,
+    "epsEstimated": null,
+    "revenueActual": 72202000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2003-07-17",
+    "epsActual": 0.00077,
+    "epsEstimated": null,
+    "revenueActual": 63187000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2003-04-17",
+    "epsActual": -0.00142,
+    "epsEstimated": null,
+    "revenueActual": 55669000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2003-03-31",
+    "epsActual": -0.00073,
+    "epsEstimated": null,
+    "revenueActual": 45188000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2003-01-15",
+    "epsActual": -0.00055,
+    "epsEstimated": null,
+    "revenueActual": 40731000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2002-08-14",
+    "epsActual": -0.00939,
+    "epsEstimated": null,
+    "revenueActual": 36360000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2002-03-31",
+    "epsActual": -0.00787,
+    "epsEstimated": null,
+    "revenueActual": 30527000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-12-09"
+  }
+]

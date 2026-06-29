@@ -1,0 +1,91 @@
+[
+  {
+    "symbol": "UBER",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Delivery": 17248000000,
+      "Freight": 5099000000,
+      "Mobility": 29670000000
+    }
+  },
+  {
+    "symbol": "UBER",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Delivery": 13750000000,
+      "Freight": 5141000000,
+      "Mobility": 25087000000
+    }
+  },
+  {
+    "symbol": "UBER",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Delivery": 12204000000,
+      "Freight": 5245000000,
+      "Mobility": 19832000000
+    }
+  },
+  {
+    "symbol": "UBER",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Delivery": 10901000000,
+      "Freight": 6947000000,
+      "Mobility": 14029000000
+    }
+  },
+  {
+    "symbol": "UBER",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "All Other Revenue": 8000000,
+      "Delivery": 8362000000,
+      "Freight": 2132000000,
+      "Mobility": 6953000000
+    }
+  },
+  {
+    "symbol": "UBER",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "ATG And Other Technology Programs": 100000000,
+      "Delivery": 3904000000,
+      "Freight": 1011000000,
+      "All Other Revenue": 35000000,
+      "Mobility": 6089000000
+    }
+  },
+  {
+    "symbol": "UBER",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "ATG And Other Technology Programs": 42000000,
+      "Eats": 2510000000,
+      "Freight": 731000000,
+      "Other Bets": 119000000,
+      "Rides": 10745000000
+    }
+  }
+]

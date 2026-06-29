@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "SCL",
+    "date": "2026-01-23",
+    "gradingCompany": "Seaport Global",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "SCL",
+    "date": "2023-10-19",
+    "gradingCompany": "CL King",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "SCL",
+    "date": "2021-01-11",
+    "gradingCompany": "Seaport Global",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "SCL",
+    "date": "2020-06-18",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "SCL",
+    "date": "2020-03-24",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "SCL",
+    "date": "2016-08-24",
+    "gradingCompany": "Seaport Global",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  }
+]

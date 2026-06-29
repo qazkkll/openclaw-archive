@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "TAC",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "CAD",
+    "date": "2022-12-31",
+    "data": {
+      "AUSTRALIA": 131000000,
+      "CANADA": 1905000000,
+      "UNITED STATES": 940000000
+    }
+  },
+  {
+    "symbol": "TAC",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "CAD",
+    "date": "2018-12-31",
+    "data": {
+      "AUSTRALIA": 165000000,
+      "CANADA": 1573000000,
+      "UNITED STATES": 511000000
+    }
+  },
+  {
+    "symbol": "TAC",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "CAD",
+    "date": "2017-12-31",
+    "data": {
+      "AUSTRALIA": 135000000,
+      "CANADA": 1663000000,
+      "UNITED STATES": 509000000
+    }
+  }
+]

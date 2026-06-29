@@ -1,0 +1,930 @@
+[
+  {
+    "symbol": "PDS",
+    "date": "2026-03-23",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2026-03-02",
+    "gradingCompany": "Freedom Broker",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2026-02-17",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2026-02-13",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2025-12-18",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2025-10-29",
+    "gradingCompany": "Freedom Broker",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2025-10-28",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2025-10-24",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2025-08-14",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2025-07-31",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2021-03-25",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Tudor Pickering",
+    "previousGrade": "Accumulate",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Citi",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Wells Fargo",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Outperform",
+    "newGrade": "Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Outperform",
+    "newGrade": "Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "PiperJaffray",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Piper Jaffray",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "ScotiaBank",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "PiperJaffray",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-11-25",
+    "gradingCompany": "TD Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-07-08",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-05-28",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2020-04-15",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2019-11-21",
+    "gradingCompany": "Wolfe Research",
+    "previousGrade": "Peer Perform",
+    "newGrade": "Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2019-10-23",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Sector Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2019-10-23",
+    "gradingCompany": "ScotiaBank",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Sector Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2019-10-07",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2019-09-30",
+    "gradingCompany": "Citi",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2019-09-30",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2019-07-30",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2019-07-30",
+    "gradingCompany": "Piper Jaffray",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2019-07-12",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2019-03-15",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2018-11-29",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2018-11-05",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2018-07-27",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2018-07-12",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2018-04-11",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2018-02-27",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-10-10",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-09-18",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-09-18",
+    "gradingCompany": "PiperJaffray",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-09-12",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-06-29",
+    "gradingCompany": "PiperJaffray",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-06-29",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-06-21",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-04-26",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-04-11",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-02-22",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Underperform",
+    "newGrade": "Sector Perform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-01-19",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-01-13",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2017-01-04",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-12-14",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-12-08",
+    "gradingCompany": "Wolfe Research",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-10-24",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Underperform",
+    "newGrade": "Sector Perform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-09-15",
+    "gradingCompany": "DA Davidson",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-09-06",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Underperform",
+    "newGrade": "Hold",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-07-11",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Underweight",
+    "newGrade": "Underweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-06-01",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-05-31",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-04-25",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-04-20",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-04-19",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-03-21",
+    "gradingCompany": "TD Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-02-02",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-02-02",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2016-01-29",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2015-09-04",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2015-07-24",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2015-05-29",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2015-04-21",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Outperform",
+    "newGrade": "Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2015-04-21",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Outperform",
+    "newGrade": "Sector Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2015-04-13",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2015-03-27",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2015-02-13",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2015-02-02",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2014-11-18",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2014-07-25",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2014-06-19",
+    "gradingCompany": "Clarksons Platou",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2014-04-29",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2014-04-29",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2014-04-16",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-12-06",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-12-06",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-08-12",
+    "gradingCompany": "Tudor Pickering",
+    "previousGrade": "Accumulate",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-07-29",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-07-26",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-02-22",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-02-15",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-01-24",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Outperform",
+    "newGrade": "Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-01-24",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-01-22",
+    "gradingCompany": "TD Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2013-01-07",
+    "gradingCompany": "Scotia Howard Weil",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2012-11-06",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2012-10-26",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2012-10-17",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Underweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2012-10-03",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "PDS",
+    "date": "2012-09-13",
+    "gradingCompany": "Wells Fargo",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  }
+]

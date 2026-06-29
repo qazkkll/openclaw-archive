@@ -1,0 +1,830 @@
+[
+  {
+    "symbol": "MORN",
+    "date": "2026-07-29",
+    "epsActual": null,
+    "epsEstimated": 2.82,
+    "revenueActual": null,
+    "revenueEstimated": 647865400,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2026-04-29",
+    "epsActual": 3.18,
+    "epsEstimated": 2.41,
+    "revenueActual": 644800000,
+    "revenueEstimated": 626910400,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2026-02-12",
+    "epsActual": 2.71,
+    "epsEstimated": 2.36,
+    "revenueActual": 641100000,
+    "revenueEstimated": 634426200,
+    "lastUpdated": "2026-05-12"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2025-10-29",
+    "epsActual": 2.55,
+    "epsEstimated": 2.34,
+    "revenueActual": 617400000,
+    "revenueEstimated": 634426200,
+    "lastUpdated": "2026-01-29"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2025-07-30",
+    "epsActual": 2.4,
+    "epsEstimated": 2.21,
+    "revenueActual": 605100000,
+    "revenueEstimated": 605840100,
+    "lastUpdated": "2025-10-30"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2025-04-30",
+    "epsActual": 2.23,
+    "epsEstimated": 2.06,
+    "revenueActual": 581900000,
+    "revenueEstimated": 585832443,
+    "lastUpdated": "2025-07-30"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2025-02-26",
+    "epsActual": 2.14,
+    "epsEstimated": 2.06,
+    "revenueActual": 591000000,
+    "revenueEstimated": 580837003,
+    "lastUpdated": "2025-05-26"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2024-10-23",
+    "epsActual": 2,
+    "epsEstimated": 2.01,
+    "revenueActual": 569400000,
+    "revenueEstimated": 576597600,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2024-07-24",
+    "epsActual": 2.01,
+    "epsEstimated": null,
+    "revenueActual": 570500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2024-04-24",
+    "epsActual": 1.73,
+    "epsEstimated": null,
+    "revenueActual": 544000000,
+    "revenueEstimated": 2302980000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2024-02-22",
+    "epsActual": 1.97,
+    "epsEstimated": null,
+    "revenueActual": 542400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2023-10-25",
+    "epsActual": 1.28,
+    "epsEstimated": null,
+    "revenueActual": 515500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2023-07-26",
+    "epsActual": 1.6,
+    "epsEstimated": null,
+    "revenueActual": 504700000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2023-04-26",
+    "epsActual": 0.56,
+    "epsEstimated": null,
+    "revenueActual": 479700000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2023-02-23",
+    "epsActual": 0.58,
+    "epsEstimated": null,
+    "revenueActual": 475000000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2022-10-26",
+    "epsActual": 0.77,
+    "epsEstimated": null,
+    "revenueActual": 468200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2022-07-27",
+    "epsActual": 1.17,
+    "epsEstimated": null,
+    "revenueActual": 470400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2022-04-28",
+    "epsActual": -80,
+    "epsEstimated": null,
+    "revenueActual": 16300000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2022-04-27",
+    "epsActual": 1.41,
+    "epsEstimated": null,
+    "revenueActual": 457000000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2022-02-24",
+    "epsActual": 1.5,
+    "epsEstimated": null,
+    "revenueActual": 462200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2021-10-28",
+    "epsActual": -71.4,
+    "epsEstimated": null,
+    "revenueActual": 20100000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2021-10-27",
+    "epsActual": 1.38,
+    "epsEstimated": null,
+    "revenueActual": 428900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2021-07-28",
+    "epsActual": 1.76,
+    "epsEstimated": null,
+    "revenueActual": 415400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2021-04-28",
+    "epsActual": 1.73,
+    "epsEstimated": null,
+    "revenueActual": 392800000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2021-02-18",
+    "epsActual": 1.57,
+    "epsEstimated": null,
+    "revenueActual": 380400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2020-10-28",
+    "epsActual": 1.55,
+    "epsEstimated": null,
+    "revenueActual": 357200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2020-07-29",
+    "epsActual": 1.43,
+    "epsEstimated": null,
+    "revenueActual": 327900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2020-04-29",
+    "epsActual": 0.84,
+    "epsEstimated": null,
+    "revenueActual": 324000000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2020-02-20",
+    "epsActual": 0.94,
+    "epsEstimated": null,
+    "revenueActual": 332400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2019-10-23",
+    "epsActual": 1.39,
+    "epsEstimated": null,
+    "revenueActual": 313800000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2019-07-25",
+    "epsActual": 0.98,
+    "epsEstimated": null,
+    "revenueActual": 273900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2019-04-24",
+    "epsActual": 0.77,
+    "epsEstimated": null,
+    "revenueActual": 258900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2019-02-21",
+    "epsActual": 0.99,
+    "epsEstimated": null,
+    "revenueActual": 262700000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2018-10-24",
+    "epsActual": 1.13,
+    "epsEstimated": null,
+    "revenueActual": 261300000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2018-07-25",
+    "epsActual": 0.97,
+    "epsEstimated": null,
+    "revenueActual": 252400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2018-04-25",
+    "epsActual": 0.72,
+    "epsEstimated": null,
+    "revenueActual": 243500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2018-02-20",
+    "epsActual": 0.91,
+    "epsEstimated": null,
+    "revenueActual": 243100000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2017-10-25",
+    "epsActual": 0.79,
+    "epsEstimated": null,
+    "revenueActual": 229900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2017-07-25",
+    "epsActual": 0.65,
+    "epsEstimated": null,
+    "revenueActual": 229200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2017-04-21",
+    "epsActual": 0.42,
+    "epsEstimated": 0.7,
+    "revenueActual": 209500000,
+    "revenueEstimated": 349166666,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2017-02-21",
+    "epsActual": 0.77,
+    "epsEstimated": 0.77,
+    "revenueActual": 212200000,
+    "revenueEstimated": 70428448,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2016-10-20",
+    "epsActual": 0.7,
+    "epsEstimated": 0.77,
+    "revenueActual": 196100000,
+    "revenueEstimated": 215710000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2016-07-21",
+    "epsActual": 0.73,
+    "epsEstimated": 0.73,
+    "revenueActual": 198200000,
+    "revenueEstimated": 198200000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2016-04-21",
+    "epsActual": 0.67,
+    "epsEstimated": 0.73,
+    "revenueActual": 192100000,
+    "revenueEstimated": 209302985,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2016-02-17",
+    "epsActual": 0.85,
+    "epsEstimated": 0.8,
+    "revenueActual": 201600000,
+    "revenueEstimated": 189741176,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2015-10-21",
+    "epsActual": 0.76,
+    "epsEstimated": 0.83,
+    "revenueActual": 195300000,
+    "revenueEstimated": 213288157,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2015-07-22",
+    "epsActual": 0.72,
+    "epsEstimated": 0.69,
+    "revenueActual": 202100000,
+    "revenueEstimated": 193679166,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2015-04-22",
+    "epsActual": 0.67,
+    "epsEstimated": 0.68,
+    "revenueActual": 189800000,
+    "revenueEstimated": 192632835,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2015-02-11",
+    "epsActual": 0.71,
+    "epsEstimated": 0.66,
+    "revenueActual": 196415000,
+    "revenueEstimated": 182582957,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2014-10-22",
+    "epsActual": 0.67,
+    "epsEstimated": 0.7,
+    "revenueActual": 193106000,
+    "revenueEstimated": 201752537,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2014-07-23",
+    "epsActual": 0.67,
+    "epsEstimated": 0.65,
+    "revenueActual": 189385000,
+    "revenueEstimated": 198403333,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2014-04-23",
+    "epsActual": 0.58,
+    "epsEstimated": 0.67,
+    "revenueActual": 181165000,
+    "revenueEstimated": 209276810,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2014-02-12",
+    "epsActual": 0.68,
+    "epsEstimated": 0.77,
+    "revenueActual": 180500000,
+    "revenueEstimated": 204389705,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2013-10-23",
+    "epsActual": 0.68,
+    "epsEstimated": 0.61,
+    "revenueActual": 173482000,
+    "revenueEstimated": 155623558,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2013-07-24",
+    "epsActual": 0.66,
+    "epsEstimated": 0.66,
+    "revenueActual": 175428000,
+    "revenueEstimated": 175428000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2013-04-24",
+    "epsActual": 0.63,
+    "epsEstimated": 0.58,
+    "revenueActual": 168856000,
+    "revenueEstimated": 155454730,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2013-02-13",
+    "epsActual": 0.58,
+    "epsEstimated": 0.56,
+    "revenueActual": 170609000,
+    "revenueEstimated": 164725931,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2012-10-24",
+    "epsActual": 0.56,
+    "epsEstimated": 0.5,
+    "revenueActual": 160952000,
+    "revenueEstimated": 143707142,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2012-07-25",
+    "epsActual": 0.56,
+    "epsEstimated": 0.53,
+    "revenueActual": 165968000,
+    "revenueEstimated": 157076857,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2012-04-25",
+    "epsActual": 0.4,
+    "epsEstimated": 0.51,
+    "revenueActual": 160759000,
+    "revenueEstimated": 204967725,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2012-02-15",
+    "epsActual": 0.55,
+    "epsEstimated": 0.56,
+    "revenueActual": 158571000,
+    "revenueEstimated": 161454109,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2011-10-26",
+    "epsActual": 0.42,
+    "epsEstimated": 0.55,
+    "revenueActual": 160051000,
+    "revenueEstimated": 209590595,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2011-07-27",
+    "epsActual": 0.52,
+    "epsEstimated": 0.57,
+    "revenueActual": 161011000,
+    "revenueEstimated": 176492826,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2011-04-27",
+    "epsActual": 0.48,
+    "epsEstimated": 0.46,
+    "revenueActual": 151767000,
+    "revenueEstimated": 145443375,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2011-02-17",
+    "epsActual": 0.46,
+    "epsEstimated": 0.45,
+    "revenueActual": 151153000,
+    "revenueEstimated": 147867065,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2010-10-27",
+    "epsActual": 0.43,
+    "epsEstimated": 0.47,
+    "revenueActual": 139817000,
+    "revenueEstimated": 152823232,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2010-07-28",
+    "epsActual": 0.36,
+    "epsEstimated": 0.5,
+    "revenueActual": 136091000,
+    "revenueEstimated": 189015277,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2010-04-28",
+    "epsActual": 0.4,
+    "epsEstimated": 0.48,
+    "revenueActual": 128290000,
+    "revenueEstimated": 153948000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2010-02-18",
+    "epsActual": 0.29,
+    "epsEstimated": 0.42,
+    "revenueActual": 122643000,
+    "revenueEstimated": 177620896,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2009-10-29",
+    "epsActual": 0.45,
+    "epsEstimated": 0.43,
+    "revenueActual": 120088000,
+    "revenueEstimated": 114750755,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2009-07-30",
+    "epsActual": 0.48,
+    "epsEstimated": 0.47,
+    "revenueActual": 119533000,
+    "revenueEstimated": 117042729,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2009-04-30",
+    "epsActual": 0.51,
+    "epsEstimated": 0.39,
+    "revenueActual": 116732000,
+    "revenueEstimated": 89265647,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2009-02-19",
+    "epsActual": 0.39,
+    "epsEstimated": 0.43,
+    "revenueActual": 119271000,
+    "revenueEstimated": 131503923,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2008-10-30",
+    "epsActual": 0.45,
+    "epsEstimated": 0.51,
+    "revenueActual": 125505000,
+    "revenueEstimated": 142239000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2008-07-31",
+    "epsActual": 0.57,
+    "epsEstimated": 0.49,
+    "revenueActual": 132237000,
+    "revenueEstimated": 113677421,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2008-05-01",
+    "epsActual": 0.47,
+    "epsEstimated": 0.44,
+    "revenueActual": 125444000,
+    "revenueEstimated": 117436936,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2008-02-21",
+    "epsActual": 0.41,
+    "epsEstimated": 0.43,
+    "revenueActual": 118116000,
+    "revenueEstimated": 123877756,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2007-11-01",
+    "epsActual": 0.41,
+    "epsEstimated": 0.39,
+    "revenueActual": 111859000,
+    "revenueEstimated": 106402463,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2007-08-02",
+    "epsActual": 0.38,
+    "epsEstimated": 0.35,
+    "revenueActual": 109685000,
+    "revenueEstimated": 101025657,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2007-05-03",
+    "epsActual": 0.33,
+    "epsEstimated": 0.36,
+    "revenueActual": 95447000,
+    "revenueEstimated": 104123999,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2007-02-22",
+    "epsActual": 0.29,
+    "epsEstimated": 0.28,
+    "revenueActual": 87037000,
+    "revenueEstimated": 84035724,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2006-11-02",
+    "epsActual": 0.29,
+    "epsEstimated": 0.28,
+    "revenueActual": 81821000,
+    "revenueEstimated": 78999586,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2006-08-03",
+    "epsActual": 0.24,
+    "epsEstimated": 0.28,
+    "revenueActual": 76257000,
+    "revenueEstimated": 88966500,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2006-05-04",
+    "epsActual": 0.29,
+    "epsEstimated": 0.21,
+    "revenueActual": 70060000,
+    "revenueEstimated": 50733103,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2006-02-23",
+    "epsActual": 0.22,
+    "epsEstimated": 0.2,
+    "revenueActual": 60740000,
+    "revenueEstimated": 55218181,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2005-11-14",
+    "epsActual": 0.1658,
+    "epsEstimated": null,
+    "revenueActual": 56927000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2005-11-09",
+    "epsActual": 0.17,
+    "epsEstimated": 0.19,
+    "revenueActual": 56243000,
+    "revenueEstimated": 63624294,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2005-05-18",
+    "epsActual": 0.09331,
+    "epsEstimated": null,
+    "revenueActual": 53204000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2004-12-31",
+    "epsActual": -0.02963,
+    "epsEstimated": null,
+    "revenueActual": 48714000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2004-09-30",
+    "epsActual": 0.09787,
+    "epsEstimated": null,
+    "revenueActual": 46573000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2004-06-30",
+    "epsActual": 0.03248,
+    "epsEstimated": null,
+    "revenueActual": 43244000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "MORN",
+    "date": "2004-03-31",
+    "epsActual": 0.1085,
+    "epsEstimated": null,
+    "revenueActual": 41127000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  }
+]

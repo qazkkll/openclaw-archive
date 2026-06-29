@@ -1,0 +1,76 @@
+[
+  {
+    "symbol": "PRVA",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Capitated Revenue": 308458000,
+      "Care Management Fee (PMPM)": 73138000,
+      "FFS-Administrative Services": 137017000,
+      "FFS-Patient Care": 1360235000,
+      "Other Revenue": 9179000,
+      "Shared Savings": 234815000
+    }
+  },
+  {
+    "symbol": "PRVA",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Capitated Revenue": 212987000,
+      "Care Management Fee (PMPM)": 64066000,
+      "FFS-Administrative Services": 125431000,
+      "FFS-Patient Care": 1146156000,
+      "Other Revenue": 8548000,
+      "Shared Savings": 179202000
+    }
+  },
+  {
+    "symbol": "PRVA",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Capitated Revenue": 338729000,
+      "Care Management Fee (PMPM)": 50519000,
+      "FFS-Administrative Services": 113154000,
+      "FFS-Patient Care": 976688000,
+      "Other Revenue": 8504000,
+      "Shared Savings": 170143000
+    }
+  },
+  {
+    "symbol": "PRVA",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Capitated Revenue": 218463000,
+      "Care Management Fee (PMPM)": 35541000,
+      "FFS-Administrative Services": 94929000,
+      "FFS-Patient Care": 869165000,
+      "Other Revenue": 5947000,
+      "Shared Savings": 132615000
+    }
+  },
+  {
+    "symbol": "PRVA",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Care Management Fee (PMPM)": 36503000,
+      "FFS-Administrative Services": 68805000,
+      "FFS-Patient Care": 772482000,
+      "Other Revenue": 5414000,
+      "Shared Savings": 83016000
+    }
+  }
+]

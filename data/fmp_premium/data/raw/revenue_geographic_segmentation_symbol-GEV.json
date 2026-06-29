@@ -1,0 +1,28 @@
+[
+  {
+    "symbol": "GEV",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-12-31",
+    "data": {
+      "Americas, Excluding U.S.": 3116000000,
+      "Asia": 4629000000,
+      "Europe": 7594000000,
+      "Middle East and Africa": 5389000000,
+      "Non-US": 20728000000,
+      "UNITED STATES": 17341000000
+    }
+  },
+  {
+    "symbol": "GEV",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Non-US": 20256000000,
+      "UNITED STATES": 14679000000
+    }
+  }
+]

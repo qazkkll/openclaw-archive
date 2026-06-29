@@ -1,0 +1,51 @@
+[
+  {
+    "symbol": "BRO",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "UNITED KINGDOM": 599000000,
+      "UNITED STATES": 5059000000
+    }
+  },
+  {
+    "symbol": "BRO",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "CANADA": 40000000,
+      "IRELAND": 48000000,
+      "UNITED KINGDOM": 545000000,
+      "UNITED STATES": 4140000000
+    }
+  },
+  {
+    "symbol": "BRO",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "CANADA": 35400000,
+      "UNITED KINGDOM": 432700000,
+      "UNITED STATES": 3730100000
+    }
+  },
+  {
+    "symbol": "BRO",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "CANADA": 23600000,
+      "IRELAND": 38100000,
+      "UNITED KINGDOM": 170000000,
+      "UNITED STATES": 3332800000
+    }
+  }
+]

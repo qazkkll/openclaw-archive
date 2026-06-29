@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """
-🦅 Falcon Smart Alert Checker — 动态告警推送（去重版）
+🦅 Falcon Smart Alert Checker — 动态告警推送（去重v2）
 ====================================================
-核心规则：同一个ticker+类型，30分钟内只推一次。
-Observer每5分钟写pending.json，本脚本负责去重。
+规则：
+- 无持仓 → 只推L3（止损级），L1/L2静默
+- 有持仓 → L2/L3推，L1静默（除非盘中首次触发）
+- 同ticker+type 4小时内不重复推
+- 盘后/盘前只推L3
 
 用法 (Hermes cron no_agent=True):
   stdout有内容 → 推Telegram
@@ -15,11 +18,11 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 # ── Paths ──
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
+PROJECT_ROOT = Path.home() / ".hermes" / "openclaw-archive"
 DATA_DIR = PROJECT_ROOT / "data" / "falcon"
 PENDING_ALERTS = DATA_DIR / "alerts" / "pending.json"
 STATE_FILE = DATA_DIR / "alerts" / "checker_state.json"
+POSITIONS_FILE = DATA_DIR / "trades" / "positions.json"
 
 # ── Timezone ──
 try:
@@ -41,8 +44,8 @@ MARKET_OPEN = 9.5
 MARKET_CLOSE = 16
 POSTMARKET_END = 20
 
-# ── 去重窗口：同ticker+type 30分钟内不重复推 ──
-DEDUP_WINDOW_SEC = 1800
+# ── 去重窗口：同ticker+type 4小时内不重复推 ──
+DEDUP_WINDOW_SEC = 14400  # 4 hours
 
 def get_session(now_et: datetime) -> str:
     hour = now_et.hour + now_et.minute / 60
@@ -56,6 +59,22 @@ def get_session(now_et: datetime) -> str:
         return "postmarket"
     else:
         return "closed"
+
+
+def get_portfolio_tickers() -> set:
+    """读取当前持仓ticker"""
+    if not POSITIONS_FILE.exists():
+        return set()
+    try:
+        with open(POSITIONS_FILE) as f:
+            data = json.load(f)
+        if isinstance(data, list):
+            return {p.get("ticker", "") for p in data if p.get("ticker")}
+        elif isinstance(data, dict):
+            return {k for k in data.keys()}
+    except Exception:
+        pass
+    return set()
 
 
 def classify_alert(alert: dict) -> str:
@@ -77,7 +96,6 @@ def classify_alert(alert: dict) -> str:
 
 
 def alert_fingerprint(alert: dict) -> str:
-    """生成告警指纹：type+ticker（价格变化>1%视为新告警）"""
     atype = alert.get("type", "unknown")
     ticker = alert.get("ticker", "?")
     return f"{atype}:{ticker}"
@@ -108,12 +126,15 @@ def main():
     if session == "closed":
         return
 
+    # ── 读取持仓 ──
+    portfolio = get_portfolio_tickers()
+    has_positions = len(portfolio) > 0
+
     state = load_state()
 
     # ── 读取告警 ──
     if not PENDING_ALERTS.exists():
         return
-
     try:
         with open(PENDING_ALERTS) as f:
             alerts = json.load(f)
@@ -123,9 +144,8 @@ def main():
     if not alerts or not isinstance(alerts, list):
         return
 
-    # ── 核心去重：过滤掉30分钟内已推过的 ──
+    # ── 核心去重 ──
     sent = state.get("sent_alerts", {})
-    # 清理过期的sent记录
     sent = {k: v for k, v in sent.items() if now_ts - v < DEDUP_WINDOW_SEC * 2}
 
     new_alerts = []
@@ -135,7 +155,7 @@ def main():
         if now_ts - last_sent >= DEDUP_WINDOW_SEC:
             new_alerts.append(a)
 
-    # 清空pending（不管是否new都清，避免Observer重复写）
+    # 清空pending
     try:
         with open(PENDING_ALERTS, "w") as f:
             json.dump([], f)
@@ -143,26 +163,55 @@ def main():
         pass
 
     if not new_alerts:
-        # 全部是重复的，不推
         state["sent_alerts"] = sent
         save_state(state)
         return
 
     # ── 分级 ──
-    max_level = "L1"
+    classified = []
     for a in new_alerts:
         lv = classify_alert(a)
-        if lv == "L3":
-            max_level = "L3"
-            break
-        elif lv == "L2":
-            max_level = "L2"
+        ticker = a.get("ticker", "?")
+        is_holding = ticker in portfolio
+        classified.append((a, lv, is_holding))
 
-    # ── 盘前/盘后: 只推L2+ ──
-    if session in ("premarket", "postmarket") and max_level == "L1":
-        # 记录为已发送（避免下次重复），但不推
-        for a in new_alerts:
-            sent[alert_fingerprint(a)] = now_ts
+    # ── 过滤规则 ──
+    # 无持仓：只推L3
+    # 有持仓：推L2+持仓的L1，非持仓的L1静默
+    # 盘前/盘后：只推L3
+    to_push = []
+    to_mark_sent = []
+
+    for a, lv, is_holding in classified:
+        if session in ("premarket", "postmarket"):
+            if lv == "L3":
+                to_push.append((a, lv))
+            else:
+                to_mark_sent.append(a)
+        elif not has_positions:
+            # 无持仓：只推L3
+            if lv == "L3":
+                to_push.append((a, lv))
+            else:
+                to_mark_sent.append(a)
+        else:
+            # 有持仓：持仓股推L2+，非持仓只推L3
+            if lv == "L3":
+                to_push.append((a, lv))
+            elif lv == "L2" and is_holding:
+                to_push.append((a, lv))
+            elif lv == "L2" and not is_holding:
+                # 非持仓的L2降级为L1静默
+                to_mark_sent.append(a)
+            else:
+                # L1静默
+                to_mark_sent.append(a)
+
+    # 标记静默的为已发送
+    for a in to_mark_sent:
+        sent[alert_fingerprint(a)] = now_ts
+
+    if not to_push:
         state["sent_alerts"] = sent
         save_state(state)
         return
@@ -170,15 +219,16 @@ def main():
     # ── 格式化输出 ──
     lines = ["🦅 **Falcon 异动告警**"]
     lines.append(f"⏰ {now_et.strftime('%H:%M ET')} | {session}")
+    if not has_positions:
+        lines.append("📋 无持仓 | 仅推止损级告警")
     lines.append("")
 
-    l3 = [a for a in new_alerts if classify_alert(a) == "L3"]
-    l2 = [a for a in new_alerts if classify_alert(a) == "L2"]
-    l1 = [a for a in new_alerts if classify_alert(a) == "L1"]
+    l3 = [(a, lv) for a, lv in to_push if lv == "L3"]
+    l2 = [(a, lv) for a, lv in to_push if lv == "L2"]
 
     if l3:
         lines.append("🔴 **L3 警报**")
-        for a in l3:
+        for a, _ in l3:
             lines.append(f"  {a['message']}")
             analysis = a.get("analysis", {})
             if analysis:
@@ -191,7 +241,7 @@ def main():
 
     if l2:
         lines.append("🟠 **L2 关注**")
-        for a in l2:
+        for a, _ in l2:
             lines.append(f"  {a['message']}")
             analysis = a.get("analysis", {})
             if analysis:
@@ -202,23 +252,17 @@ def main():
                     lines.append(f"  → {rec_map.get(rec, rec)}: {reasoning}")
         lines.append("")
 
-    if l1:
-        lines.append("🟡 **L1 观察**")
-        for a in l1:
-            lines.append(f"  {a['message']}")
-        lines.append("")
+    lines.append(f"共 {len(to_push)} 条新增")
 
-    lines.append(f"共 {len(new_alerts)} 条新增")
-
-    # 输出
     print("\n".join(lines))
 
     # 记录已发送
-    for a in new_alerts:
+    for a, _ in to_push:
         sent[alert_fingerprint(a)] = now_ts
     state["sent_alerts"] = sent
     state["last_push_ts"] = now_ts
-    state["last_level"] = max_level
+    max_lv = "L3" if l3 else ("L2" if l2 else "L1")
+    state["last_level"] = max_lv
     save_state(state)
 
 

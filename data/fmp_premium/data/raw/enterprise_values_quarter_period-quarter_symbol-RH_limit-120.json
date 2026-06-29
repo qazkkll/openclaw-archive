@@ -1,0 +1,942 @@
+[
+  {
+    "symbol": "RH",
+    "date": "2026-01-31",
+    "stockPrice": 198.83,
+    "numberOfShares": 18787708,
+    "marketCapitalization": 3735559981,
+    "minusCashAndCashEquivalents": 41191000,
+    "addTotalDebt": 3969318000,
+    "enterpriseValue": 7663686981
+  },
+  {
+    "symbol": "RH",
+    "date": "2025-11-01",
+    "stockPrice": 172.49,
+    "numberOfShares": 18760088,
+    "marketCapitalization": 3235927579,
+    "minusCashAndCashEquivalents": 43086000,
+    "addTotalDebt": 3971019000,
+    "enterpriseValue": 7163860579
+  },
+  {
+    "symbol": "RH",
+    "date": "2025-08-02",
+    "stockPrice": 200.76,
+    "numberOfShares": 18737234,
+    "marketCapitalization": 3761687097,
+    "minusCashAndCashEquivalents": 34560000,
+    "addTotalDebt": 3911856000,
+    "enterpriseValue": 7638983097
+  },
+  {
+    "symbol": "RH",
+    "date": "2025-05-03",
+    "stockPrice": 196.56,
+    "numberOfShares": 18729000,
+    "marketCapitalization": 3681372240,
+    "minusCashAndCashEquivalents": 46084000,
+    "addTotalDebt": 3938114000,
+    "enterpriseValue": 7573402240
+  },
+  {
+    "symbol": "RH",
+    "date": "2025-01-31",
+    "stockPrice": 419.11,
+    "numberOfShares": 18632000,
+    "marketCapitalization": 7808857520,
+    "minusCashAndCashEquivalents": 30413000,
+    "addTotalDebt": 3937889000,
+    "enterpriseValue": 11716333520
+  },
+  {
+    "symbol": "RH",
+    "date": "2024-11-02",
+    "stockPrice": 322.77,
+    "numberOfShares": 18535000,
+    "marketCapitalization": 5982541950,
+    "minusCashAndCashEquivalents": 87012000,
+    "addTotalDebt": 3860693000,
+    "enterpriseValue": 9756222950
+  },
+  {
+    "symbol": "RH",
+    "date": "2024-08-03",
+    "stockPrice": 257.59,
+    "numberOfShares": 18458000,
+    "marketCapitalization": 4754596220,
+    "minusCashAndCashEquivalents": 78333000,
+    "addTotalDebt": 3749110000,
+    "enterpriseValue": 8425373220
+  },
+  {
+    "symbol": "RH",
+    "date": "2024-05-04",
+    "stockPrice": 275.05,
+    "numberOfShares": 18324454,
+    "marketCapitalization": 5040141072,
+    "minusCashAndCashEquivalents": 101787000,
+    "addTotalDebt": 3688314000,
+    "enterpriseValue": 8626668072
+  },
+  {
+    "symbol": "RH",
+    "date": "2024-01-31",
+    "stockPrice": 253.48,
+    "numberOfShares": 18268580,
+    "marketCapitalization": 4630719658,
+    "minusCashAndCashEquivalents": 123688000,
+    "addTotalDebt": 3716368000,
+    "enterpriseValue": 8223399658
+  },
+  {
+    "symbol": "RH",
+    "date": "2023-10-28",
+    "stockPrice": 213.13,
+    "numberOfShares": 18371545,
+    "marketCapitalization": 3915527385,
+    "minusCashAndCashEquivalents": 382655000,
+    "addTotalDebt": 3797870000,
+    "enterpriseValue": 7330742385
+  },
+  {
+    "symbol": "RH",
+    "date": "2023-07-29",
+    "stockPrice": 387.29,
+    "numberOfShares": 20960329,
+    "marketCapitalization": 8117725818,
+    "minusCashAndCashEquivalents": 420585000,
+    "addTotalDebt": 3736514000,
+    "enterpriseValue": 11433654818
+  },
+  {
+    "symbol": "RH",
+    "date": "2023-04-29",
+    "stockPrice": 255.13,
+    "numberOfShares": 22047029,
+    "marketCapitalization": 5624858508,
+    "minusCashAndCashEquivalents": 1516689000,
+    "addTotalDebt": 3739679000,
+    "enterpriseValue": 7847848508
+  },
+  {
+    "symbol": "RH",
+    "date": "2023-01-31",
+    "stockPrice": 311.99,
+    "numberOfShares": 23326866,
+    "marketCapitalization": 7277748923,
+    "minusCashAndCashEquivalents": 1508101000,
+    "addTotalDebt": 3749513000,
+    "enterpriseValue": 9519160923
+  },
+  {
+    "symbol": "RH",
+    "date": "2022-10-29",
+    "stockPrice": 255.58,
+    "numberOfShares": 23681482,
+    "marketCapitalization": 6052513169,
+    "minusCashAndCashEquivalents": 2150466000,
+    "addTotalDebt": 3770249000,
+    "enterpriseValue": 7672296169
+  },
+  {
+    "symbol": "RH",
+    "date": "2022-07-30",
+    "stockPrice": 279.43,
+    "numberOfShares": 24475373,
+    "marketCapitalization": 6839153477,
+    "minusCashAndCashEquivalents": 2085706000,
+    "addTotalDebt": 3763736000,
+    "enterpriseValue": 8517183477
+  },
+  {
+    "symbol": "RH",
+    "date": "2022-04-30",
+    "stockPrice": 336.12,
+    "numberOfShares": 27799311,
+    "marketCapitalization": 9343904413,
+    "minusCashAndCashEquivalents": 2243255000,
+    "addTotalDebt": 3604758000,
+    "enterpriseValue": 10705407413
+  },
+  {
+    "symbol": "RH",
+    "date": "2022-01-31",
+    "stockPrice": 402.82,
+    "numberOfShares": 21481352,
+    "marketCapitalization": 8653118212,
+    "minusCashAndCashEquivalents": 2177889000,
+    "addTotalDebt": 3434817000,
+    "enterpriseValue": 9910046212
+  },
+  {
+    "symbol": "RH",
+    "date": "2021-10-30",
+    "stockPrice": 659.63,
+    "numberOfShares": 21430557,
+    "marketCapitalization": 14136238313,
+    "minusCashAndCashEquivalents": 2198961000,
+    "addTotalDebt": 3542773000,
+    "enterpriseValue": 15480050313
+  },
+  {
+    "symbol": "RH",
+    "date": "2021-07-31",
+    "stockPrice": 664.08,
+    "numberOfShares": 21166638,
+    "marketCapitalization": 14056340963,
+    "minusCashAndCashEquivalents": 291461000,
+    "addTotalDebt": 1767372000,
+    "enterpriseValue": 15532251963
+  },
+  {
+    "symbol": "RH",
+    "date": "2021-05-01",
+    "stockPrice": 688.02,
+    "numberOfShares": 21003244,
+    "marketCapitalization": 14450651936,
+    "minusCashAndCashEquivalents": 229527000,
+    "addTotalDebt": 1726687000,
+    "enterpriseValue": 15947811936
+  },
+  {
+    "symbol": "RH",
+    "date": "2021-01-31",
+    "stockPrice": 484.04,
+    "numberOfShares": 20518130,
+    "marketCapitalization": 9931595645,
+    "minusCashAndCashEquivalents": 100446000,
+    "addTotalDebt": 1622169000,
+    "enterpriseValue": 11453318645
+  },
+  {
+    "symbol": "RH",
+    "date": "2020-10-31",
+    "stockPrice": 335.23,
+    "numberOfShares": 19552836,
+    "marketCapitalization": 6554697212,
+    "minusCashAndCashEquivalents": 94284000,
+    "addTotalDebt": 1645733000,
+    "enterpriseValue": 8106146212
+  },
+  {
+    "symbol": "RH",
+    "date": "2020-08-01",
+    "stockPrice": 287.43,
+    "numberOfShares": 19386115,
+    "marketCapitalization": 5572151034,
+    "minusCashAndCashEquivalents": 17387000,
+    "addTotalDebt": 1736763000,
+    "enterpriseValue": 7291527034
+  },
+  {
+    "symbol": "RH",
+    "date": "2020-05-02",
+    "stockPrice": 137.46,
+    "numberOfShares": 18894117,
+    "marketCapitalization": 2597185322,
+    "minusCashAndCashEquivalents": 17208000,
+    "addTotalDebt": 1874532000,
+    "enterpriseValue": 4454509322
+  },
+  {
+    "symbol": "RH",
+    "date": "2020-01-31",
+    "stockPrice": 208.75,
+    "numberOfShares": 19120709,
+    "marketCapitalization": 3991448003,
+    "minusCashAndCashEquivalents": 47658000,
+    "addTotalDebt": 1868005000,
+    "enterpriseValue": 5811795003
+  },
+  {
+    "symbol": "RH",
+    "date": "2019-11-02",
+    "stockPrice": 175.84,
+    "numberOfShares": 18765769,
+    "marketCapitalization": 3299772820,
+    "minusCashAndCashEquivalents": 38253000,
+    "addTotalDebt": 1913413000,
+    "enterpriseValue": 5174932820
+  },
+  {
+    "symbol": "RH",
+    "date": "2019-08-03",
+    "stockPrice": 136.83,
+    "numberOfShares": 18465876,
+    "marketCapitalization": 2526685813,
+    "minusCashAndCashEquivalents": 11555000,
+    "addTotalDebt": 1996853000,
+    "enterpriseValue": 4511983813
+  },
+  {
+    "symbol": "RH",
+    "date": "2019-05-04",
+    "stockPrice": 108.8,
+    "numberOfShares": 19976858,
+    "marketCapitalization": 2173482150,
+    "minusCashAndCashEquivalents": 102550000,
+    "addTotalDebt": 2200237000,
+    "enterpriseValue": 4271169150
+  },
+  {
+    "symbol": "RH",
+    "date": "2019-01-31",
+    "stockPrice": 135.87,
+    "numberOfShares": 20901841,
+    "marketCapitalization": 2839933136,
+    "minusCashAndCashEquivalents": 5803000,
+    "addTotalDebt": 1875465000,
+    "enterpriseValue": 4709595136
+  },
+  {
+    "symbol": "RH",
+    "date": "2018-11-03",
+    "stockPrice": 124.91,
+    "numberOfShares": 22082141,
+    "marketCapitalization": 2758280232,
+    "minusCashAndCashEquivalents": 7755000,
+    "addTotalDebt": 1206989000,
+    "enterpriseValue": 3957514232
+  },
+  {
+    "symbol": "RH",
+    "date": "2018-08-04",
+    "stockPrice": 134.74,
+    "numberOfShares": 21925702,
+    "marketCapitalization": 2954269087,
+    "minusCashAndCashEquivalents": 22199000,
+    "addTotalDebt": 1091748000,
+    "enterpriseValue": 4023818087
+  },
+  {
+    "symbol": "RH",
+    "date": "2018-05-05",
+    "stockPrice": 100.84,
+    "numberOfShares": 21545025,
+    "marketCapitalization": 2172600321,
+    "minusCashAndCashEquivalents": 20796000,
+    "addTotalDebt": 1172673000,
+    "enterpriseValue": 3324477321
+  },
+  {
+    "symbol": "RH",
+    "date": "2018-01-31",
+    "stockPrice": 93.99,
+    "numberOfShares": 21418283,
+    "marketCapitalization": 2013104419,
+    "minusCashAndCashEquivalents": 17907000,
+    "addTotalDebt": 1147940000,
+    "enterpriseValue": 3143137419
+  },
+  {
+    "symbol": "RH",
+    "date": "2017-10-28",
+    "stockPrice": 86.64,
+    "numberOfShares": 21221848,
+    "marketCapitalization": 1838660910,
+    "minusCashAndCashEquivalents": 22162000,
+    "addTotalDebt": 1283128000,
+    "enterpriseValue": 3099626910
+  },
+  {
+    "symbol": "RH",
+    "date": "2017-07-29",
+    "stockPrice": 69.87,
+    "numberOfShares": 28078571,
+    "marketCapitalization": 1961849755,
+    "minusCashAndCashEquivalents": 21637000,
+    "addTotalDebt": 1289293000,
+    "enterpriseValue": 3229505755
+  },
+  {
+    "symbol": "RH",
+    "date": "2017-04-29",
+    "stockPrice": 47.97,
+    "numberOfShares": 37444860,
+    "marketCapitalization": 1796229934,
+    "minusCashAndCashEquivalents": 80150000,
+    "addTotalDebt": 802874000,
+    "enterpriseValue": 2518953934
+  },
+  {
+    "symbol": "RH",
+    "date": "2017-01-31",
+    "stockPrice": 27.02,
+    "numberOfShares": 40803626,
+    "marketCapitalization": 1102513974,
+    "minusCashAndCashEquivalents": 87023000,
+    "addTotalDebt": 778258000,
+    "enterpriseValue": 1793748974
+  },
+  {
+    "symbol": "RH",
+    "date": "2016-10-29",
+    "stockPrice": 29.02,
+    "numberOfShares": 40730059,
+    "marketCapitalization": 1181986312,
+    "minusCashAndCashEquivalents": 55426000,
+    "addTotalDebt": 567639000,
+    "enterpriseValue": 1694199312
+  },
+  {
+    "symbol": "RH",
+    "date": "2016-07-30",
+    "stockPrice": 30.81,
+    "numberOfShares": 40646124,
+    "marketCapitalization": 1252307080,
+    "minusCashAndCashEquivalents": 37677000,
+    "addTotalDebt": 560023000,
+    "enterpriseValue": 1774653080
+  },
+  {
+    "symbol": "RH",
+    "date": "2016-04-30",
+    "stockPrice": 43.27,
+    "numberOfShares": 40588081,
+    "marketCapitalization": 1756246264,
+    "minusCashAndCashEquivalents": 237156000,
+    "addTotalDebt": 680159000,
+    "enterpriseValue": 2199249264
+  },
+  {
+    "symbol": "RH",
+    "date": "2016-01-31",
+    "stockPrice": 59.49,
+    "numberOfShares": 40522242,
+    "marketCapitalization": 2410668176,
+    "minusCashAndCashEquivalents": 349897000,
+    "addTotalDebt": 666422000,
+    "enterpriseValue": 2727193176
+  },
+  {
+    "symbol": "RH",
+    "date": "2015-10-31",
+    "stockPrice": 103.09,
+    "numberOfShares": 40282734,
+    "marketCapitalization": 4152747048,
+    "minusCashAndCashEquivalents": 226979000,
+    "addTotalDebt": 745575000,
+    "enterpriseValue": 4671343048
+  },
+  {
+    "symbol": "RH",
+    "date": "2015-08-01",
+    "stockPrice": 101.46,
+    "numberOfShares": 40045850,
+    "marketCapitalization": 4063051940,
+    "minusCashAndCashEquivalents": 304948000,
+    "addTotalDebt": 718605000,
+    "enterpriseValue": 4476708940
+  },
+  {
+    "symbol": "RH",
+    "date": "2015-05-02",
+    "stockPrice": 87.35,
+    "numberOfShares": 39913946,
+    "marketCapitalization": 3486483183,
+    "minusCashAndCashEquivalents": 103767000,
+    "addTotalDebt": 486916000,
+    "enterpriseValue": 3869632183
+  },
+  {
+    "symbol": "RH",
+    "date": "2015-01-31",
+    "stockPrice": 87.53,
+    "numberOfShares": 39734145,
+    "marketCapitalization": 3477929711,
+    "minusCashAndCashEquivalents": 148934000,
+    "addTotalDebt": 409158000,
+    "enterpriseValue": 3738153711
+  },
+  {
+    "symbol": "RH",
+    "date": "2014-11-01",
+    "stockPrice": 80.32,
+    "numberOfShares": 39507272,
+    "marketCapitalization": 3173224087,
+    "minusCashAndCashEquivalents": 157127000,
+    "addTotalDebt": 281014000,
+    "enterpriseValue": 3297111087
+  },
+  {
+    "symbol": "RH",
+    "date": "2014-08-02",
+    "stockPrice": 82.14,
+    "numberOfShares": 39436255,
+    "marketCapitalization": 3239293985,
+    "minusCashAndCashEquivalents": 181493000,
+    "addTotalDebt": 277678000,
+    "enterpriseValue": 3335478985
+  },
+  {
+    "symbol": "RH",
+    "date": "2014-05-03",
+    "stockPrice": 63.35,
+    "numberOfShares": 39152923,
+    "marketCapitalization": 2480337672,
+    "minusCashAndCashEquivalents": 10942000,
+    "addTotalDebt": 149146000,
+    "enterpriseValue": 2618541672
+  },
+  {
+    "symbol": "RH",
+    "date": "2014-01-31",
+    "stockPrice": 56.74,
+    "numberOfShares": 39008383,
+    "marketCapitalization": 2213335651,
+    "minusCashAndCashEquivalents": 13389000,
+    "addTotalDebt": 85425000,
+    "enterpriseValue": 2285371651
+  },
+  {
+    "symbol": "RH",
+    "date": "2013-11-02",
+    "stockPrice": 68.59,
+    "numberOfShares": 38888208,
+    "marketCapitalization": 2667342186,
+    "minusCashAndCashEquivalents": 8197000,
+    "addTotalDebt": 108245000,
+    "enterpriseValue": 2767390186
+  },
+  {
+    "symbol": "RH",
+    "date": "2013-08-03",
+    "stockPrice": 68.86,
+    "numberOfShares": 38712000,
+    "marketCapitalization": 2665708320,
+    "minusCashAndCashEquivalents": 15012000,
+    "addTotalDebt": 87575000,
+    "enterpriseValue": 2738271320
+  },
+  {
+    "symbol": "RH",
+    "date": "2013-05-04",
+    "stockPrice": 38.79,
+    "numberOfShares": 38076026,
+    "marketCapitalization": 1476969048,
+    "minusCashAndCashEquivalents": 9669000,
+    "addTotalDebt": 113994000,
+    "enterpriseValue": 1581294048
+  },
+  {
+    "symbol": "RH",
+    "date": "2013-01-31",
+    "stockPrice": 36,
+    "numberOfShares": 35649104,
+    "marketCapitalization": 1283367744,
+    "minusCashAndCashEquivalents": 8354000,
+    "addTotalDebt": 82501000,
+    "enterpriseValue": 1357514744
+  },
+  {
+    "symbol": "RH",
+    "date": "2012-10-27",
+    "stockPrice": 31.1,
+    "numberOfShares": 32188891,
+    "marketCapitalization": 1001074510,
+    "minusCashAndCashEquivalents": 15568000,
+    "addTotalDebt": 187529000,
+    "enterpriseValue": 1173035510
+  },
+  {
+    "symbol": "RH",
+    "date": "2012-07-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 36971500,
+    "marketCapitalization": 1149813650,
+    "minusCashAndCashEquivalents": 10102000,
+    "addTotalDebt": 144452000,
+    "enterpriseValue": 1284163650
+  },
+  {
+    "symbol": "RH",
+    "date": "2012-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 32188891,
+    "marketCapitalization": 1001074510,
+    "minusCashAndCashEquivalents": 10205000,
+    "addTotalDebt": 140263000,
+    "enterpriseValue": 1131132510
+  },
+  {
+    "symbol": "RH",
+    "date": "2012-01-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 32188891,
+    "marketCapitalization": 1001074510,
+    "minusCashAndCashEquivalents": 8511000,
+    "addTotalDebt": 122300000,
+    "enterpriseValue": 1114863510
+  },
+  {
+    "symbol": "RH",
+    "date": "2011-10-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 32188891,
+    "marketCapitalization": 1001074510,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1001074510
+  },
+  {
+    "symbol": "RH",
+    "date": "2011-07-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 32188891,
+    "marketCapitalization": 1001074510,
+    "minusCashAndCashEquivalents": 9139000,
+    "addTotalDebt": 136609000,
+    "enterpriseValue": 1128544510
+  },
+  {
+    "symbol": "RH",
+    "date": "2011-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 32188891,
+    "marketCapitalization": 1001074510,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1001074510
+  },
+  {
+    "symbol": "RH",
+    "date": "2011-01-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 32188891,
+    "marketCapitalization": 1001074510,
+    "minusCashAndCashEquivalents": 13364000,
+    "addTotalDebt": 111837000,
+    "enterpriseValue": 1099547510
+  },
+  {
+    "symbol": "RH",
+    "date": "2008-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 38969000,
+    "marketCapitalization": 1211935900,
+    "minusCashAndCashEquivalents": 2053000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1209882900
+  },
+  {
+    "symbol": "RH",
+    "date": "2008-01-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 38826000,
+    "marketCapitalization": 1207488600,
+    "minusCashAndCashEquivalents": 1229000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1206259600
+  },
+  {
+    "symbol": "RH",
+    "date": "2007-10-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 38826000,
+    "marketCapitalization": 1207488600,
+    "minusCashAndCashEquivalents": 1746000,
+    "addTotalDebt": 131317000,
+    "enterpriseValue": 1337059600
+  },
+  {
+    "symbol": "RH",
+    "date": "2007-07-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 38798000,
+    "marketCapitalization": 1206617800,
+    "minusCashAndCashEquivalents": 2739000,
+    "addTotalDebt": 113175000,
+    "enterpriseValue": 1317053800
+  },
+  {
+    "symbol": "RH",
+    "date": "2007-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 38757000,
+    "marketCapitalization": 1205342700,
+    "minusCashAndCashEquivalents": 1196000,
+    "addTotalDebt": 121763000,
+    "enterpriseValue": 1325909700
+  },
+  {
+    "symbol": "RH",
+    "date": "2007-01-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 38311000,
+    "marketCapitalization": 1191472100,
+    "minusCashAndCashEquivalents": 1461000,
+    "addTotalDebt": 68384000,
+    "enterpriseValue": 1258395100
+  },
+  {
+    "symbol": "RH",
+    "date": "2006-10-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 38311000,
+    "marketCapitalization": 1191472100,
+    "minusCashAndCashEquivalents": 1639000,
+    "addTotalDebt": 110941000,
+    "enterpriseValue": 1300774100
+  },
+  {
+    "symbol": "RH",
+    "date": "2006-07-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 37884000,
+    "marketCapitalization": 1178192400,
+    "minusCashAndCashEquivalents": 1084000,
+    "addTotalDebt": 80469000,
+    "enterpriseValue": 1257577400
+  },
+  {
+    "symbol": "RH",
+    "date": "2006-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 37773000,
+    "marketCapitalization": 1174740300,
+    "minusCashAndCashEquivalents": 2260000,
+    "addTotalDebt": 88725000,
+    "enterpriseValue": 1261205300
+  },
+  {
+    "symbol": "RH",
+    "date": "2006-01-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 37648000,
+    "marketCapitalization": 1170852800,
+    "minusCashAndCashEquivalents": 1990000,
+    "addTotalDebt": 58177000,
+    "enterpriseValue": 1227039800
+  },
+  {
+    "symbol": "RH",
+    "date": "2005-10-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 37648000,
+    "marketCapitalization": 1170852800,
+    "minusCashAndCashEquivalents": 3635000,
+    "addTotalDebt": 79618000,
+    "enterpriseValue": 1246835800
+  },
+  {
+    "symbol": "RH",
+    "date": "2005-07-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 33259000,
+    "marketCapitalization": 1034354900,
+    "minusCashAndCashEquivalents": 1820000,
+    "addTotalDebt": 48595000,
+    "enterpriseValue": 1081129900
+  },
+  {
+    "symbol": "RH",
+    "date": "2005-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 33110000,
+    "marketCapitalization": 1029721000,
+    "minusCashAndCashEquivalents": 1879000,
+    "addTotalDebt": 52482000,
+    "enterpriseValue": 1080324000
+  },
+  {
+    "symbol": "RH",
+    "date": "2005-01-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 33017000,
+    "marketCapitalization": 1026828700,
+    "minusCashAndCashEquivalents": 1904000,
+    "addTotalDebt": 33962000,
+    "enterpriseValue": 1058886700
+  },
+  {
+    "symbol": "RH",
+    "date": "2004-10-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 33017000,
+    "marketCapitalization": 1026828700,
+    "minusCashAndCashEquivalents": 1692000,
+    "addTotalDebt": 64402000,
+    "enterpriseValue": 1089538700
+  },
+  {
+    "symbol": "RH",
+    "date": "2004-07-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 32903000,
+    "marketCapitalization": 1023283300,
+    "minusCashAndCashEquivalents": 3267000,
+    "addTotalDebt": 38144000,
+    "enterpriseValue": 1058160300
+  },
+  {
+    "symbol": "RH",
+    "date": "2004-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 32791000,
+    "marketCapitalization": 1019800100,
+    "minusCashAndCashEquivalents": 2550000,
+    "addTotalDebt": 34685000,
+    "enterpriseValue": 1051935100
+  },
+  {
+    "symbol": "RH",
+    "date": "2004-01-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 30602000,
+    "marketCapitalization": 951722200,
+    "minusCashAndCashEquivalents": 2003000,
+    "addTotalDebt": 10638000,
+    "enterpriseValue": 960357200
+  },
+  {
+    "symbol": "RH",
+    "date": "2003-10-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 30602000,
+    "marketCapitalization": 951722200,
+    "minusCashAndCashEquivalents": 3237000,
+    "addTotalDebt": 46046000,
+    "enterpriseValue": 994531200
+  },
+  {
+    "symbol": "RH",
+    "date": "2003-07-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 30083000,
+    "marketCapitalization": 935581300,
+    "minusCashAndCashEquivalents": 2214000,
+    "addTotalDebt": 26049000,
+    "enterpriseValue": 959416300
+  },
+  {
+    "symbol": "RH",
+    "date": "2003-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 30052000,
+    "marketCapitalization": 934617200,
+    "minusCashAndCashEquivalents": 1814000,
+    "addTotalDebt": 27359000,
+    "enterpriseValue": 960162200
+  },
+  {
+    "symbol": "RH",
+    "date": "2003-01-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 29926000,
+    "marketCapitalization": 930698600,
+    "minusCashAndCashEquivalents": 1630000,
+    "addTotalDebt": 14053000,
+    "enterpriseValue": 943121600
+  },
+  {
+    "symbol": "RH",
+    "date": "2002-10-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 29926000,
+    "marketCapitalization": 930698600,
+    "minusCashAndCashEquivalents": 2037000,
+    "addTotalDebt": 89315000,
+    "enterpriseValue": 1017976600
+  },
+  {
+    "symbol": "RH",
+    "date": "2002-07-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 29807000,
+    "marketCapitalization": 926997700,
+    "minusCashAndCashEquivalents": 1540000,
+    "addTotalDebt": 64400000,
+    "enterpriseValue": 989857700
+  },
+  {
+    "symbol": "RH",
+    "date": "2002-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 29246000,
+    "marketCapitalization": 909550600,
+    "minusCashAndCashEquivalents": 2225000,
+    "addTotalDebt": 50520000,
+    "enterpriseValue": 957845600
+  },
+  {
+    "symbol": "RH",
+    "date": "2002-01-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 23852000,
+    "marketCapitalization": 741797200,
+    "minusCashAndCashEquivalents": 22285000,
+    "addTotalDebt": 44844000,
+    "enterpriseValue": 764356200
+  },
+  {
+    "symbol": "RH",
+    "date": "2001-10-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 23852000,
+    "marketCapitalization": 741797200,
+    "minusCashAndCashEquivalents": 2293000,
+    "addTotalDebt": 77049000,
+    "enterpriseValue": 816553200
+  },
+  {
+    "symbol": "RH",
+    "date": "2001-07-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 23557000,
+    "marketCapitalization": 732622700,
+    "minusCashAndCashEquivalents": 2603000,
+    "addTotalDebt": 60102000,
+    "enterpriseValue": 790121700
+  },
+  {
+    "symbol": "RH",
+    "date": "2001-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 17862000,
+    "marketCapitalization": 555508200,
+    "minusCashAndCashEquivalents": 2783000,
+    "addTotalDebt": 79990000,
+    "enterpriseValue": 632715200
+  },
+  {
+    "symbol": "RH",
+    "date": "2001-01-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 17074000,
+    "marketCapitalization": 531001400,
+    "minusCashAndCashEquivalents": 2610000,
+    "addTotalDebt": 52861000,
+    "enterpriseValue": 581252400
+  },
+  {
+    "symbol": "RH",
+    "date": "2000-10-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 17074000,
+    "marketCapitalization": 531001400,
+    "minusCashAndCashEquivalents": 1710000,
+    "addTotalDebt": 110372000,
+    "enterpriseValue": 639663400
+  },
+  {
+    "symbol": "RH",
+    "date": "2000-07-31",
+    "stockPrice": 31.1,
+    "numberOfShares": 17027000,
+    "marketCapitalization": 529539700,
+    "minusCashAndCashEquivalents": 2408000,
+    "addTotalDebt": 91813000,
+    "enterpriseValue": 618944700
+  },
+  {
+    "symbol": "RH",
+    "date": "2000-04-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 16954000,
+    "marketCapitalization": 527269400,
+    "minusCashAndCashEquivalents": 2282000,
+    "addTotalDebt": 91921000,
+    "enterpriseValue": 616908400
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "symbol": "PDFS",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-12-31",
+    "data": {
+      "CHINA": 17872000,
+      "GERMANY": 9990000,
+      "Rest of the World": 21884000,
+      "TAIWAN, PROVINCE OF CHINA": 12494000,
+      "UNITED STATES": 39631000
+    }
+  },
+  {
+    "symbol": "PDFS",
+    "fiscalYear": 2016,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2016-12-31",
+    "data": {
+      "CHINA": 11436000,
+      "GERMANY": 17253000,
+      "KOREA, REPUBLIC OF": 10589000,
+      "Rest of the World": 14219000,
+      "TAIWAN, PROVINCE OF CHINA": 15216000,
+      "UNITED STATES": 38748000
+    }
+  },
+  {
+    "symbol": "PDFS",
+    "fiscalYear": 2015,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2015-12-31",
+    "data": {
+      "GERMANY": 23198000,
+      "KOREA, REPUBLIC OF": 10629000,
+      "Rest of the World": 19068000,
+      "UNITED STATES": 45082000
+    }
+  },
+  {
+    "symbol": "PDFS",
+    "fiscalYear": 2014,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2014-12-31",
+    "data": {
+      "GERMANY": 35142000,
+      "JAPAN": 3789000,
+      "KOREA, REPUBLIC OF": 5667000,
+      "Rest Of The World": 10602000,
+      "UNITED STATES": 44963000
+    }
+  },
+  {
+    "symbol": "PDFS",
+    "fiscalYear": 2013,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2013-12-31",
+    "data": {
+      "GERMANY": 22431000,
+      "JAPAN": 8340000,
+      "KOREA, REPUBLIC OF": 20953000,
+      "North America": 39058000,
+      "Rest Of Asia": 6920000,
+      "Rest Of Europe": 3751000
+    }
+  }
+]

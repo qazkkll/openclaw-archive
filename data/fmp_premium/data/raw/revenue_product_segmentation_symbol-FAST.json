@@ -1,0 +1,49 @@
+[
+  {
+    "symbol": "FAST",
+    "fiscalYear": 2015,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2015-12-31",
+    "data": {
+      "CANADA": 223270000,
+      "Other Countries": 204776000,
+      "UNITED STATES": 3441141000
+    }
+  },
+  {
+    "symbol": "FAST",
+    "fiscalYear": 2014,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2014-12-31",
+    "data": {
+      "CANADA": 238590000,
+      "Other Countries": 186691000,
+      "UNITED STATES": 3308226000
+    }
+  },
+  {
+    "symbol": "FAST",
+    "fiscalYear": 2013,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2013-12-31",
+    "data": {
+      "CANADA": 227756000,
+      "Other Countries": 146677000,
+      "UNITED STATES": 2951673000
+    }
+  },
+  {
+    "symbol": "FAST",
+    "fiscalYear": 2012,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2012-12-31",
+    "data": {
+      "CANADA": 218570000,
+      "UNITED STATES": 2798124000
+    }
+  }
+]

@@ -1,0 +1,410 @@
+[
+  {
+    "symbol": "LTM",
+    "date": "2026-03-26",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2026-03-24",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2026-03-17",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2026-02-20",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2026-02-05",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2025-11-19",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2020-05-26",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2020-05-03",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2020-03-22",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2020-03-16",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2020-01-23",
+    "gradingCompany": "Itau BBA",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2019-11-17",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2019-11-14",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2019-09-26",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2019-09-26",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2019-09-26",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Underweight",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2019-07-29",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2019-07-02",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2018-07-16",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2015-03-15",
+    "gradingCompany": "PiperJaffray",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2015-03-15",
+    "gradingCompany": "Feltl & Co.",
+    "previousGrade": "Buy",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2015-02-10",
+    "gradingCompany": "KeyBanc",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2015-01-26",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2014-10-23",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2014-07-27",
+    "gradingCompany": "Wedbush",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2014-07-24",
+    "gradingCompany": "Feltl & Co.",
+    "previousGrade": "Strong Buy",
+    "newGrade": "Buy",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2014-07-24",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2014-07-24",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2014-06-04",
+    "gradingCompany": "PiperJaffray",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2014-04-25",
+    "gradingCompany": "Oppenheimer",
+    "previousGrade": "Outperform",
+    "newGrade": "Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2014-04-24",
+    "gradingCompany": "Oppenheimer",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2014-01-20",
+    "gradingCompany": "Oppenheimer",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2014-01-13",
+    "gradingCompany": "KeyBanc",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2013-07-26",
+    "gradingCompany": "Feltl & Co.",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2013-07-25",
+    "gradingCompany": "Feltl & Co.",
+    "previousGrade": "Buy",
+    "newGrade": "Strong Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2013-05-05",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2013-04-29",
+    "gradingCompany": "Imperial Capital",
+    "previousGrade": "In Line",
+    "newGrade": "In Line",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2013-04-24",
+    "gradingCompany": "Wedbush",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2013-02-06",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2013-01-31",
+    "gradingCompany": "Imperial Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "In Line",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-10-21",
+    "gradingCompany": "Imperial Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-10-18",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-10-10",
+    "gradingCompany": "Wedbush",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-07-19",
+    "gradingCompany": "Feltl & Co.",
+    "previousGrade": "Strong Buy",
+    "newGrade": "Buy",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-07-18",
+    "gradingCompany": "Feltl & Co.",
+    "previousGrade": "Strong Buy",
+    "newGrade": "Strong Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-07-11",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-07-05",
+    "gradingCompany": "Feltl & Co.",
+    "previousGrade": "Strong Buy",
+    "newGrade": "Buy",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-07-04",
+    "gradingCompany": "Feltl & Co.",
+    "previousGrade": "Strong Buy",
+    "newGrade": "Strong Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-04-19",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-04-19",
+    "gradingCompany": "PiperJaffray",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LTM",
+    "date": "2012-02-13",
+    "gradingCompany": "PiperJaffray",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  }
+]

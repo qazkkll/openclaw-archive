@@ -1,0 +1,49 @@
+[
+  {
+    "symbol": "PR",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Crude Oil": 4251193000,
+      "Natural Gas": 131663000,
+      "Oil and Gas, Purchased": 23840000
+    }
+  },
+  {
+    "symbol": "PR",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Natural Gas": 104100000,
+      "Crude Oil": 4362965000
+    }
+  },
+  {
+    "symbol": "PR",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Crude Oil": 2696777000,
+      "Natural Gas Liquids": 282039000,
+      "Natural Gas": 142077000
+    }
+  },
+  {
+    "symbol": "PR",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Crude Oil": 1622035000,
+      "Natural Gas Liquids": 232273000,
+      "Natural Gas": 276957000
+    }
+  }
+]

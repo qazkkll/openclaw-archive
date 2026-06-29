@@ -1,0 +1,752 @@
+[
+  {
+    "symbol": "ARR",
+    "date": "2026-03-31",
+    "stockPrice": 16.68,
+    "numberOfShares": 119579000,
+    "marketCapitalization": 1994577720,
+    "minusCashAndCashEquivalents": 66471000,
+    "addTotalDebt": 18463834000,
+    "enterpriseValue": 20391940720
+  },
+  {
+    "symbol": "ARR",
+    "date": "2025-12-31",
+    "stockPrice": 17.69,
+    "numberOfShares": 112243115,
+    "marketCapitalization": 1985580704,
+    "minusCashAndCashEquivalents": 289971000,
+    "addTotalDebt": 17941796000,
+    "enterpriseValue": 19637405704
+  },
+  {
+    "symbol": "ARR",
+    "date": "2025-09-30",
+    "stockPrice": 14.94,
+    "numberOfShares": 104318000,
+    "marketCapitalization": 1558510920,
+    "minusCashAndCashEquivalents": 44238000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1514272920
+  },
+  {
+    "symbol": "ARR",
+    "date": "2025-06-30",
+    "stockPrice": 16.81,
+    "numberOfShares": 83803000,
+    "marketCapitalization": 1408728430,
+    "minusCashAndCashEquivalents": 141166000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1267562430
+  },
+  {
+    "symbol": "ARR",
+    "date": "2025-03-31",
+    "stockPrice": 17.1,
+    "numberOfShares": 75222000,
+    "marketCapitalization": 1286296200,
+    "minusCashAndCashEquivalents": 49115000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1237181200
+  },
+  {
+    "symbol": "ARR",
+    "date": "2024-12-31",
+    "stockPrice": 18.86,
+    "numberOfShares": 52158000,
+    "marketCapitalization": 983699880,
+    "minusCashAndCashEquivalents": 67970000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 915729880
+  },
+  {
+    "symbol": "ARR",
+    "date": "2024-09-30",
+    "stockPrice": 20.4,
+    "numberOfShares": 51647000,
+    "marketCapitalization": 1053598799,
+    "minusCashAndCashEquivalents": 63855000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 989743799
+  },
+  {
+    "symbol": "ARR",
+    "date": "2024-06-30",
+    "stockPrice": 19.15,
+    "numberOfShares": 48770000,
+    "marketCapitalization": 933945499,
+    "minusCashAndCashEquivalents": 126562000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 807383499
+  },
+  {
+    "symbol": "ARR",
+    "date": "2024-03-31",
+    "stockPrice": 19.62,
+    "numberOfShares": 48770000,
+    "marketCapitalization": 956867400,
+    "minusCashAndCashEquivalents": 221297000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 735570400
+  },
+  {
+    "symbol": "ARR",
+    "date": "2023-12-31",
+    "stockPrice": 19.32,
+    "numberOfShares": 48886000,
+    "marketCapitalization": 944477520,
+    "minusCashAndCashEquivalents": 258858000,
+    "addTotalDebt": 9647982000,
+    "enterpriseValue": 10333601520
+  },
+  {
+    "symbol": "ARR",
+    "date": "2023-09-30",
+    "stockPrice": 21.25,
+    "numberOfShares": 46506000,
+    "marketCapitalization": 988252500,
+    "minusCashAndCashEquivalents": 147094000,
+    "addTotalDebt": 11504192000,
+    "enterpriseValue": 12345350500
+  },
+  {
+    "symbol": "ARR",
+    "date": "2023-06-30",
+    "stockPrice": 26.65,
+    "numberOfShares": 39740000,
+    "marketCapitalization": 1059071000,
+    "minusCashAndCashEquivalents": 216223000,
+    "addTotalDebt": 9121329000,
+    "enterpriseValue": 9964177000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2023-03-31",
+    "stockPrice": 26.25,
+    "numberOfShares": 36917000,
+    "marketCapitalization": 969071250,
+    "minusCashAndCashEquivalents": 259327000,
+    "addTotalDebt": 10554538000,
+    "enterpriseValue": 11264282250
+  },
+  {
+    "symbol": "ARR",
+    "date": "2022-12-31",
+    "stockPrice": 28.15,
+    "numberOfShares": 32582000,
+    "marketCapitalization": 917183300,
+    "minusCashAndCashEquivalents": 118090000,
+    "addTotalDebt": 6463058000,
+    "enterpriseValue": 7262151300
+  },
+  {
+    "symbol": "ARR",
+    "date": "2022-09-30",
+    "stockPrice": 24.35,
+    "numberOfShares": 24650000,
+    "marketCapitalization": 600227500,
+    "minusCashAndCashEquivalents": 307776000,
+    "addTotalDebt": 8250066000,
+    "enterpriseValue": 8542517500
+  },
+  {
+    "symbol": "ARR",
+    "date": "2022-06-30",
+    "stockPrice": 35.2,
+    "numberOfShares": 21237000,
+    "marketCapitalization": 747542400,
+    "minusCashAndCashEquivalents": 233733000,
+    "addTotalDebt": 6692547000,
+    "enterpriseValue": 7206356400
+  },
+  {
+    "symbol": "ARR",
+    "date": "2022-03-31",
+    "stockPrice": 42,
+    "numberOfShares": 19245000,
+    "marketCapitalization": 808290000,
+    "minusCashAndCashEquivalents": 326149000,
+    "addTotalDebt": 6440004000,
+    "enterpriseValue": 6922145000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2021-12-31",
+    "stockPrice": 49.05,
+    "numberOfShares": 18342000,
+    "marketCapitalization": 899675100,
+    "minusCashAndCashEquivalents": 356216000,
+    "addTotalDebt": 3948037000,
+    "enterpriseValue": 4491496100
+  },
+  {
+    "symbol": "ARR",
+    "date": "2021-09-30",
+    "stockPrice": 53.9,
+    "numberOfShares": 16805000,
+    "marketCapitalization": 905789500,
+    "minusCashAndCashEquivalents": 156192000,
+    "addTotalDebt": 3450439000,
+    "enterpriseValue": 4200036500
+  },
+  {
+    "symbol": "ARR",
+    "date": "2021-06-30",
+    "stockPrice": 57.1,
+    "numberOfShares": 14563000,
+    "marketCapitalization": 831547300,
+    "minusCashAndCashEquivalents": 530304000,
+    "addTotalDebt": 3661367000,
+    "enterpriseValue": 3962610300
+  },
+  {
+    "symbol": "ARR",
+    "date": "2021-03-31",
+    "stockPrice": 61,
+    "numberOfShares": 13193000,
+    "marketCapitalization": 804773000,
+    "minusCashAndCashEquivalents": 330350000,
+    "addTotalDebt": 3810790000,
+    "enterpriseValue": 4285213000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2020-12-31",
+    "stockPrice": 53.95,
+    "numberOfShares": 12981000,
+    "marketCapitalization": 700324950,
+    "minusCashAndCashEquivalents": 171668000,
+    "addTotalDebt": 4536065000,
+    "enterpriseValue": 5064721950
+  },
+  {
+    "symbol": "ARR",
+    "date": "2020-09-30",
+    "stockPrice": 47.55,
+    "numberOfShares": 13039000,
+    "marketCapitalization": 620004450,
+    "minusCashAndCashEquivalents": 267628000,
+    "addTotalDebt": 4510795000,
+    "enterpriseValue": 4863171450
+  },
+  {
+    "symbol": "ARR",
+    "date": "2020-06-30",
+    "stockPrice": 46.95,
+    "numberOfShares": 12838000,
+    "marketCapitalization": 602744100,
+    "minusCashAndCashEquivalents": 180718000,
+    "addTotalDebt": 4237603000,
+    "enterpriseValue": 4659629100
+  },
+  {
+    "symbol": "ARR",
+    "date": "2020-03-31",
+    "stockPrice": 44.05,
+    "numberOfShares": 11777000,
+    "marketCapitalization": 518776849,
+    "minusCashAndCashEquivalents": 684232000,
+    "addTotalDebt": 3465472000,
+    "enterpriseValue": 3300016849
+  },
+  {
+    "symbol": "ARR",
+    "date": "2019-12-31",
+    "stockPrice": 89.35,
+    "numberOfShares": 11783000,
+    "marketCapitalization": 1052811049,
+    "minusCashAndCashEquivalents": 273166000,
+    "addTotalDebt": 11354547000,
+    "enterpriseValue": 12134192049
+  },
+  {
+    "symbol": "ARR",
+    "date": "2019-09-30",
+    "stockPrice": 83.75,
+    "numberOfShares": 11810000,
+    "marketCapitalization": 989087500,
+    "minusCashAndCashEquivalents": 160484000,
+    "addTotalDebt": 11794901000,
+    "enterpriseValue": 12623504500
+  },
+  {
+    "symbol": "ARR",
+    "date": "2019-06-30",
+    "stockPrice": 92.65,
+    "numberOfShares": 11931000,
+    "marketCapitalization": 1105407150,
+    "minusCashAndCashEquivalents": 211656000,
+    "addTotalDebt": 13425003000,
+    "enterpriseValue": 14318754150
+  },
+  {
+    "symbol": "ARR",
+    "date": "2019-03-31",
+    "stockPrice": 98.25,
+    "numberOfShares": 10726000,
+    "marketCapitalization": 1053829500,
+    "minusCashAndCashEquivalents": 167372000,
+    "addTotalDebt": 12210339000,
+    "enterpriseValue": 13096796500
+  },
+  {
+    "symbol": "ARR",
+    "date": "2018-12-31",
+    "stockPrice": 102.5,
+    "numberOfShares": 8533000,
+    "marketCapitalization": 874632500,
+    "minusCashAndCashEquivalents": 221668000,
+    "addTotalDebt": 7062156000,
+    "enterpriseValue": 7715120500
+  },
+  {
+    "symbol": "ARR",
+    "date": "2018-09-30",
+    "stockPrice": 111.5,
+    "numberOfShares": 8487000,
+    "marketCapitalization": 946300500,
+    "minusCashAndCashEquivalents": 266692000,
+    "addTotalDebt": 7224574000,
+    "enterpriseValue": 7904182500
+  },
+  {
+    "symbol": "ARR",
+    "date": "2018-06-30",
+    "stockPrice": 114.05,
+    "numberOfShares": 8457000,
+    "marketCapitalization": 964520850,
+    "minusCashAndCashEquivalents": 335548000,
+    "addTotalDebt": 6254366000,
+    "enterpriseValue": 6883338850
+  },
+  {
+    "symbol": "ARR",
+    "date": "2018-03-31",
+    "stockPrice": 116.4,
+    "numberOfShares": 8436000,
+    "marketCapitalization": 981950400,
+    "minusCashAndCashEquivalents": 216497000,
+    "addTotalDebt": 6860597000,
+    "enterpriseValue": 7626050400
+  },
+  {
+    "symbol": "ARR",
+    "date": "2017-12-31",
+    "stockPrice": 128.6,
+    "numberOfShares": 8371000,
+    "marketCapitalization": 1076510600,
+    "minusCashAndCashEquivalents": 265232000,
+    "addTotalDebt": 7563865000,
+    "enterpriseValue": 8375143600
+  },
+  {
+    "symbol": "ARR",
+    "date": "2017-09-30",
+    "stockPrice": 134.5,
+    "numberOfShares": 8258000,
+    "marketCapitalization": 1110701000,
+    "minusCashAndCashEquivalents": 299940000,
+    "addTotalDebt": 7253319000,
+    "enterpriseValue": 8064080000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2017-06-30",
+    "stockPrice": 125,
+    "numberOfShares": 7360000,
+    "marketCapitalization": 920000000,
+    "minusCashAndCashEquivalents": 412133000,
+    "addTotalDebt": 6327436000,
+    "enterpriseValue": 6835303000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2017-03-31",
+    "stockPrice": 113.55,
+    "numberOfShares": 7345000,
+    "marketCapitalization": 834024750,
+    "minusCashAndCashEquivalents": 194459000,
+    "addTotalDebt": 6516775000,
+    "enterpriseValue": 7156340750
+  },
+  {
+    "symbol": "ARR",
+    "date": "2016-12-31",
+    "stockPrice": 108.45,
+    "numberOfShares": 7343000,
+    "marketCapitalization": 796348350,
+    "minusCashAndCashEquivalents": 271773000,
+    "addTotalDebt": 6868108000,
+    "enterpriseValue": 7392683350
+  },
+  {
+    "symbol": "ARR",
+    "date": "2016-09-30",
+    "stockPrice": 112.7,
+    "numberOfShares": 7349000,
+    "marketCapitalization": 828232300,
+    "minusCashAndCashEquivalents": 401825000,
+    "addTotalDebt": 7603893000,
+    "enterpriseValue": 8030300300
+  },
+  {
+    "symbol": "ARR",
+    "date": "2016-06-30",
+    "stockPrice": 100,
+    "numberOfShares": 7349000,
+    "marketCapitalization": 734900000,
+    "minusCashAndCashEquivalents": 389358000,
+    "addTotalDebt": 8260194000,
+    "enterpriseValue": 8605736000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2016-03-31",
+    "stockPrice": 107.65,
+    "numberOfShares": 7332000,
+    "marketCapitalization": 789289800,
+    "minusCashAndCashEquivalents": 243294000,
+    "addTotalDebt": 10222544000,
+    "enterpriseValue": 10768539800
+  },
+  {
+    "symbol": "ARR",
+    "date": "2015-12-31",
+    "stockPrice": 108.8,
+    "numberOfShares": 7999000,
+    "marketCapitalization": 870291200,
+    "minusCashAndCashEquivalents": 289925000,
+    "addTotalDebt": 11803782000,
+    "enterpriseValue": 12384148200
+  },
+  {
+    "symbol": "ARR",
+    "date": "2015-09-30",
+    "stockPrice": 100.2,
+    "numberOfShares": 8705000,
+    "marketCapitalization": 872241000,
+    "minusCashAndCashEquivalents": 276489000,
+    "addTotalDebt": 12951252000,
+    "enterpriseValue": 13547004000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2015-06-30",
+    "stockPrice": 112.4,
+    "numberOfShares": 8804000,
+    "marketCapitalization": 989569600,
+    "minusCashAndCashEquivalents": 363212000,
+    "addTotalDebt": 13530749000,
+    "enterpriseValue": 14157106600
+  },
+  {
+    "symbol": "ARR",
+    "date": "2015-03-31",
+    "stockPrice": 126.8,
+    "numberOfShares": 8741000,
+    "marketCapitalization": 1108358800,
+    "minusCashAndCashEquivalents": 473826000,
+    "addTotalDebt": 14177052000,
+    "enterpriseValue": 14811584800
+  },
+  {
+    "symbol": "ARR",
+    "date": "2014-12-31",
+    "stockPrice": 147.2,
+    "numberOfShares": 8928000,
+    "marketCapitalization": 1314201600,
+    "minusCashAndCashEquivalents": 494561000,
+    "addTotalDebt": 14019314000,
+    "enterpriseValue": 14838954600
+  },
+  {
+    "symbol": "ARR",
+    "date": "2014-09-30",
+    "stockPrice": 154,
+    "numberOfShares": 8959000,
+    "marketCapitalization": 1379686000,
+    "minusCashAndCashEquivalents": 542789000,
+    "addTotalDebt": 15531514000,
+    "enterpriseValue": 16368411000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2014-06-30",
+    "stockPrice": 173.2,
+    "numberOfShares": 8821000,
+    "marketCapitalization": 1527797200,
+    "minusCashAndCashEquivalents": 433149000,
+    "addTotalDebt": 14464052000,
+    "enterpriseValue": 15558700200
+  },
+  {
+    "symbol": "ARR",
+    "date": "2014-03-31",
+    "stockPrice": 164.8,
+    "numberOfShares": 8458000,
+    "marketCapitalization": 1393878400,
+    "minusCashAndCashEquivalents": 588832000,
+    "addTotalDebt": 15246343000,
+    "enterpriseValue": 16051389400
+  },
+  {
+    "symbol": "ARR",
+    "date": "2013-12-31",
+    "stockPrice": 160.4,
+    "numberOfShares": 16168000,
+    "marketCapitalization": 2593347200,
+    "minusCashAndCashEquivalents": 496478000,
+    "addTotalDebt": 13254299000,
+    "enterpriseValue": 15351168200
+  },
+  {
+    "symbol": "ARR",
+    "date": "2013-09-30",
+    "stockPrice": 168,
+    "numberOfShares": 9270000,
+    "marketCapitalization": 1557360000,
+    "minusCashAndCashEquivalents": 496480000,
+    "addTotalDebt": 15027542000,
+    "enterpriseValue": 16088422000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2013-06-30",
+    "stockPrice": 187.6,
+    "numberOfShares": 9326000,
+    "marketCapitalization": 1749557600,
+    "minusCashAndCashEquivalents": 802852000,
+    "addTotalDebt": 19864146000,
+    "enterpriseValue": 20810851600
+  },
+  {
+    "symbol": "ARR",
+    "date": "2013-03-31",
+    "stockPrice": 257.6,
+    "numberOfShares": 8493000,
+    "marketCapitalization": 2187796800,
+    "minusCashAndCashEquivalents": 836501000,
+    "addTotalDebt": 25020128000,
+    "enterpriseValue": 26371423800
+  },
+  {
+    "symbol": "ARR",
+    "date": "2012-12-31",
+    "stockPrice": 258.8,
+    "numberOfShares": 7717000,
+    "marketCapitalization": 1997159600,
+    "minusCashAndCashEquivalents": 771282000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1225877600
+  },
+  {
+    "symbol": "ARR",
+    "date": "2012-09-30",
+    "stockPrice": 305.6,
+    "numberOfShares": 6750000,
+    "marketCapitalization": 2062800000,
+    "minusCashAndCashEquivalents": 727306000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1335494000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2012-06-30",
+    "stockPrice": 284.4,
+    "numberOfShares": 22597000,
+    "marketCapitalization": 6426586799,
+    "minusCashAndCashEquivalents": 326736000,
+    "addTotalDebt": 12112586000,
+    "enterpriseValue": 18212436799
+  },
+  {
+    "symbol": "ARR",
+    "date": "2012-03-31",
+    "stockPrice": 270,
+    "numberOfShares": 16863000,
+    "marketCapitalization": 4553010000,
+    "minusCashAndCashEquivalents": 264750000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4288260000
+  },
+  {
+    "symbol": "ARR",
+    "date": "2011-12-31",
+    "stockPrice": 282,
+    "numberOfShares": 16863000,
+    "marketCapitalization": 4755366000,
+    "minusCashAndCashEquivalents": 252372445,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4502993555
+  },
+  {
+    "symbol": "ARR",
+    "date": "2011-09-30",
+    "stockPrice": 272,
+    "numberOfShares": 9795000,
+    "marketCapitalization": 2664240000,
+    "minusCashAndCashEquivalents": 250485889,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2413754111
+  },
+  {
+    "symbol": "ARR",
+    "date": "2011-06-30",
+    "stockPrice": 294,
+    "numberOfShares": 1331000,
+    "marketCapitalization": 391314000,
+    "minusCashAndCashEquivalents": 188233866,
+    "addTotalDebt": 0,
+    "enterpriseValue": 203080134
+  },
+  {
+    "symbol": "ARR",
+    "date": "2011-03-31",
+    "stockPrice": 302.8,
+    "numberOfShares": 3300000,
+    "marketCapitalization": 999240000,
+    "minusCashAndCashEquivalents": 47174161,
+    "addTotalDebt": 0,
+    "enterpriseValue": 952065839
+  },
+  {
+    "symbol": "ARR",
+    "date": "2010-12-31",
+    "stockPrice": 312.4,
+    "numberOfShares": 3300000,
+    "marketCapitalization": 1030919999,
+    "minusCashAndCashEquivalents": 35343907,
+    "addTotalDebt": 0,
+    "enterpriseValue": 995576092
+  },
+  {
+    "symbol": "ARR",
+    "date": "2010-09-30",
+    "stockPrice": 280.8,
+    "numberOfShares": 926756,
+    "marketCapitalization": 260233084,
+    "minusCashAndCashEquivalents": 11964520,
+    "addTotalDebt": 0,
+    "enterpriseValue": 248268564
+  },
+  {
+    "symbol": "ARR",
+    "date": "2010-06-30",
+    "stockPrice": 254.4,
+    "numberOfShares": 393295,
+    "marketCapitalization": 100054248,
+    "minusCashAndCashEquivalents": 21887268,
+    "addTotalDebt": 0,
+    "enterpriseValue": 78166980
+  },
+  {
+    "symbol": "ARR",
+    "date": "2010-03-31",
+    "stockPrice": 327.6,
+    "numberOfShares": 288006,
+    "marketCapitalization": 94350765,
+    "minusCashAndCashEquivalents": 2781756,
+    "addTotalDebt": 0,
+    "enterpriseValue": 91569009
+  },
+  {
+    "symbol": "ARR",
+    "date": "2009-12-31",
+    "stockPrice": 330,
+    "numberOfShares": 288006,
+    "marketCapitalization": 95041980,
+    "minusCashAndCashEquivalents": 6653331,
+    "addTotalDebt": 0,
+    "enterpriseValue": 88388649
+  },
+  {
+    "symbol": "ARR",
+    "date": "2009-09-30",
+    "stockPrice": 397.2,
+    "numberOfShares": 2969000,
+    "marketCapitalization": 1179286800,
+    "minusCashAndCashEquivalents": 113699,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1179173101
+  },
+  {
+    "symbol": "ARR",
+    "date": "2009-06-30",
+    "stockPrice": 390.4,
+    "numberOfShares": 2969000,
+    "marketCapitalization": 1159097600,
+    "minusCashAndCashEquivalents": 59207,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1159038393
+  },
+  {
+    "symbol": "ARR",
+    "date": "2009-03-31",
+    "stockPrice": 382.4,
+    "numberOfShares": 2969000,
+    "marketCapitalization": 1135345600,
+    "minusCashAndCashEquivalents": 59998,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1135285602
+  },
+  {
+    "symbol": "ARR",
+    "date": "2008-12-31",
+    "stockPrice": 366.8,
+    "numberOfShares": 2969000,
+    "marketCapitalization": 1089029200,
+    "minusCashAndCashEquivalents": 834194,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1088195006
+  },
+  {
+    "symbol": "ARR",
+    "date": "2008-09-30",
+    "stockPrice": 367.2,
+    "numberOfShares": 2969000,
+    "marketCapitalization": 1090216800,
+    "minusCashAndCashEquivalents": 24635,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1090192165
+  },
+  {
+    "symbol": "ARR",
+    "date": "2008-06-30",
+    "stockPrice": 372.8,
+    "numberOfShares": 2969000,
+    "marketCapitalization": 1106843200,
+    "minusCashAndCashEquivalents": 40141,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1106803059
+  },
+  {
+    "symbol": "ARR",
+    "date": "2008-03-31",
+    "stockPrice": 368,
+    "numberOfShares": 2969000,
+    "marketCapitalization": 1092592000,
+    "minusCashAndCashEquivalents": 103579,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1092488421
+  },
+  {
+    "symbol": "ARR",
+    "date": "2007-12-31",
+    "stockPrice": 362,
+    "numberOfShares": 3906000,
+    "marketCapitalization": 1413972000,
+    "minusCashAndCashEquivalents": 33381,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1413938619
+  },
+  {
+    "symbol": "ARR",
+    "date": "2007-09-30",
+    "stockPrice": 364,
+    "numberOfShares": 898437,
+    "marketCapitalization": 327031068,
+    "minusCashAndCashEquivalents": 182655,
+    "addTotalDebt": 350000,
+    "enterpriseValue": 327198413
+  }
+]

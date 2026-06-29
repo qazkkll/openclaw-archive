@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "NVO",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "DKK",
+    "date": "2023-12-31",
+    "data": {
+      "EMEA": 50867000000,
+      "North America": 136629000000,
+      "Rest of World": 28078000000
+    }
+  },
+  {
+    "symbol": "NVO",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "DKK",
+    "date": "2022-12-31",
+    "data": {
+      "EMEA": 44236000000,
+      "North America": 91107000000,
+      "Rest of World": 25402000000
+    }
+  },
+  {
+    "symbol": "NVO",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "DKK",
+    "date": "2021-12-31",
+    "data": {
+      "EMEA": 37706000000,
+      "North America": 67263000000,
+      "Rest of World": 19812000000
+    }
+  }
+]

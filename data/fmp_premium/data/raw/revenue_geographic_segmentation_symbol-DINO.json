@@ -1,0 +1,63 @@
+[
+  {
+    "symbol": "DINO",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "CANADA": 964000000,
+      "US Mid-Continent Region": 8999000000,
+      "US Northeast Region": 820000000,
+      "US Northwest Region": 4768000000,
+      "US Rocky Mountains Region": 5314000000,
+      "US Southwest Region": 3536000000
+    }
+  },
+  {
+    "symbol": "DINO",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "CANADA": 1047000000,
+      "Europe, Asia And Latin America": 263000000,
+      "US Mid-Continent Region": 9710000000,
+      "US Northeast Region": 836000000,
+      "US Northwest Region": 4746000000,
+      "US Rocky Mountains Region": 5781000000,
+      "US Southwest Region": 4213000000
+    }
+  },
+  {
+    "symbol": "DINO",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "CANADA": 1022174000,
+      "Europe, Asia And Latin America": 265874000,
+      "US Mid-Continent Region": 9362688000,
+      "US Northeast Region": 959239000,
+      "US Rocky Mountains Region": 9131345000,
+      "US Southwest Region": 3814142000
+    }
+  },
+  {
+    "symbol": "DINO",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "CANADA": 1063961000,
+      "Europe, Asia And Latin America": 344711000,
+      "US Mid-Continent Region": 13924566000,
+      "US Northeast Region": 1037771000,
+      "US Rocky Mountains Region": 9533476000,
+      "US Southwest Region": 4965298000
+    }
+  }
+]

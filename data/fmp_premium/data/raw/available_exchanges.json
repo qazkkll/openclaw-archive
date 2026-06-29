@@ -1,0 +1,514 @@
+[
+  {
+    "exchange": "AMEX",
+    "name": "New York Stock Exchange Arca",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "symbolSuffix": "N/A",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "AMS",
+    "name": "Euronext Amsterdam",
+    "countryName": "Netherlands",
+    "countryCode": "NL",
+    "symbolSuffix": ".AS",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "ASX",
+    "name": "Australian Securities Exchange",
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "symbolSuffix": ".AX",
+    "delay": "20 min"
+  },
+  {
+    "exchange": "ATH",
+    "name": "Athens Stock Exchange",
+    "countryName": "Greece",
+    "countryCode": "GR",
+    "symbolSuffix": ".AT",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "BER",
+    "name": "Berlin Stock Exchange",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "symbolSuffix": ".BE",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "BME",
+    "name": "Madrid Stock Exchange",
+    "countryName": "Spain",
+    "countryCode": "ES",
+    "symbolSuffix": ".MC",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "BRU",
+    "name": "Euronext Brussels",
+    "countryName": "Belgium",
+    "countryCode": "BE",
+    "symbolSuffix": ".BR",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "BSE",
+    "name": "Bombay Stock Exchange",
+    "countryName": "India",
+    "countryCode": "IN",
+    "symbolSuffix": ".BO",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "BUE",
+    "name": "Buenos Aires Stock Exchange",
+    "countryName": "Argentina",
+    "countryCode": "AR",
+    "symbolSuffix": ".BA",
+    "delay": "20 min"
+  },
+  {
+    "exchange": "CBOE",
+    "name": "Chicago Board Options Exchange",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "symbolSuffix": "N/A",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "CNQ",
+    "name": "Canadian Securities Exchange",
+    "countryName": "Canada",
+    "countryCode": "CA",
+    "symbolSuffix": ".CN",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "CPH",
+    "name": "NASDAQ Copenhagen",
+    "countryName": "Denmark",
+    "countryCode": "DK",
+    "symbolSuffix": ".CO",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "DFM",
+    "name": "Dubai Financial Market",
+    "countryName": "United Arab Emirates",
+    "countryCode": "AE",
+    "symbolSuffix": ".AE",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "DOH",
+    "name": "Qatar Stock Exchange",
+    "countryName": "Qatar",
+    "countryCode": "QA",
+    "symbolSuffix": ".QA",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "DUB",
+    "name": "Euronext Dublin",
+    "countryName": "Ireland",
+    "countryCode": "IE",
+    "symbolSuffix": ".IR",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "DUS",
+    "name": "Dusseldorf Stock Exchange",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "symbolSuffix": ".DU",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "DXE",
+    "name": "CBOE Europe",
+    "countryName": "",
+    "countryCode": "",
+    "symbolSuffix": ".XD",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "FSX",
+    "name": "Frankfurt Stock Exchange",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "symbolSuffix": ".F",
+    "delay": null
+  },
+  {
+    "exchange": "HAM",
+    "name": "Hamburg Stock Exchange",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "symbolSuffix": ".HM",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "HEL",
+    "name": "NASDAQ Helsinki",
+    "countryName": "Finland",
+    "countryCode": "FI",
+    "symbolSuffix": ".HE",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "HKSE",
+    "name": "Hong Kong Stock Exchange",
+    "countryName": "Hong Kong",
+    "countryCode": "HK",
+    "symbolSuffix": ".HK",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "ICE",
+    "name": "NASDAQ Iceland",
+    "countryName": "Iceland ",
+    "countryCode": "IS",
+    "symbolSuffix": ".IC",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "IOB",
+    "name": "International Order Book",
+    "countryName": "United Kingdom",
+    "countryCode": "UK",
+    "symbolSuffix": ".IL",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "IST",
+    "name": "Istanbul Stock Exchange",
+    "countryName": "Turkey",
+    "countryCode": "TR",
+    "symbolSuffix": ".IS",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "JKT",
+    "name": "Indonesia Stock Exchange",
+    "countryName": "Indonesia",
+    "countryCode": "ID",
+    "symbolSuffix": ".JK",
+    "delay": "10 min"
+  },
+  {
+    "exchange": "JNB",
+    "name": "Johannesburg Stock Exchange",
+    "countryName": "South Africa",
+    "countryCode": "ZA",
+    "symbolSuffix": ".JO",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "JPX",
+    "name": "Tokyo Stock Exchange",
+    "countryName": "Japan",
+    "countryCode": "JP",
+    "symbolSuffix": ".T",
+    "delay": "20 min"
+  },
+  {
+    "exchange": "KLS",
+    "name": "Malaysian Stock Exchange",
+    "countryName": "Malaysia",
+    "countryCode": "MY",
+    "symbolSuffix": ".KL",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "KOE",
+    "name": "KOSDAQ",
+    "countryName": "South Korea",
+    "countryCode": "KR",
+    "symbolSuffix": ".KQ",
+    "delay": "20 min"
+  },
+  {
+    "exchange": "KSC",
+    "name": "Korea Exchange",
+    "countryName": "South Korea",
+    "countryCode": "KR",
+    "symbolSuffix": ".KS",
+    "delay": "20 min"
+  },
+  {
+    "exchange": "LIS",
+    "name": "Euronext Lisbon",
+    "countryName": "Portugal",
+    "countryCode": "PT",
+    "symbolSuffix": ".LS",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "LSE",
+    "name": "London Stock Exchange",
+    "countryName": "United Kingdom",
+    "countryCode": "UK",
+    "symbolSuffix": ".L",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "MCX",
+    "name": "Moscow Stock Exchange",
+    "countryName": "Russia",
+    "countryCode": "RU",
+    "symbolSuffix": ".ME",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "MEX",
+    "name": "Mexican Stock Exchange",
+    "countryName": "Mexico",
+    "countryCode": "MX",
+    "symbolSuffix": ".MX",
+    "delay": "20 min"
+  },
+  {
+    "exchange": "MIL",
+    "name": "Italian Stock Exchange",
+    "countryName": "Italy",
+    "countryCode": "IT",
+    "symbolSuffix": ".MI",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "MUN",
+    "name": "Munich Stock Exchange",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "symbolSuffix": ".MU",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "NASDAQ",
+    "name": "NASDAQ",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "symbolSuffix": "N/A",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "NEO",
+    "name": "CBOE CA",
+    "countryName": "Canada",
+    "countryCode": "CA",
+    "symbolSuffix": ".NE",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "NSE",
+    "name": "National Stock Exchange of India",
+    "countryName": "India",
+    "countryCode": "IN",
+    "symbolSuffix": ".NS",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "NYSE",
+    "name": "New York Stock Exchange",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "symbolSuffix": "N/A",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "NZE",
+    "name": "New Zealand Exchange",
+    "countryName": "New Zealand",
+    "countryCode": "NZ",
+    "symbolSuffix": ".NZ",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "OSL",
+    "name": "Oslo Stock Exchange",
+    "countryName": "Norway",
+    "countryCode": "NO",
+    "symbolSuffix": ".OL",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "OTC",
+    "name": "Other OTC",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "symbolSuffix": "N/A",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "PAR",
+    "name": "Euronext Paris",
+    "countryName": "France",
+    "countryCode": "FR",
+    "symbolSuffix": ".PA",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "PNK",
+    "name": "OTC Markets US Pink Slips",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "symbolSuffix": "N/A",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "PRA",
+    "name": "Prague Stock Exchange",
+    "countryName": "Czech Republic",
+    "countryCode": "CZ",
+    "symbolSuffix": ".PR",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "SAO",
+    "name": "B3 S.A.",
+    "countryName": "Brazil",
+    "countryCode": "BR",
+    "symbolSuffix": ".SA",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "SAU",
+    "name": "Saudi Exchange",
+    "countryName": "Saudi Arabia",
+    "countryCode": "SA",
+    "symbolSuffix": ".SR",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "SES",
+    "name": "Stock Exchange of Singapore",
+    "countryName": "Singapore",
+    "countryCode": "SG",
+    "symbolSuffix": ".SI",
+    "delay": "10 min"
+  },
+  {
+    "exchange": "SET",
+    "name": "Stock Exchange of Thailand",
+    "countryName": "Thailand",
+    "countryCode": "TH",
+    "symbolSuffix": ".BK",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "SGO",
+    "name": "Santiago Stock Exchange",
+    "countryName": "Chile",
+    "countryCode": "CL",
+    "symbolSuffix": ".SN",
+    "delay": "20 min"
+  },
+  {
+    "exchange": "SHH",
+    "name": "Shanghai Stock Exchange",
+    "countryName": "China",
+    "countryCode": "CN",
+    "symbolSuffix": ".SS",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "SHZ",
+    "name": "Shenzhen Stock Exchange",
+    "countryName": "China",
+    "countryCode": "CN",
+    "symbolSuffix": ".SZ",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "SIX",
+    "name": "Swiss Exchange",
+    "countryName": "Switzerland",
+    "countryCode": "CH",
+    "symbolSuffix": ".SW",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "STO",
+    "name": "Stockholm Stock Exchange",
+    "countryName": "Sweden",
+    "countryCode": "SE",
+    "symbolSuffix": ".ST",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "STU",
+    "name": "Stuttgart Stock Exchange",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "symbolSuffix": ".SG",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "TAI",
+    "name": "Taiwan Stock Exchange",
+    "countryName": "Taiwan",
+    "countryCode": "TW",
+    "symbolSuffix": ".TW",
+    "delay": "20 min"
+  },
+  {
+    "exchange": "TLV",
+    "name": "Tel Aviv Stock Exchange",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "symbolSuffix": ".TA",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "TSX",
+    "name": "Toronto Stock Exchange",
+    "countryName": "Canada",
+    "countryCode": "CA",
+    "symbolSuffix": ".TO",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "TSXV",
+    "name": "Toronto Stock Exchange Ventures",
+    "countryName": "Canada",
+    "countryCode": "CA",
+    "symbolSuffix": ".V",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "TWO",
+    "name": "Taipei Exchange",
+    "countryName": "Taiwan",
+    "countryCode": "TW",
+    "symbolSuffix": ".TWO",
+    "delay": "20 min"
+  },
+  {
+    "exchange": "VIE",
+    "name": "Vienna Stock Exchange",
+    "countryName": "Austria",
+    "countryCode": "AT",
+    "symbolSuffix": ".VI",
+    "delay": "15 min"
+  },
+  {
+    "exchange": "WSE",
+    "name": "Warsaw Stock Exchange",
+    "countryName": "Poland",
+    "countryCode": "PL",
+    "symbolSuffix": ".WA",
+    "delay": "Real-time"
+  },
+  {
+    "exchange": "XETRA",
+    "name": "Deutsche Börse",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "symbolSuffix": ".DE",
+    "delay": "15 min"
+  }
+]

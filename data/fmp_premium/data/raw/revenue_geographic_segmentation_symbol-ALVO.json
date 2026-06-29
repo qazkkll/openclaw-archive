@@ -1,0 +1,51 @@
+[
+  {
+    "symbol": "ALVO",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Europe": 307220000,
+      "Rest Of The World": 37731000,
+      "UNITED STATES": 241370000
+    }
+  },
+  {
+    "symbol": "ALVO",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Europe": 157587000,
+      "Rest Of The World": 59059000,
+      "UNITED STATES": 273036000
+    }
+  },
+  {
+    "symbol": "ALVO",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Asia And Other": 9618000,
+      "Europe": 63510000,
+      "North America": 18306000
+    }
+  },
+  {
+    "symbol": "ALVO",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Asia": 6798000,
+      "Europe": 39433000,
+      "North America": 30780000,
+      "Other Geographical Area": 6018000
+    }
+  }
+]

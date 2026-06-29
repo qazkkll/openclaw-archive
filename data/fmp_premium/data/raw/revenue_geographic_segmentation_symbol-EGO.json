@@ -1,0 +1,40 @@
+[
+  {
+    "symbol": "EGO",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "BRAZIL": 0,
+      "GREECE": 181230000,
+      "Other Countries": 0,
+      "ROMANIA": 0
+    }
+  },
+  {
+    "symbol": "EGO",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "BRAZIL": 0,
+      "GREECE": 140156000,
+      "Other Countries": 0,
+      "ROMANIA": 0
+    }
+  },
+  {
+    "symbol": "EGO",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-12-31",
+    "data": {
+      "BRAZIL": 2347000,
+      "GREECE": 51152000,
+      "TURKEY": 337907000
+    }
+  }
+]

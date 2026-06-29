@@ -1,0 +1,105 @@
+[
+  {
+    "symbol": "ILMN",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-12-28",
+    "data": {
+      "Microarray": 358000000,
+      "Sequencing": 3985000000
+    }
+  },
+  {
+    "symbol": "ILMN",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Microarray": 392000000,
+      "Sequencing": 4112000000
+    }
+  },
+  {
+    "symbol": "ILMN",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-01-01",
+    "data": {
+      "Microarray": 413000000,
+      "Sequencing": 4171000000
+    }
+  },
+  {
+    "symbol": "ILMN",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-01-02",
+    "data": {
+      "Microarray": 417000000,
+      "Sequencing": 4109000000
+    }
+  },
+  {
+    "symbol": "ILMN",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-01-03",
+    "data": {
+      "Product": 788000000,
+      "Service, Other": 220000000
+    }
+  },
+  {
+    "symbol": "ILMN",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-29",
+    "data": {
+      "Product": 802000000,
+      "Service, Other": 240000000
+    }
+  },
+  {
+    "symbol": "ILMN",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-12-30",
+    "data": {
+      "Consumables": 2156000000,
+      "Instruments": 569000000,
+      "Other Products": 24000000,
+      "Product": 2749000000,
+      "Services and Other": 584000000
+    }
+  },
+  {
+    "symbol": "ILMN",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-12-31",
+    "data": {
+      "Consolidated Variable Interest Entities": 6000000,
+      "Core Illumina": 2754000000
+    }
+  },
+  {
+    "symbol": "ILMN",
+    "fiscalYear": 2016,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-01-01",
+    "data": {
+      "Consolidated Variable Interest Entities": 0,
+      "Core Illumina": 2428024000,
+      "Intersegment Eliminations": -29651000
+    }
+  }
+]

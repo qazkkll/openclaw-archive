@@ -1,0 +1,54 @@
+[
+  {
+    "symbol": "RITM",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Interest Revenue": 1874315000,
+      "Product and Service, Other": 238927000,
+      "Asset Management": 627040000
+    }
+  },
+  {
+    "symbol": "RITM",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Interest Revenue": 1949790000,
+      "Product and Service, Other": 227472000,
+      "Asset Management": 520294000
+    }
+  },
+  {
+    "symbol": "RITM",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Asset Management Segment": 86469000,
+      "Corporate Segment": 0,
+      "Mortgage Loans Receivable Segment": 241931000
+    }
+  },
+  {
+    "symbol": "RITM",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "MSR Related Investments": 506824000,
+      "Origination": 1213886000,
+      "Servicing": 2403199000,
+      "Consumer Loans": 68788000,
+      "Corporate Segment": 20781000,
+      "Mortgage Loans Receivable Segment": 166479000,
+      "Servicer And Origination": 4126414000
+    }
+  }
+]

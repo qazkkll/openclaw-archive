@@ -1,0 +1,29 @@
+[
+  {
+    "symbol": "PENG",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-08-29",
+    "data": {
+      "CHINA": 186848000,
+      "Europe": 96999000,
+      "MEXICO": 147298000,
+      "Other Country": 161143000,
+      "UNITED STATES": 776506000
+    }
+  },
+  {
+    "symbol": "PENG",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-08-30",
+    "data": {
+      "CHINA": 190654000,
+      "Europe": 114298000,
+      "Other Country": 193093000,
+      "UNITED STATES": 672751000
+    }
+  }
+]

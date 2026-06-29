@@ -114,12 +114,14 @@ def step2_score():
     
     print("📊 Step 2: FinBERT批量打标", flush=True)
     
-    # 加载模型
-    print("  🧠 加载FinBERT...", flush=True)
+    # 加载模型到GPU
+    print("  🧠 加载FinBERT到GPU...", flush=True)
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     tokenizer = AutoTokenizer.from_pretrained("ProsusAI/finbert")
     model = AutoModelForSequenceClassification.from_pretrained("ProsusAI/finbert")
+    model = model.to(device)
     model.eval()
-    print("  ✅ FinBERT就绪", flush=True)
+    print(f"  ✅ FinBERT就绪 ({device}, {torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'})", flush=True)
     
     # 读所有raw JSON
     raw_files = sorted(RAW_DIR.glob('*.json'))
@@ -161,16 +163,17 @@ def step2_score():
     
     # 批量打标
     texts = [(a.get('title','') + '. ' + a.get('text','')).strip() for a in all_articles]
-    batch_size = 256
+    batch_size = 512
     sentiments = []
     confidences = []
     
     for i in range(0, len(texts), batch_size):
         batch = texts[i:i+batch_size]
         inputs = tokenizer(batch, return_tensors="pt", truncation=True, max_length=512, padding=True)
+        inputs = {k: v.to(device) for k, v in inputs.items()}
         with torch.no_grad():
             outputs = model(**inputs)
-            probs = torch.nn.functional.softmax(outputs.logits, dim=-1)
+            probs = torch.nn.functional.softmax(outputs.logits, dim=-1).cpu()
         for j in range(len(batch)):
             pos, neg, neu = probs[j].tolist()
             sentiments.append(round(pos - neg, 4))

@@ -1,0 +1,712 @@
+[
+  {
+    "symbol": "TAK",
+    "date": "2026-03-31",
+    "stockPrice": 2939.33,
+    "numberOfShares": 3124984000,
+    "marketCapitalization": 9185352095756,
+    "minusCashAndCashEquivalents": 597634849000,
+    "addTotalDebt": 4903011350000,
+    "enterpriseValue": 13490728596756
+  },
+  {
+    "symbol": "TAK",
+    "date": "2025-12-31",
+    "stockPrice": 2445.32,
+    "numberOfShares": 3159192000,
+    "marketCapitalization": 7725243848074,
+    "minusCashAndCashEquivalents": 655384084000,
+    "addTotalDebt": 4856634058000,
+    "enterpriseValue": 11926493822074
+  },
+  {
+    "symbol": "TAK",
+    "date": "2025-09-30",
+    "stockPrice": 2163.84,
+    "numberOfShares": 3154932000,
+    "marketCapitalization": 6826755186757,
+    "minusCashAndCashEquivalents": 681486000000,
+    "addTotalDebt": 4645320000000,
+    "enterpriseValue": 10790589186757
+  },
+  {
+    "symbol": "TAK",
+    "date": "2025-06-30",
+    "stockPrice": 2225.85,
+    "numberOfShares": 3129460000,
+    "marketCapitalization": 6965719494110,
+    "minusCashAndCashEquivalents": 350008000000,
+    "addTotalDebt": 4505942000000,
+    "enterpriseValue": 11121653494110
+  },
+  {
+    "symbol": "TAK",
+    "date": "2025-03-31",
+    "stockPrice": 2229.76,
+    "numberOfShares": 3163218000,
+    "marketCapitalization": 7053205896416,
+    "minusCashAndCashEquivalents": 385113000000,
+    "addTotalDebt": 4515265000000,
+    "enterpriseValue": 11183357896416
+  },
+  {
+    "symbol": "TAK",
+    "date": "2024-12-31",
+    "stockPrice": 2082.81,
+    "numberOfShares": 3170000000,
+    "marketCapitalization": 6602510489600,
+    "minusCashAndCashEquivalents": 494126000000,
+    "addTotalDebt": 4840148000000,
+    "enterpriseValue": 10948532489600
+  },
+  {
+    "symbol": "TAK",
+    "date": "2024-09-30",
+    "stockPrice": 2042.32,
+    "numberOfShares": 3166312000,
+    "marketCapitalization": 6466619347506,
+    "minusCashAndCashEquivalents": 859015000000,
+    "addTotalDebt": 5051193000000,
+    "enterpriseValue": 10658797347506
+  },
+  {
+    "symbol": "TAK",
+    "date": "2024-06-30",
+    "stockPrice": 2093.56,
+    "numberOfShares": 3137830000,
+    "marketCapitalization": 6569232236970,
+    "minusCashAndCashEquivalents": 804272000000,
+    "addTotalDebt": 5480985000000,
+    "enterpriseValue": 11245945236970
+  },
+  {
+    "symbol": "TAK",
+    "date": "2024-03-31",
+    "stockPrice": 2072.95,
+    "numberOfShares": 3136998000,
+    "marketCapitalization": 6502827895287,
+    "minusCashAndCashEquivalents": 457800000000,
+    "addTotalDebt": 4843752000000,
+    "enterpriseValue": 10888779895287
+  },
+  {
+    "symbol": "TAK",
+    "date": "2023-12-31",
+    "stockPrice": 2011.39,
+    "numberOfShares": 3137804000,
+    "marketCapitalization": 6311332024052,
+    "minusCashAndCashEquivalents": 288359000000,
+    "addTotalDebt": 4664164000000,
+    "enterpriseValue": 10687137024052
+  },
+  {
+    "symbol": "TAK",
+    "date": "2023-09-30",
+    "stockPrice": 2310.01,
+    "numberOfShares": 3130592000,
+    "marketCapitalization": 7231703020913,
+    "minusCashAndCashEquivalents": 318051000000,
+    "addTotalDebt": 4679204000000,
+    "enterpriseValue": 11592856020913
+  },
+  {
+    "symbol": "TAK",
+    "date": "2023-06-30",
+    "stockPrice": 2266.64,
+    "numberOfShares": 3108838000,
+    "marketCapitalization": 7046612833714,
+    "minusCashAndCashEquivalents": 316380000000,
+    "addTotalDebt": 4747114000000,
+    "enterpriseValue": 11477346833714
+  },
+  {
+    "symbol": "TAK",
+    "date": "2023-03-31",
+    "stockPrice": 2187.36,
+    "numberOfShares": 3109058050,
+    "marketCapitalization": 6800621257059,
+    "minusCashAndCashEquivalents": 533530000000,
+    "addTotalDebt": 4382341000000,
+    "enterpriseValue": 10649432257059
+  },
+  {
+    "symbol": "TAK",
+    "date": "2022-12-31",
+    "stockPrice": 2045.18,
+    "numberOfShares": 3109048000,
+    "marketCapitalization": 6358549108828,
+    "minusCashAndCashEquivalents": 685141000000,
+    "addTotalDebt": 4286903000000,
+    "enterpriseValue": 9960311108828
+  },
+  {
+    "symbol": "TAK",
+    "date": "2022-09-30",
+    "stockPrice": 1876.99,
+    "numberOfShares": 3104814000,
+    "marketCapitalization": 5827712467702,
+    "minusCashAndCashEquivalents": 798137000000,
+    "addTotalDebt": 4736645000000,
+    "enterpriseValue": 9766220467702
+  },
+  {
+    "symbol": "TAK",
+    "date": "2022-06-30",
+    "stockPrice": 1904.6,
+    "numberOfShares": 3091411242,
+    "marketCapitalization": 5887890104150,
+    "minusCashAndCashEquivalents": 645991000000,
+    "addTotalDebt": 4602254000000,
+    "enterpriseValue": 9844153104150
+  },
+  {
+    "symbol": "TAK",
+    "date": "2022-03-31",
+    "stockPrice": 1742.07,
+    "numberOfShares": 3107628000,
+    "marketCapitalization": 5413708493282,
+    "minusCashAndCashEquivalents": 849695000000,
+    "addTotalDebt": 4345411000000,
+    "enterpriseValue": 8909424493282
+  },
+  {
+    "symbol": "TAK",
+    "date": "2021-12-31",
+    "stockPrice": 1568.68,
+    "numberOfShares": 3130324000,
+    "marketCapitalization": 4910466322250,
+    "minusCashAndCashEquivalents": 724341000000,
+    "addTotalDebt": 4354875000000,
+    "enterpriseValue": 8541000322250
+  },
+  {
+    "symbol": "TAK",
+    "date": "2021-09-30",
+    "stockPrice": 1822.34,
+    "numberOfShares": 3143572000,
+    "marketCapitalization": 5728658633137,
+    "minusCashAndCashEquivalents": 607881000000,
+    "addTotalDebt": 4231359000000,
+    "enterpriseValue": 9352136633137
+  },
+  {
+    "symbol": "TAK",
+    "date": "2021-06-30",
+    "stockPrice": 1869.76,
+    "numberOfShares": 3091412000,
+    "marketCapitalization": 5780206260564,
+    "minusCashAndCashEquivalents": 654920000000,
+    "addTotalDebt": 4405861000000,
+    "enterpriseValue": 9531147260564
+  },
+  {
+    "symbol": "TAK",
+    "date": "2021-03-31",
+    "stockPrice": 2020.91,
+    "numberOfShares": 3124012000,
+    "marketCapitalization": 6313338468646,
+    "minusCashAndCashEquivalents": 966222000000,
+    "addTotalDebt": 4635371000000,
+    "enterpriseValue": 9982487468646
+  },
+  {
+    "symbol": "TAK",
+    "date": "2020-12-31",
+    "stockPrice": 1879.19,
+    "numberOfShares": 3126712000,
+    "marketCapitalization": 5875674667116,
+    "minusCashAndCashEquivalents": 617635000000,
+    "addTotalDebt": 4751048000000,
+    "enterpriseValue": 10009087667116
+  },
+  {
+    "symbol": "TAK",
+    "date": "2020-09-30",
+    "stockPrice": 1880.57,
+    "numberOfShares": 3126580000,
+    "marketCapitalization": 5879746047313,
+    "minusCashAndCashEquivalents": 630868000000,
+    "addTotalDebt": 4908034000000,
+    "enterpriseValue": 10156912047313
+  },
+  {
+    "symbol": "TAK",
+    "date": "2020-06-30",
+    "stockPrice": 1935.02,
+    "numberOfShares": 3117938000,
+    "marketCapitalization": 6033283395081,
+    "minusCashAndCashEquivalents": 589787000000,
+    "addTotalDebt": 5074957000000,
+    "enterpriseValue": 10518453395081
+  },
+  {
+    "symbol": "TAK",
+    "date": "2020-03-31",
+    "stockPrice": 1631.76,
+    "numberOfShares": 3115404000,
+    "marketCapitalization": 5083588266403,
+    "minusCashAndCashEquivalents": 637614000000,
+    "addTotalDebt": 5093304000000,
+    "enterpriseValue": 9539278266403
+  },
+  {
+    "symbol": "TAK",
+    "date": "2019-12-31",
+    "stockPrice": 2143.13,
+    "numberOfShares": 3115492000,
+    "marketCapitalization": 6676909946690,
+    "minusCashAndCashEquivalents": 568279000000,
+    "addTotalDebt": 5221753000000,
+    "enterpriseValue": 11330383946690
+  },
+  {
+    "symbol": "TAK",
+    "date": "2019-09-30",
+    "stockPrice": 1858.98,
+    "numberOfShares": 3116400000,
+    "marketCapitalization": 5793312806400,
+    "minusCashAndCashEquivalents": 543517000000,
+    "addTotalDebt": 5024610000000,
+    "enterpriseValue": 10274405806400
+  },
+  {
+    "symbol": "TAK",
+    "date": "2019-06-30",
+    "stockPrice": 1913.97,
+    "numberOfShares": 3108203992,
+    "marketCapitalization": 5948996761752,
+    "minusCashAndCashEquivalents": 593745000000,
+    "addTotalDebt": 5652648000000,
+    "enterpriseValue": 11007899761752
+  },
+  {
+    "symbol": "TAK",
+    "date": "2019-03-31",
+    "stockPrice": 2281.42,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 7156806012532,
+    "minusCashAndCashEquivalents": 702093000000,
+    "addTotalDebt": 5750951000000,
+    "enterpriseValue": 12205664012532
+  },
+  {
+    "symbol": "TAK",
+    "date": "2018-12-31",
+    "stockPrice": 1844.88,
+    "numberOfShares": 1568954000,
+    "marketCapitalization": 2894539512015,
+    "minusCashAndCashEquivalents": 297873000000,
+    "addTotalDebt": 2548783000000,
+    "enterpriseValue": 5145449512015
+  },
+  {
+    "symbol": "TAK",
+    "date": "2018-09-30",
+    "stockPrice": 2359.97,
+    "numberOfShares": 1568872000,
+    "marketCapitalization": 3702485456920,
+    "minusCashAndCashEquivalents": 317080000000,
+    "addTotalDebt": 1000534000000,
+    "enterpriseValue": 4385939456920
+  },
+  {
+    "symbol": "TAK",
+    "date": "2018-06-30",
+    "stockPrice": 2312.92,
+    "numberOfShares": 1564002000,
+    "marketCapitalization": 3617410567438,
+    "minusCashAndCashEquivalents": 231480000000,
+    "addTotalDebt": 994971000000,
+    "enterpriseValue": 4380901567438
+  },
+  {
+    "symbol": "TAK",
+    "date": "2018-03-31",
+    "stockPrice": 2593.81,
+    "numberOfShares": 1562618000,
+    "marketCapitalization": 4053128881678,
+    "minusCashAndCashEquivalents": 294522000000,
+    "addTotalDebt": 985662000000,
+    "enterpriseValue": 4744268881678
+  },
+  {
+    "symbol": "TAK",
+    "date": "2017-12-31",
+    "stockPrice": 3203.3,
+    "numberOfShares": 1562246000,
+    "marketCapitalization": 5004341518227,
+    "minusCashAndCashEquivalents": 440253000000,
+    "addTotalDebt": 1138467000000,
+    "enterpriseValue": 5702555518227
+  },
+  {
+    "symbol": "TAK",
+    "date": "2017-09-30",
+    "stockPrice": 3114.13,
+    "numberOfShares": 1561942000,
+    "marketCapitalization": 4864087566486,
+    "minusCashAndCashEquivalents": 430895000000,
+    "addTotalDebt": 1137358000000,
+    "enterpriseValue": 5570550566486
+  },
+  {
+    "symbol": "TAK",
+    "date": "2017-06-30",
+    "stockPrice": 2856.6,
+    "numberOfShares": 1560102000,
+    "marketCapitalization": 4456584128187,
+    "minusCashAndCashEquivalents": 432302000000,
+    "addTotalDebt": 1144847000000,
+    "enterpriseValue": 5169129128187
+  },
+  {
+    "symbol": "TAK",
+    "date": "2017-03-31",
+    "stockPrice": 2632.62,
+    "numberOfShares": 1561526000,
+    "marketCapitalization": 4110906639334,
+    "minusCashAndCashEquivalents": 319455000000,
+    "addTotalDebt": 1144890000000,
+    "enterpriseValue": 4936341639334
+  },
+  {
+    "symbol": "TAK",
+    "date": "2016-12-31",
+    "stockPrice": 2430.8,
+    "numberOfShares": 1561426000,
+    "marketCapitalization": 3795518755249,
+    "minusCashAndCashEquivalents": 559166000000,
+    "addTotalDebt": 975899000000,
+    "enterpriseValue": 4212251755249
+  },
+  {
+    "symbol": "TAK",
+    "date": "2016-09-30",
+    "stockPrice": 2426.64,
+    "numberOfShares": 1561772000,
+    "marketCapitalization": 3789865965056,
+    "minusCashAndCashEquivalents": 619144000000,
+    "addTotalDebt": 951265000000,
+    "enterpriseValue": 4121986965056
+  },
+  {
+    "symbol": "TAK",
+    "date": "2016-06-30",
+    "stockPrice": 2222.45,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 6971836165299,
+    "minusCashAndCashEquivalents": 581670000000,
+    "addTotalDebt": 954404000000,
+    "enterpriseValue": 7344570165299
+  },
+  {
+    "symbol": "TAK",
+    "date": "2016-03-31",
+    "stockPrice": 2568.48,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 8057326128125,
+    "minusCashAndCashEquivalents": 451426000000,
+    "addTotalDebt": 768224000000,
+    "enterpriseValue": 8374124128125
+  },
+  {
+    "symbol": "TAK",
+    "date": "2015-12-31",
+    "stockPrice": 3008.38,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 9437287088925,
+    "minusCashAndCashEquivalents": 560952000000,
+    "addTotalDebt": 730118000000,
+    "enterpriseValue": 9606453088925
+  },
+  {
+    "symbol": "TAK",
+    "date": "2015-09-30",
+    "stockPrice": 2621.64,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 8224095578197,
+    "minusCashAndCashEquivalents": 608281000000,
+    "addTotalDebt": 729031000000,
+    "enterpriseValue": 8344845578197
+  },
+  {
+    "symbol": "TAK",
+    "date": "2015-06-30",
+    "stockPrice": 2966.66,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 9306407196461,
+    "minusCashAndCashEquivalents": 576404000000,
+    "addTotalDebt": 733158000000,
+    "enterpriseValue": 9463161196461
+  },
+  {
+    "symbol": "TAK",
+    "date": "2015-03-31",
+    "stockPrice": 3007.8,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 9435480397139,
+    "minusCashAndCashEquivalents": 652148000000,
+    "addTotalDebt": 729381000000,
+    "enterpriseValue": 9512713397139
+  },
+  {
+    "symbol": "TAK",
+    "date": "2014-12-31",
+    "stockPrice": 2486.56,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 7800336275528,
+    "minusCashAndCashEquivalents": 781507000000,
+    "addTotalDebt": 912875000000,
+    "enterpriseValue": 7931704275528
+  },
+  {
+    "symbol": "TAK",
+    "date": "2014-09-30",
+    "stockPrice": 2382.7,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 7474539865148,
+    "minusCashAndCashEquivalents": 681453000000,
+    "addTotalDebt": 880158000000,
+    "enterpriseValue": 7673244865148
+  },
+  {
+    "symbol": "TAK",
+    "date": "2014-06-30",
+    "stockPrice": 2355.83,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 7390234587780,
+    "minusCashAndCashEquivalents": 622915000000,
+    "addTotalDebt": 855915000000,
+    "enterpriseValue": 7623234587780
+  },
+  {
+    "symbol": "TAK",
+    "date": "2014-03-31",
+    "stockPrice": 2446.41,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 7674381753692,
+    "minusCashAndCashEquivalents": 666048000000,
+    "addTotalDebt": 859984000000,
+    "enterpriseValue": 7868317753692
+  },
+  {
+    "symbol": "TAK",
+    "date": "2013-12-31",
+    "stockPrice": 2422.69,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 7599988012619,
+    "minusCashAndCashEquivalents": 441329000000,
+    "addTotalDebt": 791502000000,
+    "enterpriseValue": 7950161012619
+  },
+  {
+    "symbol": "TAK",
+    "date": "2013-09-30",
+    "stockPrice": 2329.66,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 7308140267248,
+    "minusCashAndCashEquivalents": 352579000000,
+    "addTotalDebt": 791417000000,
+    "enterpriseValue": 7746978267248
+  },
+  {
+    "symbol": "TAK",
+    "date": "2013-06-30",
+    "stockPrice": 2278.23,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 7146797511601,
+    "minusCashAndCashEquivalents": 266883000000,
+    "addTotalDebt": 541648000000,
+    "enterpriseValue": 7421562511601
+  },
+  {
+    "symbol": "TAK",
+    "date": "2013-03-31",
+    "stockPrice": 2377.39,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 7457871421408,
+    "minusCashAndCashEquivalents": 289613000000,
+    "addTotalDebt": 600427000000,
+    "enterpriseValue": 7768685421408
+  },
+  {
+    "symbol": "TAK",
+    "date": "2012-12-31",
+    "stockPrice": 1923.36,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 6033589528273,
+    "minusCashAndCashEquivalents": 262241000000,
+    "addTotalDebt": 541878000000,
+    "enterpriseValue": 6313226528273
+  },
+  {
+    "symbol": "TAK",
+    "date": "2012-09-30",
+    "stockPrice": 1780.05,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 5584018935784,
+    "minusCashAndCashEquivalents": 212538000000,
+    "addTotalDebt": 541801000000,
+    "enterpriseValue": 5913281935784
+  },
+  {
+    "symbol": "TAK",
+    "date": "2012-06-30",
+    "stockPrice": 1811.05,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 5681266278620,
+    "minusCashAndCashEquivalents": 205395000000,
+    "addTotalDebt": 542805000000,
+    "enterpriseValue": 6018676278620
+  },
+  {
+    "symbol": "TAK",
+    "date": "2012-03-31",
+    "stockPrice": 1822.41,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 5716910742503,
+    "minusCashAndCashEquivalents": 454247000000,
+    "addTotalDebt": 542359000000,
+    "enterpriseValue": 5805022742503
+  },
+  {
+    "symbol": "TAK",
+    "date": "2011-12-31",
+    "stockPrice": 1694.87,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 5316815548007,
+    "minusCashAndCashEquivalents": 192691000000,
+    "addTotalDebt": 541263000000,
+    "enterpriseValue": 5665387548007
+  },
+  {
+    "symbol": "TAK",
+    "date": "2011-09-30",
+    "stockPrice": 1820.02,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 5709386587863,
+    "minusCashAndCashEquivalents": 248551000000,
+    "addTotalDebt": 571335000000,
+    "enterpriseValue": 6032170587863
+  },
+  {
+    "symbol": "TAK",
+    "date": "2011-06-30",
+    "stockPrice": 1859.16,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 5832193068547,
+    "minusCashAndCashEquivalents": 191266000000,
+    "addTotalDebt": 1270000000,
+    "enterpriseValue": 5642197068547
+  },
+  {
+    "symbol": "TAK",
+    "date": "2011-03-31",
+    "stockPrice": 1941.68,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 6091058093615,
+    "minusCashAndCashEquivalents": 217897000000,
+    "addTotalDebt": 35652000000,
+    "enterpriseValue": 5908813093615
+  },
+  {
+    "symbol": "TAK",
+    "date": "2010-12-31",
+    "stockPrice": 1975.3,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 6196502508728,
+    "minusCashAndCashEquivalents": 193250000000,
+    "addTotalDebt": 3201000000,
+    "enterpriseValue": 6006453508728
+  },
+  {
+    "symbol": "TAK",
+    "date": "2010-09-30",
+    "stockPrice": 1915.88,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 6010113420446,
+    "minusCashAndCashEquivalents": 221982000000,
+    "addTotalDebt": 2992000000,
+    "enterpriseValue": 5791123420446
+  },
+  {
+    "symbol": "TAK",
+    "date": "2010-06-30",
+    "stockPrice": 1881.9,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 5903508221623,
+    "minusCashAndCashEquivalents": 229765000000,
+    "addTotalDebt": 3058000000,
+    "enterpriseValue": 5676801221623
+  },
+  {
+    "symbol": "TAK",
+    "date": "2010-03-31",
+    "stockPrice": 2046.49,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 6419834715705,
+    "minusCashAndCashEquivalents": 266538000000,
+    "addTotalDebt": 18804000000,
+    "enterpriseValue": 6172100715705
+  },
+  {
+    "symbol": "TAK",
+    "date": "2009-12-31",
+    "stockPrice": 1912.81,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 6000497169859,
+    "minusCashAndCashEquivalents": 275116000000,
+    "addTotalDebt": 3265000000,
+    "enterpriseValue": 5728646169859
+  },
+  {
+    "symbol": "TAK",
+    "date": "2009-09-30",
+    "stockPrice": 1836.44,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 5760915308497,
+    "minusCashAndCashEquivalents": 260721000000,
+    "addTotalDebt": 3101000000,
+    "enterpriseValue": 5503295308497
+  },
+  {
+    "symbol": "TAK",
+    "date": "2009-06-30",
+    "stockPrice": 1856.34,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 5823326874400,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5823326874400
+  },
+  {
+    "symbol": "TAK",
+    "date": "2009-03-31",
+    "stockPrice": 1726.71,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 5416694927043,
+    "minusCashAndCashEquivalents": 229533000000,
+    "addTotalDebt": 19764000000,
+    "enterpriseValue": 5206925927043
+  },
+  {
+    "symbol": "TAK",
+    "date": "2008-12-31",
+    "stockPrice": 2339.93,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 7340352383767,
+    "minusCashAndCashEquivalents": 222565000000,
+    "addTotalDebt": 3699000000,
+    "enterpriseValue": 7121486383767
+  },
+  {
+    "symbol": "TAK",
+    "date": "2008-09-30",
+    "stockPrice": 2641.77,
+    "numberOfShares": 3136998916,
+    "marketCapitalization": 8287215509826,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8287215509826
+  }
+]

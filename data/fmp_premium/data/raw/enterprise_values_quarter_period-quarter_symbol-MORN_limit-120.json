@@ -1,0 +1,912 @@
+[
+  {
+    "symbol": "MORN",
+    "date": "2026-03-31",
+    "stockPrice": 169.05,
+    "numberOfShares": 39100000,
+    "marketCapitalization": 6609855000,
+    "minusCashAndCashEquivalents": 492800000,
+    "addTotalDebt": 1906500000,
+    "enterpriseValue": 8023555000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2025-12-31",
+    "stockPrice": 217.31,
+    "numberOfShares": 40500000,
+    "marketCapitalization": 8801055000,
+    "minusCashAndCashEquivalents": 474500000,
+    "addTotalDebt": 1407800000,
+    "enterpriseValue": 9734355000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2025-09-30",
+    "stockPrice": 232.01,
+    "numberOfShares": 42400000,
+    "marketCapitalization": 9837224000,
+    "minusCashAndCashEquivalents": 474200000,
+    "addTotalDebt": 1042600000,
+    "enterpriseValue": 10405624000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2025-06-30",
+    "stockPrice": 313.93,
+    "numberOfShares": 42500000,
+    "marketCapitalization": 13342025000,
+    "minusCashAndCashEquivalents": 503500000,
+    "addTotalDebt": 1034000000,
+    "enterpriseValue": 13872525000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2025-03-31",
+    "stockPrice": 299.87,
+    "numberOfShares": 42800000,
+    "marketCapitalization": 12834436000,
+    "minusCashAndCashEquivalents": 511500000,
+    "addTotalDebt": 1003100000,
+    "enterpriseValue": 13326036000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2024-12-31",
+    "stockPrice": 336.76,
+    "numberOfShares": 42900000,
+    "marketCapitalization": 14447004000,
+    "minusCashAndCashEquivalents": 502700000,
+    "addTotalDebt": 904000000,
+    "enterpriseValue": 14848304000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2024-09-30",
+    "stockPrice": 319.12,
+    "numberOfShares": 42900000,
+    "marketCapitalization": 13690248000,
+    "minusCashAndCashEquivalents": 552900000,
+    "addTotalDebt": 1042600000,
+    "enterpriseValue": 14179948000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2024-06-30",
+    "stockPrice": 297.71,
+    "numberOfShares": 42800000,
+    "marketCapitalization": 12741988000,
+    "minusCashAndCashEquivalents": 391200000,
+    "addTotalDebt": 1068200000,
+    "enterpriseValue": 13418988000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2024-03-31",
+    "stockPrice": 306.32,
+    "numberOfShares": 42700000,
+    "marketCapitalization": 13079864000,
+    "minusCashAndCashEquivalents": 353700000,
+    "addTotalDebt": 1127900000,
+    "enterpriseValue": 13854064000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2023-12-31",
+    "stockPrice": 286.24,
+    "numberOfShares": 42700000,
+    "marketCapitalization": 12222448000,
+    "minusCashAndCashEquivalents": 337900000,
+    "addTotalDebt": 1160200000,
+    "enterpriseValue": 13044748000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2023-09-30",
+    "stockPrice": 234.24,
+    "numberOfShares": 42700000,
+    "marketCapitalization": 10002048000,
+    "minusCashAndCashEquivalents": 325000000,
+    "addTotalDebt": 1240200000,
+    "enterpriseValue": 10917248000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2023-06-30",
+    "stockPrice": 196.07,
+    "numberOfShares": 42600000,
+    "marketCapitalization": 8352582000,
+    "minusCashAndCashEquivalents": 343300000,
+    "addTotalDebt": 1350100000,
+    "enterpriseValue": 9359382000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2023-03-31",
+    "stockPrice": 203.03,
+    "numberOfShares": 42500000,
+    "marketCapitalization": 8628775000,
+    "minusCashAndCashEquivalents": 352200000,
+    "addTotalDebt": 1337900000,
+    "enterpriseValue": 9614475000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2022-12-31",
+    "stockPrice": 216.59,
+    "numberOfShares": 42500000,
+    "marketCapitalization": 9205075000,
+    "minusCashAndCashEquivalents": 376600000,
+    "addTotalDebt": 1323600000,
+    "enterpriseValue": 10152075000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2022-09-30",
+    "stockPrice": 212.32,
+    "numberOfShares": 42500000,
+    "marketCapitalization": 9023600000,
+    "minusCashAndCashEquivalents": 372700000,
+    "addTotalDebt": 1357200000,
+    "enterpriseValue": 10008100000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2022-06-30",
+    "stockPrice": 241.83,
+    "numberOfShares": 42600000,
+    "marketCapitalization": 10301958000,
+    "minusCashAndCashEquivalents": 380200000,
+    "addTotalDebt": 1332400000,
+    "enterpriseValue": 11254158000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2022-03-31",
+    "stockPrice": 273.17,
+    "numberOfShares": 43000000,
+    "marketCapitalization": 11746310000,
+    "minusCashAndCashEquivalents": 483500000,
+    "addTotalDebt": 670900000,
+    "enterpriseValue": 11933710000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2021-12-31",
+    "stockPrice": 341.99,
+    "numberOfShares": 43100000,
+    "marketCapitalization": 14739769000,
+    "minusCashAndCashEquivalents": 483800000,
+    "addTotalDebt": 531500000,
+    "enterpriseValue": 14787469000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2021-09-30",
+    "stockPrice": 259.03,
+    "numberOfShares": 43100000,
+    "marketCapitalization": 11164192999,
+    "minusCashAndCashEquivalents": 427000000,
+    "addTotalDebt": 527200000,
+    "enterpriseValue": 11264392999
+  },
+  {
+    "symbol": "MORN",
+    "date": "2021-06-30",
+    "stockPrice": 257.11,
+    "numberOfShares": 43000000,
+    "marketCapitalization": 11055730000,
+    "minusCashAndCashEquivalents": 387600000,
+    "addTotalDebt": 537500000,
+    "enterpriseValue": 11205630000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2021-03-31",
+    "stockPrice": 225.04,
+    "numberOfShares": 42900000,
+    "marketCapitalization": 9654216000,
+    "minusCashAndCashEquivalents": 383600000,
+    "addTotalDebt": 570400000,
+    "enterpriseValue": 9841016000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2020-12-31",
+    "stockPrice": 231.57,
+    "numberOfShares": 42900000,
+    "marketCapitalization": 9934353000,
+    "minusCashAndCashEquivalents": 422500000,
+    "addTotalDebt": 626700000,
+    "enterpriseValue": 10138553000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2020-09-30",
+    "stockPrice": 160.61,
+    "numberOfShares": 42900000,
+    "marketCapitalization": 6890169000,
+    "minusCashAndCashEquivalents": 351100000,
+    "addTotalDebt": 664800000,
+    "enterpriseValue": 7203869000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2020-06-30",
+    "stockPrice": 140.97,
+    "numberOfShares": 42900000,
+    "marketCapitalization": 6047613000,
+    "minusCashAndCashEquivalents": 353700000,
+    "addTotalDebt": 667100000,
+    "enterpriseValue": 6361013000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2020-03-31",
+    "stockPrice": 116.25,
+    "numberOfShares": 42900000,
+    "marketCapitalization": 4987125000,
+    "minusCashAndCashEquivalents": 322500000,
+    "addTotalDebt": 702300000,
+    "enterpriseValue": 5366925000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2019-12-31",
+    "stockPrice": 151.31,
+    "numberOfShares": 42800000,
+    "marketCapitalization": 6476068000,
+    "minusCashAndCashEquivalents": 334100000,
+    "addTotalDebt": 687600000,
+    "enterpriseValue": 6829568000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2019-09-30",
+    "stockPrice": 146.14,
+    "numberOfShares": 42800000,
+    "marketCapitalization": 6254791999,
+    "minusCashAndCashEquivalents": 321800000,
+    "addTotalDebt": 711400000,
+    "enterpriseValue": 6644391999
+  },
+  {
+    "symbol": "MORN",
+    "date": "2019-06-30",
+    "stockPrice": 144.99,
+    "numberOfShares": 42700000,
+    "marketCapitalization": 6191073000,
+    "minusCashAndCashEquivalents": 383800000,
+    "addTotalDebt": 154000000,
+    "enterpriseValue": 5961273000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2019-03-31",
+    "stockPrice": 128.89,
+    "numberOfShares": 42600000,
+    "marketCapitalization": 5490713999,
+    "minusCashAndCashEquivalents": 349100000,
+    "addTotalDebt": 175800000,
+    "enterpriseValue": 5317413999
+  },
+  {
+    "symbol": "MORN",
+    "date": "2018-12-31",
+    "stockPrice": 109.84,
+    "numberOfShares": 42700000,
+    "marketCapitalization": 4690168000,
+    "minusCashAndCashEquivalents": 369300000,
+    "addTotalDebt": 70000000,
+    "enterpriseValue": 4390868000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2018-09-30",
+    "stockPrice": 125.37,
+    "numberOfShares": 42600000,
+    "marketCapitalization": 5340762000,
+    "minusCashAndCashEquivalents": 323000000,
+    "addTotalDebt": 90000000,
+    "enterpriseValue": 5107762000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2018-06-30",
+    "stockPrice": 128.25,
+    "numberOfShares": 42600000,
+    "marketCapitalization": 5463450000,
+    "minusCashAndCashEquivalents": 307100000,
+    "addTotalDebt": 125000000,
+    "enterpriseValue": 5281350000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2018-03-31",
+    "stockPrice": 95.52,
+    "numberOfShares": 42500000,
+    "marketCapitalization": 4059600000,
+    "minusCashAndCashEquivalents": 311000000,
+    "addTotalDebt": 150000000,
+    "enterpriseValue": 3898600000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2017-12-31",
+    "stockPrice": 96.97,
+    "numberOfShares": 42500000,
+    "marketCapitalization": 4121225000,
+    "minusCashAndCashEquivalents": 308200000,
+    "addTotalDebt": 180000000,
+    "enterpriseValue": 3993025000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2017-09-30",
+    "stockPrice": 84.99,
+    "numberOfShares": 42500000,
+    "marketCapitalization": 3612075000,
+    "minusCashAndCashEquivalents": 270300000,
+    "addTotalDebt": 205000000,
+    "enterpriseValue": 3546775000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2017-06-30",
+    "stockPrice": 78.34,
+    "numberOfShares": 42900000,
+    "marketCapitalization": 3360786000,
+    "minusCashAndCashEquivalents": 285600000,
+    "addTotalDebt": 230000000,
+    "enterpriseValue": 3305186000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2017-03-31",
+    "stockPrice": 78.6,
+    "numberOfShares": 42900000,
+    "marketCapitalization": 3371939999,
+    "minusCashAndCashEquivalents": 265800000,
+    "addTotalDebt": 235000000,
+    "enterpriseValue": 3341139999
+  },
+  {
+    "symbol": "MORN",
+    "date": "2016-12-31",
+    "stockPrice": 73.56,
+    "numberOfShares": 43000000,
+    "marketCapitalization": 3163080000,
+    "minusCashAndCashEquivalents": 259100000,
+    "addTotalDebt": 250000000,
+    "enterpriseValue": 3153980000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2016-09-30",
+    "stockPrice": 79.27,
+    "numberOfShares": 43100000,
+    "marketCapitalization": 3416537000,
+    "minusCashAndCashEquivalents": 219400000,
+    "addTotalDebt": 60000000,
+    "enterpriseValue": 3257137000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2016-06-30",
+    "stockPrice": 81.78,
+    "numberOfShares": 43000000,
+    "marketCapitalization": 3516540000,
+    "minusCashAndCashEquivalents": 202400000,
+    "addTotalDebt": 75000000,
+    "enterpriseValue": 3389140000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2016-03-31",
+    "stockPrice": 88.27,
+    "numberOfShares": 43000000,
+    "marketCapitalization": 3795610000,
+    "minusCashAndCashEquivalents": 185200000,
+    "addTotalDebt": 75000000,
+    "enterpriseValue": 3685410000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2015-12-31",
+    "stockPrice": 80.41,
+    "numberOfShares": 43800000,
+    "marketCapitalization": 3521958000,
+    "minusCashAndCashEquivalents": 207100000,
+    "addTotalDebt": 35000000,
+    "enterpriseValue": 3349858000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2015-09-30",
+    "stockPrice": 80.26,
+    "numberOfShares": 44200000,
+    "marketCapitalization": 3547492000,
+    "minusCashAndCashEquivalents": 223700000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3323792000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2015-06-30",
+    "stockPrice": 79.55,
+    "numberOfShares": 44300000,
+    "marketCapitalization": 3524065000,
+    "minusCashAndCashEquivalents": 225600000,
+    "addTotalDebt": 35000000,
+    "enterpriseValue": 3333465000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2015-03-31",
+    "stockPrice": 74.91,
+    "numberOfShares": 44300000,
+    "marketCapitalization": 3318513000,
+    "minusCashAndCashEquivalents": 204600000,
+    "addTotalDebt": 45000000,
+    "enterpriseValue": 3158913000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2014-12-31",
+    "stockPrice": 64.71,
+    "numberOfShares": 44414000,
+    "marketCapitalization": 2874029939,
+    "minusCashAndCashEquivalents": 185150000,
+    "addTotalDebt": 30000000,
+    "enterpriseValue": 2718879939
+  },
+  {
+    "symbol": "MORN",
+    "date": "2014-09-30",
+    "stockPrice": 67.9,
+    "numberOfShares": 44700000,
+    "marketCapitalization": 3035130000,
+    "minusCashAndCashEquivalents": 189318000,
+    "addTotalDebt": 30017000,
+    "enterpriseValue": 2875829000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2014-06-30",
+    "stockPrice": 71.81,
+    "numberOfShares": 44545454,
+    "marketCapitalization": 3198809051,
+    "minusCashAndCashEquivalents": 176254000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3022555051
+  },
+  {
+    "symbol": "MORN",
+    "date": "2014-03-31",
+    "stockPrice": 79.02,
+    "numberOfShares": 44800000,
+    "marketCapitalization": 3540096000,
+    "minusCashAndCashEquivalents": 204633000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3335463000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2013-12-31",
+    "stockPrice": 78.09,
+    "numberOfShares": 45756000,
+    "marketCapitalization": 3573086040,
+    "minusCashAndCashEquivalents": 168160000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3404926040
+  },
+  {
+    "symbol": "MORN",
+    "date": "2013-09-30",
+    "stockPrice": 79.26,
+    "numberOfShares": 46080000,
+    "marketCapitalization": 3652300800,
+    "minusCashAndCashEquivalents": 176959000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3475341800
+  },
+  {
+    "symbol": "MORN",
+    "date": "2013-06-30",
+    "stockPrice": 77.91,
+    "numberOfShares": 46400000,
+    "marketCapitalization": 3615024000,
+    "minusCashAndCashEquivalents": 169810000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3445214000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2013-03-31",
+    "stockPrice": 69.61,
+    "numberOfShares": 46406000,
+    "marketCapitalization": 3230321660,
+    "minusCashAndCashEquivalents": 224892000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3005429660
+  },
+  {
+    "symbol": "MORN",
+    "date": "2012-12-31",
+    "stockPrice": 62.83,
+    "numberOfShares": 46913000,
+    "marketCapitalization": 2947543790,
+    "minusCashAndCashEquivalents": 163889000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2783654790
+  },
+  {
+    "symbol": "MORN",
+    "date": "2012-09-30",
+    "stockPrice": 63.7,
+    "numberOfShares": 47975000,
+    "marketCapitalization": 3056007500,
+    "minusCashAndCashEquivalents": 152181000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2903826500
+  },
+  {
+    "symbol": "MORN",
+    "date": "2012-06-30",
+    "stockPrice": 57.84,
+    "numberOfShares": 49195000,
+    "marketCapitalization": 2845438800,
+    "minusCashAndCashEquivalents": 147499000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2697939800
+  },
+  {
+    "symbol": "MORN",
+    "date": "2012-03-31",
+    "stockPrice": 63.05,
+    "numberOfShares": 49938000,
+    "marketCapitalization": 3148590900,
+    "minusCashAndCashEquivalents": 165348000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2983242900
+  },
+  {
+    "symbol": "MORN",
+    "date": "2011-12-31",
+    "stockPrice": 59.45,
+    "numberOfShares": 49883000,
+    "marketCapitalization": 2965544350,
+    "minusCashAndCashEquivalents": 200437000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2765107350
+  },
+  {
+    "symbol": "MORN",
+    "date": "2011-09-30",
+    "stockPrice": 56.44,
+    "numberOfShares": 50278000,
+    "marketCapitalization": 2837690320,
+    "minusCashAndCashEquivalents": 174270000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2663420320
+  },
+  {
+    "symbol": "MORN",
+    "date": "2011-06-30",
+    "stockPrice": 60.78,
+    "numberOfShares": 50165000,
+    "marketCapitalization": 3049028700,
+    "minusCashAndCashEquivalents": 195023000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2854005700
+  },
+  {
+    "symbol": "MORN",
+    "date": "2011-03-31",
+    "stockPrice": 58.38,
+    "numberOfShares": 49800000,
+    "marketCapitalization": 2907324000,
+    "minusCashAndCashEquivalents": 193374000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2713950000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2010-12-31",
+    "stockPrice": 53.08,
+    "numberOfShares": 49523000,
+    "marketCapitalization": 2628680840,
+    "minusCashAndCashEquivalents": 180176000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2448504840
+  },
+  {
+    "symbol": "MORN",
+    "date": "2010-09-30",
+    "stockPrice": 44.56,
+    "numberOfShares": 49401000,
+    "marketCapitalization": 2201308560,
+    "minusCashAndCashEquivalents": 175872000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2025436560
+  },
+  {
+    "symbol": "MORN",
+    "date": "2010-06-30",
+    "stockPrice": 42.52,
+    "numberOfShares": 49234000,
+    "marketCapitalization": 2093429680,
+    "minusCashAndCashEquivalents": 154377000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1939052680
+  },
+  {
+    "symbol": "MORN",
+    "date": "2010-03-31",
+    "stockPrice": 48.09,
+    "numberOfShares": 48828000,
+    "marketCapitalization": 2348138520,
+    "minusCashAndCashEquivalents": 185353000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2162785520
+  },
+  {
+    "symbol": "MORN",
+    "date": "2009-12-31",
+    "stockPrice": 48.34,
+    "numberOfShares": 48658000,
+    "marketCapitalization": 2352127720,
+    "minusCashAndCashEquivalents": 130496000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2221631720
+  },
+  {
+    "symbol": "MORN",
+    "date": "2009-09-30",
+    "stockPrice": 48.56,
+    "numberOfShares": 48457000,
+    "marketCapitalization": 2353071920,
+    "minusCashAndCashEquivalents": 189400000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2163671920
+  },
+  {
+    "symbol": "MORN",
+    "date": "2009-06-30",
+    "stockPrice": 41.23,
+    "numberOfShares": 47941000,
+    "marketCapitalization": 1976607429,
+    "minusCashAndCashEquivalents": 187099000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1789508429
+  },
+  {
+    "symbol": "MORN",
+    "date": "2009-03-31",
+    "stockPrice": 34.15,
+    "numberOfShares": 47378000,
+    "marketCapitalization": 1617958700,
+    "minusCashAndCashEquivalents": 156712000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1461246700
+  },
+  {
+    "symbol": "MORN",
+    "date": "2008-12-31",
+    "stockPrice": 35.5,
+    "numberOfShares": 46907000,
+    "marketCapitalization": 1665198500,
+    "minusCashAndCashEquivalents": 173891000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1491307500
+  },
+  {
+    "symbol": "MORN",
+    "date": "2008-09-30",
+    "stockPrice": 55.47,
+    "numberOfShares": 46499000,
+    "marketCapitalization": 2579299530,
+    "minusCashAndCashEquivalents": 233615000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2345684530
+  },
+  {
+    "symbol": "MORN",
+    "date": "2008-06-30",
+    "stockPrice": 72.03,
+    "numberOfShares": 45921000,
+    "marketCapitalization": 3307689630,
+    "minusCashAndCashEquivalents": 206877000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3100812630
+  },
+  {
+    "symbol": "MORN",
+    "date": "2008-03-31",
+    "stockPrice": 61.35,
+    "numberOfShares": 45224000,
+    "marketCapitalization": 2774492400,
+    "minusCashAndCashEquivalents": 135937000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2638555400
+  },
+  {
+    "symbol": "MORN",
+    "date": "2007-12-31",
+    "stockPrice": 77.75,
+    "numberOfShares": 44197000,
+    "marketCapitalization": 3436316750,
+    "minusCashAndCashEquivalents": 159576000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3276740750
+  },
+  {
+    "symbol": "MORN",
+    "date": "2007-09-30",
+    "stockPrice": 64.1,
+    "numberOfShares": 43393000,
+    "marketCapitalization": 2781491299,
+    "minusCashAndCashEquivalents": 86418000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2695073299
+  },
+  {
+    "symbol": "MORN",
+    "date": "2007-06-30",
+    "stockPrice": 47.02,
+    "numberOfShares": 42852000,
+    "marketCapitalization": 2014901040,
+    "minusCashAndCashEquivalents": 94978000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1919923040
+  },
+  {
+    "symbol": "MORN",
+    "date": "2007-03-31",
+    "stockPrice": 51.64,
+    "numberOfShares": 42401000,
+    "marketCapitalization": 2189587640,
+    "minusCashAndCashEquivalents": 60218000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2129369640
+  },
+  {
+    "symbol": "MORN",
+    "date": "2006-12-31",
+    "stockPrice": 45.05,
+    "numberOfShares": 41965000,
+    "marketCapitalization": 1890523249,
+    "minusCashAndCashEquivalents": 96140000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1794383249
+  },
+  {
+    "symbol": "MORN",
+    "date": "2006-09-30",
+    "stockPrice": 36.9,
+    "numberOfShares": 41448000,
+    "marketCapitalization": 1529431200,
+    "minusCashAndCashEquivalents": 71181000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1458250200
+  },
+  {
+    "symbol": "MORN",
+    "date": "2006-06-30",
+    "stockPrice": 41.48,
+    "numberOfShares": 40925000,
+    "marketCapitalization": 1697568999,
+    "minusCashAndCashEquivalents": 83259000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1614309999
+  },
+  {
+    "symbol": "MORN",
+    "date": "2006-03-31",
+    "stockPrice": 44.77,
+    "numberOfShares": 40355000,
+    "marketCapitalization": 1806693350,
+    "minusCashAndCashEquivalents": 48390000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1758303350
+  },
+  {
+    "symbol": "MORN",
+    "date": "2005-12-31",
+    "stockPrice": 34.64,
+    "numberOfShares": 40115000,
+    "marketCapitalization": 1389583600,
+    "minusCashAndCashEquivalents": 92367000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1297216600
+  },
+  {
+    "symbol": "MORN",
+    "date": "2005-09-30",
+    "stockPrice": 32,
+    "numberOfShares": 39922000,
+    "marketCapitalization": 1277504000,
+    "minusCashAndCashEquivalents": 76773000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1200731000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2005-06-30",
+    "stockPrice": 28.15,
+    "numberOfShares": 39064000,
+    "marketCapitalization": 1099651600,
+    "minusCashAndCashEquivalents": 66884000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1032767600
+  },
+  {
+    "symbol": "MORN",
+    "date": "2005-03-31",
+    "stockPrice": 20.05,
+    "numberOfShares": 38448000,
+    "marketCapitalization": 770882400,
+    "minusCashAndCashEquivalents": 46608000,
+    "addTotalDebt": 7000,
+    "enterpriseValue": 724281400
+  },
+  {
+    "symbol": "MORN",
+    "date": "2004-12-31",
+    "stockPrice": 20.05,
+    "numberOfShares": 38358000,
+    "marketCapitalization": 769077900,
+    "minusCashAndCashEquivalents": 59493000,
+    "addTotalDebt": 18000,
+    "enterpriseValue": 709602900
+  },
+  {
+    "symbol": "MORN",
+    "date": "2004-09-30",
+    "stockPrice": 20.05,
+    "numberOfShares": 38438000,
+    "marketCapitalization": 770681900,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 770681900
+  },
+  {
+    "symbol": "MORN",
+    "date": "2004-06-30",
+    "stockPrice": 20.05,
+    "numberOfShares": 38397000,
+    "marketCapitalization": 769859850,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 769859850
+  },
+  {
+    "symbol": "MORN",
+    "date": "2004-03-31",
+    "stockPrice": 20.05,
+    "numberOfShares": 38395000,
+    "marketCapitalization": 769819750,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 769819750
+  },
+  {
+    "symbol": "MORN",
+    "date": "2001-09-30",
+    "stockPrice": 20.05,
+    "numberOfShares": 500000,
+    "marketCapitalization": 10025000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10025000
+  },
+  {
+    "symbol": "MORN",
+    "date": "2001-03-31",
+    "stockPrice": 20.05,
+    "numberOfShares": 200000,
+    "marketCapitalization": 4010000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4010000
+  }
+]

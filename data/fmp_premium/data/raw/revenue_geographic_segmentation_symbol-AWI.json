@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "AWI",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-12-31",
+    "data": {
+      "CANADA": 56600000,
+      "UNITED STATES": 699800000
+    }
+  },
+  {
+    "symbol": "AWI",
+    "fiscalYear": 2016,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2016-12-31",
+    "data": {
+      "CANADA": 61400000,
+      "UNITED STATES": 775900000,
+      "FRANCE": 54000000,
+      "NETHERLANDS": 43300000,
+      "Other Countries": 19900000,
+      "AUSTRALIA": 35500000,
+      "CHINA": 38700000,
+      "INDIA": 40000000,
+      "Americas Segment": 837300000,
+      "Pacific Rim": 134100000
+    }
+  }
+]

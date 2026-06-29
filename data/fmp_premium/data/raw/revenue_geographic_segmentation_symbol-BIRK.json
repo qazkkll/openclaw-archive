@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "BIRK",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-09-30",
+    "data": {
+      "GERMANY": 206732000,
+      "Rest of World": 928413000,
+      "UNITED STATES": 962284000
+    }
+  },
+  {
+    "symbol": "BIRK",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "EUR",
+    "date": "2024-09-30",
+    "data": {
+      "GERMANY": 192991000,
+      "Rest of World": 781605000,
+      "UNITED STATES": 830094000
+    }
+  },
+  {
+    "symbol": "BIRK",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "EUR",
+    "date": "2023-09-30",
+    "data": {
+      "GERMANY": 194884000,
+      "Rest of World": 584957000,
+      "UNITED STATES": 712069000
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "symbol": "RTO",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "GBP",
+    "date": "2025-12-31",
+    "data": {
+      "AUSTRALIA": 252000000,
+      "FRANCE": 186000000,
+      "INDIA": 93000000,
+      "Other Countries": 1586000000,
+      "SPAIN": 110000000,
+      "UNITED STATES": 4184000000
+    }
+  },
+  {
+    "symbol": "RTO",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "GBP",
+    "date": "2024-12-31",
+    "data": {
+      "AUSTRALIA": 194000000,
+      "FRANCE": 392000000,
+      "INDIA": 68000000,
+      "Other Countries": 1164000000,
+      "SPAIN": 76000000,
+      "UNITED STATES": 3177000000
+    }
+  },
+  {
+    "symbol": "RTO",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "GBP",
+    "date": "2023-12-31",
+    "data": {
+      "AUSTRALIA": 181000000,
+      "FRANCE": 380000000,
+      "INDIA": 59000000,
+      "Other Countries": 1141000000,
+      "SPAIN": 72000000,
+      "UNITED STATES": 3220000000
+    }
+  },
+  {
+    "symbol": "RTO",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "GBP",
+    "date": "2022-12-31",
+    "data": {
+      "AUSTRALIA": 166000000,
+      "Country of domicile": 296000000,
+      "FRANCE": 338000000,
+      "Foreign countries": 3418000000,
+      "INDIA": 58000000,
+      "Other Countries": 1014000000,
+      "Spain": 56000000,
+      "UNITED STATES": 1786000000
+    }
+  }
+]

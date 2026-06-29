@@ -1,0 +1,33 @@
+[
+  {
+    "symbol": "VVX",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Fixed-Price Contract": 1609027000,
+      "Time-and-Materials Contract": 126258000
+    }
+  },
+  {
+    "symbol": "VVX",
+    "fiscalYear": 2015,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2015-12-31",
+    "data": {
+      "Four Largest Contracts": 775400000
+    }
+  },
+  {
+    "symbol": "VVX",
+    "fiscalYear": 2014,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2014-12-31",
+    "data": {
+      "Four Largest Contracts": 822000000
+    }
+  }
+]

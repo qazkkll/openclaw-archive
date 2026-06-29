@@ -1,0 +1,612 @@
+[
+  {
+    "symbol": "TPB",
+    "date": "2026-03-31",
+    "stockPrice": 86.79,
+    "numberOfShares": 19214389,
+    "marketCapitalization": 1667616821,
+    "minusCashAndCashEquivalents": 192439000,
+    "addTotalDebt": 304928000,
+    "enterpriseValue": 1780105821
+  },
+  {
+    "symbol": "TPB",
+    "date": "2025-12-31",
+    "stockPrice": 108.4,
+    "numberOfShares": 19089275,
+    "marketCapitalization": 2069277410,
+    "minusCashAndCashEquivalents": 222760000,
+    "addTotalDebt": 308974000,
+    "enterpriseValue": 2155491410
+  },
+  {
+    "symbol": "TPB",
+    "date": "2025-09-30",
+    "stockPrice": 98.86,
+    "numberOfShares": 18246722,
+    "marketCapitalization": 1803870936,
+    "minusCashAndCashEquivalents": 201189000,
+    "addTotalDebt": 307171000,
+    "enterpriseValue": 1909852936
+  },
+  {
+    "symbol": "TPB",
+    "date": "2025-06-30",
+    "stockPrice": 75.77,
+    "numberOfShares": 17921000,
+    "marketCapitalization": 1357874170,
+    "minusCashAndCashEquivalents": 109925000,
+    "addTotalDebt": 304685000,
+    "enterpriseValue": 1552634170
+  },
+  {
+    "symbol": "TPB",
+    "date": "2025-03-31",
+    "stockPrice": 59.44,
+    "numberOfShares": 17795000,
+    "marketCapitalization": 1057734800,
+    "minusCashAndCashEquivalents": 99640000,
+    "addTotalDebt": 304862000,
+    "enterpriseValue": 1262956800
+  },
+  {
+    "symbol": "TPB",
+    "date": "2024-12-31",
+    "stockPrice": 60.1,
+    "numberOfShares": 17708460,
+    "marketCapitalization": 1064278446,
+    "minusCashAndCashEquivalents": 46158000,
+    "addTotalDebt": 261274000,
+    "enterpriseValue": 1279394446
+  },
+  {
+    "symbol": "TPB",
+    "date": "2024-09-30",
+    "stockPrice": 43.15,
+    "numberOfShares": 17722855,
+    "marketCapitalization": 764741193,
+    "minusCashAndCashEquivalents": 33557000,
+    "addTotalDebt": 260169000,
+    "enterpriseValue": 991353193
+  },
+  {
+    "symbol": "TPB",
+    "date": "2024-06-30",
+    "stockPrice": 32.43,
+    "numberOfShares": 17656732,
+    "marketCapitalization": 572607818,
+    "minusCashAndCashEquivalents": 142159000,
+    "addTotalDebt": 377858000,
+    "enterpriseValue": 808306818
+  },
+  {
+    "symbol": "TPB",
+    "date": "2024-03-31",
+    "stockPrice": 29.12,
+    "numberOfShares": 17654684,
+    "marketCapitalization": 514104398,
+    "minusCashAndCashEquivalents": 130903000,
+    "addTotalDebt": 377868000,
+    "enterpriseValue": 761069398
+  },
+  {
+    "symbol": "TPB",
+    "date": "2023-12-31",
+    "stockPrice": 26.32,
+    "numberOfShares": 17604313,
+    "marketCapitalization": 463345518,
+    "minusCashAndCashEquivalents": 116725000,
+    "addTotalDebt": 377864000,
+    "enterpriseValue": 724484518
+  },
+  {
+    "symbol": "TPB",
+    "date": "2023-09-30",
+    "stockPrice": 23.09,
+    "numberOfShares": 17595980,
+    "marketCapitalization": 406291178,
+    "minusCashAndCashEquivalents": 96071000,
+    "addTotalDebt": 378063000,
+    "enterpriseValue": 688283178
+  },
+  {
+    "symbol": "TPB",
+    "date": "2023-06-30",
+    "stockPrice": 24.01,
+    "numberOfShares": 17584241,
+    "marketCapitalization": 422197626,
+    "minusCashAndCashEquivalents": 100507000,
+    "addTotalDebt": 391319000,
+    "enterpriseValue": 713009626
+  },
+  {
+    "symbol": "TPB",
+    "date": "2023-03-31",
+    "stockPrice": 21,
+    "numberOfShares": 17531414,
+    "marketCapitalization": 368159694,
+    "minusCashAndCashEquivalents": 104801000,
+    "addTotalDebt": 406516000,
+    "enterpriseValue": 669874694
+  },
+  {
+    "symbol": "TPB",
+    "date": "2022-12-31",
+    "stockPrice": 21.63,
+    "numberOfShares": 17530278,
+    "marketCapitalization": 379179913,
+    "minusCashAndCashEquivalents": 106403000,
+    "addTotalDebt": 420452000,
+    "enterpriseValue": 693228913
+  },
+  {
+    "symbol": "TPB",
+    "date": "2022-09-30",
+    "stockPrice": 21.23,
+    "numberOfShares": 21102006,
+    "marketCapitalization": 447995587,
+    "minusCashAndCashEquivalents": 105672000,
+    "addTotalDebt": 430458000,
+    "enterpriseValue": 772781587
+  },
+  {
+    "symbol": "TPB",
+    "date": "2022-06-30",
+    "stockPrice": 27.13,
+    "numberOfShares": 21443279,
+    "marketCapitalization": 581756159,
+    "minusCashAndCashEquivalents": 107429000,
+    "addTotalDebt": 430412000,
+    "enterpriseValue": 904739159
+  },
+  {
+    "symbol": "TPB",
+    "date": "2022-03-31",
+    "stockPrice": 34.01,
+    "numberOfShares": 21749510,
+    "marketCapitalization": 739700835,
+    "minusCashAndCashEquivalents": 126045000,
+    "addTotalDebt": 430450000,
+    "enterpriseValue": 1044105835
+  },
+  {
+    "symbol": "TPB",
+    "date": "2021-12-31",
+    "stockPrice": 37.78,
+    "numberOfShares": 18707286,
+    "marketCapitalization": 706761265,
+    "minusCashAndCashEquivalents": 128320000,
+    "addTotalDebt": 430484000,
+    "enterpriseValue": 1008925265
+  },
+  {
+    "symbol": "TPB",
+    "date": "2021-09-30",
+    "stockPrice": 47.75,
+    "numberOfShares": 18897974,
+    "marketCapitalization": 902378258,
+    "minusCashAndCashEquivalents": 130551000,
+    "addTotalDebt": 438398000,
+    "enterpriseValue": 1210225258
+  },
+  {
+    "symbol": "TPB",
+    "date": "2021-06-30",
+    "stockPrice": 45.77,
+    "numberOfShares": 18975522,
+    "marketCapitalization": 868509641,
+    "minusCashAndCashEquivalents": 157474000,
+    "addTotalDebt": 448433000,
+    "enterpriseValue": 1159468641
+  },
+  {
+    "symbol": "TPB",
+    "date": "2021-03-31",
+    "stockPrice": 52.17,
+    "numberOfShares": 19093961,
+    "marketCapitalization": 996131945,
+    "minusCashAndCashEquivalents": 167361000,
+    "addTotalDebt": 448641000,
+    "enterpriseValue": 1277411945
+  },
+  {
+    "symbol": "TPB",
+    "date": "2020-12-31",
+    "stockPrice": 44.56,
+    "numberOfShares": 19160740,
+    "marketCapitalization": 853802574,
+    "minusCashAndCashEquivalents": 41765000,
+    "addTotalDebt": 333457000,
+    "enterpriseValue": 1145494574
+  },
+  {
+    "symbol": "TPB",
+    "date": "2020-09-30",
+    "stockPrice": 27.9,
+    "numberOfShares": 19240187,
+    "marketCapitalization": 536801217,
+    "minusCashAndCashEquivalents": 67403000,
+    "addTotalDebt": 316092000,
+    "enterpriseValue": 785490217
+  },
+  {
+    "symbol": "TPB",
+    "date": "2020-06-30",
+    "stockPrice": 24.91,
+    "numberOfShares": 19507874,
+    "marketCapitalization": 485941141,
+    "minusCashAndCashEquivalents": 64192000,
+    "addTotalDebt": 311064000,
+    "enterpriseValue": 732813141
+  },
+  {
+    "symbol": "TPB",
+    "date": "2020-03-31",
+    "stockPrice": 21.11,
+    "numberOfShares": 19689446,
+    "marketCapitalization": 415644205,
+    "minusCashAndCashEquivalents": 99406000,
+    "addTotalDebt": 294181000,
+    "enterpriseValue": 610419205
+  },
+  {
+    "symbol": "TPB",
+    "date": "2019-12-31",
+    "stockPrice": 28.6,
+    "numberOfShares": 19666336,
+    "marketCapitalization": 562457209,
+    "minusCashAndCashEquivalents": 95250000,
+    "addTotalDebt": 297476000,
+    "enterpriseValue": 764683209
+  },
+  {
+    "symbol": "TPB",
+    "date": "2019-09-30",
+    "stockPrice": 23.06,
+    "numberOfShares": 19659217,
+    "marketCapitalization": 453341544,
+    "minusCashAndCashEquivalents": 81124000,
+    "addTotalDebt": 323738000,
+    "enterpriseValue": 695955544
+  },
+  {
+    "symbol": "TPB",
+    "date": "2019-06-30",
+    "stockPrice": 49.71,
+    "numberOfShares": 19621695,
+    "marketCapitalization": 975394458,
+    "minusCashAndCashEquivalents": 2127000,
+    "addTotalDebt": 211553000,
+    "enterpriseValue": 1184820458
+  },
+  {
+    "symbol": "TPB",
+    "date": "2019-03-31",
+    "stockPrice": 46.56,
+    "numberOfShares": 19559596,
+    "marketCapitalization": 910694789,
+    "minusCashAndCashEquivalents": 1741000,
+    "addTotalDebt": 218104000,
+    "enterpriseValue": 1127057789
+  },
+  {
+    "symbol": "TPB",
+    "date": "2018-12-31",
+    "stockPrice": 27.22,
+    "numberOfShares": 19550002,
+    "marketCapitalization": 532151054,
+    "minusCashAndCashEquivalents": 3306000,
+    "addTotalDebt": 220715000,
+    "enterpriseValue": 749560054
+  },
+  {
+    "symbol": "TPB",
+    "date": "2018-09-30",
+    "stockPrice": 40.62,
+    "numberOfShares": 19378054,
+    "marketCapitalization": 787136553,
+    "minusCashAndCashEquivalents": 1631000,
+    "addTotalDebt": 226529000,
+    "enterpriseValue": 1012034553
+  },
+  {
+    "symbol": "TPB",
+    "date": "2018-06-30",
+    "stockPrice": 31.9,
+    "numberOfShares": 19268625,
+    "marketCapitalization": 614669137,
+    "minusCashAndCashEquivalents": 3433000,
+    "addTotalDebt": 210349000,
+    "enterpriseValue": 821585137
+  },
+  {
+    "symbol": "TPB",
+    "date": "2018-03-31",
+    "stockPrice": 19.44,
+    "numberOfShares": 19221892,
+    "marketCapitalization": 373673580,
+    "minusCashAndCashEquivalents": 3792000,
+    "addTotalDebt": 198165000,
+    "enterpriseValue": 568046580
+  },
+  {
+    "symbol": "TPB",
+    "date": "2017-12-31",
+    "stockPrice": 21.13,
+    "numberOfShares": 19207490,
+    "marketCapitalization": 405854263,
+    "minusCashAndCashEquivalents": 2607000,
+    "addTotalDebt": 202040000,
+    "enterpriseValue": 605287263
+  },
+  {
+    "symbol": "TPB",
+    "date": "2017-09-30",
+    "stockPrice": 17,
+    "numberOfShares": 19085329,
+    "marketCapitalization": 324450593,
+    "minusCashAndCashEquivalents": 4235000,
+    "addTotalDebt": 210853000,
+    "enterpriseValue": 531068593
+  },
+  {
+    "symbol": "TPB",
+    "date": "2017-06-30",
+    "stockPrice": 15.34,
+    "numberOfShares": 18886418,
+    "marketCapitalization": 289717652,
+    "minusCashAndCashEquivalents": 1686000,
+    "addTotalDebt": 221585000,
+    "enterpriseValue": 509616652
+  },
+  {
+    "symbol": "TPB",
+    "date": "2017-03-31",
+    "stockPrice": 15.6,
+    "numberOfShares": 18734393,
+    "marketCapitalization": 292256530,
+    "minusCashAndCashEquivalents": 2248000,
+    "addTotalDebt": 227396000,
+    "enterpriseValue": 517404530
+  },
+  {
+    "symbol": "TPB",
+    "date": "2016-12-31",
+    "stockPrice": 12.25,
+    "numberOfShares": 18357629,
+    "marketCapitalization": 224880955,
+    "minusCashAndCashEquivalents": 2865000,
+    "addTotalDebt": 218225000,
+    "enterpriseValue": 440240955
+  },
+  {
+    "symbol": "TPB",
+    "date": "2016-09-30",
+    "stockPrice": 12.02,
+    "numberOfShares": 18094592,
+    "marketCapitalization": 217496995,
+    "minusCashAndCashEquivalents": 4410000,
+    "addTotalDebt": 201138000,
+    "enterpriseValue": 414224995
+  },
+  {
+    "symbol": "TPB",
+    "date": "2016-06-30",
+    "stockPrice": 10.27,
+    "numberOfShares": 15274446,
+    "marketCapitalization": 156868560,
+    "minusCashAndCashEquivalents": 3612000,
+    "addTotalDebt": 207706000,
+    "enterpriseValue": 360962560
+  },
+  {
+    "symbol": "TPB",
+    "date": "2016-03-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 17340148,
+    "marketCapitalization": 175482297,
+    "minusCashAndCashEquivalents": 2940000,
+    "addTotalDebt": 293148000,
+    "enterpriseValue": 465690297
+  },
+  {
+    "symbol": "TPB",
+    "date": "2015-12-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 15544900,
+    "marketCapitalization": 157314388,
+    "minusCashAndCashEquivalents": 4835000,
+    "addTotalDebt": 298697000,
+    "enterpriseValue": 451176388
+  },
+  {
+    "symbol": "TPB",
+    "date": "2015-09-30",
+    "stockPrice": 10.12,
+    "numberOfShares": 15544900,
+    "marketCapitalization": 157314388,
+    "minusCashAndCashEquivalents": 9839000,
+    "addTotalDebt": 310400000,
+    "enterpriseValue": 457875388
+  },
+  {
+    "symbol": "TPB",
+    "date": "2015-06-30",
+    "stockPrice": 10.12,
+    "numberOfShares": 15544900,
+    "marketCapitalization": 157314388,
+    "minusCashAndCashEquivalents": 5332000,
+    "addTotalDebt": 316854000,
+    "enterpriseValue": 468836388
+  },
+  {
+    "symbol": "TPB",
+    "date": "2015-03-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 15544900,
+    "marketCapitalization": 157314388,
+    "minusCashAndCashEquivalents": -8467000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 165781388
+  },
+  {
+    "symbol": "TPB",
+    "date": "2014-12-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 15544900,
+    "marketCapitalization": 157314388,
+    "minusCashAndCashEquivalents": 8467000,
+    "addTotalDebt": 312553000,
+    "enterpriseValue": 461400388
+  },
+  {
+    "symbol": "TPB",
+    "date": "2014-09-30",
+    "stockPrice": 10.12,
+    "numberOfShares": 15544900,
+    "marketCapitalization": 157314388,
+    "minusCashAndCashEquivalents": 14000000,
+    "addTotalDebt": 317900000,
+    "enterpriseValue": 461214388
+  },
+  {
+    "symbol": "TPB",
+    "date": "2014-06-30",
+    "stockPrice": 10.12,
+    "numberOfShares": 15544900,
+    "marketCapitalization": 157314388,
+    "minusCashAndCashEquivalents": 9100000,
+    "addTotalDebt": 322000000,
+    "enterpriseValue": 470214388
+  },
+  {
+    "symbol": "TPB",
+    "date": "2014-03-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 15544900,
+    "marketCapitalization": 157314388,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 157314388
+  },
+  {
+    "symbol": "TPB",
+    "date": "2006-12-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 680000,
+    "marketCapitalization": 6881600,
+    "minusCashAndCashEquivalents": 1800000,
+    "addTotalDebt": 271000000,
+    "enterpriseValue": 276081600
+  },
+  {
+    "symbol": "TPB",
+    "date": "2006-09-30",
+    "stockPrice": 10.12,
+    "numberOfShares": 670000,
+    "marketCapitalization": 6780400,
+    "minusCashAndCashEquivalents": 2300000,
+    "addTotalDebt": 274800000,
+    "enterpriseValue": 279280400
+  },
+  {
+    "symbol": "TPB",
+    "date": "2006-06-30",
+    "stockPrice": 10.12,
+    "numberOfShares": 610000,
+    "marketCapitalization": 6173200,
+    "minusCashAndCashEquivalents": 1300000,
+    "addTotalDebt": 269200000,
+    "enterpriseValue": 274073200
+  },
+  {
+    "symbol": "TPB",
+    "date": "2006-03-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 590000,
+    "marketCapitalization": 5970800,
+    "minusCashAndCashEquivalents": 1200000,
+    "addTotalDebt": 268800000,
+    "enterpriseValue": 273570800
+  },
+  {
+    "symbol": "TPB",
+    "date": "2005-12-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 590000,
+    "marketCapitalization": 5970800,
+    "minusCashAndCashEquivalents": 500000,
+    "addTotalDebt": 526395000,
+    "enterpriseValue": 531865800
+  },
+  {
+    "symbol": "TPB",
+    "date": "2005-09-30",
+    "stockPrice": 10.12,
+    "numberOfShares": 590000,
+    "marketCapitalization": 5970800,
+    "minusCashAndCashEquivalents": 4600000,
+    "addTotalDebt": 302800000,
+    "enterpriseValue": 304170800
+  },
+  {
+    "symbol": "TPB",
+    "date": "2005-06-30",
+    "stockPrice": 10.12,
+    "numberOfShares": 590000,
+    "marketCapitalization": 5970800,
+    "minusCashAndCashEquivalents": 10300000,
+    "addTotalDebt": 300700000,
+    "enterpriseValue": 296370800
+  },
+  {
+    "symbol": "TPB",
+    "date": "2005-03-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 590000,
+    "marketCapitalization": 5970800,
+    "minusCashAndCashEquivalents": 400000,
+    "addTotalDebt": 290500000,
+    "enterpriseValue": 296070800
+  },
+  {
+    "symbol": "TPB",
+    "date": "2004-12-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 590000,
+    "marketCapitalization": 5970800,
+    "minusCashAndCashEquivalents": 2300000,
+    "addTotalDebt": 281100000,
+    "enterpriseValue": 284770800
+  },
+  {
+    "symbol": "TPB",
+    "date": "2004-09-30",
+    "stockPrice": 10.12,
+    "numberOfShares": 720000,
+    "marketCapitalization": 7286400,
+    "minusCashAndCashEquivalents": 9300000,
+    "addTotalDebt": 299400000,
+    "enterpriseValue": 297386400
+  },
+  {
+    "symbol": "TPB",
+    "date": "2004-06-30",
+    "stockPrice": 10.12,
+    "numberOfShares": 730000,
+    "marketCapitalization": 7387600,
+    "minusCashAndCashEquivalents": 4400000,
+    "addTotalDebt": 287000000,
+    "enterpriseValue": 289987600
+  },
+  {
+    "symbol": "TPB",
+    "date": "2004-03-31",
+    "stockPrice": 10.12,
+    "numberOfShares": 540400,
+    "marketCapitalization": 5468848,
+    "minusCashAndCashEquivalents": 4441000,
+    "addTotalDebt": 200000000,
+    "enterpriseValue": 201027848
+  }
+]

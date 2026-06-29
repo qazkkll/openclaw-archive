@@ -1,0 +1,892 @@
+[
+  {
+    "symbol": "LPL",
+    "date": "2026-03-31",
+    "stockPrice": 5838.93,
+    "numberOfShares": 1000000000,
+    "marketCapitalization": 5838934400000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5838934400000
+  },
+  {
+    "symbol": "LPL",
+    "date": "2025-12-31",
+    "stockPrice": 6064.46,
+    "numberOfShares": 1000000000,
+    "marketCapitalization": 6064462900000,
+    "minusCashAndCashEquivalents": 1572058000000,
+    "addTotalDebt": 12733369000000,
+    "enterpriseValue": 17225773900000
+  },
+  {
+    "symbol": "LPL",
+    "date": "2025-09-30",
+    "stockPrice": 7329.3,
+    "numberOfShares": 1000000000,
+    "marketCapitalization": 7329297599999,
+    "minusCashAndCashEquivalents": 1548799000000,
+    "addTotalDebt": 13483963000000,
+    "enterpriseValue": 19264461599999
+  },
+  {
+    "symbol": "LPL",
+    "date": "2025-06-30",
+    "stockPrice": 4628.76,
+    "numberOfShares": 1000000000,
+    "marketCapitalization": 4628764800000,
+    "minusCashAndCashEquivalents": 1665511000000,
+    "addTotalDebt": 13500598000000,
+    "enterpriseValue": 16463851800000
+  },
+  {
+    "symbol": "LPL",
+    "date": "2025-03-31",
+    "stockPrice": 4575.28,
+    "numberOfShares": 1000000000,
+    "marketCapitalization": 4575276500000,
+    "minusCashAndCashEquivalents": 981376000000,
+    "addTotalDebt": 14655366000000,
+    "enterpriseValue": 18249266500000
+  },
+  {
+    "symbol": "LPL",
+    "date": "2024-12-31",
+    "stockPrice": 4526.33,
+    "numberOfShares": 1000148000,
+    "marketCapitalization": 4526998076570,
+    "minusCashAndCashEquivalents": 2021640000000,
+    "addTotalDebt": 14608089000000,
+    "enterpriseValue": 17113447076570
+  },
+  {
+    "symbol": "LPL",
+    "date": "2024-09-30",
+    "stockPrice": 5330.2,
+    "numberOfShares": 1000000000,
+    "marketCapitalization": 5330204999999,
+    "minusCashAndCashEquivalents": 1786649000000,
+    "addTotalDebt": 14953223000000,
+    "enterpriseValue": 18496778999999
+  },
+  {
+    "symbol": "LPL",
+    "date": "2024-06-30",
+    "stockPrice": 5867.49,
+    "numberOfShares": 779244000,
+    "marketCapitalization": 4572203455395,
+    "minusCashAndCashEquivalents": 1974149000000,
+    "addTotalDebt": 16222987000000,
+    "enterpriseValue": 18821041455395
+  },
+  {
+    "symbol": "LPL",
+    "date": "2024-03-31",
+    "stockPrice": 5679.66,
+    "numberOfShares": 779244000,
+    "marketCapitalization": 4425840977040,
+    "minusCashAndCashEquivalents": 2571729000000,
+    "addTotalDebt": 17096163000000,
+    "enterpriseValue": 18950274977040
+  },
+  {
+    "symbol": "LPL",
+    "date": "2023-12-31",
+    "stockPrice": 6234.77,
+    "numberOfShares": 779243710,
+    "marketCapitalization": 4858402500519,
+    "minusCashAndCashEquivalents": 2257522000000,
+    "addTotalDebt": 16602493000000,
+    "enterpriseValue": 19203373500519
+  },
+  {
+    "symbol": "LPL",
+    "date": "2023-09-30",
+    "stockPrice": 6584.73,
+    "numberOfShares": 779243710,
+    "marketCapitalization": 5131109746245,
+    "minusCashAndCashEquivalents": 2227812361,
+    "addTotalDebt": 13010505409,
+    "enterpriseValue": 5141892439293
+  },
+  {
+    "symbol": "LPL",
+    "date": "2023-06-30",
+    "stockPrice": 7968.99,
+    "numberOfShares": 779243710,
+    "marketCapitalization": 6209786033872,
+    "minusCashAndCashEquivalents": 1805061283,
+    "addTotalDebt": 13282783743,
+    "enterpriseValue": 6221263756332
+  },
+  {
+    "symbol": "LPL",
+    "date": "2023-03-31",
+    "stockPrice": 8314.85,
+    "numberOfShares": 779243710,
+    "marketCapitalization": 6479294437414,
+    "minusCashAndCashEquivalents": 1699676614,
+    "addTotalDebt": 13286874831,
+    "enterpriseValue": 6490881635631
+  },
+  {
+    "symbol": "LPL",
+    "date": "2022-12-31",
+    "stockPrice": 6236.36,
+    "numberOfShares": 779243710,
+    "marketCapitalization": 4859641809715,
+    "minusCashAndCashEquivalents": 1442980624,
+    "addTotalDebt": 11939235270,
+    "enterpriseValue": 4870138064361
+  },
+  {
+    "symbol": "LPL",
+    "date": "2022-09-30",
+    "stockPrice": 5875.44,
+    "numberOfShares": 764726956,
+    "marketCapitalization": 4493111017050,
+    "minusCashAndCashEquivalents": 1076989585,
+    "addTotalDebt": 10753171174,
+    "enterpriseValue": 4502787198639
+  },
+  {
+    "symbol": "LPL",
+    "date": "2022-06-30",
+    "stockPrice": 7187.18,
+    "numberOfShares": 779243710,
+    "marketCapitalization": 5600564418015,
+    "minusCashAndCashEquivalents": 2110769408,
+    "addTotalDebt": 10841579636,
+    "enterpriseValue": 5609295228243
+  },
+  {
+    "symbol": "LPL",
+    "date": "2022-03-31",
+    "stockPrice": 10024.42,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 7173788716904,
+    "minusCashAndCashEquivalents": 2776379687,
+    "addTotalDebt": 10847051689,
+    "enterpriseValue": 7181859388906
+  },
+  {
+    "symbol": "LPL",
+    "date": "2021-12-31",
+    "stockPrice": 12019,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 8601173796600,
+    "minusCashAndCashEquivalents": 2979261409,
+    "addTotalDebt": 10723980651,
+    "enterpriseValue": 8608918515842
+  },
+  {
+    "symbol": "LPL",
+    "date": "2021-09-30",
+    "stockPrice": 9412.28,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 6735719750124,
+    "minusCashAndCashEquivalents": 2937199324,
+    "addTotalDebt": 11441941722,
+    "enterpriseValue": 6744224492522
+  },
+  {
+    "symbol": "LPL",
+    "date": "2021-06-30",
+    "stockPrice": 12071.74,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 8638913298328,
+    "minusCashAndCashEquivalents": 3209401944,
+    "addTotalDebt": 12346083559,
+    "enterpriseValue": 8648049979943
+  },
+  {
+    "symbol": "LPL",
+    "date": "2021-03-31",
+    "stockPrice": 11260.98,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 8058709272601,
+    "minusCashAndCashEquivalents": 3449553346,
+    "addTotalDebt": 12721606361,
+    "enterpriseValue": 8067981325616
+  },
+  {
+    "symbol": "LPL",
+    "date": "2020-12-31",
+    "stockPrice": 9167.49,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 6560540697534,
+    "minusCashAndCashEquivalents": 3882996409,
+    "addTotalDebt": 13027934272,
+    "enterpriseValue": 6569685635397
+  },
+  {
+    "symbol": "LPL",
+    "date": "2020-09-30",
+    "stockPrice": 7608.1,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 5444597401234,
+    "minusCashAndCashEquivalents": 2812412141,
+    "addTotalDebt": 12372508764,
+    "enterpriseValue": 5454157497857
+  },
+  {
+    "symbol": "LPL",
+    "date": "2020-06-30",
+    "stockPrice": 5789.96,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 4143478969822,
+    "minusCashAndCashEquivalents": 2927050754,
+    "addTotalDebt": 12247719998,
+    "enterpriseValue": 4152799639066
+  },
+  {
+    "symbol": "LPL",
+    "date": "2020-03-31",
+    "stockPrice": 5403.1,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 3866626700578,
+    "minusCashAndCashEquivalents": 2923059103,
+    "addTotalDebt": 12032177270,
+    "enterpriseValue": 3875735818745
+  },
+  {
+    "symbol": "LPL",
+    "date": "2019-12-31",
+    "stockPrice": 8008.41,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 5731071806968,
+    "minusCashAndCashEquivalents": 2884692809,
+    "addTotalDebt": 11733669419,
+    "enterpriseValue": 5739920783578
+  },
+  {
+    "symbol": "LPL",
+    "date": "2019-09-30",
+    "stockPrice": 7123.39,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 5097724098937,
+    "minusCashAndCashEquivalents": 2759692000000,
+    "addTotalDebt": 13529108000000,
+    "enterpriseValue": 15867140098937
+  },
+  {
+    "symbol": "LPL",
+    "date": "2019-06-30",
+    "stockPrice": 8743.01,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 6256770339619,
+    "minusCashAndCashEquivalents": 2423411000000,
+    "addTotalDebt": 11507357000000,
+    "enterpriseValue": 15340716339619
+  },
+  {
+    "symbol": "LPL",
+    "date": "2019-03-31",
+    "stockPrice": 10027.08,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 7175695803021,
+    "minusCashAndCashEquivalents": 2404196000000,
+    "addTotalDebt": 10811019000000,
+    "enterpriseValue": 15582518803021
+  },
+  {
+    "symbol": "LPL",
+    "date": "2018-12-31",
+    "stockPrice": 9105.23,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 6515990281300,
+    "minusCashAndCashEquivalents": 2365022000000,
+    "addTotalDebt": 8558777000000,
+    "enterpriseValue": 12709745281300
+  },
+  {
+    "symbol": "LPL",
+    "date": "2018-09-30",
+    "stockPrice": 9619.57,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 6884067276818,
+    "minusCashAndCashEquivalents": 2760240000000,
+    "addTotalDebt": 7713385000000,
+    "enterpriseValue": 11837212276818
+  },
+  {
+    "symbol": "LPL",
+    "date": "2018-06-30",
+    "stockPrice": 9161.69,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 6556389606035,
+    "minusCashAndCashEquivalents": 2851481000000,
+    "addTotalDebt": 7566453000000,
+    "enterpriseValue": 11271361606035
+  },
+  {
+    "symbol": "LPL",
+    "date": "2018-03-31",
+    "stockPrice": 12560.74,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 8988859450294,
+    "minusCashAndCashEquivalents": 2626689000000,
+    "addTotalDebt": 6731690000000,
+    "enterpriseValue": 13093860450294
+  },
+  {
+    "symbol": "LPL",
+    "date": "2017-12-31",
+    "stockPrice": 15042.25,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 10764704275819,
+    "minusCashAndCashEquivalents": 2602560000000,
+    "addTotalDebt": 5603118000000,
+    "enterpriseValue": 13765262275819
+  },
+  {
+    "symbol": "LPL",
+    "date": "2017-09-30",
+    "stockPrice": 15350.8,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 10985516284198,
+    "minusCashAndCashEquivalents": 1974036000000,
+    "addTotalDebt": 5384302000000,
+    "enterpriseValue": 14395782284198
+  },
+  {
+    "symbol": "LPL",
+    "date": "2017-06-30",
+    "stockPrice": 18378.62,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 13152314841268,
+    "minusCashAndCashEquivalents": 1539474000000,
+    "addTotalDebt": 5022558000000,
+    "enterpriseValue": 16635398841268
+  },
+  {
+    "symbol": "LPL",
+    "date": "2017-03-31",
+    "stockPrice": 15199.24,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 10877052684504,
+    "minusCashAndCashEquivalents": 1344723000000,
+    "addTotalDebt": 4684039000000,
+    "enterpriseValue": 14216368684504
+  },
+  {
+    "symbol": "LPL",
+    "date": "2016-12-31",
+    "stockPrice": 15500.31,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 11092510334812,
+    "minusCashAndCashEquivalents": 1558696000000,
+    "addTotalDebt": 4778770000000,
+    "enterpriseValue": 14312584334812
+  },
+  {
+    "symbol": "LPL",
+    "date": "2016-09-30",
+    "stockPrice": 14007.39,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 10024128974803,
+    "minusCashAndCashEquivalents": 1075937000000,
+    "addTotalDebt": 4792986000000,
+    "enterpriseValue": 13741177974803
+  },
+  {
+    "symbol": "LPL",
+    "date": "2016-06-30",
+    "stockPrice": 13351.1,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 9554466742355,
+    "minusCashAndCashEquivalents": 975775000000,
+    "addTotalDebt": 4871796000000,
+    "enterpriseValue": 13450487742355
+  },
+  {
+    "symbol": "LPL",
+    "date": "2016-03-31",
+    "stockPrice": 13092.62,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 9369489429231,
+    "minusCashAndCashEquivalents": 818322000000,
+    "addTotalDebt": 4267685000000,
+    "enterpriseValue": 12818852429231
+  },
+  {
+    "symbol": "LPL",
+    "date": "2015-12-31",
+    "stockPrice": 12275.61,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 8784814117048,
+    "minusCashAndCashEquivalents": 751662000000,
+    "addTotalDebt": 4224231000000,
+    "enterpriseValue": 12257383117048
+  },
+  {
+    "symbol": "LPL",
+    "date": "2015-09-30",
+    "stockPrice": 11265.29,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 8061795254105,
+    "minusCashAndCashEquivalents": 556821000000,
+    "addTotalDebt": 4380759000000,
+    "enterpriseValue": 11885733254105
+  },
+  {
+    "symbol": "LPL",
+    "date": "2015-06-30",
+    "stockPrice": 12973.27,
+    "numberOfShares": 715803418,
+    "marketCapitalization": 9286308503324,
+    "minusCashAndCashEquivalents": 1142299000000,
+    "addTotalDebt": 4115227000000,
+    "enterpriseValue": 12259236503324
+  },
+  {
+    "symbol": "LPL",
+    "date": "2015-03-31",
+    "stockPrice": 15874.63,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 11360381387048,
+    "minusCashAndCashEquivalents": 1290750000000,
+    "addTotalDebt": 3996276000000,
+    "enterpriseValue": 14065907387048
+  },
+  {
+    "symbol": "LPL",
+    "date": "2014-12-31",
+    "stockPrice": 16581.68,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 11866367294595,
+    "minusCashAndCashEquivalents": 889839000000,
+    "addTotalDebt": 4247386000000,
+    "enterpriseValue": 15223914294595
+  },
+  {
+    "symbol": "LPL",
+    "date": "2014-09-30",
+    "stockPrice": 16674.53,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 11932813670085,
+    "minusCashAndCashEquivalents": 823464000000,
+    "addTotalDebt": 4583528000000,
+    "enterpriseValue": 15692877670085
+  },
+  {
+    "symbol": "LPL",
+    "date": "2014-06-30",
+    "stockPrice": 15957.82,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 11419917568489,
+    "minusCashAndCashEquivalents": 1272011000000,
+    "addTotalDebt": 4495947000000,
+    "enterpriseValue": 14643853568489
+  },
+  {
+    "symbol": "LPL",
+    "date": "2014-03-31",
+    "stockPrice": 13287.19,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 9508728592687,
+    "minusCashAndCashEquivalents": 550122000000,
+    "addTotalDebt": 3765135000000,
+    "enterpriseValue": 12723741592687
+  },
+  {
+    "symbol": "LPL",
+    "date": "2013-12-31",
+    "stockPrice": 12710.88,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 9096307354341,
+    "minusCashAndCashEquivalents": 1021870000000,
+    "addTotalDebt": 3902779000000,
+    "enterpriseValue": 11977216354341
+  },
+  {
+    "symbol": "LPL",
+    "date": "2013-09-30",
+    "stockPrice": 12852.49,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 9197643444199,
+    "minusCashAndCashEquivalents": 2081341000000,
+    "addTotalDebt": 4008521000000,
+    "enterpriseValue": 11124823444199
+  },
+  {
+    "symbol": "LPL",
+    "date": "2013-06-30",
+    "stockPrice": 13797.74,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 9874094203957,
+    "minusCashAndCashEquivalents": 2432124000000,
+    "addTotalDebt": 4095865000000,
+    "enterpriseValue": 11537835203957
+  },
+  {
+    "symbol": "LPL",
+    "date": "2013-03-31",
+    "stockPrice": 15642.88,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 11194536114432,
+    "minusCashAndCashEquivalents": 2351652000000,
+    "addTotalDebt": 4720934000000,
+    "enterpriseValue": 13563818114432
+  },
+  {
+    "symbol": "LPL",
+    "date": "2012-12-31",
+    "stockPrice": 15412.51,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 11029677540076,
+    "minusCashAndCashEquivalents": 2338661000000,
+    "addTotalDebt": 4455857000000,
+    "enterpriseValue": 13146873540076
+  },
+  {
+    "symbol": "LPL",
+    "date": "2012-09-30",
+    "stockPrice": 14248.42,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 10196618183650,
+    "minusCashAndCashEquivalents": 2500396000000,
+    "addTotalDebt": 4653066000000,
+    "enterpriseValue": 12349288183650
+  },
+  {
+    "symbol": "LPL",
+    "date": "2012-06-30",
+    "stockPrice": 10823.09,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 7745339470868,
+    "minusCashAndCashEquivalents": 2655083000000,
+    "addTotalDebt": 4757805000000,
+    "enterpriseValue": 9848061470868
+  },
+  {
+    "symbol": "LPL",
+    "date": "2012-03-31",
+    "stockPrice": 13333.06,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 9541553531558,
+    "minusCashAndCashEquivalents": 2393473000000,
+    "addTotalDebt": 5254655000000,
+    "enterpriseValue": 12402735531558
+  },
+  {
+    "symbol": "LPL",
+    "date": "2011-12-31",
+    "stockPrice": 12194.79,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 8726976787300,
+    "minusCashAndCashEquivalents": 2332977000000,
+    "addTotalDebt": 4617336000000,
+    "enterpriseValue": 11011335787300
+  },
+  {
+    "symbol": "LPL",
+    "date": "2011-09-30",
+    "stockPrice": 9624.34,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 6887476330119,
+    "minusCashAndCashEquivalents": 2031617000000,
+    "addTotalDebt": 3553386000000,
+    "enterpriseValue": 8409245330119
+  },
+  {
+    "symbol": "LPL",
+    "date": "2011-06-30",
+    "stockPrice": 14982.92,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 10722248015688,
+    "minusCashAndCashEquivalents": 2363775000000,
+    "addTotalDebt": 4639294000000,
+    "enterpriseValue": 12997767015688
+  },
+  {
+    "symbol": "LPL",
+    "date": "2011-03-31",
+    "stockPrice": 17200.76,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 12309400381707,
+    "minusCashAndCashEquivalents": 3012378000000,
+    "addTotalDebt": 4604923000000,
+    "enterpriseValue": 13901945381707
+  },
+  {
+    "symbol": "LPL",
+    "date": "2010-12-31",
+    "stockPrice": 19871.13,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 14220401003325,
+    "minusCashAndCashEquivalents": 3134009000000,
+    "addTotalDebt": 5589166000000,
+    "enterpriseValue": 16675558003325
+  },
+  {
+    "symbol": "LPL",
+    "date": "2010-09-30",
+    "stockPrice": 19885.09,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 14230393364563,
+    "minusCashAndCashEquivalents": 3146191000000,
+    "addTotalDebt": 4220698000000,
+    "enterpriseValue": 15304900364563
+  },
+  {
+    "symbol": "LPL",
+    "date": "2010-06-30",
+    "stockPrice": 19654.88,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 14065649291232,
+    "minusCashAndCashEquivalents": 3009455000000,
+    "addTotalDebt": 3579548000000,
+    "enterpriseValue": 14635742291232
+  },
+  {
+    "symbol": "LPL",
+    "date": "2010-03-31",
+    "stockPrice": 19994.31,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 14308557488596,
+    "minusCashAndCashEquivalents": 3044705000000,
+    "addTotalDebt": 3372442000000,
+    "enterpriseValue": 14636294488596
+  },
+  {
+    "symbol": "LPL",
+    "date": "2009-12-31",
+    "stockPrice": 19703.13,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 14100181368807,
+    "minusCashAndCashEquivalents": 817982000000,
+    "addTotalDebt": 5070084000000,
+    "enterpriseValue": 18352283368807
+  },
+  {
+    "symbol": "LPL",
+    "date": "2009-09-30",
+    "stockPrice": 16839.18,
+    "numberOfShares": 736915102,
+    "marketCapitalization": 12409048258041,
+    "minusCashAndCashEquivalents": 817266000000,
+    "addTotalDebt": 3083255000000,
+    "enterpriseValue": 14675037258041
+  },
+  {
+    "symbol": "LPL",
+    "date": "2009-06-30",
+    "stockPrice": 15894.77,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 11374799370303,
+    "minusCashAndCashEquivalents": 1290601000000,
+    "addTotalDebt": 3145670000000,
+    "enterpriseValue": 13229868370303
+  },
+  {
+    "symbol": "LPL",
+    "date": "2009-03-31",
+    "stockPrice": 14025.93,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 10037394490939,
+    "minusCashAndCashEquivalents": 1685707000000,
+    "addTotalDebt": 4016076000000,
+    "enterpriseValue": 12367763490939
+  },
+  {
+    "symbol": "LPL",
+    "date": "2008-12-31",
+    "stockPrice": 10450.19,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 7478482668703,
+    "minusCashAndCashEquivalents": 1367752000000,
+    "addTotalDebt": 3904493000000,
+    "enterpriseValue": 10015223668703
+  },
+  {
+    "symbol": "LPL",
+    "date": "2008-09-30",
+    "stockPrice": 15321.28,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 10964389056192,
+    "minusCashAndCashEquivalents": 784665000000,
+    "addTotalDebt": 4417867000000,
+    "enterpriseValue": 14597591056192
+  },
+  {
+    "symbol": "LPL",
+    "date": "2008-06-30",
+    "stockPrice": 19630.81,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 14048425474696,
+    "minusCashAndCashEquivalents": 890306807262,
+    "addTotalDebt": 4382966496967,
+    "enterpriseValue": 17541085164401
+  },
+  {
+    "symbol": "LPL",
+    "date": "2008-03-31",
+    "stockPrice": 22108.93,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 15821846675296,
+    "minusCashAndCashEquivalents": 1009891089209,
+    "addTotalDebt": 4100728713281,
+    "enterpriseValue": 18912684299368
+  },
+  {
+    "symbol": "LPL",
+    "date": "2007-12-31",
+    "stockPrice": 24312.08,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 17398490709837,
+    "minusCashAndCashEquivalents": 1197100189803,
+    "addTotalDebt": 3460104876249,
+    "enterpriseValue": 19661495396283
+  },
+  {
+    "symbol": "LPL",
+    "date": "2007-09-30",
+    "stockPrice": 22537.78,
+    "numberOfShares": 715631400,
+    "marketCapitalization": 16128740191766,
+    "minusCashAndCashEquivalents": 1648902253200,
+    "addTotalDebt": 4455680066520,
+    "enterpriseValue": 18935518005086
+  },
+  {
+    "symbol": "LPL",
+    "date": "2007-06-30",
+    "stockPrice": 20867.12,
+    "numberOfShares": 716000000,
+    "marketCapitalization": 14940860068000,
+    "minusCashAndCashEquivalents": 1211371676471,
+    "addTotalDebt": 4582904984000,
+    "enterpriseValue": 18312393375529
+  },
+  {
+    "symbol": "LPL",
+    "date": "2007-03-31",
+    "stockPrice": 16443.44,
+    "numberOfShares": 716000000,
+    "marketCapitalization": 11773500176000,
+    "minusCashAndCashEquivalents": 933383828982,
+    "addTotalDebt": 4114606488250,
+    "enterpriseValue": 14954722835268
+  },
+  {
+    "symbol": "LPL",
+    "date": "2006-12-31",
+    "stockPrice": 14007.57,
+    "numberOfShares": 698000000,
+    "marketCapitalization": 9777280370000,
+    "minusCashAndCashEquivalents": 910313134820,
+    "addTotalDebt": 3916334592914,
+    "enterpriseValue": 12783301828094
+  },
+  {
+    "symbol": "LPL",
+    "date": "2006-09-30",
+    "stockPrice": 15694.14,
+    "numberOfShares": 698000000,
+    "marketCapitalization": 10954509720000,
+    "minusCashAndCashEquivalents": 466224422520,
+    "addTotalDebt": 4419321680400,
+    "enterpriseValue": 14907606977880
+  },
+  {
+    "symbol": "LPL",
+    "date": "2006-06-30",
+    "stockPrice": 17199.5,
+    "numberOfShares": 678000000,
+    "marketCapitalization": 11661263712000,
+    "minusCashAndCashEquivalents": 780626783640,
+    "addTotalDebt": 4211775894700,
+    "enterpriseValue": 15092412823060
+  },
+  {
+    "symbol": "LPL",
+    "date": "2006-03-31",
+    "stockPrice": 22041.7,
+    "numberOfShares": 716000000,
+    "marketCapitalization": 15781857200000,
+    "minusCashAndCashEquivalents": 1060124000000,
+    "addTotalDebt": 3631620000000,
+    "enterpriseValue": 18353353200000
+  },
+  {
+    "symbol": "LPL",
+    "date": "2005-12-31",
+    "stockPrice": 21610.22,
+    "numberOfShares": 666000000,
+    "marketCapitalization": 14392406520000,
+    "minusCashAndCashEquivalents": 1562720096468,
+    "addTotalDebt": 3564298991929,
+    "enterpriseValue": 16393985415461
+  },
+  {
+    "symbol": "LPL",
+    "date": "2005-09-30",
+    "stockPrice": 21444.08,
+    "numberOfShares": 698000000,
+    "marketCapitalization": 14967967839999,
+    "minusCashAndCashEquivalents": 1982254704660,
+    "addTotalDebt": 3135699385360,
+    "enterpriseValue": 16121412520699
+  },
+  {
+    "symbol": "LPL",
+    "date": "2005-06-30",
+    "stockPrice": 23648.67,
+    "numberOfShares": 650000000,
+    "marketCapitalization": 15371635499999,
+    "minusCashAndCashEquivalents": 1206000000000,
+    "addTotalDebt": 2976000000000,
+    "enterpriseValue": 17141635499999
+  },
+  {
+    "symbol": "LPL",
+    "date": "2005-03-31",
+    "stockPrice": 21916.35,
+    "numberOfShares": 650631400,
+    "marketCapitalization": 14259465483390,
+    "minusCashAndCashEquivalents": 1254000000000,
+    "addTotalDebt": 2526000000000,
+    "enterpriseValue": 15531465483390
+  },
+  {
+    "symbol": "LPL",
+    "date": "2004-12-31",
+    "stockPrice": 18565.68,
+    "numberOfShares": 632000000,
+    "marketCapitalization": 11733509759999,
+    "minusCashAndCashEquivalents": 1315000000000,
+    "addTotalDebt": 2687000000000,
+    "enterpriseValue": 13105509759999
+  },
+  {
+    "symbol": "LPL",
+    "date": "2004-09-30",
+    "stockPrice": 17422.5,
+    "numberOfShares": 632000000,
+    "marketCapitalization": 11011020000000,
+    "minusCashAndCashEquivalents": 1113333332220,
+    "addTotalDebt": 1543333331790,
+    "enterpriseValue": 11441019999570
+  },
+  {
+    "symbol": "LPL",
+    "date": "2004-06-30",
+    "stockPrice": 16227.75,
+    "numberOfShares": 580000000,
+    "marketCapitalization": 9412095000000,
+    "minusCashAndCashEquivalents": 538193332795,
+    "addTotalDebt": 2145542220076,
+    "enterpriseValue": 11019443887281
+  },
+  {
+    "symbol": "LPL",
+    "date": "2004-03-31",
+    "stockPrice": 16117.74,
+    "numberOfShares": 580000000,
+    "marketCapitalization": 9348288330000,
+    "minusCashAndCashEquivalents": 526666666140,
+    "addTotalDebt": 1965555553590,
+    "enterpriseValue": 10787177217450
+  }
+]

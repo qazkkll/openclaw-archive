@@ -1,0 +1,66 @@
+[
+  {
+    "symbol": "SID",
+    "date": "2025-12-15",
+    "gradingCompany": "UBS",
+    "previousGrade": "Sell",
+    "newGrade": "Sell",
+    "action": "maintain"
+  },
+  {
+    "symbol": "SID",
+    "date": "2024-04-09",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "SID",
+    "date": "2024-04-04",
+    "gradingCompany": "Itau BBA",
+    "previousGrade": "Market Perform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "SID",
+    "date": "2023-11-20",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Underperform",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "SID",
+    "date": "2023-07-10",
+    "gradingCompany": "Itau BBA",
+    "previousGrade": "Market Perform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "SID",
+    "date": "2022-08-26",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "SID",
+    "date": "2019-04-15",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Sell",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "SID",
+    "date": "2012-08-10",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  }
+]

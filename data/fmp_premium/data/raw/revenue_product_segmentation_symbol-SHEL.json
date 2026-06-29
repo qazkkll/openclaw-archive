@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "SHEL",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Crude Oil": 35711000000,
+      "Lubricants": 11544000000,
+      "Natural Gas and Natural Gas Liquids (NGL)": 56292000000,
+      "Other Contracts": 19963000000,
+      "Power": 12260000000
+    }
+  },
+  {
+    "symbol": "SHEL",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Crude Oil": 40625000000,
+      "Lubricants": 11511000000,
+      "Natural Gas and Natural Gas Liquids (NGL)": 50232000000,
+      "Other Contracts": 22330000000,
+      "Power": 11566000000
+    }
+  }
+]

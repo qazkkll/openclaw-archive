@@ -1,0 +1,28 @@
+[
+  {
+    "symbol": "PAM",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Eliminations": -123000000,
+      "Generation": 788000000,
+      "Oil And Gas Segment": 541000000,
+      "Petrochemicals": 265000000
+    }
+  },
+  {
+    "symbol": "PAM",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Eliminations": -107000000,
+      "Oil And Gas Segment": 515000000,
+      "Generation": 669000000,
+      "Petrochemicals": 326000000
+    }
+  }
+]

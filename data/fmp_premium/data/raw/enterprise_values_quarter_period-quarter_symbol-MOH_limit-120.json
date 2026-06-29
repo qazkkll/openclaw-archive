@@ -1,0 +1,932 @@
+[
+  {
+    "symbol": "MOH",
+    "date": "2026-03-31",
+    "stockPrice": 133.3,
+    "numberOfShares": 51000000,
+    "marketCapitalization": 6798300000,
+    "minusCashAndCashEquivalents": 5314000000,
+    "addTotalDebt": 3947000000,
+    "enterpriseValue": 5431300000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2025-12-31",
+    "stockPrice": 173.54,
+    "numberOfShares": 50793650,
+    "marketCapitalization": 8814730021,
+    "minusCashAndCashEquivalents": 4248000000,
+    "addTotalDebt": 3950000000,
+    "enterpriseValue": 8516730021
+  },
+  {
+    "symbol": "MOH",
+    "date": "2025-09-30",
+    "stockPrice": 191.36,
+    "numberOfShares": 53600000,
+    "marketCapitalization": 10256896000,
+    "minusCashAndCashEquivalents": 4221000000,
+    "addTotalDebt": 3852000000,
+    "enterpriseValue": 9887896000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2025-06-30",
+    "stockPrice": 297.9,
+    "numberOfShares": 54300000,
+    "marketCapitalization": 16175969999,
+    "minusCashAndCashEquivalents": 4499000000,
+    "addTotalDebt": 3563000000,
+    "enterpriseValue": 15239969999
+  },
+  {
+    "symbol": "MOH",
+    "date": "2025-03-31",
+    "stockPrice": 329.39,
+    "numberOfShares": 54600000,
+    "marketCapitalization": 17984694000,
+    "minusCashAndCashEquivalents": 4856000000,
+    "addTotalDebt": 3766000000,
+    "enterpriseValue": 16894694000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2024-12-31",
+    "stockPrice": 291.05,
+    "numberOfShares": 57400000,
+    "marketCapitalization": 16706270000,
+    "minusCashAndCashEquivalents": 4662000000,
+    "addTotalDebt": 3118000000,
+    "enterpriseValue": 15162270000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2024-09-30",
+    "stockPrice": 344.56,
+    "numberOfShares": 57600000,
+    "marketCapitalization": 19846656000,
+    "minusCashAndCashEquivalents": 4732000000,
+    "addTotalDebt": 2529000000,
+    "enterpriseValue": 17643656000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2024-06-30",
+    "stockPrice": 292.16,
+    "numberOfShares": 57900000,
+    "marketCapitalization": 16916064000,
+    "minusCashAndCashEquivalents": 4354000000,
+    "addTotalDebt": 2384000000,
+    "enterpriseValue": 14946064000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2024-03-31",
+    "stockPrice": 404.2,
+    "numberOfShares": 57900000,
+    "marketCapitalization": 23403180000,
+    "minusCashAndCashEquivalents": 4513000000,
+    "addTotalDebt": 2382000000,
+    "enterpriseValue": 21272180000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2023-12-31",
+    "stockPrice": 361.31,
+    "numberOfShares": 58000000,
+    "marketCapitalization": 20955980000,
+    "minusCashAndCashEquivalents": 4848000000,
+    "addTotalDebt": 2385000000,
+    "enterpriseValue": 18492980000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2023-09-30",
+    "stockPrice": 327.89,
+    "numberOfShares": 57800000,
+    "marketCapitalization": 18952042000,
+    "minusCashAndCashEquivalents": 5565000000,
+    "addTotalDebt": 2378000000,
+    "enterpriseValue": 15765042000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2023-06-30",
+    "stockPrice": 301.24,
+    "numberOfShares": 57700000,
+    "marketCapitalization": 17381548000,
+    "minusCashAndCashEquivalents": 4910000000,
+    "addTotalDebt": 2381000000,
+    "enterpriseValue": 14852548000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2023-03-31",
+    "stockPrice": 267.49,
+    "numberOfShares": 58000000,
+    "marketCapitalization": 15514420000,
+    "minusCashAndCashEquivalents": 4554000000,
+    "addTotalDebt": 2381000000,
+    "enterpriseValue": 13341420000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2022-12-31",
+    "stockPrice": 330.22,
+    "numberOfShares": 58000000,
+    "marketCapitalization": 19152760000,
+    "minusCashAndCashEquivalents": 4006000000,
+    "addTotalDebt": 2391000000,
+    "enterpriseValue": 17537760000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2022-09-30",
+    "stockPrice": 329.84,
+    "numberOfShares": 57600000,
+    "marketCapitalization": 18998784000,
+    "minusCashAndCashEquivalents": 4242000000,
+    "addTotalDebt": 2392000000,
+    "enterpriseValue": 17148784000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2022-06-30",
+    "stockPrice": 279.61,
+    "numberOfShares": 57800000,
+    "marketCapitalization": 16161458000,
+    "minusCashAndCashEquivalents": 4312000000,
+    "addTotalDebt": 2391000000,
+    "enterpriseValue": 14240458000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2022-03-31",
+    "stockPrice": 333.59,
+    "numberOfShares": 58000000,
+    "marketCapitalization": 19348220000,
+    "minusCashAndCashEquivalents": 4804000000,
+    "addTotalDebt": 2391000000,
+    "enterpriseValue": 16935220000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2021-12-31",
+    "stockPrice": 318.08,
+    "numberOfShares": 58000000,
+    "marketCapitalization": 18448640000,
+    "minusCashAndCashEquivalents": 4438000000,
+    "addTotalDebt": 2392000000,
+    "enterpriseValue": 16402640000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2021-09-30",
+    "stockPrice": 271.31,
+    "numberOfShares": 57800000,
+    "marketCapitalization": 15681718000,
+    "minusCashAndCashEquivalents": 4357000000,
+    "addTotalDebt": 2350000000,
+    "enterpriseValue": 13674718000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2021-06-30",
+    "stockPrice": 253.06,
+    "numberOfShares": 57700000,
+    "marketCapitalization": 14601562000,
+    "minusCashAndCashEquivalents": 4608000000,
+    "addTotalDebt": 2352000000,
+    "enterpriseValue": 12345562000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2021-03-31",
+    "stockPrice": 233.76,
+    "numberOfShares": 57700000,
+    "marketCapitalization": 13487952000,
+    "minusCashAndCashEquivalents": 4431000000,
+    "addTotalDebt": 2351000000,
+    "enterpriseValue": 11407952000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2020-12-31",
+    "stockPrice": 212.68,
+    "numberOfShares": 59300000,
+    "marketCapitalization": 12611924000,
+    "minusCashAndCashEquivalents": 4154000000,
+    "addTotalDebt": 2352000000,
+    "enterpriseValue": 10809924000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2020-09-30",
+    "stockPrice": 183.04,
+    "numberOfShares": 58700000,
+    "marketCapitalization": 10744448000,
+    "minusCashAndCashEquivalents": 3196000000,
+    "addTotalDebt": 2039000000,
+    "enterpriseValue": 9587448000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2020-06-30",
+    "stockPrice": 177.98,
+    "numberOfShares": 58600000,
+    "marketCapitalization": 10429628000,
+    "minusCashAndCashEquivalents": 3303000000,
+    "addTotalDebt": 2041000000,
+    "enterpriseValue": 9167628000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2020-03-31",
+    "stockPrice": 139.71,
+    "numberOfShares": 60200000,
+    "marketCapitalization": 8410542000,
+    "minusCashAndCashEquivalents": 2365000000,
+    "addTotalDebt": 1851000000,
+    "enterpriseValue": 7896542000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2019-12-31",
+    "stockPrice": 135.69,
+    "numberOfShares": 62000000,
+    "marketCapitalization": 8412780000,
+    "minusCashAndCashEquivalents": 2452000000,
+    "addTotalDebt": 1486000000,
+    "enterpriseValue": 7446780000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2019-09-30",
+    "stockPrice": 109.72,
+    "numberOfShares": 62200000,
+    "marketCapitalization": 6824584000,
+    "minusCashAndCashEquivalents": 2679000000,
+    "addTotalDebt": 1487000000,
+    "enterpriseValue": 5632584000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2019-06-30",
+    "stockPrice": 140.31,
+    "numberOfShares": 62100000,
+    "marketCapitalization": 8713251000,
+    "minusCashAndCashEquivalents": 2253000000,
+    "addTotalDebt": 1538000000,
+    "enterpriseValue": 7998251000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2019-03-31",
+    "stockPrice": 144.7,
+    "numberOfShares": 62100000,
+    "marketCapitalization": 8985870000,
+    "minusCashAndCashEquivalents": 3224000000,
+    "addTotalDebt": 1553000000,
+    "enterpriseValue": 7314870000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2018-12-31",
+    "stockPrice": 116.22,
+    "numberOfShares": 62000000,
+    "marketCapitalization": 7205640000,
+    "minusCashAndCashEquivalents": 2826000000,
+    "addTotalDebt": 1458000000,
+    "enterpriseValue": 5837640000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2018-09-30",
+    "stockPrice": 148.14,
+    "numberOfShares": 61300000,
+    "marketCapitalization": 9080982000,
+    "minusCashAndCashEquivalents": 2814000000,
+    "addTotalDebt": 1513000000,
+    "enterpriseValue": 7779982000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2018-06-30",
+    "stockPrice": 97.94,
+    "numberOfShares": 61200000,
+    "marketCapitalization": 5993928000,
+    "minusCashAndCashEquivalents": 3392000000,
+    "addTotalDebt": 1701000000,
+    "enterpriseValue": 4302928000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2018-03-31",
+    "stockPrice": 81.18,
+    "numberOfShares": 59800000,
+    "marketCapitalization": 4854564000,
+    "minusCashAndCashEquivalents": 3729000000,
+    "addTotalDebt": 2082000000,
+    "enterpriseValue": 3207564000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2017-12-31",
+    "stockPrice": 76.68,
+    "numberOfShares": 57095648,
+    "marketCapitalization": 4378094288,
+    "minusCashAndCashEquivalents": 3186000000,
+    "addTotalDebt": 2169000000,
+    "enterpriseValue": 3361094288
+  },
+  {
+    "symbol": "MOH",
+    "date": "2017-09-30",
+    "stockPrice": 68.76,
+    "numberOfShares": 56500000,
+    "marketCapitalization": 3884940000,
+    "minusCashAndCashEquivalents": 3934000000,
+    "addTotalDebt": 2297000000,
+    "enterpriseValue": 2247940000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2017-06-30",
+    "stockPrice": 69.18,
+    "numberOfShares": 56000000,
+    "marketCapitalization": 3874080000,
+    "minusCashAndCashEquivalents": 2979000000,
+    "addTotalDebt": 1988000000,
+    "enterpriseValue": 2883080000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2017-03-31",
+    "stockPrice": 45.6,
+    "numberOfShares": 56000000,
+    "marketCapitalization": 2553600000,
+    "minusCashAndCashEquivalents": 3198000000,
+    "addTotalDebt": 1654000000,
+    "enterpriseValue": 1009600000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2016-12-31",
+    "stockPrice": 54.26,
+    "numberOfShares": 55219344,
+    "marketCapitalization": 2996201605,
+    "minusCashAndCashEquivalents": 2819000000,
+    "addTotalDebt": 1645000000,
+    "enterpriseValue": 1822201605
+  },
+  {
+    "symbol": "MOH",
+    "date": "2016-09-30",
+    "stockPrice": 58.32,
+    "numberOfShares": 56000000,
+    "marketCapitalization": 3265920000,
+    "minusCashAndCashEquivalents": 2842000000,
+    "addTotalDebt": 1635000000,
+    "enterpriseValue": 2058920000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2016-06-30",
+    "stockPrice": 49.9,
+    "numberOfShares": 55000000,
+    "marketCapitalization": 2744500000,
+    "minusCashAndCashEquivalents": 2345000000,
+    "addTotalDebt": 1627000000,
+    "enterpriseValue": 2026500000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2016-03-31",
+    "stockPrice": 64.49,
+    "numberOfShares": 55000000,
+    "marketCapitalization": 3546949999,
+    "minusCashAndCashEquivalents": 2156000000,
+    "addTotalDebt": 1618000000,
+    "enterpriseValue": 3008949999
+  },
+  {
+    "symbol": "MOH",
+    "date": "2015-12-31",
+    "stockPrice": 60.13,
+    "numberOfShares": 56000000,
+    "marketCapitalization": 3367280000,
+    "minusCashAndCashEquivalents": 2329000000,
+    "addTotalDebt": 1609000000,
+    "enterpriseValue": 2647280000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2015-09-30",
+    "stockPrice": 68.85,
+    "numberOfShares": 55000000,
+    "marketCapitalization": 3786749999,
+    "minusCashAndCashEquivalents": 2164210000,
+    "addTotalDebt": 927251000,
+    "enterpriseValue": 2549790999
+  },
+  {
+    "symbol": "MOH",
+    "date": "2015-06-30",
+    "stockPrice": 70.3,
+    "numberOfShares": 50000000,
+    "marketCapitalization": 3515000000,
+    "minusCashAndCashEquivalents": 2013882000,
+    "addTotalDebt": 919937000,
+    "enterpriseValue": 2421055000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2015-03-31",
+    "stockPrice": 67.29,
+    "numberOfShares": 49000000,
+    "marketCapitalization": 3297210000,
+    "minusCashAndCashEquivalents": 1870024000,
+    "addTotalDebt": 912616000,
+    "enterpriseValue": 2339802000
+  },
+  {
+    "symbol": "MOH",
+    "date": "2014-12-31",
+    "stockPrice": 53.53,
+    "numberOfShares": 48893069,
+    "marketCapitalization": 2617245983,
+    "minusCashAndCashEquivalents": 1539000000,
+    "addTotalDebt": 887341000,
+    "enterpriseValue": 1965586983
+  },
+  {
+    "symbol": "MOH",
+    "date": "2014-09-30",
+    "stockPrice": 42.3,
+    "numberOfShares": 46991000,
+    "marketCapitalization": 1987719299,
+    "minusCashAndCashEquivalents": 1598596000,
+    "addTotalDebt": 908807000,
+    "enterpriseValue": 1297930299
+  },
+  {
+    "symbol": "MOH",
+    "date": "2014-06-30",
+    "stockPrice": 44.63,
+    "numberOfShares": 46279000,
+    "marketCapitalization": 2065431770,
+    "minusCashAndCashEquivalents": 1027351000,
+    "addTotalDebt": 810717000,
+    "enterpriseValue": 1848797770
+  },
+  {
+    "symbol": "MOH",
+    "date": "2014-03-31",
+    "stockPrice": 37.56,
+    "numberOfShares": 46021000,
+    "marketCapitalization": 1728548760,
+    "minusCashAndCashEquivalents": 1083369000,
+    "addTotalDebt": 799291000,
+    "enterpriseValue": 1444470760
+  },
+  {
+    "symbol": "MOH",
+    "date": "2013-12-31",
+    "stockPrice": 34.75,
+    "numberOfShares": 45725000,
+    "marketCapitalization": 1588943750,
+    "minusCashAndCashEquivalents": 935895000,
+    "addTotalDebt": 784862000,
+    "enterpriseValue": 1437910750
+  },
+  {
+    "symbol": "MOH",
+    "date": "2013-09-30",
+    "stockPrice": 35.6,
+    "numberOfShares": 45699000,
+    "marketCapitalization": 1626884400,
+    "minusCashAndCashEquivalents": 856556000,
+    "addTotalDebt": 770181000,
+    "enterpriseValue": 1540509400
+  },
+  {
+    "symbol": "MOH",
+    "date": "2013-06-30",
+    "stockPrice": 37.89,
+    "numberOfShares": 45446000,
+    "marketCapitalization": 1721948940,
+    "minusCashAndCashEquivalents": 742670000,
+    "addTotalDebt": 761491000,
+    "enterpriseValue": 1740769940
+  },
+  {
+    "symbol": "MOH",
+    "date": "2013-03-31",
+    "stockPrice": 30.76,
+    "numberOfShares": 45981000,
+    "marketCapitalization": 1414375560,
+    "minusCashAndCashEquivalents": 1169511000,
+    "addTotalDebt": 643172000,
+    "enterpriseValue": 888036560
+  },
+  {
+    "symbol": "MOH",
+    "date": "2012-12-31",
+    "stockPrice": 27.06,
+    "numberOfShares": 46617000,
+    "marketCapitalization": 1261456020,
+    "minusCashAndCashEquivalents": 795770000,
+    "addTotalDebt": 262939000,
+    "enterpriseValue": 728625020
+  },
+  {
+    "symbol": "MOH",
+    "date": "2012-09-30",
+    "stockPrice": 25.03,
+    "numberOfShares": 46546000,
+    "marketCapitalization": 1165046380,
+    "minusCashAndCashEquivalents": 715480000,
+    "addTotalDebt": 261694000,
+    "enterpriseValue": 711260380
+  },
+  {
+    "symbol": "MOH",
+    "date": "2012-06-30",
+    "stockPrice": 23.46,
+    "numberOfShares": 46355000,
+    "marketCapitalization": 1087488300,
+    "minusCashAndCashEquivalents": 727092000,
+    "addTotalDebt": 270468000,
+    "enterpriseValue": 630864300
+  },
+  {
+    "symbol": "MOH",
+    "date": "2012-03-31",
+    "stockPrice": 33.63,
+    "numberOfShares": 45998000,
+    "marketCapitalization": 1546912740,
+    "minusCashAndCashEquivalents": 517723000,
+    "addTotalDebt": 229268000,
+    "enterpriseValue": 1258457740
+  },
+  {
+    "symbol": "MOH",
+    "date": "2011-12-31",
+    "stockPrice": 22.33,
+    "numberOfShares": 45945000,
+    "marketCapitalization": 1025951849,
+    "minusCashAndCashEquivalents": 493827000,
+    "addTotalDebt": 218126000,
+    "enterpriseValue": 750250849
+  },
+  {
+    "symbol": "MOH",
+    "date": "2011-09-30",
+    "stockPrice": 15.44,
+    "numberOfShares": 45834000,
+    "marketCapitalization": 707676960,
+    "minusCashAndCashEquivalents": 487492000,
+    "addTotalDebt": 191805000,
+    "enterpriseValue": 411989960
+  },
+  {
+    "symbol": "MOH",
+    "date": "2011-06-30",
+    "stockPrice": 27.12,
+    "numberOfShares": 45897000,
+    "marketCapitalization": 1244726640,
+    "minusCashAndCashEquivalents": 459213000,
+    "addTotalDebt": 190800000,
+    "enterpriseValue": 976313640
+  },
+  {
+    "symbol": "MOH",
+    "date": "2011-03-31",
+    "stockPrice": 26.67,
+    "numberOfShares": 45588000,
+    "marketCapitalization": 1215681519,
+    "minusCashAndCashEquivalents": 463792000,
+    "addTotalDebt": 189509000,
+    "enterpriseValue": 941398519
+  },
+  {
+    "symbol": "MOH",
+    "date": "2010-12-31",
+    "stockPrice": 18.57,
+    "numberOfShares": 45395000,
+    "marketCapitalization": 842835346,
+    "minusCashAndCashEquivalents": 455886000,
+    "addTotalDebt": 188663000,
+    "enterpriseValue": 575612346
+  },
+  {
+    "symbol": "MOH",
+    "date": "2010-09-30",
+    "stockPrice": 17.99,
+    "numberOfShares": 42177000,
+    "marketCapitalization": 758903414,
+    "minusCashAndCashEquivalents": 426455000,
+    "addTotalDebt": 187834000,
+    "enterpriseValue": 520282414
+  },
+  {
+    "symbol": "MOH",
+    "date": "2010-06-30",
+    "stockPrice": 19.2,
+    "numberOfShares": 38611000,
+    "marketCapitalization": 741331200,
+    "minusCashAndCashEquivalents": 460985000,
+    "addTotalDebt": 291686000,
+    "enterpriseValue": 572032200
+  },
+  {
+    "symbol": "MOH",
+    "date": "2010-03-31",
+    "stockPrice": 16.78,
+    "numberOfShares": 38469000,
+    "marketCapitalization": 645509820,
+    "minusCashAndCashEquivalents": 438281000,
+    "addTotalDebt": 185521000,
+    "enterpriseValue": 392749820
+  },
+  {
+    "symbol": "MOH",
+    "date": "2009-12-31",
+    "stockPrice": 15.25,
+    "numberOfShares": 38310000,
+    "marketCapitalization": 584101077,
+    "minusCashAndCashEquivalents": 469501000,
+    "addTotalDebt": 184355000,
+    "enterpriseValue": 298955077
+  },
+  {
+    "symbol": "MOH",
+    "date": "2009-09-30",
+    "stockPrice": 13.79,
+    "numberOfShares": 38445000,
+    "marketCapitalization": 530283418,
+    "minusCashAndCashEquivalents": 449469000,
+    "addTotalDebt": 183607000,
+    "enterpriseValue": 264421418
+  },
+  {
+    "symbol": "MOH",
+    "date": "2009-06-30",
+    "stockPrice": 15.95,
+    "numberOfShares": 38805000,
+    "marketCapitalization": 618811693,
+    "minusCashAndCashEquivalents": 417837000,
+    "addTotalDebt": 182637000,
+    "enterpriseValue": 383611693
+  },
+  {
+    "symbol": "MOH",
+    "date": "2009-03-31",
+    "stockPrice": 12.68,
+    "numberOfShares": 39795000,
+    "marketCapitalization": 504600600,
+    "minusCashAndCashEquivalents": 405187000,
+    "addTotalDebt": 182026000,
+    "enterpriseValue": 281439600
+  },
+  {
+    "symbol": "MOH",
+    "date": "2008-12-31",
+    "stockPrice": 11.74,
+    "numberOfShares": 39795000,
+    "marketCapitalization": 467193300,
+    "minusCashAndCashEquivalents": 387162000,
+    "addTotalDebt": 192240000,
+    "enterpriseValue": 272271300
+  },
+  {
+    "symbol": "MOH",
+    "date": "2008-09-30",
+    "stockPrice": 20.67,
+    "numberOfShares": 41373000,
+    "marketCapitalization": 855043379,
+    "minusCashAndCashEquivalents": 382436000,
+    "addTotalDebt": 227828000,
+    "enterpriseValue": 700435379
+  },
+  {
+    "symbol": "MOH",
+    "date": "2008-06-30",
+    "stockPrice": 16.23,
+    "numberOfShares": 41995500,
+    "marketCapitalization": 681448379,
+    "minusCashAndCashEquivalents": 425424000,
+    "addTotalDebt": 228143000,
+    "enterpriseValue": 484167379
+  },
+  {
+    "symbol": "MOH",
+    "date": "2008-03-31",
+    "stockPrice": 16.28,
+    "numberOfShares": 42685500,
+    "marketCapitalization": 694919940,
+    "minusCashAndCashEquivalents": 412153000,
+    "addTotalDebt": 200000000,
+    "enterpriseValue": 482766940
+  },
+  {
+    "symbol": "MOH",
+    "date": "2007-12-31",
+    "stockPrice": 25.8,
+    "numberOfShares": 42619500,
+    "marketCapitalization": 1099583100,
+    "minusCashAndCashEquivalents": 459064000,
+    "addTotalDebt": 229240000,
+    "enterpriseValue": 869759100
+  },
+  {
+    "symbol": "MOH",
+    "date": "2007-09-30",
+    "stockPrice": 24.43,
+    "numberOfShares": 42459000,
+    "marketCapitalization": 1037413484,
+    "minusCashAndCashEquivalents": 447594000,
+    "addTotalDebt": 20000000,
+    "enterpriseValue": 609819484
+  },
+  {
+    "symbol": "MOH",
+    "date": "2007-06-30",
+    "stockPrice": 20.35,
+    "numberOfShares": 42349500,
+    "marketCapitalization": 861672571,
+    "minusCashAndCashEquivalents": 471502000,
+    "addTotalDebt": 30000000,
+    "enterpriseValue": 420170571
+  },
+  {
+    "symbol": "MOH",
+    "date": "2007-03-31",
+    "stockPrice": 20.39,
+    "numberOfShares": 42228000,
+    "marketCapitalization": 861168272,
+    "minusCashAndCashEquivalents": 419967000,
+    "addTotalDebt": 30000000,
+    "enterpriseValue": 471201272
+  },
+  {
+    "symbol": "MOH",
+    "date": "2006-12-31",
+    "stockPrice": 21.67,
+    "numberOfShares": 42057000,
+    "marketCapitalization": 911513978,
+    "minusCashAndCashEquivalents": 403650000,
+    "addTotalDebt": 45000000,
+    "enterpriseValue": 552863978
+  },
+  {
+    "symbol": "MOH",
+    "date": "2006-09-30",
+    "stockPrice": 23.57,
+    "numberOfShares": 42033000,
+    "marketCapitalization": 990856518,
+    "minusCashAndCashEquivalents": 337084000,
+    "addTotalDebt": 15000000,
+    "enterpriseValue": 668772518
+  },
+  {
+    "symbol": "MOH",
+    "date": "2006-06-30",
+    "stockPrice": 25.37,
+    "numberOfShares": 41920500,
+    "marketCapitalization": 1063384747,
+    "minusCashAndCashEquivalents": 312118000,
+    "addTotalDebt": 15000000,
+    "enterpriseValue": 766266747
+  },
+  {
+    "symbol": "MOH",
+    "date": "2006-03-31",
+    "stockPrice": 22.31,
+    "numberOfShares": 41782500,
+    "marketCapitalization": 932305457,
+    "minusCashAndCashEquivalents": 288347000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 643958457
+  },
+  {
+    "symbol": "MOH",
+    "date": "2005-12-31",
+    "stockPrice": 17.76,
+    "numberOfShares": 41652000,
+    "marketCapitalization": 739739520,
+    "minusCashAndCashEquivalents": 249203000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 490536520
+  },
+  {
+    "symbol": "MOH",
+    "date": "2005-09-30",
+    "stockPrice": 16.66,
+    "numberOfShares": 41626500,
+    "marketCapitalization": 693497490,
+    "minusCashAndCashEquivalents": 223493000,
+    "addTotalDebt": 1767000,
+    "enterpriseValue": 471771490
+  },
+  {
+    "symbol": "MOH",
+    "date": "2005-06-30",
+    "stockPrice": 29.51,
+    "numberOfShares": 41560500,
+    "marketCapitalization": 1226313205,
+    "minusCashAndCashEquivalents": 202463000,
+    "addTotalDebt": 4912000,
+    "enterpriseValue": 1028762205
+  },
+  {
+    "symbol": "MOH",
+    "date": "2005-03-31",
+    "stockPrice": 30.73,
+    "numberOfShares": 41424000,
+    "marketCapitalization": 1272822820,
+    "minusCashAndCashEquivalents": 242425000,
+    "addTotalDebt": 4954000,
+    "enterpriseValue": 1035351820
+  },
+  {
+    "symbol": "MOH",
+    "date": "2004-12-31",
+    "stockPrice": 30.92,
+    "numberOfShares": 41316000,
+    "marketCapitalization": 1277490720,
+    "minusCashAndCashEquivalents": 228071000,
+    "addTotalDebt": 1894000,
+    "enterpriseValue": 1051313720
+  },
+  {
+    "symbol": "MOH",
+    "date": "2004-09-30",
+    "stockPrice": 23.67,
+    "numberOfShares": 41184000,
+    "marketCapitalization": 974689372,
+    "minusCashAndCashEquivalents": 219387000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 755302372
+  },
+  {
+    "symbol": "MOH",
+    "date": "2004-06-30",
+    "stockPrice": 25.45,
+    "numberOfShares": 41029500,
+    "marketCapitalization": 1044336172,
+    "minusCashAndCashEquivalents": 178339000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 865997172
+  },
+  {
+    "symbol": "MOH",
+    "date": "2004-03-31",
+    "stockPrice": 19.55,
+    "numberOfShares": 38251500,
+    "marketCapitalization": 747690595,
+    "minusCashAndCashEquivalents": 170138000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 577552595
+  },
+  {
+    "symbol": "MOH",
+    "date": "2003-12-31",
+    "stockPrice": 16.82,
+    "numberOfShares": 37957500,
+    "marketCapitalization": 638445150,
+    "minusCashAndCashEquivalents": 141850000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 496595150
+  },
+  {
+    "symbol": "MOH",
+    "date": "2003-09-30",
+    "stockPrice": 18.5,
+    "numberOfShares": 37924500,
+    "marketCapitalization": 701603600,
+    "minusCashAndCashEquivalents": 161205000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 540398600
+  },
+  {
+    "symbol": "MOH",
+    "date": "2003-06-30",
+    "stockPrice": 13.33,
+    "numberOfShares": 28198500,
+    "marketCapitalization": 375980187,
+    "minusCashAndCashEquivalents": 133598000,
+    "addTotalDebt": 8500000,
+    "enterpriseValue": 250882187
+  },
+  {
+    "symbol": "MOH",
+    "date": "2003-03-31",
+    "stockPrice": 13.33,
+    "numberOfShares": 29167500,
+    "marketCapitalization": 388900194,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 8336000,
+    "enterpriseValue": 397236194
+  }
+]

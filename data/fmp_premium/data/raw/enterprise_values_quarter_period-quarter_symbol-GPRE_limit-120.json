@@ -1,0 +1,882 @@
+[
+  {
+    "symbol": "GPRE",
+    "date": "2026-03-31",
+    "stockPrice": 16.45,
+    "numberOfShares": 68841000,
+    "marketCapitalization": 1132434450,
+    "minusCashAndCashEquivalents": 183144000,
+    "addTotalDebt": 558761000,
+    "enterpriseValue": 1508051450
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2025-12-31",
+    "stockPrice": 9.8,
+    "numberOfShares": 69482000,
+    "marketCapitalization": 680923600,
+    "minusCashAndCashEquivalents": 182319000,
+    "addTotalDebt": 508353000,
+    "enterpriseValue": 1006957600
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2025-09-30",
+    "stockPrice": 8.79,
+    "numberOfShares": 69855000,
+    "marketCapitalization": 614025450,
+    "minusCashAndCashEquivalents": 135903000,
+    "addTotalDebt": 434893998,
+    "enterpriseValue": 913016448
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2025-06-30",
+    "stockPrice": 6.03,
+    "numberOfShares": 65287000,
+    "marketCapitalization": 393680610,
+    "minusCashAndCashEquivalents": 152720000,
+    "addTotalDebt": 610310000,
+    "enterpriseValue": 851270610
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2025-03-31",
+    "stockPrice": 4.85,
+    "numberOfShares": 64069000,
+    "marketCapitalization": 310734650,
+    "minusCashAndCashEquivalents": 98610000,
+    "addTotalDebt": 631082000,
+    "enterpriseValue": 843206650
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2024-12-31",
+    "stockPrice": 9.48,
+    "numberOfShares": 63961000,
+    "marketCapitalization": 606350280,
+    "minusCashAndCashEquivalents": 173041000,
+    "addTotalDebt": 649308000,
+    "enterpriseValue": 1082617280
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2024-09-30",
+    "stockPrice": 13.54,
+    "numberOfShares": 63946000,
+    "marketCapitalization": 865828840,
+    "minusCashAndCashEquivalents": 227460000,
+    "addTotalDebt": 614912000,
+    "enterpriseValue": 1253280840
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2024-06-30",
+    "stockPrice": 15.54,
+    "numberOfShares": 63933000,
+    "marketCapitalization": 993518820,
+    "minusCashAndCashEquivalents": 195554000,
+    "addTotalDebt": 681537000,
+    "enterpriseValue": 1479501820
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2024-03-31",
+    "stockPrice": 22.8,
+    "numberOfShares": 63341000,
+    "marketCapitalization": 1444174800,
+    "minusCashAndCashEquivalents": 237302000,
+    "addTotalDebt": 690174000,
+    "enterpriseValue": 1897046800
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2023-12-31",
+    "stockPrice": 25.22,
+    "numberOfShares": 58913000,
+    "marketCapitalization": 1485785860,
+    "minusCashAndCashEquivalents": 349574000,
+    "addTotalDebt": 676510000,
+    "enterpriseValue": 1812721860
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2023-09-30",
+    "stockPrice": 30.1,
+    "numberOfShares": 63959000,
+    "marketCapitalization": 1925165900,
+    "minusCashAndCashEquivalents": 326701000,
+    "addTotalDebt": 736260000,
+    "enterpriseValue": 2334724900
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2023-06-30",
+    "stockPrice": 32.24,
+    "numberOfShares": 58874000,
+    "marketCapitalization": 1898097760,
+    "minusCashAndCashEquivalents": 312858000,
+    "addTotalDebt": 831121000,
+    "enterpriseValue": 2416360760
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2023-03-31",
+    "stockPrice": 30.99,
+    "numberOfShares": 58549000,
+    "marketCapitalization": 1814433510,
+    "minusCashAndCashEquivalents": 354204000,
+    "addTotalDebt": 797395000,
+    "enterpriseValue": 2257624510
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2022-12-31",
+    "stockPrice": 30.5,
+    "numberOfShares": 58482000,
+    "marketCapitalization": 1783701000,
+    "minusCashAndCashEquivalents": 444661000,
+    "addTotalDebt": 710995000,
+    "enterpriseValue": 2050035000
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2022-09-30",
+    "stockPrice": 29.07,
+    "numberOfShares": 57677000,
+    "marketCapitalization": 1676670390,
+    "minusCashAndCashEquivalents": 420838000,
+    "addTotalDebt": 758838000,
+    "enterpriseValue": 2014670390
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2022-06-30",
+    "stockPrice": 27.17,
+    "numberOfShares": 53033000,
+    "marketCapitalization": 1440906610,
+    "minusCashAndCashEquivalents": 508151000,
+    "addTotalDebt": 961447000,
+    "enterpriseValue": 1894202610
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2022-03-31",
+    "stockPrice": 31.01,
+    "numberOfShares": 52887000,
+    "marketCapitalization": 1640025870,
+    "minusCashAndCashEquivalents": 509195000,
+    "addTotalDebt": 970920000,
+    "enterpriseValue": 2101750870
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2021-12-31",
+    "stockPrice": 34.76,
+    "numberOfShares": 52800000,
+    "marketCapitalization": 1835328000,
+    "minusCashAndCashEquivalents": 426220000,
+    "addTotalDebt": 789318000,
+    "enterpriseValue": 2198426000
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2021-09-30",
+    "stockPrice": 32.65,
+    "numberOfShares": 50482000,
+    "marketCapitalization": 1648237300,
+    "minusCashAndCashEquivalents": 589822000,
+    "addTotalDebt": 751151000,
+    "enterpriseValue": 1809566300
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2021-06-30",
+    "stockPrice": 33.62,
+    "numberOfShares": 45425000,
+    "marketCapitalization": 1527188500,
+    "minusCashAndCashEquivalents": 496932000,
+    "addTotalDebt": 765293000,
+    "enterpriseValue": 1795549500
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2021-03-31",
+    "stockPrice": 27.07,
+    "numberOfShares": 37695000,
+    "marketCapitalization": 1020403650,
+    "minusCashAndCashEquivalents": 446833000,
+    "addTotalDebt": 818178000,
+    "enterpriseValue": 1391748650
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2020-12-31",
+    "stockPrice": 13.17,
+    "numberOfShares": 34629000,
+    "marketCapitalization": 456063930,
+    "minusCashAndCashEquivalents": 233860000,
+    "addTotalDebt": 590610000,
+    "enterpriseValue": 812813930
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2020-09-30",
+    "stockPrice": 15.48,
+    "numberOfShares": 34629000,
+    "marketCapitalization": 536056920,
+    "minusCashAndCashEquivalents": 150407000,
+    "addTotalDebt": 586071000,
+    "enterpriseValue": 971720920
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2020-06-30",
+    "stockPrice": 10.22,
+    "numberOfShares": 34225000,
+    "marketCapitalization": 349779500,
+    "minusCashAndCashEquivalents": 163362000,
+    "addTotalDebt": 562840000,
+    "enterpriseValue": 749257500
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2020-03-31",
+    "stockPrice": 4.85,
+    "numberOfShares": 34665000,
+    "marketCapitalization": 168125250,
+    "minusCashAndCashEquivalents": 194333000,
+    "addTotalDebt": 601515000,
+    "enterpriseValue": 575307250
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2019-12-31",
+    "stockPrice": 15.43,
+    "numberOfShares": 35202000,
+    "marketCapitalization": 543166860,
+    "minusCashAndCashEquivalents": 245977000,
+    "addTotalDebt": 619297000,
+    "enterpriseValue": 916486860
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2019-09-30",
+    "stockPrice": 10.6,
+    "numberOfShares": 36837000,
+    "marketCapitalization": 390472200,
+    "minusCashAndCashEquivalents": 235537000,
+    "addTotalDebt": 589527000,
+    "enterpriseValue": 744462200
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2019-06-30",
+    "stockPrice": 10.61,
+    "numberOfShares": 40069000,
+    "marketCapitalization": 425132090,
+    "minusCashAndCashEquivalents": 193280000,
+    "addTotalDebt": 956409000,
+    "enterpriseValue": 1188261090
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2019-03-31",
+    "stockPrice": 16.89,
+    "numberOfShares": 40315000,
+    "marketCapitalization": 680920350,
+    "minusCashAndCashEquivalents": 214068000,
+    "addTotalDebt": 942934000,
+    "enterpriseValue": 1409786350
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2018-12-31",
+    "stockPrice": 13.11,
+    "numberOfShares": 40383000,
+    "marketCapitalization": 529421130,
+    "minusCashAndCashEquivalents": 251683000,
+    "addTotalDebt": 891240000,
+    "enterpriseValue": 1168978130
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2018-09-30",
+    "stockPrice": 17.25,
+    "numberOfShares": 40229000,
+    "marketCapitalization": 693950250,
+    "minusCashAndCashEquivalents": 171674000,
+    "addTotalDebt": 1389357000,
+    "enterpriseValue": 1911633250
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2018-06-30",
+    "stockPrice": 18.3,
+    "numberOfShares": 39920000,
+    "marketCapitalization": 730536000,
+    "minusCashAndCashEquivalents": 235133000,
+    "addTotalDebt": 1295335000,
+    "enterpriseValue": 1790738000
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2018-03-31",
+    "stockPrice": 16.8,
+    "numberOfShares": 40164000,
+    "marketCapitalization": 674755200,
+    "minusCashAndCashEquivalents": 240964000,
+    "addTotalDebt": 1370394000,
+    "enterpriseValue": 1804185200
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2017-12-31",
+    "stockPrice": 16.85,
+    "numberOfShares": 40091000,
+    "marketCapitalization": 675533350,
+    "minusCashAndCashEquivalents": 266651000,
+    "addTotalDebt": 1361499000,
+    "enterpriseValue": 1770381350
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2017-09-30",
+    "stockPrice": 20.15,
+    "numberOfShares": 41348000,
+    "marketCapitalization": 833162200,
+    "minusCashAndCashEquivalents": 261588000,
+    "addTotalDebt": 1294173000,
+    "enterpriseValue": 1865747200
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2017-06-30",
+    "stockPrice": 20.55,
+    "numberOfShares": 39917000,
+    "marketCapitalization": 820294350,
+    "minusCashAndCashEquivalents": 195442000,
+    "addTotalDebt": 1081421000,
+    "enterpriseValue": 1706273350
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2017-03-31",
+    "stockPrice": 24.75,
+    "numberOfShares": 38420000,
+    "marketCapitalization": 950895000,
+    "minusCashAndCashEquivalents": 256468000,
+    "addTotalDebt": 1124823000,
+    "enterpriseValue": 1819250000
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2016-12-31",
+    "stockPrice": 27.85,
+    "numberOfShares": 38367000,
+    "marketCapitalization": 1068520950,
+    "minusCashAndCashEquivalents": 304211000,
+    "addTotalDebt": 1108892000,
+    "enterpriseValue": 1873201950
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2016-09-30",
+    "stockPrice": 26.2,
+    "numberOfShares": 38282000,
+    "marketCapitalization": 1002988400,
+    "minusCashAndCashEquivalents": 407359000,
+    "addTotalDebt": 923512000,
+    "enterpriseValue": 1519141400
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2016-06-30",
+    "stockPrice": 19.72,
+    "numberOfShares": 38425000,
+    "marketCapitalization": 757741000,
+    "minusCashAndCashEquivalents": 386920000,
+    "addTotalDebt": 730729000,
+    "enterpriseValue": 1101550000
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2016-03-31",
+    "stockPrice": 15.96,
+    "numberOfShares": 38197000,
+    "marketCapitalization": 609624120,
+    "minusCashAndCashEquivalents": 383442000,
+    "addTotalDebt": 484004000,
+    "enterpriseValue": 710186120
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2015-12-31",
+    "stockPrice": 22.9,
+    "numberOfShares": 37890000,
+    "marketCapitalization": 867681000,
+    "minusCashAndCashEquivalents": 384867000,
+    "addTotalDebt": 443547000,
+    "enterpriseValue": 926361000
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2015-09-30",
+    "stockPrice": 19.46,
+    "numberOfShares": 38066000,
+    "marketCapitalization": 740764360,
+    "minusCashAndCashEquivalents": 495863000,
+    "addTotalDebt": 443396000,
+    "enterpriseValue": 688297360
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2015-06-30",
+    "stockPrice": 27.55,
+    "numberOfShares": 38027000,
+    "marketCapitalization": 1047643850,
+    "minusCashAndCashEquivalents": 399488000,
+    "addTotalDebt": 443555000,
+    "enterpriseValue": 1091710850
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2015-03-31",
+    "stockPrice": 28.55,
+    "numberOfShares": 36867000,
+    "marketCapitalization": 1052552850,
+    "minusCashAndCashEquivalents": 405899000,
+    "addTotalDebt": 398623000,
+    "enterpriseValue": 1045276850
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2014-12-31",
+    "stockPrice": 24.78,
+    "numberOfShares": 37610000,
+    "marketCapitalization": 931975800,
+    "minusCashAndCashEquivalents": 425510000,
+    "addTotalDebt": 399440000,
+    "enterpriseValue": 905905800
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2014-09-30",
+    "stockPrice": 37.39,
+    "numberOfShares": 37588000,
+    "marketCapitalization": 1405415320,
+    "minusCashAndCashEquivalents": 401113000,
+    "addTotalDebt": 453632000,
+    "enterpriseValue": 1457934320
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2014-06-30",
+    "stockPrice": 32.87,
+    "numberOfShares": 37467000,
+    "marketCapitalization": 1231540290,
+    "minusCashAndCashEquivalents": 333379000,
+    "addTotalDebt": 461913000,
+    "enterpriseValue": 1360074290
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2014-03-31",
+    "stockPrice": 29.96,
+    "numberOfShares": 33153000,
+    "marketCapitalization": 993263880,
+    "minusCashAndCashEquivalents": 207034000,
+    "addTotalDebt": 379431000,
+    "enterpriseValue": 1165660880
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2013-12-31",
+    "stockPrice": 19.38,
+    "numberOfShares": 30427000,
+    "marketCapitalization": 589675260,
+    "minusCashAndCashEquivalents": 272027000,
+    "addTotalDebt": 480746000,
+    "enterpriseValue": 798394260
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2013-09-30",
+    "stockPrice": 16.05,
+    "numberOfShares": 30204000,
+    "marketCapitalization": 484774200,
+    "minusCashAndCashEquivalents": 334509000,
+    "addTotalDebt": 487926000,
+    "enterpriseValue": 638191200
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2013-06-30",
+    "stockPrice": 13.56,
+    "numberOfShares": 30160000,
+    "marketCapitalization": 408969600,
+    "minusCashAndCashEquivalents": 213463000,
+    "addTotalDebt": 400110000,
+    "enterpriseValue": 595616600
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2013-03-31",
+    "stockPrice": 11.47,
+    "numberOfShares": 29933000,
+    "marketCapitalization": 343331510,
+    "minusCashAndCashEquivalents": 229808000,
+    "addTotalDebt": 401794000,
+    "enterpriseValue": 515317510
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2012-12-31",
+    "stockPrice": 7.91,
+    "numberOfShares": 29691000,
+    "marketCapitalization": 234855810,
+    "minusCashAndCashEquivalents": 254289000,
+    "addTotalDebt": 362549000,
+    "enterpriseValue": 343115810
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2012-09-30",
+    "stockPrice": 5.82,
+    "numberOfShares": 29655000,
+    "marketCapitalization": 172592100,
+    "minusCashAndCashEquivalents": 140177000,
+    "addTotalDebt": 457991000,
+    "enterpriseValue": 490406100
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2012-06-30",
+    "stockPrice": 6.24,
+    "numberOfShares": 29614000,
+    "marketCapitalization": 184791360,
+    "minusCashAndCashEquivalents": 120683000,
+    "addTotalDebt": 470519000,
+    "enterpriseValue": 534627360
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2012-03-31",
+    "stockPrice": 10.79,
+    "numberOfShares": 32238000,
+    "marketCapitalization": 347848020,
+    "minusCashAndCashEquivalents": 134989000,
+    "addTotalDebt": 486319000,
+    "enterpriseValue": 699178020
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2011-12-31",
+    "stockPrice": 9.76,
+    "numberOfShares": 32238000,
+    "marketCapitalization": 314642880,
+    "minusCashAndCashEquivalents": 174988000,
+    "addTotalDebt": 636766000,
+    "enterpriseValue": 776420880
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2011-09-30",
+    "stockPrice": 9.33,
+    "numberOfShares": 35624000,
+    "marketCapitalization": 332371920,
+    "minusCashAndCashEquivalents": 117928000,
+    "addTotalDebt": 509806000,
+    "enterpriseValue": 724249920
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2011-06-30",
+    "stockPrice": 10.79,
+    "numberOfShares": 36415000,
+    "marketCapitalization": 392917849,
+    "minusCashAndCashEquivalents": 136403000,
+    "addTotalDebt": 524157000,
+    "enterpriseValue": 780671849
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2011-03-31",
+    "stockPrice": 12.02,
+    "numberOfShares": 36199000,
+    "marketCapitalization": 435111980,
+    "minusCashAndCashEquivalents": 151883000,
+    "addTotalDebt": 545457000,
+    "enterpriseValue": 828685980
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2010-12-31",
+    "stockPrice": 11.26,
+    "numberOfShares": 34821000,
+    "marketCapitalization": 392084460,
+    "minusCashAndCashEquivalents": 233205000,
+    "addTotalDebt": 668968000,
+    "enterpriseValue": 827847460
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2010-09-30",
+    "stockPrice": 12.17,
+    "numberOfShares": 31369000,
+    "marketCapitalization": 381760730,
+    "minusCashAndCashEquivalents": 165186000,
+    "addTotalDebt": 469960000,
+    "enterpriseValue": 686534730
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2010-06-30",
+    "stockPrice": 10.22,
+    "numberOfShares": 31359000,
+    "marketCapitalization": 320488980,
+    "minusCashAndCashEquivalents": 172996000,
+    "addTotalDebt": 454629000,
+    "enterpriseValue": 602121980
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2010-03-31",
+    "stockPrice": 14.27,
+    "numberOfShares": 26526000,
+    "marketCapitalization": 378526020,
+    "minusCashAndCashEquivalents": 182100000,
+    "addTotalDebt": 375391000,
+    "enterpriseValue": 571817020
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2009-12-31",
+    "stockPrice": 14.87,
+    "numberOfShares": 24817000,
+    "marketCapitalization": 369028790,
+    "minusCashAndCashEquivalents": 89779000,
+    "addTotalDebt": 456963000,
+    "enterpriseValue": 736212790
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2009-09-30",
+    "stockPrice": 7.1,
+    "numberOfShares": 24955000,
+    "marketCapitalization": 177180500,
+    "minusCashAndCashEquivalents": 69101000,
+    "addTotalDebt": 400097000,
+    "enterpriseValue": 508176500
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2009-06-30",
+    "stockPrice": 6.55,
+    "numberOfShares": 24941000,
+    "marketCapitalization": 163363550,
+    "minusCashAndCashEquivalents": 55322000,
+    "addTotalDebt": 330673000,
+    "enterpriseValue": 438714550
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2009-03-30",
+    "stockPrice": 3.05,
+    "numberOfShares": 24865000,
+    "marketCapitalization": 75838250,
+    "minusCashAndCashEquivalents": 53541000,
+    "addTotalDebt": 337206000,
+    "enterpriseValue": 359503250
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2008-12-31",
+    "stockPrice": 1.84,
+    "numberOfShares": 12366000,
+    "marketCapitalization": 22753440,
+    "minusCashAndCashEquivalents": 62300000,
+    "addTotalDebt": 326400000,
+    "enterpriseValue": 286853440
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2008-08-31",
+    "stockPrice": 6.49,
+    "numberOfShares": 7498000,
+    "marketCapitalization": 48662020,
+    "minusCashAndCashEquivalents": 3693000,
+    "addTotalDebt": 140712000,
+    "enterpriseValue": 185681020
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2008-05-31",
+    "stockPrice": 9.01,
+    "numberOfShares": 7498000,
+    "marketCapitalization": 67556980,
+    "minusCashAndCashEquivalents": 7337000,
+    "addTotalDebt": 143307000,
+    "enterpriseValue": 203526980
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2008-02-29",
+    "stockPrice": 8.9,
+    "numberOfShares": 7498000,
+    "marketCapitalization": 66732200,
+    "minusCashAndCashEquivalents": 12088000,
+    "addTotalDebt": 77893000,
+    "enterpriseValue": 132537200
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2007-11-30",
+    "stockPrice": 10,
+    "numberOfShares": 7245000,
+    "marketCapitalization": 72450000,
+    "minusCashAndCashEquivalents": 11913868,
+    "addTotalDebt": 73074041,
+    "enterpriseValue": 133610173
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2007-08-31",
+    "stockPrice": 17.4,
+    "numberOfShares": 6029000,
+    "marketCapitalization": 104904599,
+    "minusCashAndCashEquivalents": 16636240,
+    "addTotalDebt": 46984596,
+    "enterpriseValue": 135252955
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2007-05-31",
+    "stockPrice": 19.64,
+    "numberOfShares": 6003000,
+    "marketCapitalization": 117898920,
+    "minusCashAndCashEquivalents": 19300481,
+    "addTotalDebt": 23083237,
+    "enterpriseValue": 121681676
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2007-02-28",
+    "stockPrice": 20.78,
+    "numberOfShares": 6003000,
+    "marketCapitalization": 124742340,
+    "minusCashAndCashEquivalents": 32381047,
+    "addTotalDebt": 10837196,
+    "enterpriseValue": 103198489
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2006-11-30",
+    "stockPrice": 27.71,
+    "numberOfShares": 5999000,
+    "marketCapitalization": 166232290,
+    "minusCashAndCashEquivalents": 43088464,
+    "addTotalDebt": 390000,
+    "enterpriseValue": 123533826
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2006-08-31",
+    "stockPrice": 27.85,
+    "numberOfShares": 4941000,
+    "marketCapitalization": 137606850,
+    "minusCashAndCashEquivalents": 54442948,
+    "addTotalDebt": 400000,
+    "enterpriseValue": 83563902
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2006-05-31",
+    "stockPrice": 35,
+    "numberOfShares": 4341000,
+    "marketCapitalization": 151935000,
+    "minusCashAndCashEquivalents": 25596781,
+    "addTotalDebt": 400000,
+    "enterpriseValue": 126738219
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2006-02-28",
+    "stockPrice": 33.5,
+    "numberOfShares": 4225712,
+    "marketCapitalization": 141561352,
+    "minusCashAndCashEquivalents": 5794936,
+    "addTotalDebt": 0,
+    "enterpriseValue": 135766416
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2005-11-30",
+    "stockPrice": 33.5,
+    "numberOfShares": 4226000,
+    "marketCapitalization": 141571000,
+    "minusCashAndCashEquivalents": 5794936,
+    "addTotalDebt": 0,
+    "enterpriseValue": 135776064
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2005-08-31",
+    "stockPrice": 33.5,
+    "numberOfShares": 28513000,
+    "marketCapitalization": 955185500,
+    "minusCashAndCashEquivalents": 93498,
+    "addTotalDebt": 0,
+    "enterpriseValue": 955092002
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2005-05-31",
+    "stockPrice": 33.5,
+    "numberOfShares": 28513000,
+    "marketCapitalization": 955185500,
+    "minusCashAndCashEquivalents": 289262,
+    "addTotalDebt": 0,
+    "enterpriseValue": 954896238
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2005-02-28",
+    "stockPrice": 33.5,
+    "numberOfShares": 28513000,
+    "marketCapitalization": 955185500,
+    "minusCashAndCashEquivalents": 528324,
+    "addTotalDebt": 0,
+    "enterpriseValue": 954657176
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2001-12-31",
+    "stockPrice": 33.5,
+    "numberOfShares": 52800000,
+    "marketCapitalization": 1768800000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1768800000
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2001-09-30",
+    "stockPrice": 33.5,
+    "numberOfShares": 50482000,
+    "marketCapitalization": 1691147000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1691147000
+  },
+  {
+    "symbol": "GPRE",
+    "date": "2001-03-31",
+    "stockPrice": 33.5,
+    "numberOfShares": 52887000,
+    "marketCapitalization": 1771714500,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1771714500
+  }
+]

@@ -1,0 +1,848 @@
+[
+  {
+    "symbol": "LYG",
+    "date": "2026-07-30",
+    "epsActual": null,
+    "epsEstimated": 0.13,
+    "revenueActual": null,
+    "revenueEstimated": 6999875000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2026-04-29",
+    "epsActual": 0.13,
+    "epsEstimated": 0.11,
+    "revenueActual": 6460468000,
+    "revenueEstimated": 6602970000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2026-01-29",
+    "epsActual": 0.12,
+    "epsEstimated": 0.11,
+    "revenueActual": 6529879000,
+    "revenueEstimated": 6524525000,
+    "lastUpdated": "2026-04-29"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2025-10-23",
+    "epsActual": 0.05,
+    "epsEstimated": 0.12,
+    "revenueActual": -5823410560,
+    "revenueEstimated": 6811585751,
+    "lastUpdated": "2026-01-20"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2025-07-24",
+    "epsActual": 0.14,
+    "epsEstimated": 0.1,
+    "revenueActual": 18921367200,
+    "revenueEstimated": 6743057556,
+    "lastUpdated": "2025-10-24"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2025-05-01",
+    "epsActual": 0.11,
+    "epsEstimated": 0.08,
+    "revenueActual": 5661341950,
+    "revenueEstimated": 6393541027,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2025-02-20",
+    "epsActual": 0.05,
+    "epsEstimated": 0.08,
+    "revenueActual": 30198524810,
+    "revenueEstimated": 6083298300,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2024-10-23",
+    "epsActual": 0.1,
+    "epsEstimated": 0.08818,
+    "revenueActual": 6030622720,
+    "revenueEstimated": 5671508258,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2024-07-25",
+    "epsActual": 0.09,
+    "epsEstimated": 0.06685,
+    "revenueActual": 5681727300,
+    "revenueEstimated": 5488097964,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2024-04-24",
+    "epsActual": 0.09,
+    "epsEstimated": 0.08033,
+    "revenueActual": 5506123700,
+    "revenueEstimated": 5305197302,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2024-02-22",
+    "epsActual": 0.11,
+    "epsEstimated": 0.08706,
+    "revenueActual": 6767463648,
+    "revenueEstimated": 5591871851,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2023-10-25",
+    "epsActual": 0.1,
+    "epsEstimated": 0.08977,
+    "revenueActual": 5237394976,
+    "revenueEstimated": 5508046867,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2023-07-26",
+    "epsActual": 0.08,
+    "epsEstimated": 0.09,
+    "revenueActual": 5164073350,
+    "revenueEstimated": 5942287897,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2023-05-03",
+    "epsActual": 0.11,
+    "epsEstimated": 0.1032,
+    "revenueActual": 5943014944,
+    "revenueEstimated": 5985590971,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2023-02-22",
+    "epsActual": 0.1,
+    "epsEstimated": 0.07,
+    "revenueActual": 5119076550,
+    "revenueEstimated": 5851502705,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2022-10-27",
+    "epsActual": 0.08,
+    "epsEstimated": 0.08,
+    "revenueActual": 4766223292,
+    "revenueEstimated": 5064355246,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2022-07-27",
+    "epsActual": 0.11,
+    "epsEstimated": 0.07,
+    "revenueActual": 5570438722,
+    "revenueEstimated": 5073792994,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2022-04-27",
+    "epsActual": 0.08,
+    "epsEstimated": 0.08,
+    "revenueActual": 5142659435,
+    "revenueEstimated": 5271176430,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2022-02-24",
+    "epsActual": 0.02,
+    "epsEstimated": 0.06,
+    "revenueActual": 5452340298,
+    "revenueEstimated": 5389224293,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2021-10-28",
+    "epsActual": 0.15,
+    "epsEstimated": null,
+    "revenueActual": 5843483653,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2021-07-28",
+    "epsActual": 0.14,
+    "epsEstimated": null,
+    "revenueActual": 8816925480,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2021-04-28",
+    "epsActual": 0.1,
+    "epsEstimated": null,
+    "revenueActual": 5348082631,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2021-02-26",
+    "epsActual": 0.04968,
+    "epsEstimated": null,
+    "revenueActual": 10370519316,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2020-09-30",
+    "epsActual": 0.05308,
+    "epsEstimated": null,
+    "revenueActual": 4691541224,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2020-07-30",
+    "epsActual": -0.12,
+    "epsEstimated": -0.04,
+    "revenueActual": -15935916340,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2020-04-30",
+    "epsActual": 0.04,
+    "epsEstimated": null,
+    "revenueActual": 26774779056,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2020-02-25",
+    "epsActual": 0.07432,
+    "epsEstimated": null,
+    "revenueActual": 5615436873,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2019-09-30",
+    "epsActual": -0.01675,
+    "epsEstimated": null,
+    "revenueActual": 5017085507,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2019-07-31",
+    "epsActual": 0.12,
+    "epsEstimated": null,
+    "revenueActual": 5883385302,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2019-05-02",
+    "epsActual": 0.14,
+    "epsEstimated": null,
+    "revenueActual": 5883638378,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2019-02-20",
+    "epsActual": 0.1,
+    "epsEstimated": null,
+    "revenueActual": 7157994257,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2018-10-25",
+    "epsActual": 0.13,
+    "epsEstimated": null,
+    "revenueActual": 6113637624,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2018-07-31",
+    "epsActual": 0.16,
+    "epsEstimated": null,
+    "revenueActual": 6158917818,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2018-04-25",
+    "epsActual": 0.09,
+    "epsEstimated": null,
+    "revenueActual": 6333390290,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2018-02-20",
+    "epsActual": 0.14,
+    "epsEstimated": null,
+    "revenueActual": 5896345416,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2017-10-25",
+    "epsActual": 0.14,
+    "epsEstimated": null,
+    "revenueActual": 6221103174,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2017-07-27",
+    "epsActual": 0.2,
+    "epsEstimated": null,
+    "revenueActual": 6348092131,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2017-04-27",
+    "epsActual": 0.12,
+    "epsEstimated": null,
+    "revenueActual": 5477510555,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2017-02-22",
+    "epsActual": 0.08,
+    "epsEstimated": null,
+    "revenueActual": 5267625679,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2016-10-26",
+    "epsActual": 0.09,
+    "epsEstimated": null,
+    "revenueActual": 5712811728,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2016-07-28",
+    "epsActual": 0.12,
+    "epsEstimated": null,
+    "revenueActual": 7673348160,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2016-04-28",
+    "epsActual": 0.04,
+    "epsEstimated": null,
+    "revenueActual": 7427435616,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2016-02-25",
+    "epsActual": -0.11,
+    "epsEstimated": null,
+    "revenueActual": 7027139312,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-10-28",
+    "epsActual": 0.14,
+    "epsEstimated": null,
+    "revenueActual": 5845328596,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-07-31",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 8576925050,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-05-01",
+    "epsActual": 0.1,
+    "epsEstimated": null,
+    "revenueActual": 6745138233,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-02-27",
+    "epsActual": 0.14,
+    "epsEstimated": null,
+    "revenueActual": 6170233509,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-10-28",
+    "epsActual": 0.05,
+    "epsEstimated": null,
+    "revenueActual": 6692882145,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-08-01",
+    "epsActual": -0.05,
+    "epsEstimated": null,
+    "revenueActual": 10053521492,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-05-01",
+    "epsActual": 0.13,
+    "epsEstimated": null,
+    "revenueActual": 11345785381,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-02-13",
+    "epsActual": -0.08,
+    "epsEstimated": null,
+    "revenueActual": 6586522526,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-10-29",
+    "epsActual": -0.12,
+    "epsEstimated": null,
+    "revenueActual": 11829449643,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-08-02",
+    "epsActual": 0.00309,
+    "epsEstimated": null,
+    "revenueActual": -7836771776,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-04-30",
+    "epsActual": 0.16,
+    "epsEstimated": null,
+    "revenueActual": 16437865337,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-03-01",
+    "epsActual": -0.03,
+    "epsEstimated": null,
+    "revenueActual": 8719367242,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2012-09-30",
+    "epsActual": -0.03515,
+    "epsEstimated": null,
+    "revenueActual": 13300802867,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2012-07-26",
+    "epsActual": -0.06095,
+    "epsEstimated": null,
+    "revenueActual": 12412532542,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2012-05-01",
+    "epsActual": -0.00046,
+    "epsEstimated": null,
+    "revenueActual": 15432760918,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2011-11-21",
+    "epsActual": 0.1663,
+    "epsEstimated": null,
+    "revenueActual": 1543583416,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2011-08-04",
+    "epsActual": -0.20766,
+    "epsEstimated": null,
+    "revenueActual": 19670638965,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2011-05-13",
+    "epsActual": -0.37974,
+    "epsEstimated": null,
+    "revenueActual": -2607328188,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2011-03-31",
+    "epsActual": -0.00989,
+    "epsEstimated": null,
+    "revenueActual": 14368449541,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2010-09-30",
+    "epsActual": 0.08595,
+    "epsEstimated": null,
+    "revenueActual": 30688079056,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2010-08-04",
+    "epsActual": 0.03859,
+    "epsEstimated": null,
+    "revenueActual": 10186698815,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2010-03-31",
+    "epsActual": 0.01536,
+    "epsEstimated": null,
+    "revenueActual": 25344250078,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2008-07-30",
+    "epsActual": 0.03278,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2008-06-05",
+    "epsActual": 0.102,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2008-03-31",
+    "epsActual": 0.03494,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2007-09-30",
+    "epsActual": 0.1063,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2007-07-31",
+    "epsActual": 0.09113,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2007-06-08",
+    "epsActual": 0.09308,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2007-03-31",
+    "epsActual": 0.09158,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2006-09-30",
+    "epsActual": 0.08937,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2006-08-02",
+    "epsActual": 0.06544,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2006-06-06",
+    "epsActual": 0.06707,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2006-03-31",
+    "epsActual": 0.06419,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2005-09-30",
+    "epsActual": 0.06849,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2005-07-29",
+    "epsActual": 0.0636,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2005-06-29",
+    "epsActual": 0.06947,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2005-05-27",
+    "epsActual": 0.06698,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2004-09-30",
+    "epsActual": 0.06512,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2004-07-30",
+    "epsActual": 0.05339,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2004-04-05",
+    "epsActual": 0.08623,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2004-03-31",
+    "epsActual": 0.06626,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2003-09-30",
+    "epsActual": 0.08103,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2003-03-31",
+    "epsActual": 0.07606,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2003-02-14",
+    "epsActual": 0.03947,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2002-09-30",
+    "epsActual": 0.04168,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2002-06-30",
+    "epsActual": 0.06097,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2002-05-08",
+    "epsActual": 0.06281,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2002-03-31",
+    "epsActual": 0.03795,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2001-09-30",
+    "epsActual": 0.05302,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2001-06-30",
+    "epsActual": 0.04279,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2001-03-31",
+    "epsActual": 0.05331,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  }
+]

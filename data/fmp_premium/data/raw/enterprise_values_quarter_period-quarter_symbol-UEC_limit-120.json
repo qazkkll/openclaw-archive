@@ -1,0 +1,842 @@
+[
+  {
+    "symbol": "UEC",
+    "date": "2026-01-31",
+    "stockPrice": 17.24,
+    "numberOfShares": 484086707,
+    "marketCapitalization": 8345654828,
+    "minusCashAndCashEquivalents": 486347000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7859307828
+  },
+  {
+    "symbol": "UEC",
+    "date": "2025-10-31",
+    "stockPrice": 15.13,
+    "numberOfShares": 467942060,
+    "marketCapitalization": 7079963367,
+    "minusCashAndCashEquivalents": 454718000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6625245367
+  },
+  {
+    "symbol": "UEC",
+    "date": "2025-07-31",
+    "stockPrice": 8.67,
+    "numberOfShares": 445711272,
+    "marketCapitalization": 3864316728,
+    "minusCashAndCashEquivalents": 148930000,
+    "addTotalDebt": 2303999,
+    "enterpriseValue": 3717690727
+  },
+  {
+    "symbol": "UEC",
+    "date": "2025-04-30",
+    "stockPrice": 5.25,
+    "numberOfShares": 429941797,
+    "marketCapitalization": 2257194434,
+    "minusCashAndCashEquivalents": 71397000,
+    "addTotalDebt": 2441999,
+    "enterpriseValue": 2188239433
+  },
+  {
+    "symbol": "UEC",
+    "date": "2025-01-31",
+    "stockPrice": 7.06,
+    "numberOfShares": 423199789,
+    "marketCapitalization": 2987790510,
+    "minusCashAndCashEquivalents": 61513000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2926277510
+  },
+  {
+    "symbol": "UEC",
+    "date": "2024-10-31",
+    "stockPrice": 7.42,
+    "numberOfShares": 412138998,
+    "marketCapitalization": 3058071365,
+    "minusCashAndCashEquivalents": 190596000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2867475365
+  },
+  {
+    "symbol": "UEC",
+    "date": "2024-07-31",
+    "stockPrice": 5.93,
+    "numberOfShares": 397309780,
+    "marketCapitalization": 2356046995,
+    "minusCashAndCashEquivalents": 87533000,
+    "addTotalDebt": 2600000,
+    "enterpriseValue": 2271113995
+  },
+  {
+    "symbol": "UEC",
+    "date": "2024-04-30",
+    "stockPrice": 6.75,
+    "numberOfShares": 404104490,
+    "marketCapitalization": 2727705307,
+    "minusCashAndCashEquivalents": 87726000,
+    "addTotalDebt": 1521000,
+    "enterpriseValue": 2641500307
+  },
+  {
+    "symbol": "UEC",
+    "date": "2024-01-31",
+    "stockPrice": 7.64,
+    "numberOfShares": 394024127,
+    "marketCapitalization": 3010344330,
+    "minusCashAndCashEquivalents": 82287000,
+    "addTotalDebt": 1589000,
+    "enterpriseValue": 2929646330
+  },
+  {
+    "symbol": "UEC",
+    "date": "2023-10-31",
+    "stockPrice": 5.95,
+    "numberOfShares": 382380679,
+    "marketCapitalization": 2275165040,
+    "minusCashAndCashEquivalents": 50240000,
+    "addTotalDebt": 1509000,
+    "enterpriseValue": 2226434040
+  },
+  {
+    "symbol": "UEC",
+    "date": "2023-07-31",
+    "stockPrice": 3.6,
+    "numberOfShares": 378452864,
+    "marketCapitalization": 1362430310,
+    "minusCashAndCashEquivalents": 45614000,
+    "addTotalDebt": 1283000,
+    "enterpriseValue": 1318099310
+  },
+  {
+    "symbol": "UEC",
+    "date": "2023-04-30",
+    "stockPrice": 2.47,
+    "numberOfShares": 375759521,
+    "marketCapitalization": 928126016,
+    "minusCashAndCashEquivalents": 17463000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 910663016
+  },
+  {
+    "symbol": "UEC",
+    "date": "2023-01-31",
+    "stockPrice": 4.03,
+    "numberOfShares": 369608851,
+    "marketCapitalization": 1489523669,
+    "minusCashAndCashEquivalents": 32613000,
+    "addTotalDebt": 1005000,
+    "enterpriseValue": 1457915669
+  },
+  {
+    "symbol": "UEC",
+    "date": "2022-10-31",
+    "stockPrice": 4.21,
+    "numberOfShares": 336790726,
+    "marketCapitalization": 1417888956,
+    "minusCashAndCashEquivalents": 20965000,
+    "addTotalDebt": 1015000,
+    "enterpriseValue": 1397938956
+  },
+  {
+    "symbol": "UEC",
+    "date": "2022-07-31",
+    "stockPrice": 4.05,
+    "numberOfShares": 280102073,
+    "marketCapitalization": 1134413395,
+    "minusCashAndCashEquivalents": 32536000,
+    "addTotalDebt": 1184000,
+    "enterpriseValue": 1103061395
+  },
+  {
+    "symbol": "UEC",
+    "date": "2022-04-30",
+    "stockPrice": 4.25,
+    "numberOfShares": 281668948,
+    "marketCapitalization": 1197093029,
+    "minusCashAndCashEquivalents": 23754031,
+    "addTotalDebt": 1337984,
+    "enterpriseValue": 1174676982
+  },
+  {
+    "symbol": "UEC",
+    "date": "2022-01-31",
+    "stockPrice": 2.61,
+    "numberOfShares": 269120537,
+    "marketCapitalization": 702404601,
+    "minusCashAndCashEquivalents": 22663251,
+    "addTotalDebt": 1397336,
+    "enterpriseValue": 681138686
+  },
+  {
+    "symbol": "UEC",
+    "date": "2021-10-31",
+    "stockPrice": 3.89,
+    "numberOfShares": 246859322,
+    "marketCapitalization": 960282762,
+    "minusCashAndCashEquivalents": 96304124,
+    "addTotalDebt": 11094533,
+    "enterpriseValue": 875073171
+  },
+  {
+    "symbol": "UEC",
+    "date": "2021-07-31",
+    "stockPrice": 2.17,
+    "numberOfShares": 236796866,
+    "marketCapitalization": 513849199,
+    "minusCashAndCashEquivalents": 44312780,
+    "addTotalDebt": 10332693,
+    "enterpriseValue": 479869112
+  },
+  {
+    "symbol": "UEC",
+    "date": "2021-04-30",
+    "stockPrice": 2.9,
+    "numberOfShares": 218822085,
+    "marketCapitalization": 634584046,
+    "minusCashAndCashEquivalents": 43930316,
+    "addTotalDebt": 10657568,
+    "enterpriseValue": 601311298
+  },
+  {
+    "symbol": "UEC",
+    "date": "2021-01-31",
+    "stockPrice": 1.83,
+    "numberOfShares": 198673515,
+    "marketCapitalization": 363572532,
+    "minusCashAndCashEquivalents": 8713193,
+    "addTotalDebt": 17906240,
+    "enterpriseValue": 372765579
+  },
+  {
+    "symbol": "UEC",
+    "date": "2020-10-31",
+    "stockPrice": 0.8626,
+    "numberOfShares": 189955499,
+    "marketCapitalization": 163855613,
+    "minusCashAndCashEquivalents": 6700603,
+    "addTotalDebt": 21158497,
+    "enterpriseValue": 178313507
+  },
+  {
+    "symbol": "UEC",
+    "date": "2020-07-31",
+    "stockPrice": 0.9683,
+    "numberOfShares": 184254045,
+    "marketCapitalization": 178413191,
+    "minusCashAndCashEquivalents": 5147703,
+    "addTotalDebt": 20176569,
+    "enterpriseValue": 193442057
+  },
+  {
+    "symbol": "UEC",
+    "date": "2020-04-30",
+    "stockPrice": 1.1,
+    "numberOfShares": 183896944,
+    "marketCapitalization": 202286638,
+    "minusCashAndCashEquivalents": 7407189,
+    "addTotalDebt": 19472752,
+    "enterpriseValue": 214352201
+  },
+  {
+    "symbol": "UEC",
+    "date": "2020-01-31",
+    "stockPrice": 0.8299,
+    "numberOfShares": 182802747,
+    "marketCapitalization": 151707999,
+    "minusCashAndCashEquivalents": 10272315,
+    "addTotalDebt": 19044764,
+    "enterpriseValue": 160480448
+  },
+  {
+    "symbol": "UEC",
+    "date": "2019-10-31",
+    "stockPrice": 0.9471,
+    "numberOfShares": 181240702,
+    "marketCapitalization": 171653068,
+    "minusCashAndCashEquivalents": 13112069,
+    "addTotalDebt": 20032184,
+    "enterpriseValue": 178573183
+  },
+  {
+    "symbol": "UEC",
+    "date": "2019-07-31",
+    "stockPrice": 0.9904,
+    "numberOfShares": 180738734,
+    "marketCapitalization": 179003642,
+    "minusCashAndCashEquivalents": 6058186,
+    "addTotalDebt": 19649973,
+    "enterpriseValue": 192595429
+  },
+  {
+    "symbol": "UEC",
+    "date": "2019-04-30",
+    "stockPrice": 1.41,
+    "numberOfShares": 179348614,
+    "marketCapitalization": 252881545,
+    "minusCashAndCashEquivalents": 6093098,
+    "addTotalDebt": 19185645,
+    "enterpriseValue": 265974092
+  },
+  {
+    "symbol": "UEC",
+    "date": "2019-01-31",
+    "stockPrice": 1.3,
+    "numberOfShares": 177061313,
+    "marketCapitalization": 230179706,
+    "minusCashAndCashEquivalents": 3990524,
+    "addTotalDebt": 18801094,
+    "enterpriseValue": 244990276
+  },
+  {
+    "symbol": "UEC",
+    "date": "2018-10-31",
+    "stockPrice": 1.33,
+    "numberOfShares": 166397293,
+    "marketCapitalization": 221308399,
+    "minusCashAndCashEquivalents": 9545339,
+    "addTotalDebt": 19842745,
+    "enterpriseValue": 231605805
+  },
+  {
+    "symbol": "UEC",
+    "date": "2018-07-31",
+    "stockPrice": 1.65,
+    "numberOfShares": 160502120,
+    "marketCapitalization": 264828498,
+    "minusCashAndCashEquivalents": 6926523,
+    "addTotalDebt": 19534974,
+    "enterpriseValue": 277436949
+  },
+  {
+    "symbol": "UEC",
+    "date": "2018-04-30",
+    "stockPrice": 1.51,
+    "numberOfShares": 157704601,
+    "marketCapitalization": 238133947,
+    "minusCashAndCashEquivalents": 11223448,
+    "addTotalDebt": 19238168,
+    "enterpriseValue": 246148667
+  },
+  {
+    "symbol": "UEC",
+    "date": "2018-01-31",
+    "stockPrice": 1.57,
+    "numberOfShares": 156207557,
+    "marketCapitalization": 245245864,
+    "minusCashAndCashEquivalents": 3639646,
+    "addTotalDebt": 19860666,
+    "enterpriseValue": 261466884
+  },
+  {
+    "symbol": "UEC",
+    "date": "2017-10-31",
+    "stockPrice": 1.06,
+    "numberOfShares": 151861333,
+    "marketCapitalization": 160973012,
+    "minusCashAndCashEquivalents": 9952105,
+    "addTotalDebt": 19552257,
+    "enterpriseValue": 170573164
+  },
+  {
+    "symbol": "UEC",
+    "date": "2017-07-31",
+    "stockPrice": 1.6,
+    "numberOfShares": 154133517,
+    "marketCapitalization": 246613627,
+    "minusCashAndCashEquivalents": 12575973,
+    "addTotalDebt": 19254835,
+    "enterpriseValue": 253292489
+  },
+  {
+    "symbol": "UEC",
+    "date": "2017-04-30",
+    "stockPrice": 1.24,
+    "numberOfShares": 137452998,
+    "marketCapitalization": 170441717,
+    "minusCashAndCashEquivalents": 9332492,
+    "addTotalDebt": 18968008,
+    "enterpriseValue": 180077233
+  },
+  {
+    "symbol": "UEC",
+    "date": "2017-01-31",
+    "stockPrice": 1.61,
+    "numberOfShares": 119891769,
+    "marketCapitalization": 193025748,
+    "minusCashAndCashEquivalents": 27735411,
+    "addTotalDebt": 19799746,
+    "enterpriseValue": 185090083
+  },
+  {
+    "symbol": "UEC",
+    "date": "2016-10-31",
+    "stockPrice": 0.8979,
+    "numberOfShares": 117099921,
+    "marketCapitalization": 105144019,
+    "minusCashAndCashEquivalents": 4327801,
+    "addTotalDebt": 19493507,
+    "enterpriseValue": 120309725
+  },
+  {
+    "symbol": "UEC",
+    "date": "2016-07-31",
+    "stockPrice": 1.04,
+    "numberOfShares": 116580626,
+    "marketCapitalization": 121243851,
+    "minusCashAndCashEquivalents": 7142571,
+    "addTotalDebt": 19198178,
+    "enterpriseValue": 133299458
+  },
+  {
+    "symbol": "UEC",
+    "date": "2016-04-30",
+    "stockPrice": 0.8108,
+    "numberOfShares": 109710985,
+    "marketCapitalization": 88953666,
+    "minusCashAndCashEquivalents": 10086805,
+    "addTotalDebt": 18913370,
+    "enterpriseValue": 97780231
+  },
+  {
+    "symbol": "UEC",
+    "date": "2016-01-31",
+    "stockPrice": 0.98,
+    "numberOfShares": 96030100,
+    "marketCapitalization": 94109498,
+    "minusCashAndCashEquivalents": 2406123,
+    "addTotalDebt": 19540868,
+    "enterpriseValue": 111244243
+  },
+  {
+    "symbol": "UEC",
+    "date": "2015-10-31",
+    "stockPrice": 1.12,
+    "numberOfShares": 98566315,
+    "marketCapitalization": 110394272,
+    "minusCashAndCashEquivalents": 5353088,
+    "addTotalDebt": 19193146,
+    "enterpriseValue": 124234330
+  },
+  {
+    "symbol": "UEC",
+    "date": "2015-07-31",
+    "stockPrice": 1.34,
+    "numberOfShares": 94539484,
+    "marketCapitalization": 126682908,
+    "minusCashAndCashEquivalents": 10092408,
+    "addTotalDebt": 19757478,
+    "enterpriseValue": 136347978
+  },
+  {
+    "symbol": "UEC",
+    "date": "2015-04-30",
+    "stockPrice": 2.6,
+    "numberOfShares": 89130302,
+    "marketCapitalization": 231738785,
+    "minusCashAndCashEquivalents": 1423447,
+    "addTotalDebt": 19636948,
+    "enterpriseValue": 249952286
+  },
+  {
+    "symbol": "UEC",
+    "date": "2015-01-31",
+    "stockPrice": 1.27,
+    "numberOfShares": 91746410,
+    "marketCapitalization": 116517940,
+    "minusCashAndCashEquivalents": 4362544,
+    "addTotalDebt": 19321639,
+    "enterpriseValue": 131477035
+  },
+  {
+    "symbol": "UEC",
+    "date": "2014-10-31",
+    "stockPrice": 1.15,
+    "numberOfShares": 91280843,
+    "marketCapitalization": 104972969,
+    "minusCashAndCashEquivalents": 4413221,
+    "addTotalDebt": 19007595,
+    "enterpriseValue": 119567343
+  },
+  {
+    "symbol": "UEC",
+    "date": "2014-07-31",
+    "stockPrice": 1.77,
+    "numberOfShares": 90546328,
+    "marketCapitalization": 160267000,
+    "minusCashAndCashEquivalents": 8839892,
+    "addTotalDebt": 18705137,
+    "enterpriseValue": 170132245
+  },
+  {
+    "symbol": "UEC",
+    "date": "2014-04-30",
+    "stockPrice": 1.07,
+    "numberOfShares": 89924411,
+    "marketCapitalization": 96219119,
+    "minusCashAndCashEquivalents": 13306310,
+    "addTotalDebt": 18413837,
+    "enterpriseValue": 101326646
+  },
+  {
+    "symbol": "UEC",
+    "date": "2014-01-31",
+    "stockPrice": 1.73,
+    "numberOfShares": 89701157,
+    "marketCapitalization": 155183001,
+    "minusCashAndCashEquivalents": 9033946,
+    "addTotalDebt": 7853874,
+    "enterpriseValue": 154002929
+  },
+  {
+    "symbol": "UEC",
+    "date": "2013-10-31",
+    "stockPrice": 1.76,
+    "numberOfShares": 84000257,
+    "marketCapitalization": 147840452,
+    "minusCashAndCashEquivalents": 14698564,
+    "addTotalDebt": 7388226,
+    "enterpriseValue": 140530114
+  },
+  {
+    "symbol": "UEC",
+    "date": "2013-07-31",
+    "stockPrice": 2.31,
+    "numberOfShares": 85565035,
+    "marketCapitalization": 197655230,
+    "minusCashAndCashEquivalents": 14171807,
+    "addTotalDebt": 6957219,
+    "enterpriseValue": 190440642
+  },
+  {
+    "symbol": "UEC",
+    "date": "2013-04-30",
+    "stockPrice": 1.55,
+    "numberOfShares": 85496171,
+    "marketCapitalization": 132519065,
+    "minusCashAndCashEquivalents": 8980541,
+    "addTotalDebt": 25292,
+    "enterpriseValue": 123563816
+  },
+  {
+    "symbol": "UEC",
+    "date": "2013-01-31",
+    "stockPrice": 2.25,
+    "numberOfShares": 85293298,
+    "marketCapitalization": 191909920,
+    "minusCashAndCashEquivalents": 12313815,
+    "addTotalDebt": 0,
+    "enterpriseValue": 179596105
+  },
+  {
+    "symbol": "UEC",
+    "date": "2012-10-31",
+    "stockPrice": 2.36,
+    "numberOfShares": 81085600,
+    "marketCapitalization": 191362016,
+    "minusCashAndCashEquivalents": 17187118,
+    "addTotalDebt": 0,
+    "enterpriseValue": 174174898
+  },
+  {
+    "symbol": "UEC",
+    "date": "2012-07-31",
+    "stockPrice": 2,
+    "numberOfShares": 84896629,
+    "marketCapitalization": 169793258,
+    "minusCashAndCashEquivalents": 25015284,
+    "addTotalDebt": 0,
+    "enterpriseValue": 144777974
+  },
+  {
+    "symbol": "UEC",
+    "date": "2012-04-30",
+    "stockPrice": 2.95,
+    "numberOfShares": 78443518,
+    "marketCapitalization": 231408378,
+    "minusCashAndCashEquivalents": 26200599,
+    "addTotalDebt": 0,
+    "enterpriseValue": 205207779
+  },
+  {
+    "symbol": "UEC",
+    "date": "2012-01-31",
+    "stockPrice": 3.6,
+    "numberOfShares": 75515864,
+    "marketCapitalization": 271857110,
+    "minusCashAndCashEquivalents": 16852335,
+    "addTotalDebt": 178066,
+    "enterpriseValue": 255182841
+  },
+  {
+    "symbol": "UEC",
+    "date": "2011-10-31",
+    "stockPrice": 3.36,
+    "numberOfShares": 74496759,
+    "marketCapitalization": 250309110,
+    "minusCashAndCashEquivalents": 23705312,
+    "addTotalDebt": 1012247,
+    "enterpriseValue": 227616045
+  },
+  {
+    "symbol": "UEC",
+    "date": "2011-07-31",
+    "stockPrice": 3.43,
+    "numberOfShares": 72902830,
+    "marketCapitalization": 250056706,
+    "minusCashAndCashEquivalents": 30724051,
+    "addTotalDebt": 0,
+    "enterpriseValue": 219332655
+  },
+  {
+    "symbol": "UEC",
+    "date": "2011-04-30",
+    "stockPrice": 3.48,
+    "numberOfShares": 71339133,
+    "marketCapitalization": 248260182,
+    "minusCashAndCashEquivalents": 33240258,
+    "addTotalDebt": 0,
+    "enterpriseValue": 215019924
+  },
+  {
+    "symbol": "UEC",
+    "date": "2011-01-31",
+    "stockPrice": 5.23,
+    "numberOfShares": 69808230,
+    "marketCapitalization": 365097042,
+    "minusCashAndCashEquivalents": 33679805,
+    "addTotalDebt": 900723,
+    "enterpriseValue": 332317960
+  },
+  {
+    "symbol": "UEC",
+    "date": "2010-10-31",
+    "stockPrice": 3.78,
+    "numberOfShares": 61274517,
+    "marketCapitalization": 231617674,
+    "minusCashAndCashEquivalents": 38686277,
+    "addTotalDebt": 0,
+    "enterpriseValue": 192931397
+  },
+  {
+    "symbol": "UEC",
+    "date": "2010-07-31",
+    "stockPrice": 2.77,
+    "numberOfShares": 60758309,
+    "marketCapitalization": 168300515,
+    "minusCashAndCashEquivalents": 21067662,
+    "addTotalDebt": 0,
+    "enterpriseValue": 147232853
+  },
+  {
+    "symbol": "UEC",
+    "date": "2010-04-30",
+    "stockPrice": 2.86,
+    "numberOfShares": 60400517,
+    "marketCapitalization": 172745478,
+    "minusCashAndCashEquivalents": 25869948,
+    "addTotalDebt": 0,
+    "enterpriseValue": 146875530
+  },
+  {
+    "symbol": "UEC",
+    "date": "2010-01-31",
+    "stockPrice": 3.4,
+    "numberOfShares": 58412690,
+    "marketCapitalization": 198603146,
+    "minusCashAndCashEquivalents": 18045435,
+    "addTotalDebt": 0,
+    "enterpriseValue": 180557711
+  },
+  {
+    "symbol": "UEC",
+    "date": "2009-10-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 56561182,
+    "marketCapitalization": 152715191,
+    "minusCashAndCashEquivalents": 21937209,
+    "addTotalDebt": 0,
+    "enterpriseValue": 130777982
+  },
+  {
+    "symbol": "UEC",
+    "date": "2009-07-31",
+    "stockPrice": 2.68,
+    "numberOfShares": 56561182,
+    "marketCapitalization": 151583967,
+    "minusCashAndCashEquivalents": 24265643,
+    "addTotalDebt": 0,
+    "enterpriseValue": 127318324
+  },
+  {
+    "symbol": "UEC",
+    "date": "2009-04-30",
+    "stockPrice": 1.32,
+    "numberOfShares": 46453940,
+    "marketCapitalization": 61319200,
+    "minusCashAndCashEquivalents": 5693840,
+    "addTotalDebt": 0,
+    "enterpriseValue": 55625360
+  },
+  {
+    "symbol": "UEC",
+    "date": "2009-01-31",
+    "stockPrice": 0.46,
+    "numberOfShares": 46398228,
+    "marketCapitalization": 21343184,
+    "minusCashAndCashEquivalents": 7482400,
+    "addTotalDebt": 0,
+    "enterpriseValue": 13860784
+  },
+  {
+    "symbol": "UEC",
+    "date": "2008-10-31",
+    "stockPrice": 0.4598,
+    "numberOfShares": 46346505,
+    "marketCapitalization": 21310122,
+    "minusCashAndCashEquivalents": 9631958,
+    "addTotalDebt": 0,
+    "enterpriseValue": 11678164
+  },
+  {
+    "symbol": "UEC",
+    "date": "2008-07-31",
+    "stockPrice": 2.18,
+    "numberOfShares": 46346505,
+    "marketCapitalization": 101035380,
+    "minusCashAndCashEquivalents": 13137318,
+    "addTotalDebt": 0,
+    "enterpriseValue": 87898062
+  },
+  {
+    "symbol": "UEC",
+    "date": "2008-04-30",
+    "stockPrice": 2.42,
+    "numberOfShares": 39780823,
+    "marketCapitalization": 96269591,
+    "minusCashAndCashEquivalents": 2654677,
+    "addTotalDebt": 0,
+    "enterpriseValue": 93614914
+  },
+  {
+    "symbol": "UEC",
+    "date": "2008-01-31",
+    "stockPrice": 3.03,
+    "numberOfShares": 38751900,
+    "marketCapitalization": 117418256,
+    "minusCashAndCashEquivalents": 6788969,
+    "addTotalDebt": 0,
+    "enterpriseValue": 110629287
+  },
+  {
+    "symbol": "UEC",
+    "date": "2007-10-31",
+    "stockPrice": 3.93,
+    "numberOfShares": 37618731,
+    "marketCapitalization": 147841612,
+    "minusCashAndCashEquivalents": 4425146,
+    "addTotalDebt": 0,
+    "enterpriseValue": 143416466
+  },
+  {
+    "symbol": "UEC",
+    "date": "2007-07-31",
+    "stockPrice": 3.45,
+    "numberOfShares": 37214497,
+    "marketCapitalization": 128390014,
+    "minusCashAndCashEquivalents": 9083453,
+    "addTotalDebt": 0,
+    "enterpriseValue": 119306561
+  },
+  {
+    "symbol": "UEC",
+    "date": "2007-03-31",
+    "stockPrice": 6.97,
+    "numberOfShares": 28586264,
+    "marketCapitalization": 199246260,
+    "minusCashAndCashEquivalents": 13933754,
+    "addTotalDebt": 0,
+    "enterpriseValue": 185312506
+  },
+  {
+    "symbol": "UEC",
+    "date": "2006-12-31",
+    "stockPrice": 6.97,
+    "numberOfShares": 35133947,
+    "marketCapitalization": 244883610,
+    "minusCashAndCashEquivalents": 13581377,
+    "addTotalDebt": 0,
+    "enterpriseValue": 231302233
+  },
+  {
+    "symbol": "UEC",
+    "date": "2006-09-30",
+    "stockPrice": 6.97,
+    "numberOfShares": 23874921,
+    "marketCapitalization": 166408199,
+    "minusCashAndCashEquivalents": 2403744,
+    "addTotalDebt": 0,
+    "enterpriseValue": 164004455
+  },
+  {
+    "symbol": "UEC",
+    "date": "2006-06-30",
+    "stockPrice": 6.97,
+    "numberOfShares": 25866734,
+    "marketCapitalization": 180291135,
+    "minusCashAndCashEquivalents": 4037681,
+    "addTotalDebt": 0,
+    "enterpriseValue": 176253454
+  },
+  {
+    "symbol": "UEC",
+    "date": "2006-03-31",
+    "stockPrice": 6.97,
+    "numberOfShares": 21854791,
+    "marketCapitalization": 152327893,
+    "minusCashAndCashEquivalents": 102865,
+    "addTotalDebt": 0,
+    "enterpriseValue": 152225028
+  },
+  {
+    "symbol": "UEC",
+    "date": "2005-12-31",
+    "stockPrice": 6.97,
+    "numberOfShares": 21854791,
+    "marketCapitalization": 152327893,
+    "minusCashAndCashEquivalents": 107160,
+    "addTotalDebt": 0,
+    "enterpriseValue": 152220733
+  },
+  {
+    "symbol": "UEC",
+    "date": "2005-09-30",
+    "stockPrice": 6.97,
+    "numberOfShares": 17153583,
+    "marketCapitalization": 119560473,
+    "minusCashAndCashEquivalents": 284484,
+    "addTotalDebt": 0,
+    "enterpriseValue": 119275989
+  },
+  {
+    "symbol": "UEC",
+    "date": "2005-06-30",
+    "stockPrice": 6.97,
+    "numberOfShares": 13907300,
+    "marketCapitalization": 96933881,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 96933881
+  },
+  {
+    "symbol": "UEC",
+    "date": "2005-03-31",
+    "stockPrice": 6.97,
+    "numberOfShares": 13907300,
+    "marketCapitalization": 96933881,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 96933881
+  }
+]

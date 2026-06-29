@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "CCI",
+    "fiscalYear": 2014,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2014-12-31",
+    "data": {
+      "Australia": 151128000,
+      "Other Countries": 2960000,
+      "United States": 3535796000
+    }
+  },
+  {
+    "symbol": "CCI",
+    "fiscalYear": 2013,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2013-12-31",
+    "data": {
+      "Australia": 156633000,
+      "Other Countries": 3354000,
+      "United States": 2862397000
+    }
+  },
+  {
+    "symbol": "CCI",
+    "fiscalYear": 2012,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2012-12-31",
+    "data": {
+      "Australia": 146344000,
+      "Other Countries": 3248000,
+      "United States": 2283088000
+    }
+  },
+  {
+    "symbol": "CCI",
+    "fiscalYear": 2011,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2011-12-31",
+    "data": {
+      "Australia": 126214000,
+      "Other Countries": 3979000,
+      "United States": 1902536000
+    }
+  }
+]

@@ -1,0 +1,830 @@
+[
+  {
+    "symbol": "TXRH",
+    "date": "2026-08-06",
+    "epsActual": null,
+    "epsEstimated": 1.84,
+    "revenueActual": null,
+    "revenueEstimated": 1672984000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2026-05-07",
+    "epsActual": 1.87,
+    "epsEstimated": 1.8,
+    "revenueActual": 1633166000,
+    "revenueEstimated": 1635437000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2026-02-19",
+    "epsActual": 1.28,
+    "epsEstimated": 1.53,
+    "revenueActual": 1482031000,
+    "revenueEstimated": 1495104000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2025-11-06",
+    "epsActual": 1.25,
+    "epsEstimated": 1.28,
+    "revenueActual": 1436342000,
+    "revenueEstimated": 1429264280,
+    "lastUpdated": "2026-02-06"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2025-08-07",
+    "epsActual": 1.86,
+    "epsEstimated": 1.9,
+    "revenueActual": 1512054000,
+    "revenueEstimated": 1502468953,
+    "lastUpdated": "2025-11-07"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2025-05-08",
+    "epsActual": 1.7,
+    "epsEstimated": 1.76,
+    "revenueActual": 1447648000,
+    "revenueEstimated": 1439861605,
+    "lastUpdated": "2025-08-08"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2025-02-20",
+    "epsActual": 1.73,
+    "epsEstimated": 1.64,
+    "revenueActual": 1437914000,
+    "revenueEstimated": 1411074905,
+    "lastUpdated": "2025-05-20"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2024-10-24",
+    "epsActual": 1.26,
+    "epsEstimated": 1.32,
+    "revenueActual": 1272999000,
+    "revenueEstimated": 1411370000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2024-07-25",
+    "epsActual": 1.79,
+    "epsEstimated": 1.64,
+    "revenueActual": 1341202000,
+    "revenueEstimated": 1338928546,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2024-05-02",
+    "epsActual": 1.69,
+    "epsEstimated": 1.63,
+    "revenueActual": 1321217000,
+    "revenueEstimated": 1323039591,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2024-02-15",
+    "epsActual": 1.08,
+    "epsEstimated": 1.06,
+    "revenueActual": 1164361000,
+    "revenueEstimated": 1161230000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2023-10-26",
+    "epsActual": 0.95,
+    "epsEstimated": 1.06,
+    "revenueActual": 1121752000,
+    "revenueEstimated": 1121480000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2023-07-27",
+    "epsActual": 1.22,
+    "epsEstimated": 1.2,
+    "revenueActual": 1171203000,
+    "revenueEstimated": 1167710000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2023-05-04",
+    "epsActual": 1.28,
+    "epsEstimated": 1.36,
+    "revenueActual": 1174356000,
+    "revenueEstimated": 1150940000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2023-02-16",
+    "epsActual": 0.89,
+    "epsEstimated": 1.03,
+    "revenueActual": 1009529000,
+    "revenueEstimated": 1020401304,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2022-10-27",
+    "epsActual": 0.93,
+    "epsEstimated": 0.89,
+    "revenueActual": 993298000,
+    "revenueEstimated": 974971847,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2022-07-28",
+    "epsActual": 1.07,
+    "epsEstimated": 1.01,
+    "revenueActual": 1024606000,
+    "revenueEstimated": 1020777028,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2022-05-05",
+    "epsActual": 1.08,
+    "epsEstimated": 0.91,
+    "revenueActual": 987486000,
+    "revenueEstimated": 972994565,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2022-02-22",
+    "epsActual": 0.76,
+    "epsEstimated": 0.69,
+    "revenueActual": 895586000,
+    "revenueEstimated": 894456360,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2021-10-28",
+    "epsActual": 0.75,
+    "epsEstimated": 0.81,
+    "revenueActual": 868943000,
+    "revenueEstimated": 874240000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2021-07-29",
+    "epsActual": 1.08,
+    "epsEstimated": 0.99,
+    "revenueActual": 898788000,
+    "revenueEstimated": 866150000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2021-04-29",
+    "epsActual": 0.91,
+    "epsEstimated": 0.59,
+    "revenueActual": 800629000,
+    "revenueEstimated": 733800000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2021-02-18",
+    "epsActual": 0.28,
+    "epsEstimated": 0.49,
+    "revenueActual": 637989000,
+    "revenueEstimated": 820271571,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2020-10-28",
+    "epsActual": 0.42,
+    "epsEstimated": 0.19,
+    "revenueActual": 631185000,
+    "revenueEstimated": 493320904,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2020-08-03",
+    "epsActual": -0.48,
+    "epsEstimated": -0.54,
+    "revenueActual": 476425000,
+    "revenueEstimated": 625307812,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2020-05-04",
+    "epsActual": 0.23,
+    "epsEstimated": 0.58,
+    "revenueActual": 652524000,
+    "revenueEstimated": 1645495304,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2020-02-20",
+    "epsActual": 0.61,
+    "epsEstimated": 0.52,
+    "revenueActual": 725238000,
+    "revenueEstimated": 618235672,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2019-10-28",
+    "epsActual": 0.52,
+    "epsEstimated": 0.46,
+    "revenueActual": 650489000,
+    "revenueEstimated": 575432576,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2019-07-29",
+    "epsActual": 0.63,
+    "epsEstimated": 0.63,
+    "revenueActual": 689828000,
+    "revenueEstimated": 689828000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2019-04-29",
+    "epsActual": 0.7,
+    "epsEstimated": 0.82,
+    "revenueActual": 690608000,
+    "revenueEstimated": 808997942,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2019-02-19",
+    "epsActual": 0.42,
+    "epsEstimated": 0.41,
+    "revenueActual": 605912000,
+    "revenueEstimated": 591485523,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2018-10-29",
+    "epsActual": 0.4,
+    "epsEstimated": 0.54,
+    "revenueActual": 594595000,
+    "revenueEstimated": 802703250,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2018-07-30",
+    "epsActual": 0.62,
+    "epsEstimated": 0.67,
+    "revenueActual": 629237000,
+    "revenueEstimated": 679941935,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2018-04-30",
+    "epsActual": 0.76,
+    "epsEstimated": 0.76,
+    "revenueActual": 627705000,
+    "revenueEstimated": 627700000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2018-02-20",
+    "epsActual": 0.4,
+    "epsEstimated": 0.37,
+    "revenueActual": 545076000,
+    "revenueEstimated": 504217499,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2017-10-30",
+    "epsActual": 0.43,
+    "epsEstimated": 0.43,
+    "revenueActual": 540507000,
+    "revenueEstimated": 540500000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2017-07-31",
+    "epsActual": 0.53,
+    "epsEstimated": 0.53,
+    "revenueActual": 566262000,
+    "revenueEstimated": 566300000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2017-05-01",
+    "epsActual": 0.61,
+    "epsEstimated": 0.58,
+    "revenueActual": 567686000,
+    "revenueEstimated": 539780327,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2017-02-21",
+    "epsActual": 0.29,
+    "epsEstimated": 0.38,
+    "revenueActual": 484710000,
+    "revenueEstimated": 635124137,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2016-11-01",
+    "epsActual": 0.37,
+    "epsEstimated": 0.38,
+    "revenueActual": 481637000,
+    "revenueEstimated": 508355555,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2016-08-01",
+    "epsActual": 0.47,
+    "epsEstimated": 0.45,
+    "revenueActual": 508808000,
+    "revenueEstimated": 487148936,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2016-05-02",
+    "epsActual": 0.55,
+    "epsEstimated": 0.54,
+    "revenueActual": 515559000,
+    "revenueEstimated": 506225454,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2016-02-22",
+    "epsActual": 0.32,
+    "epsEstimated": 0.3,
+    "revenueActual": 454351000,
+    "revenueEstimated": 426000000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2015-11-02",
+    "epsActual": 0.29,
+    "epsEstimated": 0.3,
+    "revenueActual": 438089000,
+    "revenueEstimated": 453206896,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2015-08-03",
+    "epsActual": 0.3,
+    "epsEstimated": 0.37,
+    "revenueActual": 454698000,
+    "revenueEstimated": 560796666,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2015-05-04",
+    "epsActual": 0.46,
+    "epsEstimated": 0.44,
+    "revenueActual": 460230000,
+    "revenueEstimated": 440191304,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2015-02-23",
+    "epsActual": 0.26,
+    "epsEstimated": 0.26,
+    "revenueActual": 404425000,
+    "revenueEstimated": 404400000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2014-11-03",
+    "epsActual": 0.27,
+    "epsEstimated": 0.29,
+    "revenueActual": 385218000,
+    "revenueEstimated": 413733333,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2014-08-04",
+    "epsActual": 0.33,
+    "epsEstimated": 0.33,
+    "revenueActual": 395363000,
+    "revenueEstimated": 395400000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2014-05-05",
+    "epsActual": 0.37,
+    "epsEstimated": 0.38,
+    "revenueActual": 397142000,
+    "revenueEstimated": 407832432,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2014-02-24",
+    "epsActual": 0.19,
+    "epsEstimated": 0.24,
+    "revenueActual": 376020000,
+    "revenueEstimated": 474947368,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2013-10-28",
+    "epsActual": 0.24,
+    "epsEstimated": 0.25,
+    "revenueActual": 334770000,
+    "revenueEstimated": 348750000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2013-07-29",
+    "epsActual": 0.28,
+    "epsEstimated": 0.29,
+    "revenueActual": 352119000,
+    "revenueEstimated": 364674999,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2013-04-29",
+    "epsActual": 0.37,
+    "epsEstimated": 0.35,
+    "revenueActual": 359676000,
+    "revenueEstimated": 340256756,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2013-02-19",
+    "epsActual": 0.19,
+    "epsEstimated": 0.18,
+    "revenueActual": 309531000,
+    "revenueEstimated": 293210526,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2012-11-01",
+    "epsActual": 0.25,
+    "epsEstimated": 0.23,
+    "revenueActual": 308656000,
+    "revenueEstimated": 284004000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2012-07-30",
+    "epsActual": 0.28,
+    "epsEstimated": 0.24,
+    "revenueActual": 320275000,
+    "revenueEstimated": 274542857,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2012-04-30",
+    "epsActual": 0.31,
+    "epsEstimated": 0.29,
+    "revenueActual": 324869000,
+    "revenueEstimated": 303938709,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2012-02-21",
+    "epsActual": 0.17,
+    "epsEstimated": 0.16,
+    "revenueActual": 276616000,
+    "revenueEstimated": 260329411,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2011-11-01",
+    "epsActual": 0.22,
+    "epsEstimated": 0.19,
+    "revenueActual": 269253000,
+    "revenueEstimated": 232577272,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2011-08-01",
+    "epsActual": 0.22,
+    "epsEstimated": 0.23,
+    "revenueActual": 279572000,
+    "revenueEstimated": 292309090,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2011-05-02",
+    "epsActual": 0.27,
+    "epsEstimated": 0.29,
+    "revenueActual": 283785000,
+    "revenueEstimated": 304822222,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2011-02-22",
+    "epsActual": 0.14,
+    "epsEstimated": 0.16,
+    "revenueActual": 244594000,
+    "revenueEstimated": 279542857,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2010-11-01",
+    "epsActual": 0.19,
+    "epsEstimated": 0.18,
+    "revenueActual": 245613000,
+    "revenueEstimated": 232673684,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2010-08-02",
+    "epsActual": 0.21,
+    "epsEstimated": 0.21,
+    "revenueActual": 255162000,
+    "revenueEstimated": 255200000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2010-05-03",
+    "epsActual": 0.27,
+    "epsEstimated": 0.23,
+    "revenueActual": 259624000,
+    "revenueEstimated": 221140740,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2010-02-22",
+    "epsActual": 0.12,
+    "epsEstimated": 0.1,
+    "revenueActual": 227368000,
+    "revenueEstimated": 189500000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2009-11-02",
+    "epsActual": 0.15,
+    "epsEstimated": 0.12,
+    "revenueActual": 226467000,
+    "revenueEstimated": 181200000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2009-08-03",
+    "epsActual": 0.19,
+    "epsEstimated": 0.15,
+    "revenueActual": 242423000,
+    "revenueEstimated": 191368421,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2009-05-04",
+    "epsActual": 0.2,
+    "epsEstimated": 0.17,
+    "revenueActual": 246073000,
+    "revenueEstimated": 209185000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2009-02-23",
+    "epsActual": 0.09,
+    "epsEstimated": 0.09,
+    "revenueActual": 234202000,
+    "revenueEstimated": 234200000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2008-10-27",
+    "epsActual": 0.12,
+    "epsEstimated": 0.13,
+    "revenueActual": 217735000,
+    "revenueEstimated": 235841666,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2008-07-28",
+    "epsActual": 0.14,
+    "epsEstimated": 0.12,
+    "revenueActual": 217311000,
+    "revenueEstimated": 186257142,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2008-04-28",
+    "epsActual": 0.17,
+    "epsEstimated": 0.15,
+    "revenueActual": 211213000,
+    "revenueEstimated": 186352941,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2008-02-19",
+    "epsActual": 0.11,
+    "epsEstimated": 0.11,
+    "revenueActual": 186312000,
+    "revenueEstimated": 186300000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2007-10-29",
+    "epsActual": 0.14,
+    "epsEstimated": 0.13,
+    "revenueActual": 189454000,
+    "revenueEstimated": 175964285,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2007-07-30",
+    "epsActual": 0.12,
+    "epsEstimated": 0.13,
+    "revenueActual": 180986000,
+    "revenueEstimated": 196083333,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2007-04-30",
+    "epsActual": 0.16,
+    "epsEstimated": 0.14,
+    "revenueActual": 178337000,
+    "revenueEstimated": 156012500,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2007-02-20",
+    "epsActual": 0.1,
+    "epsEstimated": 0.09,
+    "revenueActual": 152558000,
+    "revenueEstimated": 137340000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2006-10-30",
+    "epsActual": 0.12,
+    "epsEstimated": 0.1,
+    "revenueActual": 148454000,
+    "revenueEstimated": 123750000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2006-07-31",
+    "epsActual": 0.12,
+    "epsEstimated": 0.12,
+    "revenueActual": 146720000,
+    "revenueEstimated": 146700000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2006-05-01",
+    "epsActual": 0.11,
+    "epsEstimated": 0.11,
+    "revenueActual": 149399000,
+    "revenueEstimated": 149400000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2006-02-21",
+    "epsActual": 0.09,
+    "epsEstimated": 0.1,
+    "revenueActual": 117633000,
+    "revenueEstimated": 130666666,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2005-11-07",
+    "epsActual": 0.1,
+    "epsEstimated": 0.11,
+    "revenueActual": 114327000,
+    "revenueEstimated": 125729999,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2005-08-08",
+    "epsActual": 0.11,
+    "epsEstimated": 0.11,
+    "revenueActual": 115757000,
+    "revenueEstimated": 115800000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2005-05-09",
+    "epsActual": 0.13,
+    "epsEstimated": 0.11,
+    "revenueActual": 111067000,
+    "revenueEstimated": 94007692,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2005-03-25",
+    "epsActual": -0.00127,
+    "epsEstimated": null,
+    "revenueActual": 96947000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2005-02-28",
+    "epsActual": 0.09,
+    "epsEstimated": 0.09,
+    "revenueActual": 92247000,
+    "revenueEstimated": 96900000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2004-06-30",
+    "epsActual": 0.02642,
+    "epsEstimated": null,
+    "revenueActual": 87870000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2004-03-31",
+    "epsActual": 0.1503,
+    "epsEstimated": null,
+    "revenueActual": 83898000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2003-12-31",
+    "epsActual": 0.1196,
+    "epsEstimated": null,
+    "revenueActual": 75391000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "TXRH",
+    "date": "2003-09-30",
+    "epsActual": 0.05099,
+    "epsEstimated": null,
+    "revenueActual": 72428000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  }
+]

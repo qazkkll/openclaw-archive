@@ -1,0 +1,43 @@
+[
+  {
+    "symbol": "KNF",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Central Segment": 1004554000,
+      "Energy Services Segment": 296032000,
+      "Mountain Segment": 643842000,
+      "West Segment": 1208713000
+    }
+  },
+  {
+    "symbol": "KNF",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Central Segment": 817872000,
+      "Energy Services Segment": 238939000,
+      "Mountain Segment": 662892000,
+      "Northwest Segment": 689893000,
+      "Pacific Segment": 493066000
+    }
+  },
+  {
+    "symbol": "KNF",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Central Segment": 824908000,
+      "Mountain Segment": 633617000,
+      "Northwest Segment": 663681000,
+      "Pacific Segment": 462162000,
+      "Energy Services Segment": 253196000
+    }
+  }
+]

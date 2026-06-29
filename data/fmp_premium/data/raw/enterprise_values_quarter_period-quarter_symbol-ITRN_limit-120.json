@@ -1,0 +1,842 @@
+[
+  {
+    "symbol": "ITRN",
+    "date": "2025-12-31",
+    "stockPrice": 43.01,
+    "numberOfShares": 19840000,
+    "marketCapitalization": 853318400,
+    "minusCashAndCashEquivalents": 107551000,
+    "addTotalDebt": 4745000,
+    "enterpriseValue": 750512400
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2025-09-30",
+    "stockPrice": 35.72,
+    "numberOfShares": 19889000,
+    "marketCapitalization": 710435080,
+    "minusCashAndCashEquivalents": 93072000,
+    "addTotalDebt": 4852000,
+    "enterpriseValue": 622215080
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2025-06-30",
+    "stockPrice": 38.73,
+    "numberOfShares": 19894000,
+    "marketCapitalization": 770494619,
+    "minusCashAndCashEquivalents": 88735000,
+    "addTotalDebt": 5175000,
+    "enterpriseValue": 686934619
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2025-03-31",
+    "stockPrice": 36.16,
+    "numberOfShares": 19894000,
+    "marketCapitalization": 719367039,
+    "minusCashAndCashEquivalents": 75683000,
+    "addTotalDebt": 5358000,
+    "enterpriseValue": 649042039
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2024-12-31",
+    "stockPrice": 31.15,
+    "numberOfShares": 19894017,
+    "marketCapitalization": 619698629,
+    "minusCashAndCashEquivalents": 77357000,
+    "addTotalDebt": 9061000,
+    "enterpriseValue": 551402629
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2024-09-30",
+    "stockPrice": 26.54,
+    "numberOfShares": 19894000,
+    "marketCapitalization": 527986760,
+    "minusCashAndCashEquivalents": 67465000,
+    "addTotalDebt": 4503000,
+    "enterpriseValue": 465024760
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2024-06-30",
+    "stockPrice": 24.28,
+    "numberOfShares": 19894000,
+    "marketCapitalization": 483026320,
+    "minusCashAndCashEquivalents": 63210000,
+    "addTotalDebt": 4694000,
+    "enterpriseValue": 424510320
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2024-03-31",
+    "stockPrice": 27.96,
+    "numberOfShares": 19894000,
+    "marketCapitalization": 556236240,
+    "minusCashAndCashEquivalents": 54035000,
+    "addTotalDebt": 5031000,
+    "enterpriseValue": 507232240
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2023-12-31",
+    "stockPrice": 27.11,
+    "numberOfShares": 19959000,
+    "marketCapitalization": 541088490,
+    "minusCashAndCashEquivalents": 53434000,
+    "addTotalDebt": 8664000,
+    "enterpriseValue": 496318490
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2023-09-30",
+    "stockPrice": 29.9,
+    "numberOfShares": 19912000,
+    "marketCapitalization": 595368800,
+    "minusCashAndCashEquivalents": 39879000,
+    "addTotalDebt": 6530000,
+    "enterpriseValue": 562019800
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2023-06-30",
+    "stockPrice": 23.34,
+    "numberOfShares": 20118000,
+    "marketCapitalization": 469554120,
+    "minusCashAndCashEquivalents": 34205000,
+    "addTotalDebt": 9427000,
+    "enterpriseValue": 444776120
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2023-03-31",
+    "stockPrice": 21.78,
+    "numberOfShares": 20314000,
+    "marketCapitalization": 442438920,
+    "minusCashAndCashEquivalents": 33276000,
+    "addTotalDebt": 15029000,
+    "enterpriseValue": 424191920
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2022-12-31",
+    "stockPrice": 21.13,
+    "numberOfShares": 20242000,
+    "marketCapitalization": 427713460,
+    "minusCashAndCashEquivalents": 27850000,
+    "addTotalDebt": 22095000,
+    "enterpriseValue": 421958460
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2022-09-30",
+    "stockPrice": 23.34,
+    "numberOfShares": 20347000,
+    "marketCapitalization": 474898980,
+    "minusCashAndCashEquivalents": 30068000,
+    "addTotalDebt": 22747000,
+    "enterpriseValue": 467577980
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2022-06-30",
+    "stockPrice": 24.49,
+    "numberOfShares": 20460000,
+    "marketCapitalization": 501065399,
+    "minusCashAndCashEquivalents": 32671000,
+    "addTotalDebt": 27801000,
+    "enterpriseValue": 496195399
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2022-03-31",
+    "stockPrice": 23.02,
+    "numberOfShares": 20534000,
+    "marketCapitalization": 472692680,
+    "minusCashAndCashEquivalents": 43254000,
+    "addTotalDebt": 34919000,
+    "enterpriseValue": 464357680
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2021-12-31",
+    "stockPrice": 26.67,
+    "numberOfShares": 20651000,
+    "marketCapitalization": 550762170,
+    "minusCashAndCashEquivalents": 50306000,
+    "addTotalDebt": 36116000,
+    "enterpriseValue": 536572170
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2021-09-30",
+    "stockPrice": 25.39,
+    "numberOfShares": 20799000,
+    "marketCapitalization": 528086610,
+    "minusCashAndCashEquivalents": 62947000,
+    "addTotalDebt": 35739000,
+    "enterpriseValue": 500878610
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2021-06-30",
+    "stockPrice": 27.24,
+    "numberOfShares": 20813000,
+    "marketCapitalization": 566946120,
+    "minusCashAndCashEquivalents": 65576000,
+    "addTotalDebt": 40167000,
+    "enterpriseValue": 541537120
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2021-03-31",
+    "stockPrice": 21.23,
+    "numberOfShares": 20813000,
+    "marketCapitalization": 441859990,
+    "minusCashAndCashEquivalents": 64133000,
+    "addTotalDebt": 43866000,
+    "enterpriseValue": 421592990
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2020-12-31",
+    "stockPrice": 19.05,
+    "numberOfShares": 20813000,
+    "marketCapitalization": 396487650,
+    "minusCashAndCashEquivalents": 72183000,
+    "addTotalDebt": 60004000,
+    "enterpriseValue": 384308650
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2020-09-30",
+    "stockPrice": 13.92,
+    "numberOfShares": 20813000,
+    "marketCapitalization": 289716960,
+    "minusCashAndCashEquivalents": 61836000,
+    "addTotalDebt": 64105000,
+    "enterpriseValue": 291985960
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2020-06-30",
+    "stockPrice": 16.02,
+    "numberOfShares": 20813000,
+    "marketCapitalization": 333424260,
+    "minusCashAndCashEquivalents": 56782000,
+    "addTotalDebt": 68738000,
+    "enterpriseValue": 345380260
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2020-03-31",
+    "stockPrice": 14.21,
+    "numberOfShares": 20813000,
+    "marketCapitalization": 295752730,
+    "minusCashAndCashEquivalents": 49858000,
+    "addTotalDebt": 72233000,
+    "enterpriseValue": 318127730
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2019-12-31",
+    "stockPrice": 25.13,
+    "numberOfShares": 20875000,
+    "marketCapitalization": 524588750,
+    "minusCashAndCashEquivalents": 53964000,
+    "addTotalDebt": 80539000,
+    "enterpriseValue": 551163750
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2019-09-30",
+    "stockPrice": 24.79,
+    "numberOfShares": 21041000,
+    "marketCapitalization": 521606390,
+    "minusCashAndCashEquivalents": 56254000,
+    "addTotalDebt": 80854000,
+    "enterpriseValue": 546206390
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2019-06-30",
+    "stockPrice": 30.46,
+    "numberOfShares": 21041000,
+    "marketCapitalization": 640908860,
+    "minusCashAndCashEquivalents": 62391000,
+    "addTotalDebt": 83204000,
+    "enterpriseValue": 661721860
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2019-03-31",
+    "stockPrice": 35.27,
+    "numberOfShares": 21256000,
+    "marketCapitalization": 749699120,
+    "minusCashAndCashEquivalents": 53049000,
+    "addTotalDebt": 81369000,
+    "enterpriseValue": 778019120
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2018-12-31",
+    "stockPrice": 32.06,
+    "numberOfShares": 21342000,
+    "marketCapitalization": 684224520,
+    "minusCashAndCashEquivalents": 51398000,
+    "addTotalDebt": 73181000,
+    "enterpriseValue": 706007520
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2018-09-30",
+    "stockPrice": 34.39,
+    "numberOfShares": 21010000,
+    "marketCapitalization": 722533900,
+    "minusCashAndCashEquivalents": 55743000,
+    "addTotalDebt": 84917000,
+    "enterpriseValue": 751707900
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2018-06-30",
+    "stockPrice": 30.35,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 636378800,
+    "minusCashAndCashEquivalents": 36106000,
+    "addTotalDebt": 3000,
+    "enterpriseValue": 600275800
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2018-03-31",
+    "stockPrice": 30.95,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 648959600,
+    "minusCashAndCashEquivalents": 34734000,
+    "addTotalDebt": 3000,
+    "enterpriseValue": 614228600
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2017-12-31",
+    "stockPrice": 34.2,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 717105600,
+    "minusCashAndCashEquivalents": 36906000,
+    "addTotalDebt": 48000,
+    "enterpriseValue": 680247600
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2017-09-30",
+    "stockPrice": 36.05,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 755896400,
+    "minusCashAndCashEquivalents": 31821000,
+    "addTotalDebt": 145000,
+    "enterpriseValue": 724220400
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2017-06-30",
+    "stockPrice": 31.3,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 656298400,
+    "minusCashAndCashEquivalents": 27116000,
+    "addTotalDebt": 3000,
+    "enterpriseValue": 629185400
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2017-03-31",
+    "stockPrice": 30.85,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 646862800,
+    "minusCashAndCashEquivalents": 26610000,
+    "addTotalDebt": 413000,
+    "enterpriseValue": 620665800
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2016-12-31",
+    "stockPrice": 26.5,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 555652000,
+    "minusCashAndCashEquivalents": 31087000,
+    "addTotalDebt": 3000,
+    "enterpriseValue": 524568000
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2016-09-30",
+    "stockPrice": 26.46,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 554813280,
+    "minusCashAndCashEquivalents": 25632000,
+    "addTotalDebt": 3000,
+    "enterpriseValue": 529184280
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2016-06-30",
+    "stockPrice": 22.69,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 475763920,
+    "minusCashAndCashEquivalents": 25448000,
+    "addTotalDebt": 9000,
+    "enterpriseValue": 450324920
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2016-03-31",
+    "stockPrice": 19.65,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 412021200,
+    "minusCashAndCashEquivalents": 26812000,
+    "addTotalDebt": 3000,
+    "enterpriseValue": 385212200
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2015-12-31",
+    "stockPrice": 18.93,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 396924240,
+    "minusCashAndCashEquivalents": 27016000,
+    "addTotalDebt": 155000,
+    "enterpriseValue": 370063240
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2015-09-30",
+    "stockPrice": 20.54,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 430682720,
+    "minusCashAndCashEquivalents": 29434000,
+    "addTotalDebt": 447000,
+    "enterpriseValue": 401695720
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2015-06-30",
+    "stockPrice": 24.93,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 522732240,
+    "minusCashAndCashEquivalents": 30988000,
+    "addTotalDebt": 6000,
+    "enterpriseValue": 491750240
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2015-03-31",
+    "stockPrice": 22,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 461296000,
+    "minusCashAndCashEquivalents": 32908000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 428388000
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2014-12-31",
+    "stockPrice": 22.04,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 462134720,
+    "minusCashAndCashEquivalents": 38418000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 423716720
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2014-09-30",
+    "stockPrice": 21.15,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 443473200,
+    "minusCashAndCashEquivalents": 43004000,
+    "addTotalDebt": 2000,
+    "enterpriseValue": 400471200
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2014-06-30",
+    "stockPrice": 24.35,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 510570800,
+    "minusCashAndCashEquivalents": 41767000,
+    "addTotalDebt": 1000,
+    "enterpriseValue": 468804800
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2014-03-31",
+    "stockPrice": 24.94,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 522941920,
+    "minusCashAndCashEquivalents": 41352000,
+    "addTotalDebt": 1239000,
+    "enterpriseValue": 482828920
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2013-12-31",
+    "stockPrice": 21.64,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 453747520,
+    "minusCashAndCashEquivalents": 41697000,
+    "addTotalDebt": 38000,
+    "enterpriseValue": 412088520
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2013-09-30",
+    "stockPrice": 18.45,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 386859600,
+    "minusCashAndCashEquivalents": 36620000,
+    "addTotalDebt": 596000,
+    "enterpriseValue": 350835600
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2013-06-30",
+    "stockPrice": 16.82,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 352681760,
+    "minusCashAndCashEquivalents": 33655000,
+    "addTotalDebt": 90000,
+    "enterpriseValue": 319116760
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2013-03-31",
+    "stockPrice": 15.63,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 327729840,
+    "minusCashAndCashEquivalents": 33842000,
+    "addTotalDebt": 481000,
+    "enterpriseValue": 294368840
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2012-12-31",
+    "stockPrice": 13.57,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 284535760,
+    "minusCashAndCashEquivalents": 29453000,
+    "addTotalDebt": 221000,
+    "enterpriseValue": 255303760
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2012-09-30",
+    "stockPrice": 11.86,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 248680480,
+    "minusCashAndCashEquivalents": 23692000,
+    "addTotalDebt": 571000,
+    "enterpriseValue": 225559480
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2012-06-30",
+    "stockPrice": 10.97,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 230018960,
+    "minusCashAndCashEquivalents": 18977000,
+    "addTotalDebt": 943000,
+    "enterpriseValue": 211984960
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2012-03-31",
+    "stockPrice": 13.44,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 281809920,
+    "minusCashAndCashEquivalents": 38946000,
+    "addTotalDebt": 967000,
+    "enterpriseValue": 243830920
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2011-12-31",
+    "stockPrice": 13.66,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 286422880,
+    "minusCashAndCashEquivalents": 35270000,
+    "addTotalDebt": 563000,
+    "enterpriseValue": 251715880
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2011-09-30",
+    "stockPrice": 11.65,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 244277200,
+    "minusCashAndCashEquivalents": 48390000,
+    "addTotalDebt": 848000,
+    "enterpriseValue": 196735200
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2011-06-30",
+    "stockPrice": 14.09,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 295439120,
+    "minusCashAndCashEquivalents": 39806000,
+    "addTotalDebt": 285000,
+    "enterpriseValue": 255918120
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2011-03-31",
+    "stockPrice": 15,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 314520000,
+    "minusCashAndCashEquivalents": 52402000,
+    "addTotalDebt": 6211000,
+    "enterpriseValue": 268329000
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2010-12-31",
+    "stockPrice": 17.49,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 366730319,
+    "minusCashAndCashEquivalents": 46674000,
+    "addTotalDebt": 331000,
+    "enterpriseValue": 320387319
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2010-09-30",
+    "stockPrice": 14.4,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 301939200,
+    "minusCashAndCashEquivalents": 45450000,
+    "addTotalDebt": 6785000,
+    "enterpriseValue": 263274200
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2010-06-30",
+    "stockPrice": 15.08,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 316197440,
+    "minusCashAndCashEquivalents": 35773000,
+    "addTotalDebt": 6247000,
+    "enterpriseValue": 286671440
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2010-03-31",
+    "stockPrice": 15.92,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 333810560,
+    "minusCashAndCashEquivalents": 67519000,
+    "addTotalDebt": 6408000,
+    "enterpriseValue": 272699560
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2009-12-31",
+    "stockPrice": 12.82,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 268809760,
+    "minusCashAndCashEquivalents": 60813000,
+    "addTotalDebt": 5900000,
+    "enterpriseValue": 213896760
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2009-09-30",
+    "stockPrice": 10.32,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 216389760,
+    "minusCashAndCashEquivalents": 53257000,
+    "addTotalDebt": 6090000,
+    "enterpriseValue": 169222760
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2009-06-30",
+    "stockPrice": 8.25,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 172986000,
+    "minusCashAndCashEquivalents": 29996000,
+    "addTotalDebt": 6246000,
+    "enterpriseValue": 149236000
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2009-03-31",
+    "stockPrice": 7.59,
+    "numberOfShares": 20968000,
+    "marketCapitalization": 159147120,
+    "minusCashAndCashEquivalents": 29793000,
+    "addTotalDebt": 6298000,
+    "enterpriseValue": 135652120
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2008-12-31",
+    "stockPrice": 7.31,
+    "numberOfShares": 20963000,
+    "marketCapitalization": 153239530,
+    "minusCashAndCashEquivalents": 12511000,
+    "addTotalDebt": 6214000,
+    "enterpriseValue": 146942530
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2008-09-30",
+    "stockPrice": 10.79,
+    "numberOfShares": 21067000,
+    "marketCapitalization": 227312929,
+    "minusCashAndCashEquivalents": 66141000,
+    "addTotalDebt": 14506000,
+    "enterpriseValue": 175677929
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2008-06-30",
+    "stockPrice": 12,
+    "numberOfShares": 21593000,
+    "marketCapitalization": 259116000,
+    "minusCashAndCashEquivalents": 67062000,
+    "addTotalDebt": 19501000,
+    "enterpriseValue": 211555000
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2008-03-31",
+    "stockPrice": 10.1,
+    "numberOfShares": 22107000,
+    "marketCapitalization": 223280700,
+    "minusCashAndCashEquivalents": 86444000,
+    "addTotalDebt": 17055000,
+    "enterpriseValue": 153891700
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2007-12-31",
+    "stockPrice": 11.07,
+    "numberOfShares": 23399000,
+    "marketCapitalization": 259026930,
+    "minusCashAndCashEquivalents": 28669000,
+    "addTotalDebt": 6212000,
+    "enterpriseValue": 236569930
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2007-09-30",
+    "stockPrice": 12.17,
+    "numberOfShares": 23338000,
+    "marketCapitalization": 284023460,
+    "minusCashAndCashEquivalents": 35829000,
+    "addTotalDebt": 6605000,
+    "enterpriseValue": 254799460
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2007-06-30",
+    "stockPrice": 12.51,
+    "numberOfShares": 23321000,
+    "marketCapitalization": 291745710,
+    "minusCashAndCashEquivalents": 33461000,
+    "addTotalDebt": 6622000,
+    "enterpriseValue": 264906710
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2007-03-31",
+    "stockPrice": 13.32,
+    "numberOfShares": 23321000,
+    "marketCapitalization": 310635720,
+    "minusCashAndCashEquivalents": 50614000,
+    "addTotalDebt": 6125000,
+    "enterpriseValue": 266146720
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2006-12-31",
+    "stockPrice": 15.05,
+    "numberOfShares": 23260000,
+    "marketCapitalization": 350063000,
+    "minusCashAndCashEquivalents": 43812000,
+    "addTotalDebt": 6368000,
+    "enterpriseValue": 312619000
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2006-09-30",
+    "stockPrice": 14.35,
+    "numberOfShares": 23281000,
+    "marketCapitalization": 334082350,
+    "minusCashAndCashEquivalents": 40013000,
+    "addTotalDebt": 6585000,
+    "enterpriseValue": 300654350
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2006-06-30",
+    "stockPrice": 14.01,
+    "numberOfShares": 23142000,
+    "marketCapitalization": 324219420,
+    "minusCashAndCashEquivalents": 37839000,
+    "addTotalDebt": 6625000,
+    "enterpriseValue": 293005420
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2006-03-31",
+    "stockPrice": 15.13,
+    "numberOfShares": 23091000,
+    "marketCapitalization": 349366830,
+    "minusCashAndCashEquivalents": 17641000,
+    "addTotalDebt": 8144000,
+    "enterpriseValue": 339869830
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2005-12-31",
+    "stockPrice": 15.95,
+    "numberOfShares": 22931000,
+    "marketCapitalization": 365749450,
+    "minusCashAndCashEquivalents": 58429000,
+    "addTotalDebt": 9582000,
+    "enterpriseValue": 316902450
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2005-09-30",
+    "stockPrice": 13.15,
+    "numberOfShares": 18785000,
+    "marketCapitalization": 247022750,
+    "minusCashAndCashEquivalents": 6673000,
+    "addTotalDebt": 11195000,
+    "enterpriseValue": 251544750
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2005-06-30",
+    "stockPrice": 13.47,
+    "numberOfShares": 18610000,
+    "marketCapitalization": 250676700,
+    "minusCashAndCashEquivalents": 4815000,
+    "addTotalDebt": 12533000,
+    "enterpriseValue": 258394700
+  },
+  {
+    "symbol": "ITRN",
+    "date": "2005-03-31",
+    "stockPrice": 13.47,
+    "numberOfShares": 18614000,
+    "marketCapitalization": 250730580,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 250730580
+  }
+]

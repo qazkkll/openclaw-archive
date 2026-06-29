@@ -1,0 +1,64 @@
+[
+  {
+    "symbol": "STEP",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-03-31",
+    "data": {
+      "Management And Advisory Fees, Net": 767014000,
+      "Performance Fees": 407816000
+    }
+  },
+  {
+    "symbol": "STEP",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-03-31",
+    "data": {
+      "Management And Advisory Fees, Net": 585140000,
+      "Performance Fees": 126491000
+    }
+  },
+  {
+    "symbol": "STEP",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-03-31",
+    "data": {
+      "Legacy Carried Interest Allocation": -452163000,
+      "Management And Advisory Fees, Net": 497179000,
+      "Carried Interest Allocation": -122253000,
+      "Incentive Fees": 9663000
+    }
+  },
+  {
+    "symbol": "STEP",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-03-31",
+    "data": {
+      "Carried Interest Allocation, Realized": 200718000,
+      "Carried Interest Allocation, Unrealized": 585851000,
+      "Incentive Fees": 11593000,
+      "Management And Advisory Fees, Net": 380257000,
+      "Legacy Carried Interest Allocation": 187106000
+    }
+  },
+  {
+    "symbol": "STEP",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-03-31",
+    "data": {
+      "Carried Interest Allocation, Realized": 62953000,
+      "Carried Interest Allocation, Unrealized": 433827000,
+      "Incentive Fees": 5474000,
+      "Management And Advisory Fees, Net": 285462000
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "BEPI",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2024-12-31",
+    "data": {
+      "BRAZIL": 235000000,
+      "COLOMBIA": 1489000000,
+      "North America": 1110000000
+    }
+  },
+  {
+    "symbol": "BEPI",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "BRAZIL": 269000000,
+      "COLOMBIA": 1285000000,
+      "North America": 1135000000
+    }
+  }
+]

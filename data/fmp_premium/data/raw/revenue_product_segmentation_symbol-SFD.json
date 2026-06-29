@@ -1,0 +1,54 @@
+[
+  {
+    "symbol": "SFD",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-28",
+    "data": {
+      "Fresh Pork Segment": 8344000000,
+      "Hog Production Segment": 3393000000,
+      "Other Segment": 528000000,
+      "Packaged Meats Segment": 8757000000,
+      "Intersegment Eliminations": -5492000000
+    }
+  },
+  {
+    "symbol": "SFD",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Fresh Pork Segment": 7873000000,
+      "Hog Production Segment": 3002000000,
+      "Other Segment": 471000000,
+      "Packaged Meats Segment": 8319000000,
+      "Intersegment Eliminations": -5524000000
+    }
+  },
+  {
+    "symbol": "SFD",
+    "fiscalYear": 2012,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2013-04-28",
+    "data": {
+      "Hog Production Segment": 3135100000,
+      "International Segment": 1468500000,
+      "Fresh Pork Segment": 11076100000
+    }
+  },
+  {
+    "symbol": "SFD",
+    "fiscalYear": 2011,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2012-04-29",
+    "data": {
+      "Hog Production Segment": 3052600000,
+      "International Segment": 1466700000,
+      "Fresh Pork Segment": 11093000000
+    }
+  }
+]

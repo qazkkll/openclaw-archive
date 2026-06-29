@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "PHIN",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Americas": 1486000000,
+      "Asia": 606000000,
+      "Europe": 1391000000
+    }
+  },
+  {
+    "symbol": "PHIN",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Europe": 1394000000,
+      "Americas": 1458000000,
+      "Asia": 551000000
+    }
+  },
+  {
+    "symbol": "PHIN",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Asia": 587000000,
+      "Europe": 1425000000,
+      "Americas": 1488000000
+    }
+  }
+]

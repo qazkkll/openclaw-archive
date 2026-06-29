@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "RBCAA",
+    "date": "2023-01-12",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "RBCAA",
+    "date": "2022-07-25",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "RBCAA",
+    "date": "2022-03-14",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "RBCAA",
+    "date": "2015-01-22",
+    "gradingCompany": "Hilliard Lyons",
+    "previousGrade": "Long Term Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "RBCAA",
+    "date": "2012-09-21",
+    "gradingCompany": "Hilliard Lyons",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "RBCAA",
+    "date": "2012-05-23",
+    "gradingCompany": "Hilliard Lyons",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "symbol": "ACDC",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Service": 1692700000,
+      "Product": 249100000
+    }
+  },
+  {
+    "symbol": "ACDC",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Product": 304200000,
+      "Service": 1886700000
+    }
+  },
+  {
+    "symbol": "ACDC",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Manufacturing Segment": 176100000,
+      "Other Segments": 193000000
+    }
+  },
+  {
+    "symbol": "ACDC",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "All Other Segments": 37100000,
+      "Manufacturing Segment": 13100000
+    }
+  }
+]

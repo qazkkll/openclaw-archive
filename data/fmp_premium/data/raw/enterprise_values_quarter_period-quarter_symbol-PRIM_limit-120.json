@@ -1,0 +1,792 @@
+[
+  {
+    "symbol": "PRIM",
+    "date": "2026-03-31",
+    "stockPrice": 143.04,
+    "numberOfShares": 54100000,
+    "marketCapitalization": 7738464000,
+    "minusCashAndCashEquivalents": 361500000,
+    "addTotalDebt": 928000000,
+    "enterpriseValue": 8304964000
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2025-12-31",
+    "stockPrice": 124.14,
+    "numberOfShares": 54000000,
+    "marketCapitalization": 6703560000,
+    "minusCashAndCashEquivalents": 541300000,
+    "addTotalDebt": 1276500000,
+    "enterpriseValue": 7438760000
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2025-09-30",
+    "stockPrice": 137.33,
+    "numberOfShares": 54017000,
+    "marketCapitalization": 7418154610,
+    "minusCashAndCashEquivalents": 437313000,
+    "addTotalDebt": 961792000,
+    "enterpriseValue": 7942633610
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2025-06-30",
+    "stockPrice": 77.94,
+    "numberOfShares": 54003000,
+    "marketCapitalization": 4208993820,
+    "minusCashAndCashEquivalents": 390254000,
+    "addTotalDebt": 1071480000,
+    "enterpriseValue": 4890219820
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2025-03-31",
+    "stockPrice": 57.41,
+    "numberOfShares": 53813000,
+    "marketCapitalization": 3089404330,
+    "minusCashAndCashEquivalents": 351581000,
+    "addTotalDebt": 1059206000,
+    "enterpriseValue": 3797029330
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2024-12-31",
+    "stockPrice": 76.4,
+    "numberOfShares": 53720000,
+    "marketCapitalization": 4104208000,
+    "minusCashAndCashEquivalents": 455825000,
+    "addTotalDebt": 1190217000,
+    "enterpriseValue": 4838600000
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2024-09-30",
+    "stockPrice": 58.08,
+    "numberOfShares": 53692000,
+    "marketCapitalization": 3118431360,
+    "minusCashAndCashEquivalents": 352657000,
+    "addTotalDebt": 1346789000,
+    "enterpriseValue": 4112563360
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2024-06-30",
+    "stockPrice": 47.6,
+    "numberOfShares": 53640000,
+    "marketCapitalization": 2553264000,
+    "minusCashAndCashEquivalents": 207363000,
+    "addTotalDebt": 1348618000,
+    "enterpriseValue": 3694519000
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2024-03-31",
+    "stockPrice": 42.74,
+    "numberOfShares": 53490000,
+    "marketCapitalization": 2286162600,
+    "minusCashAndCashEquivalents": 177600000,
+    "addTotalDebt": 1339449000,
+    "enterpriseValue": 3448011600
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2023-12-31",
+    "stockPrice": 33.21,
+    "numberOfShares": 53360000,
+    "marketCapitalization": 1772085600,
+    "minusCashAndCashEquivalents": 217778000,
+    "addTotalDebt": 1318137000,
+    "enterpriseValue": 2872444600
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2023-09-30",
+    "stockPrice": 32.73,
+    "numberOfShares": 53339000,
+    "marketCapitalization": 1745785469,
+    "minusCashAndCashEquivalents": 160736000,
+    "addTotalDebt": 1410529000,
+    "enterpriseValue": 2995578469
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2023-06-30",
+    "stockPrice": 30.47,
+    "numberOfShares": 53301000,
+    "marketCapitalization": 1624081470,
+    "minusCashAndCashEquivalents": 122692000,
+    "addTotalDebt": 1365637000,
+    "enterpriseValue": 2867026470
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2023-03-31",
+    "stockPrice": 24.66,
+    "numberOfShares": 53184000,
+    "marketCapitalization": 1311517440,
+    "minusCashAndCashEquivalents": 94756000,
+    "addTotalDebt": 1330832000,
+    "enterpriseValue": 2547593440
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2022-12-31",
+    "stockPrice": 21.94,
+    "numberOfShares": 53120000,
+    "marketCapitalization": 1165452800,
+    "minusCashAndCashEquivalents": 248692000,
+    "addTotalDebt": 1346804000,
+    "enterpriseValue": 2263564800
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2022-09-30",
+    "stockPrice": 16.25,
+    "numberOfShares": 53181000,
+    "marketCapitalization": 864191250,
+    "minusCashAndCashEquivalents": 111937000,
+    "addTotalDebt": 1364900000,
+    "enterpriseValue": 2117154250
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2022-06-30",
+    "stockPrice": 21.76,
+    "numberOfShares": 53263000,
+    "marketCapitalization": 1159002880,
+    "minusCashAndCashEquivalents": 91254000,
+    "addTotalDebt": 840020000,
+    "enterpriseValue": 1907768880
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2022-03-31",
+    "stockPrice": 23.82,
+    "numberOfShares": 53240000,
+    "marketCapitalization": 1268176800,
+    "minusCashAndCashEquivalents": 173505000,
+    "addTotalDebt": 811071000,
+    "enterpriseValue": 1905742800
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2021-12-31",
+    "stockPrice": 23.98,
+    "numberOfShares": 53625000,
+    "marketCapitalization": 1285927500,
+    "minusCashAndCashEquivalents": 200512000,
+    "addTotalDebt": 821108000,
+    "enterpriseValue": 1906523500
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2021-09-30",
+    "stockPrice": 24.49,
+    "numberOfShares": 53769000,
+    "marketCapitalization": 1316802810,
+    "minusCashAndCashEquivalents": 199025000,
+    "addTotalDebt": 854034000,
+    "enterpriseValue": 1971811810
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2021-06-30",
+    "stockPrice": 29.43,
+    "numberOfShares": 53729000,
+    "marketCapitalization": 1581244470,
+    "minusCashAndCashEquivalents": 177979000,
+    "addTotalDebt": 846014000,
+    "enterpriseValue": 2249279470
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2021-03-31",
+    "stockPrice": 33.13,
+    "numberOfShares": 49503000,
+    "marketCapitalization": 1640034390,
+    "minusCashAndCashEquivalents": 212770000,
+    "addTotalDebt": 861575000,
+    "enterpriseValue": 2288839390
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2020-12-31",
+    "stockPrice": 27.61,
+    "numberOfShares": 48104000,
+    "marketCapitalization": 1328151440,
+    "minusCashAndCashEquivalents": 326744000,
+    "addTotalDebt": 527503000,
+    "enterpriseValue": 1528910440
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2020-09-30",
+    "stockPrice": 18.04,
+    "numberOfShares": 48253000,
+    "marketCapitalization": 870484120,
+    "minusCashAndCashEquivalents": 228546000,
+    "addTotalDebt": 556624000,
+    "enterpriseValue": 1198562120
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2020-06-30",
+    "stockPrice": 17.76,
+    "numberOfShares": 48270000,
+    "marketCapitalization": 857275200,
+    "minusCashAndCashEquivalents": 155670000,
+    "addTotalDebt": 595203000,
+    "enterpriseValue": 1296808200
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2020-03-31",
+    "stockPrice": 15.9,
+    "numberOfShares": 48588000,
+    "marketCapitalization": 772549200,
+    "minusCashAndCashEquivalents": 93474000,
+    "addTotalDebt": 599257000,
+    "enterpriseValue": 1278332200
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2019-12-31",
+    "stockPrice": 22.24,
+    "numberOfShares": 50478000,
+    "marketCapitalization": 1122630720,
+    "minusCashAndCashEquivalents": 120286000,
+    "addTotalDebt": 596562000,
+    "enterpriseValue": 1598906720
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2019-09-30",
+    "stockPrice": 19.61,
+    "numberOfShares": 50976000,
+    "marketCapitalization": 999639360,
+    "minusCashAndCashEquivalents": 43837000,
+    "addTotalDebt": 600169000,
+    "enterpriseValue": 1555971360
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2019-06-30",
+    "stockPrice": 20.89,
+    "numberOfShares": 50912000,
+    "marketCapitalization": 1063551680,
+    "minusCashAndCashEquivalents": 54114000,
+    "addTotalDebt": 596313000,
+    "enterpriseValue": 1605750680
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2019-03-31",
+    "stockPrice": 21.38,
+    "numberOfShares": 50770000,
+    "marketCapitalization": 1085462600,
+    "minusCashAndCashEquivalents": 73985000,
+    "addTotalDebt": 532019000,
+    "enterpriseValue": 1543496600
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2018-12-31",
+    "stockPrice": 19.13,
+    "numberOfShares": 50993000,
+    "marketCapitalization": 975496090,
+    "minusCashAndCashEquivalents": 151063000,
+    "addTotalDebt": 368157000,
+    "enterpriseValue": 1192590090
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2018-09-30",
+    "stockPrice": 24.46,
+    "numberOfShares": 51403000,
+    "marketCapitalization": 1257317380,
+    "minusCashAndCashEquivalents": 60039000,
+    "addTotalDebt": 370040000,
+    "enterpriseValue": 1567318380
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2018-06-30",
+    "stockPrice": 27.23,
+    "numberOfShares": 51531000,
+    "marketCapitalization": 1403189130,
+    "minusCashAndCashEquivalents": 139404000,
+    "addTotalDebt": 420286000,
+    "enterpriseValue": 1684071130
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2018-03-31",
+    "stockPrice": 24.98,
+    "numberOfShares": 51479000,
+    "marketCapitalization": 1285945420,
+    "minusCashAndCashEquivalents": 134172000,
+    "addTotalDebt": 245947000,
+    "enterpriseValue": 1397720420
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2017-12-31",
+    "stockPrice": 27.19,
+    "numberOfShares": 51449000,
+    "marketCapitalization": 1398898310,
+    "minusCashAndCashEquivalents": 170385000,
+    "addTotalDebt": 259143000,
+    "enterpriseValue": 1487656310
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2017-09-30",
+    "stockPrice": 29.42,
+    "numberOfShares": 51441000,
+    "marketCapitalization": 1513394220,
+    "minusCashAndCashEquivalents": 143235000,
+    "addTotalDebt": 255104000,
+    "enterpriseValue": 1625263220
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2017-06-30",
+    "stockPrice": 24.94,
+    "numberOfShares": 51437000,
+    "marketCapitalization": 1282838780,
+    "minusCashAndCashEquivalents": 111676000,
+    "addTotalDebt": 241527000,
+    "enterpriseValue": 1412689780
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2017-03-31",
+    "stockPrice": 23.22,
+    "numberOfShares": 51594000,
+    "marketCapitalization": 1198012680,
+    "minusCashAndCashEquivalents": 148485000,
+    "addTotalDebt": 253438000,
+    "enterpriseValue": 1302965680
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2016-12-31",
+    "stockPrice": 22.78,
+    "numberOfShares": 51771000,
+    "marketCapitalization": 1179343380,
+    "minusCashAndCashEquivalents": 135823000,
+    "addTotalDebt": 261773000,
+    "enterpriseValue": 1305293380
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2016-09-30",
+    "stockPrice": 20.6,
+    "numberOfShares": 51780000,
+    "marketCapitalization": 1066668000,
+    "minusCashAndCashEquivalents": 148667000,
+    "addTotalDebt": 267792000,
+    "enterpriseValue": 1185793000
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2016-06-30",
+    "stockPrice": 18.93,
+    "numberOfShares": 51772000,
+    "marketCapitalization": 980043960,
+    "minusCashAndCashEquivalents": 97115000,
+    "addTotalDebt": 250555000,
+    "enterpriseValue": 1133483960
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2016-03-31",
+    "stockPrice": 24.3,
+    "numberOfShares": 51725000,
+    "marketCapitalization": 1256917500,
+    "minusCashAndCashEquivalents": 98809000,
+    "addTotalDebt": 263040000,
+    "enterpriseValue": 1421148500
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2015-12-31",
+    "stockPrice": 22.03,
+    "numberOfShares": 51676000,
+    "marketCapitalization": 1138422280,
+    "minusCashAndCashEquivalents": 161122000,
+    "addTotalDebt": 275285000,
+    "enterpriseValue": 1252585280
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2015-09-30",
+    "stockPrice": 17.91,
+    "numberOfShares": 51672000,
+    "marketCapitalization": 925445520,
+    "minusCashAndCashEquivalents": 89424000,
+    "addTotalDebt": 254922000,
+    "enterpriseValue": 1090943520
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2015-06-30",
+    "stockPrice": 19.8,
+    "numberOfShares": 51666000,
+    "marketCapitalization": 1022986800,
+    "minusCashAndCashEquivalents": 85970000,
+    "addTotalDebt": 234896000,
+    "enterpriseValue": 1171912800
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2015-03-31",
+    "stockPrice": 17.19,
+    "numberOfShares": 51572000,
+    "marketCapitalization": 886522680,
+    "minusCashAndCashEquivalents": 106018000,
+    "addTotalDebt": 245783000,
+    "enterpriseValue": 1026287680
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2014-12-31",
+    "stockPrice": 23.24,
+    "numberOfShares": 51561000,
+    "marketCapitalization": 1198277640,
+    "minusCashAndCashEquivalents": 139465000,
+    "addTotalDebt": 245245000,
+    "enterpriseValue": 1304057640
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2014-09-30",
+    "stockPrice": 26.84,
+    "numberOfShares": 51606000,
+    "marketCapitalization": 1385105040,
+    "minusCashAndCashEquivalents": 144150000,
+    "addTotalDebt": 235686000,
+    "enterpriseValue": 1476641040
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2014-06-30",
+    "stockPrice": 28.84,
+    "numberOfShares": 51655000,
+    "marketCapitalization": 1489730200,
+    "minusCashAndCashEquivalents": 160177000,
+    "addTotalDebt": 219869000,
+    "enterpriseValue": 1549422200
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2014-03-31",
+    "stockPrice": 29.98,
+    "numberOfShares": 51610000,
+    "marketCapitalization": 1547267800,
+    "minusCashAndCashEquivalents": 149620000,
+    "addTotalDebt": 212716000,
+    "enterpriseValue": 1610363800
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2013-12-31",
+    "stockPrice": 31.13,
+    "numberOfShares": 51573000,
+    "marketCapitalization": 1605467490,
+    "minusCashAndCashEquivalents": 196077000,
+    "addTotalDebt": 225109000,
+    "enterpriseValue": 1634499490
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2013-09-30",
+    "stockPrice": 25.48,
+    "numberOfShares": 51568000,
+    "marketCapitalization": 1313952640,
+    "minusCashAndCashEquivalents": 174034000,
+    "addTotalDebt": 222311000,
+    "enterpriseValue": 1362229640
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2013-06-30",
+    "stockPrice": 19.83,
+    "numberOfShares": 51562000,
+    "marketCapitalization": 1022474459,
+    "minusCashAndCashEquivalents": 113777000,
+    "addTotalDebt": 174432000,
+    "enterpriseValue": 1083129459
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2013-03-31",
+    "stockPrice": 22.54,
+    "numberOfShares": 51456000,
+    "marketCapitalization": 1159818240,
+    "minusCashAndCashEquivalents": 141527000,
+    "addTotalDebt": 165450000,
+    "enterpriseValue": 1183741240
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2012-12-31",
+    "stockPrice": 15.04,
+    "numberOfShares": 51403000,
+    "marketCapitalization": 773101120,
+    "minusCashAndCashEquivalents": 157551000,
+    "addTotalDebt": 155377000,
+    "enterpriseValue": 770927120
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2012-09-30",
+    "stockPrice": 13.3,
+    "numberOfShares": 51398000,
+    "marketCapitalization": 683593400,
+    "minusCashAndCashEquivalents": 76654000,
+    "addTotalDebt": 81705000,
+    "enterpriseValue": 688644400
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2012-06-30",
+    "stockPrice": 12,
+    "numberOfShares": 51435000,
+    "marketCapitalization": 617220000,
+    "minusCashAndCashEquivalents": 119286000,
+    "addTotalDebt": 86838000,
+    "enterpriseValue": 584772000
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2012-03-31",
+    "stockPrice": 16.06,
+    "numberOfShares": 51096000,
+    "marketCapitalization": 820601759,
+    "minusCashAndCashEquivalents": 134480000,
+    "addTotalDebt": 78028000,
+    "enterpriseValue": 764149759
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2011-12-31",
+    "stockPrice": 14.93,
+    "numberOfShares": 51059000,
+    "marketCapitalization": 762310870,
+    "minusCashAndCashEquivalents": 120306000,
+    "addTotalDebt": 240622000,
+    "enterpriseValue": 882626870
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2011-09-30",
+    "stockPrice": 10.46,
+    "numberOfShares": 51054000,
+    "marketCapitalization": 534024840,
+    "minusCashAndCashEquivalents": 95744000,
+    "addTotalDebt": 78489000,
+    "enterpriseValue": 516769840
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2011-06-30",
+    "stockPrice": 12.9,
+    "numberOfShares": 51044000,
+    "marketCapitalization": 658467600,
+    "minusCashAndCashEquivalents": 135289000,
+    "addTotalDebt": 252893000,
+    "enterpriseValue": 776071600
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2011-03-31",
+    "stockPrice": 10.14,
+    "numberOfShares": 49675000,
+    "marketCapitalization": 503704500,
+    "minusCashAndCashEquivalents": 131388000,
+    "addTotalDebt": 257812000,
+    "enterpriseValue": 630128500
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2010-12-31",
+    "stockPrice": 9.54,
+    "numberOfShares": 49279000,
+    "marketCapitalization": 470121659,
+    "minusCashAndCashEquivalents": 115437000,
+    "addTotalDebt": 308170000,
+    "enterpriseValue": 662854659
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2010-09-30",
+    "stockPrice": 6.54,
+    "numberOfShares": 44887000,
+    "marketCapitalization": 293560980,
+    "minusCashAndCashEquivalents": 81594000,
+    "addTotalDebt": 220087000,
+    "enterpriseValue": 432053980
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2010-06-30",
+    "stockPrice": 6.3,
+    "numberOfShares": 43163000,
+    "marketCapitalization": 271926900,
+    "minusCashAndCashEquivalents": 87283000,
+    "addTotalDebt": 223570000,
+    "enterpriseValue": 408213900
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2010-03-31",
+    "stockPrice": 7.74,
+    "numberOfShares": 33202000,
+    "marketCapitalization": 256983480,
+    "minusCashAndCashEquivalents": 83289000,
+    "addTotalDebt": 206676000,
+    "enterpriseValue": 380370480
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2009-12-31",
+    "stockPrice": 7.97,
+    "numberOfShares": 32651000,
+    "marketCapitalization": 260228470,
+    "minusCashAndCashEquivalents": 90004000,
+    "addTotalDebt": 99054000,
+    "enterpriseValue": 269278470
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2009-09-30",
+    "stockPrice": 7.21,
+    "numberOfShares": 32477000,
+    "marketCapitalization": 234159170,
+    "minusCashAndCashEquivalents": 80346000,
+    "addTotalDebt": 28788000,
+    "enterpriseValue": 182601170
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2009-06-30",
+    "stockPrice": 7.42,
+    "numberOfShares": 32477000,
+    "marketCapitalization": 240979340,
+    "minusCashAndCashEquivalents": 59781000,
+    "addTotalDebt": 32952000,
+    "enterpriseValue": 214150340
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2009-03-31",
+    "stockPrice": 3.89,
+    "numberOfShares": 30116000,
+    "marketCapitalization": 117151240,
+    "minusCashAndCashEquivalents": 59125000,
+    "addTotalDebt": 34895000,
+    "enterpriseValue": 92921240
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2008-12-31",
+    "stockPrice": 5.17,
+    "numberOfShares": 27824000,
+    "marketCapitalization": 143850080,
+    "minusCashAndCashEquivalents": 73018000,
+    "addTotalDebt": 34842000,
+    "enterpriseValue": 105674080
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2008-09-30",
+    "stockPrice": 7.7,
+    "numberOfShares": 27824000,
+    "marketCapitalization": 214244800,
+    "minusCashAndCashEquivalents": 76695000,
+    "addTotalDebt": 29787000,
+    "enterpriseValue": 167336800
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2008-06-30",
+    "stockPrice": 7.95,
+    "numberOfShares": 5265517,
+    "marketCapitalization": 41860860,
+    "minusCashAndCashEquivalents": 8827,
+    "addTotalDebt": 0,
+    "enterpriseValue": 41852033
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2008-03-31",
+    "stockPrice": 7.9,
+    "numberOfShares": 5265517,
+    "marketCapitalization": 41597584,
+    "minusCashAndCashEquivalents": 69123,
+    "addTotalDebt": 0,
+    "enterpriseValue": 41528461
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2007-12-31",
+    "stockPrice": 7.57,
+    "numberOfShares": 23587000,
+    "marketCapitalization": 178553590,
+    "minusCashAndCashEquivalents": 202007,
+    "addTotalDebt": 0,
+    "enterpriseValue": 178351583
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2007-09-30",
+    "stockPrice": 7.45,
+    "numberOfShares": 5265517,
+    "marketCapitalization": 39228101,
+    "minusCashAndCashEquivalents": 179392,
+    "addTotalDebt": 0,
+    "enterpriseValue": 39048709
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2007-06-30",
+    "stockPrice": 7.5,
+    "numberOfShares": 5265517,
+    "marketCapitalization": 39491377,
+    "minusCashAndCashEquivalents": 326823,
+    "addTotalDebt": 0,
+    "enterpriseValue": 39164554
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2007-03-31",
+    "stockPrice": 7.33,
+    "numberOfShares": 4856015,
+    "marketCapitalization": 35594589,
+    "minusCashAndCashEquivalents": 515240,
+    "addTotalDebt": 0,
+    "enterpriseValue": 35079349
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2006-12-31",
+    "stockPrice": 7.25,
+    "numberOfShares": 4856015,
+    "marketCapitalization": 35206108,
+    "minusCashAndCashEquivalents": 680702,
+    "addTotalDebt": 0,
+    "enterpriseValue": 34525406
+  },
+  {
+    "symbol": "PRIM",
+    "date": "2006-09-30",
+    "stockPrice": 7.1,
+    "numberOfShares": 1125000,
+    "marketCapitalization": 7987500,
+    "minusCashAndCashEquivalents": 13776,
+    "addTotalDebt": 90000,
+    "enterpriseValue": 8063724
+  }
+]

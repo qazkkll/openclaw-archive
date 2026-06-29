@@ -1,0 +1,922 @@
+[
+  {
+    "symbol": "DPZ",
+    "date": "2026-03-22",
+    "stockPrice": 366.8,
+    "numberOfShares": 33815000,
+    "marketCapitalization": 12403342000,
+    "minusCashAndCashEquivalents": 232922000,
+    "addTotalDebt": 5135773000,
+    "enterpriseValue": 17306193000
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2025-12-28",
+    "stockPrice": 421.25,
+    "numberOfShares": 34007071,
+    "marketCapitalization": 14325478658,
+    "minusCashAndCashEquivalents": 433985000,
+    "addTotalDebt": 5232201000,
+    "enterpriseValue": 19123694658
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2025-09-07",
+    "stockPrice": 466.11,
+    "numberOfShares": 33919706,
+    "marketCapitalization": 15810314163,
+    "minusCashAndCashEquivalents": 342229000,
+    "addTotalDebt": 5096878000,
+    "enterpriseValue": 20564963163
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2025-06-15",
+    "stockPrice": 454.45,
+    "numberOfShares": 34163399,
+    "marketCapitalization": 15525556675,
+    "minusCashAndCashEquivalents": 272859000,
+    "addTotalDebt": 5211578000,
+    "enterpriseValue": 20464275675
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2025-03-23",
+    "stockPrice": 466.04,
+    "numberOfShares": 34655676,
+    "marketCapitalization": 16150931243,
+    "minusCashAndCashEquivalents": 304320000,
+    "addTotalDebt": 5206500000,
+    "enterpriseValue": 21053111243
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2024-12-29",
+    "stockPrice": 420.72,
+    "numberOfShares": 34655676,
+    "marketCapitalization": 14580336006,
+    "minusCashAndCashEquivalents": 186126000,
+    "addTotalDebt": 5197241000,
+    "enterpriseValue": 19591451006
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2024-09-08",
+    "stockPrice": 420.16,
+    "numberOfShares": 34801086,
+    "marketCapitalization": 14622024293,
+    "minusCashAndCashEquivalents": 189084000,
+    "addTotalDebt": 5203420000,
+    "enterpriseValue": 19636360293
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2024-06-16",
+    "stockPrice": 532.16,
+    "numberOfShares": 34904786,
+    "marketCapitalization": 18574930917,
+    "minusCashAndCashEquivalents": 283699000,
+    "addTotalDebt": 5201998000,
+    "enterpriseValue": 23493229917
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2024-03-24",
+    "stockPrice": 465.11,
+    "numberOfShares": 34800310,
+    "marketCapitalization": 16185972184,
+    "minusCashAndCashEquivalents": 203894000,
+    "addTotalDebt": 5203311000,
+    "enterpriseValue": 21185389184
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2023-12-31",
+    "stockPrice": 412.23,
+    "numberOfShares": 34726182,
+    "marketCapitalization": 14315174005,
+    "minusCashAndCashEquivalents": 114098000,
+    "addTotalDebt": 5209306000,
+    "enterpriseValue": 19410382005
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2023-09-10",
+    "stockPrice": 394.9,
+    "numberOfShares": 35030660,
+    "marketCapitalization": 13833607634,
+    "minusCashAndCashEquivalents": 80879000,
+    "addTotalDebt": 5209447000,
+    "enterpriseValue": 18962175634
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2023-06-18",
+    "stockPrice": 331.41,
+    "numberOfShares": 35199067,
+    "marketCapitalization": 11665322794,
+    "minusCashAndCashEquivalents": 77020000,
+    "addTotalDebt": 5226728000,
+    "enterpriseValue": 16815030794
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2023-03-26",
+    "stockPrice": 322.22,
+    "numberOfShares": 35391624,
+    "marketCapitalization": 11403889085,
+    "minusCashAndCashEquivalents": 154193000,
+    "addTotalDebt": 5241496000,
+    "enterpriseValue": 16491192085
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2022-12-31",
+    "stockPrice": 346.4,
+    "numberOfShares": 35419718,
+    "marketCapitalization": 12269390315,
+    "minusCashAndCashEquivalents": 60356000,
+    "addTotalDebt": 5252354000,
+    "enterpriseValue": 17461388315
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2022-09-11",
+    "stockPrice": 364.44,
+    "numberOfShares": 35692744,
+    "marketCapitalization": 13007863623,
+    "minusCashAndCashEquivalents": 114776000,
+    "addTotalDebt": 5384150000,
+    "enterpriseValue": 18277237623
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2022-06-19",
+    "stockPrice": 379.17,
+    "numberOfShares": 35915102,
+    "marketCapitalization": 13617929225,
+    "minusCashAndCashEquivalents": 114353000,
+    "addTotalDebt": 5281588000,
+    "enterpriseValue": 18785164225
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2022-03-27",
+    "stockPrice": 399.07,
+    "numberOfShares": 36000896,
+    "marketCapitalization": 14366877566,
+    "minusCashAndCashEquivalents": 164962000,
+    "addTotalDebt": 5277477000,
+    "enterpriseValue": 19479392566
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2021-12-31",
+    "stockPrice": 564.33,
+    "numberOfShares": 36138273,
+    "marketCapitalization": 20393911602,
+    "minusCashAndCashEquivalents": 148160000,
+    "addTotalDebt": 5291852000,
+    "enterpriseValue": 25537603602
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2021-09-12",
+    "stockPrice": 511.1,
+    "numberOfShares": 36627660,
+    "marketCapitalization": 18720397026,
+    "minusCashAndCashEquivalents": 295352000,
+    "addTotalDebt": 5299668000,
+    "enterpriseValue": 23724713026
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2021-06-20",
+    "stockPrice": 459.46,
+    "numberOfShares": 37590369,
+    "marketCapitalization": 17271270940,
+    "minusCashAndCashEquivalents": 292095000,
+    "addTotalDebt": 5314002000,
+    "enterpriseValue": 22293177940
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2021-03-28",
+    "stockPrice": 372.08,
+    "numberOfShares": 38700225,
+    "marketCapitalization": 14399579718,
+    "minusCashAndCashEquivalents": 267719000,
+    "addTotalDebt": 4354487000,
+    "enterpriseValue": 18486347718
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2020-12-31",
+    "stockPrice": 383.46,
+    "numberOfShares": 38868350,
+    "marketCapitalization": 14904457491,
+    "minusCashAndCashEquivalents": 168821000,
+    "addTotalDebt": 4357002000,
+    "enterpriseValue": 19092638491
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2020-09-06",
+    "stockPrice": 381.81,
+    "numberOfShares": 39246231,
+    "marketCapitalization": 14984603458,
+    "minusCashAndCashEquivalents": 330719000,
+    "addTotalDebt": 4344326000,
+    "enterpriseValue": 18998210458
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2020-06-14",
+    "stockPrice": 377.92,
+    "numberOfShares": 39058292,
+    "marketCapitalization": 14760909712,
+    "minusCashAndCashEquivalents": 247952000,
+    "addTotalDebt": 4407326000,
+    "enterpriseValue": 18920283712
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2020-03-22",
+    "stockPrice": 323.87,
+    "numberOfShares": 38665924,
+    "marketCapitalization": 12522732805,
+    "minusCashAndCashEquivalents": 200801000,
+    "addTotalDebt": 4340806000,
+    "enterpriseValue": 16662737805
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2019-12-31",
+    "stockPrice": 293.78,
+    "numberOfShares": 38934009,
+    "marketCapitalization": 11438033164,
+    "minusCashAndCashEquivalents": 190615000,
+    "addTotalDebt": 4350498000,
+    "enterpriseValue": 15597916164
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2019-09-08",
+    "stockPrice": 239.2,
+    "numberOfShares": 40954279,
+    "marketCapitalization": 9796263536,
+    "minusCashAndCashEquivalents": 66706000,
+    "addTotalDebt": 3677367000,
+    "enterpriseValue": 13406924536
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2019-06-16",
+    "stockPrice": 282,
+    "numberOfShares": 41023269,
+    "marketCapitalization": 11568561858,
+    "minusCashAndCashEquivalents": 108259000,
+    "addTotalDebt": 3669368000,
+    "enterpriseValue": 15129670858
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2019-03-24",
+    "stockPrice": 242.56,
+    "numberOfShares": 40865532,
+    "marketCapitalization": 9912343441,
+    "minusCashAndCashEquivalents": 83114000,
+    "addTotalDebt": 3713989000,
+    "enterpriseValue": 13543218441
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2018-12-31",
+    "stockPrice": 247.99,
+    "numberOfShares": 40977561,
+    "marketCapitalization": 10162025352,
+    "minusCashAndCashEquivalents": 25438000,
+    "addTotalDebt": 3531584000,
+    "enterpriseValue": 13668171352
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2018-09-09",
+    "stockPrice": 293.78,
+    "numberOfShares": 41585933,
+    "marketCapitalization": 12217115396,
+    "minusCashAndCashEquivalents": 84600000,
+    "addTotalDebt": 3473479000,
+    "enterpriseValue": 15605994396
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2018-06-17",
+    "stockPrice": 281.73,
+    "numberOfShares": 42044035,
+    "marketCapitalization": 11845065980,
+    "minusCashAndCashEquivalents": 157788000,
+    "addTotalDebt": 3472564000,
+    "enterpriseValue": 15159841980
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2018-03-25",
+    "stockPrice": 231.28,
+    "numberOfShares": 42625881,
+    "marketCapitalization": 9858513757,
+    "minusCashAndCashEquivalents": 44609000,
+    "addTotalDebt": 3149535000,
+    "enterpriseValue": 12963439757
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2017-12-31",
+    "stockPrice": 188.96,
+    "numberOfShares": 42898329,
+    "marketCapitalization": 8106068247,
+    "minusCashAndCashEquivalents": 35768000,
+    "addTotalDebt": 3153814000,
+    "enterpriseValue": 11224114247
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2017-09-10",
+    "stockPrice": 189.02,
+    "numberOfShares": 46034807,
+    "marketCapitalization": 8701499219,
+    "minusCashAndCashEquivalents": 61360000,
+    "addTotalDebt": 3160361000,
+    "enterpriseValue": 11800500219
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2017-06-18",
+    "stockPrice": 215.73,
+    "numberOfShares": 48247144,
+    "marketCapitalization": 10408356375,
+    "minusCashAndCashEquivalents": 52243000,
+    "addTotalDebt": 2180823000,
+    "enterpriseValue": 12536936375
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2017-03-26",
+    "stockPrice": 183.95,
+    "numberOfShares": 47839847,
+    "marketCapitalization": 8800139855,
+    "minusCashAndCashEquivalents": 52094000,
+    "addTotalDebt": 2179558000,
+    "enterpriseValue": 10927603855
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2016-12-31",
+    "stockPrice": 159.24,
+    "numberOfShares": 48100143,
+    "marketCapitalization": 7659466771,
+    "minusCashAndCashEquivalents": 42815000,
+    "addTotalDebt": 2187877000,
+    "enterpriseValue": 9804528771
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2016-09-11",
+    "stockPrice": 150.21,
+    "numberOfShares": 48043379,
+    "marketCapitalization": 7216595959,
+    "minusCashAndCashEquivalents": 29981000,
+    "addTotalDebt": 2230761000,
+    "enterpriseValue": 9417375959
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2016-06-19",
+    "stockPrice": 127.49,
+    "numberOfShares": 48336512,
+    "marketCapitalization": 6162421914,
+    "minusCashAndCashEquivalents": 22305000,
+    "addTotalDebt": 2214047000,
+    "enterpriseValue": 8354163914
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2016-03-27",
+    "stockPrice": 129.15,
+    "numberOfShares": 49697494,
+    "marketCapitalization": 6418431350,
+    "minusCashAndCashEquivalents": 178252000,
+    "addTotalDebt": 2214996000,
+    "enterpriseValue": 8455175350
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2015-12-31",
+    "stockPrice": 111.25,
+    "numberOfShares": 49838221,
+    "marketCapitalization": 5544502086,
+    "minusCashAndCashEquivalents": 133449000,
+    "addTotalDebt": 2240793000,
+    "enterpriseValue": 7651846086
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2015-09-06",
+    "stockPrice": 105.5,
+    "numberOfShares": 54463073,
+    "marketCapitalization": 5745854201,
+    "minusCashAndCashEquivalents": 32506000,
+    "addTotalDebt": 1527920000,
+    "enterpriseValue": 7241268201
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2015-06-14",
+    "stockPrice": 110.81,
+    "numberOfShares": 54833094,
+    "marketCapitalization": 6076055146,
+    "minusCashAndCashEquivalents": 25891000,
+    "addTotalDebt": 1527398000,
+    "enterpriseValue": 7577562146
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2015-03-22",
+    "stockPrice": 104.02,
+    "numberOfShares": 55360858,
+    "marketCapitalization": 5758636449,
+    "minusCashAndCashEquivalents": 74991000,
+    "addTotalDebt": 1527436000,
+    "enterpriseValue": 7211081449
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2014-12-31",
+    "stockPrice": 94.17,
+    "numberOfShares": 55553149,
+    "marketCapitalization": 5231440041,
+    "minusCashAndCashEquivalents": 30855000,
+    "addTotalDebt": 1524111000,
+    "enterpriseValue": 6724696041
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2014-09-07",
+    "stockPrice": 76.06,
+    "numberOfShares": 54620539,
+    "marketCapitalization": 4154438196,
+    "minusCashAndCashEquivalents": 30936000,
+    "addTotalDebt": 1524289000,
+    "enterpriseValue": 5647791196
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2014-06-15",
+    "stockPrice": 72.18,
+    "numberOfShares": 55015394,
+    "marketCapitalization": 3971011138,
+    "minusCashAndCashEquivalents": 15304000,
+    "addTotalDebt": 1524420000,
+    "enterpriseValue": 5480127138
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2014-03-23",
+    "stockPrice": 76.84,
+    "numberOfShares": 55211837,
+    "marketCapitalization": 4242477555,
+    "minusCashAndCashEquivalents": 38376000,
+    "addTotalDebt": 1530411000,
+    "enterpriseValue": 5734512555
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2013-12-31",
+    "stockPrice": 69.65,
+    "numberOfShares": 55768672,
+    "marketCapitalization": 3884288004,
+    "minusCashAndCashEquivalents": 14383000,
+    "addTotalDebt": 1536443000,
+    "enterpriseValue": 5406348004
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2013-09-08",
+    "stockPrice": 63.04,
+    "numberOfShares": 55065450,
+    "marketCapitalization": 3471325968,
+    "minusCashAndCashEquivalents": 32079000,
+    "addTotalDebt": 1542523000,
+    "enterpriseValue": 4981769968
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2013-06-16",
+    "stockPrice": 59.55,
+    "numberOfShares": 55468971,
+    "marketCapitalization": 3303177223,
+    "minusCashAndCashEquivalents": 40838000,
+    "addTotalDebt": 1548573000,
+    "enterpriseValue": 4810912223
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2013-03-24",
+    "stockPrice": 51.11,
+    "numberOfShares": 55746790,
+    "marketCapitalization": 2849218436,
+    "minusCashAndCashEquivalents": 75081000,
+    "addTotalDebt": 1554622000,
+    "enterpriseValue": 4328759436
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2012-12-31",
+    "stockPrice": 43.55,
+    "numberOfShares": 55913434,
+    "marketCapitalization": 2435030050,
+    "minusCashAndCashEquivalents": 54813000,
+    "addTotalDebt": 1560792000,
+    "enterpriseValue": 3941009050
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2012-09-09",
+    "stockPrice": 36.09,
+    "numberOfShares": 56846578,
+    "marketCapitalization": 2051593000,
+    "minusCashAndCashEquivalents": 34550000,
+    "addTotalDebt": 1566966000,
+    "enterpriseValue": 3584009000
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2012-06-17",
+    "stockPrice": 29.72,
+    "numberOfShares": 56724754,
+    "marketCapitalization": 1685859688,
+    "minusCashAndCashEquivalents": 10750000,
+    "addTotalDebt": 1608693000,
+    "enterpriseValue": 3283802688
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2012-03-25",
+    "stockPrice": 36.62,
+    "numberOfShares": 56957875,
+    "marketCapitalization": 2085797382,
+    "minusCashAndCashEquivalents": 214730000,
+    "addTotalDebt": 1609813000,
+    "enterpriseValue": 3480880382
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2011-12-31",
+    "stockPrice": 33.95,
+    "numberOfShares": 56660502,
+    "marketCapitalization": 1923624042,
+    "minusCashAndCashEquivalents": 50292000,
+    "addTotalDebt": 1451273000,
+    "enterpriseValue": 3324605042
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2011-09-11",
+    "stockPrice": 26.39,
+    "numberOfShares": 58245320,
+    "marketCapitalization": 1537093994,
+    "minusCashAndCashEquivalents": 32080000,
+    "addTotalDebt": 1451562000,
+    "enterpriseValue": 2956575994
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2011-06-19",
+    "stockPrice": 24.07,
+    "numberOfShares": 60428350,
+    "marketCapitalization": 1454510384,
+    "minusCashAndCashEquivalents": 78639000,
+    "addTotalDebt": 1483598000,
+    "enterpriseValue": 2859469384
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2011-03-27",
+    "stockPrice": 18.05,
+    "numberOfShares": 59410513,
+    "marketCapitalization": 1072359759,
+    "minusCashAndCashEquivalents": 92584000,
+    "addTotalDebt": 1479199000,
+    "enterpriseValue": 2458974759
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2010-12-31",
+    "stockPrice": 15.95,
+    "numberOfShares": 59207896,
+    "marketCapitalization": 944365941,
+    "minusCashAndCashEquivalents": 47945000,
+    "addTotalDebt": 1452156000,
+    "enterpriseValue": 2348576941
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2010-09-12",
+    "stockPrice": 13.98,
+    "numberOfShares": 58466720,
+    "marketCapitalization": 817364745,
+    "minusCashAndCashEquivalents": 39195000,
+    "addTotalDebt": 1475694000,
+    "enterpriseValue": 2253863745
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2010-06-20",
+    "stockPrice": 12.36,
+    "numberOfShares": 58221492,
+    "marketCapitalization": 719617641,
+    "minusCashAndCashEquivalents": 28980000,
+    "addTotalDebt": 1495095000,
+    "enterpriseValue": 2185732641
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2010-03-28",
+    "stockPrice": 13.78,
+    "numberOfShares": 58804238,
+    "marketCapitalization": 810322399,
+    "minusCashAndCashEquivalents": 27990000,
+    "addTotalDebt": 1537834000,
+    "enterpriseValue": 2320166399
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2009-12-31",
+    "stockPrice": 8.38,
+    "numberOfShares": 57807788,
+    "marketCapitalization": 484429263,
+    "minusCashAndCashEquivalents": 42392000,
+    "addTotalDebt": 1597949000,
+    "enterpriseValue": 2039986263
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2009-09-06",
+    "stockPrice": 8.07,
+    "numberOfShares": 57499085,
+    "marketCapitalization": 464017615,
+    "minusCashAndCashEquivalents": 48729000,
+    "addTotalDebt": 1672582000,
+    "enterpriseValue": 2087870615
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2009-06-14",
+    "stockPrice": 7.72,
+    "numberOfShares": 57027733,
+    "marketCapitalization": 440254098,
+    "minusCashAndCashEquivalents": 61695000,
+    "addTotalDebt": 1684333000,
+    "enterpriseValue": 2062892098
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2009-03-22",
+    "stockPrice": 6.72,
+    "numberOfShares": 57027733,
+    "marketCapitalization": 383226365,
+    "minusCashAndCashEquivalents": 67851000,
+    "addTotalDebt": 1682797000,
+    "enterpriseValue": 1998172365
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2008-12-31",
+    "stockPrice": 4.71,
+    "numberOfShares": 56456138,
+    "marketCapitalization": 265908409,
+    "minusCashAndCashEquivalents": 45372000,
+    "addTotalDebt": 1704784000,
+    "enterpriseValue": 1925320409
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2008-09-07",
+    "stockPrice": 13.5,
+    "numberOfShares": 57079022,
+    "marketCapitalization": 770566797,
+    "minusCashAndCashEquivalents": 20126000,
+    "addTotalDebt": 1704888000,
+    "enterpriseValue": 2455328797
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2008-06-15",
+    "stockPrice": 12.86,
+    "numberOfShares": 58531250,
+    "marketCapitalization": 752711875,
+    "minusCashAndCashEquivalents": 37042000,
+    "addTotalDebt": 1704962000,
+    "enterpriseValue": 2420631875
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2008-03-23",
+    "stockPrice": 14.92,
+    "numberOfShares": 59403681,
+    "marketCapitalization": 886302920,
+    "minusCashAndCashEquivalents": 3325000,
+    "addTotalDebt": 1705011000,
+    "enterpriseValue": 2587988920
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2007-12-31",
+    "stockPrice": 13.23,
+    "numberOfShares": 60656243,
+    "marketCapitalization": 802482094,
+    "minusCashAndCashEquivalents": 11344000,
+    "addTotalDebt": 1720083000,
+    "enterpriseValue": 2511221094
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2007-09-09",
+    "stockPrice": 16.84,
+    "numberOfShares": 61061111,
+    "marketCapitalization": 1028269109,
+    "minusCashAndCashEquivalents": 114917000,
+    "addTotalDebt": 1705178000,
+    "enterpriseValue": 2618530109
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2007-06-17",
+    "stockPrice": 18.63,
+    "numberOfShares": 57925000,
+    "marketCapitalization": 1079142750,
+    "minusCashAndCashEquivalents": 93300000,
+    "addTotalDebt": 1710282000,
+    "enterpriseValue": 2696124750
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2007-03-25",
+    "stockPrice": 32,
+    "numberOfShares": 62569414,
+    "marketCapitalization": 2002221248,
+    "minusCashAndCashEquivalents": 67106000,
+    "addTotalDebt": 785680000,
+    "enterpriseValue": 2720795248
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2006-12-31",
+    "stockPrice": 28,
+    "numberOfShares": 61780751,
+    "marketCapitalization": 1729861028,
+    "minusCashAndCashEquivalents": 38222000,
+    "addTotalDebt": 741597000,
+    "enterpriseValue": 2433236028
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2006-09-10",
+    "stockPrice": 24.48,
+    "numberOfShares": 62882051,
+    "marketCapitalization": 1539352608,
+    "minusCashAndCashEquivalents": 11043000,
+    "addTotalDebt": 740935000,
+    "enterpriseValue": 2269244608
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2006-06-18",
+    "stockPrice": 22.97,
+    "numberOfShares": 61265000,
+    "marketCapitalization": 1407257050,
+    "minusCashAndCashEquivalents": 23712000,
+    "addTotalDebt": 788762000,
+    "enterpriseValue": 2172307050
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2006-03-26",
+    "stockPrice": 28.33,
+    "numberOfShares": 66219407,
+    "marketCapitalization": 1875995800,
+    "minusCashAndCashEquivalents": 16372000,
+    "addTotalDebt": 801198000,
+    "enterpriseValue": 2660821800
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2005-12-31",
+    "stockPrice": 24.2,
+    "numberOfShares": 66219407,
+    "marketCapitalization": 1602509649,
+    "minusCashAndCashEquivalents": 66919000,
+    "addTotalDebt": 737662000,
+    "enterpriseValue": 2273252649
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2005-09-11",
+    "stockPrice": 23.65,
+    "numberOfShares": 67148387,
+    "marketCapitalization": 1588059352,
+    "minusCashAndCashEquivalents": 21902000,
+    "addTotalDebt": 755201000,
+    "enterpriseValue": 2321358352
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2005-06-19",
+    "stockPrice": 22.88,
+    "numberOfShares": 65002778,
+    "marketCapitalization": 1487263560,
+    "minusCashAndCashEquivalents": 10504000,
+    "addTotalDebt": 770672000,
+    "enterpriseValue": 2247431560
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2005-03-27",
+    "stockPrice": 18.3,
+    "numberOfShares": 68922555,
+    "marketCapitalization": 1261282756,
+    "minusCashAndCashEquivalents": 53233000,
+    "addTotalDebt": 751873000,
+    "enterpriseValue": 1959922756
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2004-12-31",
+    "stockPrice": 17.8,
+    "numberOfShares": 68686585,
+    "marketCapitalization": 1222621213,
+    "minusCashAndCashEquivalents": 40396000,
+    "addTotalDebt": 780700000,
+    "enterpriseValue": 1962925213
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2004-09-05",
+    "stockPrice": 14,
+    "numberOfShares": 36315319,
+    "marketCapitalization": 508414466,
+    "minusCashAndCashEquivalents": 20223000,
+    "addTotalDebt": 804321000,
+    "enterpriseValue": 1292512466
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2004-06-13",
+    "stockPrice": 13.5,
+    "numberOfShares": 36315154,
+    "marketCapitalization": 490254579,
+    "minusCashAndCashEquivalents": 51303000,
+    "addTotalDebt": 929211000,
+    "enterpriseValue": 1368162579
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2004-03-31",
+    "stockPrice": 13.5,
+    "numberOfShares": 63475862,
+    "marketCapitalization": 856924137,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 856924137
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2003-12-31",
+    "stockPrice": 13.5,
+    "numberOfShares": 28114595,
+    "marketCapitalization": 379547032,
+    "minusCashAndCashEquivalents": 42852000,
+    "addTotalDebt": 959737000,
+    "enterpriseValue": 1296432032
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2003-09-30",
+    "stockPrice": 13.5,
+    "numberOfShares": 28114595,
+    "marketCapitalization": 379547032,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 379547032
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2003-05-31",
+    "stockPrice": 13.5,
+    "numberOfShares": 257640000,
+    "marketCapitalization": 3478140000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3478140000
+  }
+]

@@ -153,12 +153,7 @@ import xgboost as xgb
 
 if os.path.exists(MODEL_PATH):
     print(f"  Loading model from {MODEL_PATH}")
-    model = xgb.XGBRegressor(
-        n_estimators=150, max_depth=5, learning_rate=0.05,
-        subsample=0.8, colsample_bytree=0.8,
-        reg_alpha=0.1, reg_lambda=1.0,
-        random_state=42, n_jobs=4, verbosity=0
-    )
+    model = xgb.Booster()
     model.load_model(MODEL_PATH)
 else:
     print("  ERROR: No model file found!")
@@ -194,7 +189,8 @@ else:
 
 # Always predict and rank (never block)
 X_today = today_data[FEATURE_COLS].fillna(0)
-today_data['score'] = model.predict(X_today)
+dtest = xgb.DMatrix(X_today)
+today_data['score'] = model.predict(dtest)
 today_data = today_data[
     (today_data['close'] >= 3) & (today_data['close'] <= 200) &
     (today_data['volume'] > 0)

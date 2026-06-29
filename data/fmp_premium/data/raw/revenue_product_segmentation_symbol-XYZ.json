@@ -1,0 +1,51 @@
+[
+  {
+    "symbol": "XYZ",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Financial Solutions": 4176734000
+    }
+  },
+  {
+    "symbol": "XYZ",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Software and Data Products": 7164799000,
+      "Cryptocurrency Denominated Assets": 10199205000,
+      "Hardware": 143369000,
+      "Transaction": 6613680000
+    }
+  },
+  {
+    "symbol": "XYZ",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Software and Data Products": 5944842000,
+      "Cryptocurrency Denominated Assets": 9498302000,
+      "Hardware": 157178000,
+      "Transaction": 6315301000
+    }
+  },
+  {
+    "symbol": "XYZ",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Software and Data Products": 4552773000,
+      "Cryptocurrency Denominated Assets": 7112856000,
+      "Hardware": 164418000,
+      "Transaction": 5701540000
+    }
+  }
+]

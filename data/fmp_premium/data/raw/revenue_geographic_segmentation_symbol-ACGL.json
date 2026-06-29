@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "ACGL",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Insurance Segment": 7771000000,
+      "Mortgage Segment": 1172000000,
+      "Reinsurance Segment": 8122000000
+    }
+  },
+  {
+    "symbol": "ACGL",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Insurance Segment": 5446000000,
+      "Mortgage Segment": 1158000000,
+      "Reinsurance Segment": 5836000000
+    }
+  },
+  {
+    "symbol": "ACGL",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Insurance Segment": 4559335000,
+      "Mortgage Segment": 1159361000,
+      "Reinsurance Segment": 3959381000
+    }
+  }
+]

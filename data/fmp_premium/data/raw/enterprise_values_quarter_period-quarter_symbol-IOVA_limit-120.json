@@ -1,0 +1,732 @@
+[
+  {
+    "symbol": "IOVA",
+    "date": "2026-03-31",
+    "stockPrice": 3.51,
+    "numberOfShares": 418511000,
+    "marketCapitalization": 1468973610,
+    "minusCashAndCashEquivalents": 196508000,
+    "addTotalDebt": 46776000,
+    "enterpriseValue": 1319241610
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2025-12-31",
+    "stockPrice": 2.73,
+    "numberOfShares": 406966000,
+    "marketCapitalization": 1111017180,
+    "minusCashAndCashEquivalents": 163078000,
+    "addTotalDebt": 48444000,
+    "enterpriseValue": 996383180
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2025-09-30",
+    "stockPrice": 2.17,
+    "numberOfShares": 364037000,
+    "marketCapitalization": 789960290,
+    "minusCashAndCashEquivalents": 158134000,
+    "addTotalDebt": 52492000,
+    "enterpriseValue": 684318290
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2025-06-30",
+    "stockPrice": 1.72,
+    "numberOfShares": 334511000,
+    "marketCapitalization": 575358920,
+    "minusCashAndCashEquivalents": 132469000,
+    "addTotalDebt": 53166000,
+    "enterpriseValue": 496055920
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2025-03-31",
+    "stockPrice": 3.33,
+    "numberOfShares": 322868000,
+    "marketCapitalization": 1075150440,
+    "minusCashAndCashEquivalents": 171668000,
+    "addTotalDebt": 53719000,
+    "enterpriseValue": 957201440
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2024-12-31",
+    "stockPrice": 7.4,
+    "numberOfShares": 304890000,
+    "marketCapitalization": 2256186000,
+    "minusCashAndCashEquivalents": 115694000,
+    "addTotalDebt": 58261000,
+    "enterpriseValue": 2198753000
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2024-09-30",
+    "stockPrice": 9.39,
+    "numberOfShares": 303269000,
+    "marketCapitalization": 2847695910,
+    "minusCashAndCashEquivalents": 164186000,
+    "addTotalDebt": 78940000,
+    "enterpriseValue": 2762449910
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2024-06-30",
+    "stockPrice": 8.06,
+    "numberOfShares": 284817000,
+    "marketCapitalization": 2295625020,
+    "minusCashAndCashEquivalents": 228752000,
+    "addTotalDebt": 81682000,
+    "enterpriseValue": 2148555020
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2024-03-31",
+    "stockPrice": 14.19,
+    "numberOfShares": 266220000,
+    "marketCapitalization": 3777661800,
+    "minusCashAndCashEquivalents": 134188000,
+    "addTotalDebt": 84369000,
+    "enterpriseValue": 3727842800
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2023-12-31",
+    "stockPrice": 8.13,
+    "numberOfShares": 255951000,
+    "marketCapitalization": 2080881630,
+    "minusCashAndCashEquivalents": 114888000,
+    "addTotalDebt": 75862000,
+    "enterpriseValue": 2041855630
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2023-09-30",
+    "stockPrice": 4.55,
+    "numberOfShares": 245817000,
+    "marketCapitalization": 1118467350,
+    "minusCashAndCashEquivalents": 267720000,
+    "addTotalDebt": 79477000,
+    "enterpriseValue": 930224350
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2023-06-30",
+    "stockPrice": 7.04,
+    "numberOfShares": 224481000,
+    "marketCapitalization": 1580346240,
+    "minusCashAndCashEquivalents": 230010000,
+    "addTotalDebt": 80710000,
+    "enterpriseValue": 1431046240
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2023-03-31",
+    "stockPrice": 6.11,
+    "numberOfShares": 213694000,
+    "marketCapitalization": 1305670340,
+    "minusCashAndCashEquivalents": 543484000,
+    "addTotalDebt": 83226000,
+    "enterpriseValue": 845412340
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2022-12-31",
+    "stockPrice": 6.39,
+    "numberOfShares": 164765000,
+    "marketCapitalization": 1052848350,
+    "minusCashAndCashEquivalents": 231731000,
+    "addTotalDebt": 85446000,
+    "enterpriseValue": 906563350
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2022-09-30",
+    "stockPrice": 9.58,
+    "numberOfShares": 157817000,
+    "marketCapitalization": 1511886860,
+    "minusCashAndCashEquivalents": 118366000,
+    "addTotalDebt": 80114000,
+    "enterpriseValue": 1473634860
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2022-06-30",
+    "stockPrice": 11.04,
+    "numberOfShares": 157274000,
+    "marketCapitalization": 1736304959,
+    "minusCashAndCashEquivalents": 108075000,
+    "addTotalDebt": 80479000,
+    "enterpriseValue": 1708708959
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2022-03-31",
+    "stockPrice": 16.65,
+    "numberOfShares": 157113000,
+    "marketCapitalization": 2615931450,
+    "minusCashAndCashEquivalents": 92360000,
+    "addTotalDebt": 79894000,
+    "enterpriseValue": 2603465450
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2021-12-31",
+    "stockPrice": 19.09,
+    "numberOfShares": 156923000,
+    "marketCapitalization": 2995660070,
+    "minusCashAndCashEquivalents": 78229000,
+    "addTotalDebt": 71531000,
+    "enterpriseValue": 2988962070
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2021-09-30",
+    "stockPrice": 24.66,
+    "numberOfShares": 155508000,
+    "marketCapitalization": 3834827280,
+    "minusCashAndCashEquivalents": 58590000,
+    "addTotalDebt": 72345000,
+    "enterpriseValue": 3848582280
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2021-06-30",
+    "stockPrice": 26.02,
+    "numberOfShares": 153751000,
+    "marketCapitalization": 4000601020,
+    "minusCashAndCashEquivalents": 82763000,
+    "addTotalDebt": 52271000,
+    "enterpriseValue": 3970109020
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2021-03-31",
+    "stockPrice": 31.66,
+    "numberOfShares": 147370000,
+    "marketCapitalization": 4665734200,
+    "minusCashAndCashEquivalents": 131954000,
+    "addTotalDebt": 53999000,
+    "enterpriseValue": 4587779200
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2020-12-31",
+    "stockPrice": 46.4,
+    "numberOfShares": 146492000,
+    "marketCapitalization": 6797228800,
+    "minusCashAndCashEquivalents": 67329000,
+    "addTotalDebt": 51659000,
+    "enterpriseValue": 6781558800
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2020-09-30",
+    "stockPrice": 32.92,
+    "numberOfShares": 146492000,
+    "marketCapitalization": 4822516640,
+    "minusCashAndCashEquivalents": 68310000,
+    "addTotalDebt": 10907000,
+    "enterpriseValue": 4765113640
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2020-06-30",
+    "stockPrice": 27.45,
+    "numberOfShares": 133162000,
+    "marketCapitalization": 3655296900,
+    "minusCashAndCashEquivalents": 160614000,
+    "addTotalDebt": 7874000,
+    "enterpriseValue": 3502556900
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2020-03-31",
+    "stockPrice": 29.94,
+    "numberOfShares": 126568000,
+    "marketCapitalization": 3789445920,
+    "minusCashAndCashEquivalents": 52540000,
+    "addTotalDebt": 9519000,
+    "enterpriseValue": 3746424920
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2019-12-31",
+    "stockPrice": 27.68,
+    "numberOfShares": 126273000,
+    "marketCapitalization": 3495236640,
+    "minusCashAndCashEquivalents": 13969000,
+    "addTotalDebt": 11500000,
+    "enterpriseValue": 3492767640
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2019-09-30",
+    "stockPrice": 18.2,
+    "numberOfShares": 124035000,
+    "marketCapitalization": 2257437000,
+    "minusCashAndCashEquivalents": 38889000,
+    "addTotalDebt": 14387000,
+    "enterpriseValue": 2232935000
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2019-06-30",
+    "stockPrice": 24.62,
+    "numberOfShares": 123567000,
+    "marketCapitalization": 3042219540,
+    "minusCashAndCashEquivalents": 76912000,
+    "addTotalDebt": 12097000,
+    "enterpriseValue": 2977404540
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2019-03-31",
+    "stockPrice": 9.78,
+    "numberOfShares": 123415000,
+    "marketCapitalization": 1206998700,
+    "minusCashAndCashEquivalents": 54093000,
+    "addTotalDebt": 10439000,
+    "enterpriseValue": 1163344700
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2018-12-31",
+    "stockPrice": 8.85,
+    "numberOfShares": 119085000,
+    "marketCapitalization": 1053902250,
+    "minusCashAndCashEquivalents": 82152000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 971750250
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2018-09-30",
+    "stockPrice": 11.12,
+    "numberOfShares": 95077000,
+    "marketCapitalization": 1057256239,
+    "minusCashAndCashEquivalents": 80738000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 976518239
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2018-06-30",
+    "stockPrice": 12.8,
+    "numberOfShares": 90236000,
+    "marketCapitalization": 1155020800,
+    "minusCashAndCashEquivalents": 246017000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 909003800
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2018-03-31",
+    "stockPrice": 16.9,
+    "numberOfShares": 84350000,
+    "marketCapitalization": 1425514999,
+    "minusCashAndCashEquivalents": 297082000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1128432999
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2017-12-31",
+    "stockPrice": 8,
+    "numberOfShares": 72794000,
+    "marketCapitalization": 582352000,
+    "minusCashAndCashEquivalents": 145373000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 436979000
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2017-09-30",
+    "stockPrice": 7.75,
+    "numberOfShares": 63332000,
+    "marketCapitalization": 490823000,
+    "minusCashAndCashEquivalents": 163380000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 327443000
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2017-06-30",
+    "stockPrice": 7.35,
+    "numberOfShares": 62457000,
+    "marketCapitalization": 459058950,
+    "minusCashAndCashEquivalents": 114285000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 344773950
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2017-03-31",
+    "stockPrice": 7.45,
+    "numberOfShares": 62286000,
+    "marketCapitalization": 464030700,
+    "minusCashAndCashEquivalents": 147197000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 316833700
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2016-12-31",
+    "stockPrice": 6.95,
+    "numberOfShares": 62130000,
+    "marketCapitalization": 431803500,
+    "minusCashAndCashEquivalents": 166470000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 265333500
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2016-09-30",
+    "stockPrice": 8.23,
+    "numberOfShares": 59113000,
+    "marketCapitalization": 486499990,
+    "minusCashAndCashEquivalents": 92895000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 393604990
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2016-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 51082000,
+    "marketCapitalization": 413764200,
+    "minusCashAndCashEquivalents": 101222000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 312542200
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2016-03-31",
+    "stockPrice": 5.08,
+    "numberOfShares": 48548000,
+    "marketCapitalization": 246623840,
+    "minusCashAndCashEquivalents": 8943000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 237680840
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2015-12-31",
+    "stockPrice": 7.72,
+    "numberOfShares": 44410000,
+    "marketCapitalization": 342845200,
+    "minusCashAndCashEquivalents": 103700000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 239145200
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2015-09-30",
+    "stockPrice": 5.76,
+    "numberOfShares": 47272000,
+    "marketCapitalization": 272286720,
+    "minusCashAndCashEquivalents": 10210000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 262076720
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2015-06-30",
+    "stockPrice": 9.17,
+    "numberOfShares": 45082000,
+    "marketCapitalization": 413401940,
+    "minusCashAndCashEquivalents": 12556290,
+    "addTotalDebt": 0,
+    "enterpriseValue": 400845650
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2015-03-31",
+    "stockPrice": 12.11,
+    "numberOfShares": 37679000,
+    "marketCapitalization": 456292690,
+    "minusCashAndCashEquivalents": 111280443,
+    "addTotalDebt": 0,
+    "enterpriseValue": 345012247
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2014-12-31",
+    "stockPrice": 7.87,
+    "numberOfShares": 37679000,
+    "marketCapitalization": 296533730,
+    "minusCashAndCashEquivalents": 44909147,
+    "addTotalDebt": 0,
+    "enterpriseValue": 251624583
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2014-09-30",
+    "stockPrice": 7.15,
+    "numberOfShares": 26633000,
+    "marketCapitalization": 190425950,
+    "minusCashAndCashEquivalents": 17189671,
+    "addTotalDebt": 0,
+    "enterpriseValue": 173236279
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2014-06-30",
+    "stockPrice": 6.4,
+    "numberOfShares": 24138000,
+    "marketCapitalization": 154483200,
+    "minusCashAndCashEquivalents": 18440361,
+    "addTotalDebt": 0,
+    "enterpriseValue": 136042839
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2014-03-31",
+    "stockPrice": 9.44,
+    "numberOfShares": 20798000,
+    "marketCapitalization": 196333120,
+    "minusCashAndCashEquivalents": 17943877,
+    "addTotalDebt": 0,
+    "enterpriseValue": 178389243
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2013-12-31",
+    "stockPrice": 10.5,
+    "numberOfShares": 5272966,
+    "marketCapitalization": 55366143,
+    "minusCashAndCashEquivalents": 19672177,
+    "addTotalDebt": 0,
+    "enterpriseValue": 35693966
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2013-09-30",
+    "stockPrice": 6.55,
+    "numberOfShares": 782931,
+    "marketCapitalization": 5128198.05,
+    "minusCashAndCashEquivalents": 129804,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4998394
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2013-06-30",
+    "stockPrice": 2,
+    "numberOfShares": 818806,
+    "marketCapitalization": 1637612,
+    "minusCashAndCashEquivalents": 569581,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1068031
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2013-03-31",
+    "stockPrice": 6,
+    "numberOfShares": 818806,
+    "marketCapitalization": 4912836,
+    "minusCashAndCashEquivalents": -5000,
+    "addTotalDebt": 6781250,
+    "enterpriseValue": 11699086
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2012-12-31",
+    "stockPrice": 22,
+    "numberOfShares": 818806,
+    "marketCapitalization": 18013732,
+    "minusCashAndCashEquivalents": -5000,
+    "addTotalDebt": 6481250,
+    "enterpriseValue": 24499982
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2012-09-30",
+    "stockPrice": 40,
+    "numberOfShares": 782931,
+    "marketCapitalization": 31317240,
+    "minusCashAndCashEquivalents": 5000,
+    "addTotalDebt": 6481250,
+    "enterpriseValue": 37793490
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2012-06-30",
+    "stockPrice": 45,
+    "numberOfShares": 782931,
+    "marketCapitalization": 35231895,
+    "minusCashAndCashEquivalents": 15739,
+    "addTotalDebt": 6216250,
+    "enterpriseValue": 41432406
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2012-03-31",
+    "stockPrice": 115,
+    "numberOfShares": 781367,
+    "marketCapitalization": 89857205,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 5017619,
+    "enterpriseValue": 94874824
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2011-12-31",
+    "stockPrice": 100,
+    "numberOfShares": 781366,
+    "marketCapitalization": 78136600,
+    "minusCashAndCashEquivalents": 510217,
+    "addTotalDebt": 5000000,
+    "enterpriseValue": 82626383
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2011-09-30",
+    "stockPrice": 100,
+    "numberOfShares": 782995,
+    "marketCapitalization": 78299500,
+    "minusCashAndCashEquivalents": 910608,
+    "addTotalDebt": 2598425,
+    "enterpriseValue": 79987317
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2011-06-30",
+    "stockPrice": 145,
+    "numberOfShares": 740742,
+    "marketCapitalization": 107407590,
+    "minusCashAndCashEquivalents": 276065,
+    "addTotalDebt": 0,
+    "enterpriseValue": 107131525
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2011-03-31",
+    "stockPrice": 120,
+    "numberOfShares": 719410,
+    "marketCapitalization": 86329200,
+    "minusCashAndCashEquivalents": 730494,
+    "addTotalDebt": 0,
+    "enterpriseValue": 85598706
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2010-12-31",
+    "stockPrice": 125,
+    "numberOfShares": 719410,
+    "marketCapitalization": 89926250,
+    "minusCashAndCashEquivalents": 1297469,
+    "addTotalDebt": 0,
+    "enterpriseValue": 88628781
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2010-09-30",
+    "stockPrice": 110,
+    "numberOfShares": 720020,
+    "marketCapitalization": 79202200,
+    "minusCashAndCashEquivalents": 795943,
+    "addTotalDebt": 0,
+    "enterpriseValue": 78406257
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2010-06-30",
+    "stockPrice": 110,
+    "numberOfShares": 718600,
+    "marketCapitalization": 79046000,
+    "minusCashAndCashEquivalents": 209263,
+    "addTotalDebt": 0,
+    "enterpriseValue": 78836737
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2010-03-31",
+    "stockPrice": 110,
+    "numberOfShares": 925183,
+    "marketCapitalization": 101770130,
+    "minusCashAndCashEquivalents": 311799,
+    "addTotalDebt": 0,
+    "enterpriseValue": 101458331
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2009-12-31",
+    "stockPrice": 110,
+    "numberOfShares": 1131766,
+    "marketCapitalization": 124494260,
+    "minusCashAndCashEquivalents": 8257,
+    "addTotalDebt": 0,
+    "enterpriseValue": 124486003
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2009-09-30",
+    "stockPrice": 110,
+    "numberOfShares": 1214400,
+    "marketCapitalization": 133584000,
+    "minusCashAndCashEquivalents": 618,
+    "addTotalDebt": 0,
+    "enterpriseValue": 133583382
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2009-06-30",
+    "stockPrice": 110,
+    "numberOfShares": 1214400,
+    "marketCapitalization": 133584000,
+    "minusCashAndCashEquivalents": 1154,
+    "addTotalDebt": 0,
+    "enterpriseValue": 133582846
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2009-03-31",
+    "stockPrice": 110,
+    "numberOfShares": 1214400,
+    "marketCapitalization": 133584000,
+    "minusCashAndCashEquivalents": 1568,
+    "addTotalDebt": 0,
+    "enterpriseValue": 133582432
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2008-12-31",
+    "stockPrice": 110,
+    "numberOfShares": 1214000,
+    "marketCapitalization": 133540000,
+    "minusCashAndCashEquivalents": 2905,
+    "addTotalDebt": 0,
+    "enterpriseValue": 133537095
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2008-09-30",
+    "stockPrice": 110,
+    "numberOfShares": 1214400,
+    "marketCapitalization": 133584000,
+    "minusCashAndCashEquivalents": 16752,
+    "addTotalDebt": 0,
+    "enterpriseValue": 133567248
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2008-06-30",
+    "stockPrice": 110,
+    "numberOfShares": 1214400,
+    "marketCapitalization": 133584000,
+    "minusCashAndCashEquivalents": 17740,
+    "addTotalDebt": 0,
+    "enterpriseValue": 133566260
+  },
+  {
+    "symbol": "IOVA",
+    "date": "2008-03-31",
+    "stockPrice": 110,
+    "numberOfShares": 1214400,
+    "marketCapitalization": 133584000,
+    "minusCashAndCashEquivalents": 32250,
+    "addTotalDebt": 0,
+    "enterpriseValue": 133551750
+  }
+]

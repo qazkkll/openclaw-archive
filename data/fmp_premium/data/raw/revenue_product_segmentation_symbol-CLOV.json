@@ -1,0 +1,54 @@
+[
+  {
+    "symbol": "CLOV",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Insurance Segment": 49813000
+    }
+  },
+  {
+    "symbol": "CLOV",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Insurance": 26250000
+    }
+  },
+  {
+    "symbol": "CLOV",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Insurance": 10336000,
+      "Non-Insurance": 773177000
+    }
+  },
+  {
+    "symbol": "CLOV",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Insurance": 2577000,
+      "Non-Insurance": 2380135000
+    }
+  },
+  {
+    "symbol": "CLOV",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Direct Contracting Operations": 667639000
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "BABA",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-03-31",
+    "data": {
+      "Cloud Services": 84517000000,
+      "Customer Management Services": 424877000000,
+      "Logistics Services": 123379000000,
+      "Membership Fees and Value Added Services": 46613000000,
+      "Product and Service, Other": 42685000000,
+      "Sales Of Goods": 274276000000
+    }
+  },
+  {
+    "symbol": "BABA",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "CNY",
+    "date": "2024-03-31",
+    "data": {
+      "Cloud Services": 76459000000,
+      "Customer Management Services": 386571000000,
+      "Logistics Services": 114073000000,
+      "Membership Fees and Value Added Services": 41956000000,
+      "Product and Service, Other": 38836000000,
+      "Sales Of Goods": 283273000000
+    }
+  },
+  {
+    "symbol": "BABA",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "CNY",
+    "date": "2023-03-31",
+    "data": {
+      "Cloud Services": 76648000000,
+      "Customer Management Services": 355144000000,
+      "Logistics Services": 89214000000,
+      "Membership Fees": 40078000000,
+      "Product and Service, Other": 36587000000,
+      "Sales Of Goods": 271016000000
+    }
+  }
+]

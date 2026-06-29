@@ -1,0 +1,27 @@
+[
+  {
+    "symbol": "LNG",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-12-31",
+    "data": {
+      "IRELAND": 787000000,
+      "JAPAN": 1200000000,
+      "KOREA, REPUBLIC OF": 762000000,
+      "Non-US": 4000000000,
+      "UNITED STATES": 1600000000
+    }
+  },
+  {
+    "symbol": "LNG",
+    "fiscalYear": 2016,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2016-12-31",
+    "data": {
+      "JAPAN": 161700000,
+      "Non-US": 514300000
+    }
+  }
+]

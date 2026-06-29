@@ -1,0 +1,35 @@
+[
+  {
+    "symbol": "MIRM",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Non-US": 119765000,
+      "UNITED STATES": 401547000
+    }
+  },
+  {
+    "symbol": "MIRM",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Rest of the World": 62236000,
+      "UNITED STATES": 274173000
+    }
+  },
+  {
+    "symbol": "MIRM",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Rest of World": 32175000,
+      "UNITED STATES": 146699000
+    }
+  }
+]

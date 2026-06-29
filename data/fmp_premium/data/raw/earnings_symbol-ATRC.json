@@ -1,0 +1,803 @@
+[
+  {
+    "symbol": "ATRC",
+    "date": "2026-08-04",
+    "epsActual": null,
+    "epsEstimated": -0.00625,
+    "revenueActual": null,
+    "revenueEstimated": 151842600,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2026-05-05",
+    "epsActual": 0.0022,
+    "epsEstimated": -0.07,
+    "revenueActual": 141249000,
+    "revenueEstimated": 139745600,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2026-02-17",
+    "epsActual": 0.06,
+    "epsEstimated": -0.04003,
+    "revenueActual": 140500000,
+    "revenueEstimated": 139714600,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2025-10-29",
+    "epsActual": -0.01,
+    "epsEstimated": -0.11,
+    "revenueActual": 134269000,
+    "revenueEstimated": 140500000,
+    "lastUpdated": "2026-01-20"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2025-07-29",
+    "epsActual": -0.02,
+    "epsEstimated": -0.15,
+    "revenueActual": 136139000,
+    "revenueEstimated": 130090230,
+    "lastUpdated": "2025-10-29"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2025-04-29",
+    "epsActual": -0.14,
+    "epsEstimated": -0.25,
+    "revenueActual": 123620000,
+    "revenueEstimated": 130598420,
+    "lastUpdated": "2025-07-29"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2025-02-12",
+    "epsActual": -0.08,
+    "epsEstimated": -0.23,
+    "revenueActual": 124277000,
+    "revenueEstimated": 121842400,
+    "lastUpdated": "2025-05-12"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2024-10-29",
+    "epsActual": -0.17,
+    "epsEstimated": -0.2,
+    "revenueActual": 115910000,
+    "revenueEstimated": 119850000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2024-07-30",
+    "epsActual": -0.17,
+    "epsEstimated": -0.15,
+    "revenueActual": 116269000,
+    "revenueEstimated": 116180000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2024-05-01",
+    "epsActual": -0.25,
+    "epsEstimated": -0.21,
+    "revenueActual": 108851000,
+    "revenueEstimated": 106900000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2024-02-15",
+    "epsActual": -0.21,
+    "epsEstimated": -0.22,
+    "revenueActual": 106543000,
+    "revenueEstimated": 103680000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2023-11-01",
+    "epsActual": -0.2,
+    "epsEstimated": -0.3,
+    "revenueActual": 98290000,
+    "revenueEstimated": 96730000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2023-07-25",
+    "epsActual": -0.12,
+    "epsEstimated": -0.27,
+    "revenueActual": 100918000,
+    "revenueEstimated": 96390000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2023-05-02",
+    "epsActual": -0.23,
+    "epsEstimated": -0.34,
+    "revenueActual": 93494000,
+    "revenueEstimated": 87530000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2023-02-21",
+    "epsActual": -0.09,
+    "epsEstimated": -0.18,
+    "revenueActual": 88028000,
+    "revenueEstimated": 87778616,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2022-11-01",
+    "epsActual": -0.27,
+    "epsEstimated": -0.25,
+    "revenueActual": 83246000,
+    "revenueEstimated": 81786286,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2022-08-02",
+    "epsActual": -0.32,
+    "epsEstimated": -0.3,
+    "revenueActual": 84529000,
+    "revenueEstimated": 79601161,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2022-05-03",
+    "epsActual": -0.33,
+    "epsEstimated": -0.27,
+    "revenueActual": 74576000,
+    "revenueEstimated": 71168500,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2022-02-15",
+    "epsActual": -0.3,
+    "epsEstimated": -0.26,
+    "revenueActual": 73218000,
+    "revenueEstimated": 72657962,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2021-11-03",
+    "epsActual": 2.11,
+    "epsEstimated": -0.32,
+    "revenueActual": 70460000,
+    "revenueEstimated": 68680000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2021-08-04",
+    "epsActual": -0.36,
+    "epsEstimated": -0.33,
+    "revenueActual": 71376000,
+    "revenueEstimated": 61070000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2021-04-27",
+    "epsActual": -0.38,
+    "epsEstimated": -0.41,
+    "revenueActual": 59275000,
+    "revenueEstimated": 56060000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2021-02-23",
+    "epsActual": -0.42,
+    "epsEstimated": -0.29,
+    "revenueActual": 57725000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2020-11-05",
+    "epsActual": -0.11,
+    "epsEstimated": -0.34,
+    "revenueActual": 54757000,
+    "revenueEstimated": 169248909,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2020-07-28",
+    "epsActual": -0.2,
+    "epsEstimated": -0.56,
+    "revenueActual": 40824000,
+    "revenueEstimated": 116348399,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2020-04-29",
+    "epsActual": -0.36,
+    "epsEstimated": -0.38,
+    "revenueActual": 53225000,
+    "revenueEstimated": 51957738,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2020-02-18",
+    "epsActual": -0.37,
+    "epsEstimated": -0.41,
+    "revenueActual": 61321000,
+    "revenueEstimated": 59860976,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2019-10-30",
+    "epsActual": -0.33,
+    "epsEstimated": -0.28,
+    "revenueActual": 56614000,
+    "revenueEstimated": 61143120,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2019-07-30",
+    "epsActual": -0.17,
+    "epsEstimated": -0.18,
+    "revenueActual": 58906000,
+    "revenueEstimated": 96391636,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2019-04-25",
+    "epsActual": -0.2,
+    "epsEstimated": -0.24,
+    "revenueActual": 53966000,
+    "revenueEstimated": 86345600,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2019-02-28",
+    "epsActual": -0.21,
+    "epsEstimated": -0.19,
+    "revenueActual": 52893000,
+    "revenueEstimated": 99909000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2018-11-01",
+    "epsActual": -0.24,
+    "epsEstimated": -0.22,
+    "revenueActual": 49941000,
+    "revenueEstimated": 49941000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2018-08-01",
+    "epsActual": -0.19,
+    "epsEstimated": -0.22,
+    "revenueActual": 51802000,
+    "revenueEstimated": 1191446000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2018-04-26",
+    "epsActual": -0.31,
+    "epsEstimated": -0.26,
+    "revenueActual": 46994000,
+    "revenueEstimated": 40930258,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2018-02-26",
+    "epsActual": -0.08,
+    "epsEstimated": -0.21,
+    "revenueActual": 46062000,
+    "revenueEstimated": 48365099,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2017-11-01",
+    "epsActual": -0.22,
+    "epsEstimated": -0.24,
+    "revenueActual": 42150000,
+    "revenueEstimated": 45981818,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2017-07-27",
+    "epsActual": -0.21,
+    "epsEstimated": -0.25,
+    "revenueActual": 45231000,
+    "revenueEstimated": 56000285,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2017-05-04",
+    "epsActual": -0.32,
+    "epsEstimated": -0.33,
+    "revenueActual": 41273000,
+    "revenueEstimated": 45142343,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2017-02-28",
+    "epsActual": -0.27,
+    "epsEstimated": -0.32,
+    "revenueActual": 41157000,
+    "revenueEstimated": 47254333,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2016-10-27",
+    "epsActual": -0.21,
+    "epsEstimated": -0.28,
+    "revenueActual": 38340000,
+    "revenueEstimated": 51120000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2016-08-04",
+    "epsActual": -0.26,
+    "epsEstimated": -0.31,
+    "revenueActual": 39672000,
+    "revenueEstimated": 45775384,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2016-04-28",
+    "epsActual": -0.31,
+    "epsEstimated": -0.32,
+    "revenueActual": 35940000,
+    "revenueEstimated": 37099354,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2016-02-23",
+    "epsActual": -0.36,
+    "epsEstimated": -0.39,
+    "revenueActual": 35863000,
+    "revenueEstimated": 33870611,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2015-10-27",
+    "epsActual": -0.22,
+    "epsEstimated": -0.22,
+    "revenueActual": 31423000,
+    "revenueEstimated": 31423000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2015-07-28",
+    "epsActual": -0.18,
+    "epsEstimated": -0.21,
+    "revenueActual": 32583000,
+    "revenueEstimated": 38013500,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2015-04-29",
+    "epsActual": -0.19,
+    "epsEstimated": -0.2,
+    "revenueActual": 29886000,
+    "revenueEstimated": 33031894,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2015-02-23",
+    "epsActual": -0.2,
+    "epsEstimated": -0.2,
+    "revenueActual": 29415000,
+    "revenueEstimated": 29415000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2014-10-30",
+    "epsActual": -0.12,
+    "epsEstimated": -0.17,
+    "revenueActual": 26678000,
+    "revenueEstimated": 226763000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2014-07-24",
+    "epsActual": -0.1,
+    "epsEstimated": -0.19,
+    "revenueActual": 26514000,
+    "revenueEstimated": 25188300,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2014-04-24",
+    "epsActual": -0.31,
+    "epsEstimated": -0.22,
+    "revenueActual": 24847000,
+    "revenueEstimated": 26030190,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2014-02-27",
+    "epsActual": -0.24,
+    "epsEstimated": -0.14,
+    "revenueActual": 21884000,
+    "revenueEstimated": 15475113,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2013-10-29",
+    "epsActual": -0.06,
+    "epsEstimated": -0.16,
+    "revenueActual": 20146000,
+    "revenueEstimated": 23245384,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2013-08-01",
+    "epsActual": -0.09,
+    "epsEstimated": -0.1,
+    "revenueActual": 20429000,
+    "revenueEstimated": 22698888,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2013-05-02",
+    "epsActual": -0.1,
+    "epsEstimated": -0.11,
+    "revenueActual": 19430000,
+    "revenueEstimated": 21372999,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2013-02-28",
+    "epsActual": -0.12,
+    "epsEstimated": -0.1,
+    "revenueActual": 18364000,
+    "revenueEstimated": 15303333,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2012-11-01",
+    "epsActual": -0.16,
+    "epsEstimated": -0.12,
+    "revenueActual": 16139000,
+    "revenueEstimated": 12104250,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2012-08-02",
+    "epsActual": -0.08,
+    "epsEstimated": -0.07,
+    "revenueActual": 18268000,
+    "revenueEstimated": 15984235,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2012-05-02",
+    "epsActual": -0.1,
+    "epsEstimated": -0.14,
+    "revenueActual": 17476302,
+    "revenueEstimated": 24466822,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2012-02-27",
+    "epsActual": -0.13,
+    "epsEstimated": -0.07,
+    "revenueActual": 16763697,
+    "revenueEstimated": 13336118,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2011-11-01",
+    "epsActual": -0.07,
+    "epsEstimated": -0.08,
+    "revenueActual": 15222068,
+    "revenueEstimated": 17396649,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2011-08-02",
+    "epsActual": -0.06,
+    "epsEstimated": -0.05,
+    "revenueActual": 16779563,
+    "revenueEstimated": 27013870,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2011-05-04",
+    "epsActual": -0.08,
+    "epsEstimated": -0.07,
+    "revenueActual": 15637081,
+    "revenueEstimated": 13682445,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2011-02-16",
+    "epsActual": 0.00075,
+    "epsEstimated": -0.07,
+    "revenueActual": 16388963,
+    "revenueEstimated": 12987111737,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2010-11-02",
+    "epsActual": -0.07,
+    "epsEstimated": -0.1,
+    "revenueActual": 14473113,
+    "revenueEstimated": 20675875714,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2010-08-04",
+    "epsActual": -0.05,
+    "epsEstimated": -0.12,
+    "revenueActual": 14192312,
+    "revenueEstimated": 34061548799,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2010-05-10",
+    "epsActual": -0.13,
+    "epsEstimated": -0.1,
+    "revenueActual": 13951800,
+    "revenueEstimated": 10732153846,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2010-02-18",
+    "epsActual": -0.15,
+    "epsEstimated": -0.09,
+    "revenueActual": 13800369,
+    "revenueEstimated": 11385303,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2009-11-04",
+    "epsActual": -0.06,
+    "epsEstimated": -0.1,
+    "revenueActual": 13281336,
+    "revenueEstimated": 22135560000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2009-08-04",
+    "epsActual": -0.1,
+    "epsEstimated": -0.08,
+    "revenueActual": 13777950,
+    "revenueEstimated": 11022360,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2009-05-05",
+    "epsActual": -0.08,
+    "epsEstimated": -0.19,
+    "revenueActual": 13673903,
+    "revenueEstimated": 32475519625,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2009-02-19",
+    "epsActual": -0.22,
+    "epsEstimated": -0.18,
+    "revenueActual": 12066363,
+    "revenueEstimated": 9872478,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2008-11-04",
+    "epsActual": -0.12,
+    "epsEstimated": -0.15,
+    "revenueActual": 14802001,
+    "revenueEstimated": 18502501250,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2008-08-05",
+    "epsActual": -0.11,
+    "epsEstimated": -0.17,
+    "revenueActual": 14858514,
+    "revenueEstimated": 22963158000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2008-05-06",
+    "epsActual": -0.25,
+    "epsEstimated": -0.22,
+    "revenueActual": 13530145,
+    "revenueEstimated": 11906527,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2008-02-14",
+    "epsActual": -0.11,
+    "epsEstimated": -0.2,
+    "revenueActual": 13151615,
+    "revenueEstimated": 23912027272,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2007-11-06",
+    "epsActual": -0.18,
+    "epsEstimated": -0.26,
+    "revenueActual": 12054459,
+    "revenueEstimated": 17411996333,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2007-08-09",
+    "epsActual": -0.22,
+    "epsEstimated": -0.27,
+    "revenueActual": 12352219,
+    "revenueEstimated": 15159541500,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2007-05-10",
+    "epsActual": -0.35,
+    "epsEstimated": -0.29,
+    "revenueActual": 10750770,
+    "revenueEstimated": 8907780,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2007-02-15",
+    "epsActual": -0.35,
+    "epsEstimated": -0.43,
+    "revenueActual": 10599352,
+    "revenueEstimated": 12571324,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2006-11-08",
+    "epsActual": -0.26,
+    "epsEstimated": -0.4,
+    "revenueActual": 9358045,
+    "revenueEstimated": 14396992307,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2006-08-08",
+    "epsActual": -0.26,
+    "epsEstimated": -0.34,
+    "revenueActual": 9649038,
+    "revenueEstimated": 12617972769,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2006-05-04",
+    "epsActual": -0.24,
+    "epsEstimated": -0.36,
+    "revenueActual": 8636808,
+    "revenueEstimated": 12955212000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2006-02-16",
+    "epsActual": -0.33,
+    "epsEstimated": -0.31,
+    "revenueActual": 8559060,
+    "revenueEstimated": 29080818,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2005-11-15",
+    "epsActual": -0.48636,
+    "epsEstimated": null,
+    "revenueActual": 7169748,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2005-11-03",
+    "epsActual": -0.5,
+    "epsEstimated": -0.33,
+    "revenueActual": 7730420,
+    "revenueEstimated": 4732033680,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2005-03-31",
+    "epsActual": -1.25757,
+    "epsEstimated": null,
+    "revenueActual": 7497759,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2004-12-31",
+    "epsActual": -3.40928,
+    "epsEstimated": null,
+    "revenueActual": 5730262,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2004-09-30",
+    "epsActual": -0.92483,
+    "epsEstimated": null,
+    "revenueActual": 4499894,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "ATRC",
+    "date": "2004-06-30",
+    "epsActual": -0.10931,
+    "epsEstimated": null,
+    "revenueActual": 5124518,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  }
+]

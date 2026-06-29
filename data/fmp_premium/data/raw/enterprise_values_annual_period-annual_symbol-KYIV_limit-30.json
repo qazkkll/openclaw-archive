@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "KYIV",
+    "date": "2025-12-31",
+    "stockPrice": 12.98,
+    "numberOfShares": 216117656,
+    "marketCapitalization": 2805207174,
+    "minusCashAndCashEquivalents": 455000000,
+    "addTotalDebt": 516000000,
+    "enterpriseValue": 2866207174
+  },
+  {
+    "symbol": "KYIV",
+    "date": "2024-12-31",
+    "stockPrice": 10.43,
+    "numberOfShares": 230863523,
+    "marketCapitalization": 2407906544,
+    "minusCashAndCashEquivalents": 429000000,
+    "addTotalDebt": 894000000,
+    "enterpriseValue": 2872906544
+  },
+  {
+    "symbol": "KYIV",
+    "date": "2023-12-31",
+    "stockPrice": 10.43,
+    "numberOfShares": 230863523,
+    "marketCapitalization": 2407906544,
+    "minusCashAndCashEquivalents": 143000000,
+    "addTotalDebt": 898000000,
+    "enterpriseValue": 3162906544
+  },
+  {
+    "symbol": "KYIV",
+    "date": "2022-12-31",
+    "stockPrice": 10.43,
+    "numberOfShares": 31620000,
+    "marketCapitalization": 329796600,
+    "minusCashAndCashEquivalents": 100,
+    "addTotalDebt": 93149,
+    "enterpriseValue": 329889649
+  }
+]

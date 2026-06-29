@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "TGS",
+    "date": "2025-05-19",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TGS",
+    "date": "2021-02-08",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TGS",
+    "date": "2018-03-13",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TGS",
+    "date": "2017-09-19",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TGS",
+    "date": "2016-04-05",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  }
+]

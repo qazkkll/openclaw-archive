@@ -1,0 +1,605 @@
+[
+  {
+    "symbol": "KMI",
+    "date": "2026-07-15",
+    "epsActual": null,
+    "epsEstimated": 0.31,
+    "revenueActual": null,
+    "revenueEstimated": 4139873000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2026-04-22",
+    "epsActual": 0.48,
+    "epsEstimated": 0.3959,
+    "revenueActual": 4828000000,
+    "revenueEstimated": 4626895000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2026-01-21",
+    "epsActual": 0.39,
+    "epsEstimated": 0.3648,
+    "revenueActual": 4508000000,
+    "revenueEstimated": 4319455000,
+    "lastUpdated": "2026-04-21"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2025-10-22",
+    "epsActual": 0.29,
+    "epsEstimated": 0.2929,
+    "revenueActual": 4146000000,
+    "revenueEstimated": 3977963255,
+    "lastUpdated": "2026-01-22"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2025-07-16",
+    "epsActual": 0.28,
+    "epsEstimated": 0.2797,
+    "revenueActual": 4042000000,
+    "revenueEstimated": 3828575053,
+    "lastUpdated": "2025-10-16"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2025-04-16",
+    "epsActual": 0.34,
+    "epsEstimated": 0.3551,
+    "revenueActual": 4254000000,
+    "revenueEstimated": 4239500100,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2025-01-22",
+    "epsActual": 0.32,
+    "epsEstimated": 0.3356,
+    "revenueActual": 3967000000,
+    "revenueEstimated": 4175682702,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2024-10-16",
+    "epsActual": 0.25,
+    "epsEstimated": 0.27,
+    "revenueActual": 3676000000,
+    "revenueEstimated": 4046491609,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2024-07-17",
+    "epsActual": 0.25,
+    "epsEstimated": 0.26,
+    "revenueActual": 3597000000,
+    "revenueEstimated": 4092346991,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2024-04-17",
+    "epsActual": 0.34,
+    "epsEstimated": 0.34,
+    "revenueActual": 3833000000,
+    "revenueEstimated": 4364580375,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2024-01-17",
+    "epsActual": 0.27,
+    "epsEstimated": 0.3,
+    "revenueActual": 3969000000,
+    "revenueEstimated": 4408610000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2023-10-18",
+    "epsActual": 0.25,
+    "epsEstimated": 0.26,
+    "revenueActual": 3912000000,
+    "revenueEstimated": 4726880000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2023-07-19",
+    "epsActual": 0.24,
+    "epsEstimated": 0.24,
+    "revenueActual": 3473000000,
+    "revenueEstimated": 4554370000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2023-04-19",
+    "epsActual": 0.3,
+    "epsEstimated": 0.29,
+    "revenueActual": 3802000000,
+    "revenueEstimated": 4768380000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2023-01-18",
+    "epsActual": 0.31,
+    "epsEstimated": 0.3,
+    "revenueActual": 4518000000,
+    "revenueEstimated": 4910799194,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2022-10-19",
+    "epsActual": 0.25,
+    "epsEstimated": 0.29,
+    "revenueActual": 5249000000,
+    "revenueEstimated": 4718116711,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2022-07-20",
+    "epsActual": 0.27,
+    "epsEstimated": 0.27,
+    "revenueActual": 5353000000,
+    "revenueEstimated": 3913049632,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2022-04-20",
+    "epsActual": 0.32,
+    "epsEstimated": 0.29,
+    "revenueActual": 4434000000,
+    "revenueEstimated": 3746684131,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2022-01-19",
+    "epsActual": 0.27,
+    "epsEstimated": 0.26,
+    "revenueActual": 4478000000,
+    "revenueEstimated": 3384570000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2021-10-20",
+    "epsActual": 0.22,
+    "epsEstimated": 0.24,
+    "revenueActual": 3958000000,
+    "revenueEstimated": 3220860000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2021-07-21",
+    "epsActual": 0.23,
+    "epsEstimated": 0.19,
+    "revenueActual": 3236000000,
+    "revenueEstimated": 3220860000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2021-04-21",
+    "epsActual": 0.6,
+    "epsEstimated": 0.24,
+    "revenueActual": 5862000000,
+    "revenueEstimated": 3013770000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2021-01-20",
+    "epsActual": 0.27,
+    "epsEstimated": 0.24,
+    "revenueActual": 3102000000,
+    "revenueEstimated": 3031410000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2020-10-21",
+    "epsActual": 0.21,
+    "epsEstimated": 0.21,
+    "revenueActual": 2879000000,
+    "revenueEstimated": 2919000000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2020-07-22",
+    "epsActual": 0.17,
+    "epsEstimated": 0.18,
+    "revenueActual": 2495000000,
+    "revenueEstimated": 2258823529,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2020-04-22",
+    "epsActual": 0.24,
+    "epsEstimated": 0.24,
+    "revenueActual": 2997000000,
+    "revenueEstimated": 3494250000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2020-01-22",
+    "epsActual": 0.26,
+    "epsEstimated": 0.27,
+    "revenueActual": 3354000000,
+    "revenueEstimated": 3480923076,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2019-10-16",
+    "epsActual": 0.22,
+    "epsEstimated": 0.24,
+    "revenueActual": 3193000000,
+    "revenueEstimated": 3506181818,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2019-07-17",
+    "epsActual": 0.22,
+    "epsEstimated": 0.24,
+    "revenueActual": 3207000000,
+    "revenueEstimated": 3506181818,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2019-04-17",
+    "epsActual": 0.25,
+    "epsEstimated": 0.24,
+    "revenueActual": 3406000000,
+    "revenueEstimated": 3291840000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2019-01-16",
+    "epsActual": 0.25,
+    "epsEstimated": 0.26,
+    "revenueActual": 3689000000,
+    "revenueEstimated": 3932240000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2018-10-17",
+    "epsActual": 0.22,
+    "epsEstimated": 0.21,
+    "revenueActual": 3581000000,
+    "revenueEstimated": 3357136363,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2018-07-18",
+    "epsActual": 0.21,
+    "epsEstimated": 0.19,
+    "revenueActual": 3548000000,
+    "revenueEstimated": 3256600000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2018-04-18",
+    "epsActual": 0.22,
+    "epsEstimated": 0.21,
+    "revenueActual": 3459000000,
+    "revenueEstimated": 3262636363,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2018-01-17",
+    "epsActual": 0.21,
+    "epsEstimated": 0.18,
+    "revenueActual": 3634000000,
+    "revenueEstimated": 3113142857,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2017-10-20",
+    "epsActual": 0.15,
+    "epsEstimated": 0.15,
+    "revenueActual": 3276000000,
+    "revenueEstimated": 3281000000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2017-07-19",
+    "epsActual": 0.14,
+    "epsEstimated": 0.15,
+    "revenueActual": 3338000000,
+    "revenueEstimated": 3608571428,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2017-04-19",
+    "epsActual": 0.17,
+    "epsEstimated": 0.18,
+    "revenueActual": 3395000000,
+    "revenueEstimated": 3625411764,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2017-01-18",
+    "epsActual": 0.19,
+    "epsEstimated": 0.18,
+    "revenueActual": 3400000000,
+    "revenueEstimated": 3389000000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2016-10-19",
+    "epsActual": 0.16,
+    "epsEstimated": 0.15,
+    "revenueActual": 3293000000,
+    "revenueEstimated": 3108000000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2016-07-20",
+    "epsActual": 0.15,
+    "epsEstimated": 0.15,
+    "revenueActual": 3144000000,
+    "revenueEstimated": 3144000000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2016-04-20",
+    "epsActual": 0.12,
+    "epsEstimated": 0.19,
+    "revenueActual": 3195000000,
+    "revenueEstimated": 3372500000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2016-01-20",
+    "epsActual": 0.27,
+    "epsEstimated": 0.17,
+    "revenueActual": 3636000000,
+    "revenueEstimated": 5034461538,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2015-10-21",
+    "epsActual": 0.19,
+    "epsEstimated": 0.18,
+    "revenueActual": 3707000000,
+    "revenueEstimated": 3511894736,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2015-07-15",
+    "epsActual": 0.16,
+    "epsEstimated": 0.19,
+    "revenueActual": 3463000000,
+    "revenueEstimated": 4112312500,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2015-04-15",
+    "epsActual": 0.24,
+    "epsEstimated": 0.23,
+    "revenueActual": 3597000000,
+    "revenueEstimated": 3447125000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2015-01-21",
+    "epsActual": 0.27,
+    "epsEstimated": 0.36,
+    "revenueActual": 3951000000,
+    "revenueEstimated": 5166692307,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2014-10-15",
+    "epsActual": 0.32,
+    "epsEstimated": 0.34,
+    "revenueActual": 4291000000,
+    "revenueEstimated": 4559187500,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2014-07-16",
+    "epsActual": 0.27,
+    "epsEstimated": 0.29,
+    "revenueActual": 3937000000,
+    "revenueEstimated": 4228629629,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2014-04-16",
+    "epsActual": 0.28,
+    "epsEstimated": 0.33,
+    "revenueActual": 4047000000,
+    "revenueEstimated": 4769678571,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2014-01-15",
+    "epsActual": 0.33,
+    "epsEstimated": 0.35,
+    "revenueActual": 3872000000,
+    "revenueEstimated": 4106666666,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2013-10-16",
+    "epsActual": 0.27,
+    "epsEstimated": 0.32,
+    "revenueActual": 3654000000,
+    "revenueEstimated": 4451555555,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2013-07-17",
+    "epsActual": 0.27,
+    "epsEstimated": 0.31,
+    "revenueActual": 3382000000,
+    "revenueEstimated": 7440400000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2013-04-17",
+    "epsActual": 0.28,
+    "epsEstimated": 0.32,
+    "revenueActual": 3060000000,
+    "revenueEstimated": 7296923076,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2013-01-16",
+    "epsActual": 0.34,
+    "epsEstimated": 0.34,
+    "revenueActual": 3079000000,
+    "revenueEstimated": 3079000000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2012-10-17",
+    "epsActual": 0.19,
+    "epsEstimated": 0.26,
+    "revenueActual": 2870000000,
+    "revenueEstimated": 3927368421,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2012-07-18",
+    "epsActual": -0.15,
+    "epsEstimated": 0.26,
+    "revenueActual": 2166000000,
+    "revenueEstimated": 3756133333,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2012-04-18",
+    "epsActual": 0.56,
+    "epsEstimated": 0.31,
+    "revenueActual": 1857000000,
+    "revenueEstimated": 1334344353,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2012-01-18",
+    "epsActual": 0.4,
+    "epsEstimated": 0.29,
+    "revenueActual": 2017300000,
+    "revenueEstimated": 1462324999,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2011-10-19",
+    "epsActual": 0.21,
+    "epsEstimated": 0.26,
+    "revenueActual": 2122000000,
+    "revenueEstimated": 2627238095,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2011-07-20",
+    "epsActual": 0.19,
+    "epsEstimated": 0.25,
+    "revenueActual": 2033500000,
+    "revenueEstimated": 2568421052,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2011-04-20",
+    "epsActual": 0.12,
+    "epsEstimated": 0.26,
+    "revenueActual": 1932000000,
+    "revenueEstimated": 4186000000,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2011-03-02",
+    "epsActual": 0.04835,
+    "epsEstimated": null,
+    "revenueActual": 1953900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2010-09-30",
+    "epsActual": 0.00814,
+    "epsEstimated": null,
+    "revenueActual": 2088200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2010-06-30",
+    "epsActual": 0.0353,
+    "epsEstimated": null,
+    "revenueActual": 1990900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2010-03-31",
+    "epsActual": -0.12348,
+    "epsEstimated": null,
+    "revenueActual": 2157600000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "symbol": "KMI",
+    "date": "2009-12-31",
+    "epsActual": 0.09754,
+    "epsEstimated": null,
+    "revenueActual": 1950700000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-15"
+  }
+]

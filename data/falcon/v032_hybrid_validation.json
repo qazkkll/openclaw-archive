@@ -1,0 +1,60 @@
+{
+  "results": {
+    "A. V0.3.1 (\u65e7)": {
+      "sharpe": 0.8519,
+      "dd": 12.2788,
+      "ret": 7.7419,
+      "wr": 56.775,
+      "positive_rate": 100.0,
+      "n_windows": 16,
+      "sharpe_std": 1.1536
+    },
+    "B. V0.3.2_full": {
+      "sharpe": 0.7891,
+      "dd": 12.9825,
+      "ret": 6.5019,
+      "wr": 56.1938,
+      "positive_rate": 100.0,
+      "n_windows": 16,
+      "sharpe_std": 1.1858
+    },
+    "C. V0.3.2_hybrid": {
+      "sharpe": 0.4096,
+      "dd": 12.075,
+      "ret": 3.3131,
+      "wr": 54.3062,
+      "positive_rate": 100.0,
+      "n_windows": 16,
+      "sharpe_std": 1.062
+    },
+    "D. V0.3.2_hybrid_nfr": {
+      "sharpe": 0.812,
+      "dd": 13.205,
+      "ret": 6.4175,
+      "wr": 56.6875,
+      "positive_rate": 100.0,
+      "n_windows": 16,
+      "sharpe_std": 1.2002
+    },
+    "E. V0.3.2_hybrid_60d": {
+      "sharpe": 0.5021,
+      "dd": 12.8906,
+      "ret": 3.8375,
+      "wr": 55.1875,
+      "positive_rate": 100.0,
+      "n_windows": 16,
+      "sharpe_std": 1.228
+    },
+    "F. V0.3.2_full_60d": {
+      "sharpe": 1.1655,
+      "dd": 11.8431,
+      "ret": 9.6581,
+      "wr": 59.6812,
+      "positive_rate": 100.0,
+      "n_windows": 16,
+      "sharpe_std": 1.2752
+    }
+  },
+  "best": "F. V0.3.2_full_60d",
+  "timestamp": "2026-06-30 01:11"
+}

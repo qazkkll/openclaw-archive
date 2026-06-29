@@ -1,0 +1,532 @@
+[
+  {
+    "symbol": "OR",
+    "date": "2026-03-31",
+    "stockPrice": 38.02,
+    "numberOfShares": 187607000,
+    "marketCapitalization": 7132818140,
+    "minusCashAndCashEquivalents": 95253242,
+    "addTotalDebt": 4654256,
+    "enterpriseValue": 7042219154
+  },
+  {
+    "symbol": "OR",
+    "date": "2025-12-31",
+    "stockPrice": 35.39,
+    "numberOfShares": 188050000,
+    "marketCapitalization": 6655089500,
+    "minusCashAndCashEquivalents": 141756724,
+    "addTotalDebt": 8773832,
+    "enterpriseValue": 6522106608
+  },
+  {
+    "symbol": "OR",
+    "date": "2025-09-30",
+    "stockPrice": 55.79,
+    "numberOfShares": 188312337,
+    "marketCapitalization": 10505748532,
+    "minusCashAndCashEquivalents": 79371090,
+    "addTotalDebt": 7341290,
+    "enterpriseValue": 10433718732
+  },
+  {
+    "symbol": "OR",
+    "date": "2025-06-30",
+    "stockPrice": 25.71,
+    "numberOfShares": 187746000,
+    "marketCapitalization": 4826949660,
+    "minusCashAndCashEquivalents": 49626000,
+    "addTotalDebt": 41302000,
+    "enterpriseValue": 4818625660
+  },
+  {
+    "symbol": "OR",
+    "date": "2025-03-31",
+    "stockPrice": 21.12,
+    "numberOfShares": 186979000,
+    "marketCapitalization": 3948996480,
+    "minusCashAndCashEquivalents": 63070000,
+    "addTotalDebt": 80017000,
+    "enterpriseValue": 3965943480
+  },
+  {
+    "symbol": "OR",
+    "date": "2024-12-31",
+    "stockPrice": 26.03,
+    "numberOfShares": 186747000,
+    "marketCapitalization": 4860917777,
+    "minusCashAndCashEquivalents": 59096000,
+    "addTotalDebt": 98683000,
+    "enterpriseValue": 4900504777
+  },
+  {
+    "symbol": "OR",
+    "date": "2024-09-30",
+    "stockPrice": 25.03,
+    "numberOfShares": 186408717,
+    "marketCapitalization": 4666527766,
+    "minusCashAndCashEquivalents": 43328300,
+    "addTotalDebt": 65071646,
+    "enterpriseValue": 4688271112
+  },
+  {
+    "symbol": "OR",
+    "date": "2024-06-30",
+    "stockPrice": 21.15,
+    "numberOfShares": 186217357,
+    "marketCapitalization": 3938807506,
+    "minusCashAndCashEquivalents": 47984230,
+    "addTotalDebt": 84995254,
+    "enterpriseValue": 3975818530
+  },
+  {
+    "symbol": "OR",
+    "date": "2024-03-31",
+    "stockPrice": 22.39,
+    "numberOfShares": 185761000,
+    "marketCapitalization": 4159609798,
+    "minusCashAndCashEquivalents": 70601000,
+    "addTotalDebt": 159670000,
+    "enterpriseValue": 4248678798
+  },
+  {
+    "symbol": "OR",
+    "date": "2023-12-31",
+    "stockPrice": 18.91,
+    "numberOfShares": 185543000,
+    "marketCapitalization": 3507797584,
+    "minusCashAndCashEquivalents": 67721000,
+    "addTotalDebt": 199880000,
+    "enterpriseValue": 3639956584
+  },
+  {
+    "symbol": "OR",
+    "date": "2023-09-30",
+    "stockPrice": 15.95,
+    "numberOfShares": 185516000,
+    "marketCapitalization": 2959662898,
+    "minusCashAndCashEquivalents": 70754000,
+    "addTotalDebt": 323658000,
+    "enterpriseValue": 3212566898
+  },
+  {
+    "symbol": "OR",
+    "date": "2023-06-30",
+    "stockPrice": 20.35,
+    "numberOfShares": 185302000,
+    "marketCapitalization": 3771158272,
+    "minusCashAndCashEquivalents": 70033000,
+    "addTotalDebt": 328182000,
+    "enterpriseValue": 4029307272
+  },
+  {
+    "symbol": "OR",
+    "date": "2023-03-31",
+    "stockPrice": 21.38,
+    "numberOfShares": 184719000,
+    "marketCapitalization": 3949543955,
+    "minusCashAndCashEquivalents": 119084000,
+    "addTotalDebt": 143143000,
+    "enterpriseValue": 3973602955
+  },
+  {
+    "symbol": "OR",
+    "date": "2022-12-31",
+    "stockPrice": 16.34,
+    "numberOfShares": 184037728,
+    "marketCapitalization": 3008021300,
+    "minusCashAndCashEquivalents": 90548000,
+    "addTotalDebt": 155572000,
+    "enterpriseValue": 3073045300
+  },
+  {
+    "symbol": "OR",
+    "date": "2022-09-30",
+    "stockPrice": 14.08,
+    "numberOfShares": 184839000,
+    "marketCapitalization": 2601772692,
+    "minusCashAndCashEquivalents": 300542000,
+    "addTotalDebt": 306077000,
+    "enterpriseValue": 2607307692
+  },
+  {
+    "symbol": "OR",
+    "date": "2022-06-30",
+    "stockPrice": 13,
+    "numberOfShares": 185316000,
+    "marketCapitalization": 2409316295,
+    "minusCashAndCashEquivalents": 449283000,
+    "addTotalDebt": 315762000,
+    "enterpriseValue": 2275795295
+  },
+  {
+    "symbol": "OR",
+    "date": "2022-03-31",
+    "stockPrice": 16.49,
+    "numberOfShares": 166926000,
+    "marketCapitalization": 2752874968,
+    "minusCashAndCashEquivalents": 449450000,
+    "addTotalDebt": 425908000,
+    "enterpriseValue": 2729332968
+  },
+  {
+    "symbol": "OR",
+    "date": "2021-12-31",
+    "stockPrice": 15.48,
+    "numberOfShares": 167154000,
+    "marketCapitalization": 2588355870,
+    "minusCashAndCashEquivalents": 115698000,
+    "addTotalDebt": 410435000,
+    "enterpriseValue": 2883092870
+  },
+  {
+    "symbol": "OR",
+    "date": "2021-09-30",
+    "stockPrice": 14.23,
+    "numberOfShares": 167924000,
+    "marketCapitalization": 2390347561,
+    "minusCashAndCashEquivalents": 151945000,
+    "addTotalDebt": 425706000,
+    "enterpriseValue": 2664108561
+  },
+  {
+    "symbol": "OR",
+    "date": "2021-06-30",
+    "stockPrice": 16.98,
+    "numberOfShares": 163988888,
+    "marketCapitalization": 2784764838,
+    "minusCashAndCashEquivalents": 254963000,
+    "addTotalDebt": 423768000,
+    "enterpriseValue": 2953569838
+  },
+  {
+    "symbol": "OR",
+    "date": "2021-03-31",
+    "stockPrice": 13.84,
+    "numberOfShares": 165842000,
+    "marketCapitalization": 2295731435,
+    "minusCashAndCashEquivalents": 320630000,
+    "addTotalDebt": 413688000,
+    "enterpriseValue": 2388789435
+  },
+  {
+    "symbol": "OR",
+    "date": "2020-12-31",
+    "stockPrice": 16.17,
+    "numberOfShares": 162249000,
+    "marketCapitalization": 2624313973,
+    "minusCashAndCashEquivalents": 302524000,
+    "addTotalDebt": 411795000,
+    "enterpriseValue": 2733584973
+  },
+  {
+    "symbol": "OR",
+    "date": "2020-09-30",
+    "stockPrice": 15.75,
+    "numberOfShares": 166110000,
+    "marketCapitalization": 2616721909,
+    "minusCashAndCashEquivalents": 160705000,
+    "addTotalDebt": 431123000,
+    "enterpriseValue": 2887139909
+  },
+  {
+    "symbol": "OR",
+    "date": "2020-06-30",
+    "stockPrice": 13.57,
+    "numberOfShares": 164733000,
+    "marketCapitalization": 2236085742,
+    "minusCashAndCashEquivalents": 201971000,
+    "addTotalDebt": 431386000,
+    "enterpriseValue": 2465500742
+  },
+  {
+    "symbol": "OR",
+    "date": "2020-03-31",
+    "stockPrice": 10.46,
+    "numberOfShares": 147977777,
+    "marketCapitalization": 1547766100,
+    "minusCashAndCashEquivalents": 158325000,
+    "addTotalDebt": 433430000,
+    "enterpriseValue": 1822871100
+  },
+  {
+    "symbol": "OR",
+    "date": "2019-12-31",
+    "stockPrice": 12.6,
+    "numberOfShares": 144446000,
+    "marketCapitalization": 1819877508,
+    "minusCashAndCashEquivalents": 83457104,
+    "addTotalDebt": 276976286,
+    "enterpriseValue": 2013396690
+  },
+  {
+    "symbol": "OR",
+    "date": "2019-09-30",
+    "stockPrice": 12.31,
+    "numberOfShares": 143512500,
+    "marketCapitalization": 1767111461,
+    "minusCashAndCashEquivalents": 123702000,
+    "addTotalDebt": 357957000,
+    "enterpriseValue": 2001366461
+  },
+  {
+    "symbol": "OR",
+    "date": "2019-06-30",
+    "stockPrice": 13.47,
+    "numberOfShares": 154988000,
+    "marketCapitalization": 2087691707,
+    "minusCashAndCashEquivalents": 83589000,
+    "addTotalDebt": 336560000,
+    "enterpriseValue": 2340662707
+  },
+  {
+    "symbol": "OR",
+    "date": "2019-03-31",
+    "stockPrice": 14.86,
+    "numberOfShares": 155059000,
+    "marketCapitalization": 2303434162,
+    "minusCashAndCashEquivalents": 108497000,
+    "addTotalDebt": 334135000,
+    "enterpriseValue": 2529072162
+  },
+  {
+    "symbol": "OR",
+    "date": "2018-12-31",
+    "stockPrice": 11.98,
+    "numberOfShares": 155059000,
+    "marketCapitalization": 1857804644,
+    "minusCashAndCashEquivalents": 174265000,
+    "addTotalDebt": 352769000,
+    "enterpriseValue": 2036308644
+  },
+  {
+    "symbol": "OR",
+    "date": "2018-09-30",
+    "stockPrice": 9.76,
+    "numberOfShares": 156252000,
+    "marketCapitalization": 1524840767,
+    "minusCashAndCashEquivalents": 137188000,
+    "addTotalDebt": 419680000,
+    "enterpriseValue": 1807332767
+  },
+  {
+    "symbol": "OR",
+    "date": "2018-06-30",
+    "stockPrice": 12.45,
+    "numberOfShares": 156232000,
+    "marketCapitalization": 1945239413,
+    "minusCashAndCashEquivalents": 188631000,
+    "addTotalDebt": 419228000,
+    "enterpriseValue": 2175836413
+  },
+  {
+    "symbol": "OR",
+    "date": "2018-03-31",
+    "stockPrice": 12.69,
+    "numberOfShares": 157665000,
+    "marketCapitalization": 2000234933,
+    "minusCashAndCashEquivalents": 332617000,
+    "addTotalDebt": 467483000,
+    "enterpriseValue": 2135100933
+  },
+  {
+    "symbol": "OR",
+    "date": "2017-12-31",
+    "stockPrice": 14.54,
+    "numberOfShares": 157579000,
+    "marketCapitalization": 2291735184,
+    "minusCashAndCashEquivalents": 333705000,
+    "addTotalDebt": 464308000,
+    "enterpriseValue": 2422338184
+  },
+  {
+    "symbol": "OR",
+    "date": "2017-09-30",
+    "stockPrice": 16.09,
+    "numberOfShares": 140605000,
+    "marketCapitalization": 2262369516,
+    "minusCashAndCashEquivalents": 108902000,
+    "addTotalDebt": 193738000,
+    "enterpriseValue": 2347205516
+  },
+  {
+    "symbol": "OR",
+    "date": "2017-06-30",
+    "stockPrice": 15.84,
+    "numberOfShares": 106656000,
+    "marketCapitalization": 1689410604,
+    "minusCashAndCashEquivalents": 348642000,
+    "addTotalDebt": 46236000,
+    "enterpriseValue": 1387004604
+  },
+  {
+    "symbol": "OR",
+    "date": "2017-03-31",
+    "stockPrice": 14.78,
+    "numberOfShares": 106543000,
+    "marketCapitalization": 1574975733,
+    "minusCashAndCashEquivalents": 423567000,
+    "addTotalDebt": 46005000,
+    "enterpriseValue": 1197413733
+  },
+  {
+    "symbol": "OR",
+    "date": "2016-12-31",
+    "stockPrice": 13.06,
+    "numberOfShares": 106543000,
+    "marketCapitalization": 1391305147,
+    "minusCashAndCashEquivalents": 499249000,
+    "addTotalDebt": 45780000,
+    "enterpriseValue": 937836147
+  },
+  {
+    "symbol": "OR",
+    "date": "2016-09-30",
+    "stockPrice": 14.36,
+    "numberOfShares": 106564000,
+    "marketCapitalization": 1529881014,
+    "minusCashAndCashEquivalents": 392717000,
+    "addTotalDebt": 45552000,
+    "enterpriseValue": 1182716014
+  },
+  {
+    "symbol": "OR",
+    "date": "2016-06-30",
+    "stockPrice": 16.85,
+    "numberOfShares": 106374000,
+    "marketCapitalization": 1792682216,
+    "minusCashAndCashEquivalents": 424491000,
+    "addTotalDebt": 45328000,
+    "enterpriseValue": 1413519216
+  },
+  {
+    "symbol": "OR",
+    "date": "2016-03-31",
+    "stockPrice": 13.89,
+    "numberOfShares": 99093000,
+    "marketCapitalization": 1376092956,
+    "minusCashAndCashEquivalents": 439009000,
+    "addTotalDebt": 45110000,
+    "enterpriseValue": 982193956
+  },
+  {
+    "symbol": "OR",
+    "date": "2015-12-31",
+    "stockPrice": 13.61,
+    "numberOfShares": 94444000,
+    "marketCapitalization": 1285011032,
+    "minusCashAndCashEquivalents": 258509000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1026502032
+  },
+  {
+    "symbol": "OR",
+    "date": "2015-09-30",
+    "stockPrice": 13.92,
+    "numberOfShares": 94356000,
+    "marketCapitalization": 1313865896,
+    "minusCashAndCashEquivalents": 304091000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1009774896
+  },
+  {
+    "symbol": "OR",
+    "date": "2015-06-30",
+    "stockPrice": 15.71,
+    "numberOfShares": 93018000,
+    "marketCapitalization": 1461338955,
+    "minusCashAndCashEquivalents": 319960000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1141378955
+  },
+  {
+    "symbol": "OR",
+    "date": "2015-03-31",
+    "stockPrice": 16.69,
+    "numberOfShares": 69330000,
+    "marketCapitalization": 1157220724,
+    "minusCashAndCashEquivalents": 348389000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 808831724
+  },
+  {
+    "symbol": "OR",
+    "date": "2014-12-31",
+    "stockPrice": 16.36,
+    "numberOfShares": 69330000,
+    "marketCapitalization": 1134456475,
+    "minusCashAndCashEquivalents": 175171000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 959285475
+  },
+  {
+    "symbol": "OR",
+    "date": "2014-09-30",
+    "stockPrice": 14.68,
+    "numberOfShares": 46700000,
+    "marketCapitalization": 685411566,
+    "minusCashAndCashEquivalents": 156757000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 528654566
+  },
+  {
+    "symbol": "OR",
+    "date": "2014-06-30",
+    "stockPrice": 16.13,
+    "numberOfShares": 44845000,
+    "marketCapitalization": 723411592,
+    "minusCashAndCashEquivalents": 156741000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 566670592
+  },
+  {
+    "symbol": "OR",
+    "date": "2014-03-31",
+    "stockPrice": 16.63,
+    "numberOfShares": 47900457,
+    "marketCapitalization": 796538902,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 796538902
+  },
+  {
+    "symbol": "OR",
+    "date": "2013-12-31",
+    "stockPrice": 16.01,
+    "numberOfShares": 47900457,
+    "marketCapitalization": 766707983,
+    "minusCashAndCashEquivalents": 161405000,
+    "addTotalDebt": 316951000,
+    "enterpriseValue": 922253983
+  },
+  {
+    "symbol": "OR",
+    "date": "2013-09-30",
+    "stockPrice": 15.51,
+    "numberOfShares": 47900457,
+    "marketCapitalization": 743141700,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 743141700
+  },
+  {
+    "symbol": "OR",
+    "date": "2013-06-30",
+    "stockPrice": 15.82,
+    "numberOfShares": 47900457,
+    "marketCapitalization": 757898562,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 757898562
+  },
+  {
+    "symbol": "OR",
+    "date": "2013-03-31",
+    "stockPrice": 15.31,
+    "numberOfShares": 43660077,
+    "marketCapitalization": 668287443,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 668287443
+  }
+]

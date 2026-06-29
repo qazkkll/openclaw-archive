@@ -1,0 +1,956 @@
+[
+  {
+    "symbol": "IBN",
+    "date": "2026-07-17",
+    "epsActual": null,
+    "epsEstimated": 0.41,
+    "revenueActual": null,
+    "revenueEstimated": 3395172000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2026-04-18",
+    "epsActual": 0.41,
+    "epsEstimated": 0.39,
+    "revenueActual": 3252850000,
+    "revenueEstimated": 3269799000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2026-01-17",
+    "epsActual": 0.35,
+    "epsEstimated": 0.38,
+    "revenueActual": 3222436000,
+    "revenueEstimated": 3337592000,
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2025-10-18",
+    "epsActual": 0.39,
+    "epsEstimated": 0.37,
+    "revenueActual": 8579413451,
+    "revenueEstimated": 3410443846,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2025-07-19",
+    "epsActual": 0.43,
+    "epsEstimated": 0.4,
+    "revenueActual": 8705289812,
+    "revenueEstimated": 3378692216,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2025-04-19",
+    "epsActual": 0.41,
+    "epsEstimated": 0.37,
+    "revenueActual": 9323919616,
+    "revenueEstimated": 3284428369,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2025-01-25",
+    "epsActual": 0.39,
+    "epsEstimated": 0.35,
+    "revenueActual": 8717874739,
+    "revenueEstimated": 3256516660,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2024-10-26",
+    "epsActual": 0.43,
+    "epsEstimated": 0.35,
+    "revenueActual": 8713053245,
+    "revenueEstimated": 2924248488,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2024-07-27",
+    "epsActual": 0.39,
+    "epsEstimated": 0.34,
+    "revenueActual": 8072407200,
+    "revenueEstimated": 3008823189,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2024-04-30",
+    "epsActual": 0.39,
+    "epsEstimated": 0.32,
+    "revenueActual": 7969498937,
+    "revenueEstimated": 2930605920,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2024-01-24",
+    "epsActual": 0.37,
+    "epsEstimated": 0.35,
+    "revenueActual": 7160683335,
+    "revenueEstimated": 2836450655,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2023-10-25",
+    "epsActual": 0.37,
+    "epsEstimated": 0.32,
+    "revenueActual": 6889203290,
+    "revenueEstimated": 2903871798,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2023-07-22",
+    "epsActual": 0.33,
+    "epsEstimated": 0.3223,
+    "revenueActual": 6347129853,
+    "revenueEstimated": 2680920331,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2023-04-22",
+    "epsActual": 0.31,
+    "epsEstimated": 0.3175,
+    "revenueActual": 6555346706,
+    "revenueEstimated": 2583921198,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2023-01-21",
+    "epsActual": 0.3,
+    "epsEstimated": 0.28,
+    "revenueActual": 5884325525,
+    "revenueEstimated": 2568283940,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2022-10-22",
+    "epsActual": 0.28,
+    "epsEstimated": 0.27,
+    "revenueActual": 5539075663,
+    "revenueEstimated": 2252644768,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2022-07-23",
+    "epsActual": 0.27,
+    "epsEstimated": 0.22,
+    "revenueActual": 4964779122,
+    "revenueEstimated": 2228178747,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2022-04-26",
+    "epsActual": 0.29,
+    "epsEstimated": 0.22,
+    "revenueActual": 5650383634,
+    "revenueEstimated": 2376666625,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2022-01-22",
+    "epsActual": 0.25,
+    "epsEstimated": 0.23,
+    "revenueActual": 5348714654,
+    "revenueEstimated": 3614336495,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2021-10-23",
+    "epsActual": 0.23,
+    "epsEstimated": 0.22,
+    "revenueActual": 5314217509,
+    "revenueEstimated": 4098900584,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2021-07-24",
+    "epsActual": 0.18,
+    "epsEstimated": 0.2,
+    "revenueActual": 4748653370,
+    "revenueEstimated": 4251764794,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2021-04-24",
+    "epsActual": 0.17,
+    "epsEstimated": 0.18,
+    "revenueActual": 5949216934,
+    "revenueEstimated": 4230810790,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2021-01-30",
+    "epsActual": 0.21,
+    "epsEstimated": 0.2,
+    "revenueActual": 5520640041,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2020-10-31",
+    "epsActual": 0.19,
+    "epsEstimated": 0.17,
+    "revenueActual": 5350453642,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2020-07-25",
+    "epsActual": 0.13,
+    "epsEstimated": 0.06,
+    "revenueActual": 5061042055,
+    "revenueEstimated": 3301368810,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2020-05-09",
+    "epsActual": 0.05,
+    "epsEstimated": 0.15,
+    "revenueActual": 5258789252,
+    "revenueEstimated": 9652166268,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2020-01-25",
+    "epsActual": 0.2,
+    "epsEstimated": 0.18,
+    "revenueActual": 5452786073,
+    "revenueEstimated": 3374843155,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2019-10-26",
+    "epsActual": 0.03,
+    "epsEstimated": 0.06178,
+    "revenueActual": 5268847652,
+    "revenueEstimated": 4967246577,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2019-07-29",
+    "epsActual": 0.08,
+    "epsEstimated": 0.18,
+    "revenueActual": 4898288216,
+    "revenueEstimated": 4423568079,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2019-05-06",
+    "epsActual": 0.05,
+    "epsEstimated": 0.08,
+    "revenueActual": 5306618519,
+    "revenueEstimated": 5179543777,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2019-01-30",
+    "epsActual": 0.08,
+    "epsEstimated": 0.06,
+    "revenueActual": 5204611129,
+    "revenueEstimated": 3266557272,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2018-10-26",
+    "epsActual": 0.04,
+    "epsEstimated": 0.04,
+    "revenueActual": 4383926057,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2018-07-27",
+    "epsActual": -0.01,
+    "epsEstimated": 0.06,
+    "revenueActual": 4246098671,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2018-05-07",
+    "epsActual": 0.06,
+    "epsEstimated": 0.08,
+    "revenueActual": 3700037895,
+    "revenueEstimated": 4933383860,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2018-01-31",
+    "epsActual": 0.09,
+    "epsEstimated": 0.07,
+    "revenueActual": 2513485371,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2017-10-27",
+    "epsActual": 0.1,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2017-07-27",
+    "epsActual": 0.1,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2017-05-03",
+    "epsActual": 0.09,
+    "epsEstimated": null,
+    "revenueActual": 3186554683,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2017-01-31",
+    "epsActual": 0.11,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2016-11-07",
+    "epsActual": 0.15,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2016-07-29",
+    "epsActual": 0.1,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2016-04-29",
+    "epsActual": 0.04,
+    "epsEstimated": null,
+    "revenueActual": 2936285320,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2016-01-28",
+    "epsActual": 0.1396,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2015-12-21",
+    "epsActual": 0.1547,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2015-07-31",
+    "epsActual": 0.15,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2015-04-27",
+    "epsActual": 0.15,
+    "epsEstimated": null,
+    "revenueActual": 2624786447,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2015-01-30",
+    "epsActual": 0.1545,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2014-10-30",
+    "epsActual": 0.03,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2014-07-31",
+    "epsActual": 0.14,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2014-04-25",
+    "epsActual": 0.14,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2014-01-29",
+    "epsActual": 0.13,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2013-10-25",
+    "epsActual": 0.02,
+    "epsEstimated": 0.1,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2013-07-31",
+    "epsActual": 0.07,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2013-04-26",
+    "epsActual": 0.03,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2013-01-31",
+    "epsActual": 0.03,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2012-10-26",
+    "epsActual": 0.02,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2012-06-30",
+    "epsActual": 0.1091,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2012-03-31",
+    "epsActual": 0.1053,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2012-01-13",
+    "epsActual": 0.1253,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2011-09-30",
+    "epsActual": 0.1206,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2011-06-30",
+    "epsActual": 0.1106,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2011-04-28",
+    "epsActual": 0.02,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2011-01-10",
+    "epsActual": 0.1347,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2010-09-30",
+    "epsActual": 0.09257,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2010-06-30",
+    "epsActual": 0.06947,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2010-03-31",
+    "epsActual": 0.08889,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2009-12-31",
+    "epsActual": 0.07319,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2009-06-30",
+    "epsActual": 0.06392,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2008-09-30",
+    "epsActual": 0.78,
+    "epsEstimated": null,
+    "revenueActual": 2062554713,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2008-06-30",
+    "epsActual": 0.04995,
+    "epsEstimated": null,
+    "revenueActual": 2181311540,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2008-03-31",
+    "epsActual": 0.02897,
+    "epsEstimated": null,
+    "revenueActual": 7702660906,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2007-12-31",
+    "epsActual": 0.08433,
+    "epsEstimated": null,
+    "revenueActual": 2389436224,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2007-09-30",
+    "epsActual": 0.932,
+    "epsEstimated": null,
+    "revenueActual": 2417046392,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2007-06-30",
+    "epsActual": 0.05645,
+    "epsEstimated": null,
+    "revenueActual": 2279253778,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2007-06-11",
+    "epsActual": 0.03225,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2006-12-31",
+    "epsActual": 0.06102,
+    "epsEstimated": null,
+    "revenueActual": 1713834521,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2006-09-30",
+    "epsActual": 0.04888,
+    "epsEstimated": null,
+    "revenueActual": 1483650650,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2006-06-30",
+    "epsActual": 0.03982,
+    "epsEstimated": null,
+    "revenueActual": 1310162766,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2006-03-31",
+    "epsActual": 0.04062,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2005-12-31",
+    "epsActual": 0.03982,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2005-09-30",
+    "epsActual": 0.04094,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2005-06-30",
+    "epsActual": 0.04128,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2005-03-31",
+    "epsActual": 0.01474,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2004-12-31",
+    "epsActual": 0.01451,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2004-09-30",
+    "epsActual": 0.01453,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2004-06-30",
+    "epsActual": 0.01459,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2004-03-31",
+    "epsActual": 0.00745,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2003-12-31",
+    "epsActual": 0.00892,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2003-09-30",
+    "epsActual": 0.00894,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2003-06-30",
+    "epsActual": 0.00909,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2003-03-31",
+    "epsActual": -0.0125,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2002-12-31",
+    "epsActual": -0.01312,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2002-10-31",
+    "epsActual": -0.01322,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2002-06-30",
+    "epsActual": -0.01335,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2002-03-31",
+    "epsActual": 0.00328,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2001-12-31",
+    "epsActual": 0.00314,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2001-09-30",
+    "epsActual": 0.00342,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2001-09-28",
+    "epsActual": 0.00337,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2001-03-31",
+    "epsActual": 0.0016,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2000-12-31",
+    "epsActual": 0.00263,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2000-09-30",
+    "epsActual": 0.00195,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2000-06-30",
+    "epsActual": 0.00261,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "2000-03-31",
+    "epsActual": 0.00231,
+    "epsEstimated": null,
+    "revenueActual": 66872868,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "1999-12-31",
+    "epsActual": 0.01586,
+    "epsEstimated": null,
+    "revenueActual": 520490793,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "1999-09-30",
+    "epsActual": 0.00227,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "symbol": "IBN",
+    "date": "1999-06-30",
+    "epsActual": 0.00226,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-03"
+  }
+]

@@ -1,0 +1,972 @@
+[
+  {
+    "symbol": "RIOT",
+    "date": "2026-03-31",
+    "stockPrice": 12.36,
+    "numberOfShares": 347624244,
+    "marketCapitalization": 4296635655,
+    "minusCashAndCashEquivalents": 205666000,
+    "addTotalDebt": 289524000,
+    "enterpriseValue": 4380493655
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2025-12-31",
+    "stockPrice": 12.67,
+    "numberOfShares": 371575652,
+    "marketCapitalization": 4707863510,
+    "minusCashAndCashEquivalents": 233517000,
+    "addTotalDebt": 279849000,
+    "enterpriseValue": 4754195510
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2025-09-30",
+    "stockPrice": 19.03,
+    "numberOfShares": 347085375,
+    "marketCapitalization": 6605034686,
+    "minusCashAndCashEquivalents": 330745000,
+    "addTotalDebt": 871850000,
+    "enterpriseValue": 7146139686
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2025-06-30",
+    "stockPrice": 11.3,
+    "numberOfShares": 336278380,
+    "marketCapitalization": 3799945694,
+    "minusCashAndCashEquivalents": 330248000,
+    "addTotalDebt": 869525000,
+    "enterpriseValue": 4339222694
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2025-03-31",
+    "stockPrice": 7.12,
+    "numberOfShares": 329508458,
+    "marketCapitalization": 2346100220,
+    "minusCashAndCashEquivalents": 163719000,
+    "addTotalDebt": 618611000,
+    "enterpriseValue": 2800992220
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2024-12-31",
+    "stockPrice": 10.21,
+    "numberOfShares": 275980000,
+    "marketCapitalization": 2817755800,
+    "minusCashAndCashEquivalents": 277860000,
+    "addTotalDebt": 613161000,
+    "enterpriseValue": 3153056800
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2024-09-30",
+    "stockPrice": 7.42,
+    "numberOfShares": 286243674,
+    "marketCapitalization": 2123928061,
+    "minusCashAndCashEquivalents": 355709000,
+    "addTotalDebt": 31098000,
+    "enterpriseValue": 1799317061
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2024-06-30",
+    "stockPrice": 9.95,
+    "numberOfShares": 264625308,
+    "marketCapitalization": 2633021814,
+    "minusCashAndCashEquivalents": 481168000,
+    "addTotalDebt": 23699000,
+    "enterpriseValue": 2175552814
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2024-03-31",
+    "stockPrice": 11.47,
+    "numberOfShares": 259506242,
+    "marketCapitalization": 2976536595,
+    "minusCashAndCashEquivalents": 688497000,
+    "addTotalDebt": 24346000,
+    "enterpriseValue": 2312385595
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2023-12-31",
+    "stockPrice": 15.47,
+    "numberOfShares": 230836624,
+    "marketCapitalization": 3571042573,
+    "minusCashAndCashEquivalents": 597169000,
+    "addTotalDebt": 22128000,
+    "enterpriseValue": 2996001573
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2023-09-30",
+    "stockPrice": 9.33,
+    "numberOfShares": 180952689,
+    "marketCapitalization": 1688288588,
+    "minusCashAndCashEquivalents": 290107000,
+    "addTotalDebt": 22704000,
+    "enterpriseValue": 1420885588
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2023-06-30",
+    "stockPrice": 11.82,
+    "numberOfShares": 167342813,
+    "marketCapitalization": 1977992049,
+    "minusCashAndCashEquivalents": 289176000,
+    "addTotalDebt": 22253000,
+    "enterpriseValue": 1711069049
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2023-03-31",
+    "stockPrice": 9.99,
+    "numberOfShares": 168300000,
+    "marketCapitalization": 1681317000,
+    "minusCashAndCashEquivalents": 158272000,
+    "addTotalDebt": 22320000,
+    "enterpriseValue": 1545365000
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2022-12-31",
+    "stockPrice": 3.39,
+    "numberOfShares": 156052590,
+    "marketCapitalization": 529018280,
+    "minusCashAndCashEquivalents": 230328000,
+    "addTotalDebt": 22251000,
+    "enterpriseValue": 320941280
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2022-09-30",
+    "stockPrice": 7.01,
+    "numberOfShares": 153895123,
+    "marketCapitalization": 1078804812,
+    "minusCashAndCashEquivalents": 254974000,
+    "addTotalDebt": 22209000,
+    "enterpriseValue": 846039812
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2022-06-30",
+    "stockPrice": 4.19,
+    "numberOfShares": 130405502,
+    "marketCapitalization": 546399053,
+    "minusCashAndCashEquivalents": 270483000,
+    "addTotalDebt": 21486000,
+    "enterpriseValue": 297402053
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2022-03-31",
+    "stockPrice": 21.17,
+    "numberOfShares": 117042347,
+    "marketCapitalization": 2477786485,
+    "minusCashAndCashEquivalents": 113581000,
+    "addTotalDebt": 21853000,
+    "enterpriseValue": 2386058485
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2021-12-31",
+    "stockPrice": 22.33,
+    "numberOfShares": 105760516,
+    "marketCapitalization": 2361632322,
+    "minusCashAndCashEquivalents": 312315000,
+    "addTotalDebt": 13439000,
+    "enterpriseValue": 2062756322
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2021-09-30",
+    "stockPrice": 25.7,
+    "numberOfShares": 96064036,
+    "marketCapitalization": 2468845725,
+    "minusCashAndCashEquivalents": 57880000,
+    "addTotalDebt": 8379000,
+    "enterpriseValue": 2419344725
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2021-06-30",
+    "stockPrice": 37.67,
+    "numberOfShares": 88681338,
+    "marketCapitalization": 3340626002,
+    "minusCashAndCashEquivalents": 147183000,
+    "addTotalDebt": 8300000,
+    "enterpriseValue": 3201743002
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2021-03-31",
+    "stockPrice": 53.27,
+    "numberOfShares": 83163400,
+    "marketCapitalization": 4430114318,
+    "minusCashAndCashEquivalents": 241012000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4189102318
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2020-12-31",
+    "stockPrice": 16.99,
+    "numberOfShares": 59853035,
+    "marketCapitalization": 1016903064,
+    "minusCashAndCashEquivalents": 223382000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 793521064
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2020-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 44773870,
+    "marketCapitalization": 120889449,
+    "minusCashAndCashEquivalents": 30086000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 90803449
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2020-06-30",
+    "stockPrice": 2.22,
+    "numberOfShares": 34528836,
+    "marketCapitalization": 76654015,
+    "minusCashAndCashEquivalents": 9140000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 67514015
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2020-03-31",
+    "stockPrice": 0.833,
+    "numberOfShares": 28585915,
+    "marketCapitalization": 23812067,
+    "minusCashAndCashEquivalents": 13956000,
+    "addTotalDebt": 356000,
+    "enterpriseValue": 10212067
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2019-12-31",
+    "stockPrice": 1.12,
+    "numberOfShares": 24477285,
+    "marketCapitalization": 27414559,
+    "minusCashAndCashEquivalents": 7440000,
+    "addTotalDebt": 368000,
+    "enterpriseValue": 20342559
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2019-09-30",
+    "stockPrice": 1.78,
+    "numberOfShares": 23371856,
+    "marketCapitalization": 41601903,
+    "minusCashAndCashEquivalents": 15162781,
+    "addTotalDebt": 938548,
+    "enterpriseValue": 27377670
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2019-06-30",
+    "stockPrice": 2.71,
+    "numberOfShares": 15995092,
+    "marketCapitalization": 43346699,
+    "minusCashAndCashEquivalents": 16110630,
+    "addTotalDebt": 950287,
+    "enterpriseValue": 28186356
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2019-03-31",
+    "stockPrice": 3.54,
+    "numberOfShares": 14449628,
+    "marketCapitalization": 51151683,
+    "minusCashAndCashEquivalents": 1016019,
+    "addTotalDebt": 11511367,
+    "enterpriseValue": 61647031
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2018-12-31",
+    "stockPrice": 1.51,
+    "numberOfShares": 13595018,
+    "marketCapitalization": 20528477,
+    "minusCashAndCashEquivalents": 225390,
+    "addTotalDebt": 1696083,
+    "enterpriseValue": 21999170
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2018-09-30",
+    "stockPrice": 3.45,
+    "numberOfShares": 14197763,
+    "marketCapitalization": 48982282,
+    "minusCashAndCashEquivalents": 1607085,
+    "addTotalDebt": 1696083,
+    "enterpriseValue": 49071280
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2018-06-30",
+    "stockPrice": 6.34,
+    "numberOfShares": 13511427,
+    "marketCapitalization": 85662447,
+    "minusCashAndCashEquivalents": 1654034,
+    "addTotalDebt": 775555,
+    "enterpriseValue": 84783968
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2018-03-31",
+    "stockPrice": 6.62,
+    "numberOfShares": 12289785,
+    "marketCapitalization": 81358376,
+    "minusCashAndCashEquivalents": 5257534,
+    "addTotalDebt": 829608,
+    "enterpriseValue": 76930450
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2017-12-31",
+    "stockPrice": 28.4,
+    "numberOfShares": 8965976,
+    "marketCapitalization": 254633718,
+    "minusCashAndCashEquivalents": 41651965,
+    "addTotalDebt": 135574,
+    "enterpriseValue": 213117327
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2017-09-30",
+    "stockPrice": 5.16,
+    "numberOfShares": 5401552,
+    "marketCapitalization": 27872008,
+    "minusCashAndCashEquivalents": 13139722,
+    "addTotalDebt": 215712,
+    "enterpriseValue": 14947998
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2017-06-30",
+    "stockPrice": 4.08,
+    "numberOfShares": 5103739,
+    "marketCapitalization": 20823255,
+    "minusCashAndCashEquivalents": 11933573,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8889682
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2017-03-31",
+    "stockPrice": 4,
+    "numberOfShares": 4599184,
+    "marketCapitalization": 18396736,
+    "minusCashAndCashEquivalents": 11981618,
+    "addTotalDebt": 56158,
+    "enterpriseValue": 6471276
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2016-12-31",
+    "stockPrice": 3.84,
+    "numberOfShares": 4507171,
+    "marketCapitalization": 17307536,
+    "minusCashAndCashEquivalents": 5529848,
+    "addTotalDebt": 139611,
+    "enterpriseValue": 11917299
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2016-09-30",
+    "stockPrice": 3.03,
+    "numberOfShares": 3999637,
+    "marketCapitalization": 12118900,
+    "minusCashAndCashEquivalents": 2447320,
+    "addTotalDebt": 222135,
+    "enterpriseValue": 9893715
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2016-06-30",
+    "stockPrice": 3.51,
+    "numberOfShares": 3876961,
+    "marketCapitalization": 13608133,
+    "minusCashAndCashEquivalents": 4489809,
+    "addTotalDebt": 0,
+    "enterpriseValue": 9118324
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2016-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 3876960,
+    "marketCapitalization": 10467792,
+    "minusCashAndCashEquivalents": 3841065,
+    "addTotalDebt": 57152,
+    "enterpriseValue": 6683879
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2015-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 3876961,
+    "marketCapitalization": 10467794,
+    "minusCashAndCashEquivalents": 2012283,
+    "addTotalDebt": 2140029,
+    "enterpriseValue": 10595540
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2015-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 3876961,
+    "marketCapitalization": 10467794,
+    "minusCashAndCashEquivalents": 3230308,
+    "addTotalDebt": 2263669,
+    "enterpriseValue": 9501155
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2015-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 3876961,
+    "marketCapitalization": 10467794,
+    "minusCashAndCashEquivalents": 4867832,
+    "addTotalDebt": 2075048,
+    "enterpriseValue": 7675010
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2015-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 3876960,
+    "marketCapitalization": 10467792,
+    "minusCashAndCashEquivalents": 4202035,
+    "addTotalDebt": 2177268,
+    "enterpriseValue": 8443025
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2014-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 3876990,
+    "marketCapitalization": 10467873,
+    "minusCashAndCashEquivalents": 3539911,
+    "addTotalDebt": 2310983,
+    "enterpriseValue": 9238945
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2014-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 3873753,
+    "marketCapitalization": 10459133,
+    "minusCashAndCashEquivalents": 4371246,
+    "addTotalDebt": 2443408,
+    "enterpriseValue": 8531295
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2014-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 3847867,
+    "marketCapitalization": 10389240,
+    "minusCashAndCashEquivalents": 3752767,
+    "addTotalDebt": 2224446,
+    "enterpriseValue": 8860919
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2014-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 2704881,
+    "marketCapitalization": 7303178.7,
+    "minusCashAndCashEquivalents": 3985102,
+    "addTotalDebt": 2330361,
+    "enterpriseValue": 5648437
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2013-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 2687985,
+    "marketCapitalization": 7257559.5,
+    "minusCashAndCashEquivalents": 5658683,
+    "addTotalDebt": 2470379,
+    "enterpriseValue": 4069255
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2013-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 2681797,
+    "marketCapitalization": 7240851.9,
+    "minusCashAndCashEquivalents": 4355340,
+    "addTotalDebt": 2609055,
+    "enterpriseValue": 5494566
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2013-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 1844572,
+    "marketCapitalization": 4980344.4,
+    "minusCashAndCashEquivalents": 9736747,
+    "addTotalDebt": 2367727,
+    "enterpriseValue": -2388675
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2013-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 1244297,
+    "marketCapitalization": 3359601.9,
+    "minusCashAndCashEquivalents": 2491838,
+    "addTotalDebt": 2692159,
+    "enterpriseValue": 3559922
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2012-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 1244297,
+    "marketCapitalization": 3359601.9,
+    "minusCashAndCashEquivalents": 10977974,
+    "addTotalDebt": 3053424,
+    "enterpriseValue": -4564948
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2012-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 964560,
+    "marketCapitalization": 2604312,
+    "minusCashAndCashEquivalents": 9836750,
+    "addTotalDebt": 3404956,
+    "enterpriseValue": -3827482
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2012-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 243589,
+    "marketCapitalization": 657690.3,
+    "minusCashAndCashEquivalents": 10949955,
+    "addTotalDebt": 3272191,
+    "enterpriseValue": -7020073
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2012-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 201018,
+    "marketCapitalization": 542748.6,
+    "minusCashAndCashEquivalents": 1316462,
+    "addTotalDebt": 3568923,
+    "enterpriseValue": 2795209
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2011-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 200694,
+    "marketCapitalization": 541873.8,
+    "minusCashAndCashEquivalents": 2968104,
+    "addTotalDebt": 3904226,
+    "enterpriseValue": 1477995
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2011-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 167581,
+    "marketCapitalization": 452468.7,
+    "minusCashAndCashEquivalents": 2400866,
+    "addTotalDebt": 2901352,
+    "enterpriseValue": 952954
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2011-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 167581,
+    "marketCapitalization": 452468.7,
+    "minusCashAndCashEquivalents": 6108117,
+    "addTotalDebt": 2597834,
+    "enterpriseValue": -3057814
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2011-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 167257,
+    "marketCapitalization": 451593.9,
+    "minusCashAndCashEquivalents": 8140814,
+    "addTotalDebt": 2667106,
+    "enterpriseValue": -5022114
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2010-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 167243,
+    "marketCapitalization": 451556.1,
+    "minusCashAndCashEquivalents": 8908080,
+    "addTotalDebt": 2820543,
+    "enterpriseValue": -5635980
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2010-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 167243,
+    "marketCapitalization": 451556.1,
+    "minusCashAndCashEquivalents": 8922955,
+    "addTotalDebt": 2679921,
+    "enterpriseValue": -5791477
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2010-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 163227,
+    "marketCapitalization": 440712.9,
+    "minusCashAndCashEquivalents": 12523434,
+    "addTotalDebt": 2708510,
+    "enterpriseValue": -9374211
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2010-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 156252,
+    "marketCapitalization": 421880.4,
+    "minusCashAndCashEquivalents": 10769909,
+    "addTotalDebt": 2735375,
+    "enterpriseValue": -7612653
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2009-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 154897,
+    "marketCapitalization": 418221.9,
+    "minusCashAndCashEquivalents": 13366777,
+    "addTotalDebt": 2762835,
+    "enterpriseValue": -10185720
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2009-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 133994,
+    "marketCapitalization": 361783.8,
+    "minusCashAndCashEquivalents": 7643571,
+    "addTotalDebt": 2829963,
+    "enterpriseValue": -4451824
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2009-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 132197,
+    "marketCapitalization": 356931.9,
+    "minusCashAndCashEquivalents": 9528712,
+    "addTotalDebt": 2897099,
+    "enterpriseValue": -6274681
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2009-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 131707,
+    "marketCapitalization": 355608.9,
+    "minusCashAndCashEquivalents": 13466355,
+    "addTotalDebt": 3008635,
+    "enterpriseValue": -10102111
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2008-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 129800,
+    "marketCapitalization": 350460,
+    "minusCashAndCashEquivalents": 11819505,
+    "addTotalDebt": 3113456,
+    "enterpriseValue": -8355589
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2008-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 129654,
+    "marketCapitalization": 350065.8,
+    "minusCashAndCashEquivalents": 1693606,
+    "addTotalDebt": 3181332,
+    "enterpriseValue": 1837791
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2008-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 129821,
+    "marketCapitalization": 350516.7,
+    "minusCashAndCashEquivalents": 2274844,
+    "addTotalDebt": 3478454,
+    "enterpriseValue": 1554126
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2008-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 130253,
+    "marketCapitalization": 351683.1,
+    "minusCashAndCashEquivalents": 1459734,
+    "addTotalDebt": 3558563,
+    "enterpriseValue": 2450512
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2007-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 130253,
+    "marketCapitalization": 351683.1,
+    "minusCashAndCashEquivalents": 17376757,
+    "addTotalDebt": 3478548,
+    "enterpriseValue": -13546525
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2007-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 116574,
+    "marketCapitalization": 314749.8,
+    "minusCashAndCashEquivalents": 1161817,
+    "addTotalDebt": 3753805,
+    "enterpriseValue": 2906737
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2007-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 112792,
+    "marketCapitalization": 304538.4,
+    "minusCashAndCashEquivalents": 11161559,
+    "addTotalDebt": 3495657,
+    "enterpriseValue": -7361363
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2007-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 87758,
+    "marketCapitalization": 236946.6,
+    "minusCashAndCashEquivalents": 6687285,
+    "addTotalDebt": 3541413,
+    "enterpriseValue": -2908925
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2006-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 87758,
+    "marketCapitalization": 236946.6,
+    "minusCashAndCashEquivalents": 3529262,
+    "addTotalDebt": 3587227,
+    "enterpriseValue": 294911
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2006-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 74738,
+    "marketCapitalization": 201792.6,
+    "minusCashAndCashEquivalents": 2144355,
+    "addTotalDebt": 3632068,
+    "enterpriseValue": 1689505
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2006-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 72986,
+    "marketCapitalization": 197062.2,
+    "minusCashAndCashEquivalents": 2792546,
+    "addTotalDebt": 3674622,
+    "enterpriseValue": 1079138
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2006-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 67030,
+    "marketCapitalization": 180981,
+    "minusCashAndCashEquivalents": 1504703,
+    "addTotalDebt": 3818514,
+    "enterpriseValue": 2494792
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2005-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 65541,
+    "marketCapitalization": 176960.7,
+    "minusCashAndCashEquivalents": 1980890,
+    "addTotalDebt": 3860355,
+    "enterpriseValue": 2056425
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2005-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 65764,
+    "marketCapitalization": 177562.8,
+    "minusCashAndCashEquivalents": 2745649,
+    "addTotalDebt": 3856190,
+    "enterpriseValue": 1288103
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2005-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 58716,
+    "marketCapitalization": 158533.2,
+    "minusCashAndCashEquivalents": 3203499,
+    "addTotalDebt": 3894634,
+    "enterpriseValue": 849668
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2005-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 48809,
+    "marketCapitalization": 131784.3,
+    "minusCashAndCashEquivalents": 305362,
+    "addTotalDebt": 3932007,
+    "enterpriseValue": 3758429
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2004-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 48809,
+    "marketCapitalization": 131784.3,
+    "minusCashAndCashEquivalents": 578105,
+    "addTotalDebt": 3969617,
+    "enterpriseValue": 3523296
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2004-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 46002,
+    "marketCapitalization": 124205.4,
+    "minusCashAndCashEquivalents": 978634,
+    "addTotalDebt": 4010158,
+    "enterpriseValue": 3155729
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2004-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 44355,
+    "marketCapitalization": 119758.5,
+    "minusCashAndCashEquivalents": 12363,
+    "addTotalDebt": 4515040,
+    "enterpriseValue": 4622435
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2004-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 42915,
+    "marketCapitalization": 115870.5,
+    "minusCashAndCashEquivalents": 107389,
+    "addTotalDebt": 4481908,
+    "enterpriseValue": 4490389
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2003-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 42915,
+    "marketCapitalization": 115870.5,
+    "minusCashAndCashEquivalents": 148132,
+    "addTotalDebt": 4544419,
+    "enterpriseValue": 4512157
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2003-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 38742,
+    "marketCapitalization": 104603.4,
+    "minusCashAndCashEquivalents": 105417,
+    "addTotalDebt": 4765343,
+    "enterpriseValue": 4764529
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2003-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 38750,
+    "marketCapitalization": 104625,
+    "minusCashAndCashEquivalents": 15259,
+    "addTotalDebt": 5000285,
+    "enterpriseValue": 5089651
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2003-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 38750,
+    "marketCapitalization": 104625,
+    "minusCashAndCashEquivalents": 261055,
+    "addTotalDebt": 4585221,
+    "enterpriseValue": 4428791
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2002-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 38750,
+    "marketCapitalization": 104625,
+    "minusCashAndCashEquivalents": 131780,
+    "addTotalDebt": 4114017,
+    "enterpriseValue": 4086862
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2002-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 38208,
+    "marketCapitalization": 103161.6,
+    "minusCashAndCashEquivalents": 634895,
+    "addTotalDebt": 627701,
+    "enterpriseValue": 95967
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2002-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 37928,
+    "marketCapitalization": 102405.6,
+    "minusCashAndCashEquivalents": 438100,
+    "addTotalDebt": 129094,
+    "enterpriseValue": -206600
+  },
+  {
+    "symbol": "RIOT",
+    "date": "2002-03-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 37106,
+    "marketCapitalization": 100186.2,
+    "minusCashAndCashEquivalents": 297365,
+    "addTotalDebt": 131086,
+    "enterpriseValue": -66092
+  }
+]

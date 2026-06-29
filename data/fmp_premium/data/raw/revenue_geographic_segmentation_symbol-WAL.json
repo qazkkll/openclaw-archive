@@ -1,0 +1,28 @@
+[
+  {
+    "symbol": "WAL",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "ARIZONA": 5947000,
+      "NEVADA": 9357000,
+      "Northern California": 6809000,
+      "Southern California": 3600000
+    }
+  },
+  {
+    "symbol": "WAL",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-12-31",
+    "data": {
+      "ARIZONA": 5215000,
+      "NEVADA": 9724000,
+      "Northern California": 7668000,
+      "Southern California": 3375000
+    }
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "symbol": "MESO",
+    "date": "2026-03-31",
+    "stockPrice": 15.38,
+    "numberOfShares": 120779313,
+    "marketCapitalization": 1857585833,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1857585833
+  },
+  {
+    "symbol": "MESO",
+    "date": "2025-12-31",
+    "stockPrice": 18.04,
+    "numberOfShares": 120779313,
+    "marketCapitalization": 2178858806,
+    "minusCashAndCashEquivalents": 129575000,
+    "addTotalDebt": 135144000,
+    "enterpriseValue": 2184427806
+  },
+  {
+    "symbol": "MESO",
+    "date": "2025-09-30",
+    "stockPrice": 16.11,
+    "numberOfShares": 120779313,
+    "marketCapitalization": 1945754732,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1945754732
+  },
+  {
+    "symbol": "MESO",
+    "date": "2025-06-30",
+    "stockPrice": 10.89,
+    "numberOfShares": 127332519,
+    "marketCapitalization": 1386651131,
+    "minusCashAndCashEquivalents": 161158000,
+    "addTotalDebt": 128157000,
+    "enterpriseValue": 1353650131
+  },
+  {
+    "symbol": "MESO",
+    "date": "2025-03-31",
+    "stockPrice": 12.48,
+    "numberOfShares": 127332519,
+    "marketCapitalization": 1589109837,
+    "minusCashAndCashEquivalents": 161551000,
+    "addTotalDebt": 128157000,
+    "enterpriseValue": 1555715837
+  },
+  {
+    "symbol": "MESO",
+    "date": "2024-12-31",
+    "stockPrice": 19.8,
+    "numberOfShares": 114128571,
+    "marketCapitalization": 2259745705,
+    "minusCashAndCashEquivalents": 38029000,
+    "addTotalDebt": 126111000,
+    "enterpriseValue": 2347827705
+  },
+  {
+    "symbol": "MESO",
+    "date": "2024-09-30",
+    "stockPrice": 8.17,
+    "numberOfShares": 114128571,
+    "marketCapitalization": 932430425,
+    "minusCashAndCashEquivalents": 38029000,
+    "addTotalDebt": 126111000,
+    "enterpriseValue": 1020512425
+  },
+  {
+    "symbol": "MESO",
+    "date": "2024-06-30",
+    "stockPrice": 6.78,
+    "numberOfShares": 112198331,
+    "marketCapitalization": 760704684,
+    "minusCashAndCashEquivalents": 62563000,
+    "addTotalDebt": 118923000,
+    "enterpriseValue": 817064684
+  },
+  {
+    "symbol": "MESO",
+    "date": "2024-03-31",
+    "stockPrice": 6.08,
+    "numberOfShares": 112198331,
+    "marketCapitalization": 682165852,
+    "minusCashAndCashEquivalents": 62960000,
+    "addTotalDebt": 118923000,
+    "enterpriseValue": 738128852
+  },
+  {
+    "symbol": "MESO",
+    "date": "2023-12-31",
+    "stockPrice": 2.2,
+    "numberOfShares": 85149421,
+    "marketCapitalization": 187328726,
+    "minusCashAndCashEquivalents": 77144000,
+    "addTotalDebt": 121999000,
+    "enterpriseValue": 232183726
+  },
+  {
+    "symbol": "MESO",
+    "date": "2023-09-30",
+    "stockPrice": 2.46,
+    "numberOfShares": 85149421,
+    "marketCapitalization": 209467575,
+    "minusCashAndCashEquivalents": 77554000,
+    "addTotalDebt": 119148000,
+    "enterpriseValue": 251061575
+  },
+  {
+    "symbol": "MESO",
+    "date": "2023-06-30",
+    "stockPrice": 7.82,
+    "numberOfShares": 94024536,
+    "marketCapitalization": 735271871,
+    "minusCashAndCashEquivalents": 70920000,
+    "addTotalDebt": 116495000,
+    "enterpriseValue": 780846871
+  },
+  {
+    "symbol": "MESO",
+    "date": "2023-03-31",
+    "stockPrice": 6.58,
+    "numberOfShares": 73520692,
+    "marketCapitalization": 483766153,
+    "minusCashAndCashEquivalents": 48396000,
+    "addTotalDebt": 114608000,
+    "enterpriseValue": 549978153
+  },
+  {
+    "symbol": "MESO",
+    "date": "2022-12-31",
+    "stockPrice": 5.82,
+    "numberOfShares": 77050882,
+    "marketCapitalization": 448436133,
+    "minusCashAndCashEquivalents": 67219000,
+    "addTotalDebt": 111782000,
+    "enterpriseValue": 492999133
+  },
+  {
+    "symbol": "MESO",
+    "date": "2022-09-30",
+    "stockPrice": 5.1,
+    "numberOfShares": 69481481,
+    "marketCapitalization": 354355553,
+    "minusCashAndCashEquivalents": 85112000,
+    "addTotalDebt": 109632000,
+    "enterpriseValue": 378875553
+  },
+  {
+    "symbol": "MESO",
+    "date": "2022-06-30",
+    "stockPrice": 4.44,
+    "numberOfShares": 64991518,
+    "marketCapitalization": 288562339,
+    "minusCashAndCashEquivalents": 60034000,
+    "addTotalDebt": 106905000,
+    "enterpriseValue": 335433339
+  },
+  {
+    "symbol": "MESO",
+    "date": "2022-03-31",
+    "stockPrice": 8.44,
+    "numberOfShares": 64947102,
+    "marketCapitalization": 548153540,
+    "minusCashAndCashEquivalents": 76311000,
+    "addTotalDebt": 104651000,
+    "enterpriseValue": 576493540
+  },
+  {
+    "symbol": "MESO",
+    "date": "2021-12-31",
+    "stockPrice": 9.6,
+    "numberOfShares": 64810651,
+    "marketCapitalization": 622182249,
+    "minusCashAndCashEquivalents": 94414000,
+    "addTotalDebt": 103176000,
+    "enterpriseValue": 630944249
+  },
+  {
+    "symbol": "MESO",
+    "date": "2021-09-30",
+    "stockPrice": 12.02,
+    "numberOfShares": 64805540,
+    "marketCapitalization": 778962590,
+    "minusCashAndCashEquivalents": 115956000,
+    "addTotalDebt": 107196000,
+    "enterpriseValue": 770202590
+  },
+  {
+    "symbol": "MESO",
+    "date": "2021-06-30",
+    "stockPrice": 14.96,
+    "numberOfShares": 64730046,
+    "marketCapitalization": 968361488,
+    "minusCashAndCashEquivalents": 136881000,
+    "addTotalDebt": 105495000,
+    "enterpriseValue": 936975488
+  },
+  {
+    "symbol": "MESO",
+    "date": "2021-03-31",
+    "stockPrice": 16.54,
+    "numberOfShares": 60400009,
+    "marketCapitalization": 999016148,
+    "minusCashAndCashEquivalents": 157807000,
+    "addTotalDebt": 101840000,
+    "enterpriseValue": 943049148
+  },
+  {
+    "symbol": "MESO",
+    "date": "2020-12-31",
+    "stockPrice": 16.98,
+    "numberOfShares": 58636114,
+    "marketCapitalization": 995641215,
+    "minusCashAndCashEquivalents": 77066000,
+    "addTotalDebt": 99721000,
+    "enterpriseValue": 1018296215
+  },
+  {
+    "symbol": "MESO",
+    "date": "2020-09-30",
+    "stockPrice": 37.18,
+    "numberOfShares": 58249477,
+    "marketCapitalization": 2165715554,
+    "minusCashAndCashEquivalents": 107697000,
+    "addTotalDebt": 101023000,
+    "enterpriseValue": 2159041554
+  },
+  {
+    "symbol": "MESO",
+    "date": "2020-06-30",
+    "stockPrice": 22.78,
+    "numberOfShares": 54406219,
+    "marketCapitalization": 1239373668,
+    "minusCashAndCashEquivalents": 129328000,
+    "addTotalDebt": 99314000,
+    "enterpriseValue": 1209359668
+  },
+  {
+    "symbol": "MESO",
+    "date": "2020-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 53744850,
+    "marketCapitalization": 470804886,
+    "minusCashAndCashEquivalents": 59707000,
+    "addTotalDebt": 95772000,
+    "enterpriseValue": 506869886
+  },
+  {
+    "symbol": "MESO",
+    "date": "2019-12-31",
+    "stockPrice": 14.74,
+    "numberOfShares": 53441154,
+    "marketCapitalization": 787722609,
+    "minusCashAndCashEquivalents": 80928000,
+    "addTotalDebt": 94298000,
+    "enterpriseValue": 801092609
+  },
+  {
+    "symbol": "MESO",
+    "date": "2019-09-30",
+    "stockPrice": 13.86,
+    "numberOfShares": 49859078,
+    "marketCapitalization": 691046821,
+    "minusCashAndCashEquivalents": 34131000,
+    "addTotalDebt": 89172000,
+    "enterpriseValue": 746087821
+  },
+  {
+    "symbol": "MESO",
+    "date": "2019-06-30",
+    "stockPrice": 10.1,
+    "numberOfShares": 49918111,
+    "marketCapitalization": 504172921,
+    "minusCashAndCashEquivalents": 50426000,
+    "addTotalDebt": 81286000,
+    "enterpriseValue": 535032921
+  },
+  {
+    "symbol": "MESO",
+    "date": "2019-03-31",
+    "stockPrice": 11.16,
+    "numberOfShares": 49915042,
+    "marketCapitalization": 557051868,
+    "minusCashAndCashEquivalents": 69960000,
+    "addTotalDebt": 79577000,
+    "enterpriseValue": 566668868
+  },
+  {
+    "symbol": "MESO",
+    "date": "2018-12-31",
+    "stockPrice": 8.24,
+    "numberOfShares": 49176527,
+    "marketCapitalization": 405214582,
+    "minusCashAndCashEquivalents": 76599000,
+    "addTotalDebt": 63482000,
+    "enterpriseValue": 392097582
+  },
+  {
+    "symbol": "MESO",
+    "date": "2018-09-30",
+    "stockPrice": 17.2,
+    "numberOfShares": 47907811,
+    "marketCapitalization": 824014349,
+    "minusCashAndCashEquivalents": 54611000,
+    "addTotalDebt": 61159000,
+    "enterpriseValue": 830562349
+  },
+  {
+    "symbol": "MESO",
+    "date": "2018-06-30",
+    "stockPrice": 11,
+    "numberOfShares": 47399554,
+    "marketCapitalization": 521395094,
+    "minusCashAndCashEquivalents": 37763000,
+    "addTotalDebt": 59397000,
+    "enterpriseValue": 543029094
+  },
+  {
+    "symbol": "MESO",
+    "date": "2018-03-31",
+    "stockPrice": 11.16,
+    "numberOfShares": 47287411,
+    "marketCapitalization": 527727506,
+    "minusCashAndCashEquivalents": 58980000,
+    "addTotalDebt": 31422000,
+    "enterpriseValue": 500169506
+  },
+  {
+    "symbol": "MESO",
+    "date": "2017-12-31",
+    "stockPrice": 11.68,
+    "numberOfShares": 47121733,
+    "marketCapitalization": 550381841,
+    "minusCashAndCashEquivalents": 31442000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 518939841
+  },
+  {
+    "symbol": "MESO",
+    "date": "2017-09-30",
+    "stockPrice": 10.96,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 589281267,
+    "minusCashAndCashEquivalents": 46518000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 542763267
+  },
+  {
+    "symbol": "MESO",
+    "date": "2017-06-30",
+    "stockPrice": 15.9,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 854887970,
+    "minusCashAndCashEquivalents": 45761000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 809126970
+  },
+  {
+    "symbol": "MESO",
+    "date": "2017-03-31",
+    "stockPrice": 17.96,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 965647040,
+    "minusCashAndCashEquivalents": 49641000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 916006040
+  },
+  {
+    "symbol": "MESO",
+    "date": "2016-12-31",
+    "stockPrice": 10.7,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 575301967,
+    "minusCashAndCashEquivalents": 17122000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 558179967
+  },
+  {
+    "symbol": "MESO",
+    "date": "2016-09-30",
+    "stockPrice": 8.62,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 463467566,
+    "minusCashAndCashEquivalents": 16036000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 447431566
+  },
+  {
+    "symbol": "MESO",
+    "date": "2016-06-30",
+    "stockPrice": 7.92,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 425830988,
+    "minusCashAndCashEquivalents": 21860000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 403970988
+  },
+  {
+    "symbol": "MESO",
+    "date": "2016-03-31",
+    "stockPrice": 19.24,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 1034468210,
+    "minusCashAndCashEquivalents": 10762000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1023706210
+  },
+  {
+    "symbol": "MESO",
+    "date": "2015-12-31",
+    "stockPrice": 12.72,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 683910376,
+    "minusCashAndCashEquivalents": 8432000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 675478376
+  },
+  {
+    "symbol": "MESO",
+    "date": "2015-09-30",
+    "stockPrice": 22.6,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 1215123781,
+    "minusCashAndCashEquivalents": 77761000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1137362781
+  },
+  {
+    "symbol": "MESO",
+    "date": "2015-06-30",
+    "stockPrice": 28.52,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 1533421692,
+    "minusCashAndCashEquivalents": 27507000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1505914692
+  },
+  {
+    "symbol": "MESO",
+    "date": "2015-03-31",
+    "stockPrice": 27.48,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 1477504491,
+    "minusCashAndCashEquivalents": -122085839,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1599590330
+  },
+  {
+    "symbol": "MESO",
+    "date": "2014-12-31",
+    "stockPrice": 35.52,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 1909787465,
+    "minusCashAndCashEquivalents": 11433000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1898354465
+  },
+  {
+    "symbol": "MESO",
+    "date": "2014-09-30",
+    "stockPrice": 38.16,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 2051731128,
+    "minusCashAndCashEquivalents": 149141407,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1902589721
+  },
+  {
+    "symbol": "MESO",
+    "date": "2014-06-30",
+    "stockPrice": 43.14,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 2319488492,
+    "minusCashAndCashEquivalents": 3827000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2315661492
+  },
+  {
+    "symbol": "MESO",
+    "date": "2014-03-31",
+    "stockPrice": 50.8,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 2731340181,
+    "minusCashAndCashEquivalents": 182090770,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2549249411
+  },
+  {
+    "symbol": "MESO",
+    "date": "2013-12-31",
+    "stockPrice": 52.74,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 2835647266,
+    "minusCashAndCashEquivalents": 11849000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2823798266
+  },
+  {
+    "symbol": "MESO",
+    "date": "2013-09-30",
+    "stockPrice": 53.02,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 2850701897,
+    "minusCashAndCashEquivalents": -297981025,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3148682922
+  },
+  {
+    "symbol": "MESO",
+    "date": "2013-06-30",
+    "stockPrice": 48.8,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 2623807103,
+    "minusCashAndCashEquivalents": 7875000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2615932103
+  },
+  {
+    "symbol": "MESO",
+    "date": "2013-03-31",
+    "stockPrice": 69,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 3709891191,
+    "minusCashAndCashEquivalents": 328190476,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3381700715
+  },
+  {
+    "symbol": "MESO",
+    "date": "2012-12-31",
+    "stockPrice": 54.98,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 2956084314,
+    "minusCashAndCashEquivalents": 178233409,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2777850905
+  },
+  {
+    "symbol": "MESO",
+    "date": "2012-09-30",
+    "stockPrice": 70,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 3763657730,
+    "minusCashAndCashEquivalents": 185370624,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3578287106
+  },
+  {
+    "symbol": "MESO",
+    "date": "2012-06-30",
+    "stockPrice": 59.44,
+    "numberOfShares": 53766539,
+    "marketCapitalization": 3195883078,
+    "minusCashAndCashEquivalents": 206748798,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2989134280
+  }
+]

@@ -1,0 +1,862 @@
+[
+  {
+    "symbol": "AX",
+    "date": "2026-03-31",
+    "stockPrice": 85.09,
+    "numberOfShares": 56586710,
+    "marketCapitalization": 4814963153,
+    "minusCashAndCashEquivalents": 1168131000,
+    "addTotalDebt": 2817517000,
+    "enterpriseValue": 6464349153
+  },
+  {
+    "symbol": "AX",
+    "date": "2025-12-31",
+    "stockPrice": 86.16,
+    "numberOfShares": 56862630,
+    "marketCapitalization": 4899284200,
+    "minusCashAndCashEquivalents": 1010048000,
+    "addTotalDebt": 1116321000,
+    "enterpriseValue": 5005557200
+  },
+  {
+    "symbol": "AX",
+    "date": "2025-09-30",
+    "stockPrice": 84.65,
+    "numberOfShares": 56862630,
+    "marketCapitalization": 4813421629,
+    "minusCashAndCashEquivalents": 2560692000,
+    "addTotalDebt": 1352487000,
+    "enterpriseValue": 3605216629
+  },
+  {
+    "symbol": "AX",
+    "date": "2025-06-30",
+    "stockPrice": 76.04,
+    "numberOfShares": 56392620,
+    "marketCapitalization": 4288094824,
+    "minusCashAndCashEquivalents": 1933845000,
+    "addTotalDebt": 372671000,
+    "enterpriseValue": 2726920824
+  },
+  {
+    "symbol": "AX",
+    "date": "2025-03-31",
+    "stockPrice": 64.52,
+    "numberOfShares": 57029000,
+    "marketCapitalization": 3679511080,
+    "minusCashAndCashEquivalents": 2001321000,
+    "addTotalDebt": 437427000,
+    "enterpriseValue": 2115617080
+  },
+  {
+    "symbol": "AX",
+    "date": "2024-12-31",
+    "stockPrice": 69.85,
+    "numberOfShares": 57094000,
+    "marketCapitalization": 3988015899,
+    "minusCashAndCashEquivalents": 2438073000,
+    "addTotalDebt": 418692000,
+    "enterpriseValue": 1968634899
+  },
+  {
+    "symbol": "AX",
+    "date": "2024-09-30",
+    "stockPrice": 62.88,
+    "numberOfShares": 56935000,
+    "marketCapitalization": 3580072800,
+    "minusCashAndCashEquivalents": 2570506000,
+    "addTotalDebt": 403519000,
+    "enterpriseValue": 1413085800
+  },
+  {
+    "symbol": "AX",
+    "date": "2024-06-30",
+    "stockPrice": 57.38,
+    "numberOfShares": 56938000,
+    "marketCapitalization": 3267102440,
+    "minusCashAndCashEquivalents": 1979979000,
+    "addTotalDebt": 415679000,
+    "enterpriseValue": 1702802440
+  },
+  {
+    "symbol": "AX",
+    "date": "2024-03-31",
+    "stockPrice": 52.43,
+    "numberOfShares": 56932000,
+    "marketCapitalization": 2984944760,
+    "minusCashAndCashEquivalents": 2129772000,
+    "addTotalDebt": 420389000,
+    "enterpriseValue": 1275561760
+  },
+  {
+    "symbol": "AX",
+    "date": "2023-12-31",
+    "stockPrice": 54.6,
+    "numberOfShares": 57217000,
+    "marketCapitalization": 3124048200,
+    "minusCashAndCashEquivalents": 1568768000,
+    "addTotalDebt": 431086000,
+    "enterpriseValue": 1986366200
+  },
+  {
+    "symbol": "AX",
+    "date": "2023-09-30",
+    "stockPrice": 37.86,
+    "numberOfShares": 58949000,
+    "marketCapitalization": 2231809140,
+    "minusCashAndCashEquivalents": 2161762000,
+    "addTotalDebt": 537733000,
+    "enterpriseValue": 607780140
+  },
+  {
+    "symbol": "AX",
+    "date": "2023-06-30",
+    "stockPrice": 39.44,
+    "numberOfShares": 58981000,
+    "marketCapitalization": 2326210640,
+    "minusCashAndCashEquivalents": 2233027000,
+    "addTotalDebt": 451779000,
+    "enterpriseValue": 544962640
+  },
+  {
+    "symbol": "AX",
+    "date": "2023-03-31",
+    "stockPrice": 36.92,
+    "numberOfShares": 59931000,
+    "marketCapitalization": 2212652520,
+    "minusCashAndCashEquivalents": 2324022000,
+    "addTotalDebt": 424330000,
+    "enterpriseValue": 312960520
+  },
+  {
+    "symbol": "AX",
+    "date": "2022-12-31",
+    "stockPrice": 38.22,
+    "numberOfShares": 60000000,
+    "marketCapitalization": 2293200000,
+    "minusCashAndCashEquivalents": 1755603000,
+    "addTotalDebt": 434077000,
+    "enterpriseValue": 971674000
+  },
+  {
+    "symbol": "AX",
+    "date": "2022-09-30",
+    "stockPrice": 34.23,
+    "numberOfShares": 59855000,
+    "marketCapitalization": 2048836649,
+    "minusCashAndCashEquivalents": 1369170000,
+    "addTotalDebt": 538318000,
+    "enterpriseValue": 1217984649
+  },
+  {
+    "symbol": "AX",
+    "date": "2022-06-30",
+    "stockPrice": 35.85,
+    "numberOfShares": 59665000,
+    "marketCapitalization": 2138990250,
+    "minusCashAndCashEquivalents": 1202587000,
+    "addTotalDebt": 562744000,
+    "enterpriseValue": 1499147250
+  },
+  {
+    "symbol": "AX",
+    "date": "2022-03-31",
+    "stockPrice": 46.39,
+    "numberOfShares": 59542000,
+    "marketCapitalization": 2762153380,
+    "minusCashAndCashEquivalents": 998348000,
+    "addTotalDebt": 534182000,
+    "enterpriseValue": 2297987380
+  },
+  {
+    "symbol": "AX",
+    "date": "2021-12-31",
+    "stockPrice": 55.91,
+    "numberOfShares": 59496000,
+    "marketCapitalization": 3326421360,
+    "minusCashAndCashEquivalents": 858732000,
+    "addTotalDebt": 417935000,
+    "enterpriseValue": 2885624360
+  },
+  {
+    "symbol": "AX",
+    "date": "2021-09-30",
+    "stockPrice": 51.54,
+    "numberOfShares": 59391000,
+    "marketCapitalization": 3061012140,
+    "minusCashAndCashEquivalents": 1000076000,
+    "addTotalDebt": 413396000,
+    "enterpriseValue": 2474332140
+  },
+  {
+    "symbol": "AX",
+    "date": "2021-06-30",
+    "stockPrice": 46.39,
+    "numberOfShares": 59242000,
+    "marketCapitalization": 2748236380,
+    "minusCashAndCashEquivalents": 715624000,
+    "addTotalDebt": 574858000,
+    "enterpriseValue": 2607470380
+  },
+  {
+    "symbol": "AX",
+    "date": "2021-03-31",
+    "stockPrice": 47.01,
+    "numberOfShares": 59119000,
+    "marketCapitalization": 2779184190,
+    "minusCashAndCashEquivalents": 1148052000,
+    "addTotalDebt": 538253000,
+    "enterpriseValue": 2169385190
+  },
+  {
+    "symbol": "AX",
+    "date": "2020-12-31",
+    "stockPrice": 37.53,
+    "numberOfShares": 59050000,
+    "marketCapitalization": 2216146500,
+    "minusCashAndCashEquivalents": 1129898000,
+    "addTotalDebt": 600980000,
+    "enterpriseValue": 1687228500
+  },
+  {
+    "symbol": "AX",
+    "date": "2020-09-30",
+    "stockPrice": 23.31,
+    "numberOfShares": 59509000,
+    "marketCapitalization": 1387154790,
+    "minusCashAndCashEquivalents": 907611000,
+    "addTotalDebt": 696343000,
+    "enterpriseValue": 1175886790
+  },
+  {
+    "symbol": "AX",
+    "date": "2020-06-30",
+    "stockPrice": 22.08,
+    "numberOfShares": 59504000,
+    "marketCapitalization": 1313848320,
+    "minusCashAndCashEquivalents": 1756477000,
+    "addTotalDebt": 478289000,
+    "enterpriseValue": 35660320
+  },
+  {
+    "symbol": "AX",
+    "date": "2020-03-31",
+    "stockPrice": 18.13,
+    "numberOfShares": 60968000,
+    "marketCapitalization": 1105349840,
+    "minusCashAndCashEquivalents": 671744000,
+    "addTotalDebt": 846785000,
+    "enterpriseValue": 1280390840
+  },
+  {
+    "symbol": "AX",
+    "date": "2019-12-31",
+    "stockPrice": 30.28,
+    "numberOfShares": 61316000,
+    "marketCapitalization": 1856648480,
+    "minusCashAndCashEquivalents": 773300000,
+    "addTotalDebt": 319733000,
+    "enterpriseValue": 1403081480
+  },
+  {
+    "symbol": "AX",
+    "date": "2019-09-30",
+    "stockPrice": 27.65,
+    "numberOfShares": 61247000,
+    "marketCapitalization": 1693479550,
+    "minusCashAndCashEquivalents": 456207000,
+    "addTotalDebt": 626181000,
+    "enterpriseValue": 1863453550
+  },
+  {
+    "symbol": "AX",
+    "date": "2019-06-30",
+    "stockPrice": 27.01,
+    "numberOfShares": 61202000,
+    "marketCapitalization": 1653066020,
+    "minusCashAndCashEquivalents": 511125000,
+    "addTotalDebt": 627429000,
+    "enterpriseValue": 1769370020
+  },
+  {
+    "symbol": "AX",
+    "date": "2019-03-31",
+    "stockPrice": 29.45,
+    "numberOfShares": 61259000,
+    "marketCapitalization": 1804077550,
+    "minusCashAndCashEquivalents": 288832000,
+    "addTotalDebt": 657977000,
+    "enterpriseValue": 2173222550
+  },
+  {
+    "symbol": "AX",
+    "date": "2018-12-31",
+    "stockPrice": 25.18,
+    "numberOfShares": 62337000,
+    "marketCapitalization": 1569645660,
+    "minusCashAndCashEquivalents": 256447000,
+    "addTotalDebt": 397125000,
+    "enterpriseValue": 1710323660
+  },
+  {
+    "symbol": "AX",
+    "date": "2018-09-30",
+    "stockPrice": 34.61,
+    "numberOfShares": 62796000,
+    "marketCapitalization": 2173369560,
+    "minusCashAndCashEquivalents": 533869000,
+    "addTotalDebt": 2634588000,
+    "enterpriseValue": 4274088560
+  },
+  {
+    "symbol": "AX",
+    "date": "2018-06-30",
+    "stockPrice": 40.91,
+    "numberOfShares": 63862000,
+    "marketCapitalization": 2612594420,
+    "minusCashAndCashEquivalents": 622750000,
+    "addTotalDebt": 511552000,
+    "enterpriseValue": 2501396420
+  },
+  {
+    "symbol": "AX",
+    "date": "2018-03-31",
+    "stockPrice": 40.53,
+    "numberOfShares": 62616000,
+    "marketCapitalization": 2537826417,
+    "minusCashAndCashEquivalents": 1490692000,
+    "addTotalDebt": 1022528000,
+    "enterpriseValue": 2069662417
+  },
+  {
+    "symbol": "AX",
+    "date": "2017-12-31",
+    "stockPrice": 29.9,
+    "numberOfShares": 63560000,
+    "marketCapitalization": 1900444000,
+    "minusCashAndCashEquivalents": 617989000,
+    "addTotalDebt": 597503000,
+    "enterpriseValue": 1879958000
+  },
+  {
+    "symbol": "AX",
+    "date": "2017-09-30",
+    "stockPrice": 28.47,
+    "numberOfShares": 63721000,
+    "marketCapitalization": 1814136806,
+    "minusCashAndCashEquivalents": 624169000,
+    "addTotalDebt": 464479000,
+    "enterpriseValue": 1654446806
+  },
+  {
+    "symbol": "AX",
+    "date": "2017-06-30",
+    "stockPrice": 23.72,
+    "numberOfShares": 64942000,
+    "marketCapitalization": 1540424175,
+    "minusCashAndCashEquivalents": 628172000,
+    "addTotalDebt": 714463000,
+    "enterpriseValue": 1626715175
+  },
+  {
+    "symbol": "AX",
+    "date": "2017-03-31",
+    "stockPrice": 26.13,
+    "numberOfShares": 64982000,
+    "marketCapitalization": 1697979595,
+    "minusCashAndCashEquivalents": 1054651000,
+    "addTotalDebt": 1050450000,
+    "enterpriseValue": 1693778595
+  },
+  {
+    "symbol": "AX",
+    "date": "2016-12-31",
+    "stockPrice": 28.55,
+    "numberOfShares": 64862000,
+    "marketCapitalization": 1851810035,
+    "minusCashAndCashEquivalents": 683487000,
+    "addTotalDebt": 756408000,
+    "enterpriseValue": 1924731035
+  },
+  {
+    "symbol": "AX",
+    "date": "2016-09-30",
+    "stockPrice": 22.4,
+    "numberOfShares": 64589000,
+    "marketCapitalization": 1446793600,
+    "minusCashAndCashEquivalents": 584754000,
+    "addTotalDebt": 746511000,
+    "enterpriseValue": 1608550600
+  },
+  {
+    "symbol": "AX",
+    "date": "2016-06-30",
+    "stockPrice": 17.71,
+    "numberOfShares": 64457000,
+    "marketCapitalization": 1141533405,
+    "minusCashAndCashEquivalents": 486627000,
+    "addTotalDebt": 818016000,
+    "enterpriseValue": 1472922405
+  },
+  {
+    "symbol": "AX",
+    "date": "2016-03-31",
+    "stockPrice": 21.34,
+    "numberOfShares": 64486000,
+    "marketCapitalization": 1376131240,
+    "minusCashAndCashEquivalents": 895454000,
+    "addTotalDebt": 949155000,
+    "enterpriseValue": 1429832240
+  },
+  {
+    "symbol": "AX",
+    "date": "2015-12-31",
+    "stockPrice": 21.05,
+    "numberOfShares": 64431000,
+    "marketCapitalization": 1356272485,
+    "minusCashAndCashEquivalents": 283448000,
+    "addTotalDebt": 798155000,
+    "enterpriseValue": 1870979485
+  },
+  {
+    "symbol": "AX",
+    "date": "2015-09-30",
+    "stockPrice": 32.21,
+    "numberOfShares": 63672000,
+    "marketCapitalization": 2050715940,
+    "minusCashAndCashEquivalents": 366711000,
+    "addTotalDebt": 861155000,
+    "enterpriseValue": 2545159940
+  },
+  {
+    "symbol": "AX",
+    "date": "2015-06-30",
+    "stockPrice": 26.43,
+    "numberOfShares": 62756000,
+    "marketCapitalization": 1658484190,
+    "minusCashAndCashEquivalents": 222774000,
+    "addTotalDebt": 793155000,
+    "enterpriseValue": 2228865190
+  },
+  {
+    "symbol": "AX",
+    "date": "2015-03-31",
+    "stockPrice": 23.26,
+    "numberOfShares": 62180000,
+    "marketCapitalization": 1446306800,
+    "minusCashAndCashEquivalents": 228450000,
+    "addTotalDebt": 623155000,
+    "enterpriseValue": 1841011800
+  },
+  {
+    "symbol": "AX",
+    "date": "2014-12-31",
+    "stockPrice": 19.45,
+    "numberOfShares": 60819000,
+    "marketCapitalization": 1183081536,
+    "minusCashAndCashEquivalents": 210039000,
+    "addTotalDebt": 710155000,
+    "enterpriseValue": 1683197536
+  },
+  {
+    "symbol": "AX",
+    "date": "2014-09-30",
+    "stockPrice": 18.18,
+    "numberOfShares": 59147000,
+    "marketCapitalization": 1075144592,
+    "minusCashAndCashEquivalents": 198160000,
+    "addTotalDebt": 1115155000,
+    "enterpriseValue": 1992139592
+  },
+  {
+    "symbol": "AX",
+    "date": "2014-06-30",
+    "stockPrice": 18.37,
+    "numberOfShares": 58470000,
+    "marketCapitalization": 1073947725,
+    "minusCashAndCashEquivalents": 155484000,
+    "addTotalDebt": 960155000,
+    "enterpriseValue": 1878618725
+  },
+  {
+    "symbol": "AX",
+    "date": "2014-03-31",
+    "stockPrice": 21.44,
+    "numberOfShares": 57949000,
+    "marketCapitalization": 1242281687,
+    "minusCashAndCashEquivalents": 128398000,
+    "addTotalDebt": 657155000,
+    "enterpriseValue": 1771038687
+  },
+  {
+    "symbol": "AX",
+    "date": "2013-12-31",
+    "stockPrice": 19.61,
+    "numberOfShares": 57103000,
+    "marketCapitalization": 1119647072,
+    "minusCashAndCashEquivalents": 128823000,
+    "addTotalDebt": 829155000,
+    "enterpriseValue": 1819979072
+  },
+  {
+    "symbol": "AX",
+    "date": "2013-09-30",
+    "stockPrice": 16.2,
+    "numberOfShares": 56727428,
+    "marketCapitalization": 919126095,
+    "minusCashAndCashEquivalents": 195231000,
+    "addTotalDebt": 771155000,
+    "enterpriseValue": 1495050095
+  },
+  {
+    "symbol": "AX",
+    "date": "2013-06-30",
+    "stockPrice": 11.5,
+    "numberOfShares": 55975000,
+    "marketCapitalization": 643712500,
+    "minusCashAndCashEquivalents": 196264000,
+    "addTotalDebt": 705572000,
+    "enterpriseValue": 1153020500
+  },
+  {
+    "symbol": "AX",
+    "date": "2013-03-31",
+    "stockPrice": 8.99,
+    "numberOfShares": 53174852,
+    "marketCapitalization": 478174856,
+    "minusCashAndCashEquivalents": 140987000,
+    "addTotalDebt": 575155000,
+    "enterpriseValue": 912342856
+  },
+  {
+    "symbol": "AX",
+    "date": "2012-12-31",
+    "stockPrice": 6.95,
+    "numberOfShares": 52898448,
+    "marketCapitalization": 367776459,
+    "minusCashAndCashEquivalents": 28411000,
+    "addTotalDebt": 647155000,
+    "enterpriseValue": 986520459
+  },
+  {
+    "symbol": "AX",
+    "date": "2012-09-30",
+    "stockPrice": 6.55,
+    "numberOfShares": 48764248,
+    "marketCapitalization": 319162003,
+    "minusCashAndCashEquivalents": 23317000,
+    "addTotalDebt": 529155000,
+    "enterpriseValue": 825000003
+  },
+  {
+    "symbol": "AX",
+    "date": "2012-06-30",
+    "stockPrice": 4.94,
+    "numberOfShares": 48764248,
+    "marketCapitalization": 240895385,
+    "minusCashAndCashEquivalents": 20638000,
+    "addTotalDebt": 781155000,
+    "enterpriseValue": 1001412385
+  },
+  {
+    "symbol": "AX",
+    "date": "2012-03-31",
+    "stockPrice": 4.27,
+    "numberOfShares": 47296774,
+    "marketCapitalization": 201957224,
+    "minusCashAndCashEquivalents": 7933000,
+    "addTotalDebt": 484155000,
+    "enterpriseValue": 678179224
+  },
+  {
+    "symbol": "AX",
+    "date": "2011-12-31",
+    "stockPrice": 4.06,
+    "numberOfShares": 44699788,
+    "marketCapitalization": 181592888,
+    "minusCashAndCashEquivalents": 8796000,
+    "addTotalDebt": 465155000,
+    "enterpriseValue": 637951888
+  },
+  {
+    "symbol": "AX",
+    "date": "2011-09-30",
+    "stockPrice": 3.37,
+    "numberOfShares": 43694804,
+    "marketCapitalization": 147033015,
+    "minusCashAndCashEquivalents": 7412000,
+    "addTotalDebt": 422155000,
+    "enterpriseValue": 561776015
+  },
+  {
+    "symbol": "AX",
+    "date": "2011-06-30",
+    "stockPrice": 3.6,
+    "numberOfShares": 43694804,
+    "marketCapitalization": 157410531,
+    "minusCashAndCashEquivalents": 5820000,
+    "addTotalDebt": 442655000,
+    "enterpriseValue": 594245531
+  },
+  {
+    "symbol": "AX",
+    "date": "2011-03-31",
+    "stockPrice": 3.88,
+    "numberOfShares": 41242972,
+    "marketCapitalization": 160022731,
+    "minusCashAndCashEquivalents": 4360000,
+    "addTotalDebt": 321155000,
+    "enterpriseValue": 476817731
+  },
+  {
+    "symbol": "AX",
+    "date": "2010-12-31",
+    "stockPrice": 3.88,
+    "numberOfShares": 43069788,
+    "marketCapitalization": 167003102,
+    "minusCashAndCashEquivalents": 5397000,
+    "addTotalDebt": 399155000,
+    "enterpriseValue": 560761102
+  },
+  {
+    "symbol": "AX",
+    "date": "2010-09-30",
+    "stockPrice": 2.97,
+    "numberOfShares": 42254208,
+    "marketCapitalization": 125389362,
+    "minusCashAndCashEquivalents": 4364000,
+    "addTotalDebt": 385155000,
+    "enterpriseValue": 506180362
+  },
+  {
+    "symbol": "AX",
+    "date": "2010-06-30",
+    "stockPrice": 3.53,
+    "numberOfShares": 42254208,
+    "marketCapitalization": 149157354,
+    "minusCashAndCashEquivalents": 5834000,
+    "addTotalDebt": 318154000,
+    "enterpriseValue": 461477354
+  },
+  {
+    "symbol": "AX",
+    "date": "2010-03-31",
+    "stockPrice": 3.48,
+    "numberOfShares": 34092844,
+    "marketCapitalization": 118728329,
+    "minusCashAndCashEquivalents": 3569000,
+    "addTotalDebt": 317150000,
+    "enterpriseValue": 432309329
+  },
+  {
+    "symbol": "AX",
+    "date": "2009-12-31",
+    "stockPrice": 2.5,
+    "numberOfShares": 33690752,
+    "marketCapitalization": 84226880,
+    "minusCashAndCashEquivalents": 3181000,
+    "addTotalDebt": 359147000,
+    "enterpriseValue": 440192880
+  },
+  {
+    "symbol": "AX",
+    "date": "2009-09-30",
+    "stockPrice": 2.11,
+    "numberOfShares": 33049884,
+    "marketCapitalization": 69570005,
+    "minusCashAndCashEquivalents": 4351000,
+    "addTotalDebt": 461143000,
+    "enterpriseValue": 526362005
+  },
+  {
+    "symbol": "AX",
+    "date": "2009-06-30",
+    "stockPrice": 1.52,
+    "numberOfShares": 33049884,
+    "marketCapitalization": 50318448,
+    "minusCashAndCashEquivalents": 3441000,
+    "addTotalDebt": 558139000,
+    "enterpriseValue": 605016448
+  },
+  {
+    "symbol": "AX",
+    "date": "2009-03-31",
+    "stockPrice": 1.35,
+    "numberOfShares": 32674596,
+    "marketCapitalization": 44110704,
+    "minusCashAndCashEquivalents": 4578000,
+    "addTotalDebt": 466135000,
+    "enterpriseValue": 505667704
+  },
+  {
+    "symbol": "AX",
+    "date": "2008-12-31",
+    "stockPrice": 1.19,
+    "numberOfShares": 33329928,
+    "marketCapitalization": 39579289,
+    "minusCashAndCashEquivalents": 5463000,
+    "addTotalDebt": 502132000,
+    "enterpriseValue": 536248289
+  },
+  {
+    "symbol": "AX",
+    "date": "2008-09-30",
+    "stockPrice": 1.62,
+    "numberOfShares": 33685096,
+    "marketCapitalization": 54654068,
+    "minusCashAndCashEquivalents": 4481000,
+    "addTotalDebt": 528128000,
+    "enterpriseValue": 578301068
+  },
+  {
+    "symbol": "AX",
+    "date": "2008-06-30",
+    "stockPrice": 1.85,
+    "numberOfShares": 30283333,
+    "marketCapitalization": 55948457,
+    "minusCashAndCashEquivalents": 6194000,
+    "addTotalDebt": 534121000,
+    "enterpriseValue": 583875457
+  },
+  {
+    "symbol": "AX",
+    "date": "2008-03-31",
+    "stockPrice": 1.5,
+    "numberOfShares": 33096260,
+    "marketCapitalization": 49727130,
+    "minusCashAndCashEquivalents": 6680000,
+    "addTotalDebt": 437603000,
+    "enterpriseValue": 480650130
+  },
+  {
+    "symbol": "AX",
+    "date": "2007-12-31",
+    "stockPrice": 1.79,
+    "numberOfShares": 37200000,
+    "marketCapitalization": 66495000,
+    "minusCashAndCashEquivalents": 8434000,
+    "addTotalDebt": 357585000,
+    "enterpriseValue": 415646000
+  },
+  {
+    "symbol": "AX",
+    "date": "2007-09-30",
+    "stockPrice": 1.8,
+    "numberOfShares": 37350000,
+    "marketCapitalization": 67043250,
+    "minusCashAndCashEquivalents": 13911000,
+    "addTotalDebt": 342567000,
+    "enterpriseValue": 395699250
+  },
+  {
+    "symbol": "AX",
+    "date": "2007-06-30",
+    "stockPrice": 1.81,
+    "numberOfShares": 37350000,
+    "marketCapitalization": 67603500,
+    "minusCashAndCashEquivalents": 13315000,
+    "addTotalDebt": 322447000,
+    "enterpriseValue": 376735500
+  },
+  {
+    "symbol": "AX",
+    "date": "2007-03-31",
+    "stockPrice": 1.78,
+    "numberOfShares": 34844444,
+    "marketCapitalization": 62023110,
+    "minusCashAndCashEquivalents": 15594000,
+    "addTotalDebt": 308418000,
+    "enterpriseValue": 354847110
+  },
+  {
+    "symbol": "AX",
+    "date": "2006-12-31",
+    "stockPrice": 1.73,
+    "numberOfShares": 32355556,
+    "marketCapitalization": 56056000,
+    "minusCashAndCashEquivalents": 15212000,
+    "addTotalDebt": 262390000,
+    "enterpriseValue": 303234000
+  },
+  {
+    "symbol": "AX",
+    "date": "2006-09-30",
+    "stockPrice": 1.63,
+    "numberOfShares": 37300000,
+    "marketCapitalization": 60612500,
+    "minusCashAndCashEquivalents": 16589000,
+    "addTotalDebt": 248361000,
+    "enterpriseValue": 292384500
+  },
+  {
+    "symbol": "AX",
+    "date": "2006-06-30",
+    "stockPrice": 2,
+    "numberOfShares": 37300000,
+    "marketCapitalization": 74506750,
+    "minusCashAndCashEquivalents": 17922000,
+    "addTotalDebt": 241332000,
+    "enterpriseValue": 297916750
+  },
+  {
+    "symbol": "AX",
+    "date": "2006-03-31",
+    "stockPrice": 1.88,
+    "numberOfShares": 33333333,
+    "marketCapitalization": 62499999,
+    "minusCashAndCashEquivalents": 17284000,
+    "addTotalDebt": 226803000,
+    "enterpriseValue": 272018999
+  },
+  {
+    "symbol": "AX",
+    "date": "2005-12-31",
+    "stockPrice": 12.5,
+    "numberOfShares": 32400000,
+    "marketCapitalization": 405000000,
+    "minusCashAndCashEquivalents": 16161000,
+    "addTotalDebt": 210775000,
+    "enterpriseValue": 599614000
+  },
+  {
+    "symbol": "AX",
+    "date": "2005-09-30",
+    "stockPrice": 9.96,
+    "numberOfShares": 29466667,
+    "marketCapitalization": 293561669,
+    "minusCashAndCashEquivalents": 17275000,
+    "addTotalDebt": 182746000,
+    "enterpriseValue": 459032669
+  },
+  {
+    "symbol": "AX",
+    "date": "2005-06-30",
+    "stockPrice": 9.73,
+    "numberOfShares": 29466667,
+    "marketCapitalization": 286710669,
+    "minusCashAndCashEquivalents": 15232000,
+    "addTotalDebt": 224217000,
+    "enterpriseValue": 495695669
+  },
+  {
+    "symbol": "AX",
+    "date": "2005-03-31",
+    "stockPrice": 4.43,
+    "numberOfShares": 18110076,
+    "marketCapitalization": 80137086,
+    "minusCashAndCashEquivalents": 10743000,
+    "addTotalDebt": 139688000,
+    "enterpriseValue": 209082086
+  },
+  {
+    "symbol": "AX",
+    "date": "2004-12-31",
+    "stockPrice": 4.82,
+    "numberOfShares": 18099483,
+    "marketCapitalization": 87239508,
+    "minusCashAndCashEquivalents": 10053000,
+    "addTotalDebt": 158659000,
+    "enterpriseValue": 235845508
+  }
+]

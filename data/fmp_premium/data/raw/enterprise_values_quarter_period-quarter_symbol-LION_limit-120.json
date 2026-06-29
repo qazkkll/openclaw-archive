@@ -1,0 +1,822 @@
+[
+  {
+    "symbol": "LION",
+    "date": "2025-12-31",
+    "stockPrice": 9.13,
+    "numberOfShares": 290000000,
+    "marketCapitalization": 2647700000,
+    "minusCashAndCashEquivalents": 182400000,
+    "addTotalDebt": 159000000,
+    "enterpriseValue": 2624300000
+  },
+  {
+    "symbol": "LION",
+    "date": "2025-09-30",
+    "stockPrice": 6.9,
+    "numberOfShares": 289200000,
+    "marketCapitalization": 1995480000,
+    "minusCashAndCashEquivalents": 202400000,
+    "addTotalDebt": 3889400000,
+    "enterpriseValue": 5682480000
+  },
+  {
+    "symbol": "LION",
+    "date": "2025-06-30",
+    "stockPrice": 5.81,
+    "numberOfShares": 272300000,
+    "marketCapitalization": 1582063000,
+    "minusCashAndCashEquivalents": 186100000,
+    "addTotalDebt": 1665400000,
+    "enterpriseValue": 3061363000
+  },
+  {
+    "symbol": "LION",
+    "date": "2025-03-31",
+    "stockPrice": 7.47,
+    "numberOfShares": 288700000,
+    "marketCapitalization": 2156589000,
+    "minusCashAndCashEquivalents": 205700000,
+    "addTotalDebt": 1673000000,
+    "enterpriseValue": 3623889000
+  },
+  {
+    "symbol": "LION",
+    "date": "2024-12-31",
+    "stockPrice": 7.6,
+    "numberOfShares": 288700000,
+    "marketCapitalization": 2194120000,
+    "minusCashAndCashEquivalents": 229000000,
+    "addTotalDebt": 3860600000,
+    "enterpriseValue": 5825720000
+  },
+  {
+    "symbol": "LION",
+    "date": "2024-09-30",
+    "stockPrice": 7.15,
+    "numberOfShares": 288700000,
+    "marketCapitalization": 2064205000,
+    "minusCashAndCashEquivalents": 210800000,
+    "addTotalDebt": 2070800000,
+    "enterpriseValue": 3924205000
+  },
+  {
+    "symbol": "LION",
+    "date": "2024-06-30",
+    "stockPrice": 8.37,
+    "numberOfShares": 272400000,
+    "marketCapitalization": 2279988000,
+    "minusCashAndCashEquivalents": 167200000,
+    "addTotalDebt": 3532300000,
+    "enterpriseValue": 5645088000
+  },
+  {
+    "symbol": "LION",
+    "date": "2024-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 288681000,
+    "marketCapitalization": 3302510640,
+    "minusCashAndCashEquivalents": 277000000,
+    "addTotalDebt": 4095400000,
+    "enterpriseValue": 7120910640
+  },
+  {
+    "symbol": "LION",
+    "date": "2023-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 288681000,
+    "marketCapitalization": 3302510640,
+    "minusCashAndCashEquivalents": 277000000,
+    "addTotalDebt": 3721300000,
+    "enterpriseValue": 6746810640
+  },
+  {
+    "symbol": "LION",
+    "date": "2023-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 288681000,
+    "marketCapitalization": 3302510640,
+    "minusCashAndCashEquivalents": 172700000,
+    "addTotalDebt": 2961000000,
+    "enterpriseValue": 6090810640
+  },
+  {
+    "symbol": "LION",
+    "date": "2023-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 288681000,
+    "marketCapitalization": 3302510640,
+    "minusCashAndCashEquivalents": 9592,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3302501048
+  },
+  {
+    "symbol": "LION",
+    "date": "2023-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 253403000,
+    "marketCapitalization": 2898930320,
+    "minusCashAndCashEquivalents": 210900000,
+    "addTotalDebt": 3317800000,
+    "enterpriseValue": 6005830320
+  },
+  {
+    "symbol": "LION",
+    "date": "2022-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 151391500,
+    "marketCapitalization": 1731918760,
+    "minusCashAndCashEquivalents": 210900000,
+    "addTotalDebt": 3183700000,
+    "enterpriseValue": 4704718760
+  },
+  {
+    "symbol": "LION",
+    "date": "2022-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 16025000,
+    "marketCapitalization": 183326000,
+    "minusCashAndCashEquivalents": 490218,
+    "addTotalDebt": 0,
+    "enterpriseValue": 182835782
+  },
+  {
+    "symbol": "LION",
+    "date": "2022-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 16025000,
+    "marketCapitalization": 183326000,
+    "minusCashAndCashEquivalents": 651064,
+    "addTotalDebt": 0,
+    "enterpriseValue": 182674936
+  },
+  {
+    "symbol": "LION",
+    "date": "2022-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 16025000,
+    "marketCapitalization": 183326000,
+    "minusCashAndCashEquivalents": 1310782,
+    "addTotalDebt": 0,
+    "enterpriseValue": 182015218
+  },
+  {
+    "symbol": "LION",
+    "date": "2021-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 16025000,
+    "marketCapitalization": 183326000,
+    "minusCashAndCashEquivalents": 256900000,
+    "addTotalDebt": 2764500000,
+    "enterpriseValue": 2690926000
+  },
+  {
+    "symbol": "LION",
+    "date": "2021-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 16025000,
+    "marketCapitalization": 183326000,
+    "minusCashAndCashEquivalents": 4290,
+    "addTotalDebt": 75000,
+    "enterpriseValue": 183396710
+  },
+  {
+    "symbol": "LION",
+    "date": "2021-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 16025000,
+    "marketCapitalization": 183326000,
+    "minusCashAndCashEquivalents": 11320,
+    "addTotalDebt": 75000,
+    "enterpriseValue": 183389680
+  },
+  {
+    "symbol": "LION",
+    "date": "2021-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 27493000,
+    "marketCapitalization": 314519920,
+    "minusCashAndCashEquivalents": 361300000,
+    "addTotalDebt": 2353700000,
+    "enterpriseValue": 2306919920
+  },
+  {
+    "symbol": "LION",
+    "date": "2021-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 16025000,
+    "marketCapitalization": 183326000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 183326000
+  },
+  {
+    "symbol": "LION",
+    "date": "2019-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 27493000,
+    "marketCapitalization": 314519920,
+    "minusCashAndCashEquivalents": 41334000,
+    "addTotalDebt": 283186000,
+    "enterpriseValue": 556371920
+  },
+  {
+    "symbol": "LION",
+    "date": "2018-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 27155000,
+    "marketCapitalization": 310653200,
+    "minusCashAndCashEquivalents": 10700000,
+    "addTotalDebt": 260467000,
+    "enterpriseValue": 560420200
+  },
+  {
+    "symbol": "LION",
+    "date": "2018-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 27155000,
+    "marketCapitalization": 310653200,
+    "minusCashAndCashEquivalents": 182672000,
+    "addTotalDebt": 284242000,
+    "enterpriseValue": 412223200
+  },
+  {
+    "symbol": "LION",
+    "date": "2018-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 27155000,
+    "marketCapitalization": 310653200,
+    "minusCashAndCashEquivalents": 157586000,
+    "addTotalDebt": 358539000,
+    "enterpriseValue": 511606200
+  },
+  {
+    "symbol": "LION",
+    "date": "2018-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 27155000,
+    "marketCapitalization": 310653200,
+    "minusCashAndCashEquivalents": 200496000,
+    "addTotalDebt": 458415000,
+    "enterpriseValue": 568572200
+  },
+  {
+    "symbol": "LION",
+    "date": "2017-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 26602000,
+    "marketCapitalization": 304326880,
+    "minusCashAndCashEquivalents": 9121000,
+    "addTotalDebt": 271167000,
+    "enterpriseValue": 566372880
+  },
+  {
+    "symbol": "LION",
+    "date": "2017-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 26602000,
+    "marketCapitalization": 304326880,
+    "minusCashAndCashEquivalents": 312027000,
+    "addTotalDebt": 135300000,
+    "enterpriseValue": 127599880
+  },
+  {
+    "symbol": "LION",
+    "date": "2017-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 26602000,
+    "marketCapitalization": 304326880,
+    "minusCashAndCashEquivalents": 430547000,
+    "addTotalDebt": 285417000,
+    "enterpriseValue": 159196880
+  },
+  {
+    "symbol": "LION",
+    "date": "2017-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 26602000,
+    "marketCapitalization": 304326880,
+    "minusCashAndCashEquivalents": 350502000,
+    "addTotalDebt": 359954000,
+    "enterpriseValue": 313778880
+  },
+  {
+    "symbol": "LION",
+    "date": "2016-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 25497000,
+    "marketCapitalization": 291685680,
+    "minusCashAndCashEquivalents": 6659000,
+    "addTotalDebt": 363805000,
+    "enterpriseValue": 648831680
+  },
+  {
+    "symbol": "LION",
+    "date": "2016-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 25497000,
+    "marketCapitalization": 291685680,
+    "minusCashAndCashEquivalents": 143909000,
+    "addTotalDebt": 473024000,
+    "enterpriseValue": 620800680
+  },
+  {
+    "symbol": "LION",
+    "date": "2016-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 25497000,
+    "marketCapitalization": 291685680,
+    "minusCashAndCashEquivalents": 148745000,
+    "addTotalDebt": 336221000,
+    "enterpriseValue": 479161680
+  },
+  {
+    "symbol": "LION",
+    "date": "2016-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 25497000,
+    "marketCapitalization": 291685680,
+    "minusCashAndCashEquivalents": 125289000,
+    "addTotalDebt": 309633000,
+    "enterpriseValue": 476029680
+  },
+  {
+    "symbol": "LION",
+    "date": "2015-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 22137000,
+    "marketCapitalization": 253247280,
+    "minusCashAndCashEquivalents": 4011000,
+    "addTotalDebt": 330052000,
+    "enterpriseValue": 579288280
+  },
+  {
+    "symbol": "LION",
+    "date": "2015-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 22137000,
+    "marketCapitalization": 253247280,
+    "minusCashAndCashEquivalents": 87373000,
+    "addTotalDebt": 257475000,
+    "enterpriseValue": 423349280
+  },
+  {
+    "symbol": "LION",
+    "date": "2015-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 22137000,
+    "marketCapitalization": 253247280,
+    "minusCashAndCashEquivalents": 80716000,
+    "addTotalDebt": 120277000,
+    "enterpriseValue": 292808280
+  },
+  {
+    "symbol": "LION",
+    "date": "2015-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 22137000,
+    "marketCapitalization": 253247280,
+    "minusCashAndCashEquivalents": 85615000,
+    "addTotalDebt": 46393000,
+    "enterpriseValue": 214025280
+  },
+  {
+    "symbol": "LION",
+    "date": "2014-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 21313000,
+    "marketCapitalization": 243820720,
+    "minusCashAndCashEquivalents": 4964000,
+    "addTotalDebt": 48366000,
+    "enterpriseValue": 287222720
+  },
+  {
+    "symbol": "LION",
+    "date": "2014-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 21302000,
+    "marketCapitalization": 243694880,
+    "minusCashAndCashEquivalents": 91565000,
+    "addTotalDebt": 46393000,
+    "enterpriseValue": 198522880
+  },
+  {
+    "symbol": "LION",
+    "date": "2014-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 21274000,
+    "marketCapitalization": 243374560,
+    "minusCashAndCashEquivalents": 55139000,
+    "addTotalDebt": 46393000,
+    "enterpriseValue": 234628560
+  },
+  {
+    "symbol": "LION",
+    "date": "2014-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 21288000,
+    "marketCapitalization": 243534720,
+    "minusCashAndCashEquivalents": 166952000,
+    "addTotalDebt": 46393000,
+    "enterpriseValue": 122975720
+  },
+  {
+    "symbol": "LION",
+    "date": "2013-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 18636000,
+    "marketCapitalization": 213195840,
+    "minusCashAndCashEquivalents": 10267000,
+    "addTotalDebt": 102786000,
+    "enterpriseValue": 305714840
+  },
+  {
+    "symbol": "LION",
+    "date": "2013-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 17296000,
+    "marketCapitalization": 197866240,
+    "minusCashAndCashEquivalents": 140871000,
+    "addTotalDebt": 78422000,
+    "enterpriseValue": 135417240
+  },
+  {
+    "symbol": "LION",
+    "date": "2013-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 15485000,
+    "marketCapitalization": 177148400,
+    "minusCashAndCashEquivalents": 158837000,
+    "addTotalDebt": 133641000,
+    "enterpriseValue": 151952400
+  },
+  {
+    "symbol": "LION",
+    "date": "2013-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 14827000,
+    "marketCapitalization": 169620880,
+    "minusCashAndCashEquivalents": 40262000,
+    "addTotalDebt": 176051000,
+    "enterpriseValue": 305409880
+  },
+  {
+    "symbol": "LION",
+    "date": "2012-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 14558000,
+    "marketCapitalization": 166543520,
+    "minusCashAndCashEquivalents": 15289000,
+    "addTotalDebt": 125660000,
+    "enterpriseValue": 276914520
+  },
+  {
+    "symbol": "LION",
+    "date": "2012-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 13758000,
+    "marketCapitalization": 157391520,
+    "minusCashAndCashEquivalents": 47366000,
+    "addTotalDebt": 150389000,
+    "enterpriseValue": 260414520
+  },
+  {
+    "symbol": "LION",
+    "date": "2012-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 13758000,
+    "marketCapitalization": 157391520,
+    "minusCashAndCashEquivalents": 35959000,
+    "addTotalDebt": 156218000,
+    "enterpriseValue": 277650520
+  },
+  {
+    "symbol": "LION",
+    "date": "2012-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 13758000,
+    "marketCapitalization": 157391520,
+    "minusCashAndCashEquivalents": 33616000,
+    "addTotalDebt": 83555000,
+    "enterpriseValue": 207330520
+  },
+  {
+    "symbol": "LION",
+    "date": "2011-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 13758000,
+    "marketCapitalization": 157391520,
+    "minusCashAndCashEquivalents": 53380000,
+    "addTotalDebt": 105581000,
+    "enterpriseValue": 209592520
+  },
+  {
+    "symbol": "LION",
+    "date": "2011-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 13758000,
+    "marketCapitalization": 157391520,
+    "minusCashAndCashEquivalents": 114837000,
+    "addTotalDebt": 92511000,
+    "enterpriseValue": 135065520
+  },
+  {
+    "symbol": "LION",
+    "date": "2011-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 13758000,
+    "marketCapitalization": 157391520,
+    "minusCashAndCashEquivalents": 191759000,
+    "addTotalDebt": 88451000,
+    "enterpriseValue": 54083520
+  },
+  {
+    "symbol": "LION",
+    "date": "2011-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 10830000,
+    "marketCapitalization": 123895200,
+    "minusCashAndCashEquivalents": 120942000,
+    "addTotalDebt": 95732000,
+    "enterpriseValue": 98685200
+  },
+  {
+    "symbol": "LION",
+    "date": "2010-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 10667000,
+    "marketCapitalization": 122030480,
+    "minusCashAndCashEquivalents": 45761000,
+    "addTotalDebt": 107977000,
+    "enterpriseValue": 184246480
+  },
+  {
+    "symbol": "LION",
+    "date": "2010-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 10579000,
+    "marketCapitalization": 121023760,
+    "minusCashAndCashEquivalents": 65717000,
+    "addTotalDebt": 97715000,
+    "enterpriseValue": 153021760
+  },
+  {
+    "symbol": "LION",
+    "date": "2010-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 10461000,
+    "marketCapitalization": 119673840,
+    "minusCashAndCashEquivalents": 108898000,
+    "addTotalDebt": 99902000,
+    "enterpriseValue": 110677840
+  },
+  {
+    "symbol": "LION",
+    "date": "2010-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 10253000,
+    "marketCapitalization": 117294320,
+    "minusCashAndCashEquivalents": 109541000,
+    "addTotalDebt": 108999000,
+    "enterpriseValue": 116752320
+  },
+  {
+    "symbol": "LION",
+    "date": "2009-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 10003000,
+    "marketCapitalization": 114434320,
+    "minusCashAndCashEquivalents": 168766000,
+    "addTotalDebt": 91870000,
+    "enterpriseValue": 37538320
+  },
+  {
+    "symbol": "LION",
+    "date": "2009-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9933000,
+    "marketCapitalization": 113633520,
+    "minusCashAndCashEquivalents": 138781000,
+    "addTotalDebt": 93261000,
+    "enterpriseValue": 68113520
+  },
+  {
+    "symbol": "LION",
+    "date": "2009-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9853000,
+    "marketCapitalization": 112718320,
+    "minusCashAndCashEquivalents": 51823000,
+    "addTotalDebt": 117763000,
+    "enterpriseValue": 178658320
+  },
+  {
+    "symbol": "LION",
+    "date": "2009-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 9748000,
+    "marketCapitalization": 111517120,
+    "minusCashAndCashEquivalents": 66840000,
+    "addTotalDebt": 129547000,
+    "enterpriseValue": 174224120
+  },
+  {
+    "symbol": "LION",
+    "date": "2008-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 9525000,
+    "marketCapitalization": 108966000,
+    "minusCashAndCashEquivalents": 58988000,
+    "addTotalDebt": 102517000,
+    "enterpriseValue": 152495000
+  },
+  {
+    "symbol": "LION",
+    "date": "2008-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9404000,
+    "marketCapitalization": 107581760,
+    "minusCashAndCashEquivalents": 21370000,
+    "addTotalDebt": 105949000,
+    "enterpriseValue": 192160760
+  },
+  {
+    "symbol": "LION",
+    "date": "2008-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9385000,
+    "marketCapitalization": 107364400,
+    "minusCashAndCashEquivalents": 27697000,
+    "addTotalDebt": 128488000,
+    "enterpriseValue": 208155400
+  },
+  {
+    "symbol": "LION",
+    "date": "2008-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 9376000,
+    "marketCapitalization": 107261440,
+    "minusCashAndCashEquivalents": 27129000,
+    "addTotalDebt": 124348000,
+    "enterpriseValue": 204480440
+  },
+  {
+    "symbol": "LION",
+    "date": "2007-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 9331000,
+    "marketCapitalization": 106746640,
+    "minusCashAndCashEquivalents": 22085000,
+    "addTotalDebt": 95954000,
+    "enterpriseValue": 180615640
+  },
+  {
+    "symbol": "LION",
+    "date": "2007-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9320000,
+    "marketCapitalization": 106620800,
+    "minusCashAndCashEquivalents": 23749000,
+    "addTotalDebt": 92861000,
+    "enterpriseValue": 175732800
+  },
+  {
+    "symbol": "LION",
+    "date": "2007-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9310000,
+    "marketCapitalization": 106506400,
+    "minusCashAndCashEquivalents": 21035000,
+    "addTotalDebt": 86818000,
+    "enterpriseValue": 172289400
+  },
+  {
+    "symbol": "LION",
+    "date": "2007-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 9297000,
+    "marketCapitalization": 106357680,
+    "minusCashAndCashEquivalents": 22663000,
+    "addTotalDebt": 62151000,
+    "enterpriseValue": 145845680
+  },
+  {
+    "symbol": "LION",
+    "date": "2006-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 9268000,
+    "marketCapitalization": 106025920,
+    "minusCashAndCashEquivalents": 32075000,
+    "addTotalDebt": 89061000,
+    "enterpriseValue": 163011920
+  },
+  {
+    "symbol": "LION",
+    "date": "2006-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9263000,
+    "marketCapitalization": 105968720,
+    "minusCashAndCashEquivalents": 28266000,
+    "addTotalDebt": 82797000,
+    "enterpriseValue": 160499720
+  },
+  {
+    "symbol": "LION",
+    "date": "2006-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9257000,
+    "marketCapitalization": 105900080,
+    "minusCashAndCashEquivalents": 18443000,
+    "addTotalDebt": 78451000,
+    "enterpriseValue": 165908080
+  },
+  {
+    "symbol": "LION",
+    "date": "2006-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 9248000,
+    "marketCapitalization": 105797120,
+    "minusCashAndCashEquivalents": 24842000,
+    "addTotalDebt": 117320000,
+    "enterpriseValue": 198275120
+  },
+  {
+    "symbol": "LION",
+    "date": "2005-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 9177000,
+    "marketCapitalization": 104984880,
+    "minusCashAndCashEquivalents": 21775000,
+    "addTotalDebt": 61675000,
+    "enterpriseValue": 144884880
+  },
+  {
+    "symbol": "LION",
+    "date": "2005-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9166000,
+    "marketCapitalization": 104859040,
+    "minusCashAndCashEquivalents": 23360000,
+    "addTotalDebt": 64000000,
+    "enterpriseValue": 145499040
+  },
+  {
+    "symbol": "LION",
+    "date": "2005-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9162000,
+    "marketCapitalization": 104813280,
+    "minusCashAndCashEquivalents": 32452000,
+    "addTotalDebt": 83000000,
+    "enterpriseValue": 155361280
+  },
+  {
+    "symbol": "LION",
+    "date": "2005-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 9153000,
+    "marketCapitalization": 104710320,
+    "minusCashAndCashEquivalents": 22461000,
+    "addTotalDebt": 66980000,
+    "enterpriseValue": 149229320
+  },
+  {
+    "symbol": "LION",
+    "date": "2004-12-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 9153000,
+    "marketCapitalization": 104710320,
+    "minusCashAndCashEquivalents": 21251000,
+    "addTotalDebt": 54538000,
+    "enterpriseValue": 137997320
+  },
+  {
+    "symbol": "LION",
+    "date": "2004-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9153000,
+    "marketCapitalization": 104710320,
+    "minusCashAndCashEquivalents": 24040000,
+    "addTotalDebt": 63000000,
+    "enterpriseValue": 143670320
+  },
+  {
+    "symbol": "LION",
+    "date": "2004-06-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 9153000,
+    "marketCapitalization": 104710320,
+    "minusCashAndCashEquivalents": 20479000,
+    "addTotalDebt": 45100000,
+    "enterpriseValue": 129331320
+  },
+  {
+    "symbol": "LION",
+    "date": "2004-03-31",
+    "stockPrice": 11.44,
+    "numberOfShares": 8865000,
+    "marketCapitalization": 101415600,
+    "minusCashAndCashEquivalents": 22544000,
+    "addTotalDebt": 59254000,
+    "enterpriseValue": 138125600
+  }
+]

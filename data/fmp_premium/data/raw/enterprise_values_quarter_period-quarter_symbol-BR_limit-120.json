@@ -1,0 +1,822 @@
+[
+  {
+    "symbol": "BR",
+    "date": "2026-03-31",
+    "stockPrice": 162.48,
+    "numberOfShares": 116300000,
+    "marketCapitalization": 18896424000,
+    "minusCashAndCashEquivalents": 304800000,
+    "addTotalDebt": 3407300000,
+    "enterpriseValue": 21998924000
+  },
+  {
+    "symbol": "BR",
+    "date": "2025-12-31",
+    "stockPrice": 223.17,
+    "numberOfShares": 116800000,
+    "marketCapitalization": 26066256000,
+    "minusCashAndCashEquivalents": 370700000,
+    "addTotalDebt": 3514000000,
+    "enterpriseValue": 29209556000
+  },
+  {
+    "symbol": "BR",
+    "date": "2025-09-30",
+    "stockPrice": 238.17,
+    "numberOfShares": 117000000,
+    "marketCapitalization": 27865890000,
+    "minusCashAndCashEquivalents": 290800000,
+    "addTotalDebt": 3480000000,
+    "enterpriseValue": 31055090000
+  },
+  {
+    "symbol": "BR",
+    "date": "2025-06-30",
+    "stockPrice": 243.03,
+    "numberOfShares": 117400000,
+    "marketCapitalization": 28531722000,
+    "minusCashAndCashEquivalents": 561500000,
+    "addTotalDebt": 3459000000,
+    "enterpriseValue": 31429222000
+  },
+  {
+    "symbol": "BR",
+    "date": "2025-03-31",
+    "stockPrice": 242.46,
+    "numberOfShares": 117200000,
+    "marketCapitalization": 28416312000,
+    "minusCashAndCashEquivalents": 289900000,
+    "addTotalDebt": 3867000000,
+    "enterpriseValue": 31993412000
+  },
+  {
+    "symbol": "BR",
+    "date": "2024-12-31",
+    "stockPrice": 226.09,
+    "numberOfShares": 117100000,
+    "marketCapitalization": 26475139000,
+    "minusCashAndCashEquivalents": 289900000,
+    "addTotalDebt": 3867000000,
+    "enterpriseValue": 30052239000
+  },
+  {
+    "symbol": "BR",
+    "date": "2024-09-30",
+    "stockPrice": 215.03,
+    "numberOfShares": 116900000,
+    "marketCapitalization": 25137007000,
+    "minusCashAndCashEquivalents": 292800000,
+    "addTotalDebt": 3802800000,
+    "enterpriseValue": 28647007000
+  },
+  {
+    "symbol": "BR",
+    "date": "2024-06-30",
+    "stockPrice": 196.56,
+    "numberOfShares": 117500000,
+    "marketCapitalization": 23095800000,
+    "minusCashAndCashEquivalents": 304400000,
+    "addTotalDebt": 3576900000,
+    "enterpriseValue": 26368300000
+  },
+  {
+    "symbol": "BR",
+    "date": "2024-03-31",
+    "stockPrice": 203.23,
+    "numberOfShares": 117800000,
+    "marketCapitalization": 23940494000,
+    "minusCashAndCashEquivalents": 235600000,
+    "addTotalDebt": 3726200000,
+    "enterpriseValue": 27431094000
+  },
+  {
+    "symbol": "BR",
+    "date": "2023-12-31",
+    "stockPrice": 205.75,
+    "numberOfShares": 117700000,
+    "marketCapitalization": 24216775000,
+    "minusCashAndCashEquivalents": 277000000,
+    "addTotalDebt": 3875000000,
+    "enterpriseValue": 27814775000
+  },
+  {
+    "symbol": "BR",
+    "date": "2023-09-30",
+    "stockPrice": 179.05,
+    "numberOfShares": 117900000,
+    "marketCapitalization": 21109995000,
+    "minusCashAndCashEquivalents": 234000000,
+    "addTotalDebt": 3913900000,
+    "enterpriseValue": 24789895000
+  },
+  {
+    "symbol": "BR",
+    "date": "2023-06-30",
+    "stockPrice": 165.63,
+    "numberOfShares": 118000000,
+    "marketCapitalization": 19544340000,
+    "minusCashAndCashEquivalents": 252300000,
+    "addTotalDebt": 3652600000,
+    "enterpriseValue": 22944640000
+  },
+  {
+    "symbol": "BR",
+    "date": "2023-03-31",
+    "stockPrice": 146.57,
+    "numberOfShares": 117700000,
+    "marketCapitalization": 17251289000,
+    "minusCashAndCashEquivalents": 331600000,
+    "addTotalDebt": 4326500000,
+    "enterpriseValue": 21246189000
+  },
+  {
+    "symbol": "BR",
+    "date": "2022-12-31",
+    "stockPrice": 134.13,
+    "numberOfShares": 117700000,
+    "marketCapitalization": 15787101000,
+    "minusCashAndCashEquivalents": 280000000,
+    "addTotalDebt": 4361700000,
+    "enterpriseValue": 19868801000
+  },
+  {
+    "symbol": "BR",
+    "date": "2022-09-30",
+    "stockPrice": 144.32,
+    "numberOfShares": 117500000,
+    "marketCapitalization": 16957600000,
+    "minusCashAndCashEquivalents": 227000000,
+    "addTotalDebt": 4328000000,
+    "enterpriseValue": 21058600000
+  },
+  {
+    "symbol": "BR",
+    "date": "2022-06-30",
+    "stockPrice": 142.55,
+    "numberOfShares": 117300000,
+    "marketCapitalization": 16721115000,
+    "minusCashAndCashEquivalents": 224700000,
+    "addTotalDebt": 4066200000,
+    "enterpriseValue": 20562615000
+  },
+  {
+    "symbol": "BR",
+    "date": "2022-03-31",
+    "stockPrice": 155.71,
+    "numberOfShares": 116800000,
+    "marketCapitalization": 18186928000,
+    "minusCashAndCashEquivalents": 277300000,
+    "addTotalDebt": 4452900000,
+    "enterpriseValue": 22362528000
+  },
+  {
+    "symbol": "BR",
+    "date": "2021-12-31",
+    "stockPrice": 182.82,
+    "numberOfShares": 116600000,
+    "marketCapitalization": 21316812000,
+    "minusCashAndCashEquivalents": 281100000,
+    "addTotalDebt": 4445900000,
+    "enterpriseValue": 25481612000
+  },
+  {
+    "symbol": "BR",
+    "date": "2021-09-30",
+    "stockPrice": 166.64,
+    "numberOfShares": 116200000,
+    "marketCapitalization": 19363568000,
+    "minusCashAndCashEquivalents": 316700000,
+    "addTotalDebt": 4466300000,
+    "enterpriseValue": 23513168000
+  },
+  {
+    "symbol": "BR",
+    "date": "2021-06-30",
+    "stockPrice": 161.53,
+    "numberOfShares": 116100000,
+    "marketCapitalization": 18753633000,
+    "minusCashAndCashEquivalents": 274500000,
+    "addTotalDebt": 4190900000,
+    "enterpriseValue": 22670033000
+  },
+  {
+    "symbol": "BR",
+    "date": "2021-03-31",
+    "stockPrice": 153.1,
+    "numberOfShares": 115800000,
+    "marketCapitalization": 17728980000,
+    "minusCashAndCashEquivalents": 355700000,
+    "addTotalDebt": 2030100000,
+    "enterpriseValue": 19403380000
+  },
+  {
+    "symbol": "BR",
+    "date": "2020-12-31",
+    "stockPrice": 153.2,
+    "numberOfShares": 115700000,
+    "marketCapitalization": 17725240000,
+    "minusCashAndCashEquivalents": 365600000,
+    "addTotalDebt": 2068700000,
+    "enterpriseValue": 19428340000
+  },
+  {
+    "symbol": "BR",
+    "date": "2020-09-30",
+    "stockPrice": 132,
+    "numberOfShares": 115300000,
+    "marketCapitalization": 15219600000,
+    "minusCashAndCashEquivalents": 356600000,
+    "addTotalDebt": 2085500000,
+    "enterpriseValue": 16948500000
+  },
+  {
+    "symbol": "BR",
+    "date": "2020-06-30",
+    "stockPrice": 126.19,
+    "numberOfShares": 115000000,
+    "marketCapitalization": 14511850000,
+    "minusCashAndCashEquivalents": 476600000,
+    "addTotalDebt": 2111100000,
+    "enterpriseValue": 16146350000
+  },
+  {
+    "symbol": "BR",
+    "date": "2020-03-31",
+    "stockPrice": 94.83,
+    "numberOfShares": 114600000,
+    "marketCapitalization": 10867518000,
+    "minusCashAndCashEquivalents": 402000000,
+    "addTotalDebt": 2406600000,
+    "enterpriseValue": 12872118000
+  },
+  {
+    "symbol": "BR",
+    "date": "2019-12-31",
+    "stockPrice": 123.54,
+    "numberOfShares": 114700000,
+    "marketCapitalization": 14170038000,
+    "minusCashAndCashEquivalents": 234000000,
+    "addTotalDebt": 2101600000,
+    "enterpriseValue": 16037638000
+  },
+  {
+    "symbol": "BR",
+    "date": "2019-09-30",
+    "stockPrice": 124.43,
+    "numberOfShares": 114400000,
+    "marketCapitalization": 14234792000,
+    "minusCashAndCashEquivalents": 358300000,
+    "addTotalDebt": 2013000000,
+    "enterpriseValue": 15889492000
+  },
+  {
+    "symbol": "BR",
+    "date": "2019-06-30",
+    "stockPrice": 129.37,
+    "numberOfShares": 115300000,
+    "marketCapitalization": 14916361000,
+    "minusCashAndCashEquivalents": 273200000,
+    "addTotalDebt": 1470400000,
+    "enterpriseValue": 16113561000
+  },
+  {
+    "symbol": "BR",
+    "date": "2019-03-31",
+    "stockPrice": 104.99,
+    "numberOfShares": 115700000,
+    "marketCapitalization": 12147343000,
+    "minusCashAndCashEquivalents": 292100000,
+    "addTotalDebt": 1174400000,
+    "enterpriseValue": 13029643000
+  },
+  {
+    "symbol": "BR",
+    "date": "2018-12-31",
+    "stockPrice": 96.25,
+    "numberOfShares": 116300000,
+    "marketCapitalization": 11193875000,
+    "minusCashAndCashEquivalents": 249700000,
+    "addTotalDebt": 1194100000,
+    "enterpriseValue": 12138275000
+  },
+  {
+    "symbol": "BR",
+    "date": "2018-09-30",
+    "stockPrice": 130.07,
+    "numberOfShares": 116400000,
+    "marketCapitalization": 15140148000,
+    "minusCashAndCashEquivalents": 204600000,
+    "addTotalDebt": 1143700000,
+    "enterpriseValue": 16079248000
+  },
+  {
+    "symbol": "BR",
+    "date": "2018-06-30",
+    "stockPrice": 115.1,
+    "numberOfShares": 117200000,
+    "marketCapitalization": 13489720000,
+    "minusCashAndCashEquivalents": 263900000,
+    "addTotalDebt": 1053400000,
+    "enterpriseValue": 14279220000
+  },
+  {
+    "symbol": "BR",
+    "date": "2018-03-31",
+    "stockPrice": 109.69,
+    "numberOfShares": 116900000,
+    "marketCapitalization": 12822761000,
+    "minusCashAndCashEquivalents": 352100000,
+    "addTotalDebt": 1203100000,
+    "enterpriseValue": 13673761000
+  },
+  {
+    "symbol": "BR",
+    "date": "2017-12-31",
+    "stockPrice": 90.58,
+    "numberOfShares": 116600000,
+    "marketCapitalization": 10561628000,
+    "minusCashAndCashEquivalents": 366500000,
+    "addTotalDebt": 1222700000,
+    "enterpriseValue": 11417828000
+  },
+  {
+    "symbol": "BR",
+    "date": "2017-09-30",
+    "stockPrice": 80.82,
+    "numberOfShares": 116500000,
+    "marketCapitalization": 9415530000,
+    "minusCashAndCashEquivalents": 288800000,
+    "addTotalDebt": 1292400000,
+    "enterpriseValue": 10419130000
+  },
+  {
+    "symbol": "BR",
+    "date": "2017-06-30",
+    "stockPrice": 75.56,
+    "numberOfShares": 117100000,
+    "marketCapitalization": 8848076000,
+    "minusCashAndCashEquivalents": 271100000,
+    "addTotalDebt": 1102100000,
+    "enterpriseValue": 9679076000
+  },
+  {
+    "symbol": "BR",
+    "date": "2017-03-31",
+    "stockPrice": 67.95,
+    "numberOfShares": 117800000,
+    "marketCapitalization": 8004510000,
+    "minusCashAndCashEquivalents": 269500000,
+    "addTotalDebt": 1266600000,
+    "enterpriseValue": 9001610000
+  },
+  {
+    "symbol": "BR",
+    "date": "2016-12-31",
+    "stockPrice": 66.3,
+    "numberOfShares": 118700000,
+    "marketCapitalization": 7869810000,
+    "minusCashAndCashEquivalents": 235700000,
+    "addTotalDebt": 1206000000,
+    "enterpriseValue": 8840110000
+  },
+  {
+    "symbol": "BR",
+    "date": "2016-09-30",
+    "stockPrice": 67.79,
+    "numberOfShares": 118500000,
+    "marketCapitalization": 8033115000,
+    "minusCashAndCashEquivalents": 227400000,
+    "addTotalDebt": 1125900000,
+    "enterpriseValue": 8931615000
+  },
+  {
+    "symbol": "BR",
+    "date": "2016-06-30",
+    "stockPrice": 65.2,
+    "numberOfShares": 118100000,
+    "marketCapitalization": 7700120000,
+    "minusCashAndCashEquivalents": 727700000,
+    "addTotalDebt": 1015500000,
+    "enterpriseValue": 7987920000
+  },
+  {
+    "symbol": "BR",
+    "date": "2016-03-31",
+    "stockPrice": 59.31,
+    "numberOfShares": 118200000,
+    "marketCapitalization": 7010442000,
+    "minusCashAndCashEquivalents": 354400000,
+    "addTotalDebt": 819500000,
+    "enterpriseValue": 7475542000
+  },
+  {
+    "symbol": "BR",
+    "date": "2015-12-31",
+    "stockPrice": 53.73,
+    "numberOfShares": 118500000,
+    "marketCapitalization": 6367005000,
+    "minusCashAndCashEquivalents": 305100000,
+    "addTotalDebt": 754500000,
+    "enterpriseValue": 6816405000
+  },
+  {
+    "symbol": "BR",
+    "date": "2015-09-30",
+    "stockPrice": 55.35,
+    "numberOfShares": 118300000,
+    "marketCapitalization": 6547905000,
+    "minusCashAndCashEquivalents": 286300000,
+    "addTotalDebt": 734400000,
+    "enterpriseValue": 6996005000
+  },
+  {
+    "symbol": "BR",
+    "date": "2015-06-30",
+    "stockPrice": 50.01,
+    "numberOfShares": 118300000,
+    "marketCapitalization": 5916183000,
+    "minusCashAndCashEquivalents": 324100000,
+    "addTotalDebt": 689400000,
+    "enterpriseValue": 6281483000
+  },
+  {
+    "symbol": "BR",
+    "date": "2015-03-31",
+    "stockPrice": 55.01,
+    "numberOfShares": 120600000,
+    "marketCapitalization": 6634206000,
+    "minusCashAndCashEquivalents": 310100000,
+    "addTotalDebt": 629300000,
+    "enterpriseValue": 6953406000
+  },
+  {
+    "symbol": "BR",
+    "date": "2014-12-31",
+    "stockPrice": 46.18,
+    "numberOfShares": 120200000,
+    "marketCapitalization": 5550836000,
+    "minusCashAndCashEquivalents": 314100000,
+    "addTotalDebt": 524300000,
+    "enterpriseValue": 5761036000
+  },
+  {
+    "symbol": "BR",
+    "date": "2014-09-30",
+    "stockPrice": 41.63,
+    "numberOfShares": 119800000,
+    "marketCapitalization": 4987274000,
+    "minusCashAndCashEquivalents": 331300000,
+    "addTotalDebt": 524200000,
+    "enterpriseValue": 5180174000
+  },
+  {
+    "symbol": "BR",
+    "date": "2014-06-30",
+    "stockPrice": 41.64,
+    "numberOfShares": 119800000,
+    "marketCapitalization": 4988472000,
+    "minusCashAndCashEquivalents": 347600000,
+    "addTotalDebt": 524100000,
+    "enterpriseValue": 5164972000
+  },
+  {
+    "symbol": "BR",
+    "date": "2014-03-31",
+    "stockPrice": 37.14,
+    "numberOfShares": 119700000,
+    "marketCapitalization": 4445658000,
+    "minusCashAndCashEquivalents": 244400000,
+    "addTotalDebt": 524100000,
+    "enterpriseValue": 4725358000
+  },
+  {
+    "symbol": "BR",
+    "date": "2013-12-31",
+    "stockPrice": 39.52,
+    "numberOfShares": 119200000,
+    "marketCapitalization": 4710784000,
+    "minusCashAndCashEquivalents": 240300000,
+    "addTotalDebt": 524100000,
+    "enterpriseValue": 4994584000
+  },
+  {
+    "symbol": "BR",
+    "date": "2013-09-30",
+    "stockPrice": 31.75,
+    "numberOfShares": 119100000,
+    "marketCapitalization": 3781425000,
+    "minusCashAndCashEquivalents": 183100000,
+    "addTotalDebt": 524000000,
+    "enterpriseValue": 4122325000
+  },
+  {
+    "symbol": "BR",
+    "date": "2013-06-30",
+    "stockPrice": 27.09,
+    "numberOfShares": 120600000,
+    "marketCapitalization": 3267054000,
+    "minusCashAndCashEquivalents": 266000000,
+    "addTotalDebt": 524500000,
+    "enterpriseValue": 3525554000
+  },
+  {
+    "symbol": "BR",
+    "date": "2013-03-31",
+    "stockPrice": 24.43,
+    "numberOfShares": 121200000,
+    "marketCapitalization": 2960916000,
+    "minusCashAndCashEquivalents": 182200000,
+    "addTotalDebt": 524500000,
+    "enterpriseValue": 3303216000
+  },
+  {
+    "symbol": "BR",
+    "date": "2012-12-31",
+    "stockPrice": 22.88,
+    "numberOfShares": 122000000,
+    "marketCapitalization": 2791360000,
+    "minusCashAndCashEquivalents": 259100000,
+    "addTotalDebt": 524400000,
+    "enterpriseValue": 3056660000
+  },
+  {
+    "symbol": "BR",
+    "date": "2012-09-30",
+    "stockPrice": 23.05,
+    "numberOfShares": 124000000,
+    "marketCapitalization": 2858200000,
+    "minusCashAndCashEquivalents": 211800000,
+    "addTotalDebt": 524400000,
+    "enterpriseValue": 3170800000
+  },
+  {
+    "symbol": "BR",
+    "date": "2012-06-30",
+    "stockPrice": 21.27,
+    "numberOfShares": 124000000,
+    "marketCapitalization": 2637480000,
+    "minusCashAndCashEquivalents": 320500000,
+    "addTotalDebt": 524400000,
+    "enterpriseValue": 2841380000
+  },
+  {
+    "symbol": "BR",
+    "date": "2012-03-31",
+    "stockPrice": 23.91,
+    "numberOfShares": 124000000,
+    "marketCapitalization": 2964840000,
+    "minusCashAndCashEquivalents": 218800000,
+    "addTotalDebt": 564300000,
+    "enterpriseValue": 3310340000
+  },
+  {
+    "symbol": "BR",
+    "date": "2011-12-31",
+    "stockPrice": 22.55,
+    "numberOfShares": 123700000,
+    "marketCapitalization": 2789435000,
+    "minusCashAndCashEquivalents": 238200000,
+    "addTotalDebt": 594300000,
+    "enterpriseValue": 3145535000
+  },
+  {
+    "symbol": "BR",
+    "date": "2011-09-30",
+    "stockPrice": 20.14,
+    "numberOfShares": 123700000,
+    "marketCapitalization": 2491318000,
+    "minusCashAndCashEquivalents": 252800000,
+    "addTotalDebt": 614300000,
+    "enterpriseValue": 2852818000
+  },
+  {
+    "symbol": "BR",
+    "date": "2011-06-30",
+    "stockPrice": 24.07,
+    "numberOfShares": 123500000,
+    "marketCapitalization": 2972645000,
+    "minusCashAndCashEquivalents": 241500000,
+    "addTotalDebt": 524300000,
+    "enterpriseValue": 3255445000
+  },
+  {
+    "symbol": "BR",
+    "date": "2011-03-31",
+    "stockPrice": 22.69,
+    "numberOfShares": 124200000,
+    "marketCapitalization": 2818098000,
+    "minusCashAndCashEquivalents": 151300000,
+    "addTotalDebt": 564200000,
+    "enterpriseValue": 3230998000
+  },
+  {
+    "symbol": "BR",
+    "date": "2010-12-31",
+    "stockPrice": 21.93,
+    "numberOfShares": 125000000,
+    "marketCapitalization": 2741250000,
+    "minusCashAndCashEquivalents": 187800000,
+    "addTotalDebt": 324200000,
+    "enterpriseValue": 2877650000
+  },
+  {
+    "symbol": "BR",
+    "date": "2010-09-30",
+    "stockPrice": 22.87,
+    "numberOfShares": 126500000,
+    "marketCapitalization": 2893055000,
+    "minusCashAndCashEquivalents": 180700000,
+    "addTotalDebt": 324200000,
+    "enterpriseValue": 3036555000
+  },
+  {
+    "symbol": "BR",
+    "date": "2010-06-30",
+    "stockPrice": 19.05,
+    "numberOfShares": 126500000,
+    "marketCapitalization": 2409825000,
+    "minusCashAndCashEquivalents": 412600000,
+    "addTotalDebt": 324100000,
+    "enterpriseValue": 2321325000
+  },
+  {
+    "symbol": "BR",
+    "date": "2010-03-31",
+    "stockPrice": 21.38,
+    "numberOfShares": 134800000,
+    "marketCapitalization": 2882024000,
+    "minusCashAndCashEquivalents": 177900000,
+    "addTotalDebt": 324100000,
+    "enterpriseValue": 3028224000
+  },
+  {
+    "symbol": "BR",
+    "date": "2009-12-31",
+    "stockPrice": 22.56,
+    "numberOfShares": 135700000,
+    "marketCapitalization": 3061392000,
+    "minusCashAndCashEquivalents": 147100000,
+    "addTotalDebt": 324100000,
+    "enterpriseValue": 3238392000
+  },
+  {
+    "symbol": "BR",
+    "date": "2009-09-30",
+    "stockPrice": 20.1,
+    "numberOfShares": 138100000,
+    "marketCapitalization": 2775810000,
+    "minusCashAndCashEquivalents": 231500000,
+    "addTotalDebt": 324100000,
+    "enterpriseValue": 2868410000
+  },
+  {
+    "symbol": "BR",
+    "date": "2009-06-30",
+    "stockPrice": 16.58,
+    "numberOfShares": 138100000,
+    "marketCapitalization": 2289698000,
+    "minusCashAndCashEquivalents": 280900000,
+    "addTotalDebt": 324100000,
+    "enterpriseValue": 2332898000
+  },
+  {
+    "symbol": "BR",
+    "date": "2009-03-31",
+    "stockPrice": 18.61,
+    "numberOfShares": 139500000,
+    "marketCapitalization": 2596095000,
+    "minusCashAndCashEquivalents": 310300000,
+    "addTotalDebt": 324800000,
+    "enterpriseValue": 2610595000
+  },
+  {
+    "symbol": "BR",
+    "date": "2008-12-31",
+    "stockPrice": 12.54,
+    "numberOfShares": 140200000,
+    "marketCapitalization": 1758107999,
+    "minusCashAndCashEquivalents": 299100000,
+    "addTotalDebt": 324000000,
+    "enterpriseValue": 1783007999
+  },
+  {
+    "symbol": "BR",
+    "date": "2008-09-30",
+    "stockPrice": 15.39,
+    "numberOfShares": 140400000,
+    "marketCapitalization": 2160756000,
+    "minusCashAndCashEquivalents": 68000000,
+    "addTotalDebt": 562000000,
+    "enterpriseValue": 2654756000
+  },
+  {
+    "symbol": "BR",
+    "date": "2008-06-30",
+    "stockPrice": 21.05,
+    "numberOfShares": 140400000,
+    "marketCapitalization": 2955420000,
+    "minusCashAndCashEquivalents": 198300000,
+    "addTotalDebt": 447900000,
+    "enterpriseValue": 3205020000
+  },
+  {
+    "symbol": "BR",
+    "date": "2008-03-31",
+    "stockPrice": 17.6,
+    "numberOfShares": 139900000,
+    "marketCapitalization": 2462240000,
+    "minusCashAndCashEquivalents": 269800000,
+    "addTotalDebt": 520800000,
+    "enterpriseValue": 2713240000
+  },
+  {
+    "symbol": "BR",
+    "date": "2007-12-31",
+    "stockPrice": 22.43,
+    "numberOfShares": 139300000,
+    "marketCapitalization": 3124499000,
+    "minusCashAndCashEquivalents": 104200000,
+    "addTotalDebt": 948800000,
+    "enterpriseValue": 3969099000
+  },
+  {
+    "symbol": "BR",
+    "date": "2007-09-30",
+    "stockPrice": 19,
+    "numberOfShares": 139100000,
+    "marketCapitalization": 2642900000,
+    "minusCashAndCashEquivalents": 86400000,
+    "addTotalDebt": 641400000,
+    "enterpriseValue": 3197900000
+  },
+  {
+    "symbol": "BR",
+    "date": "2007-06-30",
+    "stockPrice": 19.12,
+    "numberOfShares": 139100000,
+    "marketCapitalization": 2659592000,
+    "minusCashAndCashEquivalents": 88600000,
+    "addTotalDebt": 726900000,
+    "enterpriseValue": 3297892000
+  },
+  {
+    "symbol": "BR",
+    "date": "2007-03-31",
+    "stockPrice": 19.7,
+    "numberOfShares": 138800000,
+    "marketCapitalization": 2734360000,
+    "minusCashAndCashEquivalents": 43200000,
+    "addTotalDebt": 771000000,
+    "enterpriseValue": 3462160000
+  },
+  {
+    "symbol": "BR",
+    "date": "2006-12-31",
+    "stockPrice": 20.1,
+    "numberOfShares": 138800000,
+    "marketCapitalization": 2789880000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2789880000
+  },
+  {
+    "symbol": "BR",
+    "date": "2006-09-30",
+    "stockPrice": 20.1,
+    "numberOfShares": 138800000,
+    "marketCapitalization": 2789880000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2789880000
+  },
+  {
+    "symbol": "BR",
+    "date": "2006-06-30",
+    "stockPrice": 20.1,
+    "numberOfShares": 138800000,
+    "marketCapitalization": 2789880000,
+    "minusCashAndCashEquivalents": 50100000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2739780000
+  },
+  {
+    "symbol": "BR",
+    "date": "2006-03-31",
+    "stockPrice": 20.1,
+    "numberOfShares": 138800000,
+    "marketCapitalization": 2789880000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2789880000
+  },
+  {
+    "symbol": "BR",
+    "date": "2001-12-31",
+    "stockPrice": 20.1,
+    "numberOfShares": 140200000,
+    "marketCapitalization": 2818020000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2818020000
+  }
+]

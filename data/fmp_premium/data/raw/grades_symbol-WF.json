@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "WF",
+    "date": "2023-03-02",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "WF",
+    "date": "2020-11-25",
+    "gradingCompany": "CLSA",
+    "previousGrade": "Underperform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "WF",
+    "date": "2015-05-26",
+    "gradingCompany": "CLSA",
+    "previousGrade": "Underperform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  }
+]

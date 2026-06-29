@@ -1,0 +1,822 @@
+[
+  {
+    "symbol": "EVR",
+    "date": "2026-03-31",
+    "stockPrice": 298.51,
+    "numberOfShares": 38969000,
+    "marketCapitalization": 11632636190,
+    "minusCashAndCashEquivalents": 1184318000,
+    "addTotalDebt": 1098294000,
+    "enterpriseValue": 11546612190
+  },
+  {
+    "symbol": "EVR",
+    "date": "2025-12-31",
+    "stockPrice": 340.25,
+    "numberOfShares": 38693000,
+    "marketCapitalization": 13165293250,
+    "minusCashAndCashEquivalents": 1466441000,
+    "addTotalDebt": 1155081000,
+    "enterpriseValue": 12853933250
+  },
+  {
+    "symbol": "EVR",
+    "date": "2025-09-30",
+    "stockPrice": 337.32,
+    "numberOfShares": 38718000,
+    "marketCapitalization": 13060355760,
+    "minusCashAndCashEquivalents": 988666000,
+    "addTotalDebt": 1132965000,
+    "enterpriseValue": 13204654760
+  },
+  {
+    "symbol": "EVR",
+    "date": "2025-06-30",
+    "stockPrice": 270.02,
+    "numberOfShares": 43971000,
+    "marketCapitalization": 11873049420,
+    "minusCashAndCashEquivalents": 699697000,
+    "addTotalDebt": 929621000,
+    "enterpriseValue": 12102973420
+  },
+  {
+    "symbol": "EVR",
+    "date": "2025-03-31",
+    "stockPrice": 199.72,
+    "numberOfShares": 38718000,
+    "marketCapitalization": 7732758960,
+    "minusCashAndCashEquivalents": 569770000,
+    "addTotalDebt": 933385000,
+    "enterpriseValue": 8096373960
+  },
+  {
+    "symbol": "EVR",
+    "date": "2024-12-31",
+    "stockPrice": 277.19,
+    "numberOfShares": 38228000,
+    "marketCapitalization": 10596419320,
+    "minusCashAndCashEquivalents": 939705000,
+    "addTotalDebt": 923317000,
+    "enterpriseValue": 10580031320
+  },
+  {
+    "symbol": "EVR",
+    "date": "2024-09-30",
+    "stockPrice": 253.34,
+    "numberOfShares": 38294000,
+    "marketCapitalization": 9701401960,
+    "minusCashAndCashEquivalents": 630785000,
+    "addTotalDebt": 850115000,
+    "enterpriseValue": 9920731960
+  },
+  {
+    "symbol": "EVR",
+    "date": "2024-06-30",
+    "stockPrice": 211.08,
+    "numberOfShares": 38502000,
+    "marketCapitalization": 8127002160,
+    "minusCashAndCashEquivalents": 746935000,
+    "addTotalDebt": 835183000,
+    "enterpriseValue": 8215250160
+  },
+  {
+    "symbol": "EVR",
+    "date": "2024-03-31",
+    "stockPrice": 189.25,
+    "numberOfShares": 38438000,
+    "marketCapitalization": 7274391500,
+    "minusCashAndCashEquivalents": 617777000,
+    "addTotalDebt": 839427000,
+    "enterpriseValue": 7496041500
+  },
+  {
+    "symbol": "EVR",
+    "date": "2023-12-31",
+    "stockPrice": 171.05,
+    "numberOfShares": 37871000,
+    "marketCapitalization": 6477834550,
+    "minusCashAndCashEquivalents": 651734000,
+    "addTotalDebt": 844391000,
+    "enterpriseValue": 6670491550
+  },
+  {
+    "symbol": "EVR",
+    "date": "2023-09-30",
+    "stockPrice": 137.88,
+    "numberOfShares": 37823000,
+    "marketCapitalization": 5215035240,
+    "minusCashAndCashEquivalents": 576753000,
+    "addTotalDebt": 845549000,
+    "enterpriseValue": 5483831240
+  },
+  {
+    "symbol": "EVR",
+    "date": "2023-06-30",
+    "stockPrice": 123.59,
+    "numberOfShares": 38211000,
+    "marketCapitalization": 4722497490,
+    "minusCashAndCashEquivalents": 520631000,
+    "addTotalDebt": 827965000,
+    "enterpriseValue": 5029831490
+  },
+  {
+    "symbol": "EVR",
+    "date": "2023-03-31",
+    "stockPrice": 115.38,
+    "numberOfShares": 38510000,
+    "marketCapitalization": 4443283800,
+    "minusCashAndCashEquivalents": 579190000,
+    "addTotalDebt": 696362000,
+    "enterpriseValue": 4560455800
+  },
+  {
+    "symbol": "EVR",
+    "date": "2022-12-31",
+    "stockPrice": 109.08,
+    "numberOfShares": 38777000,
+    "marketCapitalization": 4229795160,
+    "minusCashAndCashEquivalents": 786290000,
+    "addTotalDebt": 687820000,
+    "enterpriseValue": 4131325160
+  },
+  {
+    "symbol": "EVR",
+    "date": "2022-09-30",
+    "stockPrice": 82.25,
+    "numberOfShares": 39114000,
+    "marketCapitalization": 3217126500,
+    "minusCashAndCashEquivalents": 473066000,
+    "addTotalDebt": 686635000,
+    "enterpriseValue": 3430695500
+  },
+  {
+    "symbol": "EVR",
+    "date": "2022-06-30",
+    "stockPrice": 93.61,
+    "numberOfShares": 39834000,
+    "marketCapitalization": 3728860740,
+    "minusCashAndCashEquivalents": 444306000,
+    "addTotalDebt": 695600000,
+    "enterpriseValue": 3980154740
+  },
+  {
+    "symbol": "EVR",
+    "date": "2022-03-31",
+    "stockPrice": 111.32,
+    "numberOfShares": 41692875,
+    "marketCapitalization": 4641250845,
+    "minusCashAndCashEquivalents": 454768000,
+    "addTotalDebt": 713131000,
+    "enterpriseValue": 4899613845
+  },
+  {
+    "symbol": "EVR",
+    "date": "2021-12-31",
+    "stockPrice": 135.85,
+    "numberOfShares": 38756000,
+    "marketCapitalization": 5265002600,
+    "minusCashAndCashEquivalents": 719535000,
+    "addTotalDebt": 721037000,
+    "enterpriseValue": 5266504600
+  },
+  {
+    "symbol": "EVR",
+    "date": "2021-09-30",
+    "stockPrice": 133.67,
+    "numberOfShares": 39467000,
+    "marketCapitalization": 5275553889,
+    "minusCashAndCashEquivalents": 478819000,
+    "addTotalDebt": 712623000,
+    "enterpriseValue": 5509357889
+  },
+  {
+    "symbol": "EVR",
+    "date": "2021-06-30",
+    "stockPrice": 140.77,
+    "numberOfShares": 40667000,
+    "marketCapitalization": 5724693590,
+    "minusCashAndCashEquivalents": 442187000,
+    "addTotalDebt": 718061000,
+    "enterpriseValue": 6000567590
+  },
+  {
+    "symbol": "EVR",
+    "date": "2021-03-31",
+    "stockPrice": 131.74,
+    "numberOfShares": 41364000,
+    "marketCapitalization": 5449293360,
+    "minusCashAndCashEquivalents": 410848000,
+    "addTotalDebt": 714789000,
+    "enterpriseValue": 5753234360
+  },
+  {
+    "symbol": "EVR",
+    "date": "2020-12-31",
+    "stockPrice": 109.64,
+    "numberOfShares": 40845000,
+    "marketCapitalization": 4478245800,
+    "minusCashAndCashEquivalents": 829598000,
+    "addTotalDebt": 719638000,
+    "enterpriseValue": 4368285800
+  },
+  {
+    "symbol": "EVR",
+    "date": "2020-09-30",
+    "stockPrice": 65.46,
+    "numberOfShares": 40694000,
+    "marketCapitalization": 2663829239,
+    "minusCashAndCashEquivalents": 1149291000,
+    "addTotalDebt": 740303000,
+    "enterpriseValue": 2254841239
+  },
+  {
+    "symbol": "EVR",
+    "date": "2020-06-30",
+    "stockPrice": 58.92,
+    "numberOfShares": 40635000,
+    "marketCapitalization": 2394214200,
+    "minusCashAndCashEquivalents": 1015723000,
+    "addTotalDebt": 726729000,
+    "enterpriseValue": 2105220200
+  },
+  {
+    "symbol": "EVR",
+    "date": "2020-03-31",
+    "stockPrice": 46.06,
+    "numberOfShares": 39992000,
+    "marketCapitalization": 1842031520,
+    "minusCashAndCashEquivalents": 584598000,
+    "addTotalDebt": 717687000,
+    "enterpriseValue": 1975120520
+  },
+  {
+    "symbol": "EVR",
+    "date": "2019-12-31",
+    "stockPrice": 74.76,
+    "numberOfShares": 39247000,
+    "marketCapitalization": 2934105720,
+    "minusCashAndCashEquivalents": 848604000,
+    "addTotalDebt": 651629000,
+    "enterpriseValue": 2737130720
+  },
+  {
+    "symbol": "EVR",
+    "date": "2019-09-30",
+    "stockPrice": 80.1,
+    "numberOfShares": 39704000,
+    "marketCapitalization": 3180290400,
+    "minusCashAndCashEquivalents": 304718000,
+    "addTotalDebt": 599469000,
+    "enterpriseValue": 3475041400
+  },
+  {
+    "symbol": "EVR",
+    "date": "2019-06-30",
+    "stockPrice": 88.95,
+    "numberOfShares": 40546000,
+    "marketCapitalization": 3606566700,
+    "minusCashAndCashEquivalents": 374321000,
+    "addTotalDebt": 386661000,
+    "enterpriseValue": 3618906700
+  },
+  {
+    "symbol": "EVR",
+    "date": "2019-03-31",
+    "stockPrice": 93.4,
+    "numberOfShares": 40497000,
+    "marketCapitalization": 3782419800,
+    "minusCashAndCashEquivalents": 338343000,
+    "addTotalDebt": 417621000,
+    "enterpriseValue": 3861697800
+  },
+  {
+    "symbol": "EVR",
+    "date": "2018-12-31",
+    "stockPrice": 71.56,
+    "numberOfShares": 40111000,
+    "marketCapitalization": 2870343160,
+    "minusCashAndCashEquivalents": 890590000,
+    "addTotalDebt": 168612000,
+    "enterpriseValue": 2148365160
+  },
+  {
+    "symbol": "EVR",
+    "date": "2018-09-30",
+    "stockPrice": 98.8,
+    "numberOfShares": 40966000,
+    "marketCapitalization": 4047440800,
+    "minusCashAndCashEquivalents": 425152000,
+    "addTotalDebt": 168543000,
+    "enterpriseValue": 3790831800
+  },
+  {
+    "symbol": "EVR",
+    "date": "2018-06-30",
+    "stockPrice": 105.45,
+    "numberOfShares": 40889000,
+    "marketCapitalization": 4311745050,
+    "minusCashAndCashEquivalents": 403929000,
+    "addTotalDebt": 168477000,
+    "enterpriseValue": 4076293050
+  },
+  {
+    "symbol": "EVR",
+    "date": "2018-03-31",
+    "stockPrice": 87.2,
+    "numberOfShares": 40426000,
+    "marketCapitalization": 3525147200,
+    "minusCashAndCashEquivalents": 407729000,
+    "addTotalDebt": 168510000,
+    "enterpriseValue": 3285928200
+  },
+  {
+    "symbol": "EVR",
+    "date": "2017-12-31",
+    "stockPrice": 90,
+    "numberOfShares": 38864496,
+    "marketCapitalization": 3497804640,
+    "minusCashAndCashEquivalents": 609587000,
+    "addTotalDebt": 175146000,
+    "enterpriseValue": 3063363640
+  },
+  {
+    "symbol": "EVR",
+    "date": "2017-09-30",
+    "stockPrice": 80.25,
+    "numberOfShares": 39045000,
+    "marketCapitalization": 3133361250,
+    "minusCashAndCashEquivalents": 439855000,
+    "addTotalDebt": 175081000,
+    "enterpriseValue": 2868587250
+  },
+  {
+    "symbol": "EVR",
+    "date": "2017-06-30",
+    "stockPrice": 70.5,
+    "numberOfShares": 40109000,
+    "marketCapitalization": 2827684500,
+    "minusCashAndCashEquivalents": 410212000,
+    "addTotalDebt": 175019000,
+    "enterpriseValue": 2592491500
+  },
+  {
+    "symbol": "EVR",
+    "date": "2017-03-31",
+    "stockPrice": 77.9,
+    "numberOfShares": 40480000,
+    "marketCapitalization": 3153392000,
+    "minusCashAndCashEquivalents": 351260000,
+    "addTotalDebt": 178708000,
+    "enterpriseValue": 2980840000
+  },
+  {
+    "symbol": "EVR",
+    "date": "2016-12-31",
+    "stockPrice": 68.7,
+    "numberOfShares": 39101000,
+    "marketCapitalization": 2686238700,
+    "minusCashAndCashEquivalents": 558524000,
+    "addTotalDebt": 184647000,
+    "enterpriseValue": 2312361700
+  },
+  {
+    "symbol": "EVR",
+    "date": "2016-09-30",
+    "stockPrice": 51.51,
+    "numberOfShares": 38912000,
+    "marketCapitalization": 2004357120,
+    "minusCashAndCashEquivalents": 446029000,
+    "addTotalDebt": 184585000,
+    "enterpriseValue": 1742913120
+  },
+  {
+    "symbol": "EVR",
+    "date": "2016-06-30",
+    "stockPrice": 44.19,
+    "numberOfShares": 39249000,
+    "marketCapitalization": 1734413310,
+    "minusCashAndCashEquivalents": 247270000,
+    "addTotalDebt": 184526000,
+    "enterpriseValue": 1671669310
+  },
+  {
+    "symbol": "EVR",
+    "date": "2016-03-31",
+    "stockPrice": 51.75,
+    "numberOfShares": 39620000,
+    "marketCapitalization": 2050335000,
+    "minusCashAndCashEquivalents": 291523000,
+    "addTotalDebt": 240467000,
+    "enterpriseValue": 1999279000
+  },
+  {
+    "symbol": "EVR",
+    "date": "2015-12-31",
+    "stockPrice": 54.07,
+    "numberOfShares": 38681000,
+    "marketCapitalization": 2091481670,
+    "minusCashAndCashEquivalents": 448764000,
+    "addTotalDebt": 141800000,
+    "enterpriseValue": 1784517670
+  },
+  {
+    "symbol": "EVR",
+    "date": "2015-09-30",
+    "stockPrice": 50.24,
+    "numberOfShares": 36773000,
+    "marketCapitalization": 1847475520,
+    "minusCashAndCashEquivalents": 278145000,
+    "addTotalDebt": 129379000,
+    "enterpriseValue": 1698709520
+  },
+  {
+    "symbol": "EVR",
+    "date": "2015-06-30",
+    "stockPrice": 53.96,
+    "numberOfShares": 36445000,
+    "marketCapitalization": 1966572200,
+    "minusCashAndCashEquivalents": 250079000,
+    "addTotalDebt": 128835000,
+    "enterpriseValue": 1845328200
+  },
+  {
+    "symbol": "EVR",
+    "date": "2015-03-31",
+    "stockPrice": 51.66,
+    "numberOfShares": 36725000,
+    "marketCapitalization": 1897213499,
+    "minusCashAndCashEquivalents": 225781000,
+    "addTotalDebt": 173299000,
+    "enterpriseValue": 1844731499
+  },
+  {
+    "symbol": "EVR",
+    "date": "2014-12-31",
+    "stockPrice": 52.37,
+    "numberOfShares": 36337000,
+    "marketCapitalization": 1902968690,
+    "minusCashAndCashEquivalents": 352160000,
+    "addTotalDebt": 127776000,
+    "enterpriseValue": 1678584690
+  },
+  {
+    "symbol": "EVR",
+    "date": "2014-09-30",
+    "stockPrice": 47,
+    "numberOfShares": 36527000,
+    "marketCapitalization": 1716769000,
+    "minusCashAndCashEquivalents": 239069000,
+    "addTotalDebt": 104755000,
+    "enterpriseValue": 1582455000
+  },
+  {
+    "symbol": "EVR",
+    "date": "2014-06-30",
+    "stockPrice": 57.64,
+    "numberOfShares": 35744000,
+    "marketCapitalization": 2060284160,
+    "minusCashAndCashEquivalents": 193096000,
+    "addTotalDebt": 104207000,
+    "enterpriseValue": 1971395160
+  },
+  {
+    "symbol": "EVR",
+    "date": "2014-03-31",
+    "stockPrice": 55.25,
+    "numberOfShares": 34667000,
+    "marketCapitalization": 1915351750,
+    "minusCashAndCashEquivalents": 124064000,
+    "addTotalDebt": 103710000,
+    "enterpriseValue": 1894997750
+  },
+  {
+    "symbol": "EVR",
+    "date": "2013-12-31",
+    "stockPrice": 59.78,
+    "numberOfShares": 33130000,
+    "marketCapitalization": 1980511400,
+    "minusCashAndCashEquivalents": 298453000,
+    "addTotalDebt": 103226000,
+    "enterpriseValue": 1785284400
+  },
+  {
+    "symbol": "EVR",
+    "date": "2013-09-30",
+    "stockPrice": 49.23,
+    "numberOfShares": 32049000,
+    "marketCapitalization": 1577772270,
+    "minusCashAndCashEquivalents": 243798000,
+    "addTotalDebt": 102748000,
+    "enterpriseValue": 1436722270
+  },
+  {
+    "symbol": "EVR",
+    "date": "2013-06-30",
+    "stockPrice": 39.77,
+    "numberOfShares": 31811000,
+    "marketCapitalization": 1265123470,
+    "minusCashAndCashEquivalents": 147435000,
+    "addTotalDebt": 102282000,
+    "enterpriseValue": 1219970470
+  },
+  {
+    "symbol": "EVR",
+    "date": "2013-03-31",
+    "stockPrice": 40.6,
+    "numberOfShares": 31861000,
+    "marketCapitalization": 1293556600,
+    "minusCashAndCashEquivalents": 137034000,
+    "addTotalDebt": 101823000,
+    "enterpriseValue": 1258345600
+  },
+  {
+    "symbol": "EVR",
+    "date": "2012-12-31",
+    "stockPrice": 30.19,
+    "numberOfShares": 29905000,
+    "marketCapitalization": 902831950,
+    "minusCashAndCashEquivalents": 259431000,
+    "addTotalDebt": 101375000,
+    "enterpriseValue": 744775950
+  },
+  {
+    "symbol": "EVR",
+    "date": "2012-09-30",
+    "stockPrice": 27.33,
+    "numberOfShares": 28841000,
+    "marketCapitalization": 788224530,
+    "minusCashAndCashEquivalents": 162341000,
+    "addTotalDebt": 100933000,
+    "enterpriseValue": 726816530
+  },
+  {
+    "symbol": "EVR",
+    "date": "2012-06-30",
+    "stockPrice": 23.39,
+    "numberOfShares": 29213000,
+    "marketCapitalization": 683292070,
+    "minusCashAndCashEquivalents": 150668000,
+    "addTotalDebt": 100503000,
+    "enterpriseValue": 633127070
+  },
+  {
+    "symbol": "EVR",
+    "date": "2012-03-31",
+    "stockPrice": 29.07,
+    "numberOfShares": 29101000,
+    "marketCapitalization": 845966070,
+    "minusCashAndCashEquivalents": 101202000,
+    "addTotalDebt": 100078000,
+    "enterpriseValue": 844842070
+  },
+  {
+    "symbol": "EVR",
+    "date": "2011-12-31",
+    "stockPrice": 26.62,
+    "numberOfShares": 28609000,
+    "marketCapitalization": 761571580,
+    "minusCashAndCashEquivalents": 182905000,
+    "addTotalDebt": 99664000,
+    "enterpriseValue": 678330580
+  },
+  {
+    "symbol": "EVR",
+    "date": "2011-09-30",
+    "stockPrice": 22.8,
+    "numberOfShares": 28967000,
+    "marketCapitalization": 660447600,
+    "minusCashAndCashEquivalents": 243926000,
+    "addTotalDebt": 99256000,
+    "enterpriseValue": 515777600
+  },
+  {
+    "symbol": "EVR",
+    "date": "2011-06-30",
+    "stockPrice": 33.32,
+    "numberOfShares": 23724000,
+    "marketCapitalization": 790483680,
+    "minusCashAndCashEquivalents": 204449000,
+    "addTotalDebt": 98858000,
+    "enterpriseValue": 684892680
+  },
+  {
+    "symbol": "EVR",
+    "date": "2011-03-31",
+    "stockPrice": 34.29,
+    "numberOfShares": 22677000,
+    "marketCapitalization": 777594330,
+    "minusCashAndCashEquivalents": 103575000,
+    "addTotalDebt": 98465000,
+    "enterpriseValue": 772484330
+  },
+  {
+    "symbol": "EVR",
+    "date": "2010-12-31",
+    "stockPrice": 34,
+    "numberOfShares": 21892000,
+    "marketCapitalization": 744328000,
+    "minusCashAndCashEquivalents": 141337000,
+    "addTotalDebt": 98082000,
+    "enterpriseValue": 701073000
+  },
+  {
+    "symbol": "EVR",
+    "date": "2010-09-30",
+    "stockPrice": 28.61,
+    "numberOfShares": 18973000,
+    "marketCapitalization": 542817530,
+    "minusCashAndCashEquivalents": 168541000,
+    "addTotalDebt": 97704000,
+    "enterpriseValue": 471980530
+  },
+  {
+    "symbol": "EVR",
+    "date": "2010-06-30",
+    "stockPrice": 23.35,
+    "numberOfShares": 19016000,
+    "marketCapitalization": 444023600,
+    "minusCashAndCashEquivalents": 144825000,
+    "addTotalDebt": 97336000,
+    "enterpriseValue": 396534600
+  },
+  {
+    "symbol": "EVR",
+    "date": "2010-03-31",
+    "stockPrice": 30,
+    "numberOfShares": 18675000,
+    "marketCapitalization": 560250000,
+    "minusCashAndCashEquivalents": 156797000,
+    "addTotalDebt": 96972000,
+    "enterpriseValue": 500425000
+  },
+  {
+    "symbol": "EVR",
+    "date": "2009-12-31",
+    "stockPrice": 30.4,
+    "numberOfShares": 18185000,
+    "marketCapitalization": 552824000,
+    "minusCashAndCashEquivalents": 206682000,
+    "addTotalDebt": 96618000,
+    "enterpriseValue": 442760000
+  },
+  {
+    "symbol": "EVR",
+    "date": "2009-09-30",
+    "stockPrice": 29.22,
+    "numberOfShares": 16340000,
+    "marketCapitalization": 477454800,
+    "minusCashAndCashEquivalents": 183623000,
+    "addTotalDebt": 96268000,
+    "enterpriseValue": 390099800
+  },
+  {
+    "symbol": "EVR",
+    "date": "2009-06-30",
+    "stockPrice": 19.64,
+    "numberOfShares": 13925000,
+    "marketCapitalization": 273487000,
+    "minusCashAndCashEquivalents": 166856000,
+    "addTotalDebt": 95927000,
+    "enterpriseValue": 202558000
+  },
+  {
+    "symbol": "EVR",
+    "date": "2009-03-31",
+    "stockPrice": 15.45,
+    "numberOfShares": 13701000,
+    "marketCapitalization": 211680450,
+    "minusCashAndCashEquivalents": 117497000,
+    "addTotalDebt": 95591000,
+    "enterpriseValue": 189774450
+  },
+  {
+    "symbol": "EVR",
+    "date": "2008-12-31",
+    "stockPrice": 12.49,
+    "numberOfShares": 13546000,
+    "marketCapitalization": 169189540,
+    "minusCashAndCashEquivalents": 175902000,
+    "addTotalDebt": 95263000,
+    "enterpriseValue": 88550540
+  },
+  {
+    "symbol": "EVR",
+    "date": "2008-09-30",
+    "stockPrice": 17.98,
+    "numberOfShares": 13085000,
+    "marketCapitalization": 235268300,
+    "minusCashAndCashEquivalents": 284355000,
+    "addTotalDebt": 94832000,
+    "enterpriseValue": 45745300
+  },
+  {
+    "symbol": "EVR",
+    "date": "2008-06-30",
+    "stockPrice": 9.5,
+    "numberOfShares": 12895000,
+    "marketCapitalization": 122502500,
+    "minusCashAndCashEquivalents": 155102000,
+    "addTotalDebt": 405900000,
+    "enterpriseValue": 373300500
+  },
+  {
+    "symbol": "EVR",
+    "date": "2008-03-31",
+    "stockPrice": 17.75,
+    "numberOfShares": 12757000,
+    "marketCapitalization": 226436750,
+    "minusCashAndCashEquivalents": 124569000,
+    "addTotalDebt": 355400000,
+    "enterpriseValue": 457267750
+  },
+  {
+    "symbol": "EVR",
+    "date": "2007-12-31",
+    "stockPrice": 21.55,
+    "numberOfShares": 12442000,
+    "marketCapitalization": 268125100,
+    "minusCashAndCashEquivalents": 193475000,
+    "addTotalDebt": 285900000,
+    "enterpriseValue": 360550100
+  },
+  {
+    "symbol": "EVR",
+    "date": "2007-09-30",
+    "stockPrice": 25.98,
+    "numberOfShares": 12352000,
+    "marketCapitalization": 320904960,
+    "minusCashAndCashEquivalents": 184949000,
+    "addTotalDebt": 3141000,
+    "enterpriseValue": 139096960
+  },
+  {
+    "symbol": "EVR",
+    "date": "2007-06-30",
+    "stockPrice": 29.77,
+    "numberOfShares": 9432000,
+    "marketCapitalization": 280790640,
+    "minusCashAndCashEquivalents": 144587000,
+    "addTotalDebt": 3094000,
+    "enterpriseValue": 139297640
+  },
+  {
+    "symbol": "EVR",
+    "date": "2007-03-31",
+    "stockPrice": 31.19,
+    "numberOfShares": 6589000,
+    "marketCapitalization": 205510910,
+    "minusCashAndCashEquivalents": 87618000,
+    "addTotalDebt": 3180000,
+    "enterpriseValue": 121072910
+  },
+  {
+    "symbol": "EVR",
+    "date": "2006-12-31",
+    "stockPrice": 36.85,
+    "numberOfShares": 5000000,
+    "marketCapitalization": 184250000,
+    "minusCashAndCashEquivalents": 65400000,
+    "addTotalDebt": 87100000,
+    "enterpriseValue": 205950000
+  },
+  {
+    "symbol": "EVR",
+    "date": "2006-09-30",
+    "stockPrice": 28.8,
+    "numberOfShares": 5000000,
+    "marketCapitalization": 144000000,
+    "minusCashAndCashEquivalents": 58900000,
+    "addTotalDebt": 349800000,
+    "enterpriseValue": 434900000
+  },
+  {
+    "symbol": "EVR",
+    "date": "2006-06-30",
+    "stockPrice": 24.85,
+    "numberOfShares": 3995238,
+    "marketCapitalization": 99281664,
+    "minusCashAndCashEquivalents": 14838000,
+    "addTotalDebt": 30326000,
+    "enterpriseValue": 114769664
+  },
+  {
+    "symbol": "EVR",
+    "date": "2006-03-31",
+    "stockPrice": 24.85,
+    "numberOfShares": 3995238,
+    "marketCapitalization": 99281664,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 99281664
+  },
+  {
+    "symbol": "EVR",
+    "date": "2005-06-30",
+    "stockPrice": 24.85,
+    "numberOfShares": 3995238,
+    "marketCapitalization": 99281664,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 99281664
+  }
+]

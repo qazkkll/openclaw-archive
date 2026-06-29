@@ -1,0 +1,68 @@
+[
+  {
+    "symbol": "BIPH",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Connections": 192000000,
+      "Distribution": 512000000,
+      "Leasing": 1568000000,
+      "Service Line, Other": 37000000
+    }
+  },
+  {
+    "symbol": "BIPH",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Connections": 200000000,
+      "Distribution": 397000000,
+      "Gas Transmission": 1483000000,
+      "Leasing": 385000000,
+      "Service Line, Other": 38000000
+    }
+  },
+  {
+    "symbol": "BIPH",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Connections": 171000000,
+      "Distribution": 372000000,
+      "Gas Transmission": 1314000000,
+      "Service Line, Other": 29000000
+    }
+  },
+  {
+    "symbol": "BIPH",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Connections": 167000000,
+      "Distribution": 374000000,
+      "Gas Transmission": 1074000000,
+      "Service Line, Other": 28000000
+    }
+  },
+  {
+    "symbol": "BIPH",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "Connections": 118000000,
+      "Distribution": 346000000,
+      "Gas Transmission": 942000000,
+      "Service Line, Other": 24000000
+    }
+  }
+]

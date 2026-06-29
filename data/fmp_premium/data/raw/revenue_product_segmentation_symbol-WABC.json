@@ -1,0 +1,64 @@
+[
+  {
+    "symbol": "WABC",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "ATM Processing Fees": 1912000,
+      "Credit Card, Merchant Discount": 10970000,
+      "Debit Card": 6346000,
+      "Deposit Account": 13336000,
+      "Fiduciary and Trust": 3584000,
+      "Financial Service, Other": 1753000
+    }
+  },
+  {
+    "symbol": "WABC",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "ATM Processing Fees": 2170000,
+      "Credit Card, Merchant Discount": 10449000,
+      "Debit Card": 6853000,
+      "Deposit Account": 14025000,
+      "Fiduciary and Trust": 3318000,
+      "Financial Service, Other": 1770000
+    }
+  },
+  {
+    "symbol": "WABC",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "ATM Processing Fees": 2618000,
+      "Credit Card, Merchant Discount": 11280000,
+      "Debit Card": 7185000,
+      "Deposit Account": 14169000,
+      "Fiduciary and Trust": 3122000,
+      "Financial Service, Other": 1765000,
+      "Financial Services Commission": 336000
+    }
+  },
+  {
+    "symbol": "WABC",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "ATM Processing Fees": 2160000,
+      "Credit Card, Merchant Discount": 11623000,
+      "Debit Card": 7879000,
+      "Deposit Account": 14490000,
+      "Fiduciary and Trust": 3216000,
+      "Financial Service, Other": 1808000,
+      "Financial Services Commission": 417000
+    }
+  }
+]

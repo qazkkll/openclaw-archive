@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "BOH",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Annuity and Insurance": 5150000,
+      "Fees, Exchange, and Other Service Charges": 43147000,
+      "Other Revenue": 9935000,
+      "Service Charges on Deposit Accounts": 14374000,
+      "Trust and Asset Management": 49319000
+    }
+  },
+  {
+    "symbol": "BOH",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Annuity and Insurance": 5368000,
+      "Fees, Exchange, and Other Service Charges": 45466000,
+      "Other Revenue": 10098000,
+      "Service Charges on Deposit Accounts": 13676000,
+      "Trust and Asset Management": 47485000
+    }
+  }
+]

@@ -1,0 +1,956 @@
+[
+  {
+    "symbol": "EQIX",
+    "date": "2026-07-29",
+    "epsActual": null,
+    "epsEstimated": 4.78,
+    "revenueActual": null,
+    "revenueEstimated": 2579937000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2026-04-29",
+    "epsActual": 4.22,
+    "epsEstimated": 4.3,
+    "revenueActual": 2444000000,
+    "revenueEstimated": 2515027000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2026-02-11",
+    "epsActual": 2.7,
+    "epsEstimated": 3.71,
+    "revenueActual": 2420000000,
+    "revenueEstimated": 2458202000,
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2025-10-29",
+    "epsActual": 9.83,
+    "epsEstimated": 9.26,
+    "revenueActual": 2316000000,
+    "revenueEstimated": 2457823960,
+    "lastUpdated": "2026-01-29"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2025-07-30",
+    "epsActual": 9.91,
+    "epsEstimated": 9.19,
+    "revenueActual": 2256000000,
+    "revenueEstimated": 2257425800,
+    "lastUpdated": "2025-10-30"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2025-04-30",
+    "epsActual": 9.67,
+    "epsEstimated": 8.96,
+    "revenueActual": 2225000000,
+    "revenueEstimated": 2258518340,
+    "lastUpdated": "2025-07-30"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2025-02-12",
+    "epsActual": 7.92,
+    "epsEstimated": 2.75,
+    "revenueActual": 2261000000,
+    "revenueEstimated": 2273633890,
+    "lastUpdated": "2025-05-12"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2024-10-30",
+    "epsActual": 9.05,
+    "epsEstimated": 8.7,
+    "revenueActual": 2201000000,
+    "revenueEstimated": 2285760000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2024-08-07",
+    "epsActual": 9.22,
+    "epsEstimated": 8.82,
+    "revenueActual": 2159000000,
+    "revenueEstimated": 2159010000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2024-05-08",
+    "epsActual": 8.86,
+    "epsEstimated": 8.58,
+    "revenueActual": 2127000000,
+    "revenueEstimated": 2139090000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2024-02-14",
+    "epsActual": 7.3,
+    "epsEstimated": 7.25,
+    "revenueActual": 2110489000,
+    "revenueEstimated": 2113680000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2023-10-25",
+    "epsActual": 8.19,
+    "epsEstimated": 7.79,
+    "revenueActual": 2061030000,
+    "revenueEstimated": 2056964329,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2023-08-02",
+    "epsActual": 8.04,
+    "epsEstimated": 7.51,
+    "revenueActual": 2018408000,
+    "revenueEstimated": 2018510000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2023-05-03",
+    "epsActual": 8.59,
+    "epsEstimated": 7.92,
+    "revenueActual": 1998209000,
+    "revenueEstimated": 1980400000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2023-02-15",
+    "epsActual": 7.09,
+    "epsEstimated": 6.82,
+    "revenueActual": 1870845000,
+    "revenueEstimated": 1865052874,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2022-11-02",
+    "epsActual": 7.73,
+    "epsEstimated": 7.19,
+    "revenueActual": 1840659000,
+    "revenueEstimated": 1837247566,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2022-07-27",
+    "epsActual": 7.58,
+    "epsEstimated": 7.3,
+    "revenueActual": 1817154000,
+    "revenueEstimated": 1817451405,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2022-04-27",
+    "epsActual": 7.16,
+    "epsEstimated": 7.19,
+    "revenueActual": 1734447000,
+    "revenueEstimated": 1746427082,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2022-02-16",
+    "epsActual": 6.22,
+    "epsEstimated": 6.27,
+    "revenueActual": 1706378000,
+    "revenueEstimated": 1697036620,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2021-11-03",
+    "epsActual": 6.94,
+    "epsEstimated": 6.69,
+    "revenueActual": 1675176000,
+    "revenueEstimated": 1680580000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2021-07-28",
+    "epsActual": 7.01,
+    "epsEstimated": 6.72,
+    "revenueActual": 1657919000,
+    "revenueEstimated": 1680580000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2021-04-28",
+    "epsActual": 6.98,
+    "epsEstimated": 6.63,
+    "revenueActual": 1596064000,
+    "revenueEstimated": 1596130000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2021-02-10",
+    "epsActual": 5.76,
+    "epsEstimated": 5.65,
+    "revenueActual": 1564115000,
+    "revenueEstimated": 2290968441,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2020-10-28",
+    "epsActual": 6.48,
+    "epsEstimated": 6.03,
+    "revenueActual": 1519767000,
+    "revenueEstimated": 3450281837,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2020-07-29",
+    "epsActual": 6.35,
+    "epsEstimated": 5.98,
+    "revenueActual": 1470121000,
+    "revenueEstimated": 1586183184,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2020-05-06",
+    "epsActual": 6.21,
+    "epsEstimated": 5.98,
+    "revenueActual": 1444542000,
+    "revenueEstimated": 1894652913,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2020-02-12",
+    "epsActual": 5.51,
+    "epsEstimated": 5.36,
+    "revenueActual": 1417135000,
+    "revenueEstimated": 1514199041,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2019-10-30",
+    "epsActual": 5.52,
+    "epsEstimated": 5.45,
+    "revenueActual": 1396810000,
+    "revenueEstimated": 1654377801,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2019-07-31",
+    "epsActual": 5.87,
+    "epsEstimated": 5.57,
+    "revenueActual": 1384977000,
+    "revenueEstimated": 1286635437,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2019-05-01",
+    "epsActual": 5.95,
+    "epsEstimated": 5.6,
+    "revenueActual": 1363218000,
+    "revenueEstimated": 1363218000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2019-02-13",
+    "epsActual": 5.13,
+    "epsEstimated": 4.92,
+    "revenueActual": 1310083000,
+    "revenueEstimated": 1184854477,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2018-11-01",
+    "epsActual": 5.01,
+    "epsEstimated": 4.95,
+    "revenueActual": 1283751000,
+    "revenueEstimated": 811692903,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2018-08-08",
+    "epsActual": 5.37,
+    "epsEstimated": 5.06,
+    "revenueActual": 1261943000,
+    "revenueEstimated": 1380667058,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2018-05-02",
+    "epsActual": 5.21,
+    "epsEstimated": 4.94,
+    "revenueActual": 1215877000,
+    "revenueEstimated": 1585287341,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2018-02-14",
+    "epsActual": 4.82,
+    "epsEstimated": 4.8,
+    "revenueActual": 1200221000,
+    "revenueEstimated": 1727117073,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2017-11-01",
+    "epsActual": 4.97,
+    "epsEstimated": 4.69,
+    "revenueActual": 1152261000,
+    "revenueEstimated": 1321755882,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2017-08-02",
+    "epsActual": 4.59,
+    "epsEstimated": 3.91,
+    "revenueActual": 1066421000,
+    "revenueEstimated": 1967324137,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2017-04-26",
+    "epsActual": 4.14,
+    "epsEstimated": 4.07,
+    "revenueActual": 949525000,
+    "revenueEstimated": 1399263157,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2017-02-15",
+    "epsActual": 4.08,
+    "epsEstimated": 4,
+    "revenueActual": 942647000,
+    "revenueEstimated": 811074418,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2016-11-02",
+    "epsActual": 3.95,
+    "epsEstimated": 3.91,
+    "revenueActual": 924676000,
+    "revenueEstimated": 886170833,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2016-08-03",
+    "epsActual": 4.13,
+    "epsEstimated": 3.71,
+    "revenueActual": 900510000,
+    "revenueEstimated": 886429687,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2016-05-04",
+    "epsActual": 2.98,
+    "epsEstimated": 3.52,
+    "revenueActual": 844156000,
+    "revenueEstimated": 642326086,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2016-02-18",
+    "epsActual": 2.85,
+    "epsEstimated": 3.57,
+    "revenueActual": 730462000,
+    "revenueEstimated": 4626500000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2015-10-28",
+    "epsActual": 3.55,
+    "epsEstimated": 3.07,
+    "revenueActual": 686649000,
+    "revenueEstimated": 1063746478,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2015-07-29",
+    "epsActual": 3.75,
+    "epsEstimated": 1.1,
+    "revenueActual": 665582000,
+    "revenueEstimated": 738816000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2015-04-29",
+    "epsActual": 2.85,
+    "epsEstimated": 0.85,
+    "revenueActual": 643174000,
+    "revenueEstimated": 400763076,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2015-02-19",
+    "epsActual": 0.56,
+    "epsEstimated": 0.98,
+    "revenueActual": 638121000,
+    "revenueEstimated": 1181666666,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2014-10-29",
+    "epsActual": 3.64,
+    "epsEstimated": 0.88,
+    "revenueActual": 620441000,
+    "revenueEstimated": 692914285,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2014-07-30",
+    "epsActual": 0.86,
+    "epsEstimated": 0.81,
+    "revenueActual": 605161000,
+    "revenueEstimated": 568297560,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2014-04-30",
+    "epsActual": 0.77,
+    "epsEstimated": 0.68,
+    "revenueActual": 580053000,
+    "revenueEstimated": 512296103,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2014-02-19",
+    "epsActual": 0.83,
+    "epsEstimated": 0.74,
+    "revenueActual": 564677000,
+    "revenueEstimated": 503467469,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2013-10-23",
+    "epsActual": 0.68,
+    "epsEstimated": 0.55,
+    "revenueActual": 540523000,
+    "revenueEstimated": 439272058,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2013-07-24",
+    "epsActual": 0.59,
+    "epsEstimated": 0.59,
+    "revenueActual": 525669000,
+    "revenueEstimated": 753963829,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2013-04-24",
+    "epsActual": 0.67,
+    "epsEstimated": 0.73,
+    "revenueActual": 519455000,
+    "revenueEstimated": 562317910,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2013-02-13",
+    "epsActual": 0.92,
+    "epsEstimated": 0.59,
+    "revenueActual": 506520000,
+    "revenueEstimated": 324564130,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2012-11-01",
+    "epsActual": 0.55,
+    "epsEstimated": 0.55,
+    "revenueActual": 488730000,
+    "revenueEstimated": 484800000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2012-07-25",
+    "epsActual": 0.69,
+    "epsEstimated": 0.57,
+    "revenueActual": 466264000,
+    "revenueEstimated": 374382608,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2012-04-25",
+    "epsActual": 0.67,
+    "epsEstimated": 0.49,
+    "revenueActual": 452200000,
+    "revenueEstimated": 324131343,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2012-02-15",
+    "epsActual": 0.33,
+    "epsEstimated": 0.41,
+    "revenueActual": 431312000,
+    "revenueEstimated": 524427272,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2011-10-26",
+    "epsActual": 0.19,
+    "epsEstimated": 0.41,
+    "revenueActual": 417601000,
+    "revenueEstimated": 880852631,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2011-07-27",
+    "epsActual": 0.6,
+    "epsEstimated": 0.45,
+    "revenueActual": 394900000,
+    "revenueEstimated": 282300000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2011-04-27",
+    "epsActual": 0.5,
+    "epsEstimated": 0.28,
+    "revenueActual": 363029000,
+    "revenueEstimated": 288802533,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2011-02-09",
+    "epsActual": 0.27,
+    "epsEstimated": 0.21,
+    "revenueActual": 345244000,
+    "revenueEstimated": 268488888,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2010-10-26",
+    "epsActual": 0.23,
+    "epsEstimated": 0.24,
+    "revenueActual": 330347000,
+    "revenueEstimated": 344660869,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2010-07-28",
+    "epsActual": -0.05,
+    "epsEstimated": 0.24,
+    "revenueActual": 296094000,
+    "revenueEstimated": 1421279999,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2010-04-21",
+    "epsActual": 0.33,
+    "epsEstimated": 0.41,
+    "revenueActual": 248649000,
+    "revenueEstimated": 308866666,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2010-02-10",
+    "epsActual": 0.42,
+    "epsEstimated": 0.32,
+    "revenueActual": 242552000,
+    "revenueEstimated": 184838095,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2009-10-21",
+    "epsActual": 0.44,
+    "epsEstimated": 0.28,
+    "revenueActual": 227558000,
+    "revenueEstimated": 144836363,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2009-07-22",
+    "epsActual": 0.42,
+    "epsEstimated": 0.31,
+    "revenueActual": 213168000,
+    "revenueEstimated": 157361904,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2009-04-22",
+    "epsActual": 0.38,
+    "epsEstimated": 0.17,
+    "revenueActual": 199231000,
+    "revenueEstimated": 174034136,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2009-02-11",
+    "epsActual": 2.59,
+    "epsEstimated": 0.24,
+    "revenueActual": 190683000,
+    "revenueEstimated": 17671042,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2008-10-22",
+    "epsActual": 0.18,
+    "epsEstimated": 0.15,
+    "revenueActual": 183735000,
+    "revenueEstimated": 153083333,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2008-07-23",
+    "epsActual": 0.06,
+    "epsEstimated": 0.13,
+    "revenueActual": 172044000,
+    "revenueEstimated": 372666666,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2008-04-23",
+    "epsActual": 0.14,
+    "epsEstimated": -0.12,
+    "revenueActual": 158218000,
+    "revenueEstimated": 135599999,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2008-02-13",
+    "epsActual": -0.16,
+    "epsEstimated": -0.07,
+    "revenueActual": 138714000,
+    "revenueEstimated": 98090613,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2007-10-30",
+    "epsActual": 0.11,
+    "epsEstimated": 0.02236,
+    "revenueActual": 103782000,
+    "revenueEstimated": 37745454,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2007-07-25",
+    "epsActual": 0.04,
+    "epsEstimated": -0.05,
+    "revenueActual": 91837000,
+    "revenueEstimated": 114750000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2007-04-26",
+    "epsActual": -0.14,
+    "epsEstimated": -0.09,
+    "revenueActual": 85109000,
+    "revenueEstimated": 54707142,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2007-02-07",
+    "epsActual": 0.02,
+    "epsEstimated": 0.00714,
+    "revenueActual": 79772000,
+    "revenueEstimated": 79800000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2006-10-25",
+    "epsActual": -0.17,
+    "epsEstimated": -0.17,
+    "revenueActual": 73726000,
+    "revenueEstimated": 73700000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2006-08-14",
+    "epsActual": -0.18,
+    "epsEstimated": -0.18,
+    "revenueActual": 68548000,
+    "revenueEstimated": 68500000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2006-04-26",
+    "epsActual": -0.17,
+    "epsEstimated": -0.2,
+    "revenueActual": 64869000,
+    "revenueEstimated": 76352941,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2006-02-08",
+    "epsActual": -1.18,
+    "epsEstimated": -0.48,
+    "revenueActual": 61798000,
+    "revenueEstimated": 25138983,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2005-10-25",
+    "epsActual": -0.03,
+    "epsEstimated": -0.09,
+    "revenueActual": 58096000,
+    "revenueEstimated": 174300000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2005-07-27",
+    "epsActual": -0.13,
+    "epsEstimated": -0.06,
+    "revenueActual": 52479000,
+    "revenueEstimated": 48707071,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2005-04-27",
+    "epsActual": -0.25,
+    "epsEstimated": -0.14,
+    "revenueActual": 48684000,
+    "revenueEstimated": 38729859,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2005-02-09",
+    "epsActual": -0.27,
+    "epsEstimated": -0.27,
+    "revenueActual": 44989000,
+    "revenueEstimated": 45000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2004-10-26",
+    "epsActual": -0.34,
+    "epsEstimated": -0.48,
+    "revenueActual": 42439000,
+    "revenueEstimated": 59858823,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2004-07-28",
+    "epsActual": -0.48,
+    "epsEstimated": -0.63,
+    "revenueActual": 39423000,
+    "revenueEstimated": 51712500,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2004-04-22",
+    "epsActual": -0.87,
+    "epsEstimated": -0.92,
+    "revenueActual": 36820000,
+    "revenueEstimated": 38914942,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2004-02-04",
+    "epsActual": -1.41,
+    "epsEstimated": -1.39,
+    "revenueActual": 33154000,
+    "revenueEstimated": 32729078,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2003-10-28",
+    "epsActual": -2.12181,
+    "epsEstimated": null,
+    "revenueActual": 30919000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2003-10-27",
+    "epsActual": -2,
+    "epsEstimated": -2.03,
+    "revenueActual": 28434000,
+    "revenueEstimated": 31363499,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2003-05-15",
+    "epsActual": -3.002,
+    "epsEstimated": null,
+    "revenueActual": 25435000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2003-02-15",
+    "epsActual": -9.37,
+    "epsEstimated": 0.38,
+    "revenueActual": 18803000,
+    "revenueEstimated": 762433.3,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2002-11-08",
+    "epsActual": -14.01429,
+    "epsEstimated": null,
+    "revenueActual": 20187000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2002-11-05",
+    "epsActual": -9.07,
+    "epsEstimated": 11.19,
+    "revenueActual": 18040000,
+    "revenueEstimated": 24921499,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2002-04-25",
+    "epsActual": -9.37,
+    "epsEstimated": -10.13,
+    "revenueActual": 20158000,
+    "revenueEstimated": 21838420,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2002-02-14",
+    "epsActual": -10.28,
+    "epsEstimated": -12.55,
+    "revenueActual": 17466000,
+    "revenueEstimated": 20625188,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2001-10-17",
+    "epsActual": -12.7,
+    "epsEstimated": -14.52,
+    "revenueActual": 17178000,
+    "revenueEstimated": 19664881,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2001-07-18",
+    "epsActual": -14.52,
+    "epsEstimated": -16.93,
+    "revenueActual": 16157000,
+    "revenueEstimated": 18888842,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2001-04-18",
+    "epsActual": -16.33,
+    "epsEstimated": -18.25,
+    "revenueActual": 12613000,
+    "revenueEstimated": 14081445,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2001-02-07",
+    "epsActual": -17.24,
+    "epsEstimated": -19.25,
+    "revenueActual": 8055000,
+    "revenueEstimated": 9044373.55,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2000-11-09",
+    "epsActual": -22.51241,
+    "epsEstimated": null,
+    "revenueActual": 3933000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2000-10-17",
+    "epsActual": -15.12,
+    "epsEstimated": -14.89,
+    "revenueActual": 892000,
+    "revenueEstimated": 3840674.6,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2000-03-31",
+    "epsActual": -76.67398,
+    "epsEstimated": null,
+    "revenueActual": 135600,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  }
+]

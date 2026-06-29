@@ -1,0 +1,55 @@
+[
+  {
+    "symbol": "FA",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Non-US": 223365000,
+      "UNITED STATES": 1351024000
+    }
+  },
+  {
+    "symbol": "FA",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Non-US": 119699000,
+      "UNITED STATES": 740506000
+    }
+  },
+  {
+    "symbol": "FA",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Americas": 673075000
+    }
+  },
+  {
+    "symbol": "FA",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Americas": 694865000
+    }
+  },
+  {
+    "symbol": "FA",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Americas": 604413000,
+      "Non Us": 114009000
+    }
+  }
+]

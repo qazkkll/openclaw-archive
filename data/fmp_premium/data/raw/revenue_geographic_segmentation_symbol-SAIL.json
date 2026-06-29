@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "SAIL",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "EMEA": 80838000,
+      "Rest Of The World": 55592000,
+      "UNITED STATES": 302524000
+    }
+  },
+  {
+    "symbol": "SAIL",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "EMEA": 62249000,
+      "Rest Of The World": 39673000,
+      "UNITED STATES": 263332000
+    }
+  },
+  {
+    "symbol": "SAIL",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "E M E A": 54315000,
+      "Rest Of The World": 29700000,
+      "UNITED STATES": 204500000
+    }
+  }
+]

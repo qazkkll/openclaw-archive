@@ -1,0 +1,39 @@
+[
+  {
+    "symbol": "FINV",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "CNY",
+    "date": "2025-12-31",
+    "data": {
+      "Indonesia": 2039063,
+      "Others": 100115,
+      "PHILIPPINES": 1192287,
+      "The PRC": 10238018
+    }
+  },
+  {
+    "symbol": "FINV",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "CNY",
+    "date": "2024-12-31",
+    "data": {
+      "Indonesia": 1887770000,
+      "Others": 644727000,
+      "The PRC": 10533327000
+    }
+  },
+  {
+    "symbol": "FINV",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "CNY",
+    "date": "2023-12-31",
+    "data": {
+      "CHINA": 10410574000,
+      "INDONESIA": 1885586000,
+      "Others": 251285000
+    }
+  }
+]

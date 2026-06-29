@@ -1,0 +1,27 @@
+[
+  {
+    "symbol": "DB",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "EUR",
+    "date": "2025-12-31",
+    "data": {
+      "Americas": 6691000000,
+      "Asia Pacific Middle East Africa": 3881000000,
+      "Rest of Europe": 3926000000
+    }
+  },
+  {
+    "symbol": "DB",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "EUR",
+    "date": "2024-12-31",
+    "data": {
+      "Americas": 5996000000,
+      "Germany": 12127000000,
+      "Rest of Europe": 3975000000,
+      "UK": 4525000000
+    }
+  }
+]

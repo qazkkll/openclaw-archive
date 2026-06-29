@@ -8,9 +8,10 @@
   },
   "weights": {
     "spx": {
-      "fund_ratio": 0.7,
-      "analyst": 0.2,
-      "fund_metric": 0.1,
+      "fund_ratio": 0.56,
+      "analyst": 0.16,
+      "fund_metric": 0.08,
+      "earnings": 0.2,
       "tech": 0.0
     },
     "r2k": {
@@ -21,62 +22,46 @@
     }
   },
   "strategy": "fixed_30d",
-  "top_n": 5,
+  "top_n": 3,
   "picks": [
     {
       "sym": "APP",
-      "score": 0.7221,
+      "score": 0.6788,
       "close": 477.08,
       "rank_pct": 1.0,
       "signal": "\ud83d\udfe2\ud83d\udfe2",
       "universe": "SPX",
-      "fund_ratio": 0.7213,
-      "analyst": 0.771,
-      "fund_metric": 0.6303
+      "fund_ratio": 0.7212,
+      "analyst": 0.778,
+      "fund_metric": 0.6303,
+      "earnings": 0.5,
+      "grade_sentiment": 0.5011
     },
     {
       "sym": "PLTR",
-      "score": 0.7157,
+      "score": 0.6732,
       "close": 112.93,
       "rank_pct": 0.9979,
       "signal": "\ud83d\udfe2\ud83d\udfe2",
       "universe": "SPX",
-      "fund_ratio": 0.69,
-      "analyst": 0.8347,
-      "fund_metric": 0.6576
+      "fund_ratio": 0.6892,
+      "analyst": 0.8417,
+      "fund_metric": 0.6572,
+      "earnings": 0.5,
+      "grade_sentiment": 0.5011
     },
     {
       "sym": "NVDA",
-      "score": 0.714,
+      "score": 0.672,
       "close": 192.53,
       "rank_pct": 0.9958,
       "signal": "\ud83d\udfe2\ud83d\udfe2",
       "universe": "SPX",
-      "fund_ratio": 0.692,
-      "analyst": 0.7892,
-      "fund_metric": 0.7176
-    },
-    {
-      "sym": "AVGO",
-      "score": 0.7136,
-      "close": 365.02,
-      "rank_pct": 0.9937,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
-      "universe": "SPX",
-      "fund_ratio": 0.7404,
-      "analyst": 0.6401,
-      "fund_metric": 0.673
-    },
-    {
-      "sym": "TXN",
-      "score": 0.709,
-      "close": 285.43,
-      "rank_pct": 0.9916,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
-      "universe": "SPX",
-      "fund_ratio": 0.7236,
-      "analyst": 0.6555,
-      "fund_metric": 0.7139
+      "fund_ratio": 0.6914,
+      "analyst": 0.7962,
+      "fund_metric": 0.7183,
+      "earnings": 0.5,
+      "grade_sentiment": 0.5011
     }
   ]
 }

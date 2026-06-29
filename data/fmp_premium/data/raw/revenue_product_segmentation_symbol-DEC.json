@@ -1,0 +1,28 @@
+[
+  {
+    "symbol": "DEC",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Natural Gas": 830247000,
+      "Natural Gas, Midstream": 40492000,
+      "Oil and Condensate": 500706000,
+      "Product and Service, Other": 32142000
+    }
+  },
+  {
+    "symbol": "DEC",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Midstream": 32535000,
+      "Natural Gas": 464600000,
+      "Other Revenue": 13742000,
+      "Other": 30047000
+    }
+  }
+]

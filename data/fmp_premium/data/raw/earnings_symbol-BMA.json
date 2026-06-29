@@ -1,0 +1,767 @@
+[
+  {
+    "symbol": "BMA",
+    "date": "2026-05-27",
+    "epsActual": null,
+    "epsEstimated": 1.42,
+    "revenueActual": null,
+    "revenueEstimated": 837754800,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2026-02-25",
+    "epsActual": 1.98,
+    "epsEstimated": 1.38,
+    "revenueActual": 898239500,
+    "revenueEstimated": 758884100,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2025-11-26",
+    "epsActual": -0.39,
+    "epsEstimated": 0.67,
+    "revenueActual": 1011317105,
+    "revenueEstimated": 731777394,
+    "lastUpdated": "2026-02-26"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2025-08-27",
+    "epsActual": 1.95,
+    "epsEstimated": 1.99,
+    "revenueActual": 1136501209,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-11-27"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2025-05-28",
+    "epsActual": 0.65,
+    "epsEstimated": 1.66,
+    "revenueActual": 1070433232,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2025-04-02",
+    "epsActual": 8.89,
+    "epsEstimated": 2.41,
+    "revenueActual": 1454711810,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2024-11-27",
+    "epsActual": 1.51,
+    "epsEstimated": 2.21,
+    "revenueActual": 1145451322,
+    "revenueEstimated": 746974741,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2024-08-22",
+    "epsActual": -4.01,
+    "epsEstimated": 1.49,
+    "revenueActual": 962973037,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2024-05-23",
+    "epsActual": 5.02,
+    "epsEstimated": 2.18,
+    "revenueActual": 2507268825,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2024-05-06",
+    "epsActual": 14.24,
+    "epsEstimated": null,
+    "revenueActual": 4811049562,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2023-11-22",
+    "epsActual": 0.33,
+    "epsEstimated": 1.32,
+    "revenueActual": 886789454,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2023-08-23",
+    "epsActual": 2.69,
+    "epsEstimated": 2.94,
+    "revenueActual": 937116240,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2023-05-17",
+    "epsActual": 1.04,
+    "epsEstimated": 0.78,
+    "revenueActual": 2957395237,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2023-02-23",
+    "epsActual": 1.47,
+    "epsEstimated": 1.24,
+    "revenueActual": 1913062127,
+    "revenueEstimated": 327976871,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2022-11-23",
+    "epsActual": 0.94,
+    "epsEstimated": 0.58,
+    "revenueActual": 1830465541,
+    "revenueEstimated": 287031867,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2022-08-24",
+    "epsActual": 0.52,
+    "epsEstimated": 0.62,
+    "revenueActual": 1302227486,
+    "revenueEstimated": 306059387,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2022-05-23",
+    "epsActual": 0.88,
+    "epsEstimated": 0.57,
+    "revenueActual": 1106358904,
+    "revenueEstimated": 281742822,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2022-04-28",
+    "epsActual": 2.58,
+    "epsEstimated": null,
+    "revenueActual": 795727540,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2021-11-24",
+    "epsActual": 1.16,
+    "epsEstimated": 1.06,
+    "revenueActual": 743686737,
+    "revenueEstimated": 279440000,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2021-08-13",
+    "epsActual": 0.36,
+    "epsEstimated": 0.48,
+    "revenueActual": 635275786,
+    "revenueEstimated": 343193000,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2021-05-27",
+    "epsActual": 0.37,
+    "epsEstimated": 0.65,
+    "revenueActual": 610286287,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2021-04-29",
+    "epsActual": 0.78,
+    "epsEstimated": null,
+    "revenueActual": 524822280,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2020-11-30",
+    "epsActual": 1.3,
+    "epsEstimated": 1.16,
+    "revenueActual": 591356679,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2020-08-31",
+    "epsActual": 1.48,
+    "epsEstimated": 1.91,
+    "revenueActual": 578192757,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2020-03-31",
+    "epsActual": 2.27,
+    "epsEstimated": null,
+    "revenueActual": 626224126,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2020-02-19",
+    "epsActual": 3.47,
+    "epsEstimated": 2.46,
+    "revenueActual": 864009277,
+    "revenueEstimated": 2187313848.1600003,
+    "lastUpdated": "2025-05-05"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2019-11-08",
+    "epsActual": 3.58,
+    "epsEstimated": 2.05,
+    "revenueActual": 3274339600,
+    "revenueEstimated": 1444737994.3500001,
+    "lastUpdated": "2025-05-05"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2019-08-07",
+    "epsActual": 2.59,
+    "epsEstimated": 2.16,
+    "revenueActual": 3274339600,
+    "revenueEstimated": 1097301482.48,
+    "lastUpdated": "2025-05-05"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2019-05-09",
+    "epsActual": 2.65,
+    "epsEstimated": 2.03,
+    "revenueActual": 1247012260,
+    "revenueEstimated": 16259048436,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2019-05-09",
+    "epsActual": 2.65,
+    "epsEstimated": 2.03,
+    "revenueActual": 3274339600,
+    "revenueEstimated": 1138133390.5200002,
+    "lastUpdated": "2025-05-05"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2018-11-27",
+    "epsActual": 1.41,
+    "epsEstimated": 1.77,
+    "revenueActual": 297287264,
+    "revenueEstimated": 16411952050,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2018-08-22",
+    "epsActual": 1.8,
+    "epsEstimated": 2.3,
+    "revenueActual": 340488385,
+    "revenueEstimated": 13775688347,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2018-05-15",
+    "epsActual": 2.64,
+    "epsEstimated": 2.43,
+    "revenueActual": 530135200,
+    "revenueEstimated": 10316033037,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2018-04-09",
+    "epsActual": 2.58,
+    "epsEstimated": null,
+    "revenueActual": 556220088,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2017-11-08",
+    "epsActual": 2.24,
+    "epsEstimated": 2.21,
+    "revenueActual": 541394493,
+    "revenueEstimated": 9381379447,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2017-08-09",
+    "epsActual": 2.05,
+    "epsEstimated": 2.12,
+    "revenueActual": 511605707,
+    "revenueEstimated": 8759397750,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2017-05-10",
+    "epsActual": 1.96,
+    "epsEstimated": 2.02,
+    "revenueActual": 390951949,
+    "revenueEstimated": 6499056792,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2017-03-31",
+    "epsActual": 2.21,
+    "epsEstimated": null,
+    "revenueActual": 496652459,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2016-11-09",
+    "epsActual": 1.83,
+    "epsEstimated": 1.82,
+    "revenueActual": 348858037,
+    "revenueEstimated": 5347882686,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2016-08-09",
+    "epsActual": 2.18,
+    "epsEstimated": 1.73,
+    "revenueActual": 359132247,
+    "revenueEstimated": 4029112231,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2016-05-16",
+    "epsActual": 1.61,
+    "epsEstimated": null,
+    "revenueActual": 300149463,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2016-04-21",
+    "epsActual": 1.68,
+    "epsEstimated": 1.74,
+    "revenueActual": 380896587,
+    "revenueEstimated": 4544334502,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2015-11-10",
+    "epsActual": 2.01,
+    "epsEstimated": 1.82,
+    "revenueActual": 407381049,
+    "revenueEstimated": 3474159609,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2015-08-10",
+    "epsActual": 1.55,
+    "epsEstimated": 1.72,
+    "revenueActual": 349387282,
+    "revenueEstimated": 3507234540,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2015-05-11",
+    "epsActual": 2.16,
+    "epsEstimated": 1.73,
+    "revenueActual": 413787839,
+    "revenueEstimated": 2755165895,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2015-04-28",
+    "epsActual": 1.35,
+    "epsEstimated": null,
+    "revenueActual": 402129045,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2014-11-10",
+    "epsActual": 2.01,
+    "epsEstimated": 1.57,
+    "revenueActual": 359666565,
+    "revenueEstimated": 2194791082,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2014-08-06",
+    "epsActual": 1.54,
+    "epsEstimated": 1.62,
+    "revenueActual": 312356996,
+    "revenueEstimated": 2683028148,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2014-05-08",
+    "epsActual": 2.03,
+    "epsEstimated": 1.68,
+    "revenueActual": 401388443,
+    "revenueEstimated": 2550936041,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2014-04-29",
+    "epsActual": 3.08,
+    "epsEstimated": null,
+    "revenueActual": 476550896,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2013-11-08",
+    "epsActual": 1.69,
+    "epsEstimated": 1.43,
+    "revenueActual": 370343730,
+    "revenueEstimated": 1764327272,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2013-08-08",
+    "epsActual": 1.47,
+    "epsEstimated": 1.44,
+    "revenueActual": 341018190,
+    "revenueEstimated": 1881910354,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2013-05-08",
+    "epsActual": 1.5,
+    "epsEstimated": 1.47,
+    "revenueActual": 336765868,
+    "revenueEstimated": 1613981387,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2013-04-26",
+    "epsActual": 1.64,
+    "epsEstimated": null,
+    "revenueActual": 373756713,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2012-11-07",
+    "epsActual": 1.5,
+    "epsEstimated": 1.26,
+    "revenueActual": 331951853,
+    "revenueEstimated": 1259619047,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2012-08-08",
+    "epsActual": 1.26,
+    "epsEstimated": 1.24,
+    "revenueActual": 329146237,
+    "revenueEstimated": 1462229032,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2012-05-11",
+    "epsActual": 1.26,
+    "epsEstimated": 1.28,
+    "revenueActual": 416494653,
+    "revenueEstimated": 1548877890,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2012-03-31",
+    "epsActual": 1.26,
+    "epsEstimated": null,
+    "revenueActual": 295643735,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2011-11-08",
+    "epsActual": 1.26,
+    "epsEstimated": 1.11,
+    "revenueActual": 321938406,
+    "revenueEstimated": 1172794810,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2011-08-04",
+    "epsActual": 1.08,
+    "epsEstimated": 1.14,
+    "revenueActual": 253042970,
+    "revenueEstimated": 1092210526,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2011-05-05",
+    "epsActual": 1.07,
+    "epsEstimated": 1.1,
+    "revenueActual": 6138752.93,
+    "revenueEstimated": 1123894918,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2011-03-31",
+    "epsActual": 1.06,
+    "epsEstimated": null,
+    "revenueActual": 269940330,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2010-11-04",
+    "epsActual": 1.14,
+    "epsEstimated": 0.96,
+    "revenueActual": 513431341,
+    "revenueEstimated": 1653920937,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2010-08-04",
+    "epsActual": 0.94,
+    "epsEstimated": 0.89,
+    "revenueActual": 187728354,
+    "revenueEstimated": 696916853,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2010-05-07",
+    "epsActual": 1.07,
+    "epsEstimated": 0.84,
+    "revenueActual": 227142774,
+    "revenueEstimated": 1012764845,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2010-03-31",
+    "epsActual": 1.05,
+    "epsEstimated": null,
+    "revenueActual": 250972183,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2009-11-04",
+    "epsActual": 0.84,
+    "epsEstimated": 0.65,
+    "revenueActual": 226489782,
+    "revenueEstimated": 610745538,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2009-08-06",
+    "epsActual": 0.72,
+    "epsEstimated": 0.67,
+    "revenueActual": 237321198,
+    "revenueEstimated": 834146149,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2009-05-11",
+    "epsActual": 0.73,
+    "epsEstimated": 0.76,
+    "revenueActual": 264480888,
+    "revenueEstimated": 802389486,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2009-03-31",
+    "epsActual": 0.709,
+    "epsEstimated": null,
+    "revenueActual": 291943491,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2008-11-03",
+    "epsActual": 0.79,
+    "epsEstimated": 0.69,
+    "revenueActual": 207242318,
+    "revenueEstimated": 555898813,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2008-08-07",
+    "epsActual": 0.75,
+    "epsEstimated": 0.6,
+    "revenueActual": 214164972,
+    "revenueEstimated": 485540906,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2008-06-30",
+    "epsActual": 0.812,
+    "epsEstimated": null,
+    "revenueActual": 230066924,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2008-05-08",
+    "epsActual": 0.7,
+    "epsEstimated": 0.62,
+    "revenueActual": 191409809,
+    "revenueEstimated": 527005895,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2007-11-08",
+    "epsActual": 0.41,
+    "epsEstimated": 0.47,
+    "revenueActual": 128073345,
+    "revenueEstimated": 453678588,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2007-07-13",
+    "epsActual": 0.698,
+    "epsEstimated": null,
+    "revenueActual": 177546800,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2007-06-30",
+    "epsActual": 0.534,
+    "epsEstimated": null,
+    "revenueActual": 142883313,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2007-05-10",
+    "epsActual": 0.58,
+    "epsEstimated": 0.6,
+    "revenueActual": 141987340,
+    "revenueEstimated": 386072730,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2006-09-30",
+    "epsActual": 0.4982,
+    "epsEstimated": null,
+    "revenueActual": 112890493,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2006-06-30",
+    "epsActual": 0.4688,
+    "epsEstimated": null,
+    "revenueActual": 102660564,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2006-06-30",
+    "epsActual": 0.3286,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2006-03-31",
+    "epsActual": 0.4389,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2005-09-30",
+    "epsActual": 0.3696,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2005-06-30",
+    "epsActual": 0.3725,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  },
+  {
+    "symbol": "BMA",
+    "date": "2005-03-31",
+    "epsActual": 0.3709,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-06"
+  }
+]

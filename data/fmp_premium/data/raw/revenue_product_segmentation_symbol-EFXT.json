@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "EFXT",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "CAD",
+    "date": "2025-12-31",
+    "data": {
+      "After Market Services": 494000000,
+      "Energy Infrastructure": 1321000000,
+      "Engineered Systems": 1456000000
+    }
+  },
+  {
+    "symbol": "EFXT",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "CAD",
+    "date": "2024-12-31",
+    "data": {
+      "After Market Services": 508000000,
+      "Energy Infrastructure": 1545000000,
+      "Engineered Systems": 1280000000
+    }
+  },
+  {
+    "symbol": "EFXT",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "CAD",
+    "date": "2022-12-31",
+    "data": {
+      "After-Market Services": 443660000,
+      "Energy Infrastructure": 2869028000,
+      "Engineered Systems": 1505870000
+    }
+  }
+]

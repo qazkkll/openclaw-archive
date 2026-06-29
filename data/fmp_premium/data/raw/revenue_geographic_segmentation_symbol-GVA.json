@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "GVA",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Central": 820685000,
+      "CALIFORNIA": 1220772000,
+      "Mountain": 1400318000
+    }
+  },
+  {
+    "symbol": "GVA",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "CALIFORNIA": 1084937000,
+      "Central": 898310000,
+      "Mountain": 1318009000
+    }
+  },
+  {
+    "symbol": "GVA",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "CALIFORNIA": 1065000000,
+      "Central": 1091718000,
+      "Mountain": 1345147000
+    }
+  }
+]

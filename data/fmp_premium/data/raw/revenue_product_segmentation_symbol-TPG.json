@@ -1,0 +1,59 @@
+[
+  {
+    "symbol": "TPG",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Expense Reimbursements And Other": 288034000,
+      "Incentive Fees": 49287000,
+      "Management fees": 1826411000,
+      "Monitoring Fees": 29012000,
+      "Transaction Fees": 231394000
+    }
+  },
+  {
+    "symbol": "TPG",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Expense Reimbursements And Other": 245830000,
+      "Incentive Fees": 33032000,
+      "Management fees": 1637990000,
+      "Monitoring Fees": 29625000,
+      "Transaction Fees": 140599000
+    }
+  },
+  {
+    "symbol": "TPG",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Expense Reimbursements And Other": 233571000,
+      "Incentive Fees": 2815000,
+      "Management fees": 1187947000,
+      "Monitoring Fees": 10866000,
+      "Transaction Fees": 99427000
+    }
+  },
+  {
+    "symbol": "TPG",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Expense Reimbursements And Other": 209383000,
+      "Fee Credits": -11461000,
+      "Incentive Fees": 5183000,
+      "Management fees": 931291000,
+      "Monitoring Fees": 14330000,
+      "Transaction Fees": 97909000
+    }
+  }
+]

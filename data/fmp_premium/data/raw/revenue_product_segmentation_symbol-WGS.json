@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "WGS",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Diagnostic Test": 416668000,
+      "Diagnostic Test, Institutional Customers": 70072000,
+      "Diagnostic Test, Self Pay": 1361000,
+      "Diagnostic Test, Third Party Insurance": 345235000,
+      "Product and Service, Other": 10871000
+    }
+  },
+  {
+    "symbol": "WGS",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Diagnostic Test": 302157000,
+      "Diagnostic Test, Institutional Customers": 65115000,
+      "Diagnostic Test, Self Pay": 2343000,
+      "Diagnostic Test, Third Party Insurance": 234699000,
+      "Product and Service, Other": 3293000
+    }
+  },
+  {
+    "symbol": "WGS",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Diagnostic Test": 227334000,
+      "Diagnostic Test, Institutional Customers": 46124000,
+      "Diagnostic Test, Self Pay": 7586000,
+      "Diagnostic Test, Third Party Insurance": 173624000,
+      "Product and Service, Other": 7360000
+    }
+  }
+]

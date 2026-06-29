@@ -1,0 +1,51 @@
+[
+  {
+    "symbol": "GCT",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Product": 861712000,
+      "Service": 428185000,
+      "Packaging Service": 34394000,
+      "Service, Other": 21242000
+    }
+  },
+  {
+    "symbol": "GCT",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Product": 810769000,
+      "Service": 350273000,
+      "Packaging service": 29951000,
+      "Service, Other": 19696000
+    }
+  },
+  {
+    "symbol": "GCT",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Product": 504647000,
+      "Service": 199184000,
+      "Packaging service": 17296000,
+      "Service, Other": 20597000
+    }
+  },
+  {
+    "symbol": "GCT",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Service, Other": 16812000
+    }
+  }
+]

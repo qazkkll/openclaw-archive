@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "TIC",
+    "date": "2025-12-31",
+    "stockPrice": 10.11,
+    "numberOfShares": 156600421,
+    "marketCapitalization": 1583230256,
+    "minusCashAndCashEquivalents": 439536000,
+    "addTotalDebt": 1712830000,
+    "enterpriseValue": 2856524256
+  },
+  {
+    "symbol": "TIC",
+    "date": "2024-12-31",
+    "stockPrice": 12,
+    "numberOfShares": 121476215,
+    "marketCapitalization": 1457714580,
+    "minusCashAndCashEquivalents": 139134000,
+    "addTotalDebt": 812579000,
+    "enterpriseValue": 2131159580
+  },
+  {
+    "symbol": "TIC",
+    "date": "2023-12-31",
+    "stockPrice": 12,
+    "numberOfShares": 5024802,
+    "marketCapitalization": 60297624,
+    "minusCashAndCashEquivalents": 87061000,
+    "addTotalDebt": 729995000,
+    "enterpriseValue": 703231624
+  },
+  {
+    "symbol": "TIC",
+    "date": "2022-12-31",
+    "stockPrice": 12,
+    "numberOfShares": 5026061,
+    "marketCapitalization": 60312732,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 60312732
+  }
+]

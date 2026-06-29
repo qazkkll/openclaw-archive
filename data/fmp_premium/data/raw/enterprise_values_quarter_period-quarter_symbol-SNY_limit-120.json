@@ -1,0 +1,962 @@
+[
+  {
+    "symbol": "SNY",
+    "date": "2026-03-31",
+    "stockPrice": 41.68,
+    "numberOfShares": 2408400000,
+    "marketCapitalization": 100383359551,
+    "minusCashAndCashEquivalents": 5544000000,
+    "addTotalDebt": 20021000000,
+    "enterpriseValue": 114860359551
+  },
+  {
+    "symbol": "SNY",
+    "date": "2025-12-31",
+    "stockPrice": 41.24,
+    "numberOfShares": 2440800000,
+    "marketCapitalization": 100669102084,
+    "minusCashAndCashEquivalents": 7657000000,
+    "addTotalDebt": 20329000000,
+    "enterpriseValue": 113341102084
+  },
+  {
+    "symbol": "SNY",
+    "date": "2025-09-30",
+    "stockPrice": 40.21,
+    "numberOfShares": 2436200000,
+    "marketCapitalization": 97970321280,
+    "minusCashAndCashEquivalents": 8906000000,
+    "addTotalDebt": 21755000000,
+    "enterpriseValue": 110819321280
+  },
+  {
+    "symbol": "SNY",
+    "date": "2025-06-30",
+    "stockPrice": 40.99,
+    "numberOfShares": 2467800000,
+    "marketCapitalization": 101157676173,
+    "minusCashAndCashEquivalents": 15359000000,
+    "addTotalDebt": 22285000000,
+    "enterpriseValue": 108083676173
+  },
+  {
+    "symbol": "SNY",
+    "date": "2025-03-31",
+    "stockPrice": 51.25,
+    "numberOfShares": 2467800000,
+    "marketCapitalization": 126476196130,
+    "minusCashAndCashEquivalents": 7991000000,
+    "addTotalDebt": 21047000000,
+    "enterpriseValue": 139532196130
+  },
+  {
+    "symbol": "SNY",
+    "date": "2024-12-31",
+    "stockPrice": 46.58,
+    "numberOfShares": 2507200000,
+    "marketCapitalization": 116774622619,
+    "minusCashAndCashEquivalents": 7441000000,
+    "addTotalDebt": 17906000000,
+    "enterpriseValue": 127239622619
+  },
+  {
+    "symbol": "SNY",
+    "date": "2024-09-30",
+    "stockPrice": 51.75,
+    "numberOfShares": 2506000000,
+    "marketCapitalization": 129675418362,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 129675418362
+  },
+  {
+    "symbol": "SNY",
+    "date": "2024-06-30",
+    "stockPrice": 46.21,
+    "numberOfShares": 2501800000,
+    "marketCapitalization": 115603079331,
+    "minusCashAndCashEquivalents": 6795000000,
+    "addTotalDebt": 24030000000,
+    "enterpriseValue": 132838079331
+  },
+  {
+    "symbol": "SNY",
+    "date": "2024-03-31",
+    "stockPrice": 44.93,
+    "numberOfShares": 2497600000,
+    "marketCapitalization": 112226771272,
+    "minusCashAndCashEquivalents": -8710000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 120936771272
+  },
+  {
+    "symbol": "SNY",
+    "date": "2023-12-31",
+    "stockPrice": 45.24,
+    "numberOfShares": 2507200000,
+    "marketCapitalization": 113413192000,
+    "minusCashAndCashEquivalents": 8710000000,
+    "addTotalDebt": 18697000000,
+    "enterpriseValue": 123400192000
+  },
+  {
+    "symbol": "SNY",
+    "date": "2023-09-30",
+    "stockPrice": 50.72,
+    "numberOfShares": 2506400000,
+    "marketCapitalization": 127116136368,
+    "minusCashAndCashEquivalents": -7993000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 135109136368
+  },
+  {
+    "symbol": "SNY",
+    "date": "2023-06-30",
+    "stockPrice": 49.4,
+    "numberOfShares": 2501200000,
+    "marketCapitalization": 123557654220,
+    "minusCashAndCashEquivalents": 7993000000,
+    "addTotalDebt": 21027000000,
+    "enterpriseValue": 136591654220
+  },
+  {
+    "symbol": "SNY",
+    "date": "2023-03-31",
+    "stockPrice": 50.18,
+    "numberOfShares": 2498600000,
+    "marketCapitalization": 125367854664,
+    "minusCashAndCashEquivalents": -12736000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 138103854664
+  },
+  {
+    "symbol": "SNY",
+    "date": "2022-12-31",
+    "stockPrice": 45.23,
+    "numberOfShares": 2508000000,
+    "marketCapitalization": 113433772716,
+    "minusCashAndCashEquivalents": 12736000000,
+    "addTotalDebt": 21212000000,
+    "enterpriseValue": 121909772716
+  },
+  {
+    "symbol": "SNY",
+    "date": "2022-09-30",
+    "stockPrice": 38.8,
+    "numberOfShares": 2507000000,
+    "marketCapitalization": 97270120870,
+    "minusCashAndCashEquivalents": -6899000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 104169120870
+  },
+  {
+    "symbol": "SNY",
+    "date": "2022-06-30",
+    "stockPrice": 47.73,
+    "numberOfShares": 2501600000,
+    "marketCapitalization": 119410431296,
+    "minusCashAndCashEquivalents": 6899000000,
+    "addTotalDebt": 21237000000,
+    "enterpriseValue": 133748431296
+  },
+  {
+    "symbol": "SNY",
+    "date": "2022-03-31",
+    "stockPrice": 46.38,
+    "numberOfShares": 2498400000,
+    "marketCapitalization": 115864354324,
+    "minusCashAndCashEquivalents": -10109000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 125973354324
+  },
+  {
+    "symbol": "SNY",
+    "date": "2021-12-31",
+    "stockPrice": 44.06,
+    "numberOfShares": 2509800000,
+    "marketCapitalization": 110576617812,
+    "minusCashAndCashEquivalents": 10098000000,
+    "addTotalDebt": 22414000000,
+    "enterpriseValue": 122892617812
+  },
+  {
+    "symbol": "SNY",
+    "date": "2021-09-30",
+    "stockPrice": 41.63,
+    "numberOfShares": 2509000000,
+    "marketCapitalization": 104460097404,
+    "minusCashAndCashEquivalents": -9722000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 114182097404
+  },
+  {
+    "symbol": "SNY",
+    "date": "2021-06-30",
+    "stockPrice": 44.39,
+    "numberOfShares": 2503800000,
+    "marketCapitalization": 111136456033,
+    "minusCashAndCashEquivalents": 9722000000,
+    "addTotalDebt": 21649000000,
+    "enterpriseValue": 123063456033
+  },
+  {
+    "symbol": "SNY",
+    "date": "2021-03-31",
+    "stockPrice": 42.16,
+    "numberOfShares": 2498600000,
+    "marketCapitalization": 105340236414,
+    "minusCashAndCashEquivalents": -13915000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 119255236414
+  },
+  {
+    "symbol": "SNY",
+    "date": "2020-12-31",
+    "stockPrice": 39.76,
+    "numberOfShares": 2507200000,
+    "marketCapitalization": 99677090633,
+    "minusCashAndCashEquivalents": 13915000000,
+    "addTotalDebt": 23675000000,
+    "enterpriseValue": 109437090633
+  },
+  {
+    "symbol": "SNY",
+    "date": "2020-09-30",
+    "stockPrice": 42.78,
+    "numberOfShares": 2511400690,
+    "marketCapitalization": 107437618550,
+    "minusCashAndCashEquivalents": -15969000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 123406618550
+  },
+  {
+    "symbol": "SNY",
+    "date": "2020-06-30",
+    "stockPrice": 45.44,
+    "numberOfShares": 2507000346,
+    "marketCapitalization": 113929903693,
+    "minusCashAndCashEquivalents": 15969000000,
+    "addTotalDebt": 24928000000,
+    "enterpriseValue": 122888903693
+  },
+  {
+    "symbol": "SNY",
+    "date": "2020-03-31",
+    "stockPrice": 39.65,
+    "numberOfShares": 2502600000,
+    "marketCapitalization": 99216317769,
+    "minusCashAndCashEquivalents": -9431000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 108647317769
+  },
+  {
+    "symbol": "SNY",
+    "date": "2019-12-31",
+    "stockPrice": 44.76,
+    "numberOfShares": 2507654000,
+    "marketCapitalization": 112250968604,
+    "minusCashAndCashEquivalents": 9742000000,
+    "addTotalDebt": 25933000000,
+    "enterpriseValue": 128441968604
+  },
+  {
+    "symbol": "SNY",
+    "date": "2019-09-30",
+    "stockPrice": 42.5,
+    "numberOfShares": 2504400000,
+    "marketCapitalization": 106444868824,
+    "minusCashAndCashEquivalents": -6742000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 113186868824
+  },
+  {
+    "symbol": "SNY",
+    "date": "2019-06-30",
+    "stockPrice": 38.59,
+    "numberOfShares": 2498000000,
+    "marketCapitalization": 96386808816,
+    "minusCashAndCashEquivalents": 6742000000,
+    "addTotalDebt": 26696000000,
+    "enterpriseValue": 116340808816
+  },
+  {
+    "symbol": "SNY",
+    "date": "2019-03-31",
+    "stockPrice": 39.53,
+    "numberOfShares": 2491600000,
+    "marketCapitalization": 98501220111,
+    "minusCashAndCashEquivalents": -6955000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 105456220111
+  },
+  {
+    "symbol": "SNY",
+    "date": "2018-12-31",
+    "stockPrice": 37.85,
+    "numberOfShares": 2491200000,
+    "marketCapitalization": 94300689023,
+    "minusCashAndCashEquivalents": 6925000000,
+    "addTotalDebt": 24640000000,
+    "enterpriseValue": 112015689023
+  },
+  {
+    "symbol": "SNY",
+    "date": "2018-09-30",
+    "stockPrice": 38.85,
+    "numberOfShares": 2494200000,
+    "marketCapitalization": 96907152599,
+    "minusCashAndCashEquivalents": -7493000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 104400152599
+  },
+  {
+    "symbol": "SNY",
+    "date": "2018-06-30",
+    "stockPrice": 34.22,
+    "numberOfShares": 2495300000,
+    "marketCapitalization": 85400529596,
+    "minusCashAndCashEquivalents": 7493000000,
+    "addTotalDebt": 28941000000,
+    "enterpriseValue": 106848529596
+  },
+  {
+    "symbol": "SNY",
+    "date": "2018-03-31",
+    "stockPrice": 32.02,
+    "numberOfShares": 2496400000,
+    "marketCapitalization": 79929894969,
+    "minusCashAndCashEquivalents": 12799000000,
+    "addTotalDebt": 27002000000,
+    "enterpriseValue": 94132894969
+  },
+  {
+    "symbol": "SNY",
+    "date": "2017-12-31",
+    "stockPrice": 35.82,
+    "numberOfShares": 2505800000,
+    "marketCapitalization": 89755250199,
+    "minusCashAndCashEquivalents": 8464000000,
+    "addTotalDebt": 15601000000,
+    "enterpriseValue": 96892250199
+  },
+  {
+    "symbol": "SNY",
+    "date": "2017-09-30",
+    "stockPrice": 42.13,
+    "numberOfShares": 2508600000,
+    "marketCapitalization": 105680592443,
+    "minusCashAndCashEquivalents": -10877000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 116557592443
+  },
+  {
+    "symbol": "SNY",
+    "date": "2017-06-30",
+    "stockPrice": 41.9,
+    "numberOfShares": 2516400000,
+    "marketCapitalization": 105442409210,
+    "minusCashAndCashEquivalents": 10877000000,
+    "addTotalDebt": 18427000000,
+    "enterpriseValue": 112992409210
+  },
+  {
+    "symbol": "SNY",
+    "date": "2017-03-31",
+    "stockPrice": 42.41,
+    "numberOfShares": 2524800000,
+    "marketCapitalization": 107083900560,
+    "minusCashAndCashEquivalents": -10307000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 117390900560
+  },
+  {
+    "symbol": "SNY",
+    "date": "2016-12-31",
+    "stockPrice": 38.4,
+    "numberOfShares": 2565800000,
+    "marketCapitalization": 98531400019,
+    "minusCashAndCashEquivalents": 10273000000,
+    "addTotalDebt": 18579000000,
+    "enterpriseValue": 106837400019
+  },
+  {
+    "symbol": "SNY",
+    "date": "2016-09-30",
+    "stockPrice": 33.96,
+    "numberOfShares": 2577000000,
+    "marketCapitalization": 87521019759,
+    "minusCashAndCashEquivalents": -6206000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 93727019759
+  },
+  {
+    "symbol": "SNY",
+    "date": "2016-06-30",
+    "stockPrice": 37.68,
+    "numberOfShares": 2573600000,
+    "marketCapitalization": 96977726064,
+    "minusCashAndCashEquivalents": 6076000000,
+    "addTotalDebt": 17277000000,
+    "enterpriseValue": 108178726064
+  },
+  {
+    "symbol": "SNY",
+    "date": "2016-03-31",
+    "stockPrice": 35.27,
+    "numberOfShares": 2576800000,
+    "marketCapitalization": 90890250150,
+    "minusCashAndCashEquivalents": -9200000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 100090250150
+  },
+  {
+    "symbol": "SNY",
+    "date": "2015-12-31",
+    "stockPrice": 39.27,
+    "numberOfShares": 2609800000,
+    "marketCapitalization": 102492378775,
+    "minusCashAndCashEquivalents": 9148000000,
+    "addTotalDebt": 16554000000,
+    "enterpriseValue": 109898378775
+  },
+  {
+    "symbol": "SNY",
+    "date": "2015-09-30",
+    "stockPrice": 42.48,
+    "numberOfShares": 2611000000,
+    "marketCapitalization": 110905243316,
+    "minusCashAndCashEquivalents": -4927000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 115832243316
+  },
+  {
+    "symbol": "SNY",
+    "date": "2015-06-30",
+    "stockPrice": 44.43,
+    "numberOfShares": 2611800000,
+    "marketCapitalization": 116051057483,
+    "minusCashAndCashEquivalents": 4701000000,
+    "addTotalDebt": 14732000000,
+    "enterpriseValue": 126082057483
+  },
+  {
+    "symbol": "SNY",
+    "date": "2015-03-31",
+    "stockPrice": 46.02,
+    "numberOfShares": 2616800000,
+    "marketCapitalization": 120421870233,
+    "minusCashAndCashEquivalents": -7448000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 127869870233
+  },
+  {
+    "symbol": "SNY",
+    "date": "2014-12-31",
+    "stockPrice": 37.69,
+    "numberOfShares": 2631600000,
+    "marketCapitalization": 99178538158,
+    "minusCashAndCashEquivalents": 7341000000,
+    "addTotalDebt": 14814000000,
+    "enterpriseValue": 106651538158
+  },
+  {
+    "symbol": "SNY",
+    "date": "2014-09-30",
+    "stockPrice": 44.66,
+    "numberOfShares": 2626000000,
+    "marketCapitalization": 117288569970,
+    "minusCashAndCashEquivalents": -4374000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 121662569970
+  },
+  {
+    "symbol": "SNY",
+    "date": "2014-06-30",
+    "stockPrice": 38.81,
+    "numberOfShares": 2629000000,
+    "marketCapitalization": 102042268900,
+    "minusCashAndCashEquivalents": 4306000000,
+    "addTotalDebt": 14796000000,
+    "enterpriseValue": 112532268900
+  },
+  {
+    "symbol": "SNY",
+    "date": "2014-03-31",
+    "stockPrice": 37.94,
+    "numberOfShares": 2639800000,
+    "marketCapitalization": 100152945520,
+    "minusCashAndCashEquivalents": -8340000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 108492945520
+  },
+  {
+    "symbol": "SNY",
+    "date": "2013-12-31",
+    "stockPrice": 38.99,
+    "numberOfShares": 2642200000,
+    "marketCapitalization": 103016762222,
+    "minusCashAndCashEquivalents": 8257000000,
+    "addTotalDebt": 14590000000,
+    "enterpriseValue": 109349762222
+  },
+  {
+    "symbol": "SNY",
+    "date": "2013-09-30",
+    "stockPrice": 37.43,
+    "numberOfShares": 2647000000,
+    "marketCapitalization": 99079219073,
+    "minusCashAndCashEquivalents": -4263000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 103342219073
+  },
+  {
+    "symbol": "SNY",
+    "date": "2013-06-30",
+    "stockPrice": 39.53,
+    "numberOfShares": 2651400000,
+    "marketCapitalization": 104796759992,
+    "minusCashAndCashEquivalents": 4181000000,
+    "addTotalDebt": 14660000000,
+    "enterpriseValue": 115275759992
+  },
+  {
+    "symbol": "SNY",
+    "date": "2013-03-31",
+    "stockPrice": 39.79,
+    "numberOfShares": 2644400000,
+    "marketCapitalization": 105233009481,
+    "minusCashAndCashEquivalents": -6477000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 111710009481
+  },
+  {
+    "symbol": "SNY",
+    "date": "2012-12-31",
+    "stockPrice": 35.9,
+    "numberOfShares": 2641800000,
+    "marketCapitalization": 94852677175,
+    "minusCashAndCashEquivalents": 6381000000,
+    "addTotalDebt": 14531000000,
+    "enterpriseValue": 103002677175
+  },
+  {
+    "symbol": "SNY",
+    "date": "2012-09-30",
+    "stockPrice": 34.11,
+    "numberOfShares": 2636800000,
+    "marketCapitalization": 89934732467,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 89934732467
+  },
+  {
+    "symbol": "SNY",
+    "date": "2012-06-30",
+    "stockPrice": 29.81,
+    "numberOfShares": 2634800000,
+    "marketCapitalization": 78549179290,
+    "minusCashAndCashEquivalents": 4307000000,
+    "addTotalDebt": 16182000000,
+    "enterpriseValue": 90424179290
+  },
+  {
+    "symbol": "SNY",
+    "date": "2012-03-31",
+    "stockPrice": 29.04,
+    "numberOfShares": 2642400000,
+    "marketCapitalization": 76733314200,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 76733314200
+  },
+  {
+    "symbol": "SNY",
+    "date": "2011-12-31",
+    "stockPrice": 28.2,
+    "numberOfShares": 2661100000,
+    "marketCapitalization": 75037479589,
+    "minusCashAndCashEquivalents": 4124000000,
+    "addTotalDebt": 15439000000,
+    "enterpriseValue": 86352479589
+  },
+  {
+    "symbol": "SNY",
+    "date": "2011-09-30",
+    "stockPrice": 24.5,
+    "numberOfShares": 2678800000,
+    "marketCapitalization": 65617313152,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 65617313152
+  },
+  {
+    "symbol": "SNY",
+    "date": "2011-06-30",
+    "stockPrice": 27.71,
+    "numberOfShares": 2644600000,
+    "marketCapitalization": 73269301505,
+    "minusCashAndCashEquivalents": 6538000000,
+    "addTotalDebt": 20042000000,
+    "enterpriseValue": 86773301505
+  },
+  {
+    "symbol": "SNY",
+    "date": "2011-03-31",
+    "stockPrice": 24.84,
+    "numberOfShares": 2610400000,
+    "marketCapitalization": 64853268355,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 64853268355
+  },
+  {
+    "symbol": "SNY",
+    "date": "2010-12-31",
+    "stockPrice": 24.07,
+    "numberOfShares": 2613430082,
+    "marketCapitalization": 62903599932,
+    "minusCashAndCashEquivalents": 6465000000,
+    "addTotalDebt": 8260000000,
+    "enterpriseValue": 64698599932
+  },
+  {
+    "symbol": "SNY",
+    "date": "2010-09-30",
+    "stockPrice": 24.39,
+    "numberOfShares": 2616260162,
+    "marketCapitalization": 63798942993,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 63798942993
+  },
+  {
+    "symbol": "SNY",
+    "date": "2010-06-30",
+    "stockPrice": 24.57,
+    "numberOfShares": 2615430082,
+    "marketCapitalization": 64255985640,
+    "minusCashAndCashEquivalents": 3221000000,
+    "addTotalDebt": 9567000000,
+    "enterpriseValue": 70601985640
+  },
+  {
+    "symbol": "SNY",
+    "date": "2010-03-31",
+    "stockPrice": 27.64,
+    "numberOfShares": 2614600000,
+    "marketCapitalization": 72274509294,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 72274509294
+  },
+  {
+    "symbol": "SNY",
+    "date": "2009-12-31",
+    "stockPrice": 27.4,
+    "numberOfShares": 2613752000,
+    "marketCapitalization": 71623616237,
+    "minusCashAndCashEquivalents": 4692000000,
+    "addTotalDebt": 8827000000,
+    "enterpriseValue": 75758616237
+  },
+  {
+    "symbol": "SNY",
+    "date": "2009-09-30",
+    "stockPrice": 25.24,
+    "numberOfShares": 2611400000,
+    "marketCapitalization": 65913159213,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 65913159213
+  },
+  {
+    "symbol": "SNY",
+    "date": "2009-06-30",
+    "stockPrice": 21.01,
+    "numberOfShares": 2611200000,
+    "marketCapitalization": 54865555200,
+    "minusCashAndCashEquivalents": 6214000000,
+    "addTotalDebt": 9919000000,
+    "enterpriseValue": 58570555200
+  },
+  {
+    "symbol": "SNY",
+    "date": "2009-03-31",
+    "stockPrice": 21.07,
+    "numberOfShares": 2611000000,
+    "marketCapitalization": 55014793511,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 55014793511
+  },
+  {
+    "symbol": "SNY",
+    "date": "2008-12-31",
+    "stockPrice": 23.03,
+    "numberOfShares": 2614100000,
+    "marketCapitalization": 60202137441,
+    "minusCashAndCashEquivalents": 4226000000,
+    "addTotalDebt": 6006000000,
+    "enterpriseValue": 61982137441
+  },
+  {
+    "symbol": "SNY",
+    "date": "2008-09-30",
+    "stockPrice": 23.28,
+    "numberOfShares": 2609600000,
+    "marketCapitalization": 60739084571,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 60739084571
+  },
+  {
+    "symbol": "SNY",
+    "date": "2008-06-30",
+    "stockPrice": 21.08,
+    "numberOfShares": 2627400000,
+    "marketCapitalization": 55388513668,
+    "minusCashAndCashEquivalents": 946820500,
+    "addTotalDebt": 6544499550,
+    "enterpriseValue": 60986192718
+  },
+  {
+    "symbol": "SNY",
+    "date": "2008-03-31",
+    "stockPrice": 23.8,
+    "numberOfShares": 2641600000,
+    "marketCapitalization": 62871030976,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 62871030976
+  },
+  {
+    "symbol": "SNY",
+    "date": "2007-12-31",
+    "stockPrice": 31.19,
+    "numberOfShares": 2667700000,
+    "marketCapitalization": 83212507023,
+    "minusCashAndCashEquivalents": 1711000000,
+    "addTotalDebt": 5941000000,
+    "enterpriseValue": 87442507023
+  },
+  {
+    "symbol": "SNY",
+    "date": "2007-09-30",
+    "stockPrice": 29.83,
+    "numberOfShares": 2678027822,
+    "marketCapitalization": 79876681555,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 79876681555
+  },
+  {
+    "symbol": "SNY",
+    "date": "2007-06-30",
+    "stockPrice": 29.71,
+    "numberOfShares": 2703000000,
+    "marketCapitalization": 80309389818,
+    "minusCashAndCashEquivalents": 1083036820,
+    "addTotalDebt": 6661489090,
+    "enterpriseValue": 85887842088
+  },
+  {
+    "symbol": "SNY",
+    "date": "2007-03-31",
+    "stockPrice": 32.56,
+    "numberOfShares": 2703000000,
+    "marketCapitalization": 88017475451,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 88017475451
+  },
+  {
+    "symbol": "SNY",
+    "date": "2006-12-31",
+    "stockPrice": 34.98,
+    "numberOfShares": 2698300000,
+    "marketCapitalization": 94394653184,
+    "minusCashAndCashEquivalents": 1153204180,
+    "addTotalDebt": 6944228850,
+    "enterpriseValue": 100185677854
+  },
+  {
+    "symbol": "SNY",
+    "date": "2006-09-30",
+    "stockPrice": 35.08,
+    "numberOfShares": 2708391676,
+    "marketCapitalization": 95004789873,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 95004789873
+  },
+  {
+    "symbol": "SNY",
+    "date": "2006-06-30",
+    "stockPrice": 38.04,
+    "numberOfShares": 2690400000,
+    "marketCapitalization": 102341659128,
+    "minusCashAndCashEquivalents": 1160595800,
+    "addTotalDebt": 9953106800,
+    "enterpriseValue": 111134170128
+  },
+  {
+    "symbol": "SNY",
+    "date": "2006-03-31",
+    "stockPrice": 39.16,
+    "numberOfShares": 2688800000,
+    "marketCapitalization": 105281953712,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 105281953712
+  },
+  {
+    "symbol": "SNY",
+    "date": "2005-12-31",
+    "stockPrice": 37.04,
+    "numberOfShares": 2680900000,
+    "marketCapitalization": 99308096138,
+    "minusCashAndCashEquivalents": 1247890180,
+    "addTotalDebt": 11166844060,
+    "enterpriseValue": 109227050018
+  },
+  {
+    "symbol": "SNY",
+    "date": "2005-09-30",
+    "stockPrice": 34.49,
+    "numberOfShares": 2674112564,
+    "marketCapitalization": 92243004813,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 92243004813
+  },
+  {
+    "symbol": "SNY",
+    "date": "2005-06-30",
+    "stockPrice": 33.86,
+    "numberOfShares": 2670283104,
+    "marketCapitalization": 90420696552,
+    "minusCashAndCashEquivalents": 2259744480,
+    "addTotalDebt": 15013755540,
+    "enterpriseValue": 103174707612
+  },
+  {
+    "symbol": "SNY",
+    "date": "2005-03-31",
+    "stockPrice": 32.66,
+    "numberOfShares": 2669100378,
+    "marketCapitalization": 87164389326,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 87164389326
+  },
+  {
+    "symbol": "SNY",
+    "date": "2004-12-31",
+    "stockPrice": 29.55,
+    "numberOfShares": 1606571508,
+    "marketCapitalization": 47472404767,
+    "minusCashAndCashEquivalents": 1838298560,
+    "addTotalDebt": 16030524080,
+    "enterpriseValue": 61664630287
+  },
+  {
+    "symbol": "SNY",
+    "date": "2004-09-30",
+    "stockPrice": 29.44,
+    "numberOfShares": 1392543016,
+    "marketCapitalization": 40993821951,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 40993821951
+  },
+  {
+    "symbol": "SNY",
+    "date": "2004-06-30",
+    "stockPrice": 26.22,
+    "numberOfShares": 1366113964,
+    "marketCapitalization": 35818147486,
+    "minusCashAndCashEquivalents": 133633920,
+    "addTotalDebt": 323016960,
+    "enterpriseValue": 36007530526
+  },
+  {
+    "symbol": "SNY",
+    "date": "2004-03-31",
+    "stockPrice": 26.53,
+    "numberOfShares": 1465696144,
+    "marketCapitalization": 38882045935,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 38882045935
+  },
+  {
+    "symbol": "SNY",
+    "date": "2003-12-31",
+    "stockPrice": 29.98,
+    "numberOfShares": 1435593280,
+    "marketCapitalization": 43044929399,
+    "minusCashAndCashEquivalents": 151659730,
+    "addTotalDebt": 367635890,
+    "enterpriseValue": 43260905559
+  },
+  {
+    "symbol": "SNY",
+    "date": "2003-09-30",
+    "stockPrice": 25.92,
+    "numberOfShares": 1412177112,
+    "marketCapitalization": 36603198616,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 36603198616
+  },
+  {
+    "symbol": "SNY",
+    "date": "2003-06-30",
+    "stockPrice": 25.33,
+    "numberOfShares": 1413028140,
+    "marketCapitalization": 35798029351,
+    "minusCashAndCashEquivalents": 107769640,
+    "addTotalDebt": 306795830,
+    "enterpriseValue": 35997055541
+  },
+  {
+    "symbol": "SNY",
+    "date": "2003-03-31",
+    "stockPrice": 23.4,
+    "numberOfShares": 1408221108,
+    "marketCapitalization": 32946931152,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 32946931152
+  },
+  {
+    "symbol": "SNY",
+    "date": "2002-12-31",
+    "stockPrice": 28.97,
+    "numberOfShares": 1431796926,
+    "marketCapitalization": 41476522439,
+    "minusCashAndCashEquivalents": 143898470,
+    "addTotalDebt": 416447890,
+    "enterpriseValue": 41749071859
+  },
+  {
+    "symbol": "SNY",
+    "date": "2002-09-30",
+    "stockPrice": 28.88,
+    "numberOfShares": 1440760570,
+    "marketCapitalization": 41616008874,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 41616008874
+  },
+  {
+    "symbol": "SNY",
+    "date": "2002-06-30",
+    "stockPrice": 30.03,
+    "numberOfShares": 1463525994,
+    "marketCapitalization": 43948220610,
+    "minusCashAndCashEquivalents": 192260600,
+    "addTotalDebt": 451963400,
+    "enterpriseValue": 44207923410
+  }
+]

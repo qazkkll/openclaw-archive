@@ -1,0 +1,776 @@
+[
+  {
+    "symbol": "ENSG",
+    "date": "2026-07-23",
+    "epsActual": null,
+    "epsEstimated": 1.8,
+    "revenueActual": null,
+    "revenueEstimated": 1441288000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2026-04-30",
+    "epsActual": 1.85,
+    "epsEstimated": 1.79,
+    "revenueActual": 1389196000,
+    "revenueEstimated": 1396033000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2026-02-04",
+    "epsActual": 1.82,
+    "epsEstimated": 1.75,
+    "revenueActual": 1360626000,
+    "revenueEstimated": 1367783000,
+    "lastUpdated": "2026-05-04"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2025-11-03",
+    "epsActual": 1.64,
+    "epsEstimated": 1.59,
+    "revenueActual": 1296405000,
+    "revenueEstimated": 1367782560,
+    "lastUpdated": "2026-02-03"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2025-07-24",
+    "epsActual": 1.59,
+    "epsEstimated": 1.55,
+    "revenueActual": 1227769000,
+    "revenueEstimated": 1219816166,
+    "lastUpdated": "2025-10-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2025-04-29",
+    "epsActual": 1.52,
+    "epsEstimated": 1.49,
+    "revenueActual": 1173041000,
+    "revenueEstimated": 1172299906,
+    "lastUpdated": "2025-07-28"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2025-02-05",
+    "epsActual": 1.49,
+    "epsEstimated": 1.47,
+    "revenueActual": 1132252000,
+    "revenueEstimated": 1129263000,
+    "lastUpdated": "2025-05-04"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2024-10-24",
+    "epsActual": 1.39,
+    "epsEstimated": 1.38,
+    "revenueActual": 1081776000,
+    "revenueEstimated": 1070492199,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2024-07-25",
+    "epsActual": 1.32,
+    "epsEstimated": 1.3,
+    "revenueActual": 1036285000,
+    "revenueEstimated": 1020554200,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2024-05-01",
+    "epsActual": 1.3,
+    "epsEstimated": 1.29,
+    "revenueActual": 982908000,
+    "revenueEstimated": 1003880000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2024-02-01",
+    "epsActual": 1.28,
+    "epsEstimated": 1.27,
+    "revenueActual": 980378000,
+    "revenueEstimated": 975720000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2023-10-25",
+    "epsActual": 1.2,
+    "epsEstimated": 1.19,
+    "revenueActual": 940791000,
+    "revenueEstimated": 938730000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2023-07-27",
+    "epsActual": 1.16,
+    "epsEstimated": 1.14,
+    "revenueActual": 921345000,
+    "revenueEstimated": 917460000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2023-04-26",
+    "epsActual": 1.13,
+    "epsEstimated": 1.1,
+    "revenueActual": 886841000,
+    "revenueEstimated": 912970000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2023-02-02",
+    "epsActual": 1.1,
+    "epsEstimated": 1.1,
+    "revenueActual": 809532000,
+    "revenueEstimated": 802306000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2022-10-26",
+    "epsActual": 1.04,
+    "epsEstimated": 1.03,
+    "revenueActual": 770005000,
+    "revenueEstimated": 751246800,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2022-08-01",
+    "epsActual": 1.01,
+    "epsEstimated": 1,
+    "revenueActual": 732486000,
+    "revenueEstimated": 729444000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2022-04-28",
+    "epsActual": 0.99,
+    "epsEstimated": 0.98,
+    "revenueActual": 713445000,
+    "revenueEstimated": 704359800,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2022-02-09",
+    "epsActual": 0.97,
+    "epsEstimated": 0.96,
+    "revenueActual": 693142000,
+    "revenueEstimated": 698334200,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2021-10-27",
+    "epsActual": 0.91,
+    "epsEstimated": 0.9,
+    "revenueActual": 668530000,
+    "revenueEstimated": 666630000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2021-07-28",
+    "epsActual": 0.89,
+    "epsEstimated": 0.88,
+    "revenueActual": 638536000,
+    "revenueEstimated": 666630000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2021-04-29",
+    "epsActual": 0.87,
+    "epsEstimated": 0.84,
+    "revenueActual": 627253000,
+    "revenueEstimated": 632830000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2021-02-03",
+    "epsActual": 0.8,
+    "epsEstimated": 0.78,
+    "revenueActual": 629029000,
+    "revenueEstimated": 642660000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2020-10-28",
+    "epsActual": 0.78,
+    "epsEstimated": 0.73,
+    "revenueActual": 599255000,
+    "revenueEstimated": 560841217,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2020-08-05",
+    "epsActual": 0.78,
+    "epsEstimated": 0.54,
+    "revenueActual": 584699000,
+    "revenueEstimated": 404791615,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2020-05-11",
+    "epsActual": 0.77,
+    "epsEstimated": 0.62,
+    "revenueActual": 589613000,
+    "revenueEstimated": 474753324,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2020-02-05",
+    "epsActual": 0.6,
+    "epsEstimated": 0.55,
+    "revenueActual": 560191000,
+    "revenueEstimated": 285222666,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2019-10-30",
+    "epsActual": 0.55,
+    "epsEstimated": 0.55,
+    "revenueActual": 600507000,
+    "revenueEstimated": 600507000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2019-08-01",
+    "epsActual": 0.54,
+    "epsEstimated": 0.53,
+    "revenueActual": 575651000,
+    "revenueEstimated": 483787925,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2019-05-06",
+    "epsActual": 0.55,
+    "epsEstimated": 0.53,
+    "revenueActual": 549214000,
+    "revenueEstimated": 454169527,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2019-02-06",
+    "epsActual": 0.54,
+    "epsEstimated": 0.51,
+    "revenueActual": 544849000,
+    "revenueEstimated": 237732722,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2018-10-31",
+    "epsActual": 0.46,
+    "epsEstimated": 0.45,
+    "revenueActual": 514364000,
+    "revenueEstimated": 503217391,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2018-08-02",
+    "epsActual": 0.44,
+    "epsEstimated": 0.43,
+    "revenueActual": 496386000,
+    "revenueEstimated": 485118181,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2018-05-02",
+    "epsActual": 0.45,
+    "epsEstimated": 0.45,
+    "revenueActual": 492134000,
+    "revenueEstimated": 492100000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2018-02-08",
+    "epsActual": 0.4,
+    "epsEstimated": 0.39,
+    "revenueActual": 487705000,
+    "revenueEstimated": 487700000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2017-11-08",
+    "epsActual": 0.36,
+    "epsEstimated": 0.38,
+    "revenueActual": 471594000,
+    "revenueEstimated": 497800000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2017-08-03",
+    "epsActual": 0.31,
+    "epsEstimated": 0.36,
+    "revenueActual": 448279000,
+    "revenueEstimated": 520606451,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2017-05-01",
+    "epsActual": 0.34,
+    "epsEstimated": 0.34,
+    "revenueActual": 441739000,
+    "revenueEstimated": 428708823,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2017-02-08",
+    "epsActual": 0.3,
+    "epsEstimated": 0.37,
+    "revenueActual": 433048000,
+    "revenueEstimated": 534033333,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2016-11-02",
+    "epsActual": 0.32,
+    "epsEstimated": 0.34,
+    "revenueActual": 428065000,
+    "revenueEstimated": 454856250,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2016-08-01",
+    "epsActual": 0.33,
+    "epsEstimated": 0.33,
+    "revenueActual": 410517000,
+    "revenueEstimated": 410500000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2016-05-10",
+    "epsActual": 0.34,
+    "epsEstimated": 0.34,
+    "revenueActual": 383234000,
+    "revenueEstimated": 383200000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2016-02-10",
+    "epsActual": 0.35,
+    "epsEstimated": 0.36,
+    "revenueActual": 373155000,
+    "revenueEstimated": 383862857,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2015-11-03",
+    "epsActual": 0.3,
+    "epsEstimated": 0.3,
+    "revenueActual": 351086000,
+    "revenueEstimated": 351100000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2015-08-04",
+    "epsActual": 0.3,
+    "epsEstimated": 0.28,
+    "revenueActual": 311056000,
+    "revenueEstimated": 290360000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2015-05-06",
+    "epsActual": 0.32,
+    "epsEstimated": 0.29,
+    "revenueActual": 306529000,
+    "revenueEstimated": 277765624,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2015-02-09",
+    "epsActual": 0.28,
+    "epsEstimated": 0.28,
+    "revenueActual": 276869000,
+    "revenueEstimated": 276900000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2014-11-05",
+    "epsActual": 0.22,
+    "epsEstimated": 0.24,
+    "revenueActual": 260841000,
+    "revenueEstimated": 284509090,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2014-08-07",
+    "epsActual": 0.27,
+    "epsEstimated": 0.31,
+    "revenueActual": 250043000,
+    "revenueEstimated": 259259259,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2014-05-08",
+    "epsActual": 0.33,
+    "epsEstimated": 0.33,
+    "revenueActual": 239653000,
+    "revenueEstimated": 239700000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2014-02-13",
+    "epsActual": 0.35,
+    "epsEstimated": 0.36,
+    "revenueActual": 237008000,
+    "revenueEstimated": 243771428,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2013-11-07",
+    "epsActual": 0.28,
+    "epsEstimated": 0.34,
+    "revenueActual": 229261000,
+    "revenueEstimated": 278435714,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2013-08-07",
+    "epsActual": 0.31,
+    "epsEstimated": 0.34,
+    "revenueActual": 220086000,
+    "revenueEstimated": 241400000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2013-05-01",
+    "epsActual": 0.33,
+    "epsEstimated": 0.35,
+    "revenueActual": 218201000,
+    "revenueEstimated": 224812121,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2013-02-13",
+    "epsActual": 0.31,
+    "epsEstimated": 0.33,
+    "revenueActual": 211101000,
+    "revenueEstimated": 217290322,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2012-11-07",
+    "epsActual": 0.31,
+    "epsEstimated": 0.3,
+    "revenueActual": 207150000,
+    "revenueEstimated": 200032258,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2012-08-01",
+    "epsActual": 0.34,
+    "epsEstimated": 0.3,
+    "revenueActual": 204308000,
+    "revenueEstimated": 179911764,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2012-05-02",
+    "epsActual": 0.31,
+    "epsEstimated": 0.28,
+    "revenueActual": 202160000,
+    "revenueEstimated": 182451612,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2012-02-15",
+    "epsActual": 0.24,
+    "epsEstimated": 0.23,
+    "revenueActual": 192662000,
+    "revenueEstimated": 184670833,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2011-11-02",
+    "epsActual": 0.31,
+    "epsEstimated": 0.31,
+    "revenueActual": 196346000,
+    "revenueEstimated": 196300000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2011-08-03",
+    "epsActual": 0.31,
+    "epsEstimated": 0.29,
+    "revenueActual": 186326000,
+    "revenueEstimated": 174280645,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2011-05-04",
+    "epsActual": 0.3,
+    "epsEstimated": 0.27,
+    "revenueActual": 182943000,
+    "revenueEstimated": 164610000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2011-02-16",
+    "epsActual": 0.28,
+    "epsEstimated": 0.23,
+    "revenueActual": 172757000,
+    "revenueEstimated": 141942857,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2010-10-28",
+    "epsActual": 0.24,
+    "epsEstimated": 0.22,
+    "revenueActual": 164653000,
+    "revenueEstimated": 150975000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2010-08-06",
+    "epsActual": 0.23,
+    "epsEstimated": 0.22,
+    "revenueActual": 157948000,
+    "revenueEstimated": 151034782,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2010-05-05",
+    "epsActual": 0.23,
+    "epsEstimated": 0.21,
+    "revenueActual": 154174000,
+    "revenueEstimated": 140791304,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2010-02-17",
+    "epsActual": 0.22,
+    "epsEstimated": 0.22,
+    "revenueActual": 146615000,
+    "revenueEstimated": 146600000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2009-11-02",
+    "epsActual": 0.19,
+    "epsEstimated": 0.19,
+    "revenueActual": 132924000,
+    "revenueEstimated": 132900000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2009-08-06",
+    "epsActual": 0.2,
+    "epsEstimated": 0.2,
+    "revenueActual": 132178000,
+    "revenueEstimated": 132200000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2009-05-06",
+    "epsActual": 0.19,
+    "epsEstimated": 0.19,
+    "revenueActual": 130285000,
+    "revenueEstimated": 130300000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2009-02-18",
+    "epsActual": 0.19,
+    "epsEstimated": 0.19,
+    "revenueActual": 123947000,
+    "revenueEstimated": 123900000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2008-10-30",
+    "epsActual": 0.17,
+    "epsEstimated": 0.17,
+    "revenueActual": 116328000,
+    "revenueEstimated": 116300000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2008-08-06",
+    "epsActual": 0.16,
+    "epsEstimated": 0.16,
+    "revenueActual": 115318000,
+    "revenueEstimated": 115300000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2008-05-07",
+    "epsActual": 0.16,
+    "epsEstimated": 0.14,
+    "revenueActual": 113779000,
+    "revenueEstimated": 99575000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2008-03-06",
+    "epsActual": 0.16,
+    "epsEstimated": 0.14,
+    "revenueActual": 104092000,
+    "revenueEstimated": 95375000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2008-03-06",
+    "epsActual": 0.1519,
+    "epsEstimated": null,
+    "revenueActual": 108979000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2007-06-30",
+    "epsActual": 0.1686,
+    "epsEstimated": null,
+    "revenueActual": 100269000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2007-03-31",
+    "epsActual": 0.1224,
+    "epsEstimated": null,
+    "revenueActual": 97978000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2006-12-31",
+    "epsActual": 0.2109,
+    "epsEstimated": null,
+    "revenueActual": 89643000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2006-09-30",
+    "epsActual": 0.1675,
+    "epsEstimated": null,
+    "revenueActual": 89644000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2006-06-30",
+    "epsActual": 0.1675,
+    "epsEstimated": null,
+    "revenueActual": 89644000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2006-03-31",
+    "epsActual": 0.1675,
+    "epsEstimated": null,
+    "revenueActual": 89644000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2005-12-31",
+    "epsActual": 0.1707,
+    "epsEstimated": null,
+    "revenueActual": 75212000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2005-09-30",
+    "epsActual": 0.1313,
+    "epsEstimated": null,
+    "revenueActual": 75213000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2005-06-30",
+    "epsActual": 0.1313,
+    "epsEstimated": null,
+    "revenueActual": 75213000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "ENSG",
+    "date": "2005-03-31",
+    "epsActual": 0.1313,
+    "epsEstimated": null,
+    "revenueActual": 75213000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  }
+]

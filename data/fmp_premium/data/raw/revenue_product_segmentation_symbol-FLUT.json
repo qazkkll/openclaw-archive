@@ -1,0 +1,25 @@
+[
+  {
+    "symbol": "FLUT",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-12-31",
+    "data": {
+      "International Segment": 9416000000,
+      "United States Segment": 6967000000
+    }
+  },
+  {
+    "symbol": "FLUT",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Sports Book": 7829000000,
+      "iGaming": 5654000000,
+      "Other": 565000000
+    }
+  }
+]

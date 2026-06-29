@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "AER",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-12-31",
+    "data": {
+      "CHINA": 639316000,
+      "IRELAND": 184916000,
+      "Other Countries": 3184174000,
+      "UNITED STATES": 528687000
+    }
+  },
+  {
+    "symbol": "AER",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-12-31",
+    "data": {
+      "CHINA": 648343000,
+      "IRELAND": 120500000,
+      "Other Countries": 3375960000,
+      "UNITED STATES": 568999000
+    }
+  },
+  {
+    "symbol": "AER",
+    "fiscalYear": 2014,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2014-12-31",
+    "data": {
+      "N": 60800000
+    }
+  }
+]

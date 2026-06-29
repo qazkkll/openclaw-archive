@@ -1,0 +1,932 @@
+[
+  {
+    "symbol": "SNX",
+    "date": "2026-02-28",
+    "stockPrice": 156.81,
+    "numberOfShares": 79955000,
+    "marketCapitalization": 12537743550,
+    "minusCashAndCashEquivalents": 1562557000,
+    "addTotalDebt": 1128634000,
+    "enterpriseValue": 12103820550
+  },
+  {
+    "symbol": "SNX",
+    "date": "2025-11-30",
+    "stockPrice": 151.69,
+    "numberOfShares": 80632000,
+    "marketCapitalization": 12231068080,
+    "minusCashAndCashEquivalents": 2435389000,
+    "addTotalDebt": 4610451000,
+    "enterpriseValue": 14406130080
+  },
+  {
+    "symbol": "SNX",
+    "date": "2025-08-31",
+    "stockPrice": 148.07,
+    "numberOfShares": 82593000,
+    "marketCapitalization": 12229545510,
+    "minusCashAndCashEquivalents": 874350000,
+    "addTotalDebt": 4238842000,
+    "enterpriseValue": 15594037510
+  },
+  {
+    "symbol": "SNX",
+    "date": "2025-05-31",
+    "stockPrice": 121.34,
+    "numberOfShares": 83115000,
+    "marketCapitalization": 10085174100,
+    "minusCashAndCashEquivalents": 767099000,
+    "addTotalDebt": 4105705000,
+    "enterpriseValue": 13423780100
+  },
+  {
+    "symbol": "SNX",
+    "date": "2025-02-28",
+    "stockPrice": 137.49,
+    "numberOfShares": 83615000,
+    "marketCapitalization": 11496226350,
+    "minusCashAndCashEquivalents": 541863000,
+    "addTotalDebt": 4327965000,
+    "enterpriseValue": 15282328350
+  },
+  {
+    "symbol": "SNX",
+    "date": "2024-11-30",
+    "stockPrice": 118.99,
+    "numberOfShares": 84154000,
+    "marketCapitalization": 10013484460,
+    "minusCashAndCashEquivalents": 1059378000,
+    "addTotalDebt": 3907491000,
+    "enterpriseValue": 12861597460
+  },
+  {
+    "symbol": "SNX",
+    "date": "2024-08-31",
+    "stockPrice": 121.42,
+    "numberOfShares": 84510000,
+    "marketCapitalization": 10261204200,
+    "minusCashAndCashEquivalents": 853923000,
+    "addTotalDebt": 4050202000,
+    "enterpriseValue": 13457483200
+  },
+  {
+    "symbol": "SNX",
+    "date": "2024-05-31",
+    "stockPrice": 130.84,
+    "numberOfShares": 85453000,
+    "marketCapitalization": 11180670520,
+    "minusCashAndCashEquivalents": 1173648000,
+    "addTotalDebt": 4595698000,
+    "enterpriseValue": 14602720520
+  },
+  {
+    "symbol": "SNX",
+    "date": "2024-02-29",
+    "stockPrice": 103.9,
+    "numberOfShares": 87891000,
+    "marketCapitalization": 9131874900,
+    "minusCashAndCashEquivalents": 1030946000,
+    "addTotalDebt": 4009106000,
+    "enterpriseValue": 12110034900
+  },
+  {
+    "symbol": "SNX",
+    "date": "2023-11-30",
+    "stockPrice": 98.64,
+    "numberOfShares": 90077000,
+    "marketCapitalization": 8885195280,
+    "minusCashAndCashEquivalents": 1033776000,
+    "addTotalDebt": 4082778000,
+    "enterpriseValue": 11934197280
+  },
+  {
+    "symbol": "SNX",
+    "date": "2023-08-31",
+    "stockPrice": 101.75,
+    "numberOfShares": 92590000,
+    "marketCapitalization": 9421032500,
+    "minusCashAndCashEquivalents": 1250872000,
+    "addTotalDebt": 4079182000,
+    "enterpriseValue": 12249342500
+  },
+  {
+    "symbol": "SNX",
+    "date": "2023-05-31",
+    "stockPrice": 89.38,
+    "numberOfShares": 93385000,
+    "marketCapitalization": 8346751300,
+    "minusCashAndCashEquivalents": 852079000,
+    "addTotalDebt": 4105112000,
+    "enterpriseValue": 11599784300
+  },
+  {
+    "symbol": "SNX",
+    "date": "2023-02-28",
+    "stockPrice": 96.52,
+    "numberOfShares": 94259000,
+    "marketCapitalization": 9097878680,
+    "minusCashAndCashEquivalents": 539285000,
+    "addTotalDebt": 4388723000,
+    "enterpriseValue": 12947316680
+  },
+  {
+    "symbol": "SNX",
+    "date": "2022-11-30",
+    "stockPrice": 102.3,
+    "numberOfShares": 95100000,
+    "marketCapitalization": 9728730000,
+    "minusCashAndCashEquivalents": 522604000,
+    "addTotalDebt": 4103793000,
+    "enterpriseValue": 13309919000
+  },
+  {
+    "symbol": "SNX",
+    "date": "2022-08-31",
+    "stockPrice": 96.28,
+    "numberOfShares": 95115000,
+    "marketCapitalization": 9157672200,
+    "minusCashAndCashEquivalents": 350810000,
+    "addTotalDebt": 4134437000,
+    "enterpriseValue": 12941299200
+  },
+  {
+    "symbol": "SNX",
+    "date": "2022-05-31",
+    "stockPrice": 103.85,
+    "numberOfShares": 95469000,
+    "marketCapitalization": 9914455650,
+    "minusCashAndCashEquivalents": 521514000,
+    "addTotalDebt": 4111202000,
+    "enterpriseValue": 13504143650
+  },
+  {
+    "symbol": "SNX",
+    "date": "2022-02-28",
+    "stockPrice": 101.83,
+    "numberOfShares": 95584000,
+    "marketCapitalization": 9733318720,
+    "minusCashAndCashEquivalents": 510207000,
+    "addTotalDebt": 5046620000,
+    "enterpriseValue": 14269731720
+  },
+  {
+    "symbol": "SNX",
+    "date": "2021-11-30",
+    "stockPrice": 103.46,
+    "numberOfShares": 56757000,
+    "marketCapitalization": 5872079220,
+    "minusCashAndCashEquivalents": 993973000,
+    "addTotalDebt": 4136432000,
+    "enterpriseValue": 9014538220
+  },
+  {
+    "symbol": "SNX",
+    "date": "2021-08-31",
+    "stockPrice": 127.07,
+    "numberOfShares": 51275000,
+    "marketCapitalization": 6515514250,
+    "minusCashAndCashEquivalents": 4050364000,
+    "addTotalDebt": 4025186000,
+    "enterpriseValue": 6490336250
+  },
+  {
+    "symbol": "SNX",
+    "date": "2021-05-31",
+    "stockPrice": 126.85,
+    "numberOfShares": 51192000,
+    "marketCapitalization": 6493705200,
+    "minusCashAndCashEquivalents": 1656874000,
+    "addTotalDebt": 1563358000,
+    "enterpriseValue": 6400189200
+  },
+  {
+    "symbol": "SNX",
+    "date": "2021-02-28",
+    "stockPrice": 94.5,
+    "numberOfShares": 51145000,
+    "marketCapitalization": 4833202500,
+    "minusCashAndCashEquivalents": 1443748000,
+    "addTotalDebt": 1632774000,
+    "enterpriseValue": 5022228500
+  },
+  {
+    "symbol": "SNX",
+    "date": "2020-11-30",
+    "stockPrice": 80.31,
+    "numberOfShares": 51048000,
+    "marketCapitalization": 4099664880,
+    "minusCashAndCashEquivalents": 1412016000,
+    "addTotalDebt": 1621658000,
+    "enterpriseValue": 4309306880
+  },
+  {
+    "symbol": "SNX",
+    "date": "2020-08-31",
+    "stockPrice": 63.7,
+    "numberOfShares": 50890000,
+    "marketCapitalization": 3241693000,
+    "minusCashAndCashEquivalents": 1452273000,
+    "addTotalDebt": 3032646000,
+    "enterpriseValue": 4822066000
+  },
+  {
+    "symbol": "SNX",
+    "date": "2020-05-31",
+    "stockPrice": 54.91,
+    "numberOfShares": 50849000,
+    "marketCapitalization": 2792118590,
+    "minusCashAndCashEquivalents": 1112556000,
+    "addTotalDebt": 2982603000,
+    "enterpriseValue": 4662165590
+  },
+  {
+    "symbol": "SNX",
+    "date": "2020-02-29",
+    "stockPrice": 62.64,
+    "numberOfShares": 50815000,
+    "marketCapitalization": 3183051600,
+    "minusCashAndCashEquivalents": 296193000,
+    "addTotalDebt": 3105751000,
+    "enterpriseValue": 5992609600
+  },
+  {
+    "symbol": "SNX",
+    "date": "2019-11-30",
+    "stockPrice": 61.52,
+    "numberOfShares": 50693000,
+    "marketCapitalization": 3118633360,
+    "minusCashAndCashEquivalents": 225529000,
+    "addTotalDebt": 3017236000,
+    "enterpriseValue": 5910340360
+  },
+  {
+    "symbol": "SNX",
+    "date": "2019-08-31",
+    "stockPrice": 41.99,
+    "numberOfShares": 50601000,
+    "marketCapitalization": 2124735990,
+    "minusCashAndCashEquivalents": 262279000,
+    "addTotalDebt": 3328739000,
+    "enterpriseValue": 5191195990
+  },
+  {
+    "symbol": "SNX",
+    "date": "2019-05-31",
+    "stockPrice": 43.44,
+    "numberOfShares": 50675000,
+    "marketCapitalization": 2201322000,
+    "minusCashAndCashEquivalents": 271491000,
+    "addTotalDebt": 3521611000,
+    "enterpriseValue": 5451442000
+  },
+  {
+    "symbol": "SNX",
+    "date": "2019-02-28",
+    "stockPrice": 49.15,
+    "numberOfShares": 50706000,
+    "marketCapitalization": 2492199900,
+    "minusCashAndCashEquivalents": 249301000,
+    "addTotalDebt": 3528699000,
+    "enterpriseValue": 5771597900
+  },
+  {
+    "symbol": "SNX",
+    "date": "2018-11-30",
+    "stockPrice": 40.45,
+    "numberOfShares": 46429000,
+    "marketCapitalization": 1878053050,
+    "minusCashAndCashEquivalents": 454694000,
+    "addTotalDebt": 3455998000,
+    "enterpriseValue": 4879357050
+  },
+  {
+    "symbol": "SNX",
+    "date": "2018-08-31",
+    "stockPrice": 48.58,
+    "numberOfShares": 39254000,
+    "marketCapitalization": 1906959320,
+    "minusCashAndCashEquivalents": 203988000,
+    "addTotalDebt": 1822927000,
+    "enterpriseValue": 3525898320
+  },
+  {
+    "symbol": "SNX",
+    "date": "2018-05-31",
+    "stockPrice": 53.51,
+    "numberOfShares": 39505000,
+    "marketCapitalization": 2113912550,
+    "minusCashAndCashEquivalents": 354176000,
+    "addTotalDebt": 1811742000,
+    "enterpriseValue": 3571478550
+  },
+  {
+    "symbol": "SNX",
+    "date": "2018-02-28",
+    "stockPrice": 61.94,
+    "numberOfShares": 39695000,
+    "marketCapitalization": 2458708300,
+    "minusCashAndCashEquivalents": 372344000,
+    "addTotalDebt": 1815766000,
+    "enterpriseValue": 3902130300
+  },
+  {
+    "symbol": "SNX",
+    "date": "2017-11-30",
+    "stockPrice": 68.23,
+    "numberOfShares": 39635000,
+    "marketCapitalization": 2704296050,
+    "minusCashAndCashEquivalents": 550688000,
+    "addTotalDebt": 1941560000,
+    "enterpriseValue": 4095168050
+  },
+  {
+    "symbol": "SNX",
+    "date": "2017-08-31",
+    "stockPrice": 59.92,
+    "numberOfShares": 39563000,
+    "marketCapitalization": 2370614960,
+    "minusCashAndCashEquivalents": 243265000,
+    "addTotalDebt": 1053989000,
+    "enterpriseValue": 3181338960
+  },
+  {
+    "symbol": "SNX",
+    "date": "2017-05-31",
+    "stockPrice": 55.74,
+    "numberOfShares": 39533000,
+    "marketCapitalization": 2203569420,
+    "minusCashAndCashEquivalents": 305566000,
+    "addTotalDebt": 1089749000,
+    "enterpriseValue": 2987752420
+  },
+  {
+    "symbol": "SNX",
+    "date": "2017-02-28",
+    "stockPrice": 58.57,
+    "numberOfShares": 39494000,
+    "marketCapitalization": 2313163580,
+    "minusCashAndCashEquivalents": 210147000,
+    "addTotalDebt": 1009251000,
+    "enterpriseValue": 3112267580
+  },
+  {
+    "symbol": "SNX",
+    "date": "2016-11-30",
+    "stockPrice": 58.57,
+    "numberOfShares": 39429000,
+    "marketCapitalization": 2309356530,
+    "minusCashAndCashEquivalents": 380717000,
+    "addTotalDebt": 963984000,
+    "enterpriseValue": 2892623530
+  },
+  {
+    "symbol": "SNX",
+    "date": "2016-08-31",
+    "stockPrice": 53.19,
+    "numberOfShares": 39346000,
+    "marketCapitalization": 2092813740,
+    "minusCashAndCashEquivalents": 223282000,
+    "addTotalDebt": 808422000,
+    "enterpriseValue": 2677953740
+  },
+  {
+    "symbol": "SNX",
+    "date": "2016-05-31",
+    "stockPrice": 45.64,
+    "numberOfShares": 39283000,
+    "marketCapitalization": 1792876120,
+    "minusCashAndCashEquivalents": 589006000,
+    "addTotalDebt": 715971000,
+    "enterpriseValue": 1919841120
+  },
+  {
+    "symbol": "SNX",
+    "date": "2016-02-29",
+    "stockPrice": 47.11,
+    "numberOfShares": 39224000,
+    "marketCapitalization": 1847842640,
+    "minusCashAndCashEquivalents": 447627000,
+    "addTotalDebt": 704743000,
+    "enterpriseValue": 2104958640
+  },
+  {
+    "symbol": "SNX",
+    "date": "2015-11-30",
+    "stockPrice": 47.23,
+    "numberOfShares": 39134000,
+    "marketCapitalization": 1848298819,
+    "minusCashAndCashEquivalents": 336072000,
+    "addTotalDebt": 730891000,
+    "enterpriseValue": 2243117819
+  },
+  {
+    "symbol": "SNX",
+    "date": "2015-08-31",
+    "stockPrice": 39.67,
+    "numberOfShares": 39082000,
+    "marketCapitalization": 1550382940,
+    "minusCashAndCashEquivalents": 308076000,
+    "addTotalDebt": 737511000,
+    "enterpriseValue": 1979817940
+  },
+  {
+    "symbol": "SNX",
+    "date": "2015-05-31",
+    "stockPrice": 41.76,
+    "numberOfShares": 39054000,
+    "marketCapitalization": 1630895040,
+    "minusCashAndCashEquivalents": 215505000,
+    "addTotalDebt": 735728000,
+    "enterpriseValue": 2151118040
+  },
+  {
+    "symbol": "SNX",
+    "date": "2015-02-28",
+    "stockPrice": 38.2,
+    "numberOfShares": 38968000,
+    "marketCapitalization": 1488577600,
+    "minusCashAndCashEquivalents": 169771000,
+    "addTotalDebt": 839897000,
+    "enterpriseValue": 2158703600
+  },
+  {
+    "symbol": "SNX",
+    "date": "2014-11-30",
+    "stockPrice": 35.61,
+    "numberOfShares": 38874000,
+    "marketCapitalization": 1384303140,
+    "minusCashAndCashEquivalents": 180143000,
+    "addTotalDebt": 980503000,
+    "enterpriseValue": 2184663140
+  },
+  {
+    "symbol": "SNX",
+    "date": "2014-08-31",
+    "stockPrice": 34.94,
+    "numberOfShares": 38749000,
+    "marketCapitalization": 1353890060,
+    "minusCashAndCashEquivalents": 127664000,
+    "addTotalDebt": 1000802000,
+    "enterpriseValue": 2227028060
+  },
+  {
+    "symbol": "SNX",
+    "date": "2014-05-31",
+    "stockPrice": 33.12,
+    "numberOfShares": 38663000,
+    "marketCapitalization": 1280518560,
+    "minusCashAndCashEquivalents": 204595000,
+    "addTotalDebt": 976349000,
+    "enterpriseValue": 2052272560
+  },
+  {
+    "symbol": "SNX",
+    "date": "2014-02-28",
+    "stockPrice": 29.8,
+    "numberOfShares": 37656000,
+    "marketCapitalization": 1122148800,
+    "minusCashAndCashEquivalents": 148403000,
+    "addTotalDebt": 762707000,
+    "enterpriseValue": 1736452800
+  },
+  {
+    "symbol": "SNX",
+    "date": "2013-11-30",
+    "stockPrice": 33.14,
+    "numberOfShares": 37139000,
+    "marketCapitalization": 1230786460,
+    "minusCashAndCashEquivalents": 151622000,
+    "addTotalDebt": 317928000,
+    "enterpriseValue": 1397092460
+  },
+  {
+    "symbol": "SNX",
+    "date": "2013-08-31",
+    "stockPrice": 23.8,
+    "numberOfShares": 36965000,
+    "marketCapitalization": 879767000,
+    "minusCashAndCashEquivalents": 139363000,
+    "addTotalDebt": 233304000,
+    "enterpriseValue": 973708000
+  },
+  {
+    "symbol": "SNX",
+    "date": "2013-05-31",
+    "stockPrice": 20.31,
+    "numberOfShares": 36783000,
+    "marketCapitalization": 747062730,
+    "minusCashAndCashEquivalents": 216386000,
+    "addTotalDebt": 296746000,
+    "enterpriseValue": 827422730
+  },
+  {
+    "symbol": "SNX",
+    "date": "2013-02-28",
+    "stockPrice": 19.1,
+    "numberOfShares": 36663000,
+    "marketCapitalization": 700263300,
+    "minusCashAndCashEquivalents": 232074000,
+    "addTotalDebt": 297725000,
+    "enterpriseValue": 765914300
+  },
+  {
+    "symbol": "SNX",
+    "date": "2012-11-30",
+    "stockPrice": 16.54,
+    "numberOfShares": 36726000,
+    "marketCapitalization": 607448040,
+    "minusCashAndCashEquivalents": 163699000,
+    "addTotalDebt": 275286000,
+    "enterpriseValue": 719035040
+  },
+  {
+    "symbol": "SNX",
+    "date": "2012-08-31",
+    "stockPrice": 17.3,
+    "numberOfShares": 36700000,
+    "marketCapitalization": 634910000,
+    "minusCashAndCashEquivalents": 172992000,
+    "addTotalDebt": 300583000,
+    "enterpriseValue": 762501000
+  },
+  {
+    "symbol": "SNX",
+    "date": "2012-05-31",
+    "stockPrice": 16.71,
+    "numberOfShares": 36607000,
+    "marketCapitalization": 611702970,
+    "minusCashAndCashEquivalents": 97214000,
+    "addTotalDebt": 290704000,
+    "enterpriseValue": 805192970
+  },
+  {
+    "symbol": "SNX",
+    "date": "2012-02-29",
+    "stockPrice": 20.65,
+    "numberOfShares": 36303000,
+    "marketCapitalization": 749656950,
+    "minusCashAndCashEquivalents": 68756000,
+    "addTotalDebt": 364439000,
+    "enterpriseValue": 1045339950
+  },
+  {
+    "symbol": "SNX",
+    "date": "2011-11-30",
+    "stockPrice": 14.7,
+    "numberOfShares": 36142000,
+    "marketCapitalization": 531287400,
+    "minusCashAndCashEquivalents": 67571000,
+    "addTotalDebt": 383022000,
+    "enterpriseValue": 846738400
+  },
+  {
+    "symbol": "SNX",
+    "date": "2011-08-31",
+    "stockPrice": 13.2,
+    "numberOfShares": 35882000,
+    "marketCapitalization": 473642400,
+    "minusCashAndCashEquivalents": 86276000,
+    "addTotalDebt": 510792000,
+    "enterpriseValue": 898158400
+  },
+  {
+    "symbol": "SNX",
+    "date": "2011-05-31",
+    "stockPrice": 16.4,
+    "numberOfShares": 35693000,
+    "marketCapitalization": 585365200,
+    "minusCashAndCashEquivalents": 95135000,
+    "addTotalDebt": 475093000,
+    "enterpriseValue": 965323200
+  },
+  {
+    "symbol": "SNX",
+    "date": "2011-02-28",
+    "stockPrice": 17.67,
+    "numberOfShares": 35600000,
+    "marketCapitalization": 629052000,
+    "minusCashAndCashEquivalents": 101171000,
+    "addTotalDebt": 576482000,
+    "enterpriseValue": 1104363000
+  },
+  {
+    "symbol": "SNX",
+    "date": "2010-11-30",
+    "stockPrice": 14.36,
+    "numberOfShares": 35346000,
+    "marketCapitalization": 507568560,
+    "minusCashAndCashEquivalents": 88038000,
+    "addTotalDebt": 435737000,
+    "enterpriseValue": 855267560
+  },
+  {
+    "symbol": "SNX",
+    "date": "2010-08-31",
+    "stockPrice": 11.55,
+    "numberOfShares": 35083000,
+    "marketCapitalization": 405208650,
+    "minusCashAndCashEquivalents": 68063000,
+    "addTotalDebt": 355098000,
+    "enterpriseValue": 692243650
+  },
+  {
+    "symbol": "SNX",
+    "date": "2010-05-31",
+    "stockPrice": 12.91,
+    "numberOfShares": 34624000,
+    "marketCapitalization": 446995840,
+    "minusCashAndCashEquivalents": 58605000,
+    "addTotalDebt": 338124000,
+    "enterpriseValue": 726514840
+  },
+  {
+    "symbol": "SNX",
+    "date": "2010-02-28",
+    "stockPrice": 14.69,
+    "numberOfShares": 33880000,
+    "marketCapitalization": 497697200,
+    "minusCashAndCashEquivalents": 38054000,
+    "addTotalDebt": 313859000,
+    "enterpriseValue": 773502200
+  },
+  {
+    "symbol": "SNX",
+    "date": "2009-11-30",
+    "stockPrice": 14.18,
+    "numberOfShares": 33410000,
+    "marketCapitalization": 473753800,
+    "minusCashAndCashEquivalents": 37816000,
+    "addTotalDebt": 325962000,
+    "enterpriseValue": 761899800
+  },
+  {
+    "symbol": "SNX",
+    "date": "2009-08-31",
+    "stockPrice": 14.85,
+    "numberOfShares": 32296000,
+    "marketCapitalization": 479595600,
+    "minusCashAndCashEquivalents": 70180000,
+    "addTotalDebt": 367248000,
+    "enterpriseValue": 776663600
+  },
+  {
+    "symbol": "SNX",
+    "date": "2009-05-31",
+    "stockPrice": 13.81,
+    "numberOfShares": 32475000,
+    "marketCapitalization": 448479750,
+    "minusCashAndCashEquivalents": 74988000,
+    "addTotalDebt": 332442000,
+    "enterpriseValue": 705933750
+  },
+  {
+    "symbol": "SNX",
+    "date": "2009-02-28",
+    "stockPrice": 7.42,
+    "numberOfShares": 32113000,
+    "marketCapitalization": 238278460,
+    "minusCashAndCashEquivalents": 60017000,
+    "addTotalDebt": 302206000,
+    "enterpriseValue": 480467460
+  },
+  {
+    "symbol": "SNX",
+    "date": "2008-11-30",
+    "stockPrice": 4.83,
+    "numberOfShares": 31889000,
+    "marketCapitalization": 154023870,
+    "minusCashAndCashEquivalents": 61081000,
+    "addTotalDebt": 492753000,
+    "enterpriseValue": 585695870
+  },
+  {
+    "symbol": "SNX",
+    "date": "2008-08-31",
+    "stockPrice": 11.52,
+    "numberOfShares": 31665000,
+    "marketCapitalization": 364780800,
+    "minusCashAndCashEquivalents": 59773000,
+    "addTotalDebt": 478683000,
+    "enterpriseValue": 783690800
+  },
+  {
+    "symbol": "SNX",
+    "date": "2008-05-31",
+    "stockPrice": 12.45,
+    "numberOfShares": 31543000,
+    "marketCapitalization": 392710350,
+    "minusCashAndCashEquivalents": 50967000,
+    "addTotalDebt": 498941000,
+    "enterpriseValue": 840684350
+  },
+  {
+    "symbol": "SNX",
+    "date": "2008-02-29",
+    "stockPrice": 10.43,
+    "numberOfShares": 31377000,
+    "marketCapitalization": 327262110,
+    "minusCashAndCashEquivalents": 43554000,
+    "addTotalDebt": 336705000,
+    "enterpriseValue": 620413110
+  },
+  {
+    "symbol": "SNX",
+    "date": "2007-11-30",
+    "stockPrice": 10.35,
+    "numberOfShares": 31260000,
+    "marketCapitalization": 323541000,
+    "minusCashAndCashEquivalents": 42875000,
+    "addTotalDebt": 388679000,
+    "enterpriseValue": 669345000
+  },
+  {
+    "symbol": "SNX",
+    "date": "2007-08-31",
+    "stockPrice": 9.98,
+    "numberOfShares": 31076000,
+    "marketCapitalization": 310138480,
+    "minusCashAndCashEquivalents": 44142000,
+    "addTotalDebt": 299318000,
+    "enterpriseValue": 565314480
+  },
+  {
+    "symbol": "SNX",
+    "date": "2007-05-31",
+    "stockPrice": 10.26,
+    "numberOfShares": 30896000,
+    "marketCapitalization": 316992960,
+    "minusCashAndCashEquivalents": 37814000,
+    "addTotalDebt": 295193000,
+    "enterpriseValue": 574371960
+  },
+  {
+    "symbol": "SNX",
+    "date": "2007-02-28",
+    "stockPrice": 9.47,
+    "numberOfShares": 30548000,
+    "marketCapitalization": 289289560,
+    "minusCashAndCashEquivalents": 22473000,
+    "addTotalDebt": 285688000,
+    "enterpriseValue": 552504560
+  },
+  {
+    "symbol": "SNX",
+    "date": "2006-11-30",
+    "stockPrice": 11.38,
+    "numberOfShares": 30357000,
+    "marketCapitalization": 345462660,
+    "minusCashAndCashEquivalents": 27881000,
+    "addTotalDebt": 98801000,
+    "enterpriseValue": 416382660
+  },
+  {
+    "symbol": "SNX",
+    "date": "2006-08-31",
+    "stockPrice": 11.14,
+    "numberOfShares": 29879000,
+    "marketCapitalization": 332852060,
+    "minusCashAndCashEquivalents": 21253000,
+    "addTotalDebt": 68616000,
+    "enterpriseValue": 380215060
+  },
+  {
+    "symbol": "SNX",
+    "date": "2006-05-31",
+    "stockPrice": 8.99,
+    "numberOfShares": 29499000,
+    "marketCapitalization": 265196010,
+    "minusCashAndCashEquivalents": 18969000,
+    "addTotalDebt": 21865000,
+    "enterpriseValue": 268092010
+  },
+  {
+    "symbol": "SNX",
+    "date": "2006-02-28",
+    "stockPrice": 9.25,
+    "numberOfShares": 29055000,
+    "marketCapitalization": 268758750,
+    "minusCashAndCashEquivalents": 11146000,
+    "addTotalDebt": 31842000,
+    "enterpriseValue": 289454750
+  },
+  {
+    "symbol": "SNX",
+    "date": "2005-11-30",
+    "stockPrice": 7.84,
+    "numberOfShares": 28899000,
+    "marketCapitalization": 226568160,
+    "minusCashAndCashEquivalents": 13636000,
+    "addTotalDebt": 29701000,
+    "enterpriseValue": 242633160
+  },
+  {
+    "symbol": "SNX",
+    "date": "2005-08-31",
+    "stockPrice": 8.31,
+    "numberOfShares": 28764000,
+    "marketCapitalization": 239028840,
+    "minusCashAndCashEquivalents": 9870000,
+    "addTotalDebt": 61715000,
+    "enterpriseValue": 290873840
+  },
+  {
+    "symbol": "SNX",
+    "date": "2005-05-31",
+    "stockPrice": 7.93,
+    "numberOfShares": 28539000,
+    "marketCapitalization": 226314270,
+    "minusCashAndCashEquivalents": 4951000,
+    "addTotalDebt": 62685000,
+    "enterpriseValue": 284048270
+  },
+  {
+    "symbol": "SNX",
+    "date": "2005-02-28",
+    "stockPrice": 11.31,
+    "numberOfShares": 28005000,
+    "marketCapitalization": 316736550,
+    "minusCashAndCashEquivalents": 21607000,
+    "addTotalDebt": 84652000,
+    "enterpriseValue": 379781550
+  },
+  {
+    "symbol": "SNX",
+    "date": "2004-11-30",
+    "stockPrice": 10.72,
+    "numberOfShares": 27450000,
+    "marketCapitalization": 294264000,
+    "minusCashAndCashEquivalents": 28726000,
+    "addTotalDebt": 88070000,
+    "enterpriseValue": 353608000
+  },
+  {
+    "symbol": "SNX",
+    "date": "2004-08-31",
+    "stockPrice": 7.96,
+    "numberOfShares": 26835000,
+    "marketCapitalization": 213606600,
+    "minusCashAndCashEquivalents": 20747000,
+    "addTotalDebt": 41957000,
+    "enterpriseValue": 234816600
+  },
+  {
+    "symbol": "SNX",
+    "date": "2004-05-31",
+    "stockPrice": 9.27,
+    "numberOfShares": 26520000,
+    "marketCapitalization": 245840400,
+    "minusCashAndCashEquivalents": 18134000,
+    "addTotalDebt": 40961000,
+    "enterpriseValue": 268667400
+  },
+  {
+    "symbol": "SNX",
+    "date": "2004-02-29",
+    "stockPrice": 9.81,
+    "numberOfShares": 25953000,
+    "marketCapitalization": 254598930,
+    "minusCashAndCashEquivalents": 19544000,
+    "addTotalDebt": 54547000,
+    "enterpriseValue": 289601930
+  },
+  {
+    "symbol": "SNX",
+    "date": "2003-11-30",
+    "stockPrice": 7.01,
+    "numberOfShares": 22088000,
+    "marketCapitalization": 154836880,
+    "minusCashAndCashEquivalents": 22079000,
+    "addTotalDebt": 77598000,
+    "enterpriseValue": 210355880
+  },
+  {
+    "symbol": "SNX",
+    "date": "2003-08-31",
+    "stockPrice": 7.11,
+    "numberOfShares": 22088000,
+    "marketCapitalization": 157045680,
+    "minusCashAndCashEquivalents": 23174000,
+    "addTotalDebt": 7852000,
+    "enterpriseValue": 141723680
+  },
+  {
+    "symbol": "SNX",
+    "date": "2003-05-31",
+    "stockPrice": 7.11,
+    "numberOfShares": 44175000,
+    "marketCapitalization": 314084250,
+    "minusCashAndCashEquivalents": 17293000,
+    "addTotalDebt": 13580000,
+    "enterpriseValue": 310371250
+  },
+  {
+    "symbol": "SNX",
+    "date": "2003-02-28",
+    "stockPrice": 7.11,
+    "numberOfShares": 44175000,
+    "marketCapitalization": 314084250,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 314084250
+  }
+]

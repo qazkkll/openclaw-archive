@@ -1,0 +1,61 @@
+[
+  {
+    "symbol": "PAX",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "BRAZIL": 69900000,
+      "CAYMAN ISLANDS": 168549000,
+      "CHILE": 40014000,
+      "COLOMBIA": 19417000,
+      "UNITED STATES": 3270000,
+      "URUGUAY": 3431000
+    }
+  },
+  {
+    "symbol": "PAX",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "BRAZIL": 50177000,
+      "CAYMAN ISLANDS": 215296000,
+      "CHILE": 53032000,
+      "COLOMBIA": 1993000,
+      "UNITED STATES": 4168000,
+      "URUGUAY": 2215000,
+      "VIRGIN ISLANDS, BRITISH": 23000
+    }
+  },
+  {
+    "symbol": "PAX",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "BRAZIL": 40165000,
+      "CAYMAN ISLANDS": 160226000,
+      "CHILE": 52074000,
+      "UNITED STATES": 3290000,
+      "VIRGIN ISLANDS, BRITISH": 3122000
+    }
+  },
+  {
+    "symbol": "PAX",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "BRAZIL": 25725000,
+      "CAYMAN ISLANDS": 200695000,
+      "CHILE": 5215000,
+      "UNITED STATES": 1569000,
+      "VIRGIN ISLANDS, BRITISH": 2311000
+    }
+  }
+]

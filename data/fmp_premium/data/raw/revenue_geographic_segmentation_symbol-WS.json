@@ -1,0 +1,27 @@
+[
+  {
+    "symbol": "WS",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-05-31",
+    "data": {
+      "CANADA": 330800000,
+      "MEXICO": 207700000,
+      "UNITED STATES": 2436300000
+    }
+  },
+  {
+    "symbol": "WS",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-05-31",
+    "data": {
+      "CANADA": 392600000,
+      "MEXICO": 181300000,
+      "Other Countries": 104700000,
+      "UNITED STATES": 2752000000
+    }
+  }
+]

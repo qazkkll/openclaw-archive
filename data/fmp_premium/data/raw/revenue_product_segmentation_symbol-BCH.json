@@ -1,0 +1,59 @@
+[
+  {
+    "symbol": "BCH",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "CLP",
+    "date": "2024-12-31",
+    "data": {
+      "Retail Segment Member": 1897025000000
+    }
+  },
+  {
+    "symbol": "BCH",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "CLP",
+    "date": "2023-12-31",
+    "data": {
+      "Retail Segment Member": 1816241000000
+    }
+  },
+  {
+    "symbol": "BCH",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "CLP",
+    "date": "2022-12-31",
+    "data": {
+      "Retail Segment Member": 1788443000000
+    }
+  },
+  {
+    "symbol": "BCH",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "CLP",
+    "date": "2021-12-31",
+    "data": {
+      "ReclassificationsAndAdjustmentsToConformIFRSMember": -17029000000,
+      "RetailSegmentMember": 1376821000000,
+      "SubsidiaryMember": 196148000000,
+      "TreasuryAndMoneyMarketOperationsMember": 56673000000,
+      "WholesaleMember": 621472000000
+    }
+  },
+  {
+    "symbol": "BCH",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "CLP",
+    "date": "2020-12-31",
+    "data": {
+      "RetailSegmentMember": 1231554000000,
+      "SubsidiaryMember": 177931000000,
+      "TreasuryAndMoneyMarketOperationsMember": 68547000000,
+      "WholesaleMember": 482191000000
+    }
+  }
+]

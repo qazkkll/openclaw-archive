@@ -1,0 +1,782 @@
+[
+  {
+    "symbol": "WT",
+    "date": "2026-03-13",
+    "stockPrice": 15.26,
+    "numberOfShares": 138005000,
+    "marketCapitalization": 2105956300,
+    "minusCashAndCashEquivalents": 625505000,
+    "addTotalDebt": 1202683000,
+    "enterpriseValue": 2683134300
+  },
+  {
+    "symbol": "WT",
+    "date": "2025-12-31",
+    "stockPrice": 12.19,
+    "numberOfShares": 136340000,
+    "marketCapitalization": 1661984600,
+    "minusCashAndCashEquivalents": 311732000,
+    "addTotalDebt": 956587000,
+    "enterpriseValue": 2306839600
+  },
+  {
+    "symbol": "WT",
+    "date": "2025-09-30",
+    "stockPrice": 13.9,
+    "numberOfShares": 141736000,
+    "marketCapitalization": 1970130400,
+    "minusCashAndCashEquivalents": 555851000,
+    "addTotalDebt": 956232000,
+    "enterpriseValue": 2370511400
+  },
+  {
+    "symbol": "WT",
+    "date": "2025-06-30",
+    "stockPrice": 11.51,
+    "numberOfShares": 142830000,
+    "marketCapitalization": 1643973300,
+    "minusCashAndCashEquivalents": 193673000,
+    "addTotalDebt": 515376000,
+    "enterpriseValue": 1965676300
+  },
+  {
+    "symbol": "WT",
+    "date": "2025-03-31",
+    "stockPrice": 8.92,
+    "numberOfShares": 142580000,
+    "marketCapitalization": 1271813600,
+    "minusCashAndCashEquivalents": 170373000,
+    "addTotalDebt": 513239000,
+    "enterpriseValue": 1614679600
+  },
+  {
+    "symbol": "WT",
+    "date": "2024-12-31",
+    "stockPrice": 10.5,
+    "numberOfShares": 141275000,
+    "marketCapitalization": 1483387500,
+    "minusCashAndCashEquivalents": 181191000,
+    "addTotalDebt": 512913000,
+    "enterpriseValue": 1815109500
+  },
+  {
+    "symbol": "WT",
+    "date": "2024-09-30",
+    "stockPrice": 9.99,
+    "numberOfShares": 143929000,
+    "marketCapitalization": 1437850710,
+    "minusCashAndCashEquivalents": 165291000,
+    "addTotalDebt": 512626000,
+    "enterpriseValue": 1785185710
+  },
+  {
+    "symbol": "WT",
+    "date": "2024-06-30",
+    "stockPrice": 9.94,
+    "numberOfShares": 146896000,
+    "marketCapitalization": 1460146240,
+    "minusCashAndCashEquivalents": 132459000,
+    "addTotalDebt": 276485000,
+    "enterpriseValue": 1604172240
+  },
+  {
+    "symbol": "WT",
+    "date": "2024-03-31",
+    "stockPrice": 9.08,
+    "numberOfShares": 146464000,
+    "marketCapitalization": 1329893120,
+    "minusCashAndCashEquivalents": 116926000,
+    "addTotalDebt": 275514000,
+    "enterpriseValue": 1488481120
+  },
+  {
+    "symbol": "WT",
+    "date": "2023-12-31",
+    "stockPrice": 6.93,
+    "numberOfShares": 145310000,
+    "marketCapitalization": 1006998300,
+    "minusCashAndCashEquivalents": 129305000,
+    "addTotalDebt": 275466000,
+    "enterpriseValue": 1153159300
+  },
+  {
+    "symbol": "WT",
+    "date": "2023-09-30",
+    "stockPrice": 7,
+    "numberOfShares": 145284000,
+    "marketCapitalization": 1016988000,
+    "minusCashAndCashEquivalents": 89481000,
+    "addTotalDebt": 275403000,
+    "enterpriseValue": 1202910000
+  },
+  {
+    "symbol": "WT",
+    "date": "2023-06-30",
+    "stockPrice": 6.86,
+    "numberOfShares": 144351000,
+    "marketCapitalization": 990247860,
+    "minusCashAndCashEquivalents": 83735000,
+    "addTotalDebt": 274989000,
+    "enterpriseValue": 1181501860
+  },
+  {
+    "symbol": "WT",
+    "date": "2023-03-31",
+    "stockPrice": 5.86,
+    "numberOfShares": 143862000,
+    "marketCapitalization": 843031320,
+    "minusCashAndCashEquivalents": 119099000,
+    "addTotalDebt": 334812000,
+    "enterpriseValue": 1058744320
+  },
+  {
+    "symbol": "WT",
+    "date": "2022-12-31",
+    "stockPrice": 5.45,
+    "numberOfShares": 143126000,
+    "marketCapitalization": 780036700,
+    "minusCashAndCashEquivalents": 132101000,
+    "addTotalDebt": 322680000,
+    "enterpriseValue": 970615700
+  },
+  {
+    "symbol": "WT",
+    "date": "2022-09-30",
+    "stockPrice": 4.68,
+    "numberOfShares": 158953000,
+    "marketCapitalization": 743900040,
+    "minusCashAndCashEquivalents": 132700000,
+    "addTotalDebt": 322305000,
+    "enterpriseValue": 933505040
+  },
+  {
+    "symbol": "WT",
+    "date": "2022-06-30",
+    "stockPrice": 5.07,
+    "numberOfShares": 158976000,
+    "marketCapitalization": 806008320,
+    "minusCashAndCashEquivalents": 109736000,
+    "addTotalDebt": 321951000,
+    "enterpriseValue": 1018223320
+  },
+  {
+    "symbol": "WT",
+    "date": "2022-03-31",
+    "stockPrice": 5.87,
+    "numberOfShares": 142782000,
+    "marketCapitalization": 838130340,
+    "minusCashAndCashEquivalents": 110395000,
+    "addTotalDebt": 319702000,
+    "enterpriseValue": 1047437340
+  },
+  {
+    "symbol": "WT",
+    "date": "2021-12-31",
+    "stockPrice": 6.12,
+    "numberOfShares": 142070000,
+    "marketCapitalization": 869468400,
+    "minusCashAndCashEquivalents": 140709000,
+    "addTotalDebt": 319161000,
+    "enterpriseValue": 1047920400
+  },
+  {
+    "symbol": "WT",
+    "date": "2021-09-30",
+    "stockPrice": 5.67,
+    "numberOfShares": 142070000,
+    "marketCapitalization": 805536900,
+    "minusCashAndCashEquivalents": 127924000,
+    "addTotalDebt": 318667000,
+    "enterpriseValue": 996279900
+  },
+  {
+    "symbol": "WT",
+    "date": "2021-06-30",
+    "stockPrice": 6.2,
+    "numberOfShares": 145542000,
+    "marketCapitalization": 902360400,
+    "minusCashAndCashEquivalents": 167635000,
+    "addTotalDebt": 337582000,
+    "enterpriseValue": 1072307400
+  },
+  {
+    "symbol": "WT",
+    "date": "2021-03-31",
+    "stockPrice": 6.25,
+    "numberOfShares": 145649000,
+    "marketCapitalization": 910306250,
+    "minusCashAndCashEquivalents": 62302000,
+    "addTotalDebt": 191133000,
+    "enterpriseValue": 1039137250
+  },
+  {
+    "symbol": "WT",
+    "date": "2020-12-31",
+    "stockPrice": 5.35,
+    "numberOfShares": 145096000,
+    "marketCapitalization": 776263600,
+    "minusCashAndCashEquivalents": 73425000,
+    "addTotalDebt": 187215000,
+    "enterpriseValue": 890053600
+  },
+  {
+    "symbol": "WT",
+    "date": "2020-09-30",
+    "stockPrice": 3.2,
+    "numberOfShares": 145564000,
+    "marketCapitalization": 465804800,
+    "minusCashAndCashEquivalents": 63561000,
+    "addTotalDebt": 186792000,
+    "enterpriseValue": 589035800
+  },
+  {
+    "symbol": "WT",
+    "date": "2020-06-30",
+    "stockPrice": 3.47,
+    "numberOfShares": 151623000,
+    "marketCapitalization": 526131810,
+    "minusCashAndCashEquivalents": 50255000,
+    "addTotalDebt": 163030000,
+    "enterpriseValue": 638906810
+  },
+  {
+    "symbol": "WT",
+    "date": "2020-03-31",
+    "stockPrice": 2.33,
+    "numberOfShares": 152519000,
+    "marketCapitalization": 355369270,
+    "minusCashAndCashEquivalents": 68429000,
+    "addTotalDebt": 193679000,
+    "enterpriseValue": 480619270
+  },
+  {
+    "symbol": "WT",
+    "date": "2019-12-31",
+    "stockPrice": 4.84,
+    "numberOfShares": 151948000,
+    "marketCapitalization": 735428320,
+    "minusCashAndCashEquivalents": 74972000,
+    "addTotalDebt": 198695000,
+    "enterpriseValue": 859151320
+  },
+  {
+    "symbol": "WT",
+    "date": "2019-09-30",
+    "stockPrice": 5.23,
+    "numberOfShares": 151897000,
+    "marketCapitalization": 794421310,
+    "minusCashAndCashEquivalents": 88575000,
+    "addTotalDebt": 204611000,
+    "enterpriseValue": 910457310
+  },
+  {
+    "symbol": "WT",
+    "date": "2019-06-30",
+    "stockPrice": 6.29,
+    "numberOfShares": 151818000,
+    "marketCapitalization": 954935220,
+    "minusCashAndCashEquivalents": 79611000,
+    "addTotalDebt": 219584000,
+    "enterpriseValue": 1094908220
+  },
+  {
+    "symbol": "WT",
+    "date": "2019-03-31",
+    "stockPrice": 7.2,
+    "numberOfShares": 151625000,
+    "marketCapitalization": 1091700000,
+    "minusCashAndCashEquivalents": 78942000,
+    "addTotalDebt": 219529000,
+    "enterpriseValue": 1232287000
+  },
+  {
+    "symbol": "WT",
+    "date": "2018-12-31",
+    "stockPrice": 6.65,
+    "numberOfShares": 151083000,
+    "marketCapitalization": 1004701950,
+    "minusCashAndCashEquivalents": 77784000,
+    "addTotalDebt": 194592000,
+    "enterpriseValue": 1121509950
+  },
+  {
+    "symbol": "WT",
+    "date": "2018-09-30",
+    "stockPrice": 8.19,
+    "numberOfShares": 150892000,
+    "marketCapitalization": 1235805480,
+    "minusCashAndCashEquivalents": 77125000,
+    "addTotalDebt": 193999000,
+    "enterpriseValue": 1352679480
+  },
+  {
+    "symbol": "WT",
+    "date": "2018-06-30",
+    "stockPrice": 9.08,
+    "numberOfShares": 149056000,
+    "marketCapitalization": 1353428480,
+    "minusCashAndCashEquivalents": 70744000,
+    "addTotalDebt": 193407000,
+    "enterpriseValue": 1476091480
+  },
+  {
+    "symbol": "WT",
+    "date": "2018-03-31",
+    "stockPrice": 8.74,
+    "numberOfShares": 135329000,
+    "marketCapitalization": 1182775460,
+    "minusCashAndCashEquivalents": 105651000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1077124460
+  },
+  {
+    "symbol": "WT",
+    "date": "2017-12-31",
+    "stockPrice": 12.22,
+    "numberOfShares": 134800000,
+    "marketCapitalization": 1647256000,
+    "minusCashAndCashEquivalents": 54193000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1593063000
+  },
+  {
+    "symbol": "WT",
+    "date": "2017-09-30",
+    "stockPrice": 10.18,
+    "numberOfShares": 134709000,
+    "marketCapitalization": 1371337620,
+    "minusCashAndCashEquivalents": 70221000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1301116620
+  },
+  {
+    "symbol": "WT",
+    "date": "2017-06-30",
+    "stockPrice": 10.17,
+    "numberOfShares": 134557000,
+    "marketCapitalization": 1368444690,
+    "minusCashAndCashEquivalents": 88614000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1279830690
+  },
+  {
+    "symbol": "WT",
+    "date": "2017-03-31",
+    "stockPrice": 9.08,
+    "numberOfShares": 134385000,
+    "marketCapitalization": 1220215800,
+    "minusCashAndCashEquivalents": 79637000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1140578800
+  },
+  {
+    "symbol": "WT",
+    "date": "2016-12-31",
+    "stockPrice": 11.14,
+    "numberOfShares": 133985000,
+    "marketCapitalization": 1492592900,
+    "minusCashAndCashEquivalents": 92722000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1399870900
+  },
+  {
+    "symbol": "WT",
+    "date": "2016-09-30",
+    "stockPrice": 10.29,
+    "numberOfShares": 134046000,
+    "marketCapitalization": 1379333340,
+    "minusCashAndCashEquivalents": 178132000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1201201340
+  },
+  {
+    "symbol": "WT",
+    "date": "2016-06-30",
+    "stockPrice": 9.79,
+    "numberOfShares": 134115000,
+    "marketCapitalization": 1312985850,
+    "minusCashAndCashEquivalents": 174914000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1138071850
+  },
+  {
+    "symbol": "WT",
+    "date": "2016-03-31",
+    "stockPrice": 11.43,
+    "numberOfShares": 135467000,
+    "marketCapitalization": 1548387810,
+    "minusCashAndCashEquivalents": 159761000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1388626810
+  },
+  {
+    "symbol": "WT",
+    "date": "2015-12-31",
+    "stockPrice": 15.68,
+    "numberOfShares": 136772000,
+    "marketCapitalization": 2144584960,
+    "minusCashAndCashEquivalents": 210070000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1934514960
+  },
+  {
+    "symbol": "WT",
+    "date": "2015-09-30",
+    "stockPrice": 16.13,
+    "numberOfShares": 136582000,
+    "marketCapitalization": 2203067660,
+    "minusCashAndCashEquivalents": 211992000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1991075660
+  },
+  {
+    "symbol": "WT",
+    "date": "2015-06-30",
+    "stockPrice": 21.97,
+    "numberOfShares": 135895000,
+    "marketCapitalization": 2985613150,
+    "minusCashAndCashEquivalents": 189272000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2796341150
+  },
+  {
+    "symbol": "WT",
+    "date": "2015-03-31",
+    "stockPrice": 21.46,
+    "numberOfShares": 134075000,
+    "marketCapitalization": 2877249500,
+    "minusCashAndCashEquivalents": 151701000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2725548500
+  },
+  {
+    "symbol": "WT",
+    "date": "2014-12-31",
+    "stockPrice": 15.68,
+    "numberOfShares": 132816000,
+    "marketCapitalization": 2082554880,
+    "minusCashAndCashEquivalents": 165284000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1917270880
+  },
+  {
+    "symbol": "WT",
+    "date": "2014-09-30",
+    "stockPrice": 11.38,
+    "numberOfShares": 131778000,
+    "marketCapitalization": 1499633640,
+    "minusCashAndCashEquivalents": 151287000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1348346640
+  },
+  {
+    "symbol": "WT",
+    "date": "2014-06-30",
+    "stockPrice": 12.36,
+    "numberOfShares": 131533000,
+    "marketCapitalization": 1625747880,
+    "minusCashAndCashEquivalents": 128847000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1496900880
+  },
+  {
+    "symbol": "WT",
+    "date": "2014-03-31",
+    "stockPrice": 13.12,
+    "numberOfShares": 130934000,
+    "marketCapitalization": 1717854080,
+    "minusCashAndCashEquivalents": 104780000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1613074080
+  },
+  {
+    "symbol": "WT",
+    "date": "2013-12-31",
+    "stockPrice": 17.71,
+    "numberOfShares": 128851000,
+    "marketCapitalization": 2281951210,
+    "minusCashAndCashEquivalents": 104316000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2177635210
+  },
+  {
+    "symbol": "WT",
+    "date": "2013-09-30",
+    "stockPrice": 11.6,
+    "numberOfShares": 126509000,
+    "marketCapitalization": 1467504400,
+    "minusCashAndCashEquivalents": 87114000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1380390400
+  },
+  {
+    "symbol": "WT",
+    "date": "2013-06-30",
+    "stockPrice": 11.78,
+    "numberOfShares": 125771000,
+    "marketCapitalization": 1481582380,
+    "minusCashAndCashEquivalents": 70733000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1410849380
+  },
+  {
+    "symbol": "WT",
+    "date": "2013-03-31",
+    "stockPrice": 10.23,
+    "numberOfShares": 125436000,
+    "marketCapitalization": 1283210280,
+    "minusCashAndCashEquivalents": 52297000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1230913280
+  },
+  {
+    "symbol": "WT",
+    "date": "2012-12-31",
+    "stockPrice": 6.12,
+    "numberOfShares": 124202000,
+    "marketCapitalization": 760116240,
+    "minusCashAndCashEquivalents": 41246000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 718870240
+  },
+  {
+    "symbol": "WT",
+    "date": "2012-09-30",
+    "stockPrice": 6.56,
+    "numberOfShares": 123214000,
+    "marketCapitalization": 808283840,
+    "minusCashAndCashEquivalents": 39603000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 768680840
+  },
+  {
+    "symbol": "WT",
+    "date": "2012-06-30",
+    "stockPrice": 6.57,
+    "numberOfShares": 121920000,
+    "marketCapitalization": 801014400,
+    "minusCashAndCashEquivalents": 39300000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 761714400
+  },
+  {
+    "symbol": "WT",
+    "date": "2012-03-31",
+    "stockPrice": 8.37,
+    "numberOfShares": 119182000,
+    "marketCapitalization": 997553339,
+    "minusCashAndCashEquivalents": 32138000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 965415339
+  },
+  {
+    "symbol": "WT",
+    "date": "2011-12-31",
+    "stockPrice": 6.05,
+    "numberOfShares": 119182000,
+    "marketCapitalization": 721051100,
+    "minusCashAndCashEquivalents": 25630000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 695421100
+  },
+  {
+    "symbol": "WT",
+    "date": "2011-09-30",
+    "stockPrice": 7.02,
+    "numberOfShares": 114238000,
+    "marketCapitalization": 801950760,
+    "minusCashAndCashEquivalents": 21052000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 780898760
+  },
+  {
+    "symbol": "WT",
+    "date": "2011-06-30",
+    "stockPrice": 6.34,
+    "numberOfShares": 113950000,
+    "marketCapitalization": 722443000,
+    "minusCashAndCashEquivalents": 16386000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 706057000
+  },
+  {
+    "symbol": "WT",
+    "date": "2011-03-31",
+    "stockPrice": 5.68,
+    "numberOfShares": 113463000,
+    "marketCapitalization": 644469840,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 644469840
+  },
+  {
+    "symbol": "WT",
+    "date": "2010-12-31",
+    "stockPrice": 4.15,
+    "numberOfShares": 113463000,
+    "marketCapitalization": 470871450,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 470871450
+  },
+  {
+    "symbol": "WT",
+    "date": "2010-09-30",
+    "stockPrice": 2.45,
+    "numberOfShares": 112424000,
+    "marketCapitalization": 275438800,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 275438800
+  },
+  {
+    "symbol": "WT",
+    "date": "2010-06-30",
+    "stockPrice": 2.15,
+    "numberOfShares": 111765000,
+    "marketCapitalization": 240294750,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 240294750
+  },
+  {
+    "symbol": "WT",
+    "date": "2003-06-30",
+    "stockPrice": 0.08,
+    "numberOfShares": 7894552,
+    "marketCapitalization": 631564.16,
+    "minusCashAndCashEquivalents": 396653,
+    "addTotalDebt": 0,
+    "enterpriseValue": 234911
+  },
+  {
+    "symbol": "WT",
+    "date": "2003-03-31",
+    "stockPrice": 0.16,
+    "numberOfShares": 7894552,
+    "marketCapitalization": 1263128.32,
+    "minusCashAndCashEquivalents": 350926,
+    "addTotalDebt": 0,
+    "enterpriseValue": 912202
+  },
+  {
+    "symbol": "WT",
+    "date": "2002-12-31",
+    "stockPrice": 0.13,
+    "numberOfShares": 7894552,
+    "marketCapitalization": 1026291.76,
+    "minusCashAndCashEquivalents": 460798,
+    "addTotalDebt": 0,
+    "enterpriseValue": 565493
+  },
+  {
+    "symbol": "WT",
+    "date": "2002-09-30",
+    "stockPrice": 0.035,
+    "numberOfShares": 7894552,
+    "marketCapitalization": 276309.32,
+    "minusCashAndCashEquivalents": 504643,
+    "addTotalDebt": 0,
+    "enterpriseValue": -228333
+  },
+  {
+    "symbol": "WT",
+    "date": "2002-06-30",
+    "stockPrice": 0.05,
+    "numberOfShares": 7894552,
+    "marketCapitalization": 394727.6,
+    "minusCashAndCashEquivalents": 744051,
+    "addTotalDebt": 0,
+    "enterpriseValue": -349323
+  },
+  {
+    "symbol": "WT",
+    "date": "2002-03-31",
+    "stockPrice": 0.05,
+    "numberOfShares": 7927485,
+    "marketCapitalization": 396374.25,
+    "minusCashAndCashEquivalents": 1009248,
+    "addTotalDebt": 0,
+    "enterpriseValue": -612873
+  },
+  {
+    "symbol": "WT",
+    "date": "2001-12-31",
+    "stockPrice": 0.069,
+    "numberOfShares": 7927485,
+    "marketCapitalization": 546996.47,
+    "minusCashAndCashEquivalents": 1291444,
+    "addTotalDebt": 0,
+    "enterpriseValue": -744447
+  },
+  {
+    "symbol": "WT",
+    "date": "2001-09-30",
+    "stockPrice": 0.09,
+    "numberOfShares": 8909661,
+    "marketCapitalization": 801869.49,
+    "minusCashAndCashEquivalents": 1699271,
+    "addTotalDebt": 0,
+    "enterpriseValue": -897401
+  },
+  {
+    "symbol": "WT",
+    "date": "2001-06-30",
+    "stockPrice": 0.27,
+    "numberOfShares": 9093775,
+    "marketCapitalization": 2455319.25,
+    "minusCashAndCashEquivalents": 486846,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1968473
+  },
+  {
+    "symbol": "WT",
+    "date": "2001-03-31",
+    "stockPrice": 0.5625,
+    "numberOfShares": 8972672,
+    "marketCapitalization": 5047128,
+    "minusCashAndCashEquivalents": 2421332,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2625796
+  },
+  {
+    "symbol": "WT",
+    "date": "2000-12-31",
+    "stockPrice": 0.40625,
+    "numberOfShares": 8972672,
+    "marketCapitalization": 3645148,
+    "minusCashAndCashEquivalents": 4694476,
+    "addTotalDebt": 0,
+    "enterpriseValue": -1049328
+  },
+  {
+    "symbol": "WT",
+    "date": "2000-09-30",
+    "stockPrice": 1.19,
+    "numberOfShares": 10413519,
+    "marketCapitalization": 12392087,
+    "minusCashAndCashEquivalents": 7074079,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5318008
+  },
+  {
+    "symbol": "WT",
+    "date": "2000-06-30",
+    "stockPrice": 1.81,
+    "numberOfShares": 10392173,
+    "marketCapitalization": 18809833,
+    "minusCashAndCashEquivalents": 2509138,
+    "addTotalDebt": 0,
+    "enterpriseValue": 16300695
+  },
+  {
+    "symbol": "WT",
+    "date": "2000-03-31",
+    "stockPrice": 4.5,
+    "numberOfShares": 10363991,
+    "marketCapitalization": 46637959,
+    "minusCashAndCashEquivalents": 4675734,
+    "addTotalDebt": 0,
+    "enterpriseValue": 41962225
+  }
+]

@@ -1,0 +1,978 @@
+[
+  {
+    "symbol": "TS",
+    "date": "2026-05-08",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2026-04-20",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2026-04-15",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2026-04-15",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Underweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2026-02-23",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Underweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2026-02-23",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2026-02-20",
+    "gradingCompany": "TD Cowen",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2025-11-12",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2025-09-17",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2025-08-14",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2025-08-07",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2025-05-16",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Underweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2025-05-06",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2025-04-15",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2025-02-25",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2025-02-24",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2025-02-21",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2024-12-09",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2024-10-11",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2024-08-06",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2024-07-15",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2024-05-06",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2024-04-18",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2024-01-04",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2023-10-17",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2023-07-17",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2023-06-14",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2023-05-01",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2023-05-01",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2023-04-18",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2023-02-21",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2023-01-04",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2022-11-18",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2022-11-15",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2022-10-13",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2022-07-13",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2022-07-07",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2022-05-09",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2022-04-11",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2022-03-14",
+    "gradingCompany": "Wolfe Research",
+    "previousGrade": "Underperform",
+    "newGrade": "Peer Perform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2022-02-28",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2022-02-18",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2021-12-07",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2021-11-08",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2021-08-26",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2021-07-09",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2021-04-30",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2021-03-10",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Underweight",
+    "newGrade": "Equal Weight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2021-03-02",
+    "gradingCompany": "Exane BNP Paribas",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2021-02-26",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2021-01-26",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-11-24",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-11-20",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-10-07",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-09-15",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-08-07",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-06-16",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-05-04",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-05-04",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-05-01",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-04-07",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-04-01",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-03-31",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2020-03-16",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2019-10-08",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2019-08-02",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2019-03-26",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2019-01-18",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2018-12-07",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2018-09-25",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Underperform",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2018-09-25",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Underperform",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2018-04-11",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2018-03-22",
+    "gradingCompany": "Loop Capital",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2018-02-23",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2018-02-22",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2018-02-21",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2017-11-03",
+    "gradingCompany": "Loop Capital",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2017-05-17",
+    "gradingCompany": "Loop Capital",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2017-02-27",
+    "gradingCompany": "Evercore ISI Group",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2017-01-19",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Underweight",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2016-11-14",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2016-10-18",
+    "gradingCompany": "Simmons & Co.",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2016-07-20",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2016-04-20",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Sell",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2016-04-19",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Underweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2016-02-26",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2016-02-24",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2016-02-11",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2016-02-08",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2015-10-21",
+    "gradingCompany": "Exane BNP Paribas",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2015-10-20",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2015-09-17",
+    "gradingCompany": "Scotia Howard Weil",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Sector Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2015-09-17",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Sector Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2015-06-22",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2015-06-22",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2015-06-12",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2015-02-23",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2015-02-20",
+    "gradingCompany": "Exane BNP Paribas",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2014-07-14",
+    "gradingCompany": "Fidentiis",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2014-07-14",
+    "gradingCompany": "Fidentis",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2014-06-06",
+    "gradingCompany": "Guggenheim",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2014-05-06",
+    "gradingCompany": "Scotia Howard Weil",
+    "previousGrade": "Sector Outperform",
+    "newGrade": "Sector Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2014-05-06",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Sector Outperform",
+    "newGrade": "Sector Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2014-05-05",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2013-11-08",
+    "gradingCompany": "Natixis",
+    "previousGrade": "Neutral",
+    "newGrade": "Reduce",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2013-09-27",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2013-09-27",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2013-09-23",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2013-06-12",
+    "gradingCompany": "Fidentis",
+    "previousGrade": "Sell",
+    "newGrade": "Hold",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2013-06-12",
+    "gradingCompany": "Fidentiis",
+    "previousGrade": "Sell",
+    "newGrade": "Hold",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2013-05-03",
+    "gradingCompany": "Exane BNP Paribas",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2013-02-11",
+    "gradingCompany": "Dahlman Rose",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2013-02-04",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2013-01-07",
+    "gradingCompany": "Guggenheim",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2012-11-09",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2012-11-06",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2012-10-29",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2012-08-03",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TS",
+    "date": "2012-07-16",
+    "gradingCompany": "Guggenheim",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2012-07-09",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2012-06-01",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TS",
+    "date": "2012-04-02",
+    "gradingCompany": "Itau BBA",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  }
+]

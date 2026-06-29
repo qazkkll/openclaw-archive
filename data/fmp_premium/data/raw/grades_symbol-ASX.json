@@ -1,0 +1,74 @@
+[
+  {
+    "symbol": "ASX",
+    "date": "2024-10-15",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2023-07-28",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2023-06-28",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Reduce",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2021-10-07",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2019-09-04",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2016-05-31",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2016-05-26",
+    "gradingCompany": "Nomura",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2016-04-22",
+    "gradingCompany": "Nomura",
+    "previousGrade": "Buy",
+    "newGrade": "Reduce",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2015-12-15",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  }
+]

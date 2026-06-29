@@ -1,0 +1,418 @@
+[
+  {
+    "symbol": "ABEV",
+    "date": "2026-05-14",
+    "gradingCompany": "UBS",
+    "previousGrade": "Sell",
+    "newGrade": "Sell",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2026-05-06",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2026-04-16",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2026-02-17",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2025-11-26",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2025-08-20",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2025-08-01",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2025-06-04",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2025-05-12",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2025-04-22",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2025-04-07",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2025-03-05",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2025-01-22",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2025-01-21",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2024-07-31",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2024-05-09",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2024-03-04",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2023-05-24",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2022-07-13",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2021-11-03",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2021-10-06",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2021-06-17",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Underweight",
+    "newGrade": "Equal Weight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2021-05-20",
+    "gradingCompany": "Itau BBA",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2021-01-13",
+    "gradingCompany": "Bradesco",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2021-01-12",
+    "gradingCompany": "Bradesco Corretora",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2020-11-03",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2020-03-24",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2019-12-03",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2019-11-15",
+    "gradingCompany": "UBS",
+    "previousGrade": "Sell",
+    "newGrade": "Sell",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2019-08-27",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2019-07-26",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Underweight",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2018-10-25",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2018-10-25",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2018-07-27",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2018-05-22",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2018-04-09",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2017-10-27",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2017-09-12",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2016-11-10",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2016-11-03",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2016-08-18",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2016-05-05",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2015-06-01",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2014-12-17",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2014-11-11",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2014-06-09",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2014-06-03",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2014-05-01",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2014-01-07",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2013-01-10",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2012-08-21",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "ABEV",
+    "date": "2012-07-20",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  }
+]

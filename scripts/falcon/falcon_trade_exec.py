@@ -37,12 +37,17 @@ load_dotenv(PROJECT_ROOT / ".env")
 # ── Broker Adapter (统一持仓接口) ──
 sys.path.insert(0, str(FALCON_DIR))
 from broker_adapter import get_broker
+from falcon_gatekeeper import run_gatekeeper, GATEKEEPER_OUTPUT
 
 # ── 配置 ──
-HOLD_DAYS = 30
+HOLD_DAYS = 60
 STOP_LOSS = -0.15
-TOP_N = 5
-BUY_SCORE_THRESHOLD = 0.65  # 与 falcon_score.py 的 ABSOLUTE_HIGH 对齐
+TOP_N = 10
+BUY_SCORE_THRESHOLD = 0.55  # V0.3.2校准 (9因子组, 分数压缩到0.50-0.60)
+# Gatekeeper: 买入前的强制检查
+GATEKEEPER_REQUIRED = True  # 硬性开关, 不可绕过
+# VIX过滤 (V0.3.2新增)
+VIX_THRESHOLD = 25
 
 
 def load_falcon_config():
@@ -60,9 +65,14 @@ def load_falcon_config():
 
 
 def load_latest_signals():
-    """加载最新评分结果。"""
-    pattern = str(DATA_DIR / "falcon_v031_scored_*.json")
-    files = sorted(glob.glob(pattern))
+    """加载最新评分结果。优先V0.3.2，回退V0.3.1。"""
+    # 优先找V0.3.2
+    pattern_v032 = str(DATA_DIR / "falcon_v032_scored_*.json")
+    files = sorted(glob.glob(pattern_v032))
+    if not files:
+        # 回退到V0.3.1
+        pattern_v031 = str(DATA_DIR / "falcon_v031_scored_*.json")
+        files = sorted(glob.glob(pattern_v031))
     if not files:
         return None, []
     latest = files[-1]
@@ -104,19 +114,21 @@ def get_alpaca_client():
 def generate_buy_reason(pick, all_picks):
     """生成买入理由（人类可读）。"""
     score = pick.get("score", 0)
-    fund = pick.get("fund_ratio", 0)
+    fund_growth = pick.get("fund_growth", 0)
+    cashflow = pick.get("cashflow", 0)
     analyst = pick.get("analyst", 0)
-    metric = pick.get("fund_metric", 0)
+    grade = pick.get("grade_sentiment", 0)
     universe = pick.get("universe", "SPX")
 
     reasons = []
-    # 主要理由
-    if fund >= 0.7:
-        reasons.append(f"财务健康度高({fund:.0%})")
+    if fund_growth >= 0.7:
+        reasons.append(f"增长趋势强({fund_growth:.0%})")
+    if cashflow >= 0.7:
+        reasons.append(f"现金流健康({cashflow:.0%})")
     if analyst >= 0.7:
         reasons.append(f"分析师看好({analyst:.0%})")
-    if metric >= 0.7:
-        reasons.append(f"盈利能力强({metric:.0%})")
+    if grade >= 0.7:
+        reasons.append(f"评级上升({grade:.0%})")
 
     if not reasons:
         reasons.append(f"综合评分{score:.4f}，排名前{int((1-pick.get('rank_pct',0))*100)+1}%")
@@ -207,7 +219,7 @@ def execute_trades(client, dry_run=False):
                     }
                     report["sells"].append(sell_record)
                     # 记录到日志
-                    append_journal({**sell_record, "timestamp": datetime.now().isoformat(), "model": "falcon_v031"})
+                    append_journal({**sell_record, "timestamp": datetime.now().isoformat(), "model": "falcon_v032"})
                     # 从持仓中移除
                     if sym in pos_data["positions"]:
                         del pos_data["positions"][sym]
@@ -220,6 +232,17 @@ def execute_trades(client, dry_run=False):
             })
 
     # ── 4. 买入新信号 ──
+    # VIX检查: 如果评分时VIX>25, 跳过买入
+    vix_skip = os.environ.get("FALCON_VIX_SKIP") == "1"
+    if not vix_skip and signal_file:
+        # 检查评分文件中的vix_skip标记
+        try:
+            with open(signal_file) as sf:
+                sig_data = json.load(sf)
+            vix_skip = sig_data.get("vix_skip", False)
+        except Exception:
+            pass
+
     existing_syms = {p.symbol for p in positions}
     # 卖出的也要排除（可能还没结算）
     sold_syms = {s["symbol"] for s in report["sells"]}
@@ -232,12 +255,37 @@ def execute_trades(client, dry_run=False):
         and p["sym"] not in existing_syms
     ][:TOP_N]
 
+    # VIX过滤: 市场恐慌时不买入
+    if vix_skip:
+        report["vix_skip"] = True
+        print(f"\n⚠️ VIX > {VIX_THRESHOLD}，跳过买入（已有持仓继续持有）")
+        buy_candidates = []
+
     if buy_candidates:
         # 计算可用资金
         cash = float(account.cash)
         # 如果有卖出，加上卖出的预估金额
         available = cash * 0.95  # 留5%缓冲
         per_stock = available / max(len(buy_candidates), 1)
+
+        # ── 4.1. Gatekeeper强制检查 (买入前门禁) ──
+        # 硬性规则: 不通过不执行买入 (2026-06-29)
+        if GATEKEEPER_REQUIRED:
+            print("\n🦅 运行Gatekeeper门禁检查...")
+            gatekeeper_result = run_gatekeeper()
+            gk = gatekeeper_result.get("verdict", "SKIP")
+            report["gatekeeper"] = gatekeeper_result
+
+            if gk == "SKIP":
+                print(f"   ❌ Gatekeeper: SKIP — 暂停买入 ({gatekeeper_result.get('passed',0)}/{gatekeeper_result.get('total',5)})")
+                buy_candidates = []  # 清空买入列表
+            elif gk == "REDUCE":
+                print(f"   ⚠️ Gatekeeper: REDUCE — 减半仓位 ({gatekeeper_result.get('passed',0)}/{gatekeeper_result.get('total',5)})")
+                buy_candidates = buy_candidates[:max(1, len(buy_candidates) // 2)]
+                available = available * 0.5
+                per_stock = available / max(len(buy_candidates), 1)
+            else:
+                print(f"   ✅ Gatekeeper: EXECUTE — 正常执行 ({gatekeeper_result.get('passed',0)}/{gatekeeper_result.get('total',5)})")
 
         for pick in buy_candidates:
             sym = pick["sym"]
@@ -280,7 +328,7 @@ def execute_trades(client, dry_run=False):
                     }
                     report["buys"].append(buy_record)
                     # 记录到日志
-                    append_journal({**buy_record, "timestamp": datetime.now().isoformat(), "model": "falcon_v031"})
+                    append_journal({**buy_record, "timestamp": datetime.now().isoformat(), "model": "falcon_v032"})
                     # 更新持仓记录
                     pos_data["positions"][sym] = {
                         "entry_date": datetime.now().isoformat(),
@@ -302,7 +350,7 @@ def format_telegram_report(report, signal_file):
     ts = report["timestamp"][:16]
     acct = report["account"]
 
-    lines.append(f"🦅 **Falcon 模拟盘日报**")
+    lines.append(f"🦅 **Falcon V0.3.2 模拟盘日报**")
     lines.append(f"📅 {ts}")
     lines.append(f"💰 账户: ${acct['equity']:,.0f} (现金${acct['cash']:,.0f})")
     lines.append("")
@@ -323,7 +371,7 @@ def format_telegram_report(report, signal_file):
         for b in report["buys"]:
             lines.append(f"  🎯 **{b['symbol']}** {b['qty']}股 × ${b['price']:.2f}")
             lines.append(f"     理由: {b['reason']}")
-            lines.append(f"     评分: {b['score']:.4f} | 财务{b.get('fund_ratio',0):.0%} 分析师{b.get('analyst',0):.0%}")
+            lines.append(f"     评分: {b['score']:.4f} | 增长{b.get('fund_growth',0):.0%} 现金流{b.get('cashflow',0):.0%}")
         lines.append("")
 
     # 继续持有
@@ -338,6 +386,16 @@ def format_telegram_report(report, signal_file):
         lines.append("ℹ️ 今日无交易（无新信号或持仓未到期）")
         lines.append("")
 
+    # Gatekeeper结果
+    gk = report.get("gatekeeper")
+    if gk:
+        gk_emoji = {"EXECUTE": "✅", "REDUCE": "⚠️", "SKIP": "❌"}.get(gk.get("verdict", ""), "❓")
+        lines.append(f"🛡️ **Gatekeeper**: {gk_emoji} {gk.get('verdict','?')} ({gk.get('passed',0)}/{gk.get('total',5)})")
+        for c in gk.get("checks", []):
+            ce = "✅" if c.get("pass") else "❌"
+            lines.append(f"  {ce} {c['name']}: {c['detail']}")
+        lines.append("")
+
     # 错误
     if report["errors"]:
         lines.append(f"⚠️ **异常**")
@@ -345,8 +403,13 @@ def format_telegram_report(report, signal_file):
             lines.append(f"  • {e}")
         lines.append("")
 
+    # VIX跳过提示
+    if report.get("vix_skip"):
+        lines.append(f"⚠️ **VIX > {VIX_THRESHOLD}**: 今日跳过买入（已有持仓继续持有）")
+        lines.append("")
+
     lines.append(f"📁 信号: {Path(signal_file).name if signal_file else '无'}")
-    lines.append(f"⚙️ 规则: 持有{HOLD_DAYS}天 | 止损{STOP_LOSS*100:.0f}% | Top{TOP_N}")
+    lines.append(f"⚙️ V0.3.2: 持有{HOLD_DAYS}天 | 止损{STOP_LOSS*100:.0f}% | Top{TOP_N} | VIX>{VIX_THRESHOLD}停买")
 
     return "\n".join(lines)
 

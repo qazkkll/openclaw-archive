@@ -224,7 +224,7 @@ if position_pct > 0:
     for _, r in top.iterrows():
         ret20_str = f"{r.get('ret20', 0):.1%}" if not pd.isna(r.get('ret20')) else "N/A"
         rsi_str = f"{r.get('rsi_14', 50):.0f}" if not pd.isna(r.get('rsi_14')) else "N/A"
-        flow_str = f"{r.get('total_net_5d', 0)/1e8:.2f}亿" if not pd.isna(r.get('total_net_5d')) else "N/A"
+        flow_str = f"{r.get('total_net_5d', 0)/1e4:.2f}亿" if not pd.isna(r.get('total_net_5d')) else "N/A"
         print(f"{_ + 1:>4} {r['signal']:>5} {r['sym']:>8} ¥{r['close']:>7.2f} {r['score']:>8.3f} {ret20_str:>8} {rsi_str:>6} {flow_str:>10}")
     
     # 统计
@@ -266,6 +266,8 @@ signal_output = {
 
 if len(top) > 0:
     for _, r in top.iterrows():
+        flow_raw = r.get('total_net_5d', 0)
+        flow_yi = round(float(flow_raw) / 1e4, 2) if not pd.isna(flow_raw) else 0
         signal_output['top'].append({
             'rank': _ + 1,
             'sym': r['sym'],
@@ -274,6 +276,7 @@ if len(top) > 0:
             'signal': r['signal'],
             'ret20': round(float(r.get('ret20', 0)), 4),
             'rsi': round(float(r.get('rsi_14', 50)), 1),
+            'fund_flow_5d': flow_yi,  # 5日资金净流入(亿)
         })
 
 os.makedirs('signals/cn', exist_ok=True)

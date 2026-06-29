@@ -1,0 +1,832 @@
+[
+  {
+    "symbol": "CROX",
+    "date": "2026-03-31",
+    "stockPrice": 83.02,
+    "numberOfShares": 50282000,
+    "marketCapitalization": 4174411640,
+    "minusCashAndCashEquivalents": 130881000,
+    "addTotalDebt": 1725444000,
+    "enterpriseValue": 5768974640
+  },
+  {
+    "symbol": "CROX",
+    "date": "2025-12-31",
+    "stockPrice": 85.52,
+    "numberOfShares": 51356000,
+    "marketCapitalization": 4391965120,
+    "minusCashAndCashEquivalents": 130354000,
+    "addTotalDebt": 1613849000,
+    "enterpriseValue": 5875460120
+  },
+  {
+    "symbol": "CROX",
+    "date": "2025-09-30",
+    "stockPrice": 83.55,
+    "numberOfShares": 53641000,
+    "marketCapitalization": 4481705550,
+    "minusCashAndCashEquivalents": 153970000,
+    "addTotalDebt": 1705888000,
+    "enterpriseValue": 6033623550
+  },
+  {
+    "symbol": "CROX",
+    "date": "2025-06-30",
+    "stockPrice": 101.28,
+    "numberOfShares": 55783000,
+    "marketCapitalization": 5649702240,
+    "minusCashAndCashEquivalents": 200611000,
+    "addTotalDebt": 1773579000,
+    "enterpriseValue": 7222670240
+  },
+  {
+    "symbol": "CROX",
+    "date": "2025-03-31",
+    "stockPrice": 106.2,
+    "numberOfShares": 56110000,
+    "marketCapitalization": 5958882000,
+    "minusCashAndCashEquivalents": 166460000,
+    "addTotalDebt": 1862702000,
+    "enterpriseValue": 7655124000
+  },
+  {
+    "symbol": "CROX",
+    "date": "2024-12-31",
+    "stockPrice": 109.53,
+    "numberOfShares": 57615000,
+    "marketCapitalization": 6310570950,
+    "minusCashAndCashEquivalents": 180485000,
+    "addTotalDebt": 1701296000,
+    "enterpriseValue": 7831381950
+  },
+  {
+    "symbol": "CROX",
+    "date": "2024-09-30",
+    "stockPrice": 144.81,
+    "numberOfShares": 59046000,
+    "marketCapitalization": 8550451260,
+    "minusCashAndCashEquivalents": 186124000,
+    "addTotalDebt": 1774007000,
+    "enterpriseValue": 10138334260
+  },
+  {
+    "symbol": "CROX",
+    "date": "2024-06-30",
+    "stockPrice": 147.75,
+    "numberOfShares": 60320000,
+    "marketCapitalization": 8912280000,
+    "minusCashAndCashEquivalents": 167736000,
+    "addTotalDebt": 1870596000,
+    "enterpriseValue": 10615140000
+  },
+  {
+    "symbol": "CROX",
+    "date": "2024-03-31",
+    "stockPrice": 145.75,
+    "numberOfShares": 60564000,
+    "marketCapitalization": 8827203000,
+    "minusCashAndCashEquivalents": 159288000,
+    "addTotalDebt": 2057695000,
+    "enterpriseValue": 10725610000
+  },
+  {
+    "symbol": "CROX",
+    "date": "2023-12-31",
+    "stockPrice": 93.41,
+    "numberOfShares": 60543000,
+    "marketCapitalization": 5655321630,
+    "minusCashAndCashEquivalents": 149290000,
+    "addTotalDebt": 1996360000,
+    "enterpriseValue": 7502391630
+  },
+  {
+    "symbol": "CROX",
+    "date": "2023-09-30",
+    "stockPrice": 88.23,
+    "numberOfShares": 61143000,
+    "marketCapitalization": 5394646890,
+    "minusCashAndCashEquivalents": 127322000,
+    "addTotalDebt": 2286689000,
+    "enterpriseValue": 7554013890
+  },
+  {
+    "symbol": "CROX",
+    "date": "2023-06-30",
+    "stockPrice": 112.44,
+    "numberOfShares": 62037000,
+    "marketCapitalization": 6975440280,
+    "minusCashAndCashEquivalents": 166237000,
+    "addTotalDebt": 2289229000,
+    "enterpriseValue": 9098432280
+  },
+  {
+    "symbol": "CROX",
+    "date": "2023-03-31",
+    "stockPrice": 126.44,
+    "numberOfShares": 61836000,
+    "marketCapitalization": 7818543840,
+    "minusCashAndCashEquivalents": 125689000,
+    "addTotalDebt": 2550635000,
+    "enterpriseValue": 10243489840
+  },
+  {
+    "symbol": "CROX",
+    "date": "2022-12-31",
+    "stockPrice": 108.43,
+    "numberOfShares": 61747000,
+    "marketCapitalization": 6695227210,
+    "minusCashAndCashEquivalents": 191631000,
+    "addTotalDebt": 2594964000,
+    "enterpriseValue": 9098560210
+  },
+  {
+    "symbol": "CROX",
+    "date": "2022-09-30",
+    "stockPrice": 68.66,
+    "numberOfShares": 61693000,
+    "marketCapitalization": 4235841380,
+    "minusCashAndCashEquivalents": 142973000,
+    "addTotalDebt": 2896264000,
+    "enterpriseValue": 6989132380
+  },
+  {
+    "symbol": "CROX",
+    "date": "2022-06-30",
+    "stockPrice": 48.67,
+    "numberOfShares": 61590000,
+    "marketCapitalization": 2997585300,
+    "minusCashAndCashEquivalents": 187384000,
+    "addTotalDebt": 3036479000,
+    "enterpriseValue": 5846680300
+  },
+  {
+    "symbol": "CROX",
+    "date": "2022-03-31",
+    "stockPrice": 76.4,
+    "numberOfShares": 59823000,
+    "marketCapitalization": 4570477200,
+    "minusCashAndCashEquivalents": 172003000,
+    "addTotalDebt": 3106908000,
+    "enterpriseValue": 7505382200
+  },
+  {
+    "symbol": "CROX",
+    "date": "2021-12-31",
+    "stockPrice": 128.22,
+    "numberOfShares": 58847000,
+    "marketCapitalization": 7545362340,
+    "minusCashAndCashEquivalents": 213262000,
+    "addTotalDebt": 963559000,
+    "enterpriseValue": 8295659340
+  },
+  {
+    "symbol": "CROX",
+    "date": "2021-09-30",
+    "stockPrice": 143.48,
+    "numberOfShares": 62033000,
+    "marketCapitalization": 8900494840,
+    "minusCashAndCashEquivalents": 438013000,
+    "addTotalDebt": 889077000,
+    "enterpriseValue": 9351558840
+  },
+  {
+    "symbol": "CROX",
+    "date": "2021-06-30",
+    "stockPrice": 116.52,
+    "numberOfShares": 63595000,
+    "marketCapitalization": 7410089400,
+    "minusCashAndCashEquivalents": 199322000,
+    "addTotalDebt": 594661000,
+    "enterpriseValue": 7805428400
+  },
+  {
+    "symbol": "CROX",
+    "date": "2021-03-31",
+    "stockPrice": 80.45,
+    "numberOfShares": 65458000,
+    "marketCapitalization": 5266096100,
+    "minusCashAndCashEquivalents": 257341999,
+    "addTotalDebt": 555251000,
+    "enterpriseValue": 5564005101
+  },
+  {
+    "symbol": "CROX",
+    "date": "2020-12-31",
+    "stockPrice": 62.66,
+    "numberOfShares": 66729000,
+    "marketCapitalization": 4181239140,
+    "minusCashAndCashEquivalents": 137344000,
+    "addTotalDebt": 373465000,
+    "enterpriseValue": 4417360140
+  },
+  {
+    "symbol": "CROX",
+    "date": "2020-09-30",
+    "stockPrice": 42.73,
+    "numberOfShares": 67473000,
+    "marketCapitalization": 2883121290,
+    "minusCashAndCashEquivalents": 125127000,
+    "addTotalDebt": 340090000,
+    "enterpriseValue": 3098084290
+  },
+  {
+    "symbol": "CROX",
+    "date": "2020-06-30",
+    "stockPrice": 36.82,
+    "numberOfShares": 67416000,
+    "marketCapitalization": 2482257120,
+    "minusCashAndCashEquivalents": 153060000,
+    "addTotalDebt": 466055000,
+    "enterpriseValue": 2795252120
+  },
+  {
+    "symbol": "CROX",
+    "date": "2020-03-31",
+    "stockPrice": 16.99,
+    "numberOfShares": 67931000,
+    "marketCapitalization": 1154147690,
+    "minusCashAndCashEquivalents": 108633000,
+    "addTotalDebt": 552165000,
+    "enterpriseValue": 1597679690
+  },
+  {
+    "symbol": "CROX",
+    "date": "2019-12-31",
+    "stockPrice": 41.89,
+    "numberOfShares": 68441000,
+    "marketCapitalization": 2866993490,
+    "minusCashAndCashEquivalents": 109753000,
+    "addTotalDebt": 393733000,
+    "enterpriseValue": 3150973490
+  },
+  {
+    "symbol": "CROX",
+    "date": "2019-09-30",
+    "stockPrice": 27.76,
+    "numberOfShares": 69097000,
+    "marketCapitalization": 1918132720,
+    "minusCashAndCashEquivalents": 89378000,
+    "addTotalDebt": 374118000,
+    "enterpriseValue": 2202872720
+  },
+  {
+    "symbol": "CROX",
+    "date": "2019-06-30",
+    "stockPrice": 20.42,
+    "numberOfShares": 70936000,
+    "marketCapitalization": 1448513120,
+    "minusCashAndCashEquivalents": 109627000,
+    "addTotalDebt": 384723000,
+    "enterpriseValue": 1723609120
+  },
+  {
+    "symbol": "CROX",
+    "date": "2019-03-31",
+    "stockPrice": 26.81,
+    "numberOfShares": 73009000,
+    "marketCapitalization": 1957371290,
+    "minusCashAndCashEquivalents": 88211000,
+    "addTotalDebt": 384673000,
+    "enterpriseValue": 2253833290
+  },
+  {
+    "symbol": "CROX",
+    "date": "2018-12-31",
+    "stockPrice": 25.98,
+    "numberOfShares": 69010000,
+    "marketCapitalization": 1792879800,
+    "minusCashAndCashEquivalents": 125313000,
+    "addTotalDebt": 120000000,
+    "enterpriseValue": 1787566800
+  },
+  {
+    "symbol": "CROX",
+    "date": "2018-09-30",
+    "stockPrice": 21.03,
+    "numberOfShares": 67821000,
+    "marketCapitalization": 1426275630,
+    "minusCashAndCashEquivalents": 204954000,
+    "addTotalDebt": 11000,
+    "enterpriseValue": 1221332630
+  },
+  {
+    "symbol": "CROX",
+    "date": "2018-06-30",
+    "stockPrice": 17.61,
+    "numberOfShares": 68153000,
+    "marketCapitalization": 1200174330,
+    "minusCashAndCashEquivalents": 173555000,
+    "addTotalDebt": 15000,
+    "enterpriseValue": 1026634330
+  },
+  {
+    "symbol": "CROX",
+    "date": "2018-03-31",
+    "stockPrice": 16.25,
+    "numberOfShares": 68705000,
+    "marketCapitalization": 1116456250,
+    "minusCashAndCashEquivalents": 104312000,
+    "addTotalDebt": 281000,
+    "enterpriseValue": 1012425250
+  },
+  {
+    "symbol": "CROX",
+    "date": "2017-12-31",
+    "stockPrice": 12.64,
+    "numberOfShares": 69470000,
+    "marketCapitalization": 878100800,
+    "minusCashAndCashEquivalents": 174272000,
+    "addTotalDebt": 676000,
+    "enterpriseValue": 704504800
+  },
+  {
+    "symbol": "CROX",
+    "date": "2017-09-30",
+    "stockPrice": 9.7,
+    "numberOfShares": 71895000,
+    "marketCapitalization": 697381500,
+    "minusCashAndCashEquivalents": 180364000,
+    "addTotalDebt": 1105000,
+    "enterpriseValue": 518122500
+  },
+  {
+    "symbol": "CROX",
+    "date": "2017-06-30",
+    "stockPrice": 7.71,
+    "numberOfShares": 73953000,
+    "marketCapitalization": 570177630,
+    "minusCashAndCashEquivalents": 159423000,
+    "addTotalDebt": 1762000,
+    "enterpriseValue": 412516630
+  },
+  {
+    "symbol": "CROX",
+    "date": "2017-03-31",
+    "stockPrice": 7.07,
+    "numberOfShares": 73810000,
+    "marketCapitalization": 521836700,
+    "minusCashAndCashEquivalents": 91423000,
+    "addTotalDebt": 4502000,
+    "enterpriseValue": 434915700
+  },
+  {
+    "symbol": "CROX",
+    "date": "2016-12-31",
+    "stockPrice": 6.86,
+    "numberOfShares": 74136666,
+    "marketCapitalization": 508577528,
+    "minusCashAndCashEquivalents": 150099000,
+    "addTotalDebt": 2378000,
+    "enterpriseValue": 360856528
+  },
+  {
+    "symbol": "CROX",
+    "date": "2016-09-30",
+    "stockPrice": 8.3,
+    "numberOfShares": 73493000,
+    "marketCapitalization": 609991900,
+    "minusCashAndCashEquivalents": 150216000,
+    "addTotalDebt": 3620000,
+    "enterpriseValue": 463395900
+  },
+  {
+    "symbol": "CROX",
+    "date": "2016-06-30",
+    "stockPrice": 11.28,
+    "numberOfShares": 90269231,
+    "marketCapitalization": 1018236925,
+    "minusCashAndCashEquivalents": 146662000,
+    "addTotalDebt": 5322000,
+    "enterpriseValue": 876896925
+  },
+  {
+    "symbol": "CROX",
+    "date": "2016-03-31",
+    "stockPrice": 9.62,
+    "numberOfShares": 73087000,
+    "marketCapitalization": 703096940,
+    "minusCashAndCashEquivalents": 89080000,
+    "addTotalDebt": 13559000,
+    "enterpriseValue": 627575940
+  },
+  {
+    "symbol": "CROX",
+    "date": "2015-12-31",
+    "stockPrice": 10.24,
+    "numberOfShares": 73209901,
+    "marketCapitalization": 749669386,
+    "minusCashAndCashEquivalents": 143341000,
+    "addTotalDebt": 6399000,
+    "enterpriseValue": 612727386
+  },
+  {
+    "symbol": "CROX",
+    "date": "2015-09-30",
+    "stockPrice": 12.93,
+    "numberOfShares": 74300000,
+    "marketCapitalization": 960327500,
+    "minusCashAndCashEquivalents": 168466000,
+    "addTotalDebt": 7733000,
+    "enterpriseValue": 799594500
+  },
+  {
+    "symbol": "CROX",
+    "date": "2015-06-30",
+    "stockPrice": 14.71,
+    "numberOfShares": 88090909,
+    "marketCapitalization": 1295817271,
+    "minusCashAndCashEquivalents": 197279000,
+    "addTotalDebt": 9041000,
+    "enterpriseValue": 1107579271
+  },
+  {
+    "symbol": "CROX",
+    "date": "2015-03-31",
+    "stockPrice": 11.81,
+    "numberOfShares": 77825000,
+    "marketCapitalization": 919113250,
+    "minusCashAndCashEquivalents": 180698000,
+    "addTotalDebt": 10358000,
+    "enterpriseValue": 748773250
+  },
+  {
+    "symbol": "CROX",
+    "date": "2014-12-31",
+    "stockPrice": 12.49,
+    "numberOfShares": 80900000,
+    "marketCapitalization": 1010441000,
+    "minusCashAndCashEquivalents": 267512000,
+    "addTotalDebt": 11669000,
+    "enterpriseValue": 754598000
+  },
+  {
+    "symbol": "CROX",
+    "date": "2014-09-30",
+    "stockPrice": 12.58,
+    "numberOfShares": 100075000,
+    "marketCapitalization": 1258943500,
+    "minusCashAndCashEquivalents": 350371000,
+    "addTotalDebt": 12973000,
+    "enterpriseValue": 921545500
+  },
+  {
+    "symbol": "CROX",
+    "date": "2014-06-30",
+    "stockPrice": 15.03,
+    "numberOfShares": 102753000,
+    "marketCapitalization": 1544377590,
+    "minusCashAndCashEquivalents": 408953000,
+    "addTotalDebt": 14474000,
+    "enterpriseValue": 1149898590
+  },
+  {
+    "symbol": "CROX",
+    "date": "2014-03-31",
+    "stockPrice": 15.6,
+    "numberOfShares": 91750000,
+    "marketCapitalization": 1431300000,
+    "minusCashAndCashEquivalents": 411806000,
+    "addTotalDebt": 15551000,
+    "enterpriseValue": 1035045000
+  },
+  {
+    "symbol": "CROX",
+    "date": "2013-12-31",
+    "stockPrice": 15.92,
+    "numberOfShares": 88070000,
+    "marketCapitalization": 1402074400,
+    "minusCashAndCashEquivalents": 317144000,
+    "addTotalDebt": 16846000,
+    "enterpriseValue": 1101776400
+  },
+  {
+    "symbol": "CROX",
+    "date": "2013-09-30",
+    "stockPrice": 13.6,
+    "numberOfShares": 88109000,
+    "marketCapitalization": 1198282400,
+    "minusCashAndCashEquivalents": 332491000,
+    "addTotalDebt": 13607000,
+    "enterpriseValue": 879398400
+  },
+  {
+    "symbol": "CROX",
+    "date": "2013-06-30",
+    "stockPrice": 16.76,
+    "numberOfShares": 88072500,
+    "marketCapitalization": 1475654737,
+    "minusCashAndCashEquivalents": 289354000,
+    "addTotalDebt": 9930000,
+    "enterpriseValue": 1196230737
+  },
+  {
+    "symbol": "CROX",
+    "date": "2013-03-31",
+    "stockPrice": 14.81,
+    "numberOfShares": 87760606,
+    "marketCapitalization": 1299734574,
+    "minusCashAndCashEquivalents": 232673000,
+    "addTotalDebt": 10488000,
+    "enterpriseValue": 1077549574
+  },
+  {
+    "symbol": "CROX",
+    "date": "2012-12-31",
+    "stockPrice": 14.39,
+    "numberOfShares": 90175000,
+    "marketCapitalization": 1297618250,
+    "minusCashAndCashEquivalents": 294348000,
+    "addTotalDebt": 14578000,
+    "enterpriseValue": 1017848250
+  },
+  {
+    "symbol": "CROX",
+    "date": "2012-09-30",
+    "stockPrice": 16.12,
+    "numberOfShares": 90160000,
+    "marketCapitalization": 1453379200,
+    "minusCashAndCashEquivalents": 312580000,
+    "addTotalDebt": 28000,
+    "enterpriseValue": 1140827200
+  },
+  {
+    "symbol": "CROX",
+    "date": "2012-06-30",
+    "stockPrice": 16.15,
+    "numberOfShares": 90476471,
+    "marketCapitalization": 1461195006,
+    "minusCashAndCashEquivalents": 278827000,
+    "addTotalDebt": 61000,
+    "enterpriseValue": 1182429006
+  },
+  {
+    "symbol": "CROX",
+    "date": "2012-03-31",
+    "stockPrice": 20.92,
+    "numberOfShares": 88581250,
+    "marketCapitalization": 1853119750,
+    "minusCashAndCashEquivalents": 206603000,
+    "addTotalDebt": 24326000,
+    "enterpriseValue": 1670842750
+  },
+  {
+    "symbol": "CROX",
+    "date": "2011-12-31",
+    "stockPrice": 14.77,
+    "numberOfShares": 88581250,
+    "marketCapitalization": 1308345062,
+    "minusCashAndCashEquivalents": 257587000,
+    "addTotalDebt": 1118000,
+    "enterpriseValue": 1051876062
+  },
+  {
+    "symbol": "CROX",
+    "date": "2011-09-30",
+    "stockPrice": 23.68,
+    "numberOfShares": 88844000,
+    "marketCapitalization": 2103825920,
+    "minusCashAndCashEquivalents": 220388000,
+    "addTotalDebt": 1232000,
+    "enterpriseValue": 1884669920
+  },
+  {
+    "symbol": "CROX",
+    "date": "2011-06-30",
+    "stockPrice": 25.75,
+    "numberOfShares": 89526000,
+    "marketCapitalization": 2305294500,
+    "minusCashAndCashEquivalents": 179979000,
+    "addTotalDebt": 3257000,
+    "enterpriseValue": 2128572500
+  },
+  {
+    "symbol": "CROX",
+    "date": "2011-03-31",
+    "stockPrice": 17.84,
+    "numberOfShares": 89600000,
+    "marketCapitalization": 1598464000,
+    "minusCashAndCashEquivalents": 115499000,
+    "addTotalDebt": 7305000,
+    "enterpriseValue": 1490270000
+  },
+  {
+    "symbol": "CROX",
+    "date": "2010-12-31",
+    "stockPrice": 17.12,
+    "numberOfShares": 86460427,
+    "marketCapitalization": 1480202510,
+    "minusCashAndCashEquivalents": 145583000,
+    "addTotalDebt": 1901000,
+    "enterpriseValue": 1336520510
+  },
+  {
+    "symbol": "CROX",
+    "date": "2010-09-30",
+    "stockPrice": 13,
+    "numberOfShares": 85788000,
+    "marketCapitalization": 1115244000,
+    "minusCashAndCashEquivalents": 143057000,
+    "addTotalDebt": 3096000,
+    "enterpriseValue": 975283000
+  },
+  {
+    "symbol": "CROX",
+    "date": "2010-06-30",
+    "stockPrice": 10.58,
+    "numberOfShares": 84835000,
+    "marketCapitalization": 897554300,
+    "minusCashAndCashEquivalents": 96867000,
+    "addTotalDebt": 2990000,
+    "enterpriseValue": 803677300
+  },
+  {
+    "symbol": "CROX",
+    "date": "2010-03-31",
+    "stockPrice": 8.78,
+    "numberOfShares": 84485728,
+    "marketCapitalization": 741784691,
+    "minusCashAndCashEquivalents": 53800000,
+    "addTotalDebt": 2977000,
+    "enterpriseValue": 690961691
+  },
+  {
+    "symbol": "CROX",
+    "date": "2009-12-31",
+    "stockPrice": 5.75,
+    "numberOfShares": 84486000,
+    "marketCapitalization": 485794500,
+    "minusCashAndCashEquivalents": 77343000,
+    "addTotalDebt": 1552000,
+    "enterpriseValue": 410003500
+  },
+  {
+    "symbol": "CROX",
+    "date": "2009-09-30",
+    "stockPrice": 6.65,
+    "numberOfShares": 85514385,
+    "marketCapitalization": 568670660,
+    "minusCashAndCashEquivalents": 76021000,
+    "addTotalDebt": 2019000,
+    "enterpriseValue": 494668660
+  },
+  {
+    "symbol": "CROX",
+    "date": "2009-06-30",
+    "stockPrice": 3.4,
+    "numberOfShares": 84882000,
+    "marketCapitalization": 288598800,
+    "minusCashAndCashEquivalents": 77477000,
+    "addTotalDebt": 17732000,
+    "enterpriseValue": 228853800
+  },
+  {
+    "symbol": "CROX",
+    "date": "2009-03-31",
+    "stockPrice": 1.19,
+    "numberOfShares": 84393000,
+    "marketCapitalization": 100427670,
+    "minusCashAndCashEquivalents": 50895000,
+    "addTotalDebt": 19947000,
+    "enterpriseValue": 69479670
+  },
+  {
+    "symbol": "CROX",
+    "date": "2008-12-31",
+    "stockPrice": 1.24,
+    "numberOfShares": 83007000,
+    "marketCapitalization": 102928680,
+    "minusCashAndCashEquivalents": 51665000,
+    "addTotalDebt": 22431000,
+    "enterpriseValue": 73694680
+  },
+  {
+    "symbol": "CROX",
+    "date": "2008-09-30",
+    "stockPrice": 3.58,
+    "numberOfShares": 82854000,
+    "marketCapitalization": 296617320,
+    "minusCashAndCashEquivalents": 56580000,
+    "addTotalDebt": 19836000,
+    "enterpriseValue": 259873320
+  },
+  {
+    "symbol": "CROX",
+    "date": "2008-06-30",
+    "stockPrice": 8.01,
+    "numberOfShares": 82718731,
+    "marketCapitalization": 662577035,
+    "minusCashAndCashEquivalents": 51230000,
+    "addTotalDebt": 36963000,
+    "enterpriseValue": 648310035
+  },
+  {
+    "symbol": "CROX",
+    "date": "2008-03-31",
+    "stockPrice": 17.47,
+    "numberOfShares": 82489000,
+    "marketCapitalization": 1441082830,
+    "minusCashAndCashEquivalents": 29593000,
+    "addTotalDebt": 42789000,
+    "enterpriseValue": 1454278830
+  },
+  {
+    "symbol": "CROX",
+    "date": "2007-12-31",
+    "stockPrice": 36.81,
+    "numberOfShares": 81950000,
+    "marketCapitalization": 3016579500,
+    "minusCashAndCashEquivalents": 36335000,
+    "addTotalDebt": 7116000,
+    "enterpriseValue": 2987360500
+  },
+  {
+    "symbol": "CROX",
+    "date": "2007-09-30",
+    "stockPrice": 66.64,
+    "numberOfShares": 81544000,
+    "marketCapitalization": 5434092160,
+    "minusCashAndCashEquivalents": 55659000,
+    "addTotalDebt": 215000,
+    "enterpriseValue": 5378648160
+  },
+  {
+    "symbol": "CROX",
+    "date": "2007-06-30",
+    "stockPrice": 43,
+    "numberOfShares": 80254000,
+    "marketCapitalization": 3450922000,
+    "minusCashAndCashEquivalents": 61262000,
+    "addTotalDebt": 351000,
+    "enterpriseValue": 3390011000
+  },
+  {
+    "symbol": "CROX",
+    "date": "2007-03-31",
+    "stockPrice": 23.63,
+    "numberOfShares": 79264000,
+    "marketCapitalization": 1872612000,
+    "minusCashAndCashEquivalents": 38577000,
+    "addTotalDebt": 837000,
+    "enterpriseValue": 1834872000
+  },
+  {
+    "symbol": "CROX",
+    "date": "2006-12-31",
+    "stockPrice": 21.6,
+    "numberOfShares": 79264000,
+    "marketCapitalization": 1712102400,
+    "minusCashAndCashEquivalents": 42656000,
+    "addTotalDebt": 657000,
+    "enterpriseValue": 1670103400
+  },
+  {
+    "symbol": "CROX",
+    "date": "2006-09-30",
+    "stockPrice": 16.98,
+    "numberOfShares": 155093000,
+    "marketCapitalization": 2632703675,
+    "minusCashAndCashEquivalents": 57880000,
+    "addTotalDebt": 2367000,
+    "enterpriseValue": 2577190675
+  },
+  {
+    "symbol": "CROX",
+    "date": "2006-06-30",
+    "stockPrice": 12.58,
+    "numberOfShares": 153148000,
+    "marketCapitalization": 1925836100,
+    "minusCashAndCashEquivalents": 67017000,
+    "addTotalDebt": 2606000,
+    "enterpriseValue": 1861425100
+  },
+  {
+    "symbol": "CROX",
+    "date": "2006-03-31",
+    "stockPrice": 12.58,
+    "numberOfShares": 65795486,
+    "marketCapitalization": 827378236,
+    "minusCashAndCashEquivalents": 67861000,
+    "addTotalDebt": 3002000,
+    "enterpriseValue": 762519236
+  },
+  {
+    "symbol": "CROX",
+    "date": "2005-12-31",
+    "stockPrice": 14.28,
+    "numberOfShares": 101319936,
+    "marketCapitalization": 1446342086,
+    "minusCashAndCashEquivalents": 4787000,
+    "addTotalDebt": 11716000,
+    "enterpriseValue": 1453271086
+  },
+  {
+    "symbol": "CROX",
+    "date": "2005-09-30",
+    "stockPrice": 14.28,
+    "numberOfShares": 51424080,
+    "marketCapitalization": 734078742,
+    "minusCashAndCashEquivalents": 4320000,
+    "addTotalDebt": 10298000,
+    "enterpriseValue": 740056742
+  }
+]

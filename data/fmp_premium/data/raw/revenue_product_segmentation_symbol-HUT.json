@@ -1,0 +1,49 @@
+[
+  {
+    "symbol": "HUT",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "CAD",
+    "date": "2025-12-31",
+    "data": {
+      "Digital Infrastructure": 9577000,
+      "High Performance Computing, Colocation And Cloud": 202329000,
+      "Power": 23212000
+    }
+  },
+  {
+    "symbol": "HUT",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "CAD",
+    "date": "2024-12-31",
+    "data": {
+      "Digital Infrastructure": 25519000,
+      "High Performance Computing, Colocation And Cloud": 80705000,
+      "Service, Other": 8530000,
+      "Power": 56602000
+    }
+  },
+  {
+    "symbol": "HUT",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "CAD",
+    "date": "2022-12-31",
+    "data": {
+      "Digital assets mined": 133040000,
+      "Hosting fees": 751000
+    }
+  },
+  {
+    "symbol": "HUT",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "CAD",
+    "date": "2021-12-31",
+    "data": {
+      "Digital assets mined": 165397736,
+      "Hosting fees": 8376243
+    }
+  }
+]

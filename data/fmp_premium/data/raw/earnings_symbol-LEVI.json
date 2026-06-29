@@ -1,0 +1,794 @@
+[
+  {
+    "symbol": "LEVI",
+    "date": "2026-07-09",
+    "epsActual": null,
+    "epsEstimated": 0.24,
+    "revenueActual": null,
+    "revenueEstimated": 1515941000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2026-04-07",
+    "epsActual": 0.42,
+    "epsEstimated": 0.37,
+    "revenueActual": 1742500000,
+    "revenueEstimated": 1648847000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2026-01-28",
+    "epsActual": 0.41,
+    "epsEstimated": 0.39,
+    "revenueActual": 1765800000,
+    "revenueEstimated": 1711929000,
+    "lastUpdated": "2026-04-28"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2025-10-09",
+    "epsActual": 0.34,
+    "epsEstimated": 0.306,
+    "revenueActual": 1543400000,
+    "revenueEstimated": 1498656184,
+    "lastUpdated": "2026-01-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2025-07-10",
+    "epsActual": 0.22,
+    "epsEstimated": 0.1341,
+    "revenueActual": 1446000000,
+    "revenueEstimated": 1369704604,
+    "lastUpdated": "2025-10-10"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2025-04-07",
+    "epsActual": 0.38,
+    "epsEstimated": 0.2781,
+    "revenueActual": 1526800000,
+    "revenueEstimated": 1539091669,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2025-01-29",
+    "epsActual": 0.5,
+    "epsEstimated": 0.48,
+    "revenueActual": 1839700000,
+    "revenueEstimated": 1728356580,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2024-10-02",
+    "epsActual": 0.33,
+    "epsEstimated": 0.3116,
+    "revenueActual": 1516800000,
+    "revenueEstimated": 1553546783,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2024-06-26",
+    "epsActual": 0.16,
+    "epsEstimated": 0.1076,
+    "revenueActual": 1358800000,
+    "revenueEstimated": 1451635353,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2024-04-03",
+    "epsActual": 0.26,
+    "epsEstimated": 0.2067,
+    "revenueActual": 1480200000,
+    "revenueEstimated": 1547377093,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2024-01-25",
+    "epsActual": 0.44,
+    "epsEstimated": 0.42,
+    "revenueActual": 1642300000,
+    "revenueEstimated": 1658480000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2023-10-05",
+    "epsActual": 0.28,
+    "epsEstimated": 0.27,
+    "revenueActual": 1511000000,
+    "revenueEstimated": 1664110000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2023-07-06",
+    "epsActual": 0.04,
+    "epsEstimated": 0.0295,
+    "revenueActual": 1336800000,
+    "revenueEstimated": 1337230000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2023-04-06",
+    "epsActual": 0.34,
+    "epsEstimated": 0.32,
+    "revenueActual": 1688900000,
+    "revenueEstimated": 1622710000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2023-01-25",
+    "epsActual": 0.34,
+    "epsEstimated": 0.29,
+    "revenueActual": 1588739000,
+    "revenueEstimated": 1573684686,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2022-10-06",
+    "epsActual": 0.4,
+    "epsEstimated": 0.37,
+    "revenueActual": 1517200000,
+    "revenueEstimated": 1578300203,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2022-07-07",
+    "epsActual": 0.29,
+    "epsEstimated": 0.23,
+    "revenueActual": 1471100000,
+    "revenueEstimated": 1432801737,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2022-04-06",
+    "epsActual": 0.46,
+    "epsEstimated": 0.42,
+    "revenueActual": 1591600000,
+    "revenueEstimated": 1547401703,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2022-01-26",
+    "epsActual": 0.41,
+    "epsEstimated": 0.4,
+    "revenueActual": 1684781000,
+    "revenueEstimated": 1678380000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2021-10-06",
+    "epsActual": 0.48,
+    "epsEstimated": 0.37,
+    "revenueActual": 1497582000,
+    "revenueEstimated": 1675940000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2021-07-08",
+    "epsActual": 0.23,
+    "epsEstimated": 0.09,
+    "revenueActual": 1275971000,
+    "revenueEstimated": 1209860000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2021-04-08",
+    "epsActual": 0.34,
+    "epsEstimated": 0.25,
+    "revenueActual": 1305602000,
+    "revenueEstimated": 1250210000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2021-01-27",
+    "epsActual": 0.2,
+    "epsEstimated": 0.14,
+    "revenueActual": 1385856000,
+    "revenueEstimated": 1343180000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2020-10-06",
+    "epsActual": 0.08,
+    "epsEstimated": -0.22,
+    "revenueActual": 1063085000,
+    "revenueEstimated": 2923483750,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2020-07-07",
+    "epsActual": -0.48,
+    "epsEstimated": -0.5,
+    "revenueActual": 497542000,
+    "revenueEstimated": 507907458,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2020-04-07",
+    "epsActual": 0.4,
+    "epsEstimated": 0.35,
+    "revenueActual": 1506126000,
+    "revenueEstimated": 1355513399,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2020-01-30",
+    "epsActual": 0.26,
+    "epsEstimated": 0.21,
+    "revenueActual": 1568608000,
+    "revenueEstimated": 1266952615,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2019-10-08",
+    "epsActual": 0.31,
+    "epsEstimated": 0.28,
+    "revenueActual": 1447081000,
+    "revenueEstimated": 1307040903,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2019-07-09",
+    "epsActual": 0.17,
+    "epsEstimated": 0.14,
+    "revenueActual": 1312940000,
+    "revenueEstimated": 1004012941,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2019-04-09",
+    "epsActual": 0.38,
+    "epsEstimated": null,
+    "revenueActual": 1434458000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2019-02-05",
+    "epsActual": 0.2484,
+    "epsEstimated": null,
+    "revenueActual": 1591860000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2018-10-09",
+    "epsActual": 0.3309,
+    "epsEstimated": null,
+    "revenueActual": 1394153000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2018-07-10",
+    "epsActual": 0.1906,
+    "epsEstimated": null,
+    "revenueActual": 1245742000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2018-04-10",
+    "epsActual": -0.04835,
+    "epsEstimated": null,
+    "revenueActual": 1343685000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2018-02-07",
+    "epsActual": 0.3085,
+    "epsEstimated": null,
+    "revenueActual": 1465793000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2017-10-10",
+    "epsActual": 0.2238,
+    "epsEstimated": null,
+    "revenueActual": 1268391000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2017-07-11",
+    "epsActual": 0.04454,
+    "epsEstimated": null,
+    "revenueActual": 1067855000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2017-04-11",
+    "epsActual": 0.1529,
+    "epsEstimated": null,
+    "revenueActual": 1101991000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2017-02-09",
+    "epsActual": 0.2567,
+    "epsEstimated": null,
+    "revenueActual": 1299541000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2016-10-11",
+    "epsActual": 0.25,
+    "epsEstimated": null,
+    "revenueActual": 1185111000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2016-07-11",
+    "epsActual": 0.07813,
+    "epsEstimated": null,
+    "revenueActual": 1011587000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2016-04-12",
+    "epsActual": 0.1674,
+    "epsEstimated": null,
+    "revenueActual": 1056500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2016-02-11",
+    "epsActual": 0.2701,
+    "epsEstimated": null,
+    "revenueActual": 1285226000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2015-10-13",
+    "epsActual": 0.1479,
+    "epsEstimated": null,
+    "revenueActual": 1142012000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2015-07-10",
+    "epsActual": 0.02973,
+    "epsEstimated": null,
+    "revenueActual": 1012180000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2015-04-14",
+    "epsActual": 0.09763,
+    "epsEstimated": null,
+    "revenueActual": 1055075000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2015-02-12",
+    "epsActual": -0.01595,
+    "epsEstimated": null,
+    "revenueActual": 1388026000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2014-10-06",
+    "epsActual": 0.1352,
+    "epsEstimated": null,
+    "revenueActual": 1154129000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2014-07-08",
+    "epsActual": 0.03064,
+    "epsEstimated": null,
+    "revenueActual": 1081847000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2014-04-08",
+    "epsActual": 0.1334,
+    "epsEstimated": null,
+    "revenueActual": 1129990000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2014-02-11",
+    "epsActual": 0.04526,
+    "epsEstimated": null,
+    "revenueActual": 1294831000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2013-10-04",
+    "epsActual": 0.1523,
+    "epsEstimated": null,
+    "revenueActual": 1141284000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2013-07-09",
+    "epsActual": 0.1287,
+    "epsEstimated": null,
+    "revenueActual": 1098898000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2013-04-09",
+    "epsActual": 0.2862,
+    "epsEstimated": null,
+    "revenueActual": 1146678000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2013-02-07",
+    "epsActual": 0.1419,
+    "epsEstimated": null,
+    "revenueActual": 1297219000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2012-10-09",
+    "epsActual": 0.1379,
+    "epsEstimated": null,
+    "revenueActual": 1100856000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2012-07-10",
+    "epsActual": 0.06436,
+    "epsEstimated": null,
+    "revenueActual": 1047157000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2012-04-10",
+    "epsActual": 0.00024,
+    "epsEstimated": null,
+    "revenueActual": 1165000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2012-02-07",
+    "epsActual": 1.1,
+    "epsEstimated": null,
+    "revenueActual": 1343966000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2011-07-12",
+    "epsActual": 0.562,
+    "epsEstimated": null,
+    "revenueActual": 1074400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2011-04-12",
+    "epsActual": 1.56,
+    "epsEstimated": null,
+    "revenueActual": 1120693000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2010-10-12",
+    "epsActual": 0.755,
+    "epsEstimated": null,
+    "revenueActual": 1090448000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2010-07-13",
+    "epsActual": -0.38555,
+    "epsEstimated": null,
+    "revenueActual": 957959000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2010-04-13",
+    "epsActual": 1.51,
+    "epsEstimated": null,
+    "revenueActual": 1016007000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2010-02-09",
+    "epsActual": 0.738,
+    "epsEstimated": null,
+    "revenueActual": 1144471000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2009-10-08",
+    "epsActual": 1.45,
+    "epsEstimated": null,
+    "revenueActual": 1040400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2009-07-14",
+    "epsActual": -0.11067,
+    "epsEstimated": null,
+    "revenueActual": 886519000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2009-04-21",
+    "epsActual": 1.67,
+    "epsEstimated": null,
+    "revenueActual": 1238681000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2009-04-14",
+    "epsActual": 2,
+    "epsEstimated": null,
+    "revenueActual": 951464000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2008-10-02",
+    "epsActual": 1.85,
+    "epsEstimated": null,
+    "revenueActual": 1088384000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2008-07-08",
+    "epsActual": 0.01879,
+    "epsEstimated": null,
+    "revenueActual": 915090000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2008-04-08",
+    "epsActual": 2.6,
+    "epsEstimated": null,
+    "revenueActual": 1060920000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2008-02-12",
+    "epsActual": 7.16,
+    "epsEstimated": null,
+    "revenueActual": 1255929000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2007-10-10",
+    "epsActual": 1.63,
+    "epsEstimated": null,
+    "revenueActual": 1031702000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2007-07-10",
+    "epsActual": 1.23,
+    "epsEstimated": null,
+    "revenueActual": 997323000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2007-04-10",
+    "epsActual": 2.32,
+    "epsEstimated": null,
+    "revenueActual": 1016299000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2007-02-13",
+    "epsActual": 2.57,
+    "epsEstimated": null,
+    "revenueActual": 1236247000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2006-10-10",
+    "epsActual": 1.32,
+    "epsEstimated": null,
+    "revenueActual": 1003379000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2006-07-11",
+    "epsActual": 1.08,
+    "epsEstimated": null,
+    "revenueActual": 936661000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2006-04-11",
+    "epsActual": 1.44,
+    "epsEstimated": null,
+    "revenueActual": 940191000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2006-02-14",
+    "epsActual": 1.17,
+    "epsEstimated": null,
+    "revenueActual": 1088655000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2005-07-12",
+    "epsActual": 0.718,
+    "epsEstimated": null,
+    "revenueActual": 943670000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2005-04-12",
+    "epsActual": 1.27,
+    "epsEstimated": null,
+    "revenueActual": 1005872000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2004-10-12",
+    "epsActual": 1.25,
+    "epsEstimated": null,
+    "revenueActual": 994626000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2004-07-13",
+    "epsActual": 0.1508,
+    "epsEstimated": null,
+    "revenueActual": 958833000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2004-04-13",
+    "epsActual": -0.06349,
+    "epsEstimated": null,
+    "revenueActual": 962304000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2004-03-08",
+    "epsActual": -0.11566,
+    "epsEstimated": null,
+    "revenueActual": 1083748000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "LEVI",
+    "date": "2003-04-08",
+    "epsActual": -0.65695,
+    "epsEstimated": null,
+    "revenueActual": 875088000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  }
+]

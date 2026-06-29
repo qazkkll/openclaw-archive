@@ -1,0 +1,956 @@
+[
+  {
+    "symbol": "ASX",
+    "date": "2026-07-30",
+    "epsActual": null,
+    "epsEstimated": 0.2323,
+    "revenueActual": null,
+    "revenueEstimated": 5905069000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2026-04-29",
+    "epsActual": 0.2,
+    "epsEstimated": 0.1703,
+    "revenueActual": 5500506000,
+    "revenueEstimated": 5316348000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2026-02-05",
+    "epsActual": 0.21,
+    "epsEstimated": 0.2,
+    "revenueActual": 5616358000,
+    "revenueEstimated": 5616341000,
+    "lastUpdated": "2026-05-05"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2025-10-30",
+    "epsActual": 0.16,
+    "epsEstimated": 0.1376,
+    "revenueActual": 5625615139,
+    "revenueEstimated": 5442768233,
+    "lastUpdated": "2026-01-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2025-07-31",
+    "epsActual": 0.11,
+    "epsEstimated": 0.1433,
+    "revenueActual": 5196663045,
+    "revenueEstimated": 4791767589,
+    "lastUpdated": "2025-10-31"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2025-04-30",
+    "epsActual": 0.1,
+    "epsEstimated": 0.1077,
+    "revenueActual": 4467485564,
+    "revenueEstimated": 4384950250,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2025-02-13",
+    "epsActual": 0.13,
+    "epsEstimated": 0.1268,
+    "revenueActual": 4941587856,
+    "revenueEstimated": 4938963692,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2024-10-31",
+    "epsActual": 0.13,
+    "epsEstimated": 0.129,
+    "revenueActual": 4958807283,
+    "revenueEstimated": 4857387197,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2024-07-25",
+    "epsActual": 0.11,
+    "epsEstimated": 0.09705,
+    "revenueActual": 4314844722,
+    "revenueEstimated": 4218369307,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2024-04-25",
+    "epsActual": 0.08,
+    "epsEstimated": 0.1,
+    "revenueActual": 4141063146,
+    "revenueEstimated": 4186933726,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2024-02-01",
+    "epsActual": 0.13,
+    "epsEstimated": 0.12,
+    "revenueActual": 5214500932,
+    "revenueEstimated": 5011336522,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2023-10-26",
+    "epsActual": 0.13,
+    "epsEstimated": 0.1294,
+    "revenueActual": 4784649928,
+    "revenueEstimated": 4932125125,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2023-07-27",
+    "epsActual": 0.12,
+    "epsEstimated": 0.0966,
+    "revenueActual": 4379628662,
+    "revenueEstimated": 4360571247,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2023-04-27",
+    "epsActual": 0.09,
+    "epsEstimated": 0.07967,
+    "revenueActual": 4296431629,
+    "revenueEstimated": 4311690144,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2023-02-09",
+    "epsActual": 0.23,
+    "epsEstimated": 0.21,
+    "revenueActual": 5882231065,
+    "revenueEstimated": 5278520571.402,
+    "lastUpdated": "2024-10-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2022-10-27",
+    "epsActual": 0.26,
+    "epsEstimated": 0.2416,
+    "revenueActual": 5946403212,
+    "revenueEstimated": 5903396233,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2022-07-28",
+    "epsActual": 0.25,
+    "epsEstimated": 0.2,
+    "revenueActual": 5403719219,
+    "revenueEstimated": 3730206750,
+    "lastUpdated": "2024-10-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2022-04-28",
+    "epsActual": 0.21,
+    "epsEstimated": 0.17,
+    "revenueActual": 5043264782,
+    "revenueEstimated": 3422916058.798,
+    "lastUpdated": "2024-10-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2022-02-10",
+    "epsActual": 0.5,
+    "epsEstimated": 0.2334,
+    "revenueActual": 6243888867,
+    "revenueEstimated": 6001716655,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2021-10-28",
+    "epsActual": 0.23,
+    "epsEstimated": null,
+    "revenueActual": 5414347661,
+    "revenueEstimated": 5409500000,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2021-07-29",
+    "epsActual": 0.16,
+    "epsEstimated": 0.14,
+    "revenueActual": 4546023924,
+    "revenueEstimated": 4528220000,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2021-04-28",
+    "epsActual": 0.14,
+    "epsEstimated": 0.12,
+    "revenueActual": 4198257039,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2021-02-04",
+    "epsActual": 0.16,
+    "epsEstimated": null,
+    "revenueActual": 5294736066,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2020-10-30",
+    "epsActual": 0.11,
+    "epsEstimated": null,
+    "revenueActual": 4264107470,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2020-07-31",
+    "epsActual": 0.11,
+    "epsEstimated": 0.1,
+    "revenueActual": 3651163076,
+    "revenueEstimated": 3000617100,
+    "lastUpdated": "2024-10-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2020-04-29",
+    "epsActual": 0.06,
+    "epsEstimated": 0.06,
+    "revenueActual": 3225047982,
+    "revenueEstimated": 3018067000,
+    "lastUpdated": "2024-10-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2020-02-07",
+    "epsActual": 0.1,
+    "epsEstimated": 0.09,
+    "revenueActual": 3792145456,
+    "revenueEstimated": 3197078222.205,
+    "lastUpdated": "2024-10-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2019-10-30",
+    "epsActual": 0.09,
+    "epsEstimated": 0.06,
+    "revenueActual": 3795464894,
+    "revenueEstimated": 3006520275,
+    "lastUpdated": "2024-10-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2019-07-31",
+    "epsActual": 0.04,
+    "epsEstimated": 0.04,
+    "revenueActual": 2926004039,
+    "revenueEstimated": 2812971000,
+    "lastUpdated": "2024-10-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2019-04-30",
+    "epsActual": 0.03,
+    "epsEstimated": 0.06,
+    "revenueActual": 2880044250,
+    "revenueEstimated": 3718832850,
+    "lastUpdated": "2024-10-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2019-01-30",
+    "epsActual": 0.08,
+    "epsEstimated": 0.09,
+    "revenueActual": 3837335414,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2018-10-30",
+    "epsActual": 0.09,
+    "epsEstimated": 0.08,
+    "revenueActual": 3519748929,
+    "revenueEstimated": 2918568625,
+    "lastUpdated": "2024-10-30"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2018-07-27",
+    "epsActual": 0.18,
+    "epsEstimated": null,
+    "revenueActual": 2766323320,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2018-04-27",
+    "epsActual": 0.04,
+    "epsEstimated": null,
+    "revenueActual": 2229221668,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2018-02-01",
+    "epsActual": 0.1,
+    "epsEstimated": null,
+    "revenueActual": 2782660146,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2017-10-27",
+    "epsActual": 0.1,
+    "epsEstimated": null,
+    "revenueActual": 2434304726,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2017-07-28",
+    "epsActual": 0.12,
+    "epsEstimated": 0.06,
+    "revenueActual": 2169790429,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2017-04-28",
+    "epsActual": 0.04,
+    "epsEstimated": null,
+    "revenueActual": 2193132745,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2017-01-26",
+    "epsActual": 0.11,
+    "epsEstimated": null,
+    "revenueActual": 2382777006,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2016-10-27",
+    "epsActual": 0.08,
+    "epsEstimated": null,
+    "revenueActual": 2316935302,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2016-07-29",
+    "epsActual": 0.06,
+    "epsEstimated": 0.07,
+    "revenueActual": 1939723285,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2016-04-29",
+    "epsActual": 0.06,
+    "epsEstimated": 0.06,
+    "revenueActual": 1930049804,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2016-01-29",
+    "epsActual": 0.07,
+    "epsEstimated": null,
+    "revenueActual": 2292126320,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2015-10-29",
+    "epsActual": 0.09,
+    "epsEstimated": null,
+    "revenueActual": 2214531445,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2015-07-30",
+    "epsActual": 0.06,
+    "epsEstimated": 0.08,
+    "revenueActual": 2281805371,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2015-04-30",
+    "epsActual": 0.07,
+    "epsEstimated": null,
+    "revenueActual": 2090419797,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2015-02-06",
+    "epsActual": 0.13,
+    "epsEstimated": null,
+    "revenueActual": 2495254911,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2014-11-07",
+    "epsActual": 0.11,
+    "epsEstimated": null,
+    "revenueActual": 2186295868,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2014-07-30",
+    "epsActual": 0.09,
+    "epsEstimated": null,
+    "revenueActual": 1958219689,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2014-04-25",
+    "epsActual": 0.06,
+    "epsEstimated": null,
+    "revenueActual": 1805131920,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2014-02-07",
+    "epsActual": 0.1,
+    "epsEstimated": null,
+    "revenueActual": 2194042148,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2013-10-30",
+    "epsActual": 0.08,
+    "epsEstimated": null,
+    "revenueActual": 1290537221,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2013-07-26",
+    "epsActual": 0.06,
+    "epsEstimated": null,
+    "revenueActual": 1696459126,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2013-04-26",
+    "epsActual": 0.04,
+    "epsEstimated": null,
+    "revenueActual": 1620340560,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2013-01-30",
+    "epsActual": 0.08,
+    "epsEstimated": 0.06,
+    "revenueActual": 1862738067,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2012-10-26",
+    "epsActual": 0.06,
+    "epsEstimated": 0.06,
+    "revenueActual": 1669417316,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2012-06-30",
+    "epsActual": 0.05642,
+    "epsEstimated": null,
+    "revenueActual": 1085886923,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2012-03-31",
+    "epsActual": 0.03661,
+    "epsEstimated": null,
+    "revenueActual": 1458408537,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2011-12-31",
+    "epsActual": 0.04665,
+    "epsEstimated": null,
+    "revenueActual": 1541060336,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2011-09-30",
+    "epsActual": 0.05956,
+    "epsEstimated": null,
+    "revenueActual": 1530503601,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2011-06-30",
+    "epsActual": 0.06529,
+    "epsEstimated": null,
+    "revenueActual": 1118431373,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2011-03-31",
+    "epsActual": 0.06983,
+    "epsEstimated": null,
+    "revenueActual": 1565135160,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2010-12-31",
+    "epsActual": 0.0883,
+    "epsEstimated": null,
+    "revenueActual": 1821898677,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2010-09-30",
+    "epsActual": 0.0918,
+    "epsEstimated": null,
+    "revenueActual": 1645957444,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2010-06-30",
+    "epsActual": 0.06809,
+    "epsEstimated": null,
+    "revenueActual": 1439027512,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2010-03-31",
+    "epsActual": 0.06272,
+    "epsEstimated": null,
+    "revenueActual": 1181267488,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2009-12-31",
+    "epsActual": 0.05925,
+    "epsEstimated": null,
+    "revenueActual": 818545465,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2009-10-30",
+    "epsActual": 0.05,
+    "epsEstimated": null,
+    "revenueActual": 782258179,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2009-06-30",
+    "epsActual": 0.02562,
+    "epsEstimated": null,
+    "revenueActual": 634239494,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2009-03-31",
+    "epsActual": -0.02585,
+    "epsEstimated": null,
+    "revenueActual": 400382742,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2008-12-31",
+    "epsActual": 0.00419,
+    "epsEstimated": null,
+    "revenueActual": 567160526,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2008-09-30",
+    "epsActual": 0.03637,
+    "epsEstimated": null,
+    "revenueActual": 799215029,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2008-06-30",
+    "epsActual": 0.03949,
+    "epsEstimated": null,
+    "revenueActual": 840765101,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2008-03-31",
+    "epsActual": 0.03875,
+    "epsEstimated": null,
+    "revenueActual": 809643450,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2007-12-31",
+    "epsActual": 0.05947,
+    "epsEstimated": null,
+    "revenueActual": 904109358,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2007-09-30",
+    "epsActual": 0.06586,
+    "epsEstimated": null,
+    "revenueActual": 839207401,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2007-06-30",
+    "epsActual": 0.04153,
+    "epsEstimated": null,
+    "revenueActual": 711723813,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2007-03-31",
+    "epsActual": 0.02575,
+    "epsEstimated": null,
+    "revenueActual": 637468047,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2006-12-31",
+    "epsActual": 0.02895,
+    "epsEstimated": null,
+    "revenueActual": 691946898,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2006-09-30",
+    "epsActual": 0.06488,
+    "epsEstimated": null,
+    "revenueActual": 809473444,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2006-06-30",
+    "epsActual": 0.1337,
+    "epsEstimated": null,
+    "revenueActual": 807329304,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2006-03-31",
+    "epsActual": 0.0654,
+    "epsEstimated": null,
+    "revenueActual": 762379384,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2005-12-31",
+    "epsActual": 0.04803,
+    "epsEstimated": null,
+    "revenueActual": 747812680,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2005-09-30",
+    "epsActual": 0.02607,
+    "epsEstimated": null,
+    "revenueActual": 686863083,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2005-06-30",
+    "epsActual": -0.15119,
+    "epsEstimated": null,
+    "revenueActual": 574924405,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2005-03-31",
+    "epsActual": -0.0021,
+    "epsEstimated": null,
+    "revenueActual": 567399694,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2004-12-31",
+    "epsActual": -0.02291,
+    "epsEstimated": null,
+    "revenueActual": 677113863,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2004-09-30",
+    "epsActual": 0.03225,
+    "epsEstimated": null,
+    "revenueActual": 670810530,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2004-06-30",
+    "epsActual": 0.03589,
+    "epsEstimated": null,
+    "revenueActual": 625584321,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2004-03-31",
+    "epsActual": 0.02973,
+    "epsEstimated": null,
+    "revenueActual": 540740415,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2003-12-31",
+    "epsActual": 0.04081,
+    "epsEstimated": null,
+    "revenueActual": 579577696,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2003-09-30",
+    "epsActual": 0.01097,
+    "epsEstimated": null,
+    "revenueActual": 455953688,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2003-06-30",
+    "epsActual": 0.00693,
+    "epsEstimated": null,
+    "revenueActual": 401426079,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2003-03-31",
+    "epsActual": -0.00707,
+    "epsEstimated": null,
+    "revenueActual": 364612004,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2002-12-31",
+    "epsActual": -0.00092,
+    "epsEstimated": null,
+    "revenueActual": 409506684,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2002-09-30",
+    "epsActual": 0.0064,
+    "epsEstimated": null,
+    "revenueActual": 372007790,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2002-06-30",
+    "epsActual": 0.00136,
+    "epsEstimated": null,
+    "revenueActual": 339064784,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2002-03-31",
+    "epsActual": -0.00474,
+    "epsEstimated": null,
+    "revenueActual": 315716038,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2001-12-31",
+    "epsActual": -0.02423,
+    "epsEstimated": null,
+    "revenueActual": 362854807,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2001-09-30",
+    "epsActual": -0.01273,
+    "epsEstimated": null,
+    "revenueActual": 251472101,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2001-06-30",
+    "epsActual": -0.01193,
+    "epsEstimated": null,
+    "revenueActual": 253254621,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2001-03-31",
+    "epsActual": 0.00731,
+    "epsEstimated": null,
+    "revenueActual": 354147191,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2000-12-31",
+    "epsActual": 0.02712,
+    "epsEstimated": null,
+    "revenueActual": 421328777,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2000-09-30",
+    "epsActual": 0.03422,
+    "epsEstimated": null,
+    "revenueActual": 437591891,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2000-06-30",
+    "epsActual": 0.04527,
+    "epsEstimated": null,
+    "revenueActual": 370822172,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  },
+  {
+    "symbol": "ASX",
+    "date": "2000-03-31",
+    "epsActual": 0.04408,
+    "epsEstimated": null,
+    "revenueActual": 366624014,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-10-07"
+  }
+]

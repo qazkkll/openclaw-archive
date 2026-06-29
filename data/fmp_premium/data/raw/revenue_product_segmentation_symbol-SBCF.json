@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "SBCF",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "Deposit Account": 9429000,
+      "Mortgage Banking": 14696000,
+      "Wealth Management Income": 7507000
+    }
+  },
+  {
+    "symbol": "SBCF",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "Deposit Account": 11529000,
+      "Fiduciary and Trust": 4443000,
+      "Mortgage Banking": 6490000
+    }
+  }
+]

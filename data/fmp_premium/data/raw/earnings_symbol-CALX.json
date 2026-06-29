@@ -1,0 +1,641 @@
+[
+  {
+    "symbol": "CALX",
+    "date": "2026-07-20",
+    "epsActual": null,
+    "epsEstimated": 0.41,
+    "revenueActual": null,
+    "revenueEstimated": 289950000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2026-04-21",
+    "epsActual": 0.4,
+    "epsEstimated": 0.38,
+    "revenueActual": 280000000,
+    "revenueEstimated": 277480900,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2026-01-28",
+    "epsActual": 0.39,
+    "epsEstimated": 0.38,
+    "revenueActual": 272400000,
+    "revenueEstimated": 270132600,
+    "lastUpdated": "2026-04-28"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2025-10-29",
+    "epsActual": 0.44,
+    "epsEstimated": 0.34,
+    "revenueActual": 265437000,
+    "revenueEstimated": 251040570,
+    "lastUpdated": "2026-01-29"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2025-07-21",
+    "epsActual": 0.33,
+    "epsEstimated": 0.2,
+    "revenueActual": 241882000,
+    "revenueEstimated": 246213430,
+    "lastUpdated": "2025-10-21"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2025-04-21",
+    "epsActual": 0.19,
+    "epsEstimated": 0.13,
+    "revenueActual": 220242000,
+    "revenueEstimated": 211110330,
+    "lastUpdated": "2025-07-07"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2025-01-29",
+    "epsActual": 0.08,
+    "epsEstimated": 0.07,
+    "revenueActual": 206124000,
+    "revenueEstimated": 203908430,
+    "lastUpdated": "2025-04-29"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2024-10-28",
+    "epsActual": 0.13,
+    "epsEstimated": 0.09,
+    "revenueActual": 200945000,
+    "revenueEstimated": 201060000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2024-07-22",
+    "epsActual": 0.09,
+    "epsEstimated": 0.07,
+    "revenueActual": 198139000,
+    "revenueEstimated": 200810000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2024-04-22",
+    "epsActual": 0.21,
+    "epsEstimated": 0.2,
+    "revenueActual": 226310000,
+    "revenueEstimated": 232760000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2024-01-29",
+    "epsActual": 0.43,
+    "epsEstimated": 0.37,
+    "revenueActual": 264733999,
+    "revenueEstimated": 264390000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2023-10-23",
+    "epsActual": 0.45,
+    "epsEstimated": 0.36,
+    "revenueActual": 263835000,
+    "revenueEstimated": 263230000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2023-07-19",
+    "epsActual": 0.36,
+    "epsEstimated": 0.31,
+    "revenueActual": 261016000,
+    "revenueEstimated": 259620000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2023-04-19",
+    "epsActual": 0.31,
+    "epsEstimated": 0.29,
+    "revenueActual": 250008000,
+    "revenueEstimated": 245590000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2023-01-25",
+    "epsActual": 0.34,
+    "epsEstimated": 0.28,
+    "revenueActual": 244503000,
+    "revenueEstimated": 241198222,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2022-10-24",
+    "epsActual": 0.34,
+    "epsEstimated": 0.24,
+    "revenueActual": 236334000,
+    "revenueEstimated": 215233333,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2022-07-25",
+    "epsActual": 0.22,
+    "epsEstimated": 0.19,
+    "revenueActual": 202042000,
+    "revenueEstimated": 196019625,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2022-04-25",
+    "epsActual": 0.22,
+    "epsEstimated": 0.2,
+    "revenueActual": 184948000,
+    "revenueEstimated": 177645250,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2022-01-26",
+    "epsActual": 0.26,
+    "epsEstimated": 0.24,
+    "revenueActual": 176419000,
+    "revenueEstimated": 173918143,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2021-10-25",
+    "epsActual": 0.35,
+    "epsEstimated": 0.29,
+    "revenueActual": 172231000,
+    "revenueEstimated": 167590000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2021-07-26",
+    "epsActual": 0.38,
+    "epsEstimated": 0.27,
+    "revenueActual": 168670000,
+    "revenueEstimated": 167590000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2021-04-27",
+    "epsActual": 0.39,
+    "epsEstimated": 0.19,
+    "revenueActual": 162074000,
+    "revenueEstimated": 150460000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2021-01-27",
+    "epsActual": 0.45,
+    "epsEstimated": 0.33,
+    "revenueActual": 170026000,
+    "revenueEstimated": 162297544,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2020-10-20",
+    "epsActual": 0.4,
+    "epsEstimated": 0.19,
+    "revenueActual": 150508000,
+    "revenueEstimated": 132338118,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2020-07-21",
+    "epsActual": 0.14,
+    "epsEstimated": 0.06,
+    "revenueActual": 119023000,
+    "revenueEstimated": 98193973,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2020-04-28",
+    "epsActual": -0.04,
+    "epsEstimated": -0.07,
+    "revenueActual": 101682000,
+    "revenueEstimated": 203364000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2020-01-28",
+    "epsActual": 0.09,
+    "epsEstimated": 0.08,
+    "revenueActual": 120191000,
+    "revenueEstimated": 106836444,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2019-10-22",
+    "epsActual": 0.06,
+    "epsEstimated": 0.04,
+    "revenueActual": 114485000,
+    "revenueEstimated": 76323333,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2019-07-23",
+    "epsActual": -0.01,
+    "epsEstimated": -0.00583,
+    "revenueActual": 100304000,
+    "revenueEstimated": 401216000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2019-05-01",
+    "epsActual": -0.08,
+    "epsEstimated": -0.06,
+    "revenueActual": 89350000,
+    "revenueEstimated": 111687500,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2019-02-05",
+    "epsActual": 0.13,
+    "epsEstimated": 0.11,
+    "revenueActual": 115516000,
+    "revenueEstimated": 97744307,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2018-11-05",
+    "epsActual": 0.06,
+    "epsEstimated": 0.015,
+    "revenueActual": 114699000,
+    "revenueEstimated": 38233333,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2018-08-07",
+    "epsActual": 0.01,
+    "epsEstimated": 0.00444,
+    "revenueActual": 111702000,
+    "revenueEstimated": 446800000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2018-05-08",
+    "epsActual": -0.2,
+    "epsEstimated": -0.18,
+    "revenueActual": 99403000,
+    "revenueEstimated": 89459999,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2018-02-13",
+    "epsActual": -0.15,
+    "epsEstimated": -0.13,
+    "revenueActual": 137899000,
+    "revenueEstimated": 119513333,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2017-11-07",
+    "epsActual": -0.28,
+    "epsEstimated": -0.24,
+    "revenueActual": 128827000,
+    "revenueEstimated": 110399999,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2017-08-08",
+    "epsActual": -0.3,
+    "epsEstimated": -0.16,
+    "revenueActual": 126123000,
+    "revenueEstimated": 63050000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2017-05-09",
+    "epsActual": -0.57,
+    "epsEstimated": -0.52,
+    "revenueActual": 117518000,
+    "revenueEstimated": 107192982,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2017-02-14",
+    "epsActual": -0.14,
+    "epsEstimated": -0.01143,
+    "revenueActual": 131800000,
+    "revenueEstimated": 9414285.71,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2016-11-01",
+    "epsActual": 0.12,
+    "epsEstimated": 0.1,
+    "revenueActual": 121187000,
+    "revenueEstimated": 90900000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2016-08-02",
+    "epsActual": -0.04,
+    "epsEstimated": -0.06,
+    "revenueActual": 107425000,
+    "revenueEstimated": 161100000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2016-05-03",
+    "epsActual": -0.09,
+    "epsEstimated": -0.12,
+    "revenueActual": 98375000,
+    "revenueEstimated": 131200000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2016-02-09",
+    "epsActual": -0.03,
+    "epsEstimated": -0.024,
+    "revenueActual": 104999000,
+    "revenueEstimated": 140000000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2015-10-29",
+    "epsActual": 0.16,
+    "epsEstimated": 0.08,
+    "revenueActual": 112297000,
+    "revenueEstimated": 56150000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2015-07-28",
+    "epsActual": 0.06,
+    "epsEstimated": 0.01588,
+    "revenueActual": 99129000,
+    "revenueEstimated": 49550000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2015-04-28",
+    "epsActual": -0.07,
+    "epsEstimated": -0.06,
+    "revenueActual": 91038000,
+    "revenueEstimated": 77999999,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2015-02-03",
+    "epsActual": 0.13,
+    "epsEstimated": 0.13,
+    "revenueActual": 111633000,
+    "revenueEstimated": 111600000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2014-10-29",
+    "epsActual": 0.09,
+    "epsEstimated": 0.09,
+    "revenueActual": 105769000,
+    "revenueEstimated": 94044444,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2014-07-29",
+    "epsActual": 0.1,
+    "epsEstimated": 0.01444,
+    "revenueActual": 98005000,
+    "revenueEstimated": 9800000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2014-04-29",
+    "epsActual": -0.03,
+    "epsEstimated": -0.09,
+    "revenueActual": 85820000,
+    "revenueEstimated": 286000000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2014-02-11",
+    "epsActual": 0.03,
+    "epsEstimated": 0.05,
+    "revenueActual": 94003000,
+    "revenueEstimated": 94000000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2013-10-29",
+    "epsActual": 0.2,
+    "epsEstimated": 0.14,
+    "revenueActual": 103628000,
+    "revenueEstimated": 72520000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2013-07-30",
+    "epsActual": 0.1,
+    "epsEstimated": 0.06,
+    "revenueActual": 94439000,
+    "revenueEstimated": 77879999,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2013-04-25",
+    "epsActual": 0.06,
+    "epsEstimated": null,
+    "revenueActual": 90548000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2013-02-05",
+    "epsActual": 0.06,
+    "epsEstimated": 0.024,
+    "revenueActual": 91424000,
+    "revenueEstimated": 30466666,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2012-10-25",
+    "epsActual": 0.04,
+    "epsEstimated": 0.00667,
+    "revenueActual": 81301000,
+    "revenueEstimated": 20325000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2012-07-31",
+    "epsActual": 0.04,
+    "epsEstimated": 0.04,
+    "revenueActual": 78928000,
+    "revenueEstimated": 78900000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2012-05-01",
+    "epsActual": 0.01,
+    "epsEstimated": null,
+    "revenueActual": 78565000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2012-02-08",
+    "epsActual": 0.08,
+    "epsEstimated": 0.07,
+    "revenueActual": 91585000,
+    "revenueEstimated": 80150000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2011-10-20",
+    "epsActual": 0.07,
+    "epsEstimated": 0.08,
+    "revenueActual": 83655000,
+    "revenueEstimated": 95657142,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2011-07-21",
+    "epsActual": 0.16,
+    "epsEstimated": 0.13,
+    "revenueActual": 97959000,
+    "revenueEstimated": 79625000,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2011-04-28",
+    "epsActual": 0.09,
+    "epsEstimated": 0.05,
+    "revenueActual": 71470000,
+    "revenueEstimated": 53088750,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2011-02-03",
+    "epsActual": 0.26,
+    "epsEstimated": 0.21,
+    "revenueActual": 91695000,
+    "revenueEstimated": 74065384,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2010-10-21",
+    "epsActual": 0.15,
+    "epsEstimated": 0.07,
+    "revenueActual": 75492000,
+    "revenueEstimated": 60062942,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2010-07-22",
+    "epsActual": 0.14,
+    "epsEstimated": 0.04,
+    "revenueActual": 71653000,
+    "revenueEstimated": 20485714,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2010-05-07",
+    "epsActual": -2.07018,
+    "epsEstimated": null,
+    "revenueActual": 48203000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2010-05-06",
+    "epsActual": -0.15,
+    "epsEstimated": -0.34,
+    "revenueActual": 88359000,
+    "revenueEstimated": 67625973,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2009-09-30",
+    "epsActual": -1.09749,
+    "epsEstimated": null,
+    "revenueActual": 59600000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2009-06-30",
+    "epsActual": -2.18412,
+    "epsEstimated": null,
+    "revenueActual": 47842000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2009-03-31",
+    "epsActual": -2.99627,
+    "epsEstimated": null,
+    "revenueActual": 37146000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-03-27"
+  },
+  {
+    "symbol": "CALX",
+    "date": "2008-12-31",
+    "epsActual": 0.07876,
+    "epsEstimated": null,
+    "revenueActual": 70665000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-03-27"
+  }
+]

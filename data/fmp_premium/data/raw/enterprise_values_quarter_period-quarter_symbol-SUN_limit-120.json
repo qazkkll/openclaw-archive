@@ -1,0 +1,612 @@
+[
+  {
+    "symbol": "SUN",
+    "date": "2026-03-31",
+    "stockPrice": 64.97,
+    "numberOfShares": 136888311,
+    "marketCapitalization": 8893633565,
+    "minusCashAndCashEquivalents": 718000000,
+    "addTotalDebt": 1495000000,
+    "enterpriseValue": 9670633565
+  },
+  {
+    "symbol": "SUN",
+    "date": "2025-12-31",
+    "stockPrice": 52.41,
+    "numberOfShares": 136658561,
+    "marketCapitalization": 7162275182,
+    "minusCashAndCashEquivalents": 891000000,
+    "addTotalDebt": 16110000000,
+    "enterpriseValue": 22381275182
+  },
+  {
+    "symbol": "SUN",
+    "date": "2025-09-30",
+    "stockPrice": 50.01,
+    "numberOfShares": 136436142,
+    "marketCapitalization": 6823171461,
+    "minusCashAndCashEquivalents": 3239000000,
+    "addTotalDebt": 10073000000,
+    "enterpriseValue": 13657171461
+  },
+  {
+    "symbol": "SUN",
+    "date": "2025-06-30",
+    "stockPrice": 53.59,
+    "numberOfShares": 136351000,
+    "marketCapitalization": 7307050090,
+    "minusCashAndCashEquivalents": 116000000,
+    "addTotalDebt": 8344000000,
+    "enterpriseValue": 15535050090
+  },
+  {
+    "symbol": "SUN",
+    "date": "2025-03-31",
+    "stockPrice": 58.06,
+    "numberOfShares": 136268000,
+    "marketCapitalization": 7911720080,
+    "minusCashAndCashEquivalents": 172000000,
+    "addTotalDebt": 8204000000,
+    "enterpriseValue": 15943720080
+  },
+  {
+    "symbol": "SUN",
+    "date": "2024-12-31",
+    "stockPrice": 51.44,
+    "numberOfShares": 127264000,
+    "marketCapitalization": 6546460160,
+    "minusCashAndCashEquivalents": 94000000,
+    "addTotalDebt": 7999000000,
+    "enterpriseValue": 14451460160
+  },
+  {
+    "symbol": "SUN",
+    "date": "2024-09-30",
+    "stockPrice": 53.68,
+    "numberOfShares": 135998435,
+    "marketCapitalization": 7300395990,
+    "minusCashAndCashEquivalents": 116000000,
+    "addTotalDebt": 7851000000,
+    "enterpriseValue": 15035395990
+  },
+  {
+    "symbol": "SUN",
+    "date": "2024-06-30",
+    "stockPrice": 56.35,
+    "numberOfShares": 117271408,
+    "marketCapitalization": 6608243840,
+    "minusCashAndCashEquivalents": 226000000,
+    "addTotalDebt": 7900000000,
+    "enterpriseValue": 14282243840
+  },
+  {
+    "symbol": "SUN",
+    "date": "2024-03-31",
+    "stockPrice": 59.99,
+    "numberOfShares": 84424748,
+    "marketCapitalization": 5064640632,
+    "minusCashAndCashEquivalents": 215000000,
+    "addTotalDebt": 4249000000,
+    "enterpriseValue": 9098640632
+  },
+  {
+    "symbol": "SUN",
+    "date": "2023-12-31",
+    "stockPrice": 59.93,
+    "numberOfShares": 84139599,
+    "marketCapitalization": 5042486168,
+    "minusCashAndCashEquivalents": 29000000,
+    "addTotalDebt": 4113000000,
+    "enterpriseValue": 9126486168
+  },
+  {
+    "symbol": "SUN",
+    "date": "2023-09-30",
+    "stockPrice": 48.95,
+    "numberOfShares": 84064445,
+    "marketCapitalization": 4114954582,
+    "minusCashAndCashEquivalents": 256000000,
+    "addTotalDebt": 4351000000,
+    "enterpriseValue": 8209954582
+  },
+  {
+    "symbol": "SUN",
+    "date": "2023-06-30",
+    "stockPrice": 43.56,
+    "numberOfShares": 84060866,
+    "marketCapitalization": 3661691322,
+    "minusCashAndCashEquivalents": 239000000,
+    "addTotalDebt": 4212000000,
+    "enterpriseValue": 7634691322
+  },
+  {
+    "symbol": "SUN",
+    "date": "2023-03-31",
+    "stockPrice": 43.89,
+    "numberOfShares": 84058716,
+    "marketCapitalization": 3689337045,
+    "minusCashAndCashEquivalents": 189000000,
+    "addTotalDebt": 4021000000,
+    "enterpriseValue": 7521337045
+  },
+  {
+    "symbol": "SUN",
+    "date": "2022-12-31",
+    "stockPrice": 43.1,
+    "numberOfShares": 83836166,
+    "marketCapitalization": 3613338754,
+    "minusCashAndCashEquivalents": 82000000,
+    "addTotalDebt": 4120000000,
+    "enterpriseValue": 7651338754
+  },
+  {
+    "symbol": "SUN",
+    "date": "2022-09-30",
+    "stockPrice": 38.97,
+    "numberOfShares": 83763064,
+    "marketCapitalization": 3264246604,
+    "minusCashAndCashEquivalents": 196000000,
+    "addTotalDebt": 3912000000,
+    "enterpriseValue": 6980246604
+  },
+  {
+    "symbol": "SUN",
+    "date": "2022-06-30",
+    "stockPrice": 37.25,
+    "numberOfShares": 83737613,
+    "marketCapitalization": 3119226084,
+    "minusCashAndCashEquivalents": 168000000,
+    "addTotalDebt": 4078000000,
+    "enterpriseValue": 7029226084
+  },
+  {
+    "symbol": "SUN",
+    "date": "2022-03-31",
+    "stockPrice": 40.84,
+    "numberOfShares": 83682902,
+    "marketCapitalization": 3417609717,
+    "minusCashAndCashEquivalents": 104000000,
+    "addTotalDebt": 4221000000,
+    "enterpriseValue": 7534609717
+  },
+  {
+    "symbol": "SUN",
+    "date": "2021-12-31",
+    "stockPrice": 40.83,
+    "numberOfShares": 83431830,
+    "marketCapitalization": 3406521618,
+    "minusCashAndCashEquivalents": 25000000,
+    "addTotalDebt": 3795000000,
+    "enterpriseValue": 7176521618
+  },
+  {
+    "symbol": "SUN",
+    "date": "2021-09-30",
+    "stockPrice": 37.32,
+    "numberOfShares": 83352123,
+    "marketCapitalization": 3110701230,
+    "minusCashAndCashEquivalents": 88000000,
+    "addTotalDebt": 3466000000,
+    "enterpriseValue": 6488701230
+  },
+  {
+    "symbol": "SUN",
+    "date": "2021-06-30",
+    "stockPrice": 37.7,
+    "numberOfShares": 83350567,
+    "marketCapitalization": 3142316375,
+    "minusCashAndCashEquivalents": 87000000,
+    "addTotalDebt": 3584000000,
+    "enterpriseValue": 6639316375
+  },
+  {
+    "symbol": "SUN",
+    "date": "2021-03-31",
+    "stockPrice": 31.84,
+    "numberOfShares": 83342828,
+    "marketCapitalization": 2653635643,
+    "minusCashAndCashEquivalents": 95000000,
+    "addTotalDebt": 3615000000,
+    "enterpriseValue": 6173635643
+  },
+  {
+    "symbol": "SUN",
+    "date": "2020-12-31",
+    "stockPrice": 28.78,
+    "numberOfShares": 83147345,
+    "marketCapitalization": 2392980589,
+    "minusCashAndCashEquivalents": 97000000,
+    "addTotalDebt": 3669000000,
+    "enterpriseValue": 5964980589
+  },
+  {
+    "symbol": "SUN",
+    "date": "2020-09-30",
+    "stockPrice": 24.39,
+    "numberOfShares": 83056365,
+    "marketCapitalization": 2025744742,
+    "minusCashAndCashEquivalents": 63000000,
+    "addTotalDebt": 3517000000,
+    "enterpriseValue": 5479744742
+  },
+  {
+    "symbol": "SUN",
+    "date": "2020-06-30",
+    "stockPrice": 22.83,
+    "numberOfShares": 83030286,
+    "marketCapitalization": 1895581429,
+    "minusCashAndCashEquivalents": 33000000,
+    "addTotalDebt": 3607000000,
+    "enterpriseValue": 5469581429
+  },
+  {
+    "symbol": "SUN",
+    "date": "2020-03-31",
+    "stockPrice": 15.64,
+    "numberOfShares": 83013768,
+    "marketCapitalization": 1298335331,
+    "minusCashAndCashEquivalents": 31000000,
+    "addTotalDebt": 3728000000,
+    "enterpriseValue": 4995335331
+  },
+  {
+    "symbol": "SUN",
+    "date": "2019-12-31",
+    "stockPrice": 30.6,
+    "numberOfShares": 82813411,
+    "marketCapitalization": 2534090376,
+    "minusCashAndCashEquivalents": 21000000,
+    "addTotalDebt": 3621000000,
+    "enterpriseValue": 6134090376
+  },
+  {
+    "symbol": "SUN",
+    "date": "2019-09-30",
+    "stockPrice": 31.45,
+    "numberOfShares": 82749644,
+    "marketCapitalization": 2602476303,
+    "minusCashAndCashEquivalents": 13000000,
+    "addTotalDebt": 3615000000,
+    "enterpriseValue": 6204476303
+  },
+  {
+    "symbol": "SUN",
+    "date": "2019-06-30",
+    "stockPrice": 31.43,
+    "numberOfShares": 82742323,
+    "marketCapitalization": 2600591211,
+    "minusCashAndCashEquivalents": 36000000,
+    "addTotalDebt": 3542000000,
+    "enterpriseValue": 6106591211
+  },
+  {
+    "symbol": "SUN",
+    "date": "2019-03-31",
+    "stockPrice": 31.46,
+    "numberOfShares": 82711188,
+    "marketCapitalization": 2602093974,
+    "minusCashAndCashEquivalents": 23000000,
+    "addTotalDebt": 3586000000,
+    "enterpriseValue": 6165093974
+  },
+  {
+    "symbol": "SUN",
+    "date": "2018-12-31",
+    "stockPrice": 27.19,
+    "numberOfShares": 82543312,
+    "marketCapitalization": 2244352653,
+    "minusCashAndCashEquivalents": 56000000,
+    "addTotalDebt": 2985000000,
+    "enterpriseValue": 5173352653
+  },
+  {
+    "symbol": "SUN",
+    "date": "2018-09-30",
+    "stockPrice": 29.77,
+    "numberOfShares": 82506279,
+    "marketCapitalization": 2456211925,
+    "minusCashAndCashEquivalents": 15000000,
+    "addTotalDebt": 2779000000,
+    "enterpriseValue": 5220211925
+  },
+  {
+    "symbol": "SUN",
+    "date": "2018-06-30",
+    "stockPrice": 24.96,
+    "numberOfShares": 82494976,
+    "marketCapitalization": 2059074600,
+    "minusCashAndCashEquivalents": 19000000,
+    "addTotalDebt": 2607000000,
+    "enterpriseValue": 4647074600
+  },
+  {
+    "symbol": "SUN",
+    "date": "2018-03-31",
+    "stockPrice": 25.51,
+    "numberOfShares": 89753950,
+    "marketCapitalization": 2289623264,
+    "minusCashAndCashEquivalents": 98000000,
+    "addTotalDebt": 2288000000,
+    "enterpriseValue": 4479623264
+  },
+  {
+    "symbol": "SUN",
+    "date": "2017-12-31",
+    "stockPrice": 28.4,
+    "numberOfShares": 99469643,
+    "marketCapitalization": 2824937861,
+    "minusCashAndCashEquivalents": 28000000,
+    "addTotalDebt": 4290000000,
+    "enterpriseValue": 7086937861
+  },
+  {
+    "symbol": "SUN",
+    "date": "2017-09-30",
+    "stockPrice": 31.1,
+    "numberOfShares": 99469643,
+    "marketCapitalization": 3093505897,
+    "minusCashAndCashEquivalents": 86000000,
+    "addTotalDebt": 4188000000,
+    "enterpriseValue": 7195505897
+  },
+  {
+    "symbol": "SUN",
+    "date": "2017-06-30",
+    "stockPrice": 30.61,
+    "numberOfShares": 99466424,
+    "marketCapitalization": 3044667238,
+    "minusCashAndCashEquivalents": 97000000,
+    "addTotalDebt": 4367000000,
+    "enterpriseValue": 7314667238
+  },
+  {
+    "symbol": "SUN",
+    "date": "2017-03-31",
+    "stockPrice": 24.17,
+    "numberOfShares": 98609608,
+    "marketCapitalization": 2383394225,
+    "minusCashAndCashEquivalents": 74000000,
+    "addTotalDebt": 4300000000,
+    "enterpriseValue": 6609394225
+  },
+  {
+    "symbol": "SUN",
+    "date": "2016-12-31",
+    "stockPrice": 26.89,
+    "numberOfShares": 95339786,
+    "marketCapitalization": 2563686845,
+    "minusCashAndCashEquivalents": 119000000,
+    "addTotalDebt": 4514000000,
+    "enterpriseValue": 6958686845
+  },
+  {
+    "symbol": "SUN",
+    "date": "2016-09-30",
+    "stockPrice": 29.01,
+    "numberOfShares": 95339786,
+    "marketCapitalization": 2765807191,
+    "minusCashAndCashEquivalents": 80565000,
+    "addTotalDebt": 4478440000,
+    "enterpriseValue": 7163682191
+  },
+  {
+    "symbol": "SUN",
+    "date": "2016-06-30",
+    "stockPrice": 29.95,
+    "numberOfShares": 95339786,
+    "marketCapitalization": 2855426590,
+    "minusCashAndCashEquivalents": 83175000,
+    "addTotalDebt": 4194955000,
+    "enterpriseValue": 6967206590
+  },
+  {
+    "symbol": "SUN",
+    "date": "2016-03-31",
+    "stockPrice": 33.13,
+    "numberOfShares": 87453333,
+    "marketCapitalization": 2897328922,
+    "minusCashAndCashEquivalents": 76529000,
+    "addTotalDebt": 4197736000,
+    "enterpriseValue": 7018535922
+  },
+  {
+    "symbol": "SUN",
+    "date": "2015-12-31",
+    "stockPrice": 39.61,
+    "numberOfShares": 54711462,
+    "marketCapitalization": 2167121009,
+    "minusCashAndCashEquivalents": 61783000,
+    "addTotalDebt": 1957615000,
+    "enterpriseValue": 4062953009
+  },
+  {
+    "symbol": "SUN",
+    "date": "2015-09-30",
+    "stockPrice": 33.85,
+    "numberOfShares": 54711462,
+    "marketCapitalization": 1851982988,
+    "minusCashAndCashEquivalents": 47773000,
+    "addTotalDebt": 2457209000,
+    "enterpriseValue": 4261418988
+  },
+  {
+    "symbol": "SUN",
+    "date": "2015-06-30",
+    "stockPrice": 45.3,
+    "numberOfShares": 35834095,
+    "marketCapitalization": 1623284503,
+    "minusCashAndCashEquivalents": 62771000,
+    "addTotalDebt": 1708125000,
+    "enterpriseValue": 3268638503
+  },
+  {
+    "symbol": "SUN",
+    "date": "2015-03-31",
+    "stockPrice": 51.35,
+    "numberOfShares": 35038613,
+    "marketCapitalization": 1799232777,
+    "minusCashAndCashEquivalents": 50971000,
+    "addTotalDebt": 869936000,
+    "enterpriseValue": 2618197777
+  },
+  {
+    "symbol": "SUN",
+    "date": "2014-12-31",
+    "stockPrice": 49.77,
+    "numberOfShares": 34684667,
+    "marketCapitalization": 1726255876,
+    "minusCashAndCashEquivalents": 67151000,
+    "addTotalDebt": 870518000,
+    "enterpriseValue": 2529622876
+  },
+  {
+    "symbol": "SUN",
+    "date": "2014-09-30",
+    "stockPrice": 55,
+    "numberOfShares": 21993235,
+    "marketCapitalization": 1209627925,
+    "minusCashAndCashEquivalents": 10601000,
+    "addTotalDebt": 273559000,
+    "enterpriseValue": 1472585925
+  },
+  {
+    "symbol": "SUN",
+    "date": "2014-06-30",
+    "stockPrice": 46.93,
+    "numberOfShares": 21985725,
+    "marketCapitalization": 1031790074,
+    "minusCashAndCashEquivalents": 6769000,
+    "addTotalDebt": 236301000,
+    "enterpriseValue": 1261322074
+  },
+  {
+    "symbol": "SUN",
+    "date": "2014-03-31",
+    "stockPrice": 35.15,
+    "numberOfShares": 21956797,
+    "marketCapitalization": 771781414,
+    "minusCashAndCashEquivalents": 5957000,
+    "addTotalDebt": 234068000,
+    "enterpriseValue": 999892414
+  },
+  {
+    "symbol": "SUN",
+    "date": "2013-12-31",
+    "stockPrice": 33.1,
+    "numberOfShares": 21953923,
+    "marketCapitalization": 726674851,
+    "minusCashAndCashEquivalents": 8150000,
+    "addTotalDebt": 186151000,
+    "enterpriseValue": 904675851
+  },
+  {
+    "symbol": "SUN",
+    "date": "2013-09-30",
+    "stockPrice": 30.12,
+    "numberOfShares": 21903107,
+    "marketCapitalization": 659721582,
+    "minusCashAndCashEquivalents": 17917000,
+    "addTotalDebt": 184747000,
+    "enterpriseValue": 826551582
+  },
+  {
+    "symbol": "SUN",
+    "date": "2013-06-30",
+    "stockPrice": 29.5,
+    "numberOfShares": 21878872,
+    "marketCapitalization": 645426724,
+    "minusCashAndCashEquivalents": 16488000,
+    "addTotalDebt": 181752000,
+    "enterpriseValue": 810690724
+  },
+  {
+    "symbol": "SUN",
+    "date": "2013-03-31",
+    "stockPrice": 32.15,
+    "numberOfShares": 21878872,
+    "marketCapitalization": 703405734,
+    "minusCashAndCashEquivalents": 9325000,
+    "addTotalDebt": 181759000,
+    "enterpriseValue": 875839734
+  },
+  {
+    "symbol": "SUN",
+    "date": "2012-12-31",
+    "stockPrice": 25.16,
+    "numberOfShares": 21878872,
+    "marketCapitalization": 550472419,
+    "minusCashAndCashEquivalents": 6752000,
+    "addTotalDebt": 184855000,
+    "enterpriseValue": 728575419
+  },
+  {
+    "symbol": "SUN",
+    "date": "2012-09-30",
+    "stockPrice": 23.9,
+    "numberOfShares": 21864436,
+    "marketCapitalization": 522560020,
+    "minusCashAndCashEquivalents": 14810000,
+    "addTotalDebt": 181770000,
+    "enterpriseValue": 689520020
+  },
+  {
+    "symbol": "SUN",
+    "date": "2012-06-30",
+    "stockPrice": 22.91,
+    "numberOfShares": 21878872,
+    "marketCapitalization": 501244957,
+    "minusCashAndCashEquivalents": 1145000,
+    "addTotalDebt": 1110000,
+    "enterpriseValue": 501209957
+  },
+  {
+    "symbol": "SUN",
+    "date": "2012-03-31",
+    "stockPrice": 22.91,
+    "numberOfShares": 21878872,
+    "marketCapitalization": 501244957,
+    "minusCashAndCashEquivalents": 2000,
+    "addTotalDebt": 1116000,
+    "enterpriseValue": 502358957
+  },
+  {
+    "symbol": "SUN",
+    "date": "2011-12-31",
+    "stockPrice": 22.91,
+    "numberOfShares": 21878872,
+    "marketCapitalization": 501244957,
+    "minusCashAndCashEquivalents": 240000,
+    "addTotalDebt": 1120000,
+    "enterpriseValue": 502124957
+  },
+  {
+    "symbol": "SUN",
+    "date": "2011-09-30",
+    "stockPrice": 22.91,
+    "numberOfShares": 21878872,
+    "marketCapitalization": 501244957,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 501244957
+  },
+  {
+    "symbol": "SUN",
+    "date": "2011-06-30",
+    "stockPrice": 22.91,
+    "numberOfShares": 21878872,
+    "marketCapitalization": 501244957,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 501244957
+  },
+  {
+    "symbol": "SUN",
+    "date": "2011-03-31",
+    "stockPrice": 22.91,
+    "numberOfShares": 21878872,
+    "marketCapitalization": 501244957,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 501244957
+  }
+]

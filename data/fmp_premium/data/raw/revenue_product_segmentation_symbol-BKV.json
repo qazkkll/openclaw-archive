@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "BKV",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Marketing": 12304000,
+      "Natural Gas, Midstream": 10456000,
+      "Natural Gas, NGL, And Oil": 857597000,
+      "Other Revenue": 11664000,
+      "Related Party Revenues": 1760000
+    }
+  },
+  {
+    "symbol": "BKV",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Marketing": 10668000,
+      "Natural Gas": 385456000,
+      "Natural Gas, Midstream": 12560000,
+      "Natural Gas, NGL, And Oil": 557570000,
+      "Oil": 6606000
+    }
+  }
+]

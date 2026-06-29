@@ -1,0 +1,35 @@
+[
+  {
+    "symbol": "ALHC",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Health Care Capitation": 132802000,
+      "Health Care, Premium": 1668131000
+    }
+  },
+  {
+    "symbol": "ALHC",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Health Care Capitation": 59216000,
+      "Health Care, Premium": 1372334000
+    }
+  },
+  {
+    "symbol": "ALHC",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Health Care Capitation": 46221000,
+      "Health Care, Premium": 1120864000
+    }
+  }
+]

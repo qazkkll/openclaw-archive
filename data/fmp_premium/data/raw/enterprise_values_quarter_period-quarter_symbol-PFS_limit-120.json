@@ -1,0 +1,952 @@
+[
+  {
+    "symbol": "PFS",
+    "date": "2026-03-31",
+    "stockPrice": 21.16,
+    "numberOfShares": 130511676,
+    "marketCapitalization": 2761627064,
+    "minusCashAndCashEquivalents": 222083000,
+    "addTotalDebt": 2890803000,
+    "enterpriseValue": 5430347064
+  },
+  {
+    "symbol": "PFS",
+    "date": "2025-12-31",
+    "stockPrice": 19.75,
+    "numberOfShares": 130530423,
+    "marketCapitalization": 2577975854,
+    "minusCashAndCashEquivalents": 211484000,
+    "addTotalDebt": 2518537000,
+    "enterpriseValue": 4885028854
+  },
+  {
+    "symbol": "PFS",
+    "date": "2025-09-30",
+    "stockPrice": 19.28,
+    "numberOfShares": 130439534,
+    "marketCapitalization": 2514874215,
+    "minusCashAndCashEquivalents": 301614000,
+    "addTotalDebt": 2614650000,
+    "enterpriseValue": 4827910215
+  },
+  {
+    "symbol": "PFS",
+    "date": "2025-06-30",
+    "stockPrice": 17.53,
+    "numberOfShares": 130405000,
+    "marketCapitalization": 2285999650,
+    "minusCashAndCashEquivalents": 258925000,
+    "addTotalDebt": 2778758000,
+    "enterpriseValue": 4805832650
+  },
+  {
+    "symbol": "PFS",
+    "date": "2025-03-31",
+    "stockPrice": 17.17,
+    "numberOfShares": 130325000,
+    "marketCapitalization": 2237680250,
+    "minusCashAndCashEquivalents": 234076000,
+    "addTotalDebt": 2735882000,
+    "enterpriseValue": 4739486250
+  },
+  {
+    "symbol": "PFS",
+    "date": "2024-12-31",
+    "stockPrice": 18.87,
+    "numberOfShares": 130067000,
+    "marketCapitalization": 2454364290,
+    "minusCashAndCashEquivalents": 205914000,
+    "addTotalDebt": 2422043000,
+    "enterpriseValue": 4670493290
+  },
+  {
+    "symbol": "PFS",
+    "date": "2024-09-30",
+    "stockPrice": 18.56,
+    "numberOfShares": 129942000,
+    "marketCapitalization": 2411723520,
+    "minusCashAndCashEquivalents": 244064000,
+    "addTotalDebt": 1078719000,
+    "enterpriseValue": 3246378520
+  },
+  {
+    "symbol": "PFS",
+    "date": "2024-06-30",
+    "stockPrice": 14.35,
+    "numberOfShares": 102958000,
+    "marketCapitalization": 1477447300,
+    "minusCashAndCashEquivalents": 290491000,
+    "addTotalDebt": 2164804000,
+    "enterpriseValue": 3351760300
+  },
+  {
+    "symbol": "PFS",
+    "date": "2024-03-31",
+    "stockPrice": 14.51,
+    "numberOfShares": 75260000,
+    "marketCapitalization": 1092022600,
+    "minusCashAndCashEquivalents": 158352000,
+    "addTotalDebt": 1518842000,
+    "enterpriseValue": 2452512600
+  },
+  {
+    "symbol": "PFS",
+    "date": "2023-12-31",
+    "stockPrice": 18.03,
+    "numberOfShares": 74996000,
+    "marketCapitalization": 1352177880,
+    "minusCashAndCashEquivalents": 180255000,
+    "addTotalDebt": 1530728000,
+    "enterpriseValue": 2702650880
+  },
+  {
+    "symbol": "PFS",
+    "date": "2023-09-30",
+    "stockPrice": 15.29,
+    "numberOfShares": 74909000,
+    "marketCapitalization": 1145358610,
+    "minusCashAndCashEquivalents": 188573000,
+    "addTotalDebt": 2032895000,
+    "enterpriseValue": 2989680610
+  },
+  {
+    "symbol": "PFS",
+    "date": "2023-06-30",
+    "stockPrice": 16.34,
+    "numberOfShares": 74823000,
+    "marketCapitalization": 1222607820,
+    "minusCashAndCashEquivalents": 208802000,
+    "addTotalDebt": 1860310000,
+    "enterpriseValue": 2874115820
+  },
+  {
+    "symbol": "PFS",
+    "date": "2023-03-31",
+    "stockPrice": 19.18,
+    "numberOfShares": 74645000,
+    "marketCapitalization": 1431691100,
+    "minusCashAndCashEquivalents": 233853000,
+    "addTotalDebt": 1595362000,
+    "enterpriseValue": 2793200100
+  },
+  {
+    "symbol": "PFS",
+    "date": "2022-12-31",
+    "stockPrice": 21.36,
+    "numberOfShares": 74381000,
+    "marketCapitalization": 1588778160,
+    "minusCashAndCashEquivalents": 186438000,
+    "addTotalDebt": 1347863000,
+    "enterpriseValue": 2750203160
+  },
+  {
+    "symbol": "PFS",
+    "date": "2022-09-30",
+    "stockPrice": 19.5,
+    "numberOfShares": 74297000,
+    "marketCapitalization": 1448791500,
+    "minusCashAndCashEquivalents": 183068000,
+    "addTotalDebt": 1074044000,
+    "enterpriseValue": 2339767500
+  },
+  {
+    "symbol": "PFS",
+    "date": "2022-06-30",
+    "stockPrice": 22.26,
+    "numberOfShares": 74329000,
+    "marketCapitalization": 1654563540,
+    "minusCashAndCashEquivalents": 277462000,
+    "addTotalDebt": 1012891000,
+    "enterpriseValue": 2389992540
+  },
+  {
+    "symbol": "PFS",
+    "date": "2022-03-31",
+    "stockPrice": 23.4,
+    "numberOfShares": 75818000,
+    "marketCapitalization": 1774141200,
+    "minusCashAndCashEquivalents": 433146000,
+    "addTotalDebt": 409943000,
+    "enterpriseValue": 1750938200
+  },
+  {
+    "symbol": "PFS",
+    "date": "2021-12-31",
+    "stockPrice": 24.22,
+    "numberOfShares": 76126000,
+    "marketCapitalization": 1843771720,
+    "minusCashAndCashEquivalents": 712463000,
+    "addTotalDebt": 637057000,
+    "enterpriseValue": 1768365720
+  },
+  {
+    "symbol": "PFS",
+    "date": "2021-09-30",
+    "stockPrice": 23.47,
+    "numberOfShares": 76605000,
+    "marketCapitalization": 1797919350,
+    "minusCashAndCashEquivalents": 505289000,
+    "addTotalDebt": 642624000,
+    "enterpriseValue": 1935254350
+  },
+  {
+    "symbol": "PFS",
+    "date": "2021-06-30",
+    "stockPrice": 22.89,
+    "numberOfShares": 76644000,
+    "marketCapitalization": 1754381160,
+    "minusCashAndCashEquivalents": 710153000,
+    "addTotalDebt": 718548000,
+    "enterpriseValue": 1762776160
+  },
+  {
+    "symbol": "PFS",
+    "date": "2021-03-31",
+    "stockPrice": 22.28,
+    "numberOfShares": 76517000,
+    "marketCapitalization": 1704798760,
+    "minusCashAndCashEquivalents": 687570000,
+    "addTotalDebt": 965784000,
+    "enterpriseValue": 1983012760
+  },
+  {
+    "symbol": "PFS",
+    "date": "2020-12-31",
+    "stockPrice": 17.96,
+    "numberOfShares": 76860000,
+    "marketCapitalization": 1380405600,
+    "minusCashAndCashEquivalents": 532353000,
+    "addTotalDebt": 1201107000,
+    "enterpriseValue": 2049159600
+  },
+  {
+    "symbol": "PFS",
+    "date": "2020-09-30",
+    "stockPrice": 12.2,
+    "numberOfShares": 72519000,
+    "marketCapitalization": 884731800,
+    "minusCashAndCashEquivalents": 510138000,
+    "addTotalDebt": 1438128000,
+    "enterpriseValue": 1812721800
+  },
+  {
+    "symbol": "PFS",
+    "date": "2020-06-30",
+    "stockPrice": 14.45,
+    "numberOfShares": 64316000,
+    "marketCapitalization": 929366200,
+    "minusCashAndCashEquivalents": 453763000,
+    "addTotalDebt": 1175289000,
+    "enterpriseValue": 1650892200
+  },
+  {
+    "symbol": "PFS",
+    "date": "2020-03-31",
+    "stockPrice": 12.86,
+    "numberOfShares": 64386000,
+    "marketCapitalization": 828003960,
+    "minusCashAndCashEquivalents": 370577000,
+    "addTotalDebt": 1213777000,
+    "enterpriseValue": 1671203960
+  },
+  {
+    "symbol": "PFS",
+    "date": "2019-12-31",
+    "stockPrice": 24.65,
+    "numberOfShares": 64259000,
+    "marketCapitalization": 1583984350,
+    "minusCashAndCashEquivalents": 186748000,
+    "addTotalDebt": 1125146000,
+    "enterpriseValue": 2522382350
+  },
+  {
+    "symbol": "PFS",
+    "date": "2019-09-30",
+    "stockPrice": 24.53,
+    "numberOfShares": 64512000,
+    "marketCapitalization": 1582479360,
+    "minusCashAndCashEquivalents": 260860000,
+    "addTotalDebt": 1380063000,
+    "enterpriseValue": 2701682360
+  },
+  {
+    "symbol": "PFS",
+    "date": "2019-06-30",
+    "stockPrice": 24.39,
+    "numberOfShares": 64886000,
+    "marketCapitalization": 1582569540,
+    "minusCashAndCashEquivalents": 207689000,
+    "addTotalDebt": 1512248000,
+    "enterpriseValue": 2887128540
+  },
+  {
+    "symbol": "PFS",
+    "date": "2019-03-31",
+    "stockPrice": 26.33,
+    "numberOfShares": 64767000,
+    "marketCapitalization": 1705315110,
+    "minusCashAndCashEquivalents": 197854000,
+    "addTotalDebt": 1398490000,
+    "enterpriseValue": 2905951110
+  },
+  {
+    "symbol": "PFS",
+    "date": "2018-12-31",
+    "stockPrice": 24.13,
+    "numberOfShares": 65049000,
+    "marketCapitalization": 1569632370,
+    "minusCashAndCashEquivalents": 142661000,
+    "addTotalDebt": 1442282000,
+    "enterpriseValue": 2869253370
+  },
+  {
+    "symbol": "PFS",
+    "date": "2018-09-30",
+    "stockPrice": 24.01,
+    "numberOfShares": 65038000,
+    "marketCapitalization": 1561562380,
+    "minusCashAndCashEquivalents": 149124000,
+    "addTotalDebt": 1529914000,
+    "enterpriseValue": 2942352380
+  },
+  {
+    "symbol": "PFS",
+    "date": "2018-06-30",
+    "stockPrice": 27.53,
+    "numberOfShares": 64912000,
+    "marketCapitalization": 1787027360,
+    "minusCashAndCashEquivalents": 141953000,
+    "addTotalDebt": 1641539000,
+    "enterpriseValue": 3286613360
+  },
+  {
+    "symbol": "PFS",
+    "date": "2018-03-31",
+    "stockPrice": 25.59,
+    "numberOfShares": 64769000,
+    "marketCapitalization": 1657438710,
+    "minusCashAndCashEquivalents": 133514000,
+    "addTotalDebt": 1590088000,
+    "enterpriseValue": 3114012710
+  },
+  {
+    "symbol": "PFS",
+    "date": "2017-12-31",
+    "stockPrice": 26.97,
+    "numberOfShares": 64555000,
+    "marketCapitalization": 1741048350,
+    "minusCashAndCashEquivalents": 190834000,
+    "addTotalDebt": 1742514000,
+    "enterpriseValue": 3292728350
+  },
+  {
+    "symbol": "PFS",
+    "date": "2017-09-30",
+    "stockPrice": 26.67,
+    "numberOfShares": 64455000,
+    "marketCapitalization": 1719014850,
+    "minusCashAndCashEquivalents": 148783000,
+    "addTotalDebt": 1525560000,
+    "enterpriseValue": 3095791850
+  },
+  {
+    "symbol": "PFS",
+    "date": "2017-06-30",
+    "stockPrice": 25.38,
+    "numberOfShares": 64358000,
+    "marketCapitalization": 1633406040,
+    "minusCashAndCashEquivalents": 153402000,
+    "addTotalDebt": 1676219000,
+    "enterpriseValue": 3156223040
+  },
+  {
+    "symbol": "PFS",
+    "date": "2017-03-31",
+    "stockPrice": 25.85,
+    "numberOfShares": 64167000,
+    "marketCapitalization": 1658716950,
+    "minusCashAndCashEquivalents": 158094000,
+    "addTotalDebt": 1640559000,
+    "enterpriseValue": 3141181950
+  },
+  {
+    "symbol": "PFS",
+    "date": "2016-12-31",
+    "stockPrice": 28.3,
+    "numberOfShares": 63937000,
+    "marketCapitalization": 1809417100,
+    "minusCashAndCashEquivalents": 144297000,
+    "addTotalDebt": 1612745000,
+    "enterpriseValue": 3277865100
+  },
+  {
+    "symbol": "PFS",
+    "date": "2016-09-30",
+    "stockPrice": 21.23,
+    "numberOfShares": 63728000,
+    "marketCapitalization": 1352945440,
+    "minusCashAndCashEquivalents": 159674000,
+    "addTotalDebt": 1522368000,
+    "enterpriseValue": 2715639440
+  },
+  {
+    "symbol": "PFS",
+    "date": "2016-06-30",
+    "stockPrice": 19.64,
+    "numberOfShares": 63554000,
+    "marketCapitalization": 1248200560,
+    "minusCashAndCashEquivalents": 117527000,
+    "addTotalDebt": 1665277000,
+    "enterpriseValue": 2795950560
+  },
+  {
+    "symbol": "PFS",
+    "date": "2016-03-31",
+    "stockPrice": 20.19,
+    "numberOfShares": 63351000,
+    "marketCapitalization": 1279056690,
+    "minusCashAndCashEquivalents": 108111000,
+    "addTotalDebt": 1570141000,
+    "enterpriseValue": 2741086690
+  },
+  {
+    "symbol": "PFS",
+    "date": "2015-12-31",
+    "stockPrice": 20.15,
+    "numberOfShares": 63174000,
+    "marketCapitalization": 1272956100,
+    "minusCashAndCashEquivalents": 102226000,
+    "addTotalDebt": 1707632000,
+    "enterpriseValue": 2878362100
+  },
+  {
+    "symbol": "PFS",
+    "date": "2015-09-30",
+    "stockPrice": 19.5,
+    "numberOfShares": 63034000,
+    "marketCapitalization": 1229163000,
+    "minusCashAndCashEquivalents": 128433000,
+    "addTotalDebt": 1760628000,
+    "enterpriseValue": 2861358000
+  },
+  {
+    "symbol": "PFS",
+    "date": "2015-06-30",
+    "stockPrice": 18.99,
+    "numberOfShares": 62894000,
+    "marketCapitalization": 1194357060,
+    "minusCashAndCashEquivalents": 104732000,
+    "addTotalDebt": 1684574000,
+    "enterpriseValue": 2774199060
+  },
+  {
+    "symbol": "PFS",
+    "date": "2015-03-31",
+    "stockPrice": 18.65,
+    "numberOfShares": 62674000,
+    "marketCapitalization": 1168870100,
+    "minusCashAndCashEquivalents": 90874000,
+    "addTotalDebt": 1468404000,
+    "enterpriseValue": 2546400100
+  },
+  {
+    "symbol": "PFS",
+    "date": "2014-12-31",
+    "stockPrice": 18.06,
+    "numberOfShares": 62524000,
+    "marketCapitalization": 1129183440,
+    "minusCashAndCashEquivalents": 103762000,
+    "addTotalDebt": 1509851000,
+    "enterpriseValue": 2535272440
+  },
+  {
+    "symbol": "PFS",
+    "date": "2014-09-30",
+    "stockPrice": 16.37,
+    "numberOfShares": 62440000,
+    "marketCapitalization": 1022142800,
+    "minusCashAndCashEquivalents": 88805000,
+    "addTotalDebt": 1490983000,
+    "enterpriseValue": 2424320800
+  },
+  {
+    "symbol": "PFS",
+    "date": "2014-06-30",
+    "stockPrice": 17.32,
+    "numberOfShares": 59147000,
+    "marketCapitalization": 1024426040,
+    "minusCashAndCashEquivalents": 132439000,
+    "addTotalDebt": 1418843000,
+    "enterpriseValue": 2310830040
+  },
+  {
+    "symbol": "PFS",
+    "date": "2014-03-31",
+    "stockPrice": 18.37,
+    "numberOfShares": 57369000,
+    "marketCapitalization": 1053868530,
+    "minusCashAndCashEquivalents": 81658000,
+    "addTotalDebt": 1220212000,
+    "enterpriseValue": 2192422530
+  },
+  {
+    "symbol": "PFS",
+    "date": "2013-12-31",
+    "stockPrice": 19.32,
+    "numberOfShares": 57331000,
+    "marketCapitalization": 1107634920,
+    "minusCashAndCashEquivalents": 101224000,
+    "addTotalDebt": 1203879000,
+    "enterpriseValue": 2210289920
+  },
+  {
+    "symbol": "PFS",
+    "date": "2013-09-30",
+    "stockPrice": 16.21,
+    "numberOfShares": 57241000,
+    "marketCapitalization": 927876610,
+    "minusCashAndCashEquivalents": 95286000,
+    "addTotalDebt": 1016446000,
+    "enterpriseValue": 1849036610
+  },
+  {
+    "symbol": "PFS",
+    "date": "2013-06-30",
+    "stockPrice": 15.85,
+    "numberOfShares": 57206000,
+    "marketCapitalization": 906715100,
+    "minusCashAndCashEquivalents": 80505000,
+    "addTotalDebt": 969123000,
+    "enterpriseValue": 1795333100
+  },
+  {
+    "symbol": "PFS",
+    "date": "2013-03-31",
+    "stockPrice": 14.99,
+    "numberOfShares": 57167000,
+    "marketCapitalization": 856933330,
+    "minusCashAndCashEquivalents": 64707000,
+    "addTotalDebt": 854007000,
+    "enterpriseValue": 1646233330
+  },
+  {
+    "symbol": "PFS",
+    "date": "2012-12-31",
+    "stockPrice": 14.92,
+    "numberOfShares": 57184000,
+    "marketCapitalization": 853185280,
+    "minusCashAndCashEquivalents": 103823000,
+    "addTotalDebt": 803264000,
+    "enterpriseValue": 1552626280
+  },
+  {
+    "symbol": "PFS",
+    "date": "2012-09-30",
+    "stockPrice": 15.87,
+    "numberOfShares": 57194000,
+    "marketCapitalization": 907668780,
+    "minusCashAndCashEquivalents": 107553000,
+    "addTotalDebt": 834421000,
+    "enterpriseValue": 1634536780
+  },
+  {
+    "symbol": "PFS",
+    "date": "2012-06-30",
+    "stockPrice": 15.35,
+    "numberOfShares": 57153000,
+    "marketCapitalization": 877298550,
+    "minusCashAndCashEquivalents": 77245000,
+    "addTotalDebt": 884204000,
+    "enterpriseValue": 1684257550
+  },
+  {
+    "symbol": "PFS",
+    "date": "2012-03-31",
+    "stockPrice": 14.53,
+    "numberOfShares": 57052000,
+    "marketCapitalization": 828965560,
+    "minusCashAndCashEquivalents": 69255000,
+    "addTotalDebt": 893066000,
+    "enterpriseValue": 1652776560
+  },
+  {
+    "symbol": "PFS",
+    "date": "2011-12-31",
+    "stockPrice": 13.39,
+    "numberOfShares": 56898000,
+    "marketCapitalization": 761864220,
+    "minusCashAndCashEquivalents": 69632000,
+    "addTotalDebt": 920180000,
+    "enterpriseValue": 1612412220
+  },
+  {
+    "symbol": "PFS",
+    "date": "2011-09-30",
+    "stockPrice": 10.75,
+    "numberOfShares": 56926000,
+    "marketCapitalization": 611954500,
+    "minusCashAndCashEquivalents": 124016000,
+    "addTotalDebt": 912567000,
+    "enterpriseValue": 1400505500
+  },
+  {
+    "symbol": "PFS",
+    "date": "2011-06-30",
+    "stockPrice": 14.32,
+    "numberOfShares": 56846000,
+    "marketCapitalization": 814034720,
+    "minusCashAndCashEquivalents": 187289000,
+    "addTotalDebt": 891128000,
+    "enterpriseValue": 1517873720
+  },
+  {
+    "symbol": "PFS",
+    "date": "2011-03-31",
+    "stockPrice": 14.8,
+    "numberOfShares": 56311000,
+    "marketCapitalization": 833402800,
+    "minusCashAndCashEquivalents": 104972000,
+    "addTotalDebt": 923289000,
+    "enterpriseValue": 1651719800
+  },
+  {
+    "symbol": "PFS",
+    "date": "2010-12-31",
+    "stockPrice": 15.13,
+    "numberOfShares": 56688000,
+    "marketCapitalization": 857689440,
+    "minusCashAndCashEquivalents": 52229000,
+    "addTotalDebt": 969683000,
+    "enterpriseValue": 1775143440
+  },
+  {
+    "symbol": "PFS",
+    "date": "2010-09-30",
+    "stockPrice": 12.36,
+    "numberOfShares": 56311000,
+    "marketCapitalization": 696003960,
+    "minusCashAndCashEquivalents": 106754000,
+    "addTotalDebt": 922249000,
+    "enterpriseValue": 1511498960
+  },
+  {
+    "symbol": "PFS",
+    "date": "2010-06-30",
+    "stockPrice": 11.69,
+    "numberOfShares": 56311000,
+    "marketCapitalization": 658275590,
+    "minusCashAndCashEquivalents": 269625000,
+    "addTotalDebt": 976496000,
+    "enterpriseValue": 1365146590
+  },
+  {
+    "symbol": "PFS",
+    "date": "2010-03-31",
+    "stockPrice": 11.9,
+    "numberOfShares": 56311000,
+    "marketCapitalization": 670100900,
+    "minusCashAndCashEquivalents": 225832000,
+    "addTotalDebt": 986161000,
+    "enterpriseValue": 1430429900
+  },
+  {
+    "symbol": "PFS",
+    "date": "2009-12-31",
+    "stockPrice": 10.65,
+    "numberOfShares": 56380538,
+    "marketCapitalization": 600452729,
+    "minusCashAndCashEquivalents": 120823000,
+    "addTotalDebt": 1017946000,
+    "enterpriseValue": 1497575729
+  },
+  {
+    "symbol": "PFS",
+    "date": "2009-09-30",
+    "stockPrice": 10.29,
+    "numberOfShares": 56311000,
+    "marketCapitalization": 579440190,
+    "minusCashAndCashEquivalents": 196001000,
+    "addTotalDebt": 1022551000,
+    "enterpriseValue": 1405990190
+  },
+  {
+    "symbol": "PFS",
+    "date": "2009-06-30",
+    "stockPrice": 9.1,
+    "numberOfShares": 56240798,
+    "marketCapitalization": 511791261,
+    "minusCashAndCashEquivalents": 195754000,
+    "addTotalDebt": 1027762000,
+    "enterpriseValue": 1343799261
+  },
+  {
+    "symbol": "PFS",
+    "date": "2009-03-31",
+    "stockPrice": 10.81,
+    "numberOfShares": 56170000,
+    "marketCapitalization": 607197700,
+    "minusCashAndCashEquivalents": 171838000,
+    "addTotalDebt": 1082762000,
+    "enterpriseValue": 1518121700
+  },
+  {
+    "symbol": "PFS",
+    "date": "2008-12-31",
+    "stockPrice": 15.3,
+    "numberOfShares": 56106570,
+    "marketCapitalization": 858430521,
+    "minusCashAndCashEquivalents": 66315000,
+    "addTotalDebt": 1267755000,
+    "enterpriseValue": 2059870521
+  },
+  {
+    "symbol": "PFS",
+    "date": "2008-09-30",
+    "stockPrice": 16.51,
+    "numberOfShares": 56079000,
+    "marketCapitalization": 925864290,
+    "minusCashAndCashEquivalents": 84970000,
+    "addTotalDebt": 1244794000,
+    "enterpriseValue": 2085688290
+  },
+  {
+    "symbol": "PFS",
+    "date": "2008-06-30",
+    "stockPrice": 14.01,
+    "numberOfShares": 56014000,
+    "marketCapitalization": 784756140,
+    "minusCashAndCashEquivalents": 82652000,
+    "addTotalDebt": 1141023000,
+    "enterpriseValue": 1843127140
+  },
+  {
+    "symbol": "PFS",
+    "date": "2008-03-31",
+    "stockPrice": 14.14,
+    "numberOfShares": 55925000,
+    "marketCapitalization": 790779500,
+    "minusCashAndCashEquivalents": 93323000,
+    "addTotalDebt": 1066707000,
+    "enterpriseValue": 1764163500
+  },
+  {
+    "symbol": "PFS",
+    "date": "2007-12-31",
+    "stockPrice": 14.42,
+    "numberOfShares": 55924581,
+    "marketCapitalization": 806432458,
+    "minusCashAndCashEquivalents": 83737000,
+    "addTotalDebt": 1573739000,
+    "enterpriseValue": 2296434458
+  },
+  {
+    "symbol": "PFS",
+    "date": "2007-09-30",
+    "stockPrice": 17.06,
+    "numberOfShares": 58968000,
+    "marketCapitalization": 1005994079,
+    "minusCashAndCashEquivalents": 107995000,
+    "addTotalDebt": 886361000,
+    "enterpriseValue": 1784360079
+  },
+  {
+    "symbol": "PFS",
+    "date": "2007-06-30",
+    "stockPrice": 15.76,
+    "numberOfShares": 61339000,
+    "marketCapitalization": 966702640,
+    "minusCashAndCashEquivalents": 103916000,
+    "addTotalDebt": 713316000,
+    "enterpriseValue": 1576102640
+  },
+  {
+    "symbol": "PFS",
+    "date": "2007-03-31",
+    "stockPrice": 17.45,
+    "numberOfShares": 59052000,
+    "marketCapitalization": 1030457400,
+    "minusCashAndCashEquivalents": 79679000,
+    "addTotalDebt": 815083000,
+    "enterpriseValue": 1765861400
+  },
+  {
+    "symbol": "PFS",
+    "date": "2006-12-31",
+    "stockPrice": 18.13,
+    "numberOfShares": 58808000,
+    "marketCapitalization": 1066189040,
+    "minusCashAndCashEquivalents": 89390000,
+    "addTotalDebt": 840990000,
+    "enterpriseValue": 1817789040
+  },
+  {
+    "symbol": "PFS",
+    "date": "2006-09-30",
+    "stockPrice": 18.51,
+    "numberOfShares": 59569000,
+    "marketCapitalization": 1102622190,
+    "minusCashAndCashEquivalents": 129873000,
+    "addTotalDebt": 809696000,
+    "enterpriseValue": 1782445190
+  },
+  {
+    "symbol": "PFS",
+    "date": "2006-06-30",
+    "stockPrice": 17.95,
+    "numberOfShares": 62099000,
+    "marketCapitalization": 1114677050,
+    "minusCashAndCashEquivalents": 101580000,
+    "addTotalDebt": 848455000,
+    "enterpriseValue": 1861552050
+  },
+  {
+    "symbol": "PFS",
+    "date": "2006-03-31",
+    "stockPrice": 18.1,
+    "numberOfShares": 63440000,
+    "marketCapitalization": 1148264000,
+    "minusCashAndCashEquivalents": 105456000,
+    "addTotalDebt": 901560000,
+    "enterpriseValue": 1944368000
+  },
+  {
+    "symbol": "PFS",
+    "date": "2005-12-31",
+    "stockPrice": 18.51,
+    "numberOfShares": 64142000,
+    "marketCapitalization": 1187268420,
+    "minusCashAndCashEquivalents": 107353000,
+    "addTotalDebt": 996552000,
+    "enterpriseValue": 2076467420
+  },
+  {
+    "symbol": "PFS",
+    "date": "2005-09-30",
+    "stockPrice": 17.6,
+    "numberOfShares": 65325000,
+    "marketCapitalization": 1149720000,
+    "minusCashAndCashEquivalents": 127076000,
+    "addTotalDebt": 1074998000,
+    "enterpriseValue": 2097642000
+  },
+  {
+    "symbol": "PFS",
+    "date": "2005-06-30",
+    "stockPrice": 17.57,
+    "numberOfShares": 66724000,
+    "marketCapitalization": 1172340680,
+    "minusCashAndCashEquivalents": 140967000,
+    "addTotalDebt": 1126568000,
+    "enterpriseValue": 2157941680
+  },
+  {
+    "symbol": "PFS",
+    "date": "2005-03-31",
+    "stockPrice": 17.1,
+    "numberOfShares": 68173000,
+    "marketCapitalization": 1165758300,
+    "minusCashAndCashEquivalents": 137556000,
+    "addTotalDebt": 1136435000,
+    "enterpriseValue": 2164637300
+  },
+  {
+    "symbol": "PFS",
+    "date": "2004-12-31",
+    "stockPrice": 19.37,
+    "numberOfShares": 67971000,
+    "marketCapitalization": 1316598270,
+    "minusCashAndCashEquivalents": 121187000,
+    "addTotalDebt": 1193177000,
+    "enterpriseValue": 2388588270
+  },
+  {
+    "symbol": "PFS",
+    "date": "2004-09-30",
+    "stockPrice": 17.25,
+    "numberOfShares": 68730000,
+    "marketCapitalization": 1185592500,
+    "minusCashAndCashEquivalents": 134553000,
+    "addTotalDebt": 1266525000,
+    "enterpriseValue": 2317564500
+  },
+  {
+    "symbol": "PFS",
+    "date": "2004-06-30",
+    "stockPrice": 17.55,
+    "numberOfShares": 54925000,
+    "marketCapitalization": 963933750,
+    "minusCashAndCashEquivalents": 90655000,
+    "addTotalDebt": 694256000,
+    "enterpriseValue": 1567534750
+  },
+  {
+    "symbol": "PFS",
+    "date": "2004-03-31",
+    "stockPrice": 18.69,
+    "numberOfShares": 54849000,
+    "marketCapitalization": 1025127810,
+    "minusCashAndCashEquivalents": 87780000,
+    "addTotalDebt": 701285000,
+    "enterpriseValue": 1638632810
+  },
+  {
+    "symbol": "PFS",
+    "date": "2003-12-31",
+    "stockPrice": 18.9,
+    "numberOfShares": 54849000,
+    "marketCapitalization": 1036646099,
+    "minusCashAndCashEquivalents": 106228000,
+    "addTotalDebt": 736328000,
+    "enterpriseValue": 1666746099
+  },
+  {
+    "symbol": "PFS",
+    "date": "2003-09-30",
+    "stockPrice": 19.16,
+    "numberOfShares": 56973000,
+    "marketCapitalization": 1091602680,
+    "minusCashAndCashEquivalents": 228795000,
+    "addTotalDebt": 613553000,
+    "enterpriseValue": 1476360680
+  },
+  {
+    "symbol": "PFS",
+    "date": "2003-06-30",
+    "stockPrice": 19.05,
+    "numberOfShares": 59258000,
+    "marketCapitalization": 1128864900,
+    "minusCashAndCashEquivalents": 122837000,
+    "addTotalDebt": 612639000,
+    "enterpriseValue": 1618666900
+  },
+  {
+    "symbol": "PFS",
+    "date": "2003-03-31",
+    "stockPrice": 15.81,
+    "numberOfShares": 60131000,
+    "marketCapitalization": 950671110,
+    "minusCashAndCashEquivalents": 93598000,
+    "addTotalDebt": 514209000,
+    "enterpriseValue": 1371282110
+  },
+  {
+    "symbol": "PFS",
+    "date": "2002-12-31",
+    "stockPrice": 15.5,
+    "numberOfShares": 61538000,
+    "marketCapitalization": 953839000,
+    "minusCashAndCashEquivalents": 101352000,
+    "addTotalDebt": 323081000,
+    "enterpriseValue": 1175568000
+  },
+  {
+    "symbol": "PFS",
+    "date": "2002-09-30",
+    "stockPrice": 15.5,
+    "numberOfShares": 61538300,
+    "marketCapitalization": 953843650,
+    "minusCashAndCashEquivalents": 127926000,
+    "addTotalDebt": 216666000,
+    "enterpriseValue": 1042583650
+  }
+]

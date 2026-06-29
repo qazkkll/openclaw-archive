@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "CHT",
+    "date": "2018-11-01",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Reduce",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "CHT",
+    "date": "2016-05-03",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "CHT",
+    "date": "2016-04-28",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "CHT",
+    "date": "2016-04-22",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Reduce",
+    "newGrade": "Hold",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "CHT",
+    "date": "2012-02-08",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  }
+]

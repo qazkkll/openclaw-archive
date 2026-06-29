@@ -1,11 +1,19 @@
 {
   "sent_alerts": {
-    "price_move:PLTR": 1782672491.571063,
-    "price_move:AVGO": 1782672491.571063,
-    "price_move:APP": 1782672491.571063,
-    "price_move:TXN": 1782672491.571063
+    "price_move:APP": 1782745254.3503463,
+    "gap:APP": 1782730853.5822904,
+    "price_move:PLTR": 1782745254.3503463,
+    "gap:PLTR": 1782730853.5822904,
+    "price_move:AVGO": 1782730853.5822904,
+    "price_move:TXN": 1782730853.5822904,
+    "gap:TXN": 1782730853.5822904,
+    "entry_signal:PLTR": 1782739854.0551505,
+    "entry_signal:NVDA": 1782739854.0551505,
+    "entry_signal:AVGO": 1782741054.1129212,
+    "entry_signal:TXN": 1782741654.165147,
+    "entry_signal:APP": 1782742554.211124
   },
   "boost_until": 0,
-  "last_push_ts": 1782672491.571063,
+  "last_push_ts": 1782690499.9336224,
   "last_level": "L2"
 }

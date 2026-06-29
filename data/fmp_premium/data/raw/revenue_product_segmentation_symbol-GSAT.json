@@ -1,0 +1,139 @@
+[
+  {
+    "symbol": "GSAT",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Commercial loT": 27263000,
+      "Product": 15677000,
+      "Service": 257309000,
+      "Services, Duplex": 15238000,
+      "Services, Other": 4766000,
+      "Services, SPOT": 37311000
+    }
+  },
+  {
+    "symbol": "GSAT",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Commercial loT": 26245000,
+      "Product": 12660000,
+      "Service": 237689000,
+      "Services, Duplex": 20156000,
+      "Services, Other": 4849000,
+      "Services, SPOT": 41140000
+    }
+  },
+  {
+    "symbol": "GSAT",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Commercial loT": 22867000,
+      "Product": 19612000,
+      "Product, Other": 22000,
+      "Product, SPOT": 7724000,
+      "Service": 204196000,
+      "Services, Duplex": 25932000,
+      "Services, Other": 2146000,
+      "Services, SPOT": 44184000
+    }
+  },
+  {
+    "symbol": "GSAT",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Product, Duplex": 319000,
+      "Product, Other": 97000,
+      "Product, SPOT": 5888000,
+      "Services, Commercial IoT": 19516000,
+      "Services, Duplex": 29222000,
+      "Services, Engineering And Other": 2747000,
+      "Services, SPOT": 45670000,
+      "Subscriber, Commercial IoT": 10132000
+    }
+  },
+  {
+    "symbol": "GSAT",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Product, Duplex": 1011000,
+      "Product, Other": 226000,
+      "Product, SPOT": 9427000,
+      "Services, Commercial IoT": 17951000,
+      "Services, Duplex": 31197000,
+      "Services, Engineering And Other": 11276000,
+      "Services, SPOT": 46040000,
+      "Subscriber, Commercial IoT": 7169000
+    }
+  },
+  {
+    "symbol": "GSAT",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "Product, Duplex": 1883000,
+      "Product, Other": 97000,
+      "Product, SPOT": 8176000,
+      "Services, Commercial IoT": 17174000,
+      "Services, Duplex": 33878000,
+      "Services, Engineering And Other": 15722000,
+      "Services, SPOT": 46417000,
+      "Subscriber, Commercial IoT": 5140000
+    }
+  },
+  {
+    "symbol": "GSAT",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "Product, Duplex": 1325000,
+      "Product, Other": 90000,
+      "Product, SPOT": 7617000,
+      "Product, Simplex": 9300000,
+      "Services, Duplex": 43679000,
+      "Services, IGO": 497000,
+      "Services, Other": 1777000,
+      "Services, SPOT": 50461000,
+      "Services, Simplex": 16972000
+    }
+  },
+  {
+    "symbol": "GSAT",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-12-31",
+    "data": {
+      "Product": 711000,
+      "Service": 89992000,
+      "Product, Duplex": 2016000,
+      "Product, IGO": 498000,
+      "Product, Other": 134000,
+      "Product, SPOT": 8046000,
+      "Product, Simplex": 8330000,
+      "Services, Duplex": 41223000,
+      "Services, IGO": 932000,
+      "Services, Other": 3112000,
+      "Services, SPOT": 52363000,
+      "Services, Simplex": 13459000
+    }
+  }
+]

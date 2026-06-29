@@ -1,0 +1,722 @@
+[
+  {
+    "symbol": "LPL",
+    "date": "2026-07-29",
+    "epsActual": null,
+    "epsEstimated": -0.13178,
+    "revenueActual": null,
+    "revenueEstimated": 3706320000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2026-04-23",
+    "epsActual": -0.38538,
+    "epsEstimated": -0.00429,
+    "revenueActual": 3737043000,
+    "revenueEstimated": 3958302000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2026-01-28",
+    "epsActual": -0.24,
+    "epsEstimated": 0.17,
+    "revenueActual": 4975387000,
+    "revenueEstimated": 5026543000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2025-10-30",
+    "epsActual": -0.01,
+    "epsEstimated": 0.132,
+    "revenueActual": 4890514000,
+    "revenueEstimated": 4876701000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2025-07-24",
+    "epsActual": 0.62,
+    "epsEstimated": 0.69,
+    "revenueActual": 4011771000,
+    "revenueEstimated": 4039176000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2025-04-24",
+    "epsActual": -0.18,
+    "epsEstimated": 0.01763,
+    "revenueActual": 4435749000,
+    "revenueEstimated": 4413663000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2025-01-22",
+    "epsActual": -0.6,
+    "epsEstimated": 0.05086,
+    "revenueActual": 5491357000,
+    "revenueEstimated": 5428567000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2024-10-23",
+    "epsActual": -0.26,
+    "epsEstimated": -0.12643,
+    "revenueActual": 4747025000,
+    "revenueEstimated": 5263826000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2024-07-24",
+    "epsActual": -0.74,
+    "epsEstimated": -0.37,
+    "revenueActual": 4841573000,
+    "revenueEstimated": 4569379000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2024-04-24",
+    "epsActual": -0.81,
+    "epsEstimated": -0.57,
+    "revenueActual": 3820363000,
+    "revenueEstimated": 3758416000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2024-03-08",
+    "epsActual": 0.06,
+    "epsEstimated": -0.06,
+    "revenueActual": 5531581000,
+    "revenueEstimated": 5228844000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2023-10-25",
+    "epsActual": -0.77,
+    "epsEstimated": -0.75,
+    "revenueActual": 3545708000,
+    "revenueEstimated": 4198857000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2023-08-14",
+    "epsActual": -0.91,
+    "epsEstimated": -0.94,
+    "revenueActual": 3708863000,
+    "revenueEstimated": 3633601000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2023-05-15",
+    "epsActual": -1.33,
+    "epsEstimated": -1.27,
+    "revenueActual": 3300782000,
+    "revenueEstimated": 3967945000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2023-02-17",
+    "epsActual": -1.92,
+    "epsEstimated": -0.58,
+    "revenueActual": 5927608000,
+    "revenueEstimated": 5813708000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2022-11-14",
+    "epsActual": -0.82,
+    "epsEstimated": -0.36,
+    "revenueActual": 4746749000,
+    "revenueEstimated": 4900866000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2022-07-28",
+    "epsActual": -0.37733,
+    "epsEstimated": -0.49,
+    "revenueActual": 4269397000,
+    "revenueEstimated": 4761718000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2022-04-28",
+    "epsActual": -0.04,
+    "epsEstimated": 0.03335,
+    "revenueActual": 5152452000,
+    "revenueEstimated": 5113192000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2022-03-08",
+    "epsActual": 0.29,
+    "epsEstimated": 0.71,
+    "revenueActual": 7381622000,
+    "revenueEstimated": 5766098000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2021-10-27",
+    "epsActual": 0.56,
+    "epsEstimated": 0.44,
+    "revenueActual": 6072300000,
+    "revenueEstimated": 5281144000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2021-07-28",
+    "epsActual": 0.53,
+    "epsEstimated": 0.44,
+    "revenueActual": 6130863000,
+    "revenueEstimated": 5386766000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2021-04-28",
+    "epsActual": 0.29,
+    "epsEstimated": 0.4,
+    "revenueActual": 6074037000,
+    "revenueEstimated": 6135145000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2021-01-26",
+    "epsActual": 0.71,
+    "epsEstimated": 0.29,
+    "revenueActual": 6834467000,
+    "revenueEstimated": 6452476000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2020-10-22",
+    "epsActual": 0.03,
+    "epsEstimated": -0.16,
+    "revenueActual": 5768548000,
+    "revenueEstimated": 5751768000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2020-07-23",
+    "epsActual": -0.58,
+    "epsEstimated": -0.4,
+    "revenueActual": 4411903000,
+    "revenueEstimated": 4366033000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2020-05-09",
+    "epsActual": -0.22,
+    "epsEstimated": -0.43,
+    "revenueActual": 3832153000,
+    "revenueEstimated": 5160407000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2020-01-31",
+    "epsActual": -2.14,
+    "epsEstimated": -2.12,
+    "revenueActual": 5662100000,
+    "revenueEstimated": 5117395000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2019-11-21",
+    "epsActual": -0.52,
+    "epsEstimated": -0.5,
+    "revenueActual": 4833936000,
+    "revenueEstimated": 4297919000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2019-07-23",
+    "epsActual": -0.66,
+    "epsEstimated": -0.33,
+    "revenueActual": 4610178000,
+    "revenueEstimated": 5027043000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2019-05-06",
+    "epsActual": -0.08,
+    "epsEstimated": -0.16,
+    "revenueActual": 5156671000,
+    "revenueEstimated": 6712833000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2019-03-07",
+    "epsActual": 0.19,
+    "epsEstimated": 0.00011,
+    "revenueActual": 6467406000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2018-11-14",
+    "epsActual": 0.00428,
+    "epsEstimated": -0.05,
+    "revenueActual": 5457547000,
+    "revenueEstimated": 5287179000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2018-08-14",
+    "epsActual": -0.39,
+    "epsEstimated": -0.08,
+    "revenueActual": 4991920000,
+    "revenueEstimated": 4399920000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2018-05-15",
+    "epsActual": -0.08,
+    "epsEstimated": 0.1,
+    "revenueActual": 5315737000,
+    "revenueEstimated": 5520941000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2018-01-23",
+    "epsActual": 0.06,
+    "epsEstimated": 0.31,
+    "revenueActual": 6524429000,
+    "revenueEstimated": 5406621000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2017-10-25",
+    "epsActual": 0.59,
+    "epsEstimated": 0.53,
+    "revenueActual": 6067755000,
+    "revenueEstimated": 6672865000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2017-08-14",
+    "epsActual": 0.87,
+    "epsEstimated": 0.75,
+    "revenueActual": 5767131000,
+    "revenueEstimated": 5276721000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2017-05-15",
+    "epsActual": 0.77,
+    "epsEstimated": 0.54,
+    "revenueActual": 6302980000,
+    "revenueEstimated": 5072294000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2017-03-29",
+    "epsActual": 0.96,
+    "epsEstimated": 0.5,
+    "revenueActual": 6545577000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2016-10-26",
+    "epsActual": 0.22,
+    "epsEstimated": 0.25,
+    "revenueActual": 6090620000,
+    "revenueEstimated": 5860891000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2016-07-27",
+    "epsActual": -0.1,
+    "epsEstimated": -0.0095,
+    "revenueActual": 5048108000,
+    "revenueEstimated": 5601614000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2016-05-16",
+    "epsActual": 0.00296,
+    "epsEstimated": -0.22,
+    "revenueActual": 5199625000,
+    "revenueEstimated": 5129984000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2016-01-27",
+    "epsActual": -0.02,
+    "epsEstimated": 0.2,
+    "revenueActual": 6343278000,
+    "revenueEstimated": 5969159000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2015-10-22",
+    "epsActual": 0.25,
+    "epsEstimated": 0.00028,
+    "revenueActual": 6047487000,
+    "revenueEstimated": 8070872000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2015-07-23",
+    "epsActual": 0.42,
+    "epsEstimated": 0.67,
+    "revenueActual": 5950746000,
+    "revenueEstimated": 7003959000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2015-04-22",
+    "epsActual": 0.58,
+    "epsEstimated": 0.42,
+    "revenueActual": 6391508000,
+    "revenueEstimated": 6105732000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2015-01-29",
+    "epsActual": 0.53,
+    "epsEstimated": 0.58,
+    "revenueActual": 7750852000,
+    "revenueEstimated": 8899985000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2014-10-22",
+    "epsActual": 0.47,
+    "epsEstimated": 0.44,
+    "revenueActual": 6128946000,
+    "revenueEstimated": 5892019000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2014-07-23",
+    "epsActual": 0.35,
+    "epsEstimated": 0.17,
+    "revenueActual": 5895333000,
+    "revenueEstimated": 4273856000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2014-04-23",
+    "epsActual": -0.1,
+    "epsEstimated": -0.04,
+    "revenueActual": 5262680000,
+    "revenueEstimated": 4418542000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2014-01-23",
+    "epsActual": 0.09,
+    "epsEstimated": 0.06,
+    "revenueActual": 6643147000,
+    "revenueEstimated": 8863808000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2013-10-17",
+    "epsActual": 0.31,
+    "epsEstimated": 0.39,
+    "revenueActual": 6107259000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2013-07-18",
+    "epsActual": 0.13,
+    "epsEstimated": 0.21,
+    "revenueActual": 5706728000,
+    "revenueEstimated": 7536025000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2013-05-15",
+    "epsActual": 0.01,
+    "epsEstimated": 0.06,
+    "revenueActual": 6097064000,
+    "revenueEstimated": 6026888000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2013-01-24",
+    "epsActual": 0.39,
+    "epsEstimated": 0.38,
+    "revenueActual": 7631019000,
+    "revenueEstimated": 8301804000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2012-10-26",
+    "epsActual": 0.2,
+    "epsEstimated": 0.27,
+    "revenueActual": 6770465000,
+    "revenueEstimated": 8658040000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2012-07-26",
+    "epsActual": -0.14,
+    "epsEstimated": -0.00016,
+    "revenueActual": 5963651000,
+    "revenueEstimated": 4957069000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2012-04-24",
+    "epsActual": -0.16,
+    "epsEstimated": -0.16,
+    "revenueActual": 5425145000,
+    "revenueEstimated": 5423084000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2012-01-30",
+    "epsActual": 0.00618,
+    "epsEstimated": -0.07,
+    "revenueActual": 5714326000,
+    "revenueEstimated": 5893060000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2011-11-28",
+    "epsActual": -0.88,
+    "epsEstimated": -0.37,
+    "revenueActual": 5310662000,
+    "revenueEstimated": 5156329000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2011-07-21",
+    "epsActual": 0.03,
+    "epsEstimated": 0.07,
+    "revenueActual": 5627799000,
+    "revenueEstimated": 5655333000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2011-07-21",
+    "epsActual": 0.03,
+    "epsEstimated": 0.07,
+    "revenueActual": 4868312000,
+    "revenueEstimated": 8079048000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2011-03-04",
+    "epsActual": -0.33,
+    "epsEstimated": -0.32,
+    "revenueActual": 5697579000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2010-11-24",
+    "epsActual": 0.54,
+    "epsEstimated": 0.13,
+    "revenueActual": 5868239000,
+    "revenueEstimated": 5606534000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2010-08-20",
+    "epsActual": 1.32,
+    "epsEstimated": 0.71,
+    "revenueActual": 5241883000,
+    "revenueEstimated": 4335152000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2010-04-22",
+    "epsActual": 0.8,
+    "epsEstimated": 0.54,
+    "revenueActual": 5205464000,
+    "revenueEstimated": 4484880000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2010-03-25",
+    "epsActual": 0.54,
+    "epsEstimated": 0.5,
+    "revenueActual": 4978497000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2009-10-15",
+    "epsActual": 0.66,
+    "epsEstimated": 0.68,
+    "revenueActual": 4911260000,
+    "revenueEstimated": 5262570000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2009-07-16",
+    "epsActual": 0.31,
+    "epsEstimated": 0.07,
+    "revenueActual": 3772678000,
+    "revenueEstimated": 4129128000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2009-04-16",
+    "epsActual": -0.27499,
+    "epsEstimated": -0.55,
+    "revenueActual": 2546223000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2008-04-16",
+    "epsActual": 1.14,
+    "epsEstimated": null,
+    "revenueActual": 4739432000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2007-10-09",
+    "epsActual": 0.77,
+    "epsEstimated": 0.45,
+    "revenueActual": 4276256000,
+    "revenueEstimated": 3056116000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2007-07-10",
+    "epsActual": 0.39,
+    "epsEstimated": 0.03319,
+    "revenueActual": 3533825000,
+    "revenueEstimated": 3762462000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2007-04-17",
+    "epsActual": -0.25,
+    "epsEstimated": -0.41,
+    "revenueActual": 2791715000,
+    "revenueEstimated": 3909284000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2007-04-11",
+    "epsActual": -0.18792,
+    "epsEstimated": -0.41104,
+    "revenueActual": 2921090000000,
+    "revenueEstimated": 2886648000000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2007-01-15",
+    "epsActual": -0.36,
+    "epsEstimated": -0.38,
+    "revenueActual": 2952086000,
+    "revenueEstimated": 2605261000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2006-07-11",
+    "epsActual": -0.44,
+    "epsEstimated": -0.55,
+    "revenueActual": 2460089000,
+    "revenueEstimated": 2990511000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2006-04-11",
+    "epsActual": 0.09,
+    "epsEstimated": -0.1,
+    "revenueActual": 2565039000,
+    "revenueEstimated": 2725370000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2006-01-12",
+    "epsActual": 0.5,
+    "epsEstimated": 0.42,
+    "revenueActual": 2957364000,
+    "revenueEstimated": 2478000000,
+    "lastUpdated": "2026-05-14"
+  },
+  {
+    "symbol": "LPL",
+    "date": "2005-04-11",
+    "epsActual": 0.1257,
+    "epsEstimated": null,
+    "revenueActual": 1975245000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-05-14"
+  }
+]

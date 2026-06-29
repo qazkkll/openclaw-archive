@@ -1,0 +1,82 @@
+{
+  "v032_weights": {
+    "fund_metric": 0.075,
+    "analyst": 0.121,
+    "earnings": 0.117,
+    "grade_sentiment": 0.13,
+    "fund_growth": 0.267,
+    "insider": 0.052,
+    "balance": 0.086,
+    "cashflow": 0.139,
+    "income_stmt": 0.013
+  },
+  "v031_weights": {
+    "fund_ratio": 0.7,
+    "analyst": 0.2,
+    "fund_metric": 0.1,
+    "earnings": 0.0,
+    "grade_sentiment": 0.0
+  },
+  "wf_results": {
+    "V0.3.1 (\u65e7)": {
+      "sharpe": 0.8519375,
+      "dd": 12.27875,
+      "ret": 7.741874999999999,
+      "wr": 56.775,
+      "positive_rate": 100.0,
+      "n_windows": 16
+    },
+    "V0.3.2 (\u65b0)": {
+      "sharpe": 0.7890625,
+      "dd": 12.9825,
+      "ret": 6.501875,
+      "wr": 56.193749999999994,
+      "positive_rate": 100.0,
+      "n_windows": 16
+    }
+  },
+  "ic_top5": [
+    [
+      "cash_to_assets",
+      0.032930692530278756
+    ],
+    [
+      "fund_growth",
+      0.032323771239431975
+    ],
+    [
+      "valuation",
+      -0.01915071429978852
+    ],
+    [
+      "capex_intensity",
+      -0.0186332814423068
+    ],
+    [
+      "revenue_growth_yoy",
+      0.01761730375764628
+    ],
+    [
+      "net_debt_to_assets",
+      -0.01740629596846539
+    ],
+    [
+      "buyback_yield",
+      0.01682911068734665
+    ],
+    [
+      "analyst",
+      0.01454210346228654
+    ],
+    [
+      "tech",
+      -0.013849001904735422
+    ],
+    [
+      "cashflow",
+      0.013841381811774188
+    ]
+  ],
+  "timestamp": "2026-06-30 01:01",
+  "n_windows": 16
+}

@@ -1,0 +1,830 @@
+[
+  {
+    "symbol": "CUBE",
+    "date": "2026-07-30",
+    "epsActual": null,
+    "epsEstimated": 0.3595,
+    "revenueActual": null,
+    "revenueEstimated": 281154600,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2026-04-30",
+    "epsActual": 0.63,
+    "epsEstimated": 0.3498,
+    "revenueActual": 281929000,
+    "revenueEstimated": 275249200,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2026-02-26",
+    "epsActual": 0.64,
+    "epsEstimated": 0.3698,
+    "revenueActual": 282710000,
+    "revenueEstimated": 276518400,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2025-10-30",
+    "epsActual": 0.65,
+    "epsEstimated": 0.65,
+    "revenueActual": 285080000,
+    "revenueEstimated": 280106830,
+    "lastUpdated": "2026-01-29"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2025-07-31",
+    "epsActual": 0.65,
+    "epsEstimated": 0.63,
+    "revenueActual": 282303000,
+    "revenueEstimated": 282567950,
+    "lastUpdated": "2025-10-31"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2025-05-01",
+    "epsActual": 0.64,
+    "epsEstimated": 0.62,
+    "revenueActual": 273036000,
+    "revenueEstimated": 266673300,
+    "lastUpdated": "2025-08-01"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2025-02-27",
+    "epsActual": 0.68,
+    "epsEstimated": 0.45,
+    "revenueActual": 267726000,
+    "revenueEstimated": 267540600,
+    "lastUpdated": "2025-05-27"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2024-10-31",
+    "epsActual": 0.67,
+    "epsEstimated": 0.68,
+    "revenueActual": 270890000,
+    "revenueEstimated": 267779500,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2024-08-01",
+    "epsActual": 0.64,
+    "epsEstimated": 0.64,
+    "revenueActual": 266209000,
+    "revenueEstimated": 254940000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2024-04-25",
+    "epsActual": 0.64,
+    "epsEstimated": 0.64,
+    "revenueActual": 261406000,
+    "revenueEstimated": 251400000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2024-02-29",
+    "epsActual": 0.5,
+    "epsEstimated": 0.45,
+    "revenueActual": 265125000,
+    "revenueEstimated": 236210000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2023-11-02",
+    "epsActual": 0.68,
+    "epsEstimated": 0.67,
+    "revenueActual": 267876000,
+    "revenueEstimated": 240890000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2023-08-03",
+    "epsActual": 0.66,
+    "epsEstimated": 0.67,
+    "revenueActual": 260805000,
+    "revenueEstimated": 234480000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2023-04-27",
+    "epsActual": 0.65,
+    "epsEstimated": 0.65,
+    "revenueActual": 256528000,
+    "revenueEstimated": 268830000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2023-02-23",
+    "epsActual": 0.67,
+    "epsEstimated": 0.66,
+    "revenueActual": 260987000,
+    "revenueEstimated": 252408016,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2022-10-27",
+    "epsActual": 0.5,
+    "epsEstimated": 0.28,
+    "revenueActual": 261408000,
+    "revenueEstimated": 248882975,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2022-08-04",
+    "epsActual": 0.62,
+    "epsEstimated": 0.59,
+    "revenueActual": 248664000,
+    "revenueEstimated": 234870197,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2022-04-28",
+    "epsActual": 0.58,
+    "epsEstimated": 0.57,
+    "revenueActual": 238565000,
+    "revenueEstimated": 224743445,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2022-02-24",
+    "epsActual": 0.58,
+    "epsEstimated": 0.56,
+    "revenueActual": 221912000,
+    "revenueEstimated": 212713058,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2021-11-04",
+    "epsActual": 0.43,
+    "epsEstimated": 0.27,
+    "revenueActual": 212564000,
+    "revenueEstimated": 202350000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2021-07-29",
+    "epsActual": 0.5,
+    "epsEstimated": 0.47,
+    "revenueActual": 199247000,
+    "revenueEstimated": 192140000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2021-04-29",
+    "epsActual": 0.47,
+    "epsEstimated": 0.45,
+    "revenueActual": 188841000,
+    "revenueEstimated": 178790000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2021-02-25",
+    "epsActual": 0.47,
+    "epsEstimated": 0.42,
+    "revenueActual": 178787000,
+    "revenueEstimated": 160908300,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2020-11-05",
+    "epsActual": 0.44,
+    "epsEstimated": 0.41,
+    "revenueActual": 172511000,
+    "revenueEstimated": 136571208,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2020-08-06",
+    "epsActual": 0.41,
+    "epsEstimated": 0.39,
+    "revenueActual": 163798000,
+    "revenueEstimated": 155608100,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2020-05-07",
+    "epsActual": 0.41,
+    "epsEstimated": 0.4,
+    "revenueActual": 164081000,
+    "revenueEstimated": 155876950,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2020-02-20",
+    "epsActual": 0.42,
+    "epsEstimated": 0.42,
+    "revenueActual": 165506000,
+    "revenueEstimated": 142937000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2019-10-24",
+    "epsActual": 0.44,
+    "epsEstimated": 0.43,
+    "revenueActual": 166547000,
+    "revenueEstimated": 166547000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2019-07-25",
+    "epsActual": 0.42,
+    "epsEstimated": 0.41,
+    "revenueActual": 159017000,
+    "revenueEstimated": 128436807,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2019-04-25",
+    "epsActual": 0.4,
+    "epsEstimated": 0.4,
+    "revenueActual": 152845000,
+    "revenueEstimated": 152845000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2019-02-21",
+    "epsActual": 0.42,
+    "epsEstimated": 0.42,
+    "revenueActual": 153882000,
+    "revenueEstimated": 169270199,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2018-10-25",
+    "epsActual": 0.43,
+    "epsEstimated": 0.41,
+    "revenueActual": 153370000,
+    "revenueEstimated": 146701739,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2018-07-26",
+    "epsActual": 0.41,
+    "epsEstimated": 0.41,
+    "revenueActual": 147815000,
+    "revenueEstimated": 154838095,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2018-04-26",
+    "epsActual": 0.39,
+    "epsEstimated": 0.39,
+    "revenueActual": 142877000,
+    "revenueEstimated": 142900000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2018-02-15",
+    "epsActual": 0.41,
+    "epsEstimated": 0.41,
+    "revenueActual": 143482000,
+    "revenueEstimated": 130454545,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2017-10-26",
+    "epsActual": 0.42,
+    "epsEstimated": 0.4,
+    "revenueActual": 143865000,
+    "revenueEstimated": 137047619,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2017-07-27",
+    "epsActual": 0.39,
+    "epsEstimated": 0.38,
+    "revenueActual": 138559000,
+    "revenueEstimated": 130900000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2017-04-27",
+    "epsActual": 0.36,
+    "epsEstimated": 0.36,
+    "revenueActual": 133037000,
+    "revenueEstimated": 123499999,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2017-02-16",
+    "epsActual": 0.38,
+    "epsEstimated": 0.37,
+    "revenueActual": 132546000,
+    "revenueEstimated": 132500000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2016-10-27",
+    "epsActual": 0.38,
+    "epsEstimated": 0.36,
+    "revenueActual": 132096000,
+    "revenueEstimated": 132100000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2016-07-28",
+    "epsActual": 0.36,
+    "epsEstimated": 0.34,
+    "revenueActual": 126526000,
+    "revenueEstimated": 149500000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2016-04-28",
+    "epsActual": 0.32,
+    "epsEstimated": 0.32,
+    "revenueActual": 118871000,
+    "revenueEstimated": 133762500,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2016-02-18",
+    "epsActual": 0.33,
+    "epsEstimated": 0.33,
+    "revenueActual": 114992000,
+    "revenueEstimated": 94868398,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2015-11-05",
+    "epsActual": 0.34,
+    "epsEstimated": 0.32,
+    "revenueActual": 115970000,
+    "revenueEstimated": 104399999,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2015-08-06",
+    "epsActual": 0.31,
+    "epsEstimated": 0.29,
+    "revenueActual": 109871000,
+    "revenueEstimated": 109900000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2015-04-30",
+    "epsActual": 0.28,
+    "epsEstimated": 0.27,
+    "revenueActual": 103688000,
+    "revenueEstimated": 103700000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2015-02-26",
+    "epsActual": 0.28,
+    "epsEstimated": 0.27,
+    "revenueActual": 100267000,
+    "revenueEstimated": 250750000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2014-10-30",
+    "epsActual": 0.28,
+    "epsEstimated": 0.27,
+    "revenueActual": 97092000,
+    "revenueEstimated": 97100000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2014-08-07",
+    "epsActual": 0.27,
+    "epsEstimated": 0.26,
+    "revenueActual": 92337000,
+    "revenueEstimated": 115375000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2014-05-01",
+    "epsActual": 0.23,
+    "epsEstimated": 0.23,
+    "revenueActual": 87267000,
+    "revenueEstimated": 130950000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2014-02-27",
+    "epsActual": 0.23,
+    "epsEstimated": 0.23,
+    "revenueActual": 81958000,
+    "revenueEstimated": 21866666,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2013-11-07",
+    "epsActual": 0.25,
+    "epsEstimated": 0.24,
+    "revenueActual": 82832000,
+    "revenueEstimated": 22500000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2013-08-08",
+    "epsActual": 0.23,
+    "epsEstimated": 0.21,
+    "revenueActual": 82302000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2013-05-02",
+    "epsActual": 0.2,
+    "epsEstimated": 0.2,
+    "revenueActual": 78457000,
+    "revenueEstimated": 149400000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2013-02-21",
+    "epsActual": 0.21,
+    "epsEstimated": 0.2,
+    "revenueActual": 77370000,
+    "revenueEstimated": 144400000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2012-11-08",
+    "epsActual": 0.19,
+    "epsEstimated": 0.19,
+    "revenueActual": 74134000,
+    "revenueEstimated": 69400000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2012-08-02",
+    "epsActual": 0.18,
+    "epsEstimated": null,
+    "revenueActual": 69324000,
+    "revenueEstimated": 30350000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2012-05-03",
+    "epsActual": 0.16,
+    "epsEstimated": 0.337,
+    "revenueActual": 67199000,
+    "revenueEstimated": 42733333,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2012-02-23",
+    "epsActual": 0.17,
+    "epsEstimated": 0.03559,
+    "revenueActual": 63648000,
+    "revenueEstimated": 14775000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2011-11-03",
+    "epsActual": 0.18,
+    "epsEstimated": 0.1185,
+    "revenueActual": 60445000,
+    "revenueEstimated": 39000000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2011-08-04",
+    "epsActual": 0.00913,
+    "epsEstimated": null,
+    "revenueActual": 59404000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2011-05-05",
+    "epsActual": -0.00118,
+    "epsEstimated": null,
+    "revenueActual": 57541000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2011-02-24",
+    "epsActual": 0.02109,
+    "epsEstimated": 0.01054,
+    "revenueActual": 52145000,
+    "revenueEstimated": 143348304,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2010-11-04",
+    "epsActual": -0.02,
+    "epsEstimated": -0.01635,
+    "revenueActual": 57012000,
+    "revenueEstimated": 80250000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2010-08-05",
+    "epsActual": -0.05,
+    "epsEstimated": -0.05,
+    "revenueActual": 54757000,
+    "revenueEstimated": 49900000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2010-05-06",
+    "epsActual": -0.04,
+    "epsEstimated": -0.06,
+    "revenueActual": 53123000,
+    "revenueEstimated": 77400000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2010-02-25",
+    "epsActual": -0.04,
+    "epsEstimated": -0.08,
+    "revenueActual": 52931000,
+    "revenueEstimated": 103600000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2009-11-05",
+    "epsActual": -0.05,
+    "epsEstimated": -0.04225,
+    "revenueActual": 54859000,
+    "revenueEstimated": 39920000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2009-08-06",
+    "epsActual": -0.08,
+    "epsEstimated": -0.08,
+    "revenueActual": 57012000,
+    "revenueEstimated": 54100000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2009-05-07",
+    "epsActual": -0.04,
+    "epsEstimated": -0.05,
+    "revenueActual": 57676000,
+    "revenueEstimated": 68625000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2009-02-26",
+    "epsActual": 0.04,
+    "epsEstimated": -0.07,
+    "revenueActual": 58454000,
+    "revenueEstimated": 87150000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2008-11-06",
+    "epsActual": 0.07,
+    "epsEstimated": -0.06,
+    "revenueActual": 60720000,
+    "revenueEstimated": 48685714,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2008-08-07",
+    "epsActual": 0.00456,
+    "epsEstimated": -0.06,
+    "revenueActual": 60407000,
+    "revenueEstimated": 318599999,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2008-05-08",
+    "epsActual": -0.07,
+    "epsEstimated": -0.1,
+    "revenueActual": 60063000,
+    "revenueEstimated": 82428571,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2008-02-28",
+    "epsActual": -0.1,
+    "epsEstimated": -0.08,
+    "revenueActual": 59417000,
+    "revenueEstimated": 46159999,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2007-11-01",
+    "epsActual": -0.07,
+    "epsEstimated": -0.01,
+    "revenueActual": 58306000,
+    "revenueEstimated": 7857142.86,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2007-08-06",
+    "epsActual": 0.00514,
+    "epsEstimated": null,
+    "revenueActual": 56308000,
+    "revenueEstimated": 75326728,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2007-05-03",
+    "epsActual": -0.06,
+    "epsEstimated": -0.05,
+    "revenueActual": 55532000,
+    "revenueEstimated": 45250000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2007-03-19",
+    "epsActual": -0.1,
+    "epsEstimated": -0.03333,
+    "revenueActual": 55105000,
+    "revenueEstimated": 16169999,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2006-11-06",
+    "epsActual": -0.03,
+    "epsEstimated": -0.02,
+    "revenueActual": 56406000,
+    "revenueEstimated": 37333333,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2006-08-07",
+    "epsActual": -0.00052,
+    "epsEstimated": null,
+    "revenueActual": 52440000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2006-05-05",
+    "epsActual": -0.03,
+    "epsEstimated": -0.00971,
+    "revenueActual": 48128000,
+    "revenueEstimated": 47800000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2006-03-01",
+    "epsActual": -0.05,
+    "epsEstimated": 0.1,
+    "revenueActual": 43319000,
+    "revenueEstimated": 86600000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2005-11-10",
+    "epsActual": 0.04,
+    "epsEstimated": 0.08,
+    "revenueActual": 41303000,
+    "revenueEstimated": 82600000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2005-08-12",
+    "epsActual": 0.06,
+    "epsEstimated": 0.07,
+    "revenueActual": 33784000,
+    "revenueEstimated": 39433333,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2005-05-16",
+    "epsActual": 0.04314,
+    "epsEstimated": null,
+    "revenueActual": 29715000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2005-05-16",
+    "epsActual": 0.04,
+    "epsEstimated": 0.13,
+    "revenueActual": 27596000,
+    "revenueEstimated": 96525000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2004-12-06",
+    "epsActual": -0.0673,
+    "epsEstimated": null,
+    "revenueActual": 22281000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2004-06-30",
+    "epsActual": 0.05872,
+    "epsEstimated": null,
+    "revenueActual": 28194000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2004-03-31",
+    "epsActual": 0.0914,
+    "epsEstimated": null,
+    "revenueActual": 20524000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2003-12-31",
+    "epsActual": 0.1562,
+    "epsEstimated": null,
+    "revenueActual": 20850000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "CUBE",
+    "date": "2003-09-30",
+    "epsActual": 0.1458,
+    "epsEstimated": null,
+    "revenueActual": 20681000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  }
+]

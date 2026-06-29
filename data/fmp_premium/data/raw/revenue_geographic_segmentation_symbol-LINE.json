@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "LINE",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Asia Pacific": 445000000,
+      "CANADA": 283000000,
+      "Europe": 1153000000,
+      "North America": 3752000000,
+      "Other Foreign": 5000000,
+      "UNITED STATES": 3469000000
+    }
+  },
+  {
+    "symbol": "LINE",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Asia Pacific": 445000000,
+      "CANADA": 293000000,
+      "Europe": 1186000000,
+      "North America": 3705000000,
+      "Other Foreign": 4000000,
+      "UNITED STATES": 3412000000
+    }
+  }
+]

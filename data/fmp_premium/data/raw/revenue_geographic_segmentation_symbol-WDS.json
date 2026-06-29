@@ -1,0 +1,39 @@
+[
+  {
+    "symbol": "WDS",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Americas": 2241000000,
+      "Asia Pacific": 7335000000,
+      "Europe": 3122000000,
+      "Other Countries": 286000000
+    }
+  },
+  {
+    "symbol": "WDS",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Americas": 2462000000,
+      "Asia Pacific": 8445000000,
+      "Europe": 2272000000
+    }
+  },
+  {
+    "symbol": "WDS",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Americas": 1545000000,
+      "Asia Pacific": 12521000000,
+      "Europe": 2751000000
+    }
+  }
+]

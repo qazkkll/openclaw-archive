@@ -1,0 +1,852 @@
+[
+  {
+    "symbol": "SHG",
+    "date": "2026-03-31",
+    "stockPrice": 92279.24,
+    "numberOfShares": 482433000,
+    "marketCapitalization": 44518551362812,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 44518551362812
+  },
+  {
+    "symbol": "SHG",
+    "date": "2025-12-31",
+    "stockPrice": 77253.48,
+    "numberOfShares": 511570000,
+    "marketCapitalization": 39520562098559,
+    "minusCashAndCashEquivalents": 21141098420000,
+    "addTotalDebt": 154207857856000,
+    "enterpriseValue": 172587321534559
+  },
+  {
+    "symbol": "SHG",
+    "date": "2025-09-30",
+    "stockPrice": 70723.51,
+    "numberOfShares": 499728000,
+    "marketCapitalization": 35342518005388,
+    "minusCashAndCashEquivalents": 47257253000000,
+    "addTotalDebt": 144636213000000,
+    "enterpriseValue": 132721478005388
+  },
+  {
+    "symbol": "SHG",
+    "date": "2025-06-30",
+    "stockPrice": 61148.42,
+    "numberOfShares": 487415000,
+    "marketCapitalization": 29804656744368,
+    "minusCashAndCashEquivalents": 39883213000000,
+    "addTotalDebt": 144435401000000,
+    "enterpriseValue": 134356844744368
+  },
+  {
+    "symbol": "SHG",
+    "date": "2025-03-31",
+    "stockPrice": 47194.49,
+    "numberOfShares": 495589000,
+    "marketCapitalization": 23389071095788,
+    "minusCashAndCashEquivalents": 43193235000000,
+    "addTotalDebt": 141160371000000,
+    "enterpriseValue": 121356207095788
+  },
+  {
+    "symbol": "SHG",
+    "date": "2024-12-31",
+    "stockPrice": 48477.42,
+    "numberOfShares": 498860000,
+    "marketCapitalization": 24183444304483,
+    "minusCashAndCashEquivalents": 41672295000000,
+    "addTotalDebt": 150260354000000,
+    "enterpriseValue": 132771503304483
+  },
+  {
+    "symbol": "SHG",
+    "date": "2024-09-30",
+    "stockPrice": 55763.16,
+    "numberOfShares": 503987000,
+    "marketCapitalization": 28103906206958,
+    "minusCashAndCashEquivalents": 44444882000000,
+    "addTotalDebt": 145218964000000,
+    "enterpriseValue": 128877988206958
+  },
+  {
+    "symbol": "SHG",
+    "date": "2024-06-30",
+    "stockPrice": 47782.05,
+    "numberOfShares": 511579000,
+    "marketCapitalization": 24444291745476,
+    "minusCashAndCashEquivalents": 35042851000000,
+    "addTotalDebt": 144492956000000,
+    "enterpriseValue": 133894396745476
+  },
+  {
+    "symbol": "SHG",
+    "date": "2024-03-31",
+    "stockPrice": 45491.37,
+    "numberOfShares": 511579000,
+    "marketCapitalization": 23272430596387,
+    "minusCashAndCashEquivalents": 34810658000000,
+    "addTotalDebt": 140026388000000,
+    "enterpriseValue": 128488160596387
+  },
+  {
+    "symbol": "SHG",
+    "date": "2023-12-31",
+    "stockPrice": 39814.55,
+    "numberOfShares": 512753000,
+    "marketCapitalization": 20415027700036,
+    "minusCashAndCashEquivalents": 35765819000000,
+    "addTotalDebt": 143784852000000,
+    "enterpriseValue": 128434060700036
+  },
+  {
+    "symbol": "SHG",
+    "date": "2023-09-30",
+    "stockPrice": 35743.75,
+    "numberOfShares": 516761000,
+    "marketCapitalization": 18470976872243,
+    "minusCashAndCashEquivalents": 35888889000000,
+    "addTotalDebt": 133221738000000,
+    "enterpriseValue": 115803825872243
+  },
+  {
+    "symbol": "SHG",
+    "date": "2023-06-30",
+    "stockPrice": 34269.29,
+    "numberOfShares": 539803000,
+    "marketCapitalization": 18498666035692,
+    "minusCashAndCashEquivalents": 37619474000000,
+    "addTotalDebt": 124673794000000,
+    "enterpriseValue": 105552986035692
+  },
+  {
+    "symbol": "SHG",
+    "date": "2023-03-31",
+    "stockPrice": 35110.04,
+    "numberOfShares": 525140000,
+    "marketCapitalization": 18437686363588,
+    "minusCashAndCashEquivalents": 35644748000000,
+    "addTotalDebt": 127591198000000,
+    "enterpriseValue": 110384136363588
+  },
+  {
+    "symbol": "SHG",
+    "date": "2022-12-31",
+    "stockPrice": 35117.23,
+    "numberOfShares": 508779000,
+    "marketCapitalization": 17866907584955,
+    "minusCashAndCashEquivalents": 31067588000000,
+    "addTotalDebt": 128717756000000,
+    "enterpriseValue": 115517075584955
+  },
+  {
+    "symbol": "SHG",
+    "date": "2022-09-30",
+    "stockPrice": 33121.38,
+    "numberOfShares": 512928000,
+    "marketCapitalization": 16988883200639,
+    "minusCashAndCashEquivalents": 37957131000000,
+    "addTotalDebt": 137621569000000,
+    "enterpriseValue": 116653321200639
+  },
+  {
+    "symbol": "SHG",
+    "date": "2022-06-30",
+    "stockPrice": 36785.99,
+    "numberOfShares": 530658000,
+    "marketCapitalization": 19520782004052,
+    "minusCashAndCashEquivalents": 30590456000000,
+    "addTotalDebt": 131249276000000,
+    "enterpriseValue": 120179602004052
+  },
+  {
+    "symbol": "SHG",
+    "date": "2022-03-31",
+    "stockPrice": 40570.98,
+    "numberOfShares": 534036000,
+    "marketCapitalization": 21666365103562,
+    "minusCashAndCashEquivalents": 28674245000000,
+    "addTotalDebt": 125477903000000,
+    "enterpriseValue": 118470023103562
+  },
+  {
+    "symbol": "SHG",
+    "date": "2021-12-31",
+    "stockPrice": 36782.9,
+    "numberOfShares": 516593000,
+    "marketCapitalization": 19001788659700,
+    "minusCashAndCashEquivalents": 29049341000000,
+    "addTotalDebt": 134680667000000,
+    "enterpriseValue": 124633114659700
+  },
+  {
+    "symbol": "SHG",
+    "date": "2021-09-30",
+    "stockPrice": 39863.06,
+    "numberOfShares": 534075000,
+    "marketCapitalization": 21289862583853,
+    "minusCashAndCashEquivalents": 31317230000000,
+    "addTotalDebt": 120004586000000,
+    "enterpriseValue": 109977218583853
+  },
+  {
+    "symbol": "SHG",
+    "date": "2021-06-30",
+    "stockPrice": 40483.79,
+    "numberOfShares": 534075000,
+    "marketCapitalization": 21621381078881,
+    "minusCashAndCashEquivalents": 26421476000000,
+    "addTotalDebt": 119378425000000,
+    "enterpriseValue": 114578330078881
+  },
+  {
+    "symbol": "SHG",
+    "date": "2021-03-31",
+    "stockPrice": 37807.13,
+    "numberOfShares": 533973000,
+    "marketCapitalization": 20187984758584,
+    "minusCashAndCashEquivalents": 30039120000000,
+    "addTotalDebt": 115680814000000,
+    "enterpriseValue": 105829678758584
+  },
+  {
+    "symbol": "SHG",
+    "date": "2020-12-31",
+    "stockPrice": 32325.16,
+    "numberOfShares": 490000000,
+    "marketCapitalization": 15839329968000,
+    "minusCashAndCashEquivalents": 34555587000000,
+    "addTotalDebt": 117057968000000,
+    "enterpriseValue": 98341710968000
+  },
+  {
+    "symbol": "SHG",
+    "date": "2020-09-30",
+    "stockPrice": 26762.35,
+    "numberOfShares": 490550000,
+    "marketCapitalization": 13128269320849,
+    "minusCashAndCashEquivalents": 9652300000000,
+    "addTotalDebt": 100923009000000,
+    "enterpriseValue": 104398978320849
+  },
+  {
+    "symbol": "SHG",
+    "date": "2020-06-30",
+    "stockPrice": 28841.93,
+    "numberOfShares": 490579000,
+    "marketCapitalization": 14149242724575,
+    "minusCashAndCashEquivalents": 32194974000000,
+    "addTotalDebt": 112082727000000,
+    "enterpriseValue": 94036995724575
+  },
+  {
+    "symbol": "SHG",
+    "date": "2020-03-31",
+    "stockPrice": 28366.27,
+    "numberOfShares": 488782000,
+    "marketCapitalization": 13864919905415,
+    "minusCashAndCashEquivalents": 30604367000000,
+    "addTotalDebt": 111920313000000,
+    "enterpriseValue": 95180865905415
+  },
+  {
+    "symbol": "SHG",
+    "date": "2019-12-31",
+    "stockPrice": 43930.88,
+    "numberOfShares": 477805000,
+    "marketCapitalization": 20990392446082,
+    "minusCashAndCashEquivalents": 29608316000000,
+    "addTotalDebt": 114251718000000,
+    "enterpriseValue": 105633794446082
+  },
+  {
+    "symbol": "SHG",
+    "date": "2019-09-30",
+    "stockPrice": 41890.34,
+    "numberOfShares": 480904000,
+    "marketCapitalization": 20145233466790,
+    "minusCashAndCashEquivalents": 25075640000000,
+    "addTotalDebt": 106173446000000,
+    "enterpriseValue": 101243039466790
+  },
+  {
+    "symbol": "SHG",
+    "date": "2019-06-30",
+    "stockPrice": 45234.05,
+    "numberOfShares": 480292000,
+    "marketCapitalization": 21725550181285,
+    "minusCashAndCashEquivalents": 25082154000000,
+    "addTotalDebt": 101696118000000,
+    "enterpriseValue": 98339514181285
+  },
+  {
+    "symbol": "SHG",
+    "date": "2019-03-31",
+    "stockPrice": 44318.35,
+    "numberOfShares": 470269000,
+    "marketCapitalization": 20841546606418,
+    "minusCashAndCashEquivalents": 21882775000000,
+    "addTotalDebt": 96537832000000,
+    "enterpriseValue": 95496603606418
+  },
+  {
+    "symbol": "SHG",
+    "date": "2018-12-31",
+    "stockPrice": 39456.01,
+    "numberOfShares": 472079000,
+    "marketCapitalization": 18626352564592,
+    "minusCashAndCashEquivalents": 18501060000000,
+    "addTotalDebt": 93715740000000,
+    "enterpriseValue": 93841032564592
+  },
+  {
+    "symbol": "SHG",
+    "date": "2018-09-30",
+    "stockPrice": 44898.74,
+    "numberOfShares": 474119000,
+    "marketCapitalization": 21287344809233,
+    "minusCashAndCashEquivalents": 19135962000000,
+    "addTotalDebt": 87102233000000,
+    "enterpriseValue": 89253615809233
+  },
+  {
+    "symbol": "SHG",
+    "date": "2018-06-30",
+    "stockPrice": 42784.18,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 20288258345680,
+    "minusCashAndCashEquivalents": 21192379000000,
+    "addTotalDebt": 114525132000000,
+    "enterpriseValue": 113621011345680
+  },
+  {
+    "symbol": "SHG",
+    "date": "2018-03-31",
+    "stockPrice": 44943.07,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 21312002466240,
+    "minusCashAndCashEquivalents": 18013498000000,
+    "addTotalDebt": 106010092000000,
+    "enterpriseValue": 109308596466240
+  },
+  {
+    "symbol": "SHG",
+    "date": "2017-12-31",
+    "stockPrice": 49892.07,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 23658821329572,
+    "minusCashAndCashEquivalents": 23827291000000,
+    "addTotalDebt": 110571690000000,
+    "enterpriseValue": 110403220329572
+  },
+  {
+    "symbol": "SHG",
+    "date": "2017-09-30",
+    "stockPrice": 50673.66,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 24029450757500,
+    "minusCashAndCashEquivalents": 22488936000000,
+    "addTotalDebt": 78992527000000,
+    "enterpriseValue": 80533041757500
+  },
+  {
+    "symbol": "SHG",
+    "date": "2017-06-30",
+    "stockPrice": 49737.77,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 23585652146280,
+    "minusCashAndCashEquivalents": 20424044000000,
+    "addTotalDebt": 76469987000000,
+    "enterpriseValue": 79631595146280
+  },
+  {
+    "symbol": "SHG",
+    "date": "2017-03-31",
+    "stockPrice": 46635.55,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 22114578047100,
+    "minusCashAndCashEquivalents": 22348029000000,
+    "addTotalDebt": 70534803000000,
+    "enterpriseValue": 70301352047100
+  },
+  {
+    "symbol": "SHG",
+    "date": "2016-12-31",
+    "stockPrice": 45403.25,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 21530221150000,
+    "minusCashAndCashEquivalents": 20348210000000,
+    "addTotalDebt": 73068104000000,
+    "enterpriseValue": 74250115150000
+  },
+  {
+    "symbol": "SHG",
+    "date": "2016-09-30",
+    "stockPrice": 40128.09,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 19028741416080,
+    "minusCashAndCashEquivalents": 19086550000000,
+    "addTotalDebt": 68365550000000,
+    "enterpriseValue": 68307741416080
+  },
+  {
+    "symbol": "SHG",
+    "date": "2016-06-30",
+    "stockPrice": 37714.84,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 17884378550600,
+    "minusCashAndCashEquivalents": 22485385000000,
+    "addTotalDebt": 66690788000000,
+    "enterpriseValue": 62089781550600
+  },
+  {
+    "symbol": "SHG",
+    "date": "2016-03-31",
+    "stockPrice": 40331.68,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 19125283514302,
+    "minusCashAndCashEquivalents": 20803333000000,
+    "addTotalDebt": 64539481000000,
+    "enterpriseValue": 62861431514302
+  },
+  {
+    "symbol": "SHG",
+    "date": "2015-12-31",
+    "stockPrice": 39495.96,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 18728985061850,
+    "minusCashAndCashEquivalents": 23238603000000,
+    "addTotalDebt": 65927172000000,
+    "enterpriseValue": 61417554061850
+  },
+  {
+    "symbol": "SHG",
+    "date": "2015-09-30",
+    "stockPrice": 41266.54,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 19568591371199,
+    "minusCashAndCashEquivalents": 25278342000000,
+    "addTotalDebt": 64662400000000,
+    "enterpriseValue": 58952649371199
+  },
+  {
+    "symbol": "SHG",
+    "date": "2015-06-30",
+    "stockPrice": 41483.11,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 19671291236200,
+    "minusCashAndCashEquivalents": 21167219000000,
+    "addTotalDebt": 64244992000000,
+    "enterpriseValue": 62749064236200
+  },
+  {
+    "symbol": "SHG",
+    "date": "2015-03-31",
+    "stockPrice": 41378.31,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 19621593369080,
+    "minusCashAndCashEquivalents": 20086372000000,
+    "addTotalDebt": 62383321000000,
+    "enterpriseValue": 61918542369080
+  },
+  {
+    "symbol": "SHG",
+    "date": "2014-12-31",
+    "stockPrice": 44206.86,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 20962890641000,
+    "minusCashAndCashEquivalents": 21892538000000,
+    "addTotalDebt": 62329091000000,
+    "enterpriseValue": 61399443641000
+  },
+  {
+    "symbol": "SHG",
+    "date": "2014-09-30",
+    "stockPrice": 48128.5,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 22822535648400,
+    "minusCashAndCashEquivalents": 21332254000000,
+    "addTotalDebt": 58655701000000,
+    "enterpriseValue": 60145982648400
+  },
+  {
+    "symbol": "SHG",
+    "date": "2014-06-30",
+    "stockPrice": 46406.19,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 22005816530919,
+    "minusCashAndCashEquivalents": 18739599000000,
+    "addTotalDebt": 56768550000000,
+    "enterpriseValue": 60034767530919
+  },
+  {
+    "symbol": "SHG",
+    "date": "2014-03-31",
+    "stockPrice": 46717.75,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 22153557642750,
+    "minusCashAndCashEquivalents": 20505552000000,
+    "addTotalDebt": 59071533000000,
+    "enterpriseValue": 60719538642750
+  },
+  {
+    "symbol": "SHG",
+    "date": "2013-12-31",
+    "stockPrice": 47849.04,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 22690015953500,
+    "minusCashAndCashEquivalents": 17826407000000,
+    "addTotalDebt": 59934276000000,
+    "enterpriseValue": 64797884953500
+  },
+  {
+    "symbol": "SHG",
+    "date": "2013-09-30",
+    "stockPrice": 43631.66,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 20690134357500,
+    "minusCashAndCashEquivalents": 20801821000000,
+    "addTotalDebt": 58863203000000,
+    "enterpriseValue": 58751516357500
+  },
+  {
+    "symbol": "SHG",
+    "date": "2013-06-30",
+    "stockPrice": 37765.21,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 17908263767500,
+    "minusCashAndCashEquivalents": 17609850000000,
+    "addTotalDebt": 61436824000000,
+    "enterpriseValue": 61735237767500
+  },
+  {
+    "symbol": "SHG",
+    "date": "2013-03-31",
+    "stockPrice": 40284.86,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 19103080612000,
+    "minusCashAndCashEquivalents": 16759628000000,
+    "addTotalDebt": 61447080000000,
+    "enterpriseValue": 63790532612000
+  },
+  {
+    "symbol": "SHG",
+    "date": "2012-12-31",
+    "stockPrice": 38999.62,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 18493617907200,
+    "minusCashAndCashEquivalents": 14865256000000,
+    "addTotalDebt": 60467293000000,
+    "enterpriseValue": 64095654907200
+  },
+  {
+    "symbol": "SHG",
+    "date": "2012-09-30",
+    "stockPrice": 37895.45,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 17970022864200,
+    "minusCashAndCashEquivalents": 15650105000000,
+    "addTotalDebt": 22098307000000,
+    "enterpriseValue": 24418224864200
+  },
+  {
+    "symbol": "SHG",
+    "date": "2012-06-30",
+    "stockPrice": 40646.7,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 19274663717400,
+    "minusCashAndCashEquivalents": 16003438000000,
+    "addTotalDebt": 21375989000000,
+    "enterpriseValue": 24647214717400
+  },
+  {
+    "symbol": "SHG",
+    "date": "2012-03-31",
+    "stockPrice": 43669.44,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 20708048447999,
+    "minusCashAndCashEquivalents": 17975099000000,
+    "addTotalDebt": 60667487000000,
+    "enterpriseValue": 63400436447999
+  },
+  {
+    "symbol": "SHG",
+    "date": "2011-12-31",
+    "stockPrice": 39502.79,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 18732223492200,
+    "minusCashAndCashEquivalents": 16060073000000,
+    "addTotalDebt": 61244772000000,
+    "enterpriseValue": 63916922492200
+  },
+  {
+    "symbol": "SHG",
+    "date": "2011-09-30",
+    "stockPrice": 40410.4,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 19162610731600,
+    "minusCashAndCashEquivalents": 16091068000000,
+    "addTotalDebt": 20167935000000,
+    "enterpriseValue": 23239477731600
+  },
+  {
+    "symbol": "SHG",
+    "date": "2011-06-30",
+    "stockPrice": 51165.87,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 24262856502400,
+    "minusCashAndCashEquivalents": 12547551000000,
+    "addTotalDebt": 59006149000000,
+    "enterpriseValue": 70721454502400
+  },
+  {
+    "symbol": "SHG",
+    "date": "2011-03-31",
+    "stockPrice": 49524.62,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 23484572433000,
+    "minusCashAndCashEquivalents": 16294385000000,
+    "addTotalDebt": 58705648000000,
+    "enterpriseValue": 65895835433000
+  },
+  {
+    "symbol": "SHG",
+    "date": "2010-12-31",
+    "stockPrice": 52515.75,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 24902966278999,
+    "minusCashAndCashEquivalents": 11821607000000,
+    "addTotalDebt": 66442986000000,
+    "enterpriseValue": 79524345278999
+  },
+  {
+    "symbol": "SHG",
+    "date": "2010-09-30",
+    "stockPrice": 43715.27,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 20729780085600,
+    "minusCashAndCashEquivalents": 11975064000000,
+    "addTotalDebt": 18085459000000,
+    "enterpriseValue": 26840175085600
+  },
+  {
+    "symbol": "SHG",
+    "date": "2010-06-30",
+    "stockPrice": 44571.41,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 21135761673599,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 21135761673599
+  },
+  {
+    "symbol": "SHG",
+    "date": "2010-03-31",
+    "stockPrice": 44953.28,
+    "numberOfShares": 474200000,
+    "marketCapitalization": 21316843005000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 21316843005000
+  },
+  {
+    "symbol": "SHG",
+    "date": "2007-12-31",
+    "stockPrice": 53649.41,
+    "numberOfShares": 430478000,
+    "marketCapitalization": 23094892439892,
+    "minusCashAndCashEquivalents": 5967858000000,
+    "addTotalDebt": 73749398000000,
+    "enterpriseValue": 90876432439892
+  },
+  {
+    "symbol": "SHG",
+    "date": "2007-09-30",
+    "stockPrice": 61988.02,
+    "numberOfShares": 430478000,
+    "marketCapitalization": 26684477151648,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 26684477151648
+  },
+  {
+    "symbol": "SHG",
+    "date": "2007-06-30",
+    "stockPrice": 56478.63,
+    "numberOfShares": 430478000,
+    "marketCapitalization": 24312805532750,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 24312805532750
+  },
+  {
+    "symbol": "SHG",
+    "date": "2007-03-31",
+    "stockPrice": 53563.46,
+    "numberOfShares": 430478000,
+    "marketCapitalization": 23057890272924,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 23057890272924
+  },
+  {
+    "symbol": "SHG",
+    "date": "2006-12-31",
+    "stockPrice": 48027.27,
+    "numberOfShares": 391316000,
+    "marketCapitalization": 18793837230740,
+    "minusCashAndCashEquivalents": 2304958743997,
+    "addTotalDebt": 49286933230959,
+    "enterpriseValue": 65775811717702
+  },
+  {
+    "symbol": "SHG",
+    "date": "2006-09-30",
+    "stockPrice": 42475.4,
+    "numberOfShares": 391316000,
+    "marketCapitalization": 16621303626400,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 16621303626400
+  },
+  {
+    "symbol": "SHG",
+    "date": "2006-06-30",
+    "stockPrice": 44849.7,
+    "numberOfShares": 391316000,
+    "marketCapitalization": 17550405205200,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 17550405205200
+  },
+  {
+    "symbol": "SHG",
+    "date": "2006-03-31",
+    "stockPrice": 42772.55,
+    "numberOfShares": 391316000,
+    "marketCapitalization": 16737583175799,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 16737583175799
+  },
+  {
+    "symbol": "SHG",
+    "date": "2005-12-31",
+    "stockPrice": 41035.25,
+    "numberOfShares": 373761000,
+    "marketCapitalization": 15337376075250,
+    "minusCashAndCashEquivalents": 3028723894313,
+    "addTotalDebt": 45158319192065,
+    "enterpriseValue": 57466971373002
+  },
+  {
+    "symbol": "SHG",
+    "date": "2005-09-30",
+    "stockPrice": 36171.24,
+    "numberOfShares": 373761000,
+    "marketCapitalization": 13519398833640,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 13519398833640
+  },
+  {
+    "symbol": "SHG",
+    "date": "2005-06-30",
+    "stockPrice": 27114.25,
+    "numberOfShares": 373761000,
+    "marketCapitalization": 10134247325445,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10134247325445
+  },
+  {
+    "symbol": "SHG",
+    "date": "2005-03-31",
+    "stockPrice": 27316.62,
+    "numberOfShares": 373761000,
+    "marketCapitalization": 10209887207820,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10209887207820
+  },
+  {
+    "symbol": "SHG",
+    "date": "2004-12-31",
+    "stockPrice": 23550.24,
+    "numberOfShares": 316353000,
+    "marketCapitalization": 7450189074720,
+    "minusCashAndCashEquivalents": 2574030000000,
+    "addTotalDebt": 39492156000000,
+    "enterpriseValue": 44368315074720
+  },
+  {
+    "symbol": "SHG",
+    "date": "2004-09-30",
+    "stockPrice": 19895,
+    "numberOfShares": 316353000,
+    "marketCapitalization": 6293842935000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6293842935000
+  },
+  {
+    "symbol": "SHG",
+    "date": "2004-06-30",
+    "stockPrice": 17105.55,
+    "numberOfShares": 316353000,
+    "marketCapitalization": 5411392059150,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5411392059150
+  },
+  {
+    "symbol": "SHG",
+    "date": "2004-03-31",
+    "stockPrice": 20878.49,
+    "numberOfShares": 316353000,
+    "marketCapitalization": 6604974212382,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6604974212382
+  },
+  {
+    "symbol": "SHG",
+    "date": "2003-12-31",
+    "stockPrice": 19089.43,
+    "numberOfShares": 275981000,
+    "marketCapitalization": 5268320532791,
+    "minusCashAndCashEquivalents": 2418032500000,
+    "addTotalDebt": 34000050000000,
+    "enterpriseValue": 36850338032791
+  },
+  {
+    "symbol": "SHG",
+    "date": "2003-09-30",
+    "stockPrice": 15648.96,
+    "numberOfShares": 275981000,
+    "marketCapitalization": 4318816181722,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4318816181722
+  },
+  {
+    "symbol": "SHG",
+    "date": "2003-06-30",
+    "stockPrice": 18652.07,
+    "numberOfShares": 275981000,
+    "marketCapitalization": 5147617206651,
+    "minusCashAndCashEquivalents": 4074087500000,
+    "addTotalDebt": 24760181250000,
+    "enterpriseValue": 25833710956651
+  },
+  {
+    "symbol": "SHG",
+    "date": "2003-03-31",
+    "stockPrice": 19694.08,
+    "numberOfShares": 355123000,
+    "marketCapitalization": 6993820771840,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6993820771840
+  }
+]

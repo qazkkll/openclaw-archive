@@ -1,0 +1,602 @@
+[
+  {
+    "symbol": "DEO",
+    "date": "2025-12-31",
+    "stockPrice": 86.27,
+    "numberOfShares": 555750000,
+    "marketCapitalization": 47944552500,
+    "minusCashAndCashEquivalents": 2205920000,
+    "addTotalDebt": 24165266000,
+    "enterpriseValue": 69903898500
+  },
+  {
+    "symbol": "DEO",
+    "date": "2025-06-30",
+    "stockPrice": 100.84,
+    "numberOfShares": 555250000,
+    "marketCapitalization": 55991410000,
+    "minusCashAndCashEquivalents": 2200000000,
+    "addTotalDebt": 24401000000,
+    "enterpriseValue": 78192410000
+  },
+  {
+    "symbol": "DEO",
+    "date": "2024-12-31",
+    "stockPrice": 127.13,
+    "numberOfShares": 555250000,
+    "marketCapitalization": 70588932500,
+    "minusCashAndCashEquivalents": 1656000000,
+    "addTotalDebt": 21720000000,
+    "enterpriseValue": 90652932500
+  },
+  {
+    "symbol": "DEO",
+    "date": "2024-06-30",
+    "stockPrice": 125.87,
+    "numberOfShares": 558500000,
+    "marketCapitalization": 70298395000,
+    "minusCashAndCashEquivalents": 1130000000,
+    "addTotalDebt": 21501000000,
+    "enterpriseValue": 90669395000
+  },
+  {
+    "symbol": "DEO",
+    "date": "2023-12-31",
+    "stockPrice": 145.66,
+    "numberOfShares": 560500000,
+    "marketCapitalization": 81642430000,
+    "minusCashAndCashEquivalents": 1529000000,
+    "addTotalDebt": 21480000000,
+    "enterpriseValue": 101593430000
+  },
+  {
+    "symbol": "DEO",
+    "date": "2023-06-30",
+    "stockPrice": 173.48,
+    "numberOfShares": 567750000,
+    "marketCapitalization": 98493270000,
+    "minusCashAndCashEquivalents": 1813000000,
+    "addTotalDebt": 20791000000,
+    "enterpriseValue": 117471270000
+  },
+  {
+    "symbol": "DEO",
+    "date": "2022-12-31",
+    "stockPrice": 178.19,
+    "numberOfShares": 568500000,
+    "marketCapitalization": 101301015000,
+    "minusCashAndCashEquivalents": 3319000000,
+    "addTotalDebt": 21132000000,
+    "enterpriseValue": 119114015000
+  },
+  {
+    "symbol": "DEO",
+    "date": "2022-06-30",
+    "stockPrice": 143,
+    "numberOfShares": 574595879,
+    "marketCapitalization": 82166942015,
+    "minusCashAndCashEquivalents": 2285000000,
+    "addTotalDebt": 16020000000,
+    "enterpriseValue": 95901942015
+  },
+  {
+    "symbol": "DEO",
+    "date": "2021-12-31",
+    "stockPrice": 162.65,
+    "numberOfShares": 582750000,
+    "marketCapitalization": 94783260461,
+    "minusCashAndCashEquivalents": 1780000000,
+    "addTotalDebt": 13877000000,
+    "enterpriseValue": 106880260461
+  },
+  {
+    "symbol": "DEO",
+    "date": "2021-06-30",
+    "stockPrice": 138.61,
+    "numberOfShares": 584616126,
+    "marketCapitalization": 81034248641,
+    "minusCashAndCashEquivalents": 2749000000,
+    "addTotalDebt": 14727000000,
+    "enterpriseValue": 93012248641
+  },
+  {
+    "symbol": "DEO",
+    "date": "2020-12-31",
+    "stockPrice": 116.23,
+    "numberOfShares": 584000000,
+    "marketCapitalization": 67881022226,
+    "minusCashAndCashEquivalents": 2763000000,
+    "addTotalDebt": 15277000000,
+    "enterpriseValue": 80395022226
+  },
+  {
+    "symbol": "DEO",
+    "date": "2020-06-30",
+    "stockPrice": 108.37,
+    "numberOfShares": 583747107,
+    "marketCapitalization": 63260328524,
+    "minusCashAndCashEquivalents": 3323000000,
+    "addTotalDebt": 16785000000,
+    "enterpriseValue": 76722328524
+  },
+  {
+    "symbol": "DEO",
+    "date": "2019-12-31",
+    "stockPrice": 127,
+    "numberOfShares": 589000000,
+    "marketCapitalization": 74802284482,
+    "minusCashAndCashEquivalents": 950000000,
+    "addTotalDebt": 13472000000,
+    "enterpriseValue": 87324284482
+  },
+  {
+    "symbol": "DEO",
+    "date": "2019-06-30",
+    "stockPrice": 135.22,
+    "numberOfShares": 1202000000,
+    "marketCapitalization": 162537713046,
+    "minusCashAndCashEquivalents": 932000000,
+    "addTotalDebt": 12683000000,
+    "enterpriseValue": 174288713046
+  },
+  {
+    "symbol": "DEO",
+    "date": "2018-12-31",
+    "stockPrice": 111.15,
+    "numberOfShares": 1225806451,
+    "marketCapitalization": 136253515802,
+    "minusCashAndCashEquivalents": 1591000000,
+    "addTotalDebt": 12014000000,
+    "enterpriseValue": 146676515802
+  },
+  {
+    "symbol": "DEO",
+    "date": "2018-06-30",
+    "stockPrice": 109.05,
+    "numberOfShares": 1236500000,
+    "marketCapitalization": 134836927345,
+    "minusCashAndCashEquivalents": 874000000,
+    "addTotalDebt": 10057000000,
+    "enterpriseValue": 144019927345
+  },
+  {
+    "symbol": "DEO",
+    "date": "2017-12-31",
+    "stockPrice": 107.42,
+    "numberOfShares": 1257946210,
+    "marketCapitalization": 135133330247,
+    "minusCashAndCashEquivalents": 920000000,
+    "addTotalDebt": 10025000000,
+    "enterpriseValue": 144238330247
+  },
+  {
+    "symbol": "DEO",
+    "date": "2017-06-30",
+    "stockPrice": 91.99,
+    "numberOfShares": 1261500000,
+    "marketCapitalization": 116042230619,
+    "minusCashAndCashEquivalents": 1191000000,
+    "addTotalDebt": 9225000000,
+    "enterpriseValue": 124076230619
+  },
+  {
+    "symbol": "DEO",
+    "date": "2016-12-31",
+    "stockPrice": 84.2,
+    "numberOfShares": 1261254019,
+    "marketCapitalization": 106193296352,
+    "minusCashAndCashEquivalents": 1254000000,
+    "addTotalDebt": 10245000000,
+    "enterpriseValue": 115184296352
+  },
+  {
+    "symbol": "DEO",
+    "date": "2016-06-30",
+    "stockPrice": 84.95,
+    "numberOfShares": 1258258258,
+    "marketCapitalization": 106890587178,
+    "minusCashAndCashEquivalents": 1089000000,
+    "addTotalDebt": 10371000000,
+    "enterpriseValue": 116172587178
+  },
+  {
+    "symbol": "DEO",
+    "date": "2015-12-31",
+    "stockPrice": 74.02,
+    "numberOfShares": 1259000000,
+    "marketCapitalization": 93186134809,
+    "minusCashAndCashEquivalents": 541000000,
+    "addTotalDebt": 9865000000,
+    "enterpriseValue": 102510134809
+  },
+  {
+    "symbol": "DEO",
+    "date": "2015-06-30",
+    "stockPrice": 73.85,
+    "numberOfShares": 1260500000,
+    "marketCapitalization": 93082297119,
+    "minusCashAndCashEquivalents": 472000000,
+    "addTotalDebt": 10100000000,
+    "enterpriseValue": 102710297119
+  },
+  {
+    "symbol": "DEO",
+    "date": "2014-12-31",
+    "stockPrice": 73.21,
+    "numberOfShares": 1255747126,
+    "marketCapitalization": 91935197269,
+    "minusCashAndCashEquivalents": 802000000,
+    "addTotalDebt": 11363000000,
+    "enterpriseValue": 102496197269
+  },
+  {
+    "symbol": "DEO",
+    "date": "2014-06-30",
+    "stockPrice": 74.35,
+    "numberOfShares": 1257000000,
+    "marketCapitalization": 93459375438,
+    "minusCashAndCashEquivalents": 622000000,
+    "addTotalDebt": 9505000000,
+    "enterpriseValue": 102342375438
+  },
+  {
+    "symbol": "DEO",
+    "date": "2013-12-31",
+    "stockPrice": 79.98,
+    "numberOfShares": 1258184523,
+    "marketCapitalization": 100631711899,
+    "minusCashAndCashEquivalents": 891000000,
+    "addTotalDebt": 9723000000,
+    "enterpriseValue": 109463711899
+  },
+  {
+    "symbol": "DEO",
+    "date": "2013-06-30",
+    "stockPrice": 76.88,
+    "numberOfShares": 1257894040,
+    "marketCapitalization": 96701321324,
+    "minusCashAndCashEquivalents": 1772000000,
+    "addTotalDebt": 10380000000,
+    "enterpriseValue": 105309321324
+  },
+  {
+    "symbol": "DEO",
+    "date": "2012-12-31",
+    "stockPrice": 71.67,
+    "numberOfShares": 1259105960,
+    "marketCapitalization": 90244384967,
+    "minusCashAndCashEquivalents": 708000000,
+    "addTotalDebt": 8453000000,
+    "enterpriseValue": 97989384967
+  },
+  {
+    "symbol": "DEO",
+    "date": "2012-06-30",
+    "stockPrice": 65.62,
+    "numberOfShares": 623250000,
+    "marketCapitalization": 40900574954,
+    "minusCashAndCashEquivalents": 1076000000,
+    "addTotalDebt": 8859000000,
+    "enterpriseValue": 48683574954
+  },
+  {
+    "symbol": "DEO",
+    "date": "2011-12-31",
+    "stockPrice": 56.18,
+    "numberOfShares": 623250000,
+    "marketCapitalization": 35017197790,
+    "minusCashAndCashEquivalents": 1121000000,
+    "addTotalDebt": 9604000000,
+    "enterpriseValue": 43500197790
+  },
+  {
+    "symbol": "DEO",
+    "date": "2011-06-30",
+    "stockPrice": 51.01,
+    "numberOfShares": 621500000,
+    "marketCapitalization": 31704701935,
+    "minusCashAndCashEquivalents": 1584000000,
+    "addTotalDebt": 8383000000,
+    "enterpriseValue": 38503701935
+  },
+  {
+    "symbol": "DEO",
+    "date": "2010-12-31",
+    "stockPrice": 47.6,
+    "numberOfShares": 621500000,
+    "marketCapitalization": 29583979237,
+    "minusCashAndCashEquivalents": 1472000000,
+    "addTotalDebt": 8641000000,
+    "enterpriseValue": 36752979237
+  },
+  {
+    "symbol": "DEO",
+    "date": "2010-06-30",
+    "stockPrice": 41.98,
+    "numberOfShares": 621250000,
+    "marketCapitalization": 26079661247,
+    "minusCashAndCashEquivalents": 1453000000,
+    "addTotalDebt": 8764000000,
+    "enterpriseValue": 33390661247
+  },
+  {
+    "symbol": "DEO",
+    "date": "2009-12-31",
+    "stockPrice": 42.94,
+    "numberOfShares": 621250000,
+    "marketCapitalization": 26678939498,
+    "minusCashAndCashEquivalents": 1589000000,
+    "addTotalDebt": 9119000000,
+    "enterpriseValue": 34208939498
+  },
+  {
+    "symbol": "DEO",
+    "date": "2009-06-30",
+    "stockPrice": 34.75,
+    "numberOfShares": 641500000,
+    "marketCapitalization": 22292606124,
+    "minusCashAndCashEquivalents": 914000000,
+    "addTotalDebt": 8575000000,
+    "enterpriseValue": 29953606124
+  },
+  {
+    "symbol": "DEO",
+    "date": "2008-12-31",
+    "stockPrice": 38.79,
+    "numberOfShares": 641500000,
+    "marketCapitalization": 24885798027,
+    "minusCashAndCashEquivalents": 2088000000,
+    "addTotalDebt": 11115000000,
+    "enterpriseValue": 33912798027
+  },
+  {
+    "symbol": "DEO",
+    "date": "2008-06-30",
+    "stockPrice": 37.05,
+    "numberOfShares": 623500000,
+    "marketCapitalization": 23098059417,
+    "minusCashAndCashEquivalents": 714972120,
+    "addTotalDebt": 7220062800,
+    "enterpriseValue": 29603150097
+  },
+  {
+    "symbol": "DEO",
+    "date": "2007-12-31",
+    "stockPrice": 43.18,
+    "numberOfShares": 647500000,
+    "marketCapitalization": 27959744767,
+    "minusCashAndCashEquivalents": 811000000,
+    "addTotalDebt": 6721000000,
+    "enterpriseValue": 33869744767
+  },
+  {
+    "symbol": "DEO",
+    "date": "2007-06-30",
+    "stockPrice": 41.46,
+    "numberOfShares": 660225423,
+    "marketCapitalization": 27369681883,
+    "minusCashAndCashEquivalents": 884821610,
+    "addTotalDebt": 5665447540,
+    "enterpriseValue": 32150307813
+  },
+  {
+    "symbol": "DEO",
+    "date": "2006-12-31",
+    "stockPrice": 40.48,
+    "numberOfShares": 681250000,
+    "marketCapitalization": 27576880100,
+    "minusCashAndCashEquivalents": 975000000,
+    "addTotalDebt": 5607000000,
+    "enterpriseValue": 32208880100
+  },
+  {
+    "symbol": "DEO",
+    "date": "2006-06-30",
+    "stockPrice": 36.53,
+    "numberOfShares": 676500000,
+    "marketCapitalization": 24713248560,
+    "minusCashAndCashEquivalents": 699204560,
+    "addTotalDebt": 4761842820,
+    "enterpriseValue": 28775886820
+  },
+  {
+    "symbol": "DEO",
+    "date": "2005-12-31",
+    "stockPrice": 33.82,
+    "numberOfShares": 721500000,
+    "marketCapitalization": 24401007344,
+    "minusCashAndCashEquivalents": 1039000000,
+    "addTotalDebt": 5103000000,
+    "enterpriseValue": 28465007344
+  },
+  {
+    "symbol": "DEO",
+    "date": "2005-06-30",
+    "stockPrice": 33.1,
+    "numberOfShares": 743000000,
+    "marketCapitalization": 24589830190,
+    "minusCashAndCashEquivalents": 815588640,
+    "addTotalDebt": 4539049440,
+    "enterpriseValue": 28313290990
+  },
+  {
+    "symbol": "DEO",
+    "date": "2004-12-31",
+    "stockPrice": 30.17,
+    "numberOfShares": 749750000,
+    "marketCapitalization": 22617750236,
+    "minusCashAndCashEquivalents": 1082000000,
+    "addTotalDebt": 5020000000,
+    "enterpriseValue": 26555750236
+  },
+  {
+    "symbol": "DEO",
+    "date": "2004-06-30",
+    "stockPrice": 30.07,
+    "numberOfShares": 763457019,
+    "marketCapitalization": 22960339994,
+    "minusCashAndCashEquivalents": 1165489500,
+    "addTotalDebt": 5310368000,
+    "enterpriseValue": 27105218494
+  },
+  {
+    "symbol": "DEO",
+    "date": "2003-12-31",
+    "stockPrice": 29.55,
+    "numberOfShares": 760750000,
+    "marketCapitalization": 22480410352,
+    "minusCashAndCashEquivalents": 1302560000,
+    "addTotalDebt": 6446720000,
+    "enterpriseValue": 27624570352
+  },
+  {
+    "symbol": "DEO",
+    "date": "2003-06-30",
+    "stockPrice": 26.44,
+    "numberOfShares": 757376899,
+    "marketCapitalization": 20021573393,
+    "minusCashAndCashEquivalents": 1190937330,
+    "addTotalDebt": 6265260870,
+    "enterpriseValue": 25095896933
+  },
+  {
+    "symbol": "DEO",
+    "date": "2002-12-31",
+    "stockPrice": 27.18,
+    "numberOfShares": 787655434,
+    "marketCapitalization": 21406820619,
+    "minusCashAndCashEquivalents": 1360000000,
+    "addTotalDebt": 6984000000,
+    "enterpriseValue": 27030820619
+  },
+  {
+    "symbol": "DEO",
+    "date": "2002-06-30",
+    "stockPrice": 33.76,
+    "numberOfShares": 830269000,
+    "marketCapitalization": 28025876222,
+    "minusCashAndCashEquivalents": 1594270080,
+    "addTotalDebt": 7448842080,
+    "enterpriseValue": 33880448222
+  },
+  {
+    "symbol": "DEO",
+    "date": "2001-12-31",
+    "stockPrice": 31.83,
+    "numberOfShares": 846215352,
+    "marketCapitalization": 26938216423,
+    "minusCashAndCashEquivalents": 2286000000,
+    "addTotalDebt": 7578000000,
+    "enterpriseValue": 32230216423
+  },
+  {
+    "symbol": "DEO",
+    "date": "2001-06-30",
+    "stockPrice": 31.03,
+    "numberOfShares": 839108139,
+    "marketCapitalization": 26040122592,
+    "minusCashAndCashEquivalents": 1842000000,
+    "addTotalDebt": 7636000000,
+    "enterpriseValue": 31834122592
+  },
+  {
+    "symbol": "DEO",
+    "date": "2000-12-31",
+    "stockPrice": 29.75,
+    "numberOfShares": 843614025,
+    "marketCapitalization": 25097629444,
+    "minusCashAndCashEquivalents": 1089000000,
+    "addTotalDebt": 6962000000,
+    "enterpriseValue": 30970629444
+  },
+  {
+    "symbol": "DEO",
+    "date": "2000-06-30",
+    "stockPrice": 23.43,
+    "numberOfShares": 1692000000,
+    "marketCapitalization": 39650395680,
+    "minusCashAndCashEquivalents": 1063000000,
+    "addTotalDebt": 6821000000,
+    "enterpriseValue": 45408395680
+  },
+  {
+    "symbol": "DEO",
+    "date": "1999-12-31",
+    "stockPrice": 19.82,
+    "numberOfShares": 1724761905,
+    "marketCapitalization": 34180641528,
+    "minusCashAndCashEquivalents": 1732000000,
+    "addTotalDebt": 7648000000,
+    "enterpriseValue": 40096641528
+  },
+  {
+    "symbol": "DEO",
+    "date": "1999-06-30",
+    "stockPrice": 27.24,
+    "numberOfShares": 889841269,
+    "marketCapitalization": 24243547405,
+    "minusCashAndCashEquivalents": 1097000000,
+    "addTotalDebt": 7338000000,
+    "enterpriseValue": 30484547405
+  },
+  {
+    "symbol": "DEO",
+    "date": "1998-12-31",
+    "stockPrice": 27.89,
+    "numberOfShares": 889841269,
+    "marketCapitalization": 24816560690,
+    "minusCashAndCashEquivalents": 1384671080,
+    "addTotalDebt": 6757440670,
+    "enterpriseValue": 30189330280
+  },
+  {
+    "symbol": "DEO",
+    "date": "1998-06-30",
+    "stockPrice": 28.79,
+    "numberOfShares": 1013000000,
+    "marketCapitalization": 29159812800,
+    "minusCashAndCashEquivalents": 2503000000,
+    "addTotalDebt": 7659000000,
+    "enterpriseValue": 34315812800
+  },
+  {
+    "symbol": "DEO",
+    "date": "1998-01-31",
+    "stockPrice": 25.8,
+    "numberOfShares": 1013000000,
+    "marketCapitalization": 26139272699,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 26139272699
+  },
+  {
+    "symbol": "DEO",
+    "date": "1996-12-31",
+    "stockPrice": 18.45,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 1448000000,
+    "addTotalDebt": 6296000000,
+    "enterpriseValue": 4848000000
+  },
+  {
+    "symbol": "DEO",
+    "date": "1996-06-30",
+    "stockPrice": 17.41,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 0
+  },
+  {
+    "symbol": "DEO",
+    "date": "1996-01-31",
+    "stockPrice": 17.86,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 0
+  }
+]

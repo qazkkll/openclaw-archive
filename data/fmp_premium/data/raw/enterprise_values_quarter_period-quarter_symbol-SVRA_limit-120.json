@@ -1,0 +1,972 @@
+[
+  {
+    "symbol": "SVRA",
+    "date": "2026-03-31",
+    "stockPrice": 5.46,
+    "numberOfShares": 253280551,
+    "marketCapitalization": 1382911808,
+    "minusCashAndCashEquivalents": 38791000,
+    "addTotalDebt": 30067000,
+    "enterpriseValue": 1374187808
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2025-12-31",
+    "stockPrice": 6.03,
+    "numberOfShares": 222387531,
+    "marketCapitalization": 1340996811,
+    "minusCashAndCashEquivalents": 33180000,
+    "addTotalDebt": 29907000,
+    "enterpriseValue": 1337723811
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2025-09-30",
+    "stockPrice": 3.57,
+    "numberOfShares": 216462161,
+    "marketCapitalization": 772769914,
+    "minusCashAndCashEquivalents": 16277000,
+    "addTotalDebt": 29830000,
+    "enterpriseValue": 786322914
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2025-06-30",
+    "stockPrice": 2.28,
+    "numberOfShares": 216431348,
+    "marketCapitalization": 493463473,
+    "minusCashAndCashEquivalents": 17436000,
+    "addTotalDebt": 29743000,
+    "enterpriseValue": 505770473
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2025-03-31",
+    "stockPrice": 2.77,
+    "numberOfShares": 216146934,
+    "marketCapitalization": 598727007,
+    "minusCashAndCashEquivalents": 19556000,
+    "addTotalDebt": 29645000,
+    "enterpriseValue": 608816007
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2024-12-31",
+    "stockPrice": 3.07,
+    "numberOfShares": 198191936,
+    "marketCapitalization": 608449243,
+    "minusCashAndCashEquivalents": 15128000,
+    "addTotalDebt": 26735000,
+    "enterpriseValue": 620056243
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2024-09-30",
+    "stockPrice": 4.24,
+    "numberOfShares": 211847651,
+    "marketCapitalization": 898234040,
+    "minusCashAndCashEquivalents": 21427000,
+    "addTotalDebt": 26708000,
+    "enterpriseValue": 903515040
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2024-06-30",
+    "stockPrice": 4.64,
+    "numberOfShares": 182584078,
+    "marketCapitalization": 847190121,
+    "minusCashAndCashEquivalents": 23864000,
+    "addTotalDebt": 26636000,
+    "enterpriseValue": 849962121
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2024-03-31",
+    "stockPrice": 4.84,
+    "numberOfShares": 182550109,
+    "marketCapitalization": 883542527,
+    "minusCashAndCashEquivalents": 16785000,
+    "addTotalDebt": 26563000,
+    "enterpriseValue": 893320527
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2023-12-31",
+    "stockPrice": 4.7,
+    "numberOfShares": 179843515,
+    "marketCapitalization": 845264520,
+    "minusCashAndCashEquivalents": 26585000,
+    "addTotalDebt": 26491000,
+    "enterpriseValue": 845170520
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2023-09-30",
+    "stockPrice": 3.78,
+    "numberOfShares": 164342634,
+    "marketCapitalization": 621215156,
+    "minusCashAndCashEquivalents": 27690000,
+    "addTotalDebt": 26704000,
+    "enterpriseValue": 620229156
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2023-06-30",
+    "stockPrice": 3.2,
+    "numberOfShares": 152796617,
+    "marketCapitalization": 488949174,
+    "minusCashAndCashEquivalents": 22745000,
+    "addTotalDebt": 26300000,
+    "enterpriseValue": 492504174
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2023-03-31",
+    "stockPrice": 1.95,
+    "numberOfShares": 152781580,
+    "marketCapitalization": 297924081,
+    "minusCashAndCashEquivalents": 33984000,
+    "addTotalDebt": 26210000,
+    "enterpriseValue": 290150081
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2022-12-31",
+    "stockPrice": 1.55,
+    "numberOfShares": 152773739,
+    "marketCapitalization": 236799295,
+    "minusCashAndCashEquivalents": 52100000,
+    "addTotalDebt": 26142000,
+    "enterpriseValue": 210841295
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2022-09-30",
+    "stockPrice": 1.55,
+    "numberOfShares": 152773015,
+    "marketCapitalization": 236798173,
+    "minusCashAndCashEquivalents": 119841000,
+    "addTotalDebt": 26092000,
+    "enterpriseValue": 143049173
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2022-06-30",
+    "stockPrice": 1.52,
+    "numberOfShares": 152771103,
+    "marketCapitalization": 232212076,
+    "minusCashAndCashEquivalents": 95153000,
+    "addTotalDebt": 26042000,
+    "enterpriseValue": 163101076
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2022-03-31",
+    "stockPrice": 1.31,
+    "numberOfShares": 152769224,
+    "marketCapitalization": 200127683,
+    "minusCashAndCashEquivalents": 79227000,
+    "addTotalDebt": 26029000,
+    "enterpriseValue": 146929683
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2021-12-31",
+    "stockPrice": 1.24,
+    "numberOfShares": 152587848,
+    "marketCapitalization": 189208931,
+    "minusCashAndCashEquivalents": 34012000,
+    "addTotalDebt": 25791000,
+    "enterpriseValue": 180987931
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2021-09-30",
+    "stockPrice": 1.38,
+    "numberOfShares": 152587848,
+    "marketCapitalization": 210571230,
+    "minusCashAndCashEquivalents": 44699000,
+    "addTotalDebt": 25683000,
+    "enterpriseValue": 191555230
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2021-06-30",
+    "stockPrice": 1.7,
+    "numberOfShares": 152460531,
+    "marketCapitalization": 259182902,
+    "minusCashAndCashEquivalents": 40653000,
+    "addTotalDebt": 25483000,
+    "enterpriseValue": 244012902
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2021-03-31",
+    "stockPrice": 2.08,
+    "numberOfShares": 76992407,
+    "marketCapitalization": 160144206,
+    "minusCashAndCashEquivalents": 55982000,
+    "addTotalDebt": 25383000,
+    "enterpriseValue": 129545206
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2020-12-31",
+    "stockPrice": 1.15,
+    "numberOfShares": 60288993,
+    "marketCapitalization": 69332341,
+    "minusCashAndCashEquivalents": 22880000,
+    "addTotalDebt": 25283000,
+    "enterpriseValue": 71735341
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2020-09-30",
+    "stockPrice": 1.09,
+    "numberOfShares": 60288993,
+    "marketCapitalization": 65715002,
+    "minusCashAndCashEquivalents": 35219000,
+    "addTotalDebt": 25190000,
+    "enterpriseValue": 55686002
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2020-06-30",
+    "stockPrice": 2.49,
+    "numberOfShares": 58858216,
+    "marketCapitalization": 146556957,
+    "minusCashAndCashEquivalents": 47117000,
+    "addTotalDebt": 25175000,
+    "enterpriseValue": 124614957
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2020-03-31",
+    "stockPrice": 2.12,
+    "numberOfShares": 57364265,
+    "marketCapitalization": 121612241,
+    "minusCashAndCashEquivalents": 34515000,
+    "addTotalDebt": 25042000,
+    "enterpriseValue": 112139241
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2019-12-31",
+    "stockPrice": 4.48,
+    "numberOfShares": 43822367,
+    "marketCapitalization": 196324204,
+    "minusCashAndCashEquivalents": 49804000,
+    "addTotalDebt": 25552000,
+    "enterpriseValue": 172072204
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2019-09-30",
+    "stockPrice": 2.65,
+    "numberOfShares": 41727259,
+    "marketCapitalization": 110577236,
+    "minusCashAndCashEquivalents": 17785000,
+    "addTotalDebt": 25526000,
+    "enterpriseValue": 118318236
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2019-06-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 38440647,
+    "marketCapitalization": 103789746,
+    "minusCashAndCashEquivalents": 16830000,
+    "addTotalDebt": 25511000,
+    "enterpriseValue": 112470746
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2019-03-31",
+    "stockPrice": 7.9,
+    "numberOfShares": 36016406,
+    "marketCapitalization": 284529607,
+    "minusCashAndCashEquivalents": 25671000,
+    "addTotalDebt": 25386000,
+    "enterpriseValue": 284244607
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2018-12-31",
+    "stockPrice": 7.57,
+    "numberOfShares": 35903728,
+    "marketCapitalization": 271791220,
+    "minusCashAndCashEquivalents": 24301000,
+    "addTotalDebt": 24571000,
+    "enterpriseValue": 272061220
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2018-09-30",
+    "stockPrice": 10.62,
+    "numberOfShares": 34483563,
+    "marketCapitalization": 366215439,
+    "minusCashAndCashEquivalents": 24946000,
+    "addTotalDebt": 15425000,
+    "enterpriseValue": 356694439
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2018-06-30",
+    "stockPrice": 11.32,
+    "numberOfShares": 31433494,
+    "marketCapitalization": 355827152,
+    "minusCashAndCashEquivalents": 23604000,
+    "addTotalDebt": 15316000,
+    "enterpriseValue": 347539152
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2018-03-31",
+    "stockPrice": 9.2,
+    "numberOfShares": 31318746,
+    "marketCapitalization": 288132463,
+    "minusCashAndCashEquivalents": 22122000,
+    "addTotalDebt": 15202000,
+    "enterpriseValue": 281212463
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2017-12-31",
+    "stockPrice": 14.84,
+    "numberOfShares": 28652104,
+    "marketCapitalization": 425197223,
+    "minusCashAndCashEquivalents": 22121000,
+    "addTotalDebt": 15337000,
+    "enterpriseValue": 418413223
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2017-09-30",
+    "stockPrice": 9.35,
+    "numberOfShares": 24209517,
+    "marketCapitalization": 226358983,
+    "minusCashAndCashEquivalents": 19813000,
+    "addTotalDebt": 15237000,
+    "enterpriseValue": 221782983
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2017-06-30",
+    "stockPrice": 5.88,
+    "numberOfShares": 13807861,
+    "marketCapitalization": 81190222,
+    "minusCashAndCashEquivalents": 61133000,
+    "addTotalDebt": 15595000,
+    "enterpriseValue": 35652222
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2017-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 3029223,
+    "marketCapitalization": 26535993,
+    "minusCashAndCashEquivalents": 7771000,
+    "addTotalDebt": 3527000,
+    "enterpriseValue": 22291993
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2016-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 3487126,
+    "marketCapitalization": 30547223,
+    "minusCashAndCashEquivalents": 13373000,
+    "addTotalDebt": 4469000,
+    "enterpriseValue": 21643223
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2016-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 3067404,
+    "marketCapitalization": 26870459,
+    "minusCashAndCashEquivalents": 20521000,
+    "addTotalDebt": 14227000,
+    "enterpriseValue": 20576459
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2016-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 2804708,
+    "marketCapitalization": 24569242,
+    "minusCashAndCashEquivalents": 24490000,
+    "addTotalDebt": 14995000,
+    "enterpriseValue": 15074242
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2016-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 2542011,
+    "marketCapitalization": 22268016,
+    "minusCashAndCashEquivalents": 23521000,
+    "addTotalDebt": 14839000,
+    "enterpriseValue": 13586016
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2015-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 2337389,
+    "marketCapitalization": 20475527,
+    "minusCashAndCashEquivalents": 23052000,
+    "addTotalDebt": 14742000,
+    "enterpriseValue": 12165527
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2015-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 2337393,
+    "marketCapitalization": 20475562,
+    "minusCashAndCashEquivalents": 32207000,
+    "addTotalDebt": 14512000,
+    "enterpriseValue": 2780562
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2015-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 2316162,
+    "marketCapitalization": 20289579,
+    "minusCashAndCashEquivalents": 21214000,
+    "addTotalDebt": 25000,
+    "enterpriseValue": -899421
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2015-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 2278028,
+    "marketCapitalization": 19955525,
+    "minusCashAndCashEquivalents": 27934000,
+    "addTotalDebt": 27000,
+    "enterpriseValue": -7951475
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2014-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 2075141,
+    "marketCapitalization": 18178235,
+    "minusCashAndCashEquivalents": 35808000,
+    "addTotalDebt": 0,
+    "enterpriseValue": -17629765
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2014-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 1761279,
+    "marketCapitalization": 15428804,
+    "minusCashAndCashEquivalents": 25981605,
+    "addTotalDebt": 0,
+    "enterpriseValue": -10552801
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2014-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 1651276,
+    "marketCapitalization": 14465177,
+    "minusCashAndCashEquivalents": 26368452,
+    "addTotalDebt": 0,
+    "enterpriseValue": -11903275
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2014-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 1500798,
+    "marketCapitalization": 13146990,
+    "minusCashAndCashEquivalents": 29848152,
+    "addTotalDebt": 0,
+    "enterpriseValue": -16701162
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2013-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 1471423,
+    "marketCapitalization": 12889665,
+    "minusCashAndCashEquivalents": 25681092,
+    "addTotalDebt": 0,
+    "enterpriseValue": -12791427
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2013-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 1467319,
+    "marketCapitalization": 12853714,
+    "minusCashAndCashEquivalents": 30231154,
+    "addTotalDebt": 0,
+    "enterpriseValue": -17377440
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2013-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 767872,
+    "marketCapitalization": 6726558.72,
+    "minusCashAndCashEquivalents": 44972236,
+    "addTotalDebt": 0,
+    "enterpriseValue": -38245677
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2013-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 660945,
+    "marketCapitalization": 5789878.2,
+    "minusCashAndCashEquivalents": 21409923,
+    "addTotalDebt": 0,
+    "enterpriseValue": -15620044
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2012-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 660945,
+    "marketCapitalization": 5789878.2,
+    "minusCashAndCashEquivalents": 22500440,
+    "addTotalDebt": 0,
+    "enterpriseValue": -16710561
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2012-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 681666,
+    "marketCapitalization": 5971394.16,
+    "minusCashAndCashEquivalents": 26088710,
+    "addTotalDebt": 0,
+    "enterpriseValue": -20117315
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2012-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 681666,
+    "marketCapitalization": 5971394.16,
+    "minusCashAndCashEquivalents": 29956864,
+    "addTotalDebt": 0,
+    "enterpriseValue": -23985469
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2012-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 681666,
+    "marketCapitalization": 5971394.16,
+    "minusCashAndCashEquivalents": 35051277,
+    "addTotalDebt": 0,
+    "enterpriseValue": -29079882
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2011-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 681666,
+    "marketCapitalization": 5971394.16,
+    "minusCashAndCashEquivalents": 43569947,
+    "addTotalDebt": 0,
+    "enterpriseValue": -37598552
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2011-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 378093,
+    "marketCapitalization": 3312094.68,
+    "minusCashAndCashEquivalents": 32768888,
+    "addTotalDebt": 0,
+    "enterpriseValue": -29456793
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2011-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 375011,
+    "marketCapitalization": 3285096.36,
+    "minusCashAndCashEquivalents": 41955977,
+    "addTotalDebt": 0,
+    "enterpriseValue": -38670880
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2011-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 325084,
+    "marketCapitalization": 2847735.84,
+    "minusCashAndCashEquivalents": 46552168,
+    "addTotalDebt": 0,
+    "enterpriseValue": -43704432
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2010-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 325084,
+    "marketCapitalization": 2847735.84,
+    "minusCashAndCashEquivalents": 27978823,
+    "addTotalDebt": 0,
+    "enterpriseValue": -25131087
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2010-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 210021,
+    "marketCapitalization": 1839783.96,
+    "minusCashAndCashEquivalents": 29331773,
+    "addTotalDebt": 0,
+    "enterpriseValue": -27491989
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2010-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 184101,
+    "marketCapitalization": 1612724.76,
+    "minusCashAndCashEquivalents": 31159630,
+    "addTotalDebt": 0,
+    "enterpriseValue": -29546905
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2010-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 144914,
+    "marketCapitalization": 1269446.64,
+    "minusCashAndCashEquivalents": 19812013,
+    "addTotalDebt": 0,
+    "enterpriseValue": -18542566
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2009-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 62241,
+    "marketCapitalization": 545231.16,
+    "minusCashAndCashEquivalents": 8667404,
+    "addTotalDebt": 0,
+    "enterpriseValue": -8122172
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2009-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 57806,
+    "marketCapitalization": 506380.56,
+    "minusCashAndCashEquivalents": 3159610,
+    "addTotalDebt": 0,
+    "enterpriseValue": -2653229
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2009-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 52479,
+    "marketCapitalization": 459716.04,
+    "minusCashAndCashEquivalents": 5419227,
+    "addTotalDebt": 0,
+    "enterpriseValue": -4959510
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2009-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 51573,
+    "marketCapitalization": 451779.48,
+    "minusCashAndCashEquivalents": 5306646,
+    "addTotalDebt": 0,
+    "enterpriseValue": -4854866
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2008-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 51573,
+    "marketCapitalization": 451779.48,
+    "minusCashAndCashEquivalents": 9849904,
+    "addTotalDebt": 0,
+    "enterpriseValue": -9398124
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2008-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 51573,
+    "marketCapitalization": 451779.48,
+    "minusCashAndCashEquivalents": 15306476,
+    "addTotalDebt": 0,
+    "enterpriseValue": -14854696
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2008-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 51573,
+    "marketCapitalization": 451779.48,
+    "minusCashAndCashEquivalents": 12638547,
+    "addTotalDebt": 0,
+    "enterpriseValue": -12186767
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2008-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 51573,
+    "marketCapitalization": 451779.48,
+    "minusCashAndCashEquivalents": 20299364,
+    "addTotalDebt": 0,
+    "enterpriseValue": -19847584
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2007-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 51573,
+    "marketCapitalization": 451779.48,
+    "minusCashAndCashEquivalents": 14780739,
+    "addTotalDebt": 0,
+    "enterpriseValue": -14328959
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2007-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 51433,
+    "marketCapitalization": 450553.08,
+    "minusCashAndCashEquivalents": 19279913,
+    "addTotalDebt": 0,
+    "enterpriseValue": -18829359
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2007-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 51262,
+    "marketCapitalization": 449055.12,
+    "minusCashAndCashEquivalents": 16751763,
+    "addTotalDebt": 0,
+    "enterpriseValue": -16302707
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2007-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 51244,
+    "marketCapitalization": 448897.44,
+    "minusCashAndCashEquivalents": 20954573,
+    "addTotalDebt": 0,
+    "enterpriseValue": -20505675
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2006-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 51244,
+    "marketCapitalization": 448897.44,
+    "minusCashAndCashEquivalents": 25974041,
+    "addTotalDebt": 0,
+    "enterpriseValue": -25525143
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2006-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 41964,
+    "marketCapitalization": 367604.64,
+    "minusCashAndCashEquivalents": 16201019,
+    "addTotalDebt": 0,
+    "enterpriseValue": -15833414
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2006-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 40694,
+    "marketCapitalization": 356479.44,
+    "minusCashAndCashEquivalents": 17601928,
+    "addTotalDebt": 0,
+    "enterpriseValue": -17245448
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2006-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 38844,
+    "marketCapitalization": 340273.44,
+    "minusCashAndCashEquivalents": 16819293,
+    "addTotalDebt": 0,
+    "enterpriseValue": -16479019
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2005-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 38445,
+    "marketCapitalization": 336778.2,
+    "minusCashAndCashEquivalents": 14634618,
+    "addTotalDebt": 0,
+    "enterpriseValue": -14297839
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2005-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 36146,
+    "marketCapitalization": 316638.96,
+    "minusCashAndCashEquivalents": 18506914,
+    "addTotalDebt": 0,
+    "enterpriseValue": -18190275
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2005-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 31327,
+    "marketCapitalization": 274424.52,
+    "minusCashAndCashEquivalents": 8102824,
+    "addTotalDebt": 0,
+    "enterpriseValue": -7828399
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2005-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 32514,
+    "marketCapitalization": 284822.64,
+    "minusCashAndCashEquivalents": 10532678,
+    "addTotalDebt": 0,
+    "enterpriseValue": -10247855
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2004-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 32514,
+    "marketCapitalization": 284822.64,
+    "minusCashAndCashEquivalents": 13032263,
+    "addTotalDebt": 0,
+    "enterpriseValue": -12747440
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2004-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 30341,
+    "marketCapitalization": 265787.16,
+    "minusCashAndCashEquivalents": 14756357,
+    "addTotalDebt": 0,
+    "enterpriseValue": -14490569
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2004-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 28748,
+    "marketCapitalization": 251832.48,
+    "minusCashAndCashEquivalents": 16439379,
+    "addTotalDebt": 0,
+    "enterpriseValue": -16187546
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2004-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 30749,
+    "marketCapitalization": 269361.24,
+    "minusCashAndCashEquivalents": 3423918,
+    "addTotalDebt": 0,
+    "enterpriseValue": -3154556
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2003-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 30749,
+    "marketCapitalization": 269361.24,
+    "minusCashAndCashEquivalents": 4226397,
+    "addTotalDebt": 0,
+    "enterpriseValue": -3957035
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2003-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 23265,
+    "marketCapitalization": 203801.4,
+    "minusCashAndCashEquivalents": 3784305,
+    "addTotalDebt": 0,
+    "enterpriseValue": -3580503
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2003-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 21643,
+    "marketCapitalization": 189592.68,
+    "minusCashAndCashEquivalents": 1698807,
+    "addTotalDebt": 0,
+    "enterpriseValue": -1509214
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2003-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 18659,
+    "marketCapitalization": 163452.84,
+    "minusCashAndCashEquivalents": 456033,
+    "addTotalDebt": 253948,
+    "enterpriseValue": -38632
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2002-12-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 18659,
+    "marketCapitalization": 163452.84,
+    "minusCashAndCashEquivalents": 103928,
+    "addTotalDebt": 253948,
+    "enterpriseValue": 313472
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2002-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 8502,
+    "marketCapitalization": 74477.52,
+    "minusCashAndCashEquivalents": 89658,
+    "addTotalDebt": 410442,
+    "enterpriseValue": 395261
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2002-06-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 7830,
+    "marketCapitalization": 68590.8,
+    "minusCashAndCashEquivalents": 56446,
+    "addTotalDebt": 291774,
+    "enterpriseValue": 303918
+  },
+  {
+    "symbol": "SVRA",
+    "date": "2002-03-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 8593,
+    "marketCapitalization": 75274.68,
+    "minusCashAndCashEquivalents": 34892,
+    "addTotalDebt": 173106,
+    "enterpriseValue": 213488
+  }
+]

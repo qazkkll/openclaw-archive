@@ -1,0 +1,562 @@
+[
+  {
+    "symbol": "TU",
+    "date": "2026-03-10",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2025-11-18",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2025-11-10",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2025-05-12",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2024-03-25",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Sector Outperform",
+    "newGrade": "Sector Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2024-02-12",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2023-08-07",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2023-07-17",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2023-07-17",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2023-05-08",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2022-10-10",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2022-05-10",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2022-03-07",
+    "gradingCompany": "TD Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2021-03-31",
+    "gradingCompany": "CIBC",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2021-03-01",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2021-01-06",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2020-04-14",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2020-02-14",
+    "gradingCompany": "National Bank Financial Inc",
+    "previousGrade": "Outperform",
+    "newGrade": "Sector Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2020-02-14",
+    "gradingCompany": "National Bank Financial",
+    "previousGrade": "Outperform",
+    "newGrade": "Sector Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2019-09-30",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2019-09-30",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2018-05-11",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2018-04-30",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2017-11-17",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2017-11-10",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2017-11-10",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2017-08-14",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2017-08-14",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2017-04-05",
+    "gradingCompany": "CIBC",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2017-02-07",
+    "gradingCompany": "National Bank Financial Inc",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2017-02-07",
+    "gradingCompany": "National Bank Financial",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2017-01-05",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2016-08-08",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2016-03-23",
+    "gradingCompany": "TD Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2016-02-12",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2016-02-02",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2016-01-26",
+    "gradingCompany": "Macquarie",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2015-12-04",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2015-08-10",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2015-08-03",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2015-06-15",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2015-05-26",
+    "gradingCompany": "TD Securities",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2015-05-08",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2015-05-07",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2015-02-13",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2014-11-20",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2014-11-07",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2014-07-07",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2014-07-07",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2014-06-05",
+    "gradingCompany": "TD Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2014-04-14",
+    "gradingCompany": "Scotiabank",
+    "previousGrade": "Sector Outperform",
+    "newGrade": "Sector Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2014-04-03",
+    "gradingCompany": "Macquarie",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2014-03-25",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-10-17",
+    "gradingCompany": "Euro Pacific Capital",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-09-23",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-09-20",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-09-03",
+    "gradingCompany": "Veritas Research",
+    "previousGrade": "Sell",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-09-03",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-09-03",
+    "gradingCompany": "Veritas",
+    "previousGrade": "Sell",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-09-03",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-06-27",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-06-27",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-06-27",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-05-10",
+    "gradingCompany": "TD Securities",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-02-19",
+    "gradingCompany": "Byron Capital Markets",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2013-01-28",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2012-11-12",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2012-09-10",
+    "gradingCompany": "TD Securities",
+    "previousGrade": "Reduce",
+    "newGrade": "Hold",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "TU",
+    "date": "2012-08-07",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "TU",
+    "date": "2012-08-06",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  }
+]

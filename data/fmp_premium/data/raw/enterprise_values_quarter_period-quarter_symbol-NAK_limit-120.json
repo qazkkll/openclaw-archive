@@ -1,0 +1,972 @@
+[
+  {
+    "symbol": "NAK",
+    "date": "2026-03-31",
+    "stockPrice": 1.95,
+    "numberOfShares": 559847000,
+    "marketCapitalization": 1090606589,
+    "minusCashAndCashEquivalents": 52629657,
+    "addTotalDebt": 73952619,
+    "enterpriseValue": 1111929551
+  },
+  {
+    "symbol": "NAK",
+    "date": "2025-12-31",
+    "stockPrice": 2.7,
+    "numberOfShares": 550023000,
+    "marketCapitalization": 1486765026,
+    "minusCashAndCashEquivalents": 54734000,
+    "addTotalDebt": 3183000,
+    "enterpriseValue": 1435214026
+  },
+  {
+    "symbol": "NAK",
+    "date": "2025-09-30",
+    "stockPrice": 1.67,
+    "numberOfShares": 550023000,
+    "marketCapitalization": 918718817,
+    "minusCashAndCashEquivalents": 44847000,
+    "addTotalDebt": 3150000,
+    "enterpriseValue": 877021817
+  },
+  {
+    "symbol": "NAK",
+    "date": "2025-06-30",
+    "stockPrice": 1.82,
+    "numberOfShares": 539210000,
+    "marketCapitalization": 982757459,
+    "minusCashAndCashEquivalents": 25162000,
+    "addTotalDebt": 3418000,
+    "enterpriseValue": 961013459
+  },
+  {
+    "symbol": "NAK",
+    "date": "2025-03-31",
+    "stockPrice": 1.65,
+    "numberOfShares": 538171000,
+    "marketCapitalization": 890350909,
+    "minusCashAndCashEquivalents": 11813000,
+    "addTotalDebt": 3530000,
+    "enterpriseValue": 882067909
+  },
+  {
+    "symbol": "NAK",
+    "date": "2024-12-31",
+    "stockPrice": 0.83625,
+    "numberOfShares": 537724000,
+    "marketCapitalization": 449671337,
+    "minusCashAndCashEquivalents": 16142000,
+    "addTotalDebt": 3474000,
+    "enterpriseValue": 437003337
+  },
+  {
+    "symbol": "NAK",
+    "date": "2024-09-30",
+    "stockPrice": 0.44834,
+    "numberOfShares": 537724000,
+    "marketCapitalization": 241081659,
+    "minusCashAndCashEquivalents": 21835000,
+    "addTotalDebt": 3147000,
+    "enterpriseValue": 222393659
+  },
+  {
+    "symbol": "NAK",
+    "date": "2024-06-30",
+    "stockPrice": 0.42659,
+    "numberOfShares": 537724000,
+    "marketCapitalization": 229386734,
+    "minusCashAndCashEquivalents": 11724000,
+    "addTotalDebt": 3134000,
+    "enterpriseValue": 220796734
+  },
+  {
+    "symbol": "NAK",
+    "date": "2024-03-31",
+    "stockPrice": 0.42729,
+    "numberOfShares": 538205000,
+    "marketCapitalization": 229970712,
+    "minusCashAndCashEquivalents": 15179000,
+    "addTotalDebt": 2753000,
+    "enterpriseValue": 217544712
+  },
+  {
+    "symbol": "NAK",
+    "date": "2023-12-31",
+    "stockPrice": 0.42802,
+    "numberOfShares": 531597000,
+    "marketCapitalization": 227535921,
+    "minusCashAndCashEquivalents": 18200000,
+    "addTotalDebt": 2661000,
+    "enterpriseValue": 211996921
+  },
+  {
+    "symbol": "NAK",
+    "date": "2023-09-30",
+    "stockPrice": 0.44154,
+    "numberOfShares": 529917000,
+    "marketCapitalization": 233981434,
+    "minusCashAndCashEquivalents": 1383000,
+    "addTotalDebt": 515000,
+    "enterpriseValue": 233113434
+  },
+  {
+    "symbol": "NAK",
+    "date": "2023-06-30",
+    "stockPrice": 0.31778,
+    "numberOfShares": 529779000,
+    "marketCapitalization": 168355289,
+    "minusCashAndCashEquivalents": 3424000,
+    "addTotalDebt": 542000,
+    "enterpriseValue": 165473289
+  },
+  {
+    "symbol": "NAK",
+    "date": "2023-03-31",
+    "stockPrice": 0.32275,
+    "numberOfShares": 529779000,
+    "marketCapitalization": 170984981,
+    "minusCashAndCashEquivalents": 9441000,
+    "addTotalDebt": 573000,
+    "enterpriseValue": 162116981
+  },
+  {
+    "symbol": "NAK",
+    "date": "2022-12-31",
+    "stockPrice": 0.299,
+    "numberOfShares": 529779000,
+    "marketCapitalization": 158401971,
+    "minusCashAndCashEquivalents": 14173000,
+    "addTotalDebt": 613000,
+    "enterpriseValue": 144841971
+  },
+  {
+    "symbol": "NAK",
+    "date": "2022-09-30",
+    "stockPrice": 0.33752,
+    "numberOfShares": 529779000,
+    "marketCapitalization": 178809455,
+    "minusCashAndCashEquivalents": 24506000,
+    "addTotalDebt": 650000,
+    "enterpriseValue": 154953455
+  },
+  {
+    "symbol": "NAK",
+    "date": "2022-06-30",
+    "stockPrice": 0.33545,
+    "numberOfShares": 529779000,
+    "marketCapitalization": 177716878,
+    "minusCashAndCashEquivalents": 12921000,
+    "addTotalDebt": 638000,
+    "enterpriseValue": 165433878
+  },
+  {
+    "symbol": "NAK",
+    "date": "2022-03-31",
+    "stockPrice": 0.51888,
+    "numberOfShares": 529779000,
+    "marketCapitalization": 274891012,
+    "minusCashAndCashEquivalents": 17925000,
+    "addTotalDebt": 650000,
+    "enterpriseValue": 257616012
+  },
+  {
+    "symbol": "NAK",
+    "date": "2021-12-31",
+    "stockPrice": 0.41234,
+    "numberOfShares": 529871000,
+    "marketCapitalization": 218486814,
+    "minusCashAndCashEquivalents": 22291000,
+    "addTotalDebt": 687000,
+    "enterpriseValue": 196882814
+  },
+  {
+    "symbol": "NAK",
+    "date": "2021-09-30",
+    "stockPrice": 0.58232,
+    "numberOfShares": 528470000,
+    "marketCapitalization": 307737098,
+    "minusCashAndCashEquivalents": 28039000,
+    "addTotalDebt": 718000,
+    "enterpriseValue": 280416098
+  },
+  {
+    "symbol": "NAK",
+    "date": "2021-06-30",
+    "stockPrice": 0.60984,
+    "numberOfShares": 516077000,
+    "marketCapitalization": 314726379,
+    "minusCashAndCashEquivalents": 37076000,
+    "addTotalDebt": 475000,
+    "enterpriseValue": 278125379
+  },
+  {
+    "symbol": "NAK",
+    "date": "2021-03-31",
+    "stockPrice": 0.79641,
+    "numberOfShares": 511259000,
+    "marketCapitalization": 407169448,
+    "minusCashAndCashEquivalents": 37720000,
+    "addTotalDebt": 837000,
+    "enterpriseValue": 370286448
+  },
+  {
+    "symbol": "NAK",
+    "date": "2020-12-31",
+    "stockPrice": 0.41074,
+    "numberOfShares": 499285000,
+    "marketCapitalization": 205077918,
+    "minusCashAndCashEquivalents": 42460000,
+    "addTotalDebt": 916000,
+    "enterpriseValue": 163533918
+  },
+  {
+    "symbol": "NAK",
+    "date": "2020-09-30",
+    "stockPrice": 1.31,
+    "numberOfShares": 499285000,
+    "marketCapitalization": 651821782,
+    "minusCashAndCashEquivalents": 63105000,
+    "addTotalDebt": 1022000,
+    "enterpriseValue": 589738782
+  },
+  {
+    "symbol": "NAK",
+    "date": "2020-06-30",
+    "stockPrice": 1.94,
+    "numberOfShares": 451788000,
+    "marketCapitalization": 876957554,
+    "minusCashAndCashEquivalents": 14751000,
+    "addTotalDebt": 1104000,
+    "enterpriseValue": 863310554
+  },
+  {
+    "symbol": "NAK",
+    "date": "2020-03-31",
+    "stockPrice": 0.54125,
+    "numberOfShares": 434012000,
+    "marketCapitalization": 234908300,
+    "minusCashAndCashEquivalents": 7267000,
+    "addTotalDebt": 1219000,
+    "enterpriseValue": 228860300
+  },
+  {
+    "symbol": "NAK",
+    "date": "2019-12-31",
+    "stockPrice": 0.55534,
+    "numberOfShares": 434012000,
+    "marketCapitalization": 241025456,
+    "minusCashAndCashEquivalents": 14038000,
+    "addTotalDebt": 2580000,
+    "enterpriseValue": 229567456
+  },
+  {
+    "symbol": "NAK",
+    "date": "2019-09-30",
+    "stockPrice": 0.77786,
+    "numberOfShares": 371605000,
+    "marketCapitalization": 289055132,
+    "minusCashAndCashEquivalents": 12962000,
+    "addTotalDebt": 1302000,
+    "enterpriseValue": 277395132
+  },
+  {
+    "symbol": "NAK",
+    "date": "2019-06-30",
+    "stockPrice": 0.82548,
+    "numberOfShares": 346717000,
+    "marketCapitalization": 286208165,
+    "minusCashAndCashEquivalents": 10398000,
+    "addTotalDebt": 1039000,
+    "enterpriseValue": 276849165
+  },
+  {
+    "symbol": "NAK",
+    "date": "2019-03-31",
+    "stockPrice": 0.78347,
+    "numberOfShares": 326902000,
+    "marketCapitalization": 256117550,
+    "minusCashAndCashEquivalents": 20246000,
+    "addTotalDebt": 1050000,
+    "enterpriseValue": 236921550
+  },
+  {
+    "symbol": "NAK",
+    "date": "2018-12-31",
+    "stockPrice": 0.77674,
+    "numberOfShares": 314473000,
+    "marketCapitalization": 244262503,
+    "minusCashAndCashEquivalents": 14872000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 229390503
+  },
+  {
+    "symbol": "NAK",
+    "date": "2018-09-30",
+    "stockPrice": 0.71265,
+    "numberOfShares": 312491000,
+    "marketCapitalization": 222697742,
+    "minusCashAndCashEquivalents": 21462000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 201235742
+  },
+  {
+    "symbol": "NAK",
+    "date": "2018-06-30",
+    "stockPrice": 0.71208,
+    "numberOfShares": 312062000,
+    "marketCapitalization": 222214621,
+    "minusCashAndCashEquivalents": 14798000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 207416621
+  },
+  {
+    "symbol": "NAK",
+    "date": "2018-03-31",
+    "stockPrice": 1.13,
+    "numberOfShares": 310006000,
+    "marketCapitalization": 349726681,
+    "minusCashAndCashEquivalents": 27956000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 321770681
+  },
+  {
+    "symbol": "NAK",
+    "date": "2017-12-31",
+    "stockPrice": 2.33,
+    "numberOfShares": 303962000,
+    "marketCapitalization": 707455748,
+    "minusCashAndCashEquivalents": 67158000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 640297748
+  },
+  {
+    "symbol": "NAK",
+    "date": "2017-09-30",
+    "stockPrice": 2.24,
+    "numberOfShares": 303962000,
+    "marketCapitalization": 681911998,
+    "minusCashAndCashEquivalents": 30949000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 650962998
+  },
+  {
+    "symbol": "NAK",
+    "date": "2017-06-30",
+    "stockPrice": 1.8,
+    "numberOfShares": 301220000,
+    "marketCapitalization": 542721869,
+    "minusCashAndCashEquivalents": 34032000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 508689869
+  },
+  {
+    "symbol": "NAK",
+    "date": "2017-03-31",
+    "stockPrice": 1.9,
+    "numberOfShares": 290650000,
+    "marketCapitalization": 553518742,
+    "minusCashAndCashEquivalents": 39715000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 513803742
+  },
+  {
+    "symbol": "NAK",
+    "date": "2016-12-31",
+    "stockPrice": 2.78,
+    "numberOfShares": 264622000,
+    "marketCapitalization": 735914734,
+    "minusCashAndCashEquivalents": 7196000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 728718734
+  },
+  {
+    "symbol": "NAK",
+    "date": "2016-09-30",
+    "stockPrice": 0.93173,
+    "numberOfShares": 264622000,
+    "marketCapitalization": 246555171,
+    "minusCashAndCashEquivalents": 7911000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 238644171
+  },
+  {
+    "symbol": "NAK",
+    "date": "2016-06-30",
+    "stockPrice": 0.40296,
+    "numberOfShares": 230920000,
+    "marketCapitalization": 93052466,
+    "minusCashAndCashEquivalents": 12196000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 80856466
+  },
+  {
+    "symbol": "NAK",
+    "date": "2016-03-31",
+    "stockPrice": 0.41778,
+    "numberOfShares": 222106000,
+    "marketCapitalization": 92790723,
+    "minusCashAndCashEquivalents": 4191000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 88599723
+  },
+  {
+    "symbol": "NAK",
+    "date": "2015-12-31",
+    "stockPrice": 0.42312,
+    "numberOfShares": 137173000,
+    "marketCapitalization": 58040006,
+    "minusCashAndCashEquivalents": 7509000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 50531006
+  },
+  {
+    "symbol": "NAK",
+    "date": "2015-09-30",
+    "stockPrice": 0.41268,
+    "numberOfShares": 137173000,
+    "marketCapitalization": 56608306,
+    "minusCashAndCashEquivalents": 12606000,
+    "addTotalDebt": 4303000,
+    "enterpriseValue": 48305306
+  },
+  {
+    "symbol": "NAK",
+    "date": "2015-06-30",
+    "stockPrice": 0.4246,
+    "numberOfShares": 130973000,
+    "marketCapitalization": 55611423,
+    "minusCashAndCashEquivalents": 814000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 54797423
+  },
+  {
+    "symbol": "NAK",
+    "date": "2015-03-31",
+    "stockPrice": 0.48844,
+    "numberOfShares": 130082000,
+    "marketCapitalization": 63537458,
+    "minusCashAndCashEquivalents": 6018000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 57519458
+  },
+  {
+    "symbol": "NAK",
+    "date": "2014-12-31",
+    "stockPrice": 0.47092,
+    "numberOfShares": 95010000,
+    "marketCapitalization": 44742044,
+    "minusCashAndCashEquivalents": 9447000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 35295044
+  },
+  {
+    "symbol": "NAK",
+    "date": "2014-09-30",
+    "stockPrice": 0.61204,
+    "numberOfShares": 95010000,
+    "marketCapitalization": 58150070,
+    "minusCashAndCashEquivalents": 7342000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 50808070
+  },
+  {
+    "symbol": "NAK",
+    "date": "2014-06-30",
+    "stockPrice": 0.89299,
+    "numberOfShares": 95010000,
+    "marketCapitalization": 84842688,
+    "minusCashAndCashEquivalents": 12561000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 72281688
+  },
+  {
+    "symbol": "NAK",
+    "date": "2014-03-31",
+    "stockPrice": 1.08,
+    "numberOfShares": 95010000,
+    "marketCapitalization": 102878880,
+    "minusCashAndCashEquivalents": 18626000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 84252880
+  },
+  {
+    "symbol": "NAK",
+    "date": "2013-12-31",
+    "stockPrice": 1.36,
+    "numberOfShares": 95007000,
+    "marketCapitalization": 129335993,
+    "minusCashAndCashEquivalents": 25795000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 103540993
+  },
+  {
+    "symbol": "NAK",
+    "date": "2013-09-30",
+    "stockPrice": 1.51,
+    "numberOfShares": 95010000,
+    "marketCapitalization": 142993945,
+    "minusCashAndCashEquivalents": 22539000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 120454945
+  },
+  {
+    "symbol": "NAK",
+    "date": "2013-06-30",
+    "stockPrice": 2.21,
+    "numberOfShares": 95010000,
+    "marketCapitalization": 209760417,
+    "minusCashAndCashEquivalents": 24413000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 185347417
+  },
+  {
+    "symbol": "NAK",
+    "date": "2013-03-31",
+    "stockPrice": 3.15,
+    "numberOfShares": 95000000,
+    "marketCapitalization": 299521225,
+    "minusCashAndCashEquivalents": 25670000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 273851225
+  },
+  {
+    "symbol": "NAK",
+    "date": "2012-12-31",
+    "stockPrice": 3.14,
+    "numberOfShares": 94996000,
+    "marketCapitalization": 298623383,
+    "minusCashAndCashEquivalents": 27537000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 271086383
+  },
+  {
+    "symbol": "NAK",
+    "date": "2012-09-30",
+    "stockPrice": 4.54,
+    "numberOfShares": 94996000,
+    "marketCapitalization": 431012241,
+    "minusCashAndCashEquivalents": 30562000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 400450241
+  },
+  {
+    "symbol": "NAK",
+    "date": "2012-06-30",
+    "stockPrice": 2.38,
+    "numberOfShares": 94996000,
+    "marketCapitalization": 226269642,
+    "minusCashAndCashEquivalents": 33667000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 192602642
+  },
+  {
+    "symbol": "NAK",
+    "date": "2012-03-31",
+    "stockPrice": 6.06,
+    "numberOfShares": 94990000,
+    "marketCapitalization": 575286797,
+    "minusCashAndCashEquivalents": 35727000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 539559797
+  },
+  {
+    "symbol": "NAK",
+    "date": "2011-12-31",
+    "stockPrice": 6.17,
+    "numberOfShares": 94974000,
+    "marketCapitalization": 585746826,
+    "minusCashAndCashEquivalents": 37457000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 548289826
+  },
+  {
+    "symbol": "NAK",
+    "date": "2011-09-30",
+    "stockPrice": 5.62,
+    "numberOfShares": 94974000,
+    "marketCapitalization": 533694084,
+    "minusCashAndCashEquivalents": 39688000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 494006084
+  },
+  {
+    "symbol": "NAK",
+    "date": "2011-06-30",
+    "stockPrice": 9.73,
+    "numberOfShares": 94882000,
+    "marketCapitalization": 923291618,
+    "minusCashAndCashEquivalents": 41539000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 881752618
+  },
+  {
+    "symbol": "NAK",
+    "date": "2011-03-31",
+    "stockPrice": 14.59,
+    "numberOfShares": 94567000,
+    "marketCapitalization": 1380102627,
+    "minusCashAndCashEquivalents": 41753000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1338349627
+  },
+  {
+    "symbol": "NAK",
+    "date": "2010-12-31",
+    "stockPrice": 14.21,
+    "numberOfShares": 93857000,
+    "marketCapitalization": 1334094670,
+    "minusCashAndCashEquivalents": 40402000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1293692670
+  },
+  {
+    "symbol": "NAK",
+    "date": "2010-09-30",
+    "stockPrice": 8.76,
+    "numberOfShares": 93857000,
+    "marketCapitalization": 821989873,
+    "minusCashAndCashEquivalents": 39723000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 782266873
+  },
+  {
+    "symbol": "NAK",
+    "date": "2010-06-30",
+    "stockPrice": 6.88,
+    "numberOfShares": 93815000,
+    "marketCapitalization": 645629660,
+    "minusCashAndCashEquivalents": 41581000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 604048660
+  },
+  {
+    "symbol": "NAK",
+    "date": "2010-03-31",
+    "stockPrice": 9.74,
+    "numberOfShares": 93255000,
+    "marketCapitalization": 908114737,
+    "minusCashAndCashEquivalents": 46455000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 861659737
+  },
+  {
+    "symbol": "NAK",
+    "date": "2009-12-31",
+    "stockPrice": 8.64,
+    "numberOfShares": 92958000,
+    "marketCapitalization": 803422143,
+    "minusCashAndCashEquivalents": 44895000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 758527143
+  },
+  {
+    "symbol": "NAK",
+    "date": "2009-09-30",
+    "stockPrice": 7.89,
+    "numberOfShares": 92958000,
+    "marketCapitalization": 733414134,
+    "minusCashAndCashEquivalents": 44995000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 688419134
+  },
+  {
+    "symbol": "NAK",
+    "date": "2009-06-30",
+    "stockPrice": 8.19,
+    "numberOfShares": 92728000,
+    "marketCapitalization": 759552063,
+    "minusCashAndCashEquivalents": 45411000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 714141063
+  },
+  {
+    "symbol": "NAK",
+    "date": "2009-03-31",
+    "stockPrice": 8.71,
+    "numberOfShares": 92558000,
+    "marketCapitalization": 805763150,
+    "minusCashAndCashEquivalents": 45162000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 760601150
+  },
+  {
+    "symbol": "NAK",
+    "date": "2008-12-31",
+    "stockPrice": 4.48,
+    "numberOfShares": 92544000,
+    "marketCapitalization": 414964482,
+    "minusCashAndCashEquivalents": 59201000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 355763482
+  },
+  {
+    "symbol": "NAK",
+    "date": "2008-09-30",
+    "stockPrice": 4.58,
+    "numberOfShares": 92544000,
+    "marketCapitalization": 423466999,
+    "minusCashAndCashEquivalents": 48756653,
+    "addTotalDebt": 0,
+    "enterpriseValue": 374710346
+  },
+  {
+    "symbol": "NAK",
+    "date": "2008-06-30",
+    "stockPrice": 8.2,
+    "numberOfShares": 92544000,
+    "marketCapitalization": 759098147,
+    "minusCashAndCashEquivalents": 49004681,
+    "addTotalDebt": 0,
+    "enterpriseValue": 710093466
+  },
+  {
+    "symbol": "NAK",
+    "date": "2008-03-31",
+    "stockPrice": 9.39,
+    "numberOfShares": 92544000,
+    "marketCapitalization": 869048202,
+    "minusCashAndCashEquivalents": 47401502,
+    "addTotalDebt": 0,
+    "enterpriseValue": 821646700
+  },
+  {
+    "symbol": "NAK",
+    "date": "2007-12-31",
+    "stockPrice": 12.98,
+    "numberOfShares": 90712000,
+    "marketCapitalization": 1177780279,
+    "minusCashAndCashEquivalents": 40340650,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1137439629
+  },
+  {
+    "symbol": "NAK",
+    "date": "2007-09-30",
+    "stockPrice": 10.81,
+    "numberOfShares": 92395000,
+    "marketCapitalization": 998947945,
+    "minusCashAndCashEquivalents": 35884925,
+    "addTotalDebt": 0,
+    "enterpriseValue": 963063020
+  },
+  {
+    "symbol": "NAK",
+    "date": "2007-06-30",
+    "stockPrice": 12.39,
+    "numberOfShares": 91922000,
+    "marketCapitalization": 1138626231,
+    "minusCashAndCashEquivalents": 58423921,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1080202310
+  },
+  {
+    "symbol": "NAK",
+    "date": "2007-03-31",
+    "stockPrice": 13.04,
+    "numberOfShares": 91756000,
+    "marketCapitalization": 1196675879,
+    "minusCashAndCashEquivalents": 80790643,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1115885236
+  },
+  {
+    "symbol": "NAK",
+    "date": "2006-12-31",
+    "stockPrice": 9.43,
+    "numberOfShares": 86599000,
+    "marketCapitalization": 816700447,
+    "minusCashAndCashEquivalents": 93689667,
+    "addTotalDebt": 0,
+    "enterpriseValue": 723010780
+  },
+  {
+    "symbol": "NAK",
+    "date": "2006-09-30",
+    "stockPrice": 7.38,
+    "numberOfShares": 86599000,
+    "marketCapitalization": 639506942,
+    "minusCashAndCashEquivalents": 106731520,
+    "addTotalDebt": 0,
+    "enterpriseValue": 532775422
+  },
+  {
+    "symbol": "NAK",
+    "date": "2006-06-30",
+    "stockPrice": 9.81,
+    "numberOfShares": 71977000,
+    "marketCapitalization": 705941922,
+    "minusCashAndCashEquivalents": 21226654,
+    "addTotalDebt": 0,
+    "enterpriseValue": 684715268
+  },
+  {
+    "symbol": "NAK",
+    "date": "2006-03-31",
+    "stockPrice": 7.53,
+    "numberOfShares": 59239000,
+    "marketCapitalization": 446130093,
+    "minusCashAndCashEquivalents": 10722854,
+    "addTotalDebt": 0,
+    "enterpriseValue": 435407239
+  },
+  {
+    "symbol": "NAK",
+    "date": "2005-12-31",
+    "stockPrice": 6.18,
+    "numberOfShares": 57189000,
+    "marketCapitalization": 353594096,
+    "minusCashAndCashEquivalents": 12948641,
+    "addTotalDebt": 0,
+    "enterpriseValue": 340645455
+  },
+  {
+    "symbol": "NAK",
+    "date": "2005-09-30",
+    "stockPrice": 5.78,
+    "numberOfShares": 56866000,
+    "marketCapitalization": 328437373,
+    "minusCashAndCashEquivalents": 17547238,
+    "addTotalDebt": 0,
+    "enterpriseValue": 310890135
+  },
+  {
+    "symbol": "NAK",
+    "date": "2005-06-30",
+    "stockPrice": 4.83,
+    "numberOfShares": 56670000,
+    "marketCapitalization": 273495427,
+    "minusCashAndCashEquivalents": 27163990,
+    "addTotalDebt": 0,
+    "enterpriseValue": 246331437
+  },
+  {
+    "symbol": "NAK",
+    "date": "2005-03-31",
+    "stockPrice": 5.45,
+    "numberOfShares": 49351000,
+    "marketCapitalization": 268782818,
+    "minusCashAndCashEquivalents": 38301111,
+    "addTotalDebt": 0,
+    "enterpriseValue": 230481707
+  },
+  {
+    "symbol": "NAK",
+    "date": "2004-12-31",
+    "stockPrice": 5.85,
+    "numberOfShares": 44417000,
+    "marketCapitalization": 259795477,
+    "minusCashAndCashEquivalents": 12476048,
+    "addTotalDebt": 0,
+    "enterpriseValue": 247319429
+  },
+  {
+    "symbol": "NAK",
+    "date": "2004-09-30",
+    "stockPrice": 5.67,
+    "numberOfShares": 44417000,
+    "marketCapitalization": 252064254,
+    "minusCashAndCashEquivalents": 19848620,
+    "addTotalDebt": 0,
+    "enterpriseValue": 232215634
+  },
+  {
+    "symbol": "NAK",
+    "date": "2004-06-30",
+    "stockPrice": 5.3,
+    "numberOfShares": 36918000,
+    "marketCapitalization": 195803768,
+    "minusCashAndCashEquivalents": 24174720,
+    "addTotalDebt": 0,
+    "enterpriseValue": 171629048
+  },
+  {
+    "symbol": "NAK",
+    "date": "2004-03-31",
+    "stockPrice": 7.61,
+    "numberOfShares": 32359000,
+    "marketCapitalization": 246099579,
+    "minusCashAndCashEquivalents": 24574022,
+    "addTotalDebt": 0,
+    "enterpriseValue": 221525557
+  },
+  {
+    "symbol": "NAK",
+    "date": "2003-12-31",
+    "stockPrice": 5.62,
+    "numberOfShares": 26715000,
+    "marketCapitalization": 150120400,
+    "minusCashAndCashEquivalents": 3441465,
+    "addTotalDebt": 0,
+    "enterpriseValue": 146678935
+  },
+  {
+    "symbol": "NAK",
+    "date": "2003-09-30",
+    "stockPrice": 3.03,
+    "numberOfShares": 26715000,
+    "marketCapitalization": 80887890,
+    "minusCashAndCashEquivalents": 5274038,
+    "addTotalDebt": 0,
+    "enterpriseValue": 75613852
+  },
+  {
+    "symbol": "NAK",
+    "date": "2003-06-30",
+    "stockPrice": 1.16,
+    "numberOfShares": 19072000,
+    "marketCapitalization": 22091746,
+    "minusCashAndCashEquivalents": 866288,
+    "addTotalDebt": 0,
+    "enterpriseValue": 21225458
+  },
+  {
+    "symbol": "NAK",
+    "date": "2003-03-31",
+    "stockPrice": 0.67505,
+    "numberOfShares": 16978000,
+    "marketCapitalization": 11460998,
+    "minusCashAndCashEquivalents": 299996,
+    "addTotalDebt": 0,
+    "enterpriseValue": 11161002
+  },
+  {
+    "symbol": "NAK",
+    "date": "2002-12-31",
+    "stockPrice": 0.64632,
+    "numberOfShares": 16978000,
+    "marketCapitalization": 10973288,
+    "minusCashAndCashEquivalents": 424152,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10549136
+  },
+  {
+    "symbol": "NAK",
+    "date": "2002-09-30",
+    "stockPrice": 0.63468,
+    "numberOfShares": 13433000,
+    "marketCapitalization": 8525656.44,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 1944,
+    "enterpriseValue": 8527600
+  },
+  {
+    "symbol": "NAK",
+    "date": "2002-06-30",
+    "stockPrice": 1.11,
+    "numberOfShares": 12705000,
+    "marketCapitalization": 14058514,
+    "minusCashAndCashEquivalents": 964507,
+    "addTotalDebt": 0,
+    "enterpriseValue": 13094007
+  },
+  {
+    "symbol": "NAK",
+    "date": "2002-03-31",
+    "stockPrice": 1.21,
+    "numberOfShares": 9429000,
+    "marketCapitalization": 11431267,
+    "minusCashAndCashEquivalents": 1888693,
+    "addTotalDebt": 0,
+    "enterpriseValue": 9542574
+  }
+]

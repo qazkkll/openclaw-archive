@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "NVAX",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Europe": 15740000,
+      "Rest of North America": 575670000,
+      "Rest of the World": 126458000,
+      "UNITED STATES": 405611000
+    }
+  },
+  {
+    "symbol": "NVAX",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Europe": 96143000,
+      "Rest of North America": 4462000,
+      "Rest of the World": 59022000,
+      "UNITED STATES": 522535000
+    }
+  },
+  {
+    "symbol": "NVAX",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Europe": 268361000,
+      "North America": 29959000,
+      "Rest of the World": 233069000
+    }
+  },
+  {
+    "symbol": "NVAX",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Europe": 823542000,
+      "North America": 194480000,
+      "Rest of the World": 536939000
+    }
+  }
+]

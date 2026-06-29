@@ -1,0 +1,51 @@
+[
+  {
+    "symbol": "DAVE",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Other": 349000,
+      "Subscriptions": 37224000
+    }
+  },
+  {
+    "symbol": "DAVE",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Other": 462000,
+      "Processing Fees": 218802000,
+      "Subscriptions": 24599000
+    }
+  },
+  {
+    "symbol": "DAVE",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Other": 1323000,
+      "Processing Fees": 152490000,
+      "Subscriptions": 21483000,
+      "Transaction Based Revenue": 26852000
+    }
+  },
+  {
+    "symbol": "DAVE",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Other": 1099000,
+      "Processing Fees": 106664000,
+      "Subscriptions": 19146000,
+      "Transaction Based Revenue": 15978000
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "symbol": "SRPT",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "UNITED STATES": 898731000,
+      "Non-US": 165183000
+    }
+  },
+  {
+    "symbol": "SRPT",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "UNITED STATES": 820791000,
+      "Rest of World": 150249000
+    }
+  },
+  {
+    "symbol": "SRPT",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "UNITED STATES": 797944000,
+      "Rest of World": 146576000
+    }
+  },
+  {
+    "symbol": "SRPT",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Non-US": 96700000,
+      "UNITED STATES": 747100000
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "BBAR",
+    "date": "2025-11-03",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BBAR",
+    "date": "2025-10-01",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BBAR",
+    "date": "2025-09-11",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BBAR",
+    "date": "2024-12-16",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BBAR",
+    "date": "2020-07-21",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Reduce",
+    "action": "downgrade"
+  }
+]

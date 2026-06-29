@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "AESI",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Product": 477985000,
+      "Rental": 21700000,
+      "Service": 558774000,
+      "Shortfall Revenues": 23900000
+    }
+  },
+  {
+    "symbol": "AESI",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Product": 515434000,
+      "Service": 540523000,
+      "Shortfall Revenues": 13100000
+    }
+  },
+  {
+    "symbol": "AESI",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Product": 468119000,
+      "Service": 145841000
+    }
+  }
+]

@@ -1,0 +1,143 @@
+{
+  "test": "falcon_10yr_oos_validation",
+  "date": "2026-06-29",
+  "data_range": "2016-01-04 to 2026-06-26",
+  "universe": "476 SPX tickers",
+  "rebalance": "21 trading days (monthly)",
+  "weights": {
+    "fund_ratio": 0.7,
+    "analyst": 0.2,
+    "fund_metric": 0.1
+  },
+  "strategies": {
+    "top5_unlimited": {
+      "annual": 0.217,
+      "excess": 0.044,
+      "vol": 0.26,
+      "sharpe": 0.83,
+      "ir": 0.22,
+      "wr": 0.49,
+      "max_dd": -0.315
+    },
+    "top5_diversified": {
+      "annual": 0.174,
+      "excess": 0.001,
+      "vol": 0.242,
+      "sharpe": 0.72,
+      "ir": 0.01,
+      "wr": 0.49,
+      "max_dd": -0.315
+    },
+    "top20_unlimited": {
+      "annual": 0.205,
+      "excess": 0.033,
+      "vol": 0.198,
+      "sharpe": 1.04,
+      "ir": 0.27,
+      "wr": 0.52,
+      "max_dd": -0.248
+    },
+    "top20_diversified": {
+      "annual": 0.22,
+      "excess": 0.047,
+      "vol": 0.195,
+      "sharpe": 1.12,
+      "ir": 0.42,
+      "wr": 0.53,
+      "max_dd": -0.194
+    },
+    "spx_equal_weight": {
+      "annual": 0.181,
+      "vol": 0.165
+    }
+  },
+  "yearly_excess": {
+    "2016": {
+      "top5": 0.051,
+      "top5_div": 0.051,
+      "top20": 0.051,
+      "top20_div": 0.051,
+      "spx": 0.213
+    },
+    "2017": {
+      "top5": -0.193,
+      "top5_div": -0.193,
+      "top20": -0.193,
+      "top20_div": -0.193,
+      "spx": 0.248
+    },
+    "2018": {
+      "top5": 0.052,
+      "top5_div": 0.084,
+      "top20": 0.11,
+      "top20_div": 0.15,
+      "spx": -0.024
+    },
+    "2019": {
+      "top5": 0.037,
+      "top5_div": 0.026,
+      "top20": -0.023,
+      "top20_div": -0.019,
+      "spx": 0.302
+    },
+    "2020": {
+      "top5": 0.26,
+      "top5_div": 0.241,
+      "top20": 0.169,
+      "top20_div": 0.151,
+      "spx": 0.24
+    },
+    "2021": {
+      "top5": -0.161,
+      "top5_div": -0.179,
+      "top20": 0.1,
+      "top20_div": 0.11,
+      "spx": 0.415
+    },
+    "2022": {
+      "top5": -0.081,
+      "top5_div": -0.105,
+      "top20": -0.132,
+      "top20_div": -0.016,
+      "spx": -0.115
+    },
+    "2023": {
+      "top5": 0.301,
+      "top5_div": 0.114,
+      "top20": 0.188,
+      "top20_div": 0.137,
+      "spx": 0.203
+    },
+    "2024": {
+      "top5": -0.005,
+      "top5_div": -0.005,
+      "top20": 0.109,
+      "top20_div": 0.085,
+      "spx": 0.181
+    },
+    "2025": {
+      "top5": 0.459,
+      "top5_div": 0.245,
+      "top20": -0.009,
+      "top20_div": 0.067,
+      "spx": 0.161
+    },
+    "2026": {
+      "top5": -0.507,
+      "top5_div": -0.528,
+      "top20": -0.054,
+      "top20_div": -0.053,
+      "spx": 0.155
+    }
+  },
+  "conclusions": {
+    "best_strategy": "top20_diversified",
+    "alpha_confirmed": true,
+    "annual_alpha": 0.047,
+    "ir": 0.42,
+    "top5_dangerous": true,
+    "top5_2026_drawdown": -0.507,
+    "diversification_improves_top20": true,
+    "diversification_hurts_top5": true
+  }
+}

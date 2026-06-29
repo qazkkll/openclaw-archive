@@ -1,0 +1,605 @@
+[
+  {
+    "symbol": "RELY",
+    "date": "2026-08-05",
+    "epsActual": null,
+    "epsEstimated": 0.13,
+    "revenueActual": null,
+    "revenueEstimated": 485881400,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2026-05-06",
+    "epsActual": 0.23,
+    "epsEstimated": 0.12,
+    "revenueActual": 452802000,
+    "revenueEstimated": 438943000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2026-02-18",
+    "epsActual": 0.19,
+    "epsEstimated": 0.1576,
+    "revenueActual": 442177000,
+    "revenueEstimated": 427372400,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2025-11-05",
+    "epsActual": 0.04,
+    "epsEstimated": 0.177,
+    "revenueActual": 419494000,
+    "revenueEstimated": 413725830,
+    "lastUpdated": "2026-02-03"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2025-08-06",
+    "epsActual": 0.04,
+    "epsEstimated": 0.2029,
+    "revenueActual": 411852000,
+    "revenueEstimated": 415703000,
+    "lastUpdated": "2025-11-06"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2025-05-07",
+    "epsActual": 0.05,
+    "epsEstimated": -0.04,
+    "revenueActual": 361624000,
+    "revenueEstimated": 347474560,
+    "lastUpdated": "2025-08-07"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2025-02-19",
+    "epsActual": -0.03,
+    "epsEstimated": -0.07,
+    "revenueActual": 351895000,
+    "revenueEstimated": 343778590,
+    "lastUpdated": "2025-05-19"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2024-10-30",
+    "epsActual": 0.01,
+    "epsEstimated": -0.07,
+    "revenueActual": 336527000,
+    "revenueEstimated": 343664920,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2024-07-31",
+    "epsActual": -0.06,
+    "epsEstimated": -0.1,
+    "revenueActual": 306423000,
+    "revenueEstimated": 320510000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2024-05-01",
+    "epsActual": -0.11,
+    "epsEstimated": -0.14,
+    "revenueActual": 269118000,
+    "revenueEstimated": 274190000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2024-02-21",
+    "epsActual": -0.19,
+    "epsEstimated": -0.17,
+    "revenueActual": 264758000,
+    "revenueEstimated": 261320000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2023-11-01",
+    "epsActual": -0.2,
+    "epsEstimated": -0.17,
+    "revenueActual": 241629000,
+    "revenueEstimated": 239190000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2023-08-02",
+    "epsActual": -0.11,
+    "epsEstimated": -0.17,
+    "revenueActual": 234033000,
+    "revenueEstimated": 215810000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2023-05-03",
+    "epsActual": -0.16,
+    "epsEstimated": -0.18,
+    "revenueActual": 203865000,
+    "revenueEstimated": 215700000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2023-02-22",
+    "epsActual": -0.11,
+    "epsEstimated": -0.21,
+    "revenueActual": 191032000,
+    "revenueEstimated": 194790000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2022-11-02",
+    "epsActual": -0.2,
+    "epsEstimated": -0.18,
+    "revenueActual": 169259000,
+    "revenueEstimated": 162849366,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2022-08-03",
+    "epsActual": -0.23,
+    "epsEstimated": -0.2,
+    "revenueActual": 157255000,
+    "revenueEstimated": 149011503,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2022-05-05",
+    "epsActual": -0.14,
+    "epsEstimated": -0.18,
+    "revenueActual": 136014000,
+    "revenueEstimated": 136434985,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2022-03-02",
+    "epsActual": -0.1,
+    "epsEstimated": -0.11,
+    "revenueActual": 135255000,
+    "revenueEstimated": 125352830,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2021-11-10",
+    "epsActual": -0.41,
+    "epsEstimated": -0.07,
+    "revenueActual": 121244000,
+    "revenueEstimated": 420889885,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2021-09-24",
+    "epsActual": -0.05111,
+    "epsEstimated": null,
+    "revenueActual": 91056000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2021-06-30",
+    "epsActual": -0.00897,
+    "epsEstimated": null,
+    "revenueActual": 111050000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2020-12-31",
+    "epsActual": -0.05923,
+    "epsEstimated": null,
+    "revenueActual": 80017000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2020-09-30",
+    "epsActual": -0.01598,
+    "epsEstimated": null,
+    "revenueActual": 71790000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2020-06-30",
+    "epsActual": -0.38549,
+    "epsEstimated": null,
+    "revenueActual": 59409000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2020-03-31",
+    "epsActual": -0.63223,
+    "epsEstimated": null,
+    "revenueActual": 45740000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2018-04-05",
+    "epsActual": -2.45095,
+    "epsEstimated": null,
+    "revenueActual": 326300000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2017-11-09",
+    "epsActual": -1.72048,
+    "epsEstimated": null,
+    "revenueActual": 332800000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2017-08-08",
+    "epsActual": -0.21074,
+    "epsEstimated": null,
+    "revenueActual": 350200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2017-05-10",
+    "epsActual": -0.37312,
+    "epsEstimated": null,
+    "revenueActual": 337100000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2017-03-13",
+    "epsActual": -2.79838,
+    "epsEstimated": null,
+    "revenueActual": 304500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2016-11-10",
+    "epsActual": -0.35963,
+    "epsEstimated": null,
+    "revenueActual": 314900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2016-08-09",
+    "epsActual": -0.0411,
+    "epsEstimated": null,
+    "revenueActual": 320900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2016-05-10",
+    "epsActual": -0.33223,
+    "epsEstimated": null,
+    "revenueActual": 309400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2016-03-14",
+    "epsActual": -0.34251,
+    "epsEstimated": null,
+    "revenueActual": 300500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2015-11-06",
+    "epsActual": 0.07694,
+    "epsEstimated": null,
+    "revenueActual": 338600000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2015-08-17",
+    "epsActual": -0.54629,
+    "epsEstimated": null,
+    "revenueActual": 368700000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2015-05-12",
+    "epsActual": -0.63862,
+    "epsEstimated": null,
+    "revenueActual": 137800000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2015-03-16",
+    "epsActual": 0.1028,
+    "epsEstimated": null,
+    "revenueActual": 12558000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2014-11-06",
+    "epsActual": 0.02791,
+    "epsEstimated": null,
+    "revenueActual": 10987000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2014-08-07",
+    "epsActual": 0.147,
+    "epsEstimated": null,
+    "revenueActual": 10221000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2014-05-08",
+    "epsActual": 0.08151,
+    "epsEstimated": null,
+    "revenueActual": 8280000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2014-03-13",
+    "epsActual": 0.329,
+    "epsEstimated": null,
+    "revenueActual": 9292000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2013-11-12",
+    "epsActual": 0.07492,
+    "epsEstimated": null,
+    "revenueActual": 9779000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2013-08-12",
+    "epsActual": 0.01395,
+    "epsEstimated": null,
+    "revenueActual": 14864000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2013-04-01",
+    "epsActual": 0.009,
+    "epsEstimated": null,
+    "revenueActual": 13295000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2013-04-01",
+    "epsActual": 0.01019,
+    "epsEstimated": null,
+    "revenueActual": 9576000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2012-11-13",
+    "epsActual": -0.01974,
+    "epsEstimated": null,
+    "revenueActual": 11337000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2012-08-14",
+    "epsActual": 0.00149,
+    "epsEstimated": null,
+    "revenueActual": 10529000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2012-05-15",
+    "epsActual": -0.02419,
+    "epsEstimated": null,
+    "revenueActual": 8772000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2012-03-30",
+    "epsActual": -0.03627,
+    "epsEstimated": null,
+    "revenueActual": 8615000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2011-12-29",
+    "epsActual": 0.02321,
+    "epsEstimated": null,
+    "revenueActual": 6611000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2011-12-12",
+    "epsActual": -0.0443,
+    "epsEstimated": null,
+    "revenueActual": 567000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2011-09-29",
+    "epsActual": -0.01095,
+    "epsEstimated": null,
+    "revenueActual": 702000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2011-07-01",
+    "epsActual": -0.03846,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2011-07-01",
+    "epsActual": -0.05077,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2011-07-01",
+    "epsActual": -0.11786,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2011-07-01",
+    "epsActual": -0.10276,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2011-05-17",
+    "epsActual": -0.03624,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2007-11-08",
+    "epsActual": 0.2786,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2007-10-17",
+    "epsActual": 0.553,
+    "epsEstimated": null,
+    "revenueActual": 148630000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2007-10-17",
+    "epsActual": -6.72446,
+    "epsEstimated": null,
+    "revenueActual": 637729000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2007-10-17",
+    "epsActual": 0.00072,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2006-03-16",
+    "epsActual": 6.64,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2005-03-16",
+    "epsActual": 7.33,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2004-03-15",
+    "epsActual": 2.36,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "RELY",
+    "date": "2003-03-31",
+    "epsActual": 0.3594,
+    "epsEstimated": null,
+    "revenueActual": 138138000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  }
+]

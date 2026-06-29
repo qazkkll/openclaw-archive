@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "STEL",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Deposit Account Service Charge Fee": 4766000
+    }
+  },
+  {
+    "symbol": "STEL",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Deposit Account Nonsufficient Funds Fee": 834000,
+      "Deposit Account Service Charge Fee": 2856000
+    }
+  }
+]

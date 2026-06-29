@@ -1,0 +1,952 @@
+[
+  {
+    "symbol": "ENS",
+    "date": "2025-12-28",
+    "stockPrice": 148.12,
+    "numberOfShares": 36864078,
+    "marketCapitalization": 5460307233,
+    "minusCashAndCashEquivalents": 450082000,
+    "addTotalDebt": 1179165000,
+    "enterpriseValue": 6189390233
+  },
+  {
+    "symbol": "ENS",
+    "date": "2025-09-28",
+    "stockPrice": 111.15,
+    "numberOfShares": 37436456,
+    "marketCapitalization": 4161062084,
+    "minusCashAndCashEquivalents": 388606000,
+    "addTotalDebt": 1213293000,
+    "enterpriseValue": 4985749084
+  },
+  {
+    "symbol": "ENS",
+    "date": "2025-06-29",
+    "stockPrice": 85.77,
+    "numberOfShares": 38798263,
+    "marketCapitalization": 3327727017,
+    "minusCashAndCashEquivalents": 346662000,
+    "addTotalDebt": 1298643000,
+    "enterpriseValue": 4279708017
+  },
+  {
+    "symbol": "ENS",
+    "date": "2025-03-31",
+    "stockPrice": 91.58,
+    "numberOfShares": 39761000,
+    "marketCapitalization": 3641312380,
+    "minusCashAndCashEquivalents": 343131000,
+    "addTotalDebt": 1202290000,
+    "enterpriseValue": 4500471380
+  },
+  {
+    "symbol": "ENS",
+    "date": "2024-12-29",
+    "stockPrice": 92.84,
+    "numberOfShares": 39305000,
+    "marketCapitalization": 3649076200,
+    "minusCashAndCashEquivalents": 463164000,
+    "addTotalDebt": 1302658000,
+    "enterpriseValue": 4488570200
+  },
+  {
+    "symbol": "ENS",
+    "date": "2024-09-29",
+    "stockPrice": 102.05,
+    "numberOfShares": 40165000,
+    "marketCapitalization": 4098838250,
+    "minusCashAndCashEquivalents": 407919000,
+    "addTotalDebt": 1232663000,
+    "enterpriseValue": 4923582250
+  },
+  {
+    "symbol": "ENS",
+    "date": "2024-06-30",
+    "stockPrice": 101.62,
+    "numberOfShares": 40204000,
+    "marketCapitalization": 4085530480,
+    "minusCashAndCashEquivalents": 344069000,
+    "addTotalDebt": 897064000,
+    "enterpriseValue": 4638525480
+  },
+  {
+    "symbol": "ENS",
+    "date": "2024-03-31",
+    "stockPrice": 93,
+    "numberOfShares": 40365995,
+    "marketCapitalization": 3754037535,
+    "minusCashAndCashEquivalents": 333324000,
+    "addTotalDebt": 914260000,
+    "enterpriseValue": 4334973535
+  },
+  {
+    "symbol": "ENS",
+    "date": "2023-12-31",
+    "stockPrice": 100.96,
+    "numberOfShares": 40451279,
+    "marketCapitalization": 4083961127,
+    "minusCashAndCashEquivalents": 332714000,
+    "addTotalDebt": 911770000,
+    "enterpriseValue": 4663017127
+  },
+  {
+    "symbol": "ENS",
+    "date": "2023-10-01",
+    "stockPrice": 93.67,
+    "numberOfShares": 40922959,
+    "marketCapitalization": 3833253569,
+    "minusCashAndCashEquivalents": 327751000,
+    "addTotalDebt": 980478000,
+    "enterpriseValue": 4485980569
+  },
+  {
+    "symbol": "ENS",
+    "date": "2023-07-02",
+    "stockPrice": 108.59,
+    "numberOfShares": 40937334,
+    "marketCapitalization": 4445385099,
+    "minusCashAndCashEquivalents": 258342000,
+    "addTotalDebt": 938730000,
+    "enterpriseValue": 5125773099
+  },
+  {
+    "symbol": "ENS",
+    "date": "2023-03-31",
+    "stockPrice": 86.88,
+    "numberOfShares": 40873977,
+    "marketCapitalization": 3551131121,
+    "minusCashAndCashEquivalents": 346665000,
+    "addTotalDebt": 1094205000,
+    "enterpriseValue": 4298671121
+  },
+  {
+    "symbol": "ENS",
+    "date": "2023-01-01",
+    "stockPrice": 73.84,
+    "numberOfShares": 40835636,
+    "marketCapitalization": 3015303362,
+    "minusCashAndCashEquivalents": 298081000,
+    "addTotalDebt": 1137143000,
+    "enterpriseValue": 3854365362
+  },
+  {
+    "symbol": "ENS",
+    "date": "2022-10-02",
+    "stockPrice": 59.77,
+    "numberOfShares": 40740989,
+    "marketCapitalization": 2435088912,
+    "minusCashAndCashEquivalents": 294423000,
+    "addTotalDebt": 1330408000,
+    "enterpriseValue": 3471073912
+  },
+  {
+    "symbol": "ENS",
+    "date": "2022-07-03",
+    "stockPrice": 59.22,
+    "numberOfShares": 40786336,
+    "marketCapitalization": 2415366817,
+    "minusCashAndCashEquivalents": 383243000,
+    "addTotalDebt": 1422322000,
+    "enterpriseValue": 3454445817
+  },
+  {
+    "symbol": "ENS",
+    "date": "2022-03-31",
+    "stockPrice": 74.57,
+    "numberOfShares": 41243627,
+    "marketCapitalization": 3075537265,
+    "minusCashAndCashEquivalents": 402488000,
+    "addTotalDebt": 1371492000,
+    "enterpriseValue": 4044541265
+  },
+  {
+    "symbol": "ENS",
+    "date": "2022-01-02",
+    "stockPrice": 81.1,
+    "numberOfShares": 41905815,
+    "marketCapitalization": 3398561596,
+    "minusCashAndCashEquivalents": 397060000,
+    "addTotalDebt": 1224972000,
+    "enterpriseValue": 4226473596
+  },
+  {
+    "symbol": "ENS",
+    "date": "2021-10-03",
+    "stockPrice": 75.84,
+    "numberOfShares": 42575576,
+    "marketCapitalization": 3228931683,
+    "minusCashAndCashEquivalents": 407506000,
+    "addTotalDebt": 1111995000,
+    "enterpriseValue": 3933420683
+  },
+  {
+    "symbol": "ENS",
+    "date": "2021-07-04",
+    "stockPrice": 97.28,
+    "numberOfShares": 42700329,
+    "marketCapitalization": 4153888005,
+    "minusCashAndCashEquivalents": 406233000,
+    "addTotalDebt": 1060676000,
+    "enterpriseValue": 4808331005
+  },
+  {
+    "symbol": "ENS",
+    "date": "2021-03-31",
+    "stockPrice": 90.8,
+    "numberOfShares": 42686413,
+    "marketCapitalization": 3875926300,
+    "minusCashAndCashEquivalents": 451808000,
+    "addTotalDebt": 1068744000,
+    "enterpriseValue": 4492862300
+  },
+  {
+    "symbol": "ENS",
+    "date": "2021-01-03",
+    "stockPrice": 81.12,
+    "numberOfShares": 42599834,
+    "marketCapitalization": 3455698534,
+    "minusCashAndCashEquivalents": 488651000,
+    "addTotalDebt": 1094459000,
+    "enterpriseValue": 4061506534
+  },
+  {
+    "symbol": "ENS",
+    "date": "2020-10-04",
+    "stockPrice": 71.37,
+    "numberOfShares": 42521659,
+    "marketCapitalization": 3034770802,
+    "minusCashAndCashEquivalents": 414232000,
+    "addTotalDebt": 1140927000,
+    "enterpriseValue": 3761465802
+  },
+  {
+    "symbol": "ENS",
+    "date": "2020-07-05",
+    "stockPrice": 63.97,
+    "numberOfShares": 42385888,
+    "marketCapitalization": 2711425255,
+    "minusCashAndCashEquivalents": 384379000,
+    "addTotalDebt": 1127274000,
+    "enterpriseValue": 3454320255
+  },
+  {
+    "symbol": "ENS",
+    "date": "2020-03-31",
+    "stockPrice": 49.52,
+    "numberOfShares": 42312315,
+    "marketCapitalization": 2095305838,
+    "minusCashAndCashEquivalents": 326979000,
+    "addTotalDebt": 1224187000,
+    "enterpriseValue": 2992513838
+  },
+  {
+    "symbol": "ENS",
+    "date": "2019-12-29",
+    "stockPrice": 75.58,
+    "numberOfShares": 42286641,
+    "marketCapitalization": 3196024326,
+    "minusCashAndCashEquivalents": 272510000,
+    "addTotalDebt": 1124981000,
+    "enterpriseValue": 4048495326
+  },
+  {
+    "symbol": "ENS",
+    "date": "2019-09-29",
+    "stockPrice": 65.94,
+    "numberOfShares": 42392039,
+    "marketCapitalization": 2795331051,
+    "minusCashAndCashEquivalents": 424846000,
+    "addTotalDebt": 1231872000,
+    "enterpriseValue": 3602357051
+  },
+  {
+    "symbol": "ENS",
+    "date": "2019-06-30",
+    "stockPrice": 67.98,
+    "numberOfShares": 42656339,
+    "marketCapitalization": 2899777925,
+    "minusCashAndCashEquivalents": 262113000,
+    "addTotalDebt": 1097789000,
+    "enterpriseValue": 3735453925
+  },
+  {
+    "symbol": "ENS",
+    "date": "2019-03-31",
+    "stockPrice": 66.32,
+    "numberOfShares": 42856604,
+    "marketCapitalization": 2842249977,
+    "minusCashAndCashEquivalents": 299212000,
+    "addTotalDebt": 1036534000,
+    "enterpriseValue": 3579571977
+  },
+  {
+    "symbol": "ENS",
+    "date": "2018-12-30",
+    "stockPrice": 77.61,
+    "numberOfShares": 42337459,
+    "marketCapitalization": 3285810192,
+    "minusCashAndCashEquivalents": 397158000,
+    "addTotalDebt": 1090997000,
+    "enterpriseValue": 3979649192
+  },
+  {
+    "symbol": "ENS",
+    "date": "2018-09-30",
+    "stockPrice": 86.53,
+    "numberOfShares": 42133484,
+    "marketCapitalization": 3645810370,
+    "minusCashAndCashEquivalents": 545183000,
+    "addTotalDebt": 613733000,
+    "enterpriseValue": 3714360370
+  },
+  {
+    "symbol": "ENS",
+    "date": "2018-07-01",
+    "stockPrice": 74.87,
+    "numberOfShares": 42012546,
+    "marketCapitalization": 3145479319,
+    "minusCashAndCashEquivalents": 512463000,
+    "addTotalDebt": 609284000,
+    "enterpriseValue": 3242300319
+  },
+  {
+    "symbol": "ENS",
+    "date": "2018-03-31",
+    "stockPrice": 69.37,
+    "numberOfShares": 41934187,
+    "marketCapitalization": 2908974552,
+    "minusCashAndCashEquivalents": 522118000,
+    "addTotalDebt": 598020000,
+    "enterpriseValue": 2984876552
+  },
+  {
+    "symbol": "ENS",
+    "date": "2017-12-31",
+    "stockPrice": 69.63,
+    "numberOfShares": 42125745,
+    "marketCapitalization": 2933215624,
+    "minusCashAndCashEquivalents": 571322000,
+    "addTotalDebt": 705863000,
+    "enterpriseValue": 3067756624
+  },
+  {
+    "symbol": "ENS",
+    "date": "2017-10-01",
+    "stockPrice": 69.01,
+    "numberOfShares": 42938131,
+    "marketCapitalization": 2963160420,
+    "minusCashAndCashEquivalents": 540113000,
+    "addTotalDebt": 741585000,
+    "enterpriseValue": 3164632420
+  },
+  {
+    "symbol": "ENS",
+    "date": "2017-07-02",
+    "stockPrice": 73.99,
+    "numberOfShares": 43450082,
+    "marketCapitalization": 3214871567,
+    "minusCashAndCashEquivalents": 543039000,
+    "addTotalDebt": 659255000,
+    "enterpriseValue": 3331087567
+  },
+  {
+    "symbol": "ENS",
+    "date": "2017-03-31",
+    "stockPrice": 78.94,
+    "numberOfShares": 43430911,
+    "marketCapitalization": 3428436114,
+    "minusCashAndCashEquivalents": 500329000,
+    "addTotalDebt": 606133000,
+    "enterpriseValue": 3534240114
+  },
+  {
+    "symbol": "ENS",
+    "date": "2017-01-01",
+    "stockPrice": 78.1,
+    "numberOfShares": 43429525,
+    "marketCapitalization": 3391845902,
+    "minusCashAndCashEquivalents": 467149000,
+    "addTotalDebt": 636441000,
+    "enterpriseValue": 3561137902
+  },
+  {
+    "symbol": "ENS",
+    "date": "2016-10-02",
+    "stockPrice": 68.73,
+    "numberOfShares": 43426955,
+    "marketCapitalization": 2984734617,
+    "minusCashAndCashEquivalents": 440286000,
+    "addTotalDebt": 621146000,
+    "enterpriseValue": 3165594617
+  },
+  {
+    "symbol": "ENS",
+    "date": "2016-07-03",
+    "stockPrice": 60.66,
+    "numberOfShares": 43269942,
+    "marketCapitalization": 2624754681,
+    "minusCashAndCashEquivalents": 413559000,
+    "addTotalDebt": 620610000,
+    "enterpriseValue": 2831805681
+  },
+  {
+    "symbol": "ENS",
+    "date": "2016-03-31",
+    "stockPrice": 55.72,
+    "numberOfShares": 43533985,
+    "marketCapitalization": 2425713644,
+    "minusCashAndCashEquivalents": 397307000,
+    "addTotalDebt": 628631000,
+    "enterpriseValue": 2657037644
+  },
+  {
+    "symbol": "ENS",
+    "date": "2015-12-27",
+    "stockPrice": 56.64,
+    "numberOfShares": 44394925,
+    "marketCapitalization": 2514528552,
+    "minusCashAndCashEquivalents": 346117000,
+    "addTotalDebt": 650172000,
+    "enterpriseValue": 2818583552
+  },
+  {
+    "symbol": "ENS",
+    "date": "2015-09-27",
+    "stockPrice": 51.47,
+    "numberOfShares": 44944027,
+    "marketCapitalization": 2313269069,
+    "minusCashAndCashEquivalents": 320565000,
+    "addTotalDebt": 667675000,
+    "enterpriseValue": 2660379069
+  },
+  {
+    "symbol": "ENS",
+    "date": "2015-06-28",
+    "stockPrice": 70.22,
+    "numberOfShares": 44233915,
+    "marketCapitalization": 3106105511,
+    "minusCashAndCashEquivalents": 444779000,
+    "addTotalDebt": 641090000,
+    "enterpriseValue": 3302416511
+  },
+  {
+    "symbol": "ENS",
+    "date": "2015-03-31",
+    "stockPrice": 64.24,
+    "numberOfShares": 44203385,
+    "marketCapitalization": 2839625452,
+    "minusCashAndCashEquivalents": 268921000,
+    "addTotalDebt": 515925000,
+    "enterpriseValue": 3086629452
+  },
+  {
+    "symbol": "ENS",
+    "date": "2014-12-28",
+    "stockPrice": 61.75,
+    "numberOfShares": 45188942,
+    "marketCapitalization": 2790417168,
+    "minusCashAndCashEquivalents": 279983000,
+    "addTotalDebt": 513539000,
+    "enterpriseValue": 3023973168
+  },
+  {
+    "symbol": "ENS",
+    "date": "2014-09-28",
+    "stockPrice": 59.57,
+    "numberOfShares": 46133637,
+    "marketCapitalization": 2748180756,
+    "minusCashAndCashEquivalents": 239900000,
+    "addTotalDebt": 462696000,
+    "enterpriseValue": 2970976756
+  },
+  {
+    "symbol": "ENS",
+    "date": "2014-06-29",
+    "stockPrice": 68.79,
+    "numberOfShares": 46899303,
+    "marketCapitalization": 3226203053,
+    "minusCashAndCashEquivalents": 234898000,
+    "addTotalDebt": 358926000,
+    "enterpriseValue": 3350231053
+  },
+  {
+    "symbol": "ENS",
+    "date": "2014-03-31",
+    "stockPrice": 69.29,
+    "numberOfShares": 50186803,
+    "marketCapitalization": 3477443579,
+    "minusCashAndCashEquivalents": 240103000,
+    "addTotalDebt": 322300000,
+    "enterpriseValue": 3559640579
+  },
+  {
+    "symbol": "ENS",
+    "date": "2013-12-29",
+    "stockPrice": 69.89,
+    "numberOfShares": 47351750,
+    "marketCapitalization": 3309413807,
+    "minusCashAndCashEquivalents": 211641000,
+    "addTotalDebt": 314005000,
+    "enterpriseValue": 3411777807
+  },
+  {
+    "symbol": "ENS",
+    "date": "2013-09-29",
+    "stockPrice": 60.63,
+    "numberOfShares": 47573496,
+    "marketCapitalization": 2884381062,
+    "minusCashAndCashEquivalents": 272690000,
+    "addTotalDebt": 180044000,
+    "enterpriseValue": 2791735062
+  },
+  {
+    "symbol": "ENS",
+    "date": "2013-06-30",
+    "stockPrice": 50.55,
+    "numberOfShares": 47868982,
+    "marketCapitalization": 2419777040,
+    "minusCashAndCashEquivalents": 240058000,
+    "addTotalDebt": 178238000,
+    "enterpriseValue": 2357957040
+  },
+  {
+    "symbol": "ENS",
+    "date": "2013-03-31",
+    "stockPrice": 45.16,
+    "numberOfShares": 47822280,
+    "marketCapitalization": 2159654164,
+    "minusCashAndCashEquivalents": 249348000,
+    "addTotalDebt": 178489000,
+    "enterpriseValue": 2088795164
+  },
+  {
+    "symbol": "ENS",
+    "date": "2012-12-30",
+    "stockPrice": 37.63,
+    "numberOfShares": 48176206,
+    "marketCapitalization": 1812870631,
+    "minusCashAndCashEquivalents": 228646000,
+    "addTotalDebt": 238821000,
+    "enterpriseValue": 1823045631
+  },
+  {
+    "symbol": "ENS",
+    "date": "2012-09-30",
+    "stockPrice": 35.52,
+    "numberOfShares": 48188331,
+    "marketCapitalization": 1711649517,
+    "minusCashAndCashEquivalents": 212342000,
+    "addTotalDebt": 248992000,
+    "enterpriseValue": 1748299517
+  },
+  {
+    "symbol": "ENS",
+    "date": "2012-07-01",
+    "stockPrice": 35.13,
+    "numberOfShares": 47901203,
+    "marketCapitalization": 1682769261,
+    "minusCashAndCashEquivalents": 180711000,
+    "addTotalDebt": 272525000,
+    "enterpriseValue": 1774583261
+  },
+  {
+    "symbol": "ENS",
+    "date": "2012-03-31",
+    "stockPrice": 34.65,
+    "numberOfShares": 47765933,
+    "marketCapitalization": 1655089578,
+    "minusCashAndCashEquivalents": 160490000,
+    "addTotalDebt": 256101000,
+    "enterpriseValue": 1750700578
+  },
+  {
+    "symbol": "ENS",
+    "date": "2012-01-01",
+    "stockPrice": 25.97,
+    "numberOfShares": 47704567,
+    "marketCapitalization": 1238887604,
+    "minusCashAndCashEquivalents": 119767000,
+    "addTotalDebt": 272452000,
+    "enterpriseValue": 1391572604
+  },
+  {
+    "symbol": "ENS",
+    "date": "2011-10-02",
+    "stockPrice": 17.91,
+    "numberOfShares": 49469694,
+    "marketCapitalization": 886002219,
+    "minusCashAndCashEquivalents": 95594000,
+    "addTotalDebt": 290834000,
+    "enterpriseValue": 1081242219
+  },
+  {
+    "symbol": "ENS",
+    "date": "2011-07-03",
+    "stockPrice": 35.21,
+    "numberOfShares": 50052627,
+    "marketCapitalization": 1762352996,
+    "minusCashAndCashEquivalents": 116577000,
+    "addTotalDebt": 263423000,
+    "enterpriseValue": 1909198996
+  },
+  {
+    "symbol": "ENS",
+    "date": "2011-03-31",
+    "stockPrice": 39.75,
+    "numberOfShares": 49999568,
+    "marketCapitalization": 1987482828,
+    "minusCashAndCashEquivalents": 108869000,
+    "addTotalDebt": 253400000,
+    "enterpriseValue": 2132013828
+  },
+  {
+    "symbol": "ENS",
+    "date": "2011-01-02",
+    "stockPrice": 32.79,
+    "numberOfShares": 49564495,
+    "marketCapitalization": 1625219791,
+    "minusCashAndCashEquivalents": 205794000,
+    "addTotalDebt": 331682000,
+    "enterpriseValue": 1751107791
+  },
+  {
+    "symbol": "ENS",
+    "date": "2010-10-03",
+    "stockPrice": 24.54,
+    "numberOfShares": 49120985,
+    "marketCapitalization": 1205428971,
+    "minusCashAndCashEquivalents": 173028000,
+    "addTotalDebt": 334069000,
+    "enterpriseValue": 1366469971
+  },
+  {
+    "symbol": "ENS",
+    "date": "2010-07-04",
+    "stockPrice": 21.32,
+    "numberOfShares": 48819481,
+    "marketCapitalization": 1040831334,
+    "minusCashAndCashEquivalents": 173814000,
+    "addTotalDebt": 344922000,
+    "enterpriseValue": 1211939334
+  },
+  {
+    "symbol": "ENS",
+    "date": "2010-03-31",
+    "stockPrice": 24.66,
+    "numberOfShares": 48342392,
+    "marketCapitalization": 1192123386,
+    "minusCashAndCashEquivalents": 201042000,
+    "addTotalDebt": 350486000,
+    "enterpriseValue": 1341567386
+  },
+  {
+    "symbol": "ENS",
+    "date": "2009-12-27",
+    "stockPrice": 21.7,
+    "numberOfShares": 48179030,
+    "marketCapitalization": 1045484951,
+    "minusCashAndCashEquivalents": 210971000,
+    "addTotalDebt": 361741000,
+    "enterpriseValue": 1196254951
+  },
+  {
+    "symbol": "ENS",
+    "date": "2009-09-27",
+    "stockPrice": 21.71,
+    "numberOfShares": 48031005,
+    "marketCapitalization": 1042753118,
+    "minusCashAndCashEquivalents": 218988000,
+    "addTotalDebt": 367638000,
+    "enterpriseValue": 1191403118
+  },
+  {
+    "symbol": "ENS",
+    "date": "2009-06-28",
+    "stockPrice": 18.19,
+    "numberOfShares": 47936401,
+    "marketCapitalization": 871963134,
+    "minusCashAndCashEquivalents": 217662000,
+    "addTotalDebt": 373978000,
+    "enterpriseValue": 1028279134
+  },
+  {
+    "symbol": "ENS",
+    "date": "2009-03-31",
+    "stockPrice": 12.12,
+    "numberOfShares": 47906365,
+    "marketCapitalization": 580625143,
+    "minusCashAndCashEquivalents": 163161000,
+    "addTotalDebt": 417675000,
+    "enterpriseValue": 835139143
+  },
+  {
+    "symbol": "ENS",
+    "date": "2008-12-28",
+    "stockPrice": 10.22,
+    "numberOfShares": 48483224,
+    "marketCapitalization": 495498549,
+    "minusCashAndCashEquivalents": 105272000,
+    "addTotalDebt": 436392000,
+    "enterpriseValue": 826618549
+  },
+  {
+    "symbol": "ENS",
+    "date": "2008-09-28",
+    "stockPrice": 18.57,
+    "numberOfShares": 49578424,
+    "marketCapitalization": 920671333,
+    "minusCashAndCashEquivalents": 85606000,
+    "addTotalDebt": 446040000,
+    "enterpriseValue": 1281105333
+  },
+  {
+    "symbol": "ENS",
+    "date": "2008-06-29",
+    "stockPrice": 34.23,
+    "numberOfShares": 49329724,
+    "marketCapitalization": 1688556452,
+    "minusCashAndCashEquivalents": 55629000,
+    "addTotalDebt": 458227000,
+    "enterpriseValue": 2091154452
+  },
+  {
+    "symbol": "ENS",
+    "date": "2008-03-31",
+    "stockPrice": 23.92,
+    "numberOfShares": 48748220,
+    "marketCapitalization": 1166057422,
+    "minusCashAndCashEquivalents": 20620000,
+    "addTotalDebt": 426754000,
+    "enterpriseValue": 1572191422
+  },
+  {
+    "symbol": "ENS",
+    "date": "2007-12-30",
+    "stockPrice": 24.96,
+    "numberOfShares": 47848603,
+    "marketCapitalization": 1194301130,
+    "minusCashAndCashEquivalents": 24722000,
+    "addTotalDebt": 431872000,
+    "enterpriseValue": 1601451130
+  },
+  {
+    "symbol": "ENS",
+    "date": "2007-09-30",
+    "stockPrice": 18.2,
+    "numberOfShares": 47098758,
+    "marketCapitalization": 857197395,
+    "minusCashAndCashEquivalents": 20064000,
+    "addTotalDebt": 416917000,
+    "enterpriseValue": 1254050395
+  },
+  {
+    "symbol": "ENS",
+    "date": "2007-07-01",
+    "stockPrice": 18.5,
+    "numberOfShares": 46885318,
+    "marketCapitalization": 867378383,
+    "minusCashAndCashEquivalents": 16848000,
+    "addTotalDebt": 412347000,
+    "enterpriseValue": 1262877383
+  },
+  {
+    "symbol": "ENS",
+    "date": "2007-03-31",
+    "stockPrice": 17.18,
+    "numberOfShares": 46597387,
+    "marketCapitalization": 800543108,
+    "minusCashAndCashEquivalents": 37785000,
+    "addTotalDebt": 402311000,
+    "enterpriseValue": 1165069108
+  },
+  {
+    "symbol": "ENS",
+    "date": "2006-12-31",
+    "stockPrice": 16,
+    "numberOfShares": 46597387,
+    "marketCapitalization": 745558192,
+    "minusCashAndCashEquivalents": 37135000,
+    "addTotalDebt": 406024000,
+    "enterpriseValue": 1114447192
+  },
+  {
+    "symbol": "ENS",
+    "date": "2006-10-01",
+    "stockPrice": 15.65,
+    "numberOfShares": 46471958,
+    "marketCapitalization": 727286142,
+    "minusCashAndCashEquivalents": 16709000,
+    "addTotalDebt": 404372000,
+    "enterpriseValue": 1114949142
+  },
+  {
+    "symbol": "ENS",
+    "date": "2006-07-02",
+    "stockPrice": 20.77,
+    "numberOfShares": 46338013,
+    "marketCapitalization": 962440530,
+    "minusCashAndCashEquivalents": 16644000,
+    "addTotalDebt": 406832000,
+    "enterpriseValue": 1352628530
+  },
+  {
+    "symbol": "ENS",
+    "date": "2006-03-31",
+    "stockPrice": 13.8,
+    "numberOfShares": 46275767,
+    "marketCapitalization": 638605584,
+    "minusCashAndCashEquivalents": 15217000,
+    "addTotalDebt": 402490000,
+    "enterpriseValue": 1025878584
+  },
+  {
+    "symbol": "ENS",
+    "date": "2006-01-01",
+    "stockPrice": 13.04,
+    "numberOfShares": 46249384,
+    "marketCapitalization": 603091967,
+    "minusCashAndCashEquivalents": 11317000,
+    "addTotalDebt": 406107000,
+    "enterpriseValue": 997881967
+  },
+  {
+    "symbol": "ENS",
+    "date": "2005-10-02",
+    "stockPrice": 14.67,
+    "numberOfShares": 46214469,
+    "marketCapitalization": 677966260,
+    "minusCashAndCashEquivalents": 12026000,
+    "addTotalDebt": 402854000,
+    "enterpriseValue": 1068794260
+  },
+  {
+    "symbol": "ENS",
+    "date": "2005-07-03",
+    "stockPrice": 13.66,
+    "numberOfShares": 46166709,
+    "marketCapitalization": 630637244,
+    "minusCashAndCashEquivalents": 9972000,
+    "addTotalDebt": 401882000,
+    "enterpriseValue": 1022547244
+  },
+  {
+    "symbol": "ENS",
+    "date": "2005-03-31",
+    "stockPrice": 13.1,
+    "numberOfShares": 46047819,
+    "marketCapitalization": 603226428,
+    "minusCashAndCashEquivalents": 21341000,
+    "addTotalDebt": 375457000,
+    "enterpriseValue": 957342428
+  },
+  {
+    "symbol": "ENS",
+    "date": "2005-01-02",
+    "stockPrice": 15.32,
+    "numberOfShares": 45954336,
+    "marketCapitalization": 704020427,
+    "minusCashAndCashEquivalents": 15557000,
+    "addTotalDebt": 377789000,
+    "enterpriseValue": 1066252427
+  },
+  {
+    "symbol": "ENS",
+    "date": "2004-10-03",
+    "stockPrice": 13.27,
+    "numberOfShares": 42648856,
+    "marketCapitalization": 565950319,
+    "minusCashAndCashEquivalents": 15667000,
+    "addTotalDebt": 382218000,
+    "enterpriseValue": 932501319
+  },
+  {
+    "symbol": "ENS",
+    "date": "2004-07-04",
+    "stockPrice": 12.5,
+    "numberOfShares": 11014421,
+    "marketCapitalization": 137680262,
+    "minusCashAndCashEquivalents": 13785000,
+    "addTotalDebt": 517814000,
+    "enterpriseValue": 641709262
+  },
+  {
+    "symbol": "ENS",
+    "date": "2004-03-31",
+    "stockPrice": 12.5,
+    "numberOfShares": 11014421,
+    "marketCapitalization": 137680262,
+    "minusCashAndCashEquivalents": 17207000,
+    "addTotalDebt": 511303000,
+    "enterpriseValue": 631776262
+  },
+  {
+    "symbol": "ENS",
+    "date": "2003-12-31",
+    "stockPrice": 12.5,
+    "numberOfShares": 11014421,
+    "marketCapitalization": 137680262,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 137680262
+  },
+  {
+    "symbol": "ENS",
+    "date": "2003-09-30",
+    "stockPrice": 12.5,
+    "numberOfShares": 11014421,
+    "marketCapitalization": 137680262,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 137680262
+  },
+  {
+    "symbol": "ENS",
+    "date": "2003-06-30",
+    "stockPrice": 12.5,
+    "numberOfShares": 11014421,
+    "marketCapitalization": 137680262,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 137680262
+  },
+  {
+    "symbol": "ENS",
+    "date": "2003-03-31",
+    "stockPrice": 12.5,
+    "numberOfShares": 11014421,
+    "marketCapitalization": 137680262,
+    "minusCashAndCashEquivalents": 44296000,
+    "addTotalDebt": 252162000,
+    "enterpriseValue": 345546262
+  },
+  {
+    "symbol": "ENS",
+    "date": "2002-12-31",
+    "stockPrice": 12.5,
+    "numberOfShares": 11014421,
+    "marketCapitalization": 137680262,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 137680262
+  },
+  {
+    "symbol": "ENS",
+    "date": "2002-09-30",
+    "stockPrice": 12.5,
+    "numberOfShares": 11014421,
+    "marketCapitalization": 137680262,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 137680262
+  },
+  {
+    "symbol": "ENS",
+    "date": "2002-06-30",
+    "stockPrice": 12.5,
+    "numberOfShares": 11014421,
+    "marketCapitalization": 137680262,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 137680262
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "symbol": "ATMU",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Air": 301500000,
+      "Fuel Products": 797600000,
+      "Lube": 348800000,
+      "Other": 316400000
+    }
+  },
+  {
+    "symbol": "ATMU",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Air": 288600000,
+      "Fuel Products": 720200000,
+      "Lube": 326800000,
+      "Other": 334000000
+    }
+  },
+  {
+    "symbol": "ATMU",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Air": 282400000,
+      "Fuel Products": 705200000,
+      "Lube": 305400000,
+      "Other": 335100000
+    }
+  }
+]

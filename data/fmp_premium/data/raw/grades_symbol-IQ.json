@@ -1,0 +1,546 @@
+[
+  {
+    "symbol": "IQ",
+    "date": "2025-08-21",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2025-08-20",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2025-04-17",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2025-02-19",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2025-01-24",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2025-01-16",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2025-01-08",
+    "gradingCompany": "OTR Global",
+    "previousGrade": "Mixed",
+    "newGrade": "Negative",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2024-11-22",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2024-08-27",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2024-08-23",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2024-07-31",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2024-07-23",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Reduce",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2024-07-23",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2024-05-17",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2024-04-04",
+    "gradingCompany": "OTR Global",
+    "previousGrade": "Positive",
+    "newGrade": "Mixed",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2024-02-23",
+    "gradingCompany": "Mizuho",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-11-22",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-11-22",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-10-06",
+    "gradingCompany": "OTR Global",
+    "previousGrade": "Mixed",
+    "newGrade": "Positive",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-08-23",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-08-23",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-07-27",
+    "gradingCompany": "Macquarie",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-05-17",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-05-17",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-05-17",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-04-06",
+    "gradingCompany": "OTR Global",
+    "previousGrade": "Negative",
+    "newGrade": "Mixed",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-03-06",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-03-02",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-02-23",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-01-19",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Equal Weight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2023-01-09",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2022-11-23",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2022-10-14",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2022-09-01",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2022-08-31",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2022-05-27",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2022-05-16",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Underweight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2022-03-14",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2022-03-02",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2022-01-10",
+    "gradingCompany": "OTR Global",
+    "previousGrade": "Mixed",
+    "newGrade": "Negative",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-11-02",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-10-05",
+    "gradingCompany": "OTR Global",
+    "previousGrade": "Positive",
+    "newGrade": "Mixed",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-08-13",
+    "gradingCompany": "Keybanc",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-07-07",
+    "gradingCompany": "OTR Global",
+    "previousGrade": "Mixed",
+    "newGrade": "Positive",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-05-19",
+    "gradingCompany": "CLSA",
+    "previousGrade": "Underperform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-05-19",
+    "gradingCompany": "Keybanc",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-05-06",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Underweight",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-04-29",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-02-23",
+    "gradingCompany": "Keybanc",
+    "previousGrade": "Sector Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-02-23",
+    "gradingCompany": "KeyBanc",
+    "previousGrade": "Sector Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-01-19",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-01-13",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2021-01-05",
+    "gradingCompany": "New Street Research",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2020-06-25",
+    "gradingCompany": "Oppenheimer",
+    "previousGrade": "Outperform",
+    "newGrade": "Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2020-03-02",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2019-11-11",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2019-11-07",
+    "gradingCompany": "CLSA",
+    "previousGrade": "Outperform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2019-09-12",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Underperform",
+    "newGrade": "Market Perform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2019-08-20",
+    "gradingCompany": "China Renaissance",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2019-08-20",
+    "gradingCompany": "CLSA",
+    "previousGrade": "Buy",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2019-08-20",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2019-08-20",
+    "gradingCompany": "CSLA",
+    "previousGrade": "Buy",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2019-04-02",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2018-10-31",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2018-08-02",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2018-08-01",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2018-08-01",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IQ",
+    "date": "2018-08-01",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  }
+]

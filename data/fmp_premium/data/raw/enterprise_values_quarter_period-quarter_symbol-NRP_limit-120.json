@@ -1,0 +1,952 @@
+[
+  {
+    "symbol": "NRP",
+    "date": "2026-03-31",
+    "stockPrice": 121,
+    "numberOfShares": 13283771,
+    "marketCapitalization": 1607336291,
+    "minusCashAndCashEquivalents": 31504000,
+    "addTotalDebt": 60318000,
+    "enterpriseValue": 1636150291
+  },
+  {
+    "symbol": "NRP",
+    "date": "2025-12-31",
+    "stockPrice": 104.4,
+    "numberOfShares": 13283771,
+    "marketCapitalization": 1386825692,
+    "minusCashAndCashEquivalents": 30141000,
+    "addTotalDebt": 33082000,
+    "enterpriseValue": 1389766692
+  },
+  {
+    "symbol": "NRP",
+    "date": "2025-09-30",
+    "stockPrice": 105,
+    "numberOfShares": 13283771,
+    "marketCapitalization": 1394795955,
+    "minusCashAndCashEquivalents": 31019000,
+    "addTotalDebt": 69377000,
+    "enterpriseValue": 1433153955
+  },
+  {
+    "symbol": "NRP",
+    "date": "2025-06-30",
+    "stockPrice": 95.51,
+    "numberOfShares": 13147843,
+    "marketCapitalization": 1255750484,
+    "minusCashAndCashEquivalents": 30344000,
+    "addTotalDebt": 101340000,
+    "enterpriseValue": 1326746484
+  },
+  {
+    "symbol": "NRP",
+    "date": "2025-03-31",
+    "stockPrice": 103.9,
+    "numberOfShares": 13098000,
+    "marketCapitalization": 1360882200,
+    "minusCashAndCashEquivalents": 30876000,
+    "addTotalDebt": 142204000,
+    "enterpriseValue": 1472210200
+  },
+  {
+    "symbol": "NRP",
+    "date": "2024-12-31",
+    "stockPrice": 111,
+    "numberOfShares": 13058255,
+    "marketCapitalization": 1449466305,
+    "minusCashAndCashEquivalents": 30444000,
+    "addTotalDebt": 142068000,
+    "enterpriseValue": 1561090305
+  },
+  {
+    "symbol": "NRP",
+    "date": "2024-09-30",
+    "stockPrice": 97.8,
+    "numberOfShares": 13028431,
+    "marketCapitalization": 1274180551,
+    "minusCashAndCashEquivalents": 30900000,
+    "addTotalDebt": 200863000,
+    "enterpriseValue": 1444143551
+  },
+  {
+    "symbol": "NRP",
+    "date": "2024-06-30",
+    "stockPrice": 98.5,
+    "numberOfShares": 13019742,
+    "marketCapitalization": 1282444587,
+    "minusCashAndCashEquivalents": 32340000,
+    "addTotalDebt": 213726000,
+    "enterpriseValue": 1463830587
+  },
+  {
+    "symbol": "NRP",
+    "date": "2024-03-31",
+    "stockPrice": 92.6,
+    "numberOfShares": 12828571,
+    "marketCapitalization": 1187925674,
+    "minusCashAndCashEquivalents": 10990000,
+    "addTotalDebt": 192297000,
+    "enterpriseValue": 1369232674
+  },
+  {
+    "symbol": "NRP",
+    "date": "2023-12-31",
+    "stockPrice": 92.56,
+    "numberOfShares": 12723786,
+    "marketCapitalization": 1177713632,
+    "minusCashAndCashEquivalents": 11989000,
+    "addTotalDebt": 159358000,
+    "enterpriseValue": 1325082632
+  },
+  {
+    "symbol": "NRP",
+    "date": "2023-09-30",
+    "stockPrice": 78.87,
+    "numberOfShares": 12632647,
+    "marketCapitalization": 996336868,
+    "minusCashAndCashEquivalents": 18411000,
+    "addTotalDebt": 207515000,
+    "enterpriseValue": 1185440868
+  },
+  {
+    "symbol": "NRP",
+    "date": "2023-06-30",
+    "stockPrice": 52.74,
+    "numberOfShares": 12624573,
+    "marketCapitalization": 665819980,
+    "minusCashAndCashEquivalents": 10730000,
+    "addTotalDebt": 182436000,
+    "enterpriseValue": 837525980
+  },
+  {
+    "symbol": "NRP",
+    "date": "2023-03-31",
+    "stockPrice": 52.2,
+    "numberOfShares": 12558636,
+    "marketCapitalization": 655560799,
+    "minusCashAndCashEquivalents": 17655000,
+    "addTotalDebt": 172876000,
+    "enterpriseValue": 810781799
+  },
+  {
+    "symbol": "NRP",
+    "date": "2022-12-31",
+    "stockPrice": 54.33,
+    "numberOfShares": 12505996,
+    "marketCapitalization": 679450762,
+    "minusCashAndCashEquivalents": 39091000,
+    "addTotalDebt": 171781000,
+    "enterpriseValue": 812140762
+  },
+  {
+    "symbol": "NRP",
+    "date": "2022-09-30",
+    "stockPrice": 44.25,
+    "numberOfShares": 12410500,
+    "marketCapitalization": 549164625,
+    "minusCashAndCashEquivalents": 60937000,
+    "addTotalDebt": 238723000,
+    "enterpriseValue": 726950625
+  },
+  {
+    "symbol": "NRP",
+    "date": "2022-06-30",
+    "stockPrice": 37.23,
+    "numberOfShares": 12410500,
+    "marketCapitalization": 462042914,
+    "minusCashAndCashEquivalents": 59356000,
+    "addTotalDebt": 298366000,
+    "enterpriseValue": 701052914
+  },
+  {
+    "symbol": "NRP",
+    "date": "2022-03-31",
+    "stockPrice": 42.74,
+    "numberOfShares": 12410500,
+    "marketCapitalization": 530424770,
+    "minusCashAndCashEquivalents": 135590000,
+    "addTotalDebt": 417209000,
+    "enterpriseValue": 812043770
+  },
+  {
+    "symbol": "NRP",
+    "date": "2021-12-31",
+    "stockPrice": 33.42,
+    "numberOfShares": 12363660,
+    "marketCapitalization": 413193517,
+    "minusCashAndCashEquivalents": 135520000,
+    "addTotalDebt": 433545000,
+    "enterpriseValue": 711218517
+  },
+  {
+    "symbol": "NRP",
+    "date": "2021-09-30",
+    "stockPrice": 23.66,
+    "numberOfShares": 12351000,
+    "marketCapitalization": 292224660,
+    "minusCashAndCashEquivalents": 118989000,
+    "addTotalDebt": 453519000,
+    "enterpriseValue": 626754660
+  },
+  {
+    "symbol": "NRP",
+    "date": "2021-06-30",
+    "stockPrice": 21.2,
+    "numberOfShares": 12351000,
+    "marketCapitalization": 261841200,
+    "minusCashAndCashEquivalents": 97908000,
+    "addTotalDebt": 453159000,
+    "enterpriseValue": 617092200
+  },
+  {
+    "symbol": "NRP",
+    "date": "2021-03-31",
+    "stockPrice": 16.13,
+    "numberOfShares": 12292000,
+    "marketCapitalization": 198269960,
+    "minusCashAndCashEquivalents": 96767000,
+    "addTotalDebt": 455163000,
+    "enterpriseValue": 556665960
+  },
+  {
+    "symbol": "NRP",
+    "date": "2020-12-31",
+    "stockPrice": 13.75,
+    "numberOfShares": 12164912,
+    "marketCapitalization": 167267540,
+    "minusCashAndCashEquivalents": 99790000,
+    "addTotalDebt": 471499000,
+    "enterpriseValue": 538976540
+  },
+  {
+    "symbol": "NRP",
+    "date": "2020-09-30",
+    "stockPrice": 11.92,
+    "numberOfShares": 12261000,
+    "marketCapitalization": 146151120,
+    "minusCashAndCashEquivalents": 115573000,
+    "addTotalDebt": 494973000,
+    "enterpriseValue": 525551120
+  },
+  {
+    "symbol": "NRP",
+    "date": "2020-06-30",
+    "stockPrice": 12.19,
+    "numberOfShares": 12261000,
+    "marketCapitalization": 149461590,
+    "minusCashAndCashEquivalents": 110828000,
+    "addTotalDebt": 501388000,
+    "enterpriseValue": 540021590
+  },
+  {
+    "symbol": "NRP",
+    "date": "2020-03-31",
+    "stockPrice": 12.2,
+    "numberOfShares": 12261000,
+    "marketCapitalization": 149584200,
+    "minusCashAndCashEquivalents": 100506000,
+    "addTotalDebt": 667968000,
+    "enterpriseValue": 717046200
+  },
+  {
+    "symbol": "NRP",
+    "date": "2019-12-31",
+    "stockPrice": 20.11,
+    "numberOfShares": 12257086,
+    "marketCapitalization": 246489999,
+    "minusCashAndCashEquivalents": 98265000,
+    "addTotalDebt": 519698000,
+    "enterpriseValue": 667922999
+  },
+  {
+    "symbol": "NRP",
+    "date": "2019-09-30",
+    "stockPrice": 25.35,
+    "numberOfShares": 12261000,
+    "marketCapitalization": 310816350,
+    "minusCashAndCashEquivalents": 99636000,
+    "addTotalDebt": 536167000,
+    "enterpriseValue": 747347350
+  },
+  {
+    "symbol": "NRP",
+    "date": "2019-06-30",
+    "stockPrice": 36.36,
+    "numberOfShares": 12261000,
+    "marketCapitalization": 445809960,
+    "minusCashAndCashEquivalents": 70850000,
+    "addTotalDebt": 544069000,
+    "enterpriseValue": 919028960
+  },
+  {
+    "symbol": "NRP",
+    "date": "2019-03-31",
+    "stockPrice": 42.04,
+    "numberOfShares": 12255000,
+    "marketCapitalization": 515200200,
+    "minusCashAndCashEquivalents": 112374000,
+    "addTotalDebt": 587701000,
+    "enterpriseValue": 990527200
+  },
+  {
+    "symbol": "NRP",
+    "date": "2018-12-31",
+    "stockPrice": 38.24,
+    "numberOfShares": 12230330,
+    "marketCapitalization": 467687819,
+    "minusCashAndCashEquivalents": 101839000,
+    "addTotalDebt": 672758000,
+    "enterpriseValue": 1038606819
+  },
+  {
+    "symbol": "NRP",
+    "date": "2018-09-30",
+    "stockPrice": 31.61,
+    "numberOfShares": 12246000,
+    "marketCapitalization": 387096060,
+    "minusCashAndCashEquivalents": 63387000,
+    "addTotalDebt": 791715000,
+    "enterpriseValue": 1115424060
+  },
+  {
+    "symbol": "NRP",
+    "date": "2018-06-30",
+    "stockPrice": 31.4,
+    "numberOfShares": 12246000,
+    "marketCapitalization": 384524400,
+    "minusCashAndCashEquivalents": 52975000,
+    "addTotalDebt": 798335000,
+    "enterpriseValue": 1129884400
+  },
+  {
+    "symbol": "NRP",
+    "date": "2018-03-31",
+    "stockPrice": 28.7,
+    "numberOfShares": 12238000,
+    "marketCapitalization": 351230600,
+    "minusCashAndCashEquivalents": 21152000,
+    "addTotalDebt": 804577000,
+    "enterpriseValue": 1134655600
+  },
+  {
+    "symbol": "NRP",
+    "date": "2017-12-31",
+    "stockPrice": 26,
+    "numberOfShares": 12219022,
+    "marketCapitalization": 317694572,
+    "minusCashAndCashEquivalents": 26980000,
+    "addTotalDebt": 809348000,
+    "enterpriseValue": 1100062572
+  },
+  {
+    "symbol": "NRP",
+    "date": "2017-09-30",
+    "stockPrice": 24.75,
+    "numberOfShares": 12232000,
+    "marketCapitalization": 302742000,
+    "minusCashAndCashEquivalents": 121244000,
+    "addTotalDebt": 936579000,
+    "enterpriseValue": 1118077000
+  },
+  {
+    "symbol": "NRP",
+    "date": "2017-06-30",
+    "stockPrice": 27.55,
+    "numberOfShares": 12232000,
+    "marketCapitalization": 336991600,
+    "minusCashAndCashEquivalents": 40783000,
+    "addTotalDebt": 874153000,
+    "enterpriseValue": 1170361600
+  },
+  {
+    "symbol": "NRP",
+    "date": "2017-03-31",
+    "stockPrice": 36.15,
+    "numberOfShares": 12232000,
+    "marketCapitalization": 442186800,
+    "minusCashAndCashEquivalents": 112945000,
+    "addTotalDebt": 970926000,
+    "enterpriseValue": 1300167800
+  },
+  {
+    "symbol": "NRP",
+    "date": "2016-12-31",
+    "stockPrice": 32.3,
+    "numberOfShares": 12232000,
+    "marketCapitalization": 395093599,
+    "minusCashAndCashEquivalents": 40371000,
+    "addTotalDebt": 1126303000,
+    "enterpriseValue": 1481025599
+  },
+  {
+    "symbol": "NRP",
+    "date": "2016-09-30",
+    "stockPrice": 27.9,
+    "numberOfShares": 12232000,
+    "marketCapitalization": 341272800,
+    "minusCashAndCashEquivalents": 92391000,
+    "addTotalDebt": 1200581000,
+    "enterpriseValue": 1449462800
+  },
+  {
+    "symbol": "NRP",
+    "date": "2016-06-30",
+    "stockPrice": 14.35,
+    "numberOfShares": 12232000,
+    "marketCapitalization": 175529200,
+    "minusCashAndCashEquivalents": 21391000,
+    "addTotalDebt": 1208558000,
+    "enterpriseValue": 1362696200
+  },
+  {
+    "symbol": "NRP",
+    "date": "2016-03-31",
+    "stockPrice": 7.5,
+    "numberOfShares": 12232000,
+    "marketCapitalization": 91740000,
+    "minusCashAndCashEquivalents": 52097000,
+    "addTotalDebt": 1321335000,
+    "enterpriseValue": 1360978000
+  },
+  {
+    "symbol": "NRP",
+    "date": "2015-12-31",
+    "stockPrice": 12.7,
+    "numberOfShares": 12230000,
+    "marketCapitalization": 155321000,
+    "minusCashAndCashEquivalents": 41204000,
+    "addTotalDebt": 1384996000,
+    "enterpriseValue": 1499113000
+  },
+  {
+    "symbol": "NRP",
+    "date": "2015-09-30",
+    "stockPrice": 25.4,
+    "numberOfShares": 12232000,
+    "marketCapitalization": 310692800,
+    "minusCashAndCashEquivalents": 61156000,
+    "addTotalDebt": 1424614000,
+    "enterpriseValue": 1674150800
+  },
+  {
+    "symbol": "NRP",
+    "date": "2015-06-30",
+    "stockPrice": 37.9,
+    "numberOfShares": 12230000,
+    "marketCapitalization": 463517000,
+    "minusCashAndCashEquivalents": 27525000,
+    "addTotalDebt": 1432118000,
+    "enterpriseValue": 1868110000
+  },
+  {
+    "symbol": "NRP",
+    "date": "2015-03-31",
+    "stockPrice": 67.8,
+    "numberOfShares": 12230000,
+    "marketCapitalization": 829194000,
+    "minusCashAndCashEquivalents": 33275000,
+    "addTotalDebt": 1459246000,
+    "enterpriseValue": 2255165000
+  },
+  {
+    "symbol": "NRP",
+    "date": "2014-12-31",
+    "stockPrice": 92.5,
+    "numberOfShares": 12144900,
+    "marketCapitalization": 1123403250,
+    "minusCashAndCashEquivalents": 50076000,
+    "addTotalDebt": 1475223000,
+    "enterpriseValue": 2548550250
+  },
+  {
+    "symbol": "NRP",
+    "date": "2014-09-30",
+    "stockPrice": 130.4,
+    "numberOfShares": 11124400,
+    "marketCapitalization": 1450621760,
+    "minusCashAndCashEquivalents": 78126000,
+    "addTotalDebt": 1098481000,
+    "enterpriseValue": 2470976760
+  },
+  {
+    "symbol": "NRP",
+    "date": "2014-06-30",
+    "stockPrice": 165.7,
+    "numberOfShares": 11040300,
+    "marketCapitalization": 1829377709,
+    "minusCashAndCashEquivalents": 70013000,
+    "addTotalDebt": 1114024000,
+    "enterpriseValue": 2873388709
+  },
+  {
+    "symbol": "NRP",
+    "date": "2014-03-31",
+    "stockPrice": 159.2,
+    "numberOfShares": 10984800,
+    "marketCapitalization": 1748780159,
+    "minusCashAndCashEquivalents": 54826000,
+    "addTotalDebt": 1126192000,
+    "enterpriseValue": 2820146159
+  },
+  {
+    "symbol": "NRP",
+    "date": "2013-12-31",
+    "stockPrice": 199.4,
+    "numberOfShares": 10981200,
+    "marketCapitalization": 2189651280,
+    "minusCashAndCashEquivalents": 92513000,
+    "addTotalDebt": 1165209000,
+    "enterpriseValue": 3262347280
+  },
+  {
+    "symbol": "NRP",
+    "date": "2013-09-30",
+    "stockPrice": 190.5,
+    "numberOfShares": 10981200,
+    "marketCapitalization": 2091918600,
+    "minusCashAndCashEquivalents": 99675000,
+    "addTotalDebt": 1145059000,
+    "enterpriseValue": 3137302600
+  },
+  {
+    "symbol": "NRP",
+    "date": "2013-06-30",
+    "stockPrice": 206.7,
+    "numberOfShares": 10981200,
+    "marketCapitalization": 2269814040,
+    "minusCashAndCashEquivalents": 105204000,
+    "addTotalDebt": 1147731000,
+    "enterpriseValue": 3312341040
+  },
+  {
+    "symbol": "NRP",
+    "date": "2013-03-31",
+    "stockPrice": 233.1,
+    "numberOfShares": 10888700,
+    "marketCapitalization": 2538155970,
+    "minusCashAndCashEquivalents": 76153000,
+    "addTotalDebt": 1147647000,
+    "enterpriseValue": 3609649970
+  },
+  {
+    "symbol": "NRP",
+    "date": "2012-12-31",
+    "stockPrice": 185.4,
+    "numberOfShares": 10602800,
+    "marketCapitalization": 1965759120,
+    "minusCashAndCashEquivalents": 149424000,
+    "addTotalDebt": 984269000,
+    "enterpriseValue": 2800604120
+  },
+  {
+    "symbol": "NRP",
+    "date": "2012-09-30",
+    "stockPrice": 210.5,
+    "numberOfShares": 10602800,
+    "marketCapitalization": 2231889400,
+    "minusCashAndCashEquivalents": 122419000,
+    "addTotalDebt": 939269000,
+    "enterpriseValue": 3048739400
+  },
+  {
+    "symbol": "NRP",
+    "date": "2012-06-30",
+    "stockPrice": 221.7,
+    "numberOfShares": 10602800,
+    "marketCapitalization": 2350640760,
+    "minusCashAndCashEquivalents": 121974000,
+    "addTotalDebt": 916961000,
+    "enterpriseValue": 3145627760
+  },
+  {
+    "symbol": "NRP",
+    "date": "2012-03-31",
+    "stockPrice": 239.9,
+    "numberOfShares": 10602800,
+    "marketCapitalization": 2543611720,
+    "minusCashAndCashEquivalents": 107404000,
+    "addTotalDebt": 898878000,
+    "enterpriseValue": 3335085720
+  },
+  {
+    "symbol": "NRP",
+    "date": "2011-12-31",
+    "stockPrice": 271.1,
+    "numberOfShares": 10602800,
+    "marketCapitalization": 2874419080,
+    "minusCashAndCashEquivalents": 214922000,
+    "addTotalDebt": 867069000,
+    "enterpriseValue": 3526566080
+  },
+  {
+    "symbol": "NRP",
+    "date": "2011-09-30",
+    "stockPrice": 253.6,
+    "numberOfShares": 10602800,
+    "marketCapitalization": 2688870080,
+    "minusCashAndCashEquivalents": 150112000,
+    "addTotalDebt": 817069000,
+    "enterpriseValue": 3355827080
+  },
+  {
+    "symbol": "NRP",
+    "date": "2011-06-30",
+    "stockPrice": 331.7,
+    "numberOfShares": 10602800,
+    "marketCapitalization": 3516948760,
+    "minusCashAndCashEquivalents": 145705000,
+    "addTotalDebt": 824762000,
+    "enterpriseValue": 4196005760
+  },
+  {
+    "symbol": "NRP",
+    "date": "2011-03-31",
+    "stockPrice": 350.7,
+    "numberOfShares": 10602800,
+    "marketCapitalization": 3718401960,
+    "minusCashAndCashEquivalents": 69008000,
+    "addTotalDebt": 762395000,
+    "enterpriseValue": 4411788960
+  },
+  {
+    "symbol": "NRP",
+    "date": "2010-12-31",
+    "stockPrice": 332,
+    "numberOfShares": 10602800,
+    "marketCapitalization": 3520129600,
+    "minusCashAndCashEquivalents": 95506000,
+    "addTotalDebt": 692588000,
+    "enterpriseValue": 4117211600
+  },
+  {
+    "symbol": "NRP",
+    "date": "2010-09-30",
+    "stockPrice": 267.8,
+    "numberOfShares": 7789600,
+    "marketCapitalization": 2086054880,
+    "minusCashAndCashEquivalents": 72240000,
+    "addTotalDebt": 637588000,
+    "enterpriseValue": 2651402880
+  },
+  {
+    "symbol": "NRP",
+    "date": "2010-06-30",
+    "stockPrice": 236.4,
+    "numberOfShares": 7402800,
+    "marketCapitalization": 1750021920,
+    "minusCashAndCashEquivalents": 78410000,
+    "addTotalDebt": 647480000,
+    "enterpriseValue": 2319091920
+  },
+  {
+    "symbol": "NRP",
+    "date": "2010-03-31",
+    "stockPrice": 262.2,
+    "numberOfShares": 6945100,
+    "marketCapitalization": 1821005220,
+    "minusCashAndCashEquivalents": 62856000,
+    "addTotalDebt": 689630000,
+    "enterpriseValue": 2447779220
+  },
+  {
+    "symbol": "NRP",
+    "date": "2009-12-31",
+    "stockPrice": 242.4,
+    "numberOfShares": 6945100,
+    "marketCapitalization": 1683492240,
+    "minusCashAndCashEquivalents": 82634000,
+    "addTotalDebt": 658822000,
+    "enterpriseValue": 2259680240
+  },
+  {
+    "symbol": "NRP",
+    "date": "2009-09-30",
+    "stockPrice": 208.7,
+    "numberOfShares": 6945100,
+    "marketCapitalization": 1449442370,
+    "minusCashAndCashEquivalents": 60880000,
+    "addTotalDebt": 652822000,
+    "enterpriseValue": 2041384370
+  },
+  {
+    "symbol": "NRP",
+    "date": "2009-06-30",
+    "stockPrice": 210.1,
+    "numberOfShares": 6694600,
+    "marketCapitalization": 1406535460,
+    "minusCashAndCashEquivalents": 81495000,
+    "addTotalDebt": 638515000,
+    "enterpriseValue": 1963555460
+  },
+  {
+    "symbol": "NRP",
+    "date": "2009-03-31",
+    "stockPrice": 223.3,
+    "numberOfShares": 6489100,
+    "marketCapitalization": 1449016030,
+    "minusCashAndCashEquivalents": 101109000,
+    "addTotalDebt": 647865000,
+    "enterpriseValue": 1995772030
+  },
+  {
+    "symbol": "NRP",
+    "date": "2008-12-31",
+    "stockPrice": 174.5,
+    "numberOfShares": 6489100,
+    "marketCapitalization": 1132347950,
+    "minusCashAndCashEquivalents": 89928000,
+    "addTotalDebt": 496057000,
+    "enterpriseValue": 1538476950
+  },
+  {
+    "symbol": "NRP",
+    "date": "2008-09-30",
+    "stockPrice": 253.3,
+    "numberOfShares": 6489100,
+    "marketCapitalization": 1643689030,
+    "minusCashAndCashEquivalents": 64412000,
+    "addTotalDebt": 496056000,
+    "enterpriseValue": 2075333030
+  },
+  {
+    "symbol": "NRP",
+    "date": "2008-06-30",
+    "stockPrice": 412,
+    "numberOfShares": 6489100,
+    "marketCapitalization": 2673509200,
+    "minusCashAndCashEquivalents": 60454000,
+    "addTotalDebt": 503748000,
+    "enterpriseValue": 3116803200
+  },
+  {
+    "symbol": "NRP",
+    "date": "2008-03-31",
+    "stockPrice": 283.5,
+    "numberOfShares": 6489100,
+    "marketCapitalization": 1839659850,
+    "minusCashAndCashEquivalents": 54320000,
+    "addTotalDebt": 513098000,
+    "enterpriseValue": 2298437850
+  },
+  {
+    "symbol": "NRP",
+    "date": "2007-12-31",
+    "stockPrice": 324.6,
+    "numberOfShares": 6489100,
+    "marketCapitalization": 2106361860,
+    "minusCashAndCashEquivalents": 58341000,
+    "addTotalDebt": 513291000,
+    "enterpriseValue": 2561311860
+  },
+  {
+    "symbol": "NRP",
+    "date": "2007-09-30",
+    "stockPrice": 305.3,
+    "numberOfShares": 5353700,
+    "marketCapitalization": 1634484610,
+    "minusCashAndCashEquivalents": 54377000,
+    "addTotalDebt": 490291000,
+    "enterpriseValue": 2070398610
+  },
+  {
+    "symbol": "NRP",
+    "date": "2007-06-30",
+    "stockPrice": 380.4,
+    "numberOfShares": 5292500,
+    "marketCapitalization": 2013266999,
+    "minusCashAndCashEquivalents": 54454000,
+    "addTotalDebt": 483691000,
+    "enterpriseValue": 2442503999
+  },
+  {
+    "symbol": "NRP",
+    "date": "2007-03-31",
+    "stockPrice": 336,
+    "numberOfShares": 5089300,
+    "marketCapitalization": 1710004800,
+    "minusCashAndCashEquivalents": 55617000,
+    "addTotalDebt": 474641000,
+    "enterpriseValue": 2129028800
+  },
+  {
+    "symbol": "NRP",
+    "date": "2006-12-31",
+    "stockPrice": 289.75,
+    "numberOfShares": 5068106,
+    "marketCapitalization": 1468483713,
+    "minusCashAndCashEquivalents": 66044000,
+    "addTotalDebt": 463833000,
+    "enterpriseValue": 1866272713
+  },
+  {
+    "symbol": "NRP",
+    "date": "2006-09-30",
+    "stockPrice": 255.05,
+    "numberOfShares": 3365100,
+    "marketCapitalization": 858268755,
+    "minusCashAndCashEquivalents": 60784000,
+    "addTotalDebt": 309950000,
+    "enterpriseValue": 1107434755
+  },
+  {
+    "symbol": "NRP",
+    "date": "2006-06-30",
+    "stockPrice": 271,
+    "numberOfShares": 3365100,
+    "marketCapitalization": 911942100,
+    "minusCashAndCashEquivalents": 52620000,
+    "addTotalDebt": 256950000,
+    "enterpriseValue": 1116272100
+  },
+  {
+    "symbol": "NRP",
+    "date": "2006-03-31",
+    "stockPrice": 263.9,
+    "numberOfShares": 3365100,
+    "marketCapitalization": 888049889,
+    "minusCashAndCashEquivalents": 67368000,
+    "addTotalDebt": 266300000,
+    "enterpriseValue": 1086981889
+  },
+  {
+    "symbol": "NRP",
+    "date": "2005-12-31",
+    "stockPrice": 251.25,
+    "numberOfShares": 3365000,
+    "marketCapitalization": 845456250,
+    "minusCashAndCashEquivalents": 47691000,
+    "addTotalDebt": 231300000,
+    "enterpriseValue": 1029065250
+  },
+  {
+    "symbol": "NRP",
+    "date": "2005-09-30",
+    "stockPrice": 311.9,
+    "numberOfShares": 2797400,
+    "marketCapitalization": 872509059,
+    "minusCashAndCashEquivalents": 49457000,
+    "addTotalDebt": 212300000,
+    "enterpriseValue": 1035352059
+  },
+  {
+    "symbol": "NRP",
+    "date": "2005-06-30",
+    "stockPrice": 289.95,
+    "numberOfShares": 2797400,
+    "marketCapitalization": 811106130,
+    "minusCashAndCashEquivalents": 50760000,
+    "addTotalDebt": 174300000,
+    "enterpriseValue": 934646130
+  },
+  {
+    "symbol": "NRP",
+    "date": "2005-03-31",
+    "stockPrice": 267.35,
+    "numberOfShares": 2797400,
+    "marketCapitalization": 747884890,
+    "minusCashAndCashEquivalents": 47103000,
+    "addTotalDebt": 183650000,
+    "enterpriseValue": 884431890
+  },
+  {
+    "symbol": "NRP",
+    "date": "2004-12-31",
+    "stockPrice": 288.25,
+    "numberOfShares": 2797400,
+    "marketCapitalization": 806350550,
+    "minusCashAndCashEquivalents": 42103000,
+    "addTotalDebt": 165650000,
+    "enterpriseValue": 929897550
+  },
+  {
+    "symbol": "NRP",
+    "date": "2004-09-30",
+    "stockPrice": 200.75,
+    "numberOfShares": 2797400,
+    "marketCapitalization": 561578050,
+    "minusCashAndCashEquivalents": 36286000,
+    "addTotalDebt": 165650000,
+    "enterpriseValue": 690942050
+  },
+  {
+    "symbol": "NRP",
+    "date": "2004-06-30",
+    "stockPrice": 190.35,
+    "numberOfShares": 2797400,
+    "marketCapitalization": 532485090,
+    "minusCashAndCashEquivalents": 21559000,
+    "addTotalDebt": 165650000,
+    "enterpriseValue": 676576090
+  },
+  {
+    "symbol": "NRP",
+    "date": "2004-03-31",
+    "stockPrice": 192.5,
+    "numberOfShares": 2363200,
+    "marketCapitalization": 454916000,
+    "minusCashAndCashEquivalents": 29996000,
+    "addTotalDebt": 175000000,
+    "enterpriseValue": 599920000
+  },
+  {
+    "symbol": "NRP",
+    "date": "2003-12-31",
+    "stockPrice": 207,
+    "numberOfShares": 2270800,
+    "marketCapitalization": 470055600,
+    "minusCashAndCashEquivalents": 24320000,
+    "addTotalDebt": 202000000,
+    "enterpriseValue": 647735600
+  },
+  {
+    "symbol": "NRP",
+    "date": "2003-09-30",
+    "stockPrice": 173.55,
+    "numberOfShares": 2270800,
+    "marketCapitalization": 394097340,
+    "minusCashAndCashEquivalents": 21837000,
+    "addTotalDebt": 183000000,
+    "enterpriseValue": 555260340
+  },
+  {
+    "symbol": "NRP",
+    "date": "2003-06-30",
+    "stockPrice": 158.05,
+    "numberOfShares": 2270800,
+    "marketCapitalization": 358899940,
+    "minusCashAndCashEquivalents": 14181000,
+    "addTotalDebt": 183000000,
+    "enterpriseValue": 527718940
+  },
+  {
+    "symbol": "NRP",
+    "date": "2003-03-31",
+    "stockPrice": 114.3,
+    "numberOfShares": 2270800,
+    "marketCapitalization": 259552440,
+    "minusCashAndCashEquivalents": 12959000,
+    "addTotalDebt": 69000000,
+    "enterpriseValue": 315593440
+  },
+  {
+    "symbol": "NRP",
+    "date": "2002-12-31",
+    "stockPrice": 103.5,
+    "numberOfShares": 2270800,
+    "marketCapitalization": 235027800,
+    "minusCashAndCashEquivalents": 7753000,
+    "addTotalDebt": 57500000,
+    "enterpriseValue": 284774800
+  },
+  {
+    "symbol": "NRP",
+    "date": "2002-09-30",
+    "stockPrice": 97,
+    "numberOfShares": 4541463,
+    "marketCapitalization": 440521911,
+    "minusCashAndCashEquivalents": 6956000,
+    "addTotalDebt": 93478000,
+    "enterpriseValue": 527043911
+  }
+]

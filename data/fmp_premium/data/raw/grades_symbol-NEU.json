@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "NEU",
+    "date": "2019-04-01",
+    "gradingCompany": "Buckingham",
+    "previousGrade": "Underperform",
+    "newGrade": "Underperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "NEU",
+    "date": "2019-04-01",
+    "gradingCompany": "Buckingham Research",
+    "previousGrade": "Underperform",
+    "newGrade": "Underperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "NEU",
+    "date": "2016-09-30",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NEU",
+    "date": "2016-07-29",
+    "gradingCompany": "Longbow Research",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NEU",
+    "date": "2016-03-10",
+    "gradingCompany": "Longbow Research",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  }
+]

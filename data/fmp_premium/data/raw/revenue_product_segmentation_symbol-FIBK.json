@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "FIBK",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Credit and Debit Card": 45100000,
+      "Deposit Account": 16500000,
+      "Financial Service, Other": 7900000
+    }
+  },
+  {
+    "symbol": "FIBK",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "Credit and Debit Card": 41100000,
+      "Deposit Account": 17600000,
+      "Financial Service, Other": 12100000
+    }
+  },
+  {
+    "symbol": "FIBK",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "Credit and Debit Card": 41500000,
+      "Deposit Account": 21100000,
+      "Financial Service, Other": 17100000
+    }
+  }
+]

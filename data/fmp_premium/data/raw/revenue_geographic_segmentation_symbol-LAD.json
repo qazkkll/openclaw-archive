@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "LAD",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "CANADA": 1166400000,
+      "UNITED KINGDOM": 6914100000,
+      "UNITED STATES": 29554400000
+    }
+  },
+  {
+    "symbol": "LAD",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "CANADA": 1152800000,
+      "UNITED KINGDOM": 6788500000,
+      "UNITED STATES": 28247000000
+    }
+  }
+]

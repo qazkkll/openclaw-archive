@@ -1,0 +1,1002 @@
+[
+  {
+    "symbol": "HDB",
+    "date": "2026-03-31",
+    "stockPrice": 2324.71,
+    "numberOfShares": 1710520666,
+    "marketCapitalization": 3976468876389,
+    "minusCashAndCashEquivalents": 3057507536000,
+    "addTotalDebt": 5768341396000,
+    "enterpriseValue": 6687302736389
+  },
+  {
+    "symbol": "HDB",
+    "date": "2025-12-31",
+    "stockPrice": 3282.46,
+    "numberOfShares": 5125939000,
+    "marketCapitalization": 16825696291141,
+    "minusCashAndCashEquivalents": 21385349701,
+    "addTotalDebt": 68517761578,
+    "enterpriseValue": 16872828703018
+  },
+  {
+    "symbol": "HDB",
+    "date": "2025-09-30",
+    "stockPrice": 3033.1,
+    "numberOfShares": 5114937000,
+    "marketCapitalization": 15514118279064,
+    "minusCashAndCashEquivalents": 1770578700000,
+    "addTotalDebt": 5995072400000,
+    "enterpriseValue": 19738611979064
+  },
+  {
+    "symbol": "HDB",
+    "date": "2025-06-30",
+    "stockPrice": 3286.39,
+    "numberOfShares": 5131916000,
+    "marketCapitalization": 16865476294218,
+    "minusCashAndCashEquivalents": 2146127800000,
+    "addTotalDebt": 5996128100000,
+    "enterpriseValue": 20715476594218
+  },
+  {
+    "symbol": "HDB",
+    "date": "2025-03-31",
+    "stockPrice": 2841.8,
+    "numberOfShares": 5121855666,
+    "marketCapitalization": 14555314528731,
+    "minusCashAndCashEquivalents": 3222323100000,
+    "addTotalDebt": 7455296100000,
+    "enterpriseValue": 18788287528731
+  },
+  {
+    "symbol": "HDB",
+    "date": "2024-12-31",
+    "stockPrice": 2737.33,
+    "numberOfShares": 5117858000,
+    "marketCapitalization": 14009250732030,
+    "minusCashAndCashEquivalents": 2311434400000,
+    "addTotalDebt": 6534742500000,
+    "enterpriseValue": 18232558832030
+  },
+  {
+    "symbol": "HDB",
+    "date": "2024-09-30",
+    "stockPrice": 2621.23,
+    "numberOfShares": 5102593666,
+    "marketCapitalization": 13375085474183,
+    "minusCashAndCashEquivalents": 2137887300000,
+    "addTotalDebt": 7581009000000,
+    "enterpriseValue": 18818207174183
+  },
+  {
+    "symbol": "HDB",
+    "date": "2024-06-30",
+    "stockPrice": 2673,
+    "numberOfShares": 5087185333,
+    "marketCapitalization": 13598056823838,
+    "minusCashAndCashEquivalents": 1911081500000,
+    "addTotalDebt": 6733542300000,
+    "enterpriseValue": 18420517623838
+  },
+  {
+    "symbol": "HDB",
+    "date": "2024-03-31",
+    "stockPrice": 2343.18,
+    "numberOfShares": 5081322000,
+    "marketCapitalization": 11906469157201,
+    "minusCashAndCashEquivalents": 3425973300000,
+    "addTotalDebt": 8150093100000,
+    "enterpriseValue": 16630588957201
+  },
+  {
+    "symbol": "HDB",
+    "date": "2023-12-31",
+    "stockPrice": 2792.76,
+    "numberOfShares": 5079579000,
+    "marketCapitalization": 14186057848579,
+    "minusCashAndCashEquivalents": 1859521300000,
+    "addTotalDebt": 7996598500000,
+    "enterpriseValue": 20323135048579
+  },
+  {
+    "symbol": "HDB",
+    "date": "2023-09-30",
+    "stockPrice": 2455.17,
+    "numberOfShares": 5066730000,
+    "marketCapitalization": 12439698592955,
+    "minusCashAndCashEquivalents": 1806309000000,
+    "addTotalDebt": 8591899400000,
+    "enterpriseValue": 19225288992955
+  },
+  {
+    "symbol": "HDB",
+    "date": "2023-06-30",
+    "stockPrice": 2859.79,
+    "numberOfShares": 3743495333,
+    "marketCapitalization": 10705614261855,
+    "minusCashAndCashEquivalents": 1640181900000,
+    "addTotalDebt": 2635474700000,
+    "enterpriseValue": 11700907061855
+  },
+  {
+    "symbol": "HDB",
+    "date": "2023-03-31",
+    "stockPrice": 2738.75,
+    "numberOfShares": 3737878333,
+    "marketCapitalization": 10237105463110,
+    "minusCashAndCashEquivalents": 2363920200000,
+    "addTotalDebt": 3241992800000,
+    "enterpriseValue": 11115178063110
+  },
+  {
+    "symbol": "HDB",
+    "date": "2022-12-31",
+    "stockPrice": 2827.01,
+    "numberOfShares": 3732604333,
+    "marketCapitalization": 10552116382144,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10552116382144
+  },
+  {
+    "symbol": "HDB",
+    "date": "2022-09-30",
+    "stockPrice": 2389.2,
+    "numberOfShares": 3721428333,
+    "marketCapitalization": 8891246769917,
+    "minusCashAndCashEquivalents": 1013245400000,
+    "addTotalDebt": 2798575200000,
+    "enterpriseValue": 10676576569917
+  },
+  {
+    "symbol": "HDB",
+    "date": "2022-06-30",
+    "stockPrice": 2173.64,
+    "numberOfShares": 3712833333,
+    "marketCapitalization": 8070364976615,
+    "minusCashAndCashEquivalents": 1172900400000,
+    "addTotalDebt": 2169461400000,
+    "enterpriseValue": 9066925976615
+  },
+  {
+    "symbol": "HDB",
+    "date": "2022-03-31",
+    "stockPrice": 2333.16,
+    "numberOfShares": 3722178666,
+    "marketCapitalization": 8684434319189,
+    "minusCashAndCashEquivalents": 365945300000,
+    "addTotalDebt": 2027620100000,
+    "enterpriseValue": 10346109119189
+  },
+  {
+    "symbol": "HDB",
+    "date": "2021-12-31",
+    "stockPrice": 2427.29,
+    "numberOfShares": 3716301666,
+    "marketCapitalization": 9020545624329,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 31273362108,
+    "enterpriseValue": 9051818986437
+  },
+  {
+    "symbol": "HDB",
+    "date": "2021-09-30",
+    "stockPrice": 2721.73,
+    "numberOfShares": 3719787333,
+    "marketCapitalization": 10124265333356,
+    "minusCashAndCashEquivalents": 757914400000,
+    "addTotalDebt": 1908581700000,
+    "enterpriseValue": 11274932633356
+  },
+  {
+    "symbol": "HDB",
+    "date": "2021-06-30",
+    "stockPrice": 2725.77,
+    "numberOfShares": 3693282000,
+    "marketCapitalization": 10067027526875,
+    "minusCashAndCashEquivalents": 1223041900000,
+    "addTotalDebt": 1725908000000,
+    "enterpriseValue": 10569893626875
+  },
+  {
+    "symbol": "HDB",
+    "date": "2021-03-31",
+    "stockPrice": 2853.42,
+    "numberOfShares": 3699586000,
+    "marketCapitalization": 10556457700796,
+    "minusCashAndCashEquivalents": 1041382800000,
+    "addTotalDebt": 1484444300000,
+    "enterpriseValue": 10999519200796
+  },
+  {
+    "symbol": "HDB",
+    "date": "2020-12-31",
+    "stockPrice": 2643.31,
+    "numberOfShares": 3700139333,
+    "marketCapitalization": 9780603940884,
+    "minusCashAndCashEquivalents": 1068966100000,
+    "addTotalDebt": 1621462400000,
+    "enterpriseValue": 10333100240884
+  },
+  {
+    "symbol": "HDB",
+    "date": "2020-09-30",
+    "stockPrice": 1842.28,
+    "numberOfShares": 3668029000,
+    "marketCapitalization": 6757518125975,
+    "minusCashAndCashEquivalents": 558078600000,
+    "addTotalDebt": 1282567400000,
+    "enterpriseValue": 7482006925975
+  },
+  {
+    "symbol": "HDB",
+    "date": "2020-06-30",
+    "stockPrice": 1719.16,
+    "numberOfShares": 3665206333,
+    "marketCapitalization": 6301079124909,
+    "minusCashAndCashEquivalents": 1104540200000,
+    "addTotalDebt": 1596812300000,
+    "enterpriseValue": 6793351224909
+  },
+  {
+    "symbol": "HDB",
+    "date": "2020-03-31",
+    "stockPrice": 1462.31,
+    "numberOfShares": 3678082333,
+    "marketCapitalization": 5378485137533,
+    "minusCashAndCashEquivalents": 726744100000,
+    "addTotalDebt": 1469551000000,
+    "enterpriseValue": 6121292037533
+  },
+  {
+    "symbol": "HDB",
+    "date": "2019-12-31",
+    "stockPrice": 2261.59,
+    "numberOfShares": 3673693000,
+    "marketCapitalization": 8308381988278,
+    "minusCashAndCashEquivalents": 1024061200000,
+    "addTotalDebt": 1132772000000,
+    "enterpriseValue": 8417092788278
+  },
+  {
+    "symbol": "HDB",
+    "date": "2019-09-30",
+    "stockPrice": 2021.24,
+    "numberOfShares": 3686938000,
+    "marketCapitalization": 7452173216404,
+    "minusCashAndCashEquivalents": 727055500000,
+    "addTotalDebt": 1422533600000,
+    "enterpriseValue": 8147651316404
+  },
+  {
+    "symbol": "HDB",
+    "date": "2019-06-30",
+    "stockPrice": 2262.24,
+    "numberOfShares": 3673825333,
+    "marketCapitalization": 8311059117783,
+    "minusCashAndCashEquivalents": 841679300000,
+    "addTotalDebt": 1008941200000,
+    "enterpriseValue": 8478321017783
+  },
+  {
+    "symbol": "HDB",
+    "date": "2019-03-31",
+    "stockPrice": 2002.56,
+    "numberOfShares": 3661616666,
+    "marketCapitalization": 7332609377483,
+    "minusCashAndCashEquivalents": 855413900000,
+    "addTotalDebt": 1698611000000,
+    "enterpriseValue": 8175806477483
+  },
+  {
+    "symbol": "HDB",
+    "date": "2018-12-31",
+    "stockPrice": 1802.67,
+    "numberOfShares": 3650882333,
+    "marketCapitalization": 6581321086611,
+    "minusCashAndCashEquivalents": 490648500000,
+    "addTotalDebt": 1234597600000,
+    "enterpriseValue": 7325270186611
+  },
+  {
+    "symbol": "HDB",
+    "date": "2018-09-30",
+    "stockPrice": 1723.09,
+    "numberOfShares": 3608947000,
+    "marketCapitalization": 6218551493518,
+    "minusCashAndCashEquivalents": 538491600000,
+    "addTotalDebt": 1653766000000,
+    "enterpriseValue": 7333825893518
+  },
+  {
+    "symbol": "HDB",
+    "date": "2018-06-30",
+    "stockPrice": 1802.96,
+    "numberOfShares": 3503351666,
+    "marketCapitalization": 6316399696647,
+    "minusCashAndCashEquivalents": 514938600000,
+    "addTotalDebt": 1210243100000,
+    "enterpriseValue": 7011704196647
+  },
+  {
+    "symbol": "HDB",
+    "date": "2018-03-31",
+    "stockPrice": 1607.71,
+    "numberOfShares": 3509235333,
+    "marketCapitalization": 5641846914528,
+    "minusCashAndCashEquivalents": 719031000000,
+    "addTotalDebt": 1712108000000,
+    "enterpriseValue": 6634923914528
+  },
+  {
+    "symbol": "HDB",
+    "date": "2017-12-31",
+    "stockPrice": 1629.44,
+    "numberOfShares": 3497250333,
+    "marketCapitalization": 5698570948667,
+    "minusCashAndCashEquivalents": 400075100000,
+    "addTotalDebt": 1038667800000,
+    "enterpriseValue": 6337163648667
+  },
+  {
+    "symbol": "HDB",
+    "date": "2017-09-30",
+    "stockPrice": 1578.5,
+    "numberOfShares": 3472820666,
+    "marketCapitalization": 5481853672358,
+    "minusCashAndCashEquivalents": 581300600000,
+    "addTotalDebt": 1466501000000,
+    "enterpriseValue": 6367054072358
+  },
+  {
+    "symbol": "HDB",
+    "date": "2017-06-30",
+    "stockPrice": 1408.53,
+    "numberOfShares": 3472820666,
+    "marketCapitalization": 4891572092680,
+    "minusCashAndCashEquivalents": 569705900000,
+    "addTotalDebt": 860117000000,
+    "enterpriseValue": 5181983192680
+  },
+  {
+    "symbol": "HDB",
+    "date": "2017-03-31",
+    "stockPrice": 1220.02,
+    "numberOfShares": 3457851333,
+    "marketCapitalization": 4218636026592,
+    "minusCashAndCashEquivalents": 566712600000,
+    "addTotalDebt": 1053186300000,
+    "enterpriseValue": 4705109726592
+  },
+  {
+    "symbol": "HDB",
+    "date": "2016-12-31",
+    "stockPrice": 1032.32,
+    "numberOfShares": 3457851333,
+    "marketCapitalization": 3569603901305,
+    "minusCashAndCashEquivalents": 541023200000,
+    "addTotalDebt": 721211500000,
+    "enterpriseValue": 3749792201305
+  },
+  {
+    "symbol": "HDB",
+    "date": "2016-09-30",
+    "stockPrice": 1200.52,
+    "numberOfShares": 3418018666,
+    "marketCapitalization": 4103415491792,
+    "minusCashAndCashEquivalents": 524858400000,
+    "addTotalDebt": 998282400000,
+    "enterpriseValue": 4576839491792
+  },
+  {
+    "symbol": "HDB",
+    "date": "2016-06-30",
+    "stockPrice": 1124.22,
+    "numberOfShares": 3418017333,
+    "marketCapitalization": 3842608060428,
+    "minusCashAndCashEquivalents": 402872200000,
+    "addTotalDebt": 689000500000,
+    "enterpriseValue": 4128736360428
+  },
+  {
+    "symbol": "HDB",
+    "date": "2016-03-31",
+    "stockPrice": 1023.15,
+    "numberOfShares": 3408818000,
+    "marketCapitalization": 3487721739805,
+    "minusCashAndCashEquivalents": 531198300000,
+    "addTotalDebt": 775875900000,
+    "enterpriseValue": 3732399339805
+  },
+  {
+    "symbol": "HDB",
+    "date": "2015-12-31",
+    "stockPrice": 1021.54,
+    "numberOfShares": 3408818000,
+    "marketCapitalization": 3482256211464,
+    "minusCashAndCashEquivalents": 326119900000,
+    "addTotalDebt": 600351000000,
+    "enterpriseValue": 3756487311464
+  },
+  {
+    "symbol": "HDB",
+    "date": "2015-09-30",
+    "stockPrice": 1005.38,
+    "numberOfShares": 3385835000,
+    "marketCapitalization": 3404044562363,
+    "minusCashAndCashEquivalents": 478202300000,
+    "addTotalDebt": 682914400000,
+    "enterpriseValue": 3608756662363
+  },
+  {
+    "symbol": "HDB",
+    "date": "2015-06-30",
+    "stockPrice": 966.31,
+    "numberOfShares": 3385833666,
+    "marketCapitalization": 3271766622709,
+    "minusCashAndCashEquivalents": 386716200000,
+    "addTotalDebt": 469429600000,
+    "enterpriseValue": 3354480022709
+  },
+  {
+    "symbol": "HDB",
+    "date": "2015-03-31",
+    "stockPrice": 920.85,
+    "numberOfShares": 3302136666,
+    "marketCapitalization": 3040759175232,
+    "minusCashAndCashEquivalents": 515345900000,
+    "addTotalDebt": 672126300000,
+    "enterpriseValue": 3197539575232
+  },
+  {
+    "symbol": "HDB",
+    "date": "2014-12-31",
+    "stockPrice": 805.43,
+    "numberOfShares": 3302136666,
+    "marketCapitalization": 2659654134084,
+    "minusCashAndCashEquivalents": 330387700000,
+    "addTotalDebt": 396585200000,
+    "enterpriseValue": 2725851634084
+  },
+  {
+    "symbol": "HDB",
+    "date": "2014-09-30",
+    "stockPrice": 723.93,
+    "numberOfShares": 3235574666,
+    "marketCapitalization": 2342332803532,
+    "minusCashAndCashEquivalents": 421809300000,
+    "addTotalDebt": 510793300000,
+    "enterpriseValue": 2431316803532
+  },
+  {
+    "symbol": "HDB",
+    "date": "2014-06-30",
+    "stockPrice": 705.66,
+    "numberOfShares": 1617786666,
+    "marketCapitalization": 1141601369096,
+    "minusCashAndCashEquivalents": 300940500000,
+    "addTotalDebt": 386181800000,
+    "enterpriseValue": 1226842669096
+  },
+  {
+    "symbol": "HDB",
+    "date": "2014-03-31",
+    "stockPrice": 617.79,
+    "numberOfShares": 1607534333,
+    "marketCapitalization": 993111208775,
+    "minusCashAndCashEquivalents": 551045600000,
+    "addTotalDebt": 545984100000,
+    "enterpriseValue": 988049708775
+  },
+  {
+    "symbol": "HDB",
+    "date": "2013-12-31",
+    "stockPrice": 532.66,
+    "numberOfShares": 1607534333,
+    "marketCapitalization": 856265460110,
+    "minusCashAndCashEquivalents": 351906400000,
+    "addTotalDebt": 438484500000,
+    "enterpriseValue": 942843560110
+  },
+  {
+    "symbol": "HDB",
+    "date": "2013-09-30",
+    "stockPrice": 486.99,
+    "numberOfShares": 1603326333,
+    "marketCapitalization": 780798279265,
+    "minusCashAndCashEquivalents": 437477500000,
+    "addTotalDebt": 501118000000,
+    "enterpriseValue": 844438779265
+  },
+  {
+    "symbol": "HDB",
+    "date": "2013-06-30",
+    "stockPrice": 537.9,
+    "numberOfShares": 1603326333,
+    "marketCapitalization": 862427695327,
+    "minusCashAndCashEquivalents": 254166300000,
+    "addTotalDebt": 391393700000,
+    "enterpriseValue": 999655095327
+  },
+  {
+    "symbol": "HDB",
+    "date": "2013-03-31",
+    "stockPrice": 504.8,
+    "numberOfShares": 1607453333,
+    "marketCapitalization": 811448872311,
+    "minusCashAndCashEquivalents": 421398800000,
+    "addTotalDebt": 440836900000,
+    "enterpriseValue": 830886972311
+  },
+  {
+    "symbol": "HDB",
+    "date": "2012-12-31",
+    "stockPrice": 558.45,
+    "numberOfShares": 1568835333,
+    "marketCapitalization": 876123057342,
+    "minusCashAndCashEquivalents": 247199600000,
+    "addTotalDebt": 315846400000,
+    "enterpriseValue": 944769857342
+  },
+  {
+    "symbol": "HDB",
+    "date": "2012-09-30",
+    "stockPrice": 505.64,
+    "numberOfShares": 1575737333,
+    "marketCapitalization": 796756928074,
+    "minusCashAndCashEquivalents": 404805000000,
+    "addTotalDebt": 371248500000,
+    "enterpriseValue": 763200428074
+  },
+  {
+    "symbol": "HDB",
+    "date": "2012-06-30",
+    "stockPrice": 453.34,
+    "numberOfShares": 1564459000,
+    "marketCapitalization": 709237709781,
+    "minusCashAndCashEquivalents": 239672600000,
+    "addTotalDebt": 260641500000,
+    "enterpriseValue": 730206609781
+  },
+  {
+    "symbol": "HDB",
+    "date": "2012-03-31",
+    "stockPrice": 433.92,
+    "numberOfShares": 1563464500,
+    "marketCapitalization": 678420235650,
+    "minusCashAndCashEquivalents": 341288900000,
+    "addTotalDebt": 291009400000,
+    "enterpriseValue": 628140735650
+  },
+  {
+    "symbol": "HDB",
+    "date": "2011-12-31",
+    "stockPrice": 348.6,
+    "numberOfShares": 1562470000,
+    "marketCapitalization": 544683604374,
+    "minusCashAndCashEquivalents": 189937200000,
+    "addTotalDebt": 244262600000,
+    "enterpriseValue": 599009004374
+  },
+  {
+    "symbol": "HDB",
+    "date": "2011-09-30",
+    "stockPrice": 357.28,
+    "numberOfShares": 1557329500,
+    "marketCapitalization": 556407200015,
+    "minusCashAndCashEquivalents": 341353800000,
+    "addTotalDebt": 256041300000,
+    "enterpriseValue": 471094700015
+  },
+  {
+    "symbol": "HDB",
+    "date": "2011-06-30",
+    "stockPrice": 394.17,
+    "numberOfShares": 1552189000,
+    "marketCapitalization": 611819818936,
+    "minusCashAndCashEquivalents": 177153700000,
+    "addTotalDebt": 219786900000,
+    "enterpriseValue": 654453018936
+  },
+  {
+    "symbol": "HDB",
+    "date": "2011-03-31",
+    "stockPrice": 377.97,
+    "numberOfShares": 1547605166,
+    "marketCapitalization": 584955753097,
+    "minusCashAndCashEquivalents": 393764300000,
+    "addTotalDebt": 169973900000,
+    "enterpriseValue": 361165353097
+  },
+  {
+    "symbol": "HDB",
+    "date": "2010-12-31",
+    "stockPrice": 373.69,
+    "numberOfShares": 1543021333,
+    "marketCapitalization": 576614727971,
+    "minusCashAndCashEquivalents": 159946600000,
+    "addTotalDebt": 134356000000,
+    "enterpriseValue": 551024127971
+  },
+  {
+    "symbol": "HDB",
+    "date": "2010-09-30",
+    "stockPrice": 410.84,
+    "numberOfShares": 1535832666,
+    "marketCapitalization": 630986407163,
+    "minusCashAndCashEquivalents": 203004200000,
+    "addTotalDebt": 163186200000,
+    "enterpriseValue": 591168407163
+  },
+  {
+    "symbol": "HDB",
+    "date": "2010-06-30",
+    "stockPrice": 331.76,
+    "numberOfShares": 1528644000,
+    "marketCapitalization": 507142933440,
+    "minusCashAndCashEquivalents": 182311300000,
+    "addTotalDebt": 114917200000,
+    "enterpriseValue": 439748833440
+  },
+  {
+    "symbol": "HDB",
+    "date": "2010-03-31",
+    "stockPrice": 312.78,
+    "numberOfShares": 1493822833,
+    "marketCapitalization": 467236038427,
+    "minusCashAndCashEquivalents": 297558500000,
+    "addTotalDebt": 174019400000,
+    "enterpriseValue": 343696938427
+  },
+  {
+    "symbol": "HDB",
+    "date": "2009-12-31",
+    "stockPrice": 302.06,
+    "numberOfShares": 1459001666,
+    "marketCapitalization": 440711879238,
+    "minusCashAndCashEquivalents": 129166000000,
+    "addTotalDebt": 76390800000,
+    "enterpriseValue": 387936679238
+  },
+  {
+    "symbol": "HDB",
+    "date": "2009-09-30",
+    "stockPrice": 282.38,
+    "numberOfShares": 1440897500,
+    "marketCapitalization": 406886399640,
+    "minusCashAndCashEquivalents": 149258700000,
+    "addTotalDebt": 118872200000,
+    "enterpriseValue": 376499899640
+  },
+  {
+    "symbol": "HDB",
+    "date": "2009-06-30",
+    "stockPrice": 246.34,
+    "numberOfShares": 1422793333,
+    "marketCapitalization": 350488633181,
+    "minusCashAndCashEquivalents": 136785700000,
+    "addTotalDebt": 30491500000,
+    "enterpriseValue": 244194433181
+  },
+  {
+    "symbol": "HDB",
+    "date": "2009-03-31",
+    "stockPrice": 154.21,
+    "numberOfShares": 1421145500,
+    "marketCapitalization": 219152005264,
+    "minusCashAndCashEquivalents": 171224400000,
+    "addTotalDebt": 94835800000,
+    "enterpriseValue": 142763405264
+  },
+  {
+    "symbol": "HDB",
+    "date": "2008-12-31",
+    "stockPrice": 172.79,
+    "numberOfShares": 1419497666,
+    "marketCapitalization": 245272162712,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 245272162712
+  },
+  {
+    "symbol": "HDB",
+    "date": "2008-09-30",
+    "stockPrice": 199.88,
+    "numberOfShares": 1413309500,
+    "marketCapitalization": 282488769586,
+    "minusCashAndCashEquivalents": 192898500000,
+    "addTotalDebt": 148710400000,
+    "enterpriseValue": 238300669586
+  },
+  {
+    "symbol": "HDB",
+    "date": "2008-06-30",
+    "stockPrice": 154.05,
+    "numberOfShares": 1407121333,
+    "marketCapitalization": 216762679272,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 216762679272
+  },
+  {
+    "symbol": "HDB",
+    "date": "2008-03-31",
+    "stockPrice": 196.5,
+    "numberOfShares": 1287573666,
+    "marketCapitalization": 253005907736,
+    "minusCashAndCashEquivalents": 147208000000,
+    "addTotalDebt": 162162700000,
+    "enterpriseValue": 267960607736
+  },
+  {
+    "symbol": "HDB",
+    "date": "2007-12-31",
+    "stockPrice": 257.15,
+    "numberOfShares": 1168026000,
+    "marketCapitalization": 300359521136,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 300359521136
+  },
+  {
+    "symbol": "HDB",
+    "date": "2007-09-30",
+    "stockPrice": 216.09,
+    "numberOfShares": 1113440333,
+    "marketCapitalization": 240606105158,
+    "minusCashAndCashEquivalents": 128169021435,
+    "addTotalDebt": 95556442695,
+    "enterpriseValue": 207993526418
+  },
+  {
+    "symbol": "HDB",
+    "date": "2007-06-30",
+    "stockPrice": 170.91,
+    "numberOfShares": 1113440333,
+    "marketCapitalization": 190298087313,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 190298087313
+  },
+  {
+    "symbol": "HDB",
+    "date": "2007-03-31",
+    "stockPrice": 139.21,
+    "numberOfShares": 1081606000,
+    "marketCapitalization": 150573616078,
+    "minusCashAndCashEquivalents": 93584475668,
+    "addTotalDebt": 129377448658,
+    "enterpriseValue": 186366589068
+  },
+  {
+    "symbol": "HDB",
+    "date": "2006-12-31",
+    "stockPrice": 166.72,
+    "numberOfShares": 1049771666,
+    "marketCapitalization": 175014677863,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 175014677863
+  },
+  {
+    "symbol": "HDB",
+    "date": "2006-09-30",
+    "stockPrice": 140.09,
+    "numberOfShares": 1045953000,
+    "marketCapitalization": 146524208720,
+    "minusCashAndCashEquivalents": 64997459038,
+    "addTotalDebt": 100805948041,
+    "enterpriseValue": 182332697723
+  },
+  {
+    "symbol": "HDB",
+    "date": "2006-06-30",
+    "stockPrice": 125.38,
+    "numberOfShares": 1045953000,
+    "marketCapitalization": 131136618863,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 131136618863
+  },
+  {
+    "symbol": "HDB",
+    "date": "2006-03-31",
+    "stockPrice": 121.58,
+    "numberOfShares": 1042113000,
+    "marketCapitalization": 126700671702,
+    "minusCashAndCashEquivalents": 71566707791,
+    "addTotalDebt": 92870513902,
+    "enterpriseValue": 148004477813
+  },
+  {
+    "symbol": "HDB",
+    "date": "2005-12-31",
+    "stockPrice": 114.81,
+    "numberOfShares": 1038273000,
+    "marketCapitalization": 119208016653,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 119208016653
+  },
+  {
+    "symbol": "HDB",
+    "date": "2005-09-30",
+    "stockPrice": 112.35,
+    "numberOfShares": 1035871666,
+    "marketCapitalization": 116375623839,
+    "minusCashAndCashEquivalents": 46718823519,
+    "addTotalDebt": 69407935101,
+    "enterpriseValue": 139064735421
+  },
+  {
+    "symbol": "HDB",
+    "date": "2005-06-30",
+    "stockPrice": 101.26,
+    "numberOfShares": 1032917666,
+    "marketCapitalization": 104595102110,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 104595102110
+  },
+  {
+    "symbol": "HDB",
+    "date": "2005-03-31",
+    "stockPrice": 91.73,
+    "numberOfShares": 999987166,
+    "marketCapitalization": 91726822762,
+    "minusCashAndCashEquivalents": 37620085380,
+    "addTotalDebt": 67183402620,
+    "enterpriseValue": 121290140002
+  },
+  {
+    "symbol": "HDB",
+    "date": "2004-12-31",
+    "stockPrice": 98.63,
+    "numberOfShares": 967056666,
+    "marketCapitalization": 95382249552,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 95382249552
+  },
+  {
+    "symbol": "HDB",
+    "date": "2004-09-30",
+    "stockPrice": 78.04,
+    "numberOfShares": 954109666,
+    "marketCapitalization": 74457287170,
+    "minusCashAndCashEquivalents": 19669724928,
+    "addTotalDebt": 35715596616,
+    "enterpriseValue": 90503158858
+  },
+  {
+    "symbol": "HDB",
+    "date": "2004-06-30",
+    "stockPrice": 62.07,
+    "numberOfShares": 962500000,
+    "marketCapitalization": 59738765625,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 59738765625
+  },
+  {
+    "symbol": "HDB",
+    "date": "2004-03-31",
+    "stockPrice": 65.61,
+    "numberOfShares": 950472833,
+    "marketCapitalization": 62360047336,
+    "minusCashAndCashEquivalents": 32997832370,
+    "addTotalDebt": 30138830065,
+    "enterpriseValue": 59501045031
+  },
+  {
+    "symbol": "HDB",
+    "date": "2003-12-31",
+    "stockPrice": 69.75,
+    "numberOfShares": 938445666,
+    "marketCapitalization": 65459119006,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 65459119006
+  },
+  {
+    "symbol": "HDB",
+    "date": "2003-09-30",
+    "stockPrice": 51.18,
+    "numberOfShares": 938445666,
+    "marketCapitalization": 48027734756,
+    "minusCashAndCashEquivalents": 14421052509,
+    "addTotalDebt": 33135011160,
+    "enterpriseValue": 66741693407
+  },
+  {
+    "symbol": "HDB",
+    "date": "2003-06-30",
+    "stockPrice": 43.36,
+    "numberOfShares": 943481666,
+    "marketCapitalization": 40909666951,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 40909666951
+  },
+  {
+    "symbol": "HDB",
+    "date": "2003-03-31",
+    "stockPrice": 36.78,
+    "numberOfShares": 941207124,
+    "marketCapitalization": 34619009831,
+    "minusCashAndCashEquivalents": 23876779806,
+    "addTotalDebt": 23625594945,
+    "enterpriseValue": 34367824970
+  },
+  {
+    "symbol": "HDB",
+    "date": "2002-12-31",
+    "stockPrice": 32.37,
+    "numberOfShares": 938932581,
+    "marketCapitalization": 30389726649,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 30389726649
+  },
+  {
+    "symbol": "HDB",
+    "date": "2002-09-30",
+    "stockPrice": 34.34,
+    "numberOfShares": 931890790,
+    "marketCapitalization": 31997029409,
+    "minusCashAndCashEquivalents": 25719807432,
+    "addTotalDebt": 11289855366,
+    "enterpriseValue": 17567077343
+  },
+  {
+    "symbol": "HDB",
+    "date": "2002-06-30",
+    "stockPrice": 32.72,
+    "numberOfShares": 930555555,
+    "marketCapitalization": 30444148592,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 30444148592
+  },
+  {
+    "symbol": "HDB",
+    "date": "2002-03-31",
+    "stockPrice": 37.52,
+    "numberOfShares": 934565823,
+    "marketCapitalization": 35066872267,
+    "minusCashAndCashEquivalents": 34518213884,
+    "addTotalDebt": 23705690365,
+    "enterpriseValue": 24254348748
+  },
+  {
+    "symbol": "HDB",
+    "date": "2001-12-31",
+    "stockPrice": 35.2,
+    "numberOfShares": 938576090,
+    "marketCapitalization": 33038441513,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 33038441513
+  },
+  {
+    "symbol": "HDB",
+    "date": "2001-09-30",
+    "stockPrice": 33.59,
+    "numberOfShares": 909730069,
+    "marketCapitalization": 30557378152,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 30557378152
+  },
+  {
+    "symbol": "HDB",
+    "date": "2001-06-30",
+    "stockPrice": 34.52,
+    "numberOfShares": 810804174,
+    "marketCapitalization": 27991351958,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 27991351958
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "symbol": "RVLV",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "Beauty": 24393000,
+      "Dresses": 130828000,
+      "Fashion Apparel": 321445000,
+      "Handbags Shoes And Accessories": 95210000,
+      "Manufactured Product Other": 8773000
+    }
+  },
+  {
+    "symbol": "RVLV",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "Forward Segment": 73742000,
+      "Revolve Segment": 527251000
+    }
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "symbol": "NVS",
+    "date": "2026-03-26",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2026-01-06",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Underweight",
+    "newGrade": "Equal Weight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2025-12-08",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2025-09-12",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2025-02-13",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2024-11-19",
+    "gradingCompany": "Erste Group",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2024-10-30",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Market Perform",
+    "newGrade": "Market Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2024-09-11",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2024-09-05",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2024-09-03",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2024-07-02",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2024-04-24",
+    "gradingCompany": "BMO Capital",
+    "previousGrade": "Market Perform",
+    "newGrade": "Market Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2023-09-25",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Equal Weight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2022-05-09",
+    "gradingCompany": "Wolfe Research",
+    "previousGrade": "Outperform",
+    "newGrade": "Peer Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2021-12-06",
+    "gradingCompany": "Exane BNP Paribas",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2021-12-03",
+    "gradingCompany": "Bryan Garnier",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2021-09-20",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2021-03-10",
+    "gradingCompany": "Argus Research",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2021-02-01",
+    "gradingCompany": "Cowen & Co.",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2020-09-01",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2020-02-25",
+    "gradingCompany": "Guggenheim",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2020-02-25",
+    "gradingCompany": "Guggenheim Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2019-04-25",
+    "gradingCompany": "Guggenheim",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2019-04-10",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2018-11-26",
+    "gradingCompany": "Cowen & Co.",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2018-11-19",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Conviction Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2018-09-11",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2018-09-10",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Underperform",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2018-09-10",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Underperform",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2018-07-19",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Underweight",
+    "newGrade": "Equal Weight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2018-05-29",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2018-05-25",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2018-05-05",
+    "gradingCompany": "Argus",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2018-01-25",
+    "gradingCompany": "Leerink Swann",
+    "previousGrade": "Market Perform",
+    "newGrade": "Market Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2017-10-25",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2017-10-23",
+    "gradingCompany": "Leerink Swann",
+    "previousGrade": "Market Perform",
+    "newGrade": "Market Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2017-07-26",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2017-07-05",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2017-04-05",
+    "gradingCompany": "Cowen & Co.",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2017-01-11",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2017-01-03",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2016-11-10",
+    "gradingCompany": "Argus Research",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2016-11-10",
+    "gradingCompany": "Argus",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2016-04-12",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2016-04-01",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2016-03-29",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2016-03-23",
+    "gradingCompany": "Leerink Swann",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2015-07-27",
+    "gradingCompany": "Leerink Swann",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2015-06-22",
+    "gradingCompany": "Bryan Garnier",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2015-03-04",
+    "gradingCompany": "Natixis",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2015-01-05",
+    "gradingCompany": "Cowen & Co.",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2014-12-02",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Equal Weight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2014-05-02",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2014-04-24",
+    "gradingCompany": "Natixis",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2014-01-08",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2013-11-25",
+    "gradingCompany": "Natixis",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2013-10-08",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2013-09-16",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2013-04-08",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2013-04-08",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2013-03-15",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2013-01-23",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2013-01-16",
+    "gradingCompany": "Hamburger Sparkasse",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2012-12-12",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "NVS",
+    "date": "2012-03-06",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  }
+]

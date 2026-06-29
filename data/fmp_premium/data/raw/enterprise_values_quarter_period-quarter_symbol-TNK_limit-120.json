@@ -1,0 +1,762 @@
+[
+  {
+    "symbol": "TNK",
+    "date": "2026-03-31",
+    "stockPrice": 73.32,
+    "numberOfShares": 34758582,
+    "marketCapitalization": 2548499232,
+    "minusCashAndCashEquivalents": 722009000,
+    "addTotalDebt": 32999000,
+    "enterpriseValue": 1859489232
+  },
+  {
+    "symbol": "TNK",
+    "date": "2025-12-31",
+    "stockPrice": 53.42,
+    "numberOfShares": 34682463,
+    "marketCapitalization": 1852737173,
+    "minusCashAndCashEquivalents": 831261000,
+    "addTotalDebt": 55215000,
+    "enterpriseValue": 1076691173
+  },
+  {
+    "symbol": "TNK",
+    "date": "2025-09-30",
+    "stockPrice": 50.55,
+    "numberOfShares": 34669842,
+    "marketCapitalization": 1752560513,
+    "minusCashAndCashEquivalents": 765474000,
+    "addTotalDebt": 43347000,
+    "enterpriseValue": 1030433513
+  },
+  {
+    "symbol": "TNK",
+    "date": "2025-06-30",
+    "stockPrice": 41.72,
+    "numberOfShares": 34580482,
+    "marketCapitalization": 1442697709,
+    "minusCashAndCashEquivalents": 650038000,
+    "addTotalDebt": 49626000,
+    "enterpriseValue": 842285709
+  },
+  {
+    "symbol": "TNK",
+    "date": "2025-03-31",
+    "stockPrice": 38.27,
+    "numberOfShares": 34482849,
+    "marketCapitalization": 1319658631,
+    "minusCashAndCashEquivalents": 675420000,
+    "addTotalDebt": 54023000,
+    "enterpriseValue": 698261631
+  },
+  {
+    "symbol": "TNK",
+    "date": "2024-12-31",
+    "stockPrice": 39.79,
+    "numberOfShares": 34496757,
+    "marketCapitalization": 1372625961,
+    "minusCashAndCashEquivalents": 511888000,
+    "addTotalDebt": 62289000,
+    "enterpriseValue": 923026961
+  },
+  {
+    "symbol": "TNK",
+    "date": "2024-09-30",
+    "stockPrice": 58.25,
+    "numberOfShares": 34496757,
+    "marketCapitalization": 2009436095,
+    "minusCashAndCashEquivalents": 462851000,
+    "addTotalDebt": 54000000,
+    "enterpriseValue": 1600585095
+  },
+  {
+    "symbol": "TNK",
+    "date": "2024-06-30",
+    "stockPrice": 69.02,
+    "numberOfShares": 34383813,
+    "marketCapitalization": 2373170773,
+    "minusCashAndCashEquivalents": 426841000,
+    "addTotalDebt": 63704000,
+    "enterpriseValue": 2010033773
+  },
+  {
+    "symbol": "TNK",
+    "date": "2024-03-31",
+    "stockPrice": 60.86,
+    "numberOfShares": 34261903,
+    "marketCapitalization": 2085179416,
+    "minusCashAndCashEquivalents": 369744000,
+    "addTotalDebt": 65870000,
+    "enterpriseValue": 1781305416
+  },
+  {
+    "symbol": "TNK",
+    "date": "2023-12-31",
+    "stockPrice": 49.97,
+    "numberOfShares": 34203138,
+    "marketCapitalization": 1709130805,
+    "minusCashAndCashEquivalents": 392155000,
+    "addTotalDebt": 224677000,
+    "enterpriseValue": 1541652805
+  },
+  {
+    "symbol": "TNK",
+    "date": "2023-09-30",
+    "stockPrice": 41.63,
+    "numberOfShares": 34201415,
+    "marketCapitalization": 1423804906,
+    "minusCashAndCashEquivalents": 227292000,
+    "addTotalDebt": 231344000,
+    "enterpriseValue": 1427856906
+  },
+  {
+    "symbol": "TNK",
+    "date": "2023-06-30",
+    "stockPrice": 38.23,
+    "numberOfShares": 34140540,
+    "marketCapitalization": 1305192844,
+    "minusCashAndCashEquivalents": 178850000,
+    "addTotalDebt": 298953000,
+    "enterpriseValue": 1425295844
+  },
+  {
+    "symbol": "TNK",
+    "date": "2023-03-31",
+    "stockPrice": 42.93,
+    "numberOfShares": 34092504,
+    "marketCapitalization": 1463591196,
+    "minusCashAndCashEquivalents": 169751000,
+    "addTotalDebt": 451496000,
+    "enterpriseValue": 1745336196
+  },
+  {
+    "symbol": "TNK",
+    "date": "2022-12-31",
+    "stockPrice": 30.81,
+    "numberOfShares": 34081220,
+    "marketCapitalization": 1050042388,
+    "minusCashAndCashEquivalents": 180512000,
+    "addTotalDebt": 576203000,
+    "enterpriseValue": 1445733388
+  },
+  {
+    "symbol": "TNK",
+    "date": "2022-09-30",
+    "stockPrice": 27.54,
+    "numberOfShares": 34039501,
+    "marketCapitalization": 937447857,
+    "minusCashAndCashEquivalents": 78008000,
+    "addTotalDebt": 586884000,
+    "enterpriseValue": 1446323857
+  },
+  {
+    "symbol": "TNK",
+    "date": "2022-06-30",
+    "stockPrice": 17.63,
+    "numberOfShares": 33948880,
+    "marketCapitalization": 598518754,
+    "minusCashAndCashEquivalents": 66266000,
+    "addTotalDebt": 633665000,
+    "enterpriseValue": 1165917754
+  },
+  {
+    "symbol": "TNK",
+    "date": "2022-03-31",
+    "stockPrice": 13.84,
+    "numberOfShares": 33911545,
+    "marketCapitalization": 469335782,
+    "minusCashAndCashEquivalents": 18366000,
+    "addTotalDebt": 624457000,
+    "enterpriseValue": 1075426782
+  },
+  {
+    "symbol": "TNK",
+    "date": "2021-12-31",
+    "stockPrice": 10.9,
+    "numberOfShares": 33800000,
+    "marketCapitalization": 368420000,
+    "minusCashAndCashEquivalents": 50572000,
+    "addTotalDebt": 654147000,
+    "enterpriseValue": 971995000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2021-09-30",
+    "stockPrice": 14.53,
+    "numberOfShares": 33800000,
+    "marketCapitalization": 491114000,
+    "minusCashAndCashEquivalents": 60723000,
+    "addTotalDebt": 641981000,
+    "enterpriseValue": 1072372000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2021-06-30",
+    "stockPrice": 14.42,
+    "numberOfShares": 33719060,
+    "marketCapitalization": 486228845,
+    "minusCashAndCashEquivalents": 60498000,
+    "addTotalDebt": 597594000,
+    "enterpriseValue": 1023324845
+  },
+  {
+    "symbol": "TNK",
+    "date": "2021-03-31",
+    "stockPrice": 13.9,
+    "numberOfShares": 33743722,
+    "marketCapitalization": 469037735,
+    "minusCashAndCashEquivalents": 87595000,
+    "addTotalDebt": 602110000,
+    "enterpriseValue": 983552735
+  },
+  {
+    "symbol": "TNK",
+    "date": "2020-12-31",
+    "stockPrice": 11.01,
+    "numberOfShares": 33700445,
+    "marketCapitalization": 371041899,
+    "minusCashAndCashEquivalents": 97232000,
+    "addTotalDebt": 617004000,
+    "enterpriseValue": 890813899
+  },
+  {
+    "symbol": "TNK",
+    "date": "2020-09-30",
+    "stockPrice": 10.84,
+    "numberOfShares": 33662121,
+    "marketCapitalization": 364897391,
+    "minusCashAndCashEquivalents": 120872000,
+    "addTotalDebt": 640149000,
+    "enterpriseValue": 884174391
+  },
+  {
+    "symbol": "TNK",
+    "date": "2020-06-30",
+    "stockPrice": 12.82,
+    "numberOfShares": 33727978,
+    "marketCapitalization": 432392677,
+    "minusCashAndCashEquivalents": 167907000,
+    "addTotalDebt": 737898000,
+    "enterpriseValue": 1002383677
+  },
+  {
+    "symbol": "TNK",
+    "date": "2020-03-31",
+    "stockPrice": 22.24,
+    "numberOfShares": 33669967,
+    "marketCapitalization": 748820066,
+    "minusCashAndCashEquivalents": 203325000,
+    "addTotalDebt": 955867000,
+    "enterpriseValue": 1501362066
+  },
+  {
+    "symbol": "TNK",
+    "date": "2019-12-31",
+    "stockPrice": 23.97,
+    "numberOfShares": 33638082,
+    "marketCapitalization": 806304825,
+    "minusCashAndCashEquivalents": 88824000,
+    "addTotalDebt": 1044027000,
+    "enterpriseValue": 1761507825
+  },
+  {
+    "symbol": "TNK",
+    "date": "2019-09-30",
+    "stockPrice": 10.4,
+    "numberOfShares": 33623608,
+    "marketCapitalization": 349685523,
+    "minusCashAndCashEquivalents": 76705000,
+    "addTotalDebt": 1103489000,
+    "enterpriseValue": 1376469523
+  },
+  {
+    "symbol": "TNK",
+    "date": "2019-06-30",
+    "stockPrice": 10,
+    "numberOfShares": 33272093,
+    "marketCapitalization": 332720930,
+    "minusCashAndCashEquivalents": 35429000,
+    "addTotalDebt": 1054251000,
+    "enterpriseValue": 1351542930
+  },
+  {
+    "symbol": "TNK",
+    "date": "2019-03-31",
+    "stockPrice": 7.73,
+    "numberOfShares": 33584778,
+    "marketCapitalization": 259610333,
+    "minusCashAndCashEquivalents": 75045000,
+    "addTotalDebt": 1108079000,
+    "enterpriseValue": 1292644333
+  },
+  {
+    "symbol": "TNK",
+    "date": "2018-12-31",
+    "stockPrice": 7.42,
+    "numberOfShares": 33569819,
+    "marketCapitalization": 249088056,
+    "minusCashAndCashEquivalents": 54917000,
+    "addTotalDebt": 1110695000,
+    "enterpriseValue": 1304866056
+  },
+  {
+    "symbol": "TNK",
+    "date": "2018-09-30",
+    "stockPrice": 8.16,
+    "numberOfShares": 33569819,
+    "marketCapitalization": 273929723,
+    "minusCashAndCashEquivalents": 54361000,
+    "addTotalDebt": 1103788000,
+    "enterpriseValue": 1323356723
+  },
+  {
+    "symbol": "TNK",
+    "date": "2018-06-30",
+    "stockPrice": 9.36,
+    "numberOfShares": 33569819,
+    "marketCapitalization": 314213505,
+    "minusCashAndCashEquivalents": 48457000,
+    "addTotalDebt": 1079222000,
+    "enterpriseValue": 1344978505
+  },
+  {
+    "symbol": "TNK",
+    "date": "2018-03-31",
+    "stockPrice": 8.88,
+    "numberOfShares": 33536546,
+    "marketCapitalization": 297804528,
+    "minusCashAndCashEquivalents": 47962000,
+    "addTotalDebt": 1092346000,
+    "enterpriseValue": 1342188528
+  },
+  {
+    "symbol": "TNK",
+    "date": "2017-12-31",
+    "stockPrice": 11.12,
+    "numberOfShares": 26513387,
+    "marketCapitalization": 294828863,
+    "minusCashAndCashEquivalents": 71439000,
+    "addTotalDebt": 1101210000,
+    "enterpriseValue": 1324599863
+  },
+  {
+    "symbol": "TNK",
+    "date": "2017-09-30",
+    "stockPrice": 12.96,
+    "numberOfShares": 22403011,
+    "marketCapitalization": 290343022,
+    "minusCashAndCashEquivalents": 60606000,
+    "addTotalDebt": 796861000,
+    "enterpriseValue": 1026598022
+  },
+  {
+    "symbol": "TNK",
+    "date": "2017-06-30",
+    "stockPrice": 15.04,
+    "numberOfShares": 22307738,
+    "marketCapitalization": 335508379,
+    "minusCashAndCashEquivalents": 87255000,
+    "addTotalDebt": 821786000,
+    "enterpriseValue": 1070039379
+  },
+  {
+    "symbol": "TNK",
+    "date": "2017-03-31",
+    "stockPrice": 16.4,
+    "numberOfShares": 22265911,
+    "marketCapitalization": 365160940,
+    "minusCashAndCashEquivalents": 47564000,
+    "addTotalDebt": 845354000,
+    "enterpriseValue": 1162950940
+  },
+  {
+    "symbol": "TNK",
+    "date": "2016-12-31",
+    "stockPrice": 18.08,
+    "numberOfShares": 19589104,
+    "marketCapitalization": 354171000,
+    "minusCashAndCashEquivalents": 68108000,
+    "addTotalDebt": 933016000,
+    "enterpriseValue": 1219079000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2016-09-30",
+    "stockPrice": 20.24,
+    "numberOfShares": 21257420,
+    "marketCapitalization": 430250180,
+    "minusCashAndCashEquivalents": 59237000,
+    "addTotalDebt": 966651000,
+    "enterpriseValue": 1337664180
+  },
+  {
+    "symbol": "TNK",
+    "date": "2016-06-30",
+    "stockPrice": 23.84,
+    "numberOfShares": 19526114,
+    "marketCapitalization": 465502557,
+    "minusCashAndCashEquivalents": 58018000,
+    "addTotalDebt": 1044270000,
+    "enterpriseValue": 1451754557
+  },
+  {
+    "symbol": "TNK",
+    "date": "2016-03-31",
+    "stockPrice": 29.36,
+    "numberOfShares": 19510457,
+    "marketCapitalization": 572827017,
+    "minusCashAndCashEquivalents": 68374000,
+    "addTotalDebt": 1088423000,
+    "enterpriseValue": 1592876017
+  },
+  {
+    "symbol": "TNK",
+    "date": "2015-12-31",
+    "stockPrice": 55.04,
+    "numberOfShares": 19309700,
+    "marketCapitalization": 1062805888,
+    "minusCashAndCashEquivalents": 96417000,
+    "addTotalDebt": 1164605000,
+    "enterpriseValue": 2130993888
+  },
+  {
+    "symbol": "TNK",
+    "date": "2015-09-30",
+    "stockPrice": 55.2,
+    "numberOfShares": 16828846,
+    "marketCapitalization": 928952299,
+    "minusCashAndCashEquivalents": 80579000,
+    "addTotalDebt": 1022055000,
+    "enterpriseValue": 1870428299
+  },
+  {
+    "symbol": "TNK",
+    "date": "2015-06-30",
+    "stockPrice": 52.88,
+    "numberOfShares": 14518873,
+    "marketCapitalization": 767758004,
+    "minusCashAndCashEquivalents": 83082000,
+    "addTotalDebt": 674672000,
+    "enterpriseValue": 1359348004
+  },
+  {
+    "symbol": "TNK",
+    "date": "2015-03-31",
+    "stockPrice": 45.92,
+    "numberOfShares": 14380504,
+    "marketCapitalization": 660352743,
+    "minusCashAndCashEquivalents": 40513000,
+    "addTotalDebt": 711916000,
+    "enterpriseValue": 1331755743
+  },
+  {
+    "symbol": "TNK",
+    "date": "2014-12-31",
+    "stockPrice": 40.48,
+    "numberOfShares": 11217017,
+    "marketCapitalization": 454064848,
+    "minusCashAndCashEquivalents": 162797000,
+    "addTotalDebt": 656063000,
+    "enterpriseValue": 947330848
+  },
+  {
+    "symbol": "TNK",
+    "date": "2014-09-30",
+    "stockPrice": 29.84,
+    "numberOfShares": 10803651,
+    "marketCapitalization": 322380945,
+    "minusCashAndCashEquivalents": 46366000,
+    "addTotalDebt": 640256000,
+    "enterpriseValue": 916270945
+  },
+  {
+    "symbol": "TNK",
+    "date": "2014-06-30",
+    "stockPrice": 34.32,
+    "numberOfShares": 10459553,
+    "marketCapitalization": 358971858,
+    "minusCashAndCashEquivalents": 21764000,
+    "addTotalDebt": 609398000,
+    "enterpriseValue": 946605858
+  },
+  {
+    "symbol": "TNK",
+    "date": "2014-03-31",
+    "stockPrice": 28.32,
+    "numberOfShares": 10452176,
+    "marketCapitalization": 296005624,
+    "minusCashAndCashEquivalents": 27138000,
+    "addTotalDebt": 765541000,
+    "enterpriseValue": 1034408624
+  },
+  {
+    "symbol": "TNK",
+    "date": "2013-12-31",
+    "stockPrice": 31.44,
+    "numberOfShares": 10448878,
+    "marketCapitalization": 328512724,
+    "minusCashAndCashEquivalents": 25646000,
+    "addTotalDebt": 744634000,
+    "enterpriseValue": 1047500724
+  },
+  {
+    "symbol": "TNK",
+    "date": "2013-09-30",
+    "stockPrice": 20.96,
+    "numberOfShares": 10448878,
+    "marketCapitalization": 219008482,
+    "minusCashAndCashEquivalents": 29168000,
+    "addTotalDebt": 746167000,
+    "enterpriseValue": 936007482
+  },
+  {
+    "symbol": "TNK",
+    "date": "2013-06-30",
+    "stockPrice": 21.2,
+    "numberOfShares": 10221446,
+    "marketCapitalization": 216694655,
+    "minusCashAndCashEquivalents": 37708000,
+    "addTotalDebt": 730214000,
+    "enterpriseValue": 909200655
+  },
+  {
+    "symbol": "TNK",
+    "date": "2013-03-31",
+    "stockPrice": 22.4,
+    "numberOfShares": 10448878,
+    "marketCapitalization": 234054867,
+    "minusCashAndCashEquivalents": 27046000,
+    "addTotalDebt": 731700000,
+    "enterpriseValue": 938708867
+  },
+  {
+    "symbol": "TNK",
+    "date": "2012-12-31",
+    "stockPrice": 23.2,
+    "numberOfShares": 10448878,
+    "marketCapitalization": 242413969,
+    "minusCashAndCashEquivalents": 26341000,
+    "addTotalDebt": 735701000,
+    "enterpriseValue": 951773969
+  },
+  {
+    "symbol": "TNK",
+    "date": "2012-09-30",
+    "stockPrice": 29.84,
+    "numberOfShares": 10063541,
+    "marketCapitalization": 300296063,
+    "minusCashAndCashEquivalents": 26298000,
+    "addTotalDebt": 732142000,
+    "enterpriseValue": 1006140063
+  },
+  {
+    "symbol": "TNK",
+    "date": "2012-06-30",
+    "stockPrice": 36.48,
+    "numberOfShares": 9988959,
+    "marketCapitalization": 364397224,
+    "minusCashAndCashEquivalents": 18554000,
+    "addTotalDebt": 726099000,
+    "enterpriseValue": 1071942224
+  },
+  {
+    "symbol": "TNK",
+    "date": "2012-03-31",
+    "stockPrice": 48.56,
+    "numberOfShares": 8871955,
+    "marketCapitalization": 430822134,
+    "minusCashAndCashEquivalents": 24478000,
+    "addTotalDebt": 293450000,
+    "enterpriseValue": 699794134
+  },
+  {
+    "symbol": "TNK",
+    "date": "2011-12-31",
+    "stockPrice": 28.16,
+    "numberOfShares": 8871955,
+    "marketCapitalization": 249834252,
+    "minusCashAndCashEquivalents": 15859000,
+    "addTotalDebt": 348900000,
+    "enterpriseValue": 582875252
+  },
+  {
+    "symbol": "TNK",
+    "date": "2011-09-30",
+    "stockPrice": 36.8,
+    "numberOfShares": 7734593,
+    "marketCapitalization": 284633022,
+    "minusCashAndCashEquivalents": 14104000,
+    "addTotalDebt": 349350000,
+    "enterpriseValue": 619879022
+  },
+  {
+    "symbol": "TNK",
+    "date": "2011-06-30",
+    "stockPrice": 75.2,
+    "numberOfShares": 7734593,
+    "marketCapitalization": 581641393,
+    "minusCashAndCashEquivalents": 16566000,
+    "addTotalDebt": 349800000,
+    "enterpriseValue": 914875393
+  },
+  {
+    "symbol": "TNK",
+    "date": "2011-03-31",
+    "stockPrice": 83.68,
+    "numberOfShares": 7173801,
+    "marketCapitalization": 600303667,
+    "minusCashAndCashEquivalents": 20268000,
+    "addTotalDebt": 350578000,
+    "enterpriseValue": 930613667
+  },
+  {
+    "symbol": "TNK",
+    "date": "2010-12-31",
+    "stockPrice": 98.72,
+    "numberOfShares": 7173801,
+    "marketCapitalization": 708197634,
+    "minusCashAndCashEquivalents": 12450000,
+    "addTotalDebt": 454028000,
+    "enterpriseValue": 1149775634
+  },
+  {
+    "symbol": "TNK",
+    "date": "2010-09-30",
+    "stockPrice": 104.08,
+    "numberOfShares": 5423968,
+    "marketCapitalization": 564526589,
+    "minusCashAndCashEquivalents": 11244000,
+    "addTotalDebt": 419528000,
+    "enterpriseValue": 972810589
+  },
+  {
+    "symbol": "TNK",
+    "date": "2010-06-30",
+    "stockPrice": 89.04,
+    "numberOfShares": 5283136,
+    "marketCapitalization": 470410429,
+    "minusCashAndCashEquivalents": 8653000,
+    "addTotalDebt": 325428000,
+    "enterpriseValue": 787185429
+  },
+  {
+    "symbol": "TNK",
+    "date": "2010-03-31",
+    "stockPrice": 100.56,
+    "numberOfShares": 4000000,
+    "marketCapitalization": 402240000,
+    "minusCashAndCashEquivalents": 12152000,
+    "addTotalDebt": 304328000,
+    "enterpriseValue": 694416000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2009-12-31",
+    "stockPrice": 68.24,
+    "numberOfShares": 4000000,
+    "marketCapitalization": 272960000,
+    "minusCashAndCashEquivalents": 10432000,
+    "addTotalDebt": 305228000,
+    "enterpriseValue": 567756000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2009-09-30",
+    "stockPrice": 66.8,
+    "numberOfShares": 4000000,
+    "marketCapitalization": 267200000,
+    "minusCashAndCashEquivalents": 13396000,
+    "addTotalDebt": 306128000,
+    "enterpriseValue": 559932000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2009-06-30",
+    "stockPrice": 74.32,
+    "numberOfShares": 3182692,
+    "marketCapitalization": 236537669,
+    "minusCashAndCashEquivalents": 17575000,
+    "addTotalDebt": 307028000,
+    "enterpriseValue": 525990669
+  },
+  {
+    "symbol": "TNK",
+    "date": "2009-03-31",
+    "stockPrice": 76.08,
+    "numberOfShares": 3125000,
+    "marketCapitalization": 237750000,
+    "minusCashAndCashEquivalents": 22412000,
+    "addTotalDebt": 317928000,
+    "enterpriseValue": 533266000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2008-12-31",
+    "stockPrice": 101.6,
+    "numberOfShares": 3125000,
+    "marketCapitalization": 317500000,
+    "minusCashAndCashEquivalents": 26698000,
+    "addTotalDebt": 328828000,
+    "enterpriseValue": 619630000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2008-09-30",
+    "stockPrice": 135.44,
+    "numberOfShares": 3125000,
+    "marketCapitalization": 423250000,
+    "minusCashAndCashEquivalents": 16873000,
+    "addTotalDebt": 319728000,
+    "enterpriseValue": 726105000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2008-06-30",
+    "stockPrice": 185.68,
+    "numberOfShares": 3125000,
+    "marketCapitalization": 580250000,
+    "minusCashAndCashEquivalents": 19706000,
+    "addTotalDebt": 320628000,
+    "enterpriseValue": 881172000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2008-03-31",
+    "stockPrice": 136.96,
+    "numberOfShares": 3125000,
+    "marketCapitalization": 428000000,
+    "minusCashAndCashEquivalents": 44477000,
+    "addTotalDebt": 148200000,
+    "enterpriseValue": 531723000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2007-12-31",
+    "stockPrice": 176,
+    "numberOfShares": 3125000,
+    "marketCapitalization": 550000000,
+    "minusCashAndCashEquivalents": 34839000,
+    "addTotalDebt": 149100000,
+    "enterpriseValue": 664261000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2007-09-30",
+    "stockPrice": 160.08,
+    "numberOfShares": 1875000,
+    "marketCapitalization": 300150000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 300150000
+  },
+  {
+    "symbol": "TNK",
+    "date": "2007-06-30",
+    "stockPrice": 160.08,
+    "numberOfShares": 1875000,
+    "marketCapitalization": 300150000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 300150000
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "symbol": "AUB",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "Brokerage Management Fees Net": 4189000,
+      "Financial Service Other": 6292000,
+      "Interchange Fees Net": 7184000,
+      "Maintenance Fees Other": 7459000,
+      "Overdraft Fees Net": 17792000,
+      "Registered Advisor Management Fees Net": 8657000,
+      "Trust Asset Management Fees": 10804000
+    }
+  },
+  {
+    "symbol": "AUB",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "Brokerage Management Fees Net": 4117000,
+      "Financial Service Other": 6423000,
+      "Interchange Fees Net": 14619000,
+      "Maintenance Fees Other": 6110000,
+      "Overdraft Fees Net": 24092000,
+      "Registered Advisor Management Fees Net": 10107000,
+      "Trust Asset Management Fees": 9141000
+    }
+  },
+  {
+    "symbol": "AUB",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-12-31",
+    "data": {
+      "Asset Management": 16150000,
+      "Deposit Account": 25439000,
+      "Interchange Fees, Net": 18803000
+    }
+  }
+]

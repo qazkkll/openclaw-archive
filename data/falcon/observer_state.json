@@ -1,71 +1,50 @@
 {
-  "timestamp": "2026-06-28T15:00:15.437107-04:00",
+  "timestamp": "2026-06-29T14:35:27.651742-04:00",
   "session": "market",
   "poll_interval": 300,
   "tickers": {
     "PLTR": {
-      "price": 113.29,
-      "prev_close": 107.3,
-      "bid": 107.92,
-      "ask": 119.1,
-      "vwap": null,
-      "day_volume": 0,
-      "avg_volume_20d": 1104807.95,
-      "daily_change_pct": 5.58,
-      "vol_ratio": 0.0
-    },
-    "AVGO": {
-      "price": 365.26,
-      "prev_close": 379.325,
-      "bid": 366.53,
-      "ask": 0.0,
-      "vwap": null,
-      "day_volume": 0,
-      "avg_volume_20d": 1086174.9,
-      "daily_change_pct": -3.71,
-      "vol_ratio": 0.0
+      "price": 116.41,
+      "prev_close": 112.82,
+      "bid": 116.39,
+      "ask": 117.05,
+      "vwap": 116.83130730743487,
+      "day_volume": 941370.0,
+      "avg_volume_20d": 1056625.5,
+      "daily_change_pct": 3.18,
+      "vwap_dev_pct": -0.361,
+      "vol_ratio": 0.89
     },
     "APP": {
-      "price": 476.75,
-      "prev_close": 445.86,
-      "bid": 452.02,
-      "ask": 502.31,
-      "vwap": null,
-      "day_volume": 0,
-      "avg_volume_20d": 173662.9,
-      "daily_change_pct": 6.93,
-      "vol_ratio": 0.0
+      "price": 500.23,
+      "prev_close": 476.75,
+      "bid": 498.94,
+      "ask": 517.9,
+      "vwap": 497.32587546601275,
+      "day_volume": 78324.0,
+      "avg_volume_20d": 168779.15,
+      "daily_change_pct": 4.93,
+      "vwap_dev_pct": 0.584,
+      "vol_ratio": 0.46
     },
     "NVDA": {
-      "price": 191.88,
-      "prev_close": 195.89,
-      "bid": 192.36,
-      "ask": 211.65,
-      "vwap": null,
-      "day_volume": 0,
-      "avg_volume_20d": 4966643.6,
-      "daily_change_pct": -2.05,
-      "vol_ratio": 0.0
-    },
-    "TXN": {
-      "price": 285.415,
-      "prev_close": 311.79,
-      "bid": 268.85,
-      "ask": 295.89,
-      "vwap": null,
-      "day_volume": 0,
-      "avg_volume_20d": 415925.4,
-      "daily_change_pct": -8.46,
-      "vol_ratio": 0.0
+      "price": 194.19,
+      "prev_close": 191.97,
+      "bid": 194.14,
+      "ask": 195.0,
+      "vwap": 193.73626739212656,
+      "day_volume": 2890029.0,
+      "avg_volume_20d": 4817310.05,
+      "daily_change_pct": 1.16,
+      "vwap_dev_pct": 0.234,
+      "vol_ratio": 0.6
     }
   },
   "signal_tickers": [
     "PLTR",
-    "AVGO",
     "APP",
-    "NVDA",
-    "TXN"
+    "NVDA"
   ],
   "has_alerts": true,
-  "alert_count": 4
+  "alert_count": 2
 }

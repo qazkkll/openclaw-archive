@@ -1,0 +1,659 @@
+[
+  {
+    "symbol": "IBKR",
+    "date": "2026-07-16",
+    "epsActual": null,
+    "epsEstimated": 0.59,
+    "revenueActual": null,
+    "revenueEstimated": 1694855000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2026-04-21",
+    "epsActual": 0.6,
+    "epsEstimated": 0.57,
+    "revenueActual": 1680000000,
+    "revenueEstimated": 1685123000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2026-01-20",
+    "epsActual": 0.65,
+    "epsEstimated": 0.595,
+    "revenueActual": 1643000000,
+    "revenueEstimated": 1638848000,
+    "lastUpdated": "2026-04-20"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2025-10-16",
+    "epsActual": 0.57,
+    "epsEstimated": 0.542,
+    "revenueActual": 1570000000,
+    "revenueEstimated": 1526741100,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2025-07-17",
+    "epsActual": 0.51,
+    "epsEstimated": 0.4713,
+    "revenueActual": 1438000000,
+    "revenueEstimated": 1373702767,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2025-04-15",
+    "epsActual": 0.47,
+    "epsEstimated": 0.4809,
+    "revenueActual": 1362000000,
+    "revenueEstimated": 1408912142,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2024-01-16",
+    "epsActual": 0.38,
+    "epsEstimated": 0.3835,
+    "revenueActual": 1133000000,
+    "revenueEstimated": 1145540000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2023-10-17",
+    "epsActual": 0.39,
+    "epsEstimated": 0.3781,
+    "revenueActual": 1118000000,
+    "revenueEstimated": 1111380000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2023-07-18",
+    "epsActual": 0.33,
+    "epsEstimated": 0.3493,
+    "revenueActual": 1063000000,
+    "revenueEstimated": 1057210000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2023-04-18",
+    "epsActual": 0.34,
+    "epsEstimated": 1.41,
+    "revenueActual": 1037000000,
+    "revenueEstimated": 1076570000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2023-01-17",
+    "epsActual": 1.3,
+    "epsEstimated": 1.16,
+    "revenueActual": 976000000,
+    "revenueEstimated": 924166700,
+    "lastUpdated": "2026-05-07"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2022-10-18",
+    "epsActual": 0.27,
+    "epsEstimated": 0.962,
+    "revenueActual": 838000000,
+    "revenueEstimated": 797574000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2022-07-19",
+    "epsActual": 0.21,
+    "epsEstimated": 0.918,
+    "revenueActual": 713000000,
+    "revenueEstimated": 739632500,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2022-04-19",
+    "epsActual": 0.2,
+    "epsEstimated": 0.824,
+    "revenueActual": 684000000,
+    "revenueEstimated": 701653800,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2022-01-18",
+    "epsActual": 0.21,
+    "epsEstimated": 0.2,
+    "revenueActual": 728000000,
+    "revenueEstimated": 669766000,
+    "lastUpdated": "2026-05-07"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2021-10-19",
+    "epsActual": 0.19,
+    "epsEstimated": 0.19,
+    "revenueActual": 634000000,
+    "revenueEstimated": 609820000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2021-07-20",
+    "epsActual": 0.2,
+    "epsEstimated": 0.21,
+    "revenueActual": 636000000,
+    "revenueEstimated": 609820000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2021-04-20",
+    "epsActual": 0.25,
+    "epsEstimated": 0.22,
+    "revenueActual": 773000000,
+    "revenueEstimated": 632180000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2021-01-19",
+    "epsActual": 0.17,
+    "epsEstimated": 0.15,
+    "revenueActual": 620000000,
+    "revenueEstimated": 543703500,
+    "lastUpdated": "2026-05-07"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2020-10-20",
+    "epsActual": 0.13,
+    "epsEstimated": 0.13,
+    "revenueActual": 564000000,
+    "revenueEstimated": 568679245,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2020-07-21",
+    "epsActual": 0.14,
+    "epsEstimated": 0.08,
+    "revenueActual": 512000000,
+    "revenueEstimated": 454781250,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2020-04-21",
+    "epsActual": 0.17,
+    "epsEstimated": 0.17,
+    "revenueActual": 676000000,
+    "revenueEstimated": 643710144,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2020-02-28",
+    "epsActual": 0.1422,
+    "epsEstimated": null,
+    "revenueActual": 593000000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2019-10-15",
+    "epsActual": 0.11,
+    "epsEstimated": 0.49,
+    "revenueActual": 690000000,
+    "revenueEstimated": 758955555,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2019-07-16",
+    "epsActual": 0.11,
+    "epsEstimated": 0.12,
+    "revenueActual": 645000000,
+    "revenueEstimated": 803627906,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2019-04-16",
+    "epsActual": 0.16,
+    "epsEstimated": 0.11,
+    "revenueActual": 454000000,
+    "revenueEstimated": 515921875,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2019-02-28",
+    "epsActual": 0.1418,
+    "epsEstimated": null,
+    "revenueActual": 597000000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2018-10-16",
+    "epsActual": 0.13,
+    "epsEstimated": 0.12,
+    "revenueActual": 537000000,
+    "revenueEstimated": 566666666,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2018-07-17",
+    "epsActual": 0.14,
+    "epsEstimated": 0.13,
+    "revenueActual": 530000000,
+    "revenueEstimated": 593974358,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2018-04-17",
+    "epsActual": 0.16,
+    "epsEstimated": 0.14,
+    "revenueActual": 544000000,
+    "revenueEstimated": 527369230,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2018-03-01",
+    "epsActual": -0.00691,
+    "epsEstimated": null,
+    "revenueActual": 466000000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2017-10-17",
+    "epsActual": 0.11,
+    "epsEstimated": 0.09,
+    "revenueActual": 417000000,
+    "revenueEstimated": 402976744,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2017-07-18",
+    "epsActual": 0.08,
+    "epsEstimated": 0.08,
+    "revenueActual": 379000000,
+    "revenueEstimated": 369097560,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2017-04-18",
+    "epsActual": 0.09,
+    "epsEstimated": 0.1,
+    "revenueActual": 333000000,
+    "revenueEstimated": 349050000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2017-02-28",
+    "epsActual": 0.0145,
+    "epsEstimated": null,
+    "revenueActual": 349000000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2016-10-18",
+    "epsActual": 0.08,
+    "epsEstimated": 0.08,
+    "revenueActual": 339000000,
+    "revenueEstimated": 402600000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2016-07-19",
+    "epsActual": 0.1,
+    "epsEstimated": 0.09,
+    "revenueActual": 330000000,
+    "revenueEstimated": 376250000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2016-04-19",
+    "epsActual": 0.13,
+    "epsEstimated": 0.11,
+    "revenueActual": 363000000,
+    "revenueEstimated": 397150000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2016-02-29",
+    "epsActual": 0.06434,
+    "epsEstimated": null,
+    "revenueActual": 333000000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2015-10-20",
+    "epsActual": 0.09,
+    "epsEstimated": 0.08,
+    "revenueActual": 376000000,
+    "revenueEstimated": 521739130,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2015-07-21",
+    "epsActual": 0.09,
+    "epsEstimated": 0.08,
+    "revenueActual": 332000000,
+    "revenueEstimated": 340568181,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2015-04-21",
+    "epsActual": -0.05,
+    "epsEstimated": -0.01354,
+    "revenueActual": 304000000,
+    "revenueEstimated": 46750000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2015-03-02",
+    "epsActual": 0.03374,
+    "epsEstimated": null,
+    "revenueActual": 393478000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2014-10-21",
+    "epsActual": 0.01,
+    "epsEstimated": -0.0025,
+    "revenueActual": 273000000,
+    "revenueEstimated": 45230769,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2014-07-15",
+    "epsActual": 0.06,
+    "epsEstimated": 0.07,
+    "revenueActual": 284000000,
+    "revenueEstimated": 321000000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2014-04-15",
+    "epsActual": 0.09,
+    "epsEstimated": 0.07,
+    "revenueActual": 315000000,
+    "revenueEstimated": 316285714,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2014-03-03",
+    "epsActual": 0.01685,
+    "epsEstimated": null,
+    "revenueActual": 247071000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2013-10-15",
+    "epsActual": 0.08,
+    "epsEstimated": 0.08,
+    "revenueActual": 305426000,
+    "revenueEstimated": 295015384,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2013-07-16",
+    "epsActual": 0.05,
+    "epsEstimated": 0.05,
+    "revenueActual": 273268000,
+    "revenueEstimated": 446249999,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2013-04-16",
+    "epsActual": 0.04,
+    "epsEstimated": 0.08634,
+    "revenueActual": 209034000,
+    "revenueEstimated": 495950000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2013-03-08",
+    "epsActual": 0.04764,
+    "epsEstimated": null,
+    "revenueActual": 8596000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2012-10-16",
+    "epsActual": 0.06,
+    "epsEstimated": 0.09,
+    "revenueActual": 315694000,
+    "revenueEstimated": 388266666,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2012-08-31",
+    "epsActual": 0.528,
+    "epsEstimated": null,
+    "revenueActual": 261699000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2012-07-17",
+    "epsActual": 0.09,
+    "epsEstimated": 0.18,
+    "revenueActual": 304741000,
+    "revenueEstimated": 554000000,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2012-02-29",
+    "epsActual": 0.794,
+    "epsEstimated": null,
+    "revenueActual": 328693000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2011-10-20",
+    "epsActual": 0.36,
+    "epsEstimated": 0.22,
+    "revenueActual": 385526000,
+    "revenueEstimated": 249883333,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2011-07-21",
+    "epsActual": 0.05,
+    "epsEstimated": 0.3,
+    "revenueActual": 321377000,
+    "revenueEstimated": 311032258,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2011-04-21",
+    "epsActual": 0.09,
+    "epsEstimated": 0.27,
+    "revenueActual": 367888000,
+    "revenueEstimated": 253931707,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2011-02-28",
+    "epsActual": 0.04544,
+    "epsEstimated": null,
+    "revenueActual": 203640000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2010-10-21",
+    "epsActual": 0.26,
+    "epsEstimated": 0.19,
+    "revenueActual": 299138000,
+    "revenueEstimated": 230265384,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2010-07-22",
+    "epsActual": 0.09,
+    "epsEstimated": 0.21,
+    "revenueActual": 243850000,
+    "revenueEstimated": 569099999,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2010-04-22",
+    "epsActual": 0.09,
+    "epsEstimated": 0.19,
+    "revenueActual": 225730000,
+    "revenueEstimated": 476477777,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2010-02-26",
+    "epsActual": 0.3012,
+    "epsEstimated": null,
+    "revenueActual": 215701000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2009-10-22",
+    "epsActual": 0.2,
+    "epsEstimated": 0.31,
+    "revenueActual": 286665000,
+    "revenueEstimated": 444384999,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2009-07-23",
+    "epsActual": 0.08,
+    "epsEstimated": 0.3,
+    "revenueActual": 354882000,
+    "revenueEstimated": 343451612,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2009-04-23",
+    "epsActual": 0.3,
+    "epsEstimated": 0.46,
+    "revenueActual": 312525000,
+    "revenueEstimated": 479166666,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2009-03-02",
+    "epsActual": 1.22,
+    "epsEstimated": null,
+    "revenueActual": 474781000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2008-10-23",
+    "epsActual": 0.65,
+    "epsEstimated": 0.61,
+    "revenueActual": 567878000,
+    "revenueEstimated": 532952307,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2008-07-24",
+    "epsActual": 0.44,
+    "epsEstimated": 0.5,
+    "revenueActual": 497960000,
+    "revenueEstimated": 565909090,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2008-04-24",
+    "epsActual": 0.66,
+    "epsEstimated": 0.5,
+    "revenueActual": 528519000,
+    "revenueEstimated": 486136363,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2008-03-27",
+    "epsActual": 1.53,
+    "epsEstimated": null,
+    "revenueActual": 532878000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2007-10-25",
+    "epsActual": 0.53,
+    "epsEstimated": 0.34,
+    "revenueActual": 445153000,
+    "revenueEstimated": 377143396,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2007-06-15",
+    "epsActual": 1.15,
+    "epsEstimated": null,
+    "revenueActual": 464345000,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  }
+]

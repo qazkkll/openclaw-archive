@@ -1,0 +1,82 @@
+[
+  {
+    "symbol": "AX",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-06-30",
+    "data": {
+      "Advisory Fee Income": 31794000,
+      "Broker Dealer Clearing Fees": 22233000,
+      "Card Fees": 2867000,
+      "Deposit Service Fees": 5430000
+    }
+  },
+  {
+    "symbol": "AX",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-06-30",
+    "data": {
+      "Advisory Fee Income": 31335000,
+      "Broker Dealer Clearing Fees": 20643000,
+      "Card Fees": 2516000,
+      "Deposit Service Fees": 4257000
+    }
+  },
+  {
+    "symbol": "AX",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-06-30",
+    "data": {
+      "Advisory Fee Income": 28324000,
+      "Bankruptcy Trustees and Fiduciary Service Fees": 6107000,
+      "Broker Dealer Clearing Fees": 21903000,
+      "Card Fees": 4410000,
+      "Deposit Service Fees": 4517000
+    }
+  },
+  {
+    "symbol": "AX",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-06-30",
+    "data": {
+      "Advisory Fee Income": 28309000,
+      "Bankruptcy Trustees and Fiduciary Service Fees": 3099000,
+      "Broker Dealer Clearing Fees": 19754000,
+      "Card Fees": 3764000,
+      "Deposit Service Fees": 4508000
+    }
+  },
+  {
+    "symbol": "AX",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-06-30",
+    "data": {
+      "Bankruptcy Trustees and Fiduciary Service Fees": 1272000,
+      "Broker Dealer Clearing Fees": 23210000,
+      "Card Fees": 5040000,
+      "Deposit Service Fees": 4240000
+    }
+  },
+  {
+    "symbol": "AX",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-06-30",
+    "data": {
+      "Bankruptcy Trustees and Fiduciary Service Fees": 7036000,
+      "Broker Dealer Clearing Fees": 11737000,
+      "Card Fees": 5340000,
+      "Deposit Service Fees": 3513000
+    }
+  }
+]

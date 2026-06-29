@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "COHR",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-06-30",
+    "data": {
+      "CHINA": 680110000,
+      "Europe": 698800000,
+      "JAPAN": 390610000,
+      "North America": 3564846000,
+      "Rest Of World": 475749000
+    }
+  },
+  {
+    "symbol": "COHR",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-06-30",
+    "data": {
+      "CHINA": 621918000,
+      "Europe": 714282000,
+      "JAPAN": 340863000,
+      "North America": 2622569000,
+      "Rest Of World": 408056000
+    }
+  },
+  {
+    "symbol": "COHR",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-06-30",
+    "data": {
+      "CHINA": 577180000,
+      "Europe": 979911000,
+      "JAPAN": 392479000,
+      "Rest of World": 464639000,
+      "UNITED STATES": 2745891000
+    }
+  }
+]

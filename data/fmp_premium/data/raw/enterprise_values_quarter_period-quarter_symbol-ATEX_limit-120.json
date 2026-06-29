@@ -1,0 +1,512 @@
+[
+  {
+    "symbol": "ATEX",
+    "date": "2025-12-31",
+    "stockPrice": 21.83,
+    "numberOfShares": 18682899,
+    "marketCapitalization": 407847685,
+    "minusCashAndCashEquivalents": 37887000,
+    "addTotalDebt": 7876000,
+    "enterpriseValue": 377836685
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2025-09-30",
+    "stockPrice": 21.47,
+    "numberOfShares": 18687082,
+    "marketCapitalization": 401211650,
+    "minusCashAndCashEquivalents": 48063000,
+    "addTotalDebt": 8030000,
+    "enterpriseValue": 361178650
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2025-06-30",
+    "stockPrice": 25.65,
+    "numberOfShares": 18621701,
+    "marketCapitalization": 477646630,
+    "minusCashAndCashEquivalents": 41432000,
+    "addTotalDebt": 5204000,
+    "enterpriseValue": 441418630
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2025-03-31",
+    "stockPrice": 36.6,
+    "numberOfShares": 18577700,
+    "marketCapitalization": 679943820,
+    "minusCashAndCashEquivalents": 47374000,
+    "addTotalDebt": 5390000,
+    "enterpriseValue": 637959820
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2024-12-31",
+    "stockPrice": 30.67,
+    "numberOfShares": 18609736,
+    "marketCapitalization": 570760603,
+    "minusCashAndCashEquivalents": 28797000,
+    "addTotalDebt": 5354000,
+    "enterpriseValue": 547317603
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2024-09-30",
+    "stockPrice": 37.66,
+    "numberOfShares": 18586075,
+    "marketCapitalization": 699951584,
+    "minusCashAndCashEquivalents": 43129000,
+    "addTotalDebt": 5651000,
+    "enterpriseValue": 662473584
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2024-06-30",
+    "stockPrice": 39.28,
+    "numberOfShares": 18486964,
+    "marketCapitalization": 726167945,
+    "minusCashAndCashEquivalents": 51715000,
+    "addTotalDebt": 5260000,
+    "enterpriseValue": 679712945
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2024-03-31",
+    "stockPrice": 32.96,
+    "numberOfShares": 18483292,
+    "marketCapitalization": 609209304,
+    "minusCashAndCashEquivalents": 60578000,
+    "addTotalDebt": 8214000,
+    "enterpriseValue": 556845304
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2023-12-31",
+    "stockPrice": 33.32,
+    "numberOfShares": 18704400,
+    "marketCapitalization": 623230608,
+    "minusCashAndCashEquivalents": 62033000,
+    "addTotalDebt": 5588000,
+    "enterpriseValue": 566785608
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2023-09-30",
+    "stockPrice": 31.38,
+    "numberOfShares": 18921126,
+    "marketCapitalization": 593744933,
+    "minusCashAndCashEquivalents": 48534000,
+    "addTotalDebt": 3888000,
+    "enterpriseValue": 549098933
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2023-06-30",
+    "stockPrice": 31.69,
+    "numberOfShares": 18951046,
+    "marketCapitalization": 600558647,
+    "minusCashAndCashEquivalents": 29033000,
+    "addTotalDebt": 4259000,
+    "enterpriseValue": 575784647
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2023-03-31",
+    "stockPrice": 33.04,
+    "numberOfShares": 18921999,
+    "marketCapitalization": 625182846,
+    "minusCashAndCashEquivalents": 43182000,
+    "addTotalDebt": 4647000,
+    "enterpriseValue": 586647846
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2022-12-31",
+    "stockPrice": 32.17,
+    "numberOfShares": 18930594,
+    "marketCapitalization": 608997208,
+    "minusCashAndCashEquivalents": 57511000,
+    "addTotalDebt": 4942000,
+    "enterpriseValue": 556428208
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2022-09-30",
+    "stockPrice": 35.72,
+    "numberOfShares": 18953044,
+    "marketCapitalization": 677002731,
+    "minusCashAndCashEquivalents": 70114000,
+    "addTotalDebt": 4990000,
+    "enterpriseValue": 611878731
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2022-06-30",
+    "stockPrice": 41.07,
+    "numberOfShares": 18619459,
+    "marketCapitalization": 764701181,
+    "minusCashAndCashEquivalents": 86456000,
+    "addTotalDebt": 5362000,
+    "enterpriseValue": 683607181
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2022-03-31",
+    "stockPrice": 57.9,
+    "numberOfShares": 18352600,
+    "marketCapitalization": 1062615540,
+    "minusCashAndCashEquivalents": 105624000,
+    "addTotalDebt": 5689000,
+    "enterpriseValue": 962680540
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2021-12-31",
+    "stockPrice": 58.76,
+    "numberOfShares": 18313193,
+    "marketCapitalization": 1076083220,
+    "minusCashAndCashEquivalents": 127764000,
+    "addTotalDebt": 5984000,
+    "enterpriseValue": 954303220
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2021-09-30",
+    "stockPrice": 60.7,
+    "numberOfShares": 17876440,
+    "marketCapitalization": 1085099908,
+    "minusCashAndCashEquivalents": 100866000,
+    "addTotalDebt": 6335000,
+    "enterpriseValue": 990568908
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2021-06-30",
+    "stockPrice": 59.99,
+    "numberOfShares": 17739370,
+    "marketCapitalization": 1064184806,
+    "minusCashAndCashEquivalents": 106899000,
+    "addTotalDebt": 6694000,
+    "enterpriseValue": 963979806
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2021-03-31",
+    "stockPrice": 47.16,
+    "numberOfShares": 17599819,
+    "marketCapitalization": 830007464,
+    "minusCashAndCashEquivalents": 117538000,
+    "addTotalDebt": 7071000,
+    "enterpriseValue": 719540464
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2020-12-31",
+    "stockPrice": 37.6,
+    "numberOfShares": 17492539,
+    "marketCapitalization": 657719466,
+    "minusCashAndCashEquivalents": 108486000,
+    "addTotalDebt": 7457000,
+    "enterpriseValue": 556690466
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2020-09-30",
+    "stockPrice": 32.71,
+    "numberOfShares": 17350386,
+    "marketCapitalization": 567531126,
+    "minusCashAndCashEquivalents": 116210000,
+    "addTotalDebt": 7785000,
+    "enterpriseValue": 459106126
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2020-06-30",
+    "stockPrice": 45.34,
+    "numberOfShares": 17207532,
+    "marketCapitalization": 780189500,
+    "minusCashAndCashEquivalents": 124766000,
+    "addTotalDebt": 8279000,
+    "enterpriseValue": 663702500
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2020-03-31",
+    "stockPrice": 45.67,
+    "numberOfShares": 17182905,
+    "marketCapitalization": 784743271,
+    "minusCashAndCashEquivalents": 137453000,
+    "addTotalDebt": 8746000,
+    "enterpriseValue": 656036271
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2019-12-31",
+    "stockPrice": 43.21,
+    "numberOfShares": 17093133,
+    "marketCapitalization": 738594276,
+    "minusCashAndCashEquivalents": 150243000,
+    "addTotalDebt": 9148000,
+    "enterpriseValue": 597499276
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2019-09-30",
+    "stockPrice": 36.2,
+    "numberOfShares": 16634154,
+    "marketCapitalization": 602156374,
+    "minusCashAndCashEquivalents": 157494000,
+    "addTotalDebt": 9531000,
+    "enterpriseValue": 454193374
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2019-06-30",
+    "stockPrice": 47.5,
+    "numberOfShares": 14763379,
+    "marketCapitalization": 701260502,
+    "minusCashAndCashEquivalents": 69022000,
+    "addTotalDebt": 9869000,
+    "enterpriseValue": 642107502
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2019-03-31",
+    "stockPrice": 36.56,
+    "numberOfShares": 14685017,
+    "marketCapitalization": 536884221,
+    "minusCashAndCashEquivalents": 76722000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 460162221
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2018-12-31",
+    "stockPrice": 37.39,
+    "numberOfShares": 14614793,
+    "marketCapitalization": 546447110,
+    "minusCashAndCashEquivalents": 82349000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 464098110
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2018-09-30",
+    "stockPrice": 34.28,
+    "numberOfShares": 14521148,
+    "marketCapitalization": 497784953,
+    "minusCashAndCashEquivalents": 85644000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 412140953
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2018-06-30",
+    "stockPrice": 24.95,
+    "numberOfShares": 14481561,
+    "marketCapitalization": 361314946,
+    "minusCashAndCashEquivalents": 90936000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 270378946
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2018-03-31",
+    "stockPrice": 29.85,
+    "numberOfShares": 14466263,
+    "marketCapitalization": 431817950,
+    "minusCashAndCashEquivalents": 98318000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 333499950
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2017-12-31",
+    "stockPrice": 32.1,
+    "numberOfShares": 14451313,
+    "marketCapitalization": 463887147,
+    "minusCashAndCashEquivalents": 104244000,
+    "addTotalDebt": 497000,
+    "enterpriseValue": 360140147
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2017-09-30",
+    "stockPrice": 29.8,
+    "numberOfShares": 14447499,
+    "marketCapitalization": 430535470,
+    "minusCashAndCashEquivalents": 110543000,
+    "addTotalDebt": 497000,
+    "enterpriseValue": 320489470
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2017-06-30",
+    "stockPrice": 23.3,
+    "numberOfShares": 14437986,
+    "marketCapitalization": 336405073,
+    "minusCashAndCashEquivalents": 115541000,
+    "addTotalDebt": 497000,
+    "enterpriseValue": 221361073
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2017-03-31",
+    "stockPrice": 21.85,
+    "numberOfShares": 14421878,
+    "marketCapitalization": 315118034,
+    "minusCashAndCashEquivalents": 124083000,
+    "addTotalDebt": 497000,
+    "enterpriseValue": 191532034
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2016-12-31",
+    "stockPrice": 22.55,
+    "numberOfShares": 14396212,
+    "marketCapitalization": 324634580,
+    "minusCashAndCashEquivalents": 130686333,
+    "addTotalDebt": 991810,
+    "enterpriseValue": 194940057
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2016-09-30",
+    "stockPrice": 22.9,
+    "numberOfShares": 14383224,
+    "marketCapitalization": 329375829,
+    "minusCashAndCashEquivalents": 136958632,
+    "addTotalDebt": 991810,
+    "enterpriseValue": 193409007
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2016-06-30",
+    "stockPrice": 21.39,
+    "numberOfShares": 14375466,
+    "marketCapitalization": 307491217,
+    "minusCashAndCashEquivalents": 143181931,
+    "addTotalDebt": 991810,
+    "enterpriseValue": 165301096
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2016-03-31",
+    "stockPrice": 34.34,
+    "numberOfShares": 14375466,
+    "marketCapitalization": 493653502,
+    "minusCashAndCashEquivalents": 153462865,
+    "addTotalDebt": 991810,
+    "enterpriseValue": 341182447
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2015-12-31",
+    "stockPrice": 27.5,
+    "numberOfShares": 14375441,
+    "marketCapitalization": 395324627,
+    "minusCashAndCashEquivalents": 160676036,
+    "addTotalDebt": 1289013,
+    "enterpriseValue": 235937604
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2015-09-30",
+    "stockPrice": 29.9,
+    "numberOfShares": 14379082,
+    "marketCapitalization": 429934551,
+    "minusCashAndCashEquivalents": 169279421,
+    "addTotalDebt": 0,
+    "enterpriseValue": 260655130
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2015-06-30",
+    "stockPrice": 42.13,
+    "numberOfShares": 13492560,
+    "marketCapitalization": 568441552,
+    "minusCashAndCashEquivalents": 175851438,
+    "addTotalDebt": 0,
+    "enterpriseValue": 392590114
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2015-03-31",
+    "stockPrice": 50,
+    "numberOfShares": 12642365,
+    "marketCapitalization": 632118250,
+    "minusCashAndCashEquivalents": 119873668,
+    "addTotalDebt": 0,
+    "enterpriseValue": 512244582
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2014-12-31",
+    "stockPrice": 40,
+    "numberOfShares": 12473024,
+    "marketCapitalization": 498920960,
+    "minusCashAndCashEquivalents": 122729111,
+    "addTotalDebt": 0,
+    "enterpriseValue": 376191849
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2014-09-30",
+    "stockPrice": 40,
+    "numberOfShares": 11986267,
+    "marketCapitalization": 479450680,
+    "minusCashAndCashEquivalents": 125274906,
+    "addTotalDebt": 0,
+    "enterpriseValue": 354175774
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2014-06-30",
+    "stockPrice": 40,
+    "numberOfShares": 2827574,
+    "marketCapitalization": 113102960,
+    "minusCashAndCashEquivalents": 6951041,
+    "addTotalDebt": 3450808,
+    "enterpriseValue": 109602727
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2014-03-31",
+    "stockPrice": 40,
+    "numberOfShares": 2827574,
+    "marketCapitalization": 113102960,
+    "minusCashAndCashEquivalents": 45679,
+    "addTotalDebt": 3405808,
+    "enterpriseValue": 116463089
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2013-12-31",
+    "stockPrice": 40,
+    "numberOfShares": 12473024,
+    "marketCapitalization": 498920960,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 498920960
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2013-09-30",
+    "stockPrice": 40,
+    "numberOfShares": 904612,
+    "marketCapitalization": 36184480,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 36184480
+  },
+  {
+    "symbol": "ATEX",
+    "date": "2013-06-30",
+    "stockPrice": 40,
+    "numberOfShares": 904612,
+    "marketCapitalization": 36184480,
+    "minusCashAndCashEquivalents": -194938,
+    "addTotalDebt": 0,
+    "enterpriseValue": 36379418
+  }
+]

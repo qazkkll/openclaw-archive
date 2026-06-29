@@ -1,0 +1,962 @@
+[
+  {
+    "symbol": "CTA-PA",
+    "date": "2026-03-31",
+    "stockPrice": 54.45,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 1964000000,
+    "addTotalDebt": 3356000000,
+    "enterpriseValue": 1392000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2025-12-31",
+    "stockPrice": 54.03,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4521000000,
+    "addTotalDebt": 2580000000,
+    "enterpriseValue": -1941000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2025-09-30",
+    "stockPrice": 55.75,
+    "numberOfShares": 684900000,
+    "marketCapitalization": 38183175000,
+    "minusCashAndCashEquivalents": 2737000000,
+    "addTotalDebt": 4373000000,
+    "enterpriseValue": 39819175000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2025-06-30",
+    "stockPrice": 55.04,
+    "numberOfShares": 684900000,
+    "marketCapitalization": 37696896000,
+    "minusCashAndCashEquivalents": 2065000000,
+    "addTotalDebt": 3629000000,
+    "enterpriseValue": 39260896000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2025-03-31",
+    "stockPrice": 57.25,
+    "numberOfShares": 684900000,
+    "marketCapitalization": 39210525000,
+    "minusCashAndCashEquivalents": 2008000000,
+    "addTotalDebt": 4083000000,
+    "enterpriseValue": 41285525000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2024-12-31",
+    "stockPrice": 55.33,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 48015707584,
+    "minusCashAndCashEquivalents": 3422000000,
+    "addTotalDebt": 3179000000,
+    "enterpriseValue": 47772707584
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2024-09-30",
+    "stockPrice": 65.89,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 57179739250,
+    "minusCashAndCashEquivalents": 2421000000,
+    "addTotalDebt": 5716000000,
+    "enterpriseValue": 60474739250
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2024-06-30",
+    "stockPrice": 54.96,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 47694619353,
+    "minusCashAndCashEquivalents": 1839000000,
+    "addTotalDebt": 4724000000,
+    "enterpriseValue": 50579619353
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2024-03-31",
+    "stockPrice": 57.1,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 49551724255,
+    "minusCashAndCashEquivalents": 1505000000,
+    "addTotalDebt": 4640000000,
+    "enterpriseValue": 52686724255
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2023-12-31",
+    "stockPrice": 55.89,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3158000000,
+    "addTotalDebt": 2977000000,
+    "enterpriseValue": -181000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2023-09-30",
+    "stockPrice": 57.41,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2254000000,
+    "addTotalDebt": 5899000000,
+    "enterpriseValue": 3645000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2023-06-30",
+    "stockPrice": 60.62,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2563000000,
+    "addTotalDebt": 5313000000,
+    "enterpriseValue": 2750000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2023-03-31",
+    "stockPrice": 64.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 1646000000,
+    "addTotalDebt": 5028000000,
+    "enterpriseValue": 3382000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2022-12-31",
+    "stockPrice": 62.25,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3191000000,
+    "addTotalDebt": 1307000000,
+    "enterpriseValue": -1884000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2022-09-30",
+    "stockPrice": 69.97,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2199000000,
+    "addTotalDebt": 2853000000,
+    "enterpriseValue": 654000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2022-06-30",
+    "stockPrice": 76.98,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2401000000,
+    "addTotalDebt": 1995000000,
+    "enterpriseValue": -406000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2022-03-31",
+    "stockPrice": 80,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2031000000,
+    "addTotalDebt": 2172000000,
+    "enterpriseValue": 141000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2021-12-31",
+    "stockPrice": 94.35,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4459000000,
+    "addTotalDebt": 1120000000,
+    "enterpriseValue": -3339000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2021-09-30",
+    "stockPrice": 94.88,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2779000000,
+    "addTotalDebt": 2473000000,
+    "enterpriseValue": -306000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2021-06-30",
+    "stockPrice": 95.98,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2861000000,
+    "addTotalDebt": 1778000000,
+    "enterpriseValue": -1083000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2021-03-31",
+    "stockPrice": 91.02,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2404000000,
+    "addTotalDebt": 5364000000,
+    "enterpriseValue": 2960000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2020-12-31",
+    "stockPrice": 88.45,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3526000000,
+    "addTotalDebt": 1106000000,
+    "enterpriseValue": -2420000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2020-09-30",
+    "stockPrice": 85.28,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2768000000,
+    "addTotalDebt": 3244000000,
+    "enterpriseValue": 476000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2020-06-30",
+    "stockPrice": 80,
+    "numberOfShares": 749400000,
+    "marketCapitalization": 59952000000,
+    "minusCashAndCashEquivalents": 2809000000,
+    "addTotalDebt": 2631000000,
+    "enterpriseValue": 59774000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2020-03-31",
+    "stockPrice": 79.75,
+    "numberOfShares": 749400000,
+    "marketCapitalization": 59764650000,
+    "minusCashAndCashEquivalents": 1963000000,
+    "addTotalDebt": 2610000000,
+    "enterpriseValue": 60411650000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2019-12-31",
+    "stockPrice": 87.5,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 75933027537,
+    "minusCashAndCashEquivalents": 1764000000,
+    "addTotalDebt": 127000000,
+    "enterpriseValue": 74296027537
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2019-09-30",
+    "stockPrice": 83.53,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 72487837602,
+    "minusCashAndCashEquivalents": 1980000000,
+    "addTotalDebt": 7757000000,
+    "enterpriseValue": 78264837602
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2019-06-30",
+    "stockPrice": 82.5,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 71593997392,
+    "minusCashAndCashEquivalents": 2077000000,
+    "addTotalDebt": 2175000000,
+    "enterpriseValue": 71691997392
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2019-03-31",
+    "stockPrice": 82,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 71160094378,
+    "minusCashAndCashEquivalents": 3796000000,
+    "addTotalDebt": 9525000000,
+    "enterpriseValue": 76889094378
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2018-12-31",
+    "stockPrice": 76.25,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 66170209711,
+    "minusCashAndCashEquivalents": 2128000000,
+    "addTotalDebt": 7938000000,
+    "enterpriseValue": 71980209711
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2018-09-30",
+    "stockPrice": 84.14,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 73017199280,
+    "minusCashAndCashEquivalents": 3536000000,
+    "addTotalDebt": 14568000000,
+    "enterpriseValue": 84049199280
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2018-06-30",
+    "stockPrice": 86.5,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 75065221508,
+    "minusCashAndCashEquivalents": 4421000000,
+    "addTotalDebt": 13429000000,
+    "enterpriseValue": 84073221508
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2018-03-31",
+    "stockPrice": 86.05,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 74674708795,
+    "minusCashAndCashEquivalents": 5095000000,
+    "addTotalDebt": 13153000000,
+    "enterpriseValue": 82732708795
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2017-12-31",
+    "stockPrice": 92.4,
+    "numberOfShares": 867806029,
+    "marketCapitalization": 80185277079,
+    "minusCashAndCashEquivalents": 7250000000,
+    "addTotalDebt": 13070000000,
+    "enterpriseValue": 86005277079
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2017-09-30",
+    "stockPrice": 91,
+    "numberOfShares": 868481000,
+    "marketCapitalization": 79031771000,
+    "minusCashAndCashEquivalents": 4754000000,
+    "addTotalDebt": 15735000000,
+    "enterpriseValue": 90012771000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2017-06-30",
+    "stockPrice": 88.73,
+    "numberOfShares": 868481000,
+    "marketCapitalization": 77060319130,
+    "minusCashAndCashEquivalents": 3254000000,
+    "addTotalDebt": 13559000000,
+    "enterpriseValue": 87365319130
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2017-03-31",
+    "stockPrice": 88.3,
+    "numberOfShares": 866516000,
+    "marketCapitalization": 76513362800,
+    "minusCashAndCashEquivalents": 3347000000,
+    "addTotalDebt": 10378000000,
+    "enterpriseValue": 83544362800
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2016-12-31",
+    "stockPrice": 87.5,
+    "numberOfShares": 867460000,
+    "marketCapitalization": 75902750000,
+    "minusCashAndCashEquivalents": 2875000000,
+    "addTotalDebt": 8137000000,
+    "enterpriseValue": 81164750000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2016-09-30",
+    "stockPrice": 92.93,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4452000000,
+    "addTotalDebt": 11356000000,
+    "enterpriseValue": 6904000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2016-06-30",
+    "stockPrice": 88.1,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4411000000,
+    "addTotalDebt": 10414000000,
+    "enterpriseValue": 6003000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2016-03-31",
+    "stockPrice": 83.5,
+    "numberOfShares": 893992000,
+    "marketCapitalization": 74648332000,
+    "minusCashAndCashEquivalents": 4166000000,
+    "addTotalDebt": 9751000000,
+    "enterpriseValue": 80233332000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2015-12-31",
+    "stockPrice": 78,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 5300000000,
+    "addTotalDebt": 8807000000,
+    "enterpriseValue": 3507000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2015-09-30",
+    "stockPrice": 82.47,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3324000000,
+    "addTotalDebt": 9936000000,
+    "enterpriseValue": 6612000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2015-06-30",
+    "stockPrice": 85.99,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4746000000,
+    "addTotalDebt": 12735000000,
+    "enterpriseValue": 7989000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2015-03-31",
+    "stockPrice": 86.5,
+    "numberOfShares": 914752000,
+    "marketCapitalization": 79126048000,
+    "minusCashAndCashEquivalents": 3622000000,
+    "addTotalDebt": 10384000000,
+    "enterpriseValue": 85888048000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2014-12-31",
+    "stockPrice": 81.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3613000000,
+    "addTotalDebt": 10664000000,
+    "enterpriseValue": 7051000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2014-09-30",
+    "stockPrice": 80.83,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3982000000,
+    "addTotalDebt": 13168000000,
+    "enterpriseValue": 9186000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2014-06-30",
+    "stockPrice": 78,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4174000000,
+    "addTotalDebt": 11798000000,
+    "enterpriseValue": 7624000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2014-03-31",
+    "stockPrice": 75.28,
+    "numberOfShares": 925984000,
+    "marketCapitalization": 69708075520,
+    "minusCashAndCashEquivalents": 3782000000,
+    "addTotalDebt": 11317000000,
+    "enterpriseValue": 77243075520
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2013-12-31",
+    "stockPrice": 73.05,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 8941000000,
+    "addTotalDebt": 12462000000,
+    "enterpriseValue": 3521000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2013-09-30",
+    "stockPrice": 73.86,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 7005000000,
+    "addTotalDebt": 14959000000,
+    "enterpriseValue": 7954000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2013-06-30",
+    "stockPrice": 86.55,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 6685000000,
+    "addTotalDebt": 14080000000,
+    "enterpriseValue": 7395000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2013-03-31",
+    "stockPrice": 88.85,
+    "numberOfShares": 933275000,
+    "marketCapitalization": 82921483750,
+    "minusCashAndCashEquivalents": 6555000000,
+    "addTotalDebt": 13285000000,
+    "enterpriseValue": 89651483750
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2012-12-31",
+    "stockPrice": 86.8,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 95000000,
+    "addTotalDebt": 11740000000,
+    "enterpriseValue": 11645000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2012-09-30",
+    "stockPrice": 91.16,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3418000000,
+    "addTotalDebt": 15066000000,
+    "enterpriseValue": 11648000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2012-06-30",
+    "stockPrice": 88.75,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3506000000,
+    "addTotalDebt": 14950000000,
+    "enterpriseValue": 11444000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2012-03-31",
+    "stockPrice": 87.98,
+    "numberOfShares": 928417000,
+    "marketCapitalization": 81682127660,
+    "minusCashAndCashEquivalents": 3410000000,
+    "addTotalDebt": 14825000000,
+    "enterpriseValue": 93097127660
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2011-12-31",
+    "stockPrice": 83.8,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3586000000,
+    "addTotalDebt": 12553000000,
+    "enterpriseValue": 8967000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2011-09-30",
+    "stockPrice": 80.05,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2750000000,
+    "addTotalDebt": 15501000000,
+    "enterpriseValue": 12751000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2011-06-30",
+    "stockPrice": 75.8,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2268000000,
+    "addTotalDebt": 14796000000,
+    "enterpriseValue": 12528000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2011-03-31",
+    "stockPrice": 71.5,
+    "numberOfShares": 908860000,
+    "marketCapitalization": 64983490000,
+    "minusCashAndCashEquivalents": 3796000000,
+    "addTotalDebt": 12251000000,
+    "enterpriseValue": 73438490000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2010-12-31",
+    "stockPrice": 72.78,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4263000000,
+    "addTotalDebt": 10270000000,
+    "enterpriseValue": 6007000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2010-09-30",
+    "stockPrice": 72.6,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4088000000,
+    "addTotalDebt": 12386000000,
+    "enterpriseValue": 8298000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2010-06-30",
+    "stockPrice": 67.95,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2215000000,
+    "addTotalDebt": 10228000000,
+    "enterpriseValue": 8013000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2010-03-31",
+    "stockPrice": 70.15,
+    "numberOfShares": 904395000,
+    "marketCapitalization": 63443309250,
+    "minusCashAndCashEquivalents": 2911000000,
+    "addTotalDebt": 11027000000,
+    "enterpriseValue": 71559309250
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2009-12-31",
+    "stockPrice": 63.7,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4021000000,
+    "addTotalDebt": 11034000000,
+    "enterpriseValue": 7013000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2009-09-30",
+    "stockPrice": 63.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2249000000,
+    "addTotalDebt": 11070000000,
+    "enterpriseValue": 8821000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2009-06-30",
+    "stockPrice": 60.25,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2157000000,
+    "addTotalDebt": 10359000000,
+    "enterpriseValue": 8202000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2009-03-31",
+    "stockPrice": 58.95,
+    "numberOfShares": 902415000,
+    "marketCapitalization": 53197364250,
+    "minusCashAndCashEquivalents": 2386000000,
+    "addTotalDebt": 10059000000,
+    "enterpriseValue": 60870364250
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2008-12-31",
+    "stockPrice": 61.94,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3645000000,
+    "addTotalDebt": 9650000000,
+    "enterpriseValue": 6005000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2008-09-30",
+    "stockPrice": 64.25,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 1993000000,
+    "addTotalDebt": 10355000000,
+    "enterpriseValue": 8362000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2008-06-30",
+    "stockPrice": 63.69,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 1303000000,
+    "addTotalDebt": 9793000000,
+    "enterpriseValue": 8490000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2008-03-31",
+    "stockPrice": 64,
+    "numberOfShares": 917132000,
+    "marketCapitalization": 58696448000,
+    "minusCashAndCashEquivalents": 1094000000,
+    "addTotalDebt": 8980000000,
+    "enterpriseValue": 66582448000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2007-12-31",
+    "stockPrice": 63.25,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 1305000000,
+    "addTotalDebt": 7325000000,
+    "enterpriseValue": 6020000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2007-09-30",
+    "stockPrice": 69,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 1209000000,
+    "addTotalDebt": 8985000000,
+    "enterpriseValue": 7776000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2007-06-30",
+    "stockPrice": 68,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 987000000,
+    "addTotalDebt": 8039000000,
+    "enterpriseValue": 7052000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2007-03-31",
+    "stockPrice": 71,
+    "numberOfShares": 921474024,
+    "marketCapitalization": 65424655704,
+    "minusCashAndCashEquivalents": 883000000,
+    "addTotalDebt": 7600000000,
+    "enterpriseValue": 72141655704
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2006-12-31",
+    "stockPrice": 70.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 1814000000,
+    "addTotalDebt": 7530000000,
+    "enterpriseValue": 5716000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2006-09-30",
+    "stockPrice": 67,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 718000000,
+    "addTotalDebt": 8751000000,
+    "enterpriseValue": 8033000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2006-06-30",
+    "stockPrice": 64.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 820000000,
+    "addTotalDebt": 8531000000,
+    "enterpriseValue": 7711000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2006-03-31",
+    "stockPrice": 68.5,
+    "numberOfShares": 982193000,
+    "marketCapitalization": 67280220500,
+    "minusCashAndCashEquivalents": 1456000000,
+    "addTotalDebt": 8991000000,
+    "enterpriseValue": 74815220500
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2005-12-31",
+    "stockPrice": 68,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 1736000000,
+    "addTotalDebt": 865000000,
+    "enterpriseValue": -871000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2005-09-30",
+    "stockPrice": 73.75,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 5147000000,
+    "addTotalDebt": 10695000000,
+    "enterpriseValue": 5548000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2005-06-30",
+    "stockPrice": 75.25,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4831000000,
+    "addTotalDebt": 9479000000,
+    "enterpriseValue": 4648000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2005-03-31",
+    "stockPrice": 73,
+    "numberOfShares": 997624239,
+    "marketCapitalization": 72826569447,
+    "minusCashAndCashEquivalents": 4437000000,
+    "addTotalDebt": 8939000000,
+    "enterpriseValue": 77328569447
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2004-12-31",
+    "stockPrice": 72.25,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3369000000,
+    "addTotalDebt": 6484000000,
+    "enterpriseValue": 3115000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2004-09-30",
+    "stockPrice": 71.9,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 5839000000,
+    "addTotalDebt": 10736000000,
+    "enterpriseValue": 4897000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2004-06-30",
+    "stockPrice": 67.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 5694000000,
+    "addTotalDebt": 9744000000,
+    "enterpriseValue": 4050000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2004-03-31",
+    "stockPrice": 81.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3733000000,
+    "addTotalDebt": 11771000000,
+    "enterpriseValue": 8038000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2003-09-30",
+    "stockPrice": 71.75,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3766000000,
+    "addTotalDebt": 11933000000,
+    "enterpriseValue": 8167000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2003-06-30",
+    "stockPrice": 82.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3926000000,
+    "addTotalDebt": 11357000000,
+    "enterpriseValue": 7431000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2003-03-31",
+    "stockPrice": 68.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 4073000000,
+    "addTotalDebt": 8208000000,
+    "enterpriseValue": 4135000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2002-09-30",
+    "stockPrice": 63.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3460000000,
+    "addTotalDebt": 7080000000,
+    "enterpriseValue": 3620000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2002-06-30",
+    "stockPrice": 60.25,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3129000000,
+    "addTotalDebt": 7116000000,
+    "enterpriseValue": 3987000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2002-03-31",
+    "stockPrice": 61.5,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 3245000000,
+    "addTotalDebt": 6766000000,
+    "enterpriseValue": 3521000000
+  },
+  {
+    "symbol": "CTA-PA",
+    "date": "2001-09-30",
+    "stockPrice": 58.2,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 2444000000,
+    "addTotalDebt": 12067000000,
+    "enterpriseValue": 9623000000
+  }
+]

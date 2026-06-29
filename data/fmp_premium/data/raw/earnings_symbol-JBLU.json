@@ -1,0 +1,884 @@
+[
+  {
+    "symbol": "JBLU",
+    "date": "2026-08-04",
+    "epsActual": null,
+    "epsEstimated": -0.77697,
+    "revenueActual": null,
+    "revenueEstimated": 2661945000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2026-04-28",
+    "epsActual": -0.87,
+    "epsEstimated": -0.72,
+    "revenueActual": 2240000000,
+    "revenueEstimated": 2239454000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2026-01-27",
+    "epsActual": -0.49,
+    "epsEstimated": -0.45,
+    "revenueActual": 2244000000,
+    "revenueEstimated": 2219148000,
+    "lastUpdated": "2026-04-27"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2025-10-28",
+    "epsActual": -0.4,
+    "epsEstimated": -0.43458,
+    "revenueActual": 2322000000,
+    "revenueEstimated": 2319062441,
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2025-07-29",
+    "epsActual": -0.16,
+    "epsEstimated": -0.31,
+    "revenueActual": 2356000000,
+    "revenueEstimated": 2324994030,
+    "lastUpdated": "2025-10-29"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2025-04-29",
+    "epsActual": -0.59,
+    "epsEstimated": -0.61,
+    "revenueActual": 2140000000,
+    "revenueEstimated": 2414651840,
+    "lastUpdated": "2025-07-29"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2025-01-28",
+    "epsActual": -0.21,
+    "epsEstimated": -0.42,
+    "revenueActual": 2277000000,
+    "revenueEstimated": 2237570000,
+    "lastUpdated": "2025-04-28"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2024-10-29",
+    "epsActual": -0.16,
+    "epsEstimated": -0.21108,
+    "revenueActual": 2365000000,
+    "revenueEstimated": 2355559093,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2024-07-30",
+    "epsActual": 0.08,
+    "epsEstimated": -0.11,
+    "revenueActual": 2428000000,
+    "revenueEstimated": 2397940000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2024-04-23",
+    "epsActual": -0.43,
+    "epsEstimated": -0.53,
+    "revenueActual": 2209000000,
+    "revenueEstimated": 2406820000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2024-01-30",
+    "epsActual": -0.19,
+    "epsEstimated": -0.28,
+    "revenueActual": 2325000000,
+    "revenueEstimated": 2284400000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2023-10-31",
+    "epsActual": -0.39,
+    "epsEstimated": -0.27,
+    "revenueActual": 2353000000,
+    "revenueEstimated": 2381120000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2023-08-01",
+    "epsActual": 0.45,
+    "epsEstimated": 0.44,
+    "revenueActual": 2610000000,
+    "revenueEstimated": 2607850000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2023-04-25",
+    "epsActual": -0.34,
+    "epsEstimated": -0.38,
+    "revenueActual": 2328000000,
+    "revenueEstimated": 2613380000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2023-01-26",
+    "epsActual": 0.22,
+    "epsEstimated": 0.19,
+    "revenueActual": 2415000000,
+    "revenueEstimated": 2405636436,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2022-10-25",
+    "epsActual": 0.21,
+    "epsEstimated": 0.23,
+    "revenueActual": 2562000000,
+    "revenueEstimated": 2556679896,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2022-08-02",
+    "epsActual": -0.47,
+    "epsEstimated": -0.11,
+    "revenueActual": 2445000000,
+    "revenueEstimated": 2450357716,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2022-04-26",
+    "epsActual": -0.8,
+    "epsEstimated": -0.85,
+    "revenueActual": 1736000000,
+    "revenueEstimated": 1742091196,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2022-01-27",
+    "epsActual": -0.36,
+    "epsEstimated": -0.4,
+    "revenueActual": 1834000000,
+    "revenueEstimated": 1824200810,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2021-10-26",
+    "epsActual": -0.12,
+    "epsEstimated": -0.19,
+    "revenueActual": 1972000000,
+    "revenueEstimated": 1953890000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2021-07-27",
+    "epsActual": -0.64,
+    "epsEstimated": -0.73,
+    "revenueActual": 1499000000,
+    "revenueEstimated": 1957490000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2021-04-27",
+    "epsActual": -1.48,
+    "epsEstimated": -1.68,
+    "revenueActual": 733000000,
+    "revenueEstimated": 630290000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2021-01-28",
+    "epsActual": -1.53,
+    "epsEstimated": -1.72,
+    "revenueActual": 661000000,
+    "revenueEstimated": 639860000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2020-10-27",
+    "epsActual": -1.75,
+    "epsEstimated": -1.91,
+    "revenueActual": 492000000,
+    "revenueEstimated": 551040000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2020-07-28",
+    "epsActual": -2.02,
+    "epsEstimated": -1.86,
+    "revenueActual": 215000000,
+    "revenueEstimated": 204356435,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2020-05-07",
+    "epsActual": -0.42,
+    "epsEstimated": -0.41,
+    "revenueActual": 1588000000,
+    "revenueEstimated": 1361142857,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2020-01-23",
+    "epsActual": 0.56,
+    "epsEstimated": 0.55,
+    "revenueActual": 2031000000,
+    "revenueEstimated": 1994732142,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2019-10-22",
+    "epsActual": 0.59,
+    "epsEstimated": 0.51,
+    "revenueActual": 2086000000,
+    "revenueEstimated": 1803152542,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2019-07-23",
+    "epsActual": 0.6,
+    "epsEstimated": 0.57,
+    "revenueActual": 2105000000,
+    "revenueEstimated": 1999750000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2019-04-23",
+    "epsActual": 0.16,
+    "epsEstimated": 0.12,
+    "revenueActual": 1871000000,
+    "revenueEstimated": 1403250000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2019-01-24",
+    "epsActual": 0.5,
+    "epsEstimated": 0.42,
+    "revenueActual": 1968000000,
+    "revenueEstimated": 1692480000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2018-10-23",
+    "epsActual": 0.43,
+    "epsEstimated": 0.42,
+    "revenueActual": 2008000000,
+    "revenueEstimated": 1961302325,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2018-07-24",
+    "epsActual": 0.38,
+    "epsEstimated": 0.36,
+    "revenueActual": 1928000000,
+    "revenueEstimated": 1826526315,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2018-04-24",
+    "epsActual": 0.27,
+    "epsEstimated": 0.22,
+    "revenueActual": 1754000000,
+    "revenueEstimated": 1429185185,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2018-01-25",
+    "epsActual": 0.32,
+    "epsEstimated": 0.34,
+    "revenueActual": 1758000000,
+    "revenueEstimated": 287365384,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2017-10-24",
+    "epsActual": 0.55,
+    "epsEstimated": 0.53,
+    "revenueActual": 1813000000,
+    "revenueEstimated": 1751890909,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2017-07-25",
+    "epsActual": 0.64,
+    "epsEstimated": 0.57,
+    "revenueActual": 1842000000,
+    "revenueEstimated": 1635187499,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2017-04-25",
+    "epsActual": 0.25,
+    "epsEstimated": 0.23,
+    "revenueActual": 1604000000,
+    "revenueEstimated": 1472000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2017-01-26",
+    "epsActual": 0.5,
+    "epsEstimated": 0.49,
+    "revenueActual": 1641000000,
+    "revenueEstimated": 1561140000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2016-10-25",
+    "epsActual": 0.58,
+    "epsEstimated": 0.6,
+    "revenueActual": 1732000000,
+    "revenueEstimated": 1790689655,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2016-07-26",
+    "epsActual": 0.53,
+    "epsEstimated": 0.49,
+    "revenueActual": 1643000000,
+    "revenueEstimated": 1519924528,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2016-04-26",
+    "epsActual": 0.59,
+    "epsEstimated": 0.53,
+    "revenueActual": 1616000000,
+    "revenueEstimated": 1451661016,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2016-01-28",
+    "epsActual": 0.56,
+    "epsEstimated": 0.51,
+    "revenueActual": 1594000000,
+    "revenueEstimated": 1451678571,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2015-10-27",
+    "epsActual": 0.58,
+    "epsEstimated": 0.57,
+    "revenueActual": 1687000000,
+    "revenueEstimated": 1657913793,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2015-07-28",
+    "epsActual": 0.44,
+    "epsEstimated": 0.44,
+    "revenueActual": 1612000000,
+    "revenueEstimated": 1612000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2015-04-28",
+    "epsActual": 0.4,
+    "epsEstimated": 0.39,
+    "revenueActual": 1523000000,
+    "revenueEstimated": 1484925000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2015-01-29",
+    "epsActual": 0.26,
+    "epsEstimated": 0.24,
+    "revenueActual": 1446000000,
+    "revenueEstimated": 1334769230,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2014-10-23",
+    "epsActual": 0.24,
+    "epsEstimated": 0.26,
+    "revenueActual": 1529000000,
+    "revenueEstimated": 1656416666,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2014-07-24",
+    "epsActual": 0.19,
+    "epsEstimated": 0.19,
+    "revenueActual": 1493000000,
+    "revenueEstimated": 1493000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2014-04-24",
+    "epsActual": 0.01,
+    "epsEstimated": 0.07,
+    "revenueActual": 1349000000,
+    "revenueEstimated": 9443000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2014-01-29",
+    "epsActual": 0.14,
+    "epsEstimated": 0.13,
+    "revenueActual": 1365000000,
+    "revenueEstimated": 1267500000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2013-10-29",
+    "epsActual": 0.21,
+    "epsEstimated": 0.22,
+    "revenueActual": 1442000000,
+    "revenueEstimated": 1510666666,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2013-07-30",
+    "epsActual": 0.11,
+    "epsEstimated": 0.14,
+    "revenueActual": 1335000000,
+    "revenueEstimated": 1699090909,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2013-04-25",
+    "epsActual": 0.05,
+    "epsEstimated": 0.1,
+    "revenueActual": 1299000000,
+    "revenueEstimated": 2598000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2013-01-29",
+    "epsActual": 0.00351,
+    "epsEstimated": null,
+    "revenueActual": 1194000000,
+    "revenueEstimated": 1959103260,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2012-10-25",
+    "epsActual": 0.14,
+    "epsEstimated": 0.13,
+    "revenueActual": 1308000000,
+    "revenueEstimated": 1214571428,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2012-07-25",
+    "epsActual": 0.16,
+    "epsEstimated": 0.16,
+    "revenueActual": 1277000000,
+    "revenueEstimated": 1277000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2012-04-26",
+    "epsActual": 0.09,
+    "epsEstimated": 0.08,
+    "revenueActual": 1203000000,
+    "revenueEstimated": 1069333333,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2012-01-26",
+    "epsActual": 0.08,
+    "epsEstimated": 0.03813,
+    "revenueActual": 1146000000,
+    "revenueEstimated": 573000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2011-10-26",
+    "epsActual": 0.12,
+    "epsEstimated": 0.13,
+    "revenueActual": 1195000000,
+    "revenueEstimated": 1294583333,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2011-07-26",
+    "epsActual": 0.08,
+    "epsEstimated": 0.09,
+    "revenueActual": 1151000000,
+    "revenueEstimated": 1294875000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2011-04-21",
+    "epsActual": 0.01074,
+    "epsEstimated": 0.01146,
+    "revenueActual": 1012000000,
+    "revenueEstimated": 1012000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2011-01-27",
+    "epsActual": 0.03,
+    "epsEstimated": 0.05,
+    "revenueActual": 940000000,
+    "revenueEstimated": 1566666666,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2010-10-21",
+    "epsActual": 0.18,
+    "epsEstimated": 0.19,
+    "revenueActual": 1030000000,
+    "revenueEstimated": 1087222222,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2010-07-22",
+    "epsActual": 0.1,
+    "epsEstimated": 0.08,
+    "revenueActual": 939000000,
+    "revenueEstimated": 751999999,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2010-04-28",
+    "epsActual": -0.00365,
+    "epsEstimated": -0.00156,
+    "revenueActual": 870000000,
+    "revenueEstimated": 2613000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2010-01-28",
+    "epsActual": 0.04,
+    "epsEstimated": 0.02769,
+    "revenueActual": 832000000,
+    "revenueEstimated": 624000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2009-10-22",
+    "epsActual": 0.04,
+    "epsEstimated": 0.05,
+    "revenueActual": 854000000,
+    "revenueEstimated": 1071250000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2009-07-23",
+    "epsActual": 0.05,
+    "epsEstimated": 0.02,
+    "revenueActual": 807000000,
+    "revenueEstimated": 323200000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2009-04-23",
+    "epsActual": 0.08,
+    "epsEstimated": 0.03333,
+    "revenueActual": 793000000,
+    "revenueEstimated": 298125000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2009-01-29",
+    "epsActual": 0.02,
+    "epsEstimated": 0.00703,
+    "revenueActual": 811000000,
+    "revenueEstimated": 815000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2008-10-23",
+    "epsActual": -0.02,
+    "epsEstimated": -0.01316,
+    "revenueActual": 902000000,
+    "revenueEstimated": 1804000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2008-07-22",
+    "epsActual": -0.03,
+    "epsEstimated": -0.07,
+    "revenueActual": 859000000,
+    "revenueEstimated": 2004333333,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2008-04-22",
+    "epsActual": -0.04,
+    "epsEstimated": -0.07,
+    "revenueActual": 816000000,
+    "revenueEstimated": 1428000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2008-01-29",
+    "epsActual": -0.02,
+    "epsEstimated": -0.05,
+    "revenueActual": 739000000,
+    "revenueEstimated": 1847500000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2007-10-23",
+    "epsActual": 0.12,
+    "epsEstimated": 0.07,
+    "revenueActual": 765000000,
+    "revenueEstimated": 540964284,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2007-07-24",
+    "epsActual": 0.11,
+    "epsEstimated": 0.12,
+    "revenueActual": 730000000,
+    "revenueEstimated": 796363636,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2007-04-24",
+    "epsActual": -0.12,
+    "epsEstimated": -0.19,
+    "revenueActual": 608000000,
+    "revenueEstimated": 962666666,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2007-01-30",
+    "epsActual": 0.09,
+    "epsEstimated": 0.11,
+    "revenueActual": 633000000,
+    "revenueEstimated": 773666666,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2006-10-24",
+    "epsActual": -0.00153,
+    "epsEstimated": null,
+    "revenueActual": 2363000000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2006-07-25",
+    "epsActual": 0.08,
+    "epsEstimated": 0.03615,
+    "revenueActual": 612000000,
+    "revenueEstimated": 306000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2006-04-25",
+    "epsActual": -0.18,
+    "epsEstimated": -0.2,
+    "revenueActual": 490000000,
+    "revenueEstimated": 544444444,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2006-02-01",
+    "epsActual": -0.19,
+    "epsEstimated": -0.16,
+    "revenueActual": 445710000,
+    "revenueEstimated": 375578947,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2005-10-20",
+    "epsActual": 0.02,
+    "epsEstimated": null,
+    "revenueActual": 452915000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2005-07-21",
+    "epsActual": 0.07,
+    "epsEstimated": 0.07,
+    "revenueActual": 430052000,
+    "revenueEstimated": 429100000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2005-04-21",
+    "epsActual": 0.04,
+    "epsEstimated": 0.02182,
+    "revenueActual": 374222000,
+    "revenueEstimated": 186650000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2005-01-27",
+    "epsActual": 0.01603,
+    "epsEstimated": 0.0065,
+    "revenueActual": 334036000,
+    "revenueEstimated": 998400000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2004-10-28",
+    "epsActual": 0.05,
+    "epsEstimated": 0.07,
+    "revenueActual": 323215000,
+    "revenueEstimated": 452340000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2004-07-22",
+    "epsActual": 0.13,
+    "epsEstimated": 0.14,
+    "revenueActual": 319718000,
+    "revenueEstimated": 344292307,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2004-04-22",
+    "epsActual": 0.09,
+    "epsEstimated": 0.08,
+    "revenueActual": 289003000,
+    "revenueEstimated": 256888888,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2004-01-29",
+    "epsActual": 0.11,
+    "epsEstimated": 0.11,
+    "revenueActual": 262944000,
+    "revenueEstimated": 262900000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2003-10-23",
+    "epsActual": 0.17,
+    "epsEstimated": 0.17,
+    "revenueActual": 273576000,
+    "revenueEstimated": 273600000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2003-07-24",
+    "epsActual": 0.17,
+    "epsEstimated": 0.13,
+    "revenueActual": 244701000,
+    "revenueEstimated": 187123529,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2003-04-24",
+    "epsActual": 0.11,
+    "epsEstimated": 0.1,
+    "revenueActual": 217130000,
+    "revenueEstimated": 197363636,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2003-01-30",
+    "epsActual": 0.1,
+    "epsEstimated": 0.09,
+    "revenueActual": 187258000,
+    "revenueEstimated": 168569999,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2002-11-07",
+    "epsActual": 0.08,
+    "epsEstimated": 0.08,
+    "revenueActual": 165261000,
+    "revenueEstimated": 165300000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2002-08-06",
+    "epsActual": 0.09126,
+    "epsEstimated": null,
+    "revenueActual": 149303000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "JBLU",
+    "date": "2002-07-25",
+    "epsActual": 0.1,
+    "epsEstimated": 0.07,
+    "revenueActual": 133369000,
+    "revenueEstimated": 104510000,
+    "lastUpdated": "2025-04-25"
+  }
+]

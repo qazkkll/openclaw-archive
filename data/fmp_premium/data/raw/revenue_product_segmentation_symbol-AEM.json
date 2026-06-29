@@ -1,0 +1,54 @@
+[
+  {
+    "symbol": "AEM",
+    "fiscalYear": 2013,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2013-12-31",
+    "data": {
+      "Copper": 20653000,
+      "Gold": 1500354000,
+      "Lead": 900000,
+      "Silver": 100895000,
+      "Zinc": 16685000
+    }
+  },
+  {
+    "symbol": "AEM",
+    "fiscalYear": 2012,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2012-12-31",
+    "data": {
+      "Copper": 19019000,
+      "Silver": 140221000,
+      "Zinc": 45797000
+    }
+  },
+  {
+    "symbol": "AEM",
+    "fiscalYear": 2011,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2011-12-31",
+    "data": {
+      "Copper": 14451000,
+      "Silver": 171725000,
+      "Zinc": 70522000
+    }
+  },
+  {
+    "symbol": "AEM",
+    "fiscalYear": 2010,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2010-12-31",
+    "data": {
+      "Copper": 22219000,
+      "Gold": 1216249000,
+      "Lead": 1965000,
+      "Silver": 104544000,
+      "Zinc": 77544000
+    }
+  }
+]

@@ -1,0 +1,972 @@
+[
+  {
+    "symbol": "NPO",
+    "date": "2026-03-31",
+    "stockPrice": 250.65,
+    "numberOfShares": 21100000,
+    "marketCapitalization": 5288715000,
+    "minusCashAndCashEquivalents": 79200000,
+    "addTotalDebt": 605400000,
+    "enterpriseValue": 5814915000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2025-12-31",
+    "stockPrice": 214.13,
+    "numberOfShares": 21100000,
+    "marketCapitalization": 4518143000,
+    "minusCashAndCashEquivalents": 114700000,
+    "addTotalDebt": 655300000,
+    "enterpriseValue": 5058743000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2025-09-30",
+    "stockPrice": 226,
+    "numberOfShares": 21100000,
+    "marketCapitalization": 4768600000,
+    "minusCashAndCashEquivalents": 132900000,
+    "addTotalDebt": 456700000,
+    "enterpriseValue": 5092400000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2025-06-30",
+    "stockPrice": 191.55,
+    "numberOfShares": 21000000,
+    "marketCapitalization": 4022550000,
+    "minusCashAndCashEquivalents": 107100000,
+    "addTotalDebt": 476200000,
+    "enterpriseValue": 4391650000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2025-03-31",
+    "stockPrice": 161.79,
+    "numberOfShares": 21000000,
+    "marketCapitalization": 3397590000,
+    "minusCashAndCashEquivalents": 240300000,
+    "addTotalDebt": 646900000,
+    "enterpriseValue": 3804190000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2024-12-31",
+    "stockPrice": 172.45,
+    "numberOfShares": 21000000,
+    "marketCapitalization": 3621449999,
+    "minusCashAndCashEquivalents": 236300000,
+    "addTotalDebt": 650300000,
+    "enterpriseValue": 4035449999
+  },
+  {
+    "symbol": "NPO",
+    "date": "2024-09-30",
+    "stockPrice": 162.18,
+    "numberOfShares": 21000000,
+    "marketCapitalization": 3405780000,
+    "minusCashAndCashEquivalents": 206900000,
+    "addTotalDebt": 651700000,
+    "enterpriseValue": 3850580000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2024-06-30",
+    "stockPrice": 141.73,
+    "numberOfShares": 21100000,
+    "marketCapitalization": 2990503000,
+    "minusCashAndCashEquivalents": 175900000,
+    "addTotalDebt": 671500000,
+    "enterpriseValue": 3486103000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2024-03-31",
+    "stockPrice": 165.04,
+    "numberOfShares": 20900000,
+    "marketCapitalization": 3449336000,
+    "minusCashAndCashEquivalents": 163900000,
+    "addTotalDebt": 690300000,
+    "enterpriseValue": 3975736000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2023-12-31",
+    "stockPrice": 156.74,
+    "numberOfShares": 21000000,
+    "marketCapitalization": 3291540000,
+    "minusCashAndCashEquivalents": 369800000,
+    "addTotalDebt": 656800000,
+    "enterpriseValue": 3578540000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2023-09-30",
+    "stockPrice": 121.19,
+    "numberOfShares": 20900000,
+    "marketCapitalization": 2532871000,
+    "minusCashAndCashEquivalents": 329800000,
+    "addTotalDebt": 658600000,
+    "enterpriseValue": 2861671000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2023-06-30",
+    "stockPrice": 133.53,
+    "numberOfShares": 20900000,
+    "marketCapitalization": 2790777000,
+    "minusCashAndCashEquivalents": 374900000,
+    "addTotalDebt": 792900000,
+    "enterpriseValue": 3208777000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2023-03-31",
+    "stockPrice": 103.89,
+    "numberOfShares": 20800000,
+    "marketCapitalization": 2160912000,
+    "minusCashAndCashEquivalents": 336100000,
+    "addTotalDebt": 796700000,
+    "enterpriseValue": 2621512000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2022-12-31",
+    "stockPrice": 108.69,
+    "numberOfShares": 20800000,
+    "marketCapitalization": 2260752000,
+    "minusCashAndCashEquivalents": 334400000,
+    "addTotalDebt": 799900000,
+    "enterpriseValue": 2726252000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2022-09-30",
+    "stockPrice": 84.98,
+    "numberOfShares": 20800000,
+    "marketCapitalization": 1767584000,
+    "minusCashAndCashEquivalents": 166200000,
+    "addTotalDebt": 892300000,
+    "enterpriseValue": 2493684000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2022-06-30",
+    "stockPrice": 81.93,
+    "numberOfShares": 20800000,
+    "marketCapitalization": 1704144000,
+    "minusCashAndCashEquivalents": 222100000,
+    "addTotalDebt": 1000600000,
+    "enterpriseValue": 2482644000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2022-03-31",
+    "stockPrice": 97.73,
+    "numberOfShares": 20800000,
+    "marketCapitalization": 2032784000,
+    "minusCashAndCashEquivalents": 293400000,
+    "addTotalDebt": 1088300000,
+    "enterpriseValue": 2827684000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2021-12-31",
+    "stockPrice": 110.07,
+    "numberOfShares": 20600000,
+    "marketCapitalization": 2267442000,
+    "minusCashAndCashEquivalents": 338100000,
+    "addTotalDebt": 1135400000,
+    "enterpriseValue": 3064742000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2021-09-30",
+    "stockPrice": 87.12,
+    "numberOfShares": 20600000,
+    "marketCapitalization": 1794672000,
+    "minusCashAndCashEquivalents": 330000000,
+    "addTotalDebt": 498500000,
+    "enterpriseValue": 1963172000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2021-06-30",
+    "stockPrice": 97.15,
+    "numberOfShares": 20600000,
+    "marketCapitalization": 2001290000,
+    "minusCashAndCashEquivalents": 261900000,
+    "addTotalDebt": 499800000,
+    "enterpriseValue": 2239190000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2021-03-31",
+    "stockPrice": 85.27,
+    "numberOfShares": 20600000,
+    "marketCapitalization": 1756562000,
+    "minusCashAndCashEquivalents": 232300000,
+    "addTotalDebt": 500500000,
+    "enterpriseValue": 2024762000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2020-12-31",
+    "stockPrice": 75.52,
+    "numberOfShares": 20500000,
+    "marketCapitalization": 1548160000,
+    "minusCashAndCashEquivalents": 229500000,
+    "addTotalDebt": 501400000,
+    "enterpriseValue": 1820060000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2020-09-30",
+    "stockPrice": 56.41,
+    "numberOfShares": 20500000,
+    "marketCapitalization": 1156405000,
+    "minusCashAndCashEquivalents": 441000000,
+    "addTotalDebt": 502100000,
+    "enterpriseValue": 1217505000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2020-06-30",
+    "stockPrice": 49.29,
+    "numberOfShares": 20500000,
+    "marketCapitalization": 1010445000,
+    "minusCashAndCashEquivalents": 424300000,
+    "addTotalDebt": 503400000,
+    "enterpriseValue": 1089545000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2020-03-31",
+    "stockPrice": 39.58,
+    "numberOfShares": 20600000,
+    "marketCapitalization": 815348000,
+    "minusCashAndCashEquivalents": 391000000,
+    "addTotalDebt": 504000000,
+    "enterpriseValue": 928348000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2019-12-31",
+    "stockPrice": 66.88,
+    "numberOfShares": 20600000,
+    "marketCapitalization": 1377728000,
+    "minusCashAndCashEquivalents": 121200000,
+    "addTotalDebt": 638600000,
+    "enterpriseValue": 1895128000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2019-09-30",
+    "stockPrice": 68.65,
+    "numberOfShares": 20487804,
+    "marketCapitalization": 1406487744,
+    "minusCashAndCashEquivalents": 112100000,
+    "addTotalDebt": 676300000,
+    "enterpriseValue": 1970687744
+  },
+  {
+    "symbol": "NPO",
+    "date": "2019-06-30",
+    "stockPrice": 63.79,
+    "numberOfShares": 20700000,
+    "marketCapitalization": 1320453000,
+    "minusCashAndCashEquivalents": 124300000,
+    "addTotalDebt": 428200000,
+    "enterpriseValue": 1624353000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2019-03-31",
+    "stockPrice": 65.79,
+    "numberOfShares": 20800000,
+    "marketCapitalization": 1368432000,
+    "minusCashAndCashEquivalents": 130900000,
+    "addTotalDebt": 483400000,
+    "enterpriseValue": 1720932000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2018-12-31",
+    "stockPrice": 60.1,
+    "numberOfShares": 20700000,
+    "marketCapitalization": 1244070000,
+    "minusCashAndCashEquivalents": 129600000,
+    "addTotalDebt": 464900000,
+    "enterpriseValue": 1579370000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2018-09-30",
+    "stockPrice": 71.14,
+    "numberOfShares": 20700000,
+    "marketCapitalization": 1472598000,
+    "minusCashAndCashEquivalents": 119900000,
+    "addTotalDebt": 480300000,
+    "enterpriseValue": 1832998000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2018-06-30",
+    "stockPrice": 69.95,
+    "numberOfShares": 20900000,
+    "marketCapitalization": 1461955000,
+    "minusCashAndCashEquivalents": 93400000,
+    "addTotalDebt": 488000000,
+    "enterpriseValue": 1856555000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2018-03-31",
+    "stockPrice": 77.38,
+    "numberOfShares": 21300000,
+    "marketCapitalization": 1648194000,
+    "minusCashAndCashEquivalents": 118100000,
+    "addTotalDebt": 606800000,
+    "enterpriseValue": 2136894000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2017-12-31",
+    "stockPrice": 93.51,
+    "numberOfShares": 21400000,
+    "marketCapitalization": 2001114000,
+    "minusCashAndCashEquivalents": 189300000,
+    "addTotalDebt": 618500000,
+    "enterpriseValue": 2430314000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2017-09-30",
+    "stockPrice": 80.53,
+    "numberOfShares": 21300000,
+    "marketCapitalization": 1715289000,
+    "minusCashAndCashEquivalents": 176100000,
+    "addTotalDebt": 560600000,
+    "enterpriseValue": 2099789000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2017-06-30",
+    "stockPrice": 71.37,
+    "numberOfShares": 21300000,
+    "marketCapitalization": 1520181000,
+    "minusCashAndCashEquivalents": 132100000,
+    "addTotalDebt": 835100000,
+    "enterpriseValue": 2223181000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2017-03-31",
+    "stockPrice": 71.16,
+    "numberOfShares": 21400000,
+    "marketCapitalization": 1522824000,
+    "minusCashAndCashEquivalents": 113700000,
+    "addTotalDebt": 810400000,
+    "enterpriseValue": 2219524000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2016-12-31",
+    "stockPrice": 67.36,
+    "numberOfShares": 21400000,
+    "marketCapitalization": 1441504000,
+    "minusCashAndCashEquivalents": 111500000,
+    "addTotalDebt": 747100000,
+    "enterpriseValue": 2077104000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2016-09-30",
+    "stockPrice": 56.82,
+    "numberOfShares": 21500000,
+    "marketCapitalization": 1221630000,
+    "minusCashAndCashEquivalents": 114800000,
+    "addTotalDebt": 786300000,
+    "enterpriseValue": 1893130000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2016-06-30",
+    "stockPrice": 44.39,
+    "numberOfShares": 21700000,
+    "marketCapitalization": 963263000,
+    "minusCashAndCashEquivalents": 118500000,
+    "addTotalDebt": 779500000,
+    "enterpriseValue": 1624263000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2016-03-31",
+    "stockPrice": 57.68,
+    "numberOfShares": 21767441,
+    "marketCapitalization": 1255545996,
+    "minusCashAndCashEquivalents": 110800000,
+    "addTotalDebt": 737600000,
+    "enterpriseValue": 1882345996
+  },
+  {
+    "symbol": "NPO",
+    "date": "2015-12-31",
+    "stockPrice": 43.84,
+    "numberOfShares": 21900000,
+    "marketCapitalization": 960096000,
+    "minusCashAndCashEquivalents": 103400000,
+    "addTotalDebt": 668500000,
+    "enterpriseValue": 1525196000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2015-09-30",
+    "stockPrice": 39.17,
+    "numberOfShares": 22000000,
+    "marketCapitalization": 861740000,
+    "minusCashAndCashEquivalents": 92000000,
+    "addTotalDebt": 686200000,
+    "enterpriseValue": 1455940000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2015-06-30",
+    "stockPrice": 57.22,
+    "numberOfShares": 22469879,
+    "marketCapitalization": 1285726476,
+    "minusCashAndCashEquivalents": 77500000,
+    "addTotalDebt": 677400000,
+    "enterpriseValue": 1885626476
+  },
+  {
+    "symbol": "NPO",
+    "date": "2015-03-31",
+    "stockPrice": 65.95,
+    "numberOfShares": 22857142,
+    "marketCapitalization": 1507428514,
+    "minusCashAndCashEquivalents": 72200000,
+    "addTotalDebt": 649500000,
+    "enterpriseValue": 2084728514
+  },
+  {
+    "symbol": "NPO",
+    "date": "2014-12-31",
+    "stockPrice": 62.76,
+    "numberOfShares": 24000000,
+    "marketCapitalization": 1506240000,
+    "minusCashAndCashEquivalents": 194200000,
+    "addTotalDebt": 615700000,
+    "enterpriseValue": 1927740000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2014-09-30",
+    "stockPrice": 60.53,
+    "numberOfShares": 24000000,
+    "marketCapitalization": 1452720000,
+    "minusCashAndCashEquivalents": 198400000,
+    "addTotalDebt": 615900000,
+    "enterpriseValue": 1870220000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2014-06-30",
+    "stockPrice": 73.16,
+    "numberOfShares": 22900000,
+    "marketCapitalization": 1675364000,
+    "minusCashAndCashEquivalents": 64900000,
+    "addTotalDebt": 413000000,
+    "enterpriseValue": 2023464000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2014-03-31",
+    "stockPrice": 72.67,
+    "numberOfShares": 21300000,
+    "marketCapitalization": 1547871000,
+    "minusCashAndCashEquivalents": 59800000,
+    "addTotalDebt": 445500000,
+    "enterpriseValue": 1933571000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2013-12-31",
+    "stockPrice": 57.65,
+    "numberOfShares": 20900000,
+    "marketCapitalization": 1204885000,
+    "minusCashAndCashEquivalents": 64400000,
+    "addTotalDebt": 446400000,
+    "enterpriseValue": 1586885000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2013-09-30",
+    "stockPrice": 60.21,
+    "numberOfShares": 20900000,
+    "marketCapitalization": 1258389000,
+    "minusCashAndCashEquivalents": 75100000,
+    "addTotalDebt": 470400000,
+    "enterpriseValue": 1653689000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2013-06-30",
+    "stockPrice": 51.52,
+    "numberOfShares": 20700000,
+    "marketCapitalization": 1066464000,
+    "minusCashAndCashEquivalents": 58200000,
+    "addTotalDebt": 478500000,
+    "enterpriseValue": 1486764000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2013-03-31",
+    "stockPrice": 50.01,
+    "numberOfShares": 20700000,
+    "marketCapitalization": 1035207000,
+    "minusCashAndCashEquivalents": 48500000,
+    "addTotalDebt": 485200000,
+    "enterpriseValue": 1471907000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2012-12-31",
+    "stockPrice": 40.9,
+    "numberOfShares": 20700000,
+    "marketCapitalization": 846630000,
+    "minusCashAndCashEquivalents": 53900000,
+    "addTotalDebt": 443500000,
+    "enterpriseValue": 1236230000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2012-09-30",
+    "stockPrice": 36.62,
+    "numberOfShares": 20700000,
+    "marketCapitalization": 758034000,
+    "minusCashAndCashEquivalents": 42100000,
+    "addTotalDebt": 477400000,
+    "enterpriseValue": 1193334000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2012-06-30",
+    "stockPrice": 37.37,
+    "numberOfShares": 20700000,
+    "marketCapitalization": 773559000,
+    "minusCashAndCashEquivalents": 31200000,
+    "addTotalDebt": 506300000,
+    "enterpriseValue": 1248659000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2012-03-31",
+    "stockPrice": 41.1,
+    "numberOfShares": 20600000,
+    "marketCapitalization": 846660000,
+    "minusCashAndCashEquivalents": 39400000,
+    "addTotalDebt": 421700000,
+    "enterpriseValue": 1228960000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2011-12-16",
+    "stockPrice": 32.99,
+    "numberOfShares": 20197044,
+    "marketCapitalization": 666300481,
+    "minusCashAndCashEquivalents": 30700000,
+    "addTotalDebt": 397500000,
+    "enterpriseValue": 1033100481
+  },
+  {
+    "symbol": "NPO",
+    "date": "2011-09-30",
+    "stockPrice": 29.68,
+    "numberOfShares": 20500000,
+    "marketCapitalization": 608440000,
+    "minusCashAndCashEquivalents": 22900000,
+    "addTotalDebt": 418800000,
+    "enterpriseValue": 1004340000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2011-06-30",
+    "stockPrice": 48.07,
+    "numberOfShares": 20500000,
+    "marketCapitalization": 985435000,
+    "minusCashAndCashEquivalents": 54700000,
+    "addTotalDebt": 389700000,
+    "enterpriseValue": 1320435000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2011-03-31",
+    "stockPrice": 36.32,
+    "numberOfShares": 20500000,
+    "marketCapitalization": 744560000,
+    "minusCashAndCashEquivalents": 45900000,
+    "addTotalDebt": 395800000,
+    "enterpriseValue": 1094460000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2010-12-31",
+    "stockPrice": 41.56,
+    "numberOfShares": 20300000,
+    "marketCapitalization": 843668000,
+    "minusCashAndCashEquivalents": 219200000,
+    "addTotalDebt": 385100000,
+    "enterpriseValue": 1009568000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2010-09-30",
+    "stockPrice": 31.28,
+    "numberOfShares": 20400000,
+    "marketCapitalization": 638112000,
+    "minusCashAndCashEquivalents": 212000000,
+    "addTotalDebt": 155100000,
+    "enterpriseValue": 581212000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2010-06-30",
+    "stockPrice": 28.15,
+    "numberOfShares": 20300000,
+    "marketCapitalization": 571445000,
+    "minusCashAndCashEquivalents": 201100000,
+    "addTotalDebt": 153900000,
+    "enterpriseValue": 524245000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2010-03-31",
+    "stockPrice": 29.08,
+    "numberOfShares": 20300000,
+    "marketCapitalization": 590324000,
+    "minusCashAndCashEquivalents": 253800000,
+    "addTotalDebt": 131700000,
+    "enterpriseValue": 468224000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2009-12-31",
+    "stockPrice": 26.41,
+    "numberOfShares": 20300000,
+    "marketCapitalization": 536123000,
+    "minusCashAndCashEquivalents": 76800000,
+    "addTotalDebt": 130400000,
+    "enterpriseValue": 589723000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2009-09-30",
+    "stockPrice": 22.86,
+    "numberOfShares": 20000000,
+    "marketCapitalization": 457200000,
+    "minusCashAndCashEquivalents": 83500000,
+    "addTotalDebt": 129000000,
+    "enterpriseValue": 502700000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2009-06-30",
+    "stockPrice": 18.01,
+    "numberOfShares": 20000000,
+    "marketCapitalization": 360200000,
+    "minusCashAndCashEquivalents": 58000000,
+    "addTotalDebt": 127400000,
+    "enterpriseValue": 429600000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2009-03-31",
+    "stockPrice": 17.1,
+    "numberOfShares": 19900000,
+    "marketCapitalization": 340290000,
+    "minusCashAndCashEquivalents": 56300000,
+    "addTotalDebt": 126100000,
+    "enterpriseValue": 410090000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2008-12-31",
+    "stockPrice": 21.54,
+    "numberOfShares": 19600000,
+    "marketCapitalization": 422184000,
+    "minusCashAndCashEquivalents": 76300000,
+    "addTotalDebt": 182200000,
+    "enterpriseValue": 528084000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2008-09-30",
+    "stockPrice": 37.16,
+    "numberOfShares": 20000000,
+    "marketCapitalization": 743199999,
+    "minusCashAndCashEquivalents": 71800000,
+    "addTotalDebt": 182300000,
+    "enterpriseValue": 853699999
+  },
+  {
+    "symbol": "NPO",
+    "date": "2008-06-30",
+    "stockPrice": 37.34,
+    "numberOfShares": 20000000,
+    "marketCapitalization": 746800000,
+    "minusCashAndCashEquivalents": 77100000,
+    "addTotalDebt": 182300000,
+    "enterpriseValue": 852000000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2008-03-31",
+    "stockPrice": 31.19,
+    "numberOfShares": 20952381,
+    "marketCapitalization": 653504763,
+    "minusCashAndCashEquivalents": 49100000,
+    "addTotalDebt": 185400000,
+    "enterpriseValue": 789804763
+  },
+  {
+    "symbol": "NPO",
+    "date": "2007-12-31",
+    "stockPrice": 30.65,
+    "numberOfShares": 20952381,
+    "marketCapitalization": 642190477,
+    "minusCashAndCashEquivalents": 129200000,
+    "addTotalDebt": 185700000,
+    "enterpriseValue": 698690477
+  },
+  {
+    "symbol": "NPO",
+    "date": "2007-09-30",
+    "stockPrice": 40.89,
+    "numberOfShares": 21206897,
+    "marketCapitalization": 867150018,
+    "minusCashAndCashEquivalents": 140500000,
+    "addTotalDebt": 186100000,
+    "enterpriseValue": 912750018
+  },
+  {
+    "symbol": "NPO",
+    "date": "2007-06-30",
+    "stockPrice": 42.79,
+    "numberOfShares": 21230769,
+    "marketCapitalization": 908464605,
+    "minusCashAndCashEquivalents": 177800000,
+    "addTotalDebt": 185700000,
+    "enterpriseValue": 916364605
+  },
+  {
+    "symbol": "NPO",
+    "date": "2007-03-31",
+    "stockPrice": 36.05,
+    "numberOfShares": 21206897,
+    "marketCapitalization": 764508636,
+    "minusCashAndCashEquivalents": 172200000,
+    "addTotalDebt": 185700000,
+    "enterpriseValue": 778008636
+  },
+  {
+    "symbol": "NPO",
+    "date": "2006-12-31",
+    "stockPrice": 33.21,
+    "numberOfShares": 21206897,
+    "marketCapitalization": 704281049,
+    "minusCashAndCashEquivalents": 161000000,
+    "addTotalDebt": 185700000,
+    "enterpriseValue": 728981049
+  },
+  {
+    "symbol": "NPO",
+    "date": "2006-09-30",
+    "stockPrice": 30.06,
+    "numberOfShares": 21500000,
+    "marketCapitalization": 646290000,
+    "minusCashAndCashEquivalents": 138000000,
+    "addTotalDebt": 186200000,
+    "enterpriseValue": 694490000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2006-06-30",
+    "stockPrice": 33.6,
+    "numberOfShares": 21000000,
+    "marketCapitalization": 705600000,
+    "minusCashAndCashEquivalents": 105900000,
+    "addTotalDebt": 185200000,
+    "enterpriseValue": 784900000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2006-03-31",
+    "stockPrice": 34.3,
+    "numberOfShares": 20845070,
+    "marketCapitalization": 714985901,
+    "minusCashAndCashEquivalents": 91900000,
+    "addTotalDebt": 185200000,
+    "enterpriseValue": 808285901
+  },
+  {
+    "symbol": "NPO",
+    "date": "2005-12-31",
+    "stockPrice": 26.95,
+    "numberOfShares": 20845070,
+    "marketCapitalization": 561774636,
+    "minusCashAndCashEquivalents": 109500000,
+    "addTotalDebt": 185200000,
+    "enterpriseValue": 637474636
+  },
+  {
+    "symbol": "NPO",
+    "date": "2005-09-30",
+    "stockPrice": 33.69,
+    "numberOfShares": 20833333,
+    "marketCapitalization": 701874988,
+    "minusCashAndCashEquivalents": 76800000,
+    "addTotalDebt": 164700000,
+    "enterpriseValue": 789774988
+  },
+  {
+    "symbol": "NPO",
+    "date": "2005-06-30",
+    "stockPrice": 28.87,
+    "numberOfShares": 20686275,
+    "marketCapitalization": 597212759,
+    "minusCashAndCashEquivalents": 69400000,
+    "addTotalDebt": 164700000,
+    "enterpriseValue": 692512759
+  },
+  {
+    "symbol": "NPO",
+    "date": "2005-03-31",
+    "stockPrice": 27.5,
+    "numberOfShares": 20408163,
+    "marketCapitalization": 561224482,
+    "minusCashAndCashEquivalents": 66200000,
+    "addTotalDebt": 164800000,
+    "enterpriseValue": 659824482
+  },
+  {
+    "symbol": "NPO",
+    "date": "2004-12-31",
+    "stockPrice": 29.57,
+    "numberOfShares": 20408163,
+    "marketCapitalization": 603469379,
+    "minusCashAndCashEquivalents": 108000000,
+    "addTotalDebt": 164800000,
+    "enterpriseValue": 660269379
+  },
+  {
+    "symbol": "NPO",
+    "date": "2004-09-30",
+    "stockPrice": 24.14,
+    "numberOfShares": 20612245,
+    "marketCapitalization": 497579594,
+    "minusCashAndCashEquivalents": 110000000,
+    "addTotalDebt": 164800000,
+    "enterpriseValue": 552379594
+  },
+  {
+    "symbol": "NPO",
+    "date": "2004-06-30",
+    "stockPrice": 22.98,
+    "numberOfShares": 20487805,
+    "marketCapitalization": 470809758,
+    "minusCashAndCashEquivalents": 70800000,
+    "addTotalDebt": 165000000,
+    "enterpriseValue": 565009758
+  },
+  {
+    "symbol": "NPO",
+    "date": "2004-03-31",
+    "stockPrice": 18.92,
+    "numberOfShares": 20357143,
+    "marketCapitalization": 385157145,
+    "minusCashAndCashEquivalents": 73700000,
+    "addTotalDebt": 167500000,
+    "enterpriseValue": 478957145
+  },
+  {
+    "symbol": "NPO",
+    "date": "2003-12-31",
+    "stockPrice": 13.95,
+    "numberOfShares": 20357143,
+    "marketCapitalization": 283982144,
+    "minusCashAndCashEquivalents": 94700000,
+    "addTotalDebt": 170200000,
+    "enterpriseValue": 359482144
+  },
+  {
+    "symbol": "NPO",
+    "date": "2003-09-30",
+    "stockPrice": 9.65,
+    "numberOfShares": 20277778,
+    "marketCapitalization": 195680557,
+    "minusCashAndCashEquivalents": 94600000,
+    "addTotalDebt": 170300000,
+    "enterpriseValue": 271380557
+  },
+  {
+    "symbol": "NPO",
+    "date": "2003-06-30",
+    "stockPrice": 10.69,
+    "numberOfShares": 20000000,
+    "marketCapitalization": 213800000,
+    "minusCashAndCashEquivalents": 81600000,
+    "addTotalDebt": 175400000,
+    "enterpriseValue": 307600000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2003-03-31",
+    "stockPrice": 3.98,
+    "numberOfShares": 20200000,
+    "marketCapitalization": 80396000,
+    "minusCashAndCashEquivalents": 77000000,
+    "addTotalDebt": 170800000,
+    "enterpriseValue": 174196000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2002-12-31",
+    "stockPrice": 4,
+    "numberOfShares": 20200000,
+    "marketCapitalization": 80800000,
+    "minusCashAndCashEquivalents": 81800000,
+    "addTotalDebt": 170900000,
+    "enterpriseValue": 169900000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2002-09-30",
+    "stockPrice": 3.43,
+    "numberOfShares": 20200000,
+    "marketCapitalization": 69286000,
+    "minusCashAndCashEquivalents": 83400000,
+    "addTotalDebt": 166400000,
+    "enterpriseValue": 152286000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2002-06-30",
+    "stockPrice": 5.7,
+    "numberOfShares": 20200000,
+    "marketCapitalization": 115140000,
+    "minusCashAndCashEquivalents": 48100000,
+    "addTotalDebt": 167700000,
+    "enterpriseValue": 234740000
+  },
+  {
+    "symbol": "NPO",
+    "date": "2002-03-31",
+    "stockPrice": 8.45,
+    "numberOfShares": 20200000,
+    "marketCapitalization": 170690000,
+    "minusCashAndCashEquivalents": 50000000,
+    "addTotalDebt": 167900000,
+    "enterpriseValue": 288590000
+  }
+]

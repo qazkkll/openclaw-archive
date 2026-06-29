@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "RAL",
+    "date": "2025-12-31",
+    "stockPrice": 50.91,
+    "numberOfShares": 112800000,
+    "marketCapitalization": 5742648000,
+    "minusCashAndCashEquivalents": 318800000,
+    "addTotalDebt": 1148800000,
+    "enterpriseValue": 6572648000
+  },
+  {
+    "symbol": "RAL",
+    "date": "2024-12-31",
+    "stockPrice": 47.5,
+    "numberOfShares": 112990276,
+    "marketCapitalization": 5367038110,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 71700000,
+    "enterpriseValue": 5438738110
+  },
+  {
+    "symbol": "RAL",
+    "date": "2023-12-31",
+    "stockPrice": 47.5,
+    "numberOfShares": 112700000,
+    "marketCapitalization": 5353250000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 47100000,
+    "enterpriseValue": 5400350000
+  },
+  {
+    "symbol": "RAL",
+    "date": "2022-12-31",
+    "stockPrice": 47.5,
+    "numberOfShares": 112700000,
+    "marketCapitalization": 5353250000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5353250000
+  }
+]

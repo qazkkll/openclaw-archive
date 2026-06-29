@@ -1,0 +1,532 @@
+[
+  {
+    "symbol": "BSM",
+    "date": "2026-03-31",
+    "stockPrice": 15.12,
+    "numberOfShares": 212369000,
+    "marketCapitalization": 3211019280,
+    "minusCashAndCashEquivalents": 11600000,
+    "addTotalDebt": 187000000,
+    "enterpriseValue": 3386419280
+  },
+  {
+    "symbol": "BSM",
+    "date": "2025-12-31",
+    "stockPrice": 13.29,
+    "numberOfShares": 211867000,
+    "marketCapitalization": 2815712430,
+    "minusCashAndCashEquivalents": 1478000,
+    "addTotalDebt": 154000000,
+    "enterpriseValue": 2968234430
+  },
+  {
+    "symbol": "BSM",
+    "date": "2025-09-30",
+    "stockPrice": 13.14,
+    "numberOfShares": 211600000,
+    "marketCapitalization": 2780424000,
+    "minusCashAndCashEquivalents": 6168000,
+    "addTotalDebt": 95000000,
+    "enterpriseValue": 2869256000
+  },
+  {
+    "symbol": "BSM",
+    "date": "2025-06-30",
+    "stockPrice": 13.08,
+    "numberOfShares": 211689000,
+    "marketCapitalization": 2768892120,
+    "minusCashAndCashEquivalents": 2519000,
+    "addTotalDebt": 99000000,
+    "enterpriseValue": 2865373120
+  },
+  {
+    "symbol": "BSM",
+    "date": "2025-03-31",
+    "stockPrice": 15.27,
+    "numberOfShares": 211253000,
+    "marketCapitalization": 3225833310,
+    "minusCashAndCashEquivalents": 2424000,
+    "addTotalDebt": 63000000,
+    "enterpriseValue": 3286409310
+  },
+  {
+    "symbol": "BSM",
+    "date": "2024-12-31",
+    "stockPrice": 14.6,
+    "numberOfShares": 210694000,
+    "marketCapitalization": 3076132400,
+    "minusCashAndCashEquivalents": 2519000,
+    "addTotalDebt": 25000000,
+    "enterpriseValue": 3098613400
+  },
+  {
+    "symbol": "BSM",
+    "date": "2024-09-30",
+    "stockPrice": 15.1,
+    "numberOfShares": 210687000,
+    "marketCapitalization": 3181373700,
+    "minusCashAndCashEquivalents": 20963000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3160410700
+  },
+  {
+    "symbol": "BSM",
+    "date": "2024-06-30",
+    "stockPrice": 15.8,
+    "numberOfShares": 210703000,
+    "marketCapitalization": 3329107400,
+    "minusCashAndCashEquivalents": 26669000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3302438400
+  },
+  {
+    "symbol": "BSM",
+    "date": "2024-03-31",
+    "stockPrice": 16.09,
+    "numberOfShares": 210654000,
+    "marketCapitalization": 3389422860,
+    "minusCashAndCashEquivalents": 40456000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3348966860
+  },
+  {
+    "symbol": "BSM",
+    "date": "2023-12-31",
+    "stockPrice": 15.96,
+    "numberOfShares": 209991000,
+    "marketCapitalization": 3351456360,
+    "minusCashAndCashEquivalents": 70282000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3281174360
+  },
+  {
+    "symbol": "BSM",
+    "date": "2023-09-30",
+    "stockPrice": 17.23,
+    "numberOfShares": 209982000,
+    "marketCapitalization": 3617989860,
+    "minusCashAndCashEquivalents": 56030000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3561959860
+  },
+  {
+    "symbol": "BSM",
+    "date": "2023-06-30",
+    "stockPrice": 15.95,
+    "numberOfShares": 209967000,
+    "marketCapitalization": 3348973650,
+    "minusCashAndCashEquivalents": 46666000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3302307650
+  },
+  {
+    "symbol": "BSM",
+    "date": "2023-03-31",
+    "stockPrice": 15.69,
+    "numberOfShares": 209941000,
+    "marketCapitalization": 3293974290,
+    "minusCashAndCashEquivalents": 19150000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3274824290
+  },
+  {
+    "symbol": "BSM",
+    "date": "2022-12-31",
+    "stockPrice": 16.87,
+    "numberOfShares": 209406000,
+    "marketCapitalization": 3532679220,
+    "minusCashAndCashEquivalents": 4307000,
+    "addTotalDebt": 10000000,
+    "enterpriseValue": 3538372220
+  },
+  {
+    "symbol": "BSM",
+    "date": "2022-09-30",
+    "stockPrice": 15.65,
+    "numberOfShares": 209402000,
+    "marketCapitalization": 3277141300,
+    "minusCashAndCashEquivalents": 838000,
+    "addTotalDebt": 60000000,
+    "enterpriseValue": 3336303300
+  },
+  {
+    "symbol": "BSM",
+    "date": "2022-06-30",
+    "stockPrice": 13.69,
+    "numberOfShares": 209397000,
+    "marketCapitalization": 2866644930,
+    "minusCashAndCashEquivalents": 12158000,
+    "addTotalDebt": 86000000,
+    "enterpriseValue": 2940486930
+  },
+  {
+    "symbol": "BSM",
+    "date": "2022-03-31",
+    "stockPrice": 13.46,
+    "numberOfShares": 209323000,
+    "marketCapitalization": 2817487580,
+    "minusCashAndCashEquivalents": 6653000,
+    "addTotalDebt": 69000000,
+    "enterpriseValue": 2879834580
+  },
+  {
+    "symbol": "BSM",
+    "date": "2021-12-31",
+    "stockPrice": 10.33,
+    "numberOfShares": 208665000,
+    "marketCapitalization": 2155509450,
+    "minusCashAndCashEquivalents": 8876000,
+    "addTotalDebt": 89000000,
+    "enterpriseValue": 2235633450
+  },
+  {
+    "symbol": "BSM",
+    "date": "2021-09-30",
+    "stockPrice": 12.05,
+    "numberOfShares": 208653000,
+    "marketCapitalization": 2514268650,
+    "minusCashAndCashEquivalents": 3264000,
+    "addTotalDebt": 99000000,
+    "enterpriseValue": 2610004650
+  },
+  {
+    "symbol": "BSM",
+    "date": "2021-06-30",
+    "stockPrice": 10.75,
+    "numberOfShares": 207945000,
+    "marketCapitalization": 2235408750,
+    "minusCashAndCashEquivalents": 1043000,
+    "addTotalDebt": 96000000,
+    "enterpriseValue": 2330365750
+  },
+  {
+    "symbol": "BSM",
+    "date": "2021-03-31",
+    "stockPrice": 8.72,
+    "numberOfShares": 207442000,
+    "marketCapitalization": 1808894240,
+    "minusCashAndCashEquivalents": 3789000,
+    "addTotalDebt": 111000000,
+    "enterpriseValue": 1916105240
+  },
+  {
+    "symbol": "BSM",
+    "date": "2020-12-31",
+    "stockPrice": 6.68,
+    "numberOfShares": 206748000,
+    "marketCapitalization": 1381076640,
+    "minusCashAndCashEquivalents": 1796000,
+    "addTotalDebt": 121000000,
+    "enterpriseValue": 1500280640
+  },
+  {
+    "symbol": "BSM",
+    "date": "2020-09-30",
+    "stockPrice": 6.14,
+    "numberOfShares": 206732000,
+    "marketCapitalization": 1269334480,
+    "minusCashAndCashEquivalents": 3057000,
+    "addTotalDebt": 147000000,
+    "enterpriseValue": 1413277480
+  },
+  {
+    "symbol": "BSM",
+    "date": "2020-06-30",
+    "stockPrice": 6.5,
+    "numberOfShares": 206707000,
+    "marketCapitalization": 1343595500,
+    "minusCashAndCashEquivalents": 1600000,
+    "addTotalDebt": 323000000,
+    "enterpriseValue": 1664995500
+  },
+  {
+    "symbol": "BSM",
+    "date": "2020-03-31",
+    "stockPrice": 4.68,
+    "numberOfShares": 206631000,
+    "marketCapitalization": 967033080,
+    "minusCashAndCashEquivalents": 3040000,
+    "addTotalDebt": 388000000,
+    "enterpriseValue": 1351993080
+  },
+  {
+    "symbol": "BSM",
+    "date": "2019-12-31",
+    "stockPrice": 12.72,
+    "numberOfShares": 205966000,
+    "marketCapitalization": 2619887520,
+    "minusCashAndCashEquivalents": 8119000,
+    "addTotalDebt": 394000000,
+    "enterpriseValue": 3005768520
+  },
+  {
+    "symbol": "BSM",
+    "date": "2019-09-30",
+    "stockPrice": 14.24,
+    "numberOfShares": 205957000,
+    "marketCapitalization": 2932827680,
+    "minusCashAndCashEquivalents": 1966000,
+    "addTotalDebt": 413000000,
+    "enterpriseValue": 3343861680
+  },
+  {
+    "symbol": "BSM",
+    "date": "2019-06-30",
+    "stockPrice": 15.36,
+    "numberOfShares": 206205000,
+    "marketCapitalization": 3167308800,
+    "minusCashAndCashEquivalents": 3906000,
+    "addTotalDebt": 436000000,
+    "enterpriseValue": 3599402800
+  },
+  {
+    "symbol": "BSM",
+    "date": "2019-03-31",
+    "stockPrice": 17.83,
+    "numberOfShares": 205749000,
+    "marketCapitalization": 3668504669,
+    "minusCashAndCashEquivalents": 4247000,
+    "addTotalDebt": 435000000,
+    "enterpriseValue": 4099257669
+  },
+  {
+    "symbol": "BSM",
+    "date": "2018-12-31",
+    "stockPrice": 15.48,
+    "numberOfShares": 204794000,
+    "marketCapitalization": 3170211120,
+    "minusCashAndCashEquivalents": 5414000,
+    "addTotalDebt": 410000000,
+    "enterpriseValue": 3574797120
+  },
+  {
+    "symbol": "BSM",
+    "date": "2018-09-30",
+    "stockPrice": 18.4,
+    "numberOfShares": 203035000,
+    "marketCapitalization": 3735843999,
+    "minusCashAndCashEquivalents": 4441000,
+    "addTotalDebt": 402000000,
+    "enterpriseValue": 4133402999
+  },
+  {
+    "symbol": "BSM",
+    "date": "2018-06-30",
+    "stockPrice": 18.49,
+    "numberOfShares": 201579000,
+    "marketCapitalization": 3727195709,
+    "minusCashAndCashEquivalents": 7071000,
+    "addTotalDebt": 421000000,
+    "enterpriseValue": 4141124709
+  },
+  {
+    "symbol": "BSM",
+    "date": "2018-03-31",
+    "stockPrice": 16.55,
+    "numberOfShares": 199169000,
+    "marketCapitalization": 3296246950,
+    "minusCashAndCashEquivalents": 6297000,
+    "addTotalDebt": 436000000,
+    "enterpriseValue": 3725949950
+  },
+  {
+    "symbol": "BSM",
+    "date": "2017-12-31",
+    "stockPrice": 17.94,
+    "numberOfShares": 198803000,
+    "marketCapitalization": 3566525820,
+    "minusCashAndCashEquivalents": 5642000,
+    "addTotalDebt": 388000000,
+    "enterpriseValue": 3948883820
+  },
+  {
+    "symbol": "BSM",
+    "date": "2017-09-30",
+    "stockPrice": 17.34,
+    "numberOfShares": 197011000,
+    "marketCapitalization": 3416170740,
+    "minusCashAndCashEquivalents": 8911000,
+    "addTotalDebt": 362000000,
+    "enterpriseValue": 3769259740
+  },
+  {
+    "symbol": "BSM",
+    "date": "2017-06-30",
+    "stockPrice": 15.76,
+    "numberOfShares": 193378000,
+    "marketCapitalization": 3047637280,
+    "minusCashAndCashEquivalents": 7487000,
+    "addTotalDebt": 393000000,
+    "enterpriseValue": 3433150280
+  },
+  {
+    "symbol": "BSM",
+    "date": "2017-03-31",
+    "stockPrice": 16.51,
+    "numberOfShares": 192050000,
+    "marketCapitalization": 3170745500,
+    "minusCashAndCashEquivalents": 14005000,
+    "addTotalDebt": 388000000,
+    "enterpriseValue": 3544740500
+  },
+  {
+    "symbol": "BSM",
+    "date": "2016-12-31",
+    "stockPrice": 18.78,
+    "numberOfShares": 190905000,
+    "marketCapitalization": 3585195900,
+    "minusCashAndCashEquivalents": 9772000,
+    "addTotalDebt": 316000000,
+    "enterpriseValue": 3891423900
+  },
+  {
+    "symbol": "BSM",
+    "date": "2016-09-30",
+    "stockPrice": 17.81,
+    "numberOfShares": 190929000,
+    "marketCapitalization": 3400445489,
+    "minusCashAndCashEquivalents": 4848000,
+    "addTotalDebt": 299000000,
+    "enterpriseValue": 3694597489
+  },
+  {
+    "symbol": "BSM",
+    "date": "2016-06-30",
+    "stockPrice": 15.5,
+    "numberOfShares": 191545000,
+    "marketCapitalization": 2968947500,
+    "minusCashAndCashEquivalents": 9770000,
+    "addTotalDebt": 285000000,
+    "enterpriseValue": 3244177500
+  },
+  {
+    "symbol": "BSM",
+    "date": "2016-03-31",
+    "stockPrice": 14.01,
+    "numberOfShares": 191479000,
+    "marketCapitalization": 2682620790,
+    "minusCashAndCashEquivalents": 5013000,
+    "addTotalDebt": 116000000,
+    "enterpriseValue": 2793607790
+  },
+  {
+    "symbol": "BSM",
+    "date": "2015-12-31",
+    "stockPrice": 14.43,
+    "numberOfShares": 191239000,
+    "marketCapitalization": 2759578770,
+    "minusCashAndCashEquivalents": 13233000,
+    "addTotalDebt": 66000000,
+    "enterpriseValue": 2812345770
+  },
+  {
+    "symbol": "BSM",
+    "date": "2015-09-30",
+    "stockPrice": 13.8,
+    "numberOfShares": 191243000,
+    "marketCapitalization": 2639153400,
+    "minusCashAndCashEquivalents": 5570000,
+    "addTotalDebt": 43000000,
+    "enterpriseValue": 2676583400
+  },
+  {
+    "symbol": "BSM",
+    "date": "2015-06-30",
+    "stockPrice": 17.22,
+    "numberOfShares": 191235000,
+    "marketCapitalization": 3293066700,
+    "minusCashAndCashEquivalents": 6048000,
+    "addTotalDebt": 6000000,
+    "enterpriseValue": 3293018700
+  },
+  {
+    "symbol": "BSM",
+    "date": "2015-03-31",
+    "stockPrice": 19,
+    "numberOfShares": 190266666,
+    "marketCapitalization": 3615066654,
+    "minusCashAndCashEquivalents": 8368000,
+    "addTotalDebt": 389000000,
+    "enterpriseValue": 3995698654
+  },
+  {
+    "symbol": "BSM",
+    "date": "2014-12-31",
+    "stockPrice": 19,
+    "numberOfShares": 190266666,
+    "marketCapitalization": 3615066654,
+    "minusCashAndCashEquivalents": 14803000,
+    "addTotalDebt": 394000000,
+    "enterpriseValue": 3994263654
+  },
+  {
+    "symbol": "BSM",
+    "date": "2014-09-30",
+    "stockPrice": 19,
+    "numberOfShares": 190266666,
+    "marketCapitalization": 3615066654,
+    "minusCashAndCashEquivalents": 7992000,
+    "addTotalDebt": 430000000,
+    "enterpriseValue": 4037074654
+  },
+  {
+    "symbol": "BSM",
+    "date": "2014-06-30",
+    "stockPrice": 19,
+    "numberOfShares": 190266666,
+    "marketCapitalization": 3615066654,
+    "minusCashAndCashEquivalents": 12789000,
+    "addTotalDebt": 453000000,
+    "enterpriseValue": 4055277654
+  },
+  {
+    "symbol": "BSM",
+    "date": "2014-03-31",
+    "stockPrice": 19,
+    "numberOfShares": 190266666,
+    "marketCapitalization": 3615066654,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3615066654
+  },
+  {
+    "symbol": "BSM",
+    "date": "2013-12-31",
+    "stockPrice": 19,
+    "numberOfShares": 2114389997,
+    "marketCapitalization": 40173409943,
+    "minusCashAndCashEquivalents": 30123000,
+    "addTotalDebt": 451000000,
+    "enterpriseValue": 40594286943
+  },
+  {
+    "symbol": "BSM",
+    "date": "2013-09-30",
+    "stockPrice": 19,
+    "numberOfShares": 2163844560,
+    "marketCapitalization": 41113046640,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 41113046640
+  },
+  {
+    "symbol": "BSM",
+    "date": "2013-06-30",
+    "stockPrice": 19,
+    "numberOfShares": 2150178359,
+    "marketCapitalization": 40853388821,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 40853388821
+  },
+  {
+    "symbol": "BSM",
+    "date": "2013-03-31",
+    "stockPrice": 19,
+    "numberOfShares": 2150178359,
+    "marketCapitalization": 40853388821,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 40853388821
+  }
+]

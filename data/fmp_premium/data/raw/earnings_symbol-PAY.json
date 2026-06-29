@@ -1,0 +1,794 @@
+[
+  {
+    "symbol": "PAY",
+    "date": "2026-08-03",
+    "epsActual": null,
+    "epsEstimated": 0.18,
+    "revenueActual": null,
+    "revenueEstimated": 345443000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2026-05-04",
+    "epsActual": 0.21,
+    "epsEstimated": 0.17,
+    "revenueActual": 358441000,
+    "revenueEstimated": 335452600,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2026-02-23",
+    "epsActual": 0.2,
+    "epsEstimated": 0.18,
+    "revenueActual": 330458000,
+    "revenueEstimated": 313774800,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2025-11-03",
+    "epsActual": 0.17,
+    "epsEstimated": 0.16,
+    "revenueActual": 310737000,
+    "revenueEstimated": 313769710,
+    "lastUpdated": "2025-12-28"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2025-08-04",
+    "epsActual": 0.15,
+    "epsEstimated": 0.14,
+    "revenueActual": 280077000,
+    "revenueEstimated": 284738580,
+    "lastUpdated": "2025-11-04"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2025-05-05",
+    "epsActual": 0.14,
+    "epsEstimated": 0.13,
+    "revenueActual": 275235000,
+    "revenueEstimated": 262264230,
+    "lastUpdated": "2025-08-05"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2025-03-10",
+    "epsActual": 0.13,
+    "epsEstimated": 0.12,
+    "revenueActual": 257877000,
+    "revenueEstimated": 251161300,
+    "lastUpdated": "2025-05-14"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2024-11-12",
+    "epsActual": 0.15,
+    "epsEstimated": 0.09,
+    "revenueActual": 231571000,
+    "revenueEstimated": 190678608,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2024-08-08",
+    "epsActual": 0.12,
+    "epsEstimated": 0.09,
+    "revenueActual": 197422000,
+    "revenueEstimated": 190630000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2024-05-06",
+    "epsActual": 0.1,
+    "epsEstimated": 0.08,
+    "revenueActual": 184875000,
+    "revenueEstimated": 180570000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2024-03-04",
+    "epsActual": 0.11,
+    "epsEstimated": 0.06,
+    "revenueActual": 164800000,
+    "revenueEstimated": 181080000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2023-11-06",
+    "epsActual": 0.09,
+    "epsEstimated": 0.03817,
+    "revenueActual": 152423000,
+    "revenueEstimated": 156820000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2023-08-07",
+    "epsActual": 0.06,
+    "epsEstimated": 0.01367,
+    "revenueActual": 148939000,
+    "revenueEstimated": 144770000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2023-05-08",
+    "epsActual": 0.02,
+    "epsEstimated": 0.00488,
+    "revenueActual": 148328000,
+    "revenueEstimated": 138130000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2023-02-23",
+    "epsActual": 0.02,
+    "epsEstimated": 0.004,
+    "revenueActual": 132176000,
+    "revenueEstimated": 129590000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2022-11-09",
+    "epsActual": 0.01,
+    "epsEstimated": 0.00123,
+    "revenueActual": 128152000,
+    "revenueEstimated": 121255772,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2022-08-03",
+    "epsActual": -0.02015,
+    "epsEstimated": -0.00864,
+    "revenueActual": 119969000,
+    "revenueEstimated": 117850007,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2022-05-04",
+    "epsActual": 0.03,
+    "epsEstimated": 0.00843,
+    "revenueActual": 116704000,
+    "revenueEstimated": 114325564,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2022-02-16",
+    "epsActual": 0.02,
+    "epsEstimated": 0.007,
+    "revenueActual": 108131000,
+    "revenueEstimated": 105366443,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2021-11-09",
+    "epsActual": 0.01,
+    "epsEstimated": 0.0122,
+    "revenueActual": 101676000,
+    "revenueEstimated": 94220000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2021-08-10",
+    "epsActual": 0.02,
+    "epsEstimated": 0.0142,
+    "revenueActual": 93495000,
+    "revenueEstimated": 88980000,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2021-05-26",
+    "epsActual": 0.03136,
+    "epsEstimated": null,
+    "revenueActual": 82422000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2021-03-31",
+    "epsActual": 0.03137,
+    "epsEstimated": null,
+    "revenueActual": 92222000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2020-09-30",
+    "epsActual": 0.02256,
+    "epsEstimated": null,
+    "revenueActual": 78018000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2020-06-30",
+    "epsActual": 0.04044,
+    "epsEstimated": null,
+    "revenueActual": 71734000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2020-03-31",
+    "epsActual": 0.02399,
+    "epsEstimated": null,
+    "revenueActual": 69593000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2018-06-08",
+    "epsActual": -0.15424,
+    "epsEstimated": null,
+    "revenueActual": 438403000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2018-03-09",
+    "epsActual": 0.06506,
+    "epsEstimated": null,
+    "revenueActual": 436800000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2017-12-18",
+    "epsActual": 0.02741,
+    "epsEstimated": null,
+    "revenueActual": 476500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2017-09-08",
+    "epsActual": -0.63393,
+    "epsEstimated": null,
+    "revenueActual": 466900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2017-06-09",
+    "epsActual": -0.79946,
+    "epsEstimated": null,
+    "revenueActual": 473700000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2017-03-09",
+    "epsActual": -0.14901,
+    "epsEstimated": null,
+    "revenueActual": 453900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2016-12-27",
+    "epsActual": -0.0405,
+    "epsEstimated": null,
+    "revenueActual": 464200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2016-09-01",
+    "epsActual": -0.28094,
+    "epsEstimated": null,
+    "revenueActual": 488100000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2016-06-07",
+    "epsActual": 0.02604,
+    "epsEstimated": null,
+    "revenueActual": 526278000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2016-03-11",
+    "epsActual": 0.2091,
+    "epsEstimated": null,
+    "revenueActual": 513500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2015-12-18",
+    "epsActual": 0.3304,
+    "epsEstimated": null,
+    "revenueActual": 514100000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2015-09-04",
+    "epsActual": 0.08162,
+    "epsEstimated": null,
+    "revenueActual": 509900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2015-06-05",
+    "epsActual": 0.1519,
+    "epsEstimated": null,
+    "revenueActual": 490100000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2015-03-10",
+    "epsActual": 0.1195,
+    "epsEstimated": null,
+    "revenueActual": 486200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2014-12-17",
+    "epsActual": 0.2702,
+    "epsEstimated": null,
+    "revenueActual": 490500000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2014-09-04",
+    "epsActual": -0.25917,
+    "epsEstimated": null,
+    "revenueActual": 475900000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2014-06-05",
+    "epsActual": -0.21525,
+    "epsEstimated": null,
+    "revenueActual": 466417000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2014-03-11",
+    "epsActual": -0.14687,
+    "epsEstimated": null,
+    "revenueActual": 436100000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2013-12-19",
+    "epsActual": -2.2621,
+    "epsEstimated": null,
+    "revenueActual": 431200000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2013-09-05",
+    "epsActual": -0.0175,
+    "epsEstimated": null,
+    "revenueActual": 416000000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2013-06-05",
+    "epsActual": -0.53895,
+    "epsEstimated": null,
+    "revenueActual": 426287000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2013-03-11",
+    "epsActual": 0.1071,
+    "epsEstimated": null,
+    "revenueActual": 428747000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2012-12-19",
+    "epsActual": 0.2446,
+    "epsEstimated": null,
+    "revenueActual": 485379000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2012-09-10",
+    "epsActual": 0.3415,
+    "epsEstimated": null,
+    "revenueActual": 489050000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2012-06-11",
+    "epsActual": 0.1303,
+    "epsEstimated": null,
+    "revenueActual": 472018000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2012-03-10",
+    "epsActual": -0.02951,
+    "epsEstimated": null,
+    "revenueActual": 419524000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2011-12-23",
+    "epsActual": 1.84,
+    "epsEstimated": null,
+    "revenueActual": 410704000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2011-09-09",
+    "epsActual": 0.2823,
+    "epsEstimated": null,
+    "revenueActual": 316951000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2011-06-08",
+    "epsActual": 0.2697,
+    "epsEstimated": null,
+    "revenueActual": 292446000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2011-03-11",
+    "epsActual": 0.3508,
+    "epsEstimated": null,
+    "revenueActual": 283765000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2010-12-21",
+    "epsActual": 0.568,
+    "epsEstimated": null,
+    "revenueActual": 275970000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2010-09-03",
+    "epsActual": 0.2115,
+    "epsEstimated": null,
+    "revenueActual": 261455000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2010-06-04",
+    "epsActual": 0.2311,
+    "epsEstimated": null,
+    "revenueActual": 240712000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2010-03-05",
+    "epsActual": 0.1226,
+    "epsEstimated": null,
+    "revenueActual": 223400000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2009-12-22",
+    "epsActual": 0.04354,
+    "epsEstimated": null,
+    "revenueActual": 217829000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2009-09-04",
+    "epsActual": 0.2591,
+    "epsEstimated": null,
+    "revenueActual": 211248000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2009-06-04",
+    "epsActual": 0.2196,
+    "epsEstimated": null,
+    "revenueActual": 201614000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2009-03-06",
+    "epsActual": -2.15405,
+    "epsEstimated": null,
+    "revenueActual": 214023000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2009-01-14",
+    "epsActual": -4.33958,
+    "epsEstimated": null,
+    "revenueActual": 244711000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2008-08-19",
+    "epsActual": -0.60996,
+    "epsEstimated": null,
+    "revenueActual": 237108000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2008-08-19",
+    "epsActual": -0.0855,
+    "epsEstimated": null,
+    "revenueActual": 258698000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2008-08-19",
+    "epsActual": -0.21364,
+    "epsEstimated": null,
+    "revenueActual": 233001000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2008-08-19",
+    "epsActual": -0.39806,
+    "epsEstimated": null,
+    "revenueActual": 185521000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2007-09-07",
+    "epsActual": 0.1593,
+    "epsEstimated": null,
+    "revenueActual": 231945000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2007-05-31",
+    "epsActual": 0.05772,
+    "epsEstimated": null,
+    "revenueActual": 217213000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2007-03-09",
+    "epsActual": -0.01215,
+    "epsEstimated": null,
+    "revenueActual": 216626000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2006-12-18",
+    "epsActual": 0.1719,
+    "epsEstimated": null,
+    "revenueActual": 156633000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2006-09-01",
+    "epsActual": 0.2425,
+    "epsEstimated": null,
+    "revenueActual": 147617000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2006-05-26",
+    "epsActual": 0.218,
+    "epsEstimated": null,
+    "revenueActual": 142190000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2006-03-03",
+    "epsActual": 0.2005,
+    "epsEstimated": null,
+    "revenueActual": 134630000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2005-12-20",
+    "epsActual": 0.1835,
+    "epsEstimated": null,
+    "revenueActual": 130490000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2005-08-29",
+    "epsActual": 0.09989,
+    "epsEstimated": null,
+    "revenueActual": 125701000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2005-04-30",
+    "epsActual": 0.1543,
+    "epsEstimated": null,
+    "revenueActual": 117893000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2005-01-31",
+    "epsActual": 0.1022,
+    "epsEstimated": null,
+    "revenueActual": 111283000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2004-10-31",
+    "epsActual": 0.05338,
+    "epsEstimated": null,
+    "revenueActual": 108619000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2004-07-31",
+    "epsActual": -0.05569,
+    "epsEstimated": null,
+    "revenueActual": 104043000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2004-04-30",
+    "epsActual": 0.05381,
+    "epsEstimated": null,
+    "revenueActual": 89477000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2004-01-31",
+    "epsActual": 0.0484,
+    "epsEstimated": null,
+    "revenueActual": 87949000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2003-10-31",
+    "epsActual": 0.00085,
+    "epsEstimated": null,
+    "revenueActual": 90251000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2003-07-31",
+    "epsActual": 0.00309,
+    "epsEstimated": null,
+    "revenueActual": 88850000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2003-04-30",
+    "epsActual": 0.00007,
+    "epsEstimated": null,
+    "revenueActual": 77386000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  },
+  {
+    "symbol": "PAY",
+    "date": "2003-01-31",
+    "epsActual": 0.00053,
+    "epsEstimated": null,
+    "revenueActual": 82844000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-24"
+  }
+]

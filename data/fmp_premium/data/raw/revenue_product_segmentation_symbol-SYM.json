@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "SYM",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-09-27",
+    "data": {
+      "Operation Services": 105304000,
+      "Software Maintenance And Support": 29602000,
+      "Systems": 2118868000
+    }
+  },
+  {
+    "symbol": "SYM",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-09-28",
+    "data": {
+      "Operation Services": 68566000,
+      "Software Maintenance And Support": 14173000,
+      "Systems": 1705440000
+    }
+  },
+  {
+    "symbol": "SYM",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-09-30",
+    "data": {
+      "Operation Services": 37854000,
+      "Software Maintenance And Support": 9222000,
+      "Systems": 1138059000
+    }
+  },
+  {
+    "symbol": "SYM",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-09-24",
+    "data": {
+      "Operation Services": 25096000,
+      "Software Maintenance And Support": 4390000,
+      "Systems": 567993000
+    }
+  }
+]

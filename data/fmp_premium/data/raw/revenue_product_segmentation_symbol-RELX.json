@@ -1,0 +1,53 @@
+[
+  {
+    "symbol": "RELX",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "GBP",
+    "date": "2025-12-31",
+    "data": {
+      "Electronic": 8070000000,
+      "Face To Face": 1121000000,
+      "Print": 399000000
+    }
+  },
+  {
+    "symbol": "RELX",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "GBP",
+    "date": "2024-12-31",
+    "data": {
+      "Electronic": 7824000000,
+      "Face To Face": 1189000000,
+      "Print": 421000000
+    }
+  },
+  {
+    "symbol": "RELX",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "GBP",
+    "date": "2023-12-31",
+    "data": {
+      "Electronic": 7625000000,
+      "Face To Face": 1060000000,
+      "Print": 476000000
+    }
+  },
+  {
+    "symbol": "RELX",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "GBP",
+    "date": "2017-12-31",
+    "data": {
+      "Advertising": 98000000,
+      "Electronic": 5399000000,
+      "Face To Face": 1122000000,
+      "Print": 834000000,
+      "Subscriptions": 3808000000,
+      "Transactional": 3449000000
+    }
+  }
+]

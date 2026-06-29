@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "FOXA",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-06-30",
+    "data": {
+      "Asia": 3200000000,
+      "Europe": 3360000000,
+      "Other Countries": 5400000000,
+      "UNITED STATES": 21400000000,
+      "United States And Canada": 21640000000
+    }
+  },
+  {
+    "symbol": "FOXA",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-06-30",
+    "data": {
+      "Asia": 2800000000,
+      "Europe": 3122000000,
+      "Other Countries": 4735000000,
+      "UNITED STATES": 20400000000,
+      "United States And Canada": 20643000000
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "symbol": "COIN",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Bank Servicing, Consumer, Net": 3322835000,
+      "Bank Servicing, Institutional": 479667000,
+      "Bank Servicing, Other": 252888000,
+      "Subscription and Circulation, Blockchain Infrastructure Service": 677405000,
+      "Subscription and Circulation, Other": 554775000,
+      "Subscription and Circulation, Stablecoin": 1348821000,
+      "Other Revenue": 297887000
+    }
+  },
+  {
+    "symbol": "COIN",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Bank Servicing, Consumer, Net": 3430322000,
+      "Bank Servicing, Institutional": 345598000,
+      "Bank Servicing, Other": 210193000,
+      "Subscription and Circulation, Blockchain Infrastructure Service": 705757000,
+      "Subscription and Circulation, Custodial Fee": 141706000,
+      "Subscription and Circulation, Other": 283407000,
+      "Subscription and Circulation, Stablecoin": 910464000,
+      "Other Revenue": 270782000
+    }
+  },
+  {
+    "symbol": "COIN",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Bank Servicing, Consumer, Net": 1429490000,
+      "Bank Servicing, Institutional": 90164000,
+      "Subscription and Circulation, Blockchain Infrastructure Service": 330885000,
+      "Subscription and Circulation, Custodial Fee": 69501000,
+      "Subscription and Circulation, Other": 138339000,
+      "Subscription and Circulation, Stablecoin": 694247000,
+      "Other Revenue": 181843000
+    }
+  },
+  {
+    "symbol": "COIN",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Bank Servicing, Consumer, Net": 2236900000,
+      "Bank Servicing, Institutional": 119344000,
+      "Subscription and Circulation, Blockchain Infrastructure Service": 275507000,
+      "Subscription and Circulation, Custodial Fee": 79847000,
+      "Subscription and Circulation, Other": 110261000
+    }
+  },
+  {
+    "symbol": "COIN",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Bank Servicing, Institutional": 346274000,
+      "Subscription and Circulation, Blockchain Infrastructure Service": 223055000,
+      "Subscription and Circulation, Custodial Fee": 136293000,
+      "Subscription and Circulation, Other": 69179000
+    }
+  }
+]

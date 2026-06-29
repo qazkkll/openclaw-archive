@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "SLDE",
+    "date": "2025-12-31",
+    "stockPrice": 19.48,
+    "numberOfShares": 123780000,
+    "marketCapitalization": 2411234400,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2411234400
+  },
+  {
+    "symbol": "SLDE",
+    "date": "2024-12-31",
+    "stockPrice": 20.25,
+    "numberOfShares": 124934000,
+    "marketCapitalization": 2529913500,
+    "minusCashAndCashEquivalents": 493409000,
+    "addTotalDebt": 48253000,
+    "enterpriseValue": 2084757500
+  },
+  {
+    "symbol": "SLDE",
+    "date": "2023-12-31",
+    "stockPrice": 20.25,
+    "numberOfShares": 124934000,
+    "marketCapitalization": 2529913500,
+    "minusCashAndCashEquivalents": 334546000,
+    "addTotalDebt": 42310000,
+    "enterpriseValue": 2237677500
+  },
+  {
+    "symbol": "SLDE",
+    "date": "2022-12-31",
+    "stockPrice": 20.25,
+    "numberOfShares": 21094000,
+    "marketCapitalization": 427153500,
+    "minusCashAndCashEquivalents": 176649000,
+    "addTotalDebt": 32132000,
+    "enterpriseValue": 282636500
+  }
+]

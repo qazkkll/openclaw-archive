@@ -1,0 +1,96 @@
+[
+  {
+    "symbol": "MOD",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-03-31",
+    "data": {
+      "Automotive": 526000000,
+      "Commercial Refrigeration": 158700000,
+      "Commercial Vehicle": 381700000,
+      "Commercial and Residential Air Conditioning": 371300000,
+      "HVAC&R": 332300000,
+      "Off-Highway": 271200000,
+      "Other Vehicular": 61900000
+    }
+  },
+  {
+    "symbol": "MOD",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-03-31",
+    "data": {
+      "Automotive": 461000000,
+      "Commercial Vehicle": 382500000,
+      "HVAC&R": 400900000,
+      "Off-Highway": 202800000,
+      "Other Product": 55800000
+    }
+  },
+  {
+    "symbol": "MOD",
+    "fiscalYear": 2016,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2016-03-31",
+    "data": {
+      "Automotive": 396800000,
+      "Commercial Vehicle": 459800000,
+      "Off-Highway": 206200000,
+      "Other Product": 108300000
+    }
+  },
+  {
+    "symbol": "MOD",
+    "fiscalYear": 2015,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2015-03-31",
+    "data": {
+      "Building HVAC": 199600000,
+      "Charge air coolers": 148900000,
+      "Condensers": 140000000,
+      "EGR Coolers": 183500000,
+      "Modules packages": 367500000,
+      "Oil coolers": 233000000,
+      "Other Product": 99100000,
+      "Radiators": 124800000
+    }
+  },
+  {
+    "symbol": "MOD",
+    "fiscalYear": 2014,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2014-03-31",
+    "data": {
+      "Building HVAC": 159500000,
+      "Charge air coolers": 157000000,
+      "Condensers": 129200000,
+      "EGR Coolers": 172500000,
+      "Modules packages": 379900000,
+      "Oil coolers": 215400000,
+      "Other Product": 135100000,
+      "Radiators": 129000000
+    }
+  },
+  {
+    "symbol": "MOD",
+    "fiscalYear": 2013,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2013-03-31",
+    "data": {
+      "Building HVAC": 151800000,
+      "Charge air coolers": 161800000,
+      "Condensers": 128800000,
+      "EGR Coolers": 136100000,
+      "Modules packages": 358500000,
+      "Oil coolers": 194100000,
+      "Other Product": 110500000,
+      "Radiators": 134400000
+    }
+  }
+]

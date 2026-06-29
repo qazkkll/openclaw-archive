@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "CGAU",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Copper": 242679000,
+      "Gold": 349136000,
+      "Molybdenum": 262697000,
+      "Other by-product": 15719000
+    }
+  },
+  {
+    "symbol": "CGAU",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Copper": 209644000,
+      "Gold": 467990000
+    }
+  }
+]

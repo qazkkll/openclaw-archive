@@ -1,0 +1,40 @@
+[
+  {
+    "symbol": "BKSY",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Data, Software and Analytics": 10761000,
+      "Engineering Services": 12277000,
+      "Imagery": 54630000,
+      "Professional Services": 16824000
+    }
+  },
+  {
+    "symbol": "BKSY",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Data, Software and Analytics": 13173000,
+      "Engineering Services": 9372000,
+      "Imagery": 34242000,
+      "Professional Services": 8563000
+    }
+  },
+  {
+    "symbol": "BKSY",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Data, Software and Analytics": 16398000,
+      "Engineering and Integration": 9039000,
+      "Imagery": 8648000
+    }
+  }
+]

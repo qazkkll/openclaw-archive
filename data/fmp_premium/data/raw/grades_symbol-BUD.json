@@ -1,0 +1,914 @@
+[
+  {
+    "symbol": "BUD",
+    "date": "2026-05-07",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2026-05-06",
+    "gradingCompany": "Wells Fargo",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2026-02-13",
+    "gradingCompany": "Wells Fargo",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2026-02-13",
+    "gradingCompany": "Evercore ISI Group",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2026-02-09",
+    "gradingCompany": "Wells Fargo",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2025-05-12",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2025-01-08",
+    "gradingCompany": "TD Cowen",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2024-10-08",
+    "gradingCompany": "TD Cowen",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2024-10-01",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2024-09-10",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2024-07-02",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2024-03-05",
+    "gradingCompany": "TD Cowen",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2024-01-12",
+    "gradingCompany": "Exane BNP Paribas",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2024-01-10",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2023-11-29",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2023-09-29",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2023-07-20",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2023-06-22",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2023-06-08",
+    "gradingCompany": "Evercore ISI Group",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2021-11-19",
+    "gradingCompany": "Redburn Partners",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2021-09-30",
+    "gradingCompany": "Argus Research",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2021-09-02",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2021-06-18",
+    "gradingCompany": "Argus Research",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2020-10-07",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2020-07-30",
+    "gradingCompany": "Evercore ISI Group",
+    "previousGrade": "In Line",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2020-05-26",
+    "gradingCompany": "CFRA",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2020-05-20",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Underweight",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2020-03-12",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2020-03-09",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2020-03-03",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2020-02-28",
+    "gradingCompany": "Bryan Garnier",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2020-02-20",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-11-18",
+    "gradingCompany": "Redburn",
+    "previousGrade": "Sell",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-11-18",
+    "gradingCompany": "Redburn Partners",
+    "previousGrade": "Sell",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-11-07",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-08-27",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-08-06",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-07-29",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-07-29",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-05-30",
+    "gradingCompany": "Argus Research",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-03-07",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Top Pick",
+    "newGrade": "Sector Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-03-01",
+    "gradingCompany": "Macquarie",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-01-22",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Top Pick",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2019-01-16",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-11-12",
+    "gradingCompany": "Argus",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-11-12",
+    "gradingCompany": "Argus Research",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-10-29",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Sector Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-10-01",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-06-04",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-04-26",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-04-26",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-04-11",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Underweight",
+    "newGrade": "Underweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-03-12",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-03-05",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Underweight",
+    "newGrade": "Underweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2018-02-15",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Underweight",
+    "newGrade": "Underweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2017-12-05",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2017-07-10",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2017-03-02",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2017-03-02",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2016-11-17",
+    "gradingCompany": "Investec",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2016-10-20",
+    "gradingCompany": "Societe Generale",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2016-08-22",
+    "gradingCompany": "Kepler Cheuvreux",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2016-08-01",
+    "gradingCompany": "Susquehanna",
+    "previousGrade": "Positive",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2016-05-05",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Market Perform",
+    "newGrade": "Market Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2016-04-05",
+    "gradingCompany": "Societe Generale",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-12-08",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Reduce",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-11-16",
+    "gradingCompany": "Exane BNP Paribas",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-11-13",
+    "gradingCompany": "Berenberg",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-11-02",
+    "gradingCompany": "CLSA",
+    "previousGrade": "Underperform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-10-29",
+    "gradingCompany": "Susquehanna",
+    "previousGrade": "Positive",
+    "newGrade": "Positive",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-09-21",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Sector Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-08-26",
+    "gradingCompany": "Ingalls & Snyder, LLC",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-08-26",
+    "gradingCompany": "ING",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-07-31",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-07-31",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-07-21",
+    "gradingCompany": "Nomura",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-06-02",
+    "gradingCompany": "Susquehanna",
+    "previousGrade": "Neutral",
+    "newGrade": "Positive",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-05-04",
+    "gradingCompany": "CLSA",
+    "previousGrade": "Outperform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-04-23",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-03-25",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Overweight",
+    "newGrade": "Reduce",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-03-17",
+    "gradingCompany": "Tigress Financial",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-02-27",
+    "gradingCompany": "Berenberg",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2015-02-23",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2014-09-17",
+    "gradingCompany": "Societe Generale",
+    "previousGrade": "Sell",
+    "newGrade": "Hold",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2014-09-09",
+    "gradingCompany": "BTIG",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2014-09-09",
+    "gradingCompany": "BTIG Research",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-11-25",
+    "gradingCompany": "Societe Generale",
+    "previousGrade": "Hold",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-07-31",
+    "gradingCompany": "Rabobank",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-07-31",
+    "gradingCompany": "Mirabaud Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Accumulate",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-07-31",
+    "gradingCompany": "Mirabaud",
+    "previousGrade": "Neutral",
+    "newGrade": "Accumulate",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-07-31",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-07-31",
+    "gradingCompany": "KBC Partners",
+    "previousGrade": "Hold",
+    "newGrade": "Accumulate",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-06-24",
+    "gradingCompany": "Societe Generale",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-04-30",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-04-30",
+    "gradingCompany": "Banco Sabadell",
+    "previousGrade": "Buy",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-04-29",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-03-18",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-03-13",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-03-13",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-02-28",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-02-25",
+    "gradingCompany": "Nomura",
+    "previousGrade": "Reduce",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-02-14",
+    "gradingCompany": "Societe Generale",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-02-04",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-02-04",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-02-01",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-02-01",
+    "gradingCompany": "Societe Generale",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2013-01-16",
+    "gradingCompany": "Nomura",
+    "previousGrade": "Neutral",
+    "newGrade": "Reduce",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2012-10-24",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Neutral",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2012-08-07",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2012-07-02",
+    "gradingCompany": "Societe Generale",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2012-05-03",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2012-03-09",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2012-03-02",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "BUD",
+    "date": "2012-03-02",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  }
+]

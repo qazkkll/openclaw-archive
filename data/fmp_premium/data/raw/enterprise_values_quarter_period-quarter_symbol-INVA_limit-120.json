@@ -1,0 +1,882 @@
+[
+  {
+    "symbol": "INVA",
+    "date": "2026-03-31",
+    "stockPrice": 23.3,
+    "numberOfShares": 74160000,
+    "marketCapitalization": 1727928000,
+    "minusCashAndCashEquivalents": 603085000,
+    "addTotalDebt": 331418000,
+    "enterpriseValue": 1456261000
+  },
+  {
+    "symbol": "INVA",
+    "date": "2025-12-31",
+    "stockPrice": 19.99,
+    "numberOfShares": 74796000,
+    "marketCapitalization": 1495172040,
+    "minusCashAndCashEquivalents": 550941000,
+    "addTotalDebt": 269017000,
+    "enterpriseValue": 1213248040
+  },
+  {
+    "symbol": "INVA",
+    "date": "2025-09-30",
+    "stockPrice": 18.25,
+    "numberOfShares": 69058000,
+    "marketCapitalization": 1260308500,
+    "minusCashAndCashEquivalents": 476513000,
+    "addTotalDebt": 323230000,
+    "enterpriseValue": 1107025500
+  },
+  {
+    "symbol": "INVA",
+    "date": "2025-06-30",
+    "stockPrice": 20.09,
+    "numberOfShares": 62865000,
+    "marketCapitalization": 1262957850,
+    "minusCashAndCashEquivalents": 397532000,
+    "addTotalDebt": 450905000,
+    "enterpriseValue": 1316330850
+  },
+  {
+    "symbol": "INVA",
+    "date": "2025-03-31",
+    "stockPrice": 18.13,
+    "numberOfShares": 62709000,
+    "marketCapitalization": 1136914170,
+    "minusCashAndCashEquivalents": 319090000,
+    "addTotalDebt": 451256000,
+    "enterpriseValue": 1269080170
+  },
+  {
+    "symbol": "INVA",
+    "date": "2024-12-31",
+    "stockPrice": 17.35,
+    "numberOfShares": 62726000,
+    "marketCapitalization": 1088296100,
+    "minusCashAndCashEquivalents": 304964000,
+    "addTotalDebt": 451095000,
+    "enterpriseValue": 1234427100
+  },
+  {
+    "symbol": "INVA",
+    "date": "2024-09-30",
+    "stockPrice": 19.31,
+    "numberOfShares": 62569000,
+    "marketCapitalization": 1208207390,
+    "minusCashAndCashEquivalents": 260630000,
+    "addTotalDebt": 450911000,
+    "enterpriseValue": 1398488390
+  },
+  {
+    "symbol": "INVA",
+    "date": "2024-06-30",
+    "stockPrice": 16.5,
+    "numberOfShares": 62526000,
+    "marketCapitalization": 1031679000,
+    "minusCashAndCashEquivalents": 217003000,
+    "addTotalDebt": 450716000,
+    "enterpriseValue": 1265392000
+  },
+  {
+    "symbol": "INVA",
+    "date": "2024-03-31",
+    "stockPrice": 15.21,
+    "numberOfShares": 63185000,
+    "marketCapitalization": 961043850,
+    "minusCashAndCashEquivalents": 178357000,
+    "addTotalDebt": 449331000,
+    "enterpriseValue": 1232017850
+  },
+  {
+    "symbol": "INVA",
+    "date": "2023-12-31",
+    "stockPrice": 16.04,
+    "numberOfShares": 63710000,
+    "marketCapitalization": 1021908400,
+    "minusCashAndCashEquivalents": 193513000,
+    "addTotalDebt": 449076000,
+    "enterpriseValue": 1277471400
+  },
+  {
+    "symbol": "INVA",
+    "date": "2023-09-30",
+    "stockPrice": 12.99,
+    "numberOfShares": 64953000,
+    "marketCapitalization": 843739470,
+    "minusCashAndCashEquivalents": 179997000,
+    "addTotalDebt": 448882000,
+    "enterpriseValue": 1112624470
+  },
+  {
+    "symbol": "INVA",
+    "date": "2023-06-30",
+    "stockPrice": 12.73,
+    "numberOfShares": 65341000,
+    "marketCapitalization": 831790930,
+    "minusCashAndCashEquivalents": 173025000,
+    "addTotalDebt": 448285000,
+    "enterpriseValue": 1107050930
+  },
+  {
+    "symbol": "INVA",
+    "date": "2023-03-31",
+    "stockPrice": 11.25,
+    "numberOfShares": 67786000,
+    "marketCapitalization": 762592500,
+    "minusCashAndCashEquivalents": 144049000,
+    "addTotalDebt": 448059000,
+    "enterpriseValue": 1066602500
+  },
+  {
+    "symbol": "INVA",
+    "date": "2022-12-31",
+    "stockPrice": 13.25,
+    "numberOfShares": 69656000,
+    "marketCapitalization": 922942000,
+    "minusCashAndCashEquivalents": 291049000,
+    "addTotalDebt": 544065000,
+    "enterpriseValue": 1175958000
+  },
+  {
+    "symbol": "INVA",
+    "date": "2022-09-30",
+    "stockPrice": 11.61,
+    "numberOfShares": 69731000,
+    "marketCapitalization": 809576910,
+    "minusCashAndCashEquivalents": 300789000,
+    "addTotalDebt": 543683000,
+    "enterpriseValue": 1052470910
+  },
+  {
+    "symbol": "INVA",
+    "date": "2022-06-30",
+    "stockPrice": 14.76,
+    "numberOfShares": 69643000,
+    "marketCapitalization": 1027930680,
+    "minusCashAndCashEquivalents": 283580000,
+    "addTotalDebt": 543028000,
+    "enterpriseValue": 1287378680
+  },
+  {
+    "symbol": "INVA",
+    "date": "2022-03-31",
+    "stockPrice": 19.35,
+    "numberOfShares": 69544000,
+    "marketCapitalization": 1345676400,
+    "minusCashAndCashEquivalents": 216802000,
+    "addTotalDebt": 542668000,
+    "enterpriseValue": 1671542400
+  },
+  {
+    "symbol": "INVA",
+    "date": "2021-12-31",
+    "stockPrice": 17.25,
+    "numberOfShares": 69492000,
+    "marketCapitalization": 1198737000,
+    "minusCashAndCashEquivalents": 201525000,
+    "addTotalDebt": 394759000,
+    "enterpriseValue": 1391971000
+  },
+  {
+    "symbol": "INVA",
+    "date": "2021-09-30",
+    "stockPrice": 16.71,
+    "numberOfShares": 69458000,
+    "marketCapitalization": 1160643180,
+    "minusCashAndCashEquivalents": 135115000,
+    "addTotalDebt": 392295000,
+    "enterpriseValue": 1417823180
+  },
+  {
+    "symbol": "INVA",
+    "date": "2021-06-30",
+    "stockPrice": 13.41,
+    "numberOfShares": 88423000,
+    "marketCapitalization": 1185752430,
+    "minusCashAndCashEquivalents": 43265000,
+    "addTotalDebt": 389989000,
+    "enterpriseValue": 1532476430
+  },
+  {
+    "symbol": "INVA",
+    "date": "2021-03-31",
+    "stockPrice": 11.95,
+    "numberOfShares": 101365000,
+    "marketCapitalization": 1211311750,
+    "minusCashAndCashEquivalents": 282890000,
+    "addTotalDebt": 387728000,
+    "enterpriseValue": 1316149750
+  },
+  {
+    "symbol": "INVA",
+    "date": "2020-12-31",
+    "stockPrice": 12.39,
+    "numberOfShares": 101361000,
+    "marketCapitalization": 1255862790,
+    "minusCashAndCashEquivalents": 246487000,
+    "addTotalDebt": 385517000,
+    "enterpriseValue": 1394892790
+  },
+  {
+    "symbol": "INVA",
+    "date": "2020-09-30",
+    "stockPrice": 10.45,
+    "numberOfShares": 101358000,
+    "marketCapitalization": 1059191099,
+    "minusCashAndCashEquivalents": 479193000,
+    "addTotalDebt": 383350000,
+    "enterpriseValue": 963348099
+  },
+  {
+    "symbol": "INVA",
+    "date": "2020-06-30",
+    "stockPrice": 13.98,
+    "numberOfShares": 101324000,
+    "marketCapitalization": 1416509520,
+    "minusCashAndCashEquivalents": 413147000,
+    "addTotalDebt": 381230000,
+    "enterpriseValue": 1384592520
+  },
+  {
+    "symbol": "INVA",
+    "date": "2020-03-31",
+    "stockPrice": 11.76,
+    "numberOfShares": 101235000,
+    "marketCapitalization": 1190523600,
+    "minusCashAndCashEquivalents": 351981000,
+    "addTotalDebt": 379152000,
+    "enterpriseValue": 1217694600
+  },
+  {
+    "symbol": "INVA",
+    "date": "2019-12-31",
+    "stockPrice": 14.16,
+    "numberOfShares": 101199000,
+    "marketCapitalization": 1432977840,
+    "minusCashAndCashEquivalents": 278096000,
+    "addTotalDebt": 377120000,
+    "enterpriseValue": 1532001840
+  },
+  {
+    "symbol": "INVA",
+    "date": "2019-09-30",
+    "stockPrice": 10.54,
+    "numberOfShares": 101191000,
+    "marketCapitalization": 1066553139,
+    "minusCashAndCashEquivalents": 172946000,
+    "addTotalDebt": 388644000,
+    "enterpriseValue": 1282251139
+  },
+  {
+    "symbol": "INVA",
+    "date": "2019-06-30",
+    "stockPrice": 14.55,
+    "numberOfShares": 101151000,
+    "marketCapitalization": 1471747050,
+    "minusCashAndCashEquivalents": 141952000,
+    "addTotalDebt": 386675000,
+    "enterpriseValue": 1716470050
+  },
+  {
+    "symbol": "INVA",
+    "date": "2019-03-31",
+    "stockPrice": 14.02,
+    "numberOfShares": 101059000,
+    "marketCapitalization": 1416847180,
+    "minusCashAndCashEquivalents": 65151000,
+    "addTotalDebt": 386290000,
+    "enterpriseValue": 1737986180
+  },
+  {
+    "symbol": "INVA",
+    "date": "2018-12-31",
+    "stockPrice": 17.45,
+    "numberOfShares": 100979000,
+    "marketCapitalization": 1762083550,
+    "minusCashAndCashEquivalents": 62417000,
+    "addTotalDebt": 382855000,
+    "enterpriseValue": 2082521550
+  },
+  {
+    "symbol": "INVA",
+    "date": "2018-09-30",
+    "stockPrice": 15.62,
+    "numberOfShares": 100936000,
+    "marketCapitalization": 1576620320,
+    "minusCashAndCashEquivalents": 48615000,
+    "addTotalDebt": 381002000,
+    "enterpriseValue": 1909007320
+  },
+  {
+    "symbol": "INVA",
+    "date": "2018-06-30",
+    "stockPrice": 13.8,
+    "numberOfShares": 100873000,
+    "marketCapitalization": 1392047400,
+    "minusCashAndCashEquivalents": 87226000,
+    "addTotalDebt": 486527000,
+    "enterpriseValue": 1791348400
+  },
+  {
+    "symbol": "INVA",
+    "date": "2018-03-31",
+    "stockPrice": 16.67,
+    "numberOfShares": 100604000,
+    "marketCapitalization": 1677068680,
+    "minusCashAndCashEquivalents": 27138000,
+    "addTotalDebt": 484591000,
+    "enterpriseValue": 2134521680
+  },
+  {
+    "symbol": "INVA",
+    "date": "2017-12-31",
+    "stockPrice": 14.19,
+    "numberOfShares": 106156000,
+    "marketCapitalization": 1506353640,
+    "minusCashAndCashEquivalents": 73336000,
+    "addTotalDebt": 599362000,
+    "enterpriseValue": 2032379640
+  },
+  {
+    "symbol": "INVA",
+    "date": "2017-09-30",
+    "stockPrice": 14.12,
+    "numberOfShares": 106841000,
+    "marketCapitalization": 1508594920,
+    "minusCashAndCashEquivalents": 138417000,
+    "addTotalDebt": 603449000,
+    "enterpriseValue": 1973626920
+  },
+  {
+    "symbol": "INVA",
+    "date": "2017-06-30",
+    "stockPrice": 12.8,
+    "numberOfShares": 107614000,
+    "marketCapitalization": 1377459200,
+    "minusCashAndCashEquivalents": 127634000,
+    "addTotalDebt": 653893000,
+    "enterpriseValue": 1903718200
+  },
+  {
+    "symbol": "INVA",
+    "date": "2017-03-31",
+    "stockPrice": 13.83,
+    "numberOfShares": 107487000,
+    "marketCapitalization": 1486545210,
+    "minusCashAndCashEquivalents": 159808000,
+    "addTotalDebt": 709028000,
+    "enterpriseValue": 2035765210
+  },
+  {
+    "symbol": "INVA",
+    "date": "2016-12-31",
+    "stockPrice": 10.7,
+    "numberOfShares": 107640000,
+    "marketCapitalization": 1151748000,
+    "minusCashAndCashEquivalents": 118016000,
+    "addTotalDebt": 716093000,
+    "enterpriseValue": 1749825000
+  },
+  {
+    "symbol": "INVA",
+    "date": "2016-09-30",
+    "stockPrice": 10.99,
+    "numberOfShares": 109282000,
+    "marketCapitalization": 1201009180,
+    "minusCashAndCashEquivalents": 93194000,
+    "addTotalDebt": 723000000,
+    "enterpriseValue": 1830815180
+  },
+  {
+    "symbol": "INVA",
+    "date": "2016-06-30",
+    "stockPrice": 10.53,
+    "numberOfShares": 111359000,
+    "marketCapitalization": 1172610270,
+    "minusCashAndCashEquivalents": 112945000,
+    "addTotalDebt": 725553000,
+    "enterpriseValue": 1785218270
+  },
+  {
+    "symbol": "INVA",
+    "date": "2016-03-31",
+    "stockPrice": 12.59,
+    "numberOfShares": 112482000,
+    "marketCapitalization": 1416148380,
+    "minusCashAndCashEquivalents": 151778000,
+    "addTotalDebt": 734513000,
+    "enterpriseValue": 1998883380
+  },
+  {
+    "symbol": "INVA",
+    "date": "2015-12-31",
+    "stockPrice": 10.54,
+    "numberOfShares": 115184000,
+    "marketCapitalization": 1214039360,
+    "minusCashAndCashEquivalents": 159180000,
+    "addTotalDebt": 733131000,
+    "enterpriseValue": 1787990360
+  },
+  {
+    "symbol": "INVA",
+    "date": "2015-09-30",
+    "stockPrice": 7.18,
+    "numberOfShares": 115787000,
+    "marketCapitalization": 831350660,
+    "minusCashAndCashEquivalents": 78746000,
+    "addTotalDebt": 744085000,
+    "enterpriseValue": 1496689660
+  },
+  {
+    "symbol": "INVA",
+    "date": "2015-06-30",
+    "stockPrice": 17.74,
+    "numberOfShares": 115309000,
+    "marketCapitalization": 2045831858,
+    "minusCashAndCashEquivalents": 149579000,
+    "addTotalDebt": 738472000,
+    "enterpriseValue": 2634724858
+  },
+  {
+    "symbol": "INVA",
+    "date": "2015-03-31",
+    "stockPrice": 15.22,
+    "numberOfShares": 114658000,
+    "marketCapitalization": 1745613086,
+    "minusCashAndCashEquivalents": 141186000,
+    "addTotalDebt": 732063000,
+    "enterpriseValue": 2336490086
+  },
+  {
+    "symbol": "INVA",
+    "date": "2014-12-31",
+    "stockPrice": 13.53,
+    "numberOfShares": 114318000,
+    "marketCapitalization": 1547031822,
+    "minusCashAndCashEquivalents": 96800000,
+    "addTotalDebt": 725636000,
+    "enterpriseValue": 2175867822
+  },
+  {
+    "symbol": "INVA",
+    "date": "2014-09-30",
+    "stockPrice": 16.06,
+    "numberOfShares": 113100000,
+    "marketCapitalization": 1816057800,
+    "minusCashAndCashEquivalents": 119575000,
+    "addTotalDebt": 705109000,
+    "enterpriseValue": 2401591800
+  },
+  {
+    "symbol": "INVA",
+    "date": "2014-06-30",
+    "stockPrice": 27.68,
+    "numberOfShares": 110974000,
+    "marketCapitalization": 3071991847,
+    "minusCashAndCashEquivalents": 208052000,
+    "addTotalDebt": 737500000,
+    "enterpriseValue": 3601439847
+  },
+  {
+    "symbol": "INVA",
+    "date": "2014-03-31",
+    "stockPrice": 23.17,
+    "numberOfShares": 109859000,
+    "marketCapitalization": 2545615011,
+    "minusCashAndCashEquivalents": 125275000,
+    "addTotalDebt": 287500000,
+    "enterpriseValue": 2707840011
+  },
+  {
+    "symbol": "INVA",
+    "date": "2013-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 108737000,
+    "marketCapitalization": 2903177929,
+    "minusCashAndCashEquivalents": 143510000,
+    "addTotalDebt": 287500000,
+    "enterpriseValue": 3047167929
+  },
+  {
+    "symbol": "INVA",
+    "date": "2013-09-30",
+    "stockPrice": 30.61,
+    "numberOfShares": 106295000,
+    "marketCapitalization": 3253525736,
+    "minusCashAndCashEquivalents": 171892000,
+    "addTotalDebt": 287500000,
+    "enterpriseValue": 3369133736
+  },
+  {
+    "symbol": "INVA",
+    "date": "2013-06-30",
+    "stockPrice": 29.15,
+    "numberOfShares": 97603000,
+    "marketCapitalization": 2844937768,
+    "minusCashAndCashEquivalents": 199243000,
+    "addTotalDebt": 459960000,
+    "enterpriseValue": 3105654768
+  },
+  {
+    "symbol": "INVA",
+    "date": "2013-03-31",
+    "stockPrice": 17.92,
+    "numberOfShares": 96379000,
+    "marketCapitalization": 1727276590,
+    "minusCashAndCashEquivalents": 266070000,
+    "addTotalDebt": 460000000,
+    "enterpriseValue": 1921206590
+  },
+  {
+    "symbol": "INVA",
+    "date": "2012-12-31",
+    "stockPrice": 16.66,
+    "numberOfShares": 95823000,
+    "marketCapitalization": 1596030987,
+    "minusCashAndCashEquivalents": 94849000,
+    "addTotalDebt": 172500000,
+    "enterpriseValue": 1673681987
+  },
+  {
+    "symbol": "INVA",
+    "date": "2012-09-30",
+    "stockPrice": 19.26,
+    "numberOfShares": 95027000,
+    "marketCapitalization": 1830436872,
+    "minusCashAndCashEquivalents": 112235000,
+    "addTotalDebt": 172500000,
+    "enterpriseValue": 1890701872
+  },
+  {
+    "symbol": "INVA",
+    "date": "2012-06-30",
+    "stockPrice": 16.64,
+    "numberOfShares": 89169000,
+    "marketCapitalization": 1483866134,
+    "minusCashAndCashEquivalents": 161096000,
+    "addTotalDebt": 172500000,
+    "enterpriseValue": 1495270134
+  },
+  {
+    "symbol": "INVA",
+    "date": "2012-03-31",
+    "stockPrice": 14.6,
+    "numberOfShares": 83590000,
+    "marketCapitalization": 1220747122,
+    "minusCashAndCashEquivalents": 14310000,
+    "addTotalDebt": 172500000,
+    "enterpriseValue": 1378937122
+  },
+  {
+    "symbol": "INVA",
+    "date": "2011-12-31",
+    "stockPrice": 16.55,
+    "numberOfShares": 82873000,
+    "marketCapitalization": 1371646206,
+    "minusCashAndCashEquivalents": 44778000,
+    "addTotalDebt": 172569000,
+    "enterpriseValue": 1499437206
+  },
+  {
+    "symbol": "INVA",
+    "date": "2011-09-30",
+    "stockPrice": 15.08,
+    "numberOfShares": 82490000,
+    "marketCapitalization": 1244221043,
+    "minusCashAndCashEquivalents": 62736000,
+    "addTotalDebt": 172609000,
+    "enterpriseValue": 1354094043
+  },
+  {
+    "symbol": "INVA",
+    "date": "2011-06-30",
+    "stockPrice": 16.63,
+    "numberOfShares": 81811000,
+    "marketCapitalization": 1360808559,
+    "minusCashAndCashEquivalents": 90658000,
+    "addTotalDebt": 172662000,
+    "enterpriseValue": 1442812559
+  },
+  {
+    "symbol": "INVA",
+    "date": "2011-03-31",
+    "stockPrice": 18.14,
+    "numberOfShares": 80854000,
+    "marketCapitalization": 1466602501,
+    "minusCashAndCashEquivalents": 147874000,
+    "addTotalDebt": 172713000,
+    "enterpriseValue": 1491441501
+  },
+  {
+    "symbol": "INVA",
+    "date": "2010-12-31",
+    "stockPrice": 18.78,
+    "numberOfShares": 80854000,
+    "marketCapitalization": 1518072862,
+    "minusCashAndCashEquivalents": 163333000,
+    "addTotalDebt": 172775000,
+    "enterpriseValue": 1527514862
+  },
+  {
+    "symbol": "INVA",
+    "date": "2010-09-30",
+    "stockPrice": 15.05,
+    "numberOfShares": 73726000,
+    "marketCapitalization": 1109822440,
+    "minusCashAndCashEquivalents": 63101000,
+    "addTotalDebt": 172811000,
+    "enterpriseValue": 1219532440
+  },
+  {
+    "symbol": "INVA",
+    "date": "2010-06-30",
+    "stockPrice": 9.41,
+    "numberOfShares": 73282000,
+    "marketCapitalization": 689873342,
+    "minusCashAndCashEquivalents": 69721000,
+    "addTotalDebt": 172870000,
+    "enterpriseValue": 793022342
+  },
+  {
+    "symbol": "INVA",
+    "date": "2010-03-31",
+    "stockPrice": 9.98,
+    "numberOfShares": 64921000,
+    "marketCapitalization": 647628866,
+    "minusCashAndCashEquivalents": 109923000,
+    "addTotalDebt": 172904000,
+    "enterpriseValue": 710609866
+  },
+  {
+    "symbol": "INVA",
+    "date": "2009-12-31",
+    "stockPrice": 9.79,
+    "numberOfShares": 63732000,
+    "marketCapitalization": 623835245,
+    "minusCashAndCashEquivalents": 47544000,
+    "addTotalDebt": 172959000,
+    "enterpriseValue": 749250245
+  },
+  {
+    "symbol": "INVA",
+    "date": "2009-09-30",
+    "stockPrice": 10.96,
+    "numberOfShares": 63236000,
+    "marketCapitalization": 693333588,
+    "minusCashAndCashEquivalents": 65589000,
+    "addTotalDebt": 172992000,
+    "enterpriseValue": 800736588
+  },
+  {
+    "symbol": "INVA",
+    "date": "2009-06-30",
+    "stockPrice": 10.96,
+    "numberOfShares": 62842000,
+    "marketCapitalization": 689013684,
+    "minusCashAndCashEquivalents": 61098000,
+    "addTotalDebt": 173034000,
+    "enterpriseValue": 800949684
+  },
+  {
+    "symbol": "INVA",
+    "date": "2009-03-31",
+    "stockPrice": 12.73,
+    "numberOfShares": 62288000,
+    "marketCapitalization": 793030846,
+    "minusCashAndCashEquivalents": 72918000,
+    "addTotalDebt": 172907000,
+    "enterpriseValue": 893019846
+  },
+  {
+    "symbol": "INVA",
+    "date": "2008-12-31",
+    "stockPrice": 9.28,
+    "numberOfShares": 61819000,
+    "marketCapitalization": 573627620,
+    "minusCashAndCashEquivalents": 92280000,
+    "addTotalDebt": 172936000,
+    "enterpriseValue": 654283620
+  },
+  {
+    "symbol": "INVA",
+    "date": "2008-09-30",
+    "stockPrice": 9.33,
+    "numberOfShares": 61545000,
+    "marketCapitalization": 574311603,
+    "minusCashAndCashEquivalents": 128966000,
+    "addTotalDebt": 172962000,
+    "enterpriseValue": 618307603
+  },
+  {
+    "symbol": "INVA",
+    "date": "2008-06-30",
+    "stockPrice": 8.89,
+    "numberOfShares": 61192000,
+    "marketCapitalization": 543979006,
+    "minusCashAndCashEquivalents": 87610000,
+    "addTotalDebt": 172988000,
+    "enterpriseValue": 629357006
+  },
+  {
+    "symbol": "INVA",
+    "date": "2008-03-31",
+    "stockPrice": 7.89,
+    "numberOfShares": 61003000,
+    "marketCapitalization": 481078930,
+    "minusCashAndCashEquivalents": 81283000,
+    "addTotalDebt": 173013000,
+    "enterpriseValue": 572808930
+  },
+  {
+    "symbol": "INVA",
+    "date": "2007-12-31",
+    "stockPrice": 14.6,
+    "numberOfShares": 60840000,
+    "marketCapitalization": 888506459,
+    "minusCashAndCashEquivalents": 86433000,
+    "addTotalDebt": 536000,
+    "enterpriseValue": 802609459
+  },
+  {
+    "symbol": "INVA",
+    "date": "2007-09-30",
+    "stockPrice": 19.85,
+    "numberOfShares": 60664000,
+    "marketCapitalization": 1204418848,
+    "minusCashAndCashEquivalents": 78860000,
+    "addTotalDebt": 560000,
+    "enterpriseValue": 1126118848
+  },
+  {
+    "symbol": "INVA",
+    "date": "2007-06-30",
+    "stockPrice": 23.97,
+    "numberOfShares": 60341000,
+    "marketCapitalization": 1446103090,
+    "minusCashAndCashEquivalents": 45545000,
+    "addTotalDebt": 582000,
+    "enterpriseValue": 1401140090
+  },
+  {
+    "symbol": "INVA",
+    "date": "2007-03-31",
+    "stockPrice": 22.09,
+    "numberOfShares": 60061000,
+    "marketCapitalization": 1326940187,
+    "minusCashAndCashEquivalents": 77152000,
+    "addTotalDebt": 604000,
+    "enterpriseValue": 1250392187
+  },
+  {
+    "symbol": "INVA",
+    "date": "2006-12-31",
+    "stockPrice": 23.13,
+    "numberOfShares": 59946000,
+    "marketCapitalization": 1386803375,
+    "minusCashAndCashEquivalents": 72388000,
+    "addTotalDebt": 625000,
+    "enterpriseValue": 1315040375
+  },
+  {
+    "symbol": "INVA",
+    "date": "2006-09-30",
+    "stockPrice": 20.25,
+    "numberOfShares": 59762000,
+    "marketCapitalization": 1210231863,
+    "minusCashAndCashEquivalents": 85730000,
+    "addTotalDebt": 1109000,
+    "enterpriseValue": 1125610863
+  },
+  {
+    "symbol": "INVA",
+    "date": "2006-06-30",
+    "stockPrice": 17.14,
+    "numberOfShares": 59440000,
+    "marketCapitalization": 1018524765,
+    "minusCashAndCashEquivalents": 84898000,
+    "addTotalDebt": 1262000,
+    "enterpriseValue": 934888765
+  },
+  {
+    "symbol": "INVA",
+    "date": "2006-03-31",
+    "stockPrice": 21,
+    "numberOfShares": 56871000,
+    "marketCapitalization": 1194278589,
+    "minusCashAndCashEquivalents": 103522000,
+    "addTotalDebt": 1609000,
+    "enterpriseValue": 1092365589
+  },
+  {
+    "symbol": "INVA",
+    "date": "2005-12-31",
+    "stockPrice": 16.87,
+    "numberOfShares": 56871000,
+    "marketCapitalization": 959170964,
+    "minusCashAndCashEquivalents": 49787000,
+    "addTotalDebt": 1875000,
+    "enterpriseValue": 911258964
+  },
+  {
+    "symbol": "INVA",
+    "date": "2005-09-30",
+    "stockPrice": 15.76,
+    "numberOfShares": 53416000,
+    "marketCapitalization": 841693302,
+    "minusCashAndCashEquivalents": 22359000,
+    "addTotalDebt": 2176000,
+    "enterpriseValue": 821510302
+  },
+  {
+    "symbol": "INVA",
+    "date": "2005-06-30",
+    "stockPrice": 12.73,
+    "numberOfShares": 53163000,
+    "marketCapitalization": 676854271,
+    "minusCashAndCashEquivalents": 63879000,
+    "addTotalDebt": 2494000,
+    "enterpriseValue": 615469271
+  },
+  {
+    "symbol": "INVA",
+    "date": "2005-03-31",
+    "stockPrice": 13.67,
+    "numberOfShares": 52888000,
+    "marketCapitalization": 722864314,
+    "minusCashAndCashEquivalents": 85499000,
+    "addTotalDebt": 3202000,
+    "enterpriseValue": 640567314
+  },
+  {
+    "symbol": "INVA",
+    "date": "2004-12-31",
+    "stockPrice": 13.41,
+    "numberOfShares": 52888000,
+    "marketCapitalization": 709001163,
+    "minusCashAndCashEquivalents": 101411000,
+    "addTotalDebt": 4400000,
+    "enterpriseValue": 611990163
+  },
+  {
+    "symbol": "INVA",
+    "date": "2004-09-30",
+    "stockPrice": 13.56,
+    "numberOfShares": 45123000,
+    "marketCapitalization": 612002489,
+    "minusCashAndCashEquivalents": 38004000,
+    "addTotalDebt": 5420000,
+    "enterpriseValue": 579418489
+  },
+  {
+    "symbol": "INVA",
+    "date": "2004-06-30",
+    "stockPrice": 13.56,
+    "numberOfShares": 28130000,
+    "marketCapitalization": 381526716,
+    "minusCashAndCashEquivalents": 106288000,
+    "addTotalDebt": 6194000,
+    "enterpriseValue": 281432716
+  }
+]

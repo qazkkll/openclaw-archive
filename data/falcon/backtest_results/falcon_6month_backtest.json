@@ -1,0 +1,362 @@
+{
+  "initial": 1000000,
+  "final": 1132407.06,
+  "total_return": 0.13240706000000002,
+  "annualized": 0.28234574953784364,
+  "max_drawdown": -0.07892235954414054,
+  "n_trades": 19,
+  "n_stop_loss": 6,
+  "win_rate": 0.4,
+  "monthly": [
+    {
+      "month": "2026-01",
+      "portfolio_value": 1071645.6500000001,
+      "return": 0.07164565000000023,
+      "positions": 10,
+      "capital": 349273.07
+    },
+    {
+      "month": "2026-02",
+      "portfolio_value": 1170869.3699999999,
+      "return": 0.1708693699999999,
+      "positions": 10,
+      "capital": 349273.07
+    },
+    {
+      "month": "2026-03",
+      "portfolio_value": 1101103.19,
+      "return": 0.1011031899999999,
+      "positions": 10,
+      "capital": 349273.07
+    },
+    {
+      "month": "2026-04",
+      "portfolio_value": 1229437.14,
+      "return": 0.22943713999999993,
+      "positions": 10,
+      "capital": 386507.51000000007
+    },
+    {
+      "month": "2026-05",
+      "portfolio_value": 1164996.1,
+      "return": 0.1649961000000002,
+      "positions": 9,
+      "capital": 440743.76000000007
+    },
+    {
+      "month": "2026-06",
+      "portfolio_value": 1132407.06,
+      "return": 0.13240706000000002,
+      "positions": 4,
+      "capital": 725649.06
+    }
+  ],
+  "trades": [
+    {
+      "date": "2026-01-02 00:00:00",
+      "ticker": "LITE",
+      "action": "BUY",
+      "price": 386.11,
+      "shares": 258,
+      "score": 1.9701628304283474,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-01-02 00:00:00",
+      "ticker": "ALB",
+      "action": "BUY",
+      "price": 143.93,
+      "shares": 625,
+      "score": 1.905503432996751,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-01-02 00:00:00",
+      "ticker": "LUV",
+      "action": "BUY",
+      "price": 41.3,
+      "shares": 1962,
+      "score": 1.326713863277522,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-01-02 00:00:00",
+      "ticker": "FCX",
+      "action": "BUY",
+      "price": 51.93,
+      "shares": 1404,
+      "score": 1.325950150586736,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-01-02 00:00:00",
+      "ticker": "DECK",
+      "action": "BUY",
+      "price": 106.79,
+      "shares": 614,
+      "score": 1.226134099830531,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-01-02 00:00:00",
+      "ticker": "MU",
+      "action": "BUY",
+      "price": 315.42,
+      "shares": 187,
+      "score": 1.0557655797758845,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-01-02 00:00:00",
+      "ticker": "AIZ",
+      "action": "BUY",
+      "price": 237.72,
+      "shares": 223,
+      "score": 1.0189767098432825,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-01-02 00:00:00",
+      "ticker": "STT",
+      "action": "BUY",
+      "price": 129.07,
+      "shares": 371,
+      "score": 1.0075639886191312,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-01-02 00:00:00",
+      "ticker": "NUE",
+      "action": "BUY",
+      "price": 169.4,
+      "shares": 254,
+      "score": 0.9752808944644704,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-01-02 00:00:00",
+      "ticker": "TXT",
+      "action": "BUY",
+      "price": 87.05,
+      "shares": 445,
+      "score": 0.9517379813052063,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-04-30 00:00:00",
+      "ticker": "ALB",
+      "action": "REBALANCE_OUT",
+      "price": 196.7,
+      "shares": 625,
+      "pnl_pct": 0.36663655943861584,
+      "proceeds": 122937.5
+    },
+    {
+      "date": "2026-04-30 00:00:00",
+      "ticker": "LUV",
+      "action": "REBALANCE_OUT",
+      "price": 37.92,
+      "shares": 1962,
+      "pnl_pct": -0.08184019370460038,
+      "proceeds": 74399.04000000001
+    },
+    {
+      "date": "2026-04-30 00:00:00",
+      "ticker": "FCX",
+      "action": "REBALANCE_OUT",
+      "price": 57.78,
+      "shares": 1404,
+      "pnl_pct": 0.11265164644714042,
+      "proceeds": 81123.12
+    },
+    {
+      "date": "2026-04-30 00:00:00",
+      "ticker": "DECK",
+      "action": "REBALANCE_OUT",
+      "price": 102.2,
+      "shares": 614,
+      "pnl_pct": -0.0429815525798296,
+      "proceeds": 62750.8
+    },
+    {
+      "date": "2026-04-30 00:00:00",
+      "ticker": "MU",
+      "action": "REBALANCE_OUT",
+      "price": 517.16,
+      "shares": 187,
+      "pnl_pct": 0.6395916555703505,
+      "proceeds": 96708.92
+    },
+    {
+      "date": "2026-04-30 00:00:00",
+      "ticker": "AIZ",
+      "action": "REBALANCE_OUT",
+      "price": 236.27,
+      "shares": 223,
+      "pnl_pct": -0.006099612990072306,
+      "proceeds": 52688.21
+    },
+    {
+      "date": "2026-04-30 00:00:00",
+      "ticker": "STT",
+      "action": "REBALANCE_OUT",
+      "price": 152.84,
+      "shares": 371,
+      "pnl_pct": 0.18416363213759984,
+      "proceeds": 56703.64
+    },
+    {
+      "date": "2026-04-30 00:00:00",
+      "ticker": "NUE",
+      "action": "REBALANCE_OUT",
+      "price": 225.29,
+      "shares": 254,
+      "pnl_pct": 0.3299291617473435,
+      "proceeds": 57223.659999999996
+    },
+    {
+      "date": "2026-04-30 00:00:00",
+      "ticker": "TXT",
+      "action": "REBALANCE_OUT",
+      "price": 95.96,
+      "shares": 445,
+      "pnl_pct": 0.10235496840896033,
+      "proceeds": 42702.2
+    },
+    {
+      "date": "2026-04-01 00:00:00",
+      "ticker": "APA",
+      "action": "BUY",
+      "price": 41.35,
+      "shares": 2409,
+      "score": 2.5373680519102155,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-04-01 00:00:00",
+      "ticker": "OXY",
+      "action": "BUY",
+      "price": 62.23,
+      "shares": 1441,
+      "score": 1.9746672664944631,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-04-01 00:00:00",
+      "ticker": "LYB",
+      "action": "BUY",
+      "price": 76.71,
+      "shares": 1052,
+      "score": 1.7291646124085551,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-04-01 00:00:00",
+      "ticker": "ETR",
+      "action": "BUY",
+      "price": 113.58,
+      "shares": 639,
+      "score": 1.4872224991134944,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-04-01 00:00:00",
+      "ticker": "DOW",
+      "action": "BUY",
+      "price": 40.69,
+      "shares": 1607,
+      "score": 1.4321777146347796,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-04-01 00:00:00",
+      "ticker": "VLO",
+      "action": "BUY",
+      "price": 241.46,
+      "shares": 243,
+      "score": 1.4220762986350919,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-04-01 00:00:00",
+      "ticker": "TRGP",
+      "action": "BUY",
+      "price": 244.79,
+      "shares": 216,
+      "score": 1.3429400282440127,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-04-01 00:00:00",
+      "ticker": "COP",
+      "action": "BUY",
+      "price": 128.38,
+      "shares": 371,
+      "score": 1.3261472565735182,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-04-01 00:00:00",
+      "ticker": "CF",
+      "action": "BUY",
+      "price": 127.98,
+      "shares": 335,
+      "score": 1.319221515107627,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "date": "2026-05-29 00:00:00",
+      "ticker": "DOW",
+      "action": "STOP_LOSS",
+      "price": 33.75,
+      "shares": 1607,
+      "pnl_pct": -0.17055787662816413,
+      "proceeds": 54236.25
+    },
+    {
+      "date": "2026-06-26 00:00:00",
+      "ticker": "APA",
+      "action": "STOP_LOSS",
+      "price": 33.01,
+      "shares": 2409,
+      "pnl_pct": -0.2016928657799275,
+      "proceeds": 79521.09
+    },
+    {
+      "date": "2026-06-26 00:00:00",
+      "ticker": "OXY",
+      "action": "STOP_LOSS",
+      "price": 49.99,
+      "shares": 1441,
+      "pnl_pct": -0.19668969950184792,
+      "proceeds": 72035.59
+    },
+    {
+      "date": "2026-06-26 00:00:00",
+      "ticker": "LYB",
+      "action": "STOP_LOSS",
+      "price": 55.73,
+      "shares": 1052,
+      "pnl_pct": -0.2734975883196454,
+      "proceeds": 58627.96
+    },
+    {
+      "date": "2026-06-26 00:00:00",
+      "ticker": "COP",
+      "action": "STOP_LOSS",
+      "price": 105.96,
+      "shares": 371,
+      "pnl_pct": -0.1746377940489173,
+      "proceeds": 39311.159999999996
+    },
+    {
+      "date": "2026-06-26 00:00:00",
+      "ticker": "CF",
+      "action": "STOP_LOSS",
+      "price": 105.7,
+      "shares": 335,
+      "pnl_pct": -0.17408970151586187,
+      "proceeds": 35409.5
+    }
+  ]
+}

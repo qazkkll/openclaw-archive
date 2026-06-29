@@ -1,0 +1,74 @@
+[
+  {
+    "symbol": "OFG",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-12-31",
+    "data": {
+      "Banking": 1604000,
+      "Consolidated Total": 0,
+      "Intersegment Elimination": -2352000,
+      "Major Segment": 2352000,
+      "Treasury": 748000,
+      "Wealth Management": 0
+    }
+  },
+  {
+    "symbol": "OFG",
+    "fiscalYear": 2016,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2016-12-31",
+    "data": {
+      "Banking": 1521000,
+      "Consolidated Total": 0,
+      "Intersegment Elimination": -2404000,
+      "Major Segment": 2404000,
+      "Treasury": 883000,
+      "Wealth Management": 0
+    }
+  },
+  {
+    "symbol": "OFG",
+    "fiscalYear": 2015,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2015-12-31",
+    "data": {
+      "Banking": 1427000,
+      "Intersegment Elimination": -2375000,
+      "Major Segment": 2375000,
+      "Treasury": 948000,
+      "Wealth Management": 0
+    }
+  },
+  {
+    "symbol": "OFG",
+    "fiscalYear": 2014,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2014-12-31",
+    "data": {
+      "Banking": 1410000,
+      "Intersegment Elimination": -1737000,
+      "Major Segment": 1737000,
+      "Treasury": 327000,
+      "Wealth Management": 0
+    }
+  },
+  {
+    "symbol": "OFG",
+    "fiscalYear": 2013,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2013-12-31",
+    "data": {
+      "Banking": 618000,
+      "Intersegment Elimination": -1813000,
+      "Major Segment": 1813000,
+      "Treasury": 1195000,
+      "Wealth Management": 0
+    }
+  }
+]

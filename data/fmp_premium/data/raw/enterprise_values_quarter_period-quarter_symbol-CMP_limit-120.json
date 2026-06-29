@@ -1,0 +1,932 @@
+[
+  {
+    "symbol": "CMP",
+    "date": "2026-03-31",
+    "stockPrice": 23.35,
+    "numberOfShares": 42105000,
+    "marketCapitalization": 983151750,
+    "minusCashAndCashEquivalents": 74100000,
+    "addTotalDebt": 12300000,
+    "enterpriseValue": 921351750
+  },
+  {
+    "symbol": "CMP",
+    "date": "2025-12-31",
+    "stockPrice": 19.64,
+    "numberOfShares": 42083000,
+    "marketCapitalization": 826510120,
+    "minusCashAndCashEquivalents": 46700000,
+    "addTotalDebt": 896900000,
+    "enterpriseValue": 1676710120
+  },
+  {
+    "symbol": "CMP",
+    "date": "2025-09-30",
+    "stockPrice": 19.2,
+    "numberOfShares": 42019000,
+    "marketCapitalization": 806764800,
+    "minusCashAndCashEquivalents": 59700000,
+    "addTotalDebt": 847700000,
+    "enterpriseValue": 1594764800
+  },
+  {
+    "symbol": "CMP",
+    "date": "2025-06-30",
+    "stockPrice": 20.09,
+    "numberOfShares": 41859000,
+    "marketCapitalization": 840947310,
+    "minusCashAndCashEquivalents": 79400000,
+    "addTotalDebt": 840600000,
+    "enterpriseValue": 1602147310
+  },
+  {
+    "symbol": "CMP",
+    "date": "2025-03-31",
+    "stockPrice": 9.29,
+    "numberOfShares": 41521000,
+    "marketCapitalization": 385730089,
+    "minusCashAndCashEquivalents": 49500000,
+    "addTotalDebt": 807600000,
+    "enterpriseValue": 1143830089
+  },
+  {
+    "symbol": "CMP",
+    "date": "2024-12-31",
+    "stockPrice": 11.25,
+    "numberOfShares": 41441000,
+    "marketCapitalization": 466211250,
+    "minusCashAndCashEquivalents": 45800000,
+    "addTotalDebt": 974400000,
+    "enterpriseValue": 1394811250
+  },
+  {
+    "symbol": "CMP",
+    "date": "2024-09-30",
+    "stockPrice": 12.02,
+    "numberOfShares": 41369032,
+    "marketCapitalization": 497255764,
+    "minusCashAndCashEquivalents": 20200000,
+    "addTotalDebt": 933900000,
+    "enterpriseValue": 1410955764
+  },
+  {
+    "symbol": "CMP",
+    "date": "2024-06-30",
+    "stockPrice": 10.06,
+    "numberOfShares": 41342000,
+    "marketCapitalization": 415900520,
+    "minusCashAndCashEquivalents": 12800000,
+    "addTotalDebt": 875100000,
+    "enterpriseValue": 1278200520
+  },
+  {
+    "symbol": "CMP",
+    "date": "2024-03-31",
+    "stockPrice": 15.56,
+    "numberOfShares": 41306000,
+    "marketCapitalization": 642721360,
+    "minusCashAndCashEquivalents": 40000000,
+    "addTotalDebt": 877200000,
+    "enterpriseValue": 1479921360
+  },
+  {
+    "symbol": "CMP",
+    "date": "2023-12-31",
+    "stockPrice": 25.32,
+    "numberOfShares": 41205000,
+    "marketCapitalization": 1043310600,
+    "minusCashAndCashEquivalents": 38300000,
+    "addTotalDebt": 913700000,
+    "enterpriseValue": 1918710600
+  },
+  {
+    "symbol": "CMP",
+    "date": "2023-09-30",
+    "stockPrice": 27.95,
+    "numberOfShares": 41152000,
+    "marketCapitalization": 1150198400,
+    "minusCashAndCashEquivalents": 38700000,
+    "addTotalDebt": 805300000,
+    "enterpriseValue": 1916798400
+  },
+  {
+    "symbol": "CMP",
+    "date": "2023-06-30",
+    "stockPrice": 34,
+    "numberOfShares": 41142000,
+    "marketCapitalization": 1398828000,
+    "minusCashAndCashEquivalents": 58000000,
+    "addTotalDebt": 721000000,
+    "enterpriseValue": 2061828000
+  },
+  {
+    "symbol": "CMP",
+    "date": "2023-03-31",
+    "stockPrice": 34.29,
+    "numberOfShares": 40943396,
+    "marketCapitalization": 1403949048,
+    "minusCashAndCashEquivalents": 249700000,
+    "addTotalDebt": 825700000,
+    "enterpriseValue": 1979949048
+  },
+  {
+    "symbol": "CMP",
+    "date": "2022-12-31",
+    "stockPrice": 41,
+    "numberOfShares": 39751000,
+    "marketCapitalization": 1629791000,
+    "minusCashAndCashEquivalents": 146100000,
+    "addTotalDebt": 832100000,
+    "enterpriseValue": 2315791000
+  },
+  {
+    "symbol": "CMP",
+    "date": "2022-09-30",
+    "stockPrice": 38.53,
+    "numberOfShares": 34164000,
+    "marketCapitalization": 1316338920,
+    "minusCashAndCashEquivalents": 46100000,
+    "addTotalDebt": 947600000,
+    "enterpriseValue": 2217838920
+  },
+  {
+    "symbol": "CMP",
+    "date": "2022-06-30",
+    "stockPrice": 35.39,
+    "numberOfShares": 33750000,
+    "marketCapitalization": 1194412500,
+    "minusCashAndCashEquivalents": 47200000,
+    "addTotalDebt": 885900000,
+    "enterpriseValue": 2033112500
+  },
+  {
+    "symbol": "CMP",
+    "date": "2022-03-31",
+    "stockPrice": 62.79,
+    "numberOfShares": 34103000,
+    "marketCapitalization": 2141327370,
+    "minusCashAndCashEquivalents": 44900000,
+    "addTotalDebt": 922200000,
+    "enterpriseValue": 3018627370
+  },
+  {
+    "symbol": "CMP",
+    "date": "2021-12-31",
+    "stockPrice": 51.08,
+    "numberOfShares": 34060000,
+    "marketCapitalization": 1739784800,
+    "minusCashAndCashEquivalents": 20300000,
+    "addTotalDebt": 1004900000,
+    "enterpriseValue": 2724384800
+  },
+  {
+    "symbol": "CMP",
+    "date": "2021-09-30",
+    "stockPrice": 64.4,
+    "numberOfShares": 34013000,
+    "marketCapitalization": 2190437200,
+    "minusCashAndCashEquivalents": 18100000,
+    "addTotalDebt": 935400000,
+    "enterpriseValue": 3107737200
+  },
+  {
+    "symbol": "CMP",
+    "date": "2021-06-30",
+    "stockPrice": 59.26,
+    "numberOfShares": 34020000,
+    "marketCapitalization": 2016025200,
+    "minusCashAndCashEquivalents": 26300000,
+    "addTotalDebt": 1152800000,
+    "enterpriseValue": 3142525200
+  },
+  {
+    "symbol": "CMP",
+    "date": "2021-03-31",
+    "stockPrice": 62.72,
+    "numberOfShares": 33974000,
+    "marketCapitalization": 2130849280,
+    "minusCashAndCashEquivalents": 42800000,
+    "addTotalDebt": 1184000000,
+    "enterpriseValue": 3272049280
+  },
+  {
+    "symbol": "CMP",
+    "date": "2020-12-31",
+    "stockPrice": 61.72,
+    "numberOfShares": 33958000,
+    "marketCapitalization": 2095887760,
+    "minusCashAndCashEquivalents": 10600000,
+    "addTotalDebt": 1309100000,
+    "enterpriseValue": 3394387760
+  },
+  {
+    "symbol": "CMP",
+    "date": "2020-09-30",
+    "stockPrice": 59.35,
+    "numberOfShares": 33947000,
+    "marketCapitalization": 2014754450,
+    "minusCashAndCashEquivalents": 34100000,
+    "addTotalDebt": 1345600000,
+    "enterpriseValue": 3326254450
+  },
+  {
+    "symbol": "CMP",
+    "date": "2020-06-30",
+    "stockPrice": 48.75,
+    "numberOfShares": 33915000,
+    "marketCapitalization": 1653356250,
+    "minusCashAndCashEquivalents": 67200000,
+    "addTotalDebt": 1286500000,
+    "enterpriseValue": 2872656250
+  },
+  {
+    "symbol": "CMP",
+    "date": "2020-03-31",
+    "stockPrice": 38.47,
+    "numberOfShares": 33892000,
+    "marketCapitalization": 1303825240,
+    "minusCashAndCashEquivalents": 109800000,
+    "addTotalDebt": 1293800000,
+    "enterpriseValue": 2487825240
+  },
+  {
+    "symbol": "CMP",
+    "date": "2019-12-31",
+    "stockPrice": 60.96,
+    "numberOfShares": 33886000,
+    "marketCapitalization": 2065690560,
+    "minusCashAndCashEquivalents": 18000000,
+    "addTotalDebt": 1295900000,
+    "enterpriseValue": 3343590560
+  },
+  {
+    "symbol": "CMP",
+    "date": "2019-09-30",
+    "stockPrice": 56.49,
+    "numberOfShares": 33884000,
+    "marketCapitalization": 1914107160,
+    "minusCashAndCashEquivalents": 23900000,
+    "addTotalDebt": 1409100000,
+    "enterpriseValue": 3299307160
+  },
+  {
+    "symbol": "CMP",
+    "date": "2019-06-30",
+    "stockPrice": 56.1,
+    "numberOfShares": 33611111,
+    "marketCapitalization": 1885583327,
+    "minusCashAndCashEquivalents": 20400000,
+    "addTotalDebt": 1348700000,
+    "enterpriseValue": 3213883327
+  },
+  {
+    "symbol": "CMP",
+    "date": "2019-03-31",
+    "stockPrice": 55.01,
+    "numberOfShares": 33874000,
+    "marketCapitalization": 1863408740,
+    "minusCashAndCashEquivalents": 43800000,
+    "addTotalDebt": 1299800000,
+    "enterpriseValue": 3119408740
+  },
+  {
+    "symbol": "CMP",
+    "date": "2018-12-31",
+    "stockPrice": 41.69,
+    "numberOfShares": 33853000,
+    "marketCapitalization": 1411331570,
+    "minusCashAndCashEquivalents": 27000000,
+    "addTotalDebt": 1364700000,
+    "enterpriseValue": 2749031570
+  },
+  {
+    "symbol": "CMP",
+    "date": "2018-09-30",
+    "stockPrice": 67.18,
+    "numberOfShares": 33851000,
+    "marketCapitalization": 2274110180,
+    "minusCashAndCashEquivalents": 36100000,
+    "addTotalDebt": 1340200000,
+    "enterpriseValue": 3578210180
+  },
+  {
+    "symbol": "CMP",
+    "date": "2018-06-30",
+    "stockPrice": 65.75,
+    "numberOfShares": 33478260,
+    "marketCapitalization": 2201195595,
+    "minusCashAndCashEquivalents": 40800000,
+    "addTotalDebt": 1285000000,
+    "enterpriseValue": 3445395595
+  },
+  {
+    "symbol": "CMP",
+    "date": "2018-03-31",
+    "stockPrice": 60.3,
+    "numberOfShares": 33836000,
+    "marketCapitalization": 2040310800,
+    "minusCashAndCashEquivalents": 44500000,
+    "addTotalDebt": 1250500000,
+    "enterpriseValue": 3246310800
+  },
+  {
+    "symbol": "CMP",
+    "date": "2017-12-31",
+    "stockPrice": 72.25,
+    "numberOfShares": 33828000,
+    "marketCapitalization": 2444073000,
+    "minusCashAndCashEquivalents": 36600000,
+    "addTotalDebt": 1362500000,
+    "enterpriseValue": 3769973000
+  },
+  {
+    "symbol": "CMP",
+    "date": "2017-09-30",
+    "stockPrice": 64.9,
+    "numberOfShares": 33825000,
+    "marketCapitalization": 2195242500,
+    "minusCashAndCashEquivalents": 39100000,
+    "addTotalDebt": 1329600000,
+    "enterpriseValue": 3485742500
+  },
+  {
+    "symbol": "CMP",
+    "date": "2017-06-30",
+    "stockPrice": 65.3,
+    "numberOfShares": 33823000,
+    "marketCapitalization": 2208641900,
+    "minusCashAndCashEquivalents": 33900000,
+    "addTotalDebt": 1255600000,
+    "enterpriseValue": 3430341900
+  },
+  {
+    "symbol": "CMP",
+    "date": "2017-03-31",
+    "stockPrice": 67.85,
+    "numberOfShares": 33802000,
+    "marketCapitalization": 2293465700,
+    "minusCashAndCashEquivalents": 48900000,
+    "addTotalDebt": 1231400000,
+    "enterpriseValue": 3475965700
+  },
+  {
+    "symbol": "CMP",
+    "date": "2016-12-31",
+    "stockPrice": 78.35,
+    "numberOfShares": 33788000,
+    "marketCapitalization": 2647289800,
+    "minusCashAndCashEquivalents": 77400000,
+    "addTotalDebt": 1325000000,
+    "enterpriseValue": 3894889800
+  },
+  {
+    "symbol": "CMP",
+    "date": "2016-09-30",
+    "stockPrice": 73.7,
+    "numberOfShares": 33786000,
+    "marketCapitalization": 2490028200,
+    "minusCashAndCashEquivalents": 432200000,
+    "addTotalDebt": 1212600000,
+    "enterpriseValue": 3270428200
+  },
+  {
+    "symbol": "CMP",
+    "date": "2016-06-30",
+    "stockPrice": 74.19,
+    "numberOfShares": 33784000,
+    "marketCapitalization": 2506434960,
+    "minusCashAndCashEquivalents": 92700000,
+    "addTotalDebt": 750200000,
+    "enterpriseValue": 3163934960
+  },
+  {
+    "symbol": "CMP",
+    "date": "2016-03-31",
+    "stockPrice": 70.86,
+    "numberOfShares": 33746000,
+    "marketCapitalization": 2391241560,
+    "minusCashAndCashEquivalents": 85200000,
+    "addTotalDebt": 717400000,
+    "enterpriseValue": 3023441560
+  },
+  {
+    "symbol": "CMP",
+    "date": "2015-12-31",
+    "stockPrice": 75.27,
+    "numberOfShares": 33701000,
+    "marketCapitalization": 2536674270,
+    "minusCashAndCashEquivalents": 58400000,
+    "addTotalDebt": 722900000,
+    "enterpriseValue": 3201174270
+  },
+  {
+    "symbol": "CMP",
+    "date": "2015-09-30",
+    "stockPrice": 78.37,
+    "numberOfShares": 33696000,
+    "marketCapitalization": 2640755520,
+    "minusCashAndCashEquivalents": 119100000,
+    "addTotalDebt": 623500000,
+    "enterpriseValue": 3145155520
+  },
+  {
+    "symbol": "CMP",
+    "date": "2015-06-30",
+    "stockPrice": 82.14,
+    "numberOfShares": 33682000,
+    "marketCapitalization": 2766639480,
+    "minusCashAndCashEquivalents": 233700000,
+    "addTotalDebt": 624500000,
+    "enterpriseValue": 3157439480
+  },
+  {
+    "symbol": "CMP",
+    "date": "2015-03-31",
+    "stockPrice": 93.21,
+    "numberOfShares": 33626000,
+    "marketCapitalization": 3134279460,
+    "minusCashAndCashEquivalents": 313800000,
+    "addTotalDebt": 625400000,
+    "enterpriseValue": 3445879460
+  },
+  {
+    "symbol": "CMP",
+    "date": "2014-12-31",
+    "stockPrice": 86.83,
+    "numberOfShares": 33600000,
+    "marketCapitalization": 2917488000,
+    "minusCashAndCashEquivalents": 266800000,
+    "addTotalDebt": 626400000,
+    "enterpriseValue": 3277088000
+  },
+  {
+    "symbol": "CMP",
+    "date": "2014-09-30",
+    "stockPrice": 84.28,
+    "numberOfShares": 33575000,
+    "marketCapitalization": 2829701000,
+    "minusCashAndCashEquivalents": 220000000,
+    "addTotalDebt": 627400000,
+    "enterpriseValue": 3237101000
+  },
+  {
+    "symbol": "CMP",
+    "date": "2014-06-30",
+    "stockPrice": 95.74,
+    "numberOfShares": 33549000,
+    "marketCapitalization": 3211981260,
+    "minusCashAndCashEquivalents": 304000000,
+    "addTotalDebt": 628300000,
+    "enterpriseValue": 3536281260
+  },
+  {
+    "symbol": "CMP",
+    "date": "2014-03-31",
+    "stockPrice": 82.52,
+    "numberOfShares": 33502000,
+    "marketCapitalization": 2764585040,
+    "minusCashAndCashEquivalents": 283400000,
+    "addTotalDebt": 477700000,
+    "enterpriseValue": 2958885040
+  },
+  {
+    "symbol": "CMP",
+    "date": "2013-12-31",
+    "stockPrice": 80.05,
+    "numberOfShares": 33477000,
+    "marketCapitalization": 2679833850,
+    "minusCashAndCashEquivalents": 159600000,
+    "addTotalDebt": 478600000,
+    "enterpriseValue": 2998833850
+  },
+  {
+    "symbol": "CMP",
+    "date": "2013-09-30",
+    "stockPrice": 76.27,
+    "numberOfShares": 33469000,
+    "marketCapitalization": 2552680630,
+    "minusCashAndCashEquivalents": 123900000,
+    "addTotalDebt": 479500000,
+    "enterpriseValue": 2908280630
+  },
+  {
+    "symbol": "CMP",
+    "date": "2013-06-30",
+    "stockPrice": 85.99,
+    "numberOfShares": 33380000,
+    "marketCapitalization": 2870346200,
+    "minusCashAndCashEquivalents": 196400000,
+    "addTotalDebt": 480500000,
+    "enterpriseValue": 3154446200
+  },
+  {
+    "symbol": "CMP",
+    "date": "2013-03-31",
+    "stockPrice": 78.41,
+    "numberOfShares": 33282000,
+    "marketCapitalization": 2609641620,
+    "minusCashAndCashEquivalents": 175500000,
+    "addTotalDebt": 481300000,
+    "enterpriseValue": 2915441620
+  },
+  {
+    "symbol": "CMP",
+    "date": "2012-12-31",
+    "stockPrice": 74.71,
+    "numberOfShares": 33195000,
+    "marketCapitalization": 2479998450,
+    "minusCashAndCashEquivalents": 100100000,
+    "addTotalDebt": 482300000,
+    "enterpriseValue": 2862198450
+  },
+  {
+    "symbol": "CMP",
+    "date": "2012-09-30",
+    "stockPrice": 74.57,
+    "numberOfShares": 33110000,
+    "marketCapitalization": 2469012700,
+    "minusCashAndCashEquivalents": 116400000,
+    "addTotalDebt": 483200000,
+    "enterpriseValue": 2835812700
+  },
+  {
+    "symbol": "CMP",
+    "date": "2012-06-30",
+    "stockPrice": 76.28,
+    "numberOfShares": 33093000,
+    "marketCapitalization": 2524334040,
+    "minusCashAndCashEquivalents": 147600000,
+    "addTotalDebt": 484100000,
+    "enterpriseValue": 2860834040
+  },
+  {
+    "symbol": "CMP",
+    "date": "2012-03-31",
+    "stockPrice": 71.74,
+    "numberOfShares": 33035000,
+    "marketCapitalization": 2369930900,
+    "minusCashAndCashEquivalents": 183600000,
+    "addTotalDebt": 481700000,
+    "enterpriseValue": 2668030900
+  },
+  {
+    "symbol": "CMP",
+    "date": "2011-12-31",
+    "stockPrice": 68.85,
+    "numberOfShares": 32993000,
+    "marketCapitalization": 2271568050,
+    "minusCashAndCashEquivalents": 130300000,
+    "addTotalDebt": 482700000,
+    "enterpriseValue": 2623968050
+  },
+  {
+    "symbol": "CMP",
+    "date": "2011-09-30",
+    "stockPrice": 66.78,
+    "numberOfShares": 32906000,
+    "marketCapitalization": 2197462680,
+    "minusCashAndCashEquivalents": 123400000,
+    "addTotalDebt": 483700000,
+    "enterpriseValue": 2557762680
+  },
+  {
+    "symbol": "CMP",
+    "date": "2011-06-30",
+    "stockPrice": 86.07,
+    "numberOfShares": 32889000,
+    "marketCapitalization": 2830756230,
+    "minusCashAndCashEquivalents": 158000000,
+    "addTotalDebt": 484700000,
+    "enterpriseValue": 3157456230
+  },
+  {
+    "symbol": "CMP",
+    "date": "2011-03-31",
+    "stockPrice": 93.53,
+    "numberOfShares": 32835000,
+    "marketCapitalization": 3071057550,
+    "minusCashAndCashEquivalents": 177600000,
+    "addTotalDebt": 485700000,
+    "enterpriseValue": 3379157550
+  },
+  {
+    "symbol": "CMP",
+    "date": "2010-12-31",
+    "stockPrice": 89.27,
+    "numberOfShares": 32807000,
+    "marketCapitalization": 2928680890,
+    "minusCashAndCashEquivalents": 91100000,
+    "addTotalDebt": 486700000,
+    "enterpriseValue": 3324280890
+  },
+  {
+    "symbol": "CMP",
+    "date": "2010-09-30",
+    "stockPrice": 76.62,
+    "numberOfShares": 32774000,
+    "marketCapitalization": 2511143880,
+    "minusCashAndCashEquivalents": 68900000,
+    "addTotalDebt": 487800000,
+    "enterpriseValue": 2930043880
+  },
+  {
+    "symbol": "CMP",
+    "date": "2010-06-30",
+    "stockPrice": 70.28,
+    "numberOfShares": 32739000,
+    "marketCapitalization": 2300896920,
+    "minusCashAndCashEquivalents": 112400000,
+    "addTotalDebt": 488800000,
+    "enterpriseValue": 2677296920
+  },
+  {
+    "symbol": "CMP",
+    "date": "2010-03-31",
+    "stockPrice": 80.23,
+    "numberOfShares": 32668000,
+    "marketCapitalization": 2620953640,
+    "minusCashAndCashEquivalents": 118500000,
+    "addTotalDebt": 489800000,
+    "enterpriseValue": 2992253640
+  },
+  {
+    "symbol": "CMP",
+    "date": "2009-12-31",
+    "stockPrice": 67.19,
+    "numberOfShares": 32625000,
+    "marketCapitalization": 2192073750,
+    "minusCashAndCashEquivalents": 13500000,
+    "addTotalDebt": 490700000,
+    "enterpriseValue": 2669273750
+  },
+  {
+    "symbol": "CMP",
+    "date": "2009-09-30",
+    "stockPrice": 61.62,
+    "numberOfShares": 32593000,
+    "marketCapitalization": 2008380660,
+    "minusCashAndCashEquivalents": 13200000,
+    "addTotalDebt": 491700000,
+    "enterpriseValue": 2486880660
+  },
+  {
+    "symbol": "CMP",
+    "date": "2009-06-30",
+    "stockPrice": 54.91,
+    "numberOfShares": 32585000,
+    "marketCapitalization": 1789242350,
+    "minusCashAndCashEquivalents": 66300000,
+    "addTotalDebt": 492700000,
+    "enterpriseValue": 2215642350
+  },
+  {
+    "symbol": "CMP",
+    "date": "2009-03-31",
+    "stockPrice": 56.37,
+    "numberOfShares": 32493000,
+    "marketCapitalization": 1831630410,
+    "minusCashAndCashEquivalents": 117400000,
+    "addTotalDebt": 486000000,
+    "enterpriseValue": 2200230410
+  },
+  {
+    "symbol": "CMP",
+    "date": "2008-12-31",
+    "stockPrice": 58.66,
+    "numberOfShares": 32431000,
+    "marketCapitalization": 1902402460,
+    "minusCashAndCashEquivalents": 34600000,
+    "addTotalDebt": 495700000,
+    "enterpriseValue": 2363502460
+  },
+  {
+    "symbol": "CMP",
+    "date": "2008-09-30",
+    "stockPrice": 52.39,
+    "numberOfShares": 32425000,
+    "marketCapitalization": 1698745750,
+    "minusCashAndCashEquivalents": 11800000,
+    "addTotalDebt": 508000000,
+    "enterpriseValue": 2194945750
+  },
+  {
+    "symbol": "CMP",
+    "date": "2008-06-30",
+    "stockPrice": 80.56,
+    "numberOfShares": 32405000,
+    "marketCapitalization": 2610546800,
+    "minusCashAndCashEquivalents": 40700000,
+    "addTotalDebt": 509000000,
+    "enterpriseValue": 3078846800
+  },
+  {
+    "symbol": "CMP",
+    "date": "2008-03-31",
+    "stockPrice": 58.98,
+    "numberOfShares": 32366000,
+    "marketCapitalization": 1908946680,
+    "minusCashAndCashEquivalents": 102800000,
+    "addTotalDebt": 576800000,
+    "enterpriseValue": 2382946680
+  },
+  {
+    "symbol": "CMP",
+    "date": "2007-12-31",
+    "stockPrice": 41,
+    "numberOfShares": 32943174,
+    "marketCapitalization": 1350670134,
+    "minusCashAndCashEquivalents": 12100000,
+    "addTotalDebt": 606800000,
+    "enterpriseValue": 1945370134
+  },
+  {
+    "symbol": "CMP",
+    "date": "2007-09-30",
+    "stockPrice": 35.28,
+    "numberOfShares": 32903048,
+    "marketCapitalization": 1160819533,
+    "minusCashAndCashEquivalents": 2000000,
+    "addTotalDebt": 587500000,
+    "enterpriseValue": 1746319533
+  },
+  {
+    "symbol": "CMP",
+    "date": "2007-06-30",
+    "stockPrice": 34.66,
+    "numberOfShares": 32257415,
+    "marketCapitalization": 1118042003,
+    "minusCashAndCashEquivalents": 31300000,
+    "addTotalDebt": 564600000,
+    "enterpriseValue": 1651342003
+  },
+  {
+    "symbol": "CMP",
+    "date": "2007-03-31",
+    "stockPrice": 33.4,
+    "numberOfShares": 32578962,
+    "marketCapitalization": 1088137330,
+    "minusCashAndCashEquivalents": 35400000,
+    "addTotalDebt": 567200000,
+    "enterpriseValue": 1619937330
+  },
+  {
+    "symbol": "CMP",
+    "date": "2006-12-31",
+    "stockPrice": 31.56,
+    "numberOfShares": 32495851,
+    "marketCapitalization": 1025569057,
+    "minusCashAndCashEquivalents": 7400000,
+    "addTotalDebt": 585500000,
+    "enterpriseValue": 1603669057
+  },
+  {
+    "symbol": "CMP",
+    "date": "2006-09-30",
+    "stockPrice": 28.31,
+    "numberOfShares": 32436995,
+    "marketCapitalization": 918291328,
+    "minusCashAndCashEquivalents": 8400000,
+    "addTotalDebt": 572300000,
+    "enterpriseValue": 1482191328
+  },
+  {
+    "symbol": "CMP",
+    "date": "2006-06-30",
+    "stockPrice": 24.95,
+    "numberOfShares": 32011226,
+    "marketCapitalization": 798680088,
+    "minusCashAndCashEquivalents": 58100000,
+    "addTotalDebt": 577600000,
+    "enterpriseValue": 1318180088
+  },
+  {
+    "symbol": "CMP",
+    "date": "2006-03-31",
+    "stockPrice": 24.99,
+    "numberOfShares": 32121621,
+    "marketCapitalization": 802719308,
+    "minusCashAndCashEquivalents": 100800000,
+    "addTotalDebt": 581200000,
+    "enterpriseValue": 1283119308
+  },
+  {
+    "symbol": "CMP",
+    "date": "2005-12-31",
+    "stockPrice": 24.54,
+    "numberOfShares": 31786520,
+    "marketCapitalization": 780041200,
+    "minusCashAndCashEquivalents": 47100000,
+    "addTotalDebt": 615900000,
+    "enterpriseValue": 1348841200
+  },
+  {
+    "symbol": "CMP",
+    "date": "2005-09-30",
+    "stockPrice": 23,
+    "numberOfShares": 31593768,
+    "marketCapitalization": 726656664,
+    "minusCashAndCashEquivalents": 23800000,
+    "addTotalDebt": 590100000,
+    "enterpriseValue": 1292956664
+  },
+  {
+    "symbol": "CMP",
+    "date": "2005-06-30",
+    "stockPrice": 23.4,
+    "numberOfShares": 31430900,
+    "marketCapitalization": 735483060,
+    "minusCashAndCashEquivalents": 55500000,
+    "addTotalDebt": 564500000,
+    "enterpriseValue": 1244483060
+  },
+  {
+    "symbol": "CMP",
+    "date": "2005-03-31",
+    "stockPrice": 25.45,
+    "numberOfShares": 31140713,
+    "marketCapitalization": 792531145,
+    "minusCashAndCashEquivalents": 67000000,
+    "addTotalDebt": 568200000,
+    "enterpriseValue": 1293731145
+  },
+  {
+    "symbol": "CMP",
+    "date": "2004-12-31",
+    "stockPrice": 24.23,
+    "numberOfShares": 30875071,
+    "marketCapitalization": 748102970,
+    "minusCashAndCashEquivalents": 9700000,
+    "addTotalDebt": 583100000,
+    "enterpriseValue": 1321502970
+  },
+  {
+    "symbol": "CMP",
+    "date": "2004-09-30",
+    "stockPrice": 22.2,
+    "numberOfShares": 30785285,
+    "marketCapitalization": 683433327,
+    "minusCashAndCashEquivalents": 8300000,
+    "addTotalDebt": 576200000,
+    "enterpriseValue": 1251333327
+  },
+  {
+    "symbol": "CMP",
+    "date": "2004-06-30",
+    "stockPrice": 19.38,
+    "numberOfShares": 30516370,
+    "marketCapitalization": 591407250,
+    "minusCashAndCashEquivalents": 54900000,
+    "addTotalDebt": 580500000,
+    "enterpriseValue": 1117007250
+  },
+  {
+    "symbol": "CMP",
+    "date": "2004-03-31",
+    "stockPrice": 16.39,
+    "numberOfShares": 30241662,
+    "marketCapitalization": 495660840,
+    "minusCashAndCashEquivalents": 71300000,
+    "addTotalDebt": 585000000,
+    "enterpriseValue": 1009360840
+  },
+  {
+    "symbol": "CMP",
+    "date": "2003-12-31",
+    "stockPrice": 14.28,
+    "numberOfShares": 30029932,
+    "marketCapitalization": 428827428,
+    "minusCashAndCashEquivalents": 2600000,
+    "addTotalDebt": 603300000,
+    "enterpriseValue": 1029527428
+  },
+  {
+    "symbol": "CMP",
+    "date": "2003-09-30",
+    "stockPrice": 13.75,
+    "numberOfShares": 30029932,
+    "marketCapitalization": 412911565,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 412911565
+  },
+  {
+    "symbol": "CMP",
+    "date": "2003-06-30",
+    "stockPrice": 13.75,
+    "numberOfShares": 34663944,
+    "marketCapitalization": 476629230,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 476629230
+  },
+  {
+    "symbol": "CMP",
+    "date": "2003-03-31",
+    "stockPrice": 13.75,
+    "numberOfShares": 35104091,
+    "marketCapitalization": 482681251,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 482681251
+  }
+]

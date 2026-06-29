@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "PRH",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "JAPAN": 13760000000,
+      "Non-US": 8077000000,
+      "UNITED STATES": 48568000000
+    }
+  },
+  {
+    "symbol": "PRH",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "JAPAN": 15538000000,
+      "Non-US": 7410000000,
+      "UNITED STATES": 31031000000
+    }
+  },
+  {
+    "symbol": "PRH",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "JAPAN": 15682000000,
+      "Non-US": 5519000000,
+      "UNITED STATES": 38849000000
+    }
+  }
+]

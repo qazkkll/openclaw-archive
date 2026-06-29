@@ -1,0 +1,56 @@
+[
+  {
+    "symbol": "AEHR",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-05-31",
+    "data": {
+      "Contactors": 37560000,
+      "Services": 4489000,
+      "Systems": 24169000
+    }
+  },
+  {
+    "symbol": "AEHR",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-05-31",
+    "data": {
+      "Contactors": 5837000,
+      "Services": 3513000,
+      "Systems": 7250000,
+      "Test During Burn-In": 1596000,
+      "Wafer-Level": 15004000
+    }
+  },
+  {
+    "symbol": "AEHR",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-05-31",
+    "data": {
+      "Contactors": 10784000,
+      "Services": 3408000,
+      "Systems": 8099000,
+      "Test During Burn-In": 2523000,
+      "Wafer-Level": 19768000
+    }
+  },
+  {
+    "symbol": "AEHR",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-05-31",
+    "data": {
+      "Contactors": 6154000,
+      "Services": 5336000,
+      "Systems": 9566000,
+      "Test During Burn-In": 6438000,
+      "Wafer-level": 14618000
+    }
+  }
+]

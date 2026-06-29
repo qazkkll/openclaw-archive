@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "ASTH",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Health Care Capitation Revenue": 2924265000,
+      "Health Care, Other": 86199000,
+      "Health Care, Patient Service": 112635000,
+      "Management Service": 30394000,
+      "Product and Service, Other": 28276000
+    }
+  },
+  {
+    "symbol": "ASTH",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Health Care Capitation Revenue": 1856785000,
+      "Health Care, Other": 86224000,
+      "Health Care, Patient Service": 62331000,
+      "Management Service": 13979000,
+      "Product and Service, Other": 15221000
+    }
+  }
+]

@@ -1,0 +1,532 @@
+[
+  {
+    "symbol": "IRMD",
+    "date": "2026-03-31",
+    "stockPrice": 96.26,
+    "numberOfShares": 12783000,
+    "marketCapitalization": 1230491580,
+    "minusCashAndCashEquivalents": 56374000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1174117580
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2025-12-31",
+    "stockPrice": 97.28,
+    "numberOfShares": 12738000,
+    "marketCapitalization": 1239152640,
+    "minusCashAndCashEquivalents": 51159000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1187993640
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2025-09-30",
+    "stockPrice": 71.16,
+    "numberOfShares": 12720812,
+    "marketCapitalization": 905212981,
+    "minusCashAndCashEquivalents": 56526151,
+    "addTotalDebt": 0,
+    "enterpriseValue": 848686830
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2025-06-30",
+    "stockPrice": 59.79,
+    "numberOfShares": 12715053,
+    "marketCapitalization": 760233018,
+    "minusCashAndCashEquivalents": 52995781,
+    "addTotalDebt": 0,
+    "enterpriseValue": 707237237
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2025-03-31",
+    "stockPrice": 52.48,
+    "numberOfShares": 12714224,
+    "marketCapitalization": 667242475,
+    "minusCashAndCashEquivalents": 50330880,
+    "addTotalDebt": 59221,
+    "enterpriseValue": 616970816
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2024-12-31",
+    "stockPrice": 55,
+    "numberOfShares": 12683538,
+    "marketCapitalization": 697594590,
+    "minusCashAndCashEquivalents": 52233907,
+    "addTotalDebt": 154688,
+    "enterpriseValue": 645515371
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2024-09-30",
+    "stockPrice": 50.29,
+    "numberOfShares": 12669741,
+    "marketCapitalization": 637161274,
+    "minusCashAndCashEquivalents": 51721051,
+    "addTotalDebt": 264075,
+    "enterpriseValue": 585704298
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2024-06-30",
+    "stockPrice": 43.44,
+    "numberOfShares": 12664920,
+    "marketCapitalization": 550164124,
+    "minusCashAndCashEquivalents": 48535140,
+    "addTotalDebt": 371849,
+    "enterpriseValue": 502000833
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2024-03-31",
+    "stockPrice": 42.9,
+    "numberOfShares": 12662526,
+    "marketCapitalization": 543222365,
+    "minusCashAndCashEquivalents": 45126676,
+    "addTotalDebt": 1938427,
+    "enterpriseValue": 500034116
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2023-12-31",
+    "stockPrice": 47.47,
+    "numberOfShares": 12619856,
+    "marketCapitalization": 599064564,
+    "minusCashAndCashEquivalents": 49762198,
+    "addTotalDebt": 2043043,
+    "enterpriseValue": 551345409
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2023-09-30",
+    "stockPrice": 44.37,
+    "numberOfShares": 12602581,
+    "marketCapitalization": 559176518,
+    "minusCashAndCashEquivalents": 46745124,
+    "addTotalDebt": 2146117,
+    "enterpriseValue": 514577511
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2023-06-30",
+    "stockPrice": 47.74,
+    "numberOfShares": 12596032,
+    "marketCapitalization": 601334567,
+    "minusCashAndCashEquivalents": 45822834,
+    "addTotalDebt": 2247667,
+    "enterpriseValue": 557759400
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2023-03-31",
+    "stockPrice": 39.35,
+    "numberOfShares": 12593033,
+    "marketCapitalization": 495535848,
+    "minusCashAndCashEquivalents": 42777158,
+    "addTotalDebt": 2347719,
+    "enterpriseValue": 455106409
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2022-12-31",
+    "stockPrice": 28.29,
+    "numberOfShares": 12572919,
+    "marketCapitalization": 355687878,
+    "minusCashAndCashEquivalents": 57960864,
+    "addTotalDebt": 2205286,
+    "enterpriseValue": 299932300
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2022-09-30",
+    "stockPrice": 30.06,
+    "numberOfShares": 12564636,
+    "marketCapitalization": 377692958,
+    "minusCashAndCashEquivalents": 55592152,
+    "addTotalDebt": 2276089,
+    "enterpriseValue": 324376895
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2022-06-30",
+    "stockPrice": 33.94,
+    "numberOfShares": 12560812,
+    "marketCapitalization": 426313959,
+    "minusCashAndCashEquivalents": 52157539,
+    "addTotalDebt": 2345851,
+    "enterpriseValue": 376502271
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2022-03-31",
+    "stockPrice": 44.84,
+    "numberOfShares": 12552817,
+    "marketCapitalization": 562868314,
+    "minusCashAndCashEquivalents": 50446484,
+    "addTotalDebt": 2414472,
+    "enterpriseValue": 514836302
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2021-12-31",
+    "stockPrice": 46.21,
+    "numberOfShares": 12428361,
+    "marketCapitalization": 574314561,
+    "minusCashAndCashEquivalents": 61999550,
+    "addTotalDebt": 2482084,
+    "enterpriseValue": 514797095
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2021-09-30",
+    "stockPrice": 33.59,
+    "numberOfShares": 12331062,
+    "marketCapitalization": 414200372,
+    "minusCashAndCashEquivalents": 58371572,
+    "addTotalDebt": 2548702,
+    "enterpriseValue": 358377502
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2021-06-30",
+    "stockPrice": 29.41,
+    "numberOfShares": 12313563,
+    "marketCapitalization": 362141887,
+    "minusCashAndCashEquivalents": 55159661,
+    "addTotalDebt": 2614351,
+    "enterpriseValue": 309596577
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2021-03-31",
+    "stockPrice": 25.77,
+    "numberOfShares": 12310577,
+    "marketCapitalization": 317243569,
+    "minusCashAndCashEquivalents": 50801629,
+    "addTotalDebt": 2652533,
+    "enterpriseValue": 269094473
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2020-12-31",
+    "stockPrice": 22.8,
+    "numberOfShares": 12279999,
+    "marketCapitalization": 279983977,
+    "minusCashAndCashEquivalents": 50068728,
+    "addTotalDebt": 2715030,
+    "enterpriseValue": 232630279
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2020-09-30",
+    "stockPrice": 21.38,
+    "numberOfShares": 12243362,
+    "marketCapitalization": 261763079,
+    "minusCashAndCashEquivalents": 47549619,
+    "addTotalDebt": 2776599,
+    "enterpriseValue": 216990059
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2020-06-30",
+    "stockPrice": 23.21,
+    "numberOfShares": 12076399,
+    "marketCapitalization": 280293220,
+    "minusCashAndCashEquivalents": 45457652,
+    "addTotalDebt": 2837253,
+    "enterpriseValue": 237672821
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2020-03-31",
+    "stockPrice": 21.35,
+    "numberOfShares": 11891428,
+    "marketCapitalization": 253881987,
+    "minusCashAndCashEquivalents": 44636348,
+    "addTotalDebt": 2897007,
+    "enterpriseValue": 212142646
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2019-12-31",
+    "stockPrice": 23.38,
+    "numberOfShares": 11559526,
+    "marketCapitalization": 270261717,
+    "minusCashAndCashEquivalents": 43481781,
+    "addTotalDebt": 2955873,
+    "enterpriseValue": 229735809
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2019-09-30",
+    "stockPrice": 21.02,
+    "numberOfShares": 11369404,
+    "marketCapitalization": 238984872,
+    "minusCashAndCashEquivalents": 38637408,
+    "addTotalDebt": 3013865,
+    "enterpriseValue": 203361329
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2019-06-30",
+    "stockPrice": 20.17,
+    "numberOfShares": 11163506,
+    "marketCapitalization": 225167916,
+    "minusCashAndCashEquivalents": 32421994,
+    "addTotalDebt": 3070996,
+    "enterpriseValue": 195816918
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2019-03-31",
+    "stockPrice": 27.72,
+    "numberOfShares": 11029639,
+    "marketCapitalization": 305741593,
+    "minusCashAndCashEquivalents": 29684457,
+    "addTotalDebt": 3127278,
+    "enterpriseValue": 279184414
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2018-12-31",
+    "stockPrice": 24.46,
+    "numberOfShares": 10946149,
+    "marketCapitalization": 267742804,
+    "minusCashAndCashEquivalents": 28027688,
+    "addTotalDebt": 0,
+    "enterpriseValue": 239715116
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2018-09-30",
+    "stockPrice": 34.04,
+    "numberOfShares": 10824421,
+    "marketCapitalization": 368463290,
+    "minusCashAndCashEquivalents": 23699164,
+    "addTotalDebt": 0,
+    "enterpriseValue": 344764126
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2018-06-30",
+    "stockPrice": 20.75,
+    "numberOfShares": 10651619,
+    "marketCapitalization": 221021094,
+    "minusCashAndCashEquivalents": 21330879,
+    "addTotalDebt": 0,
+    "enterpriseValue": 199690215
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2018-03-31",
+    "stockPrice": 14.4,
+    "numberOfShares": 10608387,
+    "marketCapitalization": 152760772,
+    "minusCashAndCashEquivalents": 20093133,
+    "addTotalDebt": 0,
+    "enterpriseValue": 132667639
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2017-12-31",
+    "stockPrice": 15.15,
+    "numberOfShares": 10563860,
+    "marketCapitalization": 160042479,
+    "minusCashAndCashEquivalents": 18205976,
+    "addTotalDebt": 0,
+    "enterpriseValue": 141836503
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2017-09-30",
+    "stockPrice": 9.6,
+    "numberOfShares": 10565598,
+    "marketCapitalization": 101429740,
+    "minusCashAndCashEquivalents": 18406305,
+    "addTotalDebt": 0,
+    "enterpriseValue": 83023435
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2017-06-30",
+    "stockPrice": 8.6,
+    "numberOfShares": 10687746,
+    "marketCapitalization": 91914615,
+    "minusCashAndCashEquivalents": 16800617,
+    "addTotalDebt": 0,
+    "enterpriseValue": 75113998
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2017-03-31",
+    "stockPrice": 8.9,
+    "numberOfShares": 10740979,
+    "marketCapitalization": 95594713,
+    "minusCashAndCashEquivalents": 17456641,
+    "addTotalDebt": 0,
+    "enterpriseValue": 78138072
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2016-12-31",
+    "stockPrice": 11.1,
+    "numberOfShares": 10717020,
+    "marketCapitalization": 118958922,
+    "minusCashAndCashEquivalents": 17713871,
+    "addTotalDebt": 0,
+    "enterpriseValue": 101245051
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2016-09-30",
+    "stockPrice": 16.99,
+    "numberOfShares": 10684650,
+    "marketCapitalization": 181532203,
+    "minusCashAndCashEquivalents": 16004062,
+    "addTotalDebt": 0,
+    "enterpriseValue": 165528141
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2016-06-30",
+    "stockPrice": 21.76,
+    "numberOfShares": 10778673,
+    "marketCapitalization": 234543924,
+    "minusCashAndCashEquivalents": 12065858,
+    "addTotalDebt": 0,
+    "enterpriseValue": 222478066
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2016-03-31",
+    "stockPrice": 19.16,
+    "numberOfShares": 11095950,
+    "marketCapitalization": 212598402,
+    "minusCashAndCashEquivalents": 15507432,
+    "addTotalDebt": 0,
+    "enterpriseValue": 197090970
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2015-12-31",
+    "stockPrice": 28.03,
+    "numberOfShares": 11101444,
+    "marketCapitalization": 311173475,
+    "minusCashAndCashEquivalents": 19368114,
+    "addTotalDebt": 0,
+    "enterpriseValue": 291805361
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2015-09-30",
+    "stockPrice": 24.36,
+    "numberOfShares": 11028551,
+    "marketCapitalization": 268655502,
+    "minusCashAndCashEquivalents": 15529235,
+    "addTotalDebt": 0,
+    "enterpriseValue": 253126267
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2015-06-30",
+    "stockPrice": 23.27,
+    "numberOfShares": 10974448,
+    "marketCapitalization": 255375404,
+    "minusCashAndCashEquivalents": 12427528,
+    "addTotalDebt": 0,
+    "enterpriseValue": 242947876
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2015-03-31",
+    "stockPrice": 15.23,
+    "numberOfShares": 10906224,
+    "marketCapitalization": 166101791,
+    "minusCashAndCashEquivalents": 10773513,
+    "addTotalDebt": 0,
+    "enterpriseValue": 155328278
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2014-12-31",
+    "stockPrice": 12.9,
+    "numberOfShares": 10804854,
+    "marketCapitalization": 139382616,
+    "minusCashAndCashEquivalents": 9454150,
+    "addTotalDebt": 0,
+    "enterpriseValue": 129928466
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2014-09-30",
+    "stockPrice": 7.01,
+    "numberOfShares": 10112139,
+    "marketCapitalization": 70886094,
+    "minusCashAndCashEquivalents": 18113859,
+    "addTotalDebt": 0,
+    "enterpriseValue": 52772235
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2014-06-30",
+    "stockPrice": 9.9,
+    "numberOfShares": 10416000,
+    "marketCapitalization": 103118400,
+    "minusCashAndCashEquivalents": 4260988,
+    "addTotalDebt": 0,
+    "enterpriseValue": 98857412
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2014-03-31",
+    "stockPrice": 9.9,
+    "numberOfShares": 10416000,
+    "marketCapitalization": 103118400,
+    "minusCashAndCashEquivalents": 2908641,
+    "addTotalDebt": 0,
+    "enterpriseValue": 100209759
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2013-12-31",
+    "stockPrice": 9.9,
+    "numberOfShares": 10416000,
+    "marketCapitalization": 103118400,
+    "minusCashAndCashEquivalents": 2461559,
+    "addTotalDebt": 6333,
+    "enterpriseValue": 100663174
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2013-09-30",
+    "stockPrice": 9.9,
+    "numberOfShares": 10416000,
+    "marketCapitalization": 103118400,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 103118400
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2013-06-30",
+    "stockPrice": 9.9,
+    "numberOfShares": 10416000,
+    "marketCapitalization": 103118400,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 103118400
+  },
+  {
+    "symbol": "IRMD",
+    "date": "2013-03-31",
+    "stockPrice": 9.9,
+    "numberOfShares": 10416000,
+    "marketCapitalization": 103118400,
+    "minusCashAndCashEquivalents": -1948100,
+    "addTotalDebt": 0,
+    "enterpriseValue": 105066500
+  }
+]

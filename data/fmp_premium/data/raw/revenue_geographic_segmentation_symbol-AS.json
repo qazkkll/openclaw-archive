@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "AS",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Americas": 2125600000,
+      "Asia Pacific, Excluding Greater China": 772900000,
+      "Greater China": 1861900000
+    }
+  },
+  {
+    "symbol": "AS",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Americas": 1859000000,
+      "Asia Pacific": 512800000,
+      "Greater China": 1298100000
+    }
+  },
+  {
+    "symbol": "AS",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Americas": 1726800000,
+      "Asia Pacific": 350000000,
+      "Greater China": 841400000
+    }
+  }
+]

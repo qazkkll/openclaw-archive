@@ -1,0 +1,506 @@
+[
+  {
+    "symbol": "LYG",
+    "date": "2026-04-30",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2026-04-09",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2025-03-11",
+    "gradingCompany": "Keefe, Bruyette & Woods",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2024-08-05",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2024-07-30",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2024-03-21",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2022-10-17",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2022-04-05",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2022-03-30",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2022-03-07",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2021-09-29",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Sell",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2021-04-12",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2021-03-22",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2021-02-08",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Sell",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2020-07-23",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2020-07-14",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2020-03-16",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2020-02-11",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2019-10-22",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2019-02-11",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2018-09-04",
+    "gradingCompany": "Berenberg",
+    "previousGrade": "Sell",
+    "newGrade": "Hold",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2017-12-11",
+    "gradingCompany": "Exane BNP Paribas",
+    "previousGrade": "Underperform",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2017-10-10",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2016-11-29",
+    "gradingCompany": "Credit Suisse",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2016-11-04",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2016-07-26",
+    "gradingCompany": "Berenberg",
+    "previousGrade": "Sell",
+    "newGrade": "Hold",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2016-01-13",
+    "gradingCompany": "Exane BNP Paribas",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-10-30",
+    "gradingCompany": "Shore Capital",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-08-25",
+    "gradingCompany": "Investec",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-07-07",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-06-05",
+    "gradingCompany": "HSBC",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-05-05",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-03-18",
+    "gradingCompany": "Redburn Partners",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2015-01-02",
+    "gradingCompany": "Investec",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-11-11",
+    "gradingCompany": "Shore Capital",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-04-23",
+    "gradingCompany": "Nomura",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-04-22",
+    "gradingCompany": "Nomura",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-04-04",
+    "gradingCompany": "Oriel",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-04-01",
+    "gradingCompany": "Numis Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-03-24",
+    "gradingCompany": "Investec",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-02-14",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-02-04",
+    "gradingCompany": "Mediobanca Securities",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2014-01-24",
+    "gradingCompany": "Investec",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-11-08",
+    "gradingCompany": "Investec",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-10-29",
+    "gradingCompany": "Numis Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-10-28",
+    "gradingCompany": "Investec",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-10-09",
+    "gradingCompany": "Investec",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-08-08",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-08-02",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-06-20",
+    "gradingCompany": "Shore Capital",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-06-14",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-06-14",
+    "gradingCompany": "Mediobanca Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-06-05",
+    "gradingCompany": "Numis Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-05-02",
+    "gradingCompany": "Investec",
+    "previousGrade": "Hold",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-04-30",
+    "gradingCompany": "Oriel",
+    "previousGrade": "Sell",
+    "newGrade": "Hold",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-03-14",
+    "gradingCompany": "Oriel",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-03-12",
+    "gradingCompany": "Investec",
+    "previousGrade": "Sell",
+    "newGrade": "Hold",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-01-16",
+    "gradingCompany": "Macquarie",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-01-14",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Underweight",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2013-01-09",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2012-11-20",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Underweight",
+    "newGrade": "Equal Weight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2012-11-19",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "LYG",
+    "date": "2012-10-19",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Neutral",
+    "newGrade": "Underweight",
+    "action": "downgrade"
+  }
+]

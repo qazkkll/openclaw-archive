@@ -1,0 +1,41 @@
+[
+  {
+    "symbol": "KNF",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Aggregates": 617126000,
+      "Asphalt": 420982000,
+      "Other": 279817000,
+      "Ready-Mix Concrete": 779424000
+    }
+  },
+  {
+    "symbol": "KNF",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Aggregates": 556148000,
+      "Asphalt": 441438000,
+      "Other": 265820000,
+      "Ready-mix concrete": 655443000
+    }
+  },
+  {
+    "symbol": "KNF",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Aggregates": 547868000,
+      "Asphalt": 452420000,
+      "Other": 249031000,
+      "Ready-mix concrete": 653942000
+    }
+  }
+]

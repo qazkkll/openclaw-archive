@@ -1,0 +1,875 @@
+[
+  {
+    "symbol": "SKE",
+    "date": "2026-05-21",
+    "epsActual": null,
+    "epsEstimated": -0.07528,
+    "revenueActual": null,
+    "revenueEstimated": 752537,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2026-03-24",
+    "epsActual": -0.09,
+    "epsEstimated": -0.06,
+    "revenueActual": 988896,
+    "revenueEstimated": 591007,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2025-11-13",
+    "epsActual": -0.09,
+    "epsEstimated": -0.06,
+    "revenueActual": null,
+    "revenueEstimated": 2462955.4,
+    "lastUpdated": "2026-02-13"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2025-08-14",
+    "epsActual": -0.03,
+    "epsEstimated": -0.02,
+    "revenueActual": null,
+    "revenueEstimated": 1903383.3,
+    "lastUpdated": "2025-11-14"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2025-05-15",
+    "epsActual": -0.06,
+    "epsEstimated": -0.03,
+    "revenueActual": null,
+    "revenueEstimated": 1043371.74,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2025-03-31",
+    "epsActual": -0.25276,
+    "epsEstimated": -0.09905,
+    "revenueActual": null,
+    "revenueEstimated": 983839.42,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2024-11-14",
+    "epsActual": -0.31,
+    "epsEstimated": -0.14,
+    "revenueActual": null,
+    "revenueEstimated": 1549196.61,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2024-08-08",
+    "epsActual": -0.28,
+    "epsEstimated": -0.06,
+    "revenueActual": 276886.67,
+    "revenueEstimated": 276423.81,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2024-05-10",
+    "epsActual": -0.23,
+    "epsEstimated": -0.04,
+    "revenueActual": null,
+    "revenueEstimated": 332263.82,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2024-04-01",
+    "epsActual": -0.27,
+    "epsEstimated": -0.11,
+    "revenueActual": null,
+    "revenueEstimated": 403582.05,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2023-11-14",
+    "epsActual": -0.34,
+    "epsEstimated": -0.11,
+    "revenueActual": 616851.8,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2023-08-10",
+    "epsActual": -0.18,
+    "epsEstimated": -0.09,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2023-05-11",
+    "epsActual": -0.16,
+    "epsEstimated": -0.09,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2023-03-22",
+    "epsActual": -0.16,
+    "epsEstimated": 0.21,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2022-11-10",
+    "epsActual": -0.31,
+    "epsEstimated": -0.18,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2022-08-12",
+    "epsActual": -0.28,
+    "epsEstimated": -0.13,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2022-05-12",
+    "epsActual": -0.29,
+    "epsEstimated": -0.037,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2022-03-31",
+    "epsActual": -0.41,
+    "epsEstimated": -0.11,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2021-11-12",
+    "epsActual": -0.46,
+    "epsEstimated": -0.18,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2021-08-13",
+    "epsActual": -0.46,
+    "epsEstimated": -0.08,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2021-05-17",
+    "epsActual": -0.43732,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2020-12-31",
+    "epsActual": -0.67458,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2020-11-13",
+    "epsActual": -0.4,
+    "epsEstimated": -0.12,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2020-08-19",
+    "epsActual": -0.02157,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2020-05-29",
+    "epsActual": -0.12243,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2019-12-31",
+    "epsActual": -0.34615,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2019-09-30",
+    "epsActual": -0.24597,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2019-06-30",
+    "epsActual": -0.096,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2019-03-31",
+    "epsActual": -0.04501,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2018-12-31",
+    "epsActual": -0.15013,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2018-09-30",
+    "epsActual": -0.10008,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2018-06-30",
+    "epsActual": -0.15764,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2018-03-31",
+    "epsActual": -0.11101,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2017-12-31",
+    "epsActual": -0.14843,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2017-09-30",
+    "epsActual": -0.1527,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2017-06-30",
+    "epsActual": -0.08926,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2017-03-31",
+    "epsActual": -0.10228,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2016-12-31",
+    "epsActual": -0.10397,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2016-09-30",
+    "epsActual": -0.49451,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2016-06-30",
+    "epsActual": -0.3,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2016-03-31",
+    "epsActual": -0.14882,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2015-12-31",
+    "epsActual": -0.10275,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2015-09-30",
+    "epsActual": -0.53155,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2015-06-30",
+    "epsActual": -0.13538,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2015-03-31",
+    "epsActual": -0.07847,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2014-12-31",
+    "epsActual": -0.38853,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2014-09-30",
+    "epsActual": -0.61653,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2014-06-30",
+    "epsActual": -1.32677,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2014-03-31",
+    "epsActual": -0.03693,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2013-12-31",
+    "epsActual": -0.1275,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2013-09-30",
+    "epsActual": -0.03025,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2013-06-30",
+    "epsActual": -0.10319,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2013-03-31",
+    "epsActual": -0.03097,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2012-12-31",
+    "epsActual": -0.19846,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2012-09-30",
+    "epsActual": -0.15926,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2012-06-30",
+    "epsActual": -0.03555,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2012-03-31",
+    "epsActual": -0.08998,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2011-12-31",
+    "epsActual": -0.07279,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2011-09-30",
+    "epsActual": -0.13271,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2011-06-30",
+    "epsActual": -0.15414,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2011-03-31",
+    "epsActual": -0.17497,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2010-12-31",
+    "epsActual": -0.36048,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2010-09-30",
+    "epsActual": -0.74892,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2010-06-30",
+    "epsActual": -0.16213,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2010-03-31",
+    "epsActual": -0.18581,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2009-12-31",
+    "epsActual": -13.88827,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2009-09-30",
+    "epsActual": -0.20444,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2009-06-30",
+    "epsActual": -0.04439,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2009-03-31",
+    "epsActual": -0.24617,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2008-12-31",
+    "epsActual": -1.05601,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2008-09-30",
+    "epsActual": 0.0064,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2008-06-30",
+    "epsActual": -18.71802,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2008-03-31",
+    "epsActual": -0.20045,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2007-12-31",
+    "epsActual": -0.42938,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2007-09-30",
+    "epsActual": -1.4813,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2007-06-30",
+    "epsActual": -0.46538,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2007-03-31",
+    "epsActual": -0.60635,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2006-12-31",
+    "epsActual": -0.20733,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2006-09-30",
+    "epsActual": -1.88323,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2006-06-30",
+    "epsActual": -0.32479,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2006-03-31",
+    "epsActual": -0.2187,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2005-12-31",
+    "epsActual": -0.05271,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2005-09-30",
+    "epsActual": -2.56774,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2005-06-30",
+    "epsActual": -0.83612,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2005-03-31",
+    "epsActual": -2.30583,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2004-12-31",
+    "epsActual": -0.67552,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2004-09-30",
+    "epsActual": -0.12974,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2004-06-30",
+    "epsActual": -0.3176,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2004-03-31",
+    "epsActual": -0.17757,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2003-12-31",
+    "epsActual": -2.9564,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2003-09-30",
+    "epsActual": -0.21218,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2003-06-30",
+    "epsActual": -0.23236,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2003-03-31",
+    "epsActual": -0.11329,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2002-12-31",
+    "epsActual": -0.96334,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2002-09-30",
+    "epsActual": -1.22477,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2002-06-30",
+    "epsActual": -0.14847,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "SKE",
+    "date": "2002-03-31",
+    "epsActual": -0.21779,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  }
+]

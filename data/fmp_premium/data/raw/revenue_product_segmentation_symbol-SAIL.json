@@ -1,0 +1,48 @@
+[
+  {
+    "symbol": "SAIL",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "License": 113004000,
+      "Subscription": 273197000,
+      "Technology Service": 52753000
+    }
+  },
+  {
+    "symbol": "SAIL",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "License": 120874000,
+      "Subscription": 196817000,
+      "Technology Service": 47563000
+    }
+  },
+  {
+    "symbol": "SAIL",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "License": 102800000,
+      "Technology Service": 42325000
+    }
+  },
+  {
+    "symbol": "SAIL",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-12-31",
+    "data": {
+      "License": 105000000,
+      "Technology Service": 39887000
+    }
+  }
+]

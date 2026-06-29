@@ -1273,6 +1273,29 @@
       ],
       "model_signal": "无直接信号, 宏观分析驱动",
       "rules_source": "agent_applied"
+    },
+    {
+      "id": "R2861b48a",
+      "timestamp": "2026-06-29T08:01:17.449565",
+      "status": "scored",
+      "outcome": "Shanghai +1.16%, bearish prediction wrong. Bear market bounce stronger than expected, medical sector +7% led gains",
+      "outcome_date": "2026-06-29",
+      "actual_return": null,
+      "score": -1.0,
+      "source": "morning",
+      "market": "cn",
+      "date": "20260629",
+      "target": "A股大盘",
+      "action": "hold",
+      "direction": "bearish",
+      "confidence": 0.75,
+      "reasoning": "Bear regime确认: breadth 0.2732<0.3, ret20 -10.1%<-8%. R011适用: 不建议bullish推荐. R015适用: 唯一GG信号ST东尼RSI=86被排除. 无G级信号. 14个Y级信号均低于买入阈值.",
+      "rules_applied": [
+        "R011",
+        "R015"
+      ],
+      "macro_context": "bear regime",
+      "rules_source": "agent_applied"
     }
   ],
   "lessons": [],

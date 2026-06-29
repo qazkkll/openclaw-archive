@@ -1,0 +1,650 @@
+[
+  {
+    "symbol": "OMER",
+    "date": "2026-08-13",
+    "epsActual": null,
+    "epsEstimated": -0.25333,
+    "revenueActual": null,
+    "revenueEstimated": 13025000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2026-05-13",
+    "epsActual": -0.24,
+    "epsEstimated": -0.4,
+    "revenueActual": 9900000,
+    "revenueEstimated": 4187500,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2026-03-31",
+    "epsActual": 3.14,
+    "epsEstimated": -0.55,
+    "revenueActual": null,
+    "revenueEstimated": 1600000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2025-11-13",
+    "epsActual": -0.19,
+    "epsEstimated": -0.58,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-02-13"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2025-08-14",
+    "epsActual": -0.53,
+    "epsEstimated": -0.55,
+    "revenueActual": null,
+    "revenueEstimated": 312500,
+    "lastUpdated": "2025-11-14"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2025-05-15",
+    "epsActual": -0.65,
+    "epsEstimated": -0.57,
+    "revenueActual": null,
+    "revenueEstimated": 416670,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2025-03-31",
+    "epsActual": -0.63,
+    "epsEstimated": -0.78,
+    "revenueActual": 412000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2024-11-13",
+    "epsActual": -0.64,
+    "epsEstimated": -0.7,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2024-08-07",
+    "epsActual": -1.12,
+    "epsEstimated": -1.14,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2024-05-15",
+    "epsActual": -0.74,
+    "epsEstimated": -0.58,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2024-04-01",
+    "epsActual": -0.63,
+    "epsEstimated": -0.56,
+    "revenueActual": 1366000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2023-11-09",
+    "epsActual": -0.82,
+    "epsEstimated": -0.62,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2023-08-09",
+    "epsActual": -0.7,
+    "epsEstimated": -0.6,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2023-05-09",
+    "epsActual": -0.63,
+    "epsEstimated": -0.55,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2023-03-13",
+    "epsActual": -0.73,
+    "epsEstimated": -0.57,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2022-11-09",
+    "epsActual": -0.87,
+    "epsEstimated": -0.61,
+    "revenueActual": null,
+    "revenueEstimated": 2792750,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2022-08-09",
+    "epsActual": -0.6,
+    "epsEstimated": -0.68,
+    "revenueActual": 10102000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2022-05-10",
+    "epsActual": -0.56,
+    "epsEstimated": -0.74,
+    "revenueActual": 27700000,
+    "revenueEstimated": 10212205,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2022-03-01",
+    "epsActual": -0.37,
+    "epsEstimated": -0.3,
+    "revenueActual": 79889000,
+    "revenueEstimated": 66917250,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2021-11-09",
+    "epsActual": -0.26,
+    "epsEstimated": -0.45,
+    "revenueActual": 30004000,
+    "revenueEstimated": 30150000,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2021-08-09",
+    "epsActual": -0.4,
+    "epsEstimated": -0.5,
+    "revenueActual": 28823000,
+    "revenueEstimated": 22990000,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2021-05-10",
+    "epsActual": -0.5,
+    "epsEstimated": -0.51,
+    "revenueActual": 21061000,
+    "revenueEstimated": 21061000,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2021-03-01",
+    "epsActual": -0.54,
+    "epsEstimated": -0.64,
+    "revenueActual": 10632000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2020-11-09",
+    "epsActual": -0.34,
+    "epsEstimated": -0.51,
+    "revenueActual": 26114000,
+    "revenueEstimated": 23973508,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2020-08-10",
+    "epsActual": -0.48,
+    "epsEstimated": -0.54,
+    "revenueActual": 13530000,
+    "revenueEstimated": 14195409,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2020-05-11",
+    "epsActual": -0.41,
+    "epsEstimated": -0.4,
+    "revenueActual": 23537000,
+    "revenueEstimated": 15099207,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2020-03-02",
+    "epsActual": -0.21,
+    "epsEstimated": -0.33,
+    "revenueActual": 33417000,
+    "revenueEstimated": 28806896,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2019-11-12",
+    "epsActual": -0.2,
+    "epsEstimated": -0.38,
+    "revenueActual": 29856000,
+    "revenueEstimated": 37093818,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2019-08-08",
+    "epsActual": -0.16,
+    "epsEstimated": -0.45,
+    "revenueActual": 26753000,
+    "revenueEstimated": 42435793,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2019-05-09",
+    "epsActual": -0.38,
+    "epsEstimated": -0.34,
+    "revenueActual": 21779000,
+    "revenueEstimated": 22650160,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2019-03-01",
+    "epsActual": -0.38,
+    "epsEstimated": -0.75,
+    "revenueActual": 22017000,
+    "revenueEstimated": 37152000,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2018-11-08",
+    "epsActual": -0.71,
+    "epsEstimated": -0.72,
+    "revenueActual": 4608000,
+    "revenueEstimated": 4380444.44,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2018-08-09",
+    "epsActual": -0.6,
+    "epsEstimated": -0.66,
+    "revenueActual": 1655000,
+    "revenueEstimated": 1632342.86,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2018-05-10",
+    "epsActual": -0.53,
+    "epsEstimated": -0.57,
+    "revenueActual": 1588000,
+    "revenueEstimated": 1588000,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2018-03-01",
+    "epsActual": -0.25,
+    "epsEstimated": -0.22,
+    "revenueActual": 13760000,
+    "revenueEstimated": 6879500,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2017-11-09",
+    "epsActual": -0.07,
+    "epsEstimated": -0.34,
+    "revenueActual": 21658000,
+    "revenueEstimated": 44671687,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2017-08-08",
+    "epsActual": -0.23,
+    "epsEstimated": -0.35,
+    "revenueActual": 17151000,
+    "revenueEstimated": 19749636,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2017-05-10",
+    "epsActual": -0.24,
+    "epsEstimated": -0.35,
+    "revenueActual": 12257000,
+    "revenueEstimated": 12977999,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2017-03-16",
+    "epsActual": -0.2,
+    "epsEstimated": -0.48,
+    "revenueActual": 12905000,
+    "revenueEstimated": 16059555,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2016-11-09",
+    "epsActual": -0.26,
+    "epsEstimated": -0.3,
+    "revenueActual": 11289000,
+    "revenueEstimated": 13613205,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2016-08-09",
+    "epsActual": -0.24,
+    "epsEstimated": -0.5,
+    "revenueActual": 10004000,
+    "revenueEstimated": 15631250,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2016-05-10",
+    "epsActual": -0.42,
+    "epsEstimated": -0.5,
+    "revenueActual": 7419000,
+    "revenueEstimated": 5907722.22,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2016-03-07",
+    "epsActual": -0.45,
+    "epsEstimated": -0.54,
+    "revenueActual": 6675000,
+    "revenueEstimated": 7445192.31,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2015-11-09",
+    "epsActual": -0.46,
+    "epsEstimated": -0.42,
+    "revenueActual": 3259000,
+    "revenueEstimated": 2890056.6,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2015-08-10",
+    "epsActual": -0.37,
+    "epsEstimated": -0.48,
+    "revenueActual": 3187000,
+    "revenueEstimated": 4056181.82,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2015-05-11",
+    "epsActual": -0.43,
+    "epsEstimated": -0.64,
+    "revenueActual": 388000,
+    "revenueEstimated": 479294.12,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2015-03-16",
+    "epsActual": -0.49,
+    "epsEstimated": -0.6,
+    "revenueActual": 180000,
+    "revenueEstimated": 182950.82,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2014-11-10",
+    "epsActual": -0.54,
+    "epsEstimated": -0.61,
+    "revenueActual": 214000,
+    "revenueEstimated": 233814.81,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2014-08-11",
+    "epsActual": -0.53,
+    "epsEstimated": -0.64,
+    "revenueActual": 45000,
+    "revenueEstimated": 47547.17,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2014-05-12",
+    "epsActual": -0.45,
+    "epsEstimated": -0.45,
+    "revenueActual": 100000,
+    "revenueEstimated": 83333.33,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2014-03-13",
+    "epsActual": -0.46,
+    "epsEstimated": -0.46,
+    "revenueActual": 169000,
+    "revenueEstimated": 136638.3,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2013-11-07",
+    "epsActual": -0.35,
+    "epsEstimated": -0.46,
+    "revenueActual": 196000,
+    "revenueEstimated": 187478.26,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2013-08-09",
+    "epsActual": -0.48,
+    "epsEstimated": -0.4,
+    "revenueActual": 140000,
+    "revenueEstimated": 110833.33,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2013-05-10",
+    "epsActual": -0.4,
+    "epsEstimated": -0.39,
+    "revenueActual": 1095000,
+    "revenueEstimated": 1067625,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2013-03-18",
+    "epsActual": -0.4,
+    "epsEstimated": -0.34,
+    "revenueActual": 1583000,
+    "revenueEstimated": 1196044.44,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2012-11-09",
+    "epsActual": -0.36,
+    "epsEstimated": -0.35,
+    "revenueActual": 1417000,
+    "revenueEstimated": 1338277.78,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2012-08-07",
+    "epsActual": -0.38,
+    "epsEstimated": -0.36,
+    "revenueActual": 1526000,
+    "revenueEstimated": 1445684.21,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2012-05-10",
+    "epsActual": -0.35,
+    "epsEstimated": -0.36,
+    "revenueActual": 1496000,
+    "revenueEstimated": 1538742.86,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2012-03-15",
+    "epsActual": -0.46,
+    "epsEstimated": -0.35,
+    "revenueActual": 1143000,
+    "revenueEstimated": 869673.91,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2011-11-08",
+    "epsActual": -0.29,
+    "epsEstimated": -0.38,
+    "revenueActual": 987000,
+    "revenueEstimated": 1293310.34,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2011-08-09",
+    "epsActual": -0.24,
+    "epsEstimated": -0.38,
+    "revenueActual": 1155000,
+    "revenueEstimated": 1828750,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2011-05-10",
+    "epsActual": -0.3,
+    "epsEstimated": -0.39,
+    "revenueActual": 1239000,
+    "revenueEstimated": 1610700,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2011-03-15",
+    "epsActual": -0.32,
+    "epsEstimated": -0.49,
+    "revenueActual": 976000,
+    "revenueEstimated": 1494500,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2010-11-04",
+    "epsActual": -0.35,
+    "epsEstimated": -0.39,
+    "revenueActual": 254000,
+    "revenueEstimated": 283028.57,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2010-08-10",
+    "epsActual": -0.36,
+    "epsEstimated": -0.33,
+    "revenueActual": 497000,
+    "revenueEstimated": 455583.33,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2010-05-12",
+    "epsActual": -0.31,
+    "epsEstimated": -0.3,
+    "revenueActual": 378000,
+    "revenueEstimated": 365806.45,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2010-03-31",
+    "epsActual": -0.28,
+    "epsEstimated": -0.27,
+    "revenueActual": 434000,
+    "revenueEstimated": 418500,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2009-11-19",
+    "epsActual": -0.33,
+    "epsEstimated": -0.37,
+    "revenueActual": 442000,
+    "revenueEstimated": 489783,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2009-06-30",
+    "epsActual": -0.56844,
+    "epsEstimated": null,
+    "revenueActual": 371000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2009-03-31",
+    "epsActual": -0.5101,
+    "epsEstimated": null,
+    "revenueActual": 197000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2008-12-31",
+    "epsActual": -0.59394,
+    "epsEstimated": null,
+    "revenueActual": 181000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  },
+  {
+    "symbol": "OMER",
+    "date": "2008-09-30",
+    "epsActual": -0.68671,
+    "epsEstimated": null,
+    "revenueActual": 501000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-08-27"
+  }
+]

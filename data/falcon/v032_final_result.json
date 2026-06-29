@@ -1,0 +1,142 @@
+{
+  "v032_weights": {
+    "fund_growth": 0.15,
+    "cashflow": 0.12,
+    "analyst": 0.12,
+    "grade_sentiment": 0.12,
+    "earnings": 0.1,
+    "balance": 0.08,
+    "fund_metric": 0.06,
+    "insider": 0.05,
+    "fund_ratio": 0.05,
+    "income_stmt": 0.0,
+    "valuation": 0.0,
+    "tech": 0.0
+  },
+  "hold_days": 60,
+  "top_n": 10,
+  "oos_sharpe": 1.064,
+  "v031_oos_sharpe": 0.852,
+  "improvement_pct": 24.9,
+  "recent_sharpe_2024": 1.484,
+  "key_findings": [
+    "fund_ratio IC negative (-0.003) but was 70% weight in V0.3.1 - pure drag",
+    "fund_growth ICIR=0.292 (highest) - never used before, from fmp_financial_growth.json",
+    "cashflow (new) ICIR=0.153, balance (new) ICIR=0.094",
+    "cash_to_assets ICIR=0.203 (strongest sub-factor)",
+    "income_stmt ICIR=0.015 (too weak, excluded)",
+    "60-day hold >> 30-day for growth-oriented factors",
+    "fund_ratio at 5% is optimal (stability without drag)"
+  ],
+  "ic_icir": {
+    "fund_growth": {
+      "ic": 0.032,
+      "icir": 0.292
+    },
+    "cashflow": {
+      "ic": 0.014,
+      "icir": 0.153
+    },
+    "grade_sentiment": {
+      "ic": 0.013,
+      "icir": 0.143
+    },
+    "analyst": {
+      "ic": 0.015,
+      "icir": 0.133
+    },
+    "earnings": {
+      "ic": 0.011,
+      "icir": 0.129
+    },
+    "balance": {
+      "ic": 0.012,
+      "icir": 0.094
+    },
+    "fund_metric": {
+      "ic": 0.012,
+      "icir": 0.082
+    },
+    "insider": {
+      "ic": 0.006,
+      "icir": 0.057
+    },
+    "income_stmt": {
+      "ic": 0.002,
+      "icir": 0.015
+    },
+    "fund_ratio": {
+      "ic": -0.003,
+      "icir": -0.019
+    },
+    "valuation": {
+      "ic": -0.019,
+      "icir": -0.169
+    },
+    "tech": {
+      "ic": -0.014,
+      "icir": -0.089
+    }
+  },
+  "new_data_sources": {
+    "fmp_income_stmt": {
+      "tickers": 476,
+      "has_filing_date": true,
+      "fields": [
+        "revenue",
+        "costOfRevenue",
+        "grossProfit",
+        "operatingIncome",
+        "netIncome",
+        "ebitda",
+        "epsdiluted"
+      ]
+    },
+    "fmp_balance_sheet": {
+      "tickers": 476,
+      "has_filing_date": false,
+      "fields": [
+        "totalAssets",
+        "totalLiabilities",
+        "totalStockholdersEquity",
+        "cashAndCashEquivalents",
+        "totalDebt",
+        "netDebt"
+      ]
+    },
+    "fmp_cashflow": {
+      "tickers": 476,
+      "has_filing_date": false,
+      "fields": [
+        "operatingCashFlow",
+        "capitalExpenditure",
+        "freeCashFlow",
+        "dividendsPaid",
+        "commonStockRepurchased"
+      ]
+    }
+  },
+  "new_factors": {
+    "balance": [
+      "debt_to_equity",
+      "cash_to_assets",
+      "net_debt_to_assets",
+      "equity_ratio"
+    ],
+    "cashflow": [
+      "fcf_margin",
+      "ocf_margin",
+      "capex_intensity",
+      "buyback_yield",
+      "fcf_to_income"
+    ],
+    "income_stmt": [
+      "revenue_growth_yoy",
+      "gross_margin",
+      "operating_margin",
+      "net_margin",
+      "gross_margin_delta",
+      "ebitda_margin"
+    ]
+  }
+}

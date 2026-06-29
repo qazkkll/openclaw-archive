@@ -1,0 +1,912 @@
+[
+  {
+    "symbol": "DLR",
+    "date": "2026-03-31",
+    "stockPrice": 180.21,
+    "numberOfShares": 345013000,
+    "marketCapitalization": 62174792730,
+    "minusCashAndCashEquivalents": 2426631000,
+    "addTotalDebt": 19215142000,
+    "enterpriseValue": 78963303730
+  },
+  {
+    "symbol": "DLR",
+    "date": "2025-12-31",
+    "stockPrice": 154.71,
+    "numberOfShares": 343493000,
+    "marketCapitalization": 53141802030,
+    "minusCashAndCashEquivalents": 3451647000,
+    "addTotalDebt": 24182228000,
+    "enterpriseValue": 73872383030
+  },
+  {
+    "symbol": "DLR",
+    "date": "2025-09-30",
+    "stockPrice": 172.88,
+    "numberOfShares": 341370000,
+    "marketCapitalization": 59016045600,
+    "minusCashAndCashEquivalents": 3299703000,
+    "addTotalDebt": 19510501000,
+    "enterpriseValue": 75226843600
+  },
+  {
+    "symbol": "DLR",
+    "date": "2025-06-30",
+    "stockPrice": 174.33,
+    "numberOfShares": 337589000,
+    "marketCapitalization": 58851890370,
+    "minusCashAndCashEquivalents": 3554126000,
+    "addTotalDebt": 19750233000,
+    "enterpriseValue": 75047997370
+  },
+  {
+    "symbol": "DLR",
+    "date": "2025-03-31",
+    "stockPrice": 143.29,
+    "numberOfShares": 336683000,
+    "marketCapitalization": 48243307070,
+    "minusCashAndCashEquivalents": 2321885000,
+    "addTotalDebt": 18297851000,
+    "enterpriseValue": 64219273070
+  },
+  {
+    "symbol": "DLR",
+    "date": "2024-12-31",
+    "stockPrice": 177.33,
+    "numberOfShares": 333376000,
+    "marketCapitalization": 59117566080,
+    "minusCashAndCashEquivalents": 3870891000,
+    "addTotalDebt": 18008596000,
+    "enterpriseValue": 73255271080
+  },
+  {
+    "symbol": "DLR",
+    "date": "2024-09-30",
+    "stockPrice": 161.83,
+    "numberOfShares": 327977000,
+    "marketCapitalization": 53076517910,
+    "minusCashAndCashEquivalents": 2175605000,
+    "addTotalDebt": 18330449000,
+    "enterpriseValue": 69231361910
+  },
+  {
+    "symbol": "DLR",
+    "date": "2024-06-30",
+    "stockPrice": 152.13,
+    "numberOfShares": 319537000,
+    "marketCapitalization": 48611163810,
+    "minusCashAndCashEquivalents": 2282062000,
+    "addTotalDebt": 17676585000,
+    "enterpriseValue": 64005686810
+  },
+  {
+    "symbol": "DLR",
+    "date": "2024-03-31",
+    "stockPrice": 141.91,
+    "numberOfShares": 312292000,
+    "marketCapitalization": 44317357720,
+    "minusCashAndCashEquivalents": 1193784000,
+    "addTotalDebt": 18378092000,
+    "enterpriseValue": 61501665720
+  },
+  {
+    "symbol": "DLR",
+    "date": "2023-12-31",
+    "stockPrice": 134.58,
+    "numberOfShares": 305781000,
+    "marketCapitalization": 41152006980,
+    "minusCashAndCashEquivalents": 1625495000,
+    "addTotalDebt": 18968001000,
+    "enterpriseValue": 58494512980
+  },
+  {
+    "symbol": "DLR",
+    "date": "2023-09-30",
+    "stockPrice": 121.02,
+    "numberOfShares": 301827000,
+    "marketCapitalization": 36527103540,
+    "minusCashAndCashEquivalents": 1062050000,
+    "addTotalDebt": 18274286000,
+    "enterpriseValue": 53739339540
+  },
+  {
+    "symbol": "DLR",
+    "date": "2023-06-30",
+    "stockPrice": 113.87,
+    "numberOfShares": 295390000,
+    "marketCapitalization": 33636059300,
+    "minusCashAndCashEquivalents": 124519000,
+    "addTotalDebt": 19149690000,
+    "enterpriseValue": 52661230300
+  },
+  {
+    "symbol": "DLR",
+    "date": "2023-03-31",
+    "stockPrice": 98.31,
+    "numberOfShares": 291219000,
+    "marketCapitalization": 28629739890,
+    "minusCashAndCashEquivalents": 131406000,
+    "addTotalDebt": 19319505000,
+    "enterpriseValue": 47817838890
+  },
+  {
+    "symbol": "DLR",
+    "date": "2022-12-31",
+    "stockPrice": 100.27,
+    "numberOfShares": 289364739,
+    "marketCapitalization": 29014602379,
+    "minusCashAndCashEquivalents": 141773000,
+    "addTotalDebt": 18067847000,
+    "enterpriseValue": 46940676379
+  },
+  {
+    "symbol": "DLR",
+    "date": "2022-09-30",
+    "stockPrice": 99.18,
+    "numberOfShares": 286693000,
+    "marketCapitalization": 28434211740,
+    "minusCashAndCashEquivalents": 176969000,
+    "addTotalDebt": 17122221000,
+    "enterpriseValue": 45379463740
+  },
+  {
+    "symbol": "DLR",
+    "date": "2022-06-30",
+    "stockPrice": 129.83,
+    "numberOfShares": 284694000,
+    "marketCapitalization": 36961822020,
+    "minusCashAndCashEquivalents": 99226000,
+    "addTotalDebt": 15712847000,
+    "enterpriseValue": 52575443020
+  },
+  {
+    "symbol": "DLR",
+    "date": "2022-03-31",
+    "stockPrice": 141.8,
+    "numberOfShares": 284526000,
+    "marketCapitalization": 40345786800,
+    "minusCashAndCashEquivalents": 157964000,
+    "addTotalDebt": 15860725000,
+    "enterpriseValue": 56048547800
+  },
+  {
+    "symbol": "DLR",
+    "date": "2021-12-31",
+    "stockPrice": 176.87,
+    "numberOfShares": 283869662,
+    "marketCapitalization": 50208027117,
+    "minusCashAndCashEquivalents": 142698000,
+    "addTotalDebt": 14960397000,
+    "enterpriseValue": 65025726117
+  },
+  {
+    "symbol": "DLR",
+    "date": "2021-09-30",
+    "stockPrice": 144.45,
+    "numberOfShares": 283105966,
+    "marketCapitalization": 40894656788,
+    "minusCashAndCashEquivalents": 116002000,
+    "addTotalDebt": 15630770000,
+    "enterpriseValue": 56409424788
+  },
+  {
+    "symbol": "DLR",
+    "date": "2021-06-30",
+    "stockPrice": 150.46,
+    "numberOfShares": 281791855,
+    "marketCapitalization": 42398402503,
+    "minusCashAndCashEquivalents": 120482000,
+    "addTotalDebt": 15473510000,
+    "enterpriseValue": 57751430503
+  },
+  {
+    "symbol": "DLR",
+    "date": "2021-03-31",
+    "stockPrice": 140.84,
+    "numberOfShares": 281094798,
+    "marketCapitalization": 39589391350,
+    "minusCashAndCashEquivalents": 221140000,
+    "addTotalDebt": 14838598000,
+    "enterpriseValue": 54206849350
+  },
+  {
+    "symbol": "DLR",
+    "date": "2020-12-31",
+    "stockPrice": 139.51,
+    "numberOfShares": 280117213,
+    "marketCapitalization": 39079152385,
+    "minusCashAndCashEquivalents": 108501000,
+    "addTotalDebt": 14773429000,
+    "enterpriseValue": 53744080385
+  },
+  {
+    "symbol": "DLR",
+    "date": "2020-09-30",
+    "stockPrice": 146.76,
+    "numberOfShares": 270214413,
+    "marketCapitalization": 39656667251,
+    "minusCashAndCashEquivalents": 971305000,
+    "addTotalDebt": 14318820000,
+    "enterpriseValue": 53004182251
+  },
+  {
+    "symbol": "DLR",
+    "date": "2020-06-30",
+    "stockPrice": 142.11,
+    "numberOfShares": 267569823,
+    "marketCapitalization": 38024347546,
+    "minusCashAndCashEquivalents": 505174000,
+    "addTotalDebt": 13822773000,
+    "enterpriseValue": 51341946546
+  },
+  {
+    "symbol": "DLR",
+    "date": "2020-03-31",
+    "stockPrice": 138.91,
+    "numberOfShares": 222163324,
+    "marketCapitalization": 30860707336,
+    "minusCashAndCashEquivalents": 246480000,
+    "addTotalDebt": 13682624000,
+    "enterpriseValue": 44296851336
+  },
+  {
+    "symbol": "DLR",
+    "date": "2019-12-31",
+    "stockPrice": 119.74,
+    "numberOfShares": 208776355,
+    "marketCapitalization": 24998880747,
+    "minusCashAndCashEquivalents": 89817000,
+    "addTotalDebt": 10994073000,
+    "enterpriseValue": 35903136747
+  },
+  {
+    "symbol": "DLR",
+    "date": "2019-09-30",
+    "stockPrice": 129.81,
+    "numberOfShares": 208421470,
+    "marketCapitalization": 27055191020,
+    "minusCashAndCashEquivalents": 7190000,
+    "addTotalDebt": 11623416000,
+    "enterpriseValue": 38671417020
+  },
+  {
+    "symbol": "DLR",
+    "date": "2019-06-30",
+    "stockPrice": 117.07,
+    "numberOfShares": 208284407,
+    "marketCapitalization": 24383855527,
+    "minusCashAndCashEquivalents": 33536000,
+    "addTotalDebt": 11556834000,
+    "enterpriseValue": 35907153527
+  },
+  {
+    "symbol": "DLR",
+    "date": "2019-03-31",
+    "stockPrice": 120.03,
+    "numberOfShares": 207809383,
+    "marketCapitalization": 24943360241,
+    "minusCashAndCashEquivalents": 123879000,
+    "addTotalDebt": 11005126000,
+    "enterpriseValue": 35824607241
+  },
+  {
+    "symbol": "DLR",
+    "date": "2018-12-31",
+    "stockPrice": 106.55,
+    "numberOfShares": 206345138,
+    "marketCapitalization": 21986074453,
+    "minusCashAndCashEquivalents": 126700000,
+    "addTotalDebt": 11101479000,
+    "enterpriseValue": 32960853453
+  },
+  {
+    "symbol": "DLR",
+    "date": "2018-09-30",
+    "stockPrice": 111.3,
+    "numberOfShares": 206118472,
+    "marketCapitalization": 22940985933,
+    "minusCashAndCashEquivalents": 46242000,
+    "addTotalDebt": 9179871000,
+    "enterpriseValue": 32074614933
+  },
+  {
+    "symbol": "DLR",
+    "date": "2018-06-30",
+    "stockPrice": 111.58,
+    "numberOfShares": 205956005,
+    "marketCapitalization": 22980571037,
+    "minusCashAndCashEquivalents": 17589000,
+    "addTotalDebt": 9106084000,
+    "enterpriseValue": 32069066037
+  },
+  {
+    "symbol": "DLR",
+    "date": "2018-03-31",
+    "stockPrice": 105.38,
+    "numberOfShares": 205714173,
+    "marketCapitalization": 21678159550,
+    "minusCashAndCashEquivalents": 22370000,
+    "addTotalDebt": 9147712000,
+    "enterpriseValue": 30803501550
+  },
+  {
+    "symbol": "DLR",
+    "date": "2017-12-31",
+    "stockPrice": 113.9,
+    "numberOfShares": 205448689,
+    "marketCapitalization": 23400605677,
+    "minusCashAndCashEquivalents": 51000,
+    "addTotalDebt": 8648618000,
+    "enterpriseValue": 32049172677
+  },
+  {
+    "symbol": "DLR",
+    "date": "2017-09-30",
+    "stockPrice": 118.33,
+    "numberOfShares": 170194254,
+    "marketCapitalization": 20139086075,
+    "minusCashAndCashEquivalents": 192578000,
+    "addTotalDebt": 8484244000,
+    "enterpriseValue": 28430752075
+  },
+  {
+    "symbol": "DLR",
+    "date": "2017-06-30",
+    "stockPrice": 112.95,
+    "numberOfShares": 160832889,
+    "marketCapitalization": 18166074812,
+    "minusCashAndCashEquivalents": 22383000,
+    "addTotalDebt": 6437620000,
+    "enterpriseValue": 24581311812
+  },
+  {
+    "symbol": "DLR",
+    "date": "2017-03-31",
+    "stockPrice": 106.39,
+    "numberOfShares": 159297027,
+    "marketCapitalization": 16947610702,
+    "minusCashAndCashEquivalents": 14950000,
+    "addTotalDebt": 6201329000,
+    "enterpriseValue": 23133989702
+  },
+  {
+    "symbol": "DLR",
+    "date": "2016-12-31",
+    "stockPrice": 98.26,
+    "numberOfShares": 158956606,
+    "marketCapitalization": 15619076105,
+    "minusCashAndCashEquivalents": 10528000,
+    "addTotalDebt": 5838607000,
+    "enterpriseValue": 21447155105
+  },
+  {
+    "symbol": "DLR",
+    "date": "2016-09-30",
+    "stockPrice": 97.12,
+    "numberOfShares": 147397853,
+    "marketCapitalization": 14315279483,
+    "minusCashAndCashEquivalents": 36445000,
+    "addTotalDebt": 6024987000,
+    "enterpriseValue": 20303821483
+  },
+  {
+    "symbol": "DLR",
+    "date": "2016-06-30",
+    "stockPrice": 108.99,
+    "numberOfShares": 146824268,
+    "marketCapitalization": 16002376969,
+    "minusCashAndCashEquivalents": 33241000,
+    "addTotalDebt": 6135406000,
+    "enterpriseValue": 22104541969
+  },
+  {
+    "symbol": "DLR",
+    "date": "2016-03-31",
+    "stockPrice": 88.49,
+    "numberOfShares": 146565564,
+    "marketCapitalization": 12969586758,
+    "minusCashAndCashEquivalents": 31134000,
+    "addTotalDebt": 6156730000,
+    "enterpriseValue": 19095182758
+  },
+  {
+    "symbol": "DLR",
+    "date": "2015-12-31",
+    "stockPrice": 75.62,
+    "numberOfShares": 142915273,
+    "marketCapitalization": 10807252944,
+    "minusCashAndCashEquivalents": 57053000,
+    "addTotalDebt": 5899037000,
+    "enterpriseValue": 16649236944
+  },
+  {
+    "symbol": "DLR",
+    "date": "2015-09-30",
+    "stockPrice": 65.32,
+    "numberOfShares": 135832503,
+    "marketCapitalization": 8872579095,
+    "minusCashAndCashEquivalents": 22998000,
+    "addTotalDebt": 4748579000,
+    "enterpriseValue": 13598160095
+  },
+  {
+    "symbol": "DLR",
+    "date": "2015-06-30",
+    "stockPrice": 66.68,
+    "numberOfShares": 135810060,
+    "marketCapitalization": 9055814800,
+    "minusCashAndCashEquivalents": 59152000,
+    "addTotalDebt": 4968826000,
+    "enterpriseValue": 13965488800
+  },
+  {
+    "symbol": "DLR",
+    "date": "2015-03-31",
+    "stockPrice": 65.96,
+    "numberOfShares": 135704525,
+    "marketCapitalization": 8951070469,
+    "minusCashAndCashEquivalents": 37329000,
+    "addTotalDebt": 4817911000,
+    "enterpriseValue": 13731652469
+  },
+  {
+    "symbol": "DLR",
+    "date": "2014-12-31",
+    "stockPrice": 66.3,
+    "numberOfShares": 135356484,
+    "marketCapitalization": 8974134889,
+    "minusCashAndCashEquivalents": 41321000,
+    "addTotalDebt": 4673127000,
+    "enterpriseValue": 13605940889
+  },
+  {
+    "symbol": "DLR",
+    "date": "2014-09-30",
+    "stockPrice": 62.38,
+    "numberOfShares": 135492618,
+    "marketCapitalization": 8452029510,
+    "minusCashAndCashEquivalents": 36528000,
+    "addTotalDebt": 4739729000,
+    "enterpriseValue": 13155230510
+  },
+  {
+    "symbol": "DLR",
+    "date": "2014-06-30",
+    "stockPrice": 58.32,
+    "numberOfShares": 133802622,
+    "marketCapitalization": 7803368915,
+    "minusCashAndCashEquivalents": 80926000,
+    "addTotalDebt": 4859235000,
+    "enterpriseValue": 12581677915
+  },
+  {
+    "symbol": "DLR",
+    "date": "2014-03-31",
+    "stockPrice": 53.08,
+    "numberOfShares": 128535995,
+    "marketCapitalization": 6822690614,
+    "minusCashAndCashEquivalents": 70242000,
+    "addTotalDebt": 5007381000,
+    "enterpriseValue": 11759829614
+  },
+  {
+    "symbol": "DLR",
+    "date": "2013-12-31",
+    "stockPrice": 49.12,
+    "numberOfShares": 128443395,
+    "marketCapitalization": 6309139562,
+    "minusCashAndCashEquivalents": 56808000,
+    "addTotalDebt": 4961892000,
+    "enterpriseValue": 11214223562
+  },
+  {
+    "symbol": "DLR",
+    "date": "2013-09-30",
+    "stockPrice": 53.1,
+    "numberOfShares": 128427444,
+    "marketCapitalization": 6819497276,
+    "minusCashAndCashEquivalents": 55118000,
+    "addTotalDebt": 4780397000,
+    "enterpriseValue": 11544776276
+  },
+  {
+    "symbol": "DLR",
+    "date": "2013-06-30",
+    "stockPrice": 60,
+    "numberOfShares": 128419745,
+    "marketCapitalization": 7705184700,
+    "minusCashAndCashEquivalents": 24260000,
+    "addTotalDebt": 4698248000,
+    "enterpriseValue": 12379172700
+  },
+  {
+    "symbol": "DLR",
+    "date": "2013-03-31",
+    "stockPrice": 66.5,
+    "numberOfShares": 126445285,
+    "marketCapitalization": 8408611452,
+    "minusCashAndCashEquivalents": 42130000,
+    "addTotalDebt": 4682124000,
+    "enterpriseValue": 13048605452
+  },
+  {
+    "symbol": "DLR",
+    "date": "2012-12-31",
+    "stockPrice": 67.89,
+    "numberOfShares": 123824957,
+    "marketCapitalization": 8406476330,
+    "minusCashAndCashEquivalents": 56281000,
+    "addTotalDebt": 4278565000,
+    "enterpriseValue": 12628760330
+  },
+  {
+    "symbol": "DLR",
+    "date": "2012-09-30",
+    "stockPrice": 69.01,
+    "numberOfShares": 122026421,
+    "marketCapitalization": 8421043313,
+    "minusCashAndCashEquivalents": 76115000,
+    "addTotalDebt": 4080073000,
+    "enterpriseValue": 12425001313
+  },
+  {
+    "symbol": "DLR",
+    "date": "2012-06-30",
+    "stockPrice": 75.07,
+    "numberOfShares": 109761017,
+    "marketCapitalization": 8239759546,
+    "minusCashAndCashEquivalents": 47777000,
+    "addTotalDebt": 3400212000,
+    "enterpriseValue": 11592194546
+  },
+  {
+    "symbol": "DLR",
+    "date": "2012-03-31",
+    "stockPrice": 73.97,
+    "numberOfShares": 107099856,
+    "marketCapitalization": 7922176348,
+    "minusCashAndCashEquivalents": 26243000,
+    "addTotalDebt": 3271848000,
+    "enterpriseValue": 11167781348
+  },
+  {
+    "symbol": "DLR",
+    "date": "2011-12-31",
+    "stockPrice": 66.67,
+    "numberOfShares": 105208667,
+    "marketCapitalization": 7014261828,
+    "minusCashAndCashEquivalents": 40631000,
+    "addTotalDebt": 2940210000,
+    "enterpriseValue": 9913840828
+  },
+  {
+    "symbol": "DLR",
+    "date": "2011-09-30",
+    "stockPrice": 55.16,
+    "numberOfShares": 100588235,
+    "marketCapitalization": 5548447042,
+    "minusCashAndCashEquivalents": 38732000,
+    "addTotalDebt": 2797040000,
+    "enterpriseValue": 8306755042
+  },
+  {
+    "symbol": "DLR",
+    "date": "2011-06-30",
+    "stockPrice": 61.78,
+    "numberOfShares": 96295585,
+    "marketCapitalization": 5949141241,
+    "minusCashAndCashEquivalents": 27900000,
+    "addTotalDebt": 3067577000,
+    "enterpriseValue": 8988818241
+  },
+  {
+    "symbol": "DLR",
+    "date": "2011-03-31",
+    "stockPrice": 58.14,
+    "numberOfShares": 91428355,
+    "marketCapitalization": 5315644559,
+    "minusCashAndCashEquivalents": 44368000,
+    "addTotalDebt": 3055429000,
+    "enterpriseValue": 8326705559
+  },
+  {
+    "symbol": "DLR",
+    "date": "2010-12-31",
+    "stockPrice": 51.54,
+    "numberOfShares": 90768608,
+    "marketCapitalization": 4678214056,
+    "minusCashAndCashEquivalents": 11719000,
+    "addTotalDebt": 2806954000,
+    "enterpriseValue": 7473449056
+  },
+  {
+    "symbol": "DLR",
+    "date": "2010-09-30",
+    "stockPrice": 61.7,
+    "numberOfShares": 87908953,
+    "marketCapitalization": 5423982400,
+    "minusCashAndCashEquivalents": 66493000,
+    "addTotalDebt": 2721599000,
+    "enterpriseValue": 8079088400
+  },
+  {
+    "symbol": "DLR",
+    "date": "2010-06-30",
+    "stockPrice": 57.68,
+    "numberOfShares": 80542329,
+    "marketCapitalization": 4645681536,
+    "minusCashAndCashEquivalents": 342623000,
+    "addTotalDebt": 2124710000,
+    "enterpriseValue": 6427768536
+  },
+  {
+    "symbol": "DLR",
+    "date": "2010-03-31",
+    "stockPrice": 54.2,
+    "numberOfShares": 77770691,
+    "marketCapitalization": 4215171452,
+    "minusCashAndCashEquivalents": 50809000,
+    "addTotalDebt": 2168209000,
+    "enterpriseValue": 6332571452
+  },
+  {
+    "symbol": "DLR",
+    "date": "2009-12-31",
+    "stockPrice": 50.28,
+    "numberOfShares": 76657209,
+    "marketCapitalization": 3854324468,
+    "minusCashAndCashEquivalents": 72320000,
+    "addTotalDebt": 1784444000,
+    "enterpriseValue": 5566448468
+  },
+  {
+    "symbol": "DLR",
+    "date": "2009-09-30",
+    "stockPrice": 45.71,
+    "numberOfShares": 76301577,
+    "marketCapitalization": 3487745084,
+    "minusCashAndCashEquivalents": 41152000,
+    "addTotalDebt": 1599270000,
+    "enterpriseValue": 5045863084
+  },
+  {
+    "symbol": "DLR",
+    "date": "2009-06-30",
+    "stockPrice": 35.85,
+    "numberOfShares": 76121380,
+    "marketCapitalization": 2728951473,
+    "minusCashAndCashEquivalents": 69316000,
+    "addTotalDebt": 1519506000,
+    "enterpriseValue": 4179141473
+  },
+  {
+    "symbol": "DLR",
+    "date": "2009-03-31",
+    "stockPrice": 33.18,
+    "numberOfShares": 74703755,
+    "marketCapitalization": 2478670590,
+    "minusCashAndCashEquivalents": 78936000,
+    "addTotalDebt": 1439688000,
+    "enterpriseValue": 3839422590
+  },
+  {
+    "symbol": "DLR",
+    "date": "2008-12-31",
+    "stockPrice": 32.85,
+    "numberOfShares": 73041978,
+    "marketCapitalization": 2399428977,
+    "minusCashAndCashEquivalents": 73334000,
+    "addTotalDebt": 1395673000,
+    "enterpriseValue": 3721767977
+  },
+  {
+    "symbol": "DLR",
+    "date": "2008-09-30",
+    "stockPrice": 47.25,
+    "numberOfShares": 70916019,
+    "marketCapitalization": 3350781897,
+    "minusCashAndCashEquivalents": 41978000,
+    "addTotalDebt": 1283718000,
+    "enterpriseValue": 4592521897
+  },
+  {
+    "symbol": "DLR",
+    "date": "2008-06-30",
+    "stockPrice": 40.91,
+    "numberOfShares": 65889122,
+    "marketCapitalization": 2695523981,
+    "minusCashAndCashEquivalents": 19764000,
+    "addTotalDebt": 1361172000,
+    "enterpriseValue": 4036931981
+  },
+  {
+    "symbol": "DLR",
+    "date": "2008-03-31",
+    "stockPrice": 35.5,
+    "numberOfShares": 65431586,
+    "marketCapitalization": 2322821303,
+    "minusCashAndCashEquivalents": 34367000,
+    "addTotalDebt": 1190691000,
+    "enterpriseValue": 3479145303
+  },
+  {
+    "symbol": "DLR",
+    "date": "2007-12-31",
+    "stockPrice": 38.37,
+    "numberOfShares": 64138188,
+    "marketCapitalization": 2460982273,
+    "minusCashAndCashEquivalents": 31352000,
+    "addTotalDebt": 1367738000,
+    "enterpriseValue": 3797368273
+  },
+  {
+    "symbol": "DLR",
+    "date": "2007-09-30",
+    "stockPrice": 40.97,
+    "numberOfShares": 60717153,
+    "marketCapitalization": 2487581758,
+    "minusCashAndCashEquivalents": 49182000,
+    "addTotalDebt": 1068382000,
+    "enterpriseValue": 3506781758
+  },
+  {
+    "symbol": "DLR",
+    "date": "2007-06-30",
+    "stockPrice": 37.68,
+    "numberOfShares": 60697740,
+    "marketCapitalization": 2287090843,
+    "minusCashAndCashEquivalents": 48014000,
+    "addTotalDebt": 1058000000,
+    "enterpriseValue": 3297076843
+  },
+  {
+    "symbol": "DLR",
+    "date": "2007-03-31",
+    "stockPrice": 39.9,
+    "numberOfShares": 56511200,
+    "marketCapitalization": 2254796880,
+    "minusCashAndCashEquivalents": 46999000,
+    "addTotalDebt": 1057751000,
+    "enterpriseValue": 3265548880
+  },
+  {
+    "symbol": "DLR",
+    "date": "2006-12-31",
+    "stockPrice": 34.23,
+    "numberOfShares": 56511200,
+    "marketCapitalization": 1934378375,
+    "minusCashAndCashEquivalents": 22261000,
+    "addTotalDebt": 1122638000,
+    "enterpriseValue": 3034755375
+  },
+  {
+    "symbol": "DLR",
+    "date": "2006-09-30",
+    "stockPrice": 31.32,
+    "numberOfShares": 36114253,
+    "marketCapitalization": 1131098403,
+    "minusCashAndCashEquivalents": 27650000,
+    "addTotalDebt": 1074757000,
+    "enterpriseValue": 2178205403
+  },
+  {
+    "symbol": "DLR",
+    "date": "2006-06-30",
+    "stockPrice": 24.69,
+    "numberOfShares": 33372240,
+    "marketCapitalization": 823960605,
+    "minusCashAndCashEquivalents": 13408000,
+    "addTotalDebt": 820501000,
+    "enterpriseValue": 1631053605
+  },
+  {
+    "symbol": "DLR",
+    "date": "2006-03-31",
+    "stockPrice": 28.17,
+    "numberOfShares": 27503248,
+    "marketCapitalization": 774766496,
+    "minusCashAndCashEquivalents": 25179000,
+    "addTotalDebt": 813655000,
+    "enterpriseValue": 1563242496
+  },
+  {
+    "symbol": "DLR",
+    "date": "2005-12-31",
+    "stockPrice": 22.63,
+    "numberOfShares": 27350761,
+    "marketCapitalization": 618947721,
+    "minusCashAndCashEquivalents": 10930000,
+    "addTotalDebt": 930067000,
+    "enterpriseValue": 1538084721
+  },
+  {
+    "symbol": "DLR",
+    "date": "2005-09-30",
+    "stockPrice": 18,
+    "numberOfShares": 25704721,
+    "marketCapitalization": 462684978,
+    "minusCashAndCashEquivalents": 7070000,
+    "addTotalDebt": 686909000,
+    "enterpriseValue": 1142523978
+  },
+  {
+    "symbol": "DLR",
+    "date": "2005-06-30",
+    "stockPrice": 17.38,
+    "numberOfShares": 21421300,
+    "marketCapitalization": 372302194,
+    "minusCashAndCashEquivalents": 3982000,
+    "addTotalDebt": 765687000,
+    "enterpriseValue": 1134007194
+  },
+  {
+    "symbol": "DLR",
+    "date": "2005-03-31",
+    "stockPrice": 14.37,
+    "numberOfShares": 21421300,
+    "marketCapitalization": 307824081,
+    "minusCashAndCashEquivalents": 2875000,
+    "addTotalDebt": 515701000,
+    "enterpriseValue": 820650081
+  },
+  {
+    "symbol": "DLR",
+    "date": "2004-12-31",
+    "stockPrice": 13.47,
+    "numberOfShares": 21421300,
+    "marketCapitalization": 288544911,
+    "minusCashAndCashEquivalents": 4557000,
+    "addTotalDebt": 519498000,
+    "enterpriseValue": 803485911
+  },
+  {
+    "symbol": "DLR",
+    "date": "2004-09-30",
+    "stockPrice": 12,
+    "numberOfShares": 20000000,
+    "marketCapitalization": 240000000,
+    "minusCashAndCashEquivalents": 2629000,
+    "addTotalDebt": 551351000,
+    "enterpriseValue": 788722000
+  },
+  {
+    "symbol": "DLR",
+    "date": "2004-06-30",
+    "stockPrice": 12,
+    "numberOfShares": 21421300,
+    "marketCapitalization": 257055600,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 478578000,
+    "enterpriseValue": 735633600
+  },
+  {
+    "symbol": "DLR",
+    "date": "2004-03-31",
+    "stockPrice": 12,
+    "numberOfShares": 20000000,
+    "marketCapitalization": 240000000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 240000000
+  },
+  {
+    "symbol": "DLR",
+    "date": "2003-12-31",
+    "stockPrice": 12,
+    "numberOfShares": 20000000,
+    "marketCapitalization": 240000000,
+    "minusCashAndCashEquivalents": 5174000,
+    "addTotalDebt": 297865000,
+    "enterpriseValue": 532691000
+  },
+  {
+    "symbol": "DLR",
+    "date": "2003-09-30",
+    "stockPrice": 12,
+    "numberOfShares": 20000000,
+    "marketCapitalization": 240000000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 240000000
+  }
+]

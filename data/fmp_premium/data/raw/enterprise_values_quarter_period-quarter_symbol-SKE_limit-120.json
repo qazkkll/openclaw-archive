@@ -1,0 +1,962 @@
+[
+  {
+    "symbol": "SKE",
+    "date": "2025-12-31",
+    "stockPrice": 32.56,
+    "numberOfShares": 119605000,
+    "marketCapitalization": 3894415933,
+    "minusCashAndCashEquivalents": 121789667,
+    "addTotalDebt": 63032589,
+    "enterpriseValue": 3835658855
+  },
+  {
+    "symbol": "SKE",
+    "date": "2025-09-30",
+    "stockPrice": 25.65,
+    "numberOfShares": 115034046,
+    "marketCapitalization": 2951020630,
+    "minusCashAndCashEquivalents": 108216000,
+    "addTotalDebt": 61726000,
+    "enterpriseValue": 2904530630
+  },
+  {
+    "symbol": "SKE",
+    "date": "2025-06-30",
+    "stockPrice": 21.65,
+    "numberOfShares": 114643231,
+    "marketCapitalization": 2482419039,
+    "minusCashAndCashEquivalents": 94452000,
+    "addTotalDebt": 42348000,
+    "enterpriseValue": 2430315039
+  },
+  {
+    "symbol": "SKE",
+    "date": "2025-03-31",
+    "stockPrice": 14.52,
+    "numberOfShares": 106256000,
+    "marketCapitalization": 1542366926,
+    "minusCashAndCashEquivalents": 97989000,
+    "addTotalDebt": 16245000,
+    "enterpriseValue": 1460622926
+  },
+  {
+    "symbol": "SKE",
+    "date": "2024-12-31",
+    "stockPrice": 12.54,
+    "numberOfShares": 106727000,
+    "marketCapitalization": 1338372034,
+    "minusCashAndCashEquivalents": 96941000,
+    "addTotalDebt": 13533000,
+    "enterpriseValue": 1254964034
+  },
+  {
+    "symbol": "SKE",
+    "date": "2024-09-30",
+    "stockPrice": 11.44,
+    "numberOfShares": 106727000,
+    "marketCapitalization": 1221141197,
+    "minusCashAndCashEquivalents": 84860000,
+    "addTotalDebt": 17420000,
+    "enterpriseValue": 1153701197
+  },
+  {
+    "symbol": "SKE",
+    "date": "2024-06-30",
+    "stockPrice": 7.01,
+    "numberOfShares": 91796000,
+    "marketCapitalization": 643865873,
+    "minusCashAndCashEquivalents": 127261000,
+    "addTotalDebt": 17406000,
+    "enterpriseValue": 534010873
+  },
+  {
+    "symbol": "SKE",
+    "date": "2024-03-31",
+    "stockPrice": 6.3,
+    "numberOfShares": 90317000,
+    "marketCapitalization": 569105968,
+    "minusCashAndCashEquivalents": 59056000,
+    "addTotalDebt": 33383000,
+    "enterpriseValue": 543432968
+  },
+  {
+    "symbol": "SKE",
+    "date": "2023-12-31",
+    "stockPrice": 6.46,
+    "numberOfShares": 89070000,
+    "marketCapitalization": 575457185,
+    "minusCashAndCashEquivalents": 91135000,
+    "addTotalDebt": 32382000,
+    "enterpriseValue": 516704185
+  },
+  {
+    "symbol": "SKE",
+    "date": "2023-09-30",
+    "stockPrice": 6.25,
+    "numberOfShares": 88204000,
+    "marketCapitalization": 550895369,
+    "minusCashAndCashEquivalents": 38004000,
+    "addTotalDebt": 3182000,
+    "enterpriseValue": 516073369
+  },
+  {
+    "symbol": "SKE",
+    "date": "2023-06-30",
+    "stockPrice": 6.4,
+    "numberOfShares": 82198000,
+    "marketCapitalization": 525689335,
+    "minusCashAndCashEquivalents": 73446000,
+    "addTotalDebt": 3299000,
+    "enterpriseValue": 455542335
+  },
+  {
+    "symbol": "SKE",
+    "date": "2023-03-31",
+    "stockPrice": 8.26,
+    "numberOfShares": 77870000,
+    "marketCapitalization": 643043404,
+    "minusCashAndCashEquivalents": 21702000,
+    "addTotalDebt": 3434000,
+    "enterpriseValue": 624775404
+  },
+  {
+    "symbol": "SKE",
+    "date": "2022-12-31",
+    "stockPrice": 7.2,
+    "numberOfShares": 77656000,
+    "marketCapitalization": 559439881,
+    "minusCashAndCashEquivalents": 40602000,
+    "addTotalDebt": 3562000,
+    "enterpriseValue": 522399881
+  },
+  {
+    "symbol": "SKE",
+    "date": "2022-09-30",
+    "stockPrice": 6.47,
+    "numberOfShares": 70227000,
+    "marketCapitalization": 454441445,
+    "minusCashAndCashEquivalents": 27189000,
+    "addTotalDebt": 1372000,
+    "enterpriseValue": 428624445
+  },
+  {
+    "symbol": "SKE",
+    "date": "2022-06-30",
+    "stockPrice": 6.81,
+    "numberOfShares": 69060000,
+    "marketCapitalization": 470264042,
+    "minusCashAndCashEquivalents": 36486000,
+    "addTotalDebt": 1184000,
+    "enterpriseValue": 434962042
+  },
+  {
+    "symbol": "SKE",
+    "date": "2022-03-31",
+    "stockPrice": 13.92,
+    "numberOfShares": 65818000,
+    "marketCapitalization": 915920016,
+    "minusCashAndCashEquivalents": 56839000,
+    "addTotalDebt": 1256000,
+    "enterpriseValue": 860337016
+  },
+  {
+    "symbol": "SKE",
+    "date": "2021-12-31",
+    "stockPrice": 13.18,
+    "numberOfShares": 63473000,
+    "marketCapitalization": 836843906,
+    "minusCashAndCashEquivalents": 40313000,
+    "addTotalDebt": 1312000,
+    "enterpriseValue": 797842906
+  },
+  {
+    "symbol": "SKE",
+    "date": "2021-09-30",
+    "stockPrice": 12.57,
+    "numberOfShares": 62553000,
+    "marketCapitalization": 786553632,
+    "minusCashAndCashEquivalents": 43010000,
+    "addTotalDebt": 1591000,
+    "enterpriseValue": 745134632
+  },
+  {
+    "symbol": "SKE",
+    "date": "2021-06-30",
+    "stockPrice": 12.94,
+    "numberOfShares": 56163000,
+    "marketCapitalization": 726782288,
+    "minusCashAndCashEquivalents": 55394000,
+    "addTotalDebt": 1868000,
+    "enterpriseValue": 673256288
+  },
+  {
+    "symbol": "SKE",
+    "date": "2021-03-31",
+    "stockPrice": 12.76,
+    "numberOfShares": 54419000,
+    "marketCapitalization": 694527145,
+    "minusCashAndCashEquivalents": 27648465,
+    "addTotalDebt": 2280213,
+    "enterpriseValue": 669158893
+  },
+  {
+    "symbol": "SKE",
+    "date": "2020-12-31",
+    "stockPrice": 13.88,
+    "numberOfShares": 42073000,
+    "marketCapitalization": 583911308,
+    "minusCashAndCashEquivalents": 37821000,
+    "addTotalDebt": 2634000,
+    "enterpriseValue": 548724308
+  },
+  {
+    "symbol": "SKE",
+    "date": "2020-09-30",
+    "stockPrice": 10.81,
+    "numberOfShares": 42857000,
+    "marketCapitalization": 463398735,
+    "minusCashAndCashEquivalents": 24396154,
+    "addTotalDebt": 2710210,
+    "enterpriseValue": 441712791
+  },
+  {
+    "symbol": "SKE",
+    "date": "2020-06-30",
+    "stockPrice": 7.66,
+    "numberOfShares": 38243000,
+    "marketCapitalization": 292778311,
+    "minusCashAndCashEquivalents": 44726320,
+    "addTotalDebt": 1593267,
+    "enterpriseValue": 249645258
+  },
+  {
+    "symbol": "SKE",
+    "date": "2020-03-31",
+    "stockPrice": 3.12,
+    "numberOfShares": 29331000,
+    "marketCapitalization": 91541018,
+    "minusCashAndCashEquivalents": 22421073,
+    "addTotalDebt": 1485127,
+    "enterpriseValue": 70605072
+  },
+  {
+    "symbol": "SKE",
+    "date": "2019-12-31",
+    "stockPrice": 2.67,
+    "numberOfShares": 29331000,
+    "marketCapitalization": 78399176,
+    "minusCashAndCashEquivalents": 13119476,
+    "addTotalDebt": 1466046,
+    "enterpriseValue": 66745746
+  },
+  {
+    "symbol": "SKE",
+    "date": "2019-09-30",
+    "stockPrice": 1.77,
+    "numberOfShares": 27089000,
+    "marketCapitalization": 48060583,
+    "minusCashAndCashEquivalents": 3942852,
+    "addTotalDebt": 1206414,
+    "enterpriseValue": 45324145
+  },
+  {
+    "symbol": "SKE",
+    "date": "2019-06-30",
+    "stockPrice": 1.47,
+    "numberOfShares": 25547000,
+    "marketCapitalization": 37455090,
+    "minusCashAndCashEquivalents": 1150274,
+    "addTotalDebt": 1561782,
+    "enterpriseValue": 37866598
+  },
+  {
+    "symbol": "SKE",
+    "date": "2019-03-31",
+    "stockPrice": 1.75,
+    "numberOfShares": 24462000,
+    "marketCapitalization": 42770755,
+    "minusCashAndCashEquivalents": 273431,
+    "addTotalDebt": 1609649,
+    "enterpriseValue": 44106973
+  },
+  {
+    "symbol": "SKE",
+    "date": "2018-12-31",
+    "stockPrice": 1.2,
+    "numberOfShares": 23557000,
+    "marketCapitalization": 28288583,
+    "minusCashAndCashEquivalents": 1092291,
+    "addTotalDebt": 0,
+    "enterpriseValue": 27196292
+  },
+  {
+    "symbol": "SKE",
+    "date": "2018-09-30",
+    "stockPrice": 1.94,
+    "numberOfShares": 22582137,
+    "marketCapitalization": 43785196,
+    "minusCashAndCashEquivalents": 435803,
+    "addTotalDebt": 0,
+    "enterpriseValue": 43349393
+  },
+  {
+    "symbol": "SKE",
+    "date": "2018-06-30",
+    "stockPrice": 1.58,
+    "numberOfShares": 22582000,
+    "marketCapitalization": 35628434,
+    "minusCashAndCashEquivalents": 2519594,
+    "addTotalDebt": 0,
+    "enterpriseValue": 33108840
+  },
+  {
+    "symbol": "SKE",
+    "date": "2018-03-31",
+    "stockPrice": 2.22,
+    "numberOfShares": 22582000,
+    "marketCapitalization": 50077364,
+    "minusCashAndCashEquivalents": 7878115,
+    "addTotalDebt": 0,
+    "enterpriseValue": 42199249
+  },
+  {
+    "symbol": "SKE",
+    "date": "2017-12-31",
+    "stockPrice": 2.76,
+    "numberOfShares": 18507000,
+    "marketCapitalization": 50990397,
+    "minusCashAndCashEquivalents": 1017391,
+    "addTotalDebt": 0,
+    "enterpriseValue": 49973006
+  },
+  {
+    "symbol": "SKE",
+    "date": "2017-09-30",
+    "stockPrice": 2.89,
+    "numberOfShares": 16109000,
+    "marketCapitalization": 46579315,
+    "minusCashAndCashEquivalents": 986493,
+    "addTotalDebt": 0,
+    "enterpriseValue": 45592822
+  },
+  {
+    "symbol": "SKE",
+    "date": "2017-06-30",
+    "stockPrice": 2.28,
+    "numberOfShares": 13898913,
+    "marketCapitalization": 31708246,
+    "minusCashAndCashEquivalents": 4981583,
+    "addTotalDebt": 0,
+    "enterpriseValue": 26726663
+  },
+  {
+    "symbol": "SKE",
+    "date": "2017-03-31",
+    "stockPrice": 2.66,
+    "numberOfShares": 13396942,
+    "marketCapitalization": 35683022,
+    "minusCashAndCashEquivalents": 1209591,
+    "addTotalDebt": 0,
+    "enterpriseValue": 34473431
+  },
+  {
+    "symbol": "SKE",
+    "date": "2016-12-31",
+    "stockPrice": 2.73,
+    "numberOfShares": 13196000,
+    "marketCapitalization": 35988981,
+    "minusCashAndCashEquivalents": 2617268,
+    "addTotalDebt": 0,
+    "enterpriseValue": 33371713
+  },
+  {
+    "symbol": "SKE",
+    "date": "2016-09-30",
+    "stockPrice": 6.3,
+    "numberOfShares": 11559000,
+    "marketCapitalization": 72810048,
+    "minusCashAndCashEquivalents": 6177745,
+    "addTotalDebt": 86628,
+    "enterpriseValue": 66718931
+  },
+  {
+    "symbol": "SKE",
+    "date": "2016-06-30",
+    "stockPrice": 3.84,
+    "numberOfShares": 8669129,
+    "marketCapitalization": 33275312,
+    "minusCashAndCashEquivalents": 4958154,
+    "addTotalDebt": 0,
+    "enterpriseValue": 28317158
+  },
+  {
+    "symbol": "SKE",
+    "date": "2016-03-31",
+    "stockPrice": 3.07,
+    "numberOfShares": 4084385,
+    "marketCapitalization": 12533495,
+    "minusCashAndCashEquivalents": 2750717,
+    "addTotalDebt": 1500000,
+    "enterpriseValue": 11282778
+  },
+  {
+    "symbol": "SKE",
+    "date": "2015-12-31",
+    "stockPrice": 3.04,
+    "numberOfShares": 8135000,
+    "marketCapitalization": 24746718,
+    "minusCashAndCashEquivalents": 3557252,
+    "addTotalDebt": 1500000,
+    "enterpriseValue": 22689466
+  },
+  {
+    "symbol": "SKE",
+    "date": "2015-09-30",
+    "stockPrice": 2.88,
+    "numberOfShares": 6606000,
+    "marketCapitalization": 18995124,
+    "minusCashAndCashEquivalents": 2620585,
+    "addTotalDebt": 1500000,
+    "enterpriseValue": 17874539
+  },
+  {
+    "symbol": "SKE",
+    "date": "2015-06-30",
+    "stockPrice": 2.5,
+    "numberOfShares": 5035700,
+    "marketCapitalization": 12577466,
+    "minusCashAndCashEquivalents": 7396372,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5181094
+  },
+  {
+    "symbol": "SKE",
+    "date": "2015-03-31",
+    "stockPrice": 2.64,
+    "numberOfShares": 4084385,
+    "marketCapitalization": 10775293,
+    "minusCashAndCashEquivalents": 754736,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10020557
+  },
+  {
+    "symbol": "SKE",
+    "date": "2014-12-31",
+    "stockPrice": 2.97,
+    "numberOfShares": 4084000,
+    "marketCapitalization": 12141751,
+    "minusCashAndCashEquivalents": 1102073,
+    "addTotalDebt": 0,
+    "enterpriseValue": 11039678
+  },
+  {
+    "symbol": "SKE",
+    "date": "2014-09-30",
+    "stockPrice": 2.73,
+    "numberOfShares": 638794,
+    "marketCapitalization": 1744948.09,
+    "minusCashAndCashEquivalents": 548022,
+    "addTotalDebt": 342000,
+    "enterpriseValue": 1538926
+  },
+  {
+    "symbol": "SKE",
+    "date": "2014-06-30",
+    "stockPrice": 4.44,
+    "numberOfShares": 638794,
+    "marketCapitalization": 2835135.39,
+    "minusCashAndCashEquivalents": 319185,
+    "addTotalDebt": 342000,
+    "enterpriseValue": 2857950
+  },
+  {
+    "symbol": "SKE",
+    "date": "2014-03-31",
+    "stockPrice": 1.5,
+    "numberOfShares": 638794,
+    "marketCapitalization": 959910.12,
+    "minusCashAndCashEquivalents": 8353,
+    "addTotalDebt": 342000,
+    "enterpriseValue": 1293557
+  },
+  {
+    "symbol": "SKE",
+    "date": "2013-12-31",
+    "stockPrice": 3.49,
+    "numberOfShares": 638794,
+    "marketCapitalization": 2228376.14,
+    "minusCashAndCashEquivalents": 24690,
+    "addTotalDebt": 342000,
+    "enterpriseValue": 2545686
+  },
+  {
+    "symbol": "SKE",
+    "date": "2013-09-30",
+    "stockPrice": 3.38,
+    "numberOfShares": 638794,
+    "marketCapitalization": 2159882.61,
+    "minusCashAndCashEquivalents": 17688,
+    "addTotalDebt": 257000,
+    "enterpriseValue": 2399194
+  },
+  {
+    "symbol": "SKE",
+    "date": "2013-06-30",
+    "stockPrice": 3.45,
+    "numberOfShares": 638794,
+    "marketCapitalization": 2202772.26,
+    "minusCashAndCashEquivalents": 24173,
+    "addTotalDebt": 257000,
+    "enterpriseValue": 2435599
+  },
+  {
+    "symbol": "SKE",
+    "date": "2013-03-31",
+    "stockPrice": 3.34,
+    "numberOfShares": 638794,
+    "marketCapitalization": 2130968.24,
+    "minusCashAndCashEquivalents": 21263,
+    "addTotalDebt": 200000,
+    "enterpriseValue": 2309705
+  },
+  {
+    "symbol": "SKE",
+    "date": "2012-12-31",
+    "stockPrice": 3.26,
+    "numberOfShares": 612974,
+    "marketCapitalization": 2000079.73,
+    "minusCashAndCashEquivalents": 32216,
+    "addTotalDebt": 200000,
+    "enterpriseValue": 2167863
+  },
+  {
+    "symbol": "SKE",
+    "date": "2012-09-30",
+    "stockPrice": 3.23,
+    "numberOfShares": 638794,
+    "marketCapitalization": 2062139.46,
+    "minusCashAndCashEquivalents": 49616,
+    "addTotalDebt": 200000,
+    "enterpriseValue": 2212523
+  },
+  {
+    "symbol": "SKE",
+    "date": "2012-06-30",
+    "stockPrice": 0.69217,
+    "numberOfShares": 626294,
+    "marketCapitalization": 433503.17,
+    "minusCashAndCashEquivalents": 14734,
+    "addTotalDebt": 0,
+    "enterpriseValue": 418769
+  },
+  {
+    "symbol": "SKE",
+    "date": "2012-03-31",
+    "stockPrice": 0.059766,
+    "numberOfShares": 626294,
+    "marketCapitalization": 37431.09,
+    "minusCashAndCashEquivalents": 13234,
+    "addTotalDebt": 0,
+    "enterpriseValue": 24197
+  },
+  {
+    "symbol": "SKE",
+    "date": "2011-12-31",
+    "stockPrice": 0.061266,
+    "numberOfShares": 626294,
+    "marketCapitalization": 38370.53,
+    "minusCashAndCashEquivalents": 55310,
+    "addTotalDebt": 0,
+    "enterpriseValue": -16939
+  },
+  {
+    "symbol": "SKE",
+    "date": "2011-09-30",
+    "stockPrice": 0.20129,
+    "numberOfShares": 626595,
+    "marketCapitalization": 126127.86,
+    "minusCashAndCashEquivalents": 79134,
+    "addTotalDebt": 0,
+    "enterpriseValue": 46993
+  },
+  {
+    "symbol": "SKE",
+    "date": "2011-06-30",
+    "stockPrice": 0.25435,
+    "numberOfShares": 603517,
+    "marketCapitalization": 153506.63,
+    "minusCashAndCashEquivalents": 538176,
+    "addTotalDebt": 0,
+    "enterpriseValue": -384669
+  },
+  {
+    "symbol": "SKE",
+    "date": "2011-03-31",
+    "stockPrice": 0.47741,
+    "numberOfShares": 565751,
+    "marketCapitalization": 270093.65,
+    "minusCashAndCashEquivalents": 536713,
+    "addTotalDebt": 0,
+    "enterpriseValue": -266619
+  },
+  {
+    "symbol": "SKE",
+    "date": "2010-12-31",
+    "stockPrice": 0.37798,
+    "numberOfShares": 565751,
+    "marketCapitalization": 213843.81,
+    "minusCashAndCashEquivalents": 137317,
+    "addTotalDebt": 170000,
+    "enterpriseValue": 246526
+  },
+  {
+    "symbol": "SKE",
+    "date": "2010-09-30",
+    "stockPrice": 0.26346,
+    "numberOfShares": 536339,
+    "marketCapitalization": 141302.41,
+    "minusCashAndCashEquivalents": 516845,
+    "addTotalDebt": 170000,
+    "enterpriseValue": -205542
+  },
+  {
+    "symbol": "SKE",
+    "date": "2010-06-30",
+    "stockPrice": 0.18295,
+    "numberOfShares": 412825,
+    "marketCapitalization": 75526.85,
+    "minusCashAndCashEquivalents": 829943,
+    "addTotalDebt": 0,
+    "enterpriseValue": -754416
+  },
+  {
+    "symbol": "SKE",
+    "date": "2010-03-31",
+    "stockPrice": 0.13404,
+    "numberOfShares": 364886,
+    "marketCapitalization": 48908.14,
+    "minusCashAndCashEquivalents": 14245,
+    "addTotalDebt": 0,
+    "enterpriseValue": 34663
+  },
+  {
+    "symbol": "SKE",
+    "date": "2009-12-31",
+    "stockPrice": 0.45621,
+    "numberOfShares": 389015,
+    "marketCapitalization": 177471.99,
+    "minusCashAndCashEquivalents": 6332,
+    "addTotalDebt": 120000,
+    "enterpriseValue": 291139
+  },
+  {
+    "symbol": "SKE",
+    "date": "2009-09-30",
+    "stockPrice": 0.19243,
+    "numberOfShares": 395188,
+    "marketCapitalization": 76047.05,
+    "minusCashAndCashEquivalents": 74841,
+    "addTotalDebt": 120000,
+    "enterpriseValue": 121206
+  },
+  {
+    "symbol": "SKE",
+    "date": "2009-06-30",
+    "stockPrice": 0.23237,
+    "numberOfShares": 388002,
+    "marketCapitalization": 90161.58,
+    "minusCashAndCashEquivalents": 102303,
+    "addTotalDebt": 0,
+    "enterpriseValue": -12141
+  },
+  {
+    "symbol": "SKE",
+    "date": "2009-03-31",
+    "stockPrice": 30.24,
+    "numberOfShares": 333137,
+    "marketCapitalization": 10072783,
+    "minusCashAndCashEquivalents": 255812,
+    "addTotalDebt": 0,
+    "enterpriseValue": 9816971
+  },
+  {
+    "symbol": "SKE",
+    "date": "2008-12-31",
+    "stockPrice": 32.17,
+    "numberOfShares": 320812,
+    "marketCapitalization": 10319754,
+    "minusCashAndCashEquivalents": 48277,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10271477
+  },
+  {
+    "symbol": "SKE",
+    "date": "2008-09-30",
+    "stockPrice": 34.22,
+    "numberOfShares": 310104,
+    "marketCapitalization": 10612709,
+    "minusCashAndCashEquivalents": 69070,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10543639
+  },
+  {
+    "symbol": "SKE",
+    "date": "2008-06-30",
+    "stockPrice": 0.90708,
+    "numberOfShares": 310104,
+    "marketCapitalization": 281290.1,
+    "minusCashAndCashEquivalents": 335106,
+    "addTotalDebt": 0,
+    "enterpriseValue": -53815
+  },
+  {
+    "symbol": "SKE",
+    "date": "2008-03-31",
+    "stockPrice": 1.01,
+    "numberOfShares": 277724,
+    "marketCapitalization": 280161.62,
+    "minusCashAndCashEquivalents": 1614717,
+    "addTotalDebt": 0,
+    "enterpriseValue": -1334555
+  },
+  {
+    "symbol": "SKE",
+    "date": "2007-12-31",
+    "stockPrice": 1.05,
+    "numberOfShares": 277724,
+    "marketCapitalization": 291107.96,
+    "minusCashAndCashEquivalents": 2079424,
+    "addTotalDebt": 0,
+    "enterpriseValue": -1788316
+  },
+  {
+    "symbol": "SKE",
+    "date": "2007-09-30",
+    "stockPrice": 1.05,
+    "numberOfShares": 277724,
+    "marketCapitalization": 292002.9,
+    "minusCashAndCashEquivalents": 2570112,
+    "addTotalDebt": 0,
+    "enterpriseValue": -2278109
+  },
+  {
+    "symbol": "SKE",
+    "date": "2007-06-30",
+    "stockPrice": 1.5,
+    "numberOfShares": 232885,
+    "marketCapitalization": 348918.09,
+    "minusCashAndCashEquivalents": 3251130,
+    "addTotalDebt": 0,
+    "enterpriseValue": -2902211
+  },
+  {
+    "symbol": "SKE",
+    "date": "2007-03-31",
+    "stockPrice": 1.27,
+    "numberOfShares": 228028,
+    "marketCapitalization": 290010.57,
+    "minusCashAndCashEquivalents": 333721,
+    "addTotalDebt": 0,
+    "enterpriseValue": -43710
+  },
+  {
+    "symbol": "SKE",
+    "date": "2006-12-31",
+    "stockPrice": 1.05,
+    "numberOfShares": 228028,
+    "marketCapitalization": 238943.7,
+    "minusCashAndCashEquivalents": 396593,
+    "addTotalDebt": 0,
+    "enterpriseValue": -157649
+  },
+  {
+    "symbol": "SKE",
+    "date": "2006-09-30",
+    "stockPrice": 3.58,
+    "numberOfShares": 222890,
+    "marketCapitalization": 796840.67,
+    "minusCashAndCashEquivalents": 789973,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6867
+  },
+  {
+    "symbol": "SKE",
+    "date": "2006-06-30",
+    "stockPrice": 1.27,
+    "numberOfShares": 185116,
+    "marketCapitalization": 235469.77,
+    "minusCashAndCashEquivalents": 818509,
+    "addTotalDebt": 0,
+    "enterpriseValue": -583039
+  },
+  {
+    "symbol": "SKE",
+    "date": "2006-03-31",
+    "stockPrice": 1.13,
+    "numberOfShares": 185116,
+    "marketCapitalization": 210089.48,
+    "minusCashAndCashEquivalents": 88623,
+    "addTotalDebt": 0,
+    "enterpriseValue": 121466
+  },
+  {
+    "symbol": "SKE",
+    "date": "2005-12-31",
+    "stockPrice": 0.92976,
+    "numberOfShares": 185116,
+    "marketCapitalization": 172113.45,
+    "minusCashAndCashEquivalents": 272002,
+    "addTotalDebt": 0,
+    "enterpriseValue": -99888
+  },
+  {
+    "symbol": "SKE",
+    "date": "2005-09-30",
+    "stockPrice": 300.7,
+    "numberOfShares": 156713,
+    "marketCapitalization": 47124382,
+    "minusCashAndCashEquivalents": 959517,
+    "addTotalDebt": 0,
+    "enterpriseValue": 46164865
+  },
+  {
+    "symbol": "SKE",
+    "date": "2005-06-30",
+    "stockPrice": 173.89,
+    "numberOfShares": 142376,
+    "marketCapitalization": 24757307,
+    "minusCashAndCashEquivalents": 647412,
+    "addTotalDebt": 0,
+    "enterpriseValue": 24109895
+  },
+  {
+    "symbol": "SKE",
+    "date": "2005-03-31",
+    "stockPrice": 172.01,
+    "numberOfShares": 164555,
+    "marketCapitalization": 28304749,
+    "minusCashAndCashEquivalents": 552433,
+    "addTotalDebt": 0,
+    "enterpriseValue": 27752316
+  },
+  {
+    "symbol": "SKE",
+    "date": "2004-12-31",
+    "stockPrice": 168.83,
+    "numberOfShares": 137655,
+    "marketCapitalization": 23239877,
+    "minusCashAndCashEquivalents": 504360,
+    "addTotalDebt": 0,
+    "enterpriseValue": 22735517
+  },
+  {
+    "symbol": "SKE",
+    "date": "2004-09-30",
+    "stockPrice": 176.76,
+    "numberOfShares": 125936,
+    "marketCapitalization": 22259915,
+    "minusCashAndCashEquivalents": 636832,
+    "addTotalDebt": 390000,
+    "enterpriseValue": 22013083
+  },
+  {
+    "symbol": "SKE",
+    "date": "2004-06-30",
+    "stockPrice": 209.91,
+    "numberOfShares": 139647,
+    "marketCapitalization": 29313462,
+    "minusCashAndCashEquivalents": 668897,
+    "addTotalDebt": 390000,
+    "enterpriseValue": 29034565
+  },
+  {
+    "symbol": "SKE",
+    "date": "2004-03-31",
+    "stockPrice": 188.08,
+    "numberOfShares": 124876,
+    "marketCapitalization": 23486318,
+    "minusCashAndCashEquivalents": 319722,
+    "addTotalDebt": 0,
+    "enterpriseValue": 23166596
+  },
+  {
+    "symbol": "SKE",
+    "date": "2003-12-31",
+    "stockPrice": 166.75,
+    "numberOfShares": 124280,
+    "marketCapitalization": 20723136,
+    "minusCashAndCashEquivalents": 356560,
+    "addTotalDebt": 0,
+    "enterpriseValue": 20366576
+  },
+  {
+    "symbol": "SKE",
+    "date": "2003-09-30",
+    "stockPrice": 0.70288,
+    "numberOfShares": 115865,
+    "marketCapitalization": 81439.65,
+    "minusCashAndCashEquivalents": 234330,
+    "addTotalDebt": 0,
+    "enterpriseValue": -152890
+  },
+  {
+    "symbol": "SKE",
+    "date": "2003-06-30",
+    "stockPrice": 0.47411,
+    "numberOfShares": 90146,
+    "marketCapitalization": 42739.01,
+    "minusCashAndCashEquivalents": 167,
+    "addTotalDebt": 0,
+    "enterpriseValue": 42572
+  },
+  {
+    "symbol": "SKE",
+    "date": "2003-03-31",
+    "stockPrice": 0.51656,
+    "numberOfShares": 90146,
+    "marketCapitalization": 46565.82,
+    "minusCashAndCashEquivalents": 799,
+    "addTotalDebt": 0,
+    "enterpriseValue": 45766
+  },
+  {
+    "symbol": "SKE",
+    "date": "2002-12-31",
+    "stockPrice": 0.55489,
+    "numberOfShares": 90146,
+    "marketCapitalization": 50021.37,
+    "minusCashAndCashEquivalents": 271,
+    "addTotalDebt": 0,
+    "enterpriseValue": 49750
+  },
+  {
+    "symbol": "SKE",
+    "date": "2002-09-30",
+    "stockPrice": 0.55852,
+    "numberOfShares": 81961,
+    "marketCapitalization": 45776.73,
+    "minusCashAndCashEquivalents": 4173,
+    "addTotalDebt": 0,
+    "enterpriseValue": 41603
+  },
+  {
+    "symbol": "SKE",
+    "date": "2002-06-30",
+    "stockPrice": 0.53356,
+    "numberOfShares": 81961,
+    "marketCapitalization": 43731.24,
+    "minusCashAndCashEquivalents": 76,
+    "addTotalDebt": 0,
+    "enterpriseValue": 43655
+  },
+  {
+    "symbol": "SKE",
+    "date": "2002-03-31",
+    "stockPrice": 0.51046,
+    "numberOfShares": 82211,
+    "marketCapitalization": 41965.76,
+    "minusCashAndCashEquivalents": 4778,
+    "addTotalDebt": 0,
+    "enterpriseValue": 37187
+  }
+]

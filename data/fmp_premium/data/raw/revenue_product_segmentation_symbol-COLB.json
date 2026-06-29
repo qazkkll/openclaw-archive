@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "COLB",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Account Service Fees": 57000000,
+      "Card-based Fees": 58000000,
+      "Investment Advisory, Management and Administrative Service": 35000000,
+      "Total Service Charges on Deposits": 84000000,
+      "Transaction-based and overdraft service charges": 27000000
+    }
+  },
+  {
+    "symbol": "COLB",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Account Service Fees": 45446000,
+      "Card-based Fees": 57089000,
+      "Investment Advisory, Management and Administrative Service": 20208000,
+      "Total Service Charges on Deposits": 71517000,
+      "Transaction-based and overdraft service charges": 26071000
+    }
+  },
+  {
+    "symbol": "COLB",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Account Service Fees": 37986000,
+      "Card-based Fees": 55263000,
+      "Investment Advisory, Management and Administrative Service": 13471000,
+      "Total Service Charges on Deposits": 65525000,
+      "Transaction-based and overdraft service charges": 27539000
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "symbol": "NLY",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Bank Servicing": 56800000,
+      "Interests In Mortgage Servicing Rights": 7600000
+    }
+  },
+  {
+    "symbol": "NLY",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "Bank Servicing": 66599999.99999999
+    }
+  },
+  {
+    "symbol": "NLY",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "Bank Servicing": 108000000
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "ENVX",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-28",
+    "data": {
+      "Asia Pacific": 21626000,
+      "NORWAY": 1541000,
+      "Other": 1182000,
+      "SWITZERLAND": 4330000,
+      "TAIWAN": 1022000,
+      "UNITED STATES": 2120000
+    }
+  },
+  {
+    "symbol": "ENVX",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-29",
+    "data": {
+      "Asia Pacific": 12899000,
+      "NORWAY": 2364000,
+      "Other": 1257000,
+      "SWITZERLAND": 4776000,
+      "TAIWAN": 889000,
+      "UNITED STATES": 889000
+    }
+  },
+  {
+    "symbol": "ENVX",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Asia Pacific": 6148000,
+      "EMEA": 1023000,
+      "North America": 473000
+    }
+  }
+]

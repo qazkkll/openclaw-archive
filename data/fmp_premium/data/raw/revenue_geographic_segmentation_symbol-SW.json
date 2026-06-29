@@ -1,0 +1,34 @@
+[
+  {
+    "symbol": "SW",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "EUR",
+    "date": "2025-12-31",
+    "data": {
+      "FRANCE": 1546000000,
+      "GERMANY": 1873000000,
+      "IRELAND": 226000000,
+      "MEXICO": 2521000000,
+      "Other Americas": 3381000000,
+      "Other Europe, MEA And APAC": 7165000000,
+      "UNITED STATES": 14467000000
+    }
+  },
+  {
+    "symbol": "SW",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "EUR",
+    "date": "2024-12-31",
+    "data": {
+      "FRANCE": 1427000000,
+      "GERMANY": 1711000000,
+      "IRELAND": 172000000,
+      "MEXICO": 1960000000,
+      "Other Americas": 2330000000,
+      "Other Europe, MEA And APAC": 6198000000,
+      "UNITED STATES": 7311000000
+    }
+  }
+]

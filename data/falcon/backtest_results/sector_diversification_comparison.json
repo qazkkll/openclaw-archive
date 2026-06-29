@@ -1,0 +1,140 @@
+{
+  "top10_unlimited": {
+    "total_return": 0.17327339000000008,
+    "annualized": 0.37657044768209236,
+    "max_drawdown": -0.09456969809106602,
+    "trades": 19,
+    "stop_losses": 6,
+    "monthly": [
+      {
+        "month": "2026-01",
+        "value": 1101945.8199999998,
+        "return": 0.10194581999999985,
+        "positions": 10
+      },
+      {
+        "month": "2026-02",
+        "value": 1210197.4,
+        "return": 0.21019739999999998,
+        "positions": 10
+      },
+      {
+        "month": "2026-03",
+        "value": 1101497.5,
+        "return": 0.10149750000000002,
+        "positions": 10
+      },
+      {
+        "month": "2026-04",
+        "value": 1295818.56,
+        "return": 0.29581856000000006,
+        "positions": 10
+      },
+      {
+        "month": "2026-05",
+        "value": 1208450.7800000003,
+        "return": 0.20845078000000017,
+        "positions": 9
+      },
+      {
+        "month": "2026-06",
+        "value": 1173273.3900000001,
+        "return": 0.17327339000000008,
+        "positions": 4
+      }
+    ],
+    "sharpe_est": 2.510469651213949
+  },
+  "top10_diversified": {
+    "total_return": 0.33822580999999974,
+    "annualized": 0.7908483185501554,
+    "max_drawdown": -0.04546829411554372,
+    "trades": 17,
+    "stop_losses": 4,
+    "monthly": [
+      {
+        "month": "2026-01",
+        "value": 1094304.6899999997,
+        "return": 0.09430468999999975,
+        "positions": 10
+      },
+      {
+        "month": "2026-02",
+        "value": 1240881.17,
+        "return": 0.24088116999999998,
+        "positions": 10
+      },
+      {
+        "month": "2026-03",
+        "value": 1184460.42,
+        "return": 0.18446041999999996,
+        "positions": 10
+      },
+      {
+        "month": "2026-04",
+        "value": 1344656.9200000002,
+        "return": 0.34465692000000026,
+        "positions": 10
+      },
+      {
+        "month": "2026-05",
+        "value": 1308353.31,
+        "return": 0.30835331,
+        "positions": 9
+      },
+      {
+        "month": "2026-06",
+        "value": 1338225.8099999998,
+        "return": 0.33822580999999974,
+        "positions": 6
+      }
+    ],
+    "sharpe_est": 5.272322123667703
+  },
+  "top20_diversified": {
+    "total_return": 0.24442530000000007,
+    "annualized": 0.5485943272800902,
+    "max_drawdown": -0.06313963468035023,
+    "trades": 37,
+    "stop_losses": 5,
+    "monthly": [
+      {
+        "month": "2026-01",
+        "value": 1077250.01,
+        "return": 0.07725000999999998,
+        "positions": 20
+      },
+      {
+        "month": "2026-02",
+        "value": 1191539.52,
+        "return": 0.19153952000000007,
+        "positions": 20
+      },
+      {
+        "month": "2026-03",
+        "value": 1116306.1500000001,
+        "return": 0.11630615000000022,
+        "positions": 19
+      },
+      {
+        "month": "2026-04",
+        "value": 1254680.0,
+        "return": 0.25468,
+        "positions": 20
+      },
+      {
+        "month": "2026-05",
+        "value": 1231136.35,
+        "return": 0.2311363500000001,
+        "positions": 19
+      },
+      {
+        "month": "2026-06",
+        "value": 1244425.3,
+        "return": 0.24442530000000007,
+        "positions": 16
+      }
+    ],
+    "sharpe_est": 3.6572955152006013
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "symbol": "GRAB",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Deliveries": 1800000000,
+      "Financial Services": 347000000,
+      "Mobility": 1219000000
+    }
+  },
+  {
+    "symbol": "GRAB",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Deliveries": 1493000000,
+      "Financial Services": 253000000,
+      "Mobility": 1047000000
+    }
+  },
+  {
+    "symbol": "GRAB",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Deliveries": 1194000000,
+      "Enterprise and new initiatives": 112000000,
+      "Financial Services": 184000000,
+      "Mobility": 869000000
+    }
+  },
+  {
+    "symbol": "GRAB",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Deliveries": 663000000,
+      "Enterprise and new initiatives": 60000000,
+      "Financial Services": 71000000,
+      "Mobility": 639000000
+    }
+  },
+  {
+    "symbol": "GRAB",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Deliveries": 148000000,
+      "Enterprise and new initiatives": 44000000,
+      "Financial Services": 27000000,
+      "Mobility": 456000000
+    }
+  }
+]

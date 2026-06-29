@@ -1,0 +1,210 @@
+[
+  {
+    "symbol": "R",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-12-31",
+    "data": {
+      "CANADA": 548000000,
+      "UNITED STATES": 11782000000,
+      "MEXICO": 335000000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "CANADA": 538000000,
+      "UNITED STATES": 11773000000,
+      "MEXICO": 325000000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "CANADA": 538000000,
+      "MEXICO": 313000000,
+      "UNITED STATES": 10932000000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "CANADA": 528000000,
+      "Europe": 150000000,
+      "MEXICO": 260000000,
+      "UNITED STATES": 11073000000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "CANADA": 502376000,
+      "Europe": 262073000,
+      "MEXICO": 219479000,
+      "UNITED STATES": 8679025000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "CANADA": 459823000,
+      "Europe": 254979000,
+      "MEXICO": 189573000,
+      "UNITED STATES": 7515716000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "CANADA": 497150000,
+      "Europe": 302986000,
+      "MEXICO": 222358000,
+      "SINGAPORE": 3293000,
+      "UNITED STATES": 7900014000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-12-31",
+    "data": {
+      "CANADA": 464691000,
+      "Europe": 335474000,
+      "MEXICO": 198148000,
+      "SINGAPORE": 23856000,
+      "UNITED STATES": 7387046000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2017,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2017-12-31",
+    "data": {
+      "CANADA": 428252000,
+      "Europe": 321375000,
+      "Foreign": 950815000,
+      "MEXICO": 170398000,
+      "SINGAPORE": 30790000,
+      "UNITED STATES": 6378784000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2016,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2016-12-31",
+    "data": {
+      "Asia": 28291000,
+      "CANADA": 387713000,
+      "Europe": 339420000,
+      "Foreign": 894600000,
+      "MEXICO": 139176000,
+      "UNITED STATES": 5892384000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2015,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2015-12-31",
+    "data": {
+      "Asia": 28949000,
+      "CANADA": 408325000,
+      "Europe": 391339000,
+      "Foreign": 968196000,
+      "MEXICO": 139583000,
+      "UNITED STATES": 5603697000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2014,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2014-12-31",
+    "data": {
+      "Asia": 30123000,
+      "CANADA": 435280000,
+      "Europe": 400853000,
+      "Foreign": 1024737000,
+      "MEXICO": 158481000,
+      "UNITED STATES": 5614037000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2013,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2013-12-31",
+    "data": {
+      "Asia": 18981000,
+      "CANADA": 455440000,
+      "Europe": 372209000,
+      "Foreign": 1007909000,
+      "MEXICO": 161279000,
+      "UNITED STATES": 5411376000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2012,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2012-12-31",
+    "data": {
+      "Asia": 20186000,
+      "CANADA": 477495000,
+      "Europe": 384105000,
+      "Foreign": 1025068000,
+      "MEXICO": 143282000,
+      "UNITED STATES": 5231899000
+    }
+  },
+  {
+    "symbol": "R",
+    "fiscalYear": 2011,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2011-12-31",
+    "data": {
+      "Asia": 21831000,
+      "CANADA": 481593000,
+      "Europe": 324214000,
+      "Foreign": 975102000,
+      "MEXICO": 147464000,
+      "UNITED STATES": 5075432000
+    }
+  }
+]

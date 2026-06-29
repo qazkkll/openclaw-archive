@@ -1,0 +1,29 @@
+[
+  {
+    "symbol": "ECO",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Asia": 110909708,
+      "Europe": 246832835,
+      "North America": 24200355,
+      "South America": 9605921
+    }
+  },
+  {
+    "symbol": "ECO",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Africa": 1450415,
+      "Asia": 162109986,
+      "Europe": 172520562,
+      "North America": 37989863,
+      "South America": 19159005
+    }
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "symbol": "SEAL-PB",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Lease revenue": 499311000,
+      "Management fees and other": 101290000,
+      "Non Lease Component": 137647000,
+      "Non-lease revenue": 36357000,
+      "Time charters": 535668000
+    }
+  },
+  {
+    "symbol": "SEAL-PB",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Lease revenue": 572257000,
+      "Management fees and other": 101072000,
+      "Non Lease Component": 138487000,
+      "Non-lease revenue": 37415000,
+      "Time charters": 596112000,
+      "Voyage charters": 13560000
+    }
+  },
+  {
+    "symbol": "SEAL-PB",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Lease revenue": 603189000,
+      "Management fees and other": 89334000,
+      "Non Lease Component": 123602000,
+      "Non-lease revenue": 34268000,
+      "Time charters": 614487000,
+      "Voyage charters": 22970000
+    }
+  },
+  {
+    "symbol": "SEAL-PB",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Lease revenue": 516500000,
+      "Management fees and other": 85585000,
+      "Non Lease Component": 107980000,
+      "Non-lease revenue": 22395000,
+      "Time charters": 500033000,
+      "Voyage charters": 38862000
+    }
+  }
+]

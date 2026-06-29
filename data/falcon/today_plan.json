@@ -1,0 +1,43 @@
+{
+  "date": "2026-06-29",
+  "scored_date": "2026-06-26",
+  "verdict": "EXECUTE",
+  "gatekeeper_passed": 5,
+  "gatekeeper_total": 5,
+  "macro": {
+    "vix": 18.37,
+    "spy": 728.99,
+    "spy_vs_ma20": "below",
+    "spx_vs_ma200": "above",
+    "regime": "neutral"
+  },
+  "top5": [
+    {"rank": 1, "sym": "APP", "score": 0.7234, "signal": "🟢🟢", "fund": 0.72, "analyst": 0.78, "metric": 0.63, "target_upside": "+38%"},
+    {"rank": 2, "sym": "PLTR", "score": 0.7165, "signal": "🟢🟢", "fund": 0.69, "analyst": 0.84, "metric": 0.66, "target_upside": "+68%"},
+    {"rank": 3, "sym": "NVDA", "score": 0.7150, "signal": "🟢🟢", "fund": 0.69, "analyst": 0.80, "metric": 0.72, "target_upside": "+65%"},
+    {"rank": 4, "sym": "AVGO", "score": 0.7142, "signal": "🟢🟢", "fund": 0.74, "analyst": 0.65, "metric": 0.67, "target_upside": "+36%"},
+    {"rank": 5, "sym": "TXN", "score": 0.7106, "signal": "🟢🟢", "fund": 0.72, "analyst": 0.66, "metric": 0.71, "target_upside": "-4% ⚠️"}
+  ],
+  "gatekeeper_details": [
+    {"name": "宏观状态", "pass": true, "detail": "SPX(7354)>MA200(6925) | VIX(18.4)正常"},
+    {"name": "行业风向", "pass": true, "detail": "XLV(+8.2%) | XLF(+4.5%) | XLI(+4.2%) | XLRE(+2.3%) | XLP(+0.8%) | XLK(-1.7%) | XLE(-4.8%)"},
+    {"name": "事件风险", "pass": true, "detail": "未来7天无推荐股财报"},
+    {"name": "持仓集中", "pass": true, "detail": "当前空仓"},
+    {"name": "目标价空间", "pass": true, "detail": "APP(+38%), PLTR(+68%), NVDA(+65%), AVGO(+36%) | ⚠️ TXN(-4%)"}
+  ],
+  "plan": {
+    "buy": ["APP", "PLTR", "NVDA", "AVGO", "TXN"],
+    "sell": [],
+    "hold": [],
+    "notes": [
+      "Gatekeeper 5/5全通过 → 正常执行",
+      "TXN目标价上行空间不足(-4%)，但评分仍在Top5，按规则执行",
+      "当前空仓，5只全部新开仓",
+      "SPY在20日均线下方但VIX正常(18.4)，宏观中性偏谨慎"
+    ]
+  },
+  "action": "EXECUTE",
+  "hold_days": 30,
+  "stop_loss": -0.15,
+  "timestamp": "2026-06-29T22:00:00+08:00"
+}

@@ -1,0 +1,832 @@
+[
+  {
+    "symbol": "DEI",
+    "date": "2026-03-31",
+    "stockPrice": 9.42,
+    "numberOfShares": 167466000,
+    "marketCapitalization": 1577529720,
+    "minusCashAndCashEquivalents": 357248000,
+    "addTotalDebt": 5585017000,
+    "enterpriseValue": 6805298720
+  },
+  {
+    "symbol": "DEI",
+    "date": "2025-12-31",
+    "stockPrice": 10.99,
+    "numberOfShares": 167460000,
+    "marketCapitalization": 1840385400,
+    "minusCashAndCashEquivalents": 340789000,
+    "addTotalDebt": 5567954000,
+    "enterpriseValue": 7067550400
+  },
+  {
+    "symbol": "DEI",
+    "date": "2025-09-30",
+    "stockPrice": 15.57,
+    "numberOfShares": 167446000,
+    "marketCapitalization": 2607134220,
+    "minusCashAndCashEquivalents": 408483000,
+    "addTotalDebt": 5571609000,
+    "enterpriseValue": 7770260220
+  },
+  {
+    "symbol": "DEI",
+    "date": "2025-06-30",
+    "stockPrice": 15.04,
+    "numberOfShares": 167446000,
+    "marketCapitalization": 2518387840,
+    "minusCashAndCashEquivalents": 426889000,
+    "addTotalDebt": 5573536000,
+    "enterpriseValue": 7665034840
+  },
+  {
+    "symbol": "DEI",
+    "date": "2025-03-31",
+    "stockPrice": 16,
+    "numberOfShares": 167442000,
+    "marketCapitalization": 2679072000,
+    "minusCashAndCashEquivalents": 525696000,
+    "addTotalDebt": 5646042000,
+    "enterpriseValue": 7799418000
+  },
+  {
+    "symbol": "DEI",
+    "date": "2024-12-31",
+    "stockPrice": 18.56,
+    "numberOfShares": 167434000,
+    "marketCapitalization": 3107575040,
+    "minusCashAndCashEquivalents": 444623000,
+    "addTotalDebt": 5508844000,
+    "enterpriseValue": 8171796040
+  },
+  {
+    "symbol": "DEI",
+    "date": "2024-09-30",
+    "stockPrice": 17.57,
+    "numberOfShares": 167411000,
+    "marketCapitalization": 2941411270,
+    "minusCashAndCashEquivalents": 544227000,
+    "addTotalDebt": 5523913000,
+    "enterpriseValue": 7921097270
+  },
+  {
+    "symbol": "DEI",
+    "date": "2024-06-30",
+    "stockPrice": 13.23,
+    "numberOfShares": 167385000,
+    "marketCapitalization": 2214503550,
+    "minusCashAndCashEquivalents": 561066000,
+    "addTotalDebt": 5557200000,
+    "enterpriseValue": 7210637550
+  },
+  {
+    "symbol": "DEI",
+    "date": "2024-03-31",
+    "stockPrice": 13.33,
+    "numberOfShares": 167326000,
+    "marketCapitalization": 2230455580,
+    "minusCashAndCashEquivalents": 556677000,
+    "addTotalDebt": 5555349000,
+    "enterpriseValue": 7229127580
+  },
+  {
+    "symbol": "DEI",
+    "date": "2023-12-31",
+    "stockPrice": 14.5,
+    "numberOfShares": 166758000,
+    "marketCapitalization": 2417991000,
+    "minusCashAndCashEquivalents": 523082000,
+    "addTotalDebt": 5554007000,
+    "enterpriseValue": 7448916000
+  },
+  {
+    "symbol": "DEI",
+    "date": "2023-09-30",
+    "stockPrice": 12.76,
+    "numberOfShares": 166738000,
+    "marketCapitalization": 2127576880,
+    "minusCashAndCashEquivalents": 526230000,
+    "addTotalDebt": 5552685000,
+    "enterpriseValue": 7154031880
+  },
+  {
+    "symbol": "DEI",
+    "date": "2023-06-30",
+    "stockPrice": 12.57,
+    "numberOfShares": 169256000,
+    "marketCapitalization": 2127547920,
+    "minusCashAndCashEquivalents": 263184000,
+    "addTotalDebt": 5275493000,
+    "enterpriseValue": 7139856920
+  },
+  {
+    "symbol": "DEI",
+    "date": "2023-03-31",
+    "stockPrice": 12.33,
+    "numberOfShares": 175765000,
+    "marketCapitalization": 2167182450,
+    "minusCashAndCashEquivalents": 301979000,
+    "addTotalDebt": 5203848000,
+    "enterpriseValue": 7069051450
+  },
+  {
+    "symbol": "DEI",
+    "date": "2022-12-31",
+    "stockPrice": 15.68,
+    "numberOfShares": 175799000,
+    "marketCapitalization": 2756528320,
+    "minusCashAndCashEquivalents": 268837000,
+    "addTotalDebt": 5202741000,
+    "enterpriseValue": 7690432320
+  },
+  {
+    "symbol": "DEI",
+    "date": "2022-09-30",
+    "stockPrice": 17.93,
+    "numberOfShares": 175784000,
+    "marketCapitalization": 3151807120,
+    "minusCashAndCashEquivalents": 281008000,
+    "addTotalDebt": 5201457000,
+    "enterpriseValue": 8072256120
+  },
+  {
+    "symbol": "DEI",
+    "date": "2022-06-30",
+    "stockPrice": 22.38,
+    "numberOfShares": 175784000,
+    "marketCapitalization": 3934045920,
+    "minusCashAndCashEquivalents": 271043000,
+    "addTotalDebt": 5199755000,
+    "enterpriseValue": 8862757920
+  },
+  {
+    "symbol": "DEI",
+    "date": "2022-03-31",
+    "stockPrice": 33.42,
+    "numberOfShares": 175656000,
+    "marketCapitalization": 5870423520,
+    "minusCashAndCashEquivalents": 337274000,
+    "addTotalDebt": 5024732000,
+    "enterpriseValue": 10557881520
+  },
+  {
+    "symbol": "DEI",
+    "date": "2021-12-31",
+    "stockPrice": 33.5,
+    "numberOfShares": 175496000,
+    "marketCapitalization": 5879116000,
+    "minusCashAndCashEquivalents": 335905000,
+    "addTotalDebt": 5022936000,
+    "enterpriseValue": 10566147000
+  },
+  {
+    "symbol": "DEI",
+    "date": "2021-09-30",
+    "stockPrice": 31.61,
+    "numberOfShares": 175480000,
+    "marketCapitalization": 5546922800,
+    "minusCashAndCashEquivalents": 350494000,
+    "addTotalDebt": 5760555000,
+    "enterpriseValue": 10956983800
+  },
+  {
+    "symbol": "DEI",
+    "date": "2021-06-30",
+    "stockPrice": 33.62,
+    "numberOfShares": 175471000,
+    "marketCapitalization": 5899335020,
+    "minusCashAndCashEquivalents": 330934000,
+    "addTotalDebt": 5717924000,
+    "enterpriseValue": 11286325020
+  },
+  {
+    "symbol": "DEI",
+    "date": "2021-03-31",
+    "stockPrice": 31.4,
+    "numberOfShares": 175464000,
+    "marketCapitalization": 5509569600,
+    "minusCashAndCashEquivalents": 184274000,
+    "addTotalDebt": 4786861000,
+    "enterpriseValue": 10112156600
+  },
+  {
+    "symbol": "DEI",
+    "date": "2020-12-31",
+    "stockPrice": 29.18,
+    "numberOfShares": 175398000,
+    "marketCapitalization": 5118113640,
+    "minusCashAndCashEquivalents": 172385000,
+    "addTotalDebt": 4755838000,
+    "enterpriseValue": 9701566640
+  },
+  {
+    "symbol": "DEI",
+    "date": "2020-09-30",
+    "stockPrice": 25.1,
+    "numberOfShares": 175375000,
+    "marketCapitalization": 4401912500,
+    "minusCashAndCashEquivalents": 202166000,
+    "addTotalDebt": 4719187000,
+    "enterpriseValue": 8918933500
+  },
+  {
+    "symbol": "DEI",
+    "date": "2020-06-30",
+    "stockPrice": 30.66,
+    "numberOfShares": 175375000,
+    "marketCapitalization": 5376997500,
+    "minusCashAndCashEquivalents": 176393000,
+    "addTotalDebt": 5414880000,
+    "enterpriseValue": 10615484500
+  },
+  {
+    "symbol": "DEI",
+    "date": "2020-03-31",
+    "stockPrice": 30.51,
+    "numberOfShares": 175373000,
+    "marketCapitalization": 5350630230,
+    "minusCashAndCashEquivalents": 174696000,
+    "addTotalDebt": 5368493000,
+    "enterpriseValue": 10544427230
+  },
+  {
+    "symbol": "DEI",
+    "date": "2019-12-31",
+    "stockPrice": 43.9,
+    "numberOfShares": 175356000,
+    "marketCapitalization": 7698128400,
+    "minusCashAndCashEquivalents": 153683000,
+    "addTotalDebt": 5189940000,
+    "enterpriseValue": 12734385400
+  },
+  {
+    "symbol": "DEI",
+    "date": "2019-09-30",
+    "stockPrice": 42.83,
+    "numberOfShares": 175278000,
+    "marketCapitalization": 7507156740,
+    "minusCashAndCashEquivalents": 181510000,
+    "addTotalDebt": 4187851000,
+    "enterpriseValue": 11513497740
+  },
+  {
+    "symbol": "DEI",
+    "date": "2019-06-30",
+    "stockPrice": 39.84,
+    "numberOfShares": 172498000,
+    "marketCapitalization": 6872320320,
+    "minusCashAndCashEquivalents": 303962000,
+    "addTotalDebt": 4315798000,
+    "enterpriseValue": 10884156320
+  },
+  {
+    "symbol": "DEI",
+    "date": "2019-03-31",
+    "stockPrice": 40.66,
+    "numberOfShares": 170221000,
+    "marketCapitalization": 6921185859,
+    "minusCashAndCashEquivalents": 149722000,
+    "addTotalDebt": 4140158000,
+    "enterpriseValue": 10911621859
+  },
+  {
+    "symbol": "DEI",
+    "date": "2018-12-31",
+    "stockPrice": 34.13,
+    "numberOfShares": 170121000,
+    "marketCapitalization": 5806229730,
+    "minusCashAndCashEquivalents": 146227000,
+    "addTotalDebt": 4134030000,
+    "enterpriseValue": 9794032730
+  },
+  {
+    "symbol": "DEI",
+    "date": "2018-09-30",
+    "stockPrice": 37.52,
+    "numberOfShares": 169926000,
+    "marketCapitalization": 6375623520,
+    "minusCashAndCashEquivalents": 172362000,
+    "addTotalDebt": 4122277000,
+    "enterpriseValue": 10325538520
+  },
+  {
+    "symbol": "DEI",
+    "date": "2018-06-30",
+    "stockPrice": 40.18,
+    "numberOfShares": 169916000,
+    "marketCapitalization": 6827224880,
+    "minusCashAndCashEquivalents": 170391000,
+    "addTotalDebt": 4106495000,
+    "enterpriseValue": 10763328880
+  },
+  {
+    "symbol": "DEI",
+    "date": "2018-03-31",
+    "stockPrice": 36.76,
+    "numberOfShares": 169601000,
+    "marketCapitalization": 6234532760,
+    "minusCashAndCashEquivalents": 183556000,
+    "addTotalDebt": 4098900000,
+    "enterpriseValue": 10149876760
+  },
+  {
+    "symbol": "DEI",
+    "date": "2017-12-31",
+    "stockPrice": 41.06,
+    "numberOfShares": 169521000,
+    "marketCapitalization": 6960532260,
+    "minusCashAndCashEquivalents": 176645000,
+    "addTotalDebt": 4545085000,
+    "enterpriseValue": 11328972260
+  },
+  {
+    "symbol": "DEI",
+    "date": "2017-09-30",
+    "stockPrice": 39.42,
+    "numberOfShares": 165471000,
+    "marketCapitalization": 6522866820,
+    "minusCashAndCashEquivalents": 167742000,
+    "addTotalDebt": 4048828000,
+    "enterpriseValue": 10403952820
+  },
+  {
+    "symbol": "DEI",
+    "date": "2017-06-30",
+    "stockPrice": 38.21,
+    "numberOfShares": 155898000,
+    "marketCapitalization": 5956862580,
+    "minusCashAndCashEquivalents": 173151000,
+    "addTotalDebt": 4314137000,
+    "enterpriseValue": 10097848580
+  },
+  {
+    "symbol": "DEI",
+    "date": "2017-03-31",
+    "stockPrice": 38.4,
+    "numberOfShares": 152490000,
+    "marketCapitalization": 5855616000,
+    "minusCashAndCashEquivalents": 85533000,
+    "addTotalDebt": 4391410000,
+    "enterpriseValue": 10161493000
+  },
+  {
+    "symbol": "DEI",
+    "date": "2016-12-31",
+    "stockPrice": 36.56,
+    "numberOfShares": 151446000,
+    "marketCapitalization": 5536865760,
+    "minusCashAndCashEquivalents": 112927000,
+    "addTotalDebt": 4369537000,
+    "enterpriseValue": 9793475760
+  },
+  {
+    "symbol": "DEI",
+    "date": "2016-09-30",
+    "stockPrice": 36.63,
+    "numberOfShares": 150753000,
+    "marketCapitalization": 5522082390,
+    "minusCashAndCashEquivalents": 158415000,
+    "addTotalDebt": 4401851000,
+    "enterpriseValue": 9765518390
+  },
+  {
+    "symbol": "DEI",
+    "date": "2016-06-30",
+    "stockPrice": 35.52,
+    "numberOfShares": 147722000,
+    "marketCapitalization": 5247085440,
+    "minusCashAndCashEquivalents": 77166000,
+    "addTotalDebt": 4280925000,
+    "enterpriseValue": 9450844440
+  },
+  {
+    "symbol": "DEI",
+    "date": "2016-03-31",
+    "stockPrice": 30.11,
+    "numberOfShares": 147236000,
+    "marketCapitalization": 4433275960,
+    "minusCashAndCashEquivalents": 72191000,
+    "addTotalDebt": 4469957000,
+    "enterpriseValue": 8831041960
+  },
+  {
+    "symbol": "DEI",
+    "date": "2015-12-31",
+    "stockPrice": 31.18,
+    "numberOfShares": 146780000,
+    "marketCapitalization": 4576600400,
+    "minusCashAndCashEquivalents": 101798000,
+    "addTotalDebt": 3611276000,
+    "enterpriseValue": 8086078400
+  },
+  {
+    "symbol": "DEI",
+    "date": "2015-09-30",
+    "stockPrice": 28.72,
+    "numberOfShares": 146331000,
+    "marketCapitalization": 4202626320,
+    "minusCashAndCashEquivalents": 9930000,
+    "addTotalDebt": 3474111000,
+    "enterpriseValue": 7666807320
+  },
+  {
+    "symbol": "DEI",
+    "date": "2015-06-30",
+    "stockPrice": 26.94,
+    "numberOfShares": 145898000,
+    "marketCapitalization": 3930492120,
+    "minusCashAndCashEquivalents": 74530000,
+    "addTotalDebt": 3554414000,
+    "enterpriseValue": 7410376120
+  },
+  {
+    "symbol": "DEI",
+    "date": "2015-03-31",
+    "stockPrice": 29.81,
+    "numberOfShares": 145327000,
+    "marketCapitalization": 4332197870,
+    "minusCashAndCashEquivalents": 16639000,
+    "addTotalDebt": 3503466000,
+    "enterpriseValue": 7819024870
+  },
+  {
+    "symbol": "DEI",
+    "date": "2014-12-31",
+    "stockPrice": 28.4,
+    "numberOfShares": 144823000,
+    "marketCapitalization": 4112973200,
+    "minusCashAndCashEquivalents": 18823000,
+    "addTotalDebt": 3419667000,
+    "enterpriseValue": 7513817200
+  },
+  {
+    "symbol": "DEI",
+    "date": "2014-09-30",
+    "stockPrice": 25.67,
+    "numberOfShares": 144361000,
+    "marketCapitalization": 3705746870,
+    "minusCashAndCashEquivalents": 12467000,
+    "addTotalDebt": 3210210000,
+    "enterpriseValue": 6903489870
+  },
+  {
+    "symbol": "DEI",
+    "date": "2014-06-30",
+    "stockPrice": 28.22,
+    "numberOfShares": 143717000,
+    "marketCapitalization": 4055693740,
+    "minusCashAndCashEquivalents": 12785000,
+    "addTotalDebt": 3220210000,
+    "enterpriseValue": 7263118740
+  },
+  {
+    "symbol": "DEI",
+    "date": "2014-03-31",
+    "stockPrice": 27.14,
+    "numberOfShares": 143140000,
+    "marketCapitalization": 3884819600,
+    "minusCashAndCashEquivalents": 12420000,
+    "addTotalDebt": 3220640000,
+    "enterpriseValue": 7093039600
+  },
+  {
+    "symbol": "DEI",
+    "date": "2013-12-31",
+    "stockPrice": 23.29,
+    "numberOfShares": 142603000,
+    "marketCapitalization": 3321223870,
+    "minusCashAndCashEquivalents": 44206000,
+    "addTotalDebt": 3241140000,
+    "enterpriseValue": 6518157870
+  },
+  {
+    "symbol": "DEI",
+    "date": "2013-09-30",
+    "stockPrice": 23.47,
+    "numberOfShares": 142598000,
+    "marketCapitalization": 3346775060,
+    "minusCashAndCashEquivalents": 148811000,
+    "addTotalDebt": 3351140000,
+    "enterpriseValue": 6549104060
+  },
+  {
+    "symbol": "DEI",
+    "date": "2013-06-30",
+    "stockPrice": 24.91,
+    "numberOfShares": 142581000,
+    "marketCapitalization": 3551692710,
+    "minusCashAndCashEquivalents": 184413000,
+    "addTotalDebt": 3351140000,
+    "enterpriseValue": 6718419710
+  },
+  {
+    "symbol": "DEI",
+    "date": "2013-03-31",
+    "stockPrice": 24.94,
+    "numberOfShares": 142440000,
+    "marketCapitalization": 3552453600,
+    "minusCashAndCashEquivalents": 292635000,
+    "addTotalDebt": 3351140000,
+    "enterpriseValue": 6610958600
+  },
+  {
+    "symbol": "DEI",
+    "date": "2012-12-31",
+    "stockPrice": 23.3,
+    "numberOfShares": 140795000,
+    "marketCapitalization": 3280523500,
+    "minusCashAndCashEquivalents": 373203000,
+    "addTotalDebt": 3441140000,
+    "enterpriseValue": 6348460500
+  },
+  {
+    "symbol": "DEI",
+    "date": "2012-09-30",
+    "stockPrice": 23.07,
+    "numberOfShares": 140301000,
+    "marketCapitalization": 3236744070,
+    "minusCashAndCashEquivalents": 369024000,
+    "addTotalDebt": 3441140000,
+    "enterpriseValue": 6308860070
+  },
+  {
+    "symbol": "DEI",
+    "date": "2012-06-30",
+    "stockPrice": 23.1,
+    "numberOfShares": 139651000,
+    "marketCapitalization": 3225938100,
+    "minusCashAndCashEquivalents": 162025000,
+    "addTotalDebt": 3332706000,
+    "enterpriseValue": 6396619100
+  },
+  {
+    "symbol": "DEI",
+    "date": "2012-03-31",
+    "stockPrice": 22.81,
+    "numberOfShares": 138399000,
+    "marketCapitalization": 3156881190,
+    "minusCashAndCashEquivalents": 155528000,
+    "addTotalDebt": 3337614000,
+    "enterpriseValue": 6338967190
+  },
+  {
+    "symbol": "DEI",
+    "date": "2011-12-31",
+    "stockPrice": 18.24,
+    "numberOfShares": 126187000,
+    "marketCapitalization": 2301650880,
+    "minusCashAndCashEquivalents": 406977000,
+    "addTotalDebt": 3710957000,
+    "enterpriseValue": 5605630880
+  },
+  {
+    "symbol": "DEI",
+    "date": "2011-09-30",
+    "stockPrice": 17.1,
+    "numberOfShares": 127462000,
+    "marketCapitalization": 2179600200,
+    "minusCashAndCashEquivalents": 349607000,
+    "addTotalDebt": 3624497000,
+    "enterpriseValue": 5454490200
+  },
+  {
+    "symbol": "DEI",
+    "date": "2011-08-05",
+    "stockPrice": 17.45,
+    "numberOfShares": 124610000,
+    "marketCapitalization": 2174444500,
+    "minusCashAndCashEquivalents": 332139000,
+    "addTotalDebt": 3767033000,
+    "enterpriseValue": 5609338500
+  },
+  {
+    "symbol": "DEI",
+    "date": "2011-03-31",
+    "stockPrice": 18.75,
+    "numberOfShares": 124210000,
+    "marketCapitalization": 2328937500,
+    "minusCashAndCashEquivalents": 308536000,
+    "addTotalDebt": 3773979000,
+    "enterpriseValue": 5794380500
+  },
+  {
+    "symbol": "DEI",
+    "date": "2010-12-31",
+    "stockPrice": 16.6,
+    "numberOfShares": 123792090,
+    "marketCapitalization": 2054948694,
+    "minusCashAndCashEquivalents": 272419000,
+    "addTotalDebt": 3668133000,
+    "enterpriseValue": 5450662694
+  },
+  {
+    "symbol": "DEI",
+    "date": "2010-09-30",
+    "stockPrice": 17.51,
+    "numberOfShares": 123077000,
+    "marketCapitalization": 2155078270,
+    "minusCashAndCashEquivalents": 281681000,
+    "addTotalDebt": 3669494000,
+    "enterpriseValue": 5542891270
+  },
+  {
+    "symbol": "DEI",
+    "date": "2010-06-30",
+    "stockPrice": 14.22,
+    "numberOfShares": 122332000,
+    "marketCapitalization": 1739561040,
+    "minusCashAndCashEquivalents": 21249000,
+    "addTotalDebt": 3425335000,
+    "enterpriseValue": 5143647040
+  },
+  {
+    "symbol": "DEI",
+    "date": "2010-05-03",
+    "stockPrice": 17.21,
+    "numberOfShares": 121643700,
+    "marketCapitalization": 2093488077,
+    "minusCashAndCashEquivalents": 94300000,
+    "addTotalDebt": 3272157000,
+    "enterpriseValue": 5271345077
+  },
+  {
+    "symbol": "DEI",
+    "date": "2009-12-31",
+    "stockPrice": 14.25,
+    "numberOfShares": 121553000,
+    "marketCapitalization": 1732130250,
+    "minusCashAndCashEquivalents": 72740000,
+    "addTotalDebt": 3273459000,
+    "enterpriseValue": 4932849250
+  },
+  {
+    "symbol": "DEI",
+    "date": "2009-09-30",
+    "stockPrice": 12.28,
+    "numberOfShares": 121486000,
+    "marketCapitalization": 1491848080,
+    "minusCashAndCashEquivalents": 63834000,
+    "addTotalDebt": 3274743000,
+    "enterpriseValue": 4702757080
+  },
+  {
+    "symbol": "DEI",
+    "date": "2009-06-30",
+    "stockPrice": 8.99,
+    "numberOfShares": 121319000,
+    "marketCapitalization": 1090657810,
+    "minusCashAndCashEquivalents": 43261000,
+    "addTotalDebt": 3276009000,
+    "enterpriseValue": 4323405810
+  },
+  {
+    "symbol": "DEI",
+    "date": "2009-03-31",
+    "stockPrice": 7.39,
+    "numberOfShares": 121841789,
+    "marketCapitalization": 900410820,
+    "minusCashAndCashEquivalents": 29827000,
+    "addTotalDebt": 3277256000,
+    "enterpriseValue": 4147839820
+  },
+  {
+    "symbol": "DEI",
+    "date": "2008-12-31",
+    "stockPrice": 13.06,
+    "numberOfShares": 120726000,
+    "marketCapitalization": 1576681560,
+    "minusCashAndCashEquivalents": 8655000,
+    "addTotalDebt": 7385570000,
+    "enterpriseValue": 8953596560
+  },
+  {
+    "symbol": "DEI",
+    "date": "2008-11-04",
+    "stockPrice": 15.88,
+    "numberOfShares": 121509000,
+    "marketCapitalization": 1929562920,
+    "minusCashAndCashEquivalents": 2155000,
+    "addTotalDebt": 3733872000,
+    "enterpriseValue": 5661279920
+  },
+  {
+    "symbol": "DEI",
+    "date": "2008-06-30",
+    "stockPrice": 21.97,
+    "numberOfShares": 121313515,
+    "marketCapitalization": 2665257924,
+    "minusCashAndCashEquivalents": 2764000,
+    "addTotalDebt": 3734941000,
+    "enterpriseValue": 6397434924
+  },
+  {
+    "symbol": "DEI",
+    "date": "2008-03-31",
+    "stockPrice": 22.06,
+    "numberOfShares": 118283579,
+    "marketCapitalization": 2609335752,
+    "minusCashAndCashEquivalents": 4493000,
+    "addTotalDebt": 3729368000,
+    "enterpriseValue": 6334210752
+  },
+  {
+    "symbol": "DEI",
+    "date": "2007-12-31",
+    "stockPrice": 22.61,
+    "numberOfShares": 109803006,
+    "marketCapitalization": 2482645965,
+    "minusCashAndCashEquivalents": 5843000,
+    "addTotalDebt": 3105677000,
+    "enterpriseValue": 5582479965
+  },
+  {
+    "symbol": "DEI",
+    "date": "2007-09-30",
+    "stockPrice": 25.49,
+    "numberOfShares": 110956113,
+    "marketCapitalization": 2828271320,
+    "minusCashAndCashEquivalents": 2049000,
+    "addTotalDebt": 2965471000,
+    "enterpriseValue": 5791693320
+  },
+  {
+    "symbol": "DEI",
+    "date": "2007-06-30",
+    "stockPrice": 24.74,
+    "numberOfShares": 114861872,
+    "marketCapitalization": 2841682713,
+    "minusCashAndCashEquivalents": 65961000,
+    "addTotalDebt": 2927497000,
+    "enterpriseValue": 5703218713
+  },
+  {
+    "symbol": "DEI",
+    "date": "2007-03-31",
+    "stockPrice": 25.53,
+    "numberOfShares": 115005860,
+    "marketCapitalization": 2936099605,
+    "minusCashAndCashEquivalents": 3850000,
+    "addTotalDebt": 2778607000,
+    "enterpriseValue": 5710856605
+  },
+  {
+    "symbol": "DEI",
+    "date": "2006-12-31",
+    "stockPrice": 26.59,
+    "numberOfShares": 115005860,
+    "marketCapitalization": 3058005817,
+    "minusCashAndCashEquivalents": 4536000,
+    "addTotalDebt": 2789702000,
+    "enterpriseValue": 5843171817
+  },
+  {
+    "symbol": "DEI",
+    "date": "2006-09-30",
+    "stockPrice": 23.65,
+    "numberOfShares": 114282812,
+    "marketCapitalization": 2702788503,
+    "minusCashAndCashEquivalents": 119311000,
+    "addTotalDebt": 2305500000,
+    "enterpriseValue": 4888977503
+  },
+  {
+    "symbol": "DEI",
+    "date": "2006-06-30",
+    "stockPrice": 23.65,
+    "numberOfShares": 114282812,
+    "marketCapitalization": 2702788503,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2702788503
+  },
+  {
+    "symbol": "DEI",
+    "date": "2006-03-31",
+    "stockPrice": 23.65,
+    "numberOfShares": 114282812,
+    "marketCapitalization": 2702788503,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2702788503
+  },
+  {
+    "symbol": "DEI",
+    "date": "2005-12-31",
+    "stockPrice": 23.65,
+    "numberOfShares": 114282812,
+    "marketCapitalization": 2702788503,
+    "minusCashAndCashEquivalents": 108282000,
+    "addTotalDebt": 2223500000,
+    "enterpriseValue": 4818006503
+  },
+  {
+    "symbol": "DEI",
+    "date": "2005-09-30",
+    "stockPrice": 23.65,
+    "numberOfShares": 114282812,
+    "marketCapitalization": 2702788503,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2702788503
+  }
+]

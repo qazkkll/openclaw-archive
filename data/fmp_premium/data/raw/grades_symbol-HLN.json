@@ -1,0 +1,58 @@
+[
+  {
+    "symbol": "HLN",
+    "date": "2026-01-23",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Overweight",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "HLN",
+    "date": "2025-09-16",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "HLN",
+    "date": "2024-09-20",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "HLN",
+    "date": "2024-03-26",
+    "gradingCompany": "Argus Research",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "HLN",
+    "date": "2023-04-06",
+    "gradingCompany": "Argus Research",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "HLN",
+    "date": "2022-09-28",
+    "gradingCompany": "Argus Research",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "HLN",
+    "date": "2022-07-29",
+    "gradingCompany": "Deutsche Bank",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  }
+]

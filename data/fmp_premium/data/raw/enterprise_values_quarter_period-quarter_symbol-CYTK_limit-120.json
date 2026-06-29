@@ -1,0 +1,932 @@
+[
+  {
+    "symbol": "CYTK",
+    "date": "2026-03-31",
+    "stockPrice": 65.91,
+    "numberOfShares": 123273000,
+    "marketCapitalization": 8124923430,
+    "minusCashAndCashEquivalents": 129843000,
+    "addTotalDebt": 1041514000,
+    "enterpriseValue": 9036594430
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2025-12-31",
+    "stockPrice": 63.54,
+    "numberOfShares": 122020666,
+    "marketCapitalization": 7753193117,
+    "minusCashAndCashEquivalents": 882221000,
+    "addTotalDebt": 1284243000,
+    "enterpriseValue": 8155215117
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2025-09-30",
+    "stockPrice": 54.96,
+    "numberOfShares": 119982000,
+    "marketCapitalization": 6594210720,
+    "minusCashAndCashEquivalents": 225467000,
+    "addTotalDebt": 1196853000,
+    "enterpriseValue": 7565596720
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2025-06-30",
+    "stockPrice": 33.04,
+    "numberOfShares": 119457000,
+    "marketCapitalization": 3946859280,
+    "minusCashAndCashEquivalents": 74940000,
+    "addTotalDebt": 858058000,
+    "enterpriseValue": 4729977280
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2025-03-31",
+    "stockPrice": 40.19,
+    "numberOfShares": 118496000,
+    "marketCapitalization": 4762354240,
+    "minusCashAndCashEquivalents": 73680000,
+    "addTotalDebt": 791055000,
+    "enterpriseValue": 5479729240
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2024-12-31",
+    "stockPrice": 47.04,
+    "numberOfShares": 118075000,
+    "marketCapitalization": 5554248000,
+    "minusCashAndCashEquivalents": 94857000,
+    "addTotalDebt": 788677000,
+    "enterpriseValue": 6248068000
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2024-09-30",
+    "stockPrice": 52.8,
+    "numberOfShares": 117685000,
+    "marketCapitalization": 6213768000,
+    "minusCashAndCashEquivalents": 46888000,
+    "addTotalDebt": 789626000,
+    "enterpriseValue": 6956506000
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2024-06-30",
+    "stockPrice": 54.7,
+    "numberOfShares": 109240000,
+    "marketCapitalization": 5975428000,
+    "minusCashAndCashEquivalents": 190517000,
+    "addTotalDebt": 790176000,
+    "enterpriseValue": 6575087000
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2024-03-31",
+    "stockPrice": 73.02,
+    "numberOfShares": 101924000,
+    "marketCapitalization": 7442490480,
+    "minusCashAndCashEquivalents": 119976000,
+    "addTotalDebt": 754916000,
+    "enterpriseValue": 8077430480
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2023-12-31",
+    "stockPrice": 83.49,
+    "numberOfShares": 99067000,
+    "marketCapitalization": 8271103829,
+    "minusCashAndCashEquivalents": 113399000,
+    "addTotalDebt": 755771000,
+    "enterpriseValue": 8913475829
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2023-09-30",
+    "stockPrice": 29.46,
+    "numberOfShares": 96071000,
+    "marketCapitalization": 2830251660,
+    "minusCashAndCashEquivalents": 99692000,
+    "addTotalDebt": 748471000,
+    "enterpriseValue": 3479030660
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2023-06-30",
+    "stockPrice": 32.62,
+    "numberOfShares": 95755000,
+    "marketCapitalization": 3123528099,
+    "minusCashAndCashEquivalents": 68639000,
+    "addTotalDebt": 749310000,
+    "enterpriseValue": 3804199099
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2023-03-31",
+    "stockPrice": 35.19,
+    "numberOfShares": 95164000,
+    "marketCapitalization": 3348821160,
+    "minusCashAndCashEquivalents": 101616000,
+    "addTotalDebt": 750227000,
+    "enterpriseValue": 3997432160
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2022-12-31",
+    "stockPrice": 45.82,
+    "numberOfShares": 94681000,
+    "marketCapitalization": 4338283420,
+    "minusCashAndCashEquivalents": 65582000,
+    "addTotalDebt": 750300000,
+    "enterpriseValue": 5023001420
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2022-09-30",
+    "stockPrice": 48.45,
+    "numberOfShares": 93758000,
+    "marketCapitalization": 4542575100,
+    "minusCashAndCashEquivalents": 106238000,
+    "addTotalDebt": 738991000,
+    "enterpriseValue": 5175328100
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2022-06-30",
+    "stockPrice": 39.29,
+    "numberOfShares": 85731000,
+    "marketCapitalization": 3368370990,
+    "minusCashAndCashEquivalents": 93631000,
+    "addTotalDebt": 324053000,
+    "enterpriseValue": 3598792990
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2022-03-31",
+    "stockPrice": 36.81,
+    "numberOfShares": 84996000,
+    "marketCapitalization": 3128702760,
+    "minusCashAndCashEquivalents": 115422000,
+    "addTotalDebt": 322189000,
+    "enterpriseValue": 3335469760
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2021-12-31",
+    "stockPrice": 45.58,
+    "numberOfShares": 83858880,
+    "marketCapitalization": 3822287750,
+    "minusCashAndCashEquivalents": 112666000,
+    "addTotalDebt": 269930000,
+    "enterpriseValue": 3979551750
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2021-09-30",
+    "stockPrice": 35.74,
+    "numberOfShares": 80090526,
+    "marketCapitalization": 2862435399,
+    "minusCashAndCashEquivalents": 90562000,
+    "addTotalDebt": 266337000,
+    "enterpriseValue": 3038210399
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2021-06-30",
+    "stockPrice": 19.79,
+    "numberOfShares": 71754000,
+    "marketCapitalization": 1420011660,
+    "minusCashAndCashEquivalents": 37154000,
+    "addTotalDebt": 250697000,
+    "enterpriseValue": 1633554660
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2021-03-31",
+    "stockPrice": 23.26,
+    "numberOfShares": 71195000,
+    "marketCapitalization": 1655995700,
+    "minusCashAndCashEquivalents": 44594000,
+    "addTotalDebt": 228316000,
+    "enterpriseValue": 1839717700
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2020-12-31",
+    "stockPrice": 20.78,
+    "numberOfShares": 70833000,
+    "marketCapitalization": 1471909740,
+    "minusCashAndCashEquivalents": 82985000,
+    "addTotalDebt": 138938000,
+    "enterpriseValue": 1527862740
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2020-09-30",
+    "stockPrice": 21.65,
+    "numberOfShares": 68279000,
+    "marketCapitalization": 1478240350,
+    "minusCashAndCashEquivalents": 200812000,
+    "addTotalDebt": 140482000,
+    "enterpriseValue": 1417910350
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2020-06-30",
+    "stockPrice": 23.57,
+    "numberOfShares": 59605000,
+    "marketCapitalization": 1404889850,
+    "minusCashAndCashEquivalents": 61134000,
+    "addTotalDebt": 138040000,
+    "enterpriseValue": 1481795850
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2020-03-31",
+    "stockPrice": 11.79,
+    "numberOfShares": 59270000,
+    "marketCapitalization": 698793300,
+    "minusCashAndCashEquivalents": 49776000,
+    "addTotalDebt": 137599000,
+    "enterpriseValue": 786616300
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2019-12-31",
+    "stockPrice": 10.61,
+    "numberOfShares": 59150000,
+    "marketCapitalization": 627581500,
+    "minusCashAndCashEquivalents": 36433000,
+    "addTotalDebt": 136068000,
+    "enterpriseValue": 727216500
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2019-09-30",
+    "stockPrice": 11.38,
+    "numberOfShares": 58640000,
+    "marketCapitalization": 667323200,
+    "minusCashAndCashEquivalents": 39634000,
+    "addTotalDebt": 52596000,
+    "enterpriseValue": 680285200
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2019-06-30",
+    "stockPrice": 11.24,
+    "numberOfShares": 57648000,
+    "marketCapitalization": 647963520,
+    "minusCashAndCashEquivalents": 34361000,
+    "addTotalDebt": 53305000,
+    "enterpriseValue": 666907520
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2019-03-31",
+    "stockPrice": 8.05,
+    "numberOfShares": 54821000,
+    "marketCapitalization": 441309050,
+    "minusCashAndCashEquivalents": 39409000,
+    "addTotalDebt": 52365000,
+    "enterpriseValue": 454265050
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2018-12-31",
+    "stockPrice": 6.32,
+    "numberOfShares": 54689000,
+    "marketCapitalization": 345634480,
+    "minusCashAndCashEquivalents": 42256000,
+    "addTotalDebt": 42413000,
+    "enterpriseValue": 345791480
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2018-09-30",
+    "stockPrice": 9.01,
+    "numberOfShares": 54626000,
+    "marketCapitalization": 492180260,
+    "minusCashAndCashEquivalents": 27624000,
+    "addTotalDebt": 41905000,
+    "enterpriseValue": 506461260
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2018-06-30",
+    "stockPrice": 8.3,
+    "numberOfShares": 54293000,
+    "marketCapitalization": 450631900,
+    "minusCashAndCashEquivalents": 46955000,
+    "addTotalDebt": 32365000,
+    "enterpriseValue": 436041900
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2018-03-31",
+    "stockPrice": 7.2,
+    "numberOfShares": 54062000,
+    "marketCapitalization": 389246400,
+    "minusCashAndCashEquivalents": 115011000,
+    "addTotalDebt": 31954000,
+    "enterpriseValue": 306189400
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2017-12-31",
+    "stockPrice": 8.15,
+    "numberOfShares": 53929000,
+    "marketCapitalization": 439521350,
+    "minusCashAndCashEquivalents": 125206000,
+    "addTotalDebt": 31777000,
+    "enterpriseValue": 346092350
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2017-09-30",
+    "stockPrice": 14.5,
+    "numberOfShares": 53719000,
+    "marketCapitalization": 778925500,
+    "minusCashAndCashEquivalents": 116320000,
+    "addTotalDebt": 20471000,
+    "enterpriseValue": 683076500
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2017-06-30",
+    "stockPrice": 12.1,
+    "numberOfShares": 48218000,
+    "marketCapitalization": 583437800,
+    "minusCashAndCashEquivalents": 100711000,
+    "addTotalDebt": 22844000,
+    "enterpriseValue": 505570800
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2017-03-31",
+    "stockPrice": 12.85,
+    "numberOfShares": 41578000,
+    "marketCapitalization": 534277300,
+    "minusCashAndCashEquivalents": 49364000,
+    "addTotalDebt": 25195000,
+    "enterpriseValue": 510108300
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2016-12-31",
+    "stockPrice": 12.15,
+    "numberOfShares": 40581000,
+    "marketCapitalization": 493059150,
+    "minusCashAndCashEquivalents": 66874000,
+    "addTotalDebt": 27381000,
+    "enterpriseValue": 453566150
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2016-09-30",
+    "stockPrice": 9.18,
+    "numberOfShares": 39926000,
+    "marketCapitalization": 366520680,
+    "minusCashAndCashEquivalents": 30300000,
+    "addTotalDebt": 29742000,
+    "enterpriseValue": 365962680
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2016-06-30",
+    "stockPrice": 9.49,
+    "numberOfShares": 39666000,
+    "marketCapitalization": 376430340,
+    "minusCashAndCashEquivalents": 27724000,
+    "addTotalDebt": 29604000,
+    "enterpriseValue": 378310340
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2016-03-31",
+    "stockPrice": 7.05,
+    "numberOfShares": 39592000,
+    "marketCapitalization": 279123600,
+    "minusCashAndCashEquivalents": 42269000,
+    "addTotalDebt": 29466000,
+    "enterpriseValue": 266320600
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2015-12-31",
+    "stockPrice": 10.46,
+    "numberOfShares": 38446317,
+    "marketCapitalization": 402148475,
+    "minusCashAndCashEquivalents": 65076000,
+    "addTotalDebt": 14639000,
+    "enterpriseValue": 351711475
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2015-09-30",
+    "stockPrice": 6.69,
+    "numberOfShares": 38473913,
+    "marketCapitalization": 257390477,
+    "minusCashAndCashEquivalents": 25962000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 231428477
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2015-06-30",
+    "stockPrice": 6.72,
+    "numberOfShares": 38725000,
+    "marketCapitalization": 260232000,
+    "minusCashAndCashEquivalents": 24839000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 235393000
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2015-03-31",
+    "stockPrice": 6.78,
+    "numberOfShares": 38675000,
+    "marketCapitalization": 262216500,
+    "minusCashAndCashEquivalents": 22546000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 239670500
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2014-12-31",
+    "stockPrice": 8.01,
+    "numberOfShares": 36748000,
+    "marketCapitalization": 294351480,
+    "minusCashAndCashEquivalents": 20215000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 274136480
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2014-09-30",
+    "stockPrice": 3.52,
+    "numberOfShares": 36609000,
+    "marketCapitalization": 128863680,
+    "minusCashAndCashEquivalents": 12907000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 115956680
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2014-06-30",
+    "stockPrice": 4.78,
+    "numberOfShares": 36443000,
+    "marketCapitalization": 174197540,
+    "minusCashAndCashEquivalents": 12355000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 161842540
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2014-03-31",
+    "stockPrice": 9.5,
+    "numberOfShares": 32985000,
+    "marketCapitalization": 313357500,
+    "minusCashAndCashEquivalents": 13256000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 300101500
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2013-12-31",
+    "stockPrice": 6.5,
+    "numberOfShares": 29836000,
+    "marketCapitalization": 193934000,
+    "minusCashAndCashEquivalents": 20158000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 173776000
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2013-09-30",
+    "stockPrice": 7.57,
+    "numberOfShares": 29395000,
+    "marketCapitalization": 222520150,
+    "minusCashAndCashEquivalents": 19258000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 203262150
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2013-06-30",
+    "stockPrice": 12.57,
+    "numberOfShares": 25773000,
+    "marketCapitalization": 323966610,
+    "minusCashAndCashEquivalents": 17057000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 306909610
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2013-03-31",
+    "stockPrice": 6.84,
+    "numberOfShares": 24010030,
+    "marketCapitalization": 164228605,
+    "minusCashAndCashEquivalents": 13160000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 151068605
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2012-12-31",
+    "stockPrice": 3.96,
+    "numberOfShares": 23740446,
+    "marketCapitalization": 94012166,
+    "minusCashAndCashEquivalents": 14907000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 79105166
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2012-09-30",
+    "stockPrice": 5.16,
+    "numberOfShares": 22360049,
+    "marketCapitalization": 115377852,
+    "minusCashAndCashEquivalents": 15390000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 99987852
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2012-06-30",
+    "stockPrice": 3.84,
+    "numberOfShares": 13538409,
+    "marketCapitalization": 51987490,
+    "minusCashAndCashEquivalents": 63654000,
+    "addTotalDebt": 0,
+    "enterpriseValue": -11666510
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2012-03-31",
+    "stockPrice": 6.9,
+    "numberOfShares": 12680290,
+    "marketCapitalization": 87494001,
+    "minusCashAndCashEquivalents": 17815000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 69679001
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2011-12-31",
+    "stockPrice": 5.76,
+    "numberOfShares": 12132931,
+    "marketCapitalization": 69885682,
+    "minusCashAndCashEquivalents": 18833000,
+    "addTotalDebt": 152000,
+    "enterpriseValue": 51204682
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2011-09-30",
+    "stockPrice": 7.02,
+    "numberOfShares": 12046649,
+    "marketCapitalization": 84567475,
+    "minusCashAndCashEquivalents": 18591000,
+    "addTotalDebt": 310000,
+    "enterpriseValue": 66286475
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2011-06-30",
+    "stockPrice": 7.5,
+    "numberOfShares": 11858604,
+    "marketCapitalization": 88939530,
+    "minusCashAndCashEquivalents": 23769000,
+    "addTotalDebt": 489000,
+    "enterpriseValue": 65659530
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2011-03-31",
+    "stockPrice": 8.94,
+    "numberOfShares": 11151910,
+    "marketCapitalization": 99698075,
+    "minusCashAndCashEquivalents": 15452000,
+    "addTotalDebt": 34000,
+    "enterpriseValue": 84280075
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2010-12-31",
+    "stockPrice": 12.54,
+    "numberOfShares": 11064691,
+    "marketCapitalization": 138751225,
+    "minusCashAndCashEquivalents": 17514000,
+    "addTotalDebt": 985000,
+    "enterpriseValue": 122222225
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2010-09-30",
+    "stockPrice": 15.84,
+    "numberOfShares": 10739021,
+    "marketCapitalization": 170106092,
+    "minusCashAndCashEquivalents": 30439000,
+    "addTotalDebt": 309000,
+    "enterpriseValue": 139976092
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2010-06-30",
+    "stockPrice": 14.22,
+    "numberOfShares": 10635809,
+    "marketCapitalization": 151241203,
+    "minusCashAndCashEquivalents": 18365000,
+    "addTotalDebt": 489000,
+    "enterpriseValue": 133365203
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2010-03-31",
+    "stockPrice": 19.2,
+    "numberOfShares": 10332583,
+    "marketCapitalization": 198385593,
+    "minusCashAndCashEquivalents": 20715000,
+    "addTotalDebt": 724000,
+    "enterpriseValue": 178394593
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2009-12-31",
+    "stockPrice": 17.46,
+    "numberOfShares": 10154021,
+    "marketCapitalization": 177289206,
+    "minusCashAndCashEquivalents": 25561000,
+    "addTotalDebt": 2601000,
+    "enterpriseValue": 154329206
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2009-09-30",
+    "stockPrice": 31.74,
+    "numberOfShares": 10083686,
+    "marketCapitalization": 320056193,
+    "minusCashAndCashEquivalents": 23715000,
+    "addTotalDebt": 1338000,
+    "enterpriseValue": 297679193
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2009-06-30",
+    "stockPrice": 16.98,
+    "numberOfShares": 9409185,
+    "marketCapitalization": 159767961,
+    "minusCashAndCashEquivalents": 85032000,
+    "addTotalDebt": 15841000,
+    "enterpriseValue": 90576961
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2009-03-31",
+    "stockPrice": 10.2,
+    "numberOfShares": 8597017,
+    "marketCapitalization": 87689573,
+    "minusCashAndCashEquivalents": 48489000,
+    "addTotalDebt": 16467000,
+    "enterpriseValue": 55667573
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2008-12-31",
+    "stockPrice": 17.1,
+    "numberOfShares": 8248516,
+    "marketCapitalization": 141049623,
+    "minusCashAndCashEquivalents": 41819000,
+    "addTotalDebt": 4640000,
+    "enterpriseValue": 103870623
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2008-09-30",
+    "stockPrice": 28.44,
+    "numberOfShares": 8236016,
+    "marketCapitalization": 234232295,
+    "minusCashAndCashEquivalents": 70636000,
+    "addTotalDebt": 5541000,
+    "enterpriseValue": 169137295
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2008-06-30",
+    "stockPrice": 22.26,
+    "numberOfShares": 8227683,
+    "marketCapitalization": 183148223,
+    "minusCashAndCashEquivalents": 86861000,
+    "addTotalDebt": 6605000,
+    "enterpriseValue": 102892223
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2008-03-31",
+    "stockPrice": 19.92,
+    "numberOfShares": 8215683,
+    "marketCapitalization": 163656405,
+    "minusCashAndCashEquivalents": 105540000,
+    "addTotalDebt": 7654000,
+    "enterpriseValue": 65770405
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2007-12-31",
+    "stockPrice": 28.38,
+    "numberOfShares": 8206683,
+    "marketCapitalization": 232905663,
+    "minusCashAndCashEquivalents": 116564000,
+    "addTotalDebt": 8689000,
+    "enterpriseValue": 125030663
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2007-09-30",
+    "stockPrice": 31.5,
+    "numberOfShares": 7910015,
+    "marketCapitalization": 249165472,
+    "minusCashAndCashEquivalents": 108491000,
+    "addTotalDebt": 9712000,
+    "enterpriseValue": 150386472
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2007-06-30",
+    "stockPrice": 33.9,
+    "numberOfShares": 7815015,
+    "marketCapitalization": 264929008,
+    "minusCashAndCashEquivalents": 111223000,
+    "addTotalDebt": 10721000,
+    "enterpriseValue": 164427008
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2007-03-31",
+    "stockPrice": 41.76,
+    "numberOfShares": 7793515,
+    "marketCapitalization": 325457186,
+    "minusCashAndCashEquivalents": 104048000,
+    "addTotalDebt": 11693000,
+    "enterpriseValue": 233102186
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2006-12-31",
+    "stockPrice": 44.88,
+    "numberOfShares": 7793515,
+    "marketCapitalization": 349772953,
+    "minusCashAndCashEquivalents": 39387000,
+    "addTotalDebt": 10835000,
+    "enterpriseValue": 321220953
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2006-09-30",
+    "stockPrice": 38.58,
+    "numberOfShares": 6121512,
+    "marketCapitalization": 236167932,
+    "minusCashAndCashEquivalents": 48214000,
+    "addTotalDebt": 9971000,
+    "enterpriseValue": 197924932
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2006-06-30",
+    "stockPrice": 37.74,
+    "numberOfShares": 6062678,
+    "marketCapitalization": 228805467,
+    "minusCashAndCashEquivalents": 49766000,
+    "addTotalDebt": 9126000,
+    "enterpriseValue": 188165467
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2006-03-31",
+    "stockPrice": 43.74,
+    "numberOfShares": 5707844,
+    "marketCapitalization": 249661096,
+    "minusCashAndCashEquivalents": 73111000,
+    "addTotalDebt": 8696000,
+    "enterpriseValue": 185246096
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2005-12-31",
+    "stockPrice": 39.12,
+    "numberOfShares": 5707844,
+    "marketCapitalization": 223290857,
+    "minusCashAndCashEquivalents": 13515000,
+    "addTotalDebt": 9362000,
+    "enterpriseValue": 219137857
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2005-09-30",
+    "stockPrice": 48.84,
+    "numberOfShares": 4764842,
+    "marketCapitalization": 232714883,
+    "minusCashAndCashEquivalents": 11803000,
+    "addTotalDebt": 9522000,
+    "enterpriseValue": 230433883
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2005-06-30",
+    "stockPrice": 41.64,
+    "numberOfShares": 4752342,
+    "marketCapitalization": 197887520,
+    "minusCashAndCashEquivalents": 10910000,
+    "addTotalDebt": 9316000,
+    "enterpriseValue": 196293520
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2005-03-31",
+    "stockPrice": 39.36,
+    "numberOfShares": 4730342,
+    "marketCapitalization": 186186261,
+    "minusCashAndCashEquivalents": 14816000,
+    "addTotalDebt": 9911000,
+    "enterpriseValue": 181281261
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2004-12-31",
+    "stockPrice": 61.5,
+    "numberOfShares": 4721008,
+    "marketCapitalization": 290341992,
+    "minusCashAndCashEquivalents": 13061000,
+    "addTotalDebt": 10493000,
+    "enterpriseValue": 287773992
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2004-09-30",
+    "stockPrice": 79.8,
+    "numberOfShares": 4692342,
+    "marketCapitalization": 374448891,
+    "minusCashAndCashEquivalents": 19775000,
+    "addTotalDebt": 9815000,
+    "enterpriseValue": 364488891
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2004-06-30",
+    "stockPrice": 89.1,
+    "numberOfShares": 3364673,
+    "marketCapitalization": 299792364,
+    "minusCashAndCashEquivalents": 17650000,
+    "addTotalDebt": 10318000,
+    "enterpriseValue": 292460364
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2004-03-31",
+    "stockPrice": 96.6,
+    "numberOfShares": 385500,
+    "marketCapitalization": 37239300,
+    "minusCashAndCashEquivalents": 8916000,
+    "addTotalDebt": 9591000,
+    "enterpriseValue": 37914300
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2003-12-31",
+    "stockPrice": 96.6,
+    "numberOfShares": 318287,
+    "marketCapitalization": 30746524,
+    "minusCashAndCashEquivalents": 10991000,
+    "addTotalDebt": 10083000,
+    "enterpriseValue": 29838524
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2003-09-30",
+    "stockPrice": 96.6,
+    "numberOfShares": 318558,
+    "marketCapitalization": 30772702,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 30772702
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2003-06-30",
+    "stockPrice": 96.6,
+    "numberOfShares": 313667,
+    "marketCapitalization": 30300232,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 30300232
+  },
+  {
+    "symbol": "CYTK",
+    "date": "2003-03-31",
+    "stockPrice": 96.6,
+    "numberOfShares": 309167,
+    "marketCapitalization": 29865532,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 29865532
+  }
+]

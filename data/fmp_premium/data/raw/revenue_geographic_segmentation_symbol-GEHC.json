@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "GEHC",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-12-31",
+    "data": {
+      "CHINA": 2031000000,
+      "Other Countries": 9427000000,
+      "UNITED STATES": 9168000000
+    }
+  },
+  {
+    "symbol": "GEHC",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "CHINA": 2135000000,
+      "Other Countries": 8919000000,
+      "UNITED STATES": 8617000000
+    }
+  },
+  {
+    "symbol": "GEHC",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "CHINA": 2560000000,
+      "Other Countries": 8764000000,
+      "UNITED STATES": 8228000000
+    }
+  }
+]

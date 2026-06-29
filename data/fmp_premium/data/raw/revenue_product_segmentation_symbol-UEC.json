@@ -1,0 +1,45 @@
+[
+  {
+    "symbol": "UEC",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-07-31",
+    "data": {
+      "Sale of Inventory": 66837000
+    }
+  },
+  {
+    "symbol": "UEC",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-07-31",
+    "data": {
+      "Sale of Inventory": 0,
+      "Toll Processing Services": 224000
+    }
+  },
+  {
+    "symbol": "UEC",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-07-31",
+    "data": {
+      "Sale of Inventory": 114353000,
+      "Toll Processing Services": 366000
+    }
+  },
+  {
+    "symbol": "UEC",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-07-31",
+    "data": {
+      "Sale of Inventory": 15689000,
+      "Toll Processing Services": 179000
+    }
+  }
+]

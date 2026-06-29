@@ -1,0 +1,812 @@
+[
+  {
+    "symbol": "NWG",
+    "date": "2026-07-31",
+    "epsActual": null,
+    "epsEstimated": 0.47,
+    "revenueActual": null,
+    "revenueEstimated": 5986619000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2026-05-01",
+    "epsActual": 0.48,
+    "epsEstimated": 0.44,
+    "revenueActual": 5936686000,
+    "revenueEstimated": 5800129000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2026-02-13",
+    "epsActual": 0.46,
+    "epsEstimated": 0.38,
+    "revenueActual": 5886261000,
+    "revenueEstimated": 5681364000,
+    "lastUpdated": "2026-05-13"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2025-10-24",
+    "epsActual": 0.53,
+    "epsEstimated": 0.4176,
+    "revenueActual": 4332000000,
+    "revenueEstimated": 5577382847,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2025-07-25",
+    "epsActual": 0.41,
+    "epsEstimated": 0.3652,
+    "revenueActual": 3991000000,
+    "revenueEstimated": 5455460007,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2025-05-02",
+    "epsActual": 0.39,
+    "epsEstimated": 0.3433,
+    "revenueActual": 3980000000,
+    "revenueEstimated": 5310498014,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2025-02-14",
+    "epsActual": 0.37,
+    "epsEstimated": 0.261,
+    "revenueActual": 3775000000,
+    "revenueEstimated": 4726174888,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2024-10-25",
+    "epsActual": 0.36,
+    "epsEstimated": 0.3062,
+    "revenueActual": 3744000000,
+    "revenueEstimated": 4665365985,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2024-07-26",
+    "epsActual": 0.35,
+    "epsEstimated": 0.2453,
+    "revenueActual": 3650000000,
+    "revenueEstimated": 4353125281,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2024-04-26",
+    "epsActual": 0.26,
+    "epsEstimated": 0.23,
+    "revenueActual": 4427992800,
+    "revenueEstimated": 4272563870,
+    "lastUpdated": "2024-12-02"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2024-02-16",
+    "epsActual": 0.34,
+    "epsEstimated": 0.2,
+    "revenueActual": 4438541016,
+    "revenueEstimated": 4285887399,
+    "lastUpdated": "2024-12-02"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2023-10-27",
+    "epsActual": 0.26,
+    "epsEstimated": 0.2561,
+    "revenueActual": 3488000000,
+    "revenueEstimated": 4333816550,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2023-07-28",
+    "epsActual": 0.24,
+    "epsEstimated": 0.279,
+    "revenueActual": 3866000000,
+    "revenueEstimated": 4720983873,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2023-04-28",
+    "epsActual": 0.31,
+    "epsEstimated": 0.2646,
+    "revenueActual": 3876000000,
+    "revenueEstimated": 4589709075,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2023-02-17",
+    "epsActual": 0.32,
+    "epsEstimated": 0.2232,
+    "revenueActual": 3904000000,
+    "revenueEstimated": 4275938116,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2022-10-28",
+    "epsActual": 0.14,
+    "epsEstimated": 0.1533,
+    "revenueActual": 3229000000,
+    "revenueEstimated": 3722832884,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2022-07-29",
+    "epsActual": 0.24,
+    "epsEstimated": 0.1563,
+    "revenueActual": 3236000000,
+    "revenueEstimated": 3564731858,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2022-04-29",
+    "epsActual": 0.2,
+    "epsEstimated": 0.133,
+    "revenueActual": 3008000000,
+    "revenueEstimated": 3525868091,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2022-02-18",
+    "epsActual": 0.09,
+    "epsEstimated": 0.08155,
+    "revenueActual": 3686602186,
+    "revenueEstimated": 3575187621,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2021-10-29",
+    "epsActual": 0.17,
+    "epsEstimated": null,
+    "revenueActual": 4209037231,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2021-07-30",
+    "epsActual": 0.32,
+    "epsEstimated": null,
+    "revenueActual": 4297232133,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2021-04-29",
+    "epsActual": 0.15,
+    "epsEstimated": null,
+    "revenueActual": 4157163688,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2021-02-19",
+    "epsActual": -0.02,
+    "epsEstimated": null,
+    "revenueActual": 4475210985,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2020-10-30",
+    "epsActual": 0.01,
+    "epsEstimated": null,
+    "revenueActual": 3883589420,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2020-07-31",
+    "epsActual": 0.24,
+    "epsEstimated": null,
+    "revenueActual": 4079325370,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2020-05-01",
+    "epsActual": 0.1726,
+    "epsEstimated": null,
+    "revenueActual": 4817534697,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2020-02-14",
+    "epsActual": 0.688,
+    "epsEstimated": null,
+    "revenueActual": 6533184602,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2019-10-24",
+    "epsActual": -0.09202,
+    "epsEstimated": null,
+    "revenueActual": 4701824365,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2019-08-02",
+    "epsActual": 0.646,
+    "epsEstimated": null,
+    "revenueActual": 6229392236,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2019-04-26",
+    "epsActual": 0.3769,
+    "epsEstimated": null,
+    "revenueActual": 4915262262,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2019-02-28",
+    "epsActual": 0.2241,
+    "epsEstimated": null,
+    "revenueActual": 4979299064,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2018-10-26",
+    "epsActual": 0.2605,
+    "epsEstimated": null,
+    "revenueActual": 5570232267,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2018-08-03",
+    "epsActual": 0.106,
+    "epsEstimated": null,
+    "revenueActual": 5167027257,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2018-04-27",
+    "epsActual": 0.4501,
+    "epsEstimated": null,
+    "revenueActual": 5423800164,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2018-02-23",
+    "epsActual": -0.20698,
+    "epsEstimated": null,
+    "revenueActual": 4839681600,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2017-10-27",
+    "epsActual": 0.2967,
+    "epsEstimated": null,
+    "revenueActual": 5515133886,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2017-08-04",
+    "epsActual": 0.388,
+    "epsEstimated": null,
+    "revenueActual": 5063189582,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2017-04-28",
+    "epsActual": 0.1698,
+    "epsEstimated": null,
+    "revenueActual": 4661498732,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2017-02-24",
+    "epsActual": -1.92316,
+    "epsEstimated": null,
+    "revenueActual": 4881022210,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2016-10-28",
+    "epsActual": -0.15854,
+    "epsEstimated": null,
+    "revenueActual": 5102252544,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2016-08-05",
+    "epsActual": -0.47616,
+    "epsEstimated": null,
+    "revenueActual": 4626655930,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2016-04-29",
+    "epsActual": 0.1696,
+    "epsEstimated": null,
+    "revenueActual": 5377153909,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2016-03-16",
+    "epsActual": -1.44455,
+    "epsEstimated": null,
+    "revenueActual": 5213397671,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2015-10-30",
+    "epsActual": 0.586,
+    "epsEstimated": null,
+    "revenueActual": 5969503971,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2015-07-30",
+    "epsActual": 0.2247,
+    "epsEstimated": null,
+    "revenueActual": 6957429187,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2015-04-30",
+    "epsActual": -0.21504,
+    "epsEstimated": null,
+    "revenueActual": 6373955191,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2015-02-26",
+    "epsActual": -3.43697,
+    "epsEstimated": null,
+    "revenueActual": 5955086152,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2014-10-31",
+    "epsActual": 0.606,
+    "epsEstimated": null,
+    "revenueActual": 7353947354,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2014-08-01",
+    "epsActual": 0.4152,
+    "epsEstimated": null,
+    "revenueActual": 8247592094,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2014-05-02",
+    "epsActual": 0.805,
+    "epsEstimated": null,
+    "revenueActual": 9100870726,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2013-12-31",
+    "epsActual": -5.34244,
+    "epsEstimated": null,
+    "revenueActual": 8228276661,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2013-11-01",
+    "epsActual": -0.44971,
+    "epsEstimated": null,
+    "revenueActual": 9308631042,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2013-08-02",
+    "epsActual": 0.1417,
+    "epsEstimated": null,
+    "revenueActual": 10836105564,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2013-05-03",
+    "epsActual": 0.2757,
+    "epsEstimated": null,
+    "revenueActual": 10799639564,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2013-03-27",
+    "epsActual": -1.51854,
+    "epsEstimated": null,
+    "revenueActual": 9804596952,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2012-11-02",
+    "epsActual": -0.81901,
+    "epsEstimated": null,
+    "revenueActual": 9306353916,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2012-08-03",
+    "epsActual": -0.24851,
+    "epsEstimated": null,
+    "revenueActual": 10867792477,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2012-05-04",
+    "epsActual": -0.97735,
+    "epsEstimated": null,
+    "revenueActual": 9039690223,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2012-03-27",
+    "epsActual": -1.01325,
+    "epsEstimated": null,
+    "revenueActual": 8865740257,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2011-11-04",
+    "epsActual": 0.752,
+    "epsEstimated": null,
+    "revenueActual": 16973187177,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2011-08-05",
+    "epsActual": -0.57439,
+    "epsEstimated": null,
+    "revenueActual": 16715870171,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2011-05-06",
+    "epsActual": -0.3366,
+    "epsEstimated": null,
+    "revenueActual": 14712238472,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2011-03-31",
+    "epsActual": 0.00689,
+    "epsEstimated": null,
+    "revenueActual": 14190298608,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2010-11-05",
+    "epsActual": -0.72694,
+    "epsEstimated": null,
+    "revenueActual": 13033004830,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2010-08-06",
+    "epsActual": 0.1677,
+    "epsEstimated": null,
+    "revenueActual": 17613901514,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2010-05-07",
+    "epsActual": -0.08735,
+    "epsEstimated": null,
+    "revenueActual": 16230600089,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2009-12-31",
+    "epsActual": -0.77188,
+    "epsEstimated": null,
+    "revenueActual": null,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2009-11-06",
+    "epsActual": -0.90119,
+    "epsEstimated": null,
+    "revenueActual": 14947102835,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2009-08-07",
+    "epsActual": 0.1738,
+    "epsEstimated": null,
+    "revenueActual": 22929474708,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2009-03-31",
+    "epsActual": -0.41998,
+    "epsEstimated": null,
+    "revenueActual": 18769885837,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2008-12-31",
+    "epsActual": -15.55872,
+    "epsEstimated": null,
+    "revenueActual": 4930548084,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2008-09-30",
+    "epsActual": 0.701,
+    "epsEstimated": null,
+    "revenueActual": 30502043745,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2008-08-08",
+    "epsActual": -0.63825,
+    "epsEstimated": null,
+    "revenueActual": 54393155334,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2008-05-14",
+    "epsActual": 0.3346,
+    "epsEstimated": null,
+    "revenueActual": 63021370959,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2008-05-14",
+    "epsActual": 0.3346,
+    "epsEstimated": null,
+    "revenueActual": 63021370959,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2008-03-31",
+    "epsActual": 0.2221,
+    "epsEstimated": null,
+    "revenueActual": 14183215841,
+    "revenueEstimated": null,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2007-04-24",
+    "epsActual": 0.2845,
+    "epsEstimated": null,
+    "revenueActual": 58260830549,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2007-04-24",
+    "epsActual": 0.2845,
+    "epsEstimated": null,
+    "revenueActual": 58260830549,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2006-04-26",
+    "epsActual": 0.2153,
+    "epsEstimated": null,
+    "revenueActual": 47539368354,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2006-04-26",
+    "epsActual": 0.2153,
+    "epsEstimated": null,
+    "revenueActual": 47539368354,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2005-03-29",
+    "epsActual": 0.2232,
+    "epsEstimated": null,
+    "revenueActual": 60430523808,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2005-03-29",
+    "epsActual": 0.2232,
+    "epsEstimated": null,
+    "revenueActual": 60430523808,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2004-04-26",
+    "epsActual": 0.1531,
+    "epsEstimated": null,
+    "revenueActual": 32654343375,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2004-04-26",
+    "epsActual": 0.1531,
+    "epsEstimated": null,
+    "revenueActual": 32654343375,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2003-03-19",
+    "epsActual": 0.1032,
+    "epsEstimated": null,
+    "revenueActual": 33261115500,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2003-03-19",
+    "epsActual": 0.1032,
+    "epsEstimated": null,
+    "revenueActual": 33261115500,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2002-04-12",
+    "epsActual": 0.08942,
+    "epsEstimated": null,
+    "revenueActual": 33173825720,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2002-04-12",
+    "epsActual": 0.08942,
+    "epsEstimated": null,
+    "revenueActual": 33173825720,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2000-12-31",
+    "epsActual": 0.07475,
+    "epsEstimated": null,
+    "revenueActual": 28700587350,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  },
+  {
+    "symbol": "NWG",
+    "date": "2000-12-31",
+    "epsActual": 0.07475,
+    "epsEstimated": null,
+    "revenueActual": 28700587350,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-06-17"
+  }
+]

@@ -1,0 +1,596 @@
+[
+  {
+    "symbol": "USAC",
+    "date": "2026-08-05",
+    "epsActual": null,
+    "epsEstimated": 0.3,
+    "revenueActual": null,
+    "revenueEstimated": 331231900,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2026-05-05",
+    "epsActual": 0.27,
+    "epsEstimated": 0.35,
+    "revenueActual": 331275000,
+    "revenueEstimated": 308350300,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2026-02-17",
+    "epsActual": 0.22,
+    "epsEstimated": 0.28,
+    "revenueActual": 252484000,
+    "revenueEstimated": 253547300,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2025-11-05",
+    "epsActual": 0.26,
+    "epsEstimated": 0.22,
+    "revenueActual": 250256000,
+    "revenueEstimated": 253434120,
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2025-08-06",
+    "epsActual": 0.22,
+    "epsEstimated": 0.21,
+    "revenueActual": 250125000,
+    "revenueEstimated": 246962000,
+    "lastUpdated": "2025-11-06"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2025-05-06",
+    "epsActual": 0.18,
+    "epsEstimated": 0.22,
+    "revenueActual": 245234000,
+    "revenueEstimated": 245648000,
+    "lastUpdated": "2025-08-06"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2025-02-11",
+    "epsActual": 0.18,
+    "epsEstimated": 0.24,
+    "revenueActual": 245892000,
+    "revenueEstimated": 245589000,
+    "lastUpdated": "2025-05-11"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2024-11-05",
+    "epsActual": 0.13,
+    "epsEstimated": 0.2,
+    "revenueActual": 239968000,
+    "revenueEstimated": 243910000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2024-08-06",
+    "epsActual": 0.23,
+    "epsEstimated": 0.18,
+    "revenueActual": 235313000,
+    "revenueEstimated": 234900000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2024-05-07",
+    "epsActual": 0.16,
+    "epsEstimated": 0.12,
+    "revenueActual": 229276000,
+    "revenueEstimated": 228350000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2024-02-13",
+    "epsActual": 0.1,
+    "epsEstimated": 0.12,
+    "revenueActual": 225049000,
+    "revenueEstimated": 220800000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2023-10-31",
+    "epsActual": 0.09,
+    "epsEstimated": 0.11,
+    "revenueActual": 217085000,
+    "revenueEstimated": 212250000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2023-08-01",
+    "epsActual": 0.08,
+    "epsEstimated": 0.07,
+    "revenueActual": 206920000,
+    "revenueEstimated": 203550000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2023-05-02",
+    "epsActual": -0.01,
+    "epsEstimated": -0.00412,
+    "revenueActual": 197124000,
+    "revenueEstimated": 195350000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2023-02-14",
+    "epsActual": -0.04,
+    "epsEstimated": 0.06,
+    "revenueActual": 190112000,
+    "revenueEstimated": 183700000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2022-11-01",
+    "epsActual": -0.03,
+    "epsEstimated": -0.00857,
+    "revenueActual": 179613000,
+    "revenueEstimated": 175500000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2022-08-02",
+    "epsActual": -0.03,
+    "epsEstimated": -0.02143,
+    "revenueActual": 171461000,
+    "revenueEstimated": 168350000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2022-05-03",
+    "epsActual": -0.09,
+    "epsEstimated": -0.075,
+    "revenueActual": 163412000,
+    "revenueEstimated": 161300000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2022-02-15",
+    "epsActual": -0.09,
+    "epsEstimated": -0.07,
+    "revenueActual": 159943000,
+    "revenueEstimated": 159600000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2021-11-02",
+    "epsActual": -0.08,
+    "epsEstimated": -0.1,
+    "revenueActual": 158627000,
+    "revenueEstimated": 162110000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2021-08-03",
+    "epsActual": -0.1,
+    "epsEstimated": -0.13,
+    "revenueActual": 156562000,
+    "revenueEstimated": 160410000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2021-05-04",
+    "epsActual": -0.12,
+    "epsEstimated": -0.14,
+    "revenueActual": 157513000,
+    "revenueEstimated": 159850000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2021-02-16",
+    "epsActual": -0.14,
+    "epsEstimated": -0.12,
+    "revenueActual": 158367000,
+    "revenueEstimated": 126693600,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2020-11-03",
+    "epsActual": -0.06,
+    "epsEstimated": -0.08,
+    "revenueActual": 161666000,
+    "revenueEstimated": 282915500,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2020-08-04",
+    "epsActual": -0.06,
+    "epsEstimated": -0.04286,
+    "revenueActual": 168651000,
+    "revenueEstimated": 112434000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2020-05-05",
+    "epsActual": 0.04,
+    "epsEstimated": 0.00772,
+    "revenueActual": 178999000,
+    "revenueEstimated": 562889.94,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2020-02-18",
+    "epsActual": -0.01,
+    "epsEstimated": -0.02,
+    "revenueActual": 178188000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2019-11-05",
+    "epsActual": 0.02,
+    "epsEstimated": 0.00788,
+    "revenueActual": 175756000,
+    "revenueEstimated": 351512000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2019-08-06",
+    "epsActual": 0.01,
+    "epsEstimated": 0.00294,
+    "revenueActual": 173675000,
+    "revenueEstimated": 173675000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2019-05-07",
+    "epsActual": -0.02,
+    "epsEstimated": -0.01143,
+    "revenueActual": 170746000,
+    "revenueEstimated": 85373000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2019-02-19",
+    "epsActual": 0.01,
+    "epsEstimated": -0.07,
+    "revenueActual": 171977000,
+    "revenueEstimated": 1203839000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2018-11-06",
+    "epsActual": -0.1,
+    "epsEstimated": -0.02262,
+    "revenueActual": 168947000,
+    "revenueEstimated": 36202928,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2018-08-07",
+    "epsActual": -0.64,
+    "epsEstimated": -0.08,
+    "revenueActual": 166898000,
+    "revenueEstimated": 137692498,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2018-05-09",
+    "epsActual": 0.12,
+    "epsEstimated": 0.11,
+    "revenueActual": 77739000,
+    "revenueEstimated": 36586956,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2018-02-12",
+    "epsActual": 0.07,
+    "epsEstimated": 0.11,
+    "revenueActual": 75385000,
+    "revenueEstimated": 87480000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2017-11-07",
+    "epsActual": 0.07,
+    "epsEstimated": 0.07,
+    "revenueActual": 72791000,
+    "revenueEstimated": 63200000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2017-08-04",
+    "epsActual": 0.04,
+    "epsEstimated": 0.05,
+    "revenueActual": 66014000,
+    "revenueEstimated": 84250000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2017-05-04",
+    "epsActual": 0.02,
+    "epsEstimated": 0.05,
+    "revenueActual": 66032000,
+    "revenueEstimated": 114275000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2017-02-13",
+    "epsActual": 0.07,
+    "epsEstimated": 0.04044,
+    "revenueActual": 74913000,
+    "revenueEstimated": 55613250,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2016-11-08",
+    "epsActual": 0.06,
+    "epsEstimated": 0.08,
+    "revenueActual": 61130000,
+    "revenueEstimated": 244400000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2016-08-04",
+    "epsActual": 0.06,
+    "epsEstimated": 0.12,
+    "revenueActual": 63511000,
+    "revenueEstimated": 127000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2016-05-05",
+    "epsActual": 0.24,
+    "epsEstimated": 0.15,
+    "revenueActual": 66367000,
+    "revenueEstimated": 41500000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2016-02-10",
+    "epsActual": 1.5,
+    "epsEstimated": 0.16,
+    "revenueActual": 68615000,
+    "revenueEstimated": 7317333.33,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2015-11-05",
+    "epsActual": 0.22,
+    "epsEstimated": 0.14,
+    "revenueActual": 70540000,
+    "revenueEstimated": 44863636,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2015-08-05",
+    "epsActual": 0.49,
+    "epsEstimated": 0.13,
+    "revenueActual": 66390000,
+    "revenueEstimated": 56886922,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2015-05-07",
+    "epsActual": 0.24,
+    "epsEstimated": 0.15,
+    "revenueActual": 65000000,
+    "revenueEstimated": 40625000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2015-02-17",
+    "epsActual": 0.21,
+    "epsEstimated": 0.15,
+    "revenueActual": 60995000,
+    "revenueEstimated": 43571428,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2014-10-30",
+    "epsActual": 0.14,
+    "epsEstimated": 0.13,
+    "revenueActual": 57045000,
+    "revenueEstimated": 52928571,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2014-08-12",
+    "epsActual": 0.2,
+    "epsEstimated": 0.13,
+    "revenueActual": 53266000,
+    "revenueEstimated": 34644999,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2014-05-07",
+    "epsActual": 0.1,
+    "epsEstimated": 0.12,
+    "revenueActual": 50202000,
+    "revenueEstimated": 60240000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2014-02-18",
+    "epsActual": 0.12,
+    "epsEstimated": 0.2,
+    "revenueActual": 48643000,
+    "revenueEstimated": 81000000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2013-11-07",
+    "epsActual": 0.05,
+    "epsEstimated": 0.12,
+    "revenueActual": 38362000,
+    "revenueEstimated": 92159999,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2013-08-13",
+    "epsActual": 0.08,
+    "epsEstimated": 0.12,
+    "revenueActual": 32604000,
+    "revenueEstimated": 49950000,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2013-05-09",
+    "epsActual": 0.07,
+    "epsEstimated": 0.09,
+    "revenueActual": 32603841,
+    "revenueEstimated": 41914285,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2013-03-28",
+    "epsActual": 0.03258,
+    "epsEstimated": null,
+    "revenueActual": 31771000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2013-02-25",
+    "epsActual": 0.04526,
+    "epsEstimated": 0.03,
+    "revenueActual": 31021000,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2012-06-30",
+    "epsActual": 0.03425,
+    "epsEstimated": null,
+    "revenueActual": 28870271,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2012-03-31",
+    "epsActual": 0.04271,
+    "epsEstimated": null,
+    "revenueActual": 27124225,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2011-12-31",
+    "epsActual": -0.00145,
+    "epsEstimated": null,
+    "revenueActual": 28394124,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2011-09-30",
+    "epsActual": -0.00805,
+    "epsEstimated": null,
+    "revenueActual": 23672656,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2011-06-30",
+    "epsActual": -0.00865,
+    "epsEstimated": null,
+    "revenueActual": 23158292,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2011-03-31",
+    "epsActual": 0.01838,
+    "epsEstimated": null,
+    "revenueActual": 23495647,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2010-12-31",
+    "epsActual": -0.05485,
+    "epsEstimated": null,
+    "revenueActual": 23469160,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2010-09-30",
+    "epsActual": 0.1418,
+    "epsEstimated": null,
+    "revenueActual": 23391858,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2010-06-30",
+    "epsActual": 0.135,
+    "epsEstimated": null,
+    "revenueActual": 22475722,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "symbol": "USAC",
+    "date": "2010-03-31",
+    "epsActual": 0.1382,
+    "epsEstimated": null,
+    "revenueActual": 22691431,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-04-25"
+  }
+]

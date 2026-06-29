@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "ECG",
+    "date": "2025-12-31",
+    "stockPrice": 85.56,
+    "numberOfShares": 51051000,
+    "marketCapitalization": 4367923560,
+    "minusCashAndCashEquivalents": 170500000,
+    "addTotalDebt": 105539000,
+    "enterpriseValue": 4302962560
+  },
+  {
+    "symbol": "ECG",
+    "date": "2024-12-31",
+    "stockPrice": 65.75,
+    "numberOfShares": 50973000,
+    "marketCapitalization": 3351474750,
+    "minusCashAndCashEquivalents": 86012000,
+    "addTotalDebt": 363202000,
+    "enterpriseValue": 3628664750
+  },
+  {
+    "symbol": "ECG",
+    "date": "2023-12-31",
+    "stockPrice": 49,
+    "numberOfShares": 50972000,
+    "marketCapitalization": 2497628000,
+    "minusCashAndCashEquivalents": 1567000,
+    "addTotalDebt": 222178000,
+    "enterpriseValue": 2718239000
+  },
+  {
+    "symbol": "ECG",
+    "date": "2022-12-31",
+    "stockPrice": 49,
+    "numberOfShares": 50972000,
+    "marketCapitalization": 2497628000,
+    "minusCashAndCashEquivalents": 2112000,
+    "addTotalDebt": 305223000,
+    "enterpriseValue": 2800739000
+  },
+  {
+    "symbol": "ECG",
+    "date": "2021-12-31",
+    "stockPrice": 49,
+    "numberOfShares": 50972000,
+    "marketCapitalization": 2497628000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2497628000
+  }
+]

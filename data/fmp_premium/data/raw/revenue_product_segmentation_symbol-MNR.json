@@ -1,0 +1,25 @@
+[
+  {
+    "symbol": "MNR",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Natural Gas": 379436000,
+      "Natural Gas, Gathering, Transportation, Marketing and Processing": -3202000
+    }
+  },
+  {
+    "symbol": "MNR",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Natural Gas": 210385000,
+      "Natural Gas, Gathering, Transportation, Marketing and Processing": -11853000,
+      "Oil": 554007000
+    }
+  }
+]

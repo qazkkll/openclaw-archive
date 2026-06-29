@@ -1,0 +1,962 @@
+[
+  {
+    "symbol": "ARIS",
+    "date": "2026-03-31",
+    "stockPrice": 18.57,
+    "numberOfShares": 205967201,
+    "marketCapitalization": 3824810922,
+    "minusCashAndCashEquivalents": 472082000,
+    "addTotalDebt": 544327000,
+    "enterpriseValue": 3897055922
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2025-12-31",
+    "stockPrice": 16.23,
+    "numberOfShares": 203245172,
+    "marketCapitalization": 3298669141,
+    "minusCashAndCashEquivalents": 391160848,
+    "addTotalDebt": 524553649,
+    "enterpriseValue": 3432061942
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2025-09-30",
+    "stockPrice": 9.8,
+    "numberOfShares": 199171052,
+    "marketCapitalization": 1951876309,
+    "minusCashAndCashEquivalents": 417473649,
+    "addTotalDebt": 517336208,
+    "enterpriseValue": 2051738868
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2025-06-30",
+    "stockPrice": 6.72,
+    "numberOfShares": 179836208,
+    "marketCapitalization": 1208499317,
+    "minusCashAndCashEquivalents": 310854192,
+    "addTotalDebt": 521815591,
+    "enterpriseValue": 1419460716
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2025-03-31",
+    "stockPrice": 4.64,
+    "numberOfShares": 171623000,
+    "marketCapitalization": 796330720,
+    "minusCashAndCashEquivalents": 239831000,
+    "addTotalDebt": 527450000,
+    "enterpriseValue": 1083949720
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2024-12-31",
+    "stockPrice": 3.5,
+    "numberOfShares": 151478000,
+    "marketCapitalization": 530173000,
+    "minusCashAndCashEquivalents": 252535000,
+    "addTotalDebt": 520573000,
+    "enterpriseValue": 798211000
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2024-09-30",
+    "stockPrice": 4.6,
+    "numberOfShares": 169874000,
+    "marketCapitalization": 781420399,
+    "minusCashAndCashEquivalents": 80304000,
+    "addTotalDebt": 369924000,
+    "enterpriseValue": 1071040399
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2024-06-30",
+    "stockPrice": 3.8,
+    "numberOfShares": 151475000,
+    "marketCapitalization": 575605000,
+    "minusCashAndCashEquivalents": 121657000,
+    "addTotalDebt": 368779000,
+    "enterpriseValue": 822727000
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2024-03-31",
+    "stockPrice": 3.64,
+    "numberOfShares": 138382000,
+    "marketCapitalization": 503710480,
+    "minusCashAndCashEquivalents": 147344952,
+    "addTotalDebt": 377277681,
+    "enterpriseValue": 733643209
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2023-12-31",
+    "stockPrice": 3.29,
+    "numberOfShares": 136812000,
+    "marketCapitalization": 450111480,
+    "minusCashAndCashEquivalents": 194622000,
+    "addTotalDebt": 382926000,
+    "enterpriseValue": 638415480
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2023-09-30",
+    "stockPrice": 2.27,
+    "numberOfShares": 137193000,
+    "marketCapitalization": 311428110,
+    "minusCashAndCashEquivalents": 210838000,
+    "addTotalDebt": 373620000,
+    "enterpriseValue": 474210110
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2023-06-30",
+    "stockPrice": 2.4,
+    "numberOfShares": 140290000,
+    "marketCapitalization": 336696000,
+    "minusCashAndCashEquivalents": 214344000,
+    "addTotalDebt": 380169000,
+    "enterpriseValue": 502521000
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2023-03-31",
+    "stockPrice": 3.09,
+    "numberOfShares": 135025000,
+    "marketCapitalization": 417227250,
+    "minusCashAndCashEquivalents": 229502974,
+    "addTotalDebt": 378875537,
+    "enterpriseValue": 566599813
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2022-12-31",
+    "stockPrice": 2.49,
+    "numberOfShares": 100838000,
+    "marketCapitalization": 251086620,
+    "minusCashAndCashEquivalents": 299461000,
+    "addTotalDebt": 436063000,
+    "enterpriseValue": 387688620
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2022-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 100998000,
+    "marketCapitalization": 272694600,
+    "minusCashAndCashEquivalents": 323426488,
+    "addTotalDebt": 429906833,
+    "enterpriseValue": 379174945
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2022-06-30",
+    "stockPrice": 2.73,
+    "numberOfShares": 97913000,
+    "marketCapitalization": 267302490,
+    "minusCashAndCashEquivalents": 265927786,
+    "addTotalDebt": 317518584,
+    "enterpriseValue": 318893288
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2022-03-31",
+    "stockPrice": 4.65,
+    "numberOfShares": 97786000,
+    "marketCapitalization": 454704900,
+    "minusCashAndCashEquivalents": 314509726,
+    "addTotalDebt": 314731336,
+    "enterpriseValue": 454926510
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2021-12-31",
+    "stockPrice": 4.24,
+    "numberOfShares": 98577000,
+    "marketCapitalization": 417966480,
+    "minusCashAndCashEquivalents": 323127019,
+    "addTotalDebt": 317640455,
+    "enterpriseValue": 412479916
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2021-09-30",
+    "stockPrice": 3.8,
+    "numberOfShares": 98486000,
+    "marketCapitalization": 374246800,
+    "minusCashAndCashEquivalents": 329082922,
+    "addTotalDebt": 311176262,
+    "enterpriseValue": 356340140
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2021-06-30",
+    "stockPrice": 4.11,
+    "numberOfShares": 72054000,
+    "marketCapitalization": 296141940,
+    "minusCashAndCashEquivalents": 60448000,
+    "addTotalDebt": 45184000,
+    "enterpriseValue": 280877940
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2021-03-31",
+    "stockPrice": 4.33,
+    "numberOfShares": 61728000,
+    "marketCapitalization": 267282240,
+    "minusCashAndCashEquivalents": 73709000,
+    "addTotalDebt": 61648000,
+    "enterpriseValue": 255221240
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2020-12-31",
+    "stockPrice": 6.33,
+    "numberOfShares": 61728000,
+    "marketCapitalization": 390738240,
+    "minusCashAndCashEquivalents": 122508000,
+    "addTotalDebt": 145150000,
+    "enterpriseValue": 413380240
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2020-09-30",
+    "stockPrice": 4.75,
+    "numberOfShares": 61901000,
+    "marketCapitalization": 294029750,
+    "minusCashAndCashEquivalents": 138195000,
+    "addTotalDebt": 67435000,
+    "enterpriseValue": 223269750
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2020-06-30",
+    "stockPrice": 5.1,
+    "numberOfShares": 61339000,
+    "marketCapitalization": 312828900,
+    "minusCashAndCashEquivalents": 87749000,
+    "addTotalDebt": 70767000,
+    "enterpriseValue": 295846900
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2020-03-31",
+    "stockPrice": 2.88,
+    "numberOfShares": 57876000,
+    "marketCapitalization": 166682880,
+    "minusCashAndCashEquivalents": 99705000,
+    "addTotalDebt": 61705000,
+    "enterpriseValue": 128682880
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2019-12-31",
+    "stockPrice": 4.26,
+    "numberOfShares": 57876000,
+    "marketCapitalization": 246551760,
+    "minusCashAndCashEquivalents": 84239000,
+    "addTotalDebt": 92272000,
+    "enterpriseValue": 254584760
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2019-09-30",
+    "stockPrice": 3.76,
+    "numberOfShares": 50078000,
+    "marketCapitalization": 188293280,
+    "minusCashAndCashEquivalents": 63254000,
+    "addTotalDebt": 92765000,
+    "enterpriseValue": 217804280
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2019-06-30",
+    "stockPrice": 3.15,
+    "numberOfShares": 48338000,
+    "marketCapitalization": 152264700,
+    "minusCashAndCashEquivalents": 51317000,
+    "addTotalDebt": 94055000,
+    "enterpriseValue": 195002700
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2019-03-31",
+    "stockPrice": 2.61,
+    "numberOfShares": 49394000,
+    "marketCapitalization": 128918340,
+    "minusCashAndCashEquivalents": 40170000,
+    "addTotalDebt": 74403000,
+    "enterpriseValue": 163151340
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2018-12-31",
+    "stockPrice": 2.06,
+    "numberOfShares": 48237000,
+    "marketCapitalization": 99368220,
+    "minusCashAndCashEquivalents": 35645000,
+    "addTotalDebt": 74103000,
+    "enterpriseValue": 137826220
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2018-09-30",
+    "stockPrice": 1.78,
+    "numberOfShares": 40321000,
+    "marketCapitalization": 71771380,
+    "minusCashAndCashEquivalents": 29540000,
+    "addTotalDebt": 81358000,
+    "enterpriseValue": 123589380
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2018-06-30",
+    "stockPrice": 2.21,
+    "numberOfShares": 28204000,
+    "marketCapitalization": 62330840,
+    "minusCashAndCashEquivalents": 24915000,
+    "addTotalDebt": 129657000,
+    "enterpriseValue": 167072840
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2018-03-31",
+    "stockPrice": 1.87,
+    "numberOfShares": 21568000,
+    "marketCapitalization": 40332160,
+    "minusCashAndCashEquivalents": 3400000,
+    "addTotalDebt": 101436000,
+    "enterpriseValue": 138368160
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2017-12-31",
+    "stockPrice": 1.63,
+    "numberOfShares": 20853000,
+    "marketCapitalization": 33990390,
+    "minusCashAndCashEquivalents": 3272000,
+    "addTotalDebt": 99152000,
+    "enterpriseValue": 129870390
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2017-09-30",
+    "stockPrice": 1.67,
+    "numberOfShares": 20450000,
+    "marketCapitalization": 34151500,
+    "minusCashAndCashEquivalents": 3335000,
+    "addTotalDebt": 93996000,
+    "enterpriseValue": 124812500
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2017-06-30",
+    "stockPrice": 1.1,
+    "numberOfShares": 20450000,
+    "marketCapitalization": 22495000,
+    "minusCashAndCashEquivalents": 3008000,
+    "addTotalDebt": 91488000,
+    "enterpriseValue": 110975000
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2017-04-30",
+    "stockPrice": 1.09,
+    "numberOfShares": 19588000,
+    "marketCapitalization": 21350920,
+    "minusCashAndCashEquivalents": 2889000,
+    "addTotalDebt": 89375000,
+    "enterpriseValue": 107836920
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2017-01-31",
+    "stockPrice": 1.07,
+    "numberOfShares": 18559000,
+    "marketCapitalization": 19858130,
+    "minusCashAndCashEquivalents": 2783000,
+    "addTotalDebt": 86254000,
+    "enterpriseValue": 103329130
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2016-10-31",
+    "stockPrice": 1.21,
+    "numberOfShares": 15604000,
+    "marketCapitalization": 18880840,
+    "minusCashAndCashEquivalents": 3106000,
+    "addTotalDebt": 82335000,
+    "enterpriseValue": 98109840
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2016-07-31",
+    "stockPrice": 1.7,
+    "numberOfShares": 9170000,
+    "marketCapitalization": 15589000,
+    "minusCashAndCashEquivalents": 2978000,
+    "addTotalDebt": 85058000,
+    "enterpriseValue": 97669000
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2016-04-30",
+    "stockPrice": 1.28,
+    "numberOfShares": 4863000,
+    "marketCapitalization": 6224640,
+    "minusCashAndCashEquivalents": 3024000,
+    "addTotalDebt": 81133000,
+    "enterpriseValue": 84333640
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2016-01-31",
+    "stockPrice": 0.756,
+    "numberOfShares": 1580000,
+    "marketCapitalization": 1194480,
+    "minusCashAndCashEquivalents": 3004000,
+    "addTotalDebt": 103752000,
+    "enterpriseValue": 101942480
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2015-10-31",
+    "stockPrice": 2.1,
+    "numberOfShares": 1580000,
+    "marketCapitalization": 3318000,
+    "minusCashAndCashEquivalents": 2377000,
+    "addTotalDebt": 121951000,
+    "enterpriseValue": 122892000
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2015-07-31",
+    "stockPrice": 2.81,
+    "numberOfShares": 1580000,
+    "marketCapitalization": 4439800,
+    "minusCashAndCashEquivalents": 578000,
+    "addTotalDebt": 120517000,
+    "enterpriseValue": 124378800
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2015-04-30",
+    "stockPrice": 5.27,
+    "numberOfShares": 1580000,
+    "marketCapitalization": 8326600,
+    "minusCashAndCashEquivalents": 444000,
+    "addTotalDebt": 124186000,
+    "enterpriseValue": 132068600
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2015-01-31",
+    "stockPrice": 5.96,
+    "numberOfShares": 1582000,
+    "marketCapitalization": 9428720,
+    "minusCashAndCashEquivalents": 767000,
+    "addTotalDebt": 120298000,
+    "enterpriseValue": 128959720
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2014-10-31",
+    "stockPrice": 7.63,
+    "numberOfShares": 1580000,
+    "marketCapitalization": 12055400,
+    "minusCashAndCashEquivalents": 514000,
+    "addTotalDebt": 158819000,
+    "enterpriseValue": 170360400
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2014-07-31",
+    "stockPrice": 21.6,
+    "numberOfShares": 1580000,
+    "marketCapitalization": 34128000,
+    "minusCashAndCashEquivalents": 3289000,
+    "addTotalDebt": 180692000,
+    "enterpriseValue": 211531000
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2014-04-30",
+    "stockPrice": 19.8,
+    "numberOfShares": 1100000,
+    "marketCapitalization": 21780000,
+    "minusCashAndCashEquivalents": 9544000,
+    "addTotalDebt": 167880000,
+    "enterpriseValue": 180116000
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2014-01-31",
+    "stockPrice": 13.2,
+    "numberOfShares": 1019000,
+    "marketCapitalization": 13450800,
+    "minusCashAndCashEquivalents": 1609000,
+    "addTotalDebt": 172515000,
+    "enterpriseValue": 184356800
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2013-10-31",
+    "stockPrice": 19.07,
+    "numberOfShares": 1019000,
+    "marketCapitalization": 19432330,
+    "minusCashAndCashEquivalents": 2187000,
+    "addTotalDebt": 174989000,
+    "enterpriseValue": 192234330
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2013-07-31",
+    "stockPrice": 24.9,
+    "numberOfShares": 1019000,
+    "marketCapitalization": 25373100,
+    "minusCashAndCashEquivalents": 526000,
+    "addTotalDebt": 130528000,
+    "enterpriseValue": 155375100
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2013-04-30",
+    "stockPrice": 68.89,
+    "numberOfShares": 1019000,
+    "marketCapitalization": 70198910,
+    "minusCashAndCashEquivalents": 1993000,
+    "addTotalDebt": 172091000,
+    "enterpriseValue": 240296910
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2013-01-31",
+    "stockPrice": 107.25,
+    "numberOfShares": 1019000,
+    "marketCapitalization": 109287750,
+    "minusCashAndCashEquivalents": 1298000,
+    "addTotalDebt": 188449000,
+    "enterpriseValue": 296438750
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2012-10-31",
+    "stockPrice": 141.75,
+    "numberOfShares": 1019000,
+    "marketCapitalization": 144443250,
+    "minusCashAndCashEquivalents": 3495000,
+    "addTotalDebt": 88185000,
+    "enterpriseValue": 229133250
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2012-07-31",
+    "stockPrice": 136.88,
+    "numberOfShares": 1019000,
+    "marketCapitalization": 139480720,
+    "minusCashAndCashEquivalents": 6230000,
+    "addTotalDebt": 85554000,
+    "enterpriseValue": 218804720
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2012-04-30",
+    "stockPrice": 170.25,
+    "numberOfShares": 1019000,
+    "marketCapitalization": 173484750,
+    "minusCashAndCashEquivalents": 7513000,
+    "addTotalDebt": 83168000,
+    "enterpriseValue": 249139750
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2012-01-31",
+    "stockPrice": 218.25,
+    "numberOfShares": 1041000,
+    "marketCapitalization": 227198250,
+    "minusCashAndCashEquivalents": 22690000,
+    "addTotalDebt": 73454000,
+    "enterpriseValue": 277962250
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2011-10-31",
+    "stockPrice": 273,
+    "numberOfShares": 1040000,
+    "marketCapitalization": 283920000,
+    "minusCashAndCashEquivalents": 58608000,
+    "addTotalDebt": 78557000,
+    "enterpriseValue": 303869000
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2011-07-31",
+    "stockPrice": 315.86,
+    "numberOfShares": 679462,
+    "marketCapitalization": 214614867,
+    "minusCashAndCashEquivalents": 6508000,
+    "addTotalDebt": 7180000,
+    "enterpriseValue": 215286867
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2011-04-30",
+    "stockPrice": 541.58,
+    "numberOfShares": 571827,
+    "marketCapitalization": 309690066,
+    "minusCashAndCashEquivalents": 13682000,
+    "addTotalDebt": 3416000,
+    "enterpriseValue": 299424066
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2011-01-31",
+    "stockPrice": 697.5,
+    "numberOfShares": 565524,
+    "marketCapitalization": 394452990,
+    "minusCashAndCashEquivalents": 23787000,
+    "addTotalDebt": 2461000,
+    "enterpriseValue": 373126990
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2010-10-31",
+    "stockPrice": 595.8,
+    "numberOfShares": 82838,
+    "marketCapitalization": 49354880,
+    "minusCashAndCashEquivalents": 254058000,
+    "addTotalDebt": 0,
+    "enterpriseValue": -204703120
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2010-07-31",
+    "stockPrice": 495,
+    "numberOfShares": 21500,
+    "marketCapitalization": 10642500,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10642500
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2010-04-30",
+    "stockPrice": 667.95,
+    "numberOfShares": 21500,
+    "marketCapitalization": 14360925,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 14360925
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2010-01-31",
+    "stockPrice": 667.95,
+    "numberOfShares": 6833,
+    "marketCapitalization": 4564102.35,
+    "minusCashAndCashEquivalents": 701.245202,
+    "addTotalDebt": 1323284,
+    "enterpriseValue": 5886685
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2009-10-31",
+    "stockPrice": 520.5,
+    "numberOfShares": 9927,
+    "marketCapitalization": 5167003.5,
+    "minusCashAndCashEquivalents": 2791,
+    "addTotalDebt": 1240166,
+    "enterpriseValue": 6404378
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2009-07-31",
+    "stockPrice": 520.5,
+    "numberOfShares": 9927,
+    "marketCapitalization": 5167003.5,
+    "minusCashAndCashEquivalents": 2801,
+    "addTotalDebt": 1244716,
+    "enterpriseValue": 6408918
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2009-04-30",
+    "stockPrice": 520.5,
+    "numberOfShares": 9927,
+    "marketCapitalization": 5167003.5,
+    "minusCashAndCashEquivalents": 48729,
+    "addTotalDebt": 1130795,
+    "enterpriseValue": 6249069
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2009-01-31",
+    "stockPrice": 778.8,
+    "numberOfShares": 9927,
+    "marketCapitalization": 7731147.6,
+    "minusCashAndCashEquivalents": 48729,
+    "addTotalDebt": 1130795,
+    "enterpriseValue": 8813213
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2008-10-31",
+    "stockPrice": 778.8,
+    "numberOfShares": 9927,
+    "marketCapitalization": 7731147.6,
+    "minusCashAndCashEquivalents": 742.223334,
+    "addTotalDebt": 1644000,
+    "enterpriseValue": 9374405
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2008-07-31",
+    "stockPrice": 778.8,
+    "numberOfShares": 9927,
+    "marketCapitalization": 7731147.6,
+    "minusCashAndCashEquivalents": 76.097561,
+    "addTotalDebt": 8120,
+    "enterpriseValue": 7739191
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2008-04-30",
+    "stockPrice": 753.75,
+    "numberOfShares": 9927,
+    "marketCapitalization": 7482476.25,
+    "minusCashAndCashEquivalents": 980.226969,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7481496
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2008-01-31",
+    "stockPrice": 880.35,
+    "numberOfShares": 9927,
+    "marketCapitalization": 8739234.45,
+    "minusCashAndCashEquivalents": 1008,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8738226
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2007-10-31",
+    "stockPrice": 791.85,
+    "numberOfShares": 9927,
+    "marketCapitalization": 7860694.95,
+    "minusCashAndCashEquivalents": 1138,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7859556
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2007-07-31",
+    "stockPrice": 930,
+    "numberOfShares": 9927,
+    "marketCapitalization": 9232110,
+    "minusCashAndCashEquivalents": 1034,
+    "addTotalDebt": 0,
+    "enterpriseValue": 9231076
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2007-04-30",
+    "stockPrice": 869.1,
+    "numberOfShares": 9927,
+    "marketCapitalization": 8627555.7,
+    "minusCashAndCashEquivalents": 1015,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8626540
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2007-01-31",
+    "stockPrice": 615.6,
+    "numberOfShares": 13020,
+    "marketCapitalization": 8015112,
+    "minusCashAndCashEquivalents": 846.897253,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8014265
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2006-10-31",
+    "stockPrice": 487.95,
+    "numberOfShares": 13020,
+    "marketCapitalization": 6353109,
+    "minusCashAndCashEquivalents": 865.418895,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6352243
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2006-07-31",
+    "stockPrice": 487.95,
+    "numberOfShares": 6833,
+    "marketCapitalization": 3334162.35,
+    "minusCashAndCashEquivalents": 874.254144,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3333288
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2006-04-30",
+    "stockPrice": 787.5,
+    "numberOfShares": 6833,
+    "marketCapitalization": 5380987.5,
+    "minusCashAndCashEquivalents": 1080,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5379907
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2006-01-31",
+    "stockPrice": 554.1,
+    "numberOfShares": 13020,
+    "marketCapitalization": 7214382,
+    "minusCashAndCashEquivalents": 1295,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7213087
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2005-10-31",
+    "stockPrice": 412.5,
+    "numberOfShares": 13020,
+    "marketCapitalization": 5370750,
+    "minusCashAndCashEquivalents": 1234,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5369516
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2005-07-31",
+    "stockPrice": 282,
+    "numberOfShares": 6833,
+    "marketCapitalization": 1926906,
+    "minusCashAndCashEquivalents": 999.836494,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1925906
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2005-04-30",
+    "stockPrice": 282,
+    "numberOfShares": 6833,
+    "marketCapitalization": 1926906,
+    "minusCashAndCashEquivalents": 2049,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1924857
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2005-01-31",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 3147,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1223337
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2004-10-31",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 3238,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1223246
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2004-07-31",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 3005,
+    "addTotalDebt": 4319000,
+    "enterpriseValue": 5542479
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2004-04-30",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 2365,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1224119
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2004-01-31",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 4706,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1221778
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2003-10-31",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 4548,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1221936
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2003-07-31",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 4268,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1222216
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2003-04-30",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 4217,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1222267
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2003-01-31",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 3345,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1223139
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2002-10-31",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 3306,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1223178
+  },
+  {
+    "symbol": "ARIS",
+    "date": "2002-07-31",
+    "stockPrice": 376.8,
+    "numberOfShares": 3255,
+    "marketCapitalization": 1226484,
+    "minusCashAndCashEquivalents": 12310,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1214174
+  }
+]

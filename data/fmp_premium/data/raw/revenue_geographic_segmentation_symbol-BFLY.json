@@ -1,0 +1,55 @@
+[
+  {
+    "symbol": "BFLY",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Non-US": 20173000,
+      "UNITED STATES": 77437000
+    }
+  },
+  {
+    "symbol": "BFLY",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Non-US": 18633000,
+      "UNITED STATES": 63423000
+    }
+  },
+  {
+    "symbol": "BFLY",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "International": 13784000,
+      "United States": 52116000
+    }
+  },
+  {
+    "symbol": "BFLY",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "United States": 51072000
+    }
+  },
+  {
+    "symbol": "BFLY",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "United States": 42993000
+    }
+  }
+]

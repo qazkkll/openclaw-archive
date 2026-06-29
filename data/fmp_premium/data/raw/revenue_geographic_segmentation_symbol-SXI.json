@@ -1,0 +1,41 @@
+[
+  {
+    "symbol": "SXI",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-06-30",
+    "data": {
+      "Asia Pacific": 194035000,
+      "EMEA": 119610000,
+      "Other Americas": 9123000,
+      "UNITED STATES": 467339000
+    }
+  },
+  {
+    "symbol": "SXI",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-06-30",
+    "data": {
+      "Asia": 98665000,
+      "EMEA": 128037000,
+      "Other Geographical": 13645000,
+      "UNITED STATES": 364188000
+    }
+  },
+  {
+    "symbol": "SXI",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-06-30",
+    "data": {
+      "Asia": 108667000,
+      "EMEA": 144636000,
+      "Other Geographical": 17368000,
+      "UNITED STATES": 520908000
+    }
+  }
+]

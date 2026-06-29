@@ -1,0 +1,66 @@
+[
+  {
+    "symbol": "MFG",
+    "date": "2021-03-31",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Sell",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "MFG",
+    "date": "2016-02-04",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "MFG",
+    "date": "2016-02-04",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "MFG",
+    "date": "2015-06-12",
+    "gradingCompany": "Credit Agricole",
+    "previousGrade": "Outperform",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "MFG",
+    "date": "2013-02-06",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "MFG",
+    "date": "2013-01-08",
+    "gradingCompany": "UBS",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "MFG",
+    "date": "2012-12-10",
+    "gradingCompany": "UBS",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "MFG",
+    "date": "2012-03-28",
+    "gradingCompany": "Jefferies",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  }
+]

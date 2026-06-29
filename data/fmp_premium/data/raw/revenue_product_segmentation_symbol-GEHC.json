@@ -1,0 +1,39 @@
+[
+  {
+    "symbol": "GEHC",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-12-31",
+    "data": {
+      "Imaging Segment": 9245000000,
+      "PCS Segment": 3086000000,
+      "PDx Segment": 2900000000
+    }
+  },
+  {
+    "symbol": "GEHC",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Imaging Segment": 8855000000,
+      "PCS Segment": 3125000000,
+      "PDx Segment": 2508000000
+    }
+  },
+  {
+    "symbol": "GEHC",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Imaging Segment": 10581000000,
+      "PCS Segment": 3142000000,
+      "PDx Segment": 2306000000,
+      "Ultrasound Segment": 3457000000
+    }
+  }
+]

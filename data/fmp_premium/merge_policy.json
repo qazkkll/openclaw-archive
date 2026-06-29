@@ -1,0 +1,36 @@
+{
+  "corporate_actions": [
+    "symbol",
+    "date"
+  ],
+  "financials": [
+    "symbol",
+    "period",
+    "fiscalDateEnding"
+  ],
+  "metrics": [
+    "symbol",
+    "period",
+    "date"
+  ],
+  "prices": [
+    "symbol",
+    "date"
+  ],
+  "profiles": [
+    "symbol",
+    "snapshot_date"
+  ],
+  "ratings": [
+    "symbol",
+    "date"
+  ],
+  "ratios": [
+    "symbol",
+    "period",
+    "date"
+  ],
+  "raw": [
+    "task_name"
+  ]
+}

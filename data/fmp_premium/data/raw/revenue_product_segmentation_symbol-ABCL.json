@@ -1,0 +1,65 @@
+[
+  {
+    "symbol": "ABCL",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "License": 46920000,
+      "Milestone Payments": 1000000,
+      "Research Fees": 27208000
+    }
+  },
+  {
+    "symbol": "ABCL",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "License": 1049000,
+      "Milestone Payments": 1500000,
+      "Research Fees": 26284000
+    }
+  },
+  {
+    "symbol": "ABCL",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "License": 969000,
+      "Milestone Payments": 1500000,
+      "Research Fees": 35556000,
+      "Royalty": 0
+    }
+  },
+  {
+    "symbol": "ABCL",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "License": 696000,
+      "Milestone Payments": 900000,
+      "Research Fees": 40802000,
+      "Royalty": 443000000
+    }
+  },
+  {
+    "symbol": "ABCL",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "License": 20778000,
+      "Milestone Payments": 8000000,
+      "Research Fees": 19076000,
+      "Royalty": 327300000
+    }
+  }
+]

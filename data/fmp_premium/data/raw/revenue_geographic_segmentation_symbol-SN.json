@@ -1,0 +1,36 @@
+[
+  {
+    "symbol": "SN",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Europe": 2092550000,
+      "North America": 4306638000
+    }
+  },
+  {
+    "symbol": "SN",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Europe": 1732932000,
+      "North America": 3795707000
+    }
+  },
+  {
+    "symbol": "SN",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Europe": 1072766000,
+      "North America": 3018038000,
+      "Rest of the World": 162906000
+    }
+  }
+]

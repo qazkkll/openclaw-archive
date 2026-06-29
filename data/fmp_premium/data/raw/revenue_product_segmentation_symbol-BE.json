@@ -1,0 +1,100 @@
+[
+  {
+    "symbol": "BE",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-12-31",
+    "data": {
+      "Electricity": 60350000,
+      "Installation": 205946000,
+      "Product": 1531281000,
+      "Service": 228295000
+    }
+  },
+  {
+    "symbol": "BE",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Electricity": 52843000,
+      "Installation": 129446000,
+      "Product": 1085153000,
+      "Service": 214961000
+    }
+  },
+  {
+    "symbol": "BE",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Electricity": 178909000,
+      "Installation": 105735000,
+      "Product": 975245000,
+      "Service": 220927000
+    }
+  },
+  {
+    "symbol": "BE",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Financing Obligations": 3300000
+    }
+  },
+  {
+    "symbol": "BE",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Financing Obligations": 10000000
+    }
+  },
+  {
+    "symbol": "BE",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "Electricity": 110953000,
+      "Installation": 218429000,
+      "Product": 851357000,
+      "Service": 241962000
+    }
+  },
+  {
+    "symbol": "BE",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "Electricity": 247544000,
+      "Installation": 137313000,
+      "Product": 992815000,
+      "Service": 210624000
+    }
+  },
+  {
+    "symbol": "BE",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-12-31",
+    "data": {
+      "Product": 886912000,
+      "Service": 195624000,
+      "Electricity": 123080000,
+      "Installation": 210890000
+    }
+  }
+]

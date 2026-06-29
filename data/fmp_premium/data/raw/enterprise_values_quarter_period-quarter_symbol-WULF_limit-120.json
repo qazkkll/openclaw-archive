@@ -1,0 +1,822 @@
+[
+  {
+    "symbol": "WULF",
+    "date": "2026-03-31",
+    "stockPrice": 14.43,
+    "numberOfShares": 422999671,
+    "marketCapitalization": 6103885252,
+    "minusCashAndCashEquivalents": 2826277000,
+    "addTotalDebt": 5314067000,
+    "enterpriseValue": 8591675252
+  },
+  {
+    "symbol": "WULF",
+    "date": "2025-12-31",
+    "stockPrice": 11.49,
+    "numberOfShares": 397608216,
+    "marketCapitalization": 4568518401,
+    "minusCashAndCashEquivalents": 3266389000,
+    "addTotalDebt": 5195726000,
+    "enterpriseValue": 6497855401
+  },
+  {
+    "symbol": "WULF",
+    "date": "2025-09-30",
+    "stockPrice": 11.42,
+    "numberOfShares": 401559291,
+    "marketCapitalization": 4585807103,
+    "minusCashAndCashEquivalents": 711315000,
+    "addTotalDebt": 1085265000,
+    "enterpriseValue": 4959757103
+  },
+  {
+    "symbol": "WULF",
+    "date": "2025-06-30",
+    "stockPrice": 4.38,
+    "numberOfShares": 386895095,
+    "marketCapitalization": 1694600516,
+    "minusCashAndCashEquivalents": 89993000,
+    "addTotalDebt": 500879000,
+    "enterpriseValue": 2105486516
+  },
+  {
+    "symbol": "WULF",
+    "date": "2025-03-31",
+    "stockPrice": 2.73,
+    "numberOfShares": 383149511,
+    "marketCapitalization": 1045998165,
+    "minusCashAndCashEquivalents": 218162000,
+    "addTotalDebt": 491848000,
+    "enterpriseValue": 1319684165
+  },
+  {
+    "symbol": "WULF",
+    "date": "2024-12-31",
+    "stockPrice": 5.66,
+    "numberOfShares": 385654278,
+    "marketCapitalization": 2182803213,
+    "minusCashAndCashEquivalents": 274065000,
+    "addTotalDebt": 491248000,
+    "enterpriseValue": 2399986213
+  },
+  {
+    "symbol": "WULF",
+    "date": "2024-09-30",
+    "stockPrice": 4.68,
+    "numberOfShares": 382086768,
+    "marketCapitalization": 1788166074,
+    "minusCashAndCashEquivalents": 23938000,
+    "addTotalDebt": 912000,
+    "enterpriseValue": 1765140074
+  },
+  {
+    "symbol": "WULF",
+    "date": "2024-06-30",
+    "stockPrice": 5.21,
+    "numberOfShares": 340662826,
+    "marketCapitalization": 1774853323,
+    "minusCashAndCashEquivalents": 104109000,
+    "addTotalDebt": 73264000,
+    "enterpriseValue": 1744008323
+  },
+  {
+    "symbol": "WULF",
+    "date": "2024-03-31",
+    "stockPrice": 2.43,
+    "numberOfShares": 290602725,
+    "marketCapitalization": 706164621,
+    "minusCashAndCashEquivalents": 45824000,
+    "addTotalDebt": 100342000,
+    "enterpriseValue": 760682621
+  },
+  {
+    "symbol": "WULF",
+    "date": "2023-12-31",
+    "stockPrice": 2.4,
+    "numberOfShares": 276733329,
+    "marketCapitalization": 664159989,
+    "minusCashAndCashEquivalents": 54439000,
+    "addTotalDebt": 124468000,
+    "enterpriseValue": 734188989
+  },
+  {
+    "symbol": "WULF",
+    "date": "2023-09-30",
+    "stockPrice": 1.26,
+    "numberOfShares": 221718367,
+    "marketCapitalization": 279365142,
+    "minusCashAndCashEquivalents": 6595000,
+    "addTotalDebt": 125887000,
+    "enterpriseValue": 398657142
+  },
+  {
+    "symbol": "WULF",
+    "date": "2023-06-30",
+    "stockPrice": 1.75,
+    "numberOfShares": 210421237,
+    "marketCapitalization": 368237164,
+    "minusCashAndCashEquivalents": 8241000,
+    "addTotalDebt": 120249000,
+    "enterpriseValue": 480245164
+  },
+  {
+    "symbol": "WULF",
+    "date": "2023-03-31",
+    "stockPrice": 0.94,
+    "numberOfShares": 165015228,
+    "marketCapitalization": 155114314,
+    "minusCashAndCashEquivalents": 16985000,
+    "addTotalDebt": 114390000,
+    "enterpriseValue": 252519314
+  },
+  {
+    "symbol": "WULF",
+    "date": "2022-12-31",
+    "stockPrice": 0.67,
+    "numberOfShares": 131335640,
+    "marketCapitalization": 87994878,
+    "minusCashAndCashEquivalents": 1279000,
+    "addTotalDebt": 129310000,
+    "enterpriseValue": 216025878
+  },
+  {
+    "symbol": "WULF",
+    "date": "2022-09-30",
+    "stockPrice": 1.26,
+    "numberOfShares": 108839269,
+    "marketCapitalization": 137137478,
+    "minusCashAndCashEquivalents": 4466000,
+    "addTotalDebt": 129056000,
+    "enterpriseValue": 261727478
+  },
+  {
+    "symbol": "WULF",
+    "date": "2022-06-30",
+    "stockPrice": 1.2,
+    "numberOfShares": 104119328,
+    "marketCapitalization": 124943193,
+    "minusCashAndCashEquivalents": 921000,
+    "addTotalDebt": 118139999,
+    "enterpriseValue": 242162192
+  },
+  {
+    "symbol": "WULF",
+    "date": "2022-03-31",
+    "stockPrice": 8.4,
+    "numberOfShares": 100121370,
+    "marketCapitalization": 841019508,
+    "minusCashAndCashEquivalents": 3585000,
+    "addTotalDebt": 101868000,
+    "enterpriseValue": 939302508
+  },
+  {
+    "symbol": "WULF",
+    "date": "2021-12-31",
+    "stockPrice": 15.05,
+    "numberOfShares": 99976253,
+    "marketCapitalization": 1504642607,
+    "minusCashAndCashEquivalents": 43448000,
+    "addTotalDebt": 95619000,
+    "enterpriseValue": 1556813607
+  },
+  {
+    "symbol": "WULF",
+    "date": "2021-09-30",
+    "stockPrice": 28.4,
+    "numberOfShares": 89328574,
+    "marketCapitalization": 2536931501,
+    "minusCashAndCashEquivalents": 1500847,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2535430654
+  },
+  {
+    "symbol": "WULF",
+    "date": "2021-06-30",
+    "stockPrice": 19.31,
+    "numberOfShares": 99976253,
+    "marketCapitalization": 1930541445,
+    "minusCashAndCashEquivalents": 31721000,
+    "addTotalDebt": 1085000,
+    "enterpriseValue": 1899905445
+  },
+  {
+    "symbol": "WULF",
+    "date": "2021-03-31",
+    "stockPrice": 9.8,
+    "numberOfShares": 5,
+    "marketCapitalization": 49,
+    "minusCashAndCashEquivalents": 4428269,
+    "addTotalDebt": 2654019,
+    "enterpriseValue": -1774201
+  },
+  {
+    "symbol": "WULF",
+    "date": "2020-12-31",
+    "stockPrice": 9.97,
+    "numberOfShares": 1976354,
+    "marketCapitalization": 19704249,
+    "minusCashAndCashEquivalents": 3693845,
+    "addTotalDebt": 2688396,
+    "enterpriseValue": 18698800
+  },
+  {
+    "symbol": "WULF",
+    "date": "2020-09-30",
+    "stockPrice": 3.57,
+    "numberOfShares": 1976354,
+    "marketCapitalization": 7055583.78,
+    "minusCashAndCashEquivalents": 3500883,
+    "addTotalDebt": 3936579,
+    "enterpriseValue": 7491279
+  },
+  {
+    "symbol": "WULF",
+    "date": "2020-06-30",
+    "stockPrice": 3.45,
+    "numberOfShares": 1976354,
+    "marketCapitalization": 6818421.3,
+    "minusCashAndCashEquivalents": 2978109,
+    "addTotalDebt": 3969871,
+    "enterpriseValue": 7810183
+  },
+  {
+    "symbol": "WULF",
+    "date": "2020-03-31",
+    "stockPrice": 3.28,
+    "numberOfShares": 1976354,
+    "marketCapitalization": 6482441.12,
+    "minusCashAndCashEquivalents": 1605440,
+    "addTotalDebt": 2788628,
+    "enterpriseValue": 7665629
+  },
+  {
+    "symbol": "WULF",
+    "date": "2019-12-31",
+    "stockPrice": 5.35,
+    "numberOfShares": 1980253,
+    "marketCapitalization": 10594353,
+    "minusCashAndCashEquivalents": 963649,
+    "addTotalDebt": 2821644,
+    "enterpriseValue": 12452348
+  },
+  {
+    "symbol": "WULF",
+    "date": "2019-09-30",
+    "stockPrice": 6.34,
+    "numberOfShares": 1978926,
+    "marketCapitalization": 12546390,
+    "minusCashAndCashEquivalents": 758739,
+    "addTotalDebt": 2854521,
+    "enterpriseValue": 14642172
+  },
+  {
+    "symbol": "WULF",
+    "date": "2019-06-30",
+    "stockPrice": 7.35,
+    "numberOfShares": 1982275,
+    "marketCapitalization": 14569721,
+    "minusCashAndCashEquivalents": 297186,
+    "addTotalDebt": 2886738,
+    "enterpriseValue": 17159273
+  },
+  {
+    "symbol": "WULF",
+    "date": "2019-03-31",
+    "stockPrice": 8.22,
+    "numberOfShares": 1983553,
+    "marketCapitalization": 16304805,
+    "minusCashAndCashEquivalents": 617246,
+    "addTotalDebt": 2918285,
+    "enterpriseValue": 18605844
+  },
+  {
+    "symbol": "WULF",
+    "date": "2018-12-31",
+    "stockPrice": 8.43,
+    "numberOfShares": 1983553,
+    "marketCapitalization": 16721351,
+    "minusCashAndCashEquivalents": 1623137,
+    "addTotalDebt": 2950939,
+    "enterpriseValue": 18049153
+  },
+  {
+    "symbol": "WULF",
+    "date": "2018-09-30",
+    "stockPrice": 11,
+    "numberOfShares": 1983553,
+    "marketCapitalization": 21819083,
+    "minusCashAndCashEquivalents": 1559725,
+    "addTotalDebt": 2982776,
+    "enterpriseValue": 23242134
+  },
+  {
+    "symbol": "WULF",
+    "date": "2018-06-30",
+    "stockPrice": 10.7,
+    "numberOfShares": 1983553,
+    "marketCapitalization": 21224017,
+    "minusCashAndCashEquivalents": 1355828,
+    "addTotalDebt": 3013296,
+    "enterpriseValue": 22881485
+  },
+  {
+    "symbol": "WULF",
+    "date": "2018-03-31",
+    "stockPrice": 8.8,
+    "numberOfShares": 1983553,
+    "marketCapitalization": 17455266,
+    "minusCashAndCashEquivalents": 1162188,
+    "addTotalDebt": 3044747,
+    "enterpriseValue": 19337825
+  },
+  {
+    "symbol": "WULF",
+    "date": "2017-12-31",
+    "stockPrice": 7.52,
+    "numberOfShares": 2007613,
+    "marketCapitalization": 15097249,
+    "minusCashAndCashEquivalents": 929700,
+    "addTotalDebt": 3077417,
+    "enterpriseValue": 17244966
+  },
+  {
+    "symbol": "WULF",
+    "date": "2017-09-30",
+    "stockPrice": 8.24,
+    "numberOfShares": 2005096,
+    "marketCapitalization": 16521991,
+    "minusCashAndCashEquivalents": 2001244,
+    "addTotalDebt": 3109609,
+    "enterpriseValue": 17630356
+  },
+  {
+    "symbol": "WULF",
+    "date": "2017-06-30",
+    "stockPrice": 8.98,
+    "numberOfShares": 2018466,
+    "marketCapitalization": 18125824,
+    "minusCashAndCashEquivalents": 1240086,
+    "addTotalDebt": 3141385,
+    "enterpriseValue": 20027123
+  },
+  {
+    "symbol": "WULF",
+    "date": "2017-03-31",
+    "stockPrice": 10.04,
+    "numberOfShares": 2018753,
+    "marketCapitalization": 20268280,
+    "minusCashAndCashEquivalents": 608340,
+    "addTotalDebt": 3172971,
+    "enterpriseValue": 22832911
+  },
+  {
+    "symbol": "WULF",
+    "date": "2016-12-31",
+    "stockPrice": 11.25,
+    "numberOfShares": 2018649,
+    "marketCapitalization": 22709801,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 22709801
+  },
+  {
+    "symbol": "WULF",
+    "date": "2016-09-30",
+    "stockPrice": 10.75,
+    "numberOfShares": 2018753,
+    "marketCapitalization": 21701594,
+    "minusCashAndCashEquivalents": 917032,
+    "addTotalDebt": 3236066,
+    "enterpriseValue": 24020628
+  },
+  {
+    "symbol": "WULF",
+    "date": "2016-06-30",
+    "stockPrice": 11.24,
+    "numberOfShares": 2018753,
+    "marketCapitalization": 22690783,
+    "minusCashAndCashEquivalents": 800889,
+    "addTotalDebt": 3266953,
+    "enterpriseValue": 25156847
+  },
+  {
+    "symbol": "WULF",
+    "date": "2016-03-31",
+    "stockPrice": 11.8,
+    "numberOfShares": 2018335,
+    "marketCapitalization": 23816353,
+    "minusCashAndCashEquivalents": 1065364,
+    "addTotalDebt": 0,
+    "enterpriseValue": 22750989
+  },
+  {
+    "symbol": "WULF",
+    "date": "2015-12-31",
+    "stockPrice": 11.19,
+    "numberOfShares": 2018253,
+    "marketCapitalization": 22584251,
+    "minusCashAndCashEquivalents": 2248466,
+    "addTotalDebt": 0,
+    "enterpriseValue": 20335785
+  },
+  {
+    "symbol": "WULF",
+    "date": "2015-09-30",
+    "stockPrice": 12,
+    "numberOfShares": 2018253,
+    "marketCapitalization": 24219036,
+    "minusCashAndCashEquivalents": 3036527,
+    "addTotalDebt": 0,
+    "enterpriseValue": 21182509
+  },
+  {
+    "symbol": "WULF",
+    "date": "2015-06-30",
+    "stockPrice": 15.05,
+    "numberOfShares": 2018253,
+    "marketCapitalization": 30374707,
+    "minusCashAndCashEquivalents": 2368778,
+    "addTotalDebt": 0,
+    "enterpriseValue": 28005929
+  },
+  {
+    "symbol": "WULF",
+    "date": "2015-03-31",
+    "stockPrice": 16,
+    "numberOfShares": 2018253,
+    "marketCapitalization": 32292048,
+    "minusCashAndCashEquivalents": 1938280,
+    "addTotalDebt": 0,
+    "enterpriseValue": 30353768
+  },
+  {
+    "symbol": "WULF",
+    "date": "2014-12-31",
+    "stockPrice": 14.56,
+    "numberOfShares": 2017144,
+    "marketCapitalization": 29369616,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 29369616
+  },
+  {
+    "symbol": "WULF",
+    "date": "2014-09-30",
+    "stockPrice": 18.15,
+    "numberOfShares": 2018412,
+    "marketCapitalization": 36634177,
+    "minusCashAndCashEquivalents": 2203954,
+    "addTotalDebt": 0,
+    "enterpriseValue": 34430223
+  },
+  {
+    "symbol": "WULF",
+    "date": "2014-06-30",
+    "stockPrice": 25.17,
+    "numberOfShares": 2016885,
+    "marketCapitalization": 50764995,
+    "minusCashAndCashEquivalents": 1129716,
+    "addTotalDebt": 0,
+    "enterpriseValue": 49635279
+  },
+  {
+    "symbol": "WULF",
+    "date": "2014-03-31",
+    "stockPrice": 25,
+    "numberOfShares": 2012861,
+    "marketCapitalization": 50321525,
+    "minusCashAndCashEquivalents": 2143245,
+    "addTotalDebt": 0,
+    "enterpriseValue": 48178280
+  },
+  {
+    "symbol": "WULF",
+    "date": "2013-12-31",
+    "stockPrice": 14.75,
+    "numberOfShares": 2006843,
+    "marketCapitalization": 29600934,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 29600934
+  },
+  {
+    "symbol": "WULF",
+    "date": "2013-09-30",
+    "stockPrice": 18.74,
+    "numberOfShares": 2008836,
+    "marketCapitalization": 37645586,
+    "minusCashAndCashEquivalents": 1179498,
+    "addTotalDebt": 0,
+    "enterpriseValue": 36466088
+  },
+  {
+    "symbol": "WULF",
+    "date": "2013-06-30",
+    "stockPrice": 17.18,
+    "numberOfShares": 2007623,
+    "marketCapitalization": 34490963,
+    "minusCashAndCashEquivalents": 1269476,
+    "addTotalDebt": 0,
+    "enterpriseValue": 33221487
+  },
+  {
+    "symbol": "WULF",
+    "date": "2013-03-31",
+    "stockPrice": 12.6,
+    "numberOfShares": 1996994,
+    "marketCapitalization": 25162124,
+    "minusCashAndCashEquivalents": 516746,
+    "addTotalDebt": 0,
+    "enterpriseValue": 24645378
+  },
+  {
+    "symbol": "WULF",
+    "date": "2012-12-31",
+    "stockPrice": 8.05,
+    "numberOfShares": 1988066,
+    "marketCapitalization": 16003931,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 16003931
+  },
+  {
+    "symbol": "WULF",
+    "date": "2012-09-30",
+    "stockPrice": 8,
+    "numberOfShares": 1989307,
+    "marketCapitalization": 15914456,
+    "minusCashAndCashEquivalents": 2249335,
+    "addTotalDebt": 0,
+    "enterpriseValue": 13665121
+  },
+  {
+    "symbol": "WULF",
+    "date": "2012-06-30",
+    "stockPrice": 7.62,
+    "numberOfShares": 1986364,
+    "marketCapitalization": 15136093,
+    "minusCashAndCashEquivalents": 1537842,
+    "addTotalDebt": 0,
+    "enterpriseValue": 13598251
+  },
+  {
+    "symbol": "WULF",
+    "date": "2012-03-31",
+    "stockPrice": 9.1,
+    "numberOfShares": 1984695,
+    "marketCapitalization": 18060724,
+    "minusCashAndCashEquivalents": 1990366,
+    "addTotalDebt": 0,
+    "enterpriseValue": 16070358
+  },
+  {
+    "symbol": "WULF",
+    "date": "2011-12-31",
+    "stockPrice": 7.57,
+    "numberOfShares": 1981848,
+    "marketCapitalization": 15002589,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 15002589
+  },
+  {
+    "symbol": "WULF",
+    "date": "2011-09-30",
+    "stockPrice": 8.31,
+    "numberOfShares": 1983613,
+    "marketCapitalization": 16483824,
+    "minusCashAndCashEquivalents": 1489786,
+    "addTotalDebt": 0,
+    "enterpriseValue": 14994038
+  },
+  {
+    "symbol": "WULF",
+    "date": "2011-06-30",
+    "stockPrice": 7.46,
+    "numberOfShares": 1976523,
+    "marketCapitalization": 14744861,
+    "minusCashAndCashEquivalents": 1103355,
+    "addTotalDebt": 0,
+    "enterpriseValue": 13641506
+  },
+  {
+    "symbol": "WULF",
+    "date": "2011-03-31",
+    "stockPrice": 8.51,
+    "numberOfShares": 1976523,
+    "marketCapitalization": 16820210,
+    "minusCashAndCashEquivalents": 752262,
+    "addTotalDebt": 0,
+    "enterpriseValue": 16067948
+  },
+  {
+    "symbol": "WULF",
+    "date": "2010-12-31",
+    "stockPrice": 7.25,
+    "numberOfShares": 1967057,
+    "marketCapitalization": 14261163,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 14261163
+  },
+  {
+    "symbol": "WULF",
+    "date": "2010-09-30",
+    "stockPrice": 7.02,
+    "numberOfShares": 1967057,
+    "marketCapitalization": 13808740,
+    "minusCashAndCashEquivalents": 459162,
+    "addTotalDebt": 0,
+    "enterpriseValue": 13349578
+  },
+  {
+    "symbol": "WULF",
+    "date": "2010-06-30",
+    "stockPrice": 6.81,
+    "numberOfShares": 1967057,
+    "marketCapitalization": 13395658,
+    "minusCashAndCashEquivalents": 1068180,
+    "addTotalDebt": 0,
+    "enterpriseValue": 12327478
+  },
+  {
+    "symbol": "WULF",
+    "date": "2010-03-31",
+    "stockPrice": 6.73,
+    "numberOfShares": 1967057,
+    "marketCapitalization": 13238293,
+    "minusCashAndCashEquivalents": 1415772,
+    "addTotalDebt": 0,
+    "enterpriseValue": 11822521
+  },
+  {
+    "symbol": "WULF",
+    "date": "2009-12-31",
+    "stockPrice": 6.3,
+    "numberOfShares": 1619342,
+    "marketCapitalization": 10201854,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10201854
+  },
+  {
+    "symbol": "WULF",
+    "date": "2009-06-30",
+    "stockPrice": 5.5,
+    "numberOfShares": 1619342,
+    "marketCapitalization": 8906381,
+    "minusCashAndCashEquivalents": 882023,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8024358
+  },
+  {
+    "symbol": "WULF",
+    "date": "2009-03-31",
+    "stockPrice": 4.35,
+    "numberOfShares": 1619342,
+    "marketCapitalization": 7044137.7,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7044137
+  },
+  {
+    "symbol": "WULF",
+    "date": "2008-12-31",
+    "stockPrice": 5.74,
+    "numberOfShares": 2033045,
+    "marketCapitalization": 11669678,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 11669678
+  },
+  {
+    "symbol": "WULF",
+    "date": "2008-09-30",
+    "stockPrice": 7.36,
+    "numberOfShares": 2033045,
+    "marketCapitalization": 14963211,
+    "minusCashAndCashEquivalents": 2481128,
+    "addTotalDebt": 0,
+    "enterpriseValue": 12482083
+  },
+  {
+    "symbol": "WULF",
+    "date": "2008-06-30",
+    "stockPrice": 7.08,
+    "numberOfShares": 2033045,
+    "marketCapitalization": 14393958,
+    "minusCashAndCashEquivalents": 4787622,
+    "addTotalDebt": 0,
+    "enterpriseValue": 9606336
+  },
+  {
+    "symbol": "WULF",
+    "date": "2008-03-31",
+    "stockPrice": 9.1,
+    "numberOfShares": 2033045,
+    "marketCapitalization": 18500709,
+    "minusCashAndCashEquivalents": 4050206,
+    "addTotalDebt": 0,
+    "enterpriseValue": 14450503
+  },
+  {
+    "symbol": "WULF",
+    "date": "2007-09-30",
+    "stockPrice": 9.09,
+    "numberOfShares": 2000017,
+    "marketCapitalization": 18180154,
+    "minusCashAndCashEquivalents": 4531100,
+    "addTotalDebt": 0,
+    "enterpriseValue": 13649054
+  },
+  {
+    "symbol": "WULF",
+    "date": "2007-06-30",
+    "stockPrice": 9.25,
+    "numberOfShares": 2000017,
+    "marketCapitalization": 18500157,
+    "minusCashAndCashEquivalents": 4117731,
+    "addTotalDebt": 0,
+    "enterpriseValue": 14382426
+  },
+  {
+    "symbol": "WULF",
+    "date": "2005-03-31",
+    "stockPrice": 6.1,
+    "numberOfShares": 1906771,
+    "marketCapitalization": 11631303,
+    "minusCashAndCashEquivalents": 2670062,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8961241
+  },
+  {
+    "symbol": "WULF",
+    "date": "2001-06-30",
+    "stockPrice": 2.77,
+    "numberOfShares": 1271627,
+    "marketCapitalization": 3522406.79,
+    "minusCashAndCashEquivalents": 324462,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3197944
+  },
+  {
+    "symbol": "WULF",
+    "date": "2001-03-31",
+    "stockPrice": 3.08,
+    "numberOfShares": 1271627,
+    "marketCapitalization": 3916611.16,
+    "minusCashAndCashEquivalents": 158284,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3758327
+  },
+  {
+    "symbol": "WULF",
+    "date": "2000-12-31",
+    "stockPrice": 3.25,
+    "numberOfShares": 1295239,
+    "marketCapitalization": 4209526.75,
+    "minusCashAndCashEquivalents": 71493,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4138033
+  },
+  {
+    "symbol": "WULF",
+    "date": "2000-09-30",
+    "stockPrice": 3.42,
+    "numberOfShares": 1296922,
+    "marketCapitalization": 4435473.24,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4435473
+  },
+  {
+    "symbol": "WULF",
+    "date": "2000-06-30",
+    "stockPrice": 4.33,
+    "numberOfShares": 1298056,
+    "marketCapitalization": 5620582.48,
+    "minusCashAndCashEquivalents": 378798,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5241784
+  },
+  {
+    "symbol": "WULF",
+    "date": "2000-03-31",
+    "stockPrice": 4.67,
+    "numberOfShares": 1298056,
+    "marketCapitalization": 6061921.52,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6061921
+  },
+  {
+    "symbol": "WULF",
+    "date": "1999-09-30",
+    "stockPrice": 4.55,
+    "numberOfShares": 1179644,
+    "marketCapitalization": 5367380.2,
+    "minusCashAndCashEquivalents": 641184,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4726196
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "symbol": "PPTA",
+    "date": "2026-03-31",
+    "stockPrice": 28.12,
+    "numberOfShares": 124694794,
+    "marketCapitalization": 3506417607,
+    "minusCashAndCashEquivalents": 669505000,
+    "addTotalDebt": 3563000,
+    "enterpriseValue": 2840475607
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2025-12-31",
+    "stockPrice": 24.21,
+    "numberOfShares": 93225494,
+    "marketCapitalization": 2256989209,
+    "minusCashAndCashEquivalents": 773721000,
+    "addTotalDebt": 244000,
+    "enterpriseValue": 1483512209
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2025-09-30",
+    "stockPrice": 20.23,
+    "numberOfShares": 76471846,
+    "marketCapitalization": 1547025444,
+    "minusCashAndCashEquivalents": 445834284,
+    "addTotalDebt": 48705,
+    "enterpriseValue": 1101239865
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2025-06-30",
+    "stockPrice": 12.14,
+    "numberOfShares": 76471846,
+    "marketCapitalization": 928368210,
+    "minusCashAndCashEquivalents": 425374000,
+    "addTotalDebt": 65691,
+    "enterpriseValue": 503059901
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2025-03-31",
+    "stockPrice": 10.69,
+    "numberOfShares": 70619291,
+    "marketCapitalization": 754920220,
+    "minusCashAndCashEquivalents": 19141223,
+    "addTotalDebt": 11455,
+    "enterpriseValue": 735790452
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2024-12-31",
+    "stockPrice": 10.67,
+    "numberOfShares": 67811231,
+    "marketCapitalization": 723545834,
+    "minusCashAndCashEquivalents": 44104825,
+    "addTotalDebt": 28288,
+    "enterpriseValue": 679469297
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2024-09-30",
+    "stockPrice": 9.35,
+    "numberOfShares": 65537015,
+    "marketCapitalization": 612771090,
+    "minusCashAndCashEquivalents": 11210662,
+    "addTotalDebt": 44706,
+    "enterpriseValue": 601605134
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2024-06-30",
+    "stockPrice": 5.11,
+    "numberOfShares": 64514387,
+    "marketCapitalization": 329668517,
+    "minusCashAndCashEquivalents": 1882785,
+    "addTotalDebt": 60721,
+    "enterpriseValue": 327846453
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2024-03-31",
+    "stockPrice": 4.39,
+    "numberOfShares": 64123456,
+    "marketCapitalization": 281501971,
+    "minusCashAndCashEquivalents": 8040313,
+    "addTotalDebt": 11297,
+    "enterpriseValue": 273472955
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2023-12-31",
+    "stockPrice": 3.17,
+    "numberOfShares": 63463489,
+    "marketCapitalization": 201179260,
+    "minusCashAndCashEquivalents": 3229462,
+    "addTotalDebt": 27897,
+    "enterpriseValue": 197977695
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2023-09-30",
+    "stockPrice": 3.26,
+    "numberOfShares": 63176063,
+    "marketCapitalization": 205953965,
+    "minusCashAndCashEquivalents": 7104937,
+    "addTotalDebt": 55279,
+    "enterpriseValue": 198904307
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2023-06-30",
+    "stockPrice": 3.67,
+    "numberOfShares": 63164231,
+    "marketCapitalization": 231812727,
+    "minusCashAndCashEquivalents": 14105012,
+    "addTotalDebt": 81988,
+    "enterpriseValue": 217789703
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2023-03-31",
+    "stockPrice": 4.45,
+    "numberOfShares": 63018308,
+    "marketCapitalization": 280431470,
+    "minusCashAndCashEquivalents": 18559712,
+    "addTotalDebt": 43812,
+    "enterpriseValue": 261915570
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2022-12-31",
+    "stockPrice": 2.92,
+    "numberOfShares": 62994024,
+    "marketCapitalization": 183942550,
+    "minusCashAndCashEquivalents": 22667047,
+    "addTotalDebt": 70449,
+    "enterpriseValue": 161345952
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2022-09-30",
+    "stockPrice": 2.02,
+    "numberOfShares": 62987859,
+    "marketCapitalization": 127235475,
+    "minusCashAndCashEquivalents": 29392624,
+    "addTotalDebt": 95551,
+    "enterpriseValue": 97938402
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2022-06-30",
+    "stockPrice": 3.31,
+    "numberOfShares": 62987859,
+    "marketCapitalization": 208489813,
+    "minusCashAndCashEquivalents": 36088536,
+    "addTotalDebt": 120034,
+    "enterpriseValue": 172521311
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2022-03-31",
+    "stockPrice": 4.1,
+    "numberOfShares": 62972155,
+    "marketCapitalization": 258185835,
+    "minusCashAndCashEquivalents": 41168724,
+    "addTotalDebt": 112993,
+    "enterpriseValue": 217130104
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2021-12-31",
+    "stockPrice": 4.75,
+    "numberOfShares": 63038000,
+    "marketCapitalization": 299430500,
+    "minusCashAndCashEquivalents": 47852846,
+    "addTotalDebt": 69987,
+    "enterpriseValue": 251647641
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2021-09-30",
+    "stockPrice": 4.98,
+    "numberOfShares": 57079000,
+    "marketCapitalization": 284253420,
+    "minusCashAndCashEquivalents": 56082017,
+    "addTotalDebt": 117553,
+    "enterpriseValue": 228288956
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2021-06-30",
+    "stockPrice": 7.3,
+    "numberOfShares": 50300000,
+    "marketCapitalization": 367190000,
+    "minusCashAndCashEquivalents": 8521564,
+    "addTotalDebt": 191015,
+    "enterpriseValue": 358859451
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2021-03-31",
+    "stockPrice": 6.07,
+    "numberOfShares": 47550000,
+    "marketCapitalization": 288628500,
+    "minusCashAndCashEquivalents": 14786055,
+    "addTotalDebt": 10153551,
+    "enterpriseValue": 283995996
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2020-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 47570000,
+    "marketCapitalization": 385317000,
+    "minusCashAndCashEquivalents": 25037766,
+    "addTotalDebt": 9829254,
+    "enterpriseValue": 370108488
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2020-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 34965000,
+    "marketCapitalization": 283216500,
+    "minusCashAndCashEquivalents": 33997059,
+    "addTotalDebt": 9401728,
+    "enterpriseValue": 258621169
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2020-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 27164000,
+    "marketCapitalization": 220028400,
+    "minusCashAndCashEquivalents": 38864647,
+    "addTotalDebt": 45210838,
+    "enterpriseValue": 226374591
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2020-03-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 27153391,
+    "marketCapitalization": 219942467,
+    "minusCashAndCashEquivalents": 45415134,
+    "addTotalDebt": 42365851,
+    "enterpriseValue": 216893184
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2019-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 27092000,
+    "marketCapitalization": 219445200,
+    "minusCashAndCashEquivalents": 17504622,
+    "addTotalDebt": 27780230,
+    "enterpriseValue": 229720808
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2019-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 27048000,
+    "marketCapitalization": 219088800,
+    "minusCashAndCashEquivalents": 25882651,
+    "addTotalDebt": 26386266,
+    "enterpriseValue": 219592415
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2019-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 24103000,
+    "marketCapitalization": 195234300,
+    "minusCashAndCashEquivalents": 32828086,
+    "addTotalDebt": 26029928,
+    "enterpriseValue": 188436142
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2019-03-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 23575996,
+    "marketCapitalization": 190965567,
+    "minusCashAndCashEquivalents": 24563911,
+    "addTotalDebt": 24639711,
+    "enterpriseValue": 191041367
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2018-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 23498000,
+    "marketCapitalization": 190333800,
+    "minusCashAndCashEquivalents": 29886558,
+    "addTotalDebt": 23433664,
+    "enterpriseValue": 183880906
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2018-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 23470000,
+    "marketCapitalization": 190107000,
+    "minusCashAndCashEquivalents": 37171629,
+    "addTotalDebt": 24051250,
+    "enterpriseValue": 176986621
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2018-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 21055000,
+    "marketCapitalization": 170545500,
+    "minusCashAndCashEquivalents": 43546096,
+    "addTotalDebt": 23026974,
+    "enterpriseValue": 150026378
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2018-03-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 18680000,
+    "marketCapitalization": 151308000,
+    "minusCashAndCashEquivalents": 11974723,
+    "addTotalDebt": 22902470,
+    "enterpriseValue": 162235747
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2017-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 18636000,
+    "marketCapitalization": 150951600,
+    "minusCashAndCashEquivalents": 18915423,
+    "addTotalDebt": 22944867,
+    "enterpriseValue": 154981044
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2017-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 18630000,
+    "marketCapitalization": 150903000,
+    "minusCashAndCashEquivalents": 25256533,
+    "addTotalDebt": 22462298,
+    "enterpriseValue": 148108765
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2017-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 18315000,
+    "marketCapitalization": 148351500,
+    "minusCashAndCashEquivalents": 31482484,
+    "addTotalDebt": 21037882,
+    "enterpriseValue": 137906898
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2017-03-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 18014000,
+    "marketCapitalization": 145913400,
+    "minusCashAndCashEquivalents": 33013364,
+    "addTotalDebt": 19991247,
+    "enterpriseValue": 132891283
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2016-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 17934933,
+    "marketCapitalization": 145272957,
+    "minusCashAndCashEquivalents": 37180354,
+    "addTotalDebt": 19343758,
+    "enterpriseValue": 127436361
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2016-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 17726000,
+    "marketCapitalization": 143580600,
+    "minusCashAndCashEquivalents": 40032740,
+    "addTotalDebt": 19278795,
+    "enterpriseValue": 122826655
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2016-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 17591000,
+    "marketCapitalization": 142487100,
+    "minusCashAndCashEquivalents": 42159157,
+    "addTotalDebt": 19070334,
+    "enterpriseValue": 119398277
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2016-03-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 16330000,
+    "marketCapitalization": 132273000,
+    "minusCashAndCashEquivalents": 44629091,
+    "addTotalDebt": 18471574,
+    "enterpriseValue": 106115483
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2015-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 16090988,
+    "marketCapitalization": 130337002,
+    "minusCashAndCashEquivalents": 4502325,
+    "addTotalDebt": 0,
+    "enterpriseValue": 125834677
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2015-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 16082000,
+    "marketCapitalization": 130264200,
+    "minusCashAndCashEquivalents": 6899380,
+    "addTotalDebt": 0,
+    "enterpriseValue": 123364820
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2015-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 15032000,
+    "marketCapitalization": 121759200,
+    "minusCashAndCashEquivalents": 9935426,
+    "addTotalDebt": 0,
+    "enterpriseValue": 111823774
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2015-03-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 14170000,
+    "marketCapitalization": 114777000,
+    "minusCashAndCashEquivalents": 6976395,
+    "addTotalDebt": 194177,
+    "enterpriseValue": 107994782
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2014-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 14173000,
+    "marketCapitalization": 114801300,
+    "minusCashAndCashEquivalents": 9622501,
+    "addTotalDebt": 194177,
+    "enterpriseValue": 105372976
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2014-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 14170000,
+    "marketCapitalization": 114777000,
+    "minusCashAndCashEquivalents": 13201428,
+    "addTotalDebt": 194177,
+    "enterpriseValue": 101769749
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2014-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 14170500,
+    "marketCapitalization": 114781050,
+    "minusCashAndCashEquivalents": 17820990,
+    "addTotalDebt": 194177,
+    "enterpriseValue": 97154237
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2014-03-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 13176000,
+    "marketCapitalization": 106725600,
+    "minusCashAndCashEquivalents": 21682436,
+    "addTotalDebt": 382696,
+    "enterpriseValue": 85425860
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2013-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 12760000,
+    "marketCapitalization": 103356000,
+    "minusCashAndCashEquivalents": 14589264,
+    "addTotalDebt": 382696,
+    "enterpriseValue": 89149432
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2013-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 12698000,
+    "marketCapitalization": 102853800,
+    "minusCashAndCashEquivalents": 22387500,
+    "addTotalDebt": 382696,
+    "enterpriseValue": 80848996
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2013-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 11479000,
+    "marketCapitalization": 92979900,
+    "minusCashAndCashEquivalents": 18681081,
+    "addTotalDebt": 382696,
+    "enterpriseValue": 74681515
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2013-03-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 11479000,
+    "marketCapitalization": 92979900,
+    "minusCashAndCashEquivalents": 9898153,
+    "addTotalDebt": 565724,
+    "enterpriseValue": 83647471
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2012-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 11481000,
+    "marketCapitalization": 92996100,
+    "minusCashAndCashEquivalents": 19618855,
+    "addTotalDebt": 565724,
+    "enterpriseValue": 73942969
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2012-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 11461000,
+    "marketCapitalization": 92834100,
+    "minusCashAndCashEquivalents": 32402705,
+    "addTotalDebt": 565724,
+    "enterpriseValue": 60997119
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2012-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 11446693,
+    "marketCapitalization": 92718213,
+    "minusCashAndCashEquivalents": 48301596,
+    "addTotalDebt": 565724,
+    "enterpriseValue": 44982341
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2012-03-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 10700799,
+    "marketCapitalization": 86676471,
+    "minusCashAndCashEquivalents": 61855357,
+    "addTotalDebt": 743420,
+    "enterpriseValue": 25564534
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2011-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 10547500,
+    "marketCapitalization": 85434750,
+    "minusCashAndCashEquivalents": 36954210,
+    "addTotalDebt": 743420,
+    "enterpriseValue": 49223960
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2011-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 10255700,
+    "marketCapitalization": 83071170,
+    "minusCashAndCashEquivalents": 51249600,
+    "addTotalDebt": 743420,
+    "enterpriseValue": 32564990
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2011-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 8690300,
+    "marketCapitalization": 70391430,
+    "minusCashAndCashEquivalents": 18821191,
+    "addTotalDebt": 743421,
+    "enterpriseValue": 52313660
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2011-03-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 4384700,
+    "marketCapitalization": 35516070,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 35516070
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2010-12-31",
+    "stockPrice": 8.1,
+    "numberOfShares": 4384700,
+    "marketCapitalization": 35516070,
+    "minusCashAndCashEquivalents": 4805707,
+    "addTotalDebt": 915942,
+    "enterpriseValue": 31626305
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2010-09-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 4365500,
+    "marketCapitalization": 35360550,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 35360550
+  },
+  {
+    "symbol": "PPTA",
+    "date": "2010-06-30",
+    "stockPrice": 8.1,
+    "numberOfShares": 3754300,
+    "marketCapitalization": 30409830,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 30409830
+  }
+]

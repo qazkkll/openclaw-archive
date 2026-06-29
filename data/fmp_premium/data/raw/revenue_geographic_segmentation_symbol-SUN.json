@@ -1,0 +1,25 @@
+[
+  {
+    "symbol": "SUN",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "CANADA": 1703000000,
+      "Foreign": 1003000000,
+      "UNITED STATES": 22495000000
+    }
+  },
+  {
+    "symbol": "SUN",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Non-US": 44000000,
+      "UNITED STATES": 22649000000
+    }
+  }
+]

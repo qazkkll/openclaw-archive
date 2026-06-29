@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "EDN",
+    "date": "2018-05-30",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "EDN",
+    "date": "2016-10-05",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "EDN",
+    "date": "2012-03-29",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  }
+]

@@ -1,0 +1,942 @@
+[
+  {
+    "symbol": "DMLP",
+    "date": "2026-03-31",
+    "stockPrice": 27.1,
+    "numberOfShares": 48256000,
+    "marketCapitalization": 1307737600,
+    "minusCashAndCashEquivalents": 28157000,
+    "addTotalDebt": 713000,
+    "enterpriseValue": 1280293600
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2025-12-31",
+    "stockPrice": 22.36,
+    "numberOfShares": 47654000,
+    "marketCapitalization": 1065543440,
+    "minusCashAndCashEquivalents": 41937000,
+    "addTotalDebt": 777000,
+    "enterpriseValue": 1024383440
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2025-09-30",
+    "stockPrice": 25.89,
+    "numberOfShares": 47669000,
+    "marketCapitalization": 1234150410,
+    "minusCashAndCashEquivalents": 41606000,
+    "addTotalDebt": 842000,
+    "enterpriseValue": 1193386410
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2025-06-30",
+    "stockPrice": 27.86,
+    "numberOfShares": 47340000,
+    "marketCapitalization": 1318892400,
+    "minusCashAndCashEquivalents": 36514000,
+    "addTotalDebt": 907000,
+    "enterpriseValue": 1283285400
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2025-03-31",
+    "stockPrice": 30.08,
+    "numberOfShares": 47340000,
+    "marketCapitalization": 1423987200,
+    "minusCashAndCashEquivalents": 41545000,
+    "addTotalDebt": 974000,
+    "enterpriseValue": 1383416200
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2024-12-31",
+    "stockPrice": 33.33,
+    "numberOfShares": 47340000,
+    "marketCapitalization": 1577842200,
+    "minusCashAndCashEquivalents": 42508000,
+    "addTotalDebt": 1040000,
+    "enterpriseValue": 1536374200
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2024-09-30",
+    "stockPrice": 30.15,
+    "numberOfShares": 40167000,
+    "marketCapitalization": 1211035050,
+    "minusCashAndCashEquivalents": 56468000,
+    "addTotalDebt": 1107000,
+    "enterpriseValue": 1155674050
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2024-06-30",
+    "stockPrice": 31.24,
+    "numberOfShares": 40088000,
+    "marketCapitalization": 1252349120,
+    "minusCashAndCashEquivalents": 35161000,
+    "addTotalDebt": 1175000,
+    "enterpriseValue": 1218363120
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2024-03-31",
+    "stockPrice": 34.4,
+    "numberOfShares": 39605000,
+    "marketCapitalization": 1362412000,
+    "minusCashAndCashEquivalents": 37737000,
+    "addTotalDebt": 1245000,
+    "enterpriseValue": 1325920000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2023-12-31",
+    "stockPrice": 31.83,
+    "numberOfShares": 39583243,
+    "marketCapitalization": 1259934624,
+    "minusCashAndCashEquivalents": 47025000,
+    "addTotalDebt": 1313000,
+    "enterpriseValue": 1214222624
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2023-09-30",
+    "stockPrice": 29.05,
+    "numberOfShares": 38792000,
+    "marketCapitalization": 1126907600,
+    "minusCashAndCashEquivalents": 43492000,
+    "addTotalDebt": 1383000,
+    "enterpriseValue": 1084798600
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2023-06-30",
+    "stockPrice": 29.96,
+    "numberOfShares": 38372000,
+    "marketCapitalization": 1149625120,
+    "minusCashAndCashEquivalents": 35324000,
+    "addTotalDebt": 1452000,
+    "enterpriseValue": 1115753120
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2023-03-31",
+    "stockPrice": 30.29,
+    "numberOfShares": 38372000,
+    "marketCapitalization": 1162287880,
+    "minusCashAndCashEquivalents": 44999000,
+    "addTotalDebt": 1523000,
+    "enterpriseValue": 1118811880
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2022-12-31",
+    "stockPrice": 29.93,
+    "numberOfShares": 38371493,
+    "marketCapitalization": 1148458785,
+    "minusCashAndCashEquivalents": 40754000,
+    "addTotalDebt": 1594000,
+    "enterpriseValue": 1109298785
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2022-09-30",
+    "stockPrice": 24.98,
+    "numberOfShares": 37564000,
+    "marketCapitalization": 938348720,
+    "minusCashAndCashEquivalents": 51988000,
+    "addTotalDebt": 1665000,
+    "enterpriseValue": 888025720
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2022-06-30",
+    "stockPrice": 23.85,
+    "numberOfShares": 37555000,
+    "marketCapitalization": 895686750,
+    "minusCashAndCashEquivalents": 42976000,
+    "addTotalDebt": 1738000,
+    "enterpriseValue": 854448750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2022-03-31",
+    "stockPrice": 25.95,
+    "numberOfShares": 36991000,
+    "marketCapitalization": 959916450,
+    "minusCashAndCashEquivalents": 32969000,
+    "addTotalDebt": 1811000,
+    "enterpriseValue": 928758450
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2021-12-31",
+    "stockPrice": 19.79,
+    "numberOfShares": 35297167,
+    "marketCapitalization": 698530934,
+    "minusCashAndCashEquivalents": 28306000,
+    "addTotalDebt": 1885000,
+    "enterpriseValue": 672109934
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2021-09-30",
+    "stockPrice": 19.17,
+    "numberOfShares": 35405000,
+    "marketCapitalization": 678713850,
+    "minusCashAndCashEquivalents": 22325000,
+    "addTotalDebt": 1959000,
+    "enterpriseValue": 658347850
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2021-06-30",
+    "stockPrice": 16.85,
+    "numberOfShares": 34688000,
+    "marketCapitalization": 584492800,
+    "minusCashAndCashEquivalents": 20479000,
+    "addTotalDebt": 2033000,
+    "enterpriseValue": 566046800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2021-03-31",
+    "stockPrice": 13.66,
+    "numberOfShares": 34680000,
+    "marketCapitalization": 473728800,
+    "minusCashAndCashEquivalents": 13322000,
+    "addTotalDebt": 2109000,
+    "enterpriseValue": 462515800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2020-12-31",
+    "stockPrice": 10.91,
+    "numberOfShares": 34680000,
+    "marketCapitalization": 378358800,
+    "minusCashAndCashEquivalents": 11232000,
+    "addTotalDebt": 2185000,
+    "enterpriseValue": 369311800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2020-09-30",
+    "stockPrice": 10.33,
+    "numberOfShares": 34680000,
+    "marketCapitalization": 358244400,
+    "minusCashAndCashEquivalents": 14854000,
+    "addTotalDebt": 2261000,
+    "enterpriseValue": 345651400
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2020-06-30",
+    "stockPrice": 12.78,
+    "numberOfShares": 34680000,
+    "marketCapitalization": 443210400,
+    "minusCashAndCashEquivalents": 11753000,
+    "addTotalDebt": 2338000,
+    "enterpriseValue": 433795400
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2020-03-31",
+    "stockPrice": 9.31,
+    "numberOfShares": 34680000,
+    "marketCapitalization": 322870800,
+    "minusCashAndCashEquivalents": 20226000,
+    "addTotalDebt": 2417000,
+    "enterpriseValue": 305061800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2019-12-31",
+    "stockPrice": 19.51,
+    "numberOfShares": 34624000,
+    "marketCapitalization": 675514240,
+    "minusCashAndCashEquivalents": 15339000,
+    "addTotalDebt": 2495000,
+    "enterpriseValue": 662670240
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2019-09-30",
+    "stockPrice": 18.65,
+    "numberOfShares": 34680000,
+    "marketCapitalization": 646782000,
+    "minusCashAndCashEquivalents": 21916000,
+    "addTotalDebt": 2570000,
+    "enterpriseValue": 627436000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2019-06-30",
+    "stockPrice": 18.13,
+    "numberOfShares": 34680000,
+    "marketCapitalization": 628748400,
+    "minusCashAndCashEquivalents": 20824000,
+    "addTotalDebt": 2644000,
+    "enterpriseValue": 610568400
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2019-03-31",
+    "stockPrice": 18.75,
+    "numberOfShares": 32360000,
+    "marketCapitalization": 606750000,
+    "minusCashAndCashEquivalents": 19905000,
+    "addTotalDebt": 2718000,
+    "enterpriseValue": 589563000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2018-12-31",
+    "stockPrice": 14.64,
+    "numberOfShares": 32280000,
+    "marketCapitalization": 472579200,
+    "minusCashAndCashEquivalents": 18285000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 454294200
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2018-09-30",
+    "stockPrice": 19.81,
+    "numberOfShares": 32280000,
+    "marketCapitalization": 639466800,
+    "minusCashAndCashEquivalents": 15703000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 623763800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2018-06-30",
+    "stockPrice": 20.6,
+    "numberOfShares": 32280000,
+    "marketCapitalization": 664968000,
+    "minusCashAndCashEquivalents": 19608000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 645360000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2018-03-31",
+    "stockPrice": 16.1,
+    "numberOfShares": 32280000,
+    "marketCapitalization": 519708000,
+    "minusCashAndCashEquivalents": 15392000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 504316000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2017-12-31",
+    "stockPrice": 15.2,
+    "numberOfShares": 32286000,
+    "marketCapitalization": 490747200,
+    "minusCashAndCashEquivalents": 13827000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 476920200
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2017-09-30",
+    "stockPrice": 15.05,
+    "numberOfShares": 32280000,
+    "marketCapitalization": 485814000,
+    "minusCashAndCashEquivalents": 11557000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 474257000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2017-06-30",
+    "stockPrice": 14.45,
+    "numberOfShares": 30693000,
+    "marketCapitalization": 443513850,
+    "minusCashAndCashEquivalents": 12594000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 430919850
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2017-03-31",
+    "stockPrice": 17.2,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 527610000,
+    "minusCashAndCashEquivalents": 10608000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 517002000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2016-12-31",
+    "stockPrice": 17.55,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 538346250,
+    "minusCashAndCashEquivalents": 8212000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 530134250
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2016-09-30",
+    "stockPrice": 15.41,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 472701750,
+    "minusCashAndCashEquivalents": 9496000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 463205750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2016-06-30",
+    "stockPrice": 14.42,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 442333500,
+    "minusCashAndCashEquivalents": 9522000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 432811500
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2016-03-31",
+    "stockPrice": 11.39,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 349388250,
+    "minusCashAndCashEquivalents": 5267000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 344121250
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2015-12-31",
+    "stockPrice": 9.89,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 303375750,
+    "minusCashAndCashEquivalents": 7136000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 296239750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2015-09-30",
+    "stockPrice": 14.46,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 443560500,
+    "minusCashAndCashEquivalents": 8113000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 435447500
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2015-06-30",
+    "stockPrice": 21.39,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 656138250,
+    "minusCashAndCashEquivalents": 7028000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 649110250
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2015-03-31",
+    "stockPrice": 22.74,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 697549500,
+    "minusCashAndCashEquivalents": 10673000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 686876500
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2014-12-31",
+    "stockPrice": 25.53,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 783132750,
+    "minusCashAndCashEquivalents": 15912000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 767220750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2014-09-30",
+    "stockPrice": 29.57,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 907059750,
+    "minusCashAndCashEquivalents": 15899000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 891160750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2014-06-30",
+    "stockPrice": 30.54,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 936814500,
+    "minusCashAndCashEquivalents": 16809000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 920005500
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2014-03-31",
+    "stockPrice": 26.2,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 803685000,
+    "minusCashAndCashEquivalents": 16531000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 787154000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2013-12-31",
+    "stockPrice": 25.98,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 796936500,
+    "minusCashAndCashEquivalents": 15175000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 781761500
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2013-09-30",
+    "stockPrice": 23.9,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 733132500,
+    "minusCashAndCashEquivalents": 15765000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 717367500
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2013-06-30",
+    "stockPrice": 24.38,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 747856500,
+    "minusCashAndCashEquivalents": 13512000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 734344500
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2013-03-31",
+    "stockPrice": 23.57,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 723009750,
+    "minusCashAndCashEquivalents": 14639000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 708370750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2012-12-31",
+    "stockPrice": 20.33,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 623622750,
+    "minusCashAndCashEquivalents": 13792000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 609830750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2012-09-30",
+    "stockPrice": 22.01,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 675156750,
+    "minusCashAndCashEquivalents": 12346000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 662810750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2012-06-30",
+    "stockPrice": 21.95,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 673316250,
+    "minusCashAndCashEquivalents": 15350000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 657966250
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2012-03-31",
+    "stockPrice": 26.25,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 805218750,
+    "minusCashAndCashEquivalents": 17551000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 787667750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2011-12-31",
+    "stockPrice": 22.66,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 695095500,
+    "minusCashAndCashEquivalents": 14238000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 680857500
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2011-09-30",
+    "stockPrice": 23.78,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 729451500,
+    "minusCashAndCashEquivalents": 15739000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 713712500
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2011-06-30",
+    "stockPrice": 26.91,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 825464250,
+    "minusCashAndCashEquivalents": 14110000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 811354250
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2011-03-31",
+    "stockPrice": 29.24,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 896937000,
+    "minusCashAndCashEquivalents": 13930000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 883007000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2010-12-31",
+    "stockPrice": 27.47,
+    "numberOfShares": 30676000,
+    "marketCapitalization": 842669720,
+    "minusCashAndCashEquivalents": 11253000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 831416720
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2010-09-30",
+    "stockPrice": 26.89,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 824850750,
+    "minusCashAndCashEquivalents": 16354000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 808496750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2010-06-30",
+    "stockPrice": 25.53,
+    "numberOfShares": 30675000,
+    "marketCapitalization": 783132750,
+    "minusCashAndCashEquivalents": 14110000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 769022750
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2010-03-31",
+    "stockPrice": 21.18,
+    "numberOfShares": 29849000,
+    "marketCapitalization": 632201820,
+    "minusCashAndCashEquivalents": 14718000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 617483820
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2009-12-31",
+    "stockPrice": 21.28,
+    "numberOfShares": 29839000,
+    "marketCapitalization": 634973920,
+    "minusCashAndCashEquivalents": 10124000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 624849920
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2009-09-30",
+    "stockPrice": 22.57,
+    "numberOfShares": 29840000,
+    "marketCapitalization": 673488800,
+    "minusCashAndCashEquivalents": 10012000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 663476800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2009-06-30",
+    "stockPrice": 22.8,
+    "numberOfShares": 28258000,
+    "marketCapitalization": 644282400,
+    "minusCashAndCashEquivalents": 9217000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 635065400
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2009-03-31",
+    "stockPrice": 16.33,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 461159199,
+    "minusCashAndCashEquivalents": 12039000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 449120199
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2008-12-31",
+    "stockPrice": 15.87,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 448168800,
+    "minusCashAndCashEquivalents": 16211000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 431957800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2008-09-30",
+    "stockPrice": 23.1,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 652344000,
+    "minusCashAndCashEquivalents": 28898000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 623446000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2008-06-30",
+    "stockPrice": 31.8,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 898032000,
+    "minusCashAndCashEquivalents": 23175000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 874857000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2008-03-31",
+    "stockPrice": 21,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 593040000,
+    "minusCashAndCashEquivalents": 17158000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 575882000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2007-12-31",
+    "stockPrice": 20.13,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 568471200,
+    "minusCashAndCashEquivalents": 15001000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 553470200
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2007-09-30",
+    "stockPrice": 20.54,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 580049600,
+    "minusCashAndCashEquivalents": 17427000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 562622600
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2007-06-30",
+    "stockPrice": 22,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 621280000,
+    "minusCashAndCashEquivalents": 14537000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 606743000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2007-03-31",
+    "stockPrice": 22.01,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 621562400,
+    "minusCashAndCashEquivalents": 13828000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 607734400
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2006-12-31",
+    "stockPrice": 22.03,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 622127200,
+    "minusCashAndCashEquivalents": 13927000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 608200200
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2006-09-30",
+    "stockPrice": 25.75,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 727180000,
+    "minusCashAndCashEquivalents": 16118000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 711062000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2006-06-30",
+    "stockPrice": 25.11,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 709106400,
+    "minusCashAndCashEquivalents": 23359000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 685747400
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2006-03-31",
+    "stockPrice": 27.25,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 769540000,
+    "minusCashAndCashEquivalents": 21514000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 748026000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2005-12-31",
+    "stockPrice": 25.47,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 719272800,
+    "minusCashAndCashEquivalents": 23389000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 695883800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2005-09-30",
+    "stockPrice": 30.65,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 865556000,
+    "minusCashAndCashEquivalents": 17526000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 848030000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2005-06-30",
+    "stockPrice": 23.92,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 675500800,
+    "minusCashAndCashEquivalents": 15449000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 660051800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2005-03-31",
+    "stockPrice": 22.15,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 625516000,
+    "minusCashAndCashEquivalents": 14208000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 611308000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2004-12-31",
+    "stockPrice": 23.92,
+    "numberOfShares": 28240000,
+    "marketCapitalization": 675500800,
+    "minusCashAndCashEquivalents": 12365000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 663135800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2004-09-30",
+    "stockPrice": 20.27,
+    "numberOfShares": 27053000,
+    "marketCapitalization": 548364310,
+    "minusCashAndCashEquivalents": 14450000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 533914310
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2004-06-30",
+    "stockPrice": 19.02,
+    "numberOfShares": 27040000,
+    "marketCapitalization": 514300800,
+    "minusCashAndCashEquivalents": 11901000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 502399800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2004-03-31",
+    "stockPrice": 17.9,
+    "numberOfShares": 27040000,
+    "marketCapitalization": 484015999,
+    "minusCashAndCashEquivalents": 11715000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 472300999
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2003-12-31",
+    "stockPrice": 19.41,
+    "numberOfShares": 27040000,
+    "marketCapitalization": 524846400,
+    "minusCashAndCashEquivalents": 10881000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 513965400
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2003-09-30",
+    "stockPrice": 16.85,
+    "numberOfShares": 27040000,
+    "marketCapitalization": 455624000,
+    "minusCashAndCashEquivalents": 12336000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 443288000
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2003-06-30",
+    "stockPrice": 17.57,
+    "numberOfShares": 27040000,
+    "marketCapitalization": 475092800,
+    "minusCashAndCashEquivalents": 13113000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 461979800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2003-03-31",
+    "stockPrice": 14.35,
+    "numberOfShares": 21608000,
+    "marketCapitalization": 310074800,
+    "minusCashAndCashEquivalents": 5955000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 304119800
+  },
+  {
+    "symbol": "DMLP",
+    "date": "2002-12-31",
+    "stockPrice": 14.47,
+    "numberOfShares": 10740000,
+    "marketCapitalization": 155407800,
+    "minusCashAndCashEquivalents": 23100000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 132307800
+  }
+]

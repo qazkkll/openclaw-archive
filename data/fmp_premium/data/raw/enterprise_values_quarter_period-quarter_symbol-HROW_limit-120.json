@@ -1,0 +1,792 @@
+[
+  {
+    "symbol": "HROW",
+    "date": "2026-03-31",
+    "stockPrice": 35.26,
+    "numberOfShares": 37231321,
+    "marketCapitalization": 1312776378,
+    "minusCashAndCashEquivalents": 94644000,
+    "addTotalDebt": 300668000,
+    "enterpriseValue": 1518800378
+  },
+  {
+    "symbol": "HROW",
+    "date": "2025-12-31",
+    "stockPrice": 49,
+    "numberOfShares": 36760461,
+    "marketCapitalization": 1801262589,
+    "minusCashAndCashEquivalents": 72927000,
+    "addTotalDebt": 251976000,
+    "enterpriseValue": 1980311589
+  },
+  {
+    "symbol": "HROW",
+    "date": "2025-09-30",
+    "stockPrice": 48.18,
+    "numberOfShares": 37145440,
+    "marketCapitalization": 1789667299,
+    "minusCashAndCashEquivalents": 74290000,
+    "addTotalDebt": 251872000,
+    "enterpriseValue": 1967249299
+  },
+  {
+    "symbol": "HROW",
+    "date": "2025-06-30",
+    "stockPrice": 30.54,
+    "numberOfShares": 36790306,
+    "marketCapitalization": 1123575945,
+    "minusCashAndCashEquivalents": 52963000,
+    "addTotalDebt": 231251000,
+    "enterpriseValue": 1301863945
+  },
+  {
+    "symbol": "HROW",
+    "date": "2025-03-31",
+    "stockPrice": 26.6,
+    "numberOfShares": 35826000,
+    "marketCapitalization": 952971600,
+    "minusCashAndCashEquivalents": 66726000,
+    "addTotalDebt": 230006000,
+    "enterpriseValue": 1116251600
+  },
+  {
+    "symbol": "HROW",
+    "date": "2024-12-31",
+    "stockPrice": 33.55,
+    "numberOfShares": 35808000,
+    "marketCapitalization": 1201358400,
+    "minusCashAndCashEquivalents": 47247000,
+    "addTotalDebt": 228828000,
+    "enterpriseValue": 1382939400
+  },
+  {
+    "symbol": "HROW",
+    "date": "2024-09-30",
+    "stockPrice": 44.96,
+    "numberOfShares": 35702000,
+    "marketCapitalization": 1605161920,
+    "minusCashAndCashEquivalents": 72601000,
+    "addTotalDebt": 196064000,
+    "enterpriseValue": 1728624920
+  },
+  {
+    "symbol": "HROW",
+    "date": "2024-06-30",
+    "stockPrice": 21.05,
+    "numberOfShares": 35619000,
+    "marketCapitalization": 749779950,
+    "minusCashAndCashEquivalents": 70968000,
+    "addTotalDebt": 192333000,
+    "enterpriseValue": 871144950
+  },
+  {
+    "symbol": "HROW",
+    "date": "2024-03-31",
+    "stockPrice": 12.8,
+    "numberOfShares": 35470000,
+    "marketCapitalization": 454016000,
+    "minusCashAndCashEquivalents": 68538000,
+    "addTotalDebt": 191659000,
+    "enterpriseValue": 577137000
+  },
+  {
+    "symbol": "HROW",
+    "date": "2023-12-31",
+    "stockPrice": 11.2,
+    "numberOfShares": 35354000,
+    "marketCapitalization": 395964800,
+    "minusCashAndCashEquivalents": 74085000,
+    "addTotalDebt": 190502000,
+    "enterpriseValue": 512381800
+  },
+  {
+    "symbol": "HROW",
+    "date": "2023-09-30",
+    "stockPrice": 14.37,
+    "numberOfShares": 34255000,
+    "marketCapitalization": 492244350,
+    "minusCashAndCashEquivalents": 65610000,
+    "addTotalDebt": 189706000,
+    "enterpriseValue": 616340350
+  },
+  {
+    "symbol": "HROW",
+    "date": "2023-06-30",
+    "stockPrice": 19.04,
+    "numberOfShares": 30459000,
+    "marketCapitalization": 579939360,
+    "minusCashAndCashEquivalents": 22754000,
+    "addTotalDebt": 177415000,
+    "enterpriseValue": 734600360
+  },
+  {
+    "symbol": "HROW",
+    "date": "2023-03-31",
+    "stockPrice": 21.16,
+    "numberOfShares": 30290000,
+    "marketCapitalization": 640936400,
+    "minusCashAndCashEquivalents": 19248000,
+    "addTotalDebt": 176731000,
+    "enterpriseValue": 798419400
+  },
+  {
+    "symbol": "HROW",
+    "date": "2022-12-31",
+    "stockPrice": 14.76,
+    "numberOfShares": 27958000,
+    "marketCapitalization": 412660080,
+    "minusCashAndCashEquivalents": 96270000,
+    "addTotalDebt": 112229000,
+    "enterpriseValue": 428619080
+  },
+  {
+    "symbol": "HROW",
+    "date": "2022-09-30",
+    "stockPrice": 12.07,
+    "numberOfShares": 27350000,
+    "marketCapitalization": 330114500,
+    "minusCashAndCashEquivalents": 44959000,
+    "addTotalDebt": 80462000,
+    "enterpriseValue": 365617500
+  },
+  {
+    "symbol": "HROW",
+    "date": "2022-06-30",
+    "stockPrice": 7.28,
+    "numberOfShares": 27303000,
+    "marketCapitalization": 198765840,
+    "minusCashAndCashEquivalents": 46438000,
+    "addTotalDebt": 80379000,
+    "enterpriseValue": 232706840
+  },
+  {
+    "symbol": "HROW",
+    "date": "2022-03-31",
+    "stockPrice": 6.82,
+    "numberOfShares": 27089000,
+    "marketCapitalization": 184746980,
+    "minusCashAndCashEquivalents": 41948000,
+    "addTotalDebt": 79130000,
+    "enterpriseValue": 221928980
+  },
+  {
+    "symbol": "HROW",
+    "date": "2021-12-31",
+    "stockPrice": 8.64,
+    "numberOfShares": 27474000,
+    "marketCapitalization": 237375360,
+    "minusCashAndCashEquivalents": 42167000,
+    "addTotalDebt": 77956000,
+    "enterpriseValue": 273164360
+  },
+  {
+    "symbol": "HROW",
+    "date": "2021-09-30",
+    "stockPrice": 9.09,
+    "numberOfShares": 27113000,
+    "marketCapitalization": 246457170,
+    "minusCashAndCashEquivalents": 57656000,
+    "addTotalDebt": 76486000,
+    "enterpriseValue": 265287170
+  },
+  {
+    "symbol": "HROW",
+    "date": "2021-06-30",
+    "stockPrice": 9.29,
+    "numberOfShares": 26737000,
+    "marketCapitalization": 248386729,
+    "minusCashAndCashEquivalents": 72651000,
+    "addTotalDebt": 76467000,
+    "enterpriseValue": 252202729
+  },
+  {
+    "symbol": "HROW",
+    "date": "2021-03-31",
+    "stockPrice": 6.75,
+    "numberOfShares": 26019000,
+    "marketCapitalization": 175628250,
+    "minusCashAndCashEquivalents": 6304000,
+    "addTotalDebt": 20772000,
+    "enterpriseValue": 190096250
+  },
+  {
+    "symbol": "HROW",
+    "date": "2020-12-31",
+    "stockPrice": 6.86,
+    "numberOfShares": 25750000,
+    "marketCapitalization": 176645000,
+    "minusCashAndCashEquivalents": 4101000,
+    "addTotalDebt": 23533000,
+    "enterpriseValue": 196077000
+  },
+  {
+    "symbol": "HROW",
+    "date": "2020-09-30",
+    "stockPrice": 5.59,
+    "numberOfShares": 25922000,
+    "marketCapitalization": 144903980,
+    "minusCashAndCashEquivalents": 5527000,
+    "addTotalDebt": 24296000,
+    "enterpriseValue": 163672980
+  },
+  {
+    "symbol": "HROW",
+    "date": "2020-06-30",
+    "stockPrice": 5.21,
+    "numberOfShares": 25894000,
+    "marketCapitalization": 134907740,
+    "minusCashAndCashEquivalents": 3902000,
+    "addTotalDebt": 24256000,
+    "enterpriseValue": 155261740
+  },
+  {
+    "symbol": "HROW",
+    "date": "2020-03-31",
+    "stockPrice": 3.82,
+    "numberOfShares": 25814000,
+    "marketCapitalization": 98609480,
+    "minusCashAndCashEquivalents": 3924000,
+    "addTotalDebt": 21028000,
+    "enterpriseValue": 115713480
+  },
+  {
+    "symbol": "HROW",
+    "date": "2019-12-31",
+    "stockPrice": 7.78,
+    "numberOfShares": 25677000,
+    "marketCapitalization": 199767060,
+    "minusCashAndCashEquivalents": 4749000,
+    "addTotalDebt": 20991000,
+    "enterpriseValue": 216009060
+  },
+  {
+    "symbol": "HROW",
+    "date": "2019-09-30",
+    "stockPrice": 5.62,
+    "numberOfShares": 25487000,
+    "marketCapitalization": 143236940,
+    "minusCashAndCashEquivalents": 3431000,
+    "addTotalDebt": 20251000,
+    "enterpriseValue": 160056940
+  },
+  {
+    "symbol": "HROW",
+    "date": "2019-06-30",
+    "stockPrice": 8,
+    "numberOfShares": 25217000,
+    "marketCapitalization": 201736000,
+    "minusCashAndCashEquivalents": 3993000,
+    "addTotalDebt": 20616000,
+    "enterpriseValue": 218359000
+  },
+  {
+    "symbol": "HROW",
+    "date": "2019-03-31",
+    "stockPrice": 4.66,
+    "numberOfShares": 24841000,
+    "marketCapitalization": 115759060,
+    "minusCashAndCashEquivalents": 4265000,
+    "addTotalDebt": 21082000,
+    "enterpriseValue": 132576060
+  },
+  {
+    "symbol": "HROW",
+    "date": "2018-12-31",
+    "stockPrice": 5.69,
+    "numberOfShares": 23821000,
+    "marketCapitalization": 135541490,
+    "minusCashAndCashEquivalents": 6638000,
+    "addTotalDebt": 15248000,
+    "enterpriseValue": 144151490
+  },
+  {
+    "symbol": "HROW",
+    "date": "2018-09-30",
+    "stockPrice": 2.76,
+    "numberOfShares": 21709000,
+    "marketCapitalization": 59916839,
+    "minusCashAndCashEquivalents": 6315000,
+    "addTotalDebt": 15280000,
+    "enterpriseValue": 68881839
+  },
+  {
+    "symbol": "HROW",
+    "date": "2018-06-30",
+    "stockPrice": 2.2,
+    "numberOfShares": 21191000,
+    "marketCapitalization": 46620200,
+    "minusCashAndCashEquivalents": 4170000,
+    "addTotalDebt": 15303000,
+    "enterpriseValue": 57753200
+  },
+  {
+    "symbol": "HROW",
+    "date": "2018-03-31",
+    "stockPrice": 1.76,
+    "numberOfShares": 20665000,
+    "marketCapitalization": 36370400,
+    "minusCashAndCashEquivalents": 2692000,
+    "addTotalDebt": 15318000,
+    "enterpriseValue": 48996400
+  },
+  {
+    "symbol": "HROW",
+    "date": "2017-12-31",
+    "stockPrice": 1.7,
+    "numberOfShares": 20691000,
+    "marketCapitalization": 35174700,
+    "minusCashAndCashEquivalents": 4019000,
+    "addTotalDebt": 15326000,
+    "enterpriseValue": 46481700
+  },
+  {
+    "symbol": "HROW",
+    "date": "2017-09-30",
+    "stockPrice": 1.61,
+    "numberOfShares": 20273000,
+    "marketCapitalization": 32639530,
+    "minusCashAndCashEquivalents": 3867000,
+    "addTotalDebt": 15322000,
+    "enterpriseValue": 44094530
+  },
+  {
+    "symbol": "HROW",
+    "date": "2017-06-30",
+    "stockPrice": 3.2,
+    "numberOfShares": 20210000,
+    "marketCapitalization": 64672000,
+    "minusCashAndCashEquivalents": 4165000,
+    "addTotalDebt": 13412000,
+    "enterpriseValue": 73919000
+  },
+  {
+    "symbol": "HROW",
+    "date": "2017-03-31",
+    "stockPrice": 4.17,
+    "numberOfShares": 18927000,
+    "marketCapitalization": 78925590,
+    "minusCashAndCashEquivalents": 7396000,
+    "addTotalDebt": 13870000,
+    "enterpriseValue": 85399590
+  },
+  {
+    "symbol": "HROW",
+    "date": "2016-12-31",
+    "stockPrice": 2.5,
+    "numberOfShares": 18927000,
+    "marketCapitalization": 47317500,
+    "minusCashAndCashEquivalents": 8853000,
+    "addTotalDebt": 13686000,
+    "enterpriseValue": 52150500
+  },
+  {
+    "symbol": "HROW",
+    "date": "2016-09-30",
+    "stockPrice": 3.81,
+    "numberOfShares": 13471000,
+    "marketCapitalization": 51324510,
+    "minusCashAndCashEquivalents": 2362000,
+    "addTotalDebt": 11603000,
+    "enterpriseValue": 60565510
+  },
+  {
+    "symbol": "HROW",
+    "date": "2016-06-30",
+    "stockPrice": 3.76,
+    "numberOfShares": 13254000,
+    "marketCapitalization": 49835040,
+    "minusCashAndCashEquivalents": 5441000,
+    "addTotalDebt": 9421000,
+    "enterpriseValue": 53815040
+  },
+  {
+    "symbol": "HROW",
+    "date": "2016-03-31",
+    "stockPrice": 3.97,
+    "numberOfShares": 10407000,
+    "marketCapitalization": 41315790,
+    "minusCashAndCashEquivalents": 11821000,
+    "addTotalDebt": 9114000,
+    "enterpriseValue": 38608790
+  },
+  {
+    "symbol": "HROW",
+    "date": "2015-12-31",
+    "stockPrice": 6.93,
+    "numberOfShares": 10407000,
+    "marketCapitalization": 72120510,
+    "minusCashAndCashEquivalents": 2685000,
+    "addTotalDebt": 8358000,
+    "enterpriseValue": 77793510
+  },
+  {
+    "symbol": "HROW",
+    "date": "2015-09-30",
+    "stockPrice": 6.42,
+    "numberOfShares": 9604000,
+    "marketCapitalization": 61657680,
+    "minusCashAndCashEquivalents": 6556000,
+    "addTotalDebt": 8245000,
+    "enterpriseValue": 63346680
+  },
+  {
+    "symbol": "HROW",
+    "date": "2015-06-30",
+    "stockPrice": 8.13,
+    "numberOfShares": 9502000,
+    "marketCapitalization": 77251260,
+    "minusCashAndCashEquivalents": 10051000,
+    "addTotalDebt": 8096000,
+    "enterpriseValue": 75296260
+  },
+  {
+    "symbol": "HROW",
+    "date": "2015-03-31",
+    "stockPrice": 7.99,
+    "numberOfShares": 9337000,
+    "marketCapitalization": 74602630,
+    "minusCashAndCashEquivalents": 2898000,
+    "addTotalDebt": 39000,
+    "enterpriseValue": 71743630
+  },
+  {
+    "symbol": "HROW",
+    "date": "2014-12-31",
+    "stockPrice": 7.5,
+    "numberOfShares": 9255761,
+    "marketCapitalization": 69418207,
+    "minusCashAndCashEquivalents": 8211492,
+    "addTotalDebt": 43080,
+    "enterpriseValue": 61249795
+  },
+  {
+    "symbol": "HROW",
+    "date": "2014-09-30",
+    "stockPrice": 7.42,
+    "numberOfShares": 9154000,
+    "marketCapitalization": 67922680,
+    "minusCashAndCashEquivalents": 10363603,
+    "addTotalDebt": 48950,
+    "enterpriseValue": 57608027
+  },
+  {
+    "symbol": "HROW",
+    "date": "2014-06-30",
+    "stockPrice": 6.94,
+    "numberOfShares": 9110000,
+    "marketCapitalization": 63223400,
+    "minusCashAndCashEquivalents": 12101796,
+    "addTotalDebt": 16596,
+    "enterpriseValue": 51138200
+  },
+  {
+    "symbol": "HROW",
+    "date": "2014-03-31",
+    "stockPrice": 6.71,
+    "numberOfShares": 9010602,
+    "marketCapitalization": 60461139,
+    "minusCashAndCashEquivalents": 14201144,
+    "addTotalDebt": 0,
+    "enterpriseValue": 46259995
+  },
+  {
+    "symbol": "HROW",
+    "date": "2013-12-31",
+    "stockPrice": 3.36,
+    "numberOfShares": 8973811,
+    "marketCapitalization": 30152004,
+    "minusCashAndCashEquivalents": 15579309,
+    "addTotalDebt": 0,
+    "enterpriseValue": 14572695
+  },
+  {
+    "symbol": "HROW",
+    "date": "2013-09-30",
+    "stockPrice": 4.5,
+    "numberOfShares": 8962000,
+    "marketCapitalization": 40329000,
+    "minusCashAndCashEquivalents": 16827617,
+    "addTotalDebt": 0,
+    "enterpriseValue": 23501383
+  },
+  {
+    "symbol": "HROW",
+    "date": "2013-06-30",
+    "stockPrice": 8.23,
+    "numberOfShares": 8891000,
+    "marketCapitalization": 73172930,
+    "minusCashAndCashEquivalents": 17970320,
+    "addTotalDebt": 0,
+    "enterpriseValue": 55202610
+  },
+  {
+    "symbol": "HROW",
+    "date": "2013-03-31",
+    "stockPrice": 6,
+    "numberOfShares": 7788236,
+    "marketCapitalization": 46729416,
+    "minusCashAndCashEquivalents": 19029031,
+    "addTotalDebt": 0,
+    "enterpriseValue": 27700385
+  },
+  {
+    "symbol": "HROW",
+    "date": "2012-12-31",
+    "stockPrice": 9.75,
+    "numberOfShares": 7788236,
+    "marketCapitalization": 75935301,
+    "minusCashAndCashEquivalents": 10035615,
+    "addTotalDebt": 0,
+    "enterpriseValue": 65899686
+  },
+  {
+    "symbol": "HROW",
+    "date": "2012-09-30",
+    "stockPrice": 9.5,
+    "numberOfShares": 6219821,
+    "marketCapitalization": 59088299,
+    "minusCashAndCashEquivalents": 10990871,
+    "addTotalDebt": 0,
+    "enterpriseValue": 48097428
+  },
+  {
+    "symbol": "HROW",
+    "date": "2012-06-30",
+    "stockPrice": 3,
+    "numberOfShares": 3875000,
+    "marketCapitalization": 11625000,
+    "minusCashAndCashEquivalents": 7717292,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3907708
+  },
+  {
+    "symbol": "HROW",
+    "date": "2012-03-31",
+    "stockPrice": 4.5,
+    "numberOfShares": 1063000,
+    "marketCapitalization": 4783500,
+    "minusCashAndCashEquivalents": 146711,
+    "addTotalDebt": 608959,
+    "enterpriseValue": 5245748
+  },
+  {
+    "symbol": "HROW",
+    "date": "2011-12-31",
+    "stockPrice": 4.8,
+    "numberOfShares": 1063000,
+    "marketCapitalization": 5102400,
+    "minusCashAndCashEquivalents": 146160,
+    "addTotalDebt": 1430479,
+    "enterpriseValue": 6386719
+  },
+  {
+    "symbol": "HROW",
+    "date": "2011-09-30",
+    "stockPrice": 0.68376,
+    "numberOfShares": 397520,
+    "marketCapitalization": 271808.28,
+    "minusCashAndCashEquivalents": 2154,
+    "addTotalDebt": 1111574,
+    "enterpriseValue": 1381228
+  },
+  {
+    "symbol": "HROW",
+    "date": "2011-06-30",
+    "stockPrice": 0.25613,
+    "numberOfShares": 397880,
+    "marketCapitalization": 101909,
+    "minusCashAndCashEquivalents": 5553,
+    "addTotalDebt": 1092670,
+    "enterpriseValue": 1189026
+  },
+  {
+    "symbol": "HROW",
+    "date": "2011-03-31",
+    "stockPrice": 2.05,
+    "numberOfShares": 398301,
+    "marketCapitalization": 816517.05,
+    "minusCashAndCashEquivalents": 70866,
+    "addTotalDebt": 1073972,
+    "enterpriseValue": 1819623
+  },
+  {
+    "symbol": "HROW",
+    "date": "2010-12-31",
+    "stockPrice": 6.75,
+    "numberOfShares": 398077,
+    "marketCapitalization": 2687019.75,
+    "minusCashAndCashEquivalents": 291462,
+    "addTotalDebt": 1055479,
+    "enterpriseValue": 3451036
+  },
+  {
+    "symbol": "HROW",
+    "date": "2010-09-30",
+    "stockPrice": 7.68,
+    "numberOfShares": 396497,
+    "marketCapitalization": 3045096.96,
+    "minusCashAndCashEquivalents": 467278,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2577818
+  },
+  {
+    "symbol": "HROW",
+    "date": "2010-06-30",
+    "stockPrice": 9.82,
+    "numberOfShares": 392587,
+    "marketCapitalization": 3855204.34,
+    "minusCashAndCashEquivalents": 1042614,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2812590
+  },
+  {
+    "symbol": "HROW",
+    "date": "2010-03-31",
+    "stockPrice": 8.54,
+    "numberOfShares": 391301,
+    "marketCapitalization": 3341710.54,
+    "minusCashAndCashEquivalents": 951882,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2389828
+  },
+  {
+    "symbol": "HROW",
+    "date": "2009-12-31",
+    "stockPrice": 12.81,
+    "numberOfShares": 391301,
+    "marketCapitalization": 5012565.81,
+    "minusCashAndCashEquivalents": 1589773,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3422792
+  },
+  {
+    "symbol": "HROW",
+    "date": "2009-09-30",
+    "stockPrice": 15.8,
+    "numberOfShares": 390800,
+    "marketCapitalization": 6174640,
+    "minusCashAndCashEquivalents": 1999154,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4175486
+  },
+  {
+    "symbol": "HROW",
+    "date": "2009-06-30",
+    "stockPrice": 11.95,
+    "numberOfShares": 390051,
+    "marketCapitalization": 4661109.45,
+    "minusCashAndCashEquivalents": 2902221,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1758888
+  },
+  {
+    "symbol": "HROW",
+    "date": "2009-03-31",
+    "stockPrice": 9.39,
+    "numberOfShares": 389116,
+    "marketCapitalization": 3653799.24,
+    "minusCashAndCashEquivalents": 4193350,
+    "addTotalDebt": 0,
+    "enterpriseValue": -539550
+  },
+  {
+    "symbol": "HROW",
+    "date": "2008-12-31",
+    "stockPrice": 8.54,
+    "numberOfShares": 388203,
+    "marketCapitalization": 3315253.62,
+    "minusCashAndCashEquivalents": 5111031,
+    "addTotalDebt": 0,
+    "enterpriseValue": -1795777
+  },
+  {
+    "symbol": "HROW",
+    "date": "2008-09-30",
+    "stockPrice": 11.95,
+    "numberOfShares": 386565,
+    "marketCapitalization": 4619451.75,
+    "minusCashAndCashEquivalents": 5775523,
+    "addTotalDebt": 0,
+    "enterpriseValue": -1156071
+  },
+  {
+    "symbol": "HROW",
+    "date": "2008-06-30",
+    "stockPrice": 15.8,
+    "numberOfShares": 366085,
+    "marketCapitalization": 5784143,
+    "minusCashAndCashEquivalents": 6710629,
+    "addTotalDebt": 0,
+    "enterpriseValue": -926486
+  },
+  {
+    "symbol": "HROW",
+    "date": "2008-03-31",
+    "stockPrice": 14.94,
+    "numberOfShares": 341110,
+    "marketCapitalization": 5096183.4,
+    "minusCashAndCashEquivalents": 3408244,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1687939
+  },
+  {
+    "symbol": "HROW",
+    "date": "2007-12-31",
+    "stockPrice": 23.48,
+    "numberOfShares": 343175,
+    "marketCapitalization": 8057749,
+    "minusCashAndCashEquivalents": 3706369,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4351380
+  },
+  {
+    "symbol": "HROW",
+    "date": "2007-09-30",
+    "stockPrice": 25.61,
+    "numberOfShares": 218634,
+    "marketCapitalization": 5599216.74,
+    "minusCashAndCashEquivalents": 4298092,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1301124
+  },
+  {
+    "symbol": "HROW",
+    "date": "2007-05-31",
+    "stockPrice": 25.61,
+    "numberOfShares": 185013,
+    "marketCapitalization": 4738182.93,
+    "minusCashAndCashEquivalents": 16982,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4721200
+  },
+  {
+    "symbol": "HROW",
+    "date": "2007-02-28",
+    "stockPrice": 25.61,
+    "numberOfShares": 185013,
+    "marketCapitalization": 4738182.93,
+    "minusCashAndCashEquivalents": 27411,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4710771
+  },
+  {
+    "symbol": "HROW",
+    "date": "2006-11-30",
+    "stockPrice": 25.61,
+    "numberOfShares": 185013,
+    "marketCapitalization": 4738182.93,
+    "minusCashAndCashEquivalents": 27433,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4710749
+  },
+  {
+    "symbol": "HROW",
+    "date": "2006-08-31",
+    "stockPrice": 25.61,
+    "numberOfShares": 185013,
+    "marketCapitalization": 4738182.93,
+    "minusCashAndCashEquivalents": 28461,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4709721
+  }
+]

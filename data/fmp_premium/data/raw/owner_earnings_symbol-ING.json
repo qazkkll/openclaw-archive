@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ING",
+    "reportedCurrency": "EUR",
+    "fiscalYear": "2025",
+    "period": "Q4",
+    "date": "2025-12-31",
+    "averagePPE": 0.06845674,
+    "maintenanceCapex": 26766585,
+    "ownersEarnings": 26766585,
+    "growthCapex": -26766585,
+    "ownersEarningsPerShare": 0.00917921
+  },
+  {
+    "symbol": "ING",
+    "reportedCurrency": "EUR",
+    "fiscalYear": "2025",
+    "period": "Q3",
+    "date": "2025-09-30",
+    "averagePPE": 0.06845674,
+    "maintenanceCapex": -3833577.44,
+    "ownersEarnings": -3833577.44,
+    "growthCapex": 3833577.44,
+    "ownersEarningsPerShare": -0.001295
+  },
+  {
+    "symbol": "ING",
+    "reportedCurrency": "EUR",
+    "fiscalYear": "2025",
+    "period": "Q2",
+    "date": "2025-06-30",
+    "averagePPE": 0.06845674,
+    "maintenanceCapex": -247128831,
+    "ownersEarnings": -247128831,
+    "growthCapex": 247128831,
+    "ownersEarningsPerShare": -0.07982855
+  },
+  {
+    "symbol": "ING",
+    "reportedCurrency": "EUR",
+    "fiscalYear": "2025",
+    "period": "Q1",
+    "date": "2025-03-31",
+    "averagePPE": 0.06845674,
+    "maintenanceCapex": 265475237,
+    "ownersEarnings": 265475237,
+    "growthCapex": -265475237,
+    "ownersEarningsPerShare": 0.08575488
+  },
+  {
+    "symbol": "ING",
+    "reportedCurrency": "EUR",
+    "fiscalYear": "2024",
+    "period": "Q4",
+    "date": "2024-12-31",
+    "averagePPE": 0.06319263,
+    "maintenanceCapex": -126385.26,
+    "ownersEarnings": -126385.26,
+    "growthCapex": 126385.26,
+    "ownersEarningsPerShare": -0.000040378677
+  }
+]

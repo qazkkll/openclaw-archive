@@ -1,0 +1,902 @@
+[
+  {
+    "symbol": "FSM",
+    "date": "2026-03-31",
+    "stockPrice": 9.93,
+    "numberOfShares": 305342000,
+    "marketCapitalization": 3032046060,
+    "minusCashAndCashEquivalents": 665905000,
+    "addTotalDebt": 209399000,
+    "enterpriseValue": 2575540060
+  },
+  {
+    "symbol": "FSM",
+    "date": "2025-12-31",
+    "stockPrice": 9.81,
+    "numberOfShares": 305760679,
+    "marketCapitalization": 2999512260,
+    "minusCashAndCashEquivalents": 552976830,
+    "addTotalDebt": 266497129,
+    "enterpriseValue": 2713032559
+  },
+  {
+    "symbol": "FSM",
+    "date": "2025-09-30",
+    "stockPrice": 8.96,
+    "numberOfShares": 306960000,
+    "marketCapitalization": 2750361600,
+    "minusCashAndCashEquivalents": 438280000,
+    "addTotalDebt": 213419000,
+    "enterpriseValue": 2525500600
+  },
+  {
+    "symbol": "FSM",
+    "date": "2025-06-30",
+    "stockPrice": 6.54,
+    "numberOfShares": 306960000,
+    "marketCapitalization": 2007518400,
+    "minusCashAndCashEquivalents": 378422000,
+    "addTotalDebt": 216044000,
+    "enterpriseValue": 1845140400
+  },
+  {
+    "symbol": "FSM",
+    "date": "2025-03-31",
+    "stockPrice": 6.1,
+    "numberOfShares": 306614000,
+    "marketCapitalization": 1870345400,
+    "minusCashAndCashEquivalents": 305048000,
+    "addTotalDebt": 197875000,
+    "enterpriseValue": 1763172400
+  },
+  {
+    "symbol": "FSM",
+    "date": "2024-12-31",
+    "stockPrice": 4.29,
+    "numberOfShares": 371618000,
+    "marketCapitalization": 1594241220,
+    "minusCashAndCashEquivalents": 231328000,
+    "addTotalDebt": 194008000,
+    "enterpriseValue": 1556921220
+  },
+  {
+    "symbol": "FSM",
+    "date": "2024-09-30",
+    "stockPrice": 4.63,
+    "numberOfShares": 315694000,
+    "marketCapitalization": 1461663220,
+    "minusCashAndCashEquivalents": 180551000,
+    "addTotalDebt": 188880000,
+    "enterpriseValue": 1469992220
+  },
+  {
+    "symbol": "FSM",
+    "date": "2024-06-30",
+    "stockPrice": 4.84,
+    "numberOfShares": 306004000,
+    "marketCapitalization": 1481059360,
+    "minusCashAndCashEquivalents": 105597000,
+    "addTotalDebt": 224118000,
+    "enterpriseValue": 1599580360
+  },
+  {
+    "symbol": "FSM",
+    "date": "2024-03-31",
+    "stockPrice": 3.83,
+    "numberOfShares": 306470000,
+    "marketCapitalization": 1173780100,
+    "minusCashAndCashEquivalents": 87725000,
+    "addTotalDebt": 221387000,
+    "enterpriseValue": 1307442100
+  },
+  {
+    "symbol": "FSM",
+    "date": "2023-12-31",
+    "stockPrice": 3.86,
+    "numberOfShares": 306587630,
+    "marketCapitalization": 1183428251,
+    "minusCashAndCashEquivalents": 128148000,
+    "addTotalDebt": 264248000,
+    "enterpriseValue": 1319528251
+  },
+  {
+    "symbol": "FSM",
+    "date": "2023-09-30",
+    "stockPrice": 2.72,
+    "numberOfShares": 292601000,
+    "marketCapitalization": 795874720,
+    "minusCashAndCashEquivalents": 117781000,
+    "addTotalDebt": 299723000,
+    "enterpriseValue": 977816720
+  },
+  {
+    "symbol": "FSM",
+    "date": "2023-06-30",
+    "stockPrice": 3.24,
+    "numberOfShares": 290761000,
+    "marketCapitalization": 942065640,
+    "minusCashAndCashEquivalents": 93424000,
+    "addTotalDebt": 338828000,
+    "enterpriseValue": 1187469640
+  },
+  {
+    "symbol": "FSM",
+    "date": "2023-03-31",
+    "stockPrice": 3.82,
+    "numberOfShares": 290242000,
+    "marketCapitalization": 1108724440,
+    "minusCashAndCashEquivalents": 84731000,
+    "addTotalDebt": 295995000,
+    "enterpriseValue": 1319988440
+  },
+  {
+    "symbol": "FSM",
+    "date": "2022-12-31",
+    "stockPrice": 3.75,
+    "numberOfShares": 290221971,
+    "marketCapitalization": 1088332391,
+    "minusCashAndCashEquivalents": 80493000,
+    "addTotalDebt": 240521000,
+    "enterpriseValue": 1248360391
+  },
+  {
+    "symbol": "FSM",
+    "date": "2022-09-30",
+    "stockPrice": 2.52,
+    "numberOfShares": 291429000,
+    "marketCapitalization": 734401080,
+    "minusCashAndCashEquivalents": 90914000,
+    "addTotalDebt": 228252000,
+    "enterpriseValue": 871739080
+  },
+  {
+    "symbol": "FSM",
+    "date": "2022-06-30",
+    "stockPrice": 2.84,
+    "numberOfShares": 291937000,
+    "marketCapitalization": 829101080,
+    "minusCashAndCashEquivalents": 116126000,
+    "addTotalDebt": 243968000,
+    "enterpriseValue": 956943080
+  },
+  {
+    "symbol": "FSM",
+    "date": "2022-03-31",
+    "stockPrice": 3.81,
+    "numberOfShares": 291591000,
+    "marketCapitalization": 1110961710,
+    "minusCashAndCashEquivalents": 110365000,
+    "addTotalDebt": 225442000,
+    "enterpriseValue": 1226038710
+  },
+  {
+    "symbol": "FSM",
+    "date": "2021-12-31",
+    "stockPrice": 3.9,
+    "numberOfShares": 289122000,
+    "marketCapitalization": 1127575800,
+    "minusCashAndCashEquivalents": 107097000,
+    "addTotalDebt": 186894000,
+    "enterpriseValue": 1207372800
+  },
+  {
+    "symbol": "FSM",
+    "date": "2021-09-30",
+    "stockPrice": 3.93,
+    "numberOfShares": 289122000,
+    "marketCapitalization": 1136249460,
+    "minusCashAndCashEquivalents": 135765000,
+    "addTotalDebt": 219496000,
+    "enterpriseValue": 1219980460
+  },
+  {
+    "symbol": "FSM",
+    "date": "2021-06-30",
+    "stockPrice": 5.55,
+    "numberOfShares": 185277000,
+    "marketCapitalization": 1028287350,
+    "minusCashAndCashEquivalents": 121792000,
+    "addTotalDebt": 176144000,
+    "enterpriseValue": 1082639350
+  },
+  {
+    "symbol": "FSM",
+    "date": "2021-03-31",
+    "stockPrice": 6.47,
+    "numberOfShares": 184334000,
+    "marketCapitalization": 1192640980,
+    "minusCashAndCashEquivalents": 145678000,
+    "addTotalDebt": 178514000,
+    "enterpriseValue": 1225476980
+  },
+  {
+    "symbol": "FSM",
+    "date": "2020-12-31",
+    "stockPrice": 8.24,
+    "numberOfShares": 184036000,
+    "marketCapitalization": 1516456640,
+    "minusCashAndCashEquivalents": 131898000,
+    "addTotalDebt": 178113000,
+    "enterpriseValue": 1562671640
+  },
+  {
+    "symbol": "FSM",
+    "date": "2020-09-30",
+    "stockPrice": 6.36,
+    "numberOfShares": 184036000,
+    "marketCapitalization": 1170468960,
+    "minusCashAndCashEquivalents": 85176000,
+    "addTotalDebt": 153998000,
+    "enterpriseValue": 1239290960
+  },
+  {
+    "symbol": "FSM",
+    "date": "2020-06-30",
+    "stockPrice": 5.09,
+    "numberOfShares": 171219000,
+    "marketCapitalization": 871504710,
+    "minusCashAndCashEquivalents": 76685000,
+    "addTotalDebt": 153402000,
+    "enterpriseValue": 948221710
+  },
+  {
+    "symbol": "FSM",
+    "date": "2020-03-31",
+    "stockPrice": 2.31,
+    "numberOfShares": 160365000,
+    "marketCapitalization": 370443150,
+    "minusCashAndCashEquivalents": 88542000,
+    "addTotalDebt": 209132000,
+    "enterpriseValue": 491033150
+  },
+  {
+    "symbol": "FSM",
+    "date": "2019-12-31",
+    "stockPrice": 4.08,
+    "numberOfShares": 160292000,
+    "marketCapitalization": 653991360,
+    "minusCashAndCashEquivalents": 83404000,
+    "addTotalDebt": 170414000,
+    "enterpriseValue": 741001360
+  },
+  {
+    "symbol": "FSM",
+    "date": "2019-09-30",
+    "stockPrice": 3.09,
+    "numberOfShares": 154200000,
+    "marketCapitalization": 476478000,
+    "minusCashAndCashEquivalents": 72177000,
+    "addTotalDebt": 134767000,
+    "enterpriseValue": 539068000
+  },
+  {
+    "symbol": "FSM",
+    "date": "2019-06-30",
+    "stockPrice": 2.79,
+    "numberOfShares": 160215000,
+    "marketCapitalization": 446999850,
+    "minusCashAndCashEquivalents": 77220000,
+    "addTotalDebt": 84485000,
+    "enterpriseValue": 454264850
+  },
+  {
+    "symbol": "FSM",
+    "date": "2019-03-31",
+    "stockPrice": 3.26,
+    "numberOfShares": 159971000,
+    "marketCapitalization": 521505459,
+    "minusCashAndCashEquivalents": 112941000,
+    "addTotalDebt": 85244000,
+    "enterpriseValue": 493808459
+  },
+  {
+    "symbol": "FSM",
+    "date": "2018-12-31",
+    "stockPrice": 3.64,
+    "numberOfShares": 159883000,
+    "marketCapitalization": 581974120,
+    "minusCashAndCashEquivalents": 90503000,
+    "addTotalDebt": 78068000,
+    "enterpriseValue": 569539120
+  },
+  {
+    "symbol": "FSM",
+    "date": "2018-09-30",
+    "stockPrice": 4.31,
+    "numberOfShares": 159883000,
+    "marketCapitalization": 689095729,
+    "minusCashAndCashEquivalents": 55167000,
+    "addTotalDebt": 41801000,
+    "enterpriseValue": 675729729
+  },
+  {
+    "symbol": "FSM",
+    "date": "2018-06-30",
+    "stockPrice": 5.68,
+    "numberOfShares": 159679000,
+    "marketCapitalization": 906976720,
+    "minusCashAndCashEquivalents": 102455000,
+    "addTotalDebt": 39603000,
+    "enterpriseValue": 844124720
+  },
+  {
+    "symbol": "FSM",
+    "date": "2018-03-31",
+    "stockPrice": 5.22,
+    "numberOfShares": 159637000,
+    "marketCapitalization": 833305140,
+    "minusCashAndCashEquivalents": 170983000,
+    "addTotalDebt": 39951000,
+    "enterpriseValue": 702273140
+  },
+  {
+    "symbol": "FSM",
+    "date": "2017-12-31",
+    "stockPrice": 5.33,
+    "numberOfShares": 159307000,
+    "marketCapitalization": 849106310,
+    "minusCashAndCashEquivalents": 183074000,
+    "addTotalDebt": 40777000,
+    "enterpriseValue": 706809310
+  },
+  {
+    "symbol": "FSM",
+    "date": "2017-09-30",
+    "stockPrice": 4.38,
+    "numberOfShares": 159307000,
+    "marketCapitalization": 697764660,
+    "minusCashAndCashEquivalents": 118660000,
+    "addTotalDebt": 41289000,
+    "enterpriseValue": 620393660
+  },
+  {
+    "symbol": "FSM",
+    "date": "2017-06-30",
+    "stockPrice": 4.89,
+    "numberOfShares": 159223000,
+    "marketCapitalization": 778600470,
+    "minusCashAndCashEquivalents": 34094000,
+    "addTotalDebt": 41797000,
+    "enterpriseValue": 786303470
+  },
+  {
+    "symbol": "FSM",
+    "date": "2017-03-31",
+    "stockPrice": 5.2,
+    "numberOfShares": 153835000,
+    "marketCapitalization": 799942000,
+    "minusCashAndCashEquivalents": 82211000,
+    "addTotalDebt": 42301000,
+    "enterpriseValue": 760032000
+  },
+  {
+    "symbol": "FSM",
+    "date": "2016-12-31",
+    "stockPrice": 5.65,
+    "numberOfShares": 141062000,
+    "marketCapitalization": 797000300,
+    "minusCashAndCashEquivalents": 82484000,
+    "addTotalDebt": 42802000,
+    "enterpriseValue": 757318300
+  },
+  {
+    "symbol": "FSM",
+    "date": "2016-09-30",
+    "stockPrice": 7.24,
+    "numberOfShares": 141062000,
+    "marketCapitalization": 1021288880,
+    "minusCashAndCashEquivalents": 64580000,
+    "addTotalDebt": 43189000,
+    "enterpriseValue": 999897880
+  },
+  {
+    "symbol": "FSM",
+    "date": "2016-06-30",
+    "stockPrice": 6.98,
+    "numberOfShares": 130552000,
+    "marketCapitalization": 911252960,
+    "minusCashAndCashEquivalents": 55989000,
+    "addTotalDebt": 43642000,
+    "enterpriseValue": 898905960
+  },
+  {
+    "symbol": "FSM",
+    "date": "2016-03-31",
+    "stockPrice": 3.9,
+    "numberOfShares": 129333000,
+    "marketCapitalization": 504398700,
+    "minusCashAndCashEquivalents": 64265000,
+    "addTotalDebt": 42486000,
+    "enterpriseValue": 482619700
+  },
+  {
+    "symbol": "FSM",
+    "date": "2015-12-31",
+    "stockPrice": 2.25,
+    "numberOfShares": 129078741,
+    "marketCapitalization": 290427167,
+    "minusCashAndCashEquivalents": 72218000,
+    "addTotalDebt": 41370000,
+    "enterpriseValue": 259579167
+  },
+  {
+    "symbol": "FSM",
+    "date": "2015-09-30",
+    "stockPrice": 2.18,
+    "numberOfShares": 129079000,
+    "marketCapitalization": 281392220,
+    "minusCashAndCashEquivalents": 67241000,
+    "addTotalDebt": 40374000,
+    "enterpriseValue": 254525220
+  },
+  {
+    "symbol": "FSM",
+    "date": "2015-06-30",
+    "stockPrice": 3.66,
+    "numberOfShares": 128979000,
+    "marketCapitalization": 472063140,
+    "minusCashAndCashEquivalents": 40945000,
+    "addTotalDebt": 40119000,
+    "enterpriseValue": 471237140
+  },
+  {
+    "symbol": "FSM",
+    "date": "2015-03-31",
+    "stockPrice": 3.84,
+    "numberOfShares": 128809493,
+    "marketCapitalization": 494628453,
+    "minusCashAndCashEquivalents": 42980000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 451648453
+  },
+  {
+    "symbol": "FSM",
+    "date": "2014-12-31",
+    "stockPrice": 4.55,
+    "numberOfShares": 127097274,
+    "marketCapitalization": 578292596,
+    "minusCashAndCashEquivalents": 42867000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 535425596
+  },
+  {
+    "symbol": "FSM",
+    "date": "2014-09-30",
+    "stockPrice": 4.06,
+    "numberOfShares": 127097274,
+    "marketCapitalization": 516014932,
+    "minusCashAndCashEquivalents": 40502000,
+    "addTotalDebt": 22000,
+    "enterpriseValue": 475534932
+  },
+  {
+    "symbol": "FSM",
+    "date": "2014-06-30",
+    "stockPrice": 5.51,
+    "numberOfShares": 126320425,
+    "marketCapitalization": 696025541,
+    "minusCashAndCashEquivalents": 30605000,
+    "addTotalDebt": 65000,
+    "enterpriseValue": 665485541
+  },
+  {
+    "symbol": "FSM",
+    "date": "2014-03-31",
+    "stockPrice": 3.67,
+    "numberOfShares": 126007574,
+    "marketCapitalization": 462447796,
+    "minusCashAndCashEquivalents": 41192000,
+    "addTotalDebt": 146000,
+    "enterpriseValue": 421401796
+  },
+  {
+    "symbol": "FSM",
+    "date": "2013-12-31",
+    "stockPrice": 2.87,
+    "numberOfShares": 124408372,
+    "marketCapitalization": 357052027,
+    "minusCashAndCashEquivalents": 31704000,
+    "addTotalDebt": 227000,
+    "enterpriseValue": 325575027
+  },
+  {
+    "symbol": "FSM",
+    "date": "2013-09-30",
+    "stockPrice": 3.65,
+    "numberOfShares": 125637140,
+    "marketCapitalization": 458575561,
+    "minusCashAndCashEquivalents": 31348000,
+    "addTotalDebt": 310000,
+    "enterpriseValue": 427537561
+  },
+  {
+    "symbol": "FSM",
+    "date": "2013-06-30",
+    "stockPrice": 3.23,
+    "numberOfShares": 125306952,
+    "marketCapitalization": 404741454,
+    "minusCashAndCashEquivalents": 43693000,
+    "addTotalDebt": 393000,
+    "enterpriseValue": 361441454
+  },
+  {
+    "symbol": "FSM",
+    "date": "2013-03-31",
+    "stockPrice": 4.13,
+    "numberOfShares": 125283819,
+    "marketCapitalization": 517422172,
+    "minusCashAndCashEquivalents": 63973000,
+    "addTotalDebt": 525000,
+    "enterpriseValue": 453974172
+  },
+  {
+    "symbol": "FSM",
+    "date": "2012-12-31",
+    "stockPrice": 4.17,
+    "numberOfShares": 124412386,
+    "marketCapitalization": 518799649,
+    "minusCashAndCashEquivalents": 58720000,
+    "addTotalDebt": 676000,
+    "enterpriseValue": 460755649
+  },
+  {
+    "symbol": "FSM",
+    "date": "2012-09-30",
+    "stockPrice": 5.34,
+    "numberOfShares": 124412386,
+    "marketCapitalization": 664362141,
+    "minusCashAndCashEquivalents": 60720000,
+    "addTotalDebt": 3199000,
+    "enterpriseValue": 606841141
+  },
+  {
+    "symbol": "FSM",
+    "date": "2012-06-30",
+    "stockPrice": 3.45,
+    "numberOfShares": 124412386,
+    "marketCapitalization": 429222731,
+    "minusCashAndCashEquivalents": 60653000,
+    "addTotalDebt": 336000,
+    "enterpriseValue": 368905731
+  },
+  {
+    "symbol": "FSM",
+    "date": "2012-03-31",
+    "stockPrice": 4.52,
+    "numberOfShares": 123484033,
+    "marketCapitalization": 558147829,
+    "minusCashAndCashEquivalents": 53852000,
+    "addTotalDebt": 614000,
+    "enterpriseValue": 504909829
+  },
+  {
+    "symbol": "FSM",
+    "date": "2011-12-31",
+    "stockPrice": 5.49,
+    "numberOfShares": 106874426,
+    "marketCapitalization": 586740598,
+    "minusCashAndCashEquivalents": 38730000,
+    "addTotalDebt": 4276000,
+    "enterpriseValue": 552286598
+  },
+  {
+    "symbol": "FSM",
+    "date": "2011-09-30",
+    "stockPrice": 5.03,
+    "numberOfShares": 123440210,
+    "marketCapitalization": 620904256,
+    "minusCashAndCashEquivalents": 60527000,
+    "addTotalDebt": 3842000,
+    "enterpriseValue": 564219256
+  },
+  {
+    "symbol": "FSM",
+    "date": "2011-06-30",
+    "stockPrice": 5.24,
+    "numberOfShares": 123024331,
+    "marketCapitalization": 644647494,
+    "minusCashAndCashEquivalents": 63778000,
+    "addTotalDebt": 4899000,
+    "enterpriseValue": 585768494
+  },
+  {
+    "symbol": "FSM",
+    "date": "2011-03-31",
+    "stockPrice": 5.49,
+    "numberOfShares": 122609332,
+    "marketCapitalization": 673125232,
+    "minusCashAndCashEquivalents": 61473000,
+    "addTotalDebt": 4384000,
+    "enterpriseValue": 616036232
+  },
+  {
+    "symbol": "FSM",
+    "date": "2010-12-31",
+    "stockPrice": 4.79,
+    "numberOfShares": 110482519,
+    "marketCapitalization": 529211266,
+    "minusCashAndCashEquivalents": 70298000,
+    "addTotalDebt": 4249000,
+    "enterpriseValue": 463162266
+  },
+  {
+    "symbol": "FSM",
+    "date": "2010-09-30",
+    "stockPrice": 3.09,
+    "numberOfShares": 110482519,
+    "marketCapitalization": 341390983,
+    "minusCashAndCashEquivalents": 44714000,
+    "addTotalDebt": 3814000,
+    "enterpriseValue": 300490983
+  },
+  {
+    "symbol": "FSM",
+    "date": "2010-06-30",
+    "stockPrice": 1.96,
+    "numberOfShares": 110164718,
+    "marketCapitalization": 215922847,
+    "minusCashAndCashEquivalents": 48885000,
+    "addTotalDebt": 2463000,
+    "enterpriseValue": 169500847
+  },
+  {
+    "symbol": "FSM",
+    "date": "2010-03-31",
+    "stockPrice": 2.58,
+    "numberOfShares": 99859302,
+    "marketCapitalization": 257636999,
+    "minusCashAndCashEquivalents": 68215000,
+    "addTotalDebt": 2234000,
+    "enterpriseValue": 191655999
+  },
+  {
+    "symbol": "FSM",
+    "date": "2009-12-31",
+    "stockPrice": 1.99,
+    "numberOfShares": 92736581,
+    "marketCapitalization": 184545796,
+    "minusCashAndCashEquivalents": 30763000,
+    "addTotalDebt": 2492000,
+    "enterpriseValue": 156274796
+  },
+  {
+    "symbol": "FSM",
+    "date": "2009-09-30",
+    "stockPrice": 1.41,
+    "numberOfShares": 92736581,
+    "marketCapitalization": 130758579,
+    "minusCashAndCashEquivalents": 33676000,
+    "addTotalDebt": 4996000,
+    "enterpriseValue": 102078579
+  },
+  {
+    "symbol": "FSM",
+    "date": "2009-06-30",
+    "stockPrice": 0.75,
+    "numberOfShares": 92253419,
+    "marketCapitalization": 69190064,
+    "minusCashAndCashEquivalents": 31165000,
+    "addTotalDebt": 2149000,
+    "enterpriseValue": 40174064
+  },
+  {
+    "symbol": "FSM",
+    "date": "2009-03-31",
+    "stockPrice": 0.82,
+    "numberOfShares": 87219992,
+    "marketCapitalization": 71520393,
+    "minusCashAndCashEquivalents": 27022000,
+    "addTotalDebt": 1318000,
+    "enterpriseValue": 45816393
+  },
+  {
+    "symbol": "FSM",
+    "date": "2008-12-31",
+    "stockPrice": 0.57,
+    "numberOfShares": 85331659,
+    "marketCapitalization": 48639045,
+    "minusCashAndCashEquivalents": 29594905,
+    "addTotalDebt": 1405094,
+    "enterpriseValue": 20449234
+  },
+  {
+    "symbol": "FSM",
+    "date": "2008-09-30",
+    "stockPrice": 1.03,
+    "numberOfShares": 85331659,
+    "marketCapitalization": 87891608,
+    "minusCashAndCashEquivalents": 38942943,
+    "addTotalDebt": 1076894,
+    "enterpriseValue": 50025559
+  },
+  {
+    "symbol": "FSM",
+    "date": "2008-06-30",
+    "stockPrice": 2.07,
+    "numberOfShares": 85329901,
+    "marketCapitalization": 176632895,
+    "minusCashAndCashEquivalents": 45789939,
+    "addTotalDebt": 1098447,
+    "enterpriseValue": 131941403
+  },
+  {
+    "symbol": "FSM",
+    "date": "2008-03-31",
+    "stockPrice": 1.95,
+    "numberOfShares": 81590204,
+    "marketCapitalization": 159100897,
+    "minusCashAndCashEquivalents": 48961430,
+    "addTotalDebt": 1056057,
+    "enterpriseValue": 111195524
+  },
+  {
+    "symbol": "FSM",
+    "date": "2007-12-31",
+    "stockPrice": 3.13,
+    "numberOfShares": 71899133,
+    "marketCapitalization": 225044286,
+    "minusCashAndCashEquivalents": 47702716,
+    "addTotalDebt": 880541,
+    "enterpriseValue": 178222111
+  },
+  {
+    "symbol": "FSM",
+    "date": "2007-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 71899133,
+    "marketCapitalization": 194127659,
+    "minusCashAndCashEquivalents": 44281829,
+    "addTotalDebt": 559024,
+    "enterpriseValue": 150404854
+  },
+  {
+    "symbol": "FSM",
+    "date": "2007-06-30",
+    "stockPrice": 3.07,
+    "numberOfShares": 70023703,
+    "marketCapitalization": 214972768,
+    "minusCashAndCashEquivalents": 33142465,
+    "addTotalDebt": 102243,
+    "enterpriseValue": 181932546
+  },
+  {
+    "symbol": "FSM",
+    "date": "2007-03-31",
+    "stockPrice": 2.51,
+    "numberOfShares": 63860328,
+    "marketCapitalization": 160289423,
+    "minusCashAndCashEquivalents": 27310513,
+    "addTotalDebt": 113790,
+    "enterpriseValue": 133092700
+  },
+  {
+    "symbol": "FSM",
+    "date": "2006-12-31",
+    "stockPrice": 1.79,
+    "numberOfShares": 43625000,
+    "marketCapitalization": 78088750,
+    "minusCashAndCashEquivalents": 1408085,
+    "addTotalDebt": 5037877,
+    "enterpriseValue": 81718542
+  },
+  {
+    "symbol": "FSM",
+    "date": "2006-09-30",
+    "stockPrice": 1.79,
+    "numberOfShares": 43625000,
+    "marketCapitalization": 78088750,
+    "minusCashAndCashEquivalents": 2614088,
+    "addTotalDebt": 0,
+    "enterpriseValue": 75474662
+  },
+  {
+    "symbol": "FSM",
+    "date": "2006-06-30",
+    "stockPrice": 1.79,
+    "numberOfShares": 50112277,
+    "marketCapitalization": 89700975,
+    "minusCashAndCashEquivalents": 7800522,
+    "addTotalDebt": 0,
+    "enterpriseValue": 81900453
+  },
+  {
+    "symbol": "FSM",
+    "date": "2006-03-31",
+    "stockPrice": 1.79,
+    "numberOfShares": 36287900,
+    "marketCapitalization": 64955341,
+    "minusCashAndCashEquivalents": 19168165,
+    "addTotalDebt": 4536308,
+    "enterpriseValue": 50323484
+  },
+  {
+    "symbol": "FSM",
+    "date": "2005-12-31",
+    "stockPrice": 1.79,
+    "numberOfShares": 23979559,
+    "marketCapitalization": 42923410,
+    "minusCashAndCashEquivalents": 3586862,
+    "addTotalDebt": 4538358,
+    "enterpriseValue": 43874906
+  },
+  {
+    "symbol": "FSM",
+    "date": "2005-09-30",
+    "stockPrice": 1.79,
+    "numberOfShares": 6411051,
+    "marketCapitalization": 11475781,
+    "minusCashAndCashEquivalents": 5031829,
+    "addTotalDebt": 4533479,
+    "enterpriseValue": 10977431
+  },
+  {
+    "symbol": "FSM",
+    "date": "2005-06-30",
+    "stockPrice": 1.79,
+    "numberOfShares": 6411051,
+    "marketCapitalization": 11475781,
+    "minusCashAndCashEquivalents": 651937,
+    "addTotalDebt": 7615851,
+    "enterpriseValue": 18439695
+  },
+  {
+    "symbol": "FSM",
+    "date": "2005-03-31",
+    "stockPrice": 1.79,
+    "numberOfShares": 6518349,
+    "marketCapitalization": 11667844,
+    "minusCashAndCashEquivalents": 36126,
+    "addTotalDebt": 0,
+    "enterpriseValue": 11631718
+  },
+  {
+    "symbol": "FSM",
+    "date": "2004-12-31",
+    "stockPrice": 1.79,
+    "numberOfShares": 6594375,
+    "marketCapitalization": 11803931,
+    "minusCashAndCashEquivalents": 225563,
+    "addTotalDebt": 0,
+    "enterpriseValue": 11578368
+  },
+  {
+    "symbol": "FSM",
+    "date": "2004-09-30",
+    "stockPrice": 1.79,
+    "numberOfShares": 1831487,
+    "marketCapitalization": 3278361.73,
+    "minusCashAndCashEquivalents": 314243,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2964118
+  },
+  {
+    "symbol": "FSM",
+    "date": "2004-06-30",
+    "stockPrice": 1.79,
+    "numberOfShares": 1831487,
+    "marketCapitalization": 3278361.73,
+    "minusCashAndCashEquivalents": 10733,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3267628
+  },
+  {
+    "symbol": "FSM",
+    "date": "2004-03-31",
+    "stockPrice": 1.79,
+    "numberOfShares": 1831487,
+    "marketCapitalization": 3278361.73,
+    "minusCashAndCashEquivalents": 14687,
+    "addTotalDebt": 107914,
+    "enterpriseValue": 3371588
+  },
+  {
+    "symbol": "FSM",
+    "date": "2003-12-31",
+    "stockPrice": 1.79,
+    "numberOfShares": 1831487,
+    "marketCapitalization": 3278361.73,
+    "minusCashAndCashEquivalents": 6654.996646,
+    "addTotalDebt": 109117,
+    "enterpriseValue": 3380823
+  }
+]

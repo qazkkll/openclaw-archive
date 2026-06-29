@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "HDB",
+    "date": "2024-07-22",
+    "gradingCompany": "JP Morgan",
+    "previousGrade": "Overweight",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "HDB",
+    "date": "2019-09-09",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "HDB",
+    "date": "2019-06-11",
+    "gradingCompany": "Nomura",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "HDB",
+    "date": "2017-03-21",
+    "gradingCompany": "Morgan Stanley",
+    "previousGrade": "Overweight",
+    "newGrade": "Equal Weight",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "HDB",
+    "date": "2016-09-14",
+    "gradingCompany": "Goldman Sachs",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "HDB",
+    "date": "2015-03-11",
+    "gradingCompany": "Societe Generale",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  }
+]

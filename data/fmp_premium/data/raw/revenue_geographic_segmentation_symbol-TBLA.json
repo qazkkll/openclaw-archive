@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "TBLA",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Germany": 132041000,
+      "ISRAEL": 144048000,
+      "Other Geographic Area": 520913000,
+      "United States": 564603000
+    }
+  },
+  {
+    "symbol": "TBLA",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Germany": 121285000,
+      "ISRAEL": 235881000,
+      "Other Geographic Area": 461502000,
+      "United States": 510491000
+    }
+  },
+  {
+    "symbol": "TBLA",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "France": 56614000,
+      "Germany": 147808000,
+      "ISRAEL": 190615000,
+      "Other Geographic Area": 378214000,
+      "United States": 535349000
+    }
+  }
+]

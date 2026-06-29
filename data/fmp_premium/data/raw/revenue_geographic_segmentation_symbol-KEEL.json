@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "KEEL",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "ARGENTINA": 10612000,
+      "PARAGUAY": 48101000
+    }
+  },
+  {
+    "symbol": "KEEL",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "ARGENTINA": 33647000,
+      "CANADA": 116846000,
+      "North America": 133274000,
+      "PARAGUAY": 25960000,
+      "South America": 59607000,
+      "UNITED STATES": 16428000
+    }
+  },
+  {
+    "symbol": "KEEL",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "ARGENTINA": 1455000,
+      "CANADA": 112106000,
+      "PARAGUAY": 3772000,
+      "UNITED STATES": 25095000
+    }
+  },
+  {
+    "symbol": "KEEL",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "CANADA": 153265000,
+      "UNITED STATES": 16226000
+    }
+  }
+]

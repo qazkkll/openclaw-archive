@@ -1,0 +1,956 @@
+[
+  {
+    "symbol": "UAMY",
+    "date": "2026-08-11",
+    "epsActual": null,
+    "epsEstimated": -0.02,
+    "revenueActual": null,
+    "revenueEstimated": 26966670,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2026-05-14",
+    "epsActual": -0.08,
+    "epsEstimated": -0.02,
+    "revenueActual": 6784069,
+    "revenueEstimated": 14800000,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2026-03-19",
+    "epsActual": -0.01,
+    "epsEstimated": -0.01,
+    "revenueActual": 13030630,
+    "revenueEstimated": 12766670,
+    "lastUpdated": "2026-05-16"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2025-11-12",
+    "epsActual": -0.04,
+    "epsEstimated": 0.02,
+    "revenueActual": 8701951,
+    "revenueEstimated": 14650000,
+    "lastUpdated": "2026-02-12"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2025-08-12",
+    "epsActual": 0.00143,
+    "epsEstimated": 0.01,
+    "revenueActual": 10525123,
+    "revenueEstimated": 12677770,
+    "lastUpdated": "2025-11-12"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2025-05-08",
+    "epsActual": 0.00447,
+    "epsEstimated": 0.01,
+    "revenueActual": 7000005,
+    "revenueEstimated": 8324830,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2025-03-20",
+    "epsActual": -0.01,
+    "epsEstimated": -0.01,
+    "revenueActual": 6871772,
+    "revenueEstimated": 4473000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2024-11-12",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2421020,
+    "revenueEstimated": 4473000,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2024-08-09",
+    "epsActual": 0.00186,
+    "epsEstimated": null,
+    "revenueActual": 2813780,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2024-05-14",
+    "epsActual": -0.00299,
+    "epsEstimated": null,
+    "revenueActual": 3072067,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2024-04-17",
+    "epsActual": -0.03307,
+    "epsEstimated": null,
+    "revenueActual": 1665247,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2023-11-13",
+    "epsActual": -0.02,
+    "epsEstimated": null,
+    "revenueActual": 2313491,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2023-10-17",
+    "epsActual": -0.00313,
+    "epsEstimated": null,
+    "revenueActual": 2503573,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2023-10-05",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2210844,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2023-07-18",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 1420096,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2022-11-14",
+    "epsActual": 0.00047,
+    "epsEstimated": null,
+    "revenueActual": 2463984,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2022-08-16",
+    "epsActual": 0.0034,
+    "epsEstimated": null,
+    "revenueActual": 3587925,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2022-05-16",
+    "epsActual": 0.01,
+    "epsEstimated": null,
+    "revenueActual": 3580306,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2022-03-30",
+    "epsActual": 0.00035,
+    "epsEstimated": null,
+    "revenueActual": 2166944,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2021-11-15",
+    "epsActual": -0.00094,
+    "epsEstimated": null,
+    "revenueActual": 2051713,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2021-08-16",
+    "epsActual": 0.0031,
+    "epsEstimated": null,
+    "revenueActual": 2275562,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2021-05-14",
+    "epsActual": -0.00362,
+    "epsEstimated": null,
+    "revenueActual": 1253287,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2021-03-31",
+    "epsActual": -0.03,
+    "epsEstimated": null,
+    "revenueActual": 900117,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2020-11-16",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 1007231,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2020-08-19",
+    "epsActual": -0.00391,
+    "epsEstimated": null,
+    "revenueActual": 1585191,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2020-05-15",
+    "epsActual": -0.00443,
+    "epsEstimated": null,
+    "revenueActual": 1742991,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2020-04-14",
+    "epsActual": -0.04,
+    "epsEstimated": null,
+    "revenueActual": 1751423,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2019-11-14",
+    "epsActual": -0.02,
+    "epsEstimated": null,
+    "revenueActual": 1787934,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2019-08-14",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2272283,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2019-05-15",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2456365,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2019-04-01",
+    "epsActual": 0.00297,
+    "epsEstimated": null,
+    "revenueActual": 2253402,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2018-11-14",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2091725,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2018-08-14",
+    "epsActual": -0.00181,
+    "epsEstimated": null,
+    "revenueActual": 2256347,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2018-05-15",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2432929,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2018-04-02",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2402453,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2017-11-14",
+    "epsActual": -0.00389,
+    "epsEstimated": null,
+    "revenueActual": 2369714,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2017-08-14",
+    "epsActual": -0.00025,
+    "epsEstimated": null,
+    "revenueActual": 2838480,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2017-05-15",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2619330,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2017-03-31",
+    "epsActual": -0.00248,
+    "epsEstimated": null,
+    "revenueActual": 2723507,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2016-11-14",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2846699,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2016-08-15",
+    "epsActual": -0.00234,
+    "epsEstimated": null,
+    "revenueActual": 3014394,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2016-05-16",
+    "epsActual": -0.00284,
+    "epsEstimated": null,
+    "revenueActual": 3322203,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2016-03-30",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 3255876,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2015-11-09",
+    "epsActual": -0.00205,
+    "epsEstimated": null,
+    "revenueActual": 3505452,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2015-08-10",
+    "epsActual": -0.00299,
+    "epsEstimated": null,
+    "revenueActual": 3400294,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2015-05-11",
+    "epsActual": 0.01,
+    "epsEstimated": null,
+    "revenueActual": 2947381,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2015-03-16",
+    "epsActual": -0.0037,
+    "epsEstimated": null,
+    "revenueActual": 2598278,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2014-11-10",
+    "epsActual": -0.00851,
+    "epsEstimated": null,
+    "revenueActual": 2951457,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2014-08-11",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2270143,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2014-05-08",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2952314,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2014-03-17",
+    "epsActual": -0.00879,
+    "epsEstimated": null,
+    "revenueActual": 2541021,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2013-11-12",
+    "epsActual": -0.00254,
+    "epsEstimated": null,
+    "revenueActual": 2558356,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2013-08-21",
+    "epsActual": 0.00006,
+    "epsEstimated": null,
+    "revenueActual": 3498301,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2013-08-09",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2954677,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2013-06-21",
+    "epsActual": -0.00192,
+    "epsEstimated": null,
+    "revenueActual": 3053554,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2013-05-10",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2966775,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2013-03-18",
+    "epsActual": -0.01,
+    "epsEstimated": null,
+    "revenueActual": 2835724,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2013-01-08",
+    "epsActual": -0.00283,
+    "epsEstimated": null,
+    "revenueActual": 2655123,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2012-03-14",
+    "epsActual": -0.00335,
+    "epsEstimated": null,
+    "revenueActual": 3856051,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2011-11-21",
+    "epsActual": 0.01186,
+    "epsEstimated": null,
+    "revenueActual": 3332008,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2011-08-11",
+    "epsActual": 0.00145,
+    "epsEstimated": null,
+    "revenueActual": 3050002,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2011-05-16",
+    "epsActual": 0.00079,
+    "epsEstimated": null,
+    "revenueActual": 2838039,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2011-03-28",
+    "epsActual": 0.01043,
+    "epsEstimated": null,
+    "revenueActual": 2908592,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2010-11-12",
+    "epsActual": 0.00155,
+    "epsEstimated": null,
+    "revenueActual": 2659733,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2010-08-13",
+    "epsActual": 0.00439,
+    "epsEstimated": null,
+    "revenueActual": 2090173,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2010-05-14",
+    "epsActual": -0.00158,
+    "epsEstimated": null,
+    "revenueActual": 1414826,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2010-03-29",
+    "epsActual": 0.00058,
+    "epsEstimated": null,
+    "revenueActual": 1165926,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2009-11-13",
+    "epsActual": -0.00097,
+    "epsEstimated": null,
+    "revenueActual": 1212970,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2009-08-14",
+    "epsActual": -0.0008,
+    "epsEstimated": null,
+    "revenueActual": 928991,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2009-05-15",
+    "epsActual": -0.00513,
+    "epsEstimated": null,
+    "revenueActual": 795453,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2009-03-30",
+    "epsActual": -0.00328,
+    "epsEstimated": null,
+    "revenueActual": 1004091,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2008-11-14",
+    "epsActual": -0.00164,
+    "epsEstimated": null,
+    "revenueActual": 1429851,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2008-08-13",
+    "epsActual": 0.01499,
+    "epsEstimated": null,
+    "revenueActual": 1414651,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2008-05-15",
+    "epsActual": -0.00331,
+    "epsEstimated": null,
+    "revenueActual": 1427394,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2008-03-27",
+    "epsActual": -0.01057,
+    "epsEstimated": null,
+    "revenueActual": 1235570,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2007-11-13",
+    "epsActual": -0.00033,
+    "epsEstimated": null,
+    "revenueActual": 1306214,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2007-08-21",
+    "epsActual": -0.00279,
+    "epsEstimated": null,
+    "revenueActual": 1367578,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2007-05-14",
+    "epsActual": -0.00111,
+    "epsEstimated": null,
+    "revenueActual": 1349765,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2007-04-03",
+    "epsActual": 0.00386,
+    "epsEstimated": null,
+    "revenueActual": 1105702,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2006-11-20",
+    "epsActual": -0.00088,
+    "epsEstimated": null,
+    "revenueActual": 1165444,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2006-08-18",
+    "epsActual": -0.00301,
+    "epsEstimated": null,
+    "revenueActual": 1152463,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2006-05-22",
+    "epsActual": -0.0087,
+    "epsEstimated": null,
+    "revenueActual": 971758,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2006-04-17",
+    "epsActual": -0.00827,
+    "epsEstimated": null,
+    "revenueActual": 758116,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2005-11-14",
+    "epsActual": -0.00308,
+    "epsEstimated": null,
+    "revenueActual": 762197,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2005-08-12",
+    "epsActual": -0.00381,
+    "epsEstimated": null,
+    "revenueActual": 1011194,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2005-05-20",
+    "epsActual": -0.00214,
+    "epsEstimated": null,
+    "revenueActual": 1032524,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2005-04-18",
+    "epsActual": 0.00741,
+    "epsEstimated": null,
+    "revenueActual": 674109,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2004-11-15",
+    "epsActual": -0.00335,
+    "epsEstimated": null,
+    "revenueActual": 818946,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2004-08-16",
+    "epsActual": -0.0038,
+    "epsEstimated": null,
+    "revenueActual": 852337,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2004-05-17",
+    "epsActual": -0.00377,
+    "epsEstimated": null,
+    "revenueActual": 777500,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2004-04-12",
+    "epsActual": -0.00648,
+    "epsEstimated": null,
+    "revenueActual": 632786,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2003-11-14",
+    "epsActual": -0.007,
+    "epsEstimated": null,
+    "revenueActual": 763351,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2003-08-14",
+    "epsActual": -0.00926,
+    "epsEstimated": null,
+    "revenueActual": 685417,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2003-05-14",
+    "epsActual": -0.00643,
+    "epsEstimated": null,
+    "revenueActual": 1140196,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2003-04-15",
+    "epsActual": -0.00735,
+    "epsEstimated": null,
+    "revenueActual": 833253,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2002-11-19",
+    "epsActual": -0.00149,
+    "epsEstimated": null,
+    "revenueActual": 908365,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2002-08-15",
+    "epsActual": 0.0027,
+    "epsEstimated": null,
+    "revenueActual": 1019876,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2002-05-14",
+    "epsActual": -0.00731,
+    "epsEstimated": null,
+    "revenueActual": 712403,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2002-04-11",
+    "epsActual": -0.00974,
+    "epsEstimated": null,
+    "revenueActual": 613256,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2001-11-14",
+    "epsActual": -0.01114,
+    "epsEstimated": null,
+    "revenueActual": 782613,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2001-10-22",
+    "epsActual": -0.01256,
+    "epsEstimated": null,
+    "revenueActual": 1079564,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2001-05-14",
+    "epsActual": -0.01437,
+    "epsEstimated": null,
+    "revenueActual": 961131,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2001-04-12",
+    "epsActual": -0.01514,
+    "epsEstimated": null,
+    "revenueActual": 1558477,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2000-11-14",
+    "epsActual": -0.0182,
+    "epsEstimated": null,
+    "revenueActual": 1094721,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2000-08-14",
+    "epsActual": 0.03855,
+    "epsEstimated": null,
+    "revenueActual": 1190413,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  },
+  {
+    "symbol": "UAMY",
+    "date": "2000-05-12",
+    "epsActual": -0.00889,
+    "epsEstimated": null,
+    "revenueActual": 1173050,
+    "revenueEstimated": null,
+    "lastUpdated": "2025-09-09"
+  }
+]

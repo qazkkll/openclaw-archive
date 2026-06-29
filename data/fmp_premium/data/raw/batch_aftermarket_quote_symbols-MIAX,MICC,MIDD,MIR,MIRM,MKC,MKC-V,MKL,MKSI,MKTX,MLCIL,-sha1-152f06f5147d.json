@@ -1,0 +1,902 @@
+[
+  {
+    "symbol": "MIAX",
+    "bidSize": 2,
+    "bidPrice": 48.09,
+    "askSize": 10,
+    "askPrice": 59.37,
+    "volume": 1232588,
+    "timestamp": 1778889439000
+  },
+  {
+    "symbol": "MICC",
+    "bidSize": 1000,
+    "bidPrice": 16.69,
+    "askSize": 2900,
+    "askPrice": 16.925,
+    "volume": 7283057,
+    "timestamp": 1778889352000
+  },
+  {
+    "symbol": "MIDD",
+    "bidSize": 13,
+    "bidPrice": 130,
+    "askSize": 100,
+    "askPrice": 180.62,
+    "volume": 593697,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MIR",
+    "bidSize": 300,
+    "bidPrice": 17.96,
+    "askSize": 600,
+    "askPrice": 19.55,
+    "volume": 3008090,
+    "timestamp": 1778889505000
+  },
+  {
+    "symbol": "MIRM",
+    "bidSize": 1,
+    "bidPrice": 100,
+    "askSize": 1,
+    "askPrice": 122.5,
+    "volume": 1672697,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MKC",
+    "bidSize": 300,
+    "bidPrice": 46,
+    "askSize": 400,
+    "askPrice": 48,
+    "volume": 3337874,
+    "timestamp": 1778889407000
+  },
+  {
+    "symbol": "MKC-V",
+    "bidSize": 100,
+    "bidPrice": 35.65,
+    "askSize": 100,
+    "askPrice": 55.24,
+    "volume": 3445,
+    "timestamp": 1778889359000
+  },
+  {
+    "symbol": "MKL",
+    "bidSize": 6,
+    "bidPrice": 1815,
+    "askSize": 29,
+    "askPrice": 1869,
+    "volume": 59019,
+    "timestamp": 1778889427000
+  },
+  {
+    "symbol": "MKSI",
+    "bidSize": 25,
+    "bidPrice": 295,
+    "askSize": 120,
+    "askPrice": 303,
+    "volume": 1214573,
+    "timestamp": 1778889451000
+  },
+  {
+    "symbol": "MKTX",
+    "bidSize": 49,
+    "bidPrice": 137.9,
+    "askSize": 49,
+    "askPrice": 138.78,
+    "volume": 537411,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MLCIL",
+    "bidSize": 30,
+    "bidPrice": 22,
+    "askSize": 50,
+    "askPrice": 23.85,
+    "volume": 563,
+    "timestamp": 1778888830000
+  },
+  {
+    "symbol": "MLCO",
+    "bidSize": 500,
+    "bidPrice": 5.27,
+    "askSize": 100,
+    "askPrice": 5.54,
+    "volume": 1405365,
+    "timestamp": 1778889393000
+  },
+  {
+    "symbol": "MLI",
+    "bidSize": 400,
+    "bidPrice": 135.26,
+    "askSize": 300,
+    "askPrice": 146.42,
+    "volume": 373650,
+    "timestamp": 1778889415000
+  },
+  {
+    "symbol": "MLKN",
+    "bidSize": 5,
+    "bidPrice": 14.26,
+    "askSize": 1000,
+    "askPrice": 16.1,
+    "volume": 640678,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MLM",
+    "bidSize": 40,
+    "bidPrice": 551.14,
+    "askSize": 200,
+    "askPrice": 602.28,
+    "volume": 549155,
+    "timestamp": 1778889325000
+  },
+  {
+    "symbol": "MLTX",
+    "bidSize": 593,
+    "bidPrice": 17.5,
+    "askSize": 100,
+    "askPrice": 19,
+    "volume": 585569.27057,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MLYS",
+    "bidSize": 90,
+    "bidPrice": 26.51,
+    "askSize": 3,
+    "askPrice": 30,
+    "volume": 964338,
+    "timestamp": 1778889392000
+  },
+  {
+    "symbol": "MMI",
+    "bidSize": 1,
+    "bidPrice": 24.3,
+    "askSize": 100,
+    "askPrice": 35.2,
+    "volume": 207474,
+    "timestamp": 1778889535000
+  },
+  {
+    "symbol": "MMM",
+    "bidSize": 300,
+    "bidPrice": 143.3,
+    "askSize": 100,
+    "askPrice": 146.1,
+    "volume": 4509364,
+    "timestamp": 1778889593000
+  },
+  {
+    "symbol": "MMS",
+    "bidSize": 250,
+    "bidPrice": 57.5,
+    "askSize": 1,
+    "askPrice": 74.36,
+    "volume": 915283,
+    "timestamp": 1778889387000
+  },
+  {
+    "symbol": "MMSI",
+    "bidSize": 1,
+    "bidPrice": 57.6,
+    "askSize": 5,
+    "askPrice": 68.06,
+    "volume": 705904,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MMYT",
+    "bidSize": 1000,
+    "bidPrice": 41.88,
+    "askSize": 2,
+    "askPrice": 45.95,
+    "volume": 1308458,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MNDY",
+    "bidSize": 100,
+    "bidPrice": 71.03,
+    "askSize": 10,
+    "askPrice": 71.85,
+    "volume": 1684868.66522,
+    "timestamp": 1778889603000
+  },
+  {
+    "symbol": "MNR",
+    "bidSize": 400,
+    "bidPrice": 13.62,
+    "askSize": 400,
+    "askPrice": 14.6,
+    "volume": 242980,
+    "timestamp": 1778889591000
+  },
+  {
+    "symbol": "MNSO",
+    "bidSize": 100,
+    "bidPrice": 10.95,
+    "askSize": 100,
+    "askPrice": 17.76,
+    "volume": 431481,
+    "timestamp": 1778889603000
+  },
+  {
+    "symbol": "MNST",
+    "bidSize": 1,
+    "bidPrice": 84.84,
+    "askSize": 6,
+    "askPrice": 88,
+    "volume": 6149027,
+    "timestamp": 1778889410000
+  },
+  {
+    "symbol": "MO",
+    "bidSize": 30,
+    "bidPrice": 72,
+    "askSize": 5,
+    "askPrice": 73.25,
+    "volume": 10381714,
+    "timestamp": 1778889600000
+  },
+  {
+    "symbol": "MOD",
+    "bidSize": 200,
+    "bidPrice": 270,
+    "askSize": 300,
+    "askPrice": 273.49,
+    "volume": 1212425,
+    "timestamp": 1778889587000
+  },
+  {
+    "symbol": "MOG-A",
+    "bidSize": 40,
+    "bidPrice": 226.23,
+    "askSize": 40,
+    "askPrice": 391.38,
+    "volume": 313193,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MOH",
+    "bidSize": 1,
+    "bidPrice": 182.28,
+    "askSize": 10,
+    "askPrice": 192.77,
+    "volume": 878988,
+    "timestamp": 1778889603000
+  },
+  {
+    "symbol": "MOMO",
+    "bidSize": 100,
+    "bidPrice": 5.92,
+    "askSize": 9740,
+    "askPrice": 6.8,
+    "volume": 313635,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MORN",
+    "bidSize": 100,
+    "bidPrice": 160.75,
+    "askSize": 1,
+    "askPrice": 180.96,
+    "volume": 559125,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MOS",
+    "bidSize": 1300,
+    "bidPrice": 21.69,
+    "askSize": 2,
+    "askPrice": 23.42,
+    "volume": 8649475.03723,
+    "timestamp": 1778889603000
+  },
+  {
+    "symbol": "MP",
+    "bidSize": 300,
+    "bidPrice": 60.21,
+    "askSize": 200,
+    "askPrice": 61.15,
+    "volume": 5218979,
+    "timestamp": 1778889523000
+  },
+  {
+    "symbol": "MPC",
+    "bidSize": 100,
+    "bidPrice": 245,
+    "askSize": 200,
+    "askPrice": 257.52,
+    "volume": 2156837.57252,
+    "timestamp": 1778889422000
+  },
+  {
+    "symbol": "MPLX",
+    "bidSize": 300,
+    "bidPrice": 54.5,
+    "askSize": 1400,
+    "askPrice": 55.99,
+    "volume": 2518407,
+    "timestamp": 1778889424000
+  },
+  {
+    "symbol": "MPT",
+    "bidSize": 22900,
+    "bidPrice": 4.85,
+    "askSize": 8800,
+    "askPrice": 5.34,
+    "volume": 6075091,
+    "timestamp": 1778889603000
+  },
+  {
+    "symbol": "MPWR",
+    "bidSize": 1,
+    "bidPrice": 1543,
+    "askSize": 1,
+    "askPrice": 1550.25,
+    "volume": 685355.32332,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MQ",
+    "bidSize": 1000,
+    "bidPrice": 3.81,
+    "askSize": 10,
+    "askPrice": 3.9,
+    "volume": 3158884,
+    "timestamp": 1778889433000
+  },
+  {
+    "symbol": "MRCY",
+    "bidSize": 1,
+    "bidPrice": 75,
+    "askSize": 2,
+    "askPrice": 100,
+    "volume": 469858,
+    "timestamp": 1778889495000
+  },
+  {
+    "symbol": "MRK",
+    "bidSize": 2,
+    "bidPrice": 104,
+    "askSize": 26,
+    "askPrice": 120,
+    "volume": 9969519,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MRNA",
+    "bidSize": 1,
+    "bidPrice": 48.6,
+    "askSize": 20,
+    "askPrice": 51.1,
+    "volume": 7233072.08367,
+    "timestamp": 1778889601000
+  },
+  {
+    "symbol": "MRP",
+    "bidSize": 202,
+    "bidPrice": 26.4,
+    "askSize": 2000,
+    "askPrice": 28.2,
+    "volume": 2035688,
+    "timestamp": 1778889362000
+  },
+  {
+    "symbol": "MRSH",
+    "bidSize": 100,
+    "bidPrice": 142.32,
+    "askSize": 100,
+    "askPrice": 181.58,
+    "volume": 3456913,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MRTN",
+    "bidSize": 1,
+    "bidPrice": 15.47,
+    "askSize": 2,
+    "askPrice": 16.1,
+    "volume": 858847,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MRVI",
+    "bidSize": 100,
+    "bidPrice": 3.6,
+    "askSize": 1000,
+    "askPrice": 4.7,
+    "volume": 1538467,
+    "timestamp": 1778889371000
+  },
+  {
+    "symbol": "MRVL",
+    "bidSize": 4,
+    "bidPrice": 174,
+    "askSize": 8,
+    "askPrice": 175.25,
+    "volume": 24757307,
+    "timestamp": 1778889600000
+  },
+  {
+    "symbol": "MRX",
+    "bidSize": 801,
+    "bidPrice": 55,
+    "askSize": 131,
+    "askPrice": 60.5,
+    "volume": 450525,
+    "timestamp": 1778889369000
+  },
+  {
+    "symbol": "MS",
+    "bidSize": 100,
+    "bidPrice": 191.28,
+    "askSize": 400,
+    "askPrice": 192.47,
+    "volume": 5925327,
+    "timestamp": 1778889010000
+  },
+  {
+    "symbol": "MSA",
+    "bidSize": 100,
+    "bidPrice": 149.46,
+    "askSize": 1,
+    "askPrice": 199.77,
+    "volume": 378155,
+    "timestamp": 1778889593000
+  },
+  {
+    "symbol": "MSCI",
+    "bidSize": 160,
+    "bidPrice": 551,
+    "askSize": 80,
+    "askPrice": 596.95,
+    "volume": 558819,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MSDL",
+    "bidSize": 1,
+    "bidPrice": 15.21,
+    "askSize": 100,
+    "askPrice": 15.54,
+    "volume": 797869,
+    "timestamp": 1778889390000
+  },
+  {
+    "symbol": "MSFT",
+    "bidSize": 2,
+    "bidPrice": 419.64,
+    "askSize": 2,
+    "askPrice": 420,
+    "volume": 50771160,
+    "timestamp": 1778889577000
+  },
+  {
+    "symbol": "MSGE",
+    "bidSize": 100,
+    "bidPrice": 66,
+    "askSize": 100,
+    "askPrice": 83.63,
+    "volume": 406775,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MSGS",
+    "bidSize": 40,
+    "bidPrice": 320.84,
+    "askSize": 4,
+    "askPrice": 355.79,
+    "volume": 284063,
+    "timestamp": 1778889560000
+  },
+  {
+    "symbol": "MSI",
+    "bidSize": 80,
+    "bidPrice": 391.57,
+    "askSize": 80,
+    "askPrice": 428.98,
+    "volume": 1176547,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MSM",
+    "bidSize": 200,
+    "bidPrice": 93,
+    "askSize": 100,
+    "askPrice": 121.74,
+    "volume": 894224,
+    "timestamp": 1778889517000
+  },
+  {
+    "symbol": "MSTR",
+    "bidSize": 1,
+    "bidPrice": 175.6,
+    "askSize": 1,
+    "askPrice": 176.2,
+    "volume": 19654290,
+    "timestamp": 1778889576000
+  },
+  {
+    "symbol": "MT",
+    "bidSize": 2,
+    "bidPrice": 57.15,
+    "askSize": 100,
+    "askPrice": 66.5,
+    "volume": 1998673,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MTB",
+    "bidSize": 5,
+    "bidPrice": 202,
+    "askSize": 1,
+    "askPrice": 213.74,
+    "volume": 1174325,
+    "timestamp": 1778889355000
+  },
+  {
+    "symbol": "MTCH",
+    "bidSize": 6,
+    "bidPrice": 34.85,
+    "askSize": 250,
+    "askPrice": 36.5,
+    "volume": 3060254,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MTD",
+    "bidSize": 10,
+    "bidPrice": 951.57,
+    "askSize": 10,
+    "askPrice": 1097.56,
+    "volume": 204063,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MTDR",
+    "bidSize": 100,
+    "bidPrice": 54.61,
+    "askSize": 900,
+    "askPrice": 60.55,
+    "volume": 1503384,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MTG",
+    "bidSize": 50,
+    "bidPrice": 25.52,
+    "askSize": 55,
+    "askPrice": 26.9,
+    "volume": 1288239,
+    "timestamp": 1778889434000
+  },
+  {
+    "symbol": "MTH",
+    "bidSize": 30,
+    "bidPrice": 58.45,
+    "askSize": 100,
+    "askPrice": 64,
+    "volume": 635196,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MTN",
+    "bidSize": 1,
+    "bidPrice": 120,
+    "askSize": 200,
+    "askPrice": 123,
+    "volume": 569513,
+    "timestamp": 1778889451000
+  },
+  {
+    "symbol": "MTRN",
+    "bidSize": 5,
+    "bidPrice": 205,
+    "askSize": 1,
+    "askPrice": 216.35,
+    "volume": 317854,
+    "timestamp": 1778889603000
+  },
+  {
+    "symbol": "MTSI",
+    "bidSize": 10,
+    "bidPrice": 368.5,
+    "askSize": 9,
+    "askPrice": 375,
+    "volume": 1617021,
+    "timestamp": 1778889399000
+  },
+  {
+    "symbol": "MTX",
+    "bidSize": 1,
+    "bidPrice": 66.75,
+    "askSize": 100,
+    "askPrice": 83.48,
+    "volume": 208690,
+    "timestamp": 1778889416000
+  },
+  {
+    "symbol": "MTZ",
+    "bidSize": 120,
+    "bidPrice": 416.01,
+    "askSize": 80,
+    "askPrice": 435,
+    "volume": 1116040,
+    "timestamp": 1778889573000
+  },
+  {
+    "symbol": "MU",
+    "bidSize": 1,
+    "bidPrice": 715.7,
+    "askSize": 1,
+    "askPrice": 716.38,
+    "volume": 48519042.39173,
+    "timestamp": 1778889595000
+  },
+  {
+    "symbol": "MUFG",
+    "bidSize": 3200,
+    "bidPrice": 18.79,
+    "askSize": 30,
+    "askPrice": 19.1,
+    "volume": 5010765,
+    "timestamp": 1778889322000
+  },
+  {
+    "symbol": "MUR",
+    "bidSize": 1,
+    "bidPrice": 38.95,
+    "askSize": 10,
+    "askPrice": 41,
+    "volume": 1263251,
+    "timestamp": 1778888813000
+  },
+  {
+    "symbol": "MUSA",
+    "bidSize": 160,
+    "bidPrice": 534,
+    "askSize": 240,
+    "askPrice": 604.35,
+    "volume": 354751,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MUX",
+    "bidSize": 5,
+    "bidPrice": 22.25,
+    "askSize": 100,
+    "askPrice": 28.57,
+    "volume": 1072528.4372,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MWA",
+    "bidSize": 101,
+    "bidPrice": 25,
+    "askSize": 12,
+    "askPrice": 26.93,
+    "volume": 1779462,
+    "timestamp": 1778889398000
+  },
+  {
+    "symbol": "MXL",
+    "bidSize": 3,
+    "bidPrice": 92.8,
+    "askSize": 9,
+    "askPrice": 93.56,
+    "volume": 6185464.63524,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MYRG",
+    "bidSize": 20,
+    "bidPrice": 451,
+    "askSize": 1,
+    "askPrice": 479.92,
+    "volume": 196376.4365,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "MZTI",
+    "bidSize": 2,
+    "bidPrice": 110.95,
+    "askSize": 10,
+    "askPrice": 124.47,
+    "volume": 306317,
+    "timestamp": 1778889373000
+  },
+  {
+    "symbol": "NAK",
+    "bidSize": 10500,
+    "bidPrice": 2.03,
+    "askSize": 78600,
+    "askPrice": 2.13,
+    "volume": 7195293,
+    "timestamp": 1778889556000
+  },
+  {
+    "symbol": "NAMS",
+    "bidSize": 100,
+    "bidPrice": 28,
+    "askSize": 1,
+    "askPrice": 41.5,
+    "volume": 1132495,
+    "timestamp": 1778887844000
+  },
+  {
+    "symbol": "NAT",
+    "bidSize": 1,
+    "bidPrice": 5.39,
+    "askSize": 2,
+    "askPrice": 5.59,
+    "volume": 3546999,
+    "timestamp": 1778889461000
+  },
+  {
+    "symbol": "NATL",
+    "bidSize": 100,
+    "bidPrice": 33.86,
+    "askSize": 100,
+    "askPrice": 55.08,
+    "volume": 1117893,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "NAVN",
+    "bidSize": 20,
+    "bidPrice": 17.62,
+    "askSize": 100,
+    "askPrice": 19.73,
+    "volume": 3429757,
+    "timestamp": 1778889427000
+  },
+  {
+    "symbol": "NBHC",
+    "bidSize": 1,
+    "bidPrice": 32,
+    "askSize": 100,
+    "askPrice": 42.92,
+    "volume": 396476,
+    "timestamp": 1778889594000
+  },
+  {
+    "symbol": "NBIS",
+    "bidSize": 50,
+    "bidPrice": 217.4,
+    "askSize": 50,
+    "askPrice": 220,
+    "volume": 22919761.98267,
+    "timestamp": 1778889600000
+  },
+  {
+    "symbol": "NBIX",
+    "bidSize": 4,
+    "bidPrice": 150,
+    "askSize": 1,
+    "askPrice": 161.5,
+    "volume": 1307347,
+    "timestamp": 1778889603000
+  },
+  {
+    "symbol": "NBR",
+    "bidSize": 117,
+    "bidPrice": 93,
+    "askSize": 1,
+    "askPrice": 108,
+    "volume": 246025,
+    "timestamp": 1778889331000
+  },
+  {
+    "symbol": "NBTB",
+    "bidSize": 1,
+    "bidPrice": 40,
+    "askSize": 45,
+    "askPrice": 45.8,
+    "volume": 347129,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "NBTX",
+    "bidSize": 100,
+    "bidPrice": 50.55,
+    "askSize": 100,
+    "askPrice": 64.92,
+    "volume": 88629,
+    "timestamp": 1778889408000
+  },
+  {
+    "symbol": "NCLH",
+    "bidSize": 971,
+    "bidPrice": 15.52,
+    "askSize": 1,
+    "askPrice": 17.8,
+    "volume": 23678345,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "NCNO",
+    "bidSize": 300,
+    "bidPrice": 14.25,
+    "askSize": 5,
+    "askPrice": 16,
+    "volume": 4324839,
+    "timestamp": 1778889440000
+  },
+  {
+    "symbol": "NDAQ",
+    "bidSize": 1,
+    "bidPrice": 87.5,
+    "askSize": 10,
+    "askPrice": 91.72,
+    "volume": 2259716,
+    "timestamp": 1778889381000
+  },
+  {
+    "symbol": "NDSN",
+    "bidSize": 40,
+    "bidPrice": 257.7,
+    "askSize": 40,
+    "askPrice": 295.32,
+    "volume": 0,
+    "timestamp": 1778889602000
+  },
+  {
+    "symbol": "NE",
+    "bidSize": 100,
+    "bidPrice": 50.1,
+    "askSize": 33,
+    "askPrice": 54.7,
+    "volume": 899300,
+    "timestamp": 1778889361000
+  },
+  {
+    "symbol": "NEE",
+    "bidSize": 100,
+    "bidPrice": 92.9,
+    "askSize": 300,
+    "askPrice": 94.92,
+    "volume": 11418281,
+    "timestamp": 1778889357000
+  },
+  {
+    "symbol": "NEM",
+    "bidSize": 100,
+    "bidPrice": 109,
+    "askSize": 100,
+    "askPrice": 109.24,
+    "volume": 11111029.95179,
+    "timestamp": 1778889415000
+  },
+  {
+    "symbol": "NEOG",
+    "bidSize": 99,
+    "bidPrice": 8,
+    "askSize": 32,
+    "askPrice": 8.8,
+    "volume": 1515320,
+    "timestamp": 1778889400000
+  },
+  {
+    "symbol": "NESR",
+    "bidSize": 20,
+    "bidPrice": 24.5,
+    "askSize": 60,
+    "askPrice": 26.45,
+    "volume": 1683737,
+    "timestamp": 1778889354000
+  },
+  {
+    "symbol": "NET",
+    "bidSize": 200,
+    "bidPrice": 196.3,
+    "askSize": 100,
+    "askPrice": 197.5,
+    "volume": 3385777,
+    "timestamp": 1778889581000
+  }
+]

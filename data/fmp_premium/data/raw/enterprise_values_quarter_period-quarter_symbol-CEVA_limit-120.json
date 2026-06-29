@@ -1,0 +1,962 @@
+[
+  {
+    "symbol": "CEVA",
+    "date": "2026-03-31",
+    "stockPrice": 18.68,
+    "numberOfShares": 27678000,
+    "marketCapitalization": 517025040,
+    "minusCashAndCashEquivalents": 21367000,
+    "addTotalDebt": 16877000,
+    "enterpriseValue": 512535040
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2025-12-31",
+    "stockPrice": 21.52,
+    "numberOfShares": 25558000,
+    "marketCapitalization": 550008160,
+    "minusCashAndCashEquivalents": 40586000,
+    "addTotalDebt": 30519000,
+    "enterpriseValue": 539941160
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2025-09-30",
+    "stockPrice": 26.41,
+    "numberOfShares": 23942000,
+    "marketCapitalization": 632308220,
+    "minusCashAndCashEquivalents": 17270000,
+    "addTotalDebt": 3778000,
+    "enterpriseValue": 618816220
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2025-06-30",
+    "stockPrice": 21.98,
+    "numberOfShares": 23898000,
+    "marketCapitalization": 525278040,
+    "minusCashAndCashEquivalents": 29082000,
+    "addTotalDebt": 4365000,
+    "enterpriseValue": 500561040
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2025-03-31",
+    "stockPrice": 25.61,
+    "numberOfShares": 23764000,
+    "marketCapitalization": 608596040,
+    "minusCashAndCashEquivalents": 18814000,
+    "addTotalDebt": 4832000,
+    "enterpriseValue": 594614040
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2024-12-31",
+    "stockPrice": 31.55,
+    "numberOfShares": 23637000,
+    "marketCapitalization": 745747350,
+    "minusCashAndCashEquivalents": 18498000,
+    "addTotalDebt": 5561000,
+    "enterpriseValue": 732810350
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2024-09-30",
+    "stockPrice": 24.15,
+    "numberOfShares": 23678000,
+    "marketCapitalization": 571823700,
+    "minusCashAndCashEquivalents": 13228000,
+    "addTotalDebt": 5198000,
+    "enterpriseValue": 563793700
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2024-06-30",
+    "stockPrice": 18.5,
+    "numberOfShares": 23628000,
+    "marketCapitalization": 437118000,
+    "minusCashAndCashEquivalents": 24702000,
+    "addTotalDebt": 5579000,
+    "enterpriseValue": 417995000
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2024-03-31",
+    "stockPrice": 22.96,
+    "numberOfShares": 23508000,
+    "marketCapitalization": 539743680,
+    "minusCashAndCashEquivalents": 21222000,
+    "addTotalDebt": 6159000,
+    "enterpriseValue": 524680680
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2023-12-31",
+    "stockPrice": 22.71,
+    "numberOfShares": 23518000,
+    "marketCapitalization": 534093780,
+    "minusCashAndCashEquivalents": 23287000,
+    "addTotalDebt": 6456000,
+    "enterpriseValue": 517262780
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2023-09-30",
+    "stockPrice": 19.39,
+    "numberOfShares": 23605000,
+    "marketCapitalization": 457700950,
+    "minusCashAndCashEquivalents": 17082000,
+    "addTotalDebt": 7159000,
+    "enterpriseValue": 447777950
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2023-06-30",
+    "stockPrice": 25.55,
+    "numberOfShares": 23476000,
+    "marketCapitalization": 599811800,
+    "minusCashAndCashEquivalents": 27511000,
+    "addTotalDebt": 9134000,
+    "enterpriseValue": 581434800
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2023-03-31",
+    "stockPrice": 30.43,
+    "numberOfShares": 23334000,
+    "marketCapitalization": 710053620,
+    "minusCashAndCashEquivalents": 24483000,
+    "addTotalDebt": 9388000,
+    "enterpriseValue": 694958620
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2022-12-31",
+    "stockPrice": 25.58,
+    "numberOfShares": 23197000,
+    "marketCapitalization": 593379260,
+    "minusCashAndCashEquivalents": 20116000,
+    "addTotalDebt": 7887000,
+    "enterpriseValue": 581150260
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2022-09-30",
+    "stockPrice": 26.23,
+    "numberOfShares": 23211000,
+    "marketCapitalization": 608824530,
+    "minusCashAndCashEquivalents": 29510000,
+    "addTotalDebt": 7175000,
+    "enterpriseValue": 586489530
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2022-06-30",
+    "stockPrice": 33.56,
+    "numberOfShares": 22460000,
+    "marketCapitalization": 753757600,
+    "minusCashAndCashEquivalents": 19289000,
+    "addTotalDebt": 7018000,
+    "enterpriseValue": 741486600
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2022-03-31",
+    "stockPrice": 40.65,
+    "numberOfShares": 23103000,
+    "marketCapitalization": 939136950,
+    "minusCashAndCashEquivalents": 39778000,
+    "addTotalDebt": 7856000,
+    "enterpriseValue": 907214950
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2021-12-31",
+    "stockPrice": 43.24,
+    "numberOfShares": 22977000,
+    "marketCapitalization": 993525480,
+    "minusCashAndCashEquivalents": 33153000,
+    "addTotalDebt": 8404000,
+    "enterpriseValue": 968776480
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2021-09-30",
+    "stockPrice": 42.67,
+    "numberOfShares": 22925000,
+    "marketCapitalization": 978209750,
+    "minusCashAndCashEquivalents": 34278000,
+    "addTotalDebt": 9302000,
+    "enterpriseValue": 953233750
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2021-06-30",
+    "stockPrice": 47.3,
+    "numberOfShares": 22823000,
+    "marketCapitalization": 1079527900,
+    "minusCashAndCashEquivalents": 26706000,
+    "addTotalDebt": 7781000,
+    "enterpriseValue": 1060602900
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2021-03-31",
+    "stockPrice": 56.15,
+    "numberOfShares": 22546000,
+    "marketCapitalization": 1265957900,
+    "minusCashAndCashEquivalents": 53662000,
+    "addTotalDebt": 7890000,
+    "enterpriseValue": 1220185900
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2020-12-31",
+    "stockPrice": 45.5,
+    "numberOfShares": 22249000,
+    "marketCapitalization": 1012329500,
+    "minusCashAndCashEquivalents": 21143000,
+    "addTotalDebt": 8741000,
+    "enterpriseValue": 999927500
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2020-09-30",
+    "stockPrice": 39.37,
+    "numberOfShares": 22163000,
+    "marketCapitalization": 872557310,
+    "minusCashAndCashEquivalents": 22067000,
+    "addTotalDebt": 10465000,
+    "enterpriseValue": 860955310
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2020-06-30",
+    "stockPrice": 37.42,
+    "numberOfShares": 21800000,
+    "marketCapitalization": 815756000,
+    "minusCashAndCashEquivalents": 29979000,
+    "addTotalDebt": 9779000,
+    "enterpriseValue": 795556000
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2020-03-31",
+    "stockPrice": 24.93,
+    "numberOfShares": 21994000,
+    "marketCapitalization": 548310420,
+    "minusCashAndCashEquivalents": 22903000,
+    "addTotalDebt": 10163000,
+    "enterpriseValue": 535570420
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2019-12-31",
+    "stockPrice": 26.96,
+    "numberOfShares": 21920000,
+    "marketCapitalization": 590963200,
+    "minusCashAndCashEquivalents": 22803000,
+    "addTotalDebt": 10666000,
+    "enterpriseValue": 578826200
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2019-09-30",
+    "stockPrice": 29.86,
+    "numberOfShares": 21953000,
+    "marketCapitalization": 655516580,
+    "minusCashAndCashEquivalents": 14851000,
+    "addTotalDebt": 10321000,
+    "enterpriseValue": 650986580
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2019-06-30",
+    "stockPrice": 24.65,
+    "numberOfShares": 21599999,
+    "marketCapitalization": 532439975,
+    "minusCashAndCashEquivalents": 24527000,
+    "addTotalDebt": 9445000,
+    "enterpriseValue": 517357975
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2019-03-31",
+    "stockPrice": 27.29,
+    "numberOfShares": 21917000,
+    "marketCapitalization": 598114930,
+    "minusCashAndCashEquivalents": 21469000,
+    "addTotalDebt": 9200000,
+    "enterpriseValue": 585845930
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2018-12-31",
+    "stockPrice": 22.09,
+    "numberOfShares": 21863000,
+    "marketCapitalization": 482953670,
+    "minusCashAndCashEquivalents": 22260000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 460693670
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2018-09-30",
+    "stockPrice": 28.94,
+    "numberOfShares": 21997000,
+    "marketCapitalization": 636593180,
+    "minusCashAndCashEquivalents": 9212000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 627381180
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2018-06-30",
+    "stockPrice": 30.2,
+    "numberOfShares": 22129000,
+    "marketCapitalization": 668295800,
+    "minusCashAndCashEquivalents": 10700000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 657595800
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2018-03-31",
+    "stockPrice": 36.2,
+    "numberOfShares": 21820000,
+    "marketCapitalization": 789884000,
+    "minusCashAndCashEquivalents": 18382000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 771502000
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2017-12-31",
+    "stockPrice": 46.15,
+    "numberOfShares": 22017000,
+    "marketCapitalization": 1016084550,
+    "minusCashAndCashEquivalents": 21739000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 994345550
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2017-09-30",
+    "stockPrice": 42.8,
+    "numberOfShares": 21946000,
+    "marketCapitalization": 939288799,
+    "minusCashAndCashEquivalents": 22931000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 916357799
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2017-06-30",
+    "stockPrice": 45.45,
+    "numberOfShares": 21712000,
+    "marketCapitalization": 986810400,
+    "minusCashAndCashEquivalents": 17103000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 969707400
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2017-03-31",
+    "stockPrice": 35.5,
+    "numberOfShares": 21398000,
+    "marketCapitalization": 759629000,
+    "minusCashAndCashEquivalents": 12621000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 747008000
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2016-12-31",
+    "stockPrice": 33.55,
+    "numberOfShares": 21239000,
+    "marketCapitalization": 712568449,
+    "minusCashAndCashEquivalents": 18401000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 694167449
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2016-09-30",
+    "stockPrice": 35.07,
+    "numberOfShares": 21025000,
+    "marketCapitalization": 737346750,
+    "minusCashAndCashEquivalents": 19998000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 717348750
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2016-06-30",
+    "stockPrice": 27.17,
+    "numberOfShares": 20604000,
+    "marketCapitalization": 559810680,
+    "minusCashAndCashEquivalents": 18664000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 541146680
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2016-03-31",
+    "stockPrice": 22.5,
+    "numberOfShares": 20520000,
+    "marketCapitalization": 461700000,
+    "minusCashAndCashEquivalents": 11315000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 450385000
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2015-12-31",
+    "stockPrice": 23.36,
+    "numberOfShares": 20491000,
+    "marketCapitalization": 478669760,
+    "minusCashAndCashEquivalents": 18909000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 459760760
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2015-09-30",
+    "stockPrice": 18.57,
+    "numberOfShares": 20448000,
+    "marketCapitalization": 379719360,
+    "minusCashAndCashEquivalents": 16316000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 363403360
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2015-06-30",
+    "stockPrice": 19.43,
+    "numberOfShares": 20564000,
+    "marketCapitalization": 399558520,
+    "minusCashAndCashEquivalents": 12084000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 387474520
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2015-03-31",
+    "stockPrice": 21.32,
+    "numberOfShares": 20418000,
+    "marketCapitalization": 435311760,
+    "minusCashAndCashEquivalents": 13993000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 421318760
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2014-12-31",
+    "stockPrice": 18.14,
+    "numberOfShares": 20209000,
+    "marketCapitalization": 366591260,
+    "minusCashAndCashEquivalents": 16166000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 350425260
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2014-09-30",
+    "stockPrice": 13.44,
+    "numberOfShares": 20355000,
+    "marketCapitalization": 273571200,
+    "minusCashAndCashEquivalents": 14042000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 259529200
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2014-06-30",
+    "stockPrice": 14.77,
+    "numberOfShares": 20778000,
+    "marketCapitalization": 306891060,
+    "minusCashAndCashEquivalents": 22893000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 283998060
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2014-03-31",
+    "stockPrice": 17.56,
+    "numberOfShares": 21159000,
+    "marketCapitalization": 371552040,
+    "minusCashAndCashEquivalents": 28201000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 343351040
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2013-12-31",
+    "stockPrice": 15.22,
+    "numberOfShares": 21685000,
+    "marketCapitalization": 330045700,
+    "minusCashAndCashEquivalents": 24117000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 305928700
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2013-09-30",
+    "stockPrice": 17.25,
+    "numberOfShares": 22072000,
+    "marketCapitalization": 380742000,
+    "minusCashAndCashEquivalents": 11607000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 369135000
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2013-06-30",
+    "stockPrice": 20.11,
+    "numberOfShares": 22087000,
+    "marketCapitalization": 444169570,
+    "minusCashAndCashEquivalents": 7539000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 436630570
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2013-03-31",
+    "stockPrice": 15.36,
+    "numberOfShares": 22197000,
+    "marketCapitalization": 340945920,
+    "minusCashAndCashEquivalents": 10000000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 330945920
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2012-12-31",
+    "stockPrice": 15.75,
+    "numberOfShares": 22300000,
+    "marketCapitalization": 351225000,
+    "minusCashAndCashEquivalents": 18422000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 332803000
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2012-09-30",
+    "stockPrice": 14.18,
+    "numberOfShares": 22526000,
+    "marketCapitalization": 319418680,
+    "minusCashAndCashEquivalents": 21680000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 297738680
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2012-06-30",
+    "stockPrice": 17.61,
+    "numberOfShares": 22873000,
+    "marketCapitalization": 402793530,
+    "minusCashAndCashEquivalents": 20507000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 382286530
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2012-03-31",
+    "stockPrice": 22.71,
+    "numberOfShares": 23507000,
+    "marketCapitalization": 533843970,
+    "minusCashAndCashEquivalents": 6322000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 527521970
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2011-12-31",
+    "stockPrice": 30.26,
+    "numberOfShares": 23281500,
+    "marketCapitalization": 704498190,
+    "minusCashAndCashEquivalents": 70385000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 634113190
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2011-09-30",
+    "stockPrice": 24.31,
+    "numberOfShares": 23390000,
+    "marketCapitalization": 568610900,
+    "minusCashAndCashEquivalents": 22695000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 545915900
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2011-06-30",
+    "stockPrice": 30.46,
+    "numberOfShares": 23107000,
+    "marketCapitalization": 703839220,
+    "minusCashAndCashEquivalents": 14379000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 689460220
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2011-03-31",
+    "stockPrice": 26.73,
+    "numberOfShares": 22692000,
+    "marketCapitalization": 606557160,
+    "minusCashAndCashEquivalents": 15058000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 591499160
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2010-12-31",
+    "stockPrice": 20.5,
+    "numberOfShares": 21971500,
+    "marketCapitalization": 450415750,
+    "minusCashAndCashEquivalents": 41905000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 408510750
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2010-09-30",
+    "stockPrice": 14.3,
+    "numberOfShares": 21244000,
+    "marketCapitalization": 303789200,
+    "minusCashAndCashEquivalents": 23134000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 280655200
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2010-06-30",
+    "stockPrice": 12.6,
+    "numberOfShares": 21061000,
+    "marketCapitalization": 265368600,
+    "minusCashAndCashEquivalents": 22228000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 243140600
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2010-03-31",
+    "stockPrice": 11.66,
+    "numberOfShares": 20654000,
+    "marketCapitalization": 240825640,
+    "minusCashAndCashEquivalents": 27074000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 213751640
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2009-12-31",
+    "stockPrice": 12.86,
+    "numberOfShares": 20185500,
+    "marketCapitalization": 259585530,
+    "minusCashAndCashEquivalents": 52160000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 207425530
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2009-09-30",
+    "stockPrice": 10.75,
+    "numberOfShares": 19689000,
+    "marketCapitalization": 211656750,
+    "minusCashAndCashEquivalents": 8657000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 202999750
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2009-06-30",
+    "stockPrice": 8.68,
+    "numberOfShares": 19515000,
+    "marketCapitalization": 169390200,
+    "minusCashAndCashEquivalents": 8215000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 161175200
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2009-03-31",
+    "stockPrice": 7.28,
+    "numberOfShares": 19557000,
+    "marketCapitalization": 142374960,
+    "minusCashAndCashEquivalents": 15483000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 126891960
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2008-12-31",
+    "stockPrice": 7,
+    "numberOfShares": 20083000,
+    "marketCapitalization": 140581000,
+    "minusCashAndCashEquivalents": 13328000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 127253000
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2008-09-30",
+    "stockPrice": 8.3,
+    "numberOfShares": 20157000,
+    "marketCapitalization": 167303100,
+    "minusCashAndCashEquivalents": 11144000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 156159100
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2008-06-30",
+    "stockPrice": 7.97,
+    "numberOfShares": 20140000,
+    "marketCapitalization": 160515800,
+    "minusCashAndCashEquivalents": 43093000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 117422800
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2008-03-31",
+    "stockPrice": 7.65,
+    "numberOfShares": 20095000,
+    "marketCapitalization": 153726750,
+    "minusCashAndCashEquivalents": 52501000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 101225750
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2007-12-31",
+    "stockPrice": 12.21,
+    "numberOfShares": 19626500,
+    "marketCapitalization": 239639565,
+    "minusCashAndCashEquivalents": 40697000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 198942565
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2007-09-30",
+    "stockPrice": 8.97,
+    "numberOfShares": 19647000,
+    "marketCapitalization": 176233590,
+    "minusCashAndCashEquivalents": 42679000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 133554590
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2007-06-30",
+    "stockPrice": 8.5,
+    "numberOfShares": 19473000,
+    "marketCapitalization": 165520500,
+    "minusCashAndCashEquivalents": 43026000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 122494500
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2007-03-31",
+    "stockPrice": 7.23,
+    "numberOfShares": 19420000,
+    "marketCapitalization": 140406600,
+    "minusCashAndCashEquivalents": 37177000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 103229600
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2006-12-31",
+    "stockPrice": 6.47,
+    "numberOfShares": 19215000,
+    "marketCapitalization": 124321050,
+    "minusCashAndCashEquivalents": 37968000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 86353050
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2006-09-30",
+    "stockPrice": 5.66,
+    "numberOfShares": 19239000,
+    "marketCapitalization": 108892740,
+    "minusCashAndCashEquivalents": 36509000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 72383740
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2006-06-30",
+    "stockPrice": 5.78,
+    "numberOfShares": 19142000,
+    "marketCapitalization": 110640760,
+    "minusCashAndCashEquivalents": 30113000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 80527760
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2006-03-31",
+    "stockPrice": 6.63,
+    "numberOfShares": 19061000,
+    "marketCapitalization": 126374430,
+    "minusCashAndCashEquivalents": 31690000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 94684430
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2005-12-31",
+    "stockPrice": 6.26,
+    "numberOfShares": 18934000,
+    "marketCapitalization": 118526840,
+    "minusCashAndCashEquivalents": 35111000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 83415840
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2005-09-30",
+    "stockPrice": 5.18,
+    "numberOfShares": 18875000,
+    "marketCapitalization": 97772500,
+    "minusCashAndCashEquivalents": 24492000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 73280500
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2005-06-30",
+    "stockPrice": 5.86,
+    "numberOfShares": 18742000,
+    "marketCapitalization": 109828120,
+    "minusCashAndCashEquivalents": 37929000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 71899120
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2005-03-31",
+    "stockPrice": 7.4,
+    "numberOfShares": 18675000,
+    "marketCapitalization": 138195000,
+    "minusCashAndCashEquivalents": 33220000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 104975000
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2004-12-31",
+    "stockPrice": 9.11,
+    "numberOfShares": 18548000,
+    "marketCapitalization": 168916636,
+    "minusCashAndCashEquivalents": 28844000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 140072636
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2004-09-30",
+    "stockPrice": 7.9,
+    "numberOfShares": 18453000,
+    "marketCapitalization": 145778700,
+    "minusCashAndCashEquivalents": 27035000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 118743700
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2004-06-30",
+    "stockPrice": 7.91,
+    "numberOfShares": 18380000,
+    "marketCapitalization": 145385800,
+    "minusCashAndCashEquivalents": 56832000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 88553800
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2004-03-31",
+    "stockPrice": 9.48,
+    "numberOfShares": 18326000,
+    "marketCapitalization": 173730480,
+    "minusCashAndCashEquivalents": 58615000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 115115480
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2003-12-31",
+    "stockPrice": 10.41,
+    "numberOfShares": 18107000,
+    "marketCapitalization": 188493870,
+    "minusCashAndCashEquivalents": 59130000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 129363870
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2003-09-30",
+    "stockPrice": 8.59,
+    "numberOfShares": 18108000,
+    "marketCapitalization": 155547720,
+    "minusCashAndCashEquivalents": 63515000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 92032720
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2003-06-30",
+    "stockPrice": 8.18,
+    "numberOfShares": 18079000,
+    "marketCapitalization": 147886220,
+    "minusCashAndCashEquivalents": 65294000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 82592220
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2003-03-31",
+    "stockPrice": 3.12,
+    "numberOfShares": 18054795,
+    "marketCapitalization": 56330960,
+    "minusCashAndCashEquivalents": 68519000,
+    "addTotalDebt": 0,
+    "enterpriseValue": -12188040
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2002-12-31",
+    "stockPrice": 5.91,
+    "numberOfShares": 9040000,
+    "marketCapitalization": 53426400,
+    "minusCashAndCashEquivalents": 73810000,
+    "addTotalDebt": 0,
+    "enterpriseValue": -20383600
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2002-09-30",
+    "stockPrice": 5.27,
+    "numberOfShares": 9040000,
+    "marketCapitalization": 47640799,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 543000,
+    "enterpriseValue": 48183799
+  },
+  {
+    "symbol": "CEVA",
+    "date": "2002-06-30",
+    "stockPrice": 5.27,
+    "numberOfShares": 9040000,
+    "marketCapitalization": 47640799,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 47640799
+  }
+]

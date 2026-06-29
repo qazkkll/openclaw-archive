@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "GRND",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Europe": 83366000,
+      "North America": 208585000,
+      "Other Countries": 52685000
+    }
+  },
+  {
+    "symbol": "GRND",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Europe": 61891000,
+      "North America": 159035000,
+      "Other Countries": 38765000
+    }
+  },
+  {
+    "symbol": "GRND",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Other Countries": 58718000,
+      "North America": 121958000,
+      "Europe": 14339000
+    }
+  }
+]

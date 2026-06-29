@@ -1,0 +1,34 @@
+[
+  {
+    "symbol": "RGC",
+    "date": "2018-01-02",
+    "gradingCompany": "B. Riley",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "RGC",
+    "date": "2017-12-06",
+    "gradingCompany": "Macquarie",
+    "previousGrade": "Outperform",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "RGC",
+    "date": "2017-12-06",
+    "gradingCompany": "RBC Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "RGC",
+    "date": "2017-12-06",
+    "gradingCompany": "Moffett Nathanson",
+    "previousGrade": "Sell",
+    "newGrade": "Neutral",
+    "action": "upgrade"
+  }
+]

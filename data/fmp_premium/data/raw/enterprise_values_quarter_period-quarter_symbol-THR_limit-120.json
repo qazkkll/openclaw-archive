@@ -1,0 +1,632 @@
+[
+  {
+    "symbol": "THR",
+    "date": "2025-12-31",
+    "stockPrice": 37.16,
+    "numberOfShares": 32759000,
+    "marketCapitalization": 1217324440,
+    "minusCashAndCashEquivalents": 46858000,
+    "addTotalDebt": 173153000,
+    "enterpriseValue": 1343619440
+  },
+  {
+    "symbol": "THR",
+    "date": "2025-09-30",
+    "stockPrice": 26.72,
+    "numberOfShares": 32953754,
+    "marketCapitalization": 880524306,
+    "minusCashAndCashEquivalents": 29748000,
+    "addTotalDebt": 151619000,
+    "enterpriseValue": 1002395306
+  },
+  {
+    "symbol": "THR",
+    "date": "2025-06-30",
+    "stockPrice": 28.08,
+    "numberOfShares": 33138914,
+    "marketCapitalization": 930540705,
+    "minusCashAndCashEquivalents": 36530000,
+    "addTotalDebt": 151448000,
+    "enterpriseValue": 1045458705
+  },
+  {
+    "symbol": "THR",
+    "date": "2025-03-31",
+    "stockPrice": 27.85,
+    "numberOfShares": 33708000,
+    "marketCapitalization": 938767800,
+    "minusCashAndCashEquivalents": 39537000,
+    "addTotalDebt": 151688000,
+    "enterpriseValue": 1050918800
+  },
+  {
+    "symbol": "THR",
+    "date": "2024-12-31",
+    "stockPrice": 28.77,
+    "numberOfShares": 33709000,
+    "marketCapitalization": 969807930,
+    "minusCashAndCashEquivalents": 38744000,
+    "addTotalDebt": 166898000,
+    "enterpriseValue": 1097961930
+  },
+  {
+    "symbol": "THR",
+    "date": "2024-09-30",
+    "stockPrice": 29.84,
+    "numberOfShares": 33794000,
+    "marketCapitalization": 1008412960,
+    "minusCashAndCashEquivalents": 37000000,
+    "addTotalDebt": 179221000,
+    "enterpriseValue": 1150633960
+  },
+  {
+    "symbol": "THR",
+    "date": "2024-06-30",
+    "stockPrice": 29.74,
+    "numberOfShares": 33756172,
+    "marketCapitalization": 1003908555,
+    "minusCashAndCashEquivalents": 49083000,
+    "addTotalDebt": 184054000,
+    "enterpriseValue": 1138879555
+  },
+  {
+    "symbol": "THR",
+    "date": "2024-03-31",
+    "stockPrice": 32.88,
+    "numberOfShares": 33723000,
+    "marketCapitalization": 1108812240,
+    "minusCashAndCashEquivalents": 48631000,
+    "addTotalDebt": 187490000,
+    "enterpriseValue": 1247671240
+  },
+  {
+    "symbol": "THR",
+    "date": "2023-12-31",
+    "stockPrice": 32.57,
+    "numberOfShares": 33703845,
+    "marketCapitalization": 1097734231,
+    "minusCashAndCashEquivalents": 55396000,
+    "addTotalDebt": 229196000,
+    "enterpriseValue": 1271534231
+  },
+  {
+    "symbol": "THR",
+    "date": "2023-09-30",
+    "stockPrice": 27.47,
+    "numberOfShares": 33688514,
+    "marketCapitalization": 925423479,
+    "minusCashAndCashEquivalents": 30532000,
+    "addTotalDebt": 125101000,
+    "enterpriseValue": 1019992479
+  },
+  {
+    "symbol": "THR",
+    "date": "2023-06-30",
+    "stockPrice": 26.6,
+    "numberOfShares": 33566732,
+    "marketCapitalization": 892875071,
+    "minusCashAndCashEquivalents": 33174000,
+    "addTotalDebt": 128579000,
+    "enterpriseValue": 988280071
+  },
+  {
+    "symbol": "THR",
+    "date": "2023-03-31",
+    "stockPrice": 24.92,
+    "numberOfShares": 33505000,
+    "marketCapitalization": 834944600,
+    "minusCashAndCashEquivalents": 35635000,
+    "addTotalDebt": 128275000,
+    "enterpriseValue": 927584600
+  },
+  {
+    "symbol": "THR",
+    "date": "2022-12-31",
+    "stockPrice": 20.08,
+    "numberOfShares": 33493540,
+    "marketCapitalization": 672550283,
+    "minusCashAndCashEquivalents": 35363000,
+    "addTotalDebt": 145441000,
+    "enterpriseValue": 782628283
+  },
+  {
+    "symbol": "THR",
+    "date": "2022-09-30",
+    "stockPrice": 15.41,
+    "numberOfShares": 33476695,
+    "marketCapitalization": 515875869,
+    "minusCashAndCashEquivalents": 31866000,
+    "addTotalDebt": 156131000,
+    "enterpriseValue": 640140869
+  },
+  {
+    "symbol": "THR",
+    "date": "2022-06-30",
+    "stockPrice": 14.05,
+    "numberOfShares": 33399868,
+    "marketCapitalization": 469268145,
+    "minusCashAndCashEquivalents": 40035000,
+    "addTotalDebt": 163746000,
+    "enterpriseValue": 592979145
+  },
+  {
+    "symbol": "THR",
+    "date": "2022-03-31",
+    "stockPrice": 16.2,
+    "numberOfShares": 33354338,
+    "marketCapitalization": 540340275,
+    "minusCashAndCashEquivalents": 41445000,
+    "addTotalDebt": 141643000,
+    "enterpriseValue": 640538275
+  },
+  {
+    "symbol": "THR",
+    "date": "2021-12-31",
+    "stockPrice": 16.93,
+    "numberOfShares": 33340000,
+    "marketCapitalization": 564446200,
+    "minusCashAndCashEquivalents": 32566000,
+    "addTotalDebt": 145743000,
+    "enterpriseValue": 677623200
+  },
+  {
+    "symbol": "THR",
+    "date": "2021-09-30",
+    "stockPrice": 17.31,
+    "numberOfShares": 33328568,
+    "marketCapitalization": 576917512,
+    "minusCashAndCashEquivalents": 38242000,
+    "addTotalDebt": 153548000,
+    "enterpriseValue": 692223512
+  },
+  {
+    "symbol": "THR",
+    "date": "2021-06-30",
+    "stockPrice": 17.04,
+    "numberOfShares": 33259804,
+    "marketCapitalization": 566747060,
+    "minusCashAndCashEquivalents": 41052000,
+    "addTotalDebt": 160529000,
+    "enterpriseValue": 686224060
+  },
+  {
+    "symbol": "THR",
+    "date": "2021-03-31",
+    "stockPrice": 19.49,
+    "numberOfShares": 33205737,
+    "marketCapitalization": 647179814,
+    "minusCashAndCashEquivalents": 40124000,
+    "addTotalDebt": 161401000,
+    "enterpriseValue": 768456814
+  },
+  {
+    "symbol": "THR",
+    "date": "2020-12-31",
+    "stockPrice": 15.63,
+    "numberOfShares": 33180562,
+    "marketCapitalization": 518612184,
+    "minusCashAndCashEquivalents": 49617000,
+    "addTotalDebt": 182380000,
+    "enterpriseValue": 651375184
+  },
+  {
+    "symbol": "THR",
+    "date": "2020-09-30",
+    "stockPrice": 11.23,
+    "numberOfShares": 33164921,
+    "marketCapitalization": 372442062,
+    "minusCashAndCashEquivalents": 51362000,
+    "addTotalDebt": 188807000,
+    "enterpriseValue": 509887062
+  },
+  {
+    "symbol": "THR",
+    "date": "2020-06-30",
+    "stockPrice": 14.57,
+    "numberOfShares": 32986451,
+    "marketCapitalization": 480612591,
+    "minusCashAndCashEquivalents": 48229000,
+    "addTotalDebt": 193280000,
+    "enterpriseValue": 625663591
+  },
+  {
+    "symbol": "THR",
+    "date": "2020-03-31",
+    "stockPrice": 15.07,
+    "numberOfShares": 32893000,
+    "marketCapitalization": 495697510,
+    "minusCashAndCashEquivalents": 43237000,
+    "addTotalDebt": 190677000,
+    "enterpriseValue": 643137510
+  },
+  {
+    "symbol": "THR",
+    "date": "2019-12-31",
+    "stockPrice": 26.8,
+    "numberOfShares": 32785753,
+    "marketCapitalization": 878658180,
+    "minusCashAndCashEquivalents": 37054000,
+    "addTotalDebt": 193065000,
+    "enterpriseValue": 1034669180
+  },
+  {
+    "symbol": "THR",
+    "date": "2019-09-30",
+    "stockPrice": 22.98,
+    "numberOfShares": 32727023,
+    "marketCapitalization": 752066988,
+    "minusCashAndCashEquivalents": 39014000,
+    "addTotalDebt": 214974000,
+    "enterpriseValue": 928026988
+  },
+  {
+    "symbol": "THR",
+    "date": "2019-06-30",
+    "stockPrice": 26.02,
+    "numberOfShares": 32635295,
+    "marketCapitalization": 849170375,
+    "minusCashAndCashEquivalents": 35269000,
+    "addTotalDebt": 230583000,
+    "enterpriseValue": 1044484375
+  },
+  {
+    "symbol": "THR",
+    "date": "2019-03-31",
+    "stockPrice": 24.62,
+    "numberOfShares": 32606000,
+    "marketCapitalization": 802759720,
+    "minusCashAndCashEquivalents": 31402000,
+    "addTotalDebt": 211454000,
+    "enterpriseValue": 982811720
+  },
+  {
+    "symbol": "THR",
+    "date": "2018-12-31",
+    "stockPrice": 20.28,
+    "numberOfShares": 32595259,
+    "marketCapitalization": 661031852,
+    "minusCashAndCashEquivalents": 30190000,
+    "addTotalDebt": 219391000,
+    "enterpriseValue": 850232852
+  },
+  {
+    "symbol": "THR",
+    "date": "2018-09-30",
+    "stockPrice": 25.43,
+    "numberOfShares": 32571432,
+    "marketCapitalization": 828291515,
+    "minusCashAndCashEquivalents": 28481000,
+    "addTotalDebt": 221984000,
+    "enterpriseValue": 1021794515
+  },
+  {
+    "symbol": "THR",
+    "date": "2018-06-30",
+    "stockPrice": 22.87,
+    "numberOfShares": 32501280,
+    "marketCapitalization": 743304273,
+    "minusCashAndCashEquivalents": 31118000,
+    "addTotalDebt": 222230000,
+    "enterpriseValue": 934416273
+  },
+  {
+    "symbol": "THR",
+    "date": "2018-03-31",
+    "stockPrice": 22.41,
+    "numberOfShares": 32469000,
+    "marketCapitalization": 727630290,
+    "minusCashAndCashEquivalents": 33879000,
+    "addTotalDebt": 217033000,
+    "enterpriseValue": 910784290
+  },
+  {
+    "symbol": "THR",
+    "date": "2017-12-31",
+    "stockPrice": 23.67,
+    "numberOfShares": 32448000,
+    "marketCapitalization": 768044160,
+    "minusCashAndCashEquivalents": 52202000,
+    "addTotalDebt": 240911000,
+    "enterpriseValue": 956753160
+  },
+  {
+    "symbol": "THR",
+    "date": "2017-09-30",
+    "stockPrice": 17.99,
+    "numberOfShares": 32408143,
+    "marketCapitalization": 583022492,
+    "minusCashAndCashEquivalents": 83378000,
+    "addTotalDebt": 70512000,
+    "enterpriseValue": 570156492
+  },
+  {
+    "symbol": "THR",
+    "date": "2017-06-30",
+    "stockPrice": 19.17,
+    "numberOfShares": 32370013,
+    "marketCapitalization": 620533149,
+    "minusCashAndCashEquivalents": 74577000,
+    "addTotalDebt": 75496000,
+    "enterpriseValue": 621452149
+  },
+  {
+    "symbol": "THR",
+    "date": "2017-03-31",
+    "stockPrice": 20.84,
+    "numberOfShares": 32344000,
+    "marketCapitalization": 674048960,
+    "minusCashAndCashEquivalents": 42842000,
+    "addTotalDebt": 80476000,
+    "enterpriseValue": 711682960
+  },
+  {
+    "symbol": "THR",
+    "date": "2016-12-31",
+    "stockPrice": 19.09,
+    "numberOfShares": 32330392,
+    "marketCapitalization": 617187183,
+    "minusCashAndCashEquivalents": 42022000,
+    "addTotalDebt": 83766000,
+    "enterpriseValue": 658931183
+  },
+  {
+    "symbol": "THR",
+    "date": "2016-09-30",
+    "stockPrice": 19.75,
+    "numberOfShares": 32278361,
+    "marketCapitalization": 637497629,
+    "minusCashAndCashEquivalents": 76570000,
+    "addTotalDebt": 87050000,
+    "enterpriseValue": 647977629
+  },
+  {
+    "symbol": "THR",
+    "date": "2016-06-30",
+    "stockPrice": 19.21,
+    "numberOfShares": 32232000,
+    "marketCapitalization": 619176720,
+    "minusCashAndCashEquivalents": 72558000,
+    "addTotalDebt": 90332000,
+    "enterpriseValue": 636950720
+  },
+  {
+    "symbol": "THR",
+    "date": "2016-03-31",
+    "stockPrice": 17.56,
+    "numberOfShares": 32219000,
+    "marketCapitalization": 565765640,
+    "minusCashAndCashEquivalents": 84570000,
+    "addTotalDebt": 93612000,
+    "enterpriseValue": 574807640
+  },
+  {
+    "symbol": "THR",
+    "date": "2015-12-31",
+    "stockPrice": 16.92,
+    "numberOfShares": 32210000,
+    "marketCapitalization": 544993200,
+    "minusCashAndCashEquivalents": 79101000,
+    "addTotalDebt": 102875000,
+    "enterpriseValue": 568767200
+  },
+  {
+    "symbol": "THR",
+    "date": "2015-09-30",
+    "stockPrice": 20.55,
+    "numberOfShares": 32133338,
+    "marketCapitalization": 660340095,
+    "minusCashAndCashEquivalents": 61672000,
+    "addTotalDebt": 106250000,
+    "enterpriseValue": 704918095
+  },
+  {
+    "symbol": "THR",
+    "date": "2015-06-30",
+    "stockPrice": 24.07,
+    "numberOfShares": 32103274,
+    "marketCapitalization": 772725805,
+    "minusCashAndCashEquivalents": 79363000,
+    "addTotalDebt": 104625000,
+    "enterpriseValue": 797987805
+  },
+  {
+    "symbol": "THR",
+    "date": "2015-03-31",
+    "stockPrice": 24.07,
+    "numberOfShares": 32074000,
+    "marketCapitalization": 772021180,
+    "minusCashAndCashEquivalents": 93774000,
+    "addTotalDebt": 108000000,
+    "enterpriseValue": 786247180
+  },
+  {
+    "symbol": "THR",
+    "date": "2014-12-31",
+    "stockPrice": 24.19,
+    "numberOfShares": 32066877,
+    "marketCapitalization": 775697754,
+    "minusCashAndCashEquivalents": 90288000,
+    "addTotalDebt": 111375000,
+    "enterpriseValue": 796784754
+  },
+  {
+    "symbol": "THR",
+    "date": "2014-09-30",
+    "stockPrice": 24.42,
+    "numberOfShares": 32033333,
+    "marketCapitalization": 782253991,
+    "minusCashAndCashEquivalents": 82129000,
+    "addTotalDebt": 114750000,
+    "enterpriseValue": 814874991
+  },
+  {
+    "symbol": "THR",
+    "date": "2014-06-30",
+    "stockPrice": 26.32,
+    "numberOfShares": 31943534,
+    "marketCapitalization": 840753814,
+    "minusCashAndCashEquivalents": 77259000,
+    "addTotalDebt": 118125000,
+    "enterpriseValue": 881619814
+  },
+  {
+    "symbol": "THR",
+    "date": "2014-03-31",
+    "stockPrice": 23.18,
+    "numberOfShares": 31865000,
+    "marketCapitalization": 738630700,
+    "minusCashAndCashEquivalents": 72640000,
+    "addTotalDebt": 121500000,
+    "enterpriseValue": 787490700
+  },
+  {
+    "symbol": "THR",
+    "date": "2013-12-31",
+    "stockPrice": 27.33,
+    "numberOfShares": 31689887,
+    "marketCapitalization": 866084611,
+    "minusCashAndCashEquivalents": 67340000,
+    "addTotalDebt": 124875000,
+    "enterpriseValue": 923619611
+  },
+  {
+    "symbol": "THR",
+    "date": "2013-09-30",
+    "stockPrice": 23.11,
+    "numberOfShares": 31486481,
+    "marketCapitalization": 727652575,
+    "minusCashAndCashEquivalents": 53368000,
+    "addTotalDebt": 128250000,
+    "enterpriseValue": 802534575
+  },
+  {
+    "symbol": "THR",
+    "date": "2013-06-30",
+    "stockPrice": 20.76,
+    "numberOfShares": 31342078,
+    "marketCapitalization": 650661539,
+    "minusCashAndCashEquivalents": 45365000,
+    "addTotalDebt": 131625000,
+    "enterpriseValue": 736921539
+  },
+  {
+    "symbol": "THR",
+    "date": "2013-03-31",
+    "stockPrice": 22.02,
+    "numberOfShares": 31180000,
+    "marketCapitalization": 686583600,
+    "minusCashAndCashEquivalents": 43847000,
+    "addTotalDebt": 118145000,
+    "enterpriseValue": 760881600
+  },
+  {
+    "symbol": "THR",
+    "date": "2012-12-31",
+    "stockPrice": 22.53,
+    "numberOfShares": 30947000,
+    "marketCapitalization": 697235910,
+    "minusCashAndCashEquivalents": 28389000,
+    "addTotalDebt": 118145000,
+    "enterpriseValue": 786991910
+  },
+  {
+    "symbol": "THR",
+    "date": "2012-09-30",
+    "stockPrice": 25.54,
+    "numberOfShares": 30726000,
+    "marketCapitalization": 784742040,
+    "minusCashAndCashEquivalents": 16410000,
+    "addTotalDebt": 121536000,
+    "enterpriseValue": 889868040
+  },
+  {
+    "symbol": "THR",
+    "date": "2012-06-30",
+    "stockPrice": 20.71,
+    "numberOfShares": 30341000,
+    "marketCapitalization": 628362110,
+    "minusCashAndCashEquivalents": 13630000,
+    "addTotalDebt": 134311000,
+    "enterpriseValue": 749043110
+  },
+  {
+    "symbol": "THR",
+    "date": "2012-03-31",
+    "stockPrice": 20.45,
+    "numberOfShares": 29083000,
+    "marketCapitalization": 594747350,
+    "minusCashAndCashEquivalents": 21468000,
+    "addTotalDebt": 142673000,
+    "enterpriseValue": 715952350
+  },
+  {
+    "symbol": "THR",
+    "date": "2011-12-31",
+    "stockPrice": 17.62,
+    "numberOfShares": 29586956,
+    "marketCapitalization": 521322164,
+    "minusCashAndCashEquivalents": 19776000,
+    "addTotalDebt": 148145000,
+    "enterpriseValue": 649691164
+  },
+  {
+    "symbol": "THR",
+    "date": "2011-09-30",
+    "stockPrice": 13.82,
+    "numberOfShares": 29523641,
+    "marketCapitalization": 408016718,
+    "minusCashAndCashEquivalents": 13192000,
+    "addTotalDebt": 149910000,
+    "enterpriseValue": 544734718
+  },
+  {
+    "symbol": "THR",
+    "date": "2011-06-30",
+    "stockPrice": 12,
+    "numberOfShares": 27738534,
+    "marketCapitalization": 332862408,
+    "minusCashAndCashEquivalents": 31604000,
+    "addTotalDebt": 168000000,
+    "enterpriseValue": 469258408
+  },
+  {
+    "symbol": "THR",
+    "date": "2011-03-31",
+    "stockPrice": 12.28,
+    "numberOfShares": 47205000,
+    "marketCapitalization": 579677400,
+    "minusCashAndCashEquivalents": 51016000,
+    "addTotalDebt": 212063000,
+    "enterpriseValue": 740724400
+  },
+  {
+    "symbol": "THR",
+    "date": "2010-12-31",
+    "stockPrice": 12.28,
+    "numberOfShares": 47205000,
+    "marketCapitalization": 579677400,
+    "minusCashAndCashEquivalents": 35201000,
+    "addTotalDebt": 210000000,
+    "enterpriseValue": 754476400
+  },
+  {
+    "symbol": "THR",
+    "date": "2010-09-30",
+    "stockPrice": 12.28,
+    "numberOfShares": 47205000,
+    "marketCapitalization": 579677400,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 579677400
+  },
+  {
+    "symbol": "THR",
+    "date": "2010-03-31",
+    "stockPrice": 12.28,
+    "numberOfShares": 47205000,
+    "marketCapitalization": 579677400,
+    "minusCashAndCashEquivalents": 30147000,
+    "addTotalDebt": 109249000,
+    "enterpriseValue": 658779400
+  }
+]

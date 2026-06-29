@@ -1,4 +1,49 @@
 {
-  "positions": {},
-  "synced_at": "2026-06-28T00:15:42.539003"
+  "positions": {
+    "PLTR": {
+      "entry_date": "2026-06-30T02:38:25.611133",
+      "entry_price": 112.93,
+      "qty": 82,
+      "score": 0.5842,
+      "reason": "V0.3.2 \ud83d\udfe2\ud83d\udfe2\u4fe1\u53f7",
+      "model": "falcon_v032",
+      "gatekeeper": "REDUCE"
+    },
+    "NVDA": {
+      "entry_date": "2026-06-30T02:38:25.611149",
+      "entry_price": 192.53,
+      "qty": 48,
+      "score": 0.5784,
+      "reason": "V0.3.2 \ud83d\udfe2\ud83d\udfe2\u4fe1\u53f7",
+      "model": "falcon_v032",
+      "gatekeeper": "REDUCE"
+    },
+    "INTU": {
+      "entry_date": "2026-06-30T02:38:25.611151",
+      "entry_price": 267.72,
+      "qty": 34,
+      "score": 0.5631,
+      "reason": "V0.3.2 \ud83d\udfe2\ud83d\udfe2\u4fe1\u53f7",
+      "model": "falcon_v032",
+      "gatekeeper": "REDUCE"
+    },
+    "TPL": {
+      "entry_date": "2026-06-30T02:38:25.611152",
+      "entry_price": 395.79,
+      "qty": 23,
+      "score": 0.5616,
+      "reason": "V0.3.2 \ud83d\udfe2\ud83d\udfe2\u4fe1\u53f7",
+      "model": "falcon_v032",
+      "gatekeeper": "REDUCE"
+    },
+    "NFLX": {
+      "entry_date": "2026-06-30T02:38:25.611154",
+      "entry_price": 73.81,
+      "qty": 126,
+      "score": 0.5607,
+      "reason": "V0.3.2 \ud83d\udfe2\ud83d\udfe2\u4fe1\u53f7",
+      "model": "falcon_v032",
+      "gatekeeper": "REDUCE"
+    }
+  }
 }

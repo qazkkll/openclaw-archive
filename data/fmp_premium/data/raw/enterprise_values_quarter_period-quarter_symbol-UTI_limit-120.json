@@ -1,0 +1,932 @@
+[
+  {
+    "symbol": "UTI",
+    "date": "2026-03-31",
+    "stockPrice": 36.1,
+    "numberOfShares": 54799000,
+    "marketCapitalization": 1978243900,
+    "minusCashAndCashEquivalents": 87233000,
+    "addTotalDebt": 316218000,
+    "enterpriseValue": 2207228900
+  },
+  {
+    "symbol": "UTI",
+    "date": "2025-12-31",
+    "stockPrice": 26.13,
+    "numberOfShares": 54570000,
+    "marketCapitalization": 1425914100,
+    "minusCashAndCashEquivalents": 93567000,
+    "addTotalDebt": 459135000,
+    "enterpriseValue": 1791482100
+  },
+  {
+    "symbol": "UTI",
+    "date": "2025-09-30",
+    "stockPrice": 32.55,
+    "numberOfShares": 54425000,
+    "marketCapitalization": 1771533749,
+    "minusCashAndCashEquivalents": 127361000,
+    "addTotalDebt": 278904000,
+    "enterpriseValue": 1923076749
+  },
+  {
+    "symbol": "UTI",
+    "date": "2025-06-30",
+    "stockPrice": 33.89,
+    "numberOfShares": 54412000,
+    "marketCapitalization": 1844022680,
+    "minusCashAndCashEquivalents": 73399000,
+    "addTotalDebt": 261005000,
+    "enterpriseValue": 2031628680
+  },
+  {
+    "symbol": "UTI",
+    "date": "2025-03-31",
+    "stockPrice": 25.68,
+    "numberOfShares": 54383000,
+    "marketCapitalization": 1396555440,
+    "minusCashAndCashEquivalents": 95998000,
+    "addTotalDebt": 256934000,
+    "enterpriseValue": 1557491440
+  },
+  {
+    "symbol": "UTI",
+    "date": "2024-12-31",
+    "stockPrice": 25.71,
+    "numberOfShares": 53987000,
+    "marketCapitalization": 1388005770,
+    "minusCashAndCashEquivalents": 171999000,
+    "addTotalDebt": 286162000,
+    "enterpriseValue": 1502168770
+  },
+  {
+    "symbol": "UTI",
+    "date": "2024-09-30",
+    "stockPrice": 16.26,
+    "numberOfShares": 53813000,
+    "marketCapitalization": 874999380,
+    "minusCashAndCashEquivalents": 161900000,
+    "addTotalDebt": 294745000,
+    "enterpriseValue": 1007844380
+  },
+  {
+    "symbol": "UTI",
+    "date": "2024-06-30",
+    "stockPrice": 16.07,
+    "numberOfShares": 53805000,
+    "marketCapitalization": 864646350,
+    "minusCashAndCashEquivalents": 115505000,
+    "addTotalDebt": 312869000,
+    "enterpriseValue": 1062010350
+  },
+  {
+    "symbol": "UTI",
+    "date": "2024-03-31",
+    "stockPrice": 14.63,
+    "numberOfShares": 53757000,
+    "marketCapitalization": 786464910,
+    "minusCashAndCashEquivalents": 116099000,
+    "addTotalDebt": 323206000,
+    "enterpriseValue": 993571910
+  },
+  {
+    "symbol": "UTI",
+    "date": "2023-12-31",
+    "stockPrice": 12.52,
+    "numberOfShares": 36434000,
+    "marketCapitalization": 456153680,
+    "minusCashAndCashEquivalents": 143590000,
+    "addTotalDebt": 348168000,
+    "enterpriseValue": 660731680
+  },
+  {
+    "symbol": "UTI",
+    "date": "2023-09-30",
+    "stockPrice": 8.38,
+    "numberOfShares": 34070000,
+    "marketCapitalization": 285506600,
+    "minusCashAndCashEquivalents": 151547000,
+    "addTotalDebt": 349624000,
+    "enterpriseValue": 483583600
+  },
+  {
+    "symbol": "UTI",
+    "date": "2023-06-30",
+    "stockPrice": 6.91,
+    "numberOfShares": 34067000,
+    "marketCapitalization": 235402970,
+    "minusCashAndCashEquivalents": 110511000,
+    "addTotalDebt": 354879000,
+    "enterpriseValue": 479770970
+  },
+  {
+    "symbol": "UTI",
+    "date": "2023-03-31",
+    "stockPrice": 7.38,
+    "numberOfShares": 33999000,
+    "marketCapitalization": 250912620,
+    "minusCashAndCashEquivalents": 120579000,
+    "addTotalDebt": 356081000,
+    "enterpriseValue": 486414620
+  },
+  {
+    "symbol": "UTI",
+    "date": "2022-12-31",
+    "stockPrice": 6.72,
+    "numberOfShares": 33805000,
+    "marketCapitalization": 227169600,
+    "minusCashAndCashEquivalents": 162229000,
+    "addTotalDebt": 382910000,
+    "enterpriseValue": 447850600
+  },
+  {
+    "symbol": "UTI",
+    "date": "2022-09-30",
+    "stockPrice": 5.44,
+    "numberOfShares": 33769000,
+    "marketCapitalization": 183703360,
+    "minusCashAndCashEquivalents": 66452000,
+    "addTotalDebt": 209799000,
+    "enterpriseValue": 327050360
+  },
+  {
+    "symbol": "UTI",
+    "date": "2022-06-30",
+    "stockPrice": 7.13,
+    "numberOfShares": 33256999,
+    "marketCapitalization": 237122402,
+    "minusCashAndCashEquivalents": 70713000,
+    "addTotalDebt": 217782000,
+    "enterpriseValue": 384191402
+  },
+  {
+    "symbol": "UTI",
+    "date": "2022-03-31",
+    "stockPrice": 8.85,
+    "numberOfShares": 32992000,
+    "marketCapitalization": 291979200,
+    "minusCashAndCashEquivalents": 61498000,
+    "addTotalDebt": 198994000,
+    "enterpriseValue": 429475200
+  },
+  {
+    "symbol": "UTI",
+    "date": "2021-12-31",
+    "stockPrice": 7.82,
+    "numberOfShares": 32849000,
+    "marketCapitalization": 256879180,
+    "minusCashAndCashEquivalents": 99513000,
+    "addTotalDebt": 218221000,
+    "enterpriseValue": 375587180
+  },
+  {
+    "symbol": "UTI",
+    "date": "2021-09-30",
+    "stockPrice": 6.76,
+    "numberOfShares": 32826000,
+    "marketCapitalization": 221903760,
+    "minusCashAndCashEquivalents": 133721000,
+    "addTotalDebt": 198029000,
+    "enterpriseValue": 286211760
+  },
+  {
+    "symbol": "UTI",
+    "date": "2021-06-30",
+    "stockPrice": 6.49,
+    "numberOfShares": 32821000,
+    "marketCapitalization": 213008290,
+    "minusCashAndCashEquivalents": 102856000,
+    "addTotalDebt": 189981000,
+    "enterpriseValue": 300133290
+  },
+  {
+    "symbol": "UTI",
+    "date": "2021-03-31",
+    "stockPrice": 5.84,
+    "numberOfShares": 31766666,
+    "marketCapitalization": 185517329,
+    "minusCashAndCashEquivalents": 58965000,
+    "addTotalDebt": 159701000,
+    "enterpriseValue": 286253329
+  },
+  {
+    "symbol": "UTI",
+    "date": "2020-12-31",
+    "stockPrice": 6.46,
+    "numberOfShares": 32658000,
+    "marketCapitalization": 210970680,
+    "minusCashAndCashEquivalents": 44212000,
+    "addTotalDebt": 152532000,
+    "enterpriseValue": 319290680
+  },
+  {
+    "symbol": "UTI",
+    "date": "2020-09-30",
+    "stockPrice": 5.08,
+    "numberOfShares": 32616000,
+    "marketCapitalization": 165689280,
+    "minusCashAndCashEquivalents": 76803000,
+    "addTotalDebt": 157755000,
+    "enterpriseValue": 246641280
+  },
+  {
+    "symbol": "UTI",
+    "date": "2020-06-30",
+    "stockPrice": 6.95,
+    "numberOfShares": 32393333,
+    "marketCapitalization": 225133664,
+    "minusCashAndCashEquivalents": 59956000,
+    "addTotalDebt": 146874000,
+    "enterpriseValue": 312051664
+  },
+  {
+    "symbol": "UTI",
+    "date": "2020-03-31",
+    "stockPrice": 5.95,
+    "numberOfShares": 28379000,
+    "marketCapitalization": 168855050,
+    "minusCashAndCashEquivalents": 76606000,
+    "addTotalDebt": 150326000,
+    "enterpriseValue": 242575050
+  },
+  {
+    "symbol": "UTI",
+    "date": "2019-12-31",
+    "stockPrice": 7.71,
+    "numberOfShares": 25663000,
+    "marketCapitalization": 197861730,
+    "minusCashAndCashEquivalents": 70533000,
+    "addTotalDebt": 156696000,
+    "enterpriseValue": 284024730
+  },
+  {
+    "symbol": "UTI",
+    "date": "2019-09-30",
+    "stockPrice": 5.44,
+    "numberOfShares": 25523000,
+    "marketCapitalization": 138845120,
+    "minusCashAndCashEquivalents": 65442000,
+    "addTotalDebt": 40715000,
+    "enterpriseValue": 114118120
+  },
+  {
+    "symbol": "UTI",
+    "date": "2019-06-30",
+    "stockPrice": 3.68,
+    "numberOfShares": 25498000,
+    "marketCapitalization": 93832640,
+    "minusCashAndCashEquivalents": 42689000,
+    "addTotalDebt": 41060000,
+    "enterpriseValue": 92203640
+  },
+  {
+    "symbol": "UTI",
+    "date": "2019-03-31",
+    "stockPrice": 3.48,
+    "numberOfShares": 25223076,
+    "marketCapitalization": 87776304,
+    "minusCashAndCashEquivalents": 52925000,
+    "addTotalDebt": 41395000,
+    "enterpriseValue": 76246304
+  },
+  {
+    "symbol": "UTI",
+    "date": "2018-12-31",
+    "stockPrice": 3.65,
+    "numberOfShares": 25111111,
+    "marketCapitalization": 91655555,
+    "minusCashAndCashEquivalents": 58649000,
+    "addTotalDebt": 41724000,
+    "enterpriseValue": 74730555
+  },
+  {
+    "symbol": "UTI",
+    "date": "2018-09-30",
+    "stockPrice": 2.65,
+    "numberOfShares": 25180466,
+    "marketCapitalization": 66728234,
+    "minusCashAndCashEquivalents": 58104000,
+    "addTotalDebt": 42034000,
+    "enterpriseValue": 50658234
+  },
+  {
+    "symbol": "UTI",
+    "date": "2018-06-30",
+    "stockPrice": 3.15,
+    "numberOfShares": 25042307,
+    "marketCapitalization": 78883267,
+    "minusCashAndCashEquivalents": 55968000,
+    "addTotalDebt": 42325000,
+    "enterpriseValue": 65240267
+  },
+  {
+    "symbol": "UTI",
+    "date": "2018-03-31",
+    "stockPrice": 2.94,
+    "numberOfShares": 25057000,
+    "marketCapitalization": 73667580,
+    "minusCashAndCashEquivalents": 82245000,
+    "addTotalDebt": 42605000,
+    "enterpriseValue": 34027580
+  },
+  {
+    "symbol": "UTI",
+    "date": "2017-12-31",
+    "stockPrice": 2.4,
+    "numberOfShares": 24580000,
+    "marketCapitalization": 58992000,
+    "minusCashAndCashEquivalents": 86450000,
+    "addTotalDebt": 42882000,
+    "enterpriseValue": 15424000
+  },
+  {
+    "symbol": "UTI",
+    "date": "2017-09-30",
+    "stockPrice": 3.47,
+    "numberOfShares": 24809000,
+    "marketCapitalization": 86087230,
+    "minusCashAndCashEquivalents": 50138000,
+    "addTotalDebt": 43141000,
+    "enterpriseValue": 79090230
+  },
+  {
+    "symbol": "UTI",
+    "date": "2017-06-30",
+    "stockPrice": 3.57,
+    "numberOfShares": 24748000,
+    "marketCapitalization": 88350360,
+    "minusCashAndCashEquivalents": 35077000,
+    "addTotalDebt": 43381000,
+    "enterpriseValue": 96654360
+  },
+  {
+    "symbol": "UTI",
+    "date": "2017-03-31",
+    "stockPrice": 3.45,
+    "numberOfShares": 24666000,
+    "marketCapitalization": 85097700,
+    "minusCashAndCashEquivalents": 88984000,
+    "addTotalDebt": 43613000,
+    "enterpriseValue": 39726700
+  },
+  {
+    "symbol": "UTI",
+    "date": "2016-12-31",
+    "stockPrice": 2.91,
+    "numberOfShares": 24625000,
+    "marketCapitalization": 71658750,
+    "minusCashAndCashEquivalents": 102859000,
+    "addTotalDebt": 43840000,
+    "enterpriseValue": 12639750
+  },
+  {
+    "symbol": "UTI",
+    "date": "2016-09-30",
+    "stockPrice": 1.78,
+    "numberOfShares": 24403000,
+    "marketCapitalization": 43437340,
+    "minusCashAndCashEquivalents": 119045000,
+    "addTotalDebt": 44054000,
+    "enterpriseValue": -31553660
+  },
+  {
+    "symbol": "UTI",
+    "date": "2016-06-30",
+    "stockPrice": 2.26,
+    "numberOfShares": 24345000,
+    "marketCapitalization": 55019699,
+    "minusCashAndCashEquivalents": 103245000,
+    "addTotalDebt": 44248000,
+    "enterpriseValue": -3977301
+  },
+  {
+    "symbol": "UTI",
+    "date": "2016-03-31",
+    "stockPrice": 4.31,
+    "numberOfShares": 24243939,
+    "marketCapitalization": 104491377,
+    "minusCashAndCashEquivalents": 40433000,
+    "addTotalDebt": 44436000,
+    "enterpriseValue": 108494377
+  },
+  {
+    "symbol": "UTI",
+    "date": "2015-12-31",
+    "stockPrice": 4.66,
+    "numberOfShares": 23999999,
+    "marketCapitalization": 111839995,
+    "minusCashAndCashEquivalents": 32443000,
+    "addTotalDebt": 44621000,
+    "enterpriseValue": 124017995
+  },
+  {
+    "symbol": "UTI",
+    "date": "2015-09-30",
+    "stockPrice": 3.51,
+    "numberOfShares": 23691573,
+    "marketCapitalization": 83157421,
+    "minusCashAndCashEquivalents": 29438000,
+    "addTotalDebt": 44790000,
+    "enterpriseValue": 98509421
+  },
+  {
+    "symbol": "UTI",
+    "date": "2015-06-30",
+    "stockPrice": 8.6,
+    "numberOfShares": 24138000,
+    "marketCapitalization": 207586800,
+    "minusCashAndCashEquivalents": 10895000,
+    "addTotalDebt": 32634000,
+    "enterpriseValue": 229325800
+  },
+  {
+    "symbol": "UTI",
+    "date": "2015-03-31",
+    "stockPrice": 9.6,
+    "numberOfShares": 24463000,
+    "marketCapitalization": 234844800,
+    "minusCashAndCashEquivalents": 16367000,
+    "addTotalDebt": 32786000,
+    "enterpriseValue": 251263800
+  },
+  {
+    "symbol": "UTI",
+    "date": "2014-12-31",
+    "stockPrice": 9.84,
+    "numberOfShares": 24827000,
+    "marketCapitalization": 244297680,
+    "minusCashAndCashEquivalents": 33044000,
+    "addTotalDebt": 32937000,
+    "enterpriseValue": 244190680
+  },
+  {
+    "symbol": "UTI",
+    "date": "2014-09-30",
+    "stockPrice": 9.35,
+    "numberOfShares": 24638000,
+    "marketCapitalization": 230365300,
+    "minusCashAndCashEquivalents": 38985000,
+    "addTotalDebt": 37712000,
+    "enterpriseValue": 229092300
+  },
+  {
+    "symbol": "UTI",
+    "date": "2014-06-30",
+    "stockPrice": 12.14,
+    "numberOfShares": 24618000,
+    "marketCapitalization": 298862520,
+    "minusCashAndCashEquivalents": 25129000,
+    "addTotalDebt": 37966000,
+    "enterpriseValue": 311699520
+  },
+  {
+    "symbol": "UTI",
+    "date": "2014-03-31",
+    "stockPrice": 12.95,
+    "numberOfShares": 24661000,
+    "marketCapitalization": 319359950,
+    "minusCashAndCashEquivalents": 34343000,
+    "addTotalDebt": 33333000,
+    "enterpriseValue": 318349950
+  },
+  {
+    "symbol": "UTI",
+    "date": "2013-12-31",
+    "stockPrice": 13.91,
+    "numberOfShares": 24645000,
+    "marketCapitalization": 342811950,
+    "minusCashAndCashEquivalents": 36934000,
+    "addTotalDebt": 33459000,
+    "enterpriseValue": 339336950
+  },
+  {
+    "symbol": "UTI",
+    "date": "2013-09-30",
+    "stockPrice": 12.13,
+    "numberOfShares": 24479000,
+    "marketCapitalization": 296930270,
+    "minusCashAndCashEquivalents": 35657000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 261273270
+  },
+  {
+    "symbol": "UTI",
+    "date": "2013-06-30",
+    "stockPrice": 10.49,
+    "numberOfShares": 24420000,
+    "marketCapitalization": 256165800,
+    "minusCashAndCashEquivalents": 23916000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 232249800
+  },
+  {
+    "symbol": "UTI",
+    "date": "2013-03-31",
+    "stockPrice": 12.62,
+    "numberOfShares": 24396000,
+    "marketCapitalization": 307877520,
+    "minusCashAndCashEquivalents": 28536000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 279341520
+  },
+  {
+    "symbol": "UTI",
+    "date": "2012-12-31",
+    "stockPrice": 10.04,
+    "numberOfShares": 24761000,
+    "marketCapitalization": 248600439,
+    "minusCashAndCashEquivalents": 30197000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 218403439
+  },
+  {
+    "symbol": "UTI",
+    "date": "2012-09-30",
+    "stockPrice": 13.75,
+    "numberOfShares": 24764000,
+    "marketCapitalization": 340505000,
+    "minusCashAndCashEquivalents": 45665000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 294840000
+  },
+  {
+    "symbol": "UTI",
+    "date": "2012-06-30",
+    "stockPrice": 13.51,
+    "numberOfShares": 24694000,
+    "marketCapitalization": 333615940,
+    "minusCashAndCashEquivalents": 58524000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 275091940
+  },
+  {
+    "symbol": "UTI",
+    "date": "2012-03-31",
+    "stockPrice": 13.19,
+    "numberOfShares": 24692000,
+    "marketCapitalization": 325687480,
+    "minusCashAndCashEquivalents": 58281000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 267406480
+  },
+  {
+    "symbol": "UTI",
+    "date": "2011-12-31",
+    "stockPrice": 12.78,
+    "numberOfShares": 24693000,
+    "marketCapitalization": 315576540,
+    "minusCashAndCashEquivalents": 51067000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 264509540
+  },
+  {
+    "symbol": "UTI",
+    "date": "2011-09-30",
+    "stockPrice": 13.59,
+    "numberOfShares": 24693000,
+    "marketCapitalization": 335577870,
+    "minusCashAndCashEquivalents": 53670000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 281907870
+  },
+  {
+    "symbol": "UTI",
+    "date": "2011-06-30",
+    "stockPrice": 19.77,
+    "numberOfShares": 24462000,
+    "marketCapitalization": 483613740,
+    "minusCashAndCashEquivalents": 37141000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 446472740
+  },
+  {
+    "symbol": "UTI",
+    "date": "2011-03-31",
+    "stockPrice": 19.45,
+    "numberOfShares": 24366000,
+    "marketCapitalization": 473918700,
+    "minusCashAndCashEquivalents": 52676000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 421242700
+  },
+  {
+    "symbol": "UTI",
+    "date": "2010-12-31",
+    "stockPrice": 22.02,
+    "numberOfShares": 24282000,
+    "marketCapitalization": 534689640,
+    "minusCashAndCashEquivalents": 58461000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 476228640
+  },
+  {
+    "symbol": "UTI",
+    "date": "2010-09-30",
+    "stockPrice": 19.55,
+    "numberOfShares": 24282000,
+    "marketCapitalization": 474713100,
+    "minusCashAndCashEquivalents": 48974000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 425739100
+  },
+  {
+    "symbol": "UTI",
+    "date": "2010-06-30",
+    "stockPrice": 23.64,
+    "numberOfShares": 24146000,
+    "marketCapitalization": 570811440,
+    "minusCashAndCashEquivalents": 59034000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 511777440
+  },
+  {
+    "symbol": "UTI",
+    "date": "2010-03-31",
+    "stockPrice": 22.82,
+    "numberOfShares": 23957000,
+    "marketCapitalization": 546698740,
+    "minusCashAndCashEquivalents": 49354000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 497344740
+  },
+  {
+    "symbol": "UTI",
+    "date": "2009-12-31",
+    "stockPrice": 20.2,
+    "numberOfShares": 23827000,
+    "marketCapitalization": 481305400,
+    "minusCashAndCashEquivalents": 61838000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 419467400
+  },
+  {
+    "symbol": "UTI",
+    "date": "2009-09-30",
+    "stockPrice": 19.7,
+    "numberOfShares": 23827000,
+    "marketCapitalization": 469391900,
+    "minusCashAndCashEquivalents": 56199000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 413192900
+  },
+  {
+    "symbol": "UTI",
+    "date": "2009-06-30",
+    "stockPrice": 14.93,
+    "numberOfShares": 23626000,
+    "marketCapitalization": 352736180,
+    "minusCashAndCashEquivalents": 50149000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 302587180
+  },
+  {
+    "symbol": "UTI",
+    "date": "2009-03-31",
+    "stockPrice": 12,
+    "numberOfShares": 24529000,
+    "marketCapitalization": 294348000,
+    "minusCashAndCashEquivalents": 69453000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 224895000
+  },
+  {
+    "symbol": "UTI",
+    "date": "2008-12-31",
+    "stockPrice": 17.17,
+    "numberOfShares": 25090000,
+    "marketCapitalization": 430795300,
+    "minusCashAndCashEquivalents": 87531000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 343264300
+  },
+  {
+    "symbol": "UTI",
+    "date": "2008-09-30",
+    "stockPrice": 17.06,
+    "numberOfShares": 25090000,
+    "marketCapitalization": 428035399,
+    "minusCashAndCashEquivalents": 80878000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 347157399
+  },
+  {
+    "symbol": "UTI",
+    "date": "2008-06-30",
+    "stockPrice": 12.46,
+    "numberOfShares": 25059000,
+    "marketCapitalization": 312235140,
+    "minusCashAndCashEquivalents": 71991000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 240244140
+  },
+  {
+    "symbol": "UTI",
+    "date": "2008-03-31",
+    "stockPrice": 11.73,
+    "numberOfShares": 25349000,
+    "marketCapitalization": 297343770,
+    "minusCashAndCashEquivalents": 75037000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 222306770
+  },
+  {
+    "symbol": "UTI",
+    "date": "2007-12-31",
+    "stockPrice": 17,
+    "numberOfShares": 26788000,
+    "marketCapitalization": 455396000,
+    "minusCashAndCashEquivalents": 99645000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 355751000
+  },
+  {
+    "symbol": "UTI",
+    "date": "2007-09-30",
+    "stockPrice": 18.26,
+    "numberOfShares": 26788000,
+    "marketCapitalization": 489148880,
+    "minusCashAndCashEquivalents": 75594000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 413554880
+  },
+  {
+    "symbol": "UTI",
+    "date": "2007-06-30",
+    "stockPrice": 25.39,
+    "numberOfShares": 26780000,
+    "marketCapitalization": 679944200,
+    "minusCashAndCashEquivalents": 29933000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 650011200
+  },
+  {
+    "symbol": "UTI",
+    "date": "2007-03-31",
+    "stockPrice": 23.08,
+    "numberOfShares": 26763000,
+    "marketCapitalization": 617690040,
+    "minusCashAndCashEquivalents": 40406000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 577284040
+  },
+  {
+    "symbol": "UTI",
+    "date": "2006-12-31",
+    "stockPrice": 22.21,
+    "numberOfShares": 26744000,
+    "marketCapitalization": 593984240,
+    "minusCashAndCashEquivalents": 46763000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 547221240
+  },
+  {
+    "symbol": "UTI",
+    "date": "2006-09-30",
+    "stockPrice": 17.89,
+    "numberOfShares": 26744000,
+    "marketCapitalization": 478450160,
+    "minusCashAndCashEquivalents": 41431000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 437019160
+  },
+  {
+    "symbol": "UTI",
+    "date": "2006-06-30",
+    "stockPrice": 22.02,
+    "numberOfShares": 27949000,
+    "marketCapitalization": 615436980,
+    "minusCashAndCashEquivalents": 54883000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 560553980
+  },
+  {
+    "symbol": "UTI",
+    "date": "2006-03-31",
+    "stockPrice": 30.1,
+    "numberOfShares": 28074000,
+    "marketCapitalization": 845027400,
+    "minusCashAndCashEquivalents": 76330000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 768697400
+  },
+  {
+    "symbol": "UTI",
+    "date": "2005-12-31",
+    "stockPrice": 30.94,
+    "numberOfShares": 27984000,
+    "marketCapitalization": 865824960,
+    "minusCashAndCashEquivalents": 79816000,
+    "addTotalDebt": 4000,
+    "enterpriseValue": 786012960
+  },
+  {
+    "symbol": "UTI",
+    "date": "2005-09-30",
+    "stockPrice": 35.61,
+    "numberOfShares": 27984000,
+    "marketCapitalization": 996510240,
+    "minusCashAndCashEquivalents": 52045000,
+    "addTotalDebt": 6000,
+    "enterpriseValue": 944471240
+  },
+  {
+    "symbol": "UTI",
+    "date": "2005-06-30",
+    "stockPrice": 33.2,
+    "numberOfShares": 27934000,
+    "marketCapitalization": 927408800,
+    "minusCashAndCashEquivalents": 47264000,
+    "addTotalDebt": 10000,
+    "enterpriseValue": 880154800
+  },
+  {
+    "symbol": "UTI",
+    "date": "2005-03-31",
+    "stockPrice": 36.8,
+    "numberOfShares": 27894000,
+    "marketCapitalization": 1026499199,
+    "minusCashAndCashEquivalents": 46836000,
+    "addTotalDebt": 13000,
+    "enterpriseValue": 979676199
+  },
+  {
+    "symbol": "UTI",
+    "date": "2004-12-31",
+    "stockPrice": 38.12,
+    "numberOfShares": 27797000,
+    "marketCapitalization": 1059621639,
+    "minusCashAndCashEquivalents": 45760000,
+    "addTotalDebt": 16000,
+    "enterpriseValue": 1013877639
+  },
+  {
+    "symbol": "UTI",
+    "date": "2004-09-30",
+    "stockPrice": 30.18,
+    "numberOfShares": 27797000,
+    "marketCapitalization": 838913460,
+    "minusCashAndCashEquivalents": 42602000,
+    "addTotalDebt": 43000,
+    "enterpriseValue": 796354460
+  },
+  {
+    "symbol": "UTI",
+    "date": "2004-06-30",
+    "stockPrice": 39.97,
+    "numberOfShares": 27713000,
+    "marketCapitalization": 1107688610,
+    "minusCashAndCashEquivalents": 40751000,
+    "addTotalDebt": 72000,
+    "enterpriseValue": 1067009610
+  },
+  {
+    "symbol": "UTI",
+    "date": "2004-03-31",
+    "stockPrice": 40.05,
+    "numberOfShares": 27707000,
+    "marketCapitalization": 1109665350,
+    "minusCashAndCashEquivalents": 33987000,
+    "addTotalDebt": 122000,
+    "enterpriseValue": 1075800350
+  },
+  {
+    "symbol": "UTI",
+    "date": "2003-12-31",
+    "stockPrice": 30,
+    "numberOfShares": 15439000,
+    "marketCapitalization": 463170000,
+    "minusCashAndCashEquivalents": 28799000,
+    "addTotalDebt": 244000,
+    "enterpriseValue": 434615000
+  },
+  {
+    "symbol": "UTI",
+    "date": "2003-09-30",
+    "stockPrice": 26.35,
+    "numberOfShares": 15439000,
+    "marketCapitalization": 406817650,
+    "minusCashAndCashEquivalents": 8925000,
+    "addTotalDebt": 31874000,
+    "enterpriseValue": 429766650
+  },
+  {
+    "symbol": "UTI",
+    "date": "2003-06-30",
+    "stockPrice": 26.35,
+    "numberOfShares": 13494000,
+    "marketCapitalization": 355566900,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 355566900
+  },
+  {
+    "symbol": "UTI",
+    "date": "2003-03-31",
+    "stockPrice": 26.35,
+    "numberOfShares": 13402000,
+    "marketCapitalization": 353142700,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 353142700
+  }
+]

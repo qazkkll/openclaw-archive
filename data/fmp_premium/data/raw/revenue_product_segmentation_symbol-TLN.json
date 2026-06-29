@@ -1,0 +1,29 @@
+[
+  {
+    "symbol": "TLN",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Electricity Sales And Ancillary Services": 1940000000,
+      "Operating Revenue, Capacity": 485000000,
+      "Physical Electricity Sales, Bilateral Contracts, Other": 93000000,
+      "Commodity Contracts, Unrealized Gain (Loss)": 57000000
+    }
+  },
+  {
+    "symbol": "TLN",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Electricity Sales And Ancillary Services": 1144000000,
+      "Operating Revenue, Capacity": 192000000,
+      "Physical Electricity Sales, Bilateral Contracts, Other": 147000000,
+      "Product and Service, Other": 91000000,
+      "Commodity Contracts, Unrealized Gain (Loss)": 541000000
+    }
+  }
+]

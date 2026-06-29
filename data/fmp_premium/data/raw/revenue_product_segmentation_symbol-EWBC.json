@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "EWBC",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Commercial Banking": 1246491000,
+      "Consumer and Business Banking": 1200067000,
+      "Treasury And Other": 485298000
+    }
+  },
+  {
+    "symbol": "EWBC",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Commercial Banking": 1323711000,
+      "Consumer and Business Banking": 1260806000,
+      "Treasury And Other": 29417000
+    }
+  },
+  {
+    "symbol": "EWBC",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "Commercial Banking": 15067000,
+      "Consumer and Business Banking": 40200000,
+      "Other Segments": 49000
+    }
+  },
+  {
+    "symbol": "EWBC",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-12-31",
+    "data": {
+      "Commercial Banking": 13510000,
+      "Consumer and Business Banking": 39711000,
+      "Other Segments": 423000
+    }
+  }
+]

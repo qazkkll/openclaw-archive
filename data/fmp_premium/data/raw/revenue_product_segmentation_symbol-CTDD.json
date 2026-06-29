@@ -1,0 +1,49 @@
+[
+  {
+    "symbol": "CTDD",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2024-12-31",
+    "data": {
+      "Affiliate services": 2249000000,
+      "Non-Affiliate Services": 3259000000
+    }
+  },
+  {
+    "symbol": "CTDD",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2023-12-31",
+    "data": {
+      "Affiliate services": 2159000000,
+      "Non-Affiliate Services": 3756000000
+    }
+  },
+  {
+    "symbol": "CTDD",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Affiliate services": 2294000000,
+      "Fiber Infrastructure": 1955000000,
+      "Voice and other": 1749000000,
+      "IP & Data Services": 451000000
+    }
+  },
+  {
+    "symbol": "CTDD",
+    "fiscalYear": 2012,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2012-12-31",
+    "data": {
+      "Affiliates and Other Services": 2112000000,
+      "Legacy Services": 3471000000,
+      "Strategic Services": 3265000000
+    }
+  }
+]

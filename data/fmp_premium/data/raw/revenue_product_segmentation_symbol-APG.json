@@ -1,0 +1,84 @@
+[
+  {
+    "symbol": "APG",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Life Safety": 5456000000,
+      "Specialty Contracting": 1094000000
+    }
+  },
+  {
+    "symbol": "APG",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Fabrication": 230000000,
+      "Heating Ventilation And Air Conditioning": 485000000,
+      "Infrastructure Utility": 997000000,
+      "Life Safety": 4742000000,
+      "Specialty Contracting": 571000000
+    }
+  },
+  {
+    "symbol": "APG",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Heating Ventilation And Air Conditioning": 550000000,
+      "Life Safety": 4025000000,
+      "Fabrication": 253000000,
+      "Infrastructure Utility": 1154000000,
+      "Specialty Contracting": 623000000,
+      "Corporate And Eliminations": -47000000,
+      "Safety Services": 4575000000,
+      "Specialty Services": 2030000000
+    }
+  },
+  {
+    "symbol": "APG",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Civil": 72000000,
+      "Transmission": 205000000,
+      "Heating Ventilation And Air Conditioning": 437000000,
+      "Life Safety": 1643000000,
+      "Fabrication": 248000000,
+      "Infrastructure Utility": 791000000,
+      "Specialty Contracting": 614000000,
+      "Industrial Services": 277000000,
+      "Safety Services": 2080000000,
+      "Specialty Services": 1653000000
+    }
+  },
+  {
+    "symbol": "APG",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "Civil": 67000000,
+      "Inspection": 87000000,
+      "Transmission": 409000000,
+      "Life Safety": 1317000000,
+      "Mechanical": 322000000,
+      "Fabrication": 179000000,
+      "Infrastructure Utility": 809000000,
+      "Specialty Contracting": 413000000,
+      "Corporate And Eliminations": -16000000,
+      "Industrial Services": 563000000,
+      "Safety Services": 1639000000,
+      "Specialty Services": 1401000000
+    }
+  }
+]

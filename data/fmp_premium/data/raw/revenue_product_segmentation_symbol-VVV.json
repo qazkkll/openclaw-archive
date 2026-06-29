@@ -1,0 +1,49 @@
+[
+  {
+    "symbol": "VVV",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-09-30",
+    "data": {
+      "Franchise": 94600000,
+      "Non-oil Changes": 368400000,
+      "Oil Changes": 1247300000
+    }
+  },
+  {
+    "symbol": "VVV",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-09-30",
+    "data": {
+      "Franchise": 80200000,
+      "Non-oil Changes": 350100000,
+      "Oil Changes": 1188700000
+    }
+  },
+  {
+    "symbol": "VVV",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-09-30",
+    "data": {
+      "Franchise": 71600000,
+      "Non-oil Changes": 297600000,
+      "Oil Changes": 1074300000
+    }
+  },
+  {
+    "symbol": "VVV",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-09-30",
+    "data": {
+      "Global Products": 1760000000,
+      "Retail Services": 1221000000
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": "CEG",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Constellation ERCOT": 1904000000,
+      "Constellation Mid Atlantic": 6487000000,
+      "Constellation Midwest": 5804000000,
+      "Constellation New York": 2389000000,
+      "Constellation Other Regions": 5583000000
+    }
+  },
+  {
+    "symbol": "CEG",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Constellation ERCOT": 1550000000,
+      "Constellation Mid Atlantic": 5522000000,
+      "Constellation Midwest": 4805000000,
+      "Constellation New York": 2050000000,
+      "Constellation Other Regions": 5506000000
+    }
+  },
+  {
+    "symbol": "CEG",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "Constellation ERCOT": 1346000000,
+      "Constellation Mid Atlantic": 5453000000,
+      "Constellation Midwest": 4846000000,
+      "Constellation New York": 2021000000,
+      "Constellation Other Regions": 5864000000
+    }
+  },
+  {
+    "symbol": "CEG",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Constellation ERCOT": 1556000000,
+      "Constellation Mid Atlantic": 5264000000,
+      "Constellation Midwest": 5164000000,
+      "Constellation New York": 2004000000,
+      "Constellation Other Regions": 6732000000
+    }
+  },
+  {
+    "symbol": "CEG",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Constellation ERCOT": 1181000000,
+      "Constellation Mid Atlantic": 4584000000,
+      "Constellation New York": 1633000000,
+      "Constellation Other Regions": 4918000000,
+      "Constellation Midwest": 4265000000
+    }
+  }
+]

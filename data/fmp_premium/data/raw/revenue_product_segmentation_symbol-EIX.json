@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "EIX",
+    "fiscalYear": 2011,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2011-12-31",
+    "data": {
+      "Competitive Power Generation": 2186000000,
+      "Electric Utility": 10577000000,
+      "Parent And Other": -3000000
+    }
+  },
+  {
+    "symbol": "EIX",
+    "fiscalYear": 2010,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2010-12-31",
+    "data": {
+      "Competitive Power Generation": 2429000000,
+      "Electric Utility": 9983000000,
+      "Parent And Other": -3000000
+    }
+  }
+]

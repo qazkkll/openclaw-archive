@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "FLUT",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-12-31",
+    "data": {
+      "AUSTRALIA": 1315000000,
+      "IRELAND": 303000000,
+      "ITALY": 2532000000,
+      "Rest of the world": 2268000000,
+      "UNITED KINGDOM": 3198000000,
+      "UNITED STATES": 6767000000
+    }
+  },
+  {
+    "symbol": "FLUT",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "AUSTRALIA": 1397000000,
+      "IRELAND": 304000000,
+      "ITALY": 1484000000,
+      "Rest of the world": 1855000000,
+      "UNITED KINGDOM": 3279000000,
+      "UNITED STATES": 5729000000
+    }
+  }
+]

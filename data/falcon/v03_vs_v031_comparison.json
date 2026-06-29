@@ -1,0 +1,18 @@
+{
+  "V0.3": {
+    "oos_sharpe_mean": 0.5055,
+    "oos_sharpe_median": 0.6265000000000001,
+    "oos_dd_mean": 0.15300625,
+    "oos_wr_mean": 0.5324374999999999,
+    "oos_ret_mean": 0.057325,
+    "n_windows": 16
+  },
+  "V0.3.1": {
+    "oos_sharpe_mean": 0.9513749999999999,
+    "oos_sharpe_median": 1.0,
+    "oos_dd_mean": 0.11400625,
+    "oos_wr_mean": 0.5098125,
+    "oos_ret_mean": 0.08418125,
+    "n_windows": 16
+  }
+}

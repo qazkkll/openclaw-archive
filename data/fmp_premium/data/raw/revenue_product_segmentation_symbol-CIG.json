@@ -1,0 +1,35 @@
+[
+  {
+    "symbol": "CIG",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "BRL",
+    "date": "2020-12-31",
+    "data": {
+      "Provision of services": 5000000,
+      "Transactions With Energy": 35000000,
+      "Advance Against Future Electricity Supply": 9000000,
+      "Reimbursement For Decontracted Supply": 2000000,
+      "Accounts Receivable - AFAC": 27000000,
+      "Advance For Future Power Supply": 7000000,
+      "Reimbursement For Cessation Of Power Purchase Agreement": 10000000,
+      "Reimbursement For Suspension Of Supply Of Power": 52000000,
+      "Securities": 33000000,
+      "ICMS Tax - Early Payment": 12000000,
+      "Receivables from Customers and Traders": 127000000
+    }
+  },
+  {
+    "symbol": "CIG",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "BRL",
+    "date": "2019-12-31",
+    "data": {
+      "Provision Of Services": 1000000,
+      "Reimbursement For Decontracted Supply": 4000000,
+      "Marketable Securities": 8000000,
+      "Receivables from Customers and Traders": 166000000
+    }
+  }
+]

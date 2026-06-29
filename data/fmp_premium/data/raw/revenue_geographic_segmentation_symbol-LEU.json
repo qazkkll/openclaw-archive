@@ -1,0 +1,104 @@
+[
+  {
+    "symbol": "LEU",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": null,
+    "date": "2025-12-31",
+    "data": {
+      "Foreign": 113400000,
+      "JAPAN": 102700000,
+      "Other Foreign": 10700000,
+      "UNITED STATES": 335300000
+    }
+  },
+  {
+    "symbol": "LEU",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "JAPAN": 117200000,
+      "NETHERLANDS": 42400000,
+      "UNITED STATES": 253400000,
+      "Other": 29000000
+    }
+  },
+  {
+    "symbol": "LEU",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-12-31",
+    "data": {
+      "JAPAN": 23600000,
+      "UNITED STATES": 281600000,
+      "BELGIUM": 100000,
+      "Other": 14900000
+    }
+  },
+  {
+    "symbol": "LEU",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "JAPAN": 61600000,
+      "UNITED STATES": 154300000,
+      "BELGIUM": 38300000,
+      "Other": 39600000
+    }
+  },
+  {
+    "symbol": "LEU",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "JAPAN": 34600000,
+      "UNITED STATES": 220500000,
+      "BELGIUM": 36600000,
+      "Other": 6600000
+    }
+  },
+  {
+    "symbol": "LEU",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "JAPAN": 23400000,
+      "UNITED STATES": 171700000,
+      "BELGIUM": 35800000,
+      "Other": 16300000
+    }
+  },
+  {
+    "symbol": "LEU",
+    "fiscalYear": 2019,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2019-12-31",
+    "data": {
+      "BELGIUM": 21500000,
+      "JAPAN": 23400000,
+      "UNITED STATES": 112100000
+    }
+  },
+  {
+    "symbol": "LEU",
+    "fiscalYear": 2018,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2018-12-31",
+    "data": {
+      "BELGIUM": 35200000,
+      "JAPAN": 3100000,
+      "Non-US": 51700000
+    }
+  }
+]

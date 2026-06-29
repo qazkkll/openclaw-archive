@@ -1,0 +1,822 @@
+[
+  {
+    "symbol": "LQDT",
+    "date": "2026-03-31",
+    "stockPrice": 30.57,
+    "numberOfShares": 30844713,
+    "marketCapitalization": 942922876,
+    "minusCashAndCashEquivalents": 195308000,
+    "addTotalDebt": 14537000,
+    "enterpriseValue": 762151876
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2025-12-31",
+    "stockPrice": 30.31,
+    "numberOfShares": 30637211,
+    "marketCapitalization": 928613865,
+    "minusCashAndCashEquivalents": 169800000,
+    "addTotalDebt": 22120000,
+    "enterpriseValue": 780933865
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2025-09-30",
+    "stockPrice": 27.43,
+    "numberOfShares": 30922302,
+    "marketCapitalization": 848198743,
+    "minusCashAndCashEquivalents": 174607000,
+    "addTotalDebt": 14124000,
+    "enterpriseValue": 687715743
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2025-06-30",
+    "stockPrice": 23.59,
+    "numberOfShares": 31157183,
+    "marketCapitalization": 734997946,
+    "minusCashAndCashEquivalents": 155605000,
+    "addTotalDebt": 14579000,
+    "enterpriseValue": 593971946
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2025-03-31",
+    "stockPrice": 31.01,
+    "numberOfShares": 31012087,
+    "marketCapitalization": 961684817,
+    "minusCashAndCashEquivalents": 138486000,
+    "addTotalDebt": 15221000,
+    "enterpriseValue": 838419817
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2024-12-31",
+    "stockPrice": 32.29,
+    "numberOfShares": 30642438,
+    "marketCapitalization": 989444323,
+    "minusCashAndCashEquivalents": 128700000,
+    "addTotalDebt": 13554000,
+    "enterpriseValue": 874298323
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2024-09-30",
+    "stockPrice": 22.8,
+    "numberOfShares": 31944159,
+    "marketCapitalization": 728326825,
+    "minusCashAndCashEquivalents": 153226000,
+    "addTotalDebt": 14437000,
+    "enterpriseValue": 589537825
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2024-06-30",
+    "stockPrice": 19.91,
+    "numberOfShares": 30388675,
+    "marketCapitalization": 605038519,
+    "minusCashAndCashEquivalents": 130312000,
+    "addTotalDebt": 15460000,
+    "enterpriseValue": 490186519
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2024-03-31",
+    "stockPrice": 18.61,
+    "numberOfShares": 30498127,
+    "marketCapitalization": 567570143,
+    "minusCashAndCashEquivalents": 108634000,
+    "addTotalDebt": 10830000,
+    "enterpriseValue": 469766143
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2023-12-31",
+    "stockPrice": 17.21,
+    "numberOfShares": 30605475,
+    "marketCapitalization": 526720224,
+    "minusCashAndCashEquivalents": 98557000,
+    "addTotalDebt": 9904000,
+    "enterpriseValue": 438067224
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2023-09-30",
+    "stockPrice": 17.62,
+    "numberOfShares": 30576142,
+    "marketCapitalization": 538751622,
+    "minusCashAndCashEquivalents": 110281000,
+    "addTotalDebt": 10906000,
+    "enterpriseValue": 439376622
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2023-06-30",
+    "stockPrice": 16.5,
+    "numberOfShares": 30605963,
+    "marketCapitalization": 504998389,
+    "minusCashAndCashEquivalents": 98147000,
+    "addTotalDebt": 11151000,
+    "enterpriseValue": 418002389
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2023-03-31",
+    "stockPrice": 13.17,
+    "numberOfShares": 31305214,
+    "marketCapitalization": 412289668,
+    "minusCashAndCashEquivalents": 95583000,
+    "addTotalDebt": 12539000,
+    "enterpriseValue": 329245668
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2022-12-31",
+    "stockPrice": 14.06,
+    "numberOfShares": 31815160,
+    "marketCapitalization": 447321149,
+    "minusCashAndCashEquivalents": 76166000,
+    "addTotalDebt": 13436000,
+    "enterpriseValue": 384591149
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2022-09-30",
+    "stockPrice": 16.26,
+    "numberOfShares": 31731111,
+    "marketCapitalization": 515947864,
+    "minusCashAndCashEquivalents": 96122000,
+    "addTotalDebt": 14552000,
+    "enterpriseValue": 434377864
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2022-06-30",
+    "stockPrice": 13.44,
+    "numberOfShares": 31908864,
+    "marketCapitalization": 428855132,
+    "minusCashAndCashEquivalents": 88286000,
+    "addTotalDebt": 15831000,
+    "enterpriseValue": 356400132
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2022-03-31",
+    "stockPrice": 17.12,
+    "numberOfShares": 32561903,
+    "marketCapitalization": 557459779,
+    "minusCashAndCashEquivalents": 84264000,
+    "addTotalDebt": 15513000,
+    "enterpriseValue": 488708779
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2021-12-31",
+    "stockPrice": 22.08,
+    "numberOfShares": 32971709,
+    "marketCapitalization": 728015334,
+    "minusCashAndCashEquivalents": 91321000,
+    "addTotalDebt": 16557000,
+    "enterpriseValue": 653251334
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2021-09-30",
+    "stockPrice": 21.61,
+    "numberOfShares": 33491395,
+    "marketCapitalization": 723749045,
+    "minusCashAndCashEquivalents": 106335000,
+    "addTotalDebt": 14598000,
+    "enterpriseValue": 632012045
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2021-06-30",
+    "stockPrice": 25.45,
+    "numberOfShares": 33371906,
+    "marketCapitalization": 849315007,
+    "minusCashAndCashEquivalents": 112666000,
+    "addTotalDebt": 12953000,
+    "enterpriseValue": 749602007
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2021-03-31",
+    "stockPrice": 18.58,
+    "numberOfShares": 33491395,
+    "marketCapitalization": 622270119,
+    "minusCashAndCashEquivalents": 87613000,
+    "addTotalDebt": 13479000,
+    "enterpriseValue": 548136119
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2020-12-31",
+    "stockPrice": 15.91,
+    "numberOfShares": 33176895,
+    "marketCapitalization": 527844399,
+    "minusCashAndCashEquivalents": 77844000,
+    "addTotalDebt": 13962000,
+    "enterpriseValue": 463962399
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2020-09-30",
+    "stockPrice": 7.46,
+    "numberOfShares": 33583832,
+    "marketCapitalization": 250535386,
+    "minusCashAndCashEquivalents": 76036000,
+    "addTotalDebt": 11583000,
+    "enterpriseValue": 186082386
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2020-06-30",
+    "stockPrice": 5.96,
+    "numberOfShares": 33695936,
+    "marketCapitalization": 200827778,
+    "minusCashAndCashEquivalents": 72729000,
+    "addTotalDebt": 10310000,
+    "enterpriseValue": 138408778
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2020-03-31",
+    "stockPrice": 3.88,
+    "numberOfShares": 32600000,
+    "marketCapitalization": 126488000,
+    "minusCashAndCashEquivalents": 41816000,
+    "addTotalDebt": 11458000,
+    "enterpriseValue": 96130000
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2019-12-31",
+    "stockPrice": 5.96,
+    "numberOfShares": 33545235,
+    "marketCapitalization": 199929600,
+    "minusCashAndCashEquivalents": 24183000,
+    "addTotalDebt": 12539000,
+    "enterpriseValue": 188285600
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2019-09-30",
+    "stockPrice": 7.4,
+    "numberOfShares": 33293784,
+    "marketCapitalization": 246374001,
+    "minusCashAndCashEquivalents": 36497000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 209877001
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2019-06-30",
+    "stockPrice": 5.94,
+    "numberOfShares": 33164750,
+    "marketCapitalization": 196998615,
+    "minusCashAndCashEquivalents": 36414000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 160584615
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2019-03-31",
+    "stockPrice": 7.26,
+    "numberOfShares": 32987608,
+    "marketCapitalization": 239490034,
+    "minusCashAndCashEquivalents": 33922000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 205568034
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2018-12-31",
+    "stockPrice": 6.17,
+    "numberOfShares": 32808144,
+    "marketCapitalization": 202426248,
+    "minusCashAndCashEquivalents": 38513000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 163913248
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2018-09-30",
+    "stockPrice": 5.92,
+    "numberOfShares": 32429298,
+    "marketCapitalization": 191981444,
+    "minusCashAndCashEquivalents": 58448000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 133533444
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2018-06-30",
+    "stockPrice": 6.55,
+    "numberOfShares": 32104368,
+    "marketCapitalization": 210283610,
+    "minusCashAndCashEquivalents": 83411000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 126872610
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2018-03-31",
+    "stockPrice": 6.5,
+    "numberOfShares": 31972752,
+    "marketCapitalization": 207822888,
+    "minusCashAndCashEquivalents": 99677000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 108145888
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2017-12-31",
+    "stockPrice": 4.85,
+    "numberOfShares": 31876603,
+    "marketCapitalization": 154601524,
+    "minusCashAndCashEquivalents": 96766000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 57835524
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2017-09-30",
+    "stockPrice": 5.9,
+    "numberOfShares": 31504453,
+    "marketCapitalization": 185876272,
+    "minusCashAndCashEquivalents": 94348000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 91528272
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2017-06-30",
+    "stockPrice": 6.35,
+    "numberOfShares": 31485599,
+    "marketCapitalization": 199933553,
+    "minusCashAndCashEquivalents": 113935000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 85998553
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2017-03-31",
+    "stockPrice": 8,
+    "numberOfShares": 31361122,
+    "marketCapitalization": 250888976,
+    "minusCashAndCashEquivalents": 116110000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 134778976
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2016-12-31",
+    "stockPrice": 9.75,
+    "numberOfShares": 31099999,
+    "marketCapitalization": 303224990,
+    "minusCashAndCashEquivalents": 126914000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 176310990
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2016-09-30",
+    "stockPrice": 11.24,
+    "numberOfShares": 30641187,
+    "marketCapitalization": 344406941,
+    "minusCashAndCashEquivalents": 134513000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 209893941
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2016-06-30",
+    "stockPrice": 7.84,
+    "numberOfShares": 30726554,
+    "marketCapitalization": 240896183,
+    "minusCashAndCashEquivalents": 129865000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 111031183
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2016-03-31",
+    "stockPrice": 5.18,
+    "numberOfShares": 30594940,
+    "marketCapitalization": 158481789,
+    "minusCashAndCashEquivalents": 117528000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 40953789
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2015-12-31",
+    "stockPrice": 6.5,
+    "numberOfShares": 30490670,
+    "marketCapitalization": 198189355,
+    "minusCashAndCashEquivalents": 85452000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 112737355
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2015-09-30",
+    "stockPrice": 7.39,
+    "numberOfShares": 29948471,
+    "marketCapitalization": 221319200,
+    "minusCashAndCashEquivalents": 95465000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 125854200
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2015-06-30",
+    "stockPrice": 9.63,
+    "numberOfShares": 30011121,
+    "marketCapitalization": 289007095,
+    "minusCashAndCashEquivalents": 96188000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 192819095
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2015-03-31",
+    "stockPrice": 9.88,
+    "numberOfShares": 29988324,
+    "marketCapitalization": 296284641,
+    "minusCashAndCashEquivalents": 86231000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 210053641
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2014-12-31",
+    "stockPrice": 8.17,
+    "numberOfShares": 29926273,
+    "marketCapitalization": 244497650,
+    "minusCashAndCashEquivalents": 74222000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 170275650
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2014-09-30",
+    "stockPrice": 13.75,
+    "numberOfShares": 29664259,
+    "marketCapitalization": 407883561,
+    "minusCashAndCashEquivalents": 62598000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 345285561
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2014-06-30",
+    "stockPrice": 15.76,
+    "numberOfShares": 30937394,
+    "marketCapitalization": 487573329,
+    "minusCashAndCashEquivalents": 56948000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 430625329
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2014-03-31",
+    "stockPrice": 26.05,
+    "numberOfShares": 32231011,
+    "marketCapitalization": 839617836,
+    "minusCashAndCashEquivalents": 101766000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 737851836
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2013-12-31",
+    "stockPrice": 22.66,
+    "numberOfShares": 32143064,
+    "marketCapitalization": 728361830,
+    "minusCashAndCashEquivalents": 101491000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 626870830
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2013-09-30",
+    "stockPrice": 33.5,
+    "numberOfShares": 31772377,
+    "marketCapitalization": 1064374629,
+    "minusCashAndCashEquivalents": 95109000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 969265629
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2013-06-30",
+    "stockPrice": 34.66,
+    "numberOfShares": 31651061,
+    "marketCapitalization": 1097025774,
+    "minusCashAndCashEquivalents": 63327000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1033698774
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2013-03-31",
+    "stockPrice": 29.33,
+    "numberOfShares": 31561412,
+    "marketCapitalization": 925696213,
+    "minusCashAndCashEquivalents": 57198000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 868498213
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2012-12-31",
+    "stockPrice": 40.86,
+    "numberOfShares": 31482853,
+    "marketCapitalization": 1286389373,
+    "minusCashAndCashEquivalents": 45892000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1240497373
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2012-09-30",
+    "stockPrice": 49.55,
+    "numberOfShares": 31045293,
+    "marketCapitalization": 1538294268,
+    "minusCashAndCashEquivalents": 104782000,
+    "addTotalDebt": 42000000,
+    "enterpriseValue": 1475512268
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2012-06-30",
+    "stockPrice": 51.18,
+    "numberOfShares": 31140261,
+    "marketCapitalization": 1593758557,
+    "minusCashAndCashEquivalents": 84625000,
+    "addTotalDebt": 41500000,
+    "enterpriseValue": 1550633557
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2012-03-31",
+    "stockPrice": 44.8,
+    "numberOfShares": 30840322,
+    "marketCapitalization": 1381646425,
+    "minusCashAndCashEquivalents": 104756000,
+    "addTotalDebt": 41000000,
+    "enterpriseValue": 1317890425
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2011-12-31",
+    "stockPrice": 36.9,
+    "numberOfShares": 30393309,
+    "marketCapitalization": 1121513102,
+    "minusCashAndCashEquivalents": 68799000,
+    "addTotalDebt": 51523000,
+    "enterpriseValue": 1104237102
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2011-09-30",
+    "stockPrice": 32.07,
+    "numberOfShares": 30393309,
+    "marketCapitalization": 974713419,
+    "minusCashAndCashEquivalents": 128984000,
+    "addTotalDebt": 4741000,
+    "enterpriseValue": 850470419
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2011-06-30",
+    "stockPrice": 23.61,
+    "numberOfShares": 27928750,
+    "marketCapitalization": 659397787,
+    "minusCashAndCashEquivalents": 93512000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 565885787
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2011-03-31",
+    "stockPrice": 17.86,
+    "numberOfShares": 27298989,
+    "marketCapitalization": 487559943,
+    "minusCashAndCashEquivalents": 83361000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 404198943
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2010-12-31",
+    "stockPrice": 14.05,
+    "numberOfShares": 27207288,
+    "marketCapitalization": 382262396,
+    "minusCashAndCashEquivalents": 48525000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 333737396
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2010-09-30",
+    "stockPrice": 16.01,
+    "numberOfShares": 26846427,
+    "marketCapitalization": 429811296,
+    "minusCashAndCashEquivalents": 43378000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 386433296
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2010-06-30",
+    "stockPrice": 12.96,
+    "numberOfShares": 26959713,
+    "marketCapitalization": 349397880,
+    "minusCashAndCashEquivalents": 51529000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 297868880
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2010-03-31",
+    "stockPrice": 11.54,
+    "numberOfShares": 27046617,
+    "marketCapitalization": 312117960,
+    "minusCashAndCashEquivalents": 42238000,
+    "addTotalDebt": 110000,
+    "enterpriseValue": 269989960
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2009-12-31",
+    "stockPrice": 10.07,
+    "numberOfShares": 27539308,
+    "marketCapitalization": 277320831,
+    "minusCashAndCashEquivalents": 23140000,
+    "addTotalDebt": 125000,
+    "enterpriseValue": 254305831
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2009-09-30",
+    "stockPrice": 10.32,
+    "numberOfShares": 27528901,
+    "marketCapitalization": 284098258,
+    "minusCashAndCashEquivalents": 33538000,
+    "addTotalDebt": 138000,
+    "enterpriseValue": 250698258
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2009-06-30",
+    "stockPrice": 9.86,
+    "numberOfShares": 27464177,
+    "marketCapitalization": 270796785,
+    "minusCashAndCashEquivalents": 39454000,
+    "addTotalDebt": 152000,
+    "enterpriseValue": 231494785
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2009-03-31",
+    "stockPrice": 6.99,
+    "numberOfShares": 27777517,
+    "marketCapitalization": 194164843,
+    "minusCashAndCashEquivalents": 34204000,
+    "addTotalDebt": 55000,
+    "enterpriseValue": 160015843
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2008-12-31",
+    "stockPrice": 8.33,
+    "numberOfShares": 28026296,
+    "marketCapitalization": 233459045,
+    "minusCashAndCashEquivalents": 35446000,
+    "addTotalDebt": 61000,
+    "enterpriseValue": 198074045
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2008-09-30",
+    "stockPrice": 10.85,
+    "numberOfShares": 27998414,
+    "marketCapitalization": 303782791,
+    "minusCashAndCashEquivalents": 51954000,
+    "addTotalDebt": 132000,
+    "enterpriseValue": 251960791
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2008-06-30",
+    "stockPrice": 11.53,
+    "numberOfShares": 27964662,
+    "marketCapitalization": 322432552,
+    "minusCashAndCashEquivalents": 50622000,
+    "addTotalDebt": 6000,
+    "enterpriseValue": 271816552
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2008-03-31",
+    "stockPrice": 8,
+    "numberOfShares": 27951777,
+    "marketCapitalization": 223614216,
+    "minusCashAndCashEquivalents": 40444000,
+    "addTotalDebt": 7000,
+    "enterpriseValue": 183177216
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2007-12-31",
+    "stockPrice": 12.9,
+    "numberOfShares": 27944139,
+    "marketCapitalization": 360479393,
+    "minusCashAndCashEquivalents": 46523000,
+    "addTotalDebt": 8000,
+    "enterpriseValue": 313964393
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2007-09-30",
+    "stockPrice": 11.19,
+    "numberOfShares": 27911905,
+    "marketCapitalization": 312334216,
+    "minusCashAndCashEquivalents": 39954000,
+    "addTotalDebt": 52000,
+    "enterpriseValue": 272432216
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2007-06-30",
+    "stockPrice": 18.76,
+    "numberOfShares": 27857115,
+    "marketCapitalization": 522599477,
+    "minusCashAndCashEquivalents": 37103000,
+    "addTotalDebt": 60000,
+    "enterpriseValue": 485556477
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2007-03-31",
+    "stockPrice": 16.94,
+    "numberOfShares": 27708278,
+    "marketCapitalization": 469378229,
+    "minusCashAndCashEquivalents": 49966000,
+    "addTotalDebt": 58000,
+    "enterpriseValue": 419470229
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2006-12-31",
+    "stockPrice": 17.21,
+    "numberOfShares": 27597419,
+    "marketCapitalization": 474951580,
+    "minusCashAndCashEquivalents": 42971000,
+    "addTotalDebt": 69000,
+    "enterpriseValue": 432049580
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2006-09-30",
+    "stockPrice": 15.59,
+    "numberOfShares": 27532067,
+    "marketCapitalization": 429224924,
+    "minusCashAndCashEquivalents": 54359000,
+    "addTotalDebt": 165000,
+    "enterpriseValue": 375030924
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2006-06-30",
+    "stockPrice": 15.57,
+    "numberOfShares": 27347778,
+    "marketCapitalization": 425804903,
+    "minusCashAndCashEquivalents": 50018000,
+    "addTotalDebt": 142000,
+    "enterpriseValue": 375928903
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2006-03-31",
+    "stockPrice": 12.25,
+    "numberOfShares": 22409104,
+    "marketCapitalization": 274511524,
+    "minusCashAndCashEquivalents": 53349000,
+    "addTotalDebt": 183000,
+    "enterpriseValue": 221345524
+  },
+  {
+    "symbol": "LQDT",
+    "date": "2005-12-31",
+    "stockPrice": 12.29,
+    "numberOfShares": 19034172,
+    "marketCapitalization": 233929973,
+    "minusCashAndCashEquivalents": 15196000,
+    "addTotalDebt": 4476000,
+    "enterpriseValue": 223209973
+  }
+]

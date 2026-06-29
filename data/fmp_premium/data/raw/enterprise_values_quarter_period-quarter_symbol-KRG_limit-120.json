@@ -1,0 +1,922 @@
+[
+  {
+    "symbol": "KRG",
+    "date": "2026-03-31",
+    "stockPrice": 24.55,
+    "numberOfShares": 205686342,
+    "marketCapitalization": 5049599696,
+    "minusCashAndCashEquivalents": 32539000,
+    "addTotalDebt": 2992389000,
+    "enterpriseValue": 8009449696
+  },
+  {
+    "symbol": "KRG",
+    "date": "2025-12-31",
+    "stockPrice": 23.97,
+    "numberOfShares": 214329395,
+    "marketCapitalization": 5137475598,
+    "minusCashAndCashEquivalents": 36761000,
+    "addTotalDebt": 3371002000,
+    "enterpriseValue": 8471716598
+  },
+  {
+    "symbol": "KRG",
+    "date": "2025-09-30",
+    "stockPrice": 22.3,
+    "numberOfShares": 219652052,
+    "marketCapitalization": 4898240759,
+    "minusCashAndCashEquivalents": 68743000,
+    "addTotalDebt": 3129890000,
+    "enterpriseValue": 7959387759
+  },
+  {
+    "symbol": "KRG",
+    "date": "2025-06-30",
+    "stockPrice": 22.65,
+    "numberOfShares": 219776000,
+    "marketCapitalization": 4977926400,
+    "minusCashAndCashEquivalents": 182044000,
+    "addTotalDebt": 3215637000,
+    "enterpriseValue": 8011519400
+  },
+  {
+    "symbol": "KRG",
+    "date": "2025-03-31",
+    "stockPrice": 22.37,
+    "numberOfShares": 219716000,
+    "marketCapitalization": 4915046920,
+    "minusCashAndCashEquivalents": 49061000,
+    "addTotalDebt": 2910057000,
+    "enterpriseValue": 7776042920
+  },
+  {
+    "symbol": "KRG",
+    "date": "2024-12-31",
+    "stockPrice": 25.24,
+    "numberOfShares": 219666000,
+    "marketCapitalization": 5544369840,
+    "minusCashAndCashEquivalents": 128056000,
+    "addTotalDebt": 3226930000,
+    "enterpriseValue": 8643243840
+  },
+  {
+    "symbol": "KRG",
+    "date": "2024-09-30",
+    "stockPrice": 26.56,
+    "numberOfShares": 219666000,
+    "marketCapitalization": 5834328960,
+    "minusCashAndCashEquivalents": 117530000,
+    "addTotalDebt": 3454854000,
+    "enterpriseValue": 9171652960
+  },
+  {
+    "symbol": "KRG",
+    "date": "2024-06-30",
+    "stockPrice": 22.22,
+    "numberOfShares": 219622059,
+    "marketCapitalization": 4880002150,
+    "minusCashAndCashEquivalents": 158770000,
+    "addTotalDebt": 3232942000,
+    "enterpriseValue": 7954174150
+  },
+  {
+    "symbol": "KRG",
+    "date": "2024-03-31",
+    "stockPrice": 21.19,
+    "numberOfShares": 219501114,
+    "marketCapitalization": 4651228605,
+    "minusCashAndCashEquivalents": 83579000,
+    "addTotalDebt": 3390475000,
+    "enterpriseValue": 7958124605
+  },
+  {
+    "symbol": "KRG",
+    "date": "2023-12-31",
+    "stockPrice": 22.86,
+    "numberOfShares": 219407927,
+    "marketCapitalization": 5015665211,
+    "minusCashAndCashEquivalents": 36413000,
+    "addTotalDebt": 3057576000,
+    "enterpriseValue": 8036828211
+  },
+  {
+    "symbol": "KRG",
+    "date": "2023-09-30",
+    "stockPrice": 21.42,
+    "numberOfShares": 219381248,
+    "marketCapitalization": 4699146332,
+    "minusCashAndCashEquivalents": 52317000,
+    "addTotalDebt": 3105579000,
+    "enterpriseValue": 7752408332
+  },
+  {
+    "symbol": "KRG",
+    "date": "2023-06-30",
+    "stockPrice": 22.34,
+    "numberOfShares": 219354275,
+    "marketCapitalization": 4900374503,
+    "minusCashAndCashEquivalents": 129254000,
+    "addTotalDebt": 3182661000,
+    "enterpriseValue": 7953781503
+  },
+  {
+    "symbol": "KRG",
+    "date": "2023-03-31",
+    "stockPrice": 20.92,
+    "numberOfShares": 219233569,
+    "marketCapitalization": 4586366263,
+    "minusCashAndCashEquivalents": 43733000,
+    "addTotalDebt": 3223442000,
+    "enterpriseValue": 7766075263
+  },
+  {
+    "symbol": "KRG",
+    "date": "2022-12-31",
+    "stockPrice": 21.05,
+    "numberOfShares": 219137140,
+    "marketCapitalization": 4612836797,
+    "minusCashAndCashEquivalents": 121970000,
+    "addTotalDebt": 3266281000,
+    "enterpriseValue": 7757147797
+  },
+  {
+    "symbol": "KRG",
+    "date": "2022-09-30",
+    "stockPrice": 17.22,
+    "numberOfShares": 219103669,
+    "marketCapitalization": 3772965180,
+    "minusCashAndCashEquivalents": 88447000,
+    "addTotalDebt": 3274307000,
+    "enterpriseValue": 6958825180
+  },
+  {
+    "symbol": "KRG",
+    "date": "2022-06-30",
+    "stockPrice": 17.29,
+    "numberOfShares": 219073778,
+    "marketCapitalization": 3787785621,
+    "minusCashAndCashEquivalents": 90791000,
+    "addTotalDebt": 3265461000,
+    "enterpriseValue": 6962455621
+  },
+  {
+    "symbol": "KRG",
+    "date": "2022-03-31",
+    "stockPrice": 22.77,
+    "numberOfShares": 210052625,
+    "marketCapitalization": 4782898271,
+    "minusCashAndCashEquivalents": 74345000,
+    "addTotalDebt": 3450433000,
+    "enterpriseValue": 8158986271
+  },
+  {
+    "symbol": "KRG",
+    "date": "2021-12-31",
+    "stockPrice": 21.78,
+    "numberOfShares": 97597126,
+    "marketCapitalization": 2125665404,
+    "minusCashAndCashEquivalents": 93241000,
+    "addTotalDebt": 3431306000,
+    "enterpriseValue": 5463730404
+  },
+  {
+    "symbol": "KRG",
+    "date": "2021-09-30",
+    "stockPrice": 20.36,
+    "numberOfShares": 84556689,
+    "marketCapitalization": 1721574188,
+    "minusCashAndCashEquivalents": 99514000,
+    "addTotalDebt": 1358320000,
+    "enterpriseValue": 2980380188
+  },
+  {
+    "symbol": "KRG",
+    "date": "2021-06-30",
+    "stockPrice": 22.01,
+    "numberOfShares": 84509871,
+    "marketCapitalization": 1860062260,
+    "minusCashAndCashEquivalents": 89894000,
+    "addTotalDebt": 1359484000,
+    "enterpriseValue": 3129652260
+  },
+  {
+    "symbol": "KRG",
+    "date": "2021-03-31",
+    "stockPrice": 19.29,
+    "numberOfShares": 84336577,
+    "marketCapitalization": 1626852570,
+    "minusCashAndCashEquivalents": 228842000,
+    "addTotalDebt": 1386153000,
+    "enterpriseValue": 2784163570
+  },
+  {
+    "symbol": "KRG",
+    "date": "2020-12-31",
+    "stockPrice": 14.96,
+    "numberOfShares": 84192462,
+    "marketCapitalization": 1259519231,
+    "minusCashAndCashEquivalents": 43648000,
+    "addTotalDebt": 1242784000,
+    "enterpriseValue": 2458655231
+  },
+  {
+    "symbol": "KRG",
+    "date": "2020-09-30",
+    "stockPrice": 11.58,
+    "numberOfShares": 84194268,
+    "marketCapitalization": 974969623,
+    "minusCashAndCashEquivalents": 129282000,
+    "addTotalDebt": 1270184000,
+    "enterpriseValue": 2115871623
+  },
+  {
+    "symbol": "KRG",
+    "date": "2020-06-30",
+    "stockPrice": 11.54,
+    "numberOfShares": 84157541,
+    "marketCapitalization": 971178023,
+    "minusCashAndCashEquivalents": 229975000,
+    "addTotalDebt": 1421249000,
+    "enterpriseValue": 2162452023
+  },
+  {
+    "symbol": "KRG",
+    "date": "2020-03-31",
+    "stockPrice": 9.47,
+    "numberOfShares": 84023090,
+    "marketCapitalization": 795698662,
+    "minusCashAndCashEquivalents": 343893000,
+    "addTotalDebt": 1522614000,
+    "enterpriseValue": 1974419662
+  },
+  {
+    "symbol": "KRG",
+    "date": "2019-12-31",
+    "stockPrice": 19.53,
+    "numberOfShares": 83960045,
+    "marketCapitalization": 1639739678,
+    "minusCashAndCashEquivalents": 31336000,
+    "addTotalDebt": 1223667000,
+    "enterpriseValue": 2832070678
+  },
+  {
+    "symbol": "KRG",
+    "date": "2019-09-30",
+    "stockPrice": 16.15,
+    "numberOfShares": 83960841,
+    "marketCapitalization": 1355967582,
+    "minusCashAndCashEquivalents": 40442000,
+    "addTotalDebt": 1198584000,
+    "enterpriseValue": 2514109582
+  },
+  {
+    "symbol": "KRG",
+    "date": "2019-06-30",
+    "stockPrice": 14.91,
+    "numberOfShares": 83938961,
+    "marketCapitalization": 1251529908,
+    "minusCashAndCashEquivalents": 35842000,
+    "addTotalDebt": 1376612000,
+    "enterpriseValue": 2592299908
+  },
+  {
+    "symbol": "KRG",
+    "date": "2019-03-31",
+    "stockPrice": 16.14,
+    "numberOfShares": 83843681,
+    "marketCapitalization": 1353237011,
+    "minusCashAndCashEquivalents": 28357000,
+    "addTotalDebt": 1629918000,
+    "enterpriseValue": 2954798011
+  },
+  {
+    "symbol": "KRG",
+    "date": "2018-12-31",
+    "stockPrice": 14.09,
+    "numberOfShares": 82217862,
+    "marketCapitalization": 1158449675,
+    "minusCashAndCashEquivalents": 35376000,
+    "addTotalDebt": 1543301000,
+    "enterpriseValue": 2666374675
+  },
+  {
+    "symbol": "KRG",
+    "date": "2018-09-30",
+    "stockPrice": 16.55,
+    "numberOfShares": 83706704,
+    "marketCapitalization": 1385345951,
+    "minusCashAndCashEquivalents": 30709000,
+    "addTotalDebt": 1578328000,
+    "enterpriseValue": 2932964951
+  },
+  {
+    "symbol": "KRG",
+    "date": "2018-06-30",
+    "stockPrice": 17.08,
+    "numberOfShares": 83672896,
+    "marketCapitalization": 1429133063,
+    "minusCashAndCashEquivalents": 32384000,
+    "addTotalDebt": 1565429000,
+    "enterpriseValue": 2962178063
+  },
+  {
+    "symbol": "KRG",
+    "date": "2018-03-31",
+    "stockPrice": 15.23,
+    "numberOfShares": 83629669,
+    "marketCapitalization": 1273679858,
+    "minusCashAndCashEquivalents": 28753000,
+    "addTotalDebt": 1650547000,
+    "enterpriseValue": 2895473858
+  },
+  {
+    "symbol": "KRG",
+    "date": "2017-12-31",
+    "stockPrice": 19.6,
+    "numberOfShares": 83595677,
+    "marketCapitalization": 1638475269,
+    "minusCashAndCashEquivalents": 24082000,
+    "addTotalDebt": 1699239000,
+    "enterpriseValue": 3313632269
+  },
+  {
+    "symbol": "KRG",
+    "date": "2017-09-30",
+    "stockPrice": 20.25,
+    "numberOfShares": 83594163,
+    "marketCapitalization": 1692781800,
+    "minusCashAndCashEquivalents": 32465000,
+    "addTotalDebt": 1681676000,
+    "enterpriseValue": 3341992800
+  },
+  {
+    "symbol": "KRG",
+    "date": "2017-06-30",
+    "stockPrice": 18.93,
+    "numberOfShares": 83585736,
+    "marketCapitalization": 1582277982,
+    "minusCashAndCashEquivalents": 27635000,
+    "addTotalDebt": 1675064000,
+    "enterpriseValue": 3229706982
+  },
+  {
+    "symbol": "KRG",
+    "date": "2017-03-31",
+    "stockPrice": 21.5,
+    "numberOfShares": 83565325,
+    "marketCapitalization": 1796654487,
+    "minusCashAndCashEquivalents": 22641000,
+    "addTotalDebt": 1726873000,
+    "enterpriseValue": 3500886487
+  },
+  {
+    "symbol": "KRG",
+    "date": "2016-12-31",
+    "stockPrice": 23.48,
+    "numberOfShares": 83546605,
+    "marketCapitalization": 1961674285,
+    "minusCashAndCashEquivalents": 19874000,
+    "addTotalDebt": 1731074000,
+    "enterpriseValue": 3672874285
+  },
+  {
+    "symbol": "KRG",
+    "date": "2016-09-30",
+    "stockPrice": 27.72,
+    "numberOfShares": 83474348,
+    "marketCapitalization": 2313908926,
+    "minusCashAndCashEquivalents": 28793000,
+    "addTotalDebt": 1732344000,
+    "enterpriseValue": 4017459926
+  },
+  {
+    "symbol": "KRG",
+    "date": "2016-06-30",
+    "stockPrice": 28.03,
+    "numberOfShares": 83375765,
+    "marketCapitalization": 2337022692,
+    "minusCashAndCashEquivalents": 37902000,
+    "addTotalDebt": 1740487000,
+    "enterpriseValue": 4039607692
+  },
+  {
+    "symbol": "KRG",
+    "date": "2016-03-31",
+    "stockPrice": 27.71,
+    "numberOfShares": 83348507,
+    "marketCapitalization": 2309587128,
+    "minusCashAndCashEquivalents": 23307000,
+    "addTotalDebt": 1730787000,
+    "enterpriseValue": 4017067128
+  },
+  {
+    "symbol": "KRG",
+    "date": "2015-12-31",
+    "stockPrice": 25.93,
+    "numberOfShares": 83327664,
+    "marketCapitalization": 2160686327,
+    "minusCashAndCashEquivalents": 33880000,
+    "addTotalDebt": 1734059000,
+    "enterpriseValue": 3860865327
+  },
+  {
+    "symbol": "KRG",
+    "date": "2015-09-30",
+    "stockPrice": 23.81,
+    "numberOfShares": 83325074,
+    "marketCapitalization": 1983970011,
+    "minusCashAndCashEquivalents": 42951000,
+    "addTotalDebt": 1679843000,
+    "enterpriseValue": 3620862011
+  },
+  {
+    "symbol": "KRG",
+    "date": "2015-06-30",
+    "stockPrice": 24.47,
+    "numberOfShares": 83506078,
+    "marketCapitalization": 2043393728,
+    "minusCashAndCashEquivalents": 70120217,
+    "addTotalDebt": 1618614378,
+    "enterpriseValue": 3591887889
+  },
+  {
+    "symbol": "KRG",
+    "date": "2015-03-31",
+    "stockPrice": 28.17,
+    "numberOfShares": 83532092,
+    "marketCapitalization": 2353099031,
+    "minusCashAndCashEquivalents": 126743610,
+    "addTotalDebt": 1569420326,
+    "enterpriseValue": 3795775747
+  },
+  {
+    "symbol": "KRG",
+    "date": "2014-12-31",
+    "stockPrice": 28.74,
+    "numberOfShares": 83478680,
+    "marketCapitalization": 2399177263,
+    "minusCashAndCashEquivalents": 43825526,
+    "addTotalDebt": 1554263020,
+    "enterpriseValue": 3909614757
+  },
+  {
+    "symbol": "KRG",
+    "date": "2014-09-30",
+    "stockPrice": 24.24,
+    "numberOfShares": 83455900,
+    "marketCapitalization": 2022971015,
+    "minusCashAndCashEquivalents": 31213429,
+    "addTotalDebt": 1556495902,
+    "enterpriseValue": 3548253488
+  },
+  {
+    "symbol": "KRG",
+    "date": "2014-06-30",
+    "stockPrice": 24.56,
+    "numberOfShares": 31812500,
+    "marketCapitalization": 781315000,
+    "minusCashAndCashEquivalents": 22628414,
+    "addTotalDebt": 874516933,
+    "enterpriseValue": 1633203519
+  },
+  {
+    "symbol": "KRG",
+    "date": "2014-03-31",
+    "stockPrice": 24,
+    "numberOfShares": 32700000,
+    "marketCapitalization": 784800000,
+    "minusCashAndCashEquivalents": 31876229,
+    "addTotalDebt": 871333889,
+    "enterpriseValue": 1624257660
+  },
+  {
+    "symbol": "KRG",
+    "date": "2013-12-31",
+    "stockPrice": 26.28,
+    "numberOfShares": 28368567,
+    "marketCapitalization": 745525940,
+    "minusCashAndCashEquivalents": 18134320,
+    "addTotalDebt": 857144074,
+    "enterpriseValue": 1584535694
+  },
+  {
+    "symbol": "KRG",
+    "date": "2013-09-30",
+    "stockPrice": 23.72,
+    "numberOfShares": 23450974,
+    "marketCapitalization": 556257103,
+    "minusCashAndCashEquivalents": 12130048,
+    "addTotalDebt": 743984742,
+    "enterpriseValue": 1288111797
+  },
+  {
+    "symbol": "KRG",
+    "date": "2013-06-30",
+    "stockPrice": 24,
+    "numberOfShares": 22766704,
+    "marketCapitalization": 546400896,
+    "minusCashAndCashEquivalents": 13098358,
+    "addTotalDebt": 747489021,
+    "enterpriseValue": 1280791559
+  },
+  {
+    "symbol": "KRG",
+    "date": "2013-03-31",
+    "stockPrice": 26.76,
+    "numberOfShares": 19458124,
+    "marketCapitalization": 520699398,
+    "minusCashAndCashEquivalents": 14648955,
+    "addTotalDebt": 746917668,
+    "enterpriseValue": 1252968111
+  },
+  {
+    "symbol": "KRG",
+    "date": "2012-12-31",
+    "stockPrice": 22.36,
+    "numberOfShares": 18741684,
+    "marketCapitalization": 419064054,
+    "minusCashAndCashEquivalents": 12482701,
+    "addTotalDebt": 699908768,
+    "enterpriseValue": 1106490121
+  },
+  {
+    "symbol": "KRG",
+    "date": "2012-09-30",
+    "stockPrice": 20.68,
+    "numberOfShares": 16195135,
+    "marketCapitalization": 334915391,
+    "minusCashAndCashEquivalents": 9933628,
+    "addTotalDebt": 680364034,
+    "enterpriseValue": 1005345797
+  },
+  {
+    "symbol": "KRG",
+    "date": "2012-06-30",
+    "stockPrice": 19.96,
+    "numberOfShares": 16003546,
+    "marketCapitalization": 319430778,
+    "minusCashAndCashEquivalents": 8296769,
+    "addTotalDebt": 652665427,
+    "enterpriseValue": 963799436
+  },
+  {
+    "symbol": "KRG",
+    "date": "2012-03-31",
+    "stockPrice": 21.08,
+    "numberOfShares": 15928473,
+    "marketCapitalization": 335772210,
+    "minusCashAndCashEquivalents": 15567494,
+    "addTotalDebt": 646405137,
+    "enterpriseValue": 966609853
+  },
+  {
+    "symbol": "KRG",
+    "date": "2011-12-31",
+    "stockPrice": 18.04,
+    "numberOfShares": 15926068,
+    "marketCapitalization": 287306266,
+    "minusCashAndCashEquivalents": 10042450,
+    "addTotalDebt": 689122933,
+    "enterpriseValue": 966386749
+  },
+  {
+    "symbol": "KRG",
+    "date": "2011-09-30",
+    "stockPrice": 14.64,
+    "numberOfShares": 15891991,
+    "marketCapitalization": 232658748,
+    "minusCashAndCashEquivalents": 23544499,
+    "addTotalDebt": 675762674,
+    "enterpriseValue": 884876923
+  },
+  {
+    "symbol": "KRG",
+    "date": "2011-06-30",
+    "stockPrice": 19.92,
+    "numberOfShares": 15891991,
+    "marketCapitalization": 316568460,
+    "minusCashAndCashEquivalents": 7592584,
+    "addTotalDebt": 654342842,
+    "enterpriseValue": 963318718
+  },
+  {
+    "symbol": "KRG",
+    "date": "2011-03-31",
+    "stockPrice": 21.24,
+    "numberOfShares": 15862012,
+    "marketCapitalization": 336909134,
+    "minusCashAndCashEquivalents": 18494355,
+    "addTotalDebt": 627300804,
+    "enterpriseValue": 945715583
+  },
+  {
+    "symbol": "KRG",
+    "date": "2010-12-31",
+    "stockPrice": 21.64,
+    "numberOfShares": 15835297,
+    "marketCapitalization": 342675827,
+    "minusCashAndCashEquivalents": 24188496,
+    "addTotalDebt": 610926613,
+    "enterpriseValue": 929413944
+  },
+  {
+    "symbol": "KRG",
+    "date": "2010-09-30",
+    "stockPrice": 17.76,
+    "numberOfShares": 15822045,
+    "marketCapitalization": 280999519,
+    "minusCashAndCashEquivalents": 12724095,
+    "addTotalDebt": 669003276,
+    "enterpriseValue": 937278700
+  },
+  {
+    "symbol": "KRG",
+    "date": "2010-06-30",
+    "stockPrice": 16.72,
+    "numberOfShares": 15802298,
+    "marketCapitalization": 264214422,
+    "minusCashAndCashEquivalents": 10380923,
+    "addTotalDebt": 662399569,
+    "enterpriseValue": 916233068
+  },
+  {
+    "symbol": "KRG",
+    "date": "2010-03-31",
+    "stockPrice": 18.92,
+    "numberOfShares": 15780374,
+    "marketCapitalization": 298564676,
+    "minusCashAndCashEquivalents": 14573549,
+    "addTotalDebt": 661750296,
+    "enterpriseValue": 945741423
+  },
+  {
+    "symbol": "KRG",
+    "date": "2009-12-31",
+    "stockPrice": 16.28,
+    "numberOfShares": 15779105,
+    "marketCapitalization": 256883829,
+    "minusCashAndCashEquivalents": 19958376,
+    "addTotalDebt": 658294513,
+    "enterpriseValue": 895219966
+  },
+  {
+    "symbol": "KRG",
+    "date": "2009-09-30",
+    "stockPrice": 16.68,
+    "numberOfShares": 15745111,
+    "marketCapitalization": 262628451,
+    "minusCashAndCashEquivalents": 32567300,
+    "addTotalDebt": 660172565,
+    "enterpriseValue": 890233716
+  },
+  {
+    "symbol": "KRG",
+    "date": "2009-06-30",
+    "stockPrice": 11.68,
+    "numberOfShares": 11997051,
+    "marketCapitalization": 140125555,
+    "minusCashAndCashEquivalents": 57262003,
+    "addTotalDebt": 669742156,
+    "enterpriseValue": 752605708
+  },
+  {
+    "symbol": "KRG",
+    "date": "2009-03-31",
+    "stockPrice": 9.8,
+    "numberOfShares": 8546076,
+    "marketCapitalization": 83751544,
+    "minusCashAndCashEquivalents": 9980536,
+    "addTotalDebt": 704676288,
+    "enterpriseValue": 778447296
+  },
+  {
+    "symbol": "KRG",
+    "date": "2008-12-31",
+    "stockPrice": 22.24,
+    "numberOfShares": 8486704,
+    "marketCapitalization": 188744296,
+    "minusCashAndCashEquivalents": 9917875,
+    "addTotalDebt": 677661466,
+    "enterpriseValue": 856487887
+  },
+  {
+    "symbol": "KRG",
+    "date": "2008-09-30",
+    "stockPrice": 44,
+    "numberOfShares": 7297356,
+    "marketCapitalization": 321083664,
+    "minusCashAndCashEquivalents": 11597842,
+    "addTotalDebt": 728823323,
+    "enterpriseValue": 1038309145
+  },
+  {
+    "symbol": "KRG",
+    "date": "2008-06-30",
+    "stockPrice": 50,
+    "numberOfShares": 7286840,
+    "marketCapitalization": 364342000,
+    "minusCashAndCashEquivalents": 12004345,
+    "addTotalDebt": 690560307,
+    "enterpriseValue": 1042897962
+  },
+  {
+    "symbol": "KRG",
+    "date": "2008-03-31",
+    "stockPrice": 56,
+    "numberOfShares": 7257238,
+    "marketCapitalization": 406405328,
+    "minusCashAndCashEquivalents": 19262193,
+    "addTotalDebt": 677290946,
+    "enterpriseValue": 1064434081
+  },
+  {
+    "symbol": "KRG",
+    "date": "2007-12-31",
+    "stockPrice": 61.08,
+    "numberOfShares": 7241315,
+    "marketCapitalization": 442299520,
+    "minusCashAndCashEquivalents": 19002268,
+    "addTotalDebt": 646833633,
+    "enterpriseValue": 1070130885
+  },
+  {
+    "symbol": "KRG",
+    "date": "2007-09-30",
+    "stockPrice": 77.16,
+    "numberOfShares": 7228784,
+    "marketCapitalization": 557772973,
+    "minusCashAndCashEquivalents": 12305177,
+    "addTotalDebt": 631286273,
+    "enterpriseValue": 1176754069
+  },
+  {
+    "symbol": "KRG",
+    "date": "2007-06-30",
+    "stockPrice": 76.08,
+    "numberOfShares": 7223230,
+    "marketCapitalization": 549543338,
+    "minusCashAndCashEquivalents": 14363844,
+    "addTotalDebt": 608156441,
+    "enterpriseValue": 1143335935
+  },
+  {
+    "symbol": "KRG",
+    "date": "2007-03-31",
+    "stockPrice": 79.8,
+    "numberOfShares": 7214791,
+    "marketCapitalization": 575740321,
+    "minusCashAndCashEquivalents": 15771140,
+    "addTotalDebt": 596643238,
+    "enterpriseValue": 1156612419
+  },
+  {
+    "symbol": "KRG",
+    "date": "2006-12-31",
+    "stockPrice": 74.48,
+    "numberOfShares": 7210829,
+    "marketCapitalization": 537062543,
+    "minusCashAndCashEquivalents": 23952594,
+    "addTotalDebt": 566975980,
+    "enterpriseValue": 1080085929
+  },
+  {
+    "symbol": "KRG",
+    "date": "2006-09-30",
+    "stockPrice": 68.16,
+    "numberOfShares": 7206174,
+    "marketCapitalization": 491172819,
+    "minusCashAndCashEquivalents": 21271444,
+    "addTotalDebt": 571029648,
+    "enterpriseValue": 1040931023
+  },
+  {
+    "symbol": "KRG",
+    "date": "2006-06-30",
+    "stockPrice": 62.36,
+    "numberOfShares": 7172670,
+    "marketCapitalization": 447287701,
+    "minusCashAndCashEquivalents": 10750083,
+    "addTotalDebt": 439156807,
+    "enterpriseValue": 875694425
+  },
+  {
+    "symbol": "KRG",
+    "date": "2006-03-31",
+    "stockPrice": 63.8,
+    "numberOfShares": 7142860,
+    "marketCapitalization": 455714468,
+    "minusCashAndCashEquivalents": 9560171,
+    "addTotalDebt": 390950748,
+    "enterpriseValue": 837105045
+  },
+  {
+    "symbol": "KRG",
+    "date": "2005-12-31",
+    "stockPrice": 61.88,
+    "numberOfShares": 7044861,
+    "marketCapitalization": 435935998,
+    "minusCashAndCashEquivalents": 15208835,
+    "addTotalDebt": 375245837,
+    "enterpriseValue": 795973000
+  },
+  {
+    "symbol": "KRG",
+    "date": "2005-09-30",
+    "stockPrice": 59.68,
+    "numberOfShares": 4787977,
+    "marketCapitalization": 285746467,
+    "minusCashAndCashEquivalents": 14130941,
+    "addTotalDebt": 434658748,
+    "enterpriseValue": 706274274
+  },
+  {
+    "symbol": "KRG",
+    "date": "2005-06-30",
+    "stockPrice": 60,
+    "numberOfShares": 4787066,
+    "marketCapitalization": 287223960,
+    "minusCashAndCashEquivalents": 11319570,
+    "addTotalDebt": 409713452,
+    "enterpriseValue": 685617842
+  },
+  {
+    "symbol": "KRG",
+    "date": "2005-03-31",
+    "stockPrice": 57.6,
+    "numberOfShares": 4787066,
+    "marketCapitalization": 275735001,
+    "minusCashAndCashEquivalents": 9077218,
+    "addTotalDebt": 341684813,
+    "enterpriseValue": 608342596
+  },
+  {
+    "symbol": "KRG",
+    "date": "2004-12-31",
+    "stockPrice": 61.12,
+    "numberOfShares": 4787066,
+    "marketCapitalization": 292585473,
+    "minusCashAndCashEquivalents": 10103176,
+    "addTotalDebt": 283479363,
+    "enterpriseValue": 565961660
+  },
+  {
+    "symbol": "KRG",
+    "date": "2004-09-30",
+    "stockPrice": 52.6,
+    "numberOfShares": 4287066,
+    "marketCapitalization": 225499671,
+    "minusCashAndCashEquivalents": 3170927,
+    "addTotalDebt": 214874498,
+    "enterpriseValue": 437203242
+  },
+  {
+    "symbol": "KRG",
+    "date": "2004-06-30",
+    "stockPrice": 52,
+    "numberOfShares": 4287066,
+    "marketCapitalization": 222927432,
+    "minusCashAndCashEquivalents": 3445828,
+    "addTotalDebt": 236579554,
+    "enterpriseValue": 456061158
+  },
+  {
+    "symbol": "KRG",
+    "date": "2004-03-31",
+    "stockPrice": 52,
+    "numberOfShares": 4787067,
+    "marketCapitalization": 248927484,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 216629000,
+    "enterpriseValue": 465556484
+  },
+  {
+    "symbol": "KRG",
+    "date": "2003-12-31",
+    "stockPrice": 52,
+    "numberOfShares": 4287066,
+    "marketCapitalization": 222927432,
+    "minusCashAndCashEquivalents": 2189478,
+    "addTotalDebt": 142967849,
+    "enterpriseValue": 363705803
+  },
+  {
+    "symbol": "KRG",
+    "date": "2003-09-30",
+    "stockPrice": 52,
+    "numberOfShares": 4287066,
+    "marketCapitalization": 222927432,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 222927432
+  },
+  {
+    "symbol": "KRG",
+    "date": "2003-06-30",
+    "stockPrice": 52,
+    "numberOfShares": 4287066,
+    "marketCapitalization": 222927432,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 222927432
+  }
+]

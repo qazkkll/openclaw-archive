@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "CPAY",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Corporate Payments": 1635100000,
+      "Lodging": 469500000,
+      "Payments": 2138700000
+    }
+  },
+  {
+    "symbol": "CPAY",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Corporate Payments": 1221900000,
+      "Lodging": 488600000,
+      "Payments": 2008800000
+    }
+  }
+]

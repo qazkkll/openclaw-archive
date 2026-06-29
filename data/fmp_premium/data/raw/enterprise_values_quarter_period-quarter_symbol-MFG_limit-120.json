@@ -1,0 +1,792 @@
+[
+  {
+    "symbol": "MFG",
+    "date": "2025-12-31",
+    "stockPrice": 1148.16,
+    "numberOfShares": 12402455000,
+    "marketCapitalization": 14239961060551,
+    "minusCashAndCashEquivalents": 61088086000000,
+    "addTotalDebt": 64417096000000,
+    "enterpriseValue": 17568971060551
+  },
+  {
+    "symbol": "MFG",
+    "date": "2025-09-30",
+    "stockPrice": 990.28,
+    "numberOfShares": 12447305000,
+    "marketCapitalization": 12326318440130,
+    "minusCashAndCashEquivalents": 67287879000000,
+    "addTotalDebt": 60790886000000,
+    "enterpriseValue": 5829325440130
+  },
+  {
+    "symbol": "MFG",
+    "date": "2025-06-30",
+    "stockPrice": 800.5,
+    "numberOfShares": 12574765000,
+    "marketCapitalization": 10066111957264,
+    "minusCashAndCashEquivalents": 64770799000000,
+    "addTotalDebt": 57455174000000,
+    "enterpriseValue": 2750486957264
+  },
+  {
+    "symbol": "MFG",
+    "date": "2025-03-31",
+    "stockPrice": 826.22,
+    "numberOfShares": 12574765000,
+    "marketCapitalization": 10389578924742,
+    "minusCashAndCashEquivalents": 72483086000000,
+    "addTotalDebt": 60887374000000,
+    "enterpriseValue": -1206133075258
+  },
+  {
+    "symbol": "MFG",
+    "date": "2024-12-31",
+    "stockPrice": 769.26,
+    "numberOfShares": 12672950000,
+    "marketCapitalization": 9748738769856,
+    "minusCashAndCashEquivalents": 64766427000000,
+    "addTotalDebt": 59263601000000,
+    "enterpriseValue": 4245912769856
+  },
+  {
+    "symbol": "MFG",
+    "date": "2024-09-30",
+    "stockPrice": 600.34,
+    "numberOfShares": 12672950000,
+    "marketCapitalization": 7608131269012,
+    "minusCashAndCashEquivalents": 71620559000000,
+    "addTotalDebt": 61353153000000,
+    "enterpriseValue": -2659274730988
+  },
+  {
+    "symbol": "MFG",
+    "date": "2024-06-30",
+    "stockPrice": 687.65,
+    "numberOfShares": 12672950000,
+    "marketCapitalization": 8714599816849,
+    "minusCashAndCashEquivalents": 72167129000000,
+    "addTotalDebt": 66474348000000,
+    "enterpriseValue": 3021818816849
+  },
+  {
+    "symbol": "MFG",
+    "date": "2024-03-31",
+    "stockPrice": 585.34,
+    "numberOfShares": 12676125000,
+    "marketCapitalization": 7419819176385,
+    "minusCashAndCashEquivalents": 72968900000000,
+    "addTotalDebt": 58945186000000,
+    "enterpriseValue": -6603894823615
+  },
+  {
+    "symbol": "MFG",
+    "date": "2023-12-31",
+    "stockPrice": 484.87,
+    "numberOfShares": 12678880000,
+    "marketCapitalization": 6147670418534,
+    "minusCashAndCashEquivalents": 66675039000000,
+    "addTotalDebt": 55806736000000,
+    "enterpriseValue": -4720632581466
+  },
+  {
+    "symbol": "MFG",
+    "date": "2023-09-30",
+    "stockPrice": 512.17,
+    "numberOfShares": 12678881970,
+    "marketCapitalization": 6493799526388,
+    "minusCashAndCashEquivalents": 61662312000000,
+    "addTotalDebt": 53648633000000,
+    "enterpriseValue": -1519879473612
+  },
+  {
+    "symbol": "MFG",
+    "date": "2023-06-30",
+    "stockPrice": 442.94,
+    "numberOfShares": 12671440000,
+    "marketCapitalization": 5612682565024,
+    "minusCashAndCashEquivalents": 61332175000000,
+    "addTotalDebt": 47887168000000,
+    "enterpriseValue": -7832324434976
+  },
+  {
+    "symbol": "MFG",
+    "date": "2023-03-31",
+    "stockPrice": 374.29,
+    "numberOfShares": 12671112940,
+    "marketCapitalization": 4742708368806,
+    "minusCashAndCashEquivalents": 67152100000000,
+    "addTotalDebt": 45336354000000,
+    "enterpriseValue": -17073037631194
+  },
+  {
+    "symbol": "MFG",
+    "date": "2022-12-31",
+    "stockPrice": 372.33,
+    "numberOfShares": 12671385695,
+    "marketCapitalization": 4717896994240,
+    "minusCashAndCashEquivalents": 56839849000000,
+    "addTotalDebt": 39769423000000,
+    "enterpriseValue": -12352529005760
+  },
+  {
+    "symbol": "MFG",
+    "date": "2022-09-30",
+    "stockPrice": 319.83,
+    "numberOfShares": 12671594655,
+    "marketCapitalization": 4052715315973,
+    "minusCashAndCashEquivalents": 54458168000000,
+    "addTotalDebt": 42030910000000,
+    "enterpriseValue": -8374542684027
+  },
+  {
+    "symbol": "MFG",
+    "date": "2022-06-30",
+    "stockPrice": 303.87,
+    "numberOfShares": 12671070000,
+    "marketCapitalization": 3850322561904,
+    "minusCashAndCashEquivalents": 53943945000000,
+    "addTotalDebt": 45528005000000,
+    "enterpriseValue": -4565617438096
+  },
+  {
+    "symbol": "MFG",
+    "date": "2022-03-31",
+    "stockPrice": 312.65,
+    "numberOfShares": 12672954350,
+    "marketCapitalization": 3962176492939,
+    "minusCashAndCashEquivalents": 51359301000000,
+    "addTotalDebt": 40964386000000,
+    "enterpriseValue": -6432738507061
+  },
+  {
+    "symbol": "MFG",
+    "date": "2021-12-31",
+    "stockPrice": 293.48,
+    "numberOfShares": 12673459290,
+    "marketCapitalization": 3719400495699,
+    "minusCashAndCashEquivalents": 45704859000000,
+    "addTotalDebt": 43960381000000,
+    "enterpriseValue": 1974922495699
+  },
+  {
+    "symbol": "MFG",
+    "date": "2021-09-30",
+    "stockPrice": 315.96,
+    "numberOfShares": 12673479475,
+    "marketCapitalization": 4004329810853,
+    "minusCashAndCashEquivalents": 47075429000000,
+    "addTotalDebt": 44231441000000,
+    "enterpriseValue": 1160341810853
+  },
+  {
+    "symbol": "MFG",
+    "date": "2021-06-30",
+    "stockPrice": 316.63,
+    "numberOfShares": 12676690000,
+    "marketCapitalization": 4013775352450,
+    "minusCashAndCashEquivalents": 42323448000000,
+    "addTotalDebt": 43584829000000,
+    "enterpriseValue": 5275156352450
+  },
+  {
+    "symbol": "MFG",
+    "date": "2021-03-31",
+    "stockPrice": 322.06,
+    "numberOfShares": 12676690000,
+    "marketCapitalization": 4082671768164,
+    "minusCashAndCashEquivalents": 47981981000000,
+    "addTotalDebt": 40309725000000,
+    "enterpriseValue": -3589584231836
+  },
+  {
+    "symbol": "MFG",
+    "date": "2020-12-31",
+    "stockPrice": 263.29,
+    "numberOfShares": 12676690000,
+    "marketCapitalization": 3337678669494,
+    "minusCashAndCashEquivalents": 42999682000000,
+    "addTotalDebt": 39648807000000,
+    "enterpriseValue": -13196330506
+  },
+  {
+    "symbol": "MFG",
+    "date": "2020-09-30",
+    "stockPrice": 268.8,
+    "numberOfShares": 12670722840,
+    "marketCapitalization": 3405930212168,
+    "minusCashAndCashEquivalents": 42498278000000,
+    "addTotalDebt": 39997799000000,
+    "enterpriseValue": 905451212168
+  },
+  {
+    "symbol": "MFG",
+    "date": "2020-06-30",
+    "stockPrice": 266.56,
+    "numberOfShares": 12680415000,
+    "marketCapitalization": 3380153176021,
+    "minusCashAndCashEquivalents": 39575631000000,
+    "addTotalDebt": 37489733000000,
+    "enterpriseValue": 1294255176021
+  },
+  {
+    "symbol": "MFG",
+    "date": "2020-03-31",
+    "stockPrice": 248.31,
+    "numberOfShares": 12680045000,
+    "marketCapitalization": 3148596429201,
+    "minusCashAndCashEquivalents": 41069745000000,
+    "addTotalDebt": 35208002000000,
+    "enterpriseValue": -2713146570799
+  },
+  {
+    "symbol": "MFG",
+    "date": "2019-12-31",
+    "stockPrice": 335.65,
+    "numberOfShares": 12680417500,
+    "marketCapitalization": 4256119619416,
+    "minusCashAndCashEquivalents": 42291711000000,
+    "addTotalDebt": 31800607000000,
+    "enterpriseValue": -6234984380584
+  },
+  {
+    "symbol": "MFG",
+    "date": "2019-09-30",
+    "stockPrice": 331.81,
+    "numberOfShares": 12679295000,
+    "marketCapitalization": 4207061085051,
+    "minusCashAndCashEquivalents": 43444902000000,
+    "addTotalDebt": 31684261000000,
+    "enterpriseValue": -7553579914949
+  },
+  {
+    "symbol": "MFG",
+    "date": "2019-06-30",
+    "stockPrice": 311.22,
+    "numberOfShares": 12680255000,
+    "marketCapitalization": 3946384465814,
+    "minusCashAndCashEquivalents": 40632524000000,
+    "addTotalDebt": 31306556000000,
+    "enterpriseValue": -5379583534186
+  },
+  {
+    "symbol": "MFG",
+    "date": "2019-03-31",
+    "stockPrice": 348.5,
+    "numberOfShares": 12676746500,
+    "marketCapitalization": 4417891664769,
+    "minusCashAndCashEquivalents": 45108602000000,
+    "addTotalDebt": 30217379000000,
+    "enterpriseValue": -10473331335231
+  },
+  {
+    "symbol": "MFG",
+    "date": "2018-12-31",
+    "stockPrice": 329.05,
+    "numberOfShares": 12680086000,
+    "marketCapitalization": 4172407658472,
+    "minusCashAndCashEquivalents": 43823523000000,
+    "addTotalDebt": 34790581000000,
+    "enterpriseValue": -4860534341528
+  },
+  {
+    "symbol": "MFG",
+    "date": "2018-09-30",
+    "stockPrice": 398.64,
+    "numberOfShares": 12680764000,
+    "marketCapitalization": 5055097803252,
+    "minusCashAndCashEquivalents": 46579445000000,
+    "addTotalDebt": 37725315000000,
+    "enterpriseValue": -3799032196748
+  },
+  {
+    "symbol": "MFG",
+    "date": "2018-06-30",
+    "stockPrice": 375.16,
+    "numberOfShares": 12682402000,
+    "marketCapitalization": 4757901272091,
+    "minusCashAndCashEquivalents": 46205276000000,
+    "addTotalDebt": 32851939000000,
+    "enterpriseValue": -8595435727909
+  },
+  {
+    "symbol": "MFG",
+    "date": "2018-03-31",
+    "stockPrice": 382.54,
+    "numberOfShares": 12682402000,
+    "marketCapitalization": 4851475331472,
+    "minusCashAndCashEquivalents": 47725360000000,
+    "addTotalDebt": 32322770000000,
+    "enterpriseValue": -10551114668528
+  },
+  {
+    "symbol": "MFG",
+    "date": "2017-12-31",
+    "stockPrice": 412.09,
+    "numberOfShares": 12683548785,
+    "marketCapitalization": 5226814860347,
+    "minusCashAndCashEquivalents": 47913637000000,
+    "addTotalDebt": 34676240000000,
+    "enterpriseValue": -8010582139653
+  },
+  {
+    "symbol": "MFG",
+    "date": "2017-09-30",
+    "stockPrice": 399.25,
+    "numberOfShares": 12682797500,
+    "marketCapitalization": 5063571390042,
+    "minusCashAndCashEquivalents": 51524842000000,
+    "addTotalDebt": 36188927000000,
+    "enterpriseValue": -10272343609958
+  },
+  {
+    "symbol": "MFG",
+    "date": "2017-06-30",
+    "stockPrice": 412.42,
+    "numberOfShares": 12683548500,
+    "marketCapitalization": 5230948057686,
+    "minusCashAndCashEquivalents": 41811173000000,
+    "addTotalDebt": 33429451000000,
+    "enterpriseValue": -3150773942314
+  },
+  {
+    "symbol": "MFG",
+    "date": "2017-03-31",
+    "stockPrice": 410.93,
+    "numberOfShares": 12682567000,
+    "marketCapitalization": 5211640535549,
+    "minusCashAndCashEquivalents": 47129583000000,
+    "addTotalDebt": 34303554000000,
+    "enterpriseValue": -7614388464451
+  },
+  {
+    "symbol": "MFG",
+    "date": "2016-12-31",
+    "stockPrice": 419.95,
+    "numberOfShares": 12519628265,
+    "marketCapitalization": 5257630659907,
+    "minusCashAndCashEquivalents": 42239153000000,
+    "addTotalDebt": 36733442000000,
+    "enterpriseValue": -248080340093
+  },
+  {
+    "symbol": "MFG",
+    "date": "2016-09-30",
+    "stockPrice": 340.3,
+    "numberOfShares": 12519628265,
+    "marketCapitalization": 4260397448331,
+    "minusCashAndCashEquivalents": 42715384000000,
+    "addTotalDebt": 35141009000000,
+    "enterpriseValue": -3313977551669
+  },
+  {
+    "symbol": "MFG",
+    "date": "2016-06-30",
+    "stockPrice": 294.06,
+    "numberOfShares": 12519628265,
+    "marketCapitalization": 3681488084609,
+    "minusCashAndCashEquivalents": 44078085000000,
+    "addTotalDebt": 35840085000000,
+    "enterpriseValue": -4556511915391
+  },
+  {
+    "symbol": "MFG",
+    "date": "2016-03-31",
+    "stockPrice": 330.91,
+    "numberOfShares": 12461236455,
+    "marketCapitalization": 4123532303390,
+    "minusCashAndCashEquivalents": 36315471000000,
+    "addTotalDebt": 34822021000000,
+    "enterpriseValue": 2630082303390
+  },
+  {
+    "symbol": "MFG",
+    "date": "2015-12-31",
+    "stockPrice": 485.57,
+    "numberOfShares": 12317007465,
+    "marketCapitalization": 5980789514672,
+    "minusCashAndCashEquivalents": 37393820000000,
+    "addTotalDebt": 41004452000000,
+    "enterpriseValue": 9591421514672
+  },
+  {
+    "symbol": "MFG",
+    "date": "2015-09-30",
+    "stockPrice": 444.73,
+    "numberOfShares": 12317007465,
+    "marketCapitalization": 5477774015108,
+    "minusCashAndCashEquivalents": 35598777000000,
+    "addTotalDebt": 41907983000000,
+    "enterpriseValue": 11786980015108
+  },
+  {
+    "symbol": "MFG",
+    "date": "2015-06-30",
+    "stockPrice": 531.6,
+    "numberOfShares": 12317007465,
+    "marketCapitalization": 6547695549018,
+    "minusCashAndCashEquivalents": 32210436000000,
+    "addTotalDebt": 39193480000000,
+    "enterpriseValue": 13530739549018
+  },
+  {
+    "symbol": "MFG",
+    "date": "2015-03-31",
+    "stockPrice": 426.43,
+    "numberOfShares": 12249702910,
+    "marketCapitalization": 5223591813099,
+    "minusCashAndCashEquivalents": 29096166000000,
+    "addTotalDebt": 39467629000000,
+    "enterpriseValue": 15595054813099
+  },
+  {
+    "symbol": "MFG",
+    "date": "2014-12-31",
+    "stockPrice": 407.63,
+    "numberOfShares": 12081858100,
+    "marketCapitalization": 4924961646505,
+    "minusCashAndCashEquivalents": 28135412000000,
+    "addTotalDebt": 41688190000000,
+    "enterpriseValue": 18477739646505
+  },
+  {
+    "symbol": "MFG",
+    "date": "2014-09-30",
+    "stockPrice": 391.27,
+    "numberOfShares": 12081858100,
+    "marketCapitalization": 4727292782503,
+    "minusCashAndCashEquivalents": 20856081000000,
+    "addTotalDebt": 39870155000000,
+    "enterpriseValue": 23741366782503
+  },
+  {
+    "symbol": "MFG",
+    "date": "2014-06-30",
+    "stockPrice": 416.45,
+    "numberOfShares": 12130311355,
+    "marketCapitalization": 5051666465546,
+    "minusCashAndCashEquivalents": 22140701000000,
+    "addTotalDebt": 38915929000000,
+    "enterpriseValue": 21826894465546
+  },
+  {
+    "symbol": "MFG",
+    "date": "2014-03-31",
+    "stockPrice": 410.83,
+    "numberOfShares": 12081858100,
+    "marketCapitalization": 4963608127647,
+    "minusCashAndCashEquivalents": 20610276000000,
+    "addTotalDebt": 38491593000000,
+    "enterpriseValue": 22844925127647
+  },
+  {
+    "symbol": "MFG",
+    "date": "2013-12-31",
+    "stockPrice": 458.86,
+    "numberOfShares": 12081858100,
+    "marketCapitalization": 5543875125199,
+    "minusCashAndCashEquivalents": 21738738000000,
+    "addTotalDebt": 44265723000000,
+    "enterpriseValue": 28070860125199
+  },
+  {
+    "symbol": "MFG",
+    "date": "2013-09-30",
+    "stockPrice": 424.29,
+    "numberOfShares": 12042460645,
+    "marketCapitalization": 5109481176114,
+    "minusCashAndCashEquivalents": 18333306000000,
+    "addTotalDebt": 43349854000000,
+    "enterpriseValue": 30126029176114
+  },
+  {
+    "symbol": "MFG",
+    "date": "2013-06-30",
+    "stockPrice": 414.59,
+    "numberOfShares": 12130311355,
+    "marketCapitalization": 5029052411299,
+    "minusCashAndCashEquivalents": 17102817000000,
+    "addTotalDebt": 38394407000000,
+    "enterpriseValue": 26320642411299
+  },
+  {
+    "symbol": "MFG",
+    "date": "2013-03-31",
+    "stockPrice": 377.59,
+    "numberOfShares": 12053256520,
+    "marketCapitalization": 4551135492395,
+    "minusCashAndCashEquivalents": 12586070000000,
+    "addTotalDebt": 39103828000000,
+    "enterpriseValue": 31068893492395
+  },
+  {
+    "symbol": "MFG",
+    "date": "2012-12-31",
+    "stockPrice": 317.1,
+    "numberOfShares": 12013741070,
+    "marketCapitalization": 3809498185690,
+    "minusCashAndCashEquivalents": 10303800000000,
+    "addTotalDebt": 23715733000000,
+    "enterpriseValue": 17221431185690
+  },
+  {
+    "symbol": "MFG",
+    "date": "2012-09-30",
+    "stockPrice": 248.83,
+    "numberOfShares": 12013741070,
+    "marketCapitalization": 2989412348373,
+    "minusCashAndCashEquivalents": 8275399000000,
+    "addTotalDebt": 24957944000000,
+    "enterpriseValue": 19671957348373
+  },
+  {
+    "symbol": "MFG",
+    "date": "2012-06-30",
+    "stockPrice": 265.67,
+    "numberOfShares": 12009841060,
+    "marketCapitalization": 3190703234364,
+    "minusCashAndCashEquivalents": 7555206000000,
+    "addTotalDebt": 34140988000000,
+    "enterpriseValue": 29776485234364
+  },
+  {
+    "symbol": "MFG",
+    "date": "2012-03-31",
+    "stockPrice": 267.56,
+    "numberOfShares": 11993350940,
+    "marketCapitalization": 3208983074168,
+    "minusCashAndCashEquivalents": 7470159000000,
+    "addTotalDebt": 40254115000000,
+    "enterpriseValue": 35992939074168
+  },
+  {
+    "symbol": "MFG",
+    "date": "2011-12-31",
+    "stockPrice": 206,
+    "numberOfShares": 10893244940,
+    "marketCapitalization": 2243988849799,
+    "minusCashAndCashEquivalents": 7315542000000,
+    "addTotalDebt": 38239261000000,
+    "enterpriseValue": 33167707849799
+  },
+  {
+    "symbol": "MFG",
+    "date": "2011-09-30",
+    "stockPrice": 219.6,
+    "numberOfShares": 10893244940,
+    "marketCapitalization": 2392199072479,
+    "minusCashAndCashEquivalents": 6284902000000,
+    "addTotalDebt": 20134148000000,
+    "enterpriseValue": 16241445072479
+  },
+  {
+    "symbol": "MFG",
+    "date": "2011-06-30",
+    "stockPrice": 264.21,
+    "numberOfShares": 10893244940,
+    "marketCapitalization": 2878146075657,
+    "minusCashAndCashEquivalents": 5146815000000,
+    "addTotalDebt": 28745961000000,
+    "enterpriseValue": 26477292075657
+  },
+  {
+    "symbol": "MFG",
+    "date": "2011-03-31",
+    "stockPrice": 275.96,
+    "numberOfShares": 10888264335,
+    "marketCapitalization": 3004708004663,
+    "minusCashAndCashEquivalents": 10231073000000,
+    "addTotalDebt": 41438916000000,
+    "enterpriseValue": 34212551004663
+  },
+  {
+    "symbol": "MFG",
+    "date": "2010-12-31",
+    "stockPrice": 304.2,
+    "numberOfShares": 7754451000,
+    "marketCapitalization": 2358933073391,
+    "minusCashAndCashEquivalents": 4649090000000,
+    "addTotalDebt": 15965403000000,
+    "enterpriseValue": 13675246073391
+  },
+  {
+    "symbol": "MFG",
+    "date": "2010-09-30",
+    "stockPrice": 239.69,
+    "numberOfShares": 7754451000,
+    "marketCapitalization": 1858693749559,
+    "minusCashAndCashEquivalents": 3804487000000,
+    "addTotalDebt": 19041062000000,
+    "enterpriseValue": 17095268749559
+  },
+  {
+    "symbol": "MFG",
+    "date": "2010-06-30",
+    "stockPrice": 287.41,
+    "numberOfShares": 7754451000,
+    "marketCapitalization": 2228735841101,
+    "minusCashAndCashEquivalents": 4314710000000,
+    "addTotalDebt": 12882853000000,
+    "enterpriseValue": 10796878841101
+  },
+  {
+    "symbol": "MFG",
+    "date": "2010-03-31",
+    "stockPrice": 368.18,
+    "numberOfShares": 7754451000,
+    "marketCapitalization": 2855042919432,
+    "minusCashAndCashEquivalents": 5538341000000,
+    "addTotalDebt": 36908196000000,
+    "enterpriseValue": 34224897919432
+  },
+  {
+    "symbol": "MFG",
+    "date": "2009-12-31",
+    "stockPrice": 331.37,
+    "numberOfShares": 5584768000,
+    "marketCapitalization": 1850615413140,
+    "minusCashAndCashEquivalents": 4180540000000,
+    "addTotalDebt": 17483687000000,
+    "enterpriseValue": 15153762413140
+  },
+  {
+    "symbol": "MFG",
+    "date": "2009-09-30",
+    "stockPrice": 353.3,
+    "numberOfShares": 5584768000,
+    "marketCapitalization": 1973097417446,
+    "minusCashAndCashEquivalents": 5132240000000,
+    "addTotalDebt": 18951864000000,
+    "enterpriseValue": 15792721417446
+  },
+  {
+    "symbol": "MFG",
+    "date": "2009-06-30",
+    "stockPrice": 444.1,
+    "numberOfShares": 5584768000,
+    "marketCapitalization": 2480168270979,
+    "minusCashAndCashEquivalents": 4169533000000,
+    "addTotalDebt": 14945335000000,
+    "enterpriseValue": 13255970270979
+  },
+  {
+    "symbol": "MFG",
+    "date": "2009-03-31",
+    "stockPrice": 388.88,
+    "numberOfShares": 5922077920,
+    "marketCapitalization": 2302985715555,
+    "minusCashAndCashEquivalents": 5971951000000,
+    "addTotalDebt": 34666881000000,
+    "enterpriseValue": 30997915715555
+  },
+  {
+    "symbol": "MFG",
+    "date": "2008-12-31",
+    "stockPrice": 524.33,
+    "numberOfShares": 5922077920,
+    "marketCapitalization": 3105097473196,
+    "minusCashAndCashEquivalents": 11816291913630,
+    "addTotalDebt": 28990920457440,
+    "enterpriseValue": 20279726017006
+  },
+  {
+    "symbol": "MFG",
+    "date": "2008-09-30",
+    "stockPrice": 925.15,
+    "numberOfShares": 5600483275,
+    "marketCapitalization": 5181278141093,
+    "minusCashAndCashEquivalents": 4300027000000,
+    "addTotalDebt": 15555276000000,
+    "enterpriseValue": 16436527141093
+  },
+  {
+    "symbol": "MFG",
+    "date": "2008-06-30",
+    "stockPrice": 984.52,
+    "numberOfShares": 5695819500,
+    "marketCapitalization": 5607650207676,
+    "minusCashAndCashEquivalents": 4388381000000,
+    "addTotalDebt": 20204432000000,
+    "enterpriseValue": 21423701207676
+  },
+  {
+    "symbol": "MFG",
+    "date": "2008-03-31",
+    "stockPrice": 732.72,
+    "numberOfShares": 5696794780,
+    "marketCapitalization": 4174164016393,
+    "minusCashAndCashEquivalents": 3760740000000,
+    "addTotalDebt": 34356814000000,
+    "enterpriseValue": 34770238016393
+  },
+  {
+    "symbol": "MFG",
+    "date": "2007-12-31",
+    "stockPrice": 1067.08,
+    "numberOfShares": 5611374410,
+    "marketCapitalization": 5987778671773,
+    "minusCashAndCashEquivalents": 4349949775890,
+    "addTotalDebt": 14405834596590,
+    "enterpriseValue": 16043663492473
+  },
+  {
+    "symbol": "MFG",
+    "date": "2007-09-30",
+    "stockPrice": 1304.28,
+    "numberOfShares": 5784083000,
+    "marketCapitalization": 7544047001399,
+    "minusCashAndCashEquivalents": 3236999519680,
+    "addTotalDebt": 20308061437510,
+    "enterpriseValue": 24615108919229
+  },
+  {
+    "symbol": "MFG",
+    "date": "2007-06-30",
+    "stockPrice": 1710,
+    "numberOfShares": 5803550000,
+    "marketCapitalization": 9924058312545,
+    "minusCashAndCashEquivalents": 3758728890510,
+    "addTotalDebt": 19585072476090,
+    "enterpriseValue": 25750401898125
+  },
+  {
+    "symbol": "MFG",
+    "date": "2007-03-31",
+    "stockPrice": 1526.95,
+    "numberOfShares": 5803825000,
+    "marketCapitalization": 8862134333040,
+    "minusCashAndCashEquivalents": 3993362000000,
+    "addTotalDebt": 33150527000000,
+    "enterpriseValue": 38019299333040
+  },
+  {
+    "symbol": "MFG",
+    "date": "2006-12-31",
+    "stockPrice": 1714.25,
+    "numberOfShares": 5837037035,
+    "marketCapitalization": 10006138402433,
+    "minusCashAndCashEquivalents": 3546336429230,
+    "addTotalDebt": 13460626970280,
+    "enterpriseValue": 19920428943483
+  },
+  {
+    "symbol": "MFG",
+    "date": "2006-09-30",
+    "stockPrice": 1756.3,
+    "numberOfShares": 5930585685,
+    "marketCapitalization": 10415862137047,
+    "minusCashAndCashEquivalents": 3488739902980,
+    "addTotalDebt": 21298097318260,
+    "enterpriseValue": 28225219552327
+  },
+  {
+    "symbol": "MFG",
+    "date": "2006-06-30",
+    "stockPrice": 1701.72,
+    "numberOfShares": 5803941500,
+    "marketCapitalization": 9876699580416,
+    "minusCashAndCashEquivalents": 3743930339600,
+    "addTotalDebt": 20372079535700,
+    "enterpriseValue": 26504848776516
+  }
+]

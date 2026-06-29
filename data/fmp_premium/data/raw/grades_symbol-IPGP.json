@@ -1,0 +1,914 @@
+[
+  {
+    "symbol": "IPGP",
+    "date": "2026-05-06",
+    "gradingCompany": "Needham",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2026-05-06",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2026-05-06",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2026-02-13",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2026-02-13",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Strong Buy",
+    "newGrade": "Outperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2026-02-03",
+    "gradingCompany": "Roth Capital",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2025-11-05",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Sell",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2025-08-07",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2025-05-07",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Strong Buy",
+    "newGrade": "Strong Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2025-03-18",
+    "gradingCompany": "CL King",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2025-02-18",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Sell",
+    "newGrade": "Sell",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2025-02-12",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2025-02-12",
+    "gradingCompany": "Needham",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2024-08-01",
+    "gradingCompany": "Seaport Global",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2024-07-31",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2024-07-31",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Strong Buy",
+    "newGrade": "Strong Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2024-07-31",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2024-05-02",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Sell",
+    "newGrade": "Sell",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2024-05-01",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2024-02-16",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2024-02-15",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Neutral",
+    "newGrade": "Sell",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2024-02-14",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2024-01-02",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-12-04",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-10-30",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-08-18",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-08-15",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-08-14",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-08-02",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-08-02",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Outperform",
+    "newGrade": "Strong Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-06-14",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Outperform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-05-09",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-02-16",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Market Perform",
+    "newGrade": "Market Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-02-16",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2023-02-15",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2022-11-02",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Underperform",
+    "newGrade": "Market Perform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2022-11-01",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Underperform",
+    "newGrade": "Market Perform",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2022-08-03",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2022-05-04",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2022-03-14",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2022-03-03",
+    "gradingCompany": "Needham",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2022-02-16",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2022-02-16",
+    "gradingCompany": "Needham",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2021-11-11",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2021-11-04",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Underperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2021-10-11",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2021-08-06",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2021-06-30",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2021-05-05",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2021-05-05",
+    "gradingCompany": "Needham",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2021-02-22",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2021-02-17",
+    "gradingCompany": "DA Davidson",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2021-01-19",
+    "gradingCompany": "Needham",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-11-03",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-11-03",
+    "gradingCompany": "Northcoast Research",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-11-02",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-11-02",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-08-05",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-08-05",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-06-10",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-05-26",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Strong Buy",
+    "newGrade": "Outperform",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-02-14",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-01-29",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2020-01-29",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2019-12-20",
+    "gradingCompany": "PiperJaffray",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2019-10-30",
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2019-10-14",
+    "gradingCompany": "Needham",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2019-07-31",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Strong Buy",
+    "newGrade": "Strong Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2019-05-01",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2019-05-01",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2019-04-22",
+    "gradingCompany": "Bank of America",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2019-04-22",
+    "gradingCompany": "B of A Securities",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2019-02-13",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2018-11-30",
+    "gradingCompany": "Susquehanna",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2018-10-08",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2018-10-08",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2018-09-28",
+    "gradingCompany": "Longbow Research",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2018-09-21",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Strong Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2018-08-01",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2018-08-01",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2018-04-18",
+    "gradingCompany": "Bernstein",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2018-02-20",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2017-08-02",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2017-07-18",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2017-06-06",
+    "gradingCompany": "Longbow Research",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2017-02-15",
+    "gradingCompany": "Dougherty",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2017-02-15",
+    "gradingCompany": "Dougherty & Co.",
+    "previousGrade": "Neutral",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2016-06-29",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2016-05-11",
+    "gradingCompany": "FBR Capital",
+    "previousGrade": "Market Perform",
+    "newGrade": "Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2016-04-29",
+    "gradingCompany": "CLSA",
+    "previousGrade": "Buy",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2016-04-28",
+    "gradingCompany": "Dougherty & Co.",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2016-04-28",
+    "gradingCompany": "Dougherty",
+    "previousGrade": "Buy",
+    "newGrade": "Neutral",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2016-04-15",
+    "gradingCompany": "Raymond James",
+    "previousGrade": "Market Perform",
+    "newGrade": "Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2015-12-10",
+    "gradingCompany": "Oppenheimer",
+    "previousGrade": "Perform",
+    "newGrade": "Perform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2015-11-11",
+    "gradingCompany": "FBR Capital",
+    "previousGrade": "Outperform",
+    "newGrade": "Outperform",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2015-09-21",
+    "gradingCompany": "DA Davidson",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2015-09-15",
+    "gradingCompany": "Canaccord Genuity",
+    "previousGrade": "Hold",
+    "newGrade": "Hold",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2015-06-02",
+    "gradingCompany": "Benchmark",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2015-04-29",
+    "gradingCompany": "Needham",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2015-03-23",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2015-03-23",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2015-01-05",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2015-01-05",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2014-10-29",
+    "gradingCompany": "DA Davidson",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2013-12-13",
+    "gradingCompany": "DA Davidson",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2013-09-05",
+    "gradingCompany": "Noble Capital Markets",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2013-09-05",
+    "gradingCompany": "Noble Financial",
+    "previousGrade": "Hold",
+    "newGrade": "Buy",
+    "action": "upgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2013-01-07",
+    "gradingCompany": "Barclays",
+    "previousGrade": "Equal Weight",
+    "newGrade": "Equal Weight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2013-01-04",
+    "gradingCompany": "Stifel",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2013-01-04",
+    "gradingCompany": "Stifel Nicolaus",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2012-09-04",
+    "gradingCompany": "Piper Sandler",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2012-09-04",
+    "gradingCompany": "PiperJaffray",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2012-02-10",
+    "gradingCompany": "Dougherty & Co.",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  },
+  {
+    "symbol": "IPGP",
+    "date": "2012-02-10",
+    "gradingCompany": "Dougherty",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
+  }
+]

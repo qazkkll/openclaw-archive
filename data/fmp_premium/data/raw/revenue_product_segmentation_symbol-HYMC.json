@@ -1,0 +1,35 @@
+[
+  {
+    "symbol": "HYMC",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-12-31",
+    "data": {
+      "Gold": 32249000,
+      "Silver": 980000
+    }
+  },
+  {
+    "symbol": "HYMC",
+    "fiscalYear": 2021,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2021-12-31",
+    "data": {
+      "Gold": 100532000,
+      "Silver": 10202000
+    }
+  },
+  {
+    "symbol": "HYMC",
+    "fiscalYear": 2020,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2020-12-31",
+    "data": {
+      "Gold": 44279000,
+      "Silver": 2765000
+    }
+  }
+]

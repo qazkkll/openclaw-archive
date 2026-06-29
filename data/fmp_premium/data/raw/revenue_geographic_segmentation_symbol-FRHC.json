@@ -1,0 +1,40 @@
+[
+  {
+    "symbol": "FRHC",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-03-31",
+    "data": {
+      "ARMENIA": 181698000,
+      "CYPRUS": 69490000,
+      "KAZAKHSTAN": 1750091000,
+      "Other Countries": 5297000,
+      "UNITED STATES": 43951000
+    }
+  },
+  {
+    "symbol": "FRHC",
+    "fiscalYear": 2023,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2023-03-31",
+    "data": {
+      "Central Asia and Eastern Europe": 566050000,
+      "Europe, excluding Eastern Europe": 216518000,
+      "UNITED STATES": 13082000
+    }
+  },
+  {
+    "symbol": "FRHC",
+    "fiscalYear": 2022,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2022-03-31",
+    "data": {
+      "Asia": 118067000,
+      "Europe": 437706000,
+      "UNITED STATES": 9139000
+    }
+  }
+]

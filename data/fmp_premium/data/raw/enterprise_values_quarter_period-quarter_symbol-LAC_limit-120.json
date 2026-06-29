@@ -1,0 +1,732 @@
+[
+  {
+    "symbol": "LAC",
+    "date": "2026-03-31",
+    "stockPrice": 3.95,
+    "numberOfShares": 353176000,
+    "marketCapitalization": 1395045200,
+    "minusCashAndCashEquivalents": 1211596644,
+    "addTotalDebt": 877774366,
+    "enterpriseValue": 1061222922
+  },
+  {
+    "symbol": "LAC",
+    "date": "2025-12-31",
+    "stockPrice": 4.36,
+    "numberOfShares": 243658000,
+    "marketCapitalization": 1062348880,
+    "minusCashAndCashEquivalents": 568226000,
+    "addTotalDebt": 531233471,
+    "enterpriseValue": 1025356351
+  },
+  {
+    "symbol": "LAC",
+    "date": "2025-09-30",
+    "stockPrice": 5.71,
+    "numberOfShares": 238701000,
+    "marketCapitalization": 1362982710,
+    "minusCashAndCashEquivalents": 385307000,
+    "addTotalDebt": 405320000,
+    "enterpriseValue": 1382995710
+  },
+  {
+    "symbol": "LAC",
+    "date": "2025-06-30",
+    "stockPrice": 2.68,
+    "numberOfShares": 219581000,
+    "marketCapitalization": 588477080,
+    "minusCashAndCashEquivalents": 508852000,
+    "addTotalDebt": 206683000,
+    "enterpriseValue": 286308080
+  },
+  {
+    "symbol": "LAC",
+    "date": "2025-03-31",
+    "stockPrice": 2.71,
+    "numberOfShares": 214040000,
+    "marketCapitalization": 580048400,
+    "minusCashAndCashEquivalents": 446620000,
+    "addTotalDebt": 21194000,
+    "enterpriseValue": 154622400
+  },
+  {
+    "symbol": "LAC",
+    "date": "2024-12-31",
+    "stockPrice": 2.97,
+    "numberOfShares": 200817000,
+    "marketCapitalization": 596426490,
+    "minusCashAndCashEquivalents": 593885000,
+    "addTotalDebt": 22637000,
+    "enterpriseValue": 25178490
+  },
+  {
+    "symbol": "LAC",
+    "date": "2024-09-30",
+    "stockPrice": 2.7,
+    "numberOfShares": 218039000,
+    "marketCapitalization": 588705300,
+    "minusCashAndCashEquivalents": 341163000,
+    "addTotalDebt": 3942000,
+    "enterpriseValue": 251484300
+  },
+  {
+    "symbol": "LAC",
+    "date": "2024-06-30",
+    "stockPrice": 2.65,
+    "numberOfShares": 204465000,
+    "marketCapitalization": 541832250,
+    "minusCashAndCashEquivalents": 375830000,
+    "addTotalDebt": 4179000,
+    "enterpriseValue": 170181250
+  },
+  {
+    "symbol": "LAC",
+    "date": "2024-03-31",
+    "stockPrice": 7.02,
+    "numberOfShares": 162042000,
+    "marketCapitalization": 1137534840,
+    "minusCashAndCashEquivalents": 147242000,
+    "addTotalDebt": 3742000,
+    "enterpriseValue": 994034840
+  },
+  {
+    "symbol": "LAC",
+    "date": "2023-12-31",
+    "stockPrice": 6.33,
+    "numberOfShares": 161778000,
+    "marketCapitalization": 1024054740,
+    "minusCashAndCashEquivalents": 195516000,
+    "addTotalDebt": 3894000,
+    "enterpriseValue": 832432740
+  },
+  {
+    "symbol": "LAC",
+    "date": "2023-09-30",
+    "stockPrice": 10.52,
+    "numberOfShares": 160048000,
+    "marketCapitalization": 1683704960,
+    "minusCashAndCashEquivalents": 200499000,
+    "addTotalDebt": 47376000,
+    "enterpriseValue": 1530581960
+  },
+  {
+    "symbol": "LAC",
+    "date": "2023-06-30",
+    "stockPrice": 12.5,
+    "numberOfShares": 160048000,
+    "marketCapitalization": 2000600000,
+    "minusCashAndCashEquivalents": 261820000,
+    "addTotalDebt": 47337000,
+    "enterpriseValue": 1786117000
+  },
+  {
+    "symbol": "LAC",
+    "date": "2023-03-31",
+    "stockPrice": 13.46,
+    "numberOfShares": 142851000,
+    "marketCapitalization": 1922774460,
+    "minusCashAndCashEquivalents": 308537000,
+    "addTotalDebt": 46621000,
+    "enterpriseValue": 1660858460
+  },
+  {
+    "symbol": "LAC",
+    "date": "2022-12-31",
+    "stockPrice": 11.72,
+    "numberOfShares": 160048000,
+    "marketCapitalization": 1875762560,
+    "minusCashAndCashEquivalents": 636000,
+    "addTotalDebt": 45190000,
+    "enterpriseValue": 1920316560
+  },
+  {
+    "symbol": "LAC",
+    "date": "2022-09-30",
+    "stockPrice": 16.22,
+    "numberOfShares": 142851000,
+    "marketCapitalization": 2317043220,
+    "minusCashAndCashEquivalents": 185558000,
+    "addTotalDebt": 239303000,
+    "enterpriseValue": 2370788220
+  },
+  {
+    "symbol": "LAC",
+    "date": "2022-06-30",
+    "stockPrice": 12.45,
+    "numberOfShares": 160048000,
+    "marketCapitalization": 1992597600,
+    "minusCashAndCashEquivalents": 440821000,
+    "addTotalDebt": 218577000,
+    "enterpriseValue": 1770353600
+  },
+  {
+    "symbol": "LAC",
+    "date": "2022-03-31",
+    "stockPrice": 23.81,
+    "numberOfShares": 142851000,
+    "marketCapitalization": 3401282310,
+    "minusCashAndCashEquivalents": 492347000,
+    "addTotalDebt": 292341000,
+    "enterpriseValue": 3201276310
+  },
+  {
+    "symbol": "LAC",
+    "date": "2021-12-31",
+    "stockPrice": 18.01,
+    "numberOfShares": 139989000,
+    "marketCapitalization": 2521201890,
+    "minusCashAndCashEquivalents": 933000,
+    "addTotalDebt": 41755000,
+    "enterpriseValue": 2562023890
+  },
+  {
+    "symbol": "LAC",
+    "date": "2021-09-30",
+    "stockPrice": 13.81,
+    "numberOfShares": 119931000,
+    "marketCapitalization": 1656247110,
+    "minusCashAndCashEquivalents": 482142000,
+    "addTotalDebt": 174631000,
+    "enterpriseValue": 1348736110
+  },
+  {
+    "symbol": "LAC",
+    "date": "2021-06-30",
+    "stockPrice": 9.18,
+    "numberOfShares": 120625000,
+    "marketCapitalization": 1107337500,
+    "minusCashAndCashEquivalents": 505241000,
+    "addTotalDebt": 153729000,
+    "enterpriseValue": 755825500
+  },
+  {
+    "symbol": "LAC",
+    "date": "2021-03-31",
+    "stockPrice": 9.94,
+    "numberOfShares": 115109000,
+    "marketCapitalization": 1144183460,
+    "minusCashAndCashEquivalents": 514205000,
+    "addTotalDebt": 136471000,
+    "enterpriseValue": 766449460
+  },
+  {
+    "symbol": "LAC",
+    "date": "2020-12-31",
+    "stockPrice": 7.76,
+    "numberOfShares": 125432000,
+    "marketCapitalization": 973352320,
+    "minusCashAndCashEquivalents": 148070000,
+    "addTotalDebt": 124771000,
+    "enterpriseValue": 950053320
+  },
+  {
+    "symbol": "LAC",
+    "date": "2020-09-30",
+    "stockPrice": 7.04,
+    "numberOfShares": 90817000,
+    "marketCapitalization": 639351680,
+    "minusCashAndCashEquivalents": 71888000,
+    "addTotalDebt": 122294000,
+    "enterpriseValue": 689757680
+  },
+  {
+    "symbol": "LAC",
+    "date": "2020-06-30",
+    "stockPrice": 3.14,
+    "numberOfShares": 90206000,
+    "marketCapitalization": 283246840,
+    "minusCashAndCashEquivalents": 49719000,
+    "addTotalDebt": 154811000,
+    "enterpriseValue": 388338840
+  },
+  {
+    "symbol": "LAC",
+    "date": "2020-03-31",
+    "stockPrice": 1.65,
+    "numberOfShares": 89912000,
+    "marketCapitalization": 148354800,
+    "minusCashAndCashEquivalents": 82122000,
+    "addTotalDebt": 157546000,
+    "enterpriseValue": 223778800
+  },
+  {
+    "symbol": "LAC",
+    "date": "2019-12-31",
+    "stockPrice": 1.96,
+    "numberOfShares": 89133000,
+    "marketCapitalization": 174700680,
+    "minusCashAndCashEquivalents": 83614000,
+    "addTotalDebt": 120221000,
+    "enterpriseValue": 211307680
+  },
+  {
+    "symbol": "LAC",
+    "date": "2019-09-30",
+    "stockPrice": 1.89,
+    "numberOfShares": 89128000,
+    "marketCapitalization": 168451920,
+    "minusCashAndCashEquivalents": 108152000,
+    "addTotalDebt": 112458000,
+    "enterpriseValue": 172757920
+  },
+  {
+    "symbol": "LAC",
+    "date": "2019-06-30",
+    "stockPrice": 2.47,
+    "numberOfShares": 88943000,
+    "marketCapitalization": 219689210,
+    "minusCashAndCashEquivalents": 31476000,
+    "addTotalDebt": 87158000,
+    "enterpriseValue": 275371210
+  },
+  {
+    "symbol": "LAC",
+    "date": "2019-03-31",
+    "stockPrice": 2.6,
+    "numberOfShares": 88735000,
+    "marketCapitalization": 230711000,
+    "minusCashAndCashEquivalents": 36235000,
+    "addTotalDebt": 56867000,
+    "enterpriseValue": 251343000
+  },
+  {
+    "symbol": "LAC",
+    "date": "2018-12-31",
+    "stockPrice": 1.96,
+    "numberOfShares": 88667000,
+    "marketCapitalization": 173787320,
+    "minusCashAndCashEquivalents": 41604000,
+    "addTotalDebt": 18566000,
+    "enterpriseValue": 150749320
+  },
+  {
+    "symbol": "LAC",
+    "date": "2018-09-30",
+    "stockPrice": 2.93,
+    "numberOfShares": 88616000,
+    "marketCapitalization": 259644880,
+    "minusCashAndCashEquivalents": 25950000,
+    "addTotalDebt": 10796000,
+    "enterpriseValue": 244490880
+  },
+  {
+    "symbol": "LAC",
+    "date": "2018-06-30",
+    "stockPrice": 3.33,
+    "numberOfShares": 88563000,
+    "marketCapitalization": 294914790,
+    "minusCashAndCashEquivalents": 31462000,
+    "addTotalDebt": 864000,
+    "enterpriseValue": 264316790
+  },
+  {
+    "symbol": "LAC",
+    "date": "2018-03-31",
+    "stockPrice": 3.35,
+    "numberOfShares": 88499000,
+    "marketCapitalization": 296471650,
+    "minusCashAndCashEquivalents": 43519000,
+    "addTotalDebt": 911000,
+    "enterpriseValue": 253863650
+  },
+  {
+    "symbol": "LAC",
+    "date": "2017-12-31",
+    "stockPrice": 5.5,
+    "numberOfShares": 81022000,
+    "marketCapitalization": 445621000,
+    "minusCashAndCashEquivalents": 55394000,
+    "addTotalDebt": 929000,
+    "enterpriseValue": 391156000
+  },
+  {
+    "symbol": "LAC",
+    "date": "2017-09-30",
+    "stockPrice": 4.08,
+    "numberOfShares": 86065000,
+    "marketCapitalization": 351145200,
+    "minusCashAndCashEquivalents": 73208000,
+    "addTotalDebt": 944000,
+    "enterpriseValue": 278881200
+  },
+  {
+    "symbol": "LAC",
+    "date": "2017-06-30",
+    "stockPrice": 2.04,
+    "numberOfShares": 66769000,
+    "marketCapitalization": 136208760,
+    "minusCashAndCashEquivalents": 49162000,
+    "addTotalDebt": 987000,
+    "enterpriseValue": 88033760
+  },
+  {
+    "symbol": "LAC",
+    "date": "2017-03-31",
+    "stockPrice": 2.31,
+    "numberOfShares": 62307000,
+    "marketCapitalization": 143929170,
+    "minusCashAndCashEquivalents": 7365000,
+    "addTotalDebt": 1028000,
+    "enterpriseValue": 137592170
+  },
+  {
+    "symbol": "LAC",
+    "date": "2016-09-30",
+    "stockPrice": 2.13,
+    "numberOfShares": 60142000,
+    "marketCapitalization": 128102460,
+    "minusCashAndCashEquivalents": 10009000,
+    "addTotalDebt": 1111000,
+    "enterpriseValue": 119204460
+  },
+  {
+    "symbol": "LAC",
+    "date": "2016-06-30",
+    "stockPrice": 2.61,
+    "numberOfShares": 59158000,
+    "marketCapitalization": 154402380,
+    "minusCashAndCashEquivalents": 12237000,
+    "addTotalDebt": 1152000,
+    "enterpriseValue": 143317380
+  },
+  {
+    "symbol": "LAC",
+    "date": "2016-03-31",
+    "stockPrice": 1.2,
+    "numberOfShares": 58221000,
+    "marketCapitalization": 69865200,
+    "minusCashAndCashEquivalents": 2706000,
+    "addTotalDebt": 2703000,
+    "enterpriseValue": 69862200
+  },
+  {
+    "symbol": "LAC",
+    "date": "2015-12-31",
+    "stockPrice": 0.79846,
+    "numberOfShares": 53929000,
+    "marketCapitalization": 43060149,
+    "minusCashAndCashEquivalents": 2646000,
+    "addTotalDebt": 3102000,
+    "enterpriseValue": 43516149
+  },
+  {
+    "symbol": "LAC",
+    "date": "2015-09-30",
+    "stockPrice": 0.71126,
+    "numberOfShares": 34230000,
+    "marketCapitalization": 24346429,
+    "minusCashAndCashEquivalents": 5552000,
+    "addTotalDebt": 4041000,
+    "enterpriseValue": 22835429
+  },
+  {
+    "symbol": "LAC",
+    "date": "2015-06-30",
+    "stockPrice": 1.48,
+    "numberOfShares": 24465000,
+    "marketCapitalization": 36208200,
+    "minusCashAndCashEquivalents": 7504000,
+    "addTotalDebt": 3789000,
+    "enterpriseValue": 32493200
+  },
+  {
+    "symbol": "LAC",
+    "date": "2015-03-31",
+    "stockPrice": 1.54,
+    "numberOfShares": 23872000,
+    "marketCapitalization": 36762880,
+    "minusCashAndCashEquivalents": 613000,
+    "addTotalDebt": 1345000,
+    "enterpriseValue": 37494880
+  },
+  {
+    "symbol": "LAC",
+    "date": "2014-12-31",
+    "stockPrice": 1.4,
+    "numberOfShares": 23857000,
+    "marketCapitalization": 33399799,
+    "minusCashAndCashEquivalents": 2787000,
+    "addTotalDebt": 1337000,
+    "enterpriseValue": 31949799
+  },
+  {
+    "symbol": "LAC",
+    "date": "2014-09-30",
+    "stockPrice": 2.31,
+    "numberOfShares": 21908000,
+    "marketCapitalization": 50607480,
+    "minusCashAndCashEquivalents": 7160000,
+    "addTotalDebt": 1320000,
+    "enterpriseValue": 44767480
+  },
+  {
+    "symbol": "LAC",
+    "date": "2014-06-30",
+    "stockPrice": 1.44,
+    "numberOfShares": 22126000,
+    "marketCapitalization": 31861440,
+    "minusCashAndCashEquivalents": 12314000,
+    "addTotalDebt": 1243000,
+    "enterpriseValue": 20790440
+  },
+  {
+    "symbol": "LAC",
+    "date": "2014-03-31",
+    "stockPrice": 2.55,
+    "numberOfShares": 20453000,
+    "marketCapitalization": 52155150,
+    "minusCashAndCashEquivalents": 6064000,
+    "addTotalDebt": 1269000,
+    "enterpriseValue": 47360150
+  },
+  {
+    "symbol": "LAC",
+    "date": "2013-12-31",
+    "stockPrice": 0.70909,
+    "numberOfShares": 20427000,
+    "marketCapitalization": 14484581,
+    "minusCashAndCashEquivalents": 8340000,
+    "addTotalDebt": 1296000,
+    "enterpriseValue": 7440581
+  },
+  {
+    "symbol": "LAC",
+    "date": "2013-09-30",
+    "stockPrice": 0.7496,
+    "numberOfShares": 20369000,
+    "marketCapitalization": 15268602,
+    "minusCashAndCashEquivalents": 11364000,
+    "addTotalDebt": 1321000,
+    "enterpriseValue": 5225602
+  },
+  {
+    "symbol": "LAC",
+    "date": "2013-06-30",
+    "stockPrice": 0.43603,
+    "numberOfShares": 20427000,
+    "marketCapitalization": 8906784.81,
+    "minusCashAndCashEquivalents": 9523000,
+    "addTotalDebt": 0,
+    "enterpriseValue": -616215
+  },
+  {
+    "symbol": "LAC",
+    "date": "2013-03-31",
+    "stockPrice": 0.55663,
+    "numberOfShares": 20248000,
+    "marketCapitalization": 11270644,
+    "minusCashAndCashEquivalents": 11165000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 105644
+  },
+  {
+    "symbol": "LAC",
+    "date": "2012-12-31",
+    "stockPrice": 0.42057,
+    "numberOfShares": 20144000,
+    "marketCapitalization": 8471962.08,
+    "minusCashAndCashEquivalents": 2316000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6155962
+  },
+  {
+    "symbol": "LAC",
+    "date": "2012-09-30",
+    "stockPrice": 0.4886,
+    "numberOfShares": 20144000,
+    "marketCapitalization": 9842358.4,
+    "minusCashAndCashEquivalents": 3357000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6485358
+  },
+  {
+    "symbol": "LAC",
+    "date": "2012-06-30",
+    "stockPrice": 0.52571,
+    "numberOfShares": 20144000,
+    "marketCapitalization": 10589902,
+    "minusCashAndCashEquivalents": 4664000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5925902
+  },
+  {
+    "symbol": "LAC",
+    "date": "2012-03-31",
+    "stockPrice": 0.84423,
+    "numberOfShares": 20144000,
+    "marketCapitalization": 17006169,
+    "minusCashAndCashEquivalents": 6090000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 10916169
+  },
+  {
+    "symbol": "LAC",
+    "date": "2011-12-31",
+    "stockPrice": 0.80434,
+    "numberOfShares": 20144000,
+    "marketCapitalization": 16202624,
+    "minusCashAndCashEquivalents": 7999000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8203624
+  },
+  {
+    "symbol": "LAC",
+    "date": "2011-09-30",
+    "stockPrice": 1.95,
+    "numberOfShares": 19003000,
+    "marketCapitalization": 37055850,
+    "minusCashAndCashEquivalents": 10841283,
+    "addTotalDebt": 0,
+    "enterpriseValue": 26214567
+  },
+  {
+    "symbol": "LAC",
+    "date": "2011-06-30",
+    "stockPrice": 3.35,
+    "numberOfShares": 19620000,
+    "marketCapitalization": 65727000,
+    "minusCashAndCashEquivalents": 13891026,
+    "addTotalDebt": 0,
+    "enterpriseValue": 51835974
+  },
+  {
+    "symbol": "LAC",
+    "date": "2011-03-31",
+    "stockPrice": 6.2,
+    "numberOfShares": 17149000,
+    "marketCapitalization": 106323800,
+    "minusCashAndCashEquivalents": 10619725,
+    "addTotalDebt": 0,
+    "enterpriseValue": 95704075
+  },
+  {
+    "symbol": "LAC",
+    "date": "2010-12-31",
+    "stockPrice": 7.25,
+    "numberOfShares": 16626000,
+    "marketCapitalization": 120538500,
+    "minusCashAndCashEquivalents": 11461630,
+    "addTotalDebt": 0,
+    "enterpriseValue": 109076870
+  },
+  {
+    "symbol": "LAC",
+    "date": "2010-09-30",
+    "stockPrice": 5.3,
+    "numberOfShares": 16452000,
+    "marketCapitalization": 87195600,
+    "minusCashAndCashEquivalents": 14273018,
+    "addTotalDebt": 0,
+    "enterpriseValue": 72922582
+  },
+  {
+    "symbol": "LAC",
+    "date": "2010-06-30",
+    "stockPrice": 3.9,
+    "numberOfShares": 16560000,
+    "marketCapitalization": 64584000,
+    "minusCashAndCashEquivalents": 16733928,
+    "addTotalDebt": 0,
+    "enterpriseValue": 47850072
+  },
+  {
+    "symbol": "LAC",
+    "date": "2010-03-31",
+    "stockPrice": 6.75,
+    "numberOfShares": 16457000,
+    "marketCapitalization": 111084750,
+    "minusCashAndCashEquivalents": 18665728,
+    "addTotalDebt": 0,
+    "enterpriseValue": 92419022
+  },
+  {
+    "symbol": "LAC",
+    "date": "2009-12-31",
+    "stockPrice": 6.9,
+    "numberOfShares": 15801225,
+    "marketCapitalization": 109028452,
+    "minusCashAndCashEquivalents": 19984939,
+    "addTotalDebt": 0,
+    "enterpriseValue": 89043513
+  },
+  {
+    "symbol": "LAC",
+    "date": "2009-09-30",
+    "stockPrice": 5.15,
+    "numberOfShares": 11372000,
+    "marketCapitalization": 58565800,
+    "minusCashAndCashEquivalents": 6135931,
+    "addTotalDebt": 0,
+    "enterpriseValue": 52429869
+  },
+  {
+    "symbol": "LAC",
+    "date": "2009-06-30",
+    "stockPrice": 2.5,
+    "numberOfShares": 11598000,
+    "marketCapitalization": 28995000,
+    "minusCashAndCashEquivalents": 6300000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 22695000
+  },
+  {
+    "symbol": "LAC",
+    "date": "2009-03-31",
+    "stockPrice": 2.2,
+    "numberOfShares": 10244000,
+    "marketCapitalization": 22536800,
+    "minusCashAndCashEquivalents": 3195761,
+    "addTotalDebt": 0,
+    "enterpriseValue": 19341039
+  },
+  {
+    "symbol": "LAC",
+    "date": "2008-12-31",
+    "stockPrice": 1.1,
+    "numberOfShares": 10244000,
+    "marketCapitalization": 11268400,
+    "minusCashAndCashEquivalents": 4075461,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7192939
+  },
+  {
+    "symbol": "LAC",
+    "date": "2008-09-30",
+    "stockPrice": 2.45,
+    "numberOfShares": 10244000,
+    "marketCapitalization": 25097800,
+    "minusCashAndCashEquivalents": 4828566,
+    "addTotalDebt": 0,
+    "enterpriseValue": 20269234
+  },
+  {
+    "symbol": "LAC",
+    "date": "2008-06-30",
+    "stockPrice": 2.45,
+    "numberOfShares": 10244000,
+    "marketCapitalization": 25097800,
+    "minusCashAndCashEquivalents": 5576.734132,
+    "addTotalDebt": 0,
+    "enterpriseValue": 25092223
+  },
+  {
+    "symbol": "LAC",
+    "date": "2008-03-31",
+    "stockPrice": 2.45,
+    "numberOfShares": 10244000,
+    "marketCapitalization": 25097800,
+    "minusCashAndCashEquivalents": 613051,
+    "addTotalDebt": 1942485,
+    "enterpriseValue": 26427234
+  },
+  {
+    "symbol": "LAC",
+    "date": "2007-12-31",
+    "stockPrice": 2.45,
+    "numberOfShares": 10244000,
+    "marketCapitalization": 25097800,
+    "minusCashAndCashEquivalents": 2002019,
+    "addTotalDebt": 0,
+    "enterpriseValue": 23095781
+  }
+]

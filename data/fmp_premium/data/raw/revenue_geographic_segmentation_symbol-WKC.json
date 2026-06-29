@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "WKC",
+    "fiscalYear": 2025,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2025-12-31",
+    "data": {
+      "Asia Pacific": 4602000000,
+      "EMEA": 7941600000,
+      "Americas Excluding United States": 5126600000,
+      "SINGAPORE": 4500000000,
+      "UNITED STATES": 19280000000
+    }
+  },
+  {
+    "symbol": "WKC",
+    "fiscalYear": 2024,
+    "period": "FY",
+    "reportedCurrency": "USD",
+    "date": "2024-12-31",
+    "data": {
+      "Asia Pacific": 5401300000,
+      "EMEA": 9672900000,
+      "Americas Excluding United States": 6224000000,
+      "SINGAPORE": 5300000000,
+      "UNITED STATES": 20905100000
+    }
+  }
+]
