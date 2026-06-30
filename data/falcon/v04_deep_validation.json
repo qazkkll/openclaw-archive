@@ -1,0 +1,426 @@
+{
+  "timestamp": "2026-07-01T02:58:20.639804",
+  "model": "T3.1 Dynamic Linear Model (IC-Adaptive Weights)",
+  "rank_inversion": {
+    "passed": false,
+    "any_inversion": true,
+    "n_windows_checked": 5,
+    "n_windows_passed": 1,
+    "per_window": [
+      {
+        "window": 2,
+        "period": "2022-07-05 \u2192 2023-01-05",
+        "avg_returns": {
+          "top5": 0.023808,
+          "top10": 0.018691,
+          "mid": 0.02819,
+          "bot20": 0.028065,
+          "bot5": 0.012217
+        },
+        "full_monotonicity": false,
+        "partial_monotonicity": false,
+        "spread_correct": true,
+        "spread": 0.011591,
+        "n_dates": 129,
+        "passed": false
+      },
+      {
+        "window": 3,
+        "period": "2023-01-05 \u2192 2023-07-05",
+        "avg_returns": {
+          "top5": 0.054447,
+          "top10": 0.044657,
+          "mid": 0.017514,
+          "bot20": 0.013401,
+          "bot5": 0.015358
+        },
+        "full_monotonicity": false,
+        "partial_monotonicity": false,
+        "spread_correct": true,
+        "spread": 0.039089,
+        "n_dates": 124,
+        "passed": false
+      },
+      {
+        "window": 4,
+        "period": "2023-07-05 \u2192 2024-01-05",
+        "avg_returns": {
+          "top5": 0.047387,
+          "top10": 0.042501,
+          "mid": 0.020745,
+          "bot20": 0.004838,
+          "bot5": 0.003369
+        },
+        "full_monotonicity": true,
+        "partial_monotonicity": true,
+        "spread_correct": true,
+        "spread": 0.044017,
+        "n_dates": 129,
+        "passed": true
+      },
+      {
+        "window": 5,
+        "period": "2024-01-05 \u2192 2024-07-05",
+        "avg_returns": {
+          "top5": 0.037863,
+          "top10": 0.028887,
+          "mid": 0.023096,
+          "bot20": 0.026383,
+          "bot5": 0.028245
+        },
+        "full_monotonicity": false,
+        "partial_monotonicity": false,
+        "spread_correct": true,
+        "spread": 0.009619,
+        "n_dates": 125,
+        "passed": false
+      },
+      {
+        "window": 8,
+        "period": "2025-07-05 \u2192 2026-01-05",
+        "avg_returns": {
+          "top5": 0.019509,
+          "top10": 0.020557,
+          "mid": 0.026263,
+          "bot20": 0.015267,
+          "bot5": 0.015094
+        },
+        "full_monotonicity": false,
+        "partial_monotonicity": false,
+        "spread_correct": true,
+        "spread": 0.004415,
+        "n_dates": 127,
+        "passed": false
+      }
+    ],
+    "summary": [
+      "Window 2 (2022-07-05 \u2192 2023-01-05): Rank inversion detected. avg_returns={'top5': 0.023808, 'top10': 0.018691, 'mid': 0.02819, 'bot20': 0.028065, 'bot5': 0.012217}",
+      "Window 3 (2023-01-05 \u2192 2023-07-05): Rank inversion detected. avg_returns={'top5': 0.054447, 'top10': 0.044657, 'mid': 0.017514, 'bot20': 0.013401, 'bot5': 0.015358}",
+      "Window 4 (2023-07-05 \u2192 2024-01-05): OK. Spread=0.044017",
+      "Window 5 (2024-01-05 \u2192 2024-07-05): Rank inversion detected. avg_returns={'top5': 0.037863, 'top10': 0.028887, 'mid': 0.023096, 'bot20': 0.026383, 'bot5': 0.028245}",
+      "Window 8 (2025-07-05 \u2192 2026-01-05): Rank inversion detected. avg_returns={'top5': 0.019509, 'top10': 0.020557, 'mid': 0.026263, 'bot20': 0.015267, 'bot5': 0.015094}"
+    ]
+  },
+  "stability": {
+    "passed": false,
+    "issues": [
+      "Window 4: Sharpe 0.708 << baseline 1.202",
+      "Window 8: Sharpe 1.495 << baseline 2.018"
+    ],
+    "window_details": [
+      {
+        "window": 2,
+        "period": "2022-07-05 \u2192 2023-01-05",
+        "sharpe": 1.207,
+        "max_dd": -0.1575,
+        "cagr": 0.2579,
+        "win_rate": 0.675,
+        "n_trades": 40,
+        "n_factors": 57,
+        "baseline_sharpe": 0.661,
+        "beat_baseline": true
+      },
+      {
+        "window": 3,
+        "period": "2023-01-05 \u2192 2023-07-05",
+        "sharpe": 2.941,
+        "max_dd": -0.1963,
+        "cagr": 1.6169,
+        "win_rate": 0.55,
+        "n_trades": 40,
+        "n_factors": 64,
+        "baseline_sharpe": 1.753,
+        "beat_baseline": true
+      },
+      {
+        "window": 4,
+        "period": "2023-07-05 \u2192 2024-01-05",
+        "sharpe": 0.708,
+        "max_dd": -0.2219,
+        "cagr": 0.1424,
+        "win_rate": 0.5,
+        "n_trades": 40,
+        "n_factors": 68,
+        "baseline_sharpe": 1.202,
+        "beat_baseline": false
+      },
+      {
+        "window": 5,
+        "period": "2024-01-05 \u2192 2024-07-05",
+        "sharpe": 1.988,
+        "max_dd": -0.116,
+        "cagr": 0.4559,
+        "win_rate": 0.725,
+        "n_trades": 40,
+        "n_factors": 69,
+        "baseline_sharpe": 2.045,
+        "beat_baseline": false
+      },
+      {
+        "window": 8,
+        "period": "2025-07-05 \u2192 2026-01-05",
+        "sharpe": 1.495,
+        "max_dd": -0.1601,
+        "cagr": 0.4938,
+        "win_rate": 0.512,
+        "n_trades": 41,
+        "n_factors": 36,
+        "baseline_sharpe": 2.018,
+        "beat_baseline": false
+      }
+    ],
+    "recent_3_sharpes": [
+      0.708,
+      1.988,
+      1.495
+    ],
+    "recent_all_positive": true,
+    "bear_market_details": [
+      {
+        "window": 2,
+        "period": "2022-07-05 \u2192 2023-01-05",
+        "sharpe": 1.207,
+        "max_dd": -0.1575,
+        "cagr": 0.2579,
+        "win_rate": 0.675
+      }
+    ],
+    "bear_market_comparison": {
+      "v031_bear": {
+        "period": "2022-01-04 \u2192 2022-07-04",
+        "sharpe": -1.989,
+        "max_dd": -0.2661
+      },
+      "v04_bear": [
+        {
+          "window": 2,
+          "period": "2022-07-05 \u2192 2023-01-05",
+          "sharpe": 1.207,
+          "max_dd": -0.1575,
+          "cagr": 0.2579,
+          "win_rate": 0.675
+        }
+      ],
+      "note": "V0.4 dynamic linear has no window covering 2022 H1 (first valid window starts 2022-07-05)"
+    },
+    "failed_windows": [
+      {
+        "index": 0,
+        "period": "2021-07-05 \u2192 2022-01-05",
+        "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2022: 0.7368421052631579}"
+      },
+      {
+        "index": 1,
+        "period": "2022-01-05 \u2192 2022-07-05",
+        "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'trend_accel': 0.5318850494357336}"
+      },
+      {
+        "index": 6,
+        "period": "2024-07-05 \u2192 2025-01-05",
+        "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.10810810810810811}"
+      },
+      {
+        "index": 7,
+        "period": "2025-01-05 \u2192 2025-07-05",
+        "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.6358974358974359}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'price_position': 0.532258064516129, 'ret30': 0.7741935483870968, 'ret60': 0.532258064516129, 'ret90': 0.2903225806451613, 'momentum_6m': 0.0, 'dd_60': 0.532258064516129, 'priceToBookRatio': 0.0, 'priceToSalesRatio': 0.0, 'grossProfitMargin': 0.0, 'debtToEquityRatio': 0.0, 'quickRatio': 0.0, 'financialLeverageRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'num_analysts_eps': 0.0, 'num_analysts_rev': 0.0}"
+      }
+    ],
+    "n_valid_windows": 5,
+    "n_failed_windows": 4,
+    "positive_sharpe_pct": 1.0,
+    "sharpe_std": 0.76
+  },
+  "pit_audit": {
+    "passed": true,
+    "bias_detected": true,
+    "findings": [
+      {
+        "check": "IC computation uses fwd_ret_30d",
+        "mechanism": "Spearman(factor_rank, fwd_ret_30d) per date, averaged per month",
+        "bias_detected": true,
+        "severity": "MINOR",
+        "description": "IC for the last training month (M-1) uses fwd_ret_30d that extends ~30 days into month M, which is the first month of the test window. This creates a minor forward-looking bias affecting ~1/6 of the IC lookback period (1 month out of 6).",
+        "impact": "The bias is small because: (a) it only affects 1 out of 6 months of IC data, (b) the IC is averaged across many dates, diluting the effect, (c) the model weights change slowly month-to-month.",
+        "fix_suggestion": "Use fwd_ret_30d that ends before test window starts, OR shift IC lookback to [M-7, M-2] instead of [M-6, M-1]."
+      },
+      {
+        "check": "Weight computation uses only training period data",
+        "mechanism": "compute_dynamic_weights(monthly_ic, target_month=train_end_month)",
+        "bias_detected": false,
+        "severity": "NONE",
+        "description": "Weights are computed from monthly IC values in the lookback window [train_end - 6 months, train_end - 1 month]. The lookback is strictly before the test window start. No test period data is used for weight computation."
+      },
+      {
+        "check": "Factor coverage filtering uses training period data",
+        "mechanism": "compute_factor_coverage(df, factor_cols, train_start, train_end)",
+        "bias_detected": false,
+        "severity": "NONE",
+        "description": "Factor coverage is computed over the training period only. Factors with <30% coverage in training data are excluded from weight computation."
+      },
+      {
+        "check": "Cross-sectional ranks are computed at each date independently",
+        "mechanism": "rank(pct=True) per date, no look-ahead in rank computation",
+        "bias_detected": false,
+        "severity": "NONE",
+        "description": "Ranks are computed as percentile ranks within each cross-section (date). No future data is used in rank computation. Each date's ranks only depend on that date's factor values."
+      },
+      {
+        "check": "Global IC analysis uses full dataset",
+        "mechanism": "IC computed from 2016-07-05 to 2026-06-26 (full dataset)",
+        "bias_detected": true,
+        "severity": "INFO (not used in model)",
+        "description": "The global IC analysis in v04_ic_analysis.json computes IC over the entire dataset (2016-2026). However, this file is LOADED but NOT USED in the dynamic linear model. The model uses its own compute_monthly_ic() function. The global IC is for reference/reporting only."
+      },
+      {
+        "check": "Walk-Forward uses expanding window",
+        "mechanism": "train_start expands by test_months each window",
+        "bias_detected": false,
+        "severity": "NONE",
+        "description": "Walk-Forward uses expanding window: train starts at 2016-07-05 and expands forward. Test periods are non-overlapping 6-month blocks. No test period data leaks into training. The train_end boundary is clean except for the minor IC overlap noted above."
+      }
+    ],
+    "summary": [
+      "\u26a0\ufe0f [MINOR] IC computation uses fwd_ret_30d: BIAS DETECTED",
+      "\u2705 [NONE] Weight computation uses only training period data: CLEAN",
+      "\u2705 [NONE] Factor coverage filtering uses training period data: CLEAN",
+      "\u2705 [NONE] Cross-sectional ranks are computed at each date independently: CLEAN",
+      "\u26a0\ufe0f [INFO (not used in model)] Global IC analysis uses full dataset: BIAS DETECTED",
+      "\u2705 [NONE] Walk-Forward uses expanding window: CLEAN"
+    ]
+  },
+  "comparison_with_v031": {
+    "v04_overall_sharpe": 1.668,
+    "v031_overall_sharpe": 1.161,
+    "improvement": 0.507,
+    "overlapping_comparisons": [
+      {
+        "period_key": "2022H2 \u2192 2023H1",
+        "v04_period": "2022-07-05 \u2192 2023-01-05",
+        "v031_period": "2022-07-04 \u2192 2023-01-04",
+        "v04_sharpe": 1.207,
+        "v031_sharpe": 0.656,
+        "difference": 0.551,
+        "better": "v04",
+        "v04_max_dd": -0.1575,
+        "v031_max_dd": -0.1596
+      },
+      {
+        "period_key": "2023H1 \u2192 2023H2",
+        "v04_period": "2023-01-05 \u2192 2023-07-05",
+        "v031_period": "2023-01-04 \u2192 2023-07-04",
+        "v04_sharpe": 2.941,
+        "v031_sharpe": 2.585,
+        "difference": 0.356,
+        "better": "v04",
+        "v04_max_dd": -0.1963,
+        "v031_max_dd": -0.0759
+      },
+      {
+        "period_key": "2023H2 \u2192 2024H1",
+        "v04_period": "2023-07-05 \u2192 2024-01-05",
+        "v031_period": "2023-07-04 \u2192 2024-01-04",
+        "v04_sharpe": 0.708,
+        "v031_sharpe": 1.138,
+        "difference": -0.43,
+        "better": "v031",
+        "v04_max_dd": -0.2219,
+        "v031_max_dd": -0.1059
+      },
+      {
+        "period_key": "2024H1 \u2192 2024H2",
+        "v04_period": "2024-01-05 \u2192 2024-07-05",
+        "v031_period": "2024-01-04 \u2192 2024-07-04",
+        "v04_sharpe": 1.988,
+        "v031_sharpe": 3.049,
+        "difference": -1.061,
+        "better": "v031",
+        "v04_max_dd": -0.116,
+        "v031_max_dd": -0.0841
+      },
+      {
+        "period_key": "2025H2 \u2192 2026H1",
+        "v04_period": "2025-07-05 \u2192 2026-01-05",
+        "v031_period": "2025-07-04 \u2192 2026-01-04",
+        "v04_sharpe": 1.495,
+        "v031_sharpe": 0.197,
+        "difference": 1.298,
+        "better": "v04",
+        "v04_max_dd": -0.1601,
+        "v031_max_dd": -0.1114
+      }
+    ],
+    "v04_wins": 3,
+    "v031_wins": 2,
+    "n_overlapping": 5,
+    "v04_only_windows": [],
+    "v031_only_windows": [
+      {
+        "period_key": "2020H2 \u2192 2021H1",
+        "v031_period": "2020-07-04 \u2192 2021-01-04",
+        "v031_sharpe": 1.095,
+        "note": "V0.4 has no data for this window (failed or not covered)"
+      },
+      {
+        "period_key": "2021H1 \u2192 2021H2",
+        "v031_period": "2021-01-04 \u2192 2021-07-04",
+        "v031_sharpe": 2.111,
+        "note": "V0.4 has no data for this window (failed or not covered)"
+      },
+      {
+        "period_key": "2021H2 \u2192 2022H1",
+        "v031_period": "2021-07-04 \u2192 2022-01-04",
+        "v031_sharpe": 1.484,
+        "note": "V0.4 has no data for this window (failed or not covered)"
+      },
+      {
+        "period_key": "2022H1 \u2192 2022H2",
+        "v031_period": "2022-01-04 \u2192 2022-07-04",
+        "v031_sharpe": -1.989,
+        "note": "V0.4 has no data for this window (failed or not covered)"
+      },
+      {
+        "period_key": "2024H2 \u2192 2025H1",
+        "v031_period": "2024-07-04 \u2192 2025-01-04",
+        "v031_sharpe": 1.428,
+        "note": "V0.4 has no data for this window (failed or not covered)"
+      },
+      {
+        "period_key": "2025H1 \u2192 2025H2",
+        "v031_period": "2025-01-04 \u2192 2025-07-04",
+        "v031_sharpe": 1.022,
+        "note": "V0.4 has no data for this window (failed or not covered)"
+      }
+    ]
+  },
+  "additional_red_flags": {
+    "n_flags": 3,
+    "flags": [
+      {
+        "level": "WARNING",
+        "check": "WF CAGR > 50%",
+        "value": 0.5934,
+        "detail": "CAGR > 50% over 10 years is extremely high"
+      },
+      {
+        "level": "WARNING",
+        "check": "High failure rate: 4/9",
+        "value": 0.4444444444444444,
+        "detail": "44% of windows failed data quality check"
+      },
+      {
+        "level": "WARNING",
+        "check": "Window 3 extreme Sharpe",
+        "value": 2.941,
+        "detail": "Window 3 (2023-01-05 \u2192 2023-07-05): Sharpe=2.941 > 2.5"
+      }
+    ],
+    "passed": true
+  },
+  "overall_verdict": {
+    "rank_inversion": "FAIL",
+    "stability": "FAIL",
+    "pit_audit": "PASS",
+    "comparison": "V0.4 Sharpe=1.668 vs V0.3.1 Sharpe=1.161 (improvement=+0.507)",
+    "champion_candidate": false
+  }
+}

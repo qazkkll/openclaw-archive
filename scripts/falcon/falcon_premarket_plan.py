@@ -38,7 +38,7 @@ from dotenv import load_dotenv
 load_dotenv(PROJECT_ROOT / ".env")
 
 # ── 配置 ──
-HOLD_DAYS = 60
+HOLD_DAYS = 30
 STOP_LOSS = -0.15
 TOP_N = 10
 BUY_SCORE_THRESHOLD = 0.55

@@ -1,43 +1,53 @@
 {
-  "date": "2026-06-29",
-  "scored_date": "2026-06-26",
-  "verdict": "EXECUTE",
-  "gatekeeper_passed": 5,
-  "gatekeeper_total": 5,
-  "macro": {
-    "vix": 18.37,
-    "spy": 728.99,
-    "spy_vs_ma20": "below",
-    "spx_vs_ma200": "above",
-    "regime": "neutral"
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T21:00:00",
+  "model": "falcon_v032",
+  "data_as_of": "2026-06-26",
+  "data_note": "features_v02.parquet 1 trading day behind (Mon Jun 29 not yet in features file)",
+  "vix": 17.6,
+  "vix_threshold": 25,
+  "vix_skip": false,
+  "spx": 7440.4,
+  "spx_sma20": 7447.6,
+  "spx_trend": "DOWN",
+
+  "gatekeeper": {
+    "macro": {"status": "PASS", "detail": "VIX 17.6 < 25, SPX slightly below SMA20"},
+    "sector": {"status": "PASS", "detail": "XLV+5.6%, XLI+3.2%, XLU+3.7% strong; XLE-4.0%, XLC-2.1% weak"},
+    "earnings": {"status": "UNKNOWN", "detail": "earnings_calendar.json not found"},
+    "concentration": {"status": "PASS", "detail": "2 positions, well under cap"},
+    "price_target": {"status": "UNKNOWN", "detail": "No target data for Top10 stocks"},
+    "score": "3/5 PASS, 2/5 UNKNOWN -> EXECUTE (reduced confidence)"
   },
-  "top5": [
-    {"rank": 1, "sym": "APP", "score": 0.7234, "signal": "🟢🟢", "fund": 0.72, "analyst": 0.78, "metric": 0.63, "target_upside": "+38%"},
-    {"rank": 2, "sym": "PLTR", "score": 0.7165, "signal": "🟢🟢", "fund": 0.69, "analyst": 0.84, "metric": 0.66, "target_upside": "+68%"},
-    {"rank": 3, "sym": "NVDA", "score": 0.7150, "signal": "🟢🟢", "fund": 0.69, "analyst": 0.80, "metric": 0.72, "target_upside": "+65%"},
-    {"rank": 4, "sym": "AVGO", "score": 0.7142, "signal": "🟢🟢", "fund": 0.74, "analyst": 0.65, "metric": 0.67, "target_upside": "+36%"},
-    {"rank": 5, "sym": "TXN", "score": 0.7106, "signal": "🟢🟢", "fund": 0.72, "analyst": 0.66, "metric": 0.71, "target_upside": "-4% ⚠️"}
+
+  "top10": [
+    {"rank": 1, "sym": "PLTR", "score": 0.5453, "signal": "yellow", "close": 112.93, "growth": 0.76, "cashflow": 0.82, "analyst": 0.84, "balance": 0.96},
+    {"rank": 2, "sym": "INTU", "score": 0.5322, "signal": "yellow", "close": 267.72, "growth": 0.78, "cashflow": 0.89, "analyst": 0.67, "balance": 0.77},
+    {"rank": 3, "sym": "NFLX", "score": 0.5319, "signal": "yellow", "close": 73.81, "growth": 0.76, "cashflow": 0.74, "analyst": 0.82, "balance": 0.82},
+    {"rank": 4, "sym": "NVDA", "score": 0.5278, "signal": "yellow", "close": 192.53, "growth": 0.85, "cashflow": 0.77, "analyst": 0.80, "balance": 0.67},
+    {"rank": 5, "sym": "MNST", "score": 0.5261, "signal": "yellow", "close": 96.38, "growth": 0.76, "cashflow": 0.71, "analyst": 0.72, "balance": 0.94},
+    {"rank": 6, "sym": "HUM", "score": 0.5244, "signal": "yellow", "close": 383.84, "growth": 0.86, "cashflow": 0.49, "analyst": 0.90, "balance": 0.64},
+    {"rank": 7, "sym": "APP", "score": 0.5239, "signal": "yellow", "close": 477.08, "growth": 0.70, "cashflow": 0.89, "analyst": 0.78, "balance": 0.85},
+    {"rank": 8, "sym": "CNC", "score": 0.5239, "signal": "yellow", "close": 65.73, "growth": 0.76, "cashflow": 0.56, "analyst": 0.79, "balance": 0.94},
+    {"rank": 9, "sym": "SYF", "score": 0.5168, "signal": "yellow", "close": 78.66, "growth": 0.67, "cashflow": 0.81, "analyst": 0.63, "balance": 0.89},
+    {"rank": 10, "sym": "TPL", "score": 0.5144, "signal": "yellow", "close": 395.79, "growth": 0.67, "cashflow": 0.71, "analyst": 0.54, "balance": 0.89}
   ],
-  "gatekeeper_details": [
-    {"name": "宏观状态", "pass": true, "detail": "SPX(7354)>MA200(6925) | VIX(18.4)正常"},
-    {"name": "行业风向", "pass": true, "detail": "XLV(+8.2%) | XLF(+4.5%) | XLI(+4.2%) | XLRE(+2.3%) | XLP(+0.8%) | XLK(-1.7%) | XLE(-4.8%)"},
-    {"name": "事件风险", "pass": true, "detail": "未来7天无推荐股财报"},
-    {"name": "持仓集中", "pass": true, "detail": "当前空仓"},
-    {"name": "目标价空间", "pass": true, "detail": "APP(+38%), PLTR(+68%), NVDA(+65%), AVGO(+36%) | ⚠️ TXN(-4%)"}
-  ],
+
   "plan": {
-    "buy": ["APP", "PLTR", "NVDA", "AVGO", "TXN"],
-    "sell": [],
+    "buy": [],
     "hold": [],
-    "notes": [
-      "Gatekeeper 5/5全通过 → 正常执行",
-      "TXN目标价上行空间不足(-4%)，但评分仍在Top5，按规则执行",
-      "当前空仓，5只全部新开仓",
-      "SPY在20日均线下方但VIX正常(18.4)，宏观中性偏谨慎"
-    ]
+    "sell": [],
+    "watch": ["PLTR","INTU","NFLX","NVDA","MNST","HUM","APP","CNC","SYF","TPL"],
+    "action": "WATCH - All signals are yellow (score < 0.55 threshold for green). No buy signals triggered. Data is 1 trading day stale (features_v02.parquet missing Jun 29). Recommend refreshing data before any trading decisions."
   },
-  "action": "EXECUTE",
-  "hold_days": 30,
-  "stop_loss": -0.15,
-  "timestamp": "2026-06-29T22:00:00+08:00"
+
+  "notes": [
+    "All Top10 scored yellow (0.51-0.55), no green or double-green signals",
+    "VIX 17.6 is comfortable, no macro panic",
+    "SPX slightly below SMA20 (7440 vs 7448) - neutral/slightly bearish trend",
+    "Healthcare (XLV) and Industrials (XLI) showing relative strength",
+    "Only 2 current positions - capacity for new entries if signals strengthen",
+    "FMP API key expired (403) - price targets and earnings calendar unavailable",
+    "Data freshness issue: features_v02.parquet stops at Jun 26, needs update to include Jun 29"
+  ]
 }

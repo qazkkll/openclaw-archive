@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-06-30T13:15:24.863830",
+  "data": "features_v02_pit.parquet",
+  "ic_analysis": {
+    "fund_ratio": {
+      "ic_mean": -0.0083,
+      "ic_std": 0.2014,
+      "icir": -0.041,
+      "n_samples": 43
+    },
+    "profitability": {
+      "ic_mean": -0.0187,
+      "ic_std": 0.1029,
+      "icir": -0.182,
+      "n_samples": 43
+    },
+    "efficiency": {
+      "ic_mean": 0.0018,
+      "ic_std": 0.0931,
+      "icir": 0.019,
+      "n_samples": 43
+    },
+    "leverage": {
+      "ic_mean": 0.0045,
+      "ic_std": 0.0793,
+      "icir": 0.057,
+      "n_samples": 43
+    },
+    "liquidity": {
+      "ic_mean": 0.0416,
+      "ic_std": 0.1399,
+      "icir": 0.297,
+      "n_samples": 43
+    },
+    "cashflow": {
+      "ic_mean": -0.0039,
+      "ic_std": 0.0887,
+      "icir": -0.044,
+      "n_samples": 43
+    },
+    "dividend": {
+      "ic_mean": -0.0534,
+      "ic_std": 0.1847,
+      "icir": -0.289,
+      "n_samples": 43
+    },
+    "tech_momentum": {
+      "ic_mean": 0.027,
+      "ic_std": 0.1578,
+      "icir": 0.171,
+      "n_samples": 41
+    },
+    "tech_quality": {
+      "ic_mean": -0.0774,
+      "ic_std": 0.1508,
+      "icir": -0.513,
+      "n_samples": 42
+    },
+    "composite": {
+      "ic_mean": -0.0185,
+      "ic_std": 0.1184,
+      "icir": -0.156,
+      "n_samples": 41
+    }
+  },
+  "weights": {
+    "fund_ratio": 0.05,
+    "profitability": 0.2,
+    "efficiency": 0.1,
+    "leverage": 0.1,
+    "liquidity": 0.05,
+    "cashflow": 0.15,
+    "dividend": 0.05,
+    "tech_momentum": 0.2,
+    "tech_quality": 0.1
+  }
+}

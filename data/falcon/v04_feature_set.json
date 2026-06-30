@@ -1,0 +1,478 @@
+{
+  "selected_features": [
+    {
+      "name": "ebitdaMargin_qoq",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": -0.415793,
+      "domain": "fundamental"
+    },
+    {
+      "name": "operatingProfitMargin_qoq",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": -0.349288,
+      "domain": "fundamental"
+    },
+    {
+      "name": "dividendPayoutRatio",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": -0.347437,
+      "domain": "fundamental"
+    },
+    {
+      "name": "vol20",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": 0.231069,
+      "domain": "technical"
+    },
+    {
+      "name": "quickRatio",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": 0.22975,
+      "domain": "fundamental"
+    },
+    {
+      "name": "dividendYieldPercentage",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": -0.227521,
+      "domain": "fundamental"
+    },
+    {
+      "name": "ma5",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": -0.22189,
+      "domain": "technical"
+    },
+    {
+      "name": "vol5",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": 0.214865,
+      "domain": "technical"
+    },
+    {
+      "name": "receivablesTurnover",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": -0.210251,
+      "domain": "fundamental"
+    },
+    {
+      "name": "bb_width",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": 0.205965,
+      "domain": "technical"
+    },
+    {
+      "name": "range_ratio",
+      "reason": "Strong predictive signal (|ICIR| >= 0.2)",
+      "icir": 0.20486,
+      "domain": "technical"
+    },
+    {
+      "name": "grossProfitMargin_qoq",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": -0.198505,
+      "domain": "fundamental"
+    },
+    {
+      "name": "freeCashFlowOperatingCashFlowRatio",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": 0.188894,
+      "domain": "fundamental"
+    },
+    {
+      "name": "avg_body",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": 0.186303,
+      "domain": "technical"
+    },
+    {
+      "name": "assetTurnover",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": 0.180852,
+      "domain": "fundamental"
+    },
+    {
+      "name": "ebitdaMargin",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": -0.175163,
+      "domain": "fundamental"
+    },
+    {
+      "name": "dd_60",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": -0.168679,
+      "domain": "technical"
+    },
+    {
+      "name": "num_analysts_eps",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": 0.168031,
+      "domain": "analyst"
+    },
+    {
+      "name": "eps_dispersion",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": 0.149997,
+      "domain": "analyst"
+    },
+    {
+      "name": "inventoryTurnover",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": -0.148301,
+      "domain": "fundamental"
+    },
+    {
+      "name": "netProfitMargin_qoq",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": -0.140907,
+      "domain": "fundamental"
+    },
+    {
+      "name": "priceToBookRatio",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": 0.13303,
+      "domain": "fundamental"
+    },
+    {
+      "name": "ma_align",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": -0.125089,
+      "domain": "technical"
+    },
+    {
+      "name": "operatingCashFlowRatio",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": -0.114597,
+      "domain": "fundamental"
+    },
+    {
+      "name": "macd",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": -0.114174,
+      "domain": "technical"
+    },
+    {
+      "name": "ma_cross_20_60",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": -0.106891,
+      "domain": "technical"
+    },
+    {
+      "name": "netProfitMargin",
+      "reason": "Moderate predictive signal (|ICIR| >= 0.1)",
+      "icir": -0.100443,
+      "domain": "fundamental"
+    },
+    {
+      "name": "vwap_drift",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.098245,
+      "domain": "technical"
+    },
+    {
+      "name": "grossProfitMargin",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": 0.08075,
+      "domain": "fundamental"
+    },
+    {
+      "name": "debtToEquityRatio",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.079232,
+      "domain": "fundamental"
+    },
+    {
+      "name": "bb_pos",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.079198,
+      "domain": "technical"
+    },
+    {
+      "name": "ma_cross_5_20",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.076423,
+      "domain": "technical"
+    },
+    {
+      "name": "momentum_1m",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.071274,
+      "domain": "technical"
+    },
+    {
+      "name": "macd_hist",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.067269,
+      "domain": "technical"
+    },
+    {
+      "name": "ret90",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.065275,
+      "domain": "technical"
+    },
+    {
+      "name": "ud_vol_ratio",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.064561,
+      "domain": "technical"
+    },
+    {
+      "name": "rsi_zone",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.063768,
+      "domain": "technical"
+    },
+    {
+      "name": "priceToFreeCashFlowRatio",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": 0.062741,
+      "domain": "fundamental"
+    },
+    {
+      "name": "ret_quality",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.061019,
+      "domain": "technical"
+    },
+    {
+      "name": "ret60",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.060791,
+      "domain": "technical"
+    },
+    {
+      "name": "ret5",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.055102,
+      "domain": "technical"
+    },
+    {
+      "name": "num_analysts_rev",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": 0.053343,
+      "domain": "analyst"
+    },
+    {
+      "name": "mom_divergence",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": -0.052656,
+      "domain": "technical"
+    },
+    {
+      "name": "financialLeverageRatio",
+      "reason": "Weak but consistent signal (0.05 <= |ICIR| < 0.1)",
+      "icir": 0.050351,
+      "domain": "fundamental"
+    },
+    {
+      "name": "news_avg_sentiment",
+      "reason": "News domain coverage (not in IC analysis)",
+      "icir": null,
+      "domain": "news"
+    },
+    {
+      "name": "news_article_count",
+      "reason": "News domain coverage (not in IC analysis)",
+      "icir": null,
+      "domain": "news"
+    }
+  ],
+  "removed_features": [
+    {
+      "name": "trend_accel",
+      "reason": "|ICIR|=0.0461 < 0.05 threshold",
+      "icir": 0.04614,
+      "domain": "technical"
+    },
+    {
+      "name": "priceToEarningsRatio",
+      "reason": "|ICIR|=0.0437 < 0.05 threshold",
+      "icir": -0.043719,
+      "domain": "fundamental"
+    },
+    {
+      "name": "enterpriseValueMultiple",
+      "reason": "|ICIR|=0.0421 < 0.05 threshold",
+      "icir": 0.042116,
+      "domain": "fundamental"
+    },
+    {
+      "name": "ret1",
+      "reason": "|ICIR|=0.0378 < 0.05 threshold",
+      "icir": -0.037803,
+      "domain": "technical"
+    },
+    {
+      "name": "revenue_revision",
+      "reason": "|ICIR|=0.0194 < 0.05 threshold",
+      "icir": -0.019363,
+      "domain": "analyst"
+    },
+    {
+      "name": "macd_roc",
+      "reason": "|ICIR|=0.0163 < 0.05 threshold",
+      "icir": -0.016313,
+      "domain": "technical"
+    },
+    {
+      "name": "vol_change",
+      "reason": "|ICIR|=0.0136 < 0.05 threshold",
+      "icir": 0.013636,
+      "domain": "technical"
+    },
+    {
+      "name": "vol_ratio",
+      "reason": "|ICIR|=0.0132 < 0.05 threshold",
+      "icir": 0.013178,
+      "domain": "technical"
+    },
+    {
+      "name": "momentum_6m",
+      "reason": "|ICIR|=0.0131 < 0.05 threshold",
+      "icir": 0.013137,
+      "domain": "technical"
+    },
+    {
+      "name": "priceToSalesRatio",
+      "reason": "|ICIR|=0.0080 < 0.05 threshold",
+      "icir": -0.007966,
+      "domain": "fundamental"
+    },
+    {
+      "name": "rsi_change",
+      "reason": "|ICIR|=0.0079 < 0.05 threshold",
+      "icir": -0.007855,
+      "domain": "technical"
+    },
+    {
+      "name": "eps_revision",
+      "reason": "|ICIR|=0.0063 < 0.05 threshold",
+      "icir": 0.006348,
+      "domain": "analyst"
+    },
+    {
+      "name": "vol_regime",
+      "reason": "|ICIR|=0.0054 < 0.05 threshold",
+      "icir": -0.005447,
+      "domain": "technical"
+    },
+    {
+      "name": "ma20",
+      "reason": "|r|=0.9990 > 0.8 with ma5 (ICIR 0.2219 > 0.2123)",
+      "icir": -0.212251,
+      "domain": "technical",
+      "correlated_with": "ma5",
+      "r": 0.9990262179280515
+    },
+    {
+      "name": "ma60",
+      "reason": "|r|=0.9961 > 0.8 with ma5 (ICIR 0.2219 > 0.2053)",
+      "icir": -0.205349,
+      "domain": "technical",
+      "correlated_with": "ma5",
+      "r": 0.9960694119746245
+    },
+    {
+      "name": "currentRatio",
+      "reason": "|r|=0.9048 > 0.8 with quickRatio (ICIR 0.2298 > 0.1977)",
+      "icir": 0.197735,
+      "domain": "fundamental",
+      "correlated_with": "quickRatio",
+      "r": 0.9047885057925634
+    },
+    {
+      "name": "price_position",
+      "reason": "|r|=0.9138 > 0.8 with dd_60 (ICIR 0.1687 > 0.1171)",
+      "icir": -0.117114,
+      "domain": "technical",
+      "correlated_with": "dd_60",
+      "r": 0.9137788861643781
+    },
+    {
+      "name": "macd_signal",
+      "reason": "|r|=0.9273 > 0.8 with macd (ICIR 0.1142 > 0.1137)",
+      "icir": -0.113722,
+      "domain": "technical",
+      "correlated_with": "macd",
+      "r": 0.9272599924465157
+    },
+    {
+      "name": "operatingProfitMargin",
+      "reason": "|r|=0.8590 > 0.8 with netProfitMargin (ICIR 0.1004 > 0.0996)",
+      "icir": -0.099602,
+      "domain": "fundamental",
+      "correlated_with": "netProfitMargin",
+      "r": 0.8589818109333348
+    },
+    {
+      "name": "bb_std",
+      "reason": "|r|=0.8295 > 0.8 with ma5 (ICIR 0.2219 > 0.0751)",
+      "icir": -0.075098,
+      "domain": "technical",
+      "correlated_with": "ma5",
+      "r": 0.8295306919586193
+    },
+    {
+      "name": "ma_bias20",
+      "reason": "|r|=0.8059 > 0.8 with momentum_1m (ICIR 0.0713 > 0.0704)",
+      "icir": -0.0704,
+      "domain": "technical",
+      "correlated_with": "momentum_1m",
+      "r": 0.8059359611485555
+    },
+    {
+      "name": "ret20",
+      "reason": "|r|=0.9670 > 0.8 with momentum_1m (ICIR 0.0713 > 0.0678)",
+      "icir": -0.067779,
+      "domain": "technical",
+      "correlated_with": "momentum_1m",
+      "r": 0.9669868897532171
+    },
+    {
+      "name": "ret30",
+      "reason": "|r|=0.8332 > 0.8 with macd (ICIR 0.1142 > 0.0655)",
+      "icir": -0.065511,
+      "domain": "technical",
+      "correlated_with": "macd",
+      "r": 0.8332431306926726
+    },
+    {
+      "name": "ret10",
+      "reason": "|r|=0.8013 > 0.8 with bb_pos (ICIR 0.0792 > 0.0598)",
+      "icir": -0.059818,
+      "domain": "technical",
+      "correlated_with": "bb_pos",
+      "r": 0.8013098510935973
+    },
+    {
+      "name": "rsi14",
+      "reason": "|r|=0.8276 > 0.8 with bb_pos (ICIR 0.0792 > 0.0585)",
+      "icir": -0.058517,
+      "domain": "technical",
+      "correlated_with": "bb_pos",
+      "r": 0.8275620588414424
+    }
+  ],
+  "summary": {
+    "total_selected": 46,
+    "total_removed": 25,
+    "total_in_ic_analysis": 69,
+    "by_domain": {
+      "fundamental": 19,
+      "technical": 22,
+      "analyst": 3,
+      "news": 2
+    },
+    "by_domain_removed": {
+      "technical": 18,
+      "fundamental": 5,
+      "analyst": 2
+    },
+    "pruning_parameters": {
+      "weak_threshold": 0.05,
+      "correlation_threshold": 0.8,
+      "ic_method": "Spearman rank correlation",
+      "target": "fwd_ret_30d"
+    }
+  }
+}

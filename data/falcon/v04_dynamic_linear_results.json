@@ -1,0 +1,197 @@
+{
+  "model": "T3.1 Dynamic Linear Model (IC-Adaptive Weights)",
+  "params": {
+    "train_years": 5,
+    "test_months": 6,
+    "hold_days": 30,
+    "top_n": 10,
+    "cost": 0.001,
+    "stop_loss": -0.15,
+    "ic_lookback_months": 6,
+    "ic_min_dates": 40,
+    "min_factor_coverage": 0.3
+  },
+  "summary": {
+    "wf_sharpe": 1.668,
+    "wf_max_dd": -0.2219,
+    "wf_cagr": 0.5934,
+    "wf_win_rate": 0.592,
+    "wf_total_trades": 201,
+    "wf_n_windows": 5,
+    "wf_failed_windows": 4,
+    "wf_positive_sharpe_pct": 1.0,
+    "wf_sharpe_std": 0.76,
+    "wf_recent_sharpes": [
+      0.708,
+      1.988,
+      1.495
+    ],
+    "wf_all_sharpes": [
+      1.207,
+      2.941,
+      0.708,
+      1.988,
+      1.495
+    ],
+    "wf_all_cagrs": [
+      0.2579,
+      1.6169,
+      0.1424,
+      0.4559,
+      0.4938
+    ],
+    "wf_all_max_dds": [
+      -0.1575,
+      -0.1963,
+      -0.2219,
+      -0.116,
+      -0.1601
+    ],
+    "wf_all_win_rates": [
+      0.675,
+      0.55,
+      0.5,
+      0.725,
+      0.512
+    ],
+    "v031_baseline_sharpe": 1.161,
+    "improvement_vs_v031": 0.507
+  },
+  "windows": [
+    {
+      "index": 0,
+      "period": "2021-07-05 \u2192 2022-01-05",
+      "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2022: 0.7368421052631579}"
+    },
+    {
+      "index": 1,
+      "period": "2022-01-05 \u2192 2022-07-05",
+      "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'trend_accel': 0.5318850494357336}"
+    },
+    {
+      "index": 2,
+      "period": "2022-07-05 \u2192 2023-01-05",
+      "sharpe": 1.207,
+      "max_dd": -0.1575,
+      "cagr": 0.2579,
+      "win_rate": 0.675,
+      "n_trades": 40,
+      "n_factors": 57,
+      "weights": {
+        "price_position": -0.0497,
+        "ret60": -0.0471,
+        "avg_body": -0.0443,
+        "vol20": -0.0413,
+        "dividendYieldPercentage": 0.041,
+        "freeCashFlowOperatingCashFlowRatio": -0.0363,
+        "range_ratio": -0.0341,
+        "ma_cross_20_60": -0.0338,
+        "vol5": -0.0334,
+        "inventoryTurnover": 0.0296
+      },
+      "baseline_sharpe": 0.661
+    },
+    {
+      "index": 3,
+      "period": "2023-01-05 \u2192 2023-07-05",
+      "sharpe": 2.941,
+      "max_dd": -0.1963,
+      "cagr": 1.6169,
+      "win_rate": 0.55,
+      "n_trades": 40,
+      "n_factors": 64,
+      "weights": {
+        "dd_60": -0.0363,
+        "priceToSalesRatio": -0.033,
+        "enterpriseValueMultiple": -0.0329,
+        "price_position": -0.0304,
+        "vol20": 0.0302,
+        "ret_quality": -0.0281,
+        "priceToEarningsRatio": -0.0274,
+        "ma_align": -0.0265,
+        "avg_body": 0.026,
+        "macd": -0.0255
+      },
+      "baseline_sharpe": 1.753
+    },
+    {
+      "index": 4,
+      "period": "2023-07-05 \u2192 2024-01-05",
+      "sharpe": 0.708,
+      "max_dd": -0.2219,
+      "cagr": 0.1424,
+      "win_rate": 0.5,
+      "n_trades": 40,
+      "n_factors": 68,
+      "weights": {
+        "dividendYieldPercentage": -0.0559,
+        "avg_body": 0.0471,
+        "dividendPayoutRatio": -0.0457,
+        "vol20": 0.0448,
+        "priceToFreeCashFlowRatio": 0.0375,
+        "vol5": 0.0375,
+        "assetTurnover": 0.0374,
+        "currentRatio": 0.0358,
+        "quickRatio": 0.0322,
+        "range_ratio": 0.0316
+      },
+      "baseline_sharpe": 1.202
+    },
+    {
+      "index": 5,
+      "period": "2024-01-05 \u2192 2024-07-05",
+      "sharpe": 1.988,
+      "max_dd": -0.116,
+      "cagr": 0.4559,
+      "win_rate": 0.725,
+      "n_trades": 40,
+      "n_factors": 69,
+      "weights": {
+        "freeCashFlowOperatingCashFlowRatio": 0.0542,
+        "dividendPayoutRatio": -0.0411,
+        "inventoryTurnover": -0.0399,
+        "receivablesTurnover": -0.0363,
+        "dividendYieldPercentage": -0.0339,
+        "momentum_6m": 0.0332,
+        "mom_divergence": -0.0323,
+        "quickRatio": 0.0321,
+        "grossProfitMargin_qoq": -0.0312,
+        "operatingProfitMargin_qoq": -0.0311
+      },
+      "baseline_sharpe": 2.045
+    },
+    {
+      "index": 6,
+      "period": "2024-07-05 \u2192 2025-01-05",
+      "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.10810810810810811}"
+    },
+    {
+      "index": 7,
+      "period": "2025-01-05 \u2192 2025-07-05",
+      "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.6358974358974359}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'price_position': 0.532258064516129, 'ret30': 0.7741935483870968, 'ret60': 0.532258064516129, 'ret90': 0.2903225806451613, 'momentum_6m': 0.0, 'dd_60': 0.532258064516129, 'priceToBookRatio': 0.0, 'priceToSalesRatio': 0.0, 'grossProfitMargin': 0.0, 'debtToEquityRatio': 0.0, 'quickRatio': 0.0, 'financialLeverageRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'num_analysts_eps': 0.0, 'num_analysts_rev': 0.0}"
+    },
+    {
+      "index": 8,
+      "period": "2025-07-05 \u2192 2026-01-05",
+      "sharpe": 1.495,
+      "max_dd": -0.1601,
+      "cagr": 0.4938,
+      "win_rate": 0.512,
+      "n_trades": 41,
+      "n_factors": 36,
+      "weights": {
+        "dd_60": -0.0911,
+        "vol20": 0.0831,
+        "bb_width": 0.0749,
+        "ret60": -0.0697,
+        "ma_cross_20_60": -0.0659,
+        "trend_accel": 0.0483,
+        "vol5": 0.0387,
+        "macd_signal": -0.0385,
+        "ma60": -0.0367,
+        "avg_body": 0.0354
+      },
+      "baseline_sharpe": 2.018
+    }
+  ]
+}

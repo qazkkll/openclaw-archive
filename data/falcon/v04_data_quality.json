@@ -1,0 +1,95 @@
+{
+  "total_rows": 1177880,
+  "total_tickers": 476,
+  "date_range": [
+    "2016-07-05",
+    "2026-06-26"
+  ],
+  "n_factors": 78,
+  "n_news_features": 6,
+  "n_targets": 4,
+  "all_checks_pass": false,
+  "by_year": {
+    "2016": {
+      "tickers": 455,
+      "trading_days": 126,
+      "coverage_pct": 50.0,
+      "rows": 57095,
+      "max_date_gap_days": 4,
+      "FAIL_coverage": true
+    },
+    "2017": {
+      "tickers": 458,
+      "trading_days": 251,
+      "coverage_pct": 99.6,
+      "rows": 114768,
+      "max_date_gap_days": 4
+    },
+    "2018": {
+      "tickers": 461,
+      "trading_days": 251,
+      "coverage_pct": 99.6,
+      "rows": 115329,
+      "max_date_gap_days": 4
+    },
+    "2019": {
+      "tickers": 468,
+      "trading_days": 252,
+      "coverage_pct": 100.0,
+      "rows": 117309,
+      "max_date_gap_days": 4
+    },
+    "2020": {
+      "tickers": 473,
+      "trading_days": 253,
+      "coverage_pct": 100.4,
+      "rows": 118900,
+      "max_date_gap_days": 4
+    },
+    "2021": {
+      "tickers": 476,
+      "trading_days": 252,
+      "coverage_pct": 100.0,
+      "rows": 119670,
+      "max_date_gap_days": 4
+    },
+    "2022": {
+      "tickers": 476,
+      "trading_days": 251,
+      "coverage_pct": 99.6,
+      "rows": 119334,
+      "max_date_gap_days": 132,
+      "FAIL_gap": true
+    },
+    "2023": {
+      "tickers": 476,
+      "trading_days": 250,
+      "coverage_pct": 99.2,
+      "rows": 118999,
+      "max_date_gap_days": 4
+    },
+    "2024": {
+      "tickers": 476,
+      "trading_days": 252,
+      "coverage_pct": 100.0,
+      "rows": 119951,
+      "max_date_gap_days": 4
+    },
+    "2025": {
+      "tickers": 476,
+      "trading_days": 250,
+      "coverage_pct": 99.2,
+      "rows": 119000,
+      "max_date_gap_days": 4
+    },
+    "2026": {
+      "tickers": 476,
+      "trading_days": 121,
+      "coverage_pct": 48.0,
+      "rows": 57525,
+      "max_date_gap_days": 104,
+      "FAIL_coverage": true,
+      "FAIL_gap": true
+    }
+  }
+}

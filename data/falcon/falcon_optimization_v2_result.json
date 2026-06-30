@@ -1,0 +1,3735 @@
+{
+  "timestamp": "2026-06-30T14:06:17.436760",
+  "methodology": "Proper Walk-Forward: 2yr train \u2192 optimize \u2192 6mo test (true OOS)",
+  "data_source": "features_v02.parquet (PIT corrected, 2016-2026, 476 tickers)",
+  "ic_analysis": {
+    "analyst": {
+      "ic_mean": 0.0197,
+      "ic_std": 0.0794,
+      "icir": 0.249,
+      "ic_positive_pct": 0.645,
+      "n_samples": 31
+    },
+    "balance": {
+      "ic_mean": 0.0137,
+      "ic_std": 0.1201,
+      "icir": 0.114,
+      "ic_positive_pct": 0.6,
+      "n_samples": 40
+    },
+    "buyback_yield": {
+      "ic_mean": 0.0195,
+      "ic_std": 0.1023,
+      "icir": 0.19,
+      "ic_positive_pct": 0.65,
+      "n_samples": 40
+    },
+    "capex_intensity": {
+      "ic_mean": 0.0355,
+      "ic_std": 0.1122,
+      "icir": 0.316,
+      "ic_positive_pct": 0.6,
+      "n_samples": 40
+    },
+    "cash_to_assets": {
+      "ic_mean": 0.0489,
+      "ic_std": 0.1672,
+      "icir": 0.292,
+      "ic_positive_pct": 0.675,
+      "n_samples": 40
+    },
+    "cashflow": {
+      "ic_mean": 0.0254,
+      "ic_std": 0.0919,
+      "icir": 0.276,
+      "ic_positive_pct": 0.625,
+      "n_samples": 40
+    },
+    "debt_to_equity": {
+      "ic_mean": -0.0001,
+      "ic_std": 0.0748,
+      "icir": -0.001,
+      "ic_positive_pct": 0.55,
+      "n_samples": 40
+    },
+    "earnings": {
+      "ic_mean": 0.0098,
+      "ic_std": 0.0934,
+      "icir": 0.105,
+      "ic_positive_pct": 0.558,
+      "n_samples": 43
+    },
+    "ebitda_margin": {
+      "ic_mean": -0.0249,
+      "ic_std": 0.1163,
+      "icir": -0.214,
+      "ic_positive_pct": 0.425,
+      "n_samples": 40
+    },
+    "equity_ratio": {
+      "ic_mean": -0.0187,
+      "ic_std": 0.0865,
+      "icir": -0.216,
+      "ic_positive_pct": 0.425,
+      "n_samples": 40
+    },
+    "fcf_margin": {
+      "ic_mean": 0.0135,
+      "ic_std": 0.0862,
+      "icir": 0.156,
+      "ic_positive_pct": 0.55,
+      "n_samples": 40
+    },
+    "fcf_to_income": {
+      "ic_mean": 0.0259,
+      "ic_std": 0.0683,
+      "icir": 0.379,
+      "ic_positive_pct": 0.6,
+      "n_samples": 40
+    },
+    "fund_growth": {
+      "ic_mean": 0.048,
+      "ic_std": 0.0903,
+      "icir": 0.532,
+      "ic_positive_pct": 0.75,
+      "n_samples": 40
+    },
+    "fund_metric": {
+      "ic_mean": 0.0161,
+      "ic_std": 0.1346,
+      "icir": 0.12,
+      "ic_positive_pct": 0.65,
+      "n_samples": 40
+    },
+    "fund_ratio": {
+      "ic_mean": -0.0069,
+      "ic_std": 0.1536,
+      "icir": -0.045,
+      "ic_positive_pct": 0.45,
+      "n_samples": 40
+    },
+    "grade_sentiment": {
+      "ic_mean": 0.014,
+      "ic_std": 0.095,
+      "icir": 0.147,
+      "ic_positive_pct": 0.567,
+      "n_samples": 30
+    },
+    "gross_margin": {
+      "ic_mean": -0.0071,
+      "ic_std": 0.1231,
+      "icir": -0.057,
+      "ic_positive_pct": 0.5,
+      "n_samples": 40
+    },
+    "gross_margin_delta": {
+      "ic_mean": 0.0079,
+      "ic_std": 0.0855,
+      "icir": 0.092,
+      "ic_positive_pct": 0.528,
+      "n_samples": 36
+    },
+    "income_stmt": {
+      "ic_mean": -0.0067,
+      "ic_std": 0.1152,
+      "icir": -0.058,
+      "ic_positive_pct": 0.475,
+      "n_samples": 40
+    },
+    "insider": {
+      "ic_mean": 0.0136,
+      "ic_std": 0.0899,
+      "icir": 0.151,
+      "ic_positive_pct": 0.632,
+      "n_samples": 38
+    },
+    "net_debt_to_assets": {
+      "ic_mean": 0.0227,
+      "ic_std": 0.1236,
+      "icir": 0.183,
+      "ic_positive_pct": 0.575,
+      "n_samples": 40
+    },
+    "net_margin": {
+      "ic_mean": -0.0077,
+      "ic_std": 0.0917,
+      "icir": -0.084,
+      "ic_positive_pct": 0.525,
+      "n_samples": 40
+    },
+    "ocf_margin": {
+      "ic_mean": -0.009,
+      "ic_std": 0.1107,
+      "icir": -0.081,
+      "ic_positive_pct": 0.525,
+      "n_samples": 40
+    },
+    "operating_margin": {
+      "ic_mean": -0.0148,
+      "ic_std": 0.104,
+      "icir": -0.143,
+      "ic_positive_pct": 0.4,
+      "n_samples": 40
+    },
+    "revenue_growth_yoy": {
+      "ic_mean": 0.0185,
+      "ic_std": 0.152,
+      "icir": 0.121,
+      "ic_positive_pct": 0.528,
+      "n_samples": 36
+    },
+    "tech": {
+      "ic_mean": 0.0417,
+      "ic_std": 0.1562,
+      "icir": 0.267,
+      "ic_positive_pct": 0.571,
+      "n_samples": 42
+    },
+    "valuation": {
+      "ic_mean": -0.0215,
+      "ic_std": 0.1128,
+      "icir": -0.191,
+      "ic_positive_pct": 0.512,
+      "n_samples": 43
+    }
+  },
+  "factor_groups_used": [
+    "analyst",
+    "balance",
+    "buyback_yield",
+    "capex_intensity",
+    "cash_to_assets",
+    "cashflow",
+    "earnings",
+    "ebitda_margin",
+    "equity_ratio",
+    "fcf_margin",
+    "fcf_to_income",
+    "fund_growth",
+    "fund_metric",
+    "fund_ratio",
+    "grade_sentiment",
+    "gross_margin",
+    "gross_margin_delta",
+    "insider",
+    "net_debt_to_assets",
+    "net_margin",
+    "ocf_margin",
+    "operating_margin",
+    "revenue_growth_yoy",
+    "tech",
+    "valuation"
+  ],
+  "results": {
+    "60d_20": {
+      "hold_days": 60,
+      "top_n": 20,
+      "oos_sharpe": 0.953,
+      "oos_cagr": 0.1056,
+      "oos_max_dd": -0.5514,
+      "oos_win_rate": 0.717,
+      "oos_n_periods": 46,
+      "train_sharpe": 2.247,
+      "overfit_ratio": 0.424,
+      "weight_stability": {
+        "analyst": {
+          "mean": 0.0629,
+          "std": 0.0599,
+          "min": 0.0,
+          "max": 0.2217
+        },
+        "balance": {
+          "mean": 0.0316,
+          "std": 0.0456,
+          "min": 0.0,
+          "max": 0.1826
+        },
+        "buyback_yield": {
+          "mean": 0.0958,
+          "std": 0.0784,
+          "min": 0.0051,
+          "max": 0.2575
+        },
+        "capex_intensity": {
+          "mean": 0.0762,
+          "std": 0.0698,
+          "min": 0.0,
+          "max": 0.2407
+        },
+        "cash_to_assets": {
+          "mean": 0.027,
+          "std": 0.0345,
+          "min": 0.0,
+          "max": 0.1461
+        },
+        "cashflow": {
+          "mean": 0.0426,
+          "std": 0.0619,
+          "min": 0.0,
+          "max": 0.2755
+        },
+        "earnings": {
+          "mean": 0.0464,
+          "std": 0.0655,
+          "min": 0.0,
+          "max": 0.2107
+        },
+        "ebitda_margin": {
+          "mean": 0.0448,
+          "std": 0.0541,
+          "min": 0.0,
+          "max": 0.1841
+        },
+        "equity_ratio": {
+          "mean": 0.0308,
+          "std": 0.0318,
+          "min": 0.0,
+          "max": 0.1346
+        },
+        "fcf_margin": {
+          "mean": 0.027,
+          "std": 0.021,
+          "min": 0.0,
+          "max": 0.0907
+        },
+        "fcf_to_income": {
+          "mean": 0.0522,
+          "std": 0.0878,
+          "min": 0.0,
+          "max": 0.302
+        },
+        "fund_growth": {
+          "mean": 0.0574,
+          "std": 0.0742,
+          "min": 0.0,
+          "max": 0.3078
+        },
+        "fund_metric": {
+          "mean": 0.0493,
+          "std": 0.0758,
+          "min": 0.0065,
+          "max": 0.3242
+        },
+        "fund_ratio": {
+          "mean": 0.0288,
+          "std": 0.0302,
+          "min": 0.0,
+          "max": 0.1273
+        },
+        "grade_sentiment": {
+          "mean": 0.0397,
+          "std": 0.0471,
+          "min": 0.0,
+          "max": 0.1992
+        },
+        "gross_margin": {
+          "mean": 0.0183,
+          "std": 0.011,
+          "min": 0.0,
+          "max": 0.0397
+        },
+        "gross_margin_delta": {
+          "mean": 0.0772,
+          "std": 0.1027,
+          "min": 0.0051,
+          "max": 0.359
+        },
+        "insider": {
+          "mean": 0.0339,
+          "std": 0.0454,
+          "min": 0.0,
+          "max": 0.2011
+        },
+        "net_debt_to_assets": {
+          "mean": 0.0196,
+          "std": 0.0128,
+          "min": 0.0,
+          "max": 0.0399
+        },
+        "net_margin": {
+          "mean": 0.027,
+          "std": 0.0318,
+          "min": 0.0,
+          "max": 0.1417
+        },
+        "ocf_margin": {
+          "mean": 0.0235,
+          "std": 0.0244,
+          "min": 0.0,
+          "max": 0.1069
+        },
+        "operating_margin": {
+          "mean": 0.0138,
+          "std": 0.0135,
+          "min": 0.0,
+          "max": 0.0397
+        },
+        "revenue_growth_yoy": {
+          "mean": 0.0243,
+          "std": 0.0136,
+          "min": 0.0051,
+          "max": 0.0503
+        },
+        "tech": {
+          "mean": 0.0222,
+          "std": 0.0121,
+          "min": 0.0051,
+          "max": 0.0485
+        },
+        "valuation": {
+          "mean": 0.0279,
+          "std": 0.0378,
+          "min": 0.0,
+          "max": 0.1681
+        }
+      }
+    },
+    "60d_10": {
+      "hold_days": 60,
+      "top_n": 10,
+      "oos_sharpe": 1.163,
+      "oos_cagr": 0.1351,
+      "oos_max_dd": -0.4852,
+      "oos_win_rate": 0.717,
+      "oos_n_periods": 46,
+      "train_sharpe": 2.666,
+      "overfit_ratio": 0.436,
+      "weight_stability": {
+        "analyst": {
+          "mean": 0.0827,
+          "std": 0.0888,
+          "min": 0.0,
+          "max": 0.2938
+        },
+        "balance": {
+          "mean": 0.0865,
+          "std": 0.0908,
+          "min": 0.0,
+          "max": 0.2811
+        },
+        "buyback_yield": {
+          "mean": 0.0392,
+          "std": 0.0435,
+          "min": 0.0,
+          "max": 0.1792
+        },
+        "capex_intensity": {
+          "mean": 0.0598,
+          "std": 0.0558,
+          "min": 0.0,
+          "max": 0.1727
+        },
+        "cash_to_assets": {
+          "mean": 0.0225,
+          "std": 0.0205,
+          "min": 0.0,
+          "max": 0.087
+        },
+        "cashflow": {
+          "mean": 0.0635,
+          "std": 0.0732,
+          "min": 0.0,
+          "max": 0.2498
+        },
+        "earnings": {
+          "mean": 0.0242,
+          "std": 0.0358,
+          "min": 0.0,
+          "max": 0.1218
+        },
+        "ebitda_margin": {
+          "mean": 0.0488,
+          "std": 0.0625,
+          "min": 0.0,
+          "max": 0.2475
+        },
+        "equity_ratio": {
+          "mean": 0.027,
+          "std": 0.0223,
+          "min": 0.0,
+          "max": 0.0932
+        },
+        "fcf_margin": {
+          "mean": 0.0318,
+          "std": 0.0364,
+          "min": 0.0,
+          "max": 0.1556
+        },
+        "fcf_to_income": {
+          "mean": 0.0322,
+          "std": 0.0479,
+          "min": 0.0,
+          "max": 0.2094
+        },
+        "fund_growth": {
+          "mean": 0.0317,
+          "std": 0.0406,
+          "min": 0.0,
+          "max": 0.1635
+        },
+        "fund_metric": {
+          "mean": 0.0713,
+          "std": 0.0859,
+          "min": 0.0,
+          "max": 0.2945
+        },
+        "fund_ratio": {
+          "mean": 0.0358,
+          "std": 0.0374,
+          "min": 0.0,
+          "max": 0.1545
+        },
+        "grade_sentiment": {
+          "mean": 0.0226,
+          "std": 0.0243,
+          "min": 0.0,
+          "max": 0.1028
+        },
+        "gross_margin": {
+          "mean": 0.0191,
+          "std": 0.0111,
+          "min": 0.0,
+          "max": 0.0396
+        },
+        "gross_margin_delta": {
+          "mean": 0.028,
+          "std": 0.0275,
+          "min": 0.0,
+          "max": 0.1241
+        },
+        "insider": {
+          "mean": 0.0335,
+          "std": 0.0344,
+          "min": 0.0,
+          "max": 0.1579
+        },
+        "net_debt_to_assets": {
+          "mean": 0.0227,
+          "std": 0.0161,
+          "min": 0.0,
+          "max": 0.0684
+        },
+        "net_margin": {
+          "mean": 0.0202,
+          "std": 0.0135,
+          "min": 0.0,
+          "max": 0.045
+        },
+        "ocf_margin": {
+          "mean": 0.0249,
+          "std": 0.0184,
+          "min": 0.0,
+          "max": 0.0856
+        },
+        "operating_margin": {
+          "mean": 0.0326,
+          "std": 0.0276,
+          "min": 0.0,
+          "max": 0.1052
+        },
+        "revenue_growth_yoy": {
+          "mean": 0.0746,
+          "std": 0.0899,
+          "min": 0.0,
+          "max": 0.2506
+        },
+        "tech": {
+          "mean": 0.0305,
+          "std": 0.0314,
+          "min": 0.0,
+          "max": 0.1432
+        },
+        "valuation": {
+          "mean": 0.0344,
+          "std": 0.0299,
+          "min": 0.0089,
+          "max": 0.1325
+        }
+      }
+    },
+    "30d_20": {
+      "hold_days": 30,
+      "top_n": 20,
+      "oos_sharpe": 1.034,
+      "oos_cagr": 0.1711,
+      "oos_max_dd": -0.3383,
+      "oos_win_rate": 0.662,
+      "oos_n_periods": 77,
+      "train_sharpe": 1.518,
+      "overfit_ratio": 0.681,
+      "weight_stability": {
+        "analyst": {
+          "mean": 0.1005,
+          "std": 0.073,
+          "min": 0.0,
+          "max": 0.2463
+        },
+        "balance": {
+          "mean": 0.085,
+          "std": 0.1027,
+          "min": 0.0,
+          "max": 0.3443
+        },
+        "buyback_yield": {
+          "mean": 0.0903,
+          "std": 0.0835,
+          "min": 0.0,
+          "max": 0.2317
+        },
+        "capex_intensity": {
+          "mean": 0.0616,
+          "std": 0.0779,
+          "min": 0.0166,
+          "max": 0.3106
+        },
+        "cash_to_assets": {
+          "mean": 0.0429,
+          "std": 0.0617,
+          "min": 0.0,
+          "max": 0.2308
+        },
+        "cashflow": {
+          "mean": 0.0507,
+          "std": 0.0697,
+          "min": 0.0,
+          "max": 0.254
+        },
+        "earnings": {
+          "mean": 0.0696,
+          "std": 0.0862,
+          "min": 0.0,
+          "max": 0.3375
+        },
+        "ebitda_margin": {
+          "mean": 0.0249,
+          "std": 0.0353,
+          "min": 0.0,
+          "max": 0.1526
+        },
+        "equity_ratio": {
+          "mean": 0.0254,
+          "std": 0.0116,
+          "min": 0.0,
+          "max": 0.0495
+        },
+        "fcf_margin": {
+          "mean": 0.0207,
+          "std": 0.016,
+          "min": 0.0,
+          "max": 0.0491
+        },
+        "fcf_to_income": {
+          "mean": 0.0205,
+          "std": 0.0096,
+          "min": 0.0,
+          "max": 0.0343
+        },
+        "fund_growth": {
+          "mean": 0.0395,
+          "std": 0.062,
+          "min": 0.0,
+          "max": 0.2744
+        },
+        "fund_metric": {
+          "mean": 0.0387,
+          "std": 0.04,
+          "min": 0.0055,
+          "max": 0.1721
+        },
+        "fund_ratio": {
+          "mean": 0.021,
+          "std": 0.0124,
+          "min": 0.0,
+          "max": 0.052
+        },
+        "grade_sentiment": {
+          "mean": 0.0198,
+          "std": 0.0102,
+          "min": 0.0,
+          "max": 0.0343
+        },
+        "gross_margin": {
+          "mean": 0.0194,
+          "std": 0.0084,
+          "min": 0.0,
+          "max": 0.0338
+        },
+        "gross_margin_delta": {
+          "mean": 0.0325,
+          "std": 0.0288,
+          "min": 0.0055,
+          "max": 0.1248
+        },
+        "insider": {
+          "mean": 0.0356,
+          "std": 0.0464,
+          "min": 0.0055,
+          "max": 0.2112
+        },
+        "net_debt_to_assets": {
+          "mean": 0.0223,
+          "std": 0.0116,
+          "min": 0.0,
+          "max": 0.0499
+        },
+        "net_margin": {
+          "mean": 0.0386,
+          "std": 0.0663,
+          "min": 0.0,
+          "max": 0.2915
+        },
+        "ocf_margin": {
+          "mean": 0.0235,
+          "std": 0.0116,
+          "min": 0.0,
+          "max": 0.0433
+        },
+        "operating_margin": {
+          "mean": 0.0461,
+          "std": 0.0805,
+          "min": 0.0166,
+          "max": 0.3565
+        },
+        "revenue_growth_yoy": {
+          "mean": 0.0282,
+          "std": 0.0376,
+          "min": 0.0,
+          "max": 0.1692
+        },
+        "tech": {
+          "mean": 0.0193,
+          "std": 0.0104,
+          "min": 0.0,
+          "max": 0.0343
+        },
+        "valuation": {
+          "mean": 0.0234,
+          "std": 0.01,
+          "min": 0.0055,
+          "max": 0.0489
+        }
+      }
+    },
+    "30d_10": {
+      "hold_days": 30,
+      "top_n": 10,
+      "oos_sharpe": 0.943,
+      "oos_cagr": 0.1492,
+      "oos_max_dd": -0.3644,
+      "oos_win_rate": 0.688,
+      "oos_n_periods": 77,
+      "train_sharpe": 1.926,
+      "overfit_ratio": 0.49,
+      "weight_stability": {
+        "analyst": {
+          "mean": 0.1255,
+          "std": 0.1019,
+          "min": 0.0,
+          "max": 0.3179
+        },
+        "balance": {
+          "mean": 0.0481,
+          "std": 0.0624,
+          "min": 0.0,
+          "max": 0.1936
+        },
+        "buyback_yield": {
+          "mean": 0.0596,
+          "std": 0.0712,
+          "min": 0.0,
+          "max": 0.2515
+        },
+        "capex_intensity": {
+          "mean": 0.0218,
+          "std": 0.0193,
+          "min": 0.0,
+          "max": 0.0833
+        },
+        "cash_to_assets": {
+          "mean": 0.0716,
+          "std": 0.0737,
+          "min": 0.0069,
+          "max": 0.251
+        },
+        "cashflow": {
+          "mean": 0.0327,
+          "std": 0.0459,
+          "min": 0.0,
+          "max": 0.1752
+        },
+        "earnings": {
+          "mean": 0.0285,
+          "std": 0.022,
+          "min": 0.0,
+          "max": 0.0964
+        },
+        "ebitda_margin": {
+          "mean": 0.0461,
+          "std": 0.066,
+          "min": 0.0,
+          "max": 0.2861
+        },
+        "equity_ratio": {
+          "mean": 0.0482,
+          "std": 0.0589,
+          "min": 0.0,
+          "max": 0.2561
+        },
+        "fcf_margin": {
+          "mean": 0.0207,
+          "std": 0.0217,
+          "min": 0.0,
+          "max": 0.0948
+        },
+        "fcf_to_income": {
+          "mean": 0.0256,
+          "std": 0.023,
+          "min": 0.0,
+          "max": 0.0957
+        },
+        "fund_growth": {
+          "mean": 0.0324,
+          "std": 0.0184,
+          "min": 0.0107,
+          "max": 0.0855
+        },
+        "fund_metric": {
+          "mean": 0.0565,
+          "std": 0.0639,
+          "min": 0.0,
+          "max": 0.1967
+        },
+        "fund_ratio": {
+          "mean": 0.0445,
+          "std": 0.0565,
+          "min": 0.0,
+          "max": 0.224
+        },
+        "grade_sentiment": {
+          "mean": 0.0272,
+          "std": 0.0207,
+          "min": 0.0,
+          "max": 0.0898
+        },
+        "gross_margin": {
+          "mean": 0.0208,
+          "std": 0.0114,
+          "min": 0.0,
+          "max": 0.0471
+        },
+        "gross_margin_delta": {
+          "mean": 0.0314,
+          "std": 0.0421,
+          "min": 0.0,
+          "max": 0.1888
+        },
+        "insider": {
+          "mean": 0.0343,
+          "std": 0.0315,
+          "min": 0.0,
+          "max": 0.1306
+        },
+        "net_debt_to_assets": {
+          "mean": 0.0228,
+          "std": 0.0092,
+          "min": 0.0069,
+          "max": 0.0382
+        },
+        "net_margin": {
+          "mean": 0.0271,
+          "std": 0.0349,
+          "min": 0.0,
+          "max": 0.1536
+        },
+        "ocf_margin": {
+          "mean": 0.0261,
+          "std": 0.0186,
+          "min": 0.0069,
+          "max": 0.0905
+        },
+        "operating_margin": {
+          "mean": 0.0281,
+          "std": 0.0262,
+          "min": 0.0069,
+          "max": 0.1244
+        },
+        "revenue_growth_yoy": {
+          "mean": 0.0605,
+          "std": 0.0724,
+          "min": 0.0145,
+          "max": 0.2843
+        },
+        "tech": {
+          "mean": 0.0188,
+          "std": 0.0135,
+          "min": 0.0,
+          "max": 0.0485
+        },
+        "valuation": {
+          "mean": 0.0411,
+          "std": 0.0378,
+          "min": 0.0069,
+          "max": 0.1623
+        }
+      }
+    },
+    "V0.3.1_baseline": {
+      "hold_days": 60,
+      "top_n": 20,
+      "oos_sharpe": 0.785,
+      "oos_cagr": 0.0815,
+      "oos_max_dd": -0.5332,
+      "oos_win_rate": 0.688,
+      "train_sharpe": 1.643,
+      "overfit_ratio": 0.478
+    }
+  },
+  "detailed_results": {
+    "60d_20": {
+      "hold_days": 60,
+      "top_n": 20,
+      "oos_sharpe": 0.953,
+      "oos_cagr": 0.1056,
+      "oos_max_dd": -0.5514,
+      "oos_win_rate": 0.717,
+      "oos_n_periods": 46,
+      "train_sharpe": 2.247,
+      "overfit_ratio": 0.424,
+      "weight_stability": {
+        "analyst": {
+          "mean": 0.0629,
+          "std": 0.0599,
+          "min": 0.0,
+          "max": 0.2217
+        },
+        "balance": {
+          "mean": 0.0316,
+          "std": 0.0456,
+          "min": 0.0,
+          "max": 0.1826
+        },
+        "buyback_yield": {
+          "mean": 0.0958,
+          "std": 0.0784,
+          "min": 0.0051,
+          "max": 0.2575
+        },
+        "capex_intensity": {
+          "mean": 0.0762,
+          "std": 0.0698,
+          "min": 0.0,
+          "max": 0.2407
+        },
+        "cash_to_assets": {
+          "mean": 0.027,
+          "std": 0.0345,
+          "min": 0.0,
+          "max": 0.1461
+        },
+        "cashflow": {
+          "mean": 0.0426,
+          "std": 0.0619,
+          "min": 0.0,
+          "max": 0.2755
+        },
+        "earnings": {
+          "mean": 0.0464,
+          "std": 0.0655,
+          "min": 0.0,
+          "max": 0.2107
+        },
+        "ebitda_margin": {
+          "mean": 0.0448,
+          "std": 0.0541,
+          "min": 0.0,
+          "max": 0.1841
+        },
+        "equity_ratio": {
+          "mean": 0.0308,
+          "std": 0.0318,
+          "min": 0.0,
+          "max": 0.1346
+        },
+        "fcf_margin": {
+          "mean": 0.027,
+          "std": 0.021,
+          "min": 0.0,
+          "max": 0.0907
+        },
+        "fcf_to_income": {
+          "mean": 0.0522,
+          "std": 0.0878,
+          "min": 0.0,
+          "max": 0.302
+        },
+        "fund_growth": {
+          "mean": 0.0574,
+          "std": 0.0742,
+          "min": 0.0,
+          "max": 0.3078
+        },
+        "fund_metric": {
+          "mean": 0.0493,
+          "std": 0.0758,
+          "min": 0.0065,
+          "max": 0.3242
+        },
+        "fund_ratio": {
+          "mean": 0.0288,
+          "std": 0.0302,
+          "min": 0.0,
+          "max": 0.1273
+        },
+        "grade_sentiment": {
+          "mean": 0.0397,
+          "std": 0.0471,
+          "min": 0.0,
+          "max": 0.1992
+        },
+        "gross_margin": {
+          "mean": 0.0183,
+          "std": 0.011,
+          "min": 0.0,
+          "max": 0.0397
+        },
+        "gross_margin_delta": {
+          "mean": 0.0772,
+          "std": 0.1027,
+          "min": 0.0051,
+          "max": 0.359
+        },
+        "insider": {
+          "mean": 0.0339,
+          "std": 0.0454,
+          "min": 0.0,
+          "max": 0.2011
+        },
+        "net_debt_to_assets": {
+          "mean": 0.0196,
+          "std": 0.0128,
+          "min": 0.0,
+          "max": 0.0399
+        },
+        "net_margin": {
+          "mean": 0.027,
+          "std": 0.0318,
+          "min": 0.0,
+          "max": 0.1417
+        },
+        "ocf_margin": {
+          "mean": 0.0235,
+          "std": 0.0244,
+          "min": 0.0,
+          "max": 0.1069
+        },
+        "operating_margin": {
+          "mean": 0.0138,
+          "std": 0.0135,
+          "min": 0.0,
+          "max": 0.0397
+        },
+        "revenue_growth_yoy": {
+          "mean": 0.0243,
+          "std": 0.0136,
+          "min": 0.0051,
+          "max": 0.0503
+        },
+        "tech": {
+          "mean": 0.0222,
+          "std": 0.0121,
+          "min": 0.0051,
+          "max": 0.0485
+        },
+        "valuation": {
+          "mean": 0.0279,
+          "std": 0.0378,
+          "min": 0.0,
+          "max": 0.1681
+        }
+      },
+      "window_details": [
+        {
+          "window": 0,
+          "train": "2016-01-04~2018-01-03",
+          "test": "2018-01-04~2018-07-03",
+          "train_sharpe": 5.151,
+          "test_sharpe": -0.457,
+          "weights": {
+            "analyst": 0.0397,
+            "balance": 0.0397,
+            "buyback_yield": 0.0397,
+            "capex_intensity": 0.0397,
+            "cash_to_assets": 0.0397,
+            "cashflow": 0.0397,
+            "earnings": 0.0476,
+            "ebitda_margin": 0.0397,
+            "equity_ratio": 0.0397,
+            "fcf_margin": 0.0397,
+            "fcf_to_income": 0.0397,
+            "fund_growth": 0.0397,
+            "fund_metric": 0.0397,
+            "fund_ratio": 0.0397,
+            "grade_sentiment": 0.0397,
+            "gross_margin": 0.0397,
+            "gross_margin_delta": 0.0397,
+            "insider": 0.0397,
+            "net_debt_to_assets": 0.0397,
+            "net_margin": 0.0397,
+            "ocf_margin": 0.0397,
+            "operating_margin": 0.0397,
+            "revenue_growth_yoy": 0.0397,
+            "tech": 0.0397,
+            "valuation": 0.0397
+          }
+        },
+        {
+          "window": 1,
+          "train": "2016-07-05~2018-07-03",
+          "test": "2018-07-05~2019-01-03",
+          "train_sharpe": 3.64,
+          "test_sharpe": 3.146,
+          "weights": {
+            "analyst": 0.0309,
+            "balance": 0.0309,
+            "buyback_yield": 0.2575,
+            "capex_intensity": 0.0309,
+            "cash_to_assets": 0.0309,
+            "cashflow": 0.0309,
+            "earnings": 0.0309,
+            "ebitda_margin": 0.0309,
+            "equity_ratio": 0.0309,
+            "fcf_margin": 0.0309,
+            "fcf_to_income": 0.0309,
+            "fund_growth": 0.0309,
+            "fund_metric": 0.0309,
+            "fund_ratio": 0.0309,
+            "grade_sentiment": 0.0309,
+            "gross_margin": 0.0309,
+            "gross_margin_delta": 0.0309,
+            "insider": 0.0309,
+            "net_debt_to_assets": 0.0309,
+            "net_margin": 0.0309,
+            "ocf_margin": 0.0309,
+            "operating_margin": 0.0309,
+            "revenue_growth_yoy": 0.0309,
+            "tech": 0.0309,
+            "valuation": 0.0309
+          }
+        },
+        {
+          "window": 2,
+          "train": "2017-01-04~2019-01-03",
+          "test": "2019-01-04~2019-07-03",
+          "train_sharpe": 4.639,
+          "test_sharpe": 5.167,
+          "weights": {
+            "analyst": 0.0323,
+            "balance": 0.0323,
+            "buyback_yield": 0.2242,
+            "capex_intensity": 0.0323,
+            "cash_to_assets": 0.0323,
+            "cashflow": 0.0323,
+            "earnings": 0.0323,
+            "ebitda_margin": 0.0323,
+            "equity_ratio": 0.0323,
+            "fcf_margin": 0.0323,
+            "fcf_to_income": 0.0323,
+            "fund_growth": 0.0323,
+            "fund_metric": 0.0323,
+            "fund_ratio": 0.0323,
+            "grade_sentiment": 0.0323,
+            "gross_margin": 0.0323,
+            "gross_margin_delta": 0.0323,
+            "insider": 0.0323,
+            "net_debt_to_assets": 0.0323,
+            "net_margin": 0.0323,
+            "ocf_margin": 0.0323,
+            "operating_margin": 0.0323,
+            "revenue_growth_yoy": 0.0323,
+            "tech": 0.0323,
+            "valuation": 0.0323
+          }
+        },
+        {
+          "window": 3,
+          "train": "2017-07-05~2019-07-03",
+          "test": "2019-07-05~2020-01-03",
+          "train_sharpe": 4.318,
+          "test_sharpe": -1.484,
+          "weights": {
+            "analyst": 0.036,
+            "balance": 0.036,
+            "buyback_yield": 0.1351,
+            "capex_intensity": 0.036,
+            "cash_to_assets": 0.036,
+            "cashflow": 0.036,
+            "earnings": 0.036,
+            "ebitda_margin": 0.036,
+            "equity_ratio": 0.036,
+            "fcf_margin": 0.036,
+            "fcf_to_income": 0.036,
+            "fund_growth": 0.036,
+            "fund_metric": 0.036,
+            "fund_ratio": 0.036,
+            "grade_sentiment": 0.036,
+            "gross_margin": 0.036,
+            "gross_margin_delta": 0.036,
+            "insider": 0.036,
+            "net_debt_to_assets": 0.036,
+            "net_margin": 0.036,
+            "ocf_margin": 0.036,
+            "operating_margin": 0.036,
+            "revenue_growth_yoy": 0.036,
+            "tech": 0.036,
+            "valuation": 0.036
+          }
+        },
+        {
+          "window": 4,
+          "train": "2018-01-04~2020-01-03",
+          "test": "2020-01-06~2020-07-02",
+          "train_sharpe": 2.389,
+          "test_sharpe": 0.471,
+          "weights": {
+            "analyst": 0.066,
+            "balance": 0.011,
+            "buyback_yield": 0.1245,
+            "capex_intensity": 0.2407,
+            "cash_to_assets": 0.011,
+            "cashflow": 0.011,
+            "earnings": 0.011,
+            "ebitda_margin": 0.011,
+            "equity_ratio": 0.1346,
+            "fcf_margin": 0.011,
+            "fcf_to_income": 0.011,
+            "fund_growth": 0.011,
+            "fund_metric": 0.011,
+            "fund_ratio": 0.011,
+            "grade_sentiment": 0.1992,
+            "gross_margin": 0.011,
+            "gross_margin_delta": 0.011,
+            "insider": 0.0,
+            "net_debt_to_assets": 0.011,
+            "net_margin": 0.0,
+            "ocf_margin": 0.011,
+            "operating_margin": 0.011,
+            "revenue_growth_yoy": 0.0481,
+            "tech": 0.011,
+            "valuation": 0.011
+          }
+        },
+        {
+          "window": 5,
+          "train": "2018-07-05~2020-07-02",
+          "test": "2020-07-06~2020-12-31",
+          "train_sharpe": 3.124,
+          "test_sharpe": 5.719,
+          "weights": {
+            "analyst": 0.0303,
+            "balance": 0.1826,
+            "buyback_yield": 0.1931,
+            "capex_intensity": 0.0336,
+            "cash_to_assets": 0.0121,
+            "cashflow": 0.0347,
+            "earnings": 0.0488,
+            "ebitda_margin": 0.0121,
+            "equity_ratio": 0.0,
+            "fcf_margin": 0.0358,
+            "fcf_to_income": 0.2592,
+            "fund_growth": 0.0,
+            "fund_metric": 0.0121,
+            "fund_ratio": 0.0121,
+            "grade_sentiment": 0.0121,
+            "gross_margin": 0.0121,
+            "gross_margin_delta": 0.0121,
+            "insider": 0.0121,
+            "net_debt_to_assets": 0.0121,
+            "net_margin": 0.0121,
+            "ocf_margin": 0.0121,
+            "operating_margin": 0.0121,
+            "revenue_growth_yoy": 0.0121,
+            "tech": 0.0121,
+            "valuation": 0.0121
+          }
+        },
+        {
+          "window": 6,
+          "train": "2019-01-04~2020-12-31",
+          "test": "2021-01-04~2021-07-02",
+          "train_sharpe": 1.794,
+          "test_sharpe": 6.942,
+          "weights": {
+            "analyst": 0.1207,
+            "balance": 0.0919,
+            "buyback_yield": 0.0847,
+            "capex_intensity": 0.098,
+            "cash_to_assets": 0.0479,
+            "cashflow": 0.0065,
+            "earnings": 0.0065,
+            "ebitda_margin": 0.096,
+            "equity_ratio": 0.0065,
+            "fcf_margin": 0.0065,
+            "fcf_to_income": 0.0065,
+            "fund_growth": 0.046,
+            "fund_metric": 0.0065,
+            "fund_ratio": 0.0065,
+            "grade_sentiment": 0.0065,
+            "gross_margin": 0.0065,
+            "gross_margin_delta": 0.2716,
+            "insider": 0.0386,
+            "net_debt_to_assets": 0.0065,
+            "net_margin": 0.0065,
+            "ocf_margin": 0.0065,
+            "operating_margin": 0.0065,
+            "revenue_growth_yoy": 0.0065,
+            "tech": 0.0065,
+            "valuation": 0.0065
+          }
+        },
+        {
+          "window": 7,
+          "train": "2019-07-05~2021-07-02",
+          "test": "2021-07-06~2022-01-03",
+          "train_sharpe": 1.547,
+          "test_sharpe": 1.926,
+          "weights": {
+            "analyst": 0.0186,
+            "balance": 0.0,
+            "buyback_yield": 0.1679,
+            "capex_intensity": 0.0975,
+            "cash_to_assets": 0.0364,
+            "cashflow": 0.0186,
+            "earnings": 0.2107,
+            "ebitda_margin": 0.0186,
+            "equity_ratio": 0.0186,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.0186,
+            "fund_growth": 0.0544,
+            "fund_metric": 0.0186,
+            "fund_ratio": 0.0186,
+            "grade_sentiment": 0.1039,
+            "gross_margin": 0.0186,
+            "gross_margin_delta": 0.0186,
+            "insider": 0.0186,
+            "net_debt_to_assets": 0.0186,
+            "net_margin": 0.0186,
+            "ocf_margin": 0.0,
+            "operating_margin": 0.0186,
+            "revenue_growth_yoy": 0.0503,
+            "tech": 0.0186,
+            "valuation": 0.0186
+          }
+        },
+        {
+          "window": 8,
+          "train": "2020-01-06~2022-01-03",
+          "test": "2022-01-04~2022-07-01",
+          "train_sharpe": 1.957,
+          "test_sharpe": -3.192,
+          "weights": {
+            "analyst": 0.0,
+            "balance": 0.0,
+            "buyback_yield": 0.0462,
+            "capex_intensity": 0.021,
+            "cash_to_assets": 0.0,
+            "cashflow": 0.2755,
+            "earnings": 0.021,
+            "ebitda_margin": 0.021,
+            "equity_ratio": 0.021,
+            "fcf_margin": 0.021,
+            "fcf_to_income": 0.302,
+            "fund_growth": 0.021,
+            "fund_metric": 0.021,
+            "fund_ratio": 0.0,
+            "grade_sentiment": 0.021,
+            "gross_margin": 0.021,
+            "gross_margin_delta": 0.021,
+            "insider": 0.021,
+            "net_debt_to_assets": 0.0399,
+            "net_margin": 0.021,
+            "ocf_margin": 0.021,
+            "operating_margin": 0.0,
+            "revenue_growth_yoy": 0.021,
+            "tech": 0.021,
+            "valuation": 0.021
+          }
+        },
+        {
+          "window": 9,
+          "train": "2020-07-06~2022-07-01",
+          "test": "2022-07-05~2023-01-03",
+          "train_sharpe": 19.084,
+          "test_sharpe": 6.816,
+          "weights": {
+            "analyst": 0.054,
+            "balance": 0.0432,
+            "buyback_yield": 0.0274,
+            "capex_intensity": 0.0274,
+            "cash_to_assets": 0.0,
+            "cashflow": 0.0,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0336,
+            "equity_ratio": 0.0274,
+            "fcf_margin": 0.0907,
+            "fcf_to_income": 0.0,
+            "fund_growth": 0.0274,
+            "fund_metric": 0.0346,
+            "fund_ratio": 0.035,
+            "grade_sentiment": 0.0274,
+            "gross_margin": 0.0,
+            "gross_margin_delta": 0.1872,
+            "insider": 0.0,
+            "net_debt_to_assets": 0.0274,
+            "net_margin": 0.0274,
+            "ocf_margin": 0.1069,
+            "operating_margin": 0.0,
+            "revenue_growth_yoy": 0.0274,
+            "tech": 0.0274,
+            "valuation": 0.1681
+          }
+        },
+        {
+          "window": 10,
+          "train": "2021-01-04~2023-01-03",
+          "test": "2023-01-04~2023-07-03",
+          "train_sharpe": 11.082,
+          "test_sharpe": 4.975,
+          "weights": {
+            "analyst": 0.063,
+            "balance": 0.0093,
+            "buyback_yield": 0.0051,
+            "capex_intensity": 0.0,
+            "cash_to_assets": 0.0051,
+            "cashflow": 0.0509,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0051,
+            "equity_ratio": 0.0051,
+            "fcf_margin": 0.0127,
+            "fcf_to_income": 0.0051,
+            "fund_growth": 0.3078,
+            "fund_metric": 0.124,
+            "fund_ratio": 0.1273,
+            "grade_sentiment": 0.0479,
+            "gross_margin": 0.0051,
+            "gross_margin_delta": 0.0051,
+            "insider": 0.2011,
+            "net_debt_to_assets": 0.0,
+            "net_margin": 0.0,
+            "ocf_margin": 0.0,
+            "operating_margin": 0.0051,
+            "revenue_growth_yoy": 0.0051,
+            "tech": 0.0051,
+            "valuation": 0.0051
+          }
+        },
+        {
+          "window": 11,
+          "train": "2021-07-06~2023-07-03",
+          "test": "2023-07-05~2024-01-03",
+          "train_sharpe": 3.376,
+          "test_sharpe": 3.688,
+          "weights": {
+            "analyst": 0.1623,
+            "balance": 0.0143,
+            "buyback_yield": 0.0506,
+            "capex_intensity": 0.0502,
+            "cash_to_assets": 0.0,
+            "cashflow": 0.0469,
+            "earnings": 0.2027,
+            "ebitda_margin": 0.0143,
+            "equity_ratio": 0.0756,
+            "fcf_margin": 0.0143,
+            "fcf_to_income": 0.0143,
+            "fund_growth": 0.1325,
+            "fund_metric": 0.0143,
+            "fund_ratio": 0.0,
+            "grade_sentiment": 0.0,
+            "gross_margin": 0.0143,
+            "gross_margin_delta": 0.0446,
+            "insider": 0.0143,
+            "net_debt_to_assets": 0.0143,
+            "net_margin": 0.0143,
+            "ocf_margin": 0.0143,
+            "operating_margin": 0.0143,
+            "revenue_growth_yoy": 0.0143,
+            "tech": 0.0485,
+            "valuation": 0.0143
+          }
+        },
+        {
+          "window": 12,
+          "train": "2022-01-04~2024-01-03",
+          "test": "2024-01-04~2024-07-03",
+          "train_sharpe": 3.065,
+          "test_sharpe": 4.257,
+          "weights": {
+            "analyst": 0.2217,
+            "balance": 0.0,
+            "buyback_yield": 0.0202,
+            "capex_intensity": 0.0202,
+            "cash_to_assets": 0.0202,
+            "cashflow": 0.0202,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0,
+            "equity_ratio": 0.0202,
+            "fcf_margin": 0.0202,
+            "fcf_to_income": 0.0508,
+            "fund_growth": 0.0202,
+            "fund_metric": 0.0202,
+            "fund_ratio": 0.0,
+            "grade_sentiment": 0.0333,
+            "gross_margin": 0.0202,
+            "gross_margin_delta": 0.359,
+            "insider": 0.0522,
+            "net_debt_to_assets": 0.0,
+            "net_margin": 0.0202,
+            "ocf_margin": 0.0202,
+            "operating_margin": 0.0,
+            "revenue_growth_yoy": 0.0202,
+            "tech": 0.0202,
+            "valuation": 0.0202
+          }
+        },
+        {
+          "window": 13,
+          "train": "2022-07-05~2024-07-03",
+          "test": "2024-07-05~2025-01-03",
+          "train_sharpe": 9.618,
+          "test_sharpe": 1.955,
+          "weights": {
+            "analyst": 0.1143,
+            "balance": 0.0136,
+            "buyback_yield": 0.1178,
+            "capex_intensity": 0.2086,
+            "cash_to_assets": 0.1461,
+            "cashflow": 0.0136,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0136,
+            "equity_ratio": 0.0136,
+            "fcf_margin": 0.0136,
+            "fcf_to_income": 0.0136,
+            "fund_growth": 0.0,
+            "fund_metric": 0.0484,
+            "fund_ratio": 0.0136,
+            "grade_sentiment": 0.0136,
+            "gross_margin": 0.0136,
+            "gross_margin_delta": 0.1336,
+            "insider": 0.0136,
+            "net_debt_to_assets": 0.0136,
+            "net_margin": 0.0136,
+            "ocf_margin": 0.0136,
+            "operating_margin": 0.0136,
+            "revenue_growth_yoy": 0.0136,
+            "tech": 0.0136,
+            "valuation": 0.0136
+          }
+        },
+        {
+          "window": 14,
+          "train": "2023-01-04~2025-01-03",
+          "test": "2025-01-06~2025-07-03",
+          "train_sharpe": 6.743,
+          "test_sharpe": 1.692,
+          "weights": {
+            "analyst": 0.0171,
+            "balance": 0.0,
+            "buyback_yield": 0.0205,
+            "capex_intensity": 0.1501,
+            "cash_to_assets": 0.0,
+            "cashflow": 0.0171,
+            "earnings": 0.0,
+            "ebitda_margin": 0.1841,
+            "equity_ratio": 0.0171,
+            "fcf_margin": 0.0171,
+            "fcf_to_income": 0.0,
+            "fund_growth": 0.0334,
+            "fund_metric": 0.3242,
+            "fund_ratio": 0.0487,
+            "grade_sentiment": 0.0171,
+            "gross_margin": 0.0171,
+            "gross_margin_delta": 0.0171,
+            "insider": 0.0171,
+            "net_debt_to_assets": 0.0171,
+            "net_margin": 0.0171,
+            "ocf_margin": 0.0171,
+            "operating_margin": 0.0,
+            "revenue_growth_yoy": 0.0171,
+            "tech": 0.0171,
+            "valuation": 0.0171
+          }
+        },
+        {
+          "window": 15,
+          "train": "2023-07-05~2025-07-03",
+          "test": "2025-07-07~2026-01-02",
+          "train_sharpe": 6.656,
+          "test_sharpe": -1.281,
+          "weights": {
+            "analyst": 0.0,
+            "balance": 0.0,
+            "buyback_yield": 0.0175,
+            "capex_intensity": 0.1324,
+            "cash_to_assets": 0.0146,
+            "cashflow": 0.0471,
+            "earnings": 0.0948,
+            "ebitda_margin": 0.1681,
+            "equity_ratio": 0.0146,
+            "fcf_margin": 0.05,
+            "fcf_to_income": 0.0146,
+            "fund_growth": 0.1251,
+            "fund_metric": 0.0146,
+            "fund_ratio": 0.0483,
+            "grade_sentiment": 0.0146,
+            "gross_margin": 0.0146,
+            "gross_margin_delta": 0.0146,
+            "insider": 0.0146,
+            "net_debt_to_assets": 0.0146,
+            "net_margin": 0.1417,
+            "ocf_margin": 0.0146,
+            "operating_margin": 0.0,
+            "revenue_growth_yoy": 0.0146,
+            "tech": 0.0146,
+            "valuation": 0.0
+          }
+        }
+      ]
+    },
+    "60d_10": {
+      "hold_days": 60,
+      "top_n": 10,
+      "oos_sharpe": 1.163,
+      "oos_cagr": 0.1351,
+      "oos_max_dd": -0.4852,
+      "oos_win_rate": 0.717,
+      "oos_n_periods": 46,
+      "train_sharpe": 2.666,
+      "overfit_ratio": 0.436,
+      "weight_stability": {
+        "analyst": {
+          "mean": 0.0827,
+          "std": 0.0888,
+          "min": 0.0,
+          "max": 0.2938
+        },
+        "balance": {
+          "mean": 0.0865,
+          "std": 0.0908,
+          "min": 0.0,
+          "max": 0.2811
+        },
+        "buyback_yield": {
+          "mean": 0.0392,
+          "std": 0.0435,
+          "min": 0.0,
+          "max": 0.1792
+        },
+        "capex_intensity": {
+          "mean": 0.0598,
+          "std": 0.0558,
+          "min": 0.0,
+          "max": 0.1727
+        },
+        "cash_to_assets": {
+          "mean": 0.0225,
+          "std": 0.0205,
+          "min": 0.0,
+          "max": 0.087
+        },
+        "cashflow": {
+          "mean": 0.0635,
+          "std": 0.0732,
+          "min": 0.0,
+          "max": 0.2498
+        },
+        "earnings": {
+          "mean": 0.0242,
+          "std": 0.0358,
+          "min": 0.0,
+          "max": 0.1218
+        },
+        "ebitda_margin": {
+          "mean": 0.0488,
+          "std": 0.0625,
+          "min": 0.0,
+          "max": 0.2475
+        },
+        "equity_ratio": {
+          "mean": 0.027,
+          "std": 0.0223,
+          "min": 0.0,
+          "max": 0.0932
+        },
+        "fcf_margin": {
+          "mean": 0.0318,
+          "std": 0.0364,
+          "min": 0.0,
+          "max": 0.1556
+        },
+        "fcf_to_income": {
+          "mean": 0.0322,
+          "std": 0.0479,
+          "min": 0.0,
+          "max": 0.2094
+        },
+        "fund_growth": {
+          "mean": 0.0317,
+          "std": 0.0406,
+          "min": 0.0,
+          "max": 0.1635
+        },
+        "fund_metric": {
+          "mean": 0.0713,
+          "std": 0.0859,
+          "min": 0.0,
+          "max": 0.2945
+        },
+        "fund_ratio": {
+          "mean": 0.0358,
+          "std": 0.0374,
+          "min": 0.0,
+          "max": 0.1545
+        },
+        "grade_sentiment": {
+          "mean": 0.0226,
+          "std": 0.0243,
+          "min": 0.0,
+          "max": 0.1028
+        },
+        "gross_margin": {
+          "mean": 0.0191,
+          "std": 0.0111,
+          "min": 0.0,
+          "max": 0.0396
+        },
+        "gross_margin_delta": {
+          "mean": 0.028,
+          "std": 0.0275,
+          "min": 0.0,
+          "max": 0.1241
+        },
+        "insider": {
+          "mean": 0.0335,
+          "std": 0.0344,
+          "min": 0.0,
+          "max": 0.1579
+        },
+        "net_debt_to_assets": {
+          "mean": 0.0227,
+          "std": 0.0161,
+          "min": 0.0,
+          "max": 0.0684
+        },
+        "net_margin": {
+          "mean": 0.0202,
+          "std": 0.0135,
+          "min": 0.0,
+          "max": 0.045
+        },
+        "ocf_margin": {
+          "mean": 0.0249,
+          "std": 0.0184,
+          "min": 0.0,
+          "max": 0.0856
+        },
+        "operating_margin": {
+          "mean": 0.0326,
+          "std": 0.0276,
+          "min": 0.0,
+          "max": 0.1052
+        },
+        "revenue_growth_yoy": {
+          "mean": 0.0746,
+          "std": 0.0899,
+          "min": 0.0,
+          "max": 0.2506
+        },
+        "tech": {
+          "mean": 0.0305,
+          "std": 0.0314,
+          "min": 0.0,
+          "max": 0.1432
+        },
+        "valuation": {
+          "mean": 0.0344,
+          "std": 0.0299,
+          "min": 0.0089,
+          "max": 0.1325
+        }
+      },
+      "window_details": [
+        {
+          "window": 0,
+          "train": "2016-01-04~2018-01-03",
+          "test": "2018-01-04~2018-07-03",
+          "train_sharpe": 12.518,
+          "test_sharpe": 2.962,
+          "weights": {
+            "analyst": 0.0219,
+            "balance": 0.1095,
+            "buyback_yield": 0.0219,
+            "capex_intensity": 0.0219,
+            "cash_to_assets": 0.0219,
+            "cashflow": 0.0219,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0296,
+            "equity_ratio": 0.0219,
+            "fcf_margin": 0.0219,
+            "fcf_to_income": 0.0219,
+            "fund_growth": 0.0219,
+            "fund_metric": 0.1333,
+            "fund_ratio": 0.0219,
+            "grade_sentiment": 0.0219,
+            "gross_margin": 0.0219,
+            "gross_margin_delta": 0.1241,
+            "insider": 0.0,
+            "net_debt_to_assets": 0.0219,
+            "net_margin": 0.0219,
+            "ocf_margin": 0.0219,
+            "operating_margin": 0.1052,
+            "revenue_growth_yoy": 0.1261,
+            "tech": 0.0219,
+            "valuation": 0.0219
+          }
+        },
+        {
+          "window": 1,
+          "train": "2016-07-05~2018-07-03",
+          "test": "2018-07-05~2019-01-03",
+          "train_sharpe": 7.173,
+          "test_sharpe": 3.146,
+          "weights": {
+            "analyst": 0.0274,
+            "balance": 0.2811,
+            "buyback_yield": 0.0274,
+            "capex_intensity": 0.047,
+            "cash_to_assets": 0.0274,
+            "cashflow": 0.0959,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0274,
+            "equity_ratio": 0.0274,
+            "fcf_margin": 0.0274,
+            "fcf_to_income": 0.0274,
+            "fund_growth": 0.0274,
+            "fund_metric": 0.0274,
+            "fund_ratio": 0.0274,
+            "grade_sentiment": 0.0274,
+            "gross_margin": 0.0274,
+            "gross_margin_delta": 0.0274,
+            "insider": 0.0274,
+            "net_debt_to_assets": 0.0274,
+            "net_margin": 0.0274,
+            "ocf_margin": 0.0274,
+            "operating_margin": 0.0274,
+            "revenue_growth_yoy": 0.0274,
+            "tech": 0.0274,
+            "valuation": 0.0274
+          }
+        },
+        {
+          "window": 2,
+          "train": "2017-01-04~2019-01-03",
+          "test": "2019-01-04~2019-07-03",
+          "train_sharpe": 8.89,
+          "test_sharpe": 5.167,
+          "weights": {
+            "analyst": 0.0342,
+            "balance": 0.0342,
+            "buyback_yield": 0.0,
+            "capex_intensity": 0.0411,
+            "cash_to_assets": 0.0,
+            "cashflow": 0.0342,
+            "earnings": 0.0445,
+            "ebitda_margin": 0.0342,
+            "equity_ratio": 0.0342,
+            "fcf_margin": 0.0342,
+            "fcf_to_income": 0.0342,
+            "fund_growth": 0.0342,
+            "fund_metric": 0.0794,
+            "fund_ratio": 0.0839,
+            "grade_sentiment": 0.0342,
+            "gross_margin": 0.0342,
+            "gross_margin_delta": 0.0342,
+            "insider": 0.0342,
+            "net_debt_to_assets": 0.0342,
+            "net_margin": 0.0342,
+            "ocf_margin": 0.0342,
+            "operating_margin": 0.0342,
+            "revenue_growth_yoy": 0.1349,
+            "tech": 0.0342,
+            "valuation": 0.0342
+          }
+        },
+        {
+          "window": 3,
+          "train": "2017-07-05~2019-07-03",
+          "test": "2019-07-05~2020-01-03",
+          "train_sharpe": 5.757,
+          "test_sharpe": -1.49,
+          "weights": {
+            "analyst": 0.0396,
+            "balance": 0.0495,
+            "buyback_yield": 0.0396,
+            "capex_intensity": 0.0396,
+            "cash_to_assets": 0.0396,
+            "cashflow": 0.0396,
+            "earnings": 0.0396,
+            "ebitda_margin": 0.0396,
+            "equity_ratio": 0.0396,
+            "fcf_margin": 0.0396,
+            "fcf_to_income": 0.0396,
+            "fund_growth": 0.0396,
+            "fund_metric": 0.0396,
+            "fund_ratio": 0.0396,
+            "grade_sentiment": 0.0396,
+            "gross_margin": 0.0396,
+            "gross_margin_delta": 0.0396,
+            "insider": 0.0396,
+            "net_debt_to_assets": 0.0396,
+            "net_margin": 0.0396,
+            "ocf_margin": 0.0396,
+            "operating_margin": 0.0396,
+            "revenue_growth_yoy": 0.0396,
+            "tech": 0.0396,
+            "valuation": 0.0396
+          }
+        },
+        {
+          "window": 4,
+          "train": "2018-01-04~2020-01-03",
+          "test": "2020-01-06~2020-07-02",
+          "train_sharpe": 3.918,
+          "test_sharpe": 1.283,
+          "weights": {
+            "analyst": 0.0498,
+            "balance": 0.096,
+            "buyback_yield": 0.0526,
+            "capex_intensity": 0.0,
+            "cash_to_assets": 0.0385,
+            "cashflow": 0.0,
+            "earnings": 0.1218,
+            "ebitda_margin": 0.0,
+            "equity_ratio": 0.0255,
+            "fcf_margin": 0.0089,
+            "fcf_to_income": 0.0089,
+            "fund_growth": 0.0089,
+            "fund_metric": 0.0089,
+            "fund_ratio": 0.0089,
+            "grade_sentiment": 0.0089,
+            "gross_margin": 0.0089,
+            "gross_margin_delta": 0.0089,
+            "insider": 0.1579,
+            "net_debt_to_assets": 0.0089,
+            "net_margin": 0.0089,
+            "ocf_margin": 0.0089,
+            "operating_margin": 0.0917,
+            "revenue_growth_yoy": 0.2506,
+            "tech": 0.0089,
+            "valuation": 0.0089
+          }
+        },
+        {
+          "window": 5,
+          "train": "2018-07-05~2020-07-02",
+          "test": "2020-07-06~2020-12-31",
+          "train_sharpe": 6.197,
+          "test_sharpe": 4.935,
+          "weights": {
+            "analyst": 0.0111,
+            "balance": 0.0555,
+            "buyback_yield": 0.0643,
+            "capex_intensity": 0.0457,
+            "cash_to_assets": 0.0111,
+            "cashflow": 0.0,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0,
+            "equity_ratio": 0.043,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.0,
+            "fund_growth": 0.1635,
+            "fund_metric": 0.0111,
+            "fund_ratio": 0.0632,
+            "grade_sentiment": 0.0111,
+            "gross_margin": 0.0111,
+            "gross_margin_delta": 0.0111,
+            "insider": 0.0446,
+            "net_debt_to_assets": 0.0684,
+            "net_margin": 0.0,
+            "ocf_margin": 0.0,
+            "operating_margin": 0.0111,
+            "revenue_growth_yoy": 0.2307,
+            "tech": 0.0111,
+            "valuation": 0.1325
+          }
+        },
+        {
+          "window": 6,
+          "train": "2019-01-04~2020-12-31",
+          "test": "2021-01-04~2021-07-02",
+          "train_sharpe": 2.058,
+          "test_sharpe": 21.15,
+          "weights": {
+            "analyst": 0.0,
+            "balance": 0.2794,
+            "buyback_yield": 0.0311,
+            "capex_intensity": 0.0311,
+            "cash_to_assets": 0.0311,
+            "cashflow": 0.0,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0311,
+            "equity_ratio": 0.0932,
+            "fcf_margin": 0.0497,
+            "fcf_to_income": 0.0311,
+            "fund_growth": 0.0,
+            "fund_metric": 0.0311,
+            "fund_ratio": 0.0491,
+            "grade_sentiment": 0.0311,
+            "gross_margin": 0.0311,
+            "gross_margin_delta": 0.0311,
+            "insider": 0.0311,
+            "net_debt_to_assets": 0.0311,
+            "net_margin": 0.0311,
+            "ocf_margin": 0.0311,
+            "operating_margin": 0.0311,
+            "revenue_growth_yoy": 0.0311,
+            "tech": 0.0311,
+            "valuation": 0.0311
+          }
+        },
+        {
+          "window": 7,
+          "train": "2019-07-05~2021-07-02",
+          "test": "2021-07-06~2022-01-03",
+          "train_sharpe": 1.794,
+          "test_sharpe": 0.799,
+          "weights": {
+            "analyst": 0.1517,
+            "balance": 0.2053,
+            "buyback_yield": 0.0181,
+            "capex_intensity": 0.1159,
+            "cash_to_assets": 0.087,
+            "cashflow": 0.0968,
+            "earnings": 0.0181,
+            "ebitda_margin": 0.0181,
+            "equity_ratio": 0.0181,
+            "fcf_margin": 0.0181,
+            "fcf_to_income": 0.0181,
+            "fund_growth": 0.0181,
+            "fund_metric": 0.0181,
+            "fund_ratio": 0.0181,
+            "grade_sentiment": 0.0,
+            "gross_margin": 0.0181,
+            "gross_margin_delta": 0.0181,
+            "insider": 0.0181,
+            "net_debt_to_assets": 0.0181,
+            "net_margin": 0.0181,
+            "ocf_margin": 0.0181,
+            "operating_margin": 0.0181,
+            "revenue_growth_yoy": 0.0181,
+            "tech": 0.0181,
+            "valuation": 0.0181
+          }
+        },
+        {
+          "window": 8,
+          "train": "2020-01-06~2022-01-03",
+          "test": "2022-01-04~2022-07-01",
+          "train_sharpe": 2.7,
+          "test_sharpe": -0.658,
+          "weights": {
+            "analyst": 0.088,
+            "balance": 0.0479,
+            "buyback_yield": 0.0,
+            "capex_intensity": 0.0,
+            "cash_to_assets": 0.0096,
+            "cashflow": 0.0485,
+            "earnings": 0.0096,
+            "ebitda_margin": 0.1296,
+            "equity_ratio": 0.0,
+            "fcf_margin": 0.0652,
+            "fcf_to_income": 0.0096,
+            "fund_growth": 0.0096,
+            "fund_metric": 0.1009,
+            "fund_ratio": 0.1545,
+            "grade_sentiment": 0.0,
+            "gross_margin": 0.0096,
+            "gross_margin_delta": 0.0096,
+            "insider": 0.0096,
+            "net_debt_to_assets": 0.0096,
+            "net_margin": 0.0096,
+            "ocf_margin": 0.0096,
+            "operating_margin": 0.0096,
+            "revenue_growth_yoy": 0.2506,
+            "tech": 0.0,
+            "valuation": 0.0096
+          }
+        },
+        {
+          "window": 9,
+          "train": "2020-07-06~2022-07-01",
+          "test": "2022-07-05~2023-01-03",
+          "train_sharpe": 21.31,
+          "test_sharpe": 0.811,
+          "weights": {
+            "analyst": 0.2603,
+            "balance": 0.0283,
+            "buyback_yield": 0.0283,
+            "capex_intensity": 0.1509,
+            "cash_to_assets": 0.0,
+            "cashflow": 0.0283,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0283,
+            "equity_ratio": 0.0503,
+            "fcf_margin": 0.0283,
+            "fcf_to_income": 0.0283,
+            "fund_growth": 0.0283,
+            "fund_metric": 0.0283,
+            "fund_ratio": 0.0283,
+            "grade_sentiment": 0.0283,
+            "gross_margin": 0.0283,
+            "gross_margin_delta": 0.0,
+            "insider": 0.0283,
+            "net_debt_to_assets": 0.0283,
+            "net_margin": 0.0283,
+            "ocf_margin": 0.0283,
+            "operating_margin": 0.0283,
+            "revenue_growth_yoy": 0.0283,
+            "tech": 0.0283,
+            "valuation": 0.0283
+          }
+        },
+        {
+          "window": 10,
+          "train": "2021-01-04~2023-01-03",
+          "test": "2023-01-04~2023-07-03",
+          "train_sharpe": 8.711,
+          "test_sharpe": 1.244,
+          "weights": {
+            "analyst": 0.1683,
+            "balance": 0.1428,
+            "buyback_yield": 0.0,
+            "capex_intensity": 0.0227,
+            "cash_to_assets": 0.0227,
+            "cashflow": 0.2298,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0227,
+            "equity_ratio": 0.0227,
+            "fcf_margin": 0.0227,
+            "fcf_to_income": 0.0498,
+            "fund_growth": 0.0227,
+            "fund_metric": 0.0,
+            "fund_ratio": 0.0227,
+            "grade_sentiment": 0.0227,
+            "gross_margin": 0.0227,
+            "gross_margin_delta": 0.0227,
+            "insider": 0.0227,
+            "net_debt_to_assets": 0.0227,
+            "net_margin": 0.0227,
+            "ocf_margin": 0.0227,
+            "operating_margin": 0.0227,
+            "revenue_growth_yoy": 0.0227,
+            "tech": 0.0227,
+            "valuation": 0.0227
+          }
+        },
+        {
+          "window": 11,
+          "train": "2021-07-06~2023-07-03",
+          "test": "2023-07-05~2024-01-03",
+          "train_sharpe": 6.19,
+          "test_sharpe": 3.916,
+          "weights": {
+            "analyst": 0.1009,
+            "balance": 0.018,
+            "buyback_yield": 0.0267,
+            "capex_intensity": 0.018,
+            "cash_to_assets": 0.018,
+            "cashflow": 0.0504,
+            "earnings": 0.1003,
+            "ebitda_margin": 0.018,
+            "equity_ratio": 0.018,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.0,
+            "fund_growth": 0.0,
+            "fund_metric": 0.2945,
+            "fund_ratio": 0.018,
+            "grade_sentiment": 0.0,
+            "gross_margin": 0.0,
+            "gross_margin_delta": 0.018,
+            "insider": 0.018,
+            "net_debt_to_assets": 0.0,
+            "net_margin": 0.018,
+            "ocf_margin": 0.0856,
+            "operating_margin": 0.0,
+            "revenue_growth_yoy": 0.018,
+            "tech": 0.1432,
+            "valuation": 0.018
+          }
+        },
+        {
+          "window": 12,
+          "train": "2022-01-04~2024-01-03",
+          "test": "2024-01-04~2024-07-03",
+          "train_sharpe": 4.572,
+          "test_sharpe": 4.887,
+          "weights": {
+            "analyst": 0.2938,
+            "balance": 0.0182,
+            "buyback_yield": 0.0491,
+            "capex_intensity": 0.0,
+            "cash_to_assets": 0.0182,
+            "cashflow": 0.0182,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0182,
+            "equity_ratio": 0.0182,
+            "fcf_margin": 0.0182,
+            "fcf_to_income": 0.0182,
+            "fund_growth": 0.0182,
+            "fund_metric": 0.2606,
+            "fund_ratio": 0.0182,
+            "grade_sentiment": 0.0,
+            "gross_margin": 0.0182,
+            "gross_margin_delta": 0.0182,
+            "insider": 0.0182,
+            "net_debt_to_assets": 0.0,
+            "net_margin": 0.045,
+            "ocf_margin": 0.0182,
+            "operating_margin": 0.0498,
+            "revenue_growth_yoy": 0.0,
+            "tech": 0.0182,
+            "valuation": 0.0477
+          }
+        },
+        {
+          "window": 13,
+          "train": "2022-07-05~2024-07-03",
+          "test": "2024-07-05~2025-01-03",
+          "train_sharpe": 18.575,
+          "test_sharpe": 5.202,
+          "weights": {
+            "analyst": 0.0766,
+            "balance": 0.0,
+            "buyback_yield": 0.1792,
+            "capex_intensity": 0.1727,
+            "cash_to_assets": 0.0152,
+            "cashflow": 0.0834,
+            "earnings": 0.0152,
+            "ebitda_margin": 0.0152,
+            "equity_ratio": 0.0,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.2094,
+            "fund_growth": 0.0,
+            "fund_metric": 0.0152,
+            "fund_ratio": 0.0,
+            "grade_sentiment": 0.0152,
+            "gross_margin": 0.0152,
+            "gross_margin_delta": 0.0475,
+            "insider": 0.0491,
+            "net_debt_to_assets": 0.0152,
+            "net_margin": 0.0,
+            "ocf_margin": 0.0152,
+            "operating_margin": 0.0152,
+            "revenue_growth_yoy": 0.0152,
+            "tech": 0.0152,
+            "valuation": 0.0152
+          }
+        },
+        {
+          "window": 14,
+          "train": "2023-01-04~2025-01-03",
+          "test": "2025-01-06~2025-07-03",
+          "train_sharpe": 9.169,
+          "test_sharpe": 2.498,
+          "weights": {
+            "analyst": 0.0,
+            "balance": 0.0,
+            "buyback_yield": 0.0883,
+            "capex_intensity": 0.1276,
+            "cash_to_assets": 0.0192,
+            "cashflow": 0.0192,
+            "earnings": 0.0192,
+            "ebitda_margin": 0.2475,
+            "equity_ratio": 0.0192,
+            "fcf_margin": 0.0192,
+            "fcf_to_income": 0.0192,
+            "fund_growth": 0.096,
+            "fund_metric": 0.0192,
+            "fund_ratio": 0.0192,
+            "grade_sentiment": 0.1028,
+            "gross_margin": 0.0192,
+            "gross_margin_delta": 0.0192,
+            "insider": 0.0192,
+            "net_debt_to_assets": 0.0192,
+            "net_margin": 0.0,
+            "ocf_margin": 0.0192,
+            "operating_margin": 0.0192,
+            "revenue_growth_yoy": 0.0,
+            "tech": 0.0501,
+            "valuation": 0.0192
+          }
+        },
+        {
+          "window": 15,
+          "train": "2023-07-05~2025-07-03",
+          "test": "2025-07-07~2026-01-02",
+          "train_sharpe": 9.314,
+          "test_sharpe": -1.082,
+          "weights": {
+            "analyst": 0.0,
+            "balance": 0.0184,
+            "buyback_yield": 0.0,
+            "capex_intensity": 0.1221,
+            "cash_to_assets": 0.0,
+            "cashflow": 0.2498,
+            "earnings": 0.0184,
+            "ebitda_margin": 0.1205,
+            "equity_ratio": 0.0,
+            "fcf_margin": 0.1556,
+            "fcf_to_income": 0.0,
+            "fund_growth": 0.0184,
+            "fund_metric": 0.074,
+            "fund_ratio": 0.0,
+            "grade_sentiment": 0.0184,
+            "gross_margin": 0.0,
+            "gross_margin_delta": 0.0184,
+            "insider": 0.0184,
+            "net_debt_to_assets": 0.0184,
+            "net_margin": 0.0184,
+            "ocf_margin": 0.0184,
+            "operating_margin": 0.0184,
+            "revenue_growth_yoy": 0.0,
+            "tech": 0.0184,
+            "valuation": 0.0759
+          }
+        }
+      ]
+    },
+    "30d_20": {
+      "hold_days": 30,
+      "top_n": 20,
+      "oos_sharpe": 1.034,
+      "oos_cagr": 0.1711,
+      "oos_max_dd": -0.3383,
+      "oos_win_rate": 0.662,
+      "oos_n_periods": 77,
+      "train_sharpe": 1.518,
+      "overfit_ratio": 0.681,
+      "weight_stability": {
+        "analyst": {
+          "mean": 0.1005,
+          "std": 0.073,
+          "min": 0.0,
+          "max": 0.2463
+        },
+        "balance": {
+          "mean": 0.085,
+          "std": 0.1027,
+          "min": 0.0,
+          "max": 0.3443
+        },
+        "buyback_yield": {
+          "mean": 0.0903,
+          "std": 0.0835,
+          "min": 0.0,
+          "max": 0.2317
+        },
+        "capex_intensity": {
+          "mean": 0.0616,
+          "std": 0.0779,
+          "min": 0.0166,
+          "max": 0.3106
+        },
+        "cash_to_assets": {
+          "mean": 0.0429,
+          "std": 0.0617,
+          "min": 0.0,
+          "max": 0.2308
+        },
+        "cashflow": {
+          "mean": 0.0507,
+          "std": 0.0697,
+          "min": 0.0,
+          "max": 0.254
+        },
+        "earnings": {
+          "mean": 0.0696,
+          "std": 0.0862,
+          "min": 0.0,
+          "max": 0.3375
+        },
+        "ebitda_margin": {
+          "mean": 0.0249,
+          "std": 0.0353,
+          "min": 0.0,
+          "max": 0.1526
+        },
+        "equity_ratio": {
+          "mean": 0.0254,
+          "std": 0.0116,
+          "min": 0.0,
+          "max": 0.0495
+        },
+        "fcf_margin": {
+          "mean": 0.0207,
+          "std": 0.016,
+          "min": 0.0,
+          "max": 0.0491
+        },
+        "fcf_to_income": {
+          "mean": 0.0205,
+          "std": 0.0096,
+          "min": 0.0,
+          "max": 0.0343
+        },
+        "fund_growth": {
+          "mean": 0.0395,
+          "std": 0.062,
+          "min": 0.0,
+          "max": 0.2744
+        },
+        "fund_metric": {
+          "mean": 0.0387,
+          "std": 0.04,
+          "min": 0.0055,
+          "max": 0.1721
+        },
+        "fund_ratio": {
+          "mean": 0.021,
+          "std": 0.0124,
+          "min": 0.0,
+          "max": 0.052
+        },
+        "grade_sentiment": {
+          "mean": 0.0198,
+          "std": 0.0102,
+          "min": 0.0,
+          "max": 0.0343
+        },
+        "gross_margin": {
+          "mean": 0.0194,
+          "std": 0.0084,
+          "min": 0.0,
+          "max": 0.0338
+        },
+        "gross_margin_delta": {
+          "mean": 0.0325,
+          "std": 0.0288,
+          "min": 0.0055,
+          "max": 0.1248
+        },
+        "insider": {
+          "mean": 0.0356,
+          "std": 0.0464,
+          "min": 0.0055,
+          "max": 0.2112
+        },
+        "net_debt_to_assets": {
+          "mean": 0.0223,
+          "std": 0.0116,
+          "min": 0.0,
+          "max": 0.0499
+        },
+        "net_margin": {
+          "mean": 0.0386,
+          "std": 0.0663,
+          "min": 0.0,
+          "max": 0.2915
+        },
+        "ocf_margin": {
+          "mean": 0.0235,
+          "std": 0.0116,
+          "min": 0.0,
+          "max": 0.0433
+        },
+        "operating_margin": {
+          "mean": 0.0461,
+          "std": 0.0805,
+          "min": 0.0166,
+          "max": 0.3565
+        },
+        "revenue_growth_yoy": {
+          "mean": 0.0282,
+          "std": 0.0376,
+          "min": 0.0,
+          "max": 0.1692
+        },
+        "tech": {
+          "mean": 0.0193,
+          "std": 0.0104,
+          "min": 0.0,
+          "max": 0.0343
+        },
+        "valuation": {
+          "mean": 0.0234,
+          "std": 0.01,
+          "min": 0.0055,
+          "max": 0.0489
+        }
+      },
+      "window_details": [
+        {
+          "window": 0,
+          "train": "2016-01-04~2018-01-03",
+          "test": "2018-01-04~2018-07-03",
+          "train_sharpe": 2.252,
+          "test_sharpe": -0.142,
+          "weights": {
+            "analyst": 0.0203,
+            "balance": 0.1268,
+            "buyback_yield": 0.0203,
+            "capex_intensity": 0.0203,
+            "cash_to_assets": 0.0203,
+            "cashflow": 0.0203,
+            "earnings": 0.0307,
+            "ebitda_margin": 0.0203,
+            "equity_ratio": 0.0203,
+            "fcf_margin": 0.0203,
+            "fcf_to_income": 0.0203,
+            "fund_growth": 0.0203,
+            "fund_metric": 0.0203,
+            "fund_ratio": 0.0203,
+            "grade_sentiment": 0.0203,
+            "gross_margin": 0.0203,
+            "gross_margin_delta": 0.1248,
+            "insider": 0.0203,
+            "net_debt_to_assets": 0.0203,
+            "net_margin": 0.2915,
+            "ocf_margin": 0.0203,
+            "operating_margin": 0.0203,
+            "revenue_growth_yoy": 0.0203,
+            "tech": 0.0203,
+            "valuation": 0.0203
+          }
+        },
+        {
+          "window": 1,
+          "train": "2016-07-05~2018-07-03",
+          "test": "2018-07-05~2019-01-03",
+          "train_sharpe": 1.739,
+          "test_sharpe": 0.666,
+          "weights": {
+            "analyst": 0.0252,
+            "balance": 0.1889,
+            "buyback_yield": 0.2317,
+            "capex_intensity": 0.0252,
+            "cash_to_assets": 0.0252,
+            "cashflow": 0.0252,
+            "earnings": 0.0252,
+            "ebitda_margin": 0.0252,
+            "equity_ratio": 0.0252,
+            "fcf_margin": 0.0252,
+            "fcf_to_income": 0.0252,
+            "fund_growth": 0.0252,
+            "fund_metric": 0.0252,
+            "fund_ratio": 0.0252,
+            "grade_sentiment": 0.0252,
+            "gross_margin": 0.0252,
+            "gross_margin_delta": 0.0252,
+            "insider": 0.0252,
+            "net_debt_to_assets": 0.0252,
+            "net_margin": 0.0252,
+            "ocf_margin": 0.0252,
+            "operating_margin": 0.0252,
+            "revenue_growth_yoy": 0.0252,
+            "tech": 0.0252,
+            "valuation": 0.0252
+          }
+        },
+        {
+          "window": 2,
+          "train": "2017-01-04~2019-01-03",
+          "test": "2019-01-04~2019-07-03",
+          "train_sharpe": 1.352,
+          "test_sharpe": 3.688,
+          "weights": {
+            "analyst": 0.0247,
+            "balance": 0.0247,
+            "buyback_yield": 0.1711,
+            "capex_intensity": 0.0247,
+            "cash_to_assets": 0.0247,
+            "cashflow": 0.0247,
+            "earnings": 0.1337,
+            "ebitda_margin": 0.1526,
+            "equity_ratio": 0.0247,
+            "fcf_margin": 0.0247,
+            "fcf_to_income": 0.0247,
+            "fund_growth": 0.0247,
+            "fund_metric": 0.0247,
+            "fund_ratio": 0.0247,
+            "grade_sentiment": 0.0247,
+            "gross_margin": 0.0247,
+            "gross_margin_delta": 0.0247,
+            "insider": 0.0247,
+            "net_debt_to_assets": 0.0247,
+            "net_margin": 0.0247,
+            "ocf_margin": 0.0247,
+            "operating_margin": 0.0247,
+            "revenue_growth_yoy": 0.0247,
+            "tech": 0.0247,
+            "valuation": 0.0247
+          }
+        },
+        {
+          "window": 3,
+          "train": "2017-07-05~2019-07-03",
+          "test": "2019-07-05~2020-01-03",
+          "train_sharpe": 1.882,
+          "test_sharpe": 5.561,
+          "weights": {
+            "analyst": 0.0338,
+            "balance": 0.0338,
+            "buyback_yield": 0.1878,
+            "capex_intensity": 0.0338,
+            "cash_to_assets": 0.0338,
+            "cashflow": 0.0338,
+            "earnings": 0.0338,
+            "ebitda_margin": 0.0338,
+            "equity_ratio": 0.0338,
+            "fcf_margin": 0.0338,
+            "fcf_to_income": 0.0338,
+            "fund_growth": 0.0338,
+            "fund_metric": 0.0338,
+            "fund_ratio": 0.0338,
+            "grade_sentiment": 0.0338,
+            "gross_margin": 0.0338,
+            "gross_margin_delta": 0.0338,
+            "insider": 0.0338,
+            "net_debt_to_assets": 0.0338,
+            "net_margin": 0.0338,
+            "ocf_margin": 0.0338,
+            "operating_margin": 0.0338,
+            "revenue_growth_yoy": 0.0338,
+            "tech": 0.0338,
+            "valuation": 0.0338
+          }
+        },
+        {
+          "window": 4,
+          "train": "2018-01-04~2020-01-03",
+          "test": "2020-01-06~2020-07-02",
+          "train_sharpe": 2.777,
+          "test_sharpe": -0.016,
+          "weights": {
+            "analyst": 0.0471,
+            "balance": 0.0188,
+            "buyback_yield": 0.2168,
+            "capex_intensity": 0.3106,
+            "cash_to_assets": 0.0,
+            "cashflow": 0.0188,
+            "earnings": 0.0188,
+            "ebitda_margin": 0.0188,
+            "equity_ratio": 0.0188,
+            "fcf_margin": 0.0188,
+            "fcf_to_income": 0.0188,
+            "fund_growth": 0.0188,
+            "fund_metric": 0.0188,
+            "fund_ratio": 0.0188,
+            "grade_sentiment": 0.0188,
+            "gross_margin": 0.0188,
+            "gross_margin_delta": 0.0188,
+            "insider": 0.0485,
+            "net_debt_to_assets": 0.0188,
+            "net_margin": 0.0188,
+            "ocf_margin": 0.0188,
+            "operating_margin": 0.0188,
+            "revenue_growth_yoy": 0.0188,
+            "tech": 0.0188,
+            "valuation": 0.0188
+          }
+        },
+        {
+          "window": 5,
+          "train": "2018-07-05~2020-07-02",
+          "test": "2020-07-06~2020-12-31",
+          "train_sharpe": 1.064,
+          "test_sharpe": 3.528,
+          "weights": {
+            "analyst": 0.0922,
+            "balance": 0.0,
+            "buyback_yield": 0.1807,
+            "capex_intensity": 0.0184,
+            "cash_to_assets": 0.2308,
+            "cashflow": 0.0184,
+            "earnings": 0.1336,
+            "ebitda_margin": 0.0184,
+            "equity_ratio": 0.0184,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.0184,
+            "fund_growth": 0.0494,
+            "fund_metric": 0.0184,
+            "fund_ratio": 0.0,
+            "grade_sentiment": 0.0184,
+            "gross_margin": 0.0184,
+            "gross_margin_delta": 0.0184,
+            "insider": 0.0184,
+            "net_debt_to_assets": 0.0184,
+            "net_margin": 0.0184,
+            "ocf_margin": 0.0184,
+            "operating_margin": 0.0184,
+            "revenue_growth_yoy": 0.0184,
+            "tech": 0.0184,
+            "valuation": 0.0184
+          }
+        },
+        {
+          "window": 6,
+          "train": "2019-01-04~2020-12-31",
+          "test": "2021-01-04~2021-07-02",
+          "train_sharpe": 1.376,
+          "test_sharpe": 7.958,
+          "weights": {
+            "analyst": 0.117,
+            "balance": 0.2958,
+            "buyback_yield": 0.0401,
+            "capex_intensity": 0.0809,
+            "cash_to_assets": 0.017,
+            "cashflow": 0.017,
+            "earnings": 0.178,
+            "ebitda_margin": 0.0,
+            "equity_ratio": 0.0,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.017,
+            "fund_growth": 0.017,
+            "fund_metric": 0.017,
+            "fund_ratio": 0.017,
+            "grade_sentiment": 0.017,
+            "gross_margin": 0.017,
+            "gross_margin_delta": 0.017,
+            "insider": 0.017,
+            "net_debt_to_assets": 0.017,
+            "net_margin": 0.017,
+            "ocf_margin": 0.017,
+            "operating_margin": 0.017,
+            "revenue_growth_yoy": 0.017,
+            "tech": 0.017,
+            "valuation": 0.017
+          }
+        },
+        {
+          "window": 7,
+          "train": "2019-07-05~2021-07-02",
+          "test": "2021-07-06~2022-01-03",
+          "train_sharpe": 1.18,
+          "test_sharpe": 1.131,
+          "weights": {
+            "analyst": 0.0734,
+            "balance": 0.1147,
+            "buyback_yield": 0.0,
+            "capex_intensity": 0.1229,
+            "cash_to_assets": 0.1688,
+            "cashflow": 0.0055,
+            "earnings": 0.3375,
+            "ebitda_margin": 0.0055,
+            "equity_ratio": 0.0461,
+            "fcf_margin": 0.0055,
+            "fcf_to_income": 0.0,
+            "fund_growth": 0.0055,
+            "fund_metric": 0.0055,
+            "fund_ratio": 0.0055,
+            "grade_sentiment": 0.0055,
+            "gross_margin": 0.0055,
+            "gross_margin_delta": 0.0055,
+            "insider": 0.0055,
+            "net_debt_to_assets": 0.0055,
+            "net_margin": 0.0055,
+            "ocf_margin": 0.0055,
+            "operating_margin": 0.0479,
+            "revenue_growth_yoy": 0.0055,
+            "tech": 0.0055,
+            "valuation": 0.0055
+          }
+        },
+        {
+          "window": 8,
+          "train": "2020-01-06~2022-01-03",
+          "test": "2022-01-04~2022-07-01",
+          "train_sharpe": 1.311,
+          "test_sharpe": -0.641,
+          "weights": {
+            "analyst": 0.1988,
+            "balance": 0.0828,
+            "buyback_yield": 0.1822,
+            "capex_intensity": 0.0274,
+            "cash_to_assets": 0.0,
+            "cashflow": 0.0,
+            "earnings": 0.0274,
+            "ebitda_margin": 0.0,
+            "equity_ratio": 0.0274,
+            "fcf_margin": 0.0489,
+            "fcf_to_income": 0.0274,
+            "fund_growth": 0.0,
+            "fund_metric": 0.0492,
+            "fund_ratio": 0.0274,
+            "grade_sentiment": 0.0274,
+            "gross_margin": 0.0274,
+            "gross_margin_delta": 0.0274,
+            "insider": 0.0274,
+            "net_debt_to_assets": 0.0274,
+            "net_margin": 0.0274,
+            "ocf_margin": 0.0274,
+            "operating_margin": 0.0274,
+            "revenue_growth_yoy": 0.0274,
+            "tech": 0.0274,
+            "valuation": 0.0274
+          }
+        },
+        {
+          "window": 9,
+          "train": "2020-07-06~2022-07-01",
+          "test": "2022-07-05~2023-01-03",
+          "train_sharpe": 2.007,
+          "test_sharpe": 1.573,
+          "weights": {
+            "analyst": 0.081,
+            "balance": 0.0,
+            "buyback_yield": 0.0393,
+            "capex_intensity": 0.0321,
+            "cash_to_assets": 0.0321,
+            "cashflow": 0.2064,
+            "earnings": 0.0321,
+            "ebitda_margin": 0.0321,
+            "equity_ratio": 0.0321,
+            "fcf_margin": 0.0321,
+            "fcf_to_income": 0.0321,
+            "fund_growth": 0.0321,
+            "fund_metric": 0.0321,
+            "fund_ratio": 0.0321,
+            "grade_sentiment": 0.0321,
+            "gross_margin": 0.0321,
+            "gross_margin_delta": 0.0321,
+            "insider": 0.0321,
+            "net_debt_to_assets": 0.0321,
+            "net_margin": 0.0321,
+            "ocf_margin": 0.0321,
+            "operating_margin": 0.0321,
+            "revenue_growth_yoy": 0.0321,
+            "tech": 0.0321,
+            "valuation": 0.0321
+          }
+        },
+        {
+          "window": 10,
+          "train": "2021-01-04~2023-01-03",
+          "test": "2023-01-04~2023-07-03",
+          "train_sharpe": 3.536,
+          "test_sharpe": 2.0,
+          "weights": {
+            "analyst": 0.2034,
+            "balance": 0.0301,
+            "buyback_yield": 0.0166,
+            "capex_intensity": 0.0166,
+            "cash_to_assets": 0.0166,
+            "cashflow": 0.053,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0166,
+            "equity_ratio": 0.0166,
+            "fcf_margin": 0.0166,
+            "fcf_to_income": 0.0166,
+            "fund_growth": 0.2744,
+            "fund_metric": 0.0452,
+            "fund_ratio": 0.0,
+            "grade_sentiment": 0.0,
+            "gross_margin": 0.0166,
+            "gross_margin_delta": 0.0166,
+            "insider": 0.2112,
+            "net_debt_to_assets": 0.0,
+            "net_margin": 0.0,
+            "ocf_margin": 0.0,
+            "operating_margin": 0.0166,
+            "revenue_growth_yoy": 0.0,
+            "tech": 0.0,
+            "valuation": 0.0166
+          }
+        },
+        {
+          "window": 11,
+          "train": "2021-07-06~2023-07-03",
+          "test": "2023-07-05~2024-01-03",
+          "train_sharpe": 1.962,
+          "test_sharpe": 1.919,
+          "weights": {
+            "analyst": 0.2463,
+            "balance": 0.012,
+            "buyback_yield": 0.0398,
+            "capex_intensity": 0.1788,
+            "cash_to_assets": 0.012,
+            "cashflow": 0.0188,
+            "earnings": 0.0191,
+            "ebitda_margin": 0.012,
+            "equity_ratio": 0.0495,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.0,
+            "fund_growth": 0.012,
+            "fund_metric": 0.0198,
+            "fund_ratio": 0.0202,
+            "grade_sentiment": 0.0,
+            "gross_margin": 0.012,
+            "gross_margin_delta": 0.0825,
+            "insider": 0.012,
+            "net_debt_to_assets": 0.012,
+            "net_margin": 0.012,
+            "ocf_margin": 0.012,
+            "operating_margin": 0.0242,
+            "revenue_growth_yoy": 0.1692,
+            "tech": 0.012,
+            "valuation": 0.012
+          }
+        },
+        {
+          "window": 12,
+          "train": "2022-01-04~2024-01-03",
+          "test": "2024-01-04~2024-07-03",
+          "train_sharpe": 1.109,
+          "test_sharpe": 2.384,
+          "weights": {
+            "analyst": 0.1458,
+            "balance": 0.0197,
+            "buyback_yield": 0.0619,
+            "capex_intensity": 0.0197,
+            "cash_to_assets": 0.0492,
+            "cashflow": 0.0443,
+            "earnings": 0.0911,
+            "ebitda_margin": 0.0197,
+            "equity_ratio": 0.0197,
+            "fcf_margin": 0.0491,
+            "fcf_to_income": 0.0197,
+            "fund_growth": 0.0197,
+            "fund_metric": 0.1721,
+            "fund_ratio": 0.0197,
+            "grade_sentiment": 0.0197,
+            "gross_margin": 0.0197,
+            "gross_margin_delta": 0.0197,
+            "insider": 0.0197,
+            "net_debt_to_assets": 0.0197,
+            "net_margin": 0.0197,
+            "ocf_margin": 0.042,
+            "operating_margin": 0.0197,
+            "revenue_growth_yoy": 0.0197,
+            "tech": 0.0,
+            "valuation": 0.0489
+          }
+        },
+        {
+          "window": 13,
+          "train": "2022-07-05~2024-07-03",
+          "test": "2024-07-05~2025-01-03",
+          "train_sharpe": 1.884,
+          "test_sharpe": 0.434,
+          "weights": {
+            "analyst": 0.1487,
+            "balance": 0.3443,
+            "buyback_yield": 0.0216,
+            "capex_intensity": 0.0216,
+            "cash_to_assets": 0.0216,
+            "cashflow": 0.0216,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0,
+            "equity_ratio": 0.0216,
+            "fcf_margin": 0.0216,
+            "fcf_to_income": 0.0216,
+            "fund_growth": 0.047,
+            "fund_metric": 0.0216,
+            "fund_ratio": 0.0216,
+            "grade_sentiment": 0.0216,
+            "gross_margin": 0.0216,
+            "gross_margin_delta": 0.0216,
+            "insider": 0.0216,
+            "net_debt_to_assets": 0.0499,
+            "net_margin": 0.0216,
+            "ocf_margin": 0.0216,
+            "operating_margin": 0.0216,
+            "revenue_growth_yoy": 0.0216,
+            "tech": 0.0216,
+            "valuation": 0.0216
+          }
+        },
+        {
+          "window": 14,
+          "train": "2023-01-04~2025-01-03",
+          "test": "2025-01-06~2025-07-03",
+          "train_sharpe": 2.701,
+          "test_sharpe": 0.418,
+          "weights": {
+            "analyst": 0.151,
+            "balance": 0.0492,
+            "buyback_yield": 0.0343,
+            "capex_intensity": 0.0343,
+            "cash_to_assets": 0.0343,
+            "cashflow": 0.05,
+            "earnings": 0.0343,
+            "ebitda_margin": 0.0,
+            "equity_ratio": 0.0343,
+            "fcf_margin": 0.0343,
+            "fcf_to_income": 0.0343,
+            "fund_growth": 0.0343,
+            "fund_metric": 0.0976,
+            "fund_ratio": 0.052,
+            "grade_sentiment": 0.0343,
+            "gross_margin": 0.0,
+            "gross_margin_delta": 0.0343,
+            "insider": 0.0343,
+            "net_debt_to_assets": 0.0343,
+            "net_margin": 0.0521,
+            "ocf_margin": 0.0343,
+            "operating_margin": 0.0343,
+            "revenue_growth_yoy": 0.0,
+            "tech": 0.0343,
+            "valuation": 0.0343
+          }
+        },
+        {
+          "window": 15,
+          "train": "2023-07-05~2025-07-03",
+          "test": "2025-07-07~2026-01-02",
+          "train_sharpe": 2.041,
+          "test_sharpe": 0.451,
+          "weights": {
+            "analyst": 0.0,
+            "balance": 0.0178,
+            "buyback_yield": 0.0,
+            "capex_intensity": 0.0178,
+            "cash_to_assets": 0.0,
+            "cashflow": 0.254,
+            "earnings": 0.0178,
+            "ebitda_margin": 0.0429,
+            "equity_ratio": 0.0178,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.0178,
+            "fund_growth": 0.0178,
+            "fund_metric": 0.0178,
+            "fund_ratio": 0.0178,
+            "grade_sentiment": 0.0178,
+            "gross_margin": 0.0178,
+            "gross_margin_delta": 0.0178,
+            "insider": 0.0178,
+            "net_debt_to_assets": 0.0178,
+            "net_margin": 0.0178,
+            "ocf_margin": 0.0433,
+            "operating_margin": 0.3565,
+            "revenue_growth_yoy": 0.0178,
+            "tech": 0.0178,
+            "valuation": 0.0178
+          }
+        }
+      ]
+    },
+    "30d_10": {
+      "hold_days": 30,
+      "top_n": 10,
+      "oos_sharpe": 0.943,
+      "oos_cagr": 0.1492,
+      "oos_max_dd": -0.3644,
+      "oos_win_rate": 0.688,
+      "oos_n_periods": 77,
+      "train_sharpe": 1.926,
+      "overfit_ratio": 0.49,
+      "weight_stability": {
+        "analyst": {
+          "mean": 0.1255,
+          "std": 0.1019,
+          "min": 0.0,
+          "max": 0.3179
+        },
+        "balance": {
+          "mean": 0.0481,
+          "std": 0.0624,
+          "min": 0.0,
+          "max": 0.1936
+        },
+        "buyback_yield": {
+          "mean": 0.0596,
+          "std": 0.0712,
+          "min": 0.0,
+          "max": 0.2515
+        },
+        "capex_intensity": {
+          "mean": 0.0218,
+          "std": 0.0193,
+          "min": 0.0,
+          "max": 0.0833
+        },
+        "cash_to_assets": {
+          "mean": 0.0716,
+          "std": 0.0737,
+          "min": 0.0069,
+          "max": 0.251
+        },
+        "cashflow": {
+          "mean": 0.0327,
+          "std": 0.0459,
+          "min": 0.0,
+          "max": 0.1752
+        },
+        "earnings": {
+          "mean": 0.0285,
+          "std": 0.022,
+          "min": 0.0,
+          "max": 0.0964
+        },
+        "ebitda_margin": {
+          "mean": 0.0461,
+          "std": 0.066,
+          "min": 0.0,
+          "max": 0.2861
+        },
+        "equity_ratio": {
+          "mean": 0.0482,
+          "std": 0.0589,
+          "min": 0.0,
+          "max": 0.2561
+        },
+        "fcf_margin": {
+          "mean": 0.0207,
+          "std": 0.0217,
+          "min": 0.0,
+          "max": 0.0948
+        },
+        "fcf_to_income": {
+          "mean": 0.0256,
+          "std": 0.023,
+          "min": 0.0,
+          "max": 0.0957
+        },
+        "fund_growth": {
+          "mean": 0.0324,
+          "std": 0.0184,
+          "min": 0.0107,
+          "max": 0.0855
+        },
+        "fund_metric": {
+          "mean": 0.0565,
+          "std": 0.0639,
+          "min": 0.0,
+          "max": 0.1967
+        },
+        "fund_ratio": {
+          "mean": 0.0445,
+          "std": 0.0565,
+          "min": 0.0,
+          "max": 0.224
+        },
+        "grade_sentiment": {
+          "mean": 0.0272,
+          "std": 0.0207,
+          "min": 0.0,
+          "max": 0.0898
+        },
+        "gross_margin": {
+          "mean": 0.0208,
+          "std": 0.0114,
+          "min": 0.0,
+          "max": 0.0471
+        },
+        "gross_margin_delta": {
+          "mean": 0.0314,
+          "std": 0.0421,
+          "min": 0.0,
+          "max": 0.1888
+        },
+        "insider": {
+          "mean": 0.0343,
+          "std": 0.0315,
+          "min": 0.0,
+          "max": 0.1306
+        },
+        "net_debt_to_assets": {
+          "mean": 0.0228,
+          "std": 0.0092,
+          "min": 0.0069,
+          "max": 0.0382
+        },
+        "net_margin": {
+          "mean": 0.0271,
+          "std": 0.0349,
+          "min": 0.0,
+          "max": 0.1536
+        },
+        "ocf_margin": {
+          "mean": 0.0261,
+          "std": 0.0186,
+          "min": 0.0069,
+          "max": 0.0905
+        },
+        "operating_margin": {
+          "mean": 0.0281,
+          "std": 0.0262,
+          "min": 0.0069,
+          "max": 0.1244
+        },
+        "revenue_growth_yoy": {
+          "mean": 0.0605,
+          "std": 0.0724,
+          "min": 0.0145,
+          "max": 0.2843
+        },
+        "tech": {
+          "mean": 0.0188,
+          "std": 0.0135,
+          "min": 0.0,
+          "max": 0.0485
+        },
+        "valuation": {
+          "mean": 0.0411,
+          "std": 0.0378,
+          "min": 0.0069,
+          "max": 0.1623
+        }
+      },
+      "window_details": [
+        {
+          "window": 0,
+          "train": "2016-01-04~2018-01-03",
+          "test": "2018-01-04~2018-07-03",
+          "train_sharpe": 3.093,
+          "test_sharpe": 0.362,
+          "weights": {
+            "analyst": 0.016,
+            "balance": 0.0,
+            "buyback_yield": 0.016,
+            "capex_intensity": 0.016,
+            "cash_to_assets": 0.251,
+            "cashflow": 0.0,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0389,
+            "equity_ratio": 0.0476,
+            "fcf_margin": 0.016,
+            "fcf_to_income": 0.016,
+            "fund_growth": 0.016,
+            "fund_metric": 0.1816,
+            "fund_ratio": 0.0617,
+            "grade_sentiment": 0.016,
+            "gross_margin": 0.016,
+            "gross_margin_delta": 0.1888,
+            "insider": 0.0,
+            "net_debt_to_assets": 0.0382,
+            "net_margin": 0.0,
+            "ocf_margin": 0.016,
+            "operating_margin": 0.016,
+            "revenue_growth_yoy": 0.016,
+            "tech": 0.0,
+            "valuation": 0.016
+          }
+        },
+        {
+          "window": 1,
+          "train": "2016-07-05~2018-07-03",
+          "test": "2018-07-05~2019-01-03",
+          "train_sharpe": 3.778,
+          "test_sharpe": 0.666,
+          "weights": {
+            "analyst": 0.0069,
+            "balance": 0.0276,
+            "buyback_yield": 0.0069,
+            "capex_intensity": 0.0069,
+            "cash_to_assets": 0.0069,
+            "cashflow": 0.0069,
+            "earnings": 0.0964,
+            "ebitda_margin": 0.2861,
+            "equity_ratio": 0.0457,
+            "fcf_margin": 0.0069,
+            "fcf_to_income": 0.0,
+            "fund_growth": 0.0855,
+            "fund_metric": 0.0,
+            "fund_ratio": 0.134,
+            "grade_sentiment": 0.0069,
+            "gross_margin": 0.0069,
+            "gross_margin_delta": 0.0069,
+            "insider": 0.0887,
+            "net_debt_to_assets": 0.0069,
+            "net_margin": 0.0,
+            "ocf_margin": 0.0069,
+            "operating_margin": 0.0069,
+            "revenue_growth_yoy": 0.1387,
+            "tech": 0.0069,
+            "valuation": 0.0069
+          }
+        },
+        {
+          "window": 2,
+          "train": "2017-01-04~2019-01-03",
+          "test": "2019-01-04~2019-07-03",
+          "train_sharpe": 1.897,
+          "test_sharpe": 3.688,
+          "weights": {
+            "analyst": 0.0228,
+            "balance": 0.0228,
+            "buyback_yield": 0.2515,
+            "capex_intensity": 0.0228,
+            "cash_to_assets": 0.0228,
+            "cashflow": 0.0228,
+            "earnings": 0.0228,
+            "ebitda_margin": 0.0228,
+            "equity_ratio": 0.0228,
+            "fcf_margin": 0.0228,
+            "fcf_to_income": 0.0228,
+            "fund_growth": 0.0228,
+            "fund_metric": 0.0228,
+            "fund_ratio": 0.224,
+            "grade_sentiment": 0.0228,
+            "gross_margin": 0.0228,
+            "gross_margin_delta": 0.0228,
+            "insider": 0.0228,
+            "net_debt_to_assets": 0.0228,
+            "net_margin": 0.0228,
+            "ocf_margin": 0.0228,
+            "operating_margin": 0.0228,
+            "revenue_growth_yoy": 0.0228,
+            "tech": 0.0228,
+            "valuation": 0.0228
+          }
+        },
+        {
+          "window": 3,
+          "train": "2017-07-05~2019-07-03",
+          "test": "2019-07-05~2020-01-03",
+          "train_sharpe": 2.415,
+          "test_sharpe": 4.42,
+          "weights": {
+            "analyst": 0.0347,
+            "balance": 0.0,
+            "buyback_yield": 0.1027,
+            "capex_intensity": 0.0,
+            "cash_to_assets": 0.0347,
+            "cashflow": 0.0347,
+            "earnings": 0.0347,
+            "ebitda_margin": 0.0347,
+            "equity_ratio": 0.1046,
+            "fcf_margin": 0.0347,
+            "fcf_to_income": 0.0347,
+            "fund_growth": 0.0347,
+            "fund_metric": 0.0347,
+            "fund_ratio": 0.0347,
+            "grade_sentiment": 0.0347,
+            "gross_margin": 0.0,
+            "gross_margin_delta": 0.0347,
+            "insider": 0.0347,
+            "net_debt_to_assets": 0.0347,
+            "net_margin": 0.0347,
+            "ocf_margin": 0.0347,
+            "operating_margin": 0.0347,
+            "revenue_growth_yoy": 0.1673,
+            "tech": 0.0,
+            "valuation": 0.0347
+          }
+        },
+        {
+          "window": 4,
+          "train": "2018-01-04~2020-01-03",
+          "test": "2020-01-06~2020-07-02",
+          "train_sharpe": 3.005,
+          "test_sharpe": 0.076,
+          "weights": {
+            "analyst": 0.2557,
+            "balance": 0.0,
+            "buyback_yield": 0.1008,
+            "capex_intensity": 0.0181,
+            "cash_to_assets": 0.0437,
+            "cashflow": 0.0181,
+            "earnings": 0.0,
+            "ebitda_margin": 0.0181,
+            "equity_ratio": 0.0403,
+            "fcf_margin": 0.0181,
+            "fcf_to_income": 0.0436,
+            "fund_growth": 0.0181,
+            "fund_metric": 0.0181,
+            "fund_ratio": 0.0181,
+            "grade_sentiment": 0.0898,
+            "gross_margin": 0.0181,
+            "gross_margin_delta": 0.0,
+            "insider": 0.0181,
+            "net_debt_to_assets": 0.0181,
+            "net_margin": 0.0181,
+            "ocf_margin": 0.0181,
+            "operating_margin": 0.1244,
+            "revenue_growth_yoy": 0.0181,
+            "tech": 0.0485,
+            "valuation": 0.0181
+          }
+        },
+        {
+          "window": 5,
+          "train": "2018-07-05~2020-07-02",
+          "test": "2020-07-06~2020-12-31",
+          "train_sharpe": 1.855,
+          "test_sharpe": 2.687,
+          "weights": {
+            "analyst": 0.0142,
+            "balance": 0.1936,
+            "buyback_yield": 0.0142,
+            "capex_intensity": 0.0142,
+            "cash_to_assets": 0.0142,
+            "cashflow": 0.0,
+            "earnings": 0.026,
+            "ebitda_margin": 0.1062,
+            "equity_ratio": 0.0142,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.0,
+            "fund_growth": 0.0394,
+            "fund_metric": 0.0142,
+            "fund_ratio": 0.0595,
+            "grade_sentiment": 0.032,
+            "gross_margin": 0.0142,
+            "gross_margin_delta": 0.0142,
+            "insider": 0.0142,
+            "net_debt_to_assets": 0.0142,
+            "net_margin": 0.0,
+            "ocf_margin": 0.0142,
+            "operating_margin": 0.0142,
+            "revenue_growth_yoy": 0.2843,
+            "tech": 0.0142,
+            "valuation": 0.0749
+          }
+        },
+        {
+          "window": 6,
+          "train": "2019-01-04~2020-12-31",
+          "test": "2021-01-04~2021-07-02",
+          "train_sharpe": 1.901,
+          "test_sharpe": 7.354,
+          "weights": {
+            "analyst": 0.0,
+            "balance": 0.0963,
+            "buyback_yield": 0.0,
+            "capex_intensity": 0.0833,
+            "cash_to_assets": 0.1392,
+            "cashflow": 0.0,
+            "earnings": 0.0107,
+            "ebitda_margin": 0.0107,
+            "equity_ratio": 0.0689,
+            "fcf_margin": 0.0107,
+            "fcf_to_income": 0.0107,
+            "fund_growth": 0.0107,
+            "fund_metric": 0.1967,
+            "fund_ratio": 0.0107,
+            "grade_sentiment": 0.0497,
+            "gross_margin": 0.0107,
+            "gross_margin_delta": 0.0,
+            "insider": 0.0107,
+            "net_debt_to_assets": 0.0107,
+            "net_margin": 0.0,
+            "ocf_margin": 0.0107,
+            "operating_margin": 0.0107,
+            "revenue_growth_yoy": 0.0747,
+            "tech": 0.0107,
+            "valuation": 0.1623
+          }
+        },
+        {
+          "window": 7,
+          "train": "2019-07-05~2021-07-02",
+          "test": "2021-07-06~2022-01-03",
+          "train_sharpe": 1.167,
+          "test_sharpe": 1.353,
+          "weights": {
+            "analyst": 0.1882,
+            "balance": 0.0489,
+            "buyback_yield": 0.0549,
+            "capex_intensity": 0.0,
+            "cash_to_assets": 0.2356,
+            "cashflow": 0.1194,
+            "earnings": 0.045,
+            "ebitda_margin": 0.0,
+            "equity_ratio": 0.0145,
+            "fcf_margin": 0.0145,
+            "fcf_to_income": 0.0145,
+            "fund_growth": 0.0145,
+            "fund_metric": 0.0145,
+            "fund_ratio": 0.0145,
+            "grade_sentiment": 0.0,
+            "gross_margin": 0.0145,
+            "gross_margin_delta": 0.0145,
+            "insider": 0.0145,
+            "net_debt_to_assets": 0.0145,
+            "net_margin": 0.0145,
+            "ocf_margin": 0.0145,
+            "operating_margin": 0.0145,
+            "revenue_growth_yoy": 0.0145,
+            "tech": 0.0145,
+            "valuation": 0.0902
+          }
+        },
+        {
+          "window": 8,
+          "train": "2020-01-06~2022-01-03",
+          "test": "2022-01-04~2022-07-01",
+          "train_sharpe": 1.752,
+          "test_sharpe": 0.621,
+          "weights": {
+            "analyst": 0.3179,
+            "balance": 0.0,
+            "buyback_yield": 0.0227,
+            "capex_intensity": 0.0227,
+            "cash_to_assets": 0.1259,
+            "cashflow": 0.0,
+            "earnings": 0.0227,
+            "ebitda_margin": 0.0227,
+            "equity_ratio": 0.0227,
+            "fcf_margin": 0.0227,
+            "fcf_to_income": 0.046,
+            "fund_growth": 0.0472,
+            "fund_metric": 0.0227,
+            "fund_ratio": 0.0487,
+            "grade_sentiment": 0.0,
+            "gross_margin": 0.0227,
+            "gross_margin_delta": 0.0227,
+            "insider": 0.0227,
+            "net_debt_to_assets": 0.0227,
+            "net_margin": 0.0227,
+            "ocf_margin": 0.0227,
+            "operating_margin": 0.0227,
+            "revenue_growth_yoy": 0.0484,
+            "tech": 0.0,
+            "valuation": 0.0485
+          }
+        },
+        {
+          "window": 9,
+          "train": "2020-07-06~2022-07-01",
+          "test": "2022-07-05~2023-01-03",
+          "train_sharpe": 3.093,
+          "test_sharpe": 2.013,
+          "weights": {
+            "analyst": 0.2008,
+            "balance": 0.016,
+            "buyback_yield": 0.0,
+            "capex_intensity": 0.016,
+            "cash_to_assets": 0.0284,
+            "cashflow": 0.016,
+            "earnings": 0.016,
+            "ebitda_margin": 0.016,
+            "equity_ratio": 0.016,
+            "fcf_margin": 0.016,
+            "fcf_to_income": 0.016,
+            "fund_growth": 0.049,
+            "fund_metric": 0.0594,
+            "fund_ratio": 0.016,
+            "grade_sentiment": 0.016,
+            "gross_margin": 0.016,
+            "gross_margin_delta": 0.0319,
+            "insider": 0.1306,
+            "net_debt_to_assets": 0.016,
+            "net_margin": 0.1536,
+            "ocf_margin": 0.0905,
+            "operating_margin": 0.016,
+            "revenue_growth_yoy": 0.016,
+            "tech": 0.016,
+            "valuation": 0.016
+          }
+        },
+        {
+          "window": 10,
+          "train": "2021-01-04~2023-01-03",
+          "test": "2023-01-04~2023-07-03",
+          "train_sharpe": 3.054,
+          "test_sharpe": 1.187,
+          "weights": {
+            "analyst": 0.186,
+            "balance": 0.0492,
+            "buyback_yield": 0.0333,
+            "capex_intensity": 0.0333,
+            "cash_to_assets": 0.0333,
+            "cashflow": 0.0333,
+            "earnings": 0.0333,
+            "ebitda_margin": 0.0333,
+            "equity_ratio": 0.0333,
+            "fcf_margin": 0.0333,
+            "fcf_to_income": 0.0333,
+            "fund_growth": 0.0333,
+            "fund_metric": 0.0333,
+            "fund_ratio": 0.0333,
+            "grade_sentiment": 0.0333,
+            "gross_margin": 0.0333,
+            "gross_margin_delta": 0.0333,
+            "insider": 0.0333,
+            "net_debt_to_assets": 0.0333,
+            "net_margin": 0.0333,
+            "ocf_margin": 0.0333,
+            "operating_margin": 0.0333,
+            "revenue_growth_yoy": 0.0333,
+            "tech": 0.0333,
+            "valuation": 0.0333
+          }
+        },
+        {
+          "window": 11,
+          "train": "2021-07-06~2023-07-03",
+          "test": "2023-07-05~2024-01-03",
+          "train_sharpe": 2.176,
+          "test_sharpe": 2.076,
+          "weights": {
+            "analyst": 0.2137,
+            "balance": 0.0,
+            "buyback_yield": 0.0458,
+            "capex_intensity": 0.0306,
+            "cash_to_assets": 0.0466,
+            "cashflow": 0.0306,
+            "earnings": 0.0306,
+            "ebitda_margin": 0.0306,
+            "equity_ratio": 0.0306,
+            "fcf_margin": 0.0948,
+            "fcf_to_income": 0.0,
+            "fund_growth": 0.0306,
+            "fund_metric": 0.0491,
+            "fund_ratio": 0.0306,
+            "grade_sentiment": 0.0306,
+            "gross_margin": 0.0306,
+            "gross_margin_delta": 0.0306,
+            "insider": 0.0306,
+            "net_debt_to_assets": 0.0306,
+            "net_margin": 0.0306,
+            "ocf_margin": 0.0306,
+            "operating_margin": 0.0306,
+            "revenue_growth_yoy": 0.0306,
+            "tech": 0.0306,
+            "valuation": 0.0306
+          }
+        },
+        {
+          "window": 12,
+          "train": "2022-01-04~2024-01-03",
+          "test": "2024-01-04~2024-07-03",
+          "train_sharpe": 1.72,
+          "test_sharpe": 0.915,
+          "weights": {
+            "analyst": 0.1912,
+            "balance": 0.0259,
+            "buyback_yield": 0.0259,
+            "capex_intensity": 0.0259,
+            "cash_to_assets": 0.0406,
+            "cashflow": 0.0259,
+            "earnings": 0.0259,
+            "ebitda_margin": 0.0259,
+            "equity_ratio": 0.0,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.0957,
+            "fund_growth": 0.0259,
+            "fund_metric": 0.1809,
+            "fund_ratio": 0.0259,
+            "grade_sentiment": 0.0259,
+            "gross_margin": 0.0259,
+            "gross_margin_delta": 0.0259,
+            "insider": 0.0259,
+            "net_debt_to_assets": 0.0259,
+            "net_margin": 0.0259,
+            "ocf_margin": 0.0259,
+            "operating_margin": 0.0259,
+            "revenue_growth_yoy": 0.0259,
+            "tech": 0.0259,
+            "valuation": 0.0259
+          }
+        },
+        {
+          "window": 13,
+          "train": "2022-07-05~2024-07-03",
+          "test": "2024-07-05~2025-01-03",
+          "train_sharpe": 2.466,
+          "test_sharpe": 0.649,
+          "weights": {
+            "analyst": 0.211,
+            "balance": 0.1878,
+            "buyback_yield": 0.2091,
+            "capex_intensity": 0.0,
+            "cash_to_assets": 0.0493,
+            "cashflow": 0.018,
+            "earnings": 0.018,
+            "ebitda_margin": 0.018,
+            "equity_ratio": 0.018,
+            "fcf_margin": 0.018,
+            "fcf_to_income": 0.018,
+            "fund_growth": 0.018,
+            "fund_metric": 0.018,
+            "fund_ratio": 0.0,
+            "grade_sentiment": 0.018,
+            "gross_margin": 0.018,
+            "gross_margin_delta": 0.018,
+            "insider": 0.018,
+            "net_debt_to_assets": 0.018,
+            "net_margin": 0.018,
+            "ocf_margin": 0.018,
+            "operating_margin": 0.018,
+            "revenue_growth_yoy": 0.018,
+            "tech": 0.018,
+            "valuation": 0.018
+          }
+        },
+        {
+          "window": 14,
+          "train": "2023-01-04~2025-01-03",
+          "test": "2025-01-06~2025-07-03",
+          "train_sharpe": 3.157,
+          "test_sharpe": -0.23,
+          "weights": {
+            "analyst": 0.0992,
+            "balance": 0.1022,
+            "buyback_yield": 0.0348,
+            "capex_intensity": 0.0229,
+            "cash_to_assets": 0.0229,
+            "cashflow": 0.0229,
+            "earnings": 0.0229,
+            "ebitda_margin": 0.0229,
+            "equity_ratio": 0.2561,
+            "fcf_margin": 0.0229,
+            "fcf_to_income": 0.0229,
+            "fund_growth": 0.0229,
+            "fund_metric": 0.0229,
+            "fund_ratio": 0.0,
+            "grade_sentiment": 0.0229,
+            "gross_margin": 0.0471,
+            "gross_margin_delta": 0.0229,
+            "insider": 0.0483,
+            "net_debt_to_assets": 0.0229,
+            "net_margin": 0.0229,
+            "ocf_margin": 0.0229,
+            "operating_margin": 0.0229,
+            "revenue_growth_yoy": 0.0229,
+            "tech": 0.0229,
+            "valuation": 0.0229
+          }
+        },
+        {
+          "window": 15,
+          "train": "2023-07-05~2025-07-03",
+          "test": "2025-07-07~2026-01-02",
+          "train_sharpe": 2.186,
+          "test_sharpe": 0.782,
+          "weights": {
+            "analyst": 0.0495,
+            "balance": 0.0,
+            "buyback_yield": 0.0358,
+            "capex_intensity": 0.0358,
+            "cash_to_assets": 0.0497,
+            "cashflow": 0.1752,
+            "earnings": 0.0508,
+            "ebitda_margin": 0.0515,
+            "equity_ratio": 0.0358,
+            "fcf_margin": 0.0,
+            "fcf_to_income": 0.0358,
+            "fund_growth": 0.0505,
+            "fund_metric": 0.0358,
+            "fund_ratio": 0.0,
+            "grade_sentiment": 0.0358,
+            "gross_margin": 0.0358,
+            "gross_margin_delta": 0.0358,
+            "insider": 0.0358,
+            "net_debt_to_assets": 0.0358,
+            "net_margin": 0.0358,
+            "ocf_margin": 0.0358,
+            "operating_margin": 0.0358,
+            "revenue_growth_yoy": 0.0358,
+            "tech": 0.0358,
+            "valuation": 0.0358
+          }
+        }
+      ]
+    },
+    "V0.3.1_baseline": {
+      "hold_days": 60,
+      "top_n": 20,
+      "oos_sharpe": 0.785,
+      "oos_cagr": 0.0815,
+      "oos_max_dd": -0.5332,
+      "oos_win_rate": 0.688,
+      "train_sharpe": 1.643,
+      "overfit_ratio": 0.478
+    }
+  }
+}

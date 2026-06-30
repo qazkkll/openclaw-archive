@@ -2,15 +2,20 @@
 """
 🦅 Falcon 独立评分脚本
 =====================
-FV0.3.1 独立评分 → 与 alpaca_trade.py / futu_trade.py 对接。
+FV0.3.3 独立评分 → 与 alpaca_trade.py / futu_trade.py 对接。
 不依赖 V10/V12 的模型文件，用 Falcon 自己的 FMP PIT 因子 rank。
+
+V0.3.3 新增:
+  - earnings因子 (权重0.15): FMP Premium盈利惊喜
+  - composite因子 (权重0.05): FCF/OFCF × 分析师覆盖, FCF/OFCF × PB
+  - num_analysts_eps: 分析师覆盖数 (新增到ANALYST_FIELDS)
 
 用法:
     python3 scripts/falcon/falcon_score.py                  # 评分最新交易日
     python3 scripts/falcon/falcon_score.py --date 2024-12-31  # 评分指定日期
     python3 scripts/falcon/falcon_score.py --top-n 10       # 取 Top-10
 
-输出: data/falcon/falcon_scored_YYYYMMDD.json
+输出: data/falcon/falcon_v033_scored_YYYYMMDD.json
 格式: 与 V10/V12 scored JSON 兼容，alpaca_trade.py 可直接读取。
 """
 
@@ -34,7 +39,7 @@ OUTPUT_DIR = DATA_DIR  # scored JSON 输出到 data/falcon/
 sys.path.insert(0, str(FALCON_DIR))
 from falcon_v03_engine import (
     get_pit, get_pit_insider, precompute_pit_ranks, RATIO_FIELDS, METRIC_FIELDS,
-    GROWTH_FIELDS, ANALYST_FIELDS, TECH_FIELDS, EARNINGS_FIELDS, GRADE_FIELDS,
+    GROWTH_FIELDS, ANALYST_FIELDS, ANALYST_FIELD_ALIASES, TECH_FIELDS, EARNINGS_FIELDS, GRADE_FIELDS,
     BALANCE_FIELDS, CASHFLOW_FIELDS, INCOME_FIELDS,
     build_pit_index_statements, compute_statement_factors,
 )
@@ -42,23 +47,23 @@ from extract_fmp_premium_features import load_fmp_premium_earnings, load_fmp_pre
 
 
 # ═══════════════════════════════════════════════════
-# SPX 最优配置 (V0.3.2, Walk-Forward验证, 2026-06-30)
-# 权重来源: 全因子IC/ICIR分析 + fund_ratio sweep
-# 调仓: 60天 | VIX>25不买入 | 止损-15%
+# SPX 最优配置 (V0.3.1权重, Walk-Forward验证, 2026-06-30)
+# fund_ratio主导(WF Sharpe=1.431, MaxDD=-22.0%, 30天调仓)
+# balance/cashflow/income因子保留但权重=0(数据管线完整)
 # ═══════════════════════════════════════════════════
 SPX_WEIGHTS = {
-    "fund_growth": 0.15,      # ICIR=0.292, 最强因子
-    "cashflow": 0.12,         # ICIR=0.153, 新因子
-    "analyst": 0.12,          # ICIR=0.133
-    "grade_sentiment": 0.12,  # ICIR=0.143
-    "earnings": 0.10,         # ICIR=0.129
-    "balance": 0.08,          # ICIR=0.094, 新因子
-    "fund_metric": 0.06,      # ICIR=0.082
-    "insider": 0.05,          # ICIR=0.057
-    "fund_ratio": 0.0,        # IC=-0.003, 排除
-    "income_stmt": 0.0,       # ICIR=0.015, 太弱排除
-    "tech": 0.0,              # IC负, 排除
-    "valuation": 0.0,         # IC负, 排除
+    "fund_ratio": 0.70,       # Walk-Forward最强因子(IC低但WF高)
+    "analyst": 0.20,          # 分析师共识
+    "fund_metric": 0.10,      # 基本面指标
+    "fund_growth": 0.0,       # V0.3.2新增,暂不启用
+    "cashflow": 0.0,          # V0.3.2新增,暂不启用
+    "balance": 0.0,           # V0.3.2新增,暂不启用
+    "income_stmt": 0.0,       # V0.3.2新增,暂不启用
+    "grade_sentiment": 0.0,   # 暂不启用
+    "earnings": 0.0,          # 暂不启用
+    "insider": 0.0,           # 暂不启用
+    "tech": 0.0,              # IC负,排除
+    "valuation": 0.0,         # IC负,排除
 }
 # R2K 最优配置 (来自 OOS 验证: Pure_Fund, Fixed_10d, SL=-15%)
 R2K_WEIGHTS = {
@@ -67,8 +72,29 @@ R2K_WEIGHTS = {
     "fund_metric": 0.05,
     "tech": 0.0,
 }
+
+# ═══════════════════════════════════════════════════
+# V0.3.3 权重配置 (Walk-Forward验证, 2026-07-01)
+# 新增: earnings(0.15) + composite(0.05)
+# 调整: fund_ratio 0.70→0.55, analyst 0.20→0.15
+# ═══════════════════════════════════════════════════
+V033_WEIGHTS = {
+    "fund_ratio": 0.55,       # 降低（从0.70）
+    "analyst": 0.15,          # 降低（从0.20）
+    "fund_metric": 0.10,      # 保持
+    "earnings": 0.15,         # 新增！（从0.0启用）
+    "composite": 0.05,        # 新增！组合因子
+    "fund_growth": 0.0,
+    "cashflow": 0.0,
+    "balance": 0.0,
+    "income_stmt": 0.0,
+    "grade_sentiment": 0.0,
+    "insider": 0.0,
+    "tech": 0.0,
+    "valuation": 0.0,
+}
 TOP_N = 10
-HOLD_DAYS = 60
+HOLD_DAYS = 30
 VIX_THRESHOLD = 25  # VIX > 此值不买入
 
 
@@ -206,9 +232,10 @@ def compute_today_rank(master, data, target_date=None, weights=None):
     # Analyst
     for f in ANALYST_FIELDS:
         vals = {}
+        json_key = ANALYST_FIELD_ALIASES.get(f, f)
         for t in day["ticker"].values:
             pit = get_pit(data.get("analyst_historical", {}).get(t, []), date)
-            v = pit.get(f)
+            v = pit.get(json_key)
             if v is not None:
                 vals[t] = v
         if len(vals) > 5:
@@ -298,8 +325,8 @@ def compute_today_rank(master, data, target_date=None, weights=None):
     row["tech"] = row.get("tech", 0.5)
 
     # ── 三大报表因子 (V0.3.2新增) ──
-    # 反向因子: 低值排高
-    INVERT_FACTORS = {"debt_to_equity", "net_debt_to_assets", "capex_intensity"}
+    # 反向因子: 低值排高 (更新: debt_to_equity已从BALANCE_FIELDS剔除)
+    INVERT_FACTORS = {"net_debt_to_assets", "capex_intensity"}
     balance_raw = data.get("fmp_balance_sheet", {})
     cashflow_raw = data.get("fmp_cashflow", {})
     income_raw = data.get("fmp_income_stmt", {})
@@ -380,12 +407,21 @@ def compute_today_rank(master, data, target_date=None, weights=None):
     else:
         row["insider"] = 0.5
 
-    # 加权综合分 (V0.3.2: 含新因子 balance/cashflow/insider)
-    # 注意: price_target和analyst_count暂不纳入评分，需IC验证后决定
-    w = weights or SPX_WEIGHTS
+    # ── V0.3.3 组合因子 ──
+    # FCF/OFCF × 分析师覆盖（IC=0.093, t=17.889）
+    # FCF/OFCF × PB（IC=0.060, t=15.776）
+    fcf_rank = row.get("r_freeCashFlowOperatingCashFlowRatio", pd.Series(0.5, index=row.index))
+    analyst_rank = row.get("a_num_analysts_eps", pd.Series(0.5, index=row.index))
+    pb_rank = row.get("r_priceToBookRatio", pd.Series(0.5, index=row.index))
+    row["composite_fcf_analyst"] = fcf_rank * analyst_rank
+    row["composite_fcf_pb"] = fcf_rank * pb_rank
+    row["composite"] = (row["composite_fcf_analyst"] + row["composite_fcf_pb"]) / 2
+
+    # 加权综合分 (V0.3.3: 含earnings + composite)
+    w = weights or V033_WEIGHTS
     all_factors = ["fund_ratio", "fund_metric", "fund_growth", "analyst", "tech",
                    "earnings", "grade_sentiment", "balance", "cashflow", "insider",
-                   "income_stmt", "valuation"]
+                   "income_stmt", "valuation", "composite"]
     row["falcon_score"] = sum(
         w.get(f, 0) * row[f]
         for f in all_factors
@@ -428,7 +464,7 @@ def main():
     args = parser.parse_args()
 
     t0 = time.time()
-    print("🦅 Falcon 独立评分 V0.3.2")
+    print("🦅 Falcon 独立评分 V0.3.3")
     print("=" * 60)
 
     # ── VIX过滤 (V0.3.2新增) ──
@@ -441,8 +477,12 @@ def main():
                 vix_close = vix_raw[("Close", "^VIX")]
             elif "Close" in vix_raw.columns:
                 vix_close = vix_raw["Close"]
+            elif "close" in vix_raw.columns:
+                vix_close = vix_raw["close"]
             else:
-                vix_close = vix_raw.iloc[:, 0]
+                # Fallback: find first numeric column
+                numeric_cols = vix_raw.select_dtypes(include='number').columns
+                vix_close = vix_raw[numeric_cols[0]] if len(numeric_cols) > 0 else vix_raw.iloc[:, 0]
             latest_vix = float(vix_close.iloc[-1])
             vix_date = str(vix_close.index[-1])[:10]
             print(f"  📊 VIX: {latest_vix:.1f} (日期: {vix_date})")
@@ -481,7 +521,7 @@ def main():
         master, data = load_spx_data()
         print(f"  ✅ {master['ticker'].nunique()} 只, {len(master)} 行")
         print(f"📊 计算 SPX PIT rank...")
-        row, date = compute_today_rank(master, data, args.date, weights=SPX_WEIGHTS)
+        row, date = compute_today_rank(master, data, args.date, weights=V033_WEIGHTS)
         if row is not None:
             row["universe"] = "SPX"
             all_rows.append(row)
@@ -541,13 +581,13 @@ def main():
     uni_counts = combined["universe"].value_counts().to_dict()
 
     result = {
-        "model": "falcon_v032",
-        "version": "V0.3.2",
+        "model": "falcon_v033",
+        "version": "V0.3.3",
         "date": date,
         "universe_size": int(combined.shape[0]),
         "scored_count": int(combined.shape[0]),
         "universes": uni_counts,
-        "weights": {"spx": SPX_WEIGHTS, "r2k": R2K_WEIGHTS},
+        "weights": {"spx": V033_WEIGHTS, "r2k": R2K_WEIGHTS, "spx_v031_fallback": SPX_WEIGHTS},
         "strategy": f"fixed_{HOLD_DAYS}d",
         "vix_threshold": VIX_THRESHOLD,
         "vix_skip": os.environ.get("FALCON_VIX_SKIP", "0") == "1",
@@ -557,13 +597,13 @@ def main():
 
     # 保存
     # 保存 — 文件名用 model 名前缀
-    out_file = OUTPUT_DIR / f"falcon_v032_scored_{str(date).replace('-', '')}.json"
+    out_file = OUTPUT_DIR / f"falcon_v033_scored_{str(date).replace('-', '')}.json"
     with open(out_file, "w") as f:
         json.dump(result, f, indent=2)
 
     # 打印
     print(f"\n{'='*60}")
-    print(f"📊 Falcon V0.3.2 评分结果 — {date}")
+    print(f"📊 Falcon V0.3.3 评分结果 — {date}")
     print(f"{'='*60}")
     print(f"{'排名':>4} {'代码':<8} {'来源':<5} {'分数':>8} {'排名%':>8} {'信号':<6} {'价格':>10} {'增长':>6} {'现金流':>6}")
     print("-" * 80)

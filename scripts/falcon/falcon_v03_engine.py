@@ -56,8 +56,11 @@ GROWTH_FIELDS = ["revenueGrowth", "grossProfitGrowth", "ebitgrowth",
                  "receivablesGrowth", "inventoryGrowth", "assetGrowth",
                  "bookValueperShareGrowth", "debtGrowth"]
 
-# Analyst (3个)
-ANALYST_FIELDS = ["eps_revision", "revenue_revision", "eps_dispersion"]
+# Analyst (4个, V0.3.3新增num_analysts_eps)
+ANALYST_FIELDS = ["eps_revision", "revenue_revision", "eps_dispersion", "num_analysts_eps"]
+
+# JSON字段名 → Python字段名 映射 (analyst_historical.json用camelCase)
+ANALYST_FIELD_ALIASES = {"num_analysts_eps": "numAnalystsEps"}
 
 # FMP Premium Earnings (4个)
 EARNINGS_FIELDS = ["earnings_surprise", "earnings_surprise_2q", "earnings_beat_count_4q", "earnings_price_reaction"]
@@ -71,27 +74,23 @@ GRADE_FIELDS = ["grade_upgrade_ratio_90d", "grade_downgrade_ratio_90d", "grade_m
 # ═══════════════════════════════════════════════════
 
 BALANCE_FIELDS = [
-    "debt_to_equity",       # totalDebt / totalStockholdersEquity (低=好)
-    "cash_to_assets",       # cashAndCashEquivalents / totalAssets (高=好)
-    "net_debt_to_assets",   # netDebt / totalAssets (低=好)
-    "equity_ratio",         # totalStockholdersEquity / totalAssets (高=好)
+    # 剔除: debt_to_equity (ICIR=-0.001), equity_ratio (ICIR=-0.216) — 负/零预测力
+    "cash_to_assets",       # cashAndCashEquivalents / totalAssets (高=好) ICIR=0.292
+    "net_debt_to_assets",   # netDebt / totalAssets (低=好) ICIR=0.183
 ]
 
 CASHFLOW_FIELDS = [
-    "fcf_margin",           # freeCashFlow / revenue (高=好, 需income配对)
-    "ocf_margin",           # operatingCashFlow / revenue (高=好, 需income配对)
-    "capex_intensity",      # capitalExpenditure / revenue (低=好, 需income配对)
-    "buyback_yield",        # abs(commonStockRepurchased) / totalAssets (高=好)
-    "fcf_to_income",        # freeCashFlow / netIncome (高=好, 盈利质量)
+    # 剔除: ocf_margin (ICIR=-0.081) — 负预测力
+    "fcf_margin",           # freeCashFlow / revenue (高=好) ICIR=0.156
+    "capex_intensity",      # capitalExpenditure / revenue (低=好) ICIR=0.316
+    "buyback_yield",        # abs(commonStockRepurchased) / totalAssets (高=好) ICIR=0.190
+    "fcf_to_income",        # freeCashFlow / netIncome (高=好) ICIR=0.379
 ]
 
 INCOME_FIELDS = [
-    "revenue_growth_yoy",   # 同比收入增长 (高=好)
-    "gross_margin",         # grossProfit / revenue (高=好)
-    "operating_margin",     # operatingIncome / revenue (高=好)
-    "net_margin",           # netIncome / revenue (高=好)
-    "gross_margin_delta",   # 本期 - 去年同期毛利率 (高=好, 趋势)
-    "ebitda_margin",        # ebitda / revenue (高=好)
+    # 剔除: gross_margin(-0.057), operating_margin(-0.143), net_margin(-0.084), ebitda_margin(-0.214)
+    "revenue_growth_yoy",   # 同比收入增长 (高=好) ICIR=0.121
+    "gross_margin_delta",   # 本期 - 去年同期毛利率 (高=好, 趋势) ICIR=0.092
 ]
 
 ALL_FMP_FIELDS = RATIO_FIELDS + METRIC_FIELDS + GROWTH_FIELDS
@@ -499,9 +498,10 @@ def precompute_pit_ranks(master, fmp_hist, ana_hist, metrics_hist,
         # ── Analyst rank ──
         for f in ANALYST_FIELDS:
             vals = {}
+            json_key = ANALYST_FIELD_ALIASES.get(f, f)
             for t in day["ticker"].values:
                 pit = get_pit(ana_hist.get(t, []), date)
-                v = pit.get(f)
+                v = pit.get(json_key)
                 if v is not None:
                     vals[t] = v
             if len(vals) > 5:
@@ -687,10 +687,11 @@ def precompute_pit_ranks_fast(master, fmp_hist, ana_hist, metrics_hist,
         # Analyst rank — bisect查找
         for f in ANALYST_FIELDS:
             vals = {}
+            json_key = ANALYST_FIELD_ALIASES.get(f, f)
             for t in tickers:
                 ad, en = ana_idx.get(t, ([], []))
                 pit = get_pit_from_index(ad, en, date)
-                v = pit.get(f)
+                v = pit.get(json_key)
                 if v is not None:
                     vals[t] = v
             if len(vals) > 5:

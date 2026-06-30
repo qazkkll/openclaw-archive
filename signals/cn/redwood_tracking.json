@@ -142,6 +142,152 @@
           "signal": "Y"
         }
       ]
+    },
+    {
+      "date": "20260629",
+      "regime": "bear",
+      "breadth": 0.1701,
+      "mkt_ret20": -0.137007,
+      "picks": [
+        {
+          "rank": 1,
+          "sym": "301013",
+          "name": "利和兴",
+          "industry": "专用机械",
+          "price": 76.07,
+          "score": 0.666,
+          "signal": "GG"
+        },
+        {
+          "rank": 2,
+          "sym": "300408",
+          "name": "三环集团",
+          "industry": "元器件",
+          "price": 166.69,
+          "score": 0.631,
+          "signal": "GG"
+        },
+        {
+          "rank": 3,
+          "sym": "002138",
+          "name": "顺络电子",
+          "industry": "元器件",
+          "price": 74.74,
+          "score": 0.6009,
+          "signal": "GG"
+        },
+        {
+          "rank": 4,
+          "sym": "301526",
+          "name": "国际复材",
+          "industry": "玻璃",
+          "price": 47.82,
+          "score": 0.598,
+          "signal": "GG"
+        },
+        {
+          "rank": 5,
+          "sym": "003004",
+          "name": "声迅股份",
+          "industry": "IT设备",
+          "price": 76.65,
+          "score": 0.5954,
+          "signal": "GG"
+        },
+        {
+          "rank": 6,
+          "sym": "300398",
+          "name": "飞凯材料",
+          "industry": "化工原料",
+          "price": 64.26,
+          "score": 0.5922,
+          "signal": "GG"
+        },
+        {
+          "rank": 7,
+          "sym": "301021",
+          "name": "英诺激光",
+          "industry": "专用机械",
+          "price": 119.5,
+          "score": 0.5852,
+          "signal": "GG"
+        },
+        {
+          "rank": 8,
+          "sym": "301568",
+          "name": "思泰克",
+          "industry": "专用机械",
+          "price": 108.1,
+          "score": 0.5837,
+          "signal": "GG"
+        },
+        {
+          "rank": 9,
+          "sym": "300959",
+          "name": "线上线下",
+          "industry": "电信运营",
+          "price": 140.05,
+          "score": 0.5752,
+          "signal": "GG"
+        },
+        {
+          "rank": 10,
+          "sym": "300652",
+          "name": "雷迪克",
+          "industry": "汽车配件",
+          "price": 32.64,
+          "score": 0.5734,
+          "signal": "GG"
+        },
+        {
+          "rank": 11,
+          "sym": "300806",
+          "name": "斯迪克",
+          "industry": "塑料",
+          "price": 111.61,
+          "score": 0.5723,
+          "signal": "GG"
+        },
+        {
+          "rank": 12,
+          "sym": "600183",
+          "name": "生益科技",
+          "industry": "元器件",
+          "price": 171.16,
+          "score": 0.5722,
+          "signal": "GG"
+        },
+        {
+          "rank": 13,
+          "sym": "002463",
+          "name": "沪电股份",
+          "industry": "元器件",
+          "price": 141.06,
+          "score": 0.5711,
+          "signal": "GG"
+        },
+        {
+          "rank": 14,
+          "sym": "605011",
+          "name": "杭州热电",
+          "industry": "供气供热",
+          "price": 15.56,
+          "score": 0.569,
+          "signal": "GG"
+        },
+        {
+          "rank": 15,
+          "sym": "600487",
+          "name": "亨通光电",
+          "industry": "通信设备",
+          "price": 108.04,
+          "score": 0.5682,
+          "signal": "GG"
+        }
+      ],
+      "predictions": [],
+      "prediction_reviewed": false,
+      "prediction_accuracy": null
     }
   ]
 }

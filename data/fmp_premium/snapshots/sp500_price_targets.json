@@ -1,0 +1,4259 @@
+[
+  {
+    "ticker": "CVNA",
+    "price": 62.35,
+    "target_low": 88,
+    "target_consensus": 317,
+    "target_high": 537,
+    "target_median": 375,
+    "upside_pct": 408.4
+  },
+  {
+    "ticker": "CTSH",
+    "price": 40.03,
+    "target_low": 44,
+    "target_consensus": 76.46,
+    "target_high": 100,
+    "target_median": 72,
+    "upside_pct": 91.0
+  },
+  {
+    "ticker": "BSX",
+    "price": 44.23,
+    "target_low": 55,
+    "target_consensus": 82.4,
+    "target_high": 120,
+    "target_median": 75.5,
+    "upside_pct": 86.3
+  },
+  {
+    "ticker": "CSGP",
+    "price": 30.25,
+    "target_low": 26,
+    "target_consensus": 55.73,
+    "target_high": 74,
+    "target_median": 55,
+    "upside_pct": 84.2
+  },
+  {
+    "ticker": "TRMB",
+    "price": 50.7,
+    "target_low": 80,
+    "target_consensus": 90.5,
+    "target_high": 101,
+    "target_median": 90.5,
+    "upside_pct": 78.5
+  },
+  {
+    "ticker": "LDOS",
+    "price": 101.76,
+    "target_low": 125,
+    "target_consensus": 178.43,
+    "target_high": 215,
+    "target_median": 195,
+    "upside_pct": 75.3
+  },
+  {
+    "ticker": "CHTR",
+    "price": 133.64,
+    "target_low": 160,
+    "target_consensus": 232.75,
+    "target_high": 437,
+    "target_median": 212.5,
+    "upside_pct": 74.2
+  },
+  {
+    "ticker": "ORCL",
+    "price": 148.53,
+    "target_low": 160,
+    "target_consensus": 253.5,
+    "target_high": 325,
+    "target_median": 243,
+    "upside_pct": 70.7
+  },
+  {
+    "ticker": "INTU",
+    "price": 267.72,
+    "target_low": 275,
+    "target_consensus": 452.94,
+    "target_high": 720,
+    "target_median": 412,
+    "upside_pct": 69.2
+  },
+  {
+    "ticker": "CRM",
+    "price": 158.37,
+    "target_low": 215,
+    "target_consensus": 265.75,
+    "target_high": 325,
+    "target_median": 265,
+    "upside_pct": 67.8
+  },
+  {
+    "ticker": "PLTR",
+    "price": 112.93,
+    "target_low": 138,
+    "target_consensus": 189.23,
+    "target_high": 230,
+    "target_median": 190,
+    "upside_pct": 67.6
+  },
+  {
+    "ticker": "TSCO",
+    "price": 31.21,
+    "target_low": 32,
+    "target_consensus": 51.67,
+    "target_high": 63,
+    "target_median": 55,
+    "upside_pct": 65.6
+  },
+  {
+    "ticker": "NVDA",
+    "price": 192.53,
+    "target_low": 218,
+    "target_consensus": 316.79,
+    "target_high": 500,
+    "target_median": 300,
+    "upside_pct": 64.5
+  },
+  {
+    "ticker": "FIS",
+    "price": 38.57,
+    "target_low": 45,
+    "target_consensus": 62.88,
+    "target_high": 85,
+    "target_median": 60,
+    "upside_pct": 63.0
+  },
+  {
+    "ticker": "FOX",
+    "price": 45.91,
+    "target_low": 40,
+    "target_consensus": 74.2,
+    "target_high": 97,
+    "target_median": 76,
+    "upside_pct": 61.6
+  },
+  {
+    "ticker": "TPL",
+    "price": 395.79,
+    "target_low": 639,
+    "target_consensus": 639,
+    "target_high": 639,
+    "target_median": 639,
+    "upside_pct": 61.4
+  },
+  {
+    "ticker": "ADSK",
+    "price": 196.26,
+    "target_low": 262,
+    "target_consensus": 316.09,
+    "target_high": 375,
+    "target_median": 305,
+    "upside_pct": 61.1
+  },
+  {
+    "ticker": "TTD",
+    "price": 18.37,
+    "target_low": 20,
+    "target_consensus": 29.45,
+    "target_high": 53,
+    "target_median": 26.5,
+    "upside_pct": 60.3
+  },
+  {
+    "ticker": "PTC",
+    "price": 115.72,
+    "target_low": 130,
+    "target_consensus": 184.11,
+    "target_high": 210,
+    "target_median": 189,
+    "upside_pct": 59.1
+  },
+  {
+    "ticker": "HPE",
+    "price": 43.71,
+    "target_low": 62,
+    "target_consensus": 69.27,
+    "target_high": 80,
+    "target_median": 69,
+    "upside_pct": 58.5
+  },
+  {
+    "ticker": "COIN",
+    "price": 149.06,
+    "target_low": 107,
+    "target_consensus": 235.94,
+    "target_high": 440,
+    "target_median": 230,
+    "upside_pct": 58.3
+  },
+  {
+    "ticker": "ALB",
+    "price": 133.7,
+    "target_low": 153,
+    "target_consensus": 209.75,
+    "target_high": 264,
+    "target_median": 208.5,
+    "upside_pct": 56.9
+  },
+  {
+    "ticker": "ARES",
+    "price": 109.13,
+    "target_low": 140,
+    "target_consensus": 171.13,
+    "target_high": 215,
+    "target_median": 164,
+    "upside_pct": 56.8
+  },
+  {
+    "ticker": "KKR",
+    "price": 90.13,
+    "target_low": 119,
+    "target_consensus": 141.14,
+    "target_high": 187,
+    "target_median": 137,
+    "upside_pct": 56.6
+  },
+  {
+    "ticker": "ICE",
+    "price": 123.86,
+    "target_low": 177,
+    "target_consensus": 194,
+    "target_high": 211,
+    "target_median": 190.5,
+    "upside_pct": 56.6
+  },
+  {
+    "ticker": "ZTS",
+    "price": 76.09,
+    "target_low": 85,
+    "target_consensus": 118.8,
+    "target_high": 160,
+    "target_median": 115,
+    "upside_pct": 56.1
+  },
+  {
+    "ticker": "ACN",
+    "price": 128.98,
+    "target_low": 130,
+    "target_consensus": 198.06,
+    "target_high": 282,
+    "target_median": 195,
+    "upside_pct": 53.6
+  },
+  {
+    "ticker": "NOW",
+    "price": 98.34,
+    "target_low": 85,
+    "target_consensus": 150.26,
+    "target_high": 236,
+    "target_median": 135,
+    "upside_pct": 52.8
+  },
+  {
+    "ticker": "BR",
+    "price": 137.93,
+    "target_low": 165,
+    "target_consensus": 210,
+    "target_high": 257,
+    "target_median": 207,
+    "upside_pct": 52.3
+  },
+  {
+    "ticker": "CPRT",
+    "price": 30.55,
+    "target_low": 45,
+    "target_consensus": 46.5,
+    "target_high": 48,
+    "target_median": 46.5,
+    "upside_pct": 52.2
+  },
+  {
+    "ticker": "NFLX",
+    "price": 73.81,
+    "target_low": 96,
+    "target_consensus": 111.83,
+    "target_high": 135,
+    "target_median": 112,
+    "upside_pct": 51.5
+  },
+  {
+    "ticker": "META",
+    "price": 550.25,
+    "target_low": 700,
+    "target_consensus": 827.5,
+    "target_high": 910,
+    "target_median": 847.5,
+    "upside_pct": 50.4
+  },
+  {
+    "ticker": "NEM",
+    "price": 96.13,
+    "target_low": 111,
+    "target_consensus": 143.33,
+    "target_high": 175,
+    "target_median": 140,
+    "upside_pct": 49.1
+  },
+  {
+    "ticker": "TYL",
+    "price": 294.4,
+    "target_low": 340,
+    "target_consensus": 438.45,
+    "target_high": 543,
+    "target_median": 440,
+    "upside_pct": 48.9
+  },
+  {
+    "ticker": "HII",
+    "price": 281.99,
+    "target_low": 419,
+    "target_consensus": 420,
+    "target_high": 421,
+    "target_median": 420,
+    "upside_pct": 48.9
+  },
+  {
+    "ticker": "UHS",
+    "price": 145.69,
+    "target_low": 165,
+    "target_consensus": 216,
+    "target_high": 310,
+    "target_median": 204,
+    "upside_pct": 48.3
+  },
+  {
+    "ticker": "MSFT",
+    "price": 372.97,
+    "target_low": 400,
+    "target_consensus": 551.33,
+    "target_high": 680,
+    "target_median": 550,
+    "upside_pct": 47.8
+  },
+  {
+    "ticker": "ISRG",
+    "price": 404.7,
+    "target_low": 525,
+    "target_consensus": 597.78,
+    "target_high": 750,
+    "target_median": 580,
+    "upside_pct": 47.7
+  },
+  {
+    "ticker": "APTV",
+    "price": 60.32,
+    "target_low": 71,
+    "target_consensus": 88.63,
+    "target_high": 110,
+    "target_median": 89,
+    "upside_pct": 46.9
+  },
+  {
+    "ticker": "NOC",
+    "price": 500.03,
+    "target_low": 580,
+    "target_consensus": 730.58,
+    "target_high": 815,
+    "target_median": 751,
+    "upside_pct": 46.1
+  },
+  {
+    "ticker": "WDAY",
+    "price": 124.21,
+    "target_low": 135,
+    "target_consensus": 181.28,
+    "target_high": 275,
+    "target_median": 180,
+    "upside_pct": 45.9
+  },
+  {
+    "ticker": "OMC",
+    "price": 73.09,
+    "target_low": 83,
+    "target_consensus": 106.33,
+    "target_high": 146,
+    "target_median": 90,
+    "upside_pct": 45.5
+  },
+  {
+    "ticker": "CME",
+    "price": 221.0,
+    "target_low": 302,
+    "target_consensus": 320.67,
+    "target_high": 353,
+    "target_median": 318,
+    "upside_pct": 45.1
+  },
+  {
+    "ticker": "NDAQ",
+    "price": 78.56,
+    "target_low": 109,
+    "target_consensus": 113.83,
+    "target_high": 120,
+    "target_median": 114,
+    "upside_pct": 44.9
+  },
+  {
+    "ticker": "BRO",
+    "price": 64.22,
+    "target_low": 62,
+    "target_consensus": 92.83,
+    "target_high": 120,
+    "target_median": 89.5,
+    "upside_pct": 44.5
+  },
+  {
+    "ticker": "LVS",
+    "price": 47.12,
+    "target_low": 62,
+    "target_consensus": 67.89,
+    "target_high": 77,
+    "target_median": 65,
+    "upside_pct": 44.1
+  },
+  {
+    "ticker": "LYB",
+    "price": 55.73,
+    "target_low": 53,
+    "target_consensus": 80.2,
+    "target_high": 100,
+    "target_median": 76,
+    "upside_pct": 43.9
+  },
+  {
+    "ticker": "JKHY",
+    "price": 135.0,
+    "target_low": 165,
+    "target_consensus": 193.75,
+    "target_high": 220,
+    "target_median": 200.5,
+    "upside_pct": 43.5
+  },
+  {
+    "ticker": "DPZ",
+    "price": 298.18,
+    "target_low": 315,
+    "target_consensus": 421.25,
+    "target_high": 540,
+    "target_median": 422.5,
+    "upside_pct": 41.3
+  },
+  {
+    "ticker": "FOXA",
+    "price": 50.1,
+    "target_low": 60,
+    "target_consensus": 70.63,
+    "target_high": 80,
+    "target_median": 72,
+    "upside_pct": 41.0
+  },
+  {
+    "ticker": "EFX",
+    "price": 158.48,
+    "target_low": 173,
+    "target_consensus": 223.27,
+    "target_high": 265,
+    "target_median": 222,
+    "upside_pct": 40.9
+  },
+  {
+    "ticker": "DIS",
+    "price": 98.79,
+    "target_low": 119,
+    "target_consensus": 139.2,
+    "target_high": 164,
+    "target_median": 135,
+    "upside_pct": 40.9
+  },
+  {
+    "ticker": "PNR",
+    "price": 76.42,
+    "target_low": 90,
+    "target_consensus": 107.43,
+    "target_high": 125,
+    "target_median": 110,
+    "upside_pct": 40.6
+  },
+  {
+    "ticker": "AXON",
+    "price": 464.83,
+    "target_low": 440,
+    "target_consensus": 652.11,
+    "target_high": 820,
+    "target_median": 674,
+    "upside_pct": 40.3
+  },
+  {
+    "ticker": "CTAS",
+    "price": 171.9,
+    "target_low": 228,
+    "target_consensus": 241,
+    "target_high": 250,
+    "target_median": 245,
+    "upside_pct": 40.2
+  },
+  {
+    "ticker": "DVN",
+    "price": 42.21,
+    "target_low": 42,
+    "target_consensus": 59,
+    "target_high": 68,
+    "target_median": 62,
+    "upside_pct": 39.8
+  },
+  {
+    "ticker": "AKAM",
+    "price": 113.29,
+    "target_low": 76,
+    "target_consensus": 158.31,
+    "target_high": 195,
+    "target_median": 165,
+    "upside_pct": 39.7
+  },
+  {
+    "ticker": "PODD",
+    "price": 158.25,
+    "target_low": 190,
+    "target_consensus": 220.79,
+    "target_high": 280,
+    "target_median": 217.5,
+    "upside_pct": 39.5
+  },
+  {
+    "ticker": "VRSN",
+    "price": 255.62,
+    "target_low": 355,
+    "target_consensus": 355,
+    "target_high": 355,
+    "target_median": 355,
+    "upside_pct": 38.9
+  },
+  {
+    "ticker": "ROL",
+    "price": 43.27,
+    "target_low": 46,
+    "target_consensus": 60,
+    "target_high": 70,
+    "target_median": 63.5,
+    "upside_pct": 38.7
+  },
+  {
+    "ticker": "APP",
+    "price": 477.08,
+    "target_low": 340,
+    "target_consensus": 659.88,
+    "target_high": 835,
+    "target_median": 682.5,
+    "upside_pct": 38.3
+  },
+  {
+    "ticker": "WYNN",
+    "price": 100.44,
+    "target_low": 127,
+    "target_consensus": 138.38,
+    "target_high": 150,
+    "target_median": 138,
+    "upside_pct": 37.8
+  },
+  {
+    "ticker": "TMUS",
+    "price": 182.68,
+    "target_low": 224,
+    "target_consensus": 251.64,
+    "target_high": 285,
+    "target_median": 255,
+    "upside_pct": 37.7
+  },
+  {
+    "ticker": "DASH",
+    "price": 183.09,
+    "target_low": 190,
+    "target_consensus": 251.71,
+    "target_high": 350,
+    "target_median": 247.5,
+    "upside_pct": 37.5
+  },
+  {
+    "ticker": "VEEV",
+    "price": 171.36,
+    "target_low": 165,
+    "target_consensus": 235.38,
+    "target_high": 320,
+    "target_median": 230,
+    "upside_pct": 37.4
+  },
+  {
+    "ticker": "ULTA",
+    "price": 488.45,
+    "target_low": 550,
+    "target_consensus": 671.13,
+    "target_high": 790,
+    "target_median": 700,
+    "upside_pct": 37.4
+  },
+  {
+    "ticker": "NKE",
+    "price": 40.75,
+    "target_low": 35,
+    "target_consensus": 55.93,
+    "target_high": 110,
+    "target_median": 50,
+    "upside_pct": 37.3
+  },
+  {
+    "ticker": "VST",
+    "price": 163.49,
+    "target_low": 187,
+    "target_consensus": 223.3,
+    "target_high": 293,
+    "target_median": 220,
+    "upside_pct": 36.6
+  },
+  {
+    "ticker": "AVGO",
+    "price": 365.02,
+    "target_low": 400,
+    "target_consensus": 498.19,
+    "target_high": 582,
+    "target_median": 508.5,
+    "upside_pct": 36.5
+  },
+  {
+    "ticker": "CMCSA",
+    "price": 23.17,
+    "target_low": 23,
+    "target_consensus": 31.48,
+    "target_high": 37,
+    "target_median": 32,
+    "upside_pct": 35.9
+  },
+  {
+    "ticker": "FICO",
+    "price": 1182.79,
+    "target_low": 1250,
+    "target_consensus": 1604.67,
+    "target_high": 1950,
+    "target_median": 1650,
+    "upside_pct": 35.7
+  },
+  {
+    "ticker": "DOW",
+    "price": 29.04,
+    "target_low": 27,
+    "target_consensus": 39.36,
+    "target_high": 51,
+    "target_median": 38,
+    "upside_pct": 35.5
+  },
+  {
+    "ticker": "IDXX",
+    "price": 551.5,
+    "target_low": 640,
+    "target_consensus": 747.5,
+    "target_high": 800,
+    "target_median": 775,
+    "upside_pct": 35.5
+  },
+  {
+    "ticker": "BX",
+    "price": 115.4,
+    "target_low": 130,
+    "target_consensus": 156.29,
+    "target_high": 184,
+    "target_median": 156,
+    "upside_pct": 35.4
+  },
+  {
+    "ticker": "BLK",
+    "price": 964.71,
+    "target_low": 1140,
+    "target_consensus": 1306.25,
+    "target_high": 1430,
+    "target_median": 1350.5,
+    "upside_pct": 35.4
+  },
+  {
+    "ticker": "ROP",
+    "price": 338.31,
+    "target_low": 365,
+    "target_consensus": 457.64,
+    "target_high": 550,
+    "target_median": 470,
+    "upside_pct": 35.3
+  },
+  {
+    "ticker": "SCHW",
+    "price": 90.67,
+    "target_low": 105,
+    "target_consensus": 121.89,
+    "target_high": 137,
+    "target_median": 125,
+    "upside_pct": 34.4
+  },
+  {
+    "ticker": "SPGI",
+    "price": 408.16,
+    "target_low": 482,
+    "target_consensus": 548.11,
+    "target_high": 627,
+    "target_median": 550,
+    "upside_pct": 34.3
+  },
+  {
+    "ticker": "ABT",
+    "price": 94.12,
+    "target_low": 92,
+    "target_consensus": 126,
+    "target_high": 152,
+    "target_median": 123.5,
+    "upside_pct": 33.9
+  },
+  {
+    "ticker": "UBER",
+    "price": 76.2,
+    "target_low": 72,
+    "target_consensus": 101.95,
+    "target_high": 125,
+    "target_median": 105,
+    "upside_pct": 33.8
+  },
+  {
+    "ticker": "MA",
+    "price": 499.02,
+    "target_low": 561,
+    "target_consensus": 660.43,
+    "target_high": 739,
+    "target_median": 665,
+    "upside_pct": 32.3
+  },
+  {
+    "ticker": "AMZN",
+    "price": 232.69,
+    "target_low": 175,
+    "target_consensus": 307.77,
+    "target_high": 330,
+    "target_median": 319,
+    "upside_pct": 32.3
+  },
+  {
+    "ticker": "MU",
+    "price": 1132.33,
+    "target_low": 400,
+    "target_consensus": 1496.52,
+    "target_high": 2200,
+    "target_median": 1500,
+    "upside_pct": 32.2
+  },
+  {
+    "ticker": "REGN",
+    "price": 632.9,
+    "target_low": 641,
+    "target_consensus": 836,
+    "target_high": 995,
+    "target_median": 857.5,
+    "upside_pct": 32.1
+  },
+  {
+    "ticker": "GDDY",
+    "price": 84.55,
+    "target_low": 83,
+    "target_consensus": 111.63,
+    "target_high": 145,
+    "target_median": 100,
+    "upside_pct": 32.0
+  },
+  {
+    "ticker": "CBRE",
+    "price": 137.4,
+    "target_low": 178,
+    "target_consensus": 180.5,
+    "target_high": 185,
+    "target_median": 179.5,
+    "upside_pct": 31.4
+  },
+  {
+    "ticker": "COF",
+    "price": 204.0,
+    "target_low": 213,
+    "target_consensus": 266.9,
+    "target_high": 300,
+    "target_median": 266.5,
+    "upside_pct": 30.8
+  },
+  {
+    "ticker": "TEL",
+    "price": 197.74,
+    "target_low": 226,
+    "target_consensus": 258.25,
+    "target_high": 300,
+    "target_median": 252.5,
+    "upside_pct": 30.6
+  },
+  {
+    "ticker": "RMD",
+    "price": 200.29,
+    "target_low": 225,
+    "target_consensus": 261.43,
+    "target_high": 314,
+    "target_median": 265,
+    "upside_pct": 30.5
+  },
+  {
+    "ticker": "PCG",
+    "price": 17.38,
+    "target_low": 21,
+    "target_consensus": 22.67,
+    "target_high": 25,
+    "target_median": 22.5,
+    "upside_pct": 30.4
+  },
+  {
+    "ticker": "MCK",
+    "price": 763.51,
+    "target_low": 875,
+    "target_consensus": 994.86,
+    "target_high": 1085,
+    "target_median": 970,
+    "upside_pct": 30.3
+  },
+  {
+    "ticker": "APO",
+    "price": 118.29,
+    "target_low": 142,
+    "target_consensus": 153.5,
+    "target_high": 165,
+    "target_median": 153.5,
+    "upside_pct": 29.8
+  },
+  {
+    "ticker": "BA",
+    "price": 217.25,
+    "target_low": 250,
+    "target_consensus": 281.56,
+    "target_high": 298,
+    "target_median": 281,
+    "upside_pct": 29.6
+  },
+  {
+    "ticker": "BKR",
+    "price": 56.56,
+    "target_low": 60,
+    "target_consensus": 73.2,
+    "target_high": 80,
+    "target_median": 74,
+    "upside_pct": 29.4
+  },
+  {
+    "ticker": "T",
+    "price": 22.72,
+    "target_low": 26,
+    "target_consensus": 29.35,
+    "target_high": 33,
+    "target_median": 29.25,
+    "upside_pct": 29.2
+  },
+  {
+    "ticker": "IT",
+    "price": 134.96,
+    "target_low": 120,
+    "target_consensus": 174.1,
+    "target_high": 240,
+    "target_median": 167,
+    "upside_pct": 29.0
+  },
+  {
+    "ticker": "HCA",
+    "price": 391.68,
+    "target_low": 413,
+    "target_consensus": 504.73,
+    "target_high": 635,
+    "target_median": 520,
+    "upside_pct": 28.9
+  },
+  {
+    "ticker": "XYL",
+    "price": 116.45,
+    "target_low": 133,
+    "target_consensus": 150.13,
+    "target_high": 161,
+    "target_median": 156,
+    "upside_pct": 28.9
+  },
+  {
+    "ticker": "CMG",
+    "price": 33.34,
+    "target_low": 36,
+    "target_consensus": 42.94,
+    "target_high": 52,
+    "target_median": 42,
+    "upside_pct": 28.8
+  },
+  {
+    "ticker": "MCD",
+    "price": 269.76,
+    "target_low": 305,
+    "target_consensus": 347.33,
+    "target_high": 385,
+    "target_median": 347.5,
+    "upside_pct": 28.8
+  },
+  {
+    "ticker": "SLB",
+    "price": 47.0,
+    "target_low": 48,
+    "target_consensus": 60.46,
+    "target_high": 71,
+    "target_median": 63,
+    "upside_pct": 28.6
+  },
+  {
+    "ticker": "NRG",
+    "price": 149.36,
+    "target_low": 165,
+    "target_consensus": 191.8,
+    "target_high": 210,
+    "target_median": 197,
+    "upside_pct": 28.4
+  },
+  {
+    "ticker": "HAS",
+    "price": 85.33,
+    "target_low": 85,
+    "target_consensus": 109.57,
+    "target_high": 123,
+    "target_median": 110,
+    "upside_pct": 28.4
+  },
+  {
+    "ticker": "ADBE",
+    "price": 202.73,
+    "target_low": 190,
+    "target_consensus": 259.76,
+    "target_high": 379,
+    "target_median": 245,
+    "upside_pct": 28.1
+  },
+  {
+    "ticker": "LULU",
+    "price": 117.57,
+    "target_low": 88,
+    "target_consensus": 150.1,
+    "target_high": 250,
+    "target_median": 124.5,
+    "upside_pct": 27.7
+  },
+  {
+    "ticker": "TSN",
+    "price": 58.55,
+    "target_low": 69,
+    "target_consensus": 74.5,
+    "target_high": 78,
+    "target_median": 75.5,
+    "upside_pct": 27.2
+  },
+  {
+    "ticker": "OTIS",
+    "price": 73.19,
+    "target_low": 77,
+    "target_consensus": 93,
+    "target_high": 105,
+    "target_median": 97,
+    "upside_pct": 27.1
+  },
+  {
+    "ticker": "BKNG",
+    "price": 181.46,
+    "target_low": 175,
+    "target_consensus": 230.7,
+    "target_high": 309.84,
+    "target_median": 220,
+    "upside_pct": 27.1
+  },
+  {
+    "ticker": "SBAC",
+    "price": 183.76,
+    "target_low": 205,
+    "target_consensus": 233,
+    "target_high": 260,
+    "target_median": 230,
+    "upside_pct": 26.8
+  },
+  {
+    "ticker": "JBL",
+    "price": 358.6,
+    "target_low": 426,
+    "target_consensus": 454.13,
+    "target_high": 482,
+    "target_median": 455,
+    "upside_pct": 26.6
+  },
+  {
+    "ticker": "EL",
+    "price": 80.54,
+    "target_low": 75,
+    "target_consensus": 101.93,
+    "target_high": 140,
+    "target_median": 97.5,
+    "upside_pct": 26.6
+  },
+  {
+    "ticker": "GILD",
+    "price": 127.88,
+    "target_low": 122,
+    "target_consensus": 161.81,
+    "target_high": 180,
+    "target_median": 165,
+    "upside_pct": 26.5
+  },
+  {
+    "ticker": "COP",
+    "price": 105.96,
+    "target_low": 98,
+    "target_consensus": 134.08,
+    "target_high": 183,
+    "target_median": 130,
+    "upside_pct": 26.5
+  },
+  {
+    "ticker": "WTW",
+    "price": 265.43,
+    "target_low": 275,
+    "target_consensus": 334.69,
+    "target_high": 379,
+    "target_median": 338,
+    "upside_pct": 26.1
+  },
+  {
+    "ticker": "SMCI",
+    "price": 30.63,
+    "target_low": 26,
+    "target_consensus": 38.6,
+    "target_high": 45,
+    "target_median": 40,
+    "upside_pct": 26.0
+  },
+  {
+    "ticker": "MOS",
+    "price": 22.38,
+    "target_low": 22,
+    "target_consensus": 28.18,
+    "target_high": 35,
+    "target_median": 29,
+    "upside_pct": 25.9
+  },
+  {
+    "ticker": "MSI",
+    "price": 402.89,
+    "target_low": 470,
+    "target_consensus": 506,
+    "target_high": 530,
+    "target_median": 506,
+    "upside_pct": 25.6
+  },
+  {
+    "ticker": "CRH",
+    "price": 112.32,
+    "target_low": 120,
+    "target_consensus": 140.92,
+    "target_high": 165.6,
+    "target_median": 139,
+    "upside_pct": 25.5
+  },
+  {
+    "ticker": "LOW",
+    "price": 222.48,
+    "target_low": 232,
+    "target_consensus": 279.18,
+    "target_high": 325,
+    "target_median": 276,
+    "upside_pct": 25.5
+  },
+  {
+    "ticker": "HSY",
+    "price": 179.11,
+    "target_low": 182,
+    "target_consensus": 224.23,
+    "target_high": 260,
+    "target_median": 227,
+    "upside_pct": 25.2
+  },
+  {
+    "ticker": "KR",
+    "price": 57.73,
+    "target_low": 58,
+    "target_consensus": 72.23,
+    "target_high": 83,
+    "target_median": 73,
+    "upside_pct": 25.1
+  },
+  {
+    "ticker": "STE",
+    "price": 215.67,
+    "target_low": 269,
+    "target_consensus": 269.5,
+    "target_high": 270,
+    "target_median": 269.5,
+    "upside_pct": 25.0
+  },
+  {
+    "ticker": "J",
+    "price": 125.69,
+    "target_low": 137,
+    "target_consensus": 157.14,
+    "target_high": 175,
+    "target_median": 163,
+    "upside_pct": 25.0
+  },
+  {
+    "ticker": "MKC",
+    "price": 51.05,
+    "target_low": 52,
+    "target_consensus": 63.8,
+    "target_high": 72,
+    "target_median": 67,
+    "upside_pct": 25.0
+  },
+  {
+    "ticker": "AES",
+    "price": 14.67,
+    "target_low": 16,
+    "target_consensus": 18.33,
+    "target_high": 23,
+    "target_median": 16,
+    "upside_pct": 24.9
+  },
+  {
+    "ticker": "AZO",
+    "price": 3128.7,
+    "target_low": 3200,
+    "target_consensus": 3909.09,
+    "target_high": 4800,
+    "target_median": 3880,
+    "upside_pct": 24.9
+  },
+  {
+    "ticker": "NWSA",
+    "price": 25.41,
+    "target_low": 29.4,
+    "target_consensus": 31.7,
+    "target_high": 34,
+    "target_median": 31.7,
+    "upside_pct": 24.8
+  },
+  {
+    "ticker": "AVY",
+    "price": 165.76,
+    "target_low": 175,
+    "target_consensus": 206.8,
+    "target_high": 224,
+    "target_median": 221,
+    "upside_pct": 24.8
+  },
+  {
+    "ticker": "LMT",
+    "price": 507.4,
+    "target_low": 517,
+    "target_consensus": 632.89,
+    "target_high": 700,
+    "target_median": 654,
+    "upside_pct": 24.7
+  },
+  {
+    "ticker": "CBOE",
+    "price": 242.21,
+    "target_low": 263,
+    "target_consensus": 301.83,
+    "target_high": 335,
+    "target_median": 309.5,
+    "upside_pct": 24.6
+  },
+  {
+    "ticker": "OXY",
+    "price": 49.99,
+    "target_low": 45,
+    "target_consensus": 62.31,
+    "target_high": 75,
+    "target_median": 64,
+    "upside_pct": 24.6
+  },
+  {
+    "ticker": "XOM",
+    "price": 136.54,
+    "target_low": 123,
+    "target_consensus": 170.08,
+    "target_high": 185,
+    "target_median": 175,
+    "upside_pct": 24.6
+  },
+  {
+    "ticker": "ZBRA",
+    "price": 251.53,
+    "target_low": 256,
+    "target_consensus": 312.5,
+    "target_high": 346,
+    "target_median": 316.5,
+    "upside_pct": 24.2
+  },
+  {
+    "ticker": "VRSK",
+    "price": 182.18,
+    "target_low": 185,
+    "target_consensus": 226.11,
+    "target_high": 260,
+    "target_median": 224,
+    "upside_pct": 24.1
+  },
+  {
+    "ticker": "MSCI",
+    "price": 554.85,
+    "target_low": 638,
+    "target_consensus": 688.29,
+    "target_high": 730,
+    "target_median": 690,
+    "upside_pct": 24.0
+  },
+  {
+    "ticker": "EME",
+    "price": 798.1,
+    "target_low": 918,
+    "target_consensus": 987.67,
+    "target_high": 1100,
+    "target_median": 945,
+    "upside_pct": 23.8
+  },
+  {
+    "ticker": "ORLY",
+    "price": 89.55,
+    "target_low": 105,
+    "target_consensus": 110.64,
+    "target_high": 115,
+    "target_median": 110,
+    "upside_pct": 23.6
+  },
+  {
+    "ticker": "VRT",
+    "price": 303.95,
+    "target_low": 277,
+    "target_consensus": 375.08,
+    "target_high": 500,
+    "target_median": 355,
+    "upside_pct": 23.4
+  },
+  {
+    "ticker": "MPWR",
+    "price": 1313.32,
+    "target_low": 1200,
+    "target_consensus": 1615,
+    "target_high": 2000,
+    "target_median": 1700,
+    "upside_pct": 23.0
+  },
+  {
+    "ticker": "GPC",
+    "price": 116.02,
+    "target_low": 127,
+    "target_consensus": 142.4,
+    "target_high": 160,
+    "target_median": 145,
+    "upside_pct": 22.7
+  },
+  {
+    "ticker": "SNPS",
+    "price": 454.34,
+    "target_low": 455,
+    "target_consensus": 557,
+    "target_high": 633,
+    "target_median": 554,
+    "upside_pct": 22.6
+  },
+  {
+    "ticker": "MCHP",
+    "price": 87.93,
+    "target_low": 85,
+    "target_consensus": 107.82,
+    "target_high": 135,
+    "target_median": 105,
+    "upside_pct": 22.6
+  },
+  {
+    "ticker": "GPN",
+    "price": 69.8,
+    "target_low": 65,
+    "target_consensus": 85.45,
+    "target_high": 111,
+    "target_median": 81,
+    "upside_pct": 22.4
+  },
+  {
+    "ticker": "GOOGL",
+    "price": 337.39,
+    "target_low": 360,
+    "target_consensus": 411.8,
+    "target_high": 460,
+    "target_median": 420,
+    "upside_pct": 22.1
+  },
+  {
+    "ticker": "ROST",
+    "price": 213.26,
+    "target_low": 230,
+    "target_consensus": 259.89,
+    "target_high": 290,
+    "target_median": 260,
+    "upside_pct": 21.9
+  },
+  {
+    "ticker": "ON",
+    "price": 90.65,
+    "target_low": 62,
+    "target_consensus": 110.13,
+    "target_high": 140,
+    "target_median": 115,
+    "upside_pct": 21.5
+  },
+  {
+    "ticker": "CCL",
+    "price": 29.07,
+    "target_low": 33,
+    "target_consensus": 35.33,
+    "target_high": 39,
+    "target_median": 35.5,
+    "upside_pct": 21.5
+  },
+  {
+    "ticker": "BG",
+    "price": 110.54,
+    "target_low": 117,
+    "target_consensus": 133.67,
+    "target_high": 150,
+    "target_median": 130,
+    "upside_pct": 20.9
+  },
+  {
+    "ticker": "TTWO",
+    "price": 238.53,
+    "target_low": 280,
+    "target_consensus": 288.38,
+    "target_high": 300,
+    "target_median": 286,
+    "upside_pct": 20.9
+  },
+  {
+    "ticker": "LITE",
+    "price": 816.98,
+    "target_low": 550,
+    "target_consensus": 985.82,
+    "target_high": 1270,
+    "target_median": 1014,
+    "upside_pct": 20.7
+  },
+  {
+    "ticker": "CI",
+    "price": 282.79,
+    "target_low": 302,
+    "target_consensus": 340.91,
+    "target_high": 400,
+    "target_median": 340,
+    "upside_pct": 20.6
+  },
+  {
+    "ticker": "IP",
+    "price": 38.76,
+    "target_low": 39,
+    "target_consensus": 46.75,
+    "target_high": 60,
+    "target_median": 44,
+    "upside_pct": 20.6
+  },
+  {
+    "ticker": "WMT",
+    "price": 115.69,
+    "target_low": 120,
+    "target_consensus": 139.44,
+    "target_high": 155,
+    "target_median": 140,
+    "upside_pct": 20.5
+  },
+  {
+    "ticker": "STZ",
+    "price": 146.3,
+    "target_low": 155,
+    "target_consensus": 176,
+    "target_high": 197,
+    "target_median": 180,
+    "upside_pct": 20.3
+  },
+  {
+    "ticker": "MCO",
+    "price": 450.01,
+    "target_low": 489,
+    "target_consensus": 541.31,
+    "target_high": 610,
+    "target_median": 535,
+    "upside_pct": 20.3
+  },
+  {
+    "ticker": "AON",
+    "price": 328.69,
+    "target_low": 355,
+    "target_consensus": 395.4,
+    "target_high": 443,
+    "target_median": 394.5,
+    "upside_pct": 20.3
+  },
+  {
+    "ticker": "GM",
+    "price": 78.1,
+    "target_low": 59,
+    "target_consensus": 93.82,
+    "target_high": 110,
+    "target_median": 100,
+    "upside_pct": 20.1
+  },
+  {
+    "ticker": "AMT",
+    "price": 175.59,
+    "target_low": 185,
+    "target_consensus": 210.82,
+    "target_high": 254,
+    "target_median": 207,
+    "upside_pct": 20.1
+  },
+  {
+    "ticker": "GOOG",
+    "price": 334.69,
+    "target_low": 345,
+    "target_consensus": 400.72,
+    "target_high": 450,
+    "target_median": 400,
+    "upside_pct": 19.7
+  },
+  {
+    "ticker": "FANG",
+    "price": 179.91,
+    "target_low": 100,
+    "target_consensus": 215.21,
+    "target_high": 249,
+    "target_median": 230.5,
+    "upside_pct": 19.6
+  },
+  {
+    "ticker": "DXCM",
+    "price": 70.14,
+    "target_low": 64,
+    "target_consensus": 83.8,
+    "target_high": 95,
+    "target_median": 85.5,
+    "upside_pct": 19.5
+  },
+  {
+    "ticker": "BLDR",
+    "price": 89.14,
+    "target_low": 81,
+    "target_consensus": 106.38,
+    "target_high": 143,
+    "target_median": 100,
+    "upside_pct": 19.3
+  },
+  {
+    "ticker": "LHX",
+    "price": 291.25,
+    "target_low": 323,
+    "target_consensus": 347.33,
+    "target_high": 364,
+    "target_median": 355,
+    "upside_pct": 19.3
+  },
+  {
+    "ticker": "RTX",
+    "price": 187.99,
+    "target_low": 204,
+    "target_consensus": 224.33,
+    "target_high": 240,
+    "target_median": 227,
+    "upside_pct": 19.3
+  },
+  {
+    "ticker": "CCI",
+    "price": 82.62,
+    "target_low": 91,
+    "target_consensus": 98.5,
+    "target_high": 115,
+    "target_median": 94,
+    "upside_pct": 19.2
+  },
+  {
+    "ticker": "CASY",
+    "price": 778.63,
+    "target_low": 730,
+    "target_consensus": 927.31,
+    "target_high": 1069,
+    "target_median": 950,
+    "upside_pct": 19.1
+  },
+  {
+    "ticker": "TPR",
+    "price": 146.0,
+    "target_low": 138,
+    "target_consensus": 173.67,
+    "target_high": 230,
+    "target_median": 170.5,
+    "upside_pct": 19.0
+  },
+  {
+    "ticker": "TSLA",
+    "price": 379.71,
+    "target_low": 360,
+    "target_consensus": 450.45,
+    "target_high": 548,
+    "target_median": 450,
+    "upside_pct": 18.6
+  },
+  {
+    "ticker": "KEYS",
+    "price": 328.66,
+    "target_low": 350,
+    "target_consensus": 389.63,
+    "target_high": 425,
+    "target_median": 386,
+    "upside_pct": 18.6
+  },
+  {
+    "ticker": "GD",
+    "price": 346.71,
+    "target_low": 371,
+    "target_consensus": 411.33,
+    "target_high": 444,
+    "target_median": 410,
+    "upside_pct": 18.6
+  },
+  {
+    "ticker": "TDG",
+    "price": 1324.56,
+    "target_low": 1350,
+    "target_consensus": 1569.3,
+    "target_high": 1871,
+    "target_median": 1562.5,
+    "upside_pct": 18.5
+  },
+  {
+    "ticker": "WFC",
+    "price": 83.86,
+    "target_low": 74,
+    "target_consensus": 99.38,
+    "target_high": 113,
+    "target_median": 101.5,
+    "upside_pct": 18.5
+  },
+  {
+    "ticker": "MDT",
+    "price": 80.98,
+    "target_low": 80,
+    "target_consensus": 95.8,
+    "target_high": 119,
+    "target_median": 90,
+    "upside_pct": 18.3
+  },
+  {
+    "ticker": "PEP",
+    "price": 141.39,
+    "target_low": 143,
+    "target_consensus": 167.3,
+    "target_high": 191,
+    "target_median": 165.5,
+    "upside_pct": 18.3
+  },
+  {
+    "ticker": "ANET",
+    "price": 157.6,
+    "target_low": 164,
+    "target_consensus": 185.45,
+    "target_high": 200,
+    "target_median": 187,
+    "upside_pct": 17.7
+  },
+  {
+    "ticker": "DHR",
+    "price": 196.19,
+    "target_low": 200,
+    "target_consensus": 230.89,
+    "target_high": 265,
+    "target_median": 230,
+    "upside_pct": 17.7
+  },
+  {
+    "ticker": "TXT",
+    "price": 91.22,
+    "target_low": 100,
+    "target_consensus": 107.4,
+    "target_high": 110,
+    "target_median": 109,
+    "upside_pct": 17.7
+  },
+  {
+    "ticker": "APD",
+    "price": 277.79,
+    "target_low": 285,
+    "target_consensus": 325.63,
+    "target_high": 360,
+    "target_median": 320,
+    "upside_pct": 17.2
+  },
+  {
+    "ticker": "CVX",
+    "price": 171.06,
+    "target_low": 168,
+    "target_consensus": 200.13,
+    "target_high": 230,
+    "target_median": 204,
+    "upside_pct": 17.0
+  },
+  {
+    "ticker": "TJX",
+    "price": 155.43,
+    "target_low": 160,
+    "target_consensus": 181.6,
+    "target_high": 197,
+    "target_median": 184.5,
+    "upside_pct": 16.8
+  },
+  {
+    "ticker": "COST",
+    "price": 952.54,
+    "target_low": 1000,
+    "target_consensus": 1110.75,
+    "target_high": 1275,
+    "target_median": 1100,
+    "upside_pct": 16.6
+  },
+  {
+    "ticker": "SYK",
+    "price": 332.71,
+    "target_low": 315,
+    "target_consensus": 387.46,
+    "target_high": 465,
+    "target_median": 394,
+    "upside_pct": 16.5
+  },
+  {
+    "ticker": "APA",
+    "price": 33.01,
+    "target_low": 24,
+    "target_consensus": 38.45,
+    "target_high": 57,
+    "target_median": 39,
+    "upside_pct": 16.5
+  },
+  {
+    "ticker": "AOS",
+    "price": 61.72,
+    "target_low": 67,
+    "target_consensus": 71.83,
+    "target_high": 75,
+    "target_median": 72.5,
+    "upside_pct": 16.4
+  },
+  {
+    "ticker": "GRMN",
+    "price": 232.51,
+    "target_low": 238,
+    "target_consensus": 270.67,
+    "target_high": 325,
+    "target_median": 249,
+    "upside_pct": 16.4
+  },
+  {
+    "ticker": "ALLE",
+    "price": 139.71,
+    "target_low": 142,
+    "target_consensus": 162.33,
+    "target_high": 180,
+    "target_median": 165,
+    "upside_pct": 16.2
+  },
+  {
+    "ticker": "HAL",
+    "price": 34.21,
+    "target_low": 30,
+    "target_consensus": 39.64,
+    "target_high": 55,
+    "target_median": 39,
+    "upside_pct": 15.9
+  },
+  {
+    "ticker": "IBM",
+    "price": 271.63,
+    "target_low": 231,
+    "target_consensus": 314.83,
+    "target_high": 360,
+    "target_median": 325,
+    "upside_pct": 15.9
+  },
+  {
+    "ticker": "TMO",
+    "price": 513.03,
+    "target_low": 490,
+    "target_consensus": 592.45,
+    "target_high": 683,
+    "target_median": 615,
+    "upside_pct": 15.5
+  },
+  {
+    "ticker": "ADI",
+    "price": 386.91,
+    "target_low": 360,
+    "target_consensus": 446.75,
+    "target_high": 515,
+    "target_median": 450,
+    "upside_pct": 15.5
+  },
+  {
+    "ticker": "VICI",
+    "price": 27.21,
+    "target_low": 29,
+    "target_consensus": 31.4,
+    "target_high": 34,
+    "target_median": 31,
+    "upside_pct": 15.4
+  },
+  {
+    "ticker": "AJG",
+    "price": 226.01,
+    "target_low": 211,
+    "target_consensus": 260.82,
+    "target_high": 298,
+    "target_median": 265,
+    "upside_pct": 15.4
+  },
+  {
+    "ticker": "DG",
+    "price": 119.51,
+    "target_low": 110,
+    "target_consensus": 137.89,
+    "target_high": 170,
+    "target_median": 136,
+    "upside_pct": 15.4
+  },
+  {
+    "ticker": "IFF",
+    "price": 76.35,
+    "target_low": 75,
+    "target_consensus": 88.13,
+    "target_high": 95,
+    "target_median": 90,
+    "upside_pct": 15.4
+  },
+  {
+    "ticker": "ECL",
+    "price": 283.65,
+    "target_low": 275,
+    "target_consensus": 326.91,
+    "target_high": 345,
+    "target_median": 330,
+    "upside_pct": 15.3
+  },
+  {
+    "ticker": "AAPL",
+    "price": 283.78,
+    "target_low": 253,
+    "target_consensus": 327,
+    "target_high": 400,
+    "target_median": 325,
+    "upside_pct": 15.2
+  },
+  {
+    "ticker": "IR",
+    "price": 81.37,
+    "target_low": 80,
+    "target_consensus": 93.67,
+    "target_high": 110,
+    "target_median": 92.5,
+    "upside_pct": 15.1
+  },
+  {
+    "ticker": "IVZ",
+    "price": 26.16,
+    "target_low": 26,
+    "target_consensus": 30.06,
+    "target_high": 34.5,
+    "target_median": 30.5,
+    "upside_pct": 14.9
+  },
+  {
+    "ticker": "IQV",
+    "price": 191.14,
+    "target_low": 185,
+    "target_consensus": 219.44,
+    "target_high": 250,
+    "target_median": 215,
+    "upside_pct": 14.8
+  },
+  {
+    "ticker": "LH",
+    "price": 271.47,
+    "target_low": 300,
+    "target_consensus": 311.33,
+    "target_high": 334,
+    "target_median": 300,
+    "upside_pct": 14.7
+  },
+  {
+    "ticker": "WM",
+    "price": 225.53,
+    "target_low": 250,
+    "target_consensus": 258.5,
+    "target_high": 264,
+    "target_median": 260,
+    "upside_pct": 14.6
+  },
+  {
+    "ticker": "FCX",
+    "price": 62.45,
+    "target_low": 58.5,
+    "target_consensus": 71.44,
+    "target_high": 77,
+    "target_median": 73.5,
+    "upside_pct": 14.4
+  },
+  {
+    "ticker": "HBAN",
+    "price": 17.79,
+    "target_low": 18,
+    "target_consensus": 20.33,
+    "target_high": 21,
+    "target_median": 21,
+    "upside_pct": 14.3
+  },
+  {
+    "ticker": "TDY",
+    "price": 624.29,
+    "target_low": 614,
+    "target_consensus": 713,
+    "target_high": 775,
+    "target_median": 750,
+    "upside_pct": 14.2
+  },
+  {
+    "ticker": "ALGN",
+    "price": 178.43,
+    "target_low": 185,
+    "target_consensus": 203.6,
+    "target_high": 235,
+    "target_median": 200,
+    "upside_pct": 14.1
+  },
+  {
+    "ticker": "SYF",
+    "price": 78.66,
+    "target_low": 81,
+    "target_consensus": 89.75,
+    "target_high": 100,
+    "target_median": 89,
+    "upside_pct": 14.1
+  },
+  {
+    "ticker": "QCOM",
+    "price": 189.39,
+    "target_low": 120,
+    "target_consensus": 216,
+    "target_high": 300,
+    "target_median": 220,
+    "upside_pct": 14.1
+  },
+  {
+    "ticker": "PYPL",
+    "price": 44.29,
+    "target_low": 34,
+    "target_consensus": 50.45,
+    "target_high": 65,
+    "target_median": 50,
+    "upside_pct": 13.9
+  },
+  {
+    "ticker": "A",
+    "price": 136.01,
+    "target_low": 140,
+    "target_consensus": 154.75,
+    "target_high": 165,
+    "target_median": 156.5,
+    "upside_pct": 13.8
+  },
+  {
+    "ticker": "YUM",
+    "price": 156.41,
+    "target_low": 160,
+    "target_consensus": 178,
+    "target_high": 190,
+    "target_median": 179.5,
+    "upside_pct": 13.8
+  },
+  {
+    "ticker": "NEE",
+    "price": 88.56,
+    "target_low": 87,
+    "target_consensus": 100.8,
+    "target_high": 117,
+    "target_median": 103,
+    "upside_pct": 13.8
+  },
+  {
+    "ticker": "DECK",
+    "price": 104.56,
+    "target_low": 90,
+    "target_consensus": 118.73,
+    "target_high": 145,
+    "target_median": 117,
+    "upside_pct": 13.6
+  },
+  {
+    "ticker": "AMP",
+    "price": 452.81,
+    "target_low": 467,
+    "target_consensus": 514,
+    "target_high": 582,
+    "target_median": 490,
+    "upside_pct": 13.5
+  },
+  {
+    "ticker": "TAP",
+    "price": 41.48,
+    "target_low": 40,
+    "target_consensus": 47,
+    "target_high": 58,
+    "target_median": 45,
+    "upside_pct": 13.3
+  },
+  {
+    "ticker": "WAB",
+    "price": 269.53,
+    "target_low": 291,
+    "target_consensus": 305,
+    "target_high": 318,
+    "target_median": 305,
+    "upside_pct": 13.2
+  },
+  {
+    "ticker": "COO",
+    "price": 71.02,
+    "target_low": 61,
+    "target_consensus": 80.33,
+    "target_high": 98,
+    "target_median": 85.5,
+    "upside_pct": 13.1
+  },
+  {
+    "ticker": "EMR",
+    "price": 143.49,
+    "target_low": 125,
+    "target_consensus": 162.29,
+    "target_high": 185,
+    "target_median": 168,
+    "upside_pct": 13.1
+  },
+  {
+    "ticker": "JCI",
+    "price": 138.4,
+    "target_low": 130,
+    "target_consensus": 156.4,
+    "target_high": 180,
+    "target_median": 154,
+    "upside_pct": 13.0
+  },
+  {
+    "ticker": "SRE",
+    "price": 94.27,
+    "target_low": 100,
+    "target_consensus": 106.4,
+    "target_high": 118,
+    "target_median": 105,
+    "upside_pct": 12.9
+  },
+  {
+    "ticker": "VRTX",
+    "price": 491.34,
+    "target_low": 436,
+    "target_consensus": 553.93,
+    "target_high": 616,
+    "target_median": 558,
+    "upside_pct": 12.7
+  },
+  {
+    "ticker": "WY",
+    "price": 25.31,
+    "target_low": 28,
+    "target_consensus": 28.5,
+    "target_high": 29,
+    "target_median": 28.5,
+    "upside_pct": 12.6
+  },
+  {
+    "ticker": "DELL",
+    "price": 399.49,
+    "target_low": 205,
+    "target_consensus": 449.54,
+    "target_high": 700,
+    "target_median": 497,
+    "upside_pct": 12.5
+  },
+  {
+    "ticker": "CDW",
+    "price": 133.3,
+    "target_low": 123,
+    "target_consensus": 150,
+    "target_high": 180,
+    "target_median": 148.5,
+    "upside_pct": 12.5
+  },
+  {
+    "ticker": "DE",
+    "price": 613.24,
+    "target_low": 500,
+    "target_consensus": 690,
+    "target_high": 793,
+    "target_median": 707.5,
+    "upside_pct": 12.5
+  },
+  {
+    "ticker": "EOG",
+    "price": 132.6,
+    "target_low": 123,
+    "target_consensus": 149.08,
+    "target_high": 196,
+    "target_median": 145.5,
+    "upside_pct": 12.4
+  },
+  {
+    "ticker": "HIG",
+    "price": 133.89,
+    "target_low": 135,
+    "target_consensus": 150.38,
+    "target_high": 165,
+    "target_median": 152.5,
+    "upside_pct": 12.3
+  },
+  {
+    "ticker": "BDX",
+    "price": 155.92,
+    "target_low": 159,
+    "target_consensus": 174.81,
+    "target_high": 204,
+    "target_median": 169.0251572327044,
+    "upside_pct": 12.1
+  },
+  {
+    "ticker": "TFC",
+    "price": 50.49,
+    "target_low": 45,
+    "target_consensus": 56.44,
+    "target_high": 64,
+    "target_median": 58,
+    "upside_pct": 11.8
+  },
+  {
+    "ticker": "APH",
+    "price": 163.72,
+    "target_low": 165,
+    "target_consensus": 182.89,
+    "target_high": 215,
+    "target_median": 178,
+    "upside_pct": 11.7
+  },
+  {
+    "ticker": "PPL",
+    "price": 37.02,
+    "target_low": 37,
+    "target_consensus": 41.25,
+    "target_high": 48,
+    "target_median": 41,
+    "upside_pct": 11.4
+  },
+  {
+    "ticker": "AIG",
+    "price": 75.57,
+    "target_low": 80,
+    "target_consensus": 84.17,
+    "target_high": 92,
+    "target_median": 83,
+    "upside_pct": 11.4
+  },
+  {
+    "ticker": "STLD",
+    "price": 245.49,
+    "target_low": 262,
+    "target_consensus": 273.25,
+    "target_high": 291,
+    "target_median": 270,
+    "upside_pct": 11.3
+  },
+  {
+    "ticker": "MLM",
+    "price": 616.06,
+    "target_low": 556,
+    "target_consensus": 684.55,
+    "target_high": 785,
+    "target_median": 690,
+    "upside_pct": 11.1
+  },
+  {
+    "ticker": "AMCR",
+    "price": 43.03,
+    "target_low": 41,
+    "target_consensus": 47.75,
+    "target_high": 54,
+    "target_median": 48,
+    "upside_pct": 11.0
+  },
+  {
+    "ticker": "VZ",
+    "price": 46.54,
+    "target_low": 44,
+    "target_consensus": 51.56,
+    "target_high": 58,
+    "target_median": 52,
+    "upside_pct": 10.8
+  },
+  {
+    "ticker": "HOOD",
+    "price": 98.69,
+    "target_low": 82,
+    "target_consensus": 109.27,
+    "target_high": 135,
+    "target_median": 110,
+    "upside_pct": 10.7
+  },
+  {
+    "ticker": "HWM",
+    "price": 268.87,
+    "target_low": 228,
+    "target_consensus": 297.36,
+    "target_high": 330,
+    "target_median": 300,
+    "upside_pct": 10.6
+  },
+  {
+    "ticker": "RSG",
+    "price": 216.39,
+    "target_low": 223,
+    "target_consensus": 239.29,
+    "target_high": 255,
+    "target_median": 242,
+    "upside_pct": 10.6
+  },
+  {
+    "ticker": "XEL",
+    "price": 82.23,
+    "target_low": 86,
+    "target_consensus": 90.92,
+    "target_high": 98,
+    "target_median": 90.5,
+    "upside_pct": 10.6
+  },
+  {
+    "ticker": "KMI",
+    "price": 33.19,
+    "target_low": 32,
+    "target_consensus": 36.67,
+    "target_high": 43,
+    "target_median": 35,
+    "upside_pct": 10.5
+  },
+  {
+    "ticker": "MET",
+    "price": 85.95,
+    "target_low": 90,
+    "target_consensus": 94.86,
+    "target_high": 102,
+    "target_median": 95,
+    "upside_pct": 10.4
+  },
+  {
+    "ticker": "MTD",
+    "price": 1263.75,
+    "target_low": 1194,
+    "target_consensus": 1392.25,
+    "target_high": 1500,
+    "target_median": 1437.5,
+    "upside_pct": 10.2
+  },
+  {
+    "ticker": "MDLZ",
+    "price": 60.79,
+    "target_low": 61,
+    "target_consensus": 67,
+    "target_high": 73,
+    "target_median": 67,
+    "upside_pct": 10.2
+  },
+  {
+    "ticker": "AXP",
+    "price": 340.36,
+    "target_low": 322,
+    "target_consensus": 374.73,
+    "target_high": 415,
+    "target_median": 389,
+    "upside_pct": 10.1
+  },
+  {
+    "ticker": "PFE",
+    "price": 24.29,
+    "target_low": 25,
+    "target_consensus": 26.75,
+    "target_high": 30,
+    "target_median": 27,
+    "upside_pct": 10.1
+  },
+  {
+    "ticker": "TT",
+    "price": 477.89,
+    "target_low": 450,
+    "target_consensus": 525,
+    "target_high": 585,
+    "target_median": 540,
+    "upside_pct": 9.9
+  },
+  {
+    "ticker": "UNP",
+    "price": 268.35,
+    "target_low": 267,
+    "target_consensus": 295,
+    "target_high": 315,
+    "target_median": 297,
+    "upside_pct": 9.9
+  },
+  {
+    "ticker": "V",
+    "price": 336.23,
+    "target_low": 160,
+    "target_consensus": 368.91,
+    "target_high": 450,
+    "target_median": 385,
+    "upside_pct": 9.7
+  },
+  {
+    "ticker": "NTAP",
+    "price": 152.45,
+    "target_low": 89,
+    "target_consensus": 167,
+    "target_high": 200,
+    "target_median": 171,
+    "upside_pct": 9.5
+  },
+  {
+    "ticker": "CDNS",
+    "price": 377.27,
+    "target_low": 370,
+    "target_consensus": 412.83,
+    "target_high": 440,
+    "target_median": 425,
+    "upside_pct": 9.4
+  },
+  {
+    "ticker": "CMI",
+    "price": 685.87,
+    "target_low": 540,
+    "target_consensus": 750.09,
+    "target_high": 874,
+    "target_median": 760,
+    "upside_pct": 9.4
+  },
+  {
+    "ticker": "NVR",
+    "price": 6828.62,
+    "target_low": 6600,
+    "target_consensus": 7465.33,
+    "target_high": 8096,
+    "target_median": 7700,
+    "upside_pct": 9.3
+  },
+  {
+    "ticker": "SYY",
+    "price": 82.82,
+    "target_low": 83,
+    "target_consensus": 90.44,
+    "target_high": 100,
+    "target_median": 92,
+    "upside_pct": 9.2
+  },
+  {
+    "ticker": "DLR",
+    "price": 193.0,
+    "target_low": 180,
+    "target_consensus": 210.33,
+    "target_high": 235,
+    "target_median": 213,
+    "upside_pct": 9.0
+  },
+  {
+    "ticker": "ADP",
+    "price": 223.55,
+    "target_low": 190,
+    "target_consensus": 243.63,
+    "target_high": 281,
+    "target_median": 242,
+    "upside_pct": 9.0
+  },
+  {
+    "ticker": "SHW",
+    "price": 344.07,
+    "target_low": 330,
+    "target_consensus": 374.56,
+    "target_high": 410,
+    "target_median": 380,
+    "upside_pct": 8.9
+  },
+  {
+    "ticker": "CSCO",
+    "price": 113.77,
+    "target_low": 100,
+    "target_consensus": 123.8,
+    "target_high": 137,
+    "target_median": 130,
+    "upside_pct": 8.8
+  },
+  {
+    "ticker": "BMY",
+    "price": 57.52,
+    "target_low": 40,
+    "target_consensus": 62.6,
+    "target_high": 75,
+    "target_median": 60,
+    "upside_pct": 8.8
+  },
+  {
+    "ticker": "RCL",
+    "price": 318.13,
+    "target_low": 280,
+    "target_consensus": 345.08,
+    "target_high": 425,
+    "target_median": 340,
+    "upside_pct": 8.5
+  },
+  {
+    "ticker": "LIN",
+    "price": 519.62,
+    "target_low": 525,
+    "target_consensus": 562.14,
+    "target_high": 600,
+    "target_median": 570,
+    "upside_pct": 8.2
+  },
+  {
+    "ticker": "CLX",
+    "price": 97.54,
+    "target_low": 83,
+    "target_consensus": 105.5,
+    "target_high": 139,
+    "target_median": 103.5,
+    "upside_pct": 8.2
+  },
+  {
+    "ticker": "AIZ",
+    "price": 264.43,
+    "target_low": 246,
+    "target_consensus": 285.83,
+    "target_high": 310,
+    "target_median": 287.5,
+    "upside_pct": 8.1
+  },
+  {
+    "ticker": "PH",
+    "price": 968.92,
+    "target_low": 950,
+    "target_consensus": 1047.25,
+    "target_high": 1147,
+    "target_median": 1044,
+    "upside_pct": 8.1
+  },
+  {
+    "ticker": "CTVA",
+    "price": 82.62,
+    "target_low": 82,
+    "target_consensus": 89.13,
+    "target_high": 95,
+    "target_median": 89,
+    "upside_pct": 7.9
+  },
+  {
+    "ticker": "IEX",
+    "price": 227.19,
+    "target_low": 214,
+    "target_consensus": 244.71,
+    "target_high": 257,
+    "target_median": 250,
+    "upside_pct": 7.7
+  },
+  {
+    "ticker": "O",
+    "price": 63.12,
+    "target_low": 66,
+    "target_consensus": 68,
+    "target_high": 69,
+    "target_median": 68.5,
+    "upside_pct": 7.7
+  },
+  {
+    "ticker": "VTR",
+    "price": 89.05,
+    "target_low": 88,
+    "target_consensus": 95.86,
+    "target_high": 110,
+    "target_median": 95,
+    "upside_pct": 7.6
+  },
+  {
+    "ticker": "FE",
+    "price": 48.47,
+    "target_low": 50,
+    "target_consensus": 52.13,
+    "target_high": 56,
+    "target_median": 51.5,
+    "upside_pct": 7.6
+  },
+  {
+    "ticker": "SWKS",
+    "price": 68.0,
+    "target_low": 55,
+    "target_consensus": 73.1,
+    "target_high": 85,
+    "target_median": 75,
+    "upside_pct": 7.5
+  },
+  {
+    "ticker": "WMB",
+    "price": 77.92,
+    "target_low": 73,
+    "target_consensus": 83.75,
+    "target_high": 98,
+    "target_median": 83.5,
+    "upside_pct": 7.5
+  },
+  {
+    "ticker": "HON",
+    "price": 232.21,
+    "target_low": 220,
+    "target_consensus": 249.64,
+    "target_high": 276,
+    "target_median": 240,
+    "upside_pct": 7.5
+  },
+  {
+    "ticker": "FIX",
+    "price": 1854.23,
+    "target_low": 1800,
+    "target_consensus": 1991.5,
+    "target_high": 2200,
+    "target_median": 2002.5,
+    "upside_pct": 7.4
+  },
+  {
+    "ticker": "NDSN",
+    "price": 301.47,
+    "target_low": 300,
+    "target_consensus": 323.8,
+    "target_high": 345,
+    "target_median": 325,
+    "upside_pct": 7.4
+  },
+  {
+    "ticker": "DOV",
+    "price": 225.96,
+    "target_low": 205,
+    "target_consensus": 242.73,
+    "target_high": 279,
+    "target_median": 250,
+    "upside_pct": 7.4
+  },
+  {
+    "ticker": "ETN",
+    "price": 402.68,
+    "target_low": 350,
+    "target_consensus": 431.88,
+    "target_high": 500,
+    "target_median": 440.5,
+    "upside_pct": 7.3
+  },
+  {
+    "ticker": "NSC",
+    "price": 312.81,
+    "target_low": 310,
+    "target_consensus": 335.57,
+    "target_high": 360,
+    "target_median": 330,
+    "upside_pct": 7.3
+  },
+  {
+    "ticker": "CHRW",
+    "price": 179.33,
+    "target_low": 90,
+    "target_consensus": 192.24,
+    "target_high": 230,
+    "target_median": 202,
+    "upside_pct": 7.2
+  },
+  {
+    "ticker": "HD",
+    "price": 348.86,
+    "target_low": 320,
+    "target_consensus": 373.92,
+    "target_high": 435,
+    "target_median": 369,
+    "upside_pct": 7.2
+  },
+  {
+    "ticker": "RL",
+    "price": 411.16,
+    "target_low": 405,
+    "target_consensus": 440.25,
+    "target_high": 511,
+    "target_median": 436,
+    "upside_pct": 7.1
+  },
+  {
+    "ticker": "RJF",
+    "price": 149.94,
+    "target_low": 155,
+    "target_consensus": 160.5,
+    "target_high": 166,
+    "target_median": 160.5,
+    "upside_pct": 7.0
+  },
+  {
+    "ticker": "PEG",
+    "price": 83.58,
+    "target_low": 81,
+    "target_consensus": 89.43,
+    "target_high": 94,
+    "target_median": 90,
+    "upside_pct": 7.0
+  },
+  {
+    "ticker": "DRI",
+    "price": 213.72,
+    "target_low": 206,
+    "target_consensus": 228.46,
+    "target_high": 265,
+    "target_median": 228,
+    "upside_pct": 6.9
+  },
+  {
+    "ticker": "PANW",
+    "price": 304.2,
+    "target_low": 209,
+    "target_consensus": 324.79,
+    "target_high": 375,
+    "target_median": 330,
+    "upside_pct": 6.8
+  },
+  {
+    "ticker": "PG",
+    "price": 149.02,
+    "target_low": 142,
+    "target_consensus": 159,
+    "target_high": 172,
+    "target_median": 162.5,
+    "upside_pct": 6.7
+  },
+  {
+    "ticker": "HUBB",
+    "price": 517.02,
+    "target_low": 503,
+    "target_consensus": 551.33,
+    "target_high": 600,
+    "target_median": 557.5,
+    "upside_pct": 6.6
+  },
+  {
+    "ticker": "FSLR",
+    "price": 239.07,
+    "target_low": 205,
+    "target_consensus": 254.92,
+    "target_high": 315,
+    "target_median": 247.5,
+    "upside_pct": 6.6
+  },
+  {
+    "ticker": "VTRS",
+    "price": 16.33,
+    "target_low": 12,
+    "target_consensus": 17.4,
+    "target_high": 22,
+    "target_median": 18,
+    "upside_pct": 6.6
+  },
+  {
+    "ticker": "UPS",
+    "price": 108.14,
+    "target_low": 85,
+    "target_consensus": 115.23,
+    "target_high": 128,
+    "target_median": 115,
+    "upside_pct": 6.6
+  },
+  {
+    "ticker": "CAH",
+    "price": 237.92,
+    "target_low": 235,
+    "target_consensus": 253.38,
+    "target_high": 275,
+    "target_median": 255.5,
+    "upside_pct": 6.5
+  },
+  {
+    "ticker": "EW",
+    "price": 90.78,
+    "target_low": 85,
+    "target_consensus": 96.55,
+    "target_high": 110,
+    "target_median": 95,
+    "upside_pct": 6.4
+  },
+  {
+    "ticker": "DUK",
+    "price": 128.4,
+    "target_low": 132,
+    "target_consensus": 136.56,
+    "target_high": 140,
+    "target_median": 136,
+    "upside_pct": 6.4
+  },
+  {
+    "ticker": "BAC",
+    "price": 57.88,
+    "target_low": 50,
+    "target_consensus": 61.5,
+    "target_high": 71,
+    "target_median": 62.5,
+    "upside_pct": 6.3
+  },
+  {
+    "ticker": "ABNB",
+    "price": 145.56,
+    "target_low": 120,
+    "target_consensus": 154.5,
+    "target_high": 185,
+    "target_median": 158.5,
+    "upside_pct": 6.1
+  },
+  {
+    "ticker": "CF",
+    "price": 105.7,
+    "target_low": 72,
+    "target_consensus": 111.88,
+    "target_high": 145,
+    "target_median": 111.5,
+    "upside_pct": 5.8
+  },
+  {
+    "ticker": "NUE",
+    "price": 239.78,
+    "target_low": 224,
+    "target_consensus": 253.63,
+    "target_high": 283,
+    "target_median": 251.5,
+    "upside_pct": 5.8
+  },
+  {
+    "ticker": "WAT",
+    "price": 374.41,
+    "target_low": 350,
+    "target_consensus": 395.25,
+    "target_high": 440,
+    "target_median": 393.5,
+    "upside_pct": 5.6
+  },
+  {
+    "ticker": "PCAR",
+    "price": 120.68,
+    "target_low": 109,
+    "target_consensus": 127.4,
+    "target_high": 139,
+    "target_median": 126,
+    "upside_pct": 5.6
+  },
+  {
+    "ticker": "PSX",
+    "price": 171.65,
+    "target_low": 140,
+    "target_consensus": 181.11,
+    "target_high": 212,
+    "target_median": 177,
+    "upside_pct": 5.5
+  },
+  {
+    "ticker": "CHD",
+    "price": 99.58,
+    "target_low": 91,
+    "target_consensus": 105,
+    "target_high": 114,
+    "target_median": 105,
+    "upside_pct": 5.4
+  },
+  {
+    "ticker": "AME",
+    "price": 237.52,
+    "target_low": 215,
+    "target_consensus": 250,
+    "target_high": 275,
+    "target_median": 253,
+    "upside_pct": 5.3
+  },
+  {
+    "ticker": "F",
+    "price": 14.13,
+    "target_low": 12.8,
+    "target_consensus": 14.88,
+    "target_high": 17,
+    "target_median": 15.25,
+    "upside_pct": 5.3
+  },
+  {
+    "ticker": "ACGL",
+    "price": 97.54,
+    "target_low": 93,
+    "target_consensus": 102.57,
+    "target_high": 114,
+    "target_median": 102,
+    "upside_pct": 5.2
+  },
+  {
+    "ticker": "UAL",
+    "price": 136.11,
+    "target_low": 112,
+    "target_consensus": 143,
+    "target_high": 182,
+    "target_median": 135,
+    "upside_pct": 5.1
+  },
+  {
+    "ticker": "DGX",
+    "price": 209.88,
+    "target_low": 210,
+    "target_consensus": 220.57,
+    "target_high": 235,
+    "target_median": 220,
+    "upside_pct": 5.1
+  },
+  {
+    "ticker": "LLY",
+    "price": 1208.12,
+    "target_low": 1135,
+    "target_consensus": 1269.94,
+    "target_high": 1400,
+    "target_median": 1270,
+    "upside_pct": 5.1
+  },
+  {
+    "ticker": "PHM",
+    "price": 137.61,
+    "target_low": 115,
+    "target_consensus": 144.5,
+    "target_high": 162,
+    "target_median": 147,
+    "upside_pct": 5.0
+  },
+  {
+    "ticker": "SO",
+    "price": 97.16,
+    "target_low": 89,
+    "target_consensus": 102,
+    "target_high": 112,
+    "target_median": 103,
+    "upside_pct": 5.0
+  },
+  {
+    "ticker": "PM",
+    "price": 180.77,
+    "target_low": 168,
+    "target_consensus": 189.6,
+    "target_high": 205,
+    "target_median": 195,
+    "upside_pct": 4.9
+  },
+  {
+    "ticker": "USB",
+    "price": 60.91,
+    "target_low": 60,
+    "target_consensus": 63.82,
+    "target_high": 73,
+    "target_median": 63,
+    "upside_pct": 4.8
+  },
+  {
+    "ticker": "KO",
+    "price": 82.63,
+    "target_low": 83,
+    "target_consensus": 86.5,
+    "target_high": 89,
+    "target_median": 87,
+    "upside_pct": 4.7
+  },
+  {
+    "ticker": "GNRC",
+    "price": 278.62,
+    "target_low": 228,
+    "target_consensus": 291.5,
+    "target_high": 335,
+    "target_median": 296,
+    "upside_pct": 4.6
+  },
+  {
+    "ticker": "WELL",
+    "price": 227.33,
+    "target_low": 215,
+    "target_consensus": 237.8,
+    "target_high": 249,
+    "target_median": 239.5,
+    "upside_pct": 4.6
+  },
+  {
+    "ticker": "SNA",
+    "price": 397.1,
+    "target_low": 395,
+    "target_consensus": 415.33,
+    "target_high": 431,
+    "target_median": 420,
+    "upside_pct": 4.6
+  },
+  {
+    "ticker": "ALL",
+    "price": 239.61,
+    "target_low": 225,
+    "target_consensus": 250,
+    "target_high": 281,
+    "target_median": 249,
+    "upside_pct": 4.3
+  },
+  {
+    "ticker": "CL",
+    "price": 92.07,
+    "target_low": 79,
+    "target_consensus": 96,
+    "target_high": 102,
+    "target_median": 99.5,
+    "upside_pct": 4.3
+  },
+  {
+    "ticker": "PPG",
+    "price": 123.24,
+    "target_low": 119,
+    "target_consensus": 128.5,
+    "target_high": 140,
+    "target_median": 129,
+    "upside_pct": 4.3
+  },
+  {
+    "ticker": "PKG",
+    "price": 241.55,
+    "target_low": 245,
+    "target_consensus": 251.6,
+    "target_high": 258,
+    "target_median": 251,
+    "upside_pct": 4.2
+  },
+  {
+    "ticker": "EQIX",
+    "price": 1091.3,
+    "target_low": 894,
+    "target_consensus": 1136.87,
+    "target_high": 1250,
+    "target_median": 1173,
+    "upside_pct": 4.2
+  },
+  {
+    "ticker": "MAR",
+    "price": 377.31,
+    "target_low": 350,
+    "target_consensus": 393.07,
+    "target_high": 446,
+    "target_median": 392,
+    "upside_pct": 4.2
+  },
+  {
+    "ticker": "SJM",
+    "price": 115.64,
+    "target_low": 95,
+    "target_consensus": 120.33,
+    "target_high": 137,
+    "target_median": 125,
+    "upside_pct": 4.1
+  },
+  {
+    "ticker": "INVH",
+    "price": 30.46,
+    "target_low": 27,
+    "target_consensus": 31.69,
+    "target_high": 35,
+    "target_median": 32,
+    "upside_pct": 4.0
+  },
+  {
+    "ticker": "PLD",
+    "price": 139.97,
+    "target_low": 123,
+    "target_consensus": 145.57,
+    "target_high": 161,
+    "target_median": 149.5,
+    "upside_pct": 4.0
+  },
+  {
+    "ticker": "ATO",
+    "price": 175.17,
+    "target_low": 167,
+    "target_consensus": 182,
+    "target_high": 190,
+    "target_median": 185.5,
+    "upside_pct": 3.9
+  },
+  {
+    "ticker": "ETR",
+    "price": 115.91,
+    "target_low": 94,
+    "target_consensus": 120.31,
+    "target_high": 135,
+    "target_median": 123,
+    "upside_pct": 3.8
+  },
+  {
+    "ticker": "FDS",
+    "price": 231.74,
+    "target_low": 210,
+    "target_consensus": 240.2,
+    "target_high": 321,
+    "target_median": 215,
+    "upside_pct": 3.7
+  },
+  {
+    "ticker": "OKE",
+    "price": 89.22,
+    "target_low": 80,
+    "target_consensus": 92.5,
+    "target_high": 104,
+    "target_median": 91,
+    "upside_pct": 3.7
+  },
+  {
+    "ticker": "WEC",
+    "price": 118.85,
+    "target_low": 116,
+    "target_consensus": 123.25,
+    "target_high": 135,
+    "target_median": 122.5,
+    "upside_pct": 3.7
+  },
+  {
+    "ticker": "SBUX",
+    "price": 104.6,
+    "target_low": 90,
+    "target_consensus": 108.5,
+    "target_high": 120,
+    "target_median": 111.5,
+    "upside_pct": 3.7
+  },
+  {
+    "ticker": "PNC",
+    "price": 244.99,
+    "target_low": 206,
+    "target_consensus": 254.13,
+    "target_high": 277,
+    "target_median": 261.5,
+    "upside_pct": 3.7
+  },
+  {
+    "ticker": "JPM",
+    "price": 329.05,
+    "target_low": 295,
+    "target_consensus": 341.25,
+    "target_high": 391,
+    "target_median": 342,
+    "upside_pct": 3.7
+  },
+  {
+    "ticker": "EQR",
+    "price": 68.38,
+    "target_low": 63,
+    "target_consensus": 70.82,
+    "target_high": 79,
+    "target_median": 70,
+    "upside_pct": 3.6
+  },
+  {
+    "ticker": "VMC",
+    "price": 311.35,
+    "target_low": 283,
+    "target_consensus": 322.6,
+    "target_high": 360,
+    "target_median": 323.5,
+    "upside_pct": 3.6
+  },
+  {
+    "ticker": "GIS",
+    "price": 36.01,
+    "target_low": 30,
+    "target_consensus": 37.3,
+    "target_high": 47,
+    "target_median": 36,
+    "upside_pct": 3.6
+  },
+  {
+    "ticker": "LYV",
+    "price": 179.46,
+    "target_low": 155,
+    "target_consensus": 185.75,
+    "target_high": 200,
+    "target_median": 190,
+    "upside_pct": 3.5
+  },
+  {
+    "ticker": "ZBH",
+    "price": 93.1,
+    "target_low": 83,
+    "target_consensus": 96.33,
+    "target_high": 120,
+    "target_median": 93,
+    "upside_pct": 3.5
+  },
+  {
+    "ticker": "DTE",
+    "price": 154.43,
+    "target_low": 150,
+    "target_consensus": 159.86,
+    "target_high": 170,
+    "target_median": 158,
+    "upside_pct": 3.5
+  },
+  {
+    "ticker": "NI",
+    "price": 49.08,
+    "target_low": 49,
+    "target_consensus": 50.75,
+    "target_high": 52,
+    "target_median": 51,
+    "upside_pct": 3.4
+  },
+  {
+    "ticker": "PAYX",
+    "price": 99.9,
+    "target_low": 98,
+    "target_consensus": 103.2,
+    "target_high": 110,
+    "target_median": 103,
+    "upside_pct": 3.3
+  },
+  {
+    "ticker": "MAS",
+    "price": 79.97,
+    "target_low": 72,
+    "target_consensus": 82.6,
+    "target_high": 97,
+    "target_median": 79,
+    "upside_pct": 3.3
+  },
+  {
+    "ticker": "ES",
+    "price": 73.48,
+    "target_low": 72,
+    "target_consensus": 75.83,
+    "target_high": 79,
+    "target_median": 76,
+    "upside_pct": 3.2
+  },
+  {
+    "ticker": "EXC",
+    "price": 47.4,
+    "target_low": 41,
+    "target_consensus": 48.91,
+    "target_high": 55,
+    "target_median": 49,
+    "upside_pct": 3.2
+  },
+  {
+    "ticker": "CFG",
+    "price": 70.4,
+    "target_low": 65,
+    "target_consensus": 72.5,
+    "target_high": 80,
+    "target_median": 73,
+    "upside_pct": 3.0
+  },
+  {
+    "ticker": "EXPE",
+    "price": 262.8,
+    "target_low": 240,
+    "target_consensus": 270.63,
+    "target_high": 330,
+    "target_median": 260,
+    "upside_pct": 3.0
+  },
+  {
+    "ticker": "GE",
+    "price": 369.0,
+    "target_low": 355,
+    "target_consensus": 380.14,
+    "target_high": 425,
+    "target_median": 375,
+    "upside_pct": 3.0
+  },
+  {
+    "ticker": "CIEN",
+    "price": 479.5,
+    "target_low": 330,
+    "target_consensus": 493.42,
+    "target_high": 650,
+    "target_median": 499,
+    "upside_pct": 2.9
+  },
+  {
+    "ticker": "HSIC",
+    "price": 84.95,
+    "target_low": 64,
+    "target_consensus": 87.43,
+    "target_high": 100,
+    "target_median": 87,
+    "upside_pct": 2.9
+  },
+  {
+    "ticker": "HLT",
+    "price": 332.86,
+    "target_low": 312,
+    "target_consensus": 342.3,
+    "target_high": 373,
+    "target_median": 344.5,
+    "upside_pct": 2.8
+  },
+  {
+    "ticker": "EVRG",
+    "price": 87.21,
+    "target_low": 82,
+    "target_consensus": 89.43,
+    "target_high": 99,
+    "target_median": 89,
+    "upside_pct": 2.5
+  },
+  {
+    "ticker": "EXR",
+    "price": 149.21,
+    "target_low": 145,
+    "target_consensus": 153,
+    "target_high": 164,
+    "target_median": 153,
+    "upside_pct": 2.5
+  },
+  {
+    "ticker": "RF",
+    "price": 30.06,
+    "target_low": 30,
+    "target_consensus": 30.78,
+    "target_high": 32,
+    "target_median": 31,
+    "upside_pct": 2.4
+  },
+  {
+    "ticker": "MRK",
+    "price": 128.66,
+    "target_low": 100,
+    "target_consensus": 131.58,
+    "target_high": 150,
+    "target_median": 135,
+    "upside_pct": 2.3
+  },
+  {
+    "ticker": "FLEX",
+    "price": 146.7,
+    "target_low": 80,
+    "target_consensus": 150,
+    "target_high": 203,
+    "target_median": 171,
+    "upside_pct": 2.2
+  },
+  {
+    "ticker": "AEE",
+    "price": 118.32,
+    "target_low": 115,
+    "target_consensus": 120.89,
+    "target_high": 131,
+    "target_median": 120,
+    "upside_pct": 2.2
+  },
+  {
+    "ticker": "REG",
+    "price": 81.81,
+    "target_low": 74,
+    "target_consensus": 83.56,
+    "target_high": 90,
+    "target_median": 85,
+    "upside_pct": 2.1
+  },
+  {
+    "ticker": "MPC",
+    "price": 254.06,
+    "target_low": 174,
+    "target_consensus": 259.38,
+    "target_high": 344,
+    "target_median": 267.5,
+    "upside_pct": 2.1
+  },
+  {
+    "ticker": "AVB",
+    "price": 190.12,
+    "target_low": 172,
+    "target_consensus": 194.17,
+    "target_high": 209,
+    "target_median": 193.5,
+    "upside_pct": 2.1
+  },
+  {
+    "ticker": "FITB",
+    "price": 56.31,
+    "target_low": 53,
+    "target_consensus": 57.5,
+    "target_high": 63,
+    "target_median": 57.5,
+    "upside_pct": 2.1
+  },
+  {
+    "ticker": "EBAY",
+    "price": 107.87,
+    "target_low": 96,
+    "target_consensus": 109.87,
+    "target_high": 124,
+    "target_median": 110,
+    "upside_pct": 1.9
+  },
+  {
+    "ticker": "ABBV",
+    "price": 253.35,
+    "target_low": 223,
+    "target_consensus": 258,
+    "target_high": 298,
+    "target_median": 260,
+    "upside_pct": 1.8
+  },
+  {
+    "ticker": "PGR",
+    "price": 224.34,
+    "target_low": 208,
+    "target_consensus": 228.42,
+    "target_high": 259,
+    "target_median": 224.5,
+    "upside_pct": 1.8
+  },
+  {
+    "ticker": "MMM",
+    "price": 164.01,
+    "target_low": 136,
+    "target_consensus": 166.75,
+    "target_high": 190,
+    "target_median": 170.5,
+    "upside_pct": 1.7
+  },
+  {
+    "ticker": "CB",
+    "price": 341.44,
+    "target_low": 309,
+    "target_consensus": 346.75,
+    "target_high": 373,
+    "target_median": 348,
+    "upside_pct": 1.6
+  },
+  {
+    "ticker": "TRGP",
+    "price": 272.61,
+    "target_low": 231,
+    "target_consensus": 276.67,
+    "target_high": 331,
+    "target_median": 270,
+    "upside_pct": 1.5
+  },
+  {
+    "ticker": "D",
+    "price": 69.39,
+    "target_low": 67,
+    "target_consensus": 70.43,
+    "target_high": 76,
+    "target_median": 69,
+    "upside_pct": 1.5
+  },
+  {
+    "ticker": "FTV",
+    "price": 61.48,
+    "target_low": 51,
+    "target_consensus": 62.43,
+    "target_high": 70,
+    "target_median": 63,
+    "upside_pct": 1.5
+  },
+  {
+    "ticker": "CMS",
+    "price": 78.81,
+    "target_low": 74,
+    "target_consensus": 80,
+    "target_high": 83,
+    "target_median": 80.5,
+    "upside_pct": 1.5
+  },
+  {
+    "ticker": "ITW",
+    "price": 267.71,
+    "target_low": 254,
+    "target_consensus": 271.29,
+    "target_high": 285,
+    "target_median": 275,
+    "upside_pct": 1.3
+  },
+  {
+    "ticker": "BIIB",
+    "price": 216.03,
+    "target_low": 185,
+    "target_consensus": 218.32,
+    "target_high": 260,
+    "target_median": 225,
+    "upside_pct": 1.1
+  },
+  {
+    "ticker": "MAA",
+    "price": 140.72,
+    "target_low": 129,
+    "target_consensus": 142,
+    "target_high": 158,
+    "target_median": 139,
+    "upside_pct": 0.9
+  },
+  {
+    "ticker": "FDX",
+    "price": 318.53,
+    "target_low": 160,
+    "target_consensus": 321.35,
+    "target_high": 479,
+    "target_median": 340,
+    "upside_pct": 0.9
+  },
+  {
+    "ticker": "KEY",
+    "price": 23.26,
+    "target_low": 18,
+    "target_consensus": 23.44,
+    "target_high": 27,
+    "target_median": 24,
+    "upside_pct": 0.8
+  },
+  {
+    "ticker": "NCLH",
+    "price": 21.24,
+    "target_low": 14,
+    "target_consensus": 21.38,
+    "target_high": 30,
+    "target_median": 20,
+    "upside_pct": 0.7
+  },
+  {
+    "ticker": "AEP",
+    "price": 138.69,
+    "target_low": 129,
+    "target_consensus": 139.6,
+    "target_high": 150,
+    "target_median": 141,
+    "upside_pct": 0.7
+  },
+  {
+    "ticker": "PWR",
+    "price": 687.87,
+    "target_low": 503,
+    "target_consensus": 691.86,
+    "target_high": 900,
+    "target_median": 667.5,
+    "upside_pct": 0.6
+  },
+  {
+    "ticker": "ODFL",
+    "price": 218.79,
+    "target_low": 138,
+    "target_consensus": 219.31,
+    "target_high": 240,
+    "target_median": 224.5,
+    "upside_pct": 0.2
+  },
+  {
+    "ticker": "MTB",
+    "price": 237.26,
+    "target_low": 225,
+    "target_consensus": 237.71,
+    "target_high": 255,
+    "target_median": 235,
+    "upside_pct": 0.2
+  },
+  {
+    "ticker": "IRM",
+    "price": 132.44,
+    "target_low": 127,
+    "target_consensus": 132.33,
+    "target_high": 140,
+    "target_median": 130,
+    "upside_pct": -0.1
+  },
+  {
+    "ticker": "C",
+    "price": 141.76,
+    "target_low": 87,
+    "target_consensus": 141.67,
+    "target_high": 165,
+    "target_median": 144.5,
+    "upside_pct": -0.1
+  },
+  {
+    "ticker": "ROK",
+    "price": 476.82,
+    "target_low": 410,
+    "target_consensus": 475.13,
+    "target_high": 525,
+    "target_median": 490,
+    "upside_pct": -0.4
+  },
+  {
+    "ticker": "UNH",
+    "price": 427.89,
+    "target_low": 361,
+    "target_consensus": 425.81,
+    "target_high": 492,
+    "target_median": 432,
+    "upside_pct": -0.5
+  },
+  {
+    "ticker": "JNJ",
+    "price": 254.66,
+    "target_low": 208,
+    "target_consensus": 253.42,
+    "target_high": 283,
+    "target_median": 260,
+    "upside_pct": -0.5
+  },
+  {
+    "ticker": "CAG",
+    "price": 14.08,
+    "target_low": 12,
+    "target_consensus": 14,
+    "target_high": 16,
+    "target_median": 14,
+    "upside_pct": -0.6
+  },
+  {
+    "ticker": "CRL",
+    "price": 215.75,
+    "target_low": 192,
+    "target_consensus": 214.14,
+    "target_high": 220,
+    "target_median": 219,
+    "upside_pct": -0.7
+  },
+  {
+    "ticker": "CVS",
+    "price": 104.34,
+    "target_low": 90,
+    "target_consensus": 103.64,
+    "target_high": 115,
+    "target_median": 106,
+    "upside_pct": -0.7
+  },
+  {
+    "ticker": "AWK",
+    "price": 132.68,
+    "target_low": 124,
+    "target_consensus": 131.67,
+    "target_high": 140,
+    "target_median": 131,
+    "upside_pct": -0.8
+  },
+  {
+    "ticker": "ESS",
+    "price": 295.34,
+    "target_low": 277,
+    "target_consensus": 292.92,
+    "target_high": 320,
+    "target_median": 290,
+    "upside_pct": -0.8
+  },
+  {
+    "ticker": "CINF",
+    "price": 184.08,
+    "target_low": 175,
+    "target_consensus": 182.5,
+    "target_high": 190,
+    "target_median": 182.5,
+    "upside_pct": -0.9
+  },
+  {
+    "ticker": "CNP",
+    "price": 45.04,
+    "target_low": 37,
+    "target_consensus": 44.63,
+    "target_high": 50,
+    "target_median": 44.5,
+    "upside_pct": -0.9
+  },
+  {
+    "ticker": "FRT",
+    "price": 125.08,
+    "target_low": 110,
+    "target_consensus": 123.8,
+    "target_high": 135,
+    "target_median": 127.5,
+    "upside_pct": -1.0
+  },
+  {
+    "ticker": "CSX",
+    "price": 47.66,
+    "target_low": 36,
+    "target_consensus": 47.15,
+    "target_high": 55,
+    "target_median": 47,
+    "upside_pct": -1.1
+  },
+  {
+    "ticker": "UDR",
+    "price": 39.98,
+    "target_low": 35,
+    "target_consensus": 39.5,
+    "target_high": 42,
+    "target_median": 40,
+    "upside_pct": -1.2
+  },
+  {
+    "ticker": "LII",
+    "price": 563.87,
+    "target_low": 450,
+    "target_consensus": 556.3,
+    "target_high": 650,
+    "target_median": 542.5,
+    "upside_pct": -1.3
+  },
+  {
+    "ticker": "LNT",
+    "price": 77.25,
+    "target_low": 74,
+    "target_consensus": 76.2,
+    "target_high": 81,
+    "target_median": 76,
+    "upside_pct": -1.4
+  },
+  {
+    "ticker": "BEN",
+    "price": 33.21,
+    "target_low": 31,
+    "target_consensus": 32.75,
+    "target_high": 34,
+    "target_median": 33,
+    "upside_pct": -1.4
+  },
+  {
+    "ticker": "BNY",
+    "price": 143.56,
+    "target_low": 122,
+    "target_consensus": 141.57,
+    "target_high": 160,
+    "target_median": 142,
+    "upside_pct": -1.4
+  },
+  {
+    "ticker": "DHI",
+    "price": 166.29,
+    "target_low": 129,
+    "target_consensus": 163.86,
+    "target_high": 190,
+    "target_median": 163,
+    "upside_pct": -1.5
+  },
+  {
+    "ticker": "KIM",
+    "price": 25.89,
+    "target_low": 21,
+    "target_consensus": 25.45,
+    "target_high": 28,
+    "target_median": 25,
+    "upside_pct": -1.7
+  },
+  {
+    "ticker": "BBY",
+    "price": 77.71,
+    "target_low": 60,
+    "target_consensus": 76.4,
+    "target_high": 90,
+    "target_median": 77,
+    "upside_pct": -1.7
+  },
+  {
+    "ticker": "DAL",
+    "price": 92.57,
+    "target_low": 77,
+    "target_consensus": 90.89,
+    "target_high": 107,
+    "target_median": 88,
+    "upside_pct": -1.8
+  },
+  {
+    "ticker": "CRWD",
+    "price": 701.09,
+    "target_low": 413,
+    "target_consensus": 687.36,
+    "target_high": 805,
+    "target_median": 725,
+    "upside_pct": -2.0
+  },
+  {
+    "ticker": "FAST",
+    "price": 47.1,
+    "target_low": 42,
+    "target_consensus": 46.14,
+    "target_high": 50,
+    "target_median": 46,
+    "upside_pct": -2.0
+  },
+  {
+    "ticker": "ADM",
+    "price": 76.79,
+    "target_low": 58,
+    "target_consensus": 75.25,
+    "target_high": 95,
+    "target_median": 74,
+    "upside_pct": -2.0
+  },
+  {
+    "ticker": "EIX",
+    "price": 75.67,
+    "target_low": 62,
+    "target_consensus": 74.17,
+    "target_high": 79,
+    "target_median": 77.5,
+    "upside_pct": -2.0
+  },
+  {
+    "ticker": "LUV",
+    "price": 51.91,
+    "target_low": 32,
+    "target_consensus": 50.72,
+    "target_high": 65,
+    "target_median": 52,
+    "upside_pct": -2.3
+  },
+  {
+    "ticker": "IBKR",
+    "price": 89.82,
+    "target_low": 82,
+    "target_consensus": 87.67,
+    "target_high": 98,
+    "target_median": 83,
+    "upside_pct": -2.4
+  },
+  {
+    "ticker": "DLTR",
+    "price": 123.87,
+    "target_low": 85,
+    "target_consensus": 120.93,
+    "target_high": 165,
+    "target_median": 120.5,
+    "upside_pct": -2.4
+  },
+  {
+    "ticker": "AMGN",
+    "price": 358.33,
+    "target_low": 185,
+    "target_consensus": 349.33,
+    "target_high": 427,
+    "target_median": 355,
+    "upside_pct": -2.5
+  },
+  {
+    "ticker": "TGT",
+    "price": 140.39,
+    "target_low": 114,
+    "target_consensus": 136.8,
+    "target_high": 162,
+    "target_median": 132.5,
+    "upside_pct": -2.6
+  },
+  {
+    "ticker": "KMB",
+    "price": 109.37,
+    "target_low": 99,
+    "target_consensus": 106.5,
+    "target_high": 121,
+    "target_median": 103,
+    "upside_pct": -2.6
+  },
+  {
+    "ticker": "KDP",
+    "price": 33.4,
+    "target_low": 28,
+    "target_consensus": 32.5,
+    "target_high": 38,
+    "target_median": 32,
+    "upside_pct": -2.7
+  },
+  {
+    "ticker": "GL",
+    "price": 179.31,
+    "target_low": 157,
+    "target_consensus": 174.5,
+    "target_high": 185,
+    "target_median": 178,
+    "upside_pct": -2.7
+  },
+  {
+    "ticker": "MO",
+    "price": 73.79,
+    "target_low": 64,
+    "target_consensus": 71.83,
+    "target_high": 77,
+    "target_median": 73.5,
+    "upside_pct": -2.7
+  },
+  {
+    "ticker": "BXP",
+    "price": 67.4,
+    "target_low": 61,
+    "target_consensus": 65.5,
+    "target_high": 72,
+    "target_median": 64.5,
+    "upside_pct": -2.8
+  },
+  {
+    "ticker": "PSA",
+    "price": 324.39,
+    "target_low": 285,
+    "target_consensus": 315.4,
+    "target_high": 349,
+    "target_median": 310,
+    "upside_pct": -2.8
+  },
+  {
+    "ticker": "GS",
+    "price": 1019.61,
+    "target_low": 604,
+    "target_consensus": 989.7,
+    "target_high": 1100,
+    "target_median": 1039,
+    "upside_pct": -2.9
+  },
+  {
+    "ticker": "WRB",
+    "price": 71.27,
+    "target_low": 58,
+    "target_consensus": 69.1,
+    "target_high": 80,
+    "target_median": 69,
+    "upside_pct": -3.0
+  },
+  {
+    "ticker": "STT",
+    "price": 168.11,
+    "target_low": 144,
+    "target_consensus": 162.82,
+    "target_high": 176,
+    "target_median": 166,
+    "upside_pct": -3.1
+  },
+  {
+    "ticker": "URI",
+    "price": 1121.66,
+    "target_low": 715,
+    "target_consensus": 1083.45,
+    "target_high": 1275,
+    "target_median": 1101,
+    "upside_pct": -3.4
+  },
+  {
+    "ticker": "DDOG",
+    "price": 239.77,
+    "target_low": 139,
+    "target_consensus": 231.21,
+    "target_high": 305,
+    "target_median": 225,
+    "upside_pct": -3.6
+  },
+  {
+    "ticker": "CPT",
+    "price": 116.31,
+    "target_low": 102,
+    "target_consensus": 112.16,
+    "target_high": 123,
+    "target_median": 113,
+    "upside_pct": -3.6
+  },
+  {
+    "ticker": "TXN",
+    "price": 285.43,
+    "target_low": 175,
+    "target_consensus": 275.17,
+    "target_high": 400,
+    "target_median": 287.5,
+    "upside_pct": -3.6
+  },
+  {
+    "ticker": "SWK",
+    "price": 91.98,
+    "target_low": 82,
+    "target_consensus": 88.67,
+    "target_high": 100,
+    "target_median": 84,
+    "upside_pct": -3.6
+  },
+  {
+    "ticker": "ED",
+    "price": 112.06,
+    "target_low": 97,
+    "target_consensus": 107.75,
+    "target_high": 118,
+    "target_median": 107.5,
+    "upside_pct": -3.8
+  },
+  {
+    "ticker": "EXPD",
+    "price": 160.73,
+    "target_low": 142,
+    "target_consensus": 154.17,
+    "target_high": 175,
+    "target_median": 153,
+    "upside_pct": -4.1
+  },
+  {
+    "ticker": "AFL",
+    "price": 120.15,
+    "target_low": 99,
+    "target_consensus": 115.17,
+    "target_high": 130,
+    "target_median": 116.5,
+    "upside_pct": -4.1
+  },
+  {
+    "ticker": "INCY",
+    "price": 113.75,
+    "target_low": 90,
+    "target_consensus": 108.92,
+    "target_high": 140,
+    "target_median": 107,
+    "upside_pct": -4.2
+  },
+  {
+    "ticker": "KHC",
+    "price": 23.7,
+    "target_low": 18,
+    "target_consensus": 22.7,
+    "target_high": 25,
+    "target_median": 23,
+    "upside_pct": -4.2
+  },
+  {
+    "ticker": "FFIV",
+    "price": 394.53,
+    "target_low": 292,
+    "target_consensus": 378,
+    "target_high": 475,
+    "target_median": 372.5,
+    "upside_pct": -4.2
+  },
+  {
+    "ticker": "PNW",
+    "price": 108.08,
+    "target_low": 95,
+    "target_consensus": 103.43,
+    "target_high": 107,
+    "target_median": 105,
+    "upside_pct": -4.3
+  },
+  {
+    "ticker": "LEN",
+    "price": 93.52,
+    "target_low": 67,
+    "target_consensus": 89.17,
+    "target_high": 125,
+    "target_median": 85,
+    "upside_pct": -4.7
+  },
+  {
+    "ticker": "PFG",
+    "price": 107.75,
+    "target_low": 85,
+    "target_consensus": 102.43,
+    "target_high": 125,
+    "target_median": 107,
+    "upside_pct": -4.9
+  },
+  {
+    "ticker": "HST",
+    "price": 25.06,
+    "target_low": 18,
+    "target_consensus": 23.81,
+    "target_high": 27,
+    "target_median": 23,
+    "upside_pct": -5.0
+  },
+  {
+    "ticker": "MS",
+    "price": 212.03,
+    "target_low": 187,
+    "target_consensus": 201.25,
+    "target_high": 211,
+    "target_median": 203.5,
+    "upside_pct": -5.1
+  },
+  {
+    "ticker": "TRV",
+    "price": 327.37,
+    "target_low": 295,
+    "target_consensus": 310.4,
+    "target_high": 322,
+    "target_median": 314,
+    "upside_pct": -5.2
+  },
+  {
+    "ticker": "WST",
+    "price": 350.85,
+    "target_low": 295,
+    "target_consensus": 330.83,
+    "target_high": 400,
+    "target_median": 317.5,
+    "upside_pct": -5.7
+  },
+  {
+    "ticker": "VLO",
+    "price": 259.37,
+    "target_low": 178,
+    "target_consensus": 244.67,
+    "target_high": 289,
+    "target_median": 259,
+    "upside_pct": -5.7
+  },
+  {
+    "ticker": "GWW",
+    "price": 1353.61,
+    "target_low": 1125,
+    "target_consensus": 1274.75,
+    "target_high": 1365,
+    "target_median": 1300,
+    "upside_pct": -5.8
+  },
+  {
+    "ticker": "MNST",
+    "price": 96.38,
+    "target_low": 77,
+    "target_consensus": 90.58,
+    "target_high": 103,
+    "target_median": 89,
+    "upside_pct": -6.0
+  },
+  {
+    "ticker": "BAX",
+    "price": 22.04,
+    "target_low": 17,
+    "target_consensus": 20.71,
+    "target_high": 27,
+    "target_median": 20,
+    "upside_pct": -6.0
+  },
+  {
+    "ticker": "TROW",
+    "price": 110.27,
+    "target_low": 89,
+    "target_consensus": 103.4,
+    "target_high": 111,
+    "target_median": 109,
+    "upside_pct": -6.2
+  },
+  {
+    "ticker": "TECH",
+    "price": 71.0,
+    "target_low": 50,
+    "target_consensus": 66.44,
+    "target_high": 79,
+    "target_median": 73,
+    "upside_pct": -6.4
+  },
+  {
+    "ticker": "CARR",
+    "price": 73.59,
+    "target_low": 55,
+    "target_consensus": 68.86,
+    "target_high": 79,
+    "target_median": 70,
+    "upside_pct": -6.4
+  },
+  {
+    "ticker": "DVA",
+    "price": 217.04,
+    "target_low": 190,
+    "target_consensus": 202.25,
+    "target_high": 220,
+    "target_median": 199.5,
+    "upside_pct": -6.8
+  },
+  {
+    "ticker": "ARE",
+    "price": 55.22,
+    "target_low": 43,
+    "target_consensus": 50.86,
+    "target_high": 58,
+    "target_median": 52,
+    "upside_pct": -7.9
+  },
+  {
+    "ticker": "SPG",
+    "price": 226.89,
+    "target_low": 192,
+    "target_consensus": 209,
+    "target_high": 230,
+    "target_median": 207.5,
+    "upside_pct": -7.9
+  },
+  {
+    "ticker": "NTRS",
+    "price": 173.87,
+    "target_low": 148,
+    "target_consensus": 160.2,
+    "target_high": 186,
+    "target_median": 159,
+    "upside_pct": -7.9
+  },
+  {
+    "ticker": "DOC",
+    "price": 21.55,
+    "target_low": 17,
+    "target_consensus": 19.71,
+    "target_high": 24,
+    "target_median": 19,
+    "upside_pct": -8.5
+  },
+  {
+    "ticker": "PRU",
+    "price": 108.25,
+    "target_low": 87,
+    "target_consensus": 98.71,
+    "target_high": 111,
+    "target_median": 100,
+    "upside_pct": -8.8
+  },
+  {
+    "ticker": "MRVL",
+    "price": 266.77,
+    "target_low": 155,
+    "target_consensus": 242.67,
+    "target_high": 385,
+    "target_median": 235,
+    "upside_pct": -9.0
+  },
+  {
+    "ticker": "CNC",
+    "price": 65.73,
+    "target_low": 39,
+    "target_consensus": 59.79,
+    "target_high": 80,
+    "target_median": 60,
+    "upside_pct": -9.0
+  },
+  {
+    "ticker": "LRCX",
+    "price": 379.09,
+    "target_low": 275,
+    "target_consensus": 342.28,
+    "target_high": 450,
+    "target_median": 328,
+    "upside_pct": -9.7
+  },
+  {
+    "ticker": "AMD",
+    "price": 521.58,
+    "target_low": 260,
+    "target_consensus": 468.57,
+    "target_high": 670,
+    "target_median": 450,
+    "upside_pct": -10.2
+  },
+  {
+    "ticker": "CAT",
+    "price": 997.47,
+    "target_low": 658,
+    "target_consensus": 895.2,
+    "target_high": 1165,
+    "target_median": 845,
+    "upside_pct": -10.3
+  },
+  {
+    "ticker": "HRL",
+    "price": 26.51,
+    "target_low": 22,
+    "target_consensus": 23.5,
+    "target_high": 25,
+    "target_median": 23.5,
+    "upside_pct": -11.4
+  },
+  {
+    "ticker": "AMAT",
+    "price": 626.84,
+    "target_low": 425,
+    "target_consensus": 554.52,
+    "target_high": 770,
+    "target_median": 530,
+    "upside_pct": -11.5
+  },
+  {
+    "ticker": "MGM",
+    "price": 49.19,
+    "target_low": 30,
+    "target_consensus": 43.22,
+    "target_high": 55,
+    "target_median": 44,
+    "upside_pct": -12.1
+  },
+  {
+    "ticker": "NXPI",
+    "price": 277.02,
+    "target_low": 188,
+    "target_consensus": 242.6,
+    "target_high": 295,
+    "target_median": 240,
+    "upside_pct": -12.4
+  },
+  {
+    "ticker": "HPQ",
+    "price": 22.88,
+    "target_low": 19,
+    "target_consensus": 19.83,
+    "target_high": 22,
+    "target_median": 19.5,
+    "upside_pct": -13.3
+  },
+  {
+    "ticker": "WSM",
+    "price": 239.19,
+    "target_low": 190,
+    "target_consensus": 205.29,
+    "target_high": 230,
+    "target_median": 200,
+    "upside_pct": -14.2
+  },
+  {
+    "ticker": "JBHT",
+    "price": 280.3,
+    "target_low": 180,
+    "target_consensus": 239.44,
+    "target_high": 320,
+    "target_median": 235,
+    "upside_pct": -14.6
+  },
+  {
+    "ticker": "COHR",
+    "price": 380.56,
+    "target_low": 230,
+    "target_consensus": 324,
+    "target_high": 455,
+    "target_median": 330,
+    "upside_pct": -14.9
+  },
+  {
+    "ticker": "EA",
+    "price": 205.25,
+    "target_low": 118,
+    "target_consensus": 172.65,
+    "target_high": 210,
+    "target_median": 167.5,
+    "upside_pct": -15.9
+  },
+  {
+    "ticker": "STX",
+    "price": 899.9,
+    "target_low": 380,
+    "target_consensus": 754.64,
+    "target_high": 1090,
+    "target_median": 762.5,
+    "upside_pct": -16.1
+  },
+  {
+    "ticker": "TER",
+    "price": 436.86,
+    "target_low": 220,
+    "target_consensus": 359.82,
+    "target_high": 446,
+    "target_median": 387,
+    "upside_pct": -17.6
+  },
+  {
+    "ticker": "WDC",
+    "price": 586.45,
+    "target_low": 250,
+    "target_consensus": 479.29,
+    "target_high": 685,
+    "target_median": 512.5,
+    "upside_pct": -18.3
+  },
+  {
+    "ticker": "KLAC",
+    "price": 248.64,
+    "target_low": 145,
+    "target_consensus": 198.85,
+    "target_high": 305,
+    "target_median": 195,
+    "upside_pct": -20.0
+  },
+  {
+    "ticker": "GLW",
+    "price": 221.05,
+    "target_low": 120,
+    "target_consensus": 175.33,
+    "target_high": 228,
+    "target_median": 180,
+    "upside_pct": -20.7
+  },
+  {
+    "ticker": "EQT",
+    "price": 52.7,
+    "target_low": 23,
+    "target_consensus": 41.11,
+    "target_high": 55,
+    "target_median": 44,
+    "upside_pct": -22.0
+  },
+  {
+    "ticker": "HUM",
+    "price": 383.84,
+    "target_low": 195,
+    "target_consensus": 298.5,
+    "target_high": 441,
+    "target_median": 264.5,
+    "upside_pct": -22.2
+  },
+  {
+    "ticker": "INTC",
+    "price": 128.32,
+    "target_low": 45,
+    "target_consensus": 91.8,
+    "target_high": 150,
+    "target_median": 90,
+    "upside_pct": -28.5
+  },
+  {
+    "ticker": "MRNA",
+    "price": 67.27,
+    "target_low": 33,
+    "target_consensus": 44.88,
+    "target_high": 77,
+    "target_median": 41.5,
+    "upside_pct": -33.3
+  },
+  {
+    "ticker": "FTNT",
+    "price": 151.35,
+    "target_low": 70,
+    "target_consensus": 98.95,
+    "target_high": 155,
+    "target_median": 95,
+    "upside_pct": -34.6
+  },
+  {
+    "ticker": "DD",
+    "price": 137.22,
+    "target_low": 52,
+    "target_consensus": 56.38,
+    "target_high": 60,
+    "target_median": 57.5,
+    "upside_pct": -58.9
+  }
+]

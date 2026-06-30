@@ -285,8 +285,8 @@ def cmd_execute(client, model_name="falcon_v031", dry_run=False):
 
 
 # ── 命令: rebalance ──
-def cmd_rebalance(client, hold_days=10, stop_loss_pct=-15.0, dry_run=False):
-    """轮换持仓：卖出到期或止损的股票。"""
+def cmd_rebalance(client, hold_days=10, stop_loss_pct=-15.0, dry_run=False, keep_tickers=None):
+    """轮换持仓：卖出到期或止损的股票。keep_tickers中的股票不卖。"""
     from alpaca.trading.requests import MarketOrderRequest
     from alpaca.trading.enums import OrderSide, TimeInForce
 
@@ -306,10 +306,18 @@ def cmd_rebalance(client, hold_days=10, stop_loss_pct=-15.0, dry_run=False):
     print(f"{action}轮换持仓 (持有>{hold_days}天或亏损>{stop_loss_pct}%)")
     print(f"{'='*60}")
 
+    if keep_tickers:
+        print(f"  📌 保留(仍在🟢🟢): {', '.join(keep_tickers)}")
+
     for pos in positions:
         sym = pos.symbol
         pnl_pct = float(pos.unrealized_plpc) * 100
         qty = int(pos.qty)
+
+        # 保留仍在🟢🟢列表中的持仓
+        if keep_tickers and sym in keep_tickers:
+            print(f"  ⏳ {sym}: P&L {pnl_pct:+.1f}%, 仍在🟢🟢 — 继续持有")
+            continue
 
         # 计算持有天数
         entry_date_str = opened.get(sym, {}).get("date")
@@ -370,13 +378,18 @@ def cmd_rebalance(client, hold_days=10, stop_loss_pct=-15.0, dry_run=False):
 
 # ── 命令: full ──
 def cmd_full(client, model_name="falcon_v031", hold_days=30, stop_loss_pct=-15.0, dry_run=False):
-    """完整流程：先轮换卖出，再买入新信号。"""
+    """完整流程：先轮换卖出，再买入新信号。保留仍在🟢🟢的持仓。"""
     print("🔄 完整交易流程")
     print(f"   模型: {model_name} | 持有: {hold_days}天 | 止损: {stop_loss_pct}%")
     print(f"   {'DRY RUN模式' if dry_run else '⚡ 实盘模式'}")
 
-    # Step 1: 轮换
-    sells = cmd_rebalance(client, hold_days, stop_loss_pct, dry_run)
+    # 获取当前🟢🟢信号列表
+    filename, picks = load_latest_signals(model_name)
+    green2_tickers = [p.get("sym", p.get("ticker", p.get("symbol", ""))) for p in picks if "🟢🟢" in p.get("signal", "")]
+    print(f"   🟢🟢信号: {', '.join(green2_tickers[:10])}")
+
+    # Step 1: 轮换(保留仍在🟢🟢的持仓)
+    sells = cmd_rebalance(client, hold_days, stop_loss_pct, dry_run, keep_tickers=green2_tickers)
 
     # Step 2: 执行新信号
     buys = cmd_execute(client, model_name, dry_run)

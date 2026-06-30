@@ -287,6 +287,36 @@
           "timeframe": "1d"
         }
       ]
+    },
+    {
+      "market": "us",
+      "date": "20260630",
+      "time": "21:00",
+      "type": "pre_market",
+      "macro_context": "VIX 17.60, 10Y 4.39%, WTI $71, Gold $4029. SPY 6/29收$741(+1.65%), QQQ $724(+2.49%). 大盘反弹, VIX回落. 蓝盾Top5自6/24平均+14.8%, 绿箭Top5平均-5.1%. 评分数据来自6/24(4个交易日前).",
+      "predictions": [
+        {
+          "target": "GLP",
+          "direction": "bullish",
+          "confidence": 0.65,
+          "reasoning": "BlueShield V10最高分16.21, P/E=13.1合理, 油气中游稳定现金流, 52W高$53.25还有13%空间, 已涨6.7%趋势确立. 但追高风险需注意.",
+          "timeframe": "1w"
+        },
+        {
+          "target": "CVLT",
+          "direction": "bullish",
+          "confidence": 0.55,
+          "reasoning": "BlueShield V10第二高分12.25, 数据管理赛道受AI驱动, 距52W高$200还有39%空间, Beta=0.82防御性好. 但P/E=90.7估值极高.",
+          "timeframe": "1w"
+        },
+        {
+          "target": "VAC",
+          "direction": "neutral",
+          "confidence": 0.5,
+          "reasoning": "BlueShield V10 Top3, 距52W高仅0.1%即将突破, Forward P/E=12.1合理. 但评分2.96远低于前两名, Beta=1.26高波动, 观望为主.",
+          "timeframe": "1w"
+        }
+      ]
     }
   ]
 }

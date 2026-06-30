@@ -40,7 +40,7 @@ from broker_adapter import get_broker
 from falcon_gatekeeper import run_gatekeeper, GATEKEEPER_OUTPUT
 
 # ── 配置 ──
-HOLD_DAYS = 60
+HOLD_DAYS = 30
 STOP_LOSS = -0.15
 TOP_N = 10
 BUY_SCORE_THRESHOLD = 0.55  # V0.3.2校准 (9因子组, 分数压缩到0.50-0.60)

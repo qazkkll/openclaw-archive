@@ -1296,6 +1296,97 @@
       ],
       "macro_context": "bear regime",
       "rules_source": "agent_applied"
+    },
+    {
+      "id": "R960cb8d8",
+      "timestamp": "2026-06-30T08:00:59.235838",
+      "status": "scored",
+      "outcome": "上证+0.50% 深证+2.48% 创业板+2.99%，大盘全面上涨，bearish预测完全错误",
+      "outcome_date": "2026-06-30",
+      "actual_return": null,
+      "score": -1.0,
+      "source": "morning",
+      "market": "cn",
+      "date": "20260630",
+      "target": "A股大盘",
+      "action": "avoid",
+      "direction": "bearish",
+      "confidence": 0.75,
+      "reasoning": "红杉信号regime=bear, breadth=0.181(远低于0.3阈值), ret20=-12.8%, regime_advice=不建议新买入. 信号日期6/26已过期4天. R011: bear regime暂停bullish推荐.",
+      "rules_applied": [
+        "R011"
+      ],
+      "macro_context": "bear regime, breadth 0.181, ret20 -12.8%",
+      "rules_source": "agent_applied"
+    },
+    {
+      "id": "R51a31e0b",
+      "timestamp": "2026-06-30T21:05:52.654754",
+      "status": "pending",
+      "outcome": null,
+      "outcome_date": null,
+      "actual_return": null,
+      "score": null,
+      "source": "daily_report",
+      "market": "us",
+      "date": "20260630",
+      "target": "GLP",
+      "action": "buy",
+      "direction": "bullish",
+      "confidence": 0.65,
+      "reasoning": "BS Top1 score=16.21, P/E=13.1, oil midstream, 52W high $53.25, +6.7% trend",
+      "macro_context": "VIX 17.6, SPY +1.65%",
+      "rules_applied": [
+        "R004",
+        "R006"
+      ],
+      "rules_source": "auto_inferred"
+    },
+    {
+      "id": "R0d633568",
+      "timestamp": "2026-06-30T21:05:52.674500",
+      "status": "pending",
+      "outcome": null,
+      "outcome_date": null,
+      "actual_return": null,
+      "score": null,
+      "source": "daily_report",
+      "market": "us",
+      "date": "20260630",
+      "target": "CVLT",
+      "action": "buy",
+      "direction": "bullish",
+      "confidence": 0.55,
+      "reasoning": "BS Top2 score=12.25, data mgmt AI driven, 52W high $200, Beta=0.82 defensive",
+      "macro_context": "VIX 17.6, SPY +1.65%",
+      "rules_applied": [
+        "R004",
+        "R006"
+      ],
+      "rules_source": "auto_inferred"
+    },
+    {
+      "id": "R5e204459",
+      "timestamp": "2026-06-30T21:05:52.693974",
+      "status": "pending",
+      "outcome": null,
+      "outcome_date": null,
+      "actual_return": null,
+      "score": null,
+      "source": "daily_report",
+      "market": "us",
+      "date": "20260630",
+      "target": "HDRN",
+      "action": "buy",
+      "direction": "bullish",
+      "confidence": 0.5,
+      "reasoning": "GA Top1 score=8637, $2.04 small cap biotech, high risk high reward",
+      "macro_context": "VIX 17.6, penny stock",
+      "rules_applied": [
+        "R004",
+        "R006"
+      ],
+      "rules_source": "auto_inferred"
     }
   ],
   "lessons": [],

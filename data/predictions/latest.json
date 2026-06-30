@@ -1,36 +1,29 @@
 {
   "market": "us",
-  "date": "20260629",
+  "date": "20260630",
   "time": "21:00",
   "type": "pre_market",
-  "macro_context": "VIX 18.34, 10Y 4.38%, WTI $69.94, S&P futures +0.77%. 上周SPY -2.1%, QQQ -4.3%. 半导体持续承压(NVDA -7.7%). BlueShield Top5上周平均+7.4%, GreenArrow Top5平均-2.6%. 评分数据来自6/24(3个交易日前).",
+  "macro_context": "VIX 17.60, 10Y 4.39%, WTI $71, Gold $4029. SPY 6/29收$741(+1.65%), QQQ $724(+2.49%). 大盘反弹VIX回落. 蓝盾Top5自6/24平均+14.8%. 评分数据来自6/24(4个交易日前).",
   "predictions": [
-    {
-      "target": "SPY",
-      "direction": "neutral",
-      "confidence": 0.55,
-      "reasoning": "S&P futures +0.77%开盘偏多, 但上周连跌3天(VIX>18), PCE超预期+CPI=4.2%Fed鹰派, 价值轮动道指强纳指弱. 短期反弹动能vs中期下行压力. 观望为主.",
-      "timeframe": "1d"
-    },
     {
       "target": "GLP",
       "direction": "bullish",
-      "confidence": 0.6,
-      "reasoning": "BlueShield V10 Top1, 油气中游$44->46.5一周+7.9%, P/E=12.9合理, 油价$69.94稳定, 52W高$53.42还有空间. 能源板块在价值轮动中受益.",
+      "confidence": 0.65,
+      "reasoning": "BS Top1 score=16.21, P/E=13.1, oil midstream, 52W high $53.25, +6.7% trend. 估值合理+模型最强信号.",
       "timeframe": "1w"
     },
     {
       "target": "CVLT",
       "direction": "bullish",
       "confidence": 0.55,
-      "reasoning": "BlueShield V10 Top2, 数据管理软件$126->140一周+11.1%, 52W高$200还有大空间. 但P/E=88.6估值偏高, 科技板块整体承压需注意.",
+      "reasoning": "BS Top2 score=12.25, data mgmt AI driven, 52W high $200, Beta=0.82 defensive. 但P/E=90.7估值极高.",
       "timeframe": "1w"
     },
     {
-      "target": "NVDA",
-      "direction": "bearish",
-      "confidence": 0.6,
-      "reasoning": "连续下跌$208->192一周-7.7%, SMH暴跌传导, AI债务融资担忧, VIX>18环境成长股承压. 短期无止跌信号.",
+      "target": "VAC",
+      "direction": "neutral",
+      "confidence": 0.5,
+      "reasoning": "BS Top3 score=2.96, 距52W高仅0.1%, Forward P/E=12.1合理. 但评分远低于前两名, 观望.",
       "timeframe": "1w"
     }
   ]

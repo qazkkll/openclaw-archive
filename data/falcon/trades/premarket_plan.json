@@ -1,0 +1,90 @@
+{
+  "date": "2026-06-30",
+  "model": "falcon_v032",
+  "timestamp": "2026-06-30T09:00:23.049551-04:00",
+  "account": {
+    "equity": 98298.35,
+    "cash": 51529.74,
+    "buying_power": 337071.08
+  },
+  "gatekeeper": {
+    "verdict": "REDUCE",
+    "passed": 4,
+    "total": 5,
+    "action": "\u26a0\ufe0f 4/5\u901a\u8fc7, \u5efa\u8bae\u51cf\u534a\u4ed3\u4f4d",
+    "checks": [
+      {
+        "name": "\u5b8f\u89c2\u72b6\u6001",
+        "pass": "True",
+        "detail": "SPX(7440)>MA200(6930) | VIX(17.6)\u6b63\u5e38"
+      },
+      {
+        "name": "\u884c\u4e1a\u98ce\u5411",
+        "pass": false,
+        "detail": "XLK(-5.2%)"
+      },
+      {
+        "name": "\u4e8b\u4ef6\u98ce\u9669",
+        "pass": true,
+        "detail": "\u672a\u67657\u5929\u65e0\u63a8\u8350\u80a1\u8d22\u62a5"
+      },
+      {
+        "name": "\u6301\u4ed3\u96c6\u4e2d",
+        "pass": true,
+        "detail": "\u5f53\u524d\u7a7a\u4ed3"
+      },
+      {
+        "name": "\u76ee\u6807\u4ef7\u7a7a\u95f4",
+        "pass": true,
+        "detail": "\u2705 APP(+38%), PLTR(+68%), NVDA(+65%)"
+      }
+    ],
+    "picks": [
+      "APP",
+      "PLTR",
+      "NVDA"
+    ],
+    "timestamp": "2026-06-30T21:01:18.997266"
+  },
+  "buys": [],
+  "existing_positions": {
+    "INTU": {
+      "qty": 34,
+      "avg_entry_price": 268.01,
+      "current_price": 264.1167,
+      "unrealized_plpc": -0.01453
+    },
+    "NFLX": {
+      "qty": 126,
+      "avg_entry_price": 74.16,
+      "current_price": 73.75,
+      "unrealized_plpc": -0.00553
+    },
+    "NVDA": {
+      "qty": 48,
+      "avg_entry_price": 194.06,
+      "current_price": 195.8001,
+      "unrealized_plpc": 0.00897
+    },
+    "PLTR": {
+      "qty": 82,
+      "avg_entry_price": 116.51,
+      "current_price": 115.1,
+      "unrealized_plpc": -0.0121
+    },
+    "TPL": {
+      "qty": 23,
+      "avg_entry_price": 416.45,
+      "current_price": 419.98,
+      "unrealized_plpc": 0.00848
+    }
+  },
+  "config": {
+    "hold_days": 30,
+    "stop_loss": -0.15,
+    "top_n": 5,
+    "vix_threshold": 25,
+    "atr_multiplier": 1.5
+  },
+  "score_file": "/home/hermes/.hermes/openclaw-archive/data/falcon/falcon_v032_scored_20260626.json"
+}

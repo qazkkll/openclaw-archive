@@ -46,7 +46,7 @@
         "bear": 0
       },
       "market_filter": "breadth > 0.40 AND mkt_ret20 > -0.05",
-      "description": "XGBoost回归, 25维特征, SL-3%止损, 市场择时+资金流跟随",
+      "description": "XGBoost回归, 25维特征, SL-2%止损(close-based), 市场择时+资金流跟随",
       "key_insight": "止损-3%将4个熊市亏损折翻正, 16/16折全部正Sharpe",
       "changes_from_v2.0": "SL从-3%优化到-2%(Sharpe+0.5), 市场过滤从50%/0%优化到40%/-5%, 科创板688纳入, 信号分层用绝对分数",
       "backtest": {

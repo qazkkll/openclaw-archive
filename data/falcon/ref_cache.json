@@ -1,53 +1,45 @@
 {
-  "timestamp": "2026-06-29T18:55:38.381519+00:00",
+  "timestamp": "2026-06-30T18:58:30.977999+00:00",
   "data": {
     "PLTR": {
-      "prev_close": 112.82,
-      "last_close": 116.165,
-      "last_volume": 965030.0,
-      "avg_volume_20d": 1057788.55,
-      "last_high": 119.03,
-      "last_low": 114.735
+      "prev_close": 115.66,
+      "last_close": 117.13,
+      "last_volume": 856067.0,
+      "avg_volume_20d": 1052674.05,
+      "last_high": 118.69,
+      "last_low": 114.66
     },
     "APP": {
-      "prev_close": 476.75,
-      "last_close": 495.9,
-      "last_volume": 88105.0,
-      "avg_volume_20d": 169158.75,
-      "last_high": 506.11,
-      "last_low": 487.54
+      "prev_close": 498.88,
+      "last_close": 515.29,
+      "last_volume": 93759.0,
+      "avg_volume_20d": 168434.85,
+      "last_high": 519.29,
+      "last_low": 493.49
     },
     "NVDA": {
-      "prev_close": 191.97,
-      "last_close": 194.21,
-      "last_volume": 2965335.0,
-      "avg_volume_20d": 4821070.35,
-      "last_high": 196.16,
-      "last_low": 189.82
+      "prev_close": 194.92,
+      "last_close": 198.89,
+      "last_volume": 4010677.0,
+      "avg_volume_20d": 4720426.85,
+      "last_high": 199.47,
+      "last_low": 195.11
     },
-    "TPL": {
-      "prev_close": 395.88,
-      "last_close": 415.89,
-      "last_volume": 14824.0,
-      "avg_volume_20d": 17654.45,
-      "last_high": 420.82,
-      "last_low": 397.74
+    "AVGO": {
+      "prev_close": 372.3,
+      "last_close": 378.46,
+      "last_volume": 652348.0,
+      "avg_volume_20d": 1058033.55,
+      "last_high": 378.85,
+      "last_low": 370.74
     },
-    "NFLX": {
-      "prev_close": 73.63,
-      "last_close": 73.95,
-      "last_volume": 3053921.0,
-      "avg_volume_20d": 3356575.0,
-      "last_high": 76.06,
-      "last_low": 73.89
-    },
-    "INTU": {
-      "prev_close": 267.01,
-      "last_close": 267.42,
-      "last_volume": 219743.0,
-      "avg_volume_20d": 376284.7,
-      "last_high": 277.54,
-      "last_low": 265.93
+    "TXN": {
+      "prev_close": 285.54,
+      "last_close": 298.87,
+      "last_volume": 225960.0,
+      "avg_volume_20d": 421697.85,
+      "last_high": 298.96,
+      "last_low": 286.71
     }
   }
 }

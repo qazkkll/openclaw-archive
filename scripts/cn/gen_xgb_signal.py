@@ -58,13 +58,20 @@ SIG_G = 0.06    # 强信号 (top ~6-10)
 SIG_Y = 0.04    # 观察 (top ~11-15)
 
 def score_to_100(raw):
-    """Convert raw model score to 0-100 scale for display."""
-    return max(0, min(100, int((raw - 0.02) / 0.10 * 100)))
+    """Convert raw model score to 0-100 scale for display.
+    Actual model scores range ~0.50-0.70 for top picks.
+    Calibrated to actual distribution: 0.50→0, 0.70→100.
+    """
+    return max(0, min(100, round((raw - 0.50) / 0.20 * 100)))
 
 # ============================================================
 # 1. Load Data
 # ============================================================
-print(f"[Redwood v1.0] A股信号生成 {time.strftime('%Y-%m-%d %H:%M')}")
+try:
+    print(f"[Redwood v1.0] A股信号生成 {time.strftime('%Y-%m-%d %H:%M')}")
+except Exception as e:
+    print(f"[Redwood v1.0] 初始化失败: {e}")
+    sys.exit(1)
 print("=" * 60)
 
 t0 = time.time()
@@ -79,14 +86,28 @@ if os.path.exists(NAMES_PATH):
     print(f"  Stock names loaded: {len(name_map)}")
 
 # Load OHLCV
-df = pd.read_parquet('data/a_hist_10y.parquet')
-df = df.rename(columns={'Code': 'sym', 'Date': 'date', 'O': 'open', 'H': 'high', 'L': 'low', 'C': 'close', 'V': 'volume'})
-df['date'] = df['date'].astype(int)
+try:
+    df = pd.read_parquet('data/cn/a_hist_10y.parquet')
+    df = df.rename(columns={'Code': 'sym', 'Date': 'date', 'O': 'open', 'H': 'high', 'L': 'low', 'C': 'close', 'V': 'volume'})
+    df['date'] = df['date'].astype(int)
+except FileNotFoundError:
+    print("  ERROR: data/cn/a_hist_10y.parquet 不存在！")
+    sys.exit(1)
+except Exception as e:
+    print(f"  ERROR: 加载K线数据失败: {e}")
+    sys.exit(1)
 
 # Load moneyflow
-mf = pd.read_parquet('data/cn/moneyflow_core.parquet')
-mf['sym'] = mf['ts_code'].str[:6]
-mf['date'] = mf['trade_date'].astype(int)
+try:
+    mf = pd.read_parquet('data/cn/moneyflow_core.parquet')
+    mf['sym'] = mf['ts_code'].str[:6]
+    mf['date'] = mf['trade_date'].astype(int)
+except FileNotFoundError:
+    print("  ERROR: data/cn/moneyflow_core.parquet 不存在！")
+    sys.exit(1)
+except Exception as e:
+    print(f"  ERROR: 加载资金流数据失败: {e}")
+    sys.exit(1)
 for col in ['sm', 'md', 'lg', 'elg']:
     mf[f'{col}_net'] = mf[f'buy_{col}_amount'] - mf[f'sell_{col}_amount']
 mf['total_net'] = mf['net_mf_amount']
@@ -151,13 +172,23 @@ print(f"  Features computed ({time.time()-t0:.0f}s)")
 # ============================================================
 import xgboost as xgb
 
-if os.path.exists(MODEL_PATH):
-    print(f"  Loading model from {MODEL_PATH}")
-    model = xgb.Booster()
-    model.load_model(MODEL_PATH)
-else:
-    print("  ERROR: No model file found!")
+try:
+    if os.path.exists(MODEL_PATH):
+        print(f"  Loading model from {MODEL_PATH}")
+        model = xgb.Booster()
+        model.load_model(MODEL_PATH)
+    else:
+        print(f"  ERROR: Model file not found: {MODEL_PATH}")
+        sys.exit(1)
+except Exception as e:
+    print(f"  ERROR: 加载模型失败: {e}")
     sys.exit(1)
+
+# Validate model features match expected
+model_feature_count = model.num_features()
+if model_feature_count != len(FEATURE_COLS):
+    print(f"  WARNING: 模型特征数({model_feature_count}) != 代码特征数({len(FEATURE_COLS)})")
+    # Continue but warn - don't crash
 
 # ============================================================
 # 4. Generate Signal
@@ -284,8 +315,12 @@ for idx, (_, r) in enumerate(top.iterrows()):
     })
 
 os.makedirs('signals/cn', exist_ok=True)
-with open(SIGNAL_PATH, 'w') as f:
-    json.dump(signal_output, f, indent=2, ensure_ascii=False)
+try:
+    with open(SIGNAL_PATH, 'w') as f:
+        json.dump(signal_output, f, indent=2, ensure_ascii=False)
+except Exception as e:
+    print(f"  ERROR: 保存信号文件失败: {e}")
+    sys.exit(1)
 
 print(f"\nSignal saved to {SIGNAL_PATH}")
 print(f"Total time: {time.time()-t0:.0f}s")
