@@ -1387,6 +1387,29 @@
         "R006"
       ],
       "rules_source": "auto_inferred"
+    },
+    {
+      "id": "R42e24ae5",
+      "timestamp": "2026-07-01T08:02:26.830122",
+      "status": "scored",
+      "outcome": "上证+0.44% 深证-0.53% 创业板-1.89%，混合信号。大盘指数涨但成长板块跌，bearish方向对成长股但错主板",
+      "outcome_date": "2026-07-01",
+      "actual_return": null,
+      "score": -0.5,
+      "source": "morning",
+      "market": "cn",
+      "date": "20260701",
+      "target": "A股大盘",
+      "action": "avoid",
+      "direction": "bearish",
+      "confidence": 0.75,
+      "reasoning": "bear regime(breadth=0.20, ret20=-14.2%), 15只GG信号中14只RSI>70(均值80.2), 20日涨幅均值+92%, 典型熊市反弹追涨陷阱. R011+R015触发, 不建议新买入",
+      "rules_applied": [
+        "R011",
+        "R015"
+      ],
+      "macro_context": "bear regime",
+      "rules_source": "agent_applied"
     }
   ],
   "lessons": [],

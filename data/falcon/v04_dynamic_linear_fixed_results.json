@@ -1,0 +1,1115 @@
+{
+  "task": "T5.1 Fix Dynamic Linear Model \u2014 Rank Inversion",
+  "params": {
+    "train_years": 5,
+    "test_months": 6,
+    "hold_days": 30,
+    "top_n": 10,
+    "cost": 0.001,
+    "stop_loss": -0.15
+  },
+  "baseline_results": {
+    "model": "Original Dynamic Linear",
+    "wf_sharpe": 1.668,
+    "wf_max_dd": -0.2219,
+    "wf_cagr": 0.5934,
+    "rank_inversion": "FAIL (4/5 windows)"
+  },
+  "proposals": {
+    "A_longer_ic_12mo": {
+      "proposal": "A_longer_ic_12mo",
+      "wf_sharpe": 1.367,
+      "wf_sharpe_std": 1.211,
+      "wf_max_dd": -0.2754,
+      "wf_cagr": 0.5053,
+      "wf_win_rate": 0.594,
+      "wf_n_windows": 4,
+      "wf_all_sharpes": [
+        1.324,
+        -0.346,
+        1.411,
+        3.078
+      ],
+      "wf_all_cagrs": [
+        0.2952,
+        -0.0835,
+        0.4902,
+        1.3195
+      ],
+      "wf_all_max_dds": [
+        -0.1664,
+        -0.178,
+        -0.2754,
+        -0.1537
+      ],
+      "mean_rank_inversion_rate": 0.688,
+      "max_rank_inversion_rate": 1.0,
+      "total_inverted_factors": 11.0,
+      "mean_quintile_spread": -0.0111,
+      "stability_beat_baseline": 2,
+      "stability_rate": 0.5,
+      "ri_pass": "False",
+      "composite_score": 0.107,
+      "positive_sharpe_pct": 0.75,
+      "recent_sharpes": [
+        -0.346,
+        1.411,
+        3.078
+      ],
+      "windows": [
+        {
+          "index": 0,
+          "period": "2021-07-05 \u2192 2022-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2022: 0.4117647058823529}"
+        },
+        {
+          "index": 1,
+          "period": "2022-01-05 \u2192 2022-07-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'trend_accel': 0.5318850494357336, 'macd_roc': 0.7739222582071877}"
+        },
+        {
+          "index": 2,
+          "period": "2022-07-05 \u2192 2023-01-05",
+          "sharpe": 1.324,
+          "max_dd": -0.1664,
+          "cagr": 0.2952,
+          "win_rate": 0.6,
+          "n_trades": 40,
+          "n_factors": 60,
+          "rank_inversion_count": 3,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.75,
+          "quintile_returns": {
+            "0": 0.0061,
+            "1": 0.0207,
+            "2": 0.0248,
+            "3": 0.0321,
+            "4": 0.0258
+          },
+          "quintile_spread": -0.0196,
+          "weights_top5": {
+            "mom_divergence": -0.0561,
+            "momentum_6m": -0.054,
+            "dividendYieldPercentage": 0.0423,
+            "ret60": -0.037,
+            "ma_cross_20_60": -0.0358
+          },
+          "baseline_sharpe": 1.5,
+          "beat_baseline": false
+        },
+        {
+          "index": 3,
+          "period": "2023-01-05 \u2192 2023-07-05",
+          "sharpe": -0.346,
+          "max_dd": -0.178,
+          "cagr": -0.0835,
+          "win_rate": 0.525,
+          "n_trades": 40,
+          "n_factors": 64,
+          "rank_inversion_count": 2,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.5,
+          "quintile_returns": {
+            "0": 0.0242,
+            "1": 0.019,
+            "2": 0.0143,
+            "3": 0.0209,
+            "4": 0.0273
+          },
+          "quintile_spread": -0.0031,
+          "weights_top5": {
+            "price_position": -0.0453,
+            "ret90": -0.043,
+            "ret60": -0.0389,
+            "priceToSalesRatio": -0.0374,
+            "ma_cross_20_60": -0.0344
+          },
+          "baseline_sharpe": 0.216,
+          "beat_baseline": false
+        },
+        {
+          "index": 4,
+          "period": "2023-07-05 \u2192 2024-01-05",
+          "sharpe": 1.411,
+          "max_dd": -0.2754,
+          "cagr": 0.4902,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_factors": 68,
+          "rank_inversion_count": 4,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 1.0,
+          "quintile_returns": {
+            "0": 0.0124,
+            "1": 0.014,
+            "2": 0.0204,
+            "3": 0.0219,
+            "4": 0.0313
+          },
+          "quintile_spread": -0.0189,
+          "weights_top5": {
+            "vol20": 0.0441,
+            "avg_body": 0.0428,
+            "dividendPayoutRatio": -0.0353,
+            "dd_60": -0.0351,
+            "vol5": 0.0323
+          },
+          "baseline_sharpe": 1.392,
+          "beat_baseline": true
+        },
+        {
+          "index": 5,
+          "period": "2024-01-05 \u2192 2024-07-05",
+          "sharpe": 3.078,
+          "max_dd": -0.1537,
+          "cagr": 1.3195,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_factors": 69,
+          "rank_inversion_count": 2,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.5,
+          "quintile_returns": {
+            "0": 0.0269,
+            "1": 0.0274,
+            "2": 0.0227,
+            "3": 0.022,
+            "4": 0.0295
+          },
+          "quintile_spread": -0.0027,
+          "weights_top5": {
+            "dividendYieldPercentage": -0.0529,
+            "dividendPayoutRatio": -0.0494,
+            "avg_body": 0.042,
+            "vol20": 0.0399,
+            "quickRatio": 0.0362
+          },
+          "baseline_sharpe": 1.763,
+          "beat_baseline": true
+        },
+        {
+          "index": 6,
+          "period": "2024-07-05 \u2192 2025-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.12121212121212122}"
+        },
+        {
+          "index": 7,
+          "period": "2025-01-05 \u2192 2025-07-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.7122222222222222}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'price_position': 0.532258064516129, 'ret30': 0.7741935483870968, 'ret60': 0.532258064516129, 'ret90': 0.2903225806451613, 'momentum_6m': 0.0, 'dd_60': 0.532258064516129, 'grossProfitMargin': 0.0, 'debtToEquityRatio': 0.0, 'financialLeverageRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'eps_dispersion': 0.0}"
+        },
+        {
+          "index": 8,
+          "period": "2025-07-05 \u2192 2026-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.7556756756756757, 2026: 0.7567567567567568}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'priceToBookRatio': 0.0, 'priceToSalesRatio': 0.0, 'grossProfitMargin': 0.0, 'debtToEquityRatio': 0.0, 'quickRatio': 0.0, 'financialLeverageRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'num_analysts_eps': 0.0, 'num_analysts_rev': 0.0}"
+        }
+      ],
+      "description": "Longer IC window: 6mo \u2192 12mo"
+    },
+    "B_ema_smoothed": {
+      "proposal": "B_ema_smoothed",
+      "wf_sharpe": 1.47,
+      "wf_sharpe_std": 0.976,
+      "wf_max_dd": -0.2609,
+      "wf_cagr": 0.6849,
+      "wf_win_rate": 0.6,
+      "wf_n_windows": 4,
+      "wf_all_sharpes": [
+        -0.092,
+        2.558,
+        1.516,
+        1.898
+      ],
+      "wf_all_cagrs": [
+        -0.0565,
+        1.7214,
+        0.5382,
+        0.5366
+      ],
+      "wf_all_max_dds": [
+        -0.2015,
+        -0.2531,
+        -0.2609,
+        -0.1509
+      ],
+      "mean_rank_inversion_rate": 0.625,
+      "max_rank_inversion_rate": 1.0,
+      "total_inverted_factors": 10.0,
+      "mean_quintile_spread": -0.0157,
+      "stability_beat_baseline": 3,
+      "stability_rate": 0.75,
+      "ri_pass": "False",
+      "composite_score": 0.207,
+      "positive_sharpe_pct": 0.75,
+      "recent_sharpes": [
+        2.558,
+        1.516,
+        1.898
+      ],
+      "windows": [
+        {
+          "index": 0,
+          "period": "2021-07-05 \u2192 2022-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2022: 0.56}"
+        },
+        {
+          "index": 1,
+          "period": "2022-01-05 \u2192 2022-07-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'trend_accel': 0.5318850494357336}"
+        },
+        {
+          "index": 2,
+          "period": "2022-07-05 \u2192 2023-01-05",
+          "sharpe": -0.092,
+          "max_dd": -0.2015,
+          "cagr": -0.0565,
+          "win_rate": 0.625,
+          "n_trades": 40,
+          "n_factors": 60,
+          "rank_inversion_count": 2,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.5,
+          "quintile_returns": {
+            "0": 0.0166,
+            "1": 0.0113,
+            "2": 0.0191,
+            "3": 0.0328,
+            "4": 0.0297
+          },
+          "quintile_spread": -0.0131,
+          "weights_top5": {
+            "mom_divergence": -0.058,
+            "momentum_6m": -0.0569,
+            "ret60": -0.045,
+            "ret90": -0.0421,
+            "price_position": -0.0416
+          },
+          "baseline_sharpe": -0.257,
+          "beat_baseline": true
+        },
+        {
+          "index": 3,
+          "period": "2023-01-05 \u2192 2023-07-05",
+          "sharpe": 2.558,
+          "max_dd": -0.2531,
+          "cagr": 1.7214,
+          "win_rate": 0.5,
+          "n_trades": 40,
+          "n_factors": 64,
+          "rank_inversion_count": 3,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.75,
+          "quintile_returns": {
+            "0": 0.0163,
+            "1": 0.013,
+            "2": 0.0146,
+            "3": 0.0214,
+            "4": 0.0404
+          },
+          "quintile_spread": -0.024,
+          "weights_top5": {
+            "dd_60": -0.0415,
+            "ret90": -0.0385,
+            "price_position": -0.0356,
+            "vol20": 0.035,
+            "avg_body": 0.0324
+          },
+          "baseline_sharpe": 2.651,
+          "beat_baseline": false
+        },
+        {
+          "index": 4,
+          "period": "2023-07-05 \u2192 2024-01-05",
+          "sharpe": 1.516,
+          "max_dd": -0.2609,
+          "cagr": 0.5382,
+          "win_rate": 0.6,
+          "n_trades": 40,
+          "n_factors": 68,
+          "rank_inversion_count": 4,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 1.0,
+          "quintile_returns": {
+            "0": 0.0063,
+            "1": 0.0166,
+            "2": 0.018,
+            "3": 0.0242,
+            "4": 0.0349
+          },
+          "quintile_spread": -0.0286,
+          "weights_top5": {
+            "avg_body": 0.0682,
+            "vol20": 0.0664,
+            "vol5": 0.0511,
+            "dividendPayoutRatio": -0.0477,
+            "range_ratio": 0.045
+          },
+          "baseline_sharpe": 0.976,
+          "beat_baseline": true
+        },
+        {
+          "index": 5,
+          "period": "2024-01-05 \u2192 2024-07-05",
+          "sharpe": 1.898,
+          "max_dd": -0.1509,
+          "cagr": 0.5366,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_factors": 69,
+          "rank_inversion_count": 1,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.25,
+          "quintile_returns": {
+            "0": 0.0275,
+            "1": 0.0252,
+            "2": 0.0247,
+            "3": 0.0267,
+            "4": 0.0245
+          },
+          "quintile_spread": 0.003,
+          "weights_top5": {
+            "dividendPayoutRatio": -0.0467,
+            "freeCashFlowOperatingCashFlowRatio": 0.0442,
+            "dividendYieldPercentage": -0.0414,
+            "avg_body": 0.0361,
+            "inventoryTurnover": -0.0361
+          },
+          "baseline_sharpe": 1.688,
+          "beat_baseline": true
+        },
+        {
+          "index": 6,
+          "period": "2024-07-05 \u2192 2025-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.08}"
+        },
+        {
+          "index": 7,
+          "period": "2025-01-05 \u2192 2025-07-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.6102564102564103}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'price_position': 0.532258064516129, 'ret30': 0.7741935483870968, 'ret60': 0.532258064516129, 'ret90': 0.2903225806451613, 'momentum_6m': 0.0, 'dd_60': 0.532258064516129, 'priceToBookRatio': 0.0, 'priceToSalesRatio': 0.0, 'grossProfitMargin': 0.0, 'netProfitMargin': 0.0, 'debtToEquityRatio': 0.0, 'quickRatio': 0.0, 'financialLeverageRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'num_analysts_eps': 0.0, 'num_analysts_rev': 0.0}"
+        },
+        {
+          "index": 8,
+          "period": "2025-07-05 \u2192 2026-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.7417142857142857, 2026: 0.7428571428571429}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'priceToBookRatio': 0.0, 'priceToSalesRatio': 0.0, 'grossProfitMargin': 0.0, 'debtToEquityRatio': 0.0, 'quickRatio': 0.0, 'financialLeverageRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'num_analysts_eps': 0.0, 'num_analysts_rev': 0.0}"
+        }
+      ],
+      "description": "EMA-smoothed IC weights (span=6)"
+    },
+    "C_weight_decay": {
+      "proposal": "C_weight_decay",
+      "wf_sharpe": 1.874,
+      "wf_sharpe_std": 0.558,
+      "wf_max_dd": -0.2607,
+      "wf_cagr": 0.7062,
+      "wf_win_rate": 0.625,
+      "wf_n_windows": 4,
+      "wf_all_sharpes": [
+        1.103,
+        2.575,
+        1.629,
+        2.19
+      ],
+      "wf_all_cagrs": [
+        0.2604,
+        1.3008,
+        0.5862,
+        0.6772
+      ],
+      "wf_all_max_dds": [
+        -0.1722,
+        -0.2207,
+        -0.2607,
+        -0.1516
+      ],
+      "mean_rank_inversion_rate": 0.75,
+      "max_rank_inversion_rate": 1.0,
+      "total_inverted_factors": 12.0,
+      "mean_quintile_spread": -0.0153,
+      "stability_beat_baseline": 4,
+      "stability_rate": 1.0,
+      "ri_pass": "False",
+      "composite_score": 0.234,
+      "positive_sharpe_pct": 1.0,
+      "recent_sharpes": [
+        2.575,
+        1.629,
+        2.19
+      ],
+      "windows": [
+        {
+          "index": 0,
+          "period": "2021-07-05 \u2192 2022-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2022: 0.6086956521739131}"
+        },
+        {
+          "index": 1,
+          "period": "2022-01-05 \u2192 2022-07-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'trend_accel': 0.5318850494357336, 'macd_roc': 0.7739222582071877}"
+        },
+        {
+          "index": 2,
+          "period": "2022-07-05 \u2192 2023-01-05",
+          "sharpe": 1.103,
+          "max_dd": -0.1722,
+          "cagr": 0.2604,
+          "win_rate": 0.65,
+          "n_trades": 40,
+          "n_factors": 60,
+          "rank_inversion_count": 3,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.75,
+          "quintile_returns": {
+            "0": 0.0115,
+            "1": 0.0165,
+            "2": 0.0206,
+            "3": 0.0314,
+            "4": 0.0296
+          },
+          "quintile_spread": -0.0181,
+          "weights_top5": {
+            "mom_divergence": -0.0601,
+            "momentum_6m": -0.0589,
+            "ret90": -0.0456,
+            "ret60": -0.0447,
+            "price_position": -0.0425
+          },
+          "baseline_sharpe": 0.751,
+          "beat_baseline": true
+        },
+        {
+          "index": 3,
+          "period": "2023-01-05 \u2192 2023-07-05",
+          "sharpe": 2.575,
+          "max_dd": -0.2207,
+          "cagr": 1.3008,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_factors": 64,
+          "rank_inversion_count": 3,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.75,
+          "quintile_returns": {
+            "0": 0.0201,
+            "1": 0.0133,
+            "2": 0.0141,
+            "3": 0.022,
+            "4": 0.0363
+          },
+          "quintile_spread": -0.0162,
+          "weights_top5": {
+            "ret90": -0.0423,
+            "price_position": -0.0411,
+            "dd_60": -0.0381,
+            "ret60": -0.0335,
+            "macd": -0.0323
+          },
+          "baseline_sharpe": 2.302,
+          "beat_baseline": true
+        },
+        {
+          "index": 4,
+          "period": "2023-07-05 \u2192 2024-01-05",
+          "sharpe": 1.629,
+          "max_dd": -0.2607,
+          "cagr": 0.5862,
+          "win_rate": 0.6,
+          "n_trades": 40,
+          "n_factors": 68,
+          "rank_inversion_count": 4,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 1.0,
+          "quintile_returns": {
+            "0": 0.0101,
+            "1": 0.0117,
+            "2": 0.0205,
+            "3": 0.0238,
+            "4": 0.0339
+          },
+          "quintile_spread": -0.0239,
+          "weights_top5": {
+            "avg_body": 0.0578,
+            "vol20": 0.0569,
+            "dividendPayoutRatio": -0.0446,
+            "vol5": 0.0438,
+            "dividendYieldPercentage": -0.0428
+          },
+          "baseline_sharpe": 1.301,
+          "beat_baseline": true
+        },
+        {
+          "index": 5,
+          "period": "2024-01-05 \u2192 2024-07-05",
+          "sharpe": 2.19,
+          "max_dd": -0.1516,
+          "cagr": 0.6772,
+          "win_rate": 0.7,
+          "n_trades": 40,
+          "n_factors": 69,
+          "rank_inversion_count": 2,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.5,
+          "quintile_returns": {
+            "0": 0.0266,
+            "1": 0.027,
+            "2": 0.0229,
+            "3": 0.0225,
+            "4": 0.0295
+          },
+          "quintile_spread": -0.003,
+          "weights_top5": {
+            "dividendPayoutRatio": -0.0492,
+            "dividendYieldPercentage": -0.0458,
+            "avg_body": 0.0416,
+            "freeCashFlowOperatingCashFlowRatio": 0.041,
+            "vol20": 0.0392
+          },
+          "baseline_sharpe": 1.333,
+          "beat_baseline": true
+        },
+        {
+          "index": 6,
+          "period": "2024-07-05 \u2192 2025-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.10344827586206896}"
+        },
+        {
+          "index": 7,
+          "period": "2025-01-05 \u2192 2025-07-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.6702702702702703}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'price_position': 0.532258064516129, 'ret30': 0.7741935483870968, 'ret60': 0.532258064516129, 'ret90': 0.2903225806451613, 'momentum_6m': 0.0, 'dd_60': 0.532258064516129, 'priceToBookRatio': 0.0, 'grossProfitMargin': 0.0, 'debtToEquityRatio': 0.0, 'financialLeverageRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'num_analysts_eps': 0.0, 'num_analysts_rev': 0.0}"
+        },
+        {
+          "index": 8,
+          "period": "2025-07-05 \u2192 2026-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.7341176470588235, 2026: 0.7352941176470589}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'priceToBookRatio': 0.0, 'priceToSalesRatio': 0.0, 'grossProfitMargin': 0.0, 'debtToEquityRatio': 0.0, 'quickRatio': 0.0, 'financialLeverageRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'num_analysts_eps': 0.0, 'num_analysts_rev': 0.0}"
+        }
+      ],
+      "description": "Weight decay: older IC gets more weight"
+    },
+    "D_hybrid_70_30": {
+      "proposal": "D_hybrid_70_30",
+      "wf_sharpe": 1.768,
+      "wf_sharpe_std": 1.701,
+      "wf_max_dd": -0.2838,
+      "wf_cagr": 1.1662,
+      "wf_win_rate": 0.55,
+      "wf_n_windows": 4,
+      "wf_all_sharpes": [
+        -0.772,
+        3.458,
+        1.217,
+        3.167
+      ],
+      "wf_all_cagrs": [
+        -0.3143,
+        3.1392,
+        0.3123,
+        1.5274
+      ],
+      "wf_all_max_dds": [
+        -0.2838,
+        -0.1936,
+        -0.2191,
+        -0.1775
+      ],
+      "mean_rank_inversion_rate": 0.875,
+      "max_rank_inversion_rate": 1.0,
+      "total_inverted_factors": 14.0,
+      "mean_quintile_spread": -0.0302,
+      "stability_beat_baseline": 3,
+      "stability_rate": 0.75,
+      "ri_pass": "False",
+      "composite_score": 0.083,
+      "positive_sharpe_pct": 0.75,
+      "recent_sharpes": [
+        3.458,
+        1.217,
+        3.167
+      ],
+      "windows": [
+        {
+          "index": 0,
+          "period": "2021-07-05 \u2192 2022-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2022: 0.55}"
+        },
+        {
+          "index": 1,
+          "period": "2022-01-05 \u2192 2022-07-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'trend_accel': 0.5318850494357336, 'vol_change': 0.7254673923898933}"
+        },
+        {
+          "index": 2,
+          "period": "2022-07-05 \u2192 2023-01-05",
+          "sharpe": -0.772,
+          "max_dd": -0.2838,
+          "cagr": -0.3143,
+          "win_rate": 0.275,
+          "n_trades": 40,
+          "n_factors": 60,
+          "rank_inversion_count": 4,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 1.0,
+          "quintile_returns": {
+            "0": 0.0005,
+            "1": 0.0183,
+            "2": 0.0224,
+            "3": 0.0319,
+            "4": 0.0364
+          },
+          "quintile_spread": -0.0358,
+          "weights_top5": {
+            "dividendPayoutRatio": -0.0419,
+            "price_position": -0.0401,
+            "assetTurnover": 0.0347,
+            "ma5": -0.0337,
+            "ma_cross_20_60": -0.0315
+          },
+          "baseline_sharpe": 0.22,
+          "beat_baseline": false
+        },
+        {
+          "index": 3,
+          "period": "2023-01-05 \u2192 2023-07-05",
+          "sharpe": 3.458,
+          "max_dd": -0.1936,
+          "cagr": 3.1392,
+          "win_rate": 0.65,
+          "n_trades": 40,
+          "n_factors": 64,
+          "rank_inversion_count": 4,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 1.0,
+          "quintile_returns": {
+            "0": 0.006,
+            "1": 0.0067,
+            "2": 0.0159,
+            "3": 0.0238,
+            "4": 0.0534
+          },
+          "quintile_spread": -0.0474,
+          "weights_top5": {
+            "dividendPayoutRatio": -0.0443,
+            "vol20": 0.036,
+            "ma5": -0.0326,
+            "ma20": -0.0314,
+            "dd_60": -0.0309
+          },
+          "baseline_sharpe": 2.854,
+          "beat_baseline": true
+        },
+        {
+          "index": 4,
+          "period": "2023-07-05 \u2192 2024-01-05",
+          "sharpe": 1.217,
+          "max_dd": -0.2191,
+          "cagr": 0.3123,
+          "win_rate": 0.525,
+          "n_trades": 40,
+          "n_factors": 68,
+          "rank_inversion_count": 4,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 1.0,
+          "quintile_returns": {
+            "0": 0.0065,
+            "1": 0.0119,
+            "2": 0.0187,
+            "3": 0.0236,
+            "4": 0.0394
+          },
+          "quintile_spread": -0.0329,
+          "weights_top5": {
+            "dividendPayoutRatio": -0.0468,
+            "ebitdaMargin_qoq": -0.0425,
+            "dividendYieldPercentage": -0.0388,
+            "operatingProfitMargin_qoq": -0.0366,
+            "vol20": 0.0356
+          },
+          "baseline_sharpe": 0.633,
+          "beat_baseline": true
+        },
+        {
+          "index": 5,
+          "period": "2024-01-05 \u2192 2024-07-05",
+          "sharpe": 3.167,
+          "max_dd": -0.1775,
+          "cagr": 1.5274,
+          "win_rate": 0.75,
+          "n_trades": 40,
+          "n_factors": 69,
+          "rank_inversion_count": 2,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.5,
+          "quintile_returns": {
+            "0": 0.0238,
+            "1": 0.0238,
+            "2": 0.0237,
+            "3": 0.0289,
+            "4": 0.0284
+          },
+          "quintile_spread": -0.0046,
+          "weights_top5": {
+            "ebitdaMargin_qoq": -0.0481,
+            "dividendPayoutRatio": -0.0466,
+            "operatingProfitMargin_qoq": -0.0435,
+            "freeCashFlowOperatingCashFlowRatio": 0.0358,
+            "dividendYieldPercentage": -0.0328
+          },
+          "baseline_sharpe": 2.034,
+          "beat_baseline": true
+        },
+        {
+          "index": 6,
+          "period": "2024-07-05 \u2192 2025-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.047619047619047616}"
+        },
+        {
+          "index": 7,
+          "period": "2025-01-05 \u2192 2025-07-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.36}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'priceToBookRatio': 0.0, 'enterpriseValueMultiple': 0.0, 'momentum_6m': 0.0, 'priceToFreeCashFlowRatio': 0.0, 'eps_dispersion': 0.0, 'assetTurnover': 0.0, 'ret30': 0.7741935483870968, 'grossProfitMargin': 0.0, 'financialLeverageRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'num_analysts_eps': 0.0, 'num_analysts_rev': 0.0, 'currentRatio': 0.0, 'ret90': 0.2903225806451613, 'ret60': 0.532258064516129, 'quickRatio': 0.0}"
+        },
+        {
+          "index": 8,
+          "period": "2025-07-05 \u2192 2026-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.49846153846153846, 2026: 0.5}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'priceToBookRatio': 0.0, 'enterpriseValueMultiple': 0.0, 'priceToFreeCashFlowRatio': 0.0, 'eps_dispersion': 0.0, 'assetTurnover': 0.0, 'grossProfitMargin': 0.0, 'financialLeverageRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'num_analysts_eps': 0.0, 'num_analysts_rev': 0.0, 'currentRatio': 0.0, 'quickRatio': 0.0, 'eps_revision': 0.0}"
+        }
+      ],
+      "description": "Hybrid: 70% static ICIR + 30% dynamic IC"
+    },
+    "E_strong_factors_only": {
+      "proposal": "E_strong_factors_only",
+      "wf_sharpe": 1.533,
+      "wf_sharpe_std": 1.228,
+      "wf_max_dd": -0.2689,
+      "wf_cagr": 0.7675,
+      "wf_win_rate": 0.584,
+      "wf_n_windows": 7,
+      "wf_all_sharpes": [
+        1.786,
+        -0.851,
+        1.104,
+        3.35,
+        0.912,
+        2.187,
+        2.241
+      ],
+      "wf_all_cagrs": [
+        0.7189,
+        -0.2029,
+        0.2453,
+        2.8898,
+        0.2514,
+        0.5706,
+        0.8995
+      ],
+      "wf_all_max_dds": [
+        -0.0743,
+        -0.1733,
+        -0.1421,
+        -0.2098,
+        -0.2689,
+        -0.1241,
+        -0.1364
+      ],
+      "mean_rank_inversion_rate": 0.643,
+      "max_rank_inversion_rate": 1.0,
+      "total_inverted_factors": 18.0,
+      "mean_quintile_spread": -0.0147,
+      "stability_beat_baseline": 5,
+      "stability_rate": 0.714,
+      "ri_pass": "False",
+      "composite_score": 0.195,
+      "positive_sharpe_pct": 0.857,
+      "recent_sharpes": [
+        0.912,
+        2.187,
+        2.241
+      ],
+      "windows": [
+        {
+          "index": 0,
+          "period": "2021-07-05 \u2192 2022-01-05",
+          "sharpe": 1.786,
+          "max_dd": -0.0743,
+          "cagr": 0.7189,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_factors": 26,
+          "rank_inversion_count": 3,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.75,
+          "quintile_returns": {
+            "0": 0.0006,
+            "1": 0.0051,
+            "2": 0.0165,
+            "3": 0.0238,
+            "4": 0.0204
+          },
+          "quintile_spread": -0.0198,
+          "weights_top5": {
+            "macd": -0.1049,
+            "ebitdaMargin": 0.0893,
+            "netProfitMargin": 0.089,
+            "macd_signal": -0.0826,
+            "operatingCashFlowRatio": 0.0774
+          },
+          "baseline_sharpe": 1.546,
+          "beat_baseline": true
+        },
+        {
+          "index": 1,
+          "period": "2022-01-05 \u2192 2022-07-05",
+          "sharpe": -0.851,
+          "max_dd": -0.1733,
+          "cagr": -0.2029,
+          "win_rate": 0.486,
+          "n_trades": 37,
+          "n_factors": 26,
+          "rank_inversion_count": 2,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.5,
+          "quintile_returns": {
+            "0": -0.0431,
+            "1": -0.0204,
+            "2": -0.0162,
+            "3": -0.0212,
+            "4": -0.0262
+          },
+          "quintile_spread": -0.0169,
+          "weights_top5": {
+            "ma20": -0.0911,
+            "ma5": -0.0908,
+            "ma60": -0.0887,
+            "dividendYieldPercentage": 0.0744,
+            "macd_signal": -0.0682
+          },
+          "baseline_sharpe": -0.739,
+          "beat_baseline": false
+        },
+        {
+          "index": 2,
+          "period": "2022-07-05 \u2192 2023-01-05",
+          "sharpe": 1.104,
+          "max_dd": -0.1421,
+          "cagr": 0.2453,
+          "win_rate": 0.525,
+          "n_trades": 40,
+          "n_factors": 26,
+          "rank_inversion_count": 1,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.25,
+          "quintile_returns": {
+            "0": 0.0284,
+            "1": 0.0268,
+            "2": 0.0275,
+            "3": 0.0215,
+            "4": 0.0091
+          },
+          "quintile_spread": 0.0193,
+          "weights_top5": {
+            "price_position": -0.0784,
+            "avg_body": -0.0699,
+            "vol20": -0.0652,
+            "dividendYieldPercentage": 0.0647,
+            "freeCashFlowOperatingCashFlowRatio": -0.0573
+          },
+          "baseline_sharpe": 0.402,
+          "beat_baseline": true
+        },
+        {
+          "index": 3,
+          "period": "2023-01-05 \u2192 2023-07-05",
+          "sharpe": 3.35,
+          "max_dd": -0.2098,
+          "cagr": 2.8898,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_factors": 27,
+          "rank_inversion_count": 4,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 1.0,
+          "quintile_returns": {
+            "0": 0.0079,
+            "1": 0.0086,
+            "2": 0.0156,
+            "3": 0.0176,
+            "4": 0.0556
+          },
+          "quintile_spread": -0.0477,
+          "weights_top5": {
+            "dd_60": -0.0757,
+            "price_position": -0.0634,
+            "vol20": 0.063,
+            "ma_align": -0.0551,
+            "avg_body": 0.0542
+          },
+          "baseline_sharpe": 3.167,
+          "beat_baseline": true
+        },
+        {
+          "index": 4,
+          "period": "2023-07-05 \u2192 2024-01-05",
+          "sharpe": 0.912,
+          "max_dd": -0.2689,
+          "cagr": 0.2514,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_factors": 31,
+          "rank_inversion_count": 4,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 1.0,
+          "quintile_returns": {
+            "0": 0.0051,
+            "1": 0.0154,
+            "2": 0.022,
+            "3": 0.0252,
+            "4": 0.0326
+          },
+          "quintile_spread": -0.0275,
+          "weights_top5": {
+            "dividendYieldPercentage": -0.0828,
+            "avg_body": 0.0698,
+            "dividendPayoutRatio": -0.0676,
+            "vol20": 0.0663,
+            "vol5": 0.0555
+          },
+          "baseline_sharpe": 1.362,
+          "beat_baseline": false
+        },
+        {
+          "index": 5,
+          "period": "2024-01-05 \u2192 2024-07-05",
+          "sharpe": 2.187,
+          "max_dd": -0.1241,
+          "cagr": 0.5706,
+          "win_rate": 0.65,
+          "n_trades": 40,
+          "n_factors": 32,
+          "rank_inversion_count": 1,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.25,
+          "quintile_returns": {
+            "0": 0.0284,
+            "1": 0.0251,
+            "2": 0.021,
+            "3": 0.033,
+            "4": 0.021
+          },
+          "quintile_spread": 0.0074,
+          "weights_top5": {
+            "freeCashFlowOperatingCashFlowRatio": 0.0855,
+            "dividendPayoutRatio": -0.0649,
+            "inventoryTurnover": -0.063,
+            "receivablesTurnover": -0.0572,
+            "dividendYieldPercentage": -0.0535
+          },
+          "baseline_sharpe": 0.811,
+          "beat_baseline": true
+        },
+        {
+          "index": 6,
+          "period": "2024-07-05 \u2192 2025-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.07142857142857142}"
+        },
+        {
+          "index": 7,
+          "period": "2025-01-05 \u2192 2025-07-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.64}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'price_position': 0.532258064516129, 'dd_60': 0.532258064516129, 'priceToBookRatio': 0.0, 'quickRatio': 0.0, 'freeCashFlowOperatingCashFlowRatio': 0.0, 'num_analysts_eps': 0.0}"
+        },
+        {
+          "index": 8,
+          "period": "2025-07-05 \u2192 2026-01-05",
+          "sharpe": 2.241,
+          "max_dd": -0.1364,
+          "cagr": 0.8995,
+          "win_rate": 0.625,
+          "n_trades": 40,
+          "n_factors": 14,
+          "rank_inversion_count": 3,
+          "rank_inversion_pairs": 4,
+          "rank_inversion_rate": 0.75,
+          "quintile_returns": {
+            "0": 0.0126,
+            "1": 0.0185,
+            "2": 0.0273,
+            "3": 0.0314,
+            "4": 0.0302
+          },
+          "quintile_spread": -0.0176,
+          "weights_top5": {
+            "dd_60": -0.1458,
+            "vol20": 0.1329,
+            "bb_width": 0.1199,
+            "ma_cross_20_60": -0.1054,
+            "vol5": 0.0619
+          },
+          "baseline_sharpe": 1.749,
+          "beat_baseline": true
+        }
+      ],
+      "description": "Factor screening: only 32 strong factors (|ICIR|>0.1)"
+    }
+  },
+  "best_proposal": {
+    "name": "C_weight_decay",
+    "description": "Weight decay: older IC gets more weight",
+    "sharpe": 1.874,
+    "max_dd": -0.2607,
+    "cagr": 0.7062,
+    "ri_pass": "False",
+    "composite_score": 0.234
+  },
+  "summary": {
+    "total_proposals": 5,
+    "ri_pass_count": 0,
+    "all_ri_fail": true,
+    "best_sharpe": 1.874,
+    "best_ri_rate": 0.75,
+    "verdict": "ALL PROPOSALS FAIL - fundamental issue with IC-adaptive linear approach",
+    "best_sharpe_proposal": "C_weight_decay (Sharpe=1.874 but RI fails)",
+    "best_ri_proposal": "None - all failed"
+  },
+  "root_cause_analysis": {
+    "finding": "ALL 5 PROPOSALS FAILED RANK INVERSION",
+    "fundamental_issue": "The IC-adaptive linear model has REVERSED quintile spreads across all windows. Top-scored stocks consistently underperform bottom-scored stocks.",
+    "evidence": {
+      "mean_quintile_spreads": {
+        "A_longer_ic_12mo": -0.0111,
+        "B_ema_smoothed": -0.0157,
+        "C_weight_decay": -0.0153,
+        "D_hybrid_70_30": -0.0302,
+        "E_strong_factors_only": -0.0147
+      },
+      "all_spreads_negative": true,
+      "interpretation": "The model ranks stocks INVERSELY to their actual forward returns. High-score stocks UNDERPERFORM low-score stocks."
+    },
+    "why_simple_fixes_didnt_work": [
+      "Longer IC window (12mo): Reduced noise but still negative spread (-0.011)",
+      "EMA smoothing: Gave more weight to recent IC, but recent IC is noisy",
+      "Weight decay: Older IC weights higher, but IC sign changes over time",
+      "Hybrid 70/30: Static ICIR weights dominated, but ICIR is computed over full period",
+      "Strong factors only: Reduced noise by 37% (32 vs 69 factors), but spread still negative"
+    ],
+    "deeper_causes": [
+      "IC values are inherently noisy: Spearman rank correlation on 30d forward returns has high variance",
+      "IC sign instability: Many factors flip IC sign between months (e.g., dividendPayoutRatio ICIR=-0.35 but varies month to month)",
+      "Linear combination weakness: A linear weighted sum of 30+ factors cannot capture non-linear factor interactions",
+      "Factor crowding: Top factors (vol20, ma5, ma20) are correlated and amplify noise",
+      "Walk-Forward window too short: 6-month test windows have high sampling noise"
+    ]
+  },
+  "recommendations": {
+    "immediate": [
+      "DO NOT deploy dynamic linear model for live trading",
+      "The original static IC weighting (WF Sharpe=1.668) is misleading because Sharpe measures absolute returns, not ranking ability"
+    ],
+    "alternative_approaches": [
+      "Non-linear models: LightGBM/XGBoost that can capture factor interactions",
+      "Regularized regression: Ridge/Lasso to prevent overfitting to noisy IC",
+      "Ensemble approach: Combine multiple weak models instead of one dynamic model",
+      "Reduce factor count: Use only 5-10 uncorrelated factors instead of 30+",
+      "Longer holding period: 60d instead of 30d to reduce noise in forward returns"
+    ],
+    "for_next_phase": [
+      "Focus on non-linear models (LightGBM) which showed better ranking ability",
+      "Use ICIR > 0.2 as minimum threshold (currently 0.1 is too lenient)",
+      "Add factor correlation filtering to reduce redundancy"
+    ]
+  }
+}

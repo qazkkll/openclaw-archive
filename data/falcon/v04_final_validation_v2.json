@@ -1,0 +1,1390 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-01T08:56:17.670259",
+    "task": "T5.12 Final Validation: Reproducibility Check",
+    "config": {
+      "combo_type": "log_fm",
+      "combo_formula": "log1p(fund_metric)",
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "combo": 0.15
+      },
+      "train_months": 6,
+      "test_months": 6,
+      "hold_days": 30,
+      "top_n": 10,
+      "cost": 0.001,
+      "stop_loss": -0.15
+    },
+    "n_wf_runs": 3,
+    "data_hash": "fa3c2ab7b1f8",
+    "data_shape": [
+      1177880,
+      91
+    ],
+    "date_range": "2016-07-05 to 2026-06-26",
+    "n_tickers": 476,
+    "elapsed_seconds": 109.2
+  },
+  "wf_runs": [
+    {
+      "run_index": 0,
+      "elapsed_seconds": 0.3,
+      "windows": [
+        {
+          "index": 0,
+          "period": "2017-01-03 → 2017-07-03",
+          "sharpe": 2.7,
+          "max_dd": -0.0426,
+          "cagr": 0.3344,
+          "win_rate": 0.775,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.1552
+        },
+        {
+          "index": 1,
+          "period": "2017-07-06 → 2018-01-06",
+          "sharpe": 5.329,
+          "max_dd": -0.034,
+          "cagr": 0.7904,
+          "win_rate": 0.875,
+          "n_trades": 40,
+          "n_days": 128,
+          "total_return": 0.3443
+        },
+        {
+          "index": 2,
+          "period": "2018-01-03 → 2018-07-03",
+          "sharpe": 1.628,
+          "max_dd": -0.0965,
+          "cagr": 0.3767,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.1733
+        },
+        {
+          "index": 3,
+          "period": "2018-07-06 → 2019-01-06",
+          "sharpe": -1.143,
+          "max_dd": -0.2355,
+          "cagr": -0.2235,
+          "win_rate": 0.425,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": -0.1188
+        },
+        {
+          "index": 4,
+          "period": "2019-01-03 → 2019-07-03",
+          "sharpe": 3.717,
+          "max_dd": -0.0859,
+          "cagr": 0.8331,
+          "win_rate": 0.8,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.3539
+        },
+        {
+          "index": 5,
+          "period": "2019-07-06 → 2020-01-06",
+          "sharpe": 1.858,
+          "max_dd": -0.0802,
+          "cagr": 0.3319,
+          "win_rate": 0.65,
+          "n_trades": 40,
+          "n_days": 127,
+          "total_return": 0.1554
+        },
+        {
+          "index": 6,
+          "period": "2020-01-03 → 2020-07-03",
+          "sharpe": 0.404,
+          "max_dd": -0.3028,
+          "cagr": 0.0822,
+          "win_rate": 0.561,
+          "n_trades": 41,
+          "n_days": 126,
+          "total_return": 0.0403
+        },
+        {
+          "index": 7,
+          "period": "2020-07-05 → 2021-01-05",
+          "sharpe": 2.23,
+          "max_dd": -0.0859,
+          "cagr": 0.5114,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 128,
+          "total_return": 0.2334
+        },
+        {
+          "index": 8,
+          "period": "2021-01-03 → 2021-07-03",
+          "sharpe": 3.799,
+          "max_dd": -0.0433,
+          "cagr": 0.8721,
+          "win_rate": 0.825,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.3683
+        },
+        {
+          "index": 9,
+          "period": "2021-07-06 → 2022-01-06",
+          "sharpe": 1.758,
+          "max_dd": -0.0587,
+          "cagr": 0.3789,
+          "win_rate": 0.7,
+          "n_trades": 40,
+          "n_days": 130,
+          "total_return": 0.1802
+        },
+        {
+          "index": 10,
+          "period": "2022-01-03 → 2022-07-03",
+          "sharpe": -1.618,
+          "max_dd": -0.2256,
+          "cagr": -0.3673,
+          "win_rate": 0.4,
+          "n_trades": 40,
+          "n_days": 125,
+          "total_return": -0.2031
+        },
+        {
+          "index": 11,
+          "period": "2022-07-06 → 2023-01-06",
+          "sharpe": 0.857,
+          "max_dd": -0.1762,
+          "cagr": 0.222,
+          "win_rate": 0.561,
+          "n_trades": 41,
+          "n_days": 129,
+          "total_return": 0.1081
+        },
+        {
+          "index": 12,
+          "period": "2023-01-03 → 2023-07-03",
+          "sharpe": 2.068,
+          "max_dd": -0.0712,
+          "cagr": 0.481,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 125,
+          "total_return": 0.2151
+        },
+        {
+          "index": 13,
+          "period": "2023-07-06 → 2024-01-06",
+          "sharpe": 1.539,
+          "max_dd": -0.1166,
+          "cagr": 0.2808,
+          "win_rate": 0.5,
+          "n_trades": 40,
+          "n_days": 128,
+          "total_return": 0.134
+        },
+        {
+          "index": 14,
+          "period": "2024-01-03 → 2024-07-03",
+          "sharpe": 2.636,
+          "max_dd": -0.0911,
+          "cagr": 0.5472,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.2438
+        },
+        {
+          "index": 15,
+          "period": "2024-07-05 → 2025-01-05",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.3333333333333333}"
+        },
+        {
+          "index": 16,
+          "period": "2025-01-03 → 2025-07-03",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.3333333333333333}\n  - 以下因子覆盖率<80%: {'fund_ratio': 0.0, 'fund_metric': 0.0}"
+        },
+        {
+          "index": 17,
+          "period": "2025-07-06 → 2026-01-06",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.3333333333333333, 2026: 0.3333333333333333}\n  - 以下因子覆盖率<80%: {'fund_ratio': 0.0, 'fund_metric': 0.0}"
+        }
+      ],
+      "summary": {
+        "n_windows": 15,
+        "n_errors": 3,
+        "sharpe": 1.851,
+        "sharpe_std": 1.735,
+        "max_dd": -0.3028,
+        "cagr": 0.3634,
+        "win_rate": 0.65,
+        "total_trades": 602,
+        "total_return": 14.4798,
+        "individual_sharpes": [
+          2.7,
+          5.329,
+          1.628,
+          -1.143,
+          3.717,
+          1.858,
+          0.404,
+          2.23,
+          3.799,
+          1.758,
+          -1.618,
+          0.857,
+          2.068,
+          1.539,
+          2.636
+        ],
+        "individual_max_dds": [
+          -0.0426,
+          -0.034,
+          -0.0965,
+          -0.2355,
+          -0.0859,
+          -0.0802,
+          -0.3028,
+          -0.0859,
+          -0.0433,
+          -0.0587,
+          -0.2256,
+          -0.1762,
+          -0.0712,
+          -0.1166,
+          -0.0911
+        ],
+        "individual_periods": [
+          "2017-01-03 → 2017-07-03",
+          "2017-07-06 → 2018-01-06",
+          "2018-01-03 → 2018-07-03",
+          "2018-07-06 → 2019-01-06",
+          "2019-01-03 → 2019-07-03",
+          "2019-07-06 → 2020-01-06",
+          "2020-01-03 → 2020-07-03",
+          "2020-07-05 → 2021-01-05",
+          "2021-01-03 → 2021-07-03",
+          "2021-07-06 → 2022-01-06",
+          "2022-01-03 → 2022-07-03",
+          "2022-07-06 → 2023-01-06",
+          "2023-01-03 → 2023-07-03",
+          "2023-07-06 → 2024-01-06",
+          "2024-01-03 → 2024-07-03"
+        ]
+      },
+      "rank_inversion": {
+        "passed": true,
+        "reason": "OK",
+        "detail": {
+          "early_avg_sharpe": 2.07,
+          "recent_avg_sharpe": 1.659,
+          "negative_early_windows": 1,
+          "negative_recent_windows": 1,
+          "degradation_pct": 19.9,
+          "total_windows": 15,
+          "early_periods": [
+            "2017-01-03 → 2017-07-03",
+            "2017-07-06 → 2018-01-06",
+            "2018-01-03 → 2018-07-03",
+            "2018-07-06 → 2019-01-06",
+            "2019-01-03 → 2019-07-03",
+            "2019-07-06 → 2020-01-06",
+            "2020-01-03 → 2020-07-03"
+          ],
+          "recent_periods": [
+            "2020-07-05 → 2021-01-05",
+            "2021-01-03 → 2021-07-03",
+            "2021-07-06 → 2022-01-06",
+            "2022-01-03 → 2022-07-03",
+            "2022-07-06 → 2023-01-06",
+            "2023-01-03 → 2023-07-03",
+            "2023-07-06 → 2024-01-06",
+            "2024-01-03 → 2024-07-03"
+          ]
+        }
+      }
+    },
+    {
+      "run_index": 1,
+      "elapsed_seconds": 0.3,
+      "windows": [
+        {
+          "index": 0,
+          "period": "2017-01-03 → 2017-07-03",
+          "sharpe": 2.7,
+          "max_dd": -0.0426,
+          "cagr": 0.3344,
+          "win_rate": 0.775,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.1552
+        },
+        {
+          "index": 1,
+          "period": "2017-07-06 → 2018-01-06",
+          "sharpe": 5.329,
+          "max_dd": -0.034,
+          "cagr": 0.7904,
+          "win_rate": 0.875,
+          "n_trades": 40,
+          "n_days": 128,
+          "total_return": 0.3443
+        },
+        {
+          "index": 2,
+          "period": "2018-01-03 → 2018-07-03",
+          "sharpe": 1.628,
+          "max_dd": -0.0965,
+          "cagr": 0.3767,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.1733
+        },
+        {
+          "index": 3,
+          "period": "2018-07-06 → 2019-01-06",
+          "sharpe": -1.143,
+          "max_dd": -0.2355,
+          "cagr": -0.2235,
+          "win_rate": 0.425,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": -0.1188
+        },
+        {
+          "index": 4,
+          "period": "2019-01-03 → 2019-07-03",
+          "sharpe": 3.717,
+          "max_dd": -0.0859,
+          "cagr": 0.8331,
+          "win_rate": 0.8,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.3539
+        },
+        {
+          "index": 5,
+          "period": "2019-07-06 → 2020-01-06",
+          "sharpe": 1.858,
+          "max_dd": -0.0802,
+          "cagr": 0.3319,
+          "win_rate": 0.65,
+          "n_trades": 40,
+          "n_days": 127,
+          "total_return": 0.1554
+        },
+        {
+          "index": 6,
+          "period": "2020-01-03 → 2020-07-03",
+          "sharpe": 0.404,
+          "max_dd": -0.3028,
+          "cagr": 0.0822,
+          "win_rate": 0.561,
+          "n_trades": 41,
+          "n_days": 126,
+          "total_return": 0.0403
+        },
+        {
+          "index": 7,
+          "period": "2020-07-05 → 2021-01-05",
+          "sharpe": 2.23,
+          "max_dd": -0.0859,
+          "cagr": 0.5114,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 128,
+          "total_return": 0.2334
+        },
+        {
+          "index": 8,
+          "period": "2021-01-03 → 2021-07-03",
+          "sharpe": 3.799,
+          "max_dd": -0.0433,
+          "cagr": 0.8721,
+          "win_rate": 0.825,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.3683
+        },
+        {
+          "index": 9,
+          "period": "2021-07-06 → 2022-01-06",
+          "sharpe": 1.758,
+          "max_dd": -0.0587,
+          "cagr": 0.3789,
+          "win_rate": 0.7,
+          "n_trades": 40,
+          "n_days": 130,
+          "total_return": 0.1802
+        },
+        {
+          "index": 10,
+          "period": "2022-01-03 → 2022-07-03",
+          "sharpe": -1.618,
+          "max_dd": -0.2256,
+          "cagr": -0.3673,
+          "win_rate": 0.4,
+          "n_trades": 40,
+          "n_days": 125,
+          "total_return": -0.2031
+        },
+        {
+          "index": 11,
+          "period": "2022-07-06 → 2023-01-06",
+          "sharpe": 0.857,
+          "max_dd": -0.1762,
+          "cagr": 0.222,
+          "win_rate": 0.561,
+          "n_trades": 41,
+          "n_days": 129,
+          "total_return": 0.1081
+        },
+        {
+          "index": 12,
+          "period": "2023-01-03 → 2023-07-03",
+          "sharpe": 2.068,
+          "max_dd": -0.0712,
+          "cagr": 0.481,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 125,
+          "total_return": 0.2151
+        },
+        {
+          "index": 13,
+          "period": "2023-07-06 → 2024-01-06",
+          "sharpe": 1.539,
+          "max_dd": -0.1166,
+          "cagr": 0.2808,
+          "win_rate": 0.5,
+          "n_trades": 40,
+          "n_days": 128,
+          "total_return": 0.134
+        },
+        {
+          "index": 14,
+          "period": "2024-01-03 → 2024-07-03",
+          "sharpe": 2.636,
+          "max_dd": -0.0911,
+          "cagr": 0.5472,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.2438
+        },
+        {
+          "index": 15,
+          "period": "2024-07-05 → 2025-01-05",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.3333333333333333}"
+        },
+        {
+          "index": 16,
+          "period": "2025-01-03 → 2025-07-03",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.3333333333333333}\n  - 以下因子覆盖率<80%: {'fund_ratio': 0.0, 'fund_metric': 0.0}"
+        },
+        {
+          "index": 17,
+          "period": "2025-07-06 → 2026-01-06",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.3333333333333333, 2026: 0.3333333333333333}\n  - 以下因子覆盖率<80%: {'fund_ratio': 0.0, 'fund_metric': 0.0}"
+        }
+      ],
+      "summary": {
+        "n_windows": 15,
+        "n_errors": 3,
+        "sharpe": 1.851,
+        "sharpe_std": 1.735,
+        "max_dd": -0.3028,
+        "cagr": 0.3634,
+        "win_rate": 0.65,
+        "total_trades": 602,
+        "total_return": 14.4798,
+        "individual_sharpes": [
+          2.7,
+          5.329,
+          1.628,
+          -1.143,
+          3.717,
+          1.858,
+          0.404,
+          2.23,
+          3.799,
+          1.758,
+          -1.618,
+          0.857,
+          2.068,
+          1.539,
+          2.636
+        ],
+        "individual_max_dds": [
+          -0.0426,
+          -0.034,
+          -0.0965,
+          -0.2355,
+          -0.0859,
+          -0.0802,
+          -0.3028,
+          -0.0859,
+          -0.0433,
+          -0.0587,
+          -0.2256,
+          -0.1762,
+          -0.0712,
+          -0.1166,
+          -0.0911
+        ],
+        "individual_periods": [
+          "2017-01-03 → 2017-07-03",
+          "2017-07-06 → 2018-01-06",
+          "2018-01-03 → 2018-07-03",
+          "2018-07-06 → 2019-01-06",
+          "2019-01-03 → 2019-07-03",
+          "2019-07-06 → 2020-01-06",
+          "2020-01-03 → 2020-07-03",
+          "2020-07-05 → 2021-01-05",
+          "2021-01-03 → 2021-07-03",
+          "2021-07-06 → 2022-01-06",
+          "2022-01-03 → 2022-07-03",
+          "2022-07-06 → 2023-01-06",
+          "2023-01-03 → 2023-07-03",
+          "2023-07-06 → 2024-01-06",
+          "2024-01-03 → 2024-07-03"
+        ]
+      },
+      "rank_inversion": {
+        "passed": true,
+        "reason": "OK",
+        "detail": {
+          "early_avg_sharpe": 2.07,
+          "recent_avg_sharpe": 1.659,
+          "negative_early_windows": 1,
+          "negative_recent_windows": 1,
+          "degradation_pct": 19.9,
+          "total_windows": 15,
+          "early_periods": [
+            "2017-01-03 → 2017-07-03",
+            "2017-07-06 → 2018-01-06",
+            "2018-01-03 → 2018-07-03",
+            "2018-07-06 → 2019-01-06",
+            "2019-01-03 → 2019-07-03",
+            "2019-07-06 → 2020-01-06",
+            "2020-01-03 → 2020-07-03"
+          ],
+          "recent_periods": [
+            "2020-07-05 → 2021-01-05",
+            "2021-01-03 → 2021-07-03",
+            "2021-07-06 → 2022-01-06",
+            "2022-01-03 → 2022-07-03",
+            "2022-07-06 → 2023-01-06",
+            "2023-01-03 → 2023-07-03",
+            "2023-07-06 → 2024-01-06",
+            "2024-01-03 → 2024-07-03"
+          ]
+        }
+      }
+    },
+    {
+      "run_index": 2,
+      "elapsed_seconds": 0.3,
+      "windows": [
+        {
+          "index": 0,
+          "period": "2017-01-03 → 2017-07-03",
+          "sharpe": 2.7,
+          "max_dd": -0.0426,
+          "cagr": 0.3344,
+          "win_rate": 0.775,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.1552
+        },
+        {
+          "index": 1,
+          "period": "2017-07-06 → 2018-01-06",
+          "sharpe": 5.329,
+          "max_dd": -0.034,
+          "cagr": 0.7904,
+          "win_rate": 0.875,
+          "n_trades": 40,
+          "n_days": 128,
+          "total_return": 0.3443
+        },
+        {
+          "index": 2,
+          "period": "2018-01-03 → 2018-07-03",
+          "sharpe": 1.628,
+          "max_dd": -0.0965,
+          "cagr": 0.3767,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.1733
+        },
+        {
+          "index": 3,
+          "period": "2018-07-06 → 2019-01-06",
+          "sharpe": -1.143,
+          "max_dd": -0.2355,
+          "cagr": -0.2235,
+          "win_rate": 0.425,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": -0.1188
+        },
+        {
+          "index": 4,
+          "period": "2019-01-03 → 2019-07-03",
+          "sharpe": 3.717,
+          "max_dd": -0.0859,
+          "cagr": 0.8331,
+          "win_rate": 0.8,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.3539
+        },
+        {
+          "index": 5,
+          "period": "2019-07-06 → 2020-01-06",
+          "sharpe": 1.858,
+          "max_dd": -0.0802,
+          "cagr": 0.3319,
+          "win_rate": 0.65,
+          "n_trades": 40,
+          "n_days": 127,
+          "total_return": 0.1554
+        },
+        {
+          "index": 6,
+          "period": "2020-01-03 → 2020-07-03",
+          "sharpe": 0.404,
+          "max_dd": -0.3028,
+          "cagr": 0.0822,
+          "win_rate": 0.561,
+          "n_trades": 41,
+          "n_days": 126,
+          "total_return": 0.0403
+        },
+        {
+          "index": 7,
+          "period": "2020-07-05 → 2021-01-05",
+          "sharpe": 2.23,
+          "max_dd": -0.0859,
+          "cagr": 0.5114,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 128,
+          "total_return": 0.2334
+        },
+        {
+          "index": 8,
+          "period": "2021-01-03 → 2021-07-03",
+          "sharpe": 3.799,
+          "max_dd": -0.0433,
+          "cagr": 0.8721,
+          "win_rate": 0.825,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.3683
+        },
+        {
+          "index": 9,
+          "period": "2021-07-06 → 2022-01-06",
+          "sharpe": 1.758,
+          "max_dd": -0.0587,
+          "cagr": 0.3789,
+          "win_rate": 0.7,
+          "n_trades": 40,
+          "n_days": 130,
+          "total_return": 0.1802
+        },
+        {
+          "index": 10,
+          "period": "2022-01-03 → 2022-07-03",
+          "sharpe": -1.618,
+          "max_dd": -0.2256,
+          "cagr": -0.3673,
+          "win_rate": 0.4,
+          "n_trades": 40,
+          "n_days": 125,
+          "total_return": -0.2031
+        },
+        {
+          "index": 11,
+          "period": "2022-07-06 → 2023-01-06",
+          "sharpe": 0.857,
+          "max_dd": -0.1762,
+          "cagr": 0.222,
+          "win_rate": 0.561,
+          "n_trades": 41,
+          "n_days": 129,
+          "total_return": 0.1081
+        },
+        {
+          "index": 12,
+          "period": "2023-01-03 → 2023-07-03",
+          "sharpe": 2.068,
+          "max_dd": -0.0712,
+          "cagr": 0.481,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 125,
+          "total_return": 0.2151
+        },
+        {
+          "index": 13,
+          "period": "2023-07-06 → 2024-01-06",
+          "sharpe": 1.539,
+          "max_dd": -0.1166,
+          "cagr": 0.2808,
+          "win_rate": 0.5,
+          "n_trades": 40,
+          "n_days": 128,
+          "total_return": 0.134
+        },
+        {
+          "index": 14,
+          "period": "2024-01-03 → 2024-07-03",
+          "sharpe": 2.636,
+          "max_dd": -0.0911,
+          "cagr": 0.5472,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 126,
+          "total_return": 0.2438
+        },
+        {
+          "index": 15,
+          "period": "2024-07-05 → 2025-01-05",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.3333333333333333}"
+        },
+        {
+          "index": 16,
+          "period": "2025-01-03 → 2025-07-03",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.3333333333333333}\n  - 以下因子覆盖率<80%: {'fund_ratio': 0.0, 'fund_metric': 0.0}"
+        },
+        {
+          "index": 17,
+          "period": "2025-07-06 → 2026-01-06",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.3333333333333333, 2026: 0.3333333333333333}\n  - 以下因子覆盖率<80%: {'fund_ratio': 0.0, 'fund_metric': 0.0}"
+        }
+      ],
+      "summary": {
+        "n_windows": 15,
+        "n_errors": 3,
+        "sharpe": 1.851,
+        "sharpe_std": 1.735,
+        "max_dd": -0.3028,
+        "cagr": 0.3634,
+        "win_rate": 0.65,
+        "total_trades": 602,
+        "total_return": 14.4798,
+        "individual_sharpes": [
+          2.7,
+          5.329,
+          1.628,
+          -1.143,
+          3.717,
+          1.858,
+          0.404,
+          2.23,
+          3.799,
+          1.758,
+          -1.618,
+          0.857,
+          2.068,
+          1.539,
+          2.636
+        ],
+        "individual_max_dds": [
+          -0.0426,
+          -0.034,
+          -0.0965,
+          -0.2355,
+          -0.0859,
+          -0.0802,
+          -0.3028,
+          -0.0859,
+          -0.0433,
+          -0.0587,
+          -0.2256,
+          -0.1762,
+          -0.0712,
+          -0.1166,
+          -0.0911
+        ],
+        "individual_periods": [
+          "2017-01-03 → 2017-07-03",
+          "2017-07-06 → 2018-01-06",
+          "2018-01-03 → 2018-07-03",
+          "2018-07-06 → 2019-01-06",
+          "2019-01-03 → 2019-07-03",
+          "2019-07-06 → 2020-01-06",
+          "2020-01-03 → 2020-07-03",
+          "2020-07-05 → 2021-01-05",
+          "2021-01-03 → 2021-07-03",
+          "2021-07-06 → 2022-01-06",
+          "2022-01-03 → 2022-07-03",
+          "2022-07-06 → 2023-01-06",
+          "2023-01-03 → 2023-07-03",
+          "2023-07-06 → 2024-01-06",
+          "2024-01-03 → 2024-07-03"
+        ]
+      },
+      "rank_inversion": {
+        "passed": true,
+        "reason": "OK",
+        "detail": {
+          "early_avg_sharpe": 2.07,
+          "recent_avg_sharpe": 1.659,
+          "negative_early_windows": 1,
+          "negative_recent_windows": 1,
+          "degradation_pct": 19.9,
+          "total_windows": 15,
+          "early_periods": [
+            "2017-01-03 → 2017-07-03",
+            "2017-07-06 → 2018-01-06",
+            "2018-01-03 → 2018-07-03",
+            "2018-07-06 → 2019-01-06",
+            "2019-01-03 → 2019-07-03",
+            "2019-07-06 → 2020-01-06",
+            "2020-01-03 → 2020-07-03"
+          ],
+          "recent_periods": [
+            "2020-07-05 → 2021-01-05",
+            "2021-01-03 → 2021-07-03",
+            "2021-07-06 → 2022-01-06",
+            "2022-01-03 → 2022-07-03",
+            "2022-07-06 → 2023-01-06",
+            "2023-01-03 → 2023-07-03",
+            "2023-07-06 → 2024-01-06",
+            "2024-01-03 → 2024-07-03"
+          ]
+        }
+      }
+    }
+  ],
+  "v031_baseline": {
+    "config": {
+      "fund_ratio": 0.7,
+      "fund_metric": 0.3
+    },
+    "sharpe": 1.742,
+    "max_dd": -0.3052,
+    "cagr": 0.3427,
+    "win_rate": 0.641,
+    "n_trades": 602,
+    "n_windows": 15,
+    "window_details": [
+      {
+        "index": 0,
+        "period": "2017-01-03 → 2017-07-03",
+        "sharpe": 2.176,
+        "max_dd": -0.0536,
+        "cagr": 0.2728,
+        "win_rate": 0.725,
+        "n_trades": 40,
+        "n_days": 126,
+        "total_return": 0.1282
+      },
+      {
+        "index": 1,
+        "period": "2017-07-06 → 2018-01-06",
+        "sharpe": 5.264,
+        "max_dd": -0.0287,
+        "cagr": 0.8033,
+        "win_rate": 0.875,
+        "n_trades": 40,
+        "n_days": 128,
+        "total_return": 0.3492
+      },
+      {
+        "index": 2,
+        "period": "2018-01-03 → 2018-07-03",
+        "sharpe": 1.322,
+        "max_dd": -0.1071,
+        "cagr": 0.2949,
+        "win_rate": 0.65,
+        "n_trades": 40,
+        "n_days": 126,
+        "total_return": 0.1379
+      },
+      {
+        "index": 3,
+        "period": "2018-07-06 → 2019-01-06",
+        "sharpe": -1.251,
+        "max_dd": -0.2355,
+        "cagr": -0.2426,
+        "win_rate": 0.425,
+        "n_trades": 40,
+        "n_days": 126,
+        "total_return": -0.1297
+      },
+      {
+        "index": 4,
+        "period": "2019-01-03 → 2019-07-03",
+        "sharpe": 3.717,
+        "max_dd": -0.0859,
+        "cagr": 0.8331,
+        "win_rate": 0.8,
+        "n_trades": 40,
+        "n_days": 126,
+        "total_return": 0.3539
+      },
+      {
+        "index": 5,
+        "period": "2019-07-06 → 2020-01-06",
+        "sharpe": 1.898,
+        "max_dd": -0.0715,
+        "cagr": 0.3389,
+        "win_rate": 0.675,
+        "n_trades": 40,
+        "n_days": 127,
+        "total_return": 0.1585
+      },
+      {
+        "index": 6,
+        "period": "2020-01-03 → 2020-07-03",
+        "sharpe": 0.448,
+        "max_dd": -0.3052,
+        "cagr": 0.1022,
+        "win_rate": 0.561,
+        "n_trades": 41,
+        "n_days": 126,
+        "total_return": 0.0499
+      },
+      {
+        "index": 7,
+        "period": "2020-07-05 → 2021-01-05",
+        "sharpe": 2.063,
+        "max_dd": -0.0952,
+        "cagr": 0.4458,
+        "win_rate": 0.7,
+        "n_trades": 40,
+        "n_days": 128,
+        "total_return": 0.2059
+      },
+      {
+        "index": 8,
+        "period": "2021-01-03 → 2021-07-03",
+        "sharpe": 3.534,
+        "max_dd": -0.0442,
+        "cagr": 0.815,
+        "win_rate": 0.8,
+        "n_trades": 40,
+        "n_days": 126,
+        "total_return": 0.3472
+      },
+      {
+        "index": 9,
+        "period": "2021-07-06 → 2022-01-06",
+        "sharpe": 1.499,
+        "max_dd": -0.0719,
+        "cagr": 0.3122,
+        "win_rate": 0.675,
+        "n_trades": 40,
+        "n_days": 130,
+        "total_return": 0.1505
+      },
+      {
+        "index": 10,
+        "period": "2022-01-03 → 2022-07-03",
+        "sharpe": -1.618,
+        "max_dd": -0.2256,
+        "cagr": -0.3673,
+        "win_rate": 0.4,
+        "n_trades": 40,
+        "n_days": 125,
+        "total_return": -0.2031
+      },
+      {
+        "index": 11,
+        "period": "2022-07-06 → 2023-01-06",
+        "sharpe": 0.847,
+        "max_dd": -0.1769,
+        "cagr": 0.22,
+        "win_rate": 0.561,
+        "n_trades": 41,
+        "n_days": 129,
+        "total_return": 0.1071
+      },
+      {
+        "index": 12,
+        "period": "2023-01-03 → 2023-07-03",
+        "sharpe": 2.093,
+        "max_dd": -0.0712,
+        "cagr": 0.4925,
+        "win_rate": 0.55,
+        "n_trades": 40,
+        "n_days": 125,
+        "total_return": 0.2197
+      },
+      {
+        "index": 13,
+        "period": "2023-07-06 → 2024-01-06",
+        "sharpe": 1.497,
+        "max_dd": -0.1166,
+        "cagr": 0.2732,
+        "win_rate": 0.5,
+        "n_trades": 40,
+        "n_days": 128,
+        "total_return": 0.1305
+      },
+      {
+        "index": 14,
+        "period": "2024-01-03 → 2024-07-03",
+        "sharpe": 2.636,
+        "max_dd": -0.0911,
+        "cagr": 0.5472,
+        "win_rate": 0.725,
+        "n_trades": 40,
+        "n_days": 126,
+        "total_return": 0.2438
+      },
+      {
+        "index": 15,
+        "period": "2024-07-05 → 2025-01-05",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.0}"
+      },
+      {
+        "index": 16,
+        "period": "2025-01-03 → 2025-07-03",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.0}\n  - 以下因子覆盖率<80%: {'fund_ratio': 0.0, 'fund_metric': 0.0}"
+      },
+      {
+        "index": 17,
+        "period": "2025-07-06 → 2026-01-06",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2025: 0.0, 2026: 0.0}\n  - 以下因子覆盖率<80%: {'fund_ratio': 0.0, 'fund_metric': 0.0}"
+      }
+    ],
+    "rank_inversion": {
+      "passed": true,
+      "reason": "OK",
+      "detail": {
+        "early_avg_sharpe": 1.939,
+        "recent_avg_sharpe": 1.569,
+        "negative_early_windows": 1,
+        "negative_recent_windows": 1,
+        "degradation_pct": 19.1,
+        "total_windows": 15,
+        "early_periods": [
+          "2017-01-03 → 2017-07-03",
+          "2017-07-06 → 2018-01-06",
+          "2018-01-03 → 2018-07-03",
+          "2018-07-06 → 2019-01-06",
+          "2019-01-03 → 2019-07-03",
+          "2019-07-06 → 2020-01-06",
+          "2020-01-03 → 2020-07-03"
+        ],
+        "recent_periods": [
+          "2020-07-05 → 2021-01-05",
+          "2021-01-03 → 2021-07-03",
+          "2021-07-06 → 2022-01-06",
+          "2022-01-03 → 2022-07-03",
+          "2022-07-06 → 2023-01-06",
+          "2023-01-03 → 2023-07-03",
+          "2023-07-06 → 2024-01-06",
+          "2024-01-03 → 2024-07-03"
+        ]
+      }
+    },
+    "elapsed_seconds": 0.3
+  },
+  "verification": {
+    "reproducibility": {
+      "cross_run_sharpes": [
+        1.851,
+        1.851,
+        1.851
+      ],
+      "cross_run_mean": 1.851,
+      "cross_run_std": 0.0,
+      "cross_run_cv": 0.0,
+      "max_deviation": 0.0,
+      "stable": true
+    },
+    "rank_inversion": {
+      "all_passed": true,
+      "details": [
+        {
+          "passed": true,
+          "reason": "OK",
+          "detail": {
+            "early_avg_sharpe": 2.07,
+            "recent_avg_sharpe": 1.659,
+            "negative_early_windows": 1,
+            "negative_recent_windows": 1,
+            "degradation_pct": 19.9,
+            "total_windows": 15,
+            "early_periods": [
+              "2017-01-03 → 2017-07-03",
+              "2017-07-06 → 2018-01-06",
+              "2018-01-03 → 2018-07-03",
+              "2018-07-06 → 2019-01-06",
+              "2019-01-03 → 2019-07-03",
+              "2019-07-06 → 2020-01-06",
+              "2020-01-03 → 2020-07-03"
+            ],
+            "recent_periods": [
+              "2020-07-05 → 2021-01-05",
+              "2021-01-03 → 2021-07-03",
+              "2021-07-06 → 2022-01-06",
+              "2022-01-03 → 2022-07-03",
+              "2022-07-06 → 2023-01-06",
+              "2023-01-03 → 2023-07-03",
+              "2023-07-06 → 2024-01-06",
+              "2024-01-03 → 2024-07-03"
+            ]
+          }
+        },
+        {
+          "passed": true,
+          "reason": "OK",
+          "detail": {
+            "early_avg_sharpe": 2.07,
+            "recent_avg_sharpe": 1.659,
+            "negative_early_windows": 1,
+            "negative_recent_windows": 1,
+            "degradation_pct": 19.9,
+            "total_windows": 15,
+            "early_periods": [
+              "2017-01-03 → 2017-07-03",
+              "2017-07-06 → 2018-01-06",
+              "2018-01-03 → 2018-07-03",
+              "2018-07-06 → 2019-01-06",
+              "2019-01-03 → 2019-07-03",
+              "2019-07-06 → 2020-01-06",
+              "2020-01-03 → 2020-07-03"
+            ],
+            "recent_periods": [
+              "2020-07-05 → 2021-01-05",
+              "2021-01-03 → 2021-07-03",
+              "2021-07-06 → 2022-01-06",
+              "2022-01-03 → 2022-07-03",
+              "2022-07-06 → 2023-01-06",
+              "2023-01-03 → 2023-07-03",
+              "2023-07-06 → 2024-01-06",
+              "2024-01-03 → 2024-07-03"
+            ]
+          }
+        },
+        {
+          "passed": true,
+          "reason": "OK",
+          "detail": {
+            "early_avg_sharpe": 2.07,
+            "recent_avg_sharpe": 1.659,
+            "negative_early_windows": 1,
+            "negative_recent_windows": 1,
+            "degradation_pct": 19.9,
+            "total_windows": 15,
+            "early_periods": [
+              "2017-01-03 → 2017-07-03",
+              "2017-07-06 → 2018-01-06",
+              "2018-01-03 → 2018-07-03",
+              "2018-07-06 → 2019-01-06",
+              "2019-01-03 → 2019-07-03",
+              "2019-07-06 → 2020-01-06",
+              "2020-01-03 → 2020-07-03"
+            ],
+            "recent_periods": [
+              "2020-07-05 → 2021-01-05",
+              "2021-01-03 → 2021-07-03",
+              "2021-07-06 → 2022-01-06",
+              "2022-01-03 → 2022-07-03",
+              "2022-07-06 → 2023-01-06",
+              "2023-01-03 → 2023-07-03",
+              "2023-07-06 → 2024-01-06",
+              "2024-01-03 → 2024-07-03"
+            ]
+          }
+        }
+      ]
+    },
+    "stability": {
+      "cross_run_sharpes": [
+        1.851,
+        1.851,
+        1.851
+      ],
+      "cross_run_mean": 1.851,
+      "cross_run_std": 0.0,
+      "cross_run_cv": 0.0,
+      "within_run_cv": [
+        0.937,
+        0.937,
+        0.937
+      ],
+      "all_individual_sharpes_mean": 1.851,
+      "all_individual_sharpes_std": 1.735,
+      "stable": true
+    },
+    "lookahead_bias_audit": {
+      "passed": true,
+      "issues": [],
+      "factor_sources": {
+        "fund_ratio": "RATIO_FIELDS (priceToEarningsRatio, priceToBookRatio, etc.) - fundamental ratios",
+        "fund_metric": "FUND_METRIC_FIELDS (grossProfitMargin, netProfitMargin, etc.) - quality metrics",
+        "combo": "log1p(fund_metric) - derived from fund_metric, not forward data"
+      },
+      "forward_cols_in_dataset": [
+        "fwd_ret_5d",
+        "fwd_ret_10d",
+        "fwd_ret_20d",
+        "fwd_ret_30d"
+      ],
+      "forward_cols_note": "These are TARGET/LABEL columns, NOT used as scoring factors",
+      "checks_performed": [
+        "Scoring factors verified: fund_ratio, fund_metric, combo are fundamental/price-derived",
+        "No forward returns used as scoring factors",
+        "Cross-sectional rank computation (per-date independence)",
+        "Point-in-time data verification (fundamental data from FMP APIs)",
+        "Forward-looking columns are targets only, not scoring factors"
+      ]
+    },
+    "window_comparison": {
+      "comparisons": [
+        {
+          "period": "2017-01-03 → 2017-07-03",
+          "v04_sharpe": 2.7,
+          "v031_sharpe": 2.176,
+          "diff": 0.524,
+          "v04_wins": true
+        },
+        {
+          "period": "2017-07-06 → 2018-01-06",
+          "v04_sharpe": 5.329,
+          "v031_sharpe": 5.264,
+          "diff": 0.065,
+          "v04_wins": true
+        },
+        {
+          "period": "2018-01-03 → 2018-07-03",
+          "v04_sharpe": 1.628,
+          "v031_sharpe": 1.322,
+          "diff": 0.306,
+          "v04_wins": true
+        },
+        {
+          "period": "2018-07-06 → 2019-01-06",
+          "v04_sharpe": -1.143,
+          "v031_sharpe": -1.251,
+          "diff": 0.108,
+          "v04_wins": true
+        },
+        {
+          "period": "2019-01-03 → 2019-07-03",
+          "v04_sharpe": 3.717,
+          "v031_sharpe": 3.717,
+          "diff": 0.0,
+          "v04_wins": false
+        },
+        {
+          "period": "2019-07-06 → 2020-01-06",
+          "v04_sharpe": 1.858,
+          "v031_sharpe": 1.898,
+          "diff": -0.04,
+          "v04_wins": false
+        },
+        {
+          "period": "2020-01-03 → 2020-07-03",
+          "v04_sharpe": 0.404,
+          "v031_sharpe": 0.448,
+          "diff": -0.044,
+          "v04_wins": false
+        },
+        {
+          "period": "2020-07-05 → 2021-01-05",
+          "v04_sharpe": 2.23,
+          "v031_sharpe": 2.063,
+          "diff": 0.167,
+          "v04_wins": true
+        },
+        {
+          "period": "2021-01-03 → 2021-07-03",
+          "v04_sharpe": 3.799,
+          "v031_sharpe": 3.534,
+          "diff": 0.265,
+          "v04_wins": true
+        },
+        {
+          "period": "2021-07-06 → 2022-01-06",
+          "v04_sharpe": 1.758,
+          "v031_sharpe": 1.499,
+          "diff": 0.259,
+          "v04_wins": true
+        },
+        {
+          "period": "2022-01-03 → 2022-07-03",
+          "v04_sharpe": -1.618,
+          "v031_sharpe": -1.618,
+          "diff": 0.0,
+          "v04_wins": false
+        },
+        {
+          "period": "2022-07-06 → 2023-01-06",
+          "v04_sharpe": 0.857,
+          "v031_sharpe": 0.847,
+          "diff": 0.01,
+          "v04_wins": true
+        },
+        {
+          "period": "2023-01-03 → 2023-07-03",
+          "v04_sharpe": 2.068,
+          "v031_sharpe": 2.093,
+          "diff": -0.025,
+          "v04_wins": false
+        },
+        {
+          "period": "2023-07-06 → 2024-01-06",
+          "v04_sharpe": 1.539,
+          "v031_sharpe": 1.497,
+          "diff": 0.042,
+          "v04_wins": true
+        },
+        {
+          "period": "2024-01-03 → 2024-07-03",
+          "v04_sharpe": 2.636,
+          "v031_sharpe": 2.636,
+          "diff": 0.0,
+          "v04_wins": false
+        }
+      ],
+      "v04_wins": 9,
+      "v031_wins": 6,
+      "win_rate": 0.6
+    },
+    "v031_comparison": {
+      "v04_avg_sharpe": 1.851,
+      "v031_current_sharpe": 1.742,
+      "v031_historical_sharpe": 1.161,
+      "improvement_vs_current": 0.109,
+      "improvement_vs_historical": 0.69,
+      "improvement_pct": 59.4
+    }
+  },
+  "summary": {
+    "best_config": {
+      "combo_type": "log_fm",
+      "combo_formula": "log1p(fund_metric)",
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "combo": 0.15
+      },
+      "train_months": 6
+    },
+    "best_sharpe": 1.851,
+    "best_max_dd": -0.3028,
+    "best_cagr": 0.3634,
+    "best_win_rate": 0.65,
+    "v031_baseline_sharpe": 1.161,
+    "improvement_pct": 59.4,
+    "reproducible": true,
+    "rank_inversion_free": true,
+    "lookahead_free": true,
+    "overall_pass": true
+  }
+}

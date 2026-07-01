@@ -1,0 +1,378 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-01T17:00:00",
+    "task": "Independent Review of V0.4.0/V0.4.1",
+    "reviewer": "REVIEW-1 (independent verification)",
+    "data_files_checked": [
+      "features_v04_1.parquet",
+      "final_validation_results.json",
+      "v040_fixed_validation_results.json",
+      "v041_fixed_validation_results.json",
+      "audit_v040_final.json",
+      "audit_v041_final.json",
+      "audit_v041_final_2.json"
+    ]
+  },
+
+  "data_usage": {
+    "verification_status": "PASS",
+    "findings": [
+      {
+        "id": "DU-1",
+        "check": "V0.4.1 uses features_v04_1.parquet",
+        "result": "CONFIRMED",
+        "evidence": "final_validation.py loads FEATURES_PATH = DATA_DIR / 'features_v04_1.parquet'",
+        "detail": "1,234,580 rows × 156 columns, 476 tickers, 2016-01-04 to 2026-06-26"
+      },
+      {
+        "id": "DU-2",
+        "check": "2025-2026 coverage = 98.9%",
+        "result": "CONFIRMED",
+        "evidence": "Independent computation: 2025-2026 active factor coverage = 98.9%",
+        "detail": "76 PIT factors used, all with >85% coverage in 2025-2026"
+      },
+      {
+        "id": "DU-3",
+        "check": "Factor group compositions correct",
+        "result": "CONFIRMED",
+        "evidence": "fund_ratio=20 factors, fund_metric=19 factors, fund_growth=15, analyst=4, balance=4, cashflow=4, income=6, qoq=4 = 76 total",
+        "detail": "All factor groups verified against final_validation.py FACTOR_GROUPS definition"
+      },
+      {
+        "id": "DU-4",
+        "check": "growth_composite = 0.5*fund_growth + 0.3*analyst + 0.2*income",
+        "result": "CONFIRMED",
+        "evidence": "Code: d.get('fund_growth', 0) * 0.5 + d.get('analyst', 0) * 0.3 + d.get('income', 0) * 0.2",
+        "detail": "Sub-components: 15 fund_growth + 4 analyst + 6 income = 25 raw factors"
+      },
+      {
+        "id": "DU-5",
+        "check": "No data leakage",
+        "result": "CONFIRMED",
+        "evidence": "Analyst fill: cross-sectional median per date (no temporal leakage). Cross-sectional ranks: per-date independent. Walk-Forward: train_end -> test_start, no overlap. RI test forward returns: intentional (predictive test).",
+        "detail": "No forward-looking columns detected. No duplicate ticker-date combinations."
+      },
+      {
+        "id": "DU-6",
+        "check": "No duplicate computation",
+        "result": "CONFIRMED",
+        "evidence": "df.duplicated(subset=['ticker','date']).sum() = 0",
+        "detail": "No duplicate ticker-date rows in features_v04_1.parquet"
+      },
+      {
+        "id": "DU-7",
+        "check": "ANALYST group coverage concern",
+        "result": "WARNING",
+        "evidence": "Analyst group average coverage = 65.3% (a_eps_dispersion missing 71.7%)",
+        "detail": "After median fill, coverage becomes 100%. The fill method is cross-sectional median per date, which is safe but introduces artificial data."
+      }
+    ],
+    "summary": "Data usage is correct. No data leakage or duplicate computation. The analyst group has low raw coverage (65.3%) but after median fill becomes 100%. This is a minor concern but not a blocker."
+  },
+
+  "wf_results": {
+    "verification_status": "PASS_WITH_NOTES",
+    "findings": [
+      {
+        "id": "WF-1",
+        "check": "WF Sharpe computation method",
+        "result": "CONFIRMED",
+        "evidence": "WF Sharpe = mean of window-level Sharpes. All three models: reported value matches computed mean.",
+        "detail": "V0.3.1: 1.465, V0.4.0: 1.267, V0.4.1: 1.603 — all match independently computed means."
+      },
+      {
+        "id": "WF-2",
+        "check": "WF Sharpe std uses population std (ddof=0)",
+        "result": "MINOR_ISSUE",
+        "evidence": "Reported std matches population std (ddof=0), not sample std (ddof=1). Example: V0.4.1 reported=1.293, pop_std=1.293, sample_std=1.328.",
+        "detail": "This is a minor reporting issue. Population std is slightly smaller than sample std, making the reported std appear more favorable. Does not affect Sharpe computation."
+      },
+      {
+        "id": "WF-3",
+        "check": "Train/test window划分合理",
+        "result": "CONFIRMED",
+        "evidence": "train_years=0.5 (6 months), test_months=6. Expanding window: train_start advances by test_months each iteration.",
+        "detail": "19 windows from 2016-07 to 2026-01. Each window: 6 months train + 6 months test. No overlap between train and test."
+      },
+      {
+        "id": "WF-4",
+        "check": "No look-ahead bias in WF",
+        "result": "CONFIRMED",
+        "evidence": "BacktestEngine._simulate uses only ranks from test period dates. No training data leaks into test period.",
+        "detail": "Walk-Forward correctly uses expanding window with clear train/test separation."
+      },
+      {
+        "id": "WF-5",
+        "check": "WF Sharpe statistical significance",
+        "result": "CONFIRMED",
+        "evidence": "All models: t-stat > 4.0, p-value < 0.001 (one-sided test H0: mu<=0)",
+        "detail": "V0.3.1: t=4.332, p=0.0002. V0.4.0: t=4.239, p=0.0002. V0.4.1: t=5.260, p<0.0001. All significantly > 0."
+      },
+      {
+        "id": "WF-6",
+        "check": "Negative Sharpe windows",
+        "result": "WARNING",
+        "evidence": "V0.3.1: 1/19 (5%), V0.4.0: 3/19 (16%), V0.4.1: 2/19 (11%)",
+        "detail": "V0.4.0 has the most negative windows (16%), which is concerning. V0.4.1 has 2 negative windows (2018 H2 bear market, 2020 H1 COVID crash)."
+      },
+      {
+        "id": "WF-7",
+        "check": "V0.4.1 vs baseline (equal-weight top-10)",
+        "result": "CONFIRMED_BARELY",
+        "evidence": "V0.4.1 mean Sharpe=1.603, baseline mean Sharpe=1.528. Beats baseline in 10/19 windows (53%).",
+        "detail": "V0.4.1 only marginally beats baseline. V0.3.1 does NOT beat baseline (1.465 vs 1.507). V0.4.0 does NOT beat baseline (1.267 vs 1.404)."
+      },
+      {
+        "id": "WF-8",
+        "check": "Degradation analysis",
+        "result": "CONFIRMED_UNUSUAL",
+        "evidence": "All three models show NEGATIVE degradation (recent windows BETTER than early). V0.3.1: -6.3%, V0.4.0: -10.5%, V0.4.1: -13.5%.",
+        "detail": "This is unusual but positive. Recent windows (2021+) have higher Sharpe than early windows (2016-2020). The degradation formula: (early-recent)/early * 100. Negative = improvement."
+      },
+      {
+        "id": "WF-9",
+        "check": "Cross-validation between scripts",
+        "result": "DISCREPANCY_FOUND",
+        "evidence": "v040_fixed_validation.py reports WF Sharpe=1.306, while final_validation.py reports V0.4.0 WF Sharpe=1.267. Difference=0.039 (3.0%).",
+        "detail": "The discrepancy is in W0 (2.642 vs 1.995, diff=0.647). Other windows match. Root cause: different factor group definitions (v040_fixed uses only 2 groups, final uses 8 groups). The final_validation.py results are used as the authoritative source."
+      }
+    ],
+    "summary": "WF results are correctly computed. Minor issues: population std used instead of sample std, V0.4.1 barely beats baseline, cross-script discrepancy in V0.4.0 (3% difference in Sharpe). The WF Sharpe is statistically significant for all models."
+  },
+
+  "ri_results": {
+    "verification_status": "PASS_WITH_NOTES",
+    "findings": [
+      {
+        "id": "RI-1",
+        "check": "Top5% vs Bottom20% calculation correct",
+        "result": "CONFIRMED",
+        "evidence": "Code: n_top5 = max(1, int(len(sorted_returns) * 0.05)), n_bottom20 = max(1, int(len(sorted_returns) * 0.20)). head(n_top5).mean() vs tail(n_bottom20).mean().",
+        "detail": "RI pass criteria: avg_top5_return > avg_bottom20_return. Window pass rate > 60% = overall pass."
+      },
+      {
+        "id": "RI-2",
+        "check": "63.2% pass rate for V0.4.1",
+        "result": "CONFIRMED",
+        "evidence": "12/19 windows passed. 12/19 = 0.6316 = 63.2%. Matches claimed value.",
+        "detail": "V0.3.1: 8/19=42.1%, V0.4.0: 9/19=47.4%, V0.4.1: 12/19=63.2%. All match independently."
+      },
+      {
+        "id": "RI-3",
+        "check": "Statistical significance of RI spread",
+        "result": "NOT_SIGNIFICANT",
+        "evidence": "V0.4.1: mean spread=0.0028, t-stat=0.544, p-value=0.5933 (two-sided). NOT significant at 5% or 10%.",
+        "detail": "The mean RI spread is positive but not statistically significant. The high variance (std=0.0228) makes it hard to distinguish from zero. This means we cannot confidently say V0.4.1's ranking ability is better than random."
+      },
+      {
+        "id": "RI-4",
+        "check": "RI failure pattern analysis",
+        "result": "PATTERN_IDENTIFIED",
+        "evidence": "V0.4.1 fails in: W4 (2018 bear), W5 (2019 recovery), W8 (COVID recovery), W13-W14 (2023 AI rally), W16 (2024 momentum), W17 (2025 recent).",
+        "detail": "RI fails during momentum-driven rallies where beaten-down stocks outperform quality stocks. The worst failure is W8 (2020-07 to 2021-01): spread=-0.0547, where COVID recovery momentum favored beaten-down stocks."
+      },
+      {
+        "id": "RI-5",
+        "check": "RI test window consistency with WF",
+        "result": "CONFIRMED",
+        "evidence": "Both RI and WF use train_months=6, test_months=6, hold_days=30. Same window definitions.",
+        "detail": "RI test is a simpler version of WF: it checks if top5% 30-day return > bottom20% 30-day return, without actual portfolio construction."
+      },
+      {
+        "id": "RI-6",
+        "check": "V0.4.1 RI improvement over V0.4.0",
+        "result": "CONFIRMED",
+        "evidence": "V0.4.1 improves on V0.4.0 in 4 windows: W7 (from -0.016 to +0.001), W15 (from -0.006 to +0.009), W18 (from -0.009 to +0.017). W7 and W18 flip from fail to pass.",
+        "detail": "The growth_composite factor helps in COVID recovery (W7) and recent period (W18), but hurts in 2018 bear (W4) and 2023 AI rally (W13-W14)."
+      },
+      {
+        "id": "RI-7",
+        "check": "63.2% is marginal pass",
+        "result": "WARNING",
+        "evidence": "63.2% is only 3.2 percentage points above the 60% threshold. If 1 more window flipped, it would be 57.9% (fail).",
+        "detail": "The pass is thin. W5 (spread=-0.0005, nearly zero) and W14 (spread=-0.0023) are close to flipping. The model's ranking ability is fragile."
+      }
+    ],
+    "summary": "RI calculation is correct. V0.4.1 achieves 63.2% pass rate (12/19), but the result is not statistically significant (p=0.59). The pass is marginal (only 3.2pp above threshold). RI fails during momentum-driven rallies. The growth_composite factor helps in some regimes but hurts in others."
+  },
+
+  "factor_effectiveness": {
+    "verification_status": "PARTIAL",
+    "findings": [
+      {
+        "id": "FE-1",
+        "check": "fund_ratio effectiveness",
+        "result": "CORE_FACTOR",
+        "evidence": "All three models use fund_ratio at 0.70 weight. It is the dominant factor group with 20 factors covering valuation, profitability, leverage, and dividends.",
+        "detail": "fund_ratio alone would be the baseline. Adding other factors modifies the ranking. The 0.70 weight is conservative but consistent across all models."
+      },
+      {
+        "id": "FE-2",
+        "check": "fund_metric effectiveness",
+        "result": "MIXED",
+        "evidence": "V0.3.1 uses fund_metric at 0.10 weight. V0.4.0 uses it at 0.15 + log_metric at 0.15. V0.4.1 drops it entirely.",
+        "detail": "fund_metric (19 factors: earnings yield, EV multiples, ROE, ROA, etc.) does not improve RI over V0.3.1. V0.4.0 (with fund_metric) has worse RI (47.4%) than V0.3.1 (42.1%). V0.4.1 (without fund_metric) has better RI (63.2%)."
+      },
+      {
+        "id": "FE-3",
+        "check": "growth_composite effectiveness",
+        "result": "IMPROVES_RI_BUT_RISKY",
+        "evidence": "V0.4.1 uses growth_composite at 0.30 weight. RI improves from 42.1% (V0.3.1) to 63.2% (V0.4.1). Sharpe improves from 1.465 to 1.603.",
+        "detail": "growth_composite = 0.5*fund_growth + 0.3*analyst + 0.2*income. The growth tilt helps in quality-driven markets but hurts in momentum-driven rallies (2018 bear, 2023 AI rally)."
+      },
+      {
+        "id": "FE-4",
+        "check": "analyst effectiveness",
+        "result": "UNCERTAIN",
+        "evidence": "V0.3.1 uses analyst at 0.20 weight. V0.4.1 includes analyst indirectly via growth_composite (0.30*0.30=0.09 effective weight).",
+        "detail": "Analyst group has only 4 factors with 65.3% raw coverage (a_eps_dispersion missing 71.7%). After median fill, coverage is 100% but the filled data may not add real information."
+      },
+      {
+        "id": "FE-5",
+        "check": "fund_growth effectiveness",
+        "result": "POSITIVE",
+        "evidence": "V0.4.1 includes fund_growth via growth_composite (0.30*0.50=0.15 effective weight). The 15 growth factors (revenue growth, profit growth, EPS growth, etc.) help identify high-growth stocks.",
+        "detail": "fund_growth is the largest sub-component of growth_composite. It contributes to the Sharpe improvement from 1.465 to 1.603."
+      },
+      {
+        "id": "FE-6",
+        "check": "income effectiveness",
+        "result": "MINOR",
+        "evidence": "V0.4.1 includes income via growth_composite (0.30*0.20=0.06 effective weight). 6 factors covering margin trends.",
+        "detail": "Income factors (gross/operating/net/EBITDA margin, revenue growth YoY, gross margin delta) provide margin trend signals. Low effective weight limits impact."
+      },
+      {
+        "id": "FE-7",
+        "check": "Which factors might be harmful?",
+        "result": "IDENTIFIED",
+        "evidence": "RI failures correlate with momentum-driven rallies. fund_ratio (value tilt) underperforms when beaten-down stocks rally. growth_composite adds growth tilt which helps in quality rallies but hurts in momentum rallies.",
+        "detail": "Potentially harmful: r_inventoryTurnover (flipped, may capture value traps), a_eps_dispersion (71% missing, filled with median), g_debtGrowth (flipped, may capture distressed stocks)."
+      },
+      {
+        "id": "FE-8",
+        "check": "FLIP_FACTORS correctness",
+        "result": "MOSTLY_CORRECT",
+        "evidence": "21 factors correctly flipped: valuation (PE/PB/PS/PCF/EV), leverage (D/E, financial leverage), inventory, debt-related, capex, eps_dispersion, cash conversion cycle.",
+        "detail": "Some debatable flips: r_inventoryTurnover (higher turnover can be good or bad), g_receivablesGrowth (growth in receivables may indicate sales growth or collection problems)."
+      }
+    ],
+    "summary": "fund_ratio is the core factor (0.70 weight). growth_composite improves RI and Sharpe but is fragile. fund_metric does not help and is dropped in V0.4.1. analyst has low raw coverage. fund_growth is the most effective sub-component. Some factors may be harmful (value traps, filled data)."
+  },
+
+  "optimization_directions": {
+    "findings": [
+      {
+        "id": "OD-1",
+        "direction": "Weight sensitivity analysis",
+        "priority": "HIGH",
+        "detail": "Test fund_ratio weights: 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80 with growth_composite=1-weight. The current 0.70 may not be optimal. V0.4.1 barely beats baseline (1.603 vs 1.528), suggesting the model's edge is thin."
+      },
+      {
+        "id": "OD-2",
+        "direction": "growth_composite sub-weight optimization",
+        "priority": "MEDIUM",
+        "detail": "Current: 0.5*fund_growth + 0.3*analyst + 0.2*income. Try: 0.6*growth + 0.25*analyst + 0.15*income, or 0.7*growth + 0.2*analyst + 0.1*income. The analyst group has low raw coverage (65.3%), so reducing its weight may help."
+      },
+      {
+        "id": "OD-3",
+        "direction": "Add fund_metric back at low weight",
+        "priority": "MEDIUM",
+        "detail": "Try: fund_ratio=0.65 + growth_composite=0.25 + fund_metric=0.10. fund_metric was dropped in V0.4.1, but it may provide diversification. V0.4.0 used fund_metric at 0.15+0.15 and achieved Sharpe=1.267."
+      },
+      {
+        "id": "OD-4",
+        "direction": "Regime-adaptive weighting",
+        "priority": "HIGH",
+        "detail": "RI fails during momentum rallies (2018 bear, 2020 COVID recovery, 2023 AI rally). Consider: (1) VIX-based regime detection, (2) momentum factor to switch between value and growth tilt, (3) dynamic weight adjustment based on recent market conditions."
+      },
+      {
+        "id": "OD-5",
+        "direction": "Training window optimization",
+        "priority": "MEDIUM",
+        "detail": "Current: train=6 months, test=6 months. Try: train=12 months (more data for stable weights), train=3 months (more responsive to regime changes). The 6-month training window may be too short for stable weight estimation."
+      },
+      {
+        "id": "OD-6",
+        "direction": "Factor pruning",
+        "priority": "LOW",
+        "detail": "Remove factors with low IC/ICIR or high correlation. Specific candidates: r_inventoryTurnover (value trap risk), a_eps_dispersion (71% missing), g_debtGrowth (distressed stock risk). Test with reduced factor set to check if noise reduction improves RI."
+      },
+      {
+        "id": "OD-7",
+        "direction": "Improve RI robustness",
+        "priority": "HIGH",
+        "detail": "63.2% pass rate is marginal (3.2pp above 60% threshold). W5 (spread=-0.0005) and W14 (spread=-0.0023) are close to flipping. Consider: (1) larger top_n in RI test, (2) shorter hold_days (15 instead of 30), (3) different RI threshold (Top10% vs Bottom30%)."
+      },
+      {
+        "id": "OD-8",
+        "direction": "Address analyst data quality",
+        "priority": "MEDIUM",
+        "detail": "Analyst group has 65.3% raw coverage. a_eps_dispersion is missing 71.7%. After median fill, coverage is 100% but the filled data may not add real information. Consider: (1) dropping a_eps_dispersion, (2) using only analyst factors with >90% coverage, (3) imputing with 0 instead of median."
+      },
+      {
+        "id": "OD-9",
+        "direction": "Fix Sharpe std reporting",
+        "priority": "LOW",
+        "detail": "Reported std uses population std (ddof=0) instead of sample std (ddof=1). This is a minor issue but should be corrected for consistency with standard practice. Sample std would be slightly larger (e.g., 1.328 vs 1.293 for V0.4.1)."
+      },
+      {
+        "id": "OD-10",
+        "direction": "Production deployment consideration",
+        "priority": "HIGH",
+        "detail": "V0.4.1 achieves higher Sharpe and RI than V0.3.1, but: (1) MaxDD is worse (-31.1% vs -29.1%), (2) V0.4.1 barely beats baseline (53% of windows), (3) RI is not statistically significant (p=0.59), (4) RI pass is marginal (63.2% vs 60% threshold). Consider: (1) paper trading V0.4.1 for 3 months before full deployment, (2) using V0.3.1 as primary with V0.4.1 as secondary signal."
+      }
+    ],
+    "summary": "The model's edge is thin (barely beats baseline). Key optimization directions: weight sensitivity analysis, regime-adaptive weighting, RI robustness improvement. The 63.2% RI pass rate is marginal and not statistically significant. Production deployment should be cautious."
+  },
+
+  "critical_issues": [
+    {
+      "id": "CI-1",
+      "severity": "HIGH",
+      "issue": "RI spread is not statistically significant",
+      "detail": "V0.4.1 mean RI spread=0.0028, p-value=0.5933 (two-sided). We cannot confidently say the model's ranking ability is better than random. The 63.2% pass rate may be due to chance.",
+      "recommendation": "Increase test period or use bootstrap to assess RI significance. Consider using IC/ICIR instead of binary pass/fail for RI."
+    },
+    {
+      "id": "CI-2",
+      "severity": "HIGH",
+      "issue": "V0.4.1 barely beats baseline",
+      "detail": "V0.4.1 mean Sharpe=1.603, baseline mean Sharpe=1.528. Only 53% of windows beat baseline. The model's edge over simple equal-weight strategy is thin.",
+      "recommendation": "Test if the model's edge is robust to parameter changes. Consider whether the added complexity of factor weighting is justified."
+    },
+    {
+      "id": "CI-3",
+      "severity": "MEDIUM",
+      "issue": "RI pass is marginal (63.2% vs 60% threshold)",
+      "detail": "Only 3.2pp above threshold. W5 (spread=-0.0005) and W14 (spread=-0.0023) are close to flipping. One window change would make it fail.",
+      "recommendation": "Set higher RI threshold (e.g., 70%) or use weighted RI (weight recent windows more)."
+    },
+    {
+      "id": "CI-4",
+      "severity": "MEDIUM",
+      "issue": "MaxDD increased in V0.4.1",
+      "detail": "V0.4.1 MaxDD=-31.1% vs V0.3.1 MaxDD=-29.1%. The growth tilt increases downside risk.",
+      "recommendation": "Consider tighter stop-loss or position limits during high-volatility periods."
+    },
+    {
+      "id": "CI-5",
+      "severity": "LOW",
+      "issue": "Cross-script discrepancy for V0.4.0",
+      "detail": "v040_fixed_validation.py reports WF Sharpe=1.306, final_validation.py reports 1.267. Difference=0.039 (3.0%). Root cause: different factor group definitions.",
+      "recommendation": "Use final_validation.py results as authoritative. Standardize factor group definitions across scripts."
+    },
+    {
+      "id": "CI-6",
+      "severity": "LOW",
+      "issue": "v041_fixed_validation_results.json is misleading",
+      "detail": "The file name suggests V0.4.1 results, but it actually contains V0.4.0 weight results (fund_ratio=0.70 + fund_metric=0.15 + log_metric=0.15).",
+      "recommendation": "Rename file or add clear metadata. This caused confusion during verification."
+    }
+  ],
+
+  "overall_verdict": {
+    "status": "CONDITIONAL_PASS",
+    "summary": "V0.4.1 is the best of the three models tested, with highest Sharpe (1.603) and only model passing RI (63.2%). However, the results have significant caveats: (1) RI is not statistically significant (p=0.59), (2) barely beats baseline (53% of windows), (3) RI pass is marginal (3.2pp above threshold), (4) MaxDD increased. The model's edge is thin and fragile. Production deployment should be cautious, with paper trading recommended before full deployment.",
+    "recommendation": "V0.4.1 can be used as a research model but should not replace V0.3.1 in production without further validation. Key next steps: weight sensitivity analysis, regime-adaptive weighting, RI robustness improvement."
+  }
+}

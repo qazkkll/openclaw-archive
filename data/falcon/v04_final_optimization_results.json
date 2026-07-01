@@ -1,0 +1,596 @@
+{
+  "timestamp": "2026-07-01T08:14:54.360853",
+  "task": "T5.7 Final Optimization: Weight Fine-tuning + Advanced Techniques",
+  "config": {
+    "test_months": 6,
+    "hold_days": 30,
+    "top_n": 10,
+    "cost": 0.001,
+    "stop_loss": -0.15
+  },
+  "results": {
+    "test1_weight_tuning": {
+      "results": {
+        "fr0.85_fm0.15": {
+          "sharpe": 1.642,
+          "max_dd": -0.2695,
+          "cagr": 0.3098,
+          "win_rate": 0.643,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.031,
+            "early_avg_sharpe": 2.668,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.88_fm0.12": {
+          "sharpe": 1.586,
+          "max_dd": -0.2695,
+          "cagr": 0.2961,
+          "win_rate": 0.636,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.194,
+            "early_avg_sharpe": 2.36,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.90_fm0.10": {
+          "sharpe": 1.483,
+          "max_dd": -0.2746,
+          "cagr": 0.2767,
+          "win_rate": 0.625,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.221,
+            "early_avg_sharpe": 2.021,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.92_fm0.08": {
+          "sharpe": 1.519,
+          "max_dd": -0.2746,
+          "cagr": 0.2871,
+          "win_rate": 0.628,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.28,
+            "early_avg_sharpe": 2.029,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.95_fm0.05": {
+          "sharpe": 1.489,
+          "max_dd": -0.2775,
+          "cagr": 0.2677,
+          "win_rate": 0.623,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.278,
+            "early_avg_sharpe": 2.15,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        }
+      },
+      "best_combo": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      },
+      "elapsed_seconds": 1.1
+    },
+    "test2_training_windows": {
+      "results": {
+        "3mo": {
+          "sharpe": 1.49,
+          "max_dd": -0.2865,
+          "cagr": 0.2786,
+          "win_rate": 0.658,
+          "n_trades": 644,
+          "n_windows": 16,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.874,
+            "early_avg_sharpe": 2.345,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "4mo": {
+          "sharpe": 1.598,
+          "max_dd": -0.2952,
+          "cagr": 0.3148,
+          "win_rate": 0.643,
+          "n_trades": 641,
+          "n_windows": 16,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.873,
+            "early_avg_sharpe": 2.829,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "5mo": {
+          "sharpe": 1.42,
+          "max_dd": -0.3297,
+          "cagr": 0.2564,
+          "win_rate": 0.607,
+          "n_trades": 641,
+          "n_windows": 16,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.816,
+            "early_avg_sharpe": 2.943,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "6mo": {
+          "sharpe": 1.642,
+          "max_dd": -0.2695,
+          "cagr": 0.3098,
+          "win_rate": 0.643,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.031,
+            "early_avg_sharpe": 2.668,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "7mo": {
+          "sharpe": 1.474,
+          "max_dd": -0.2584,
+          "cagr": 0.2763,
+          "win_rate": 0.637,
+          "n_trades": 600,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.283,
+            "early_avg_sharpe": 2.336,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "8mo": {
+          "sharpe": 1.407,
+          "max_dd": -0.2428,
+          "cagr": 0.2783,
+          "win_rate": 0.635,
+          "n_trades": 612,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.514,
+            "early_avg_sharpe": 2.361,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "9mo": {
+          "sharpe": 1.42,
+          "max_dd": -0.2865,
+          "cagr": 0.2779,
+          "win_rate": 0.652,
+          "n_trades": 604,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.874,
+            "early_avg_sharpe": 2.25,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        }
+      },
+      "best_window": "6mo",
+      "elapsed_seconds": 1.6
+    },
+    "test3_ensemble": {
+      "results": {
+        "ensemble_3mo": {
+          "sharpe": 1.49,
+          "max_dd": -0.2865,
+          "cagr": 0.2786,
+          "win_rate": 0.658,
+          "n_trades": 644,
+          "n_windows": 16,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.874,
+            "early_avg_sharpe": 2.345,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_6mo": {
+          "sharpe": 1.642,
+          "max_dd": -0.2695,
+          "cagr": 0.3098,
+          "win_rate": 0.643,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.031,
+            "early_avg_sharpe": 2.668,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_9mo": {
+          "sharpe": 1.42,
+          "max_dd": -0.2865,
+          "cagr": 0.2779,
+          "win_rate": 0.652,
+          "n_trades": 604,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.874,
+            "early_avg_sharpe": 2.25,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_w1": {
+          "sharpe": 1.642,
+          "max_dd": -0.2695,
+          "cagr": 0.3098,
+          "win_rate": 0.643,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.031,
+            "early_avg_sharpe": 2.668,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_w2": {
+          "sharpe": 1.483,
+          "max_dd": -0.2746,
+          "cagr": 0.2767,
+          "win_rate": 0.625,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.221,
+            "early_avg_sharpe": 2.021,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_w3": {
+          "sharpe": 1.489,
+          "max_dd": -0.2775,
+          "cagr": 0.2677,
+          "win_rate": 0.623,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.278,
+            "early_avg_sharpe": 2.15,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        }
+      },
+      "elapsed_seconds": 1.3
+    },
+    "test4_factor_engineering": {
+      "results": {
+        "baseline": {
+          "sharpe": 1.642,
+          "max_dd": -0.2695,
+          "cagr": 0.3098,
+          "win_rate": 0.643,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.031,
+            "early_avg_sharpe": 2.668,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "combo_01": {
+          "sharpe": 1.71,
+          "max_dd": -0.2769,
+          "cagr": 0.3318,
+          "win_rate": 0.645,
+          "n_trades": 603,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.125,
+            "early_avg_sharpe": 2.656,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "combo_02": {
+          "sharpe": 1.732,
+          "max_dd": -0.2898,
+          "cagr": 0.3311,
+          "win_rate": 0.64,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.143,
+            "early_avg_sharpe": 2.896,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "pure_combo": {
+          "sharpe": 1.593,
+          "max_dd": -0.2811,
+          "cagr": 0.3114,
+          "win_rate": 0.622,
+          "n_trades": 603,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.094,
+            "early_avg_sharpe": 2.477,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        }
+      },
+      "elapsed_seconds": 2.1
+    }
+  },
+  "candidates": [
+    {
+      "name": "weight_fr0.85_fm0.15",
+      "sharpe": 1.642,
+      "max_dd": -0.2695,
+      "cagr": 0.3098,
+      "win_rate": 0.643,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    },
+    {
+      "name": "window_6mo",
+      "sharpe": 1.642,
+      "max_dd": -0.2695,
+      "cagr": 0.3098,
+      "win_rate": 0.643,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    },
+    {
+      "name": "factor_baseline",
+      "sharpe": 1.642,
+      "max_dd": -0.2695,
+      "cagr": 0.3098,
+      "win_rate": 0.643,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    },
+    {
+      "name": "factor_combo_01",
+      "sharpe": 1.71,
+      "max_dd": -0.2769,
+      "cagr": 0.3318,
+      "win_rate": 0.645,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    },
+    {
+      "name": "factor_combo_02",
+      "sharpe": 1.732,
+      "max_dd": -0.2898,
+      "cagr": 0.3311,
+      "win_rate": 0.64,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    },
+    {
+      "name": "factor_pure_combo",
+      "sharpe": 1.593,
+      "max_dd": -0.2811,
+      "cagr": 0.3114,
+      "win_rate": 0.622,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    }
+  ],
+  "passed_candidates": [
+    {
+      "name": "factor_combo_02",
+      "sharpe": 1.732,
+      "max_dd": -0.2898,
+      "cagr": 0.3311,
+      "win_rate": 0.64,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    },
+    {
+      "name": "factor_combo_01",
+      "sharpe": 1.71,
+      "max_dd": -0.2769,
+      "cagr": 0.3318,
+      "win_rate": 0.645,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    },
+    {
+      "name": "weight_fr0.85_fm0.15",
+      "sharpe": 1.642,
+      "max_dd": -0.2695,
+      "cagr": 0.3098,
+      "win_rate": 0.643,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    },
+    {
+      "name": "window_6mo",
+      "sharpe": 1.642,
+      "max_dd": -0.2695,
+      "cagr": 0.3098,
+      "win_rate": 0.643,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    },
+    {
+      "name": "factor_baseline",
+      "sharpe": 1.642,
+      "max_dd": -0.2695,
+      "cagr": 0.3098,
+      "win_rate": 0.643,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    },
+    {
+      "name": "factor_pure_combo",
+      "sharpe": 1.593,
+      "max_dd": -0.2811,
+      "cagr": 0.3114,
+      "win_rate": 0.622,
+      "rank_inversion_passed": true,
+      "train_months": 6,
+      "weights": {
+        "fund_ratio": 0.85,
+        "fund_metric": 0.15
+      }
+    }
+  ],
+  "failed_candidates": [],
+  "best_candidate": {
+    "name": "factor_combo_02",
+    "sharpe": 1.732,
+    "max_dd": -0.2898,
+    "cagr": 0.3311,
+    "win_rate": 0.64,
+    "rank_inversion_passed": true,
+    "train_months": 6,
+    "weights": {
+      "fund_ratio": 0.85,
+      "fund_metric": 0.15
+    }
+  },
+  "summary": {
+    "best_weights": {
+      "fund_ratio": 0.85,
+      "fund_metric": 0.15
+    },
+    "best_window": "6mo",
+    "best_train_months": 6,
+    "best_sharpe": 1.732,
+    "best_rank_inversion": true
+  }
+}

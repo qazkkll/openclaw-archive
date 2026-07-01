@@ -209,6 +209,26 @@
           "reasoning": "GG 64分 元器件 RSI=80.6偏高 20日涨125%",
           "timeframe": "1d"
         }
+      ],
+      "reviewed": true,
+      "actual_results": {
+        "002552 宝鼎科技": {
+          "actual": -12.85,
+          "verdict": "WRONG - GG signal but RSI=90 overbought, stock dropped -12.85% from prediction date"
+        },
+        "300260 新莱应材": {
+          "actual": 31.76,
+          "verdict": "CORRECT - GG signal with moderate RSI=62.6, stock surged +31.76%"
+        },
+        "600353 旭光电子": {
+          "actual": -12.3,
+          "verdict": "WRONG - GG signal but RSI=80.6 overbought, stock dropped -12.30%"
+        }
+      },
+      "lessons": [
+        "GG signals with RSI>80 are dangerous - 2 of 3 high-RSI GG picks lost >12%",
+        "Only the moderate RSI (62.6) GG pick worked - confirms R015 RSI filter",
+        "Agent picked all 3 as bullish - R013 violation (agent should not override model ranking)"
       ]
     },
     {
@@ -315,6 +335,45 @@
           "confidence": 0.5,
           "reasoning": "BlueShield V10 Top3, 距52W高仅0.1%即将突破, Forward P/E=12.1合理. 但评分2.96远低于前两名, Beta=1.26高波动, 观望为主.",
           "timeframe": "1w"
+        }
+      ]
+    },
+    {
+      "market": "us",
+      "date": "20260701",
+      "time": "21:00",
+      "type": "pre_market",
+      "macro_context": "VIX 16.85, SPY $746.77(+0.78%), QQQ $736.4(+1.7%). 大盘延续反弹. 评分数据6/24(5个交易日前). 蓝盾Top5平均+13.8%, 绿箭Top5平均-4.5%.",
+      "predictions": [
+        {
+          "target": "QDEL",
+          "direction": "bullish",
+          "confidence": 0.7,
+          "reasoning": "BS Top4, 6/24以来+43.5%表现最强, 医疗器械赛道, score=2.88"
+        },
+        {
+          "target": "KLIC",
+          "direction": "bullish",
+          "confidence": 0.65,
+          "reasoning": "BS Top5, 半导体设备, 6/24以来+8.5%, score=2.15, 估值合理"
+        },
+        {
+          "target": "DXC",
+          "direction": "bullish",
+          "confidence": 0.6,
+          "reasoning": "GA Top5唯一正收益(+5.48%), IT服务, $8.85低估区"
+        },
+        {
+          "target": "GLP",
+          "direction": "bullish",
+          "confidence": 0.6,
+          "reasoning": "BS Top1, 能源中游, 6/24以来+5.7%, 估值合理P/E=13"
+        },
+        {
+          "target": "SHPH",
+          "direction": "bearish",
+          "confidence": 0.55,
+          "reasoning": "GA Top2但6/24以来-11.9%, 小盘医药流通风险高"
         }
       ]
     }

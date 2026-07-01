@@ -1,0 +1,132 @@
+{
+  "audit_id": "AUDIT-3",
+  "audit_type": "Final Audit (First Pass)",
+  "target": "Falcon V0.4.1",
+  "timestamp": "2026-07-01",
+  "auditor": "Hermes Agent (independent verification)",
+  
+  "layer1_data_integrity": {
+    "pass": true,
+    "blockers": [],
+    "warnings": [
+      "features_v04_1.parquet contains unadjusted prices in technical factors (ret1, ret5, etc.) with extreme values (e.g., META ret1=13.9 on 2022-06-09 split date). However, backtest uses us_prices_daily.parquet which is properly adjusted — no impact on WF results.",
+      "2016 coverage is ~41% for fundamental factors (data starts 2016-01-04, only ~5.5 months available). First WF window (W0) has limited fundamental coverage.",
+      "vwap column has 56.7% missing (only available 2022+). Not used in V0.4.1 weights so no impact.",
+      "analyst factors (a_eps_revision, etc.) have <5% coverage before 2019, 42% in 2019, 81% in 2020. Median fill is applied but quality degrades in early periods."
+    ],
+    "checks": {
+      "data_file_exists": "PASS — data/falcon/features_v04_1.parquet exists (1,234,580 rows × 156 columns)",
+      "ticker_count": "PASS — 476 unique tickers (matches SPX universe)",
+      "date_range": "PASS — 2016-01-04 to 2026-06-26 (2,635 unique dates)",
+      "date_coverage_by_year": "PASS — 2016:114K, 2017-2025:~115-120K each, 2026:58K (partial)",
+      "no_duplicate_rows": "PASS — all (date, ticker) pairs are unique",
+      "fundamental_coverage_2025_2026": "PASS — r_priceToEarningsRatio: 100%, g_revenueGrowth: 100%, i_gross_margin: 100% in 2025-2026",
+      "fundamental_coverage_2016_2018": "WARNING — analyst factors <5% before 2019, fund_ratio factors 41% in 2016",
+      "missing_values_high": "WARNING — eps_dispersion 71.7%, netProfitMargin_qoq 71.0%, eps_revision 64.9% (all in analyst/fundamental categories, median-filled)",
+      "extreme_values_in_features": "WARNING — ret1 max=1395% (META split 2022-06-09), ret5 max=1333%. These are in features file, not backtest prices."
+    }
+  },
+
+  "layer2_feature_consistency": {
+    "pass": true,
+    "blockers": [],
+    "warnings": [
+      "Growth composite definition: 0.5×fund_growth + 0.3×analyst + 0.2×income. Growth composite weights are applied AFTER group-level rank averaging, creating a two-stage combination. This is correct but adds complexity.",
+      "Analyst median fill uses per-date median. If all stocks in a date have NaN for an analyst factor, fill uses 0.0 as fallback. This can distort rankings on dates with poor analyst coverage.",
+      "FLIP_FACTORS set includes 21 factors marked as 'higher is worse'. The flip logic (1-rank) is applied at the individual factor level before group averaging, which is correct.",
+      "FMP data uses FILING_DELAY_DAYS=33 for PIT alignment. This is a reasonable default but may be too short for some filings (10-K can take 60-90 days) or too long for early filers."
+    ],
+    "checks": {
+      "factor_groups_definition": "PASS — 8 factor groups defined (fund_ratio, fund_metric, fund_growth, analyst, balance, cashflow, income, qoq). Total 76 raw factors across groups.",
+      "cross_sectional_ranking": "PASS — rankdata(method='average') / valid.sum() produces 0-1 percentile ranks. Flip factors correctly inverted with 1-rank.",
+      "group_rank_averaging": "PASS — Each group's factors are averaged into a group-level rank. Correct for equal-weight within group.",
+      "combo_factors": "PASS — growth_composite = 0.5×fund_growth + 0.3×analyst + 0.2×income. Applied at rank level (0-1 range), consistent with group averaging.",
+      "pit_consistency": "PASS — build_features_v041.py uses bisect_right on avail_dates for O(log n) PIT lookup. FILING_DELAY_DAYS=33 applied to quarterly data. Analyst data uses raw date (no delay).",
+      "no_lookahead_in_factors": "PASS — PIT index uses avail_date (filing date + delay), not report date. 2016-01-04 has only 1/450 stocks with fundamental data, confirming PIT is working (pre-2016 data not available).",
+      "analyst_median_fill_method": "WARNING — Per-date median fill is reasonable but: (1) if all stocks have NaN on a date, fill=0 distorts ranking; (2) median of available data may not represent true cross-sectional distribution.",
+      "weight_normalization": "PASS — In final_validation.py, weights are filtered to available groups then normalized (sum=1). No issue."
+    }
+  },
+
+  "layer3_model_validity": {
+    "pass": "conditional",
+    "blockers": [],
+    "warnings": [
+      "V0.4.1 Rank Inversion 63.2% (12/19 windows) is NOT statistically significant vs 50% null hypothesis (p=0.18, binomial test). The 'overall_passed' flag uses threshold >60%, which is arbitrary and not statistically grounded.",
+      "V0.3.1 and V0.4.0 both FAIL Rank Inversion (42.1% and 47.4% respectively), meaning their 'fund_ratio + analyst' and 'fund_ratio + fund_metric' combinations produce inverted rankings in most periods.",
+      "V0.4.1 MaxDD = -31.1% (W7, 2020 COVID). While expected for that period, it exceeds the -15% stop_loss threshold. The stop_loss is per-position, not portfolio-level, so portfolio MaxDD can be much larger.",
+      "Sharpe degradation is -13.5% (recent BETTER than early). This is flagged as PASS but the direction is counterintuitive — recent windows being better could indicate regime-specific alpha that may not persist.",
+      "V0.4.1 Sharpe=1.603 has high variance: Sharpe_std=1.293, ranging from -1.587 to 4.169. The std/mean ratio (0.81) indicates unstable performance."
+    ],
+    "checks": {
+      "walk_forward_sharpe": "PASS — V0.4.1: 1.603 (highest among 3 models). V0.3.1: 1.465, V0.4.0: 1.267.",
+      "walk_forward_maxdd": "WARNING — V0.4.1: -31.1% (worst among 3). V0.3.1: -29.1%, V0.4.0: -28.9%. MaxDD trade-off for higher Sharpe.",
+      "walk_forward_cagr": "PASS — V0.4.1: 28.9% (highest). V0.3.1: 26.7%, V0.4.0: 22.2%.",
+      "walk_forward_win_rate": "PASS — V0.4.1: 61.7%. All models similar (60.9-61.9%).",
+      "rank_inversion_pass_rate": "WARNING — V0.4.1: 63.2% (12/19). Not statistically significant (p=0.18). Threshold of 60% is arbitrary.",
+      "rank_inversion_statistical_significance": "FAIL — None of the 3 models achieve statistically significant rank inversion at 5% level. V0.3.1: p=0.82, V0.4.0: p=0.68, V0.4.1: p=0.18.",
+      "sharpe_degradation": "PASS — V0.4.1: -13.5% (recent better). V0.3.1: -6.3%, V0.4.0: -10.5%. All pass the 75% threshold.",
+      "window_count": "PASS — 19 WF windows (2016-2026), sufficient for statistical robustness.",
+      "no_failed_windows": "PASS — All 19 windows produced valid results (0 failed).",
+      "per_window_stability": "WARNING — V0.4.1 has 7 windows with Sharpe > 2.0 (W0:2.85, W2:4.17, W9:3.06, W15:2.79, W18:2.27) and 2 windows with Sharpe < 0 (W4:-1.59, W7:-0.25). High variance.",
+      "comparison_fairness": "PASS — All 3 models use identical WF configuration (train=6mo, test=6mo, hold=30d, top_n=10, cost=0.001). Same data file (features_v04_1.parquet). Same price data. Fair comparison.",
+      "baseline_comparison": "WARNING — Many V0.4.1 windows underperform baseline (W1:2.29 vs 3.26, W3:0.55 vs 1.89, W5:2.20 vs 3.50, W7:-0.25 vs 1.17, W13:1.24 vs 2.77). The model beats baseline in only 10/19 windows. However, overall Sharpe (1.603) may still beat baseline aggregate.",
+      "overfitting_risk": "WARNING — Sharpe=1.603 with 19 windows and training on same dataset. The expansion from V0.3.1 (fund_ratio+analyst) to V0.4.1 (fund_ratio+growth_composite) adds complexity without clear OOS improvement. Growth composite introduces 3 new factor groups (15 growth + 4 analyst + 6 income = 25 new factors)."
+    }
+  },
+
+  "layer4_signal_production": {
+    "pass": "not_applicable",
+    "blockers": [],
+    "warnings": [
+      "No V0.4.1 scored output file exists. Only V0.3.1/V0.3.2/V0.3.3 scored files found (falcon_v031/v032/v033_scored_20260626.json).",
+      "falcon_score.py currently uses SPX_WEIGHTS (V0.3.1 config) and V033_WEIGHTS (V0.3.3 config), but not V0.4.1 weights (fund_ratio=0.70, growth_composite=0.30).",
+      "V0.3.1 scored file metadata shows model=falcon_v032, version=V0.3.2 — naming inconsistency between filename and content."
+    ],
+    "checks": {
+      "scoring_script_exists": "PASS — scripts/falcon/falcon_score.py exists and is functional.",
+      "v041_scoring_config": "WARNING — falcon_score.py does not have a V0.4.1 weight configuration. Only SPX_WEIGHTS (V0.3.1) and V033_WEIGHTS (V0.3.3) are defined.",
+      "output_format": "PASS — Scored JSON includes model, version, date, universe_size, scored_count, universes, weights, strategy, vix_threshold fields.",
+      "weight_consistency_with_validation": "WARNING — falcon_score.py SPX_WEIGHTS use fund_ratio=0.70, analyst=0.20, fund_metric=0.10 (V0.3.1). V0.4.1 uses fund_ratio=0.70, growth_composite=0.30. No production scoring uses V0.4.1 config."
+    }
+  },
+
+  "layer5_cross_layer_consistency": {
+    "pass": true,
+    "blockers": [],
+    "warnings": [
+      "Data→Features: build_features_v041.py outputs features_v04_1.parquet. The WF validation reads this file. Chain is consistent.",
+      "Features→Model: final_validation.py reads features_v04_1.parquet, applies median fill to analyst factors, computes cross-sectional ranks, then runs WF + RI. No data leakage detected in the computation chain.",
+      "Model→Signal: V0.4.1 has not been deployed to production scoring. falcon_score.py still uses V0.3.1/V0.3.3 weights.",
+      "The rank inversion test computes forward returns using prices[T+hold_days] against scores at time T. This is correct — no look-ahead in the RI computation."
+    ],
+    "checks": {
+      "data_to_features": "PASS — build_features_v041.py uses FMP Premium snapshots with PIT alignment (filing date + 33 days delay). Output: features_v04_1.parquet with 156 columns.",
+      "features_to_model": "PASS — final_validation.py reads features_v04_1.parquet, applies analyst median fill, computes percentile ranks per date, then runs WF backtest via BacktestEngine.",
+      "model_to_signal": "NOT_APPPLICABLE — V0.4.1 not deployed to falcon_score.py. No production signal output exists for V0.4.1.",
+      "no_data_leakage_in_wf": "PASS — Walk-Forward uses expanding train windows. Test period starts AFTER train_end. Scores computed from ranks at test-period dates only. Forward returns computed from prices at future dates. No overlap between training and test data.",
+      "no_data_leakage_in_ri": "PASS — Rank Inversion test uses same WF structure. Scores at date T, returns at T+hold_days. No look-ahead.",
+      "price_data_consistency": "PASS — WF backtest uses us_prices_daily.parquet (properly adjusted, no extreme returns). Features file has unadjusted technical factors but these are not used in the backtest (only rank-level combinations are used).",
+      "analyst_fill_pit_issue": "WARNING — Analyst median fill is applied BEFORE ranking. This means on dates with poor analyst coverage (<5% of stocks have data), the median is computed from a biased sample. The filled values may not represent true cross-sectional distribution."
+    }
+  },
+
+  "summary": {
+    "overall_pass": "conditional",
+    "overall_verdict": "V0.4.1 shows improved Sharpe (1.603 vs V0.3.1's 1.465) and Rank Inversion (63.2% vs 42.1%), but the RI improvement is not statistically significant. The model has NOT been deployed to production scoring. No data leakage detected. Key concerns: (1) RI 63.2% is not statistically different from random chance, (2) high Sharpe variance across windows, (3) many windows underperform baseline.",
+    "blockers_count": 0,
+    "warnings_count": 15,
+    "key_findings": [
+      "V0.4.1 Rank Inversion 63.2% is NOT statistically significant (p=0.18 vs 50% null). The 'overall_passed' flag uses arbitrary 60% threshold.",
+      "All 3 models (V0.3.1/V0.4.0/V0.4.1) fail statistical significance for Rank Inversion at 5% level.",
+      "No data leakage detected in WF or RI computations. PIT alignment is correctly implemented with filing date + 33 days delay.",
+      "V0.4.1 has NOT been deployed to production scoring (falcon_score.py uses V0.3.1/V0.3.3 weights).",
+      "V0.4.1 Sharpe=1.603 has high variance (std=1.293), ranging from -1.587 to 4.169 across windows.",
+      "V0.4.1 MaxDD=-31.1% is worst among 3 models (V0.3.1: -29.1%, V0.4.0: -28.9%).",
+      "Many V0.4.1 windows underperform baseline (equal-weight) Sharpe.",
+      "Features file has unadjusted technical factors (extreme values from stock splits) but backtest uses properly adjusted prices — no impact.",
+      "Analyst factor coverage is poor before 2019 (<5%), improving to 94%+ by 2021. Median fill quality degrades in early periods.",
+      "V0.4.1 growth_composite adds 25 new factors (growth+analyst+income) without clear OOS improvement over V0.3.1."
+    ]
+  }
+}

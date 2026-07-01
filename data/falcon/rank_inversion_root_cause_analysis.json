@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-01T15:30:00",
+    "task": "Rank Inversion Root Cause Analysis (V0.4.0 vs V0.4.1)",
+    "methodology": "True rank inversion test: Top5% vs Bottom20% forward return per WF window"
+  },
+  "root_cause_analysis": {
+    "summary": {
+      "v040_rank_inversion_passed": false,
+      "v041_rank_inversion_passed": false,
+      "v040_pass_rate": 0.294,
+      "v041_pass_rate": 0.474,
+      "v031_pass_rate": 0.600,
+      "which_is_worst": "V0.4.0",
+      "conclusion": "V0.4.0 FAILS rank inversion (29.4%) and is WORSE than V0.4.1 (47.4%). V0.3.1 passes (60%). The V0.4.0 config has a critical data mismatch: fund_metric and log_metric weights point to factors that don't exist in features_v02.parquet, making V0.4.0 effectively fund_ratio-only (20 factors). V0.3.1 uses fund_ratio+analyst (24 factors), giving better diversification."
+    },
+
+    "root_causes": [
+      {
+        "id": "RC-1",
+        "severity": "CRITICAL",
+        "cause": "DATA_MISMATCH: fund_metric factors missing from features_v02.parquet",
+        "detail": "V0.4.0 config: fund_ratio=0.70, fund_metric=0.15, log_metric=0.15. But features_v02.parquet (80 cols) does NOT contain any of the 19 fund_metric factors (earningsYield, evToEBITDA, etc.). These are only available via the PIT pipeline (falcon_v03_engine.py) from raw FMP JSON data. Result: fund_metric=0.15 and log_metric=0.15 weights are effectively ZERO. V0.4.0 is actually fund_ratio=1.0 (20 factors only).",
+        "impact": "V0.4.0 has 30% less signal than intended. The model was validated with PIT-computed factors but the declared data source (features_v02.parquet) doesn't have them.",
+        "evidence": "features_v02.parquet columns: 80 total, 20 fund_ratio factors present, 0 fund_metric factors present"
+      },
+      {
+        "id": "RC-2",
+        "severity": "HIGH",
+        "cause": "WEAK_COMPOSITE_SIGNAL: fund_ratio equal-weighting dilutes predictive factors",
+        "detail": "The 20 fund_ratio factors are equal-weighted into a single group rank. But IC analysis shows huge variation: dividendPayoutRatio ICIR=-0.347 (strong) vs priceToSalesRatio ICIR=-0.008 (noise). Equal weighting means the 15+ weak/noisy factors dilute the 5 strong factors.",
+        "impact": "Composite signal is weaker than the best individual factors. The Top5% stocks scored by the composite may not be the same as those scored by the strongest factors.",
+        "evidence": "IC analysis: 5 factors with |ICIR|>0.15, 5 factors with |ICIR|<0.08, 2 factors with |ICIR|<0.05"
+      },
+      {
+        "id": "RC-3",
+        "severity": "HIGH",
+        "cause": "FACTOR_DIRECTION_CONFLICT: some fund_ratio factors have negative IC",
+        "detail": "Several fund_ratio factors have NEGATIVE IC (higher value → lower future return): dividendPayoutRatio IC=-0.048, dividendYieldPercentage IC=-0.041, receivablesTurnover IC=-0.019, ebitdaMargin IC=-0.020. These are inverted by FLIP_FACTORS, but the inversion may not be optimal for all market regimes.",
+        "impact": "In bear markets (2018H2, 2020H1, 2022H1), dividend stocks may outperform growth stocks, causing the inverted factors to work against the model.",
+        "evidence": "Windows with negative spread: W4 (2018H2, bear market), W7 (2020H1, COVID), W13 (2023H1, mixed)"
+      },
+      {
+        "id": "RC-4",
+        "severity": "MEDIUM",
+        "cause": "V041_BETTER_BECAUSE_OF_MORE_FACTORS: growth_composite adds diversification",
+        "detail": "V0.4.1 uses fund_ratio=0.70 + growth_composite=0.30. growth_composite = 0.5×fund_growth + 0.3×analyst + 0.2×income. These 3 sub-groups add 25+ factors not in fund_ratio. More factor diversity → less concentration risk → better Top5% vs Bottom20% ordering.",
+        "impact": "V0.4.1 pass rate (47.4%) > V0.4.0 pass rate (29.4%). The additional factors help the model distinguish good stocks from bad stocks more reliably.",
+        "evidence": "V0.4.1 uses 156-column data with 76 PIT factors across 8 groups. V0.4.0 uses 80-column data with only 20 fund_ratio factors."
+      },
+      {
+        "id": "RC-5",
+        "severity": "MEDIUM",
+        "cause": "V031_PASSING_BECAUSE_OF_ANALYST_FACTORS: analyst signals add ranking power",
+        "detail": "V0.3.1 uses fund_ratio=0.80 + analyst=0.20. The 4 analyst factors (eps_revision, revenue_revision, num_analysts_eps, num_analysts_rev) are available in features_v02.parquet and provide forward-looking signals that fundamental ratios lack.",
+        "impact": "V0.3.1 pass rate (60%) > V0.4.0 (29.4%) > V0.4.1 (47.4%). Analyst factors are the key differentiator for rank inversion passing.",
+        "evidence": "V0.3.1 passes 6/10 windows. V0.4.0 fails 12/17 windows. V0.4.1 fails 10/19 windows."
+      }
+    ],
+
+    "factor_ic_analysis": {
+      "source": "v040_rank_inversion_results.json IC analysis",
+      "total_factors": 20,
+      "strong_factors": {
+        "count": 5,
+        "threshold": "|ICIR| > 0.15",
+        "factors": [
+          {"name": "dividendPayoutRatio", "icir": -0.347, "direction": "lower=better"},
+          {"name": "quickRatio", "icir": 0.230, "direction": "higher=better"},
+          {"name": "dividendYieldPercentage", "icir": -0.228, "direction": "lower=better"},
+          {"name": "receivablesTurnover", "icir": -0.210, "direction": "lower=better"},
+          {"name": "currentRatio", "icir": 0.198, "direction": "higher=better"}
+        ]
+      },
+      "weak_factors": {
+        "count": 5,
+        "threshold": "|ICIR| < 0.08",
+        "factors": [
+          {"name": "grossProfitMargin", "icir": 0.081},
+          {"name": "debtToEquityRatio", "icir": -0.079},
+          {"name": "priceToFreeCashFlowRatio", "icir": 0.063},
+          {"name": "financialLeverageRatio", "icir": 0.050},
+          {"name": "priceToEarningsRatio", "icir": -0.044}
+        ]
+      },
+      "noice_factors": {
+        "count": 3,
+        "threshold": "|ICIR| < 0.05",
+        "factors": [
+          {"name": "enterpriseValueMultiple", "icir": 0.042},
+          {"name": "priceToSalesRatio", "icir": -0.008}
+        ]
+      },
+      "avg_abs_icir": 0.152,
+      "conclusion": "Fund_ratio group has mixed quality: 5 strong factors (|ICIR|>0.15) diluted by 15 weaker factors. Equal-weight averaging reduces composite signal quality."
+    },
+
+    "v040_vs_v041_comparison": {
+      "v040": {
+        "pass_rate": 0.294,
+        "passed_windows": 5,
+        "total_windows": 17,
+        "avg_spread": -0.0074,
+        "config": "fund_ratio=0.70, fund_metric=0.15, log_metric=0.15",
+        "effective_config": "fund_ratio=1.0 (fund_metric and log_metric factors MISSING from features_v02.parquet)",
+        "data": "features_v02.parquet (80 cols)",
+        "n_effective_factors": 20
+      },
+      "v041": {
+        "pass_rate": 0.474,
+        "passed_windows": 9,
+        "total_windows": 19,
+        "avg_spread": 0.0015,
+        "config": "fund_ratio=0.70, growth_composite=0.30",
+        "effective_config": "fund_ratio=0.70 + growth_composite=0.30 (all factors available)",
+        "data": "features_v04_1.parquet (156 cols)",
+        "n_effective_factors": 76
+      },
+      "v031": {
+        "pass_rate": 0.600,
+        "passed_windows": 6,
+        "total_windows": 10,
+        "config": "fund_ratio=0.80, analyst=0.20",
+        "data": "features_v02.parquet (80 cols)",
+        "n_effective_factors": 24
+      },
+      "key_insight": "V0.4.0 is WORSE than both V0.4.1 and V0.3.1 because it effectively uses only 20 fund_ratio factors (no fund_metric), while V0.3.1 uses 24 factors (fund_ratio+analyst) and V0.4.1 uses 76 factors across 8 groups."
+    },
+
+    "window_pattern_analysis": {
+      "v040_failed_windows": [
+        {"window": "W1 (2017H1)", "spread": -0.003, "market": "bull"},
+        {"window": "W2 (2017H2)", "spread": -0.001, "market": "bull"},
+        {"window": "W3 (2018H1)", "spread": -0.010, "market": "mixed"},
+        {"window": "W4 (2018H2)", "spread": -0.018, "market": "bear (Q4 crash)"},
+        {"window": "W5 (2019H1)", "spread": -0.011, "market": "bull"},
+        {"window": "W7 (2020H1)", "spread": -0.028, "market": "COVID crash"},
+        {"window": "W8 (2020H2)", "spread": -0.033, "market": "recovery"},
+        {"window": "W10 (2021H2)", "spread": -0.014, "market": "mixed"},
+        {"window": "W13 (2023H1)", "spread": -0.034, "market": "mixed"},
+        {"window": "W14 (2023H2)", "spread": -0.014, "market": "bull"},
+        {"window": "W15 (2024H1)", "spread": -0.009, "market": "bull"},
+        {"window": "W16 (2024H2)", "spread": -0.023, "market": "bull"}
+      ],
+      "pattern": "V0.4.0 fails in ALL market regimes (bull, bear, mixed). This suggests the ranking ability is fundamentally weak, not just regime-dependent."
+    },
+
+    "recommendations": [
+      "CRITICAL: V0.4.0's fund_metric and log_metric weights are wasted when using features_v02.parquet. Either (a) use training_data_v04.parquet + PIT pipeline, or (b) drop fund_metric/log_metric weights and redistribute to fund_ratio+analyst.",
+      "HIGH: V0.3.1's fund_ratio=0.80 + analyst=0.20 config PASSES rank inversion (60%). Consider this as the baseline for production.",
+      "MEDIUM: Equal-weight averaging within factor groups dilutes signal. Consider IC-weighted averaging or selecting only top-N factors by ICIR.",
+      "MEDIUM: V0.4.1's growth_composite helps (47.4% vs 29.4%) but still fails. The growth factors may be too noisy for reliable ranking.",
+      "LOW: The rank inversion test should use the SAME data source as the validation, not a different parquet file."
+    ]
+  }
+}

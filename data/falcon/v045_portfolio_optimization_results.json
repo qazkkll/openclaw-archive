@@ -1,0 +1,721 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-01T18:06:38.559239",
+    "task": "V0.4.5 Portfolio Construction Optimization",
+    "config": {
+      "train_years": 0.5,
+      "test_months": 6,
+      "hold_days": 30,
+      "cost": 0.001,
+      "factor_weights": {
+        "fund_ratio": 0.45,
+        "growth_composite": 0.2,
+        "qoq": 0.2,
+        "cashflow": 0.15
+      }
+    },
+    "features": "features_v04_1.parquet",
+    "pit_factors": 76,
+    "factor_groups": {
+      "fund_ratio": 20,
+      "fund_metric": 19,
+      "fund_growth": 15,
+      "analyst": 4,
+      "balance": 4,
+      "cashflow": 4,
+      "income": 6,
+      "qoq": 4
+    },
+    "elapsed_seconds": 145.7
+  },
+  "test1_portfolio_methods": {
+    "description": "Equal vs Market Cap vs Risk Parity",
+    "best_method": "equal",
+    "candidates": [
+      {
+        "name": "method_equal",
+        "category": "portfolio_method",
+        "config": {
+          "portfolio_method": "equal",
+          "top_n": 10,
+          "stop_loss": -0.15
+        },
+        "sharpe": 2.129,
+        "max_dd": -0.2293,
+        "cagr": 0.4303,
+        "win_rate": 0.643,
+        "n_windows": 14,
+        "rank_inversion_passed": true,
+        "rank_inversion_detail": {
+          "passed": true,
+          "recent_avg_sharpe": 1.892,
+          "early_avg_sharpe": 2.743,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        }
+      },
+      {
+        "name": "method_mcap",
+        "category": "portfolio_method",
+        "config": {
+          "portfolio_method": "mcap",
+          "top_n": 10,
+          "stop_loss": -0.15
+        },
+        "sharpe": 1.708,
+        "max_dd": -0.259,
+        "cagr": 0.3611,
+        "win_rate": 0.643,
+        "n_windows": 14,
+        "rank_inversion_passed": true,
+        "rank_inversion_detail": {
+          "passed": true,
+          "recent_avg_sharpe": 0.92,
+          "early_avg_sharpe": 2.541,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        }
+      },
+      {
+        "name": "method_risk_parity",
+        "category": "portfolio_method",
+        "config": {
+          "portfolio_method": "risk_parity",
+          "top_n": 10,
+          "stop_loss": -0.15
+        },
+        "sharpe": 1.908,
+        "max_dd": -0.2191,
+        "cagr": 0.3365,
+        "win_rate": 0.643,
+        "n_windows": 14,
+        "rank_inversion_passed": true,
+        "rank_inversion_detail": {
+          "passed": true,
+          "recent_avg_sharpe": 1.428,
+          "early_avg_sharpe": 2.63,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        }
+      }
+    ]
+  },
+  "test2_stock_count": {
+    "description": "top_n: 5/10/15/20",
+    "best_top_n": 10,
+    "candidates": [
+      {
+        "name": "count_5",
+        "category": "stock_count",
+        "config": {
+          "portfolio_method": "equal",
+          "top_n": 5,
+          "stop_loss": -0.15
+        },
+        "sharpe": 1.966,
+        "max_dd": -0.2996,
+        "cagr": 0.4562,
+        "win_rate": 0.625,
+        "n_windows": 14,
+        "rank_inversion_passed": true,
+        "rank_inversion_detail": {
+          "passed": true,
+          "recent_avg_sharpe": 1.224,
+          "early_avg_sharpe": 2.105,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        }
+      },
+      {
+        "name": "count_10",
+        "category": "stock_count",
+        "config": {
+          "portfolio_method": "equal",
+          "top_n": 10,
+          "stop_loss": -0.15
+        },
+        "sharpe": 2.129,
+        "max_dd": -0.2293,
+        "cagr": 0.4303,
+        "win_rate": 0.643,
+        "n_windows": 14,
+        "rank_inversion_passed": true,
+        "rank_inversion_detail": {
+          "passed": true,
+          "recent_avg_sharpe": 1.892,
+          "early_avg_sharpe": 2.743,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        }
+      },
+      {
+        "name": "count_15",
+        "category": "stock_count",
+        "config": {
+          "portfolio_method": "equal",
+          "top_n": 15,
+          "stop_loss": -0.15
+        },
+        "sharpe": 2.084,
+        "max_dd": -0.1949,
+        "cagr": 0.3935,
+        "win_rate": 0.646,
+        "n_windows": 14,
+        "rank_inversion_passed": true,
+        "rank_inversion_detail": {
+          "passed": true,
+          "recent_avg_sharpe": 1.865,
+          "early_avg_sharpe": 2.976,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        }
+      },
+      {
+        "name": "count_20",
+        "category": "stock_count",
+        "config": {
+          "portfolio_method": "equal",
+          "top_n": 20,
+          "stop_loss": -0.15
+        },
+        "sharpe": 2.048,
+        "max_dd": -0.1873,
+        "cagr": 0.3686,
+        "win_rate": 0.646,
+        "n_windows": 14,
+        "rank_inversion_passed": true,
+        "rank_inversion_detail": {
+          "passed": true,
+          "recent_avg_sharpe": 1.779,
+          "early_avg_sharpe": 3.025,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        }
+      }
+    ]
+  },
+  "test3_stop_loss": {
+    "description": "stop_loss: -10%/-15%/-20%",
+    "best_stop_loss": -0.15,
+    "candidates": [
+      {
+        "name": "sl_10pct",
+        "category": "stop_loss",
+        "config": {
+          "portfolio_method": "equal",
+          "top_n": 10,
+          "stop_loss": -0.1
+        },
+        "sharpe": 2.053,
+        "max_dd": -0.1913,
+        "cagr": 0.4054,
+        "win_rate": 0.617,
+        "n_windows": 14,
+        "rank_inversion_passed": true,
+        "rank_inversion_detail": {
+          "passed": true,
+          "recent_avg_sharpe": 1.554,
+          "early_avg_sharpe": 2.898,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        }
+      },
+      {
+        "name": "sl_15pct",
+        "category": "stop_loss",
+        "config": {
+          "portfolio_method": "equal",
+          "top_n": 10,
+          "stop_loss": -0.15
+        },
+        "sharpe": 2.129,
+        "max_dd": -0.2293,
+        "cagr": 0.4303,
+        "win_rate": 0.643,
+        "n_windows": 14,
+        "rank_inversion_passed": true,
+        "rank_inversion_detail": {
+          "passed": true,
+          "recent_avg_sharpe": 1.892,
+          "early_avg_sharpe": 2.743,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        }
+      },
+      {
+        "name": "sl_20pct",
+        "category": "stop_loss",
+        "config": {
+          "portfolio_method": "equal",
+          "top_n": 10,
+          "stop_loss": -0.2
+        },
+        "sharpe": 2.096,
+        "max_dd": -0.255,
+        "cagr": 0.4228,
+        "win_rate": 0.645,
+        "n_windows": 14,
+        "rank_inversion_passed": true,
+        "rank_inversion_detail": {
+          "passed": true,
+          "recent_avg_sharpe": 1.814,
+          "early_avg_sharpe": 2.67,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        }
+      }
+    ]
+  },
+  "final_optimal_config": {
+    "portfolio_method": "equal",
+    "top_n": 10,
+    "stop_loss": -0.15,
+    "factor_weights": {
+      "fund_ratio": 0.45,
+      "growth_composite": 0.2,
+      "qoq": 0.2,
+      "cashflow": 0.15
+    }
+  },
+  "final_validation": {
+    "result": {
+      "sharpe": 2.129,
+      "max_dd": -0.2293,
+      "cagr": 0.4303,
+      "win_rate": 0.643,
+      "n_trades": 560,
+      "n_windows": 14,
+      "rank_inversion": {
+        "passed": true,
+        "recent_avg_sharpe": 1.892,
+        "early_avg_sharpe": 2.743,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      },
+      "warnings": [],
+      "status": "PASS"
+    },
+    "window_details": [
+      {
+        "index": 0,
+        "period": "2016-07-04 → 2017-01-04",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2016: 0.7494796123176145}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.7009079119365181}"
+      },
+      {
+        "index": 1,
+        "period": "2017-01-04 → 2017-07-04",
+        "sharpe": 2.829,
+        "max_dd": -0.0433,
+        "cagr": 0.4006,
+        "win_rate": 0.725,
+        "n_trades": 40,
+        "n_days": 125,
+        "baseline_sharpe": 3.025
+      },
+      {
+        "index": 2,
+        "period": "2017-07-04 → 2018-01-04",
+        "sharpe": 4.131,
+        "max_dd": -0.0284,
+        "cagr": 0.5472,
+        "win_rate": 0.75,
+        "n_trades": 40,
+        "n_days": 128,
+        "baseline_sharpe": 3.651
+      },
+      {
+        "index": 3,
+        "period": "2018-01-04 → 2018-07-04",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2018: 0.5125925925925926}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.494276723034893}"
+      },
+      {
+        "index": 4,
+        "period": "2018-07-04 → 2019-01-04",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2018: 0.09451429929910495, 2019: 0.1475054229934924}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.09668596142400812}"
+      },
+      {
+        "index": 5,
+        "period": "2019-01-04 → 2019-07-04",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2019: 0.4354619870827659}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.44581071378851717}"
+      },
+      {
+        "index": 6,
+        "period": "2019-07-04 → 2020-01-04",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2019: 0.7281110562052746, 2020: 0.7542735042735043}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.7290797324255569}"
+      },
+      {
+        "index": 7,
+        "period": "2020-01-04 → 2020-07-04",
+        "sharpe": 1.268,
+        "max_dd": -0.1835,
+        "cagr": 0.4251,
+        "win_rate": 0.65,
+        "n_trades": 40,
+        "n_days": 125,
+        "baseline_sharpe": 0.449
+      },
+      {
+        "index": 8,
+        "period": "2020-07-04 → 2021-01-04",
+        "sharpe": 2.319,
+        "max_dd": -0.093,
+        "cagr": 0.552,
+        "win_rate": 0.75,
+        "n_trades": 40,
+        "n_days": 127,
+        "baseline_sharpe": 1.344
+      },
+      {
+        "index": 9,
+        "period": "2021-01-04 → 2021-07-04",
+        "sharpe": 3.245,
+        "max_dd": -0.0608,
+        "cagr": 0.8507,
+        "win_rate": 0.75,
+        "n_trades": 40,
+        "n_days": 126,
+        "baseline_sharpe": 1.845
+      },
+      {
+        "index": 10,
+        "period": "2021-07-04 → 2022-01-04",
+        "sharpe": 2.669,
+        "max_dd": -0.0585,
+        "cagr": 0.6235,
+        "win_rate": 0.675,
+        "n_trades": 40,
+        "n_days": 128,
+        "baseline_sharpe": 1.443
+      },
+      {
+        "index": 11,
+        "period": "2022-01-04 → 2022-07-04",
+        "sharpe": -0.841,
+        "max_dd": -0.1789,
+        "cagr": -0.2239,
+        "win_rate": 0.35,
+        "n_trades": 40,
+        "n_days": 124,
+        "baseline_sharpe": -0.515
+      },
+      {
+        "index": 12,
+        "period": "2022-07-04 → 2023-01-04",
+        "sharpe": 1.71,
+        "max_dd": -0.1438,
+        "cagr": 0.5083,
+        "win_rate": 0.625,
+        "n_trades": 40,
+        "n_days": 128,
+        "baseline_sharpe": 1.072
+      },
+      {
+        "index": 13,
+        "period": "2023-01-04 → 2023-07-04",
+        "sharpe": 2.0,
+        "max_dd": -0.0851,
+        "cagr": 0.3631,
+        "win_rate": 0.625,
+        "n_trades": 40,
+        "n_days": 124,
+        "baseline_sharpe": 2.886
+      },
+      {
+        "index": 14,
+        "period": "2023-07-04 → 2024-01-04",
+        "sharpe": 1.881,
+        "max_dd": -0.1369,
+        "cagr": 0.3313,
+        "win_rate": 0.575,
+        "n_trades": 40,
+        "n_days": 128,
+        "baseline_sharpe": 1.393
+      },
+      {
+        "index": 15,
+        "period": "2024-01-04 → 2024-07-04",
+        "sharpe": 2.922,
+        "max_dd": -0.1039,
+        "cagr": 0.5413,
+        "win_rate": 0.65,
+        "n_trades": 40,
+        "n_days": 125,
+        "baseline_sharpe": 3.143
+      },
+      {
+        "index": 16,
+        "period": "2024-07-04 → 2025-01-04",
+        "sharpe": 2.457,
+        "max_dd": -0.0851,
+        "cagr": 0.4912,
+        "win_rate": 0.525,
+        "n_trades": 40,
+        "n_days": 127,
+        "baseline_sharpe": 0.007
+      },
+      {
+        "index": 17,
+        "period": "2025-01-04 → 2025-07-04",
+        "sharpe": 0.986,
+        "max_dd": -0.2293,
+        "cagr": 0.2623,
+        "win_rate": 0.6,
+        "n_trades": 40,
+        "n_days": 123,
+        "baseline_sharpe": 0.405
+      },
+      {
+        "index": 18,
+        "period": "2025-07-04 → 2026-01-04",
+        "sharpe": 2.232,
+        "max_dd": -0.0624,
+        "cagr": 0.3522,
+        "win_rate": 0.75,
+        "n_trades": 40,
+        "n_days": 126,
+        "baseline_sharpe": 0.988
+      }
+    ]
+  },
+  "all_candidates": [
+    {
+      "name": "method_equal",
+      "category": "portfolio_method",
+      "config": {
+        "portfolio_method": "equal",
+        "top_n": 10,
+        "stop_loss": -0.15
+      },
+      "sharpe": 2.129,
+      "max_dd": -0.2293,
+      "cagr": 0.4303,
+      "win_rate": 0.643,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "rank_inversion_detail": {
+        "passed": true,
+        "recent_avg_sharpe": 1.892,
+        "early_avg_sharpe": 2.743,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      }
+    },
+    {
+      "name": "method_mcap",
+      "category": "portfolio_method",
+      "config": {
+        "portfolio_method": "mcap",
+        "top_n": 10,
+        "stop_loss": -0.15
+      },
+      "sharpe": 1.708,
+      "max_dd": -0.259,
+      "cagr": 0.3611,
+      "win_rate": 0.643,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "rank_inversion_detail": {
+        "passed": true,
+        "recent_avg_sharpe": 0.92,
+        "early_avg_sharpe": 2.541,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      }
+    },
+    {
+      "name": "method_risk_parity",
+      "category": "portfolio_method",
+      "config": {
+        "portfolio_method": "risk_parity",
+        "top_n": 10,
+        "stop_loss": -0.15
+      },
+      "sharpe": 1.908,
+      "max_dd": -0.2191,
+      "cagr": 0.3365,
+      "win_rate": 0.643,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "rank_inversion_detail": {
+        "passed": true,
+        "recent_avg_sharpe": 1.428,
+        "early_avg_sharpe": 2.63,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      }
+    },
+    {
+      "name": "count_5",
+      "category": "stock_count",
+      "config": {
+        "portfolio_method": "equal",
+        "top_n": 5,
+        "stop_loss": -0.15
+      },
+      "sharpe": 1.966,
+      "max_dd": -0.2996,
+      "cagr": 0.4562,
+      "win_rate": 0.625,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "rank_inversion_detail": {
+        "passed": true,
+        "recent_avg_sharpe": 1.224,
+        "early_avg_sharpe": 2.105,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      }
+    },
+    {
+      "name": "count_10",
+      "category": "stock_count",
+      "config": {
+        "portfolio_method": "equal",
+        "top_n": 10,
+        "stop_loss": -0.15
+      },
+      "sharpe": 2.129,
+      "max_dd": -0.2293,
+      "cagr": 0.4303,
+      "win_rate": 0.643,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "rank_inversion_detail": {
+        "passed": true,
+        "recent_avg_sharpe": 1.892,
+        "early_avg_sharpe": 2.743,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      }
+    },
+    {
+      "name": "count_15",
+      "category": "stock_count",
+      "config": {
+        "portfolio_method": "equal",
+        "top_n": 15,
+        "stop_loss": -0.15
+      },
+      "sharpe": 2.084,
+      "max_dd": -0.1949,
+      "cagr": 0.3935,
+      "win_rate": 0.646,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "rank_inversion_detail": {
+        "passed": true,
+        "recent_avg_sharpe": 1.865,
+        "early_avg_sharpe": 2.976,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      }
+    },
+    {
+      "name": "count_20",
+      "category": "stock_count",
+      "config": {
+        "portfolio_method": "equal",
+        "top_n": 20,
+        "stop_loss": -0.15
+      },
+      "sharpe": 2.048,
+      "max_dd": -0.1873,
+      "cagr": 0.3686,
+      "win_rate": 0.646,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "rank_inversion_detail": {
+        "passed": true,
+        "recent_avg_sharpe": 1.779,
+        "early_avg_sharpe": 3.025,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      }
+    },
+    {
+      "name": "sl_10pct",
+      "category": "stop_loss",
+      "config": {
+        "portfolio_method": "equal",
+        "top_n": 10,
+        "stop_loss": -0.1
+      },
+      "sharpe": 2.053,
+      "max_dd": -0.1913,
+      "cagr": 0.4054,
+      "win_rate": 0.617,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "rank_inversion_detail": {
+        "passed": true,
+        "recent_avg_sharpe": 1.554,
+        "early_avg_sharpe": 2.898,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      }
+    },
+    {
+      "name": "sl_15pct",
+      "category": "stop_loss",
+      "config": {
+        "portfolio_method": "equal",
+        "top_n": 10,
+        "stop_loss": -0.15
+      },
+      "sharpe": 2.129,
+      "max_dd": -0.2293,
+      "cagr": 0.4303,
+      "win_rate": 0.643,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "rank_inversion_detail": {
+        "passed": true,
+        "recent_avg_sharpe": 1.892,
+        "early_avg_sharpe": 2.743,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      }
+    },
+    {
+      "name": "sl_20pct",
+      "category": "stop_loss",
+      "config": {
+        "portfolio_method": "equal",
+        "top_n": 10,
+        "stop_loss": -0.2
+      },
+      "sharpe": 2.096,
+      "max_dd": -0.255,
+      "cagr": 0.4228,
+      "win_rate": 0.645,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "rank_inversion_detail": {
+        "passed": true,
+        "recent_avg_sharpe": 1.814,
+        "early_avg_sharpe": 2.67,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      }
+    }
+  ],
+  "comparison_with_v044": {
+    "v044_sharpe": 2.122,
+    "v044_config": {
+      "fund_ratio": 0.45,
+      "growth_composite": 0.2,
+      "qoq": 0.2,
+      "cashflow": 0.15,
+      "portfolio_method": "equal",
+      "top_n": 10,
+      "stop_loss": -0.15
+    },
+    "v045_best_sharpe": 2.129,
+    "v045_best_config": {
+      "portfolio_method": "equal",
+      "top_n": 10,
+      "stop_loss": -0.15
+    },
+    "improvement_pct": 0.3
+  }
+}

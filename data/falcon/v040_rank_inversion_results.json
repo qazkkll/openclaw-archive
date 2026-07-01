@@ -1,0 +1,458 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-01T15:24:56.352236",
+    "task": "V0.4.0 True Rank Inversion Test (Top5% vs Bottom20%)",
+    "config": {
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "log_metric": 0.15
+      },
+      "features": "features_v02.parquet",
+      "train_months": 6,
+      "test_months": 6,
+      "hold_days": 30,
+      "top_n": 10,
+      "cost": 0.001,
+      "stop_loss": -0.15
+    },
+    "previous_fake_ri": {
+      "note": "V0.4.0 previously used \"Sharpe degradation stability\" as rank_inversion, which is NOT the standard Top5% vs Bottom20% test.",
+      "old_method": "early_avg_sharpe vs recent_avg_sharpe, threshold=50% degradation",
+      "old_result": "PASSED (early=2.07, recent=1.659, degradation=19.9%)"
+    }
+  },
+  "rank_inversion": {
+    "windows": [
+      {
+        "window_idx": 0,
+        "period": "2016-07-04 \u2192 2017-01-04",
+        "avg_top5_return": 0.019045118913879795,
+        "avg_bottom20_return": 0.016937778666386804,
+        "spread": 0.0021073402474929906,
+        "median_spread": 0.0013705782668941863,
+        "passed": true,
+        "n_dates": 98,
+        "positive_spread_pct": 0.5510204081632653
+      },
+      {
+        "window_idx": 1,
+        "period": "2017-01-04 \u2192 2017-07-04",
+        "avg_top5_return": 0.025424768515716657,
+        "avg_bottom20_return": 0.028761857000755144,
+        "spread": -0.003337088485038487,
+        "median_spread": -0.0037153892915572145,
+        "passed": false,
+        "n_dates": 95,
+        "positive_spread_pct": 0.35789473684210527
+      },
+      {
+        "window_idx": 2,
+        "period": "2017-07-04 \u2192 2018-01-04",
+        "avg_top5_return": 0.027330981707253052,
+        "avg_bottom20_return": 0.028678477463536894,
+        "spread": -0.0013474957562838417,
+        "median_spread": -0.001588658982983905,
+        "passed": false,
+        "n_dates": 98,
+        "positive_spread_pct": 0.40816326530612246
+      },
+      {
+        "window_idx": 3,
+        "period": "2018-01-04 \u2192 2018-07-04",
+        "avg_top5_return": 0.00810356181012389,
+        "avg_bottom20_return": 0.017702554203903074,
+        "spread": -0.009598992393779184,
+        "median_spread": -0.009017107787311898,
+        "passed": false,
+        "n_dates": 95,
+        "positive_spread_pct": 0.25263157894736843
+      },
+      {
+        "window_idx": 4,
+        "period": "2018-07-04 \u2192 2019-01-04",
+        "avg_top5_return": -0.03571210857508556,
+        "avg_bottom20_return": -0.01736902973690221,
+        "spread": -0.01834307883818335,
+        "median_spread": -0.012424499587545441,
+        "passed": false,
+        "n_dates": 97,
+        "positive_spread_pct": 0.28865979381443296
+      },
+      {
+        "window_idx": 5,
+        "period": "2019-01-04 \u2192 2019-07-04",
+        "avg_top5_return": 0.031164872500798045,
+        "avg_bottom20_return": 0.0424493599870236,
+        "spread": -0.011284487486225556,
+        "median_spread": -0.004875004594280988,
+        "passed": false,
+        "n_dates": 95,
+        "positive_spread_pct": 0.43157894736842106
+      },
+      {
+        "window_idx": 6,
+        "period": "2019-07-04 \u2192 2020-01-04",
+        "avg_top5_return": 0.03356982164209477,
+        "avg_bottom20_return": 0.023044657343287245,
+        "spread": 0.010525164298807527,
+        "median_spread": 0.008729033203444897,
+        "passed": true,
+        "n_dates": 97,
+        "positive_spread_pct": 0.6185567010309279
+      },
+      {
+        "window_idx": 7,
+        "period": "2020-01-04 \u2192 2020-07-04",
+        "avg_top5_return": -0.016755382741614675,
+        "avg_bottom20_return": 0.011480434671702726,
+        "spread": -0.0282358174133174,
+        "median_spread": -0.030370013443207444,
+        "passed": false,
+        "n_dates": 95,
+        "positive_spread_pct": 0.1368421052631579
+      },
+      {
+        "window_idx": 8,
+        "period": "2020-07-04 \u2192 2021-01-04",
+        "avg_top5_return": 0.03508109200906483,
+        "avg_bottom20_return": 0.06827930506103148,
+        "spread": -0.03319821305196665,
+        "median_spread": -0.03116981933555975,
+        "passed": false,
+        "n_dates": 97,
+        "positive_spread_pct": 0.08247422680412371
+      },
+      {
+        "window_idx": 9,
+        "period": "2021-01-04 \u2192 2021-07-04",
+        "avg_top5_return": 0.058287794409204154,
+        "avg_bottom20_return": 0.033585522019079946,
+        "spread": 0.024702272390124208,
+        "median_spread": 0.019123923187390892,
+        "passed": true,
+        "n_dates": 96,
+        "positive_spread_pct": 0.7395833333333334
+      },
+      {
+        "window_idx": 10,
+        "period": "2021-07-04 \u2192 2022-01-04",
+        "avg_top5_return": 0.002429123955699091,
+        "avg_bottom20_return": 0.01682731681980124,
+        "spread": -0.014398192864102148,
+        "median_spread": -0.019494292314778276,
+        "passed": false,
+        "n_dates": 98,
+        "positive_spread_pct": 0.22448979591836735
+      },
+      {
+        "window_idx": 11,
+        "period": "2022-01-04 \u2192 2022-07-04",
+        "avg_top5_return": -0.02556293983601906,
+        "avg_bottom20_return": -0.04563327110339653,
+        "spread": 0.02007033126737747,
+        "median_spread": 0.016485012350002586,
+        "passed": true,
+        "n_dates": 94,
+        "positive_spread_pct": 0.7978723404255319
+      },
+      {
+        "window_idx": 12,
+        "period": "2022-07-04 \u2192 2023-01-04",
+        "avg_top5_return": 0.02622719833959993,
+        "avg_bottom20_return": 0.008911611366812082,
+        "spread": 0.01731558697278785,
+        "median_spread": 0.02799588076915141,
+        "passed": true,
+        "n_dates": 98,
+        "positive_spread_pct": 0.673469387755102
+      },
+      {
+        "window_idx": 13,
+        "period": "2023-01-04 \u2192 2023-07-04",
+        "avg_top5_return": -0.010937011461702117,
+        "avg_bottom20_return": 0.023270357986610164,
+        "spread": -0.03420736944831228,
+        "median_spread": -0.03475072968892145,
+        "passed": false,
+        "n_dates": 94,
+        "positive_spread_pct": 0.031914893617021274
+      },
+      {
+        "window_idx": 14,
+        "period": "2023-07-04 \u2192 2024-01-04",
+        "avg_top5_return": 0.0010430933958114222,
+        "avg_bottom20_return": 0.014901828401471142,
+        "spread": -0.01385873500565972,
+        "median_spread": 0.00016071758435460626,
+        "passed": false,
+        "n_dates": 98,
+        "positive_spread_pct": 0.5102040816326531
+      },
+      {
+        "window_idx": 15,
+        "period": "2024-01-04 \u2192 2024-07-04",
+        "avg_top5_return": 0.022128909323613825,
+        "avg_bottom20_return": 0.03156796994168054,
+        "spread": -0.009439060618066715,
+        "median_spread": -0.009753769350944411,
+        "passed": false,
+        "n_dates": 95,
+        "positive_spread_pct": 0.28421052631578947
+      },
+      {
+        "window_idx": 16,
+        "period": "2024-07-04 \u2192 2025-01-04",
+        "avg_top5_return": 0.024497467937341623,
+        "avg_bottom20_return": 0.04762856642876136,
+        "spread": -0.023131098491419734,
+        "median_spread": -0.02944708941812988,
+        "passed": false,
+        "n_dates": 97,
+        "positive_spread_pct": 0.21649484536082475
+      }
+    ],
+    "total_windows": 17,
+    "passed_windows": 5,
+    "pass_rate": 0.29411764705882354,
+    "overall_passed": false,
+    "avg_spread": -0.007391702039750882,
+    "median_spread": -0.009598992393779184,
+    "avg_positive_spread_pct": 0.3885918216410911
+  },
+  "ic_analysis": {
+    "total_factors_analyzed": 20,
+    "factors": [
+      {
+        "name": "dividendPayoutRatio",
+        "ic_mean": -0.048263,
+        "ic_std": 0.13891,
+        "icir": -0.3474,
+        "t_stat": -16.06,
+        "n_dates": 2138,
+        "abs_icir": 0.3474
+      },
+      {
+        "name": "quickRatio",
+        "ic_mean": 0.031874,
+        "ic_std": 0.138734,
+        "icir": 0.2298,
+        "t_stat": 10.62,
+        "n_dates": 2138,
+        "abs_icir": 0.2298
+      },
+      {
+        "name": "dividendYieldPercentage",
+        "ic_mean": -0.041322,
+        "ic_std": 0.181621,
+        "icir": -0.2275,
+        "t_stat": -10.52,
+        "n_dates": 2138,
+        "abs_icir": 0.2275
+      },
+      {
+        "name": "receivablesTurnover",
+        "ic_mean": -0.018904,
+        "ic_std": 0.089909,
+        "icir": -0.2103,
+        "t_stat": -9.72,
+        "n_dates": 2138,
+        "abs_icir": 0.2103
+      },
+      {
+        "name": "currentRatio",
+        "ic_mean": 0.027161,
+        "ic_std": 0.13736,
+        "icir": 0.1977,
+        "t_stat": 9.14,
+        "n_dates": 2138,
+        "abs_icir": 0.1977
+      },
+      {
+        "name": "freeCashFlowOperatingCashFlowRatio",
+        "ic_mean": 0.018765,
+        "ic_std": 0.099344,
+        "icir": 0.1889,
+        "t_stat": 8.73,
+        "n_dates": 2138,
+        "abs_icir": 0.1889
+      },
+      {
+        "name": "assetTurnover",
+        "ic_mean": 0.022499,
+        "ic_std": 0.124406,
+        "icir": 0.1809,
+        "t_stat": 8.36,
+        "n_dates": 2138,
+        "abs_icir": 0.1809
+      },
+      {
+        "name": "ebitdaMargin",
+        "ic_mean": -0.020043,
+        "ic_std": 0.114423,
+        "icir": -0.1752,
+        "t_stat": -8.1,
+        "n_dates": 2138,
+        "abs_icir": 0.1752
+      },
+      {
+        "name": "inventoryTurnover",
+        "ic_mean": -0.014767,
+        "ic_std": 0.099576,
+        "icir": -0.1483,
+        "t_stat": -6.86,
+        "n_dates": 2138,
+        "abs_icir": 0.1483
+      },
+      {
+        "name": "priceToBookRatio",
+        "ic_mean": 0.020699,
+        "ic_std": 0.155595,
+        "icir": 0.133,
+        "t_stat": 6.15,
+        "n_dates": 2138,
+        "abs_icir": 0.133
+      },
+      {
+        "name": "operatingCashFlowRatio",
+        "ic_mean": -0.013928,
+        "ic_std": 0.121535,
+        "icir": -0.1146,
+        "t_stat": -5.3,
+        "n_dates": 2138,
+        "abs_icir": 0.1146
+      },
+      {
+        "name": "netProfitMargin",
+        "ic_mean": -0.010408,
+        "ic_std": 0.103624,
+        "icir": -0.1004,
+        "t_stat": -4.64,
+        "n_dates": 2138,
+        "abs_icir": 0.1004
+      },
+      {
+        "name": "operatingProfitMargin",
+        "ic_mean": -0.010365,
+        "ic_std": 0.104066,
+        "icir": -0.0996,
+        "t_stat": -4.61,
+        "n_dates": 2138,
+        "abs_icir": 0.0996
+      },
+      {
+        "name": "grossProfitMargin",
+        "ic_mean": 0.009744,
+        "ic_std": 0.12067,
+        "icir": 0.0807,
+        "t_stat": 3.73,
+        "n_dates": 2138,
+        "abs_icir": 0.0807
+      },
+      {
+        "name": "debtToEquityRatio",
+        "ic_mean": -0.006217,
+        "ic_std": 0.078465,
+        "icir": -0.0792,
+        "t_stat": -3.66,
+        "n_dates": 2138,
+        "abs_icir": 0.0792
+      },
+      {
+        "name": "priceToFreeCashFlowRatio",
+        "ic_mean": 0.008688,
+        "ic_std": 0.138479,
+        "icir": 0.0627,
+        "t_stat": 2.9,
+        "n_dates": 2138,
+        "abs_icir": 0.0627
+      },
+      {
+        "name": "financialLeverageRatio",
+        "ic_mean": 0.00526,
+        "ic_std": 0.104473,
+        "icir": 0.0504,
+        "t_stat": 2.33,
+        "n_dates": 2138,
+        "abs_icir": 0.0504
+      },
+      {
+        "name": "priceToEarningsRatio",
+        "ic_mean": -0.007048,
+        "ic_std": 0.161219,
+        "icir": -0.0437,
+        "t_stat": -2.02,
+        "n_dates": 2138,
+        "abs_icir": 0.0437
+      },
+      {
+        "name": "enterpriseValueMultiple",
+        "ic_mean": 0.007093,
+        "ic_std": 0.168419,
+        "icir": 0.0421,
+        "t_stat": 1.95,
+        "n_dates": 2138,
+        "abs_icir": 0.0421
+      },
+      {
+        "name": "priceToSalesRatio",
+        "ic_mean": -0.001447,
+        "ic_std": 0.181708,
+        "icir": -0.008,
+        "t_stat": -0.37,
+        "n_dates": 2138,
+        "abs_icir": 0.008
+      }
+    ]
+  },
+  "factor_groups_used": {
+    "fund_ratio": [
+      "priceToEarningsRatio",
+      "priceToBookRatio",
+      "priceToSalesRatio",
+      "priceToFreeCashFlowRatio",
+      "enterpriseValueMultiple",
+      "grossProfitMargin",
+      "netProfitMargin",
+      "operatingProfitMargin",
+      "ebitdaMargin",
+      "assetTurnover",
+      "inventoryTurnover",
+      "receivablesTurnover",
+      "debtToEquityRatio",
+      "currentRatio",
+      "quickRatio",
+      "financialLeverageRatio",
+      "freeCashFlowOperatingCashFlowRatio",
+      "operatingCashFlowRatio",
+      "dividendYieldPercentage",
+      "dividendPayoutRatio"
+    ],
+    "fund_metric": [
+      "earningsYield",
+      "evToEBITDA",
+      "evToFreeCashFlow",
+      "evToSales",
+      "freeCashFlowYield",
+      "returnOnEquity",
+      "returnOnAssets",
+      "returnOnCapitalEmployed",
+      "returnOnInvestedCapital",
+      "returnOnTangibleAssets",
+      "incomeQuality",
+      "grahamNumber",
+      "cashConversionCycle",
+      "capexToRevenue",
+      "capexToDepreciation",
+      "researchAndDevelopementToRevenue",
+      "stockBasedCompensationToRevenue",
+      "netDebtToEBITDA",
+      "operatingReturnOnAssets"
+    ]
+  },
+  "v040_weights": {
+    "fund_ratio": 0.7,
+    "fund_metric": 0.15,
+    "log_metric": 0.15
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "audit_version": "AUDIT-8",
+  "target": "Falcon V0.4.4 (post-fix)",
+  "timestamp": "2026-07-01",
+  "auditor": "Hermes Agent (independent re-audit)",
+  "scope": "5-layer gate check on data integrity, feature consistency, model validity, signal production, cross-layer consistency",
+
+  "summary": {
+    "overall": "FAIL",
+    "blockers": 2,
+    "warnings": 5,
+    "pass": 14,
+    "note": "AUDIT-7 blocker (RI implementation) has been fixed. New blockers found: (1) claimed metrics mismatch actual results, (2) strategy underperforms baseline on majority of windows."
+  },
+
+  "layer1_data_integrity": {
+    "status": "PASS_WITH_WARNINGS",
+    "checks": [
+      {
+        "item": "数据文件存在",
+        "result": "PASS",
+        "detail": "features_v04_1.parquet exists, 1,234,580 rows × 156 columns"
+      },
+      {
+        "item": "价格文件存在",
+        "result": "PASS",
+        "detail": "us_prices_daily.parquet referenced, loaded successfully by script"
+      },
+      {
+        "item": "时间范围",
+        "result": "PASS",
+        "detail": "2016-01-04 to 2026-06-26 (10.5 years), 2635 unique trading days, 0 weekend dates"
+      },
+      {
+        "item": "Ticker覆盖",
+        "result": "PASS",
+        "detail": "476 unique tickers (SPX universe), all present across full date range"
+      },
+      {
+        "item": "fund_ratio覆盖率(原始数据)",
+        "result": "PASS",
+        "detail": "2017-2026: 100%. 2016: 41.1% (training starts 2016-07, acceptable)"
+      },
+      {
+        "item": "growth_composite覆盖率(原始数据)",
+        "result": "PASS",
+        "detail": "Post-median-fill: all years >=80%. Pre-fill: 2016=28.9%, 2017=71.8%, 2018=75.4%. Median fill applied at runtime by script."
+      },
+      {
+        "item": "analyst因子覆盖率(原始数据)",
+        "result": "WARN",
+        "detail": "2016: 0.2%, 2017: 0.4%, 2018: 4.8% — extremely low before median fill. Median fill gives these stocks market-median values, which is neutral but reduces information content."
+      },
+      {
+        "item": "qoq覆盖率",
+        "result": "PASS",
+        "detail": "2017-2026: >99%"
+      },
+      {
+        "item": "cashflow覆盖率",
+        "result": "PASS",
+        "detail": "2017-2026: >65% (c_buyback_yield has 34.3% missing overall)"
+      },
+      {
+        "item": "缺失值处理",
+        "result": "PASS",
+        "detail": "Script applies cross-sectional median fill (groupby date, transform median) before rank computation. This is PIT-correct and neutral."
+      },
+      {
+        "item": "异常值处理",
+        "result": "PASS",
+        "detail": "Percentile ranking (rankdata) naturally bounds all values to [0,1], eliminating outlier impact on combined scores."
+      },
+      {
+        "item": "原始数据整体覆盖率",
+        "result": "WARN",
+        "detail": "Overall factor coverage: 90.6% (pre-fill). Key weak columns: eps_dispersion (71.7% missing), qoq columns (71.0% missing), analyst columns (32-35% missing). Median fill brings effective coverage to ~100%."
+      }
+    ],
+    "warnings": [
+      {
+        "severity": "MEDIUM",
+        "message": "analyst因子在2016-2018年覆盖率极低(0.2%-4.8%)，median fill给予市场中位数值。这意味着早期窗口(2016-2018)的growth_composite中analyst成分基本无信息含量，实际只靠fund_growth(0.60权重)驱动。"
+      },
+      {
+        "severity": "LOW",
+        "message": "eps_dispersion在原始数据中71.7%缺失，但在FACTOR_GROUPS中被归入analyst组(a_eps_dispersion)。该列已被PIT化处理，缺失率仍然很高。"
+      }
+    ]
+  },
+
+  "layer2_feature_consistency": {
+    "status": "PASS_WITH_WARNINGS",
+    "checks": [
+      {
+        "item": "fund_ratio因子组定义",
+        "result": "PASS",
+        "detail": "20个r_前缀因子，覆盖估值(PE/PB/PS/FCF/EV)、盈利能力(GPM/NPM/OPM/EBITDA)、效率(AT/IT/RT)、杠杆(Debt/Curr/Quick/FinLev/CFO/OCF)、分红(DY/DP)。与metadata.factor_groups.fund_ratio=20一致。"
+      },
+      {
+        "item": "fund_growth因子组定义",
+        "result": "PASS",
+        "detail": "15个g_前缀因子，覆盖收入/毛利/EBIT/营业利润/净利润/EPS/FCF增长，以及3Y/5Y/10Y收入增长、应收/存货/资产/账面/负债增长。"
+      },
+      {
+        "item": "analyst因子组定义",
+        "result": "PASS",
+        "detail": "4个a_前缀因子：eps_revision, revenue_revision, eps_dispersion, num_analysts_eps。"
+      },
+      {
+        "item": "income因子组定义",
+        "result": "PASS",
+        "detail": "6个i_前缀因子：gross_margin, operating_margin, net_margin, ebitda_margin, revenue_growth_yoy, gross_margin_delta。"
+      },
+      {
+        "item": "qoq因子组定义",
+        "result": "PASS",
+        "detail": "4个r_*_qoq因子：grossProfitMargin_qoq, netProfitMargin_qoq, operatingProfitMargin_qoq, ebitdaMargin_qoq。"
+      },
+      {
+        "item": "cashflow因子组定义",
+        "result": "PASS",
+        "detail": "4个c_前缀因子：fcf_margin, capex_intensity, fcf_to_income, buyback_yield。"
+      },
+      {
+        "item": "growth_composite子权重",
+        "result": "PASS",
+        "detail": "gc_baseline = 0.60×fund_growth + 0.25×analyst + 0.15×income。权重和=1.00。代码第269-272行验证通过。"
+      },
+      {
+        "item": "市场状态感知逻辑",
+        "result": "PASS",
+        "detail": "compute_market_regime(): 20日滚动市场波动率+截面离散度。get_regime_weights(): 高波动(>22%)+高离散度(>30%)→fund_ratio↑0.55, 高波动→0.50, 高离散度→0.50, 正常→base weights。阈值基于历史分位数。"
+      },
+      {
+        "item": "PIT一致性(点对时)",
+        "result": "PASS",
+        "detail": "所有因子使用PIT命名前缀(r_, g_, a_, c_, i_)，与raw列名分离。EXCLUDE_COLS排除raw列名。脚本不重新计算基本面数据，直接使用预计算的parquet文件。日期列为交易日(0个周末日期)。"
+      },
+      {
+        "item": "前视偏差检查",
+        "result": "PASS",
+        "detail": "截面排名按date逐日计算，rankdata只处理valid值。Walk-Forward使用滚动窗口(train_end→test_end严格分离)。growth_composite的lambda函数只读取当日rank字典。regime-adaptive权重使用pad方法查找最近可用日期。无前视偏差。"
+      },
+      {
+        "item": "命名一致性",
+        "result": "WARN",
+        "detail": "代码中使用'gc_baseline'作为growth_composite变体名。任务描述和对外报告中使用'growth_composite'。两者计算逻辑一致(0.60×fund_growth + 0.25×analyst + 0.15×income)，但命名不一致可能造成混淆。"
+      },
+      {
+        "item": "Rank Inversion实现(AUDIT-7修复验证)",
+        "result": "PASS",
+        "detail": "AUDIT-7的BLOCKER(RI实现不正确)已在V0.4.4中修复。check_real_rank_inversion()现在正确实现Top5% vs Bottom20%前瞻收益比较。RI结果: 13/19窗口PASS(68.4%)。"
+      }
+    ],
+    "warnings": [
+      {
+        "severity": "LOW",
+        "message": "命名不一致：代码使用'gc_baseline'，对外报告使用'growth_composite'。建议统一命名。"
+      },
+      {
+        "severity": "MEDIUM",
+        "message": "市场状态感知阈值(vol_high=0.22, disp_high=0.30)是基于历史数据手动设定的。3个regime-adaptive窗口(W5, W8, W12)使用了非base权重，但W0/W6/W13仍然使用base权重且RI失败。阈值选择的稳健性未验证。"
+      }
+    ]
+  },
+
+  "layer3_model_validity": {
+    "status": "FAIL",
+    "checks": [
+      {
+        "item": "Walk-Forward验证结构",
+        "result": "PASS",
+        "detail": "19个窗口全部有效(无因覆盖率被拒绝的窗口)。train=6个月, test=6个月, 滚动步进6个月。结构合理。"
+      },
+      {
+        "item": "最终Sharpe",
+        "result": "PASS",
+        "detail": "WF Sharpe=1.717 (19个窗口平均)。所有窗口Sharpe均值一致。"
+      },
+      {
+        "item": "MaxDD",
+        "result": "BLOCKER",
+        "detail": "任务声称MaxDD=-24.0%，但实际结果为-31.64%（W7: 2020-01→2020-07, COVID窗口）。差异达7.6个百分点。声称值不准确。"
+      },
+      {
+        "item": "CAGR",
+        "result": "BLOCKER",
+        "detail": "任务声称CAGR=42.3%，但实际结果为33.49%。差异达8.8个百分点。声称值不准确。"
+      },
+      {
+        "item": "Win Rate",
+        "result": "WARN",
+        "detail": "任务声称Win Rate=65.0%，但实际结果为62.0%。差异3个百分点。声称值不准确。"
+      },
+      {
+        "item": "Rank Inversion可信度",
+        "result": "PASS",
+        "detail": "13/19窗口PASS(68.4%)。5个FAIL窗口: W0(早期训练不足), W3(2018震荡), W5(2019H1), W6(2019H2), W8(COVID反弹-最大spread=-24.5%)。68%通过率在统计上勉强可信(>50%)，但W8的-24.5% spread表明regime fix未完全解决高波动环境问题。"
+      },
+      {
+        "item": "窗口稳定性",
+        "result": "PASS",
+        "detail": "Sharpe范围: -0.857到3.677, std=1.246。2/19窗口负Sharpe(10.5%)。无极端Sharpe(>5)。MaxDD范围: -4.4%到-31.6%。"
+      },
+      {
+        "item": "与baseline对比",
+        "result": "BLOCKER",
+        "detail": "策略仅在8/19窗口(42.1%)跑赢baseline。Baseline在11/19窗口(57.9%)更优。这意味着：如果不做regime-adaptive调整，简单的等权baseline大部分时间更好。策略的alpha主要来自少数几个窗口(W0, W2, W9, W11, W12, W14, W17, W18)。"
+      },
+      {
+        "item": "Regime-adaptive权重效果",
+        "result": "WARN",
+        "detail": "仅3/19窗口使用regime-adaptive权重(W5, W8, W12)。其中W5仍FAIL RI(spread=-3.46%), W8仍FAIL RI(spread=-24.46%)。只有W12成功(PASS RI, spread=+0.44%)。Regime fix效果有限。"
+      },
+      {
+        "item": "与V0.4.3对比的公正性",
+        "result": "WARN",
+        "detail": "V0.4.4(WF Sharpe=1.717)相比V0.4.3(WF Sharpe=2.007)实际性能下降。但V0.4.3的RI实现不正确(仅检查Sharpe稳定性)，所以对比不完全公正。V0.4.4的RI是真正的Top5% vs Bottom20%检查。"
+      },
+      {
+        "item": "声称值vs实际值一致性",
+        "result": "BLOCKER",
+        "detail": "任务上下文中的3个指标与实际结果不符: MaxDD(声称-24.0% vs 实际-31.6%), CAGR(声称42.3% vs 实际33.5%), WinRate(声称65% vs 实际62%)。仅Sharpe(1.717)和RI(68%)匹配。声称值可能来自不同运行或不同配置。"
+      }
+    ],
+    "warnings": [
+      {
+        "severity": "MEDIUM",
+        "message": "Sharpe从早期窗口(W0-W2: avg=3.24)退化到近期窗口(W16-W18: avg=1.32)。退化率约60%。虽在可接受范围，但趋势需关注。"
+      },
+      {
+        "severity": "MEDIUM",
+        "message": "W8(COVID反弹, 2020-07→2021-01) RI spread=-24.46%，是所有窗口中最严重的RI失败。Bottom20%跑赢Top5%达24.5%。这表明即使使用regime-adaptive权重(fund_ratio=0.55)，在极端市场环境下增长因子仍然失效。"
+      },
+      {
+        "severity": "LOW",
+        "message": "W7(COVID, 2020-01→2020-07) MaxDD=-31.6%，是最大回撤窗口。策略在该窗口RI PASS但Sharpe仅0.236。"
+      }
+    ]
+  },
+
+  "layer4_signal_production": {
+    "status": "PASS",
+    "checks": [
+      {
+        "item": "评分逻辑",
+        "result": "PASS",
+        "detail": "截面百分位排名 → 因子组等权平均 → 外部权重组合(fund_ratio×0.45 + gc_baseline×0.20 + qoq×0.20 + cashflow×0.15)。逻辑清晰，无非线性变换。"
+      },
+      {
+        "item": "权重配置",
+        "result": "PASS",
+        "detail": "所有4种权重配置(normal, high_vol_high_disp, high_vol, high_disp)的权重和均为1.00。验证通过。"
+      },
+      {
+        "item": "flip逻辑",
+        "result": "PASS",
+        "detail": "高数值不好的因子(PE/PB/PS/FCF/EV/债务比率/负债增长/应收增长/存货增长/EPS离散度/Capex强度等)在rank时翻转为1-rank。flip_factors集合完整。"
+      },
+      {
+        "item": "输出格式",
+        "result": "PASS",
+        "detail": "JSON格式输出，包含metadata(含config/weights/fixes)、walk_forward、window_details(19个窗口)、rank_inversion(含per_window)、verdict(含comparison_with_v044_original)。结构完整。"
+      }
+    ],
+    "warnings": []
+  },
+
+  "layer5_cross_layer_consistency": {
+    "status": "PASS_WITH_WARNINGS",
+    "checks": [
+      {
+        "item": "数据→特征链路",
+        "result": "PASS",
+        "detail": "features_v04_1.parquet包含所有53个PIT因子。FACTOR_GROUPS字典中所有列名在parquet中存在。fund_ratio=20, fund_growth=15, analyst=4, income=6, qoq=4, cashflow=4。与metadata.factor_groups完全匹配。"
+      },
+      {
+        "item": "特征→模型链路",
+        "result": "PASS",
+        "detail": "compute_cross_sectional_ranks()按date逐日计算percentile rank。compute_group_ranks()将因子组内rank等权平均。add_growth_composite()计算gc_baseline=0.60×fund_growth+0.25×analyst+0.15×income。链路完整。"
+      },
+      {
+        "item": "模型→信号链路",
+        "result": "PASS",
+        "detail": "Walk-Forward使用BacktestEngine，传入regime-adaptive权重。Top_n=10选股，持有30天调仓。结果保存为JSON。"
+      },
+      {
+        "item": "数据泄露检查",
+        "result": "PASS",
+        "detail": "截面排名仅用当日数据。median fill仅用当日截面中位数。Walk-Forward严格分离train/test期。regime-adaptive权重使用pad方法(仅用历史数据)。无跨日/跨期信息泄露。"
+      },
+      {
+        "item": "RI计算一致性",
+        "result": "PASS",
+        "detail": "RI的pass_rate=0.684与pass_windows/valid_windows=13/19=0.684一致。avg_spread=0.0208与per_window spreads均值一致。计算自洽。"
+      },
+      {
+        "item": "因子数量一致性",
+        "result": "PASS",
+        "detail": "代码中FACTOR_GROUPS定义的因子数: fund_ratio=20, fund_growth=15, analyst=4, income=6, qoq=4, cashflow=4, total=53。metadata.pit_factors=53。完全匹配。"
+      }
+    ],
+    "warnings": [
+      {
+        "severity": "MEDIUM",
+        "message": "gc_baseline是嵌套结构(4个外部权重中gc_baseline内部又有3个子权重)。实际是7个底层因子组的组合，但外部只暴露4个权重。这种嵌套增加了调参复杂度，但也提供了更多灵活性。建议在对外文档中明确说明嵌套关系。"
+      }
+    ]
+  },
+
+  "key_findings": {
+    "critical": [
+      "声称指标与实际结果不符: MaxDD(声称-24.0% vs 实际-31.6%), CAGR(声称42.3% vs 实际33.5%), WinRate(声称65% vs 实际62%)。仅Sharpe和RI匹配。声称值可能来自不同运行或配置，需要澄清。",
+      "策略仅在42.1%的窗口跑赢baseline(8/19)。Baseline在57.9%的窗口更优。策略的alpha来源不够稳健，主要依赖少数几个窗口。"
+    ],
+    "significant": [
+      "AUDIT-7的BLOCKER(RI实现不正确)已修复。check_real_rank_inversion()现在正确实现Top5% vs Bottom20%前瞻收益比较。RI=68.4%(13/19)通过。",
+      "Regime-adaptive权重效果有限: 仅3/19窗口使用非base权重，其中W5和W8仍然RI FAIL。W8的spread=-24.46%表明极端市场环境下regime fix不足。",
+      "W8(COVID反弹, 2020-07→2021-01)是最大RI失败: Bottom20%跑赢Top5%达24.5%。即使使用regime-adaptive权重(fund_ratio=0.55)也未能解决。",
+      "analyst因子在2016-2018年原始覆盖率极低(0.2%-4.8%)，median fill使其变为中位数值，丧失信息含量。早期窗口的growth_composite实际只靠fund_growth驱动。",
+      "Sharpe从早期(avg=3.24)到近期(avg=1.32)退化约60%，需关注持续性。"
+    ],
+    "positive": [
+      "Walk-Forward结构合理: 19个窗口全部有效，train=6个月/test=6个月滚动步进。无因数据质量被拒绝的窗口。",
+      "无前视偏差: 截面排名仅用当日数据，median fill仅用当日截面中位数，regime weights使用历史数据，Walk-Forward严格分离train/test。",
+      "所有53个PIT因子在parquet中存在，列名完全匹配。metadata与代码一致。",
+      "权重和均为1.00，配置自洽。",
+      "percentile ranking天然处理异常值，将任何分布映射到[0,1]。",
+      "输出格式完整，包含所有审计所需的详细信息。"
+    ]
+  },
+
+  "verdict": {
+    "deploy_recommendation": "FAIL",
+    "conditions_for_pass": [
+      "澄清声称指标(MaxDD/CAGR/WinRate)与实际结果的差异来源。如果是不同配置的运行结果，需以实际结果为准。",
+      "评估baseline underperformance: 策略仅在42%窗口跑赢baseline，需证明策略在扣除交易成本后仍有正alpha。",
+      "W8 RI spread=-24.5%需要额外的保护机制(如极端市场环境下的position sizing reduction)。",
+      "考虑regime阈值的参数敏感性分析，确认当前阈值选择不是过拟合。"
+    ],
+    "risk_level": "HIGH",
+    "comparison_with_AUDIT7": {
+      "AUDIT7_blocker_resolved": "Rank Inversion实现已修复为真正的Top5% vs Bottom20%检查",
+      "new_blockers": "声称指标不一致 + baseline underperformance",
+      "overall_change": "AUDIT7=CONDITIONAL_PASS → AUDIT8=FAIL"
+    }
+  }
+}

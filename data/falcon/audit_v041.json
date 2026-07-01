@@ -1,0 +1,101 @@
+{
+  "version": "V0.4.1",
+  "audit_time": "2026-07-01T14:35:00",
+  "auditor": "AUDIT-2 (automated)",
+  "layer1_data": {
+    "status": "PASS",
+    "file": "data/falcon/features_v04_1.parquet",
+    "findings": [
+      {"type": "pass", "detail": "Shape: 1,234,580 rows × 156 columns"},
+      {"type": "pass", "detail": "Date range: 2016-01-04 to 2026-06-26 (2,635 unique dates)"},
+      {"type": "pass", "detail": "Ticker count: 476 (SPX universe)"},
+      {"type": "pass", "detail": "Year distribution balanced: 2016-2025 ~115-120K rows each, 2026 partial 57.5K"},
+      {"type": "warn", "detail": "144/156 columns have missing values; top: eps_dispersion 71.7%, qoq factors ~71%, analyst factors ~65%"},
+      {"type": "pass", "detail": "2025-2026 PIT factor coverage: mean=98.9%, median=100.0% — excellent"},
+      {"type": "pass", "detail": "76 PIT factors available (r_*, m_*, g_*, a_*, b_*, c_*, i_*)"},
+      {"type": "warn", "detail": "1 PIT factor with <80% coverage in 2025-2026: c_buyback_yield (75.5%)"},
+      {"type": "pass", "detail": "Legacy non-PIT factors properly excluded via EXCLUDE_COLS in optimization script"}
+    ]
+  },
+  "layer2_features": {
+    "status": "PASS",
+    "file": "scripts/falcon/v041_optimization.py",
+    "findings": [
+      {"type": "pass", "detail": "growth_composite = 0.5×fund_growth + 0.3×analyst + 0.2×income — matches claimed formula"},
+      {"type": "pass", "detail": "Weight config: fund_ratio=0.70, growth_composite=0.30 — matches claimed config"},
+      {"type": "pass", "detail": "Cross-sectional percentile ranking via scipy.stats.rankdata (method='average')"},
+      {"type": "pass", "detail": "18 flip_factors defined (higher=better→lower=better inversions) — comprehensive list"},
+      {"type": "pass", "detail": "No look-ahead bias detected: ranks computed per-date using only same-day data"},
+      {"type": "pass", "detail": "Group ranks computed as equal-weighted mean of factor-level percentile ranks"},
+      {"type": "pass", "detail": "Combo factors (quality_composite, safety_composite, growth_composite, etc.) use only group-level ranks"},
+      {"type": "pass", "detail": "Walk-Forward properly splits train/test with rolling windows (no future data in training)"}
+    ]
+  },
+  "layer3_model": {
+    "status": "WARN",
+    "file": "data/falcon/v041_optimization_results.json",
+    "findings": [
+      {"type": "pass", "detail": "Final best: fr1+growth_composite0, Sharpe=1.876, MaxDD=-32.21%, CAGR=34.46%, WinRate=63.3%"},
+      {"type": "pass", "detail": "Rank inversion (stability) passed: 0 negative recent windows, recent_avg=1.507 > threshold=0.930"},
+      {"type": "warn", "detail": "RI metric is MISNAMED: 'rank_inversion' actually checks Sharpe degradation stability, NOT Top5% vs Bottom20% returns"},
+      {"type": "warn", "detail": "Only 15/19 windows valid — 4 windows (W3-W6, 2018-H1 to 2020-H1) failed data quality due to growth_composite coverage <80% in 2018-2019"},
+      {"type": "warn", "detail": "Early windows (W0-W2) avg Sharpe=3.101, Recent (W13-W15/W18) avg=1.507 → 51.4% degradation over time"},
+      {"type": "warn", "detail": "Window sensitivity: only 6-month training passes RI (3/4/5/7/8 mo all fail RI) — very narrow optimal window"},
+      {"type": "pass", "detail": "128 total candidates tested, 102 passed RI, 26 failed — systematic search performed"},
+      {"type": "warn", "detail": "solo_growth_composite (Sharpe=1.58, RI=FAIL) and solo_fund_growth (Sharpe=1.416, RI=FAIL) — growth alone causes inversion; only combined with fund_ratio=0.70 does it pass"},
+      {"type": "pass", "detail": "Comparison with V0.4.0: V0.4.1 Sharpe=1.876 vs V0.4.0 Sharpe=1.851 → +1.4% improvement (marginal)"}
+    ]
+  },
+  "layer4_signal": {
+    "status": "WARN",
+    "file": "Walk-Forward window details",
+    "findings": [
+      {"type": "pass", "detail": "14/15 valid windows have positive Sharpe (93.3% win rate across windows)"},
+      {"type": "warn", "detail": "1 negative window: W7 (2020-H1) Sharpe=-0.262, MaxDD=-32.21% — COVID crash, expected but largest drawdown"},
+      {"type": "pass", "detail": "Latest window W18 (2025-H2): Sharpe=2.266, MaxDD=-4.42%, WinRate=55% — recent performance strong"},
+      {"type": "warn", "detail": "W17 (2025-H1): Sharpe=0.285 — weakest positive window, but still positive"},
+      {"type": "pass", "detail": "Baseline comparison: V0.4.1 beats baseline in most windows (12/15 windows)"},
+      {"type": "warn", "detail": "W13 (2023-H1): baseline Sharpe=2.766 > V0.4.1 Sharpe=1.238 — underperforms baseline in this window"},
+      {"type": "warn", "detail": "W15 (2024-H1): baseline Sharpe=2.966 > V0.4.1 Sharpe=2.787 — slightly underperforms baseline"},
+      {"type": "pass", "detail": "WinRate range: 44.2%-82.5%, most windows 55%-70% — reasonable"},
+      {"type": "pass", "detail": "Trades per window: 40-43 (consistent top-10 rebalancing)"}
+    ]
+  },
+  "layer5_consistency": {
+    "status": "WARN",
+    "findings": [
+      {"type": "pass", "detail": "128 candidates tested with systematic grid search (solo groups, 2-factor combos, 3-factor finetune, multi-factor)"},
+      {"type": "pass", "detail": "Candidate selection uses RI-passed pool first, falls back to all candidates — correct priority"},
+      {"type": "warn", "detail": "CRITICAL: 'rank_inversion' metric is actually a Sharpe degradation stability check, NOT the standard Top5% vs Bottom20% rank inversion test"},
+      {"type": "warn", "detail": "The actual Top5% > Bottom20% return test is NOT implemented — cannot verify signal direction correctness"},
+      {"type": "warn", "detail": "growth_composite has only 15 valid windows vs 19 for other configs — 4 windows lost means survivorship bias in reported Sharpe"},
+      {"type": "warn", "detail": "Window size sensitivity: RI only passes at exactly 6mo training. 3mo/4mo/5mo/7mo/8mo all fail — suggests overfitting to 6mo window"},
+      {"type": "pass", "detail": "No look-ahead bias in factor computation — all PIT factors use reported financial data, ranks are cross-sectional per date"},
+      {"type": "pass", "detail": "Train/test separation properly implemented with DateOffset-based rolling windows"},
+      {"type": "warn", "detail": "backtest_engine dependency: not independently verified in this audit — results depend on its correctness"},
+      {"type": "pass", "detail": "Cost=0.1% and stop_loss=-15% properly configured in Walk-Forward"}
+    ]
+  },
+  "overall": {
+    "status": "warn",
+    "summary": "V0.4.1 shows strong headline metrics (WF Sharpe=1.876, WinRate=63.3%) but has significant caveats that warrant caution. (1) The 'rank_inversion' metric is misnamed — it checks Sharpe stability, not actual Top5% vs Bottom20% return ordering. True rank inversion is untested. (2) 4 of 19 Walk-Forward windows were excluded due to growth_composite data coverage <80% in 2018-2019, introducing survivorship bias into the reported 15-window average. (3) Training window sensitivity is extreme — only the exact 6-month window passes RI, suggesting potential overfitting. (4) Early-to-recent Sharpe degradation is 51.4% (3.101→1.507), indicating model alpha may be decaying. (5) The improvement over V0.4.0 is marginal (+1.4%). Recommendation: Do NOT upgrade to V0.4.1 production without (a) implementing true Top5% vs Bottom20% rank inversion test, (b) ensuring growth_composite data coverage in 2018-2019, and (c) out-of-sample validation on 2026 data.",
+    "blockers": [
+      "True rank inversion test (Top5% vs Bottom20%) not implemented — cannot confirm signal direction",
+      "4 windows excluded due to data quality — reported Sharpe may be inflated"
+    ],
+    "warnings": [
+      "51.4% Sharpe degradation from early to recent windows",
+      "Training window sensitivity (only 6mo passes RI)",
+      "c_buyback_yield factor 75.5% coverage (below 80% threshold)",
+      "backtest_engine not independently verified"
+    ],
+    "passes": [
+      "No look-ahead bias detected in factor computation",
+      "Walk-Forward methodology is correct (rolling train/test)",
+      "2025-2026 PIT factor coverage excellent (98.9%)",
+      "476 SPX tickers, 156 columns, 10-year coverage",
+      "Cost and stop-loss properly configured",
+      "128 candidates systematically tested"
+    ]
+  }
+}

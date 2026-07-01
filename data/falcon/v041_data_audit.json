@@ -1,0 +1,448 @@
+{
+  "audit_date": "2026-07-01",
+  "audit_version": "V0.4.1",
+  "snapshots": [
+    {
+      "name": "fmp_ratios_historical.json",
+      "tickers": 476,
+      "date_range": {"earliest": "2010-06-30", "latest": "2026-05-31"},
+      "records_per_ticker": {"avg": 39.7, "min": 27, "max": 40},
+      "has_2025_2026": true,
+      "latest_date_distribution": {
+        "2026-03-31": 364,
+        "2026-04-30": 18,
+        "2026-03-28": 16,
+        "2026-03-29": 11,
+        "2026-05-31": 10,
+        "2026-02-28": 4,
+        "2026-02-22": 2,
+        "2026-03-05": 1,
+        "2026-03-21": 1,
+        "2026-03-22": 1,
+        "2026-03-27": 3
+      },
+      "fields": 21,
+      "quarter_end_coverage_2025_2026": {
+        "2025-03-31": 366,
+        "2025-06-30": 364,
+        "2025-09-30": 365,
+        "2025-12-31": 381,
+        "2026-03-31": 365
+      },
+      "empty_tickers": [],
+      "zero_value_issues": {
+        "priceToEarningsRatio": {"zero_count": 1, "total": 476, "pct": 0.2, "example_ticker": "PGR"},
+        "priceToBookRatio": {"zero_count": 1, "total": 476, "pct": 0.2, "example_ticker": "PGR"},
+        "inventoryTurnover": {"zero_count": 154, "total": 476, "pct": 32.4, "note": "Services companies have no inventory"},
+        "dividendYieldPercentage": {"zero_count": 86, "total": 476, "pct": 18.1, "note": "Non-dividend stocks"},
+        "dividendPayoutRatio": {"zero_count": 86, "total": 476, "pct": 18.1, "note": "Non-dividend stocks"},
+        "receivablesTurnover": {"zero_count": 26, "total": 476, "pct": 5.5},
+        "debtToEquityRatio": {"zero_count": 5, "total": 476, "pct": 1.1}
+      }
+    },
+    {
+      "name": "fmp_key_metrics.json",
+      "tickers": 476,
+      "date_range": {"earliest": "2010-06-30", "latest": "2026-05-31"},
+      "records_per_ticker": {"avg": 39.7, "min": 27, "max": 40},
+      "has_2025_2026": true,
+      "fields": 24,
+      "empty_tickers": []
+    },
+    {
+      "name": "fmp_balance_sheet.json",
+      "tickers": 476,
+      "date_range": {"earliest": "2009-12-31", "latest": "2026-05-31"},
+      "records_per_ticker": {"avg": 39.6, "min": 21, "max": 40},
+      "has_2025_2026": true,
+      "fields": 9,
+      "empty_tickers": []
+    },
+    {
+      "name": "fmp_cashflow.json",
+      "tickers": 476,
+      "date_range": {"earliest": "2012-09-30", "latest": "2026-05-31"},
+      "records_per_ticker": {"avg": 39.7, "min": 25, "max": 40},
+      "has_2025_2026": true,
+      "fields": 6,
+      "empty_tickers": []
+    },
+    {
+      "name": "fmp_income_stmt.json",
+      "tickers": 476,
+      "date_range": {"earliest": "2008-06-30", "latest": "2026-05-31"},
+      "records_per_ticker": {"avg": 39.7, "min": 27, "max": 40},
+      "has_2025_2026": true,
+      "fields": 10,
+      "empty_tickers": []
+    },
+    {
+      "name": "fmp_financial_growth.json",
+      "tickers": 476,
+      "date_range": {"earliest": "2010-06-30", "latest": "2026-05-31"},
+      "records_per_ticker": {"avg": 39.7, "min": 27, "max": 40},
+      "has_2025_2026": true,
+      "fields": 8,
+      "empty_tickers": []
+    },
+    {
+      "name": "analyst_historical.json",
+      "tickers": 476,
+      "tickers_with_2025_data": 475,
+      "tickers_with_2026_data": 475,
+      "date_range": {"earliest": "2013-03-31", "latest": "2031-01-04"},
+      "records_per_ticker": {"avg": 39.8, "min": 12, "max": 40},
+      "has_2025_2026": true,
+      "fields": ["date", "epsAvg", "epsHigh", "epsLow", "revenueAvg", "numAnalystsEps", "numAnalystsRevenue"],
+      "note": "Contains forward estimates (dates up to 2031)",
+      "empty_tickers": []
+    },
+    {
+      "name": "fmp_insider.json",
+      "tickers": 476,
+      "date_range": {"earliest": "2007-08-08", "latest": "2035-02-05"},
+      "records_per_ticker": {"avg": 498.9, "min": 209, "max": 500},
+      "has_2025_2026": true,
+      "fields": 8,
+      "empty_tickers": []
+    },
+    {
+      "name": "fmp_price_target.json",
+      "tickers": 476,
+      "date_range": null,
+      "records_per_ticker": {"avg": 1, "min": 1, "max": 1},
+      "has_2025_2026": false,
+      "fields": 5,
+      "note": "Single snapshot per ticker, no date field",
+      "empty_tickers": []
+    },
+    {
+      "name": "sp500_price_targets.json",
+      "tickers": 473,
+      "date_range": null,
+      "records_per_ticker": {"avg": 1, "min": 1, "max": 1},
+      "has_2025_2026": false,
+      "fields": 7,
+      "note": "List format, 3 fewer tickers than ratios (missing ERIE, L, NWS)",
+      "empty_tickers": []
+    },
+    {
+      "name": "fmp_ratios_russell.json",
+      "tickers": 691,
+      "date_range": {"earliest": "2000-06-30", "latest": "2026-05-31"},
+      "records_per_ticker": {"avg": 34.1, "min": 2, "max": 40},
+      "has_2025_2026": true,
+      "empty_tickers_count": 179,
+      "note": "179 tickers have empty data arrays"
+    },
+    {
+      "name": "fmp_metrics_russell.json",
+      "tickers": 691,
+      "date_range": {"earliest": "2000-06-30", "latest": "2026-05-31"},
+      "records_per_ticker": {"avg": 34.1, "min": 2, "max": 40},
+      "has_2025_2026": true,
+      "empty_tickers_count": 179
+    },
+    {
+      "name": "fmp_growth_russell.json",
+      "tickers": 691,
+      "date_range": {"earliest": "2000-06-30", "latest": "2026-05-31"},
+      "records_per_ticker": {"avg": 34.1, "min": 2, "max": 40},
+      "has_2025_2026": true,
+      "empty_tickers_count": 179
+    },
+    {
+      "name": "fmp_analyst_russell.json",
+      "tickers": 691,
+      "date_range": {"earliest": "1994-07-31", "latest": "2030-12-31"},
+      "records_per_ticker": {"avg": 24.4, "min": 1, "max": 40},
+      "has_2025_2026": true,
+      "empty_tickers_count": 297,
+      "note": "297 tickers (43%) have empty data arrays"
+    },
+    {
+      "name": "russell_prices.json",
+      "tickers": 691,
+      "date_range": {"earliest": "2022-01-03", "latest": "2024-12-31"},
+      "records_per_ticker": {"avg": 625.2, "min": 202, "max": 753},
+      "has_2025_2026": false,
+      "note": "CRITICAL: No 2025-2026 price data. Latest date is 2024-12-31."
+    }
+  ],
+  "factor_sources": [
+    {
+      "factor": "priceToEarningsRatio",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "priceToEarningsRatio",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 99.8,
+      "zero_pct": 0.2,
+      "note": "PGR has 0 in 2026-05-31"
+    },
+    {
+      "factor": "priceToBookRatio",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "priceToBookRatio",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 99.8,
+      "zero_pct": 0.2,
+      "note": "PGR has 0 in 2026-05-31"
+    },
+    {
+      "factor": "priceToSalesRatio",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "priceToSalesRatio",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 99.8,
+      "zero_pct": 0.2
+    },
+    {
+      "factor": "grossProfitMargin",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "grossProfitMargin",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 99.8,
+      "zero_pct": 0.2
+    },
+    {
+      "factor": "netProfitMargin",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "netProfitMargin",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 99.8,
+      "zero_pct": 0.2
+    },
+    {
+      "factor": "operatingProfitMargin",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "operatingProfitMargin",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 99.8,
+      "zero_pct": 0.2
+    },
+    {
+      "factor": "ebitdaMargin",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "ebitdaMargin",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 99.8,
+      "zero_pct": 0.2
+    },
+    {
+      "factor": "debtToEquityRatio",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "debtToEquityRatio",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 98.9,
+      "zero_pct": 1.1
+    },
+    {
+      "factor": "currentRatio",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "currentRatio",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 100.0,
+      "zero_pct": 0.0
+    },
+    {
+      "factor": "quickRatio",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "quickRatio",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 100.0,
+      "zero_pct": 0.0
+    },
+    {
+      "factor": "freeCashFlowOperatingCashFlowRatio",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "freeCashFlowOperatingCashFlowRatio",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 99.6,
+      "zero_pct": 0.4
+    },
+    {
+      "factor": "assetTurnover",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "assetTurnover",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 99.8,
+      "zero_pct": 0.2
+    },
+    {
+      "factor": "inventoryTurnover",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "inventoryTurnover",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 67.6,
+      "zero_pct": 32.4,
+      "note": "32.4% zero - services/tech companies have no inventory. Not a data gap, structural."
+    },
+    {
+      "factor": "receivablesTurnover",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "receivablesTurnover",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 94.5,
+      "zero_pct": 5.5
+    },
+    {
+      "factor": "financialLeverageRatio",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "financialLeverageRatio",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 100.0,
+      "zero_pct": 0.0
+    },
+    {
+      "factor": "dividendPayoutRatio",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "dividendPayoutRatio",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 81.9,
+      "zero_pct": 18.1,
+      "note": "18.1% zero - non-dividend stocks. Structural, not a gap."
+    },
+    {
+      "factor": "dividendYieldPercentage",
+      "source_file": "fmp_ratios_historical.json",
+      "source_field": "dividendYieldPercentage",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 81.9,
+      "zero_pct": 18.1,
+      "note": "18.1% zero - non-dividend stocks. Structural, not a gap."
+    },
+    {
+      "factor": "eps_revision",
+      "source_file": "analyst_historical.json",
+      "source_field": "COMPUTED (epsAvg change over time)",
+      "type": "computed",
+      "has_2025_2026": true,
+      "coverage_pct": 35.1,
+      "zero_pct": 0.0,
+      "note": "Computed from epsAvg historical changes. Only 35% of SPX tickers have analyst data."
+    },
+    {
+      "factor": "eps_dispersion",
+      "source_file": "analyst_historical.json",
+      "source_field": "COMPUTED (epsHigh - epsLow spread)",
+      "type": "computed",
+      "has_2025_2026": true,
+      "coverage_pct": 28.3,
+      "zero_pct": 0.0,
+      "note": "Computed from epsHigh/epsLow. Lower coverage because some records lack high/low."
+    },
+    {
+      "factor": "num_analysts_eps",
+      "source_file": "analyst_historical.json",
+      "source_field": "numAnalystsEps",
+      "type": "raw",
+      "has_2025_2026": true,
+      "coverage_pct": 35.1,
+      "zero_pct": 0.0,
+      "note": "Direct field. Only 35% of SPX tickers have analyst data."
+    }
+  ],
+  "gaps": [
+    {
+      "factor": "russell_prices (all R2K factors)",
+      "issue": "CRITICAL: russell_prices.json has NO 2025-2026 data. Latest date is 2024-12-31. Blocks all R2K scoring for 2025-2026 period.",
+      "recommendation": "Re-fetch Russell 2000 price data with date range covering 2025-01-01 to present."
+    },
+    {
+      "factor": "eps_revision",
+      "issue": "Low coverage (35.1%). Computed from analyst_historical.json which only covers ~168/476 tickers. V0.4.0 found analyst factors harmful at 30% coverage.",
+      "recommendation": "Either accept low coverage or fetch additional analyst data. Consider removing from scoring if IC is negative."
+    },
+    {
+      "factor": "eps_dispersion",
+      "issue": "Lowest coverage (28.3%). Computed field requiring epsHigh/epsLow which have even lower coverage than epsAvg.",
+      "recommendation": "Same as eps_revision. V0.4.0 already identified analyst factors as harmful."
+    },
+    {
+      "factor": "num_analysts_eps",
+      "issue": "Low coverage (35.1%). Only tickers with analyst coverage have this data.",
+      "recommendation": "This is a direct field from analyst_historical.json. Coverage is limited by FMP analyst data availability."
+    },
+    {
+      "factor": "inventoryTurnover",
+      "issue": "32.4% zero values (154/476 tickers). This is structural for services/tech companies without inventory, not a data gap.",
+      "recommendation": "Exclude from scoring for non-inventory companies, or accept zeros as valid values."
+    },
+    {
+      "factor": "dividendYieldPercentage / dividendPayoutRatio",
+      "issue": "18.1% zero values (86/476 tickers). Structural for non-dividend stocks.",
+      "recommendation": "Accept zeros as valid. Non-dividend stocks legitimately have 0 yield."
+    },
+    {
+      "factor": "R2K analyst data",
+      "issue": "297/691 Russell tickers (43%) have empty analyst data arrays in fmp_analyst_russell.json.",
+      "recommendation": "Russell 2000 stocks have much lower analyst coverage. This is expected but limits R2K analyst factor usage."
+    },
+    {
+      "factor": "R2K fundamental data",
+      "issue": "179/691 Russell tickers (26%) have empty data in fmp_ratios_russell.json, fmp_metrics_russell.json, fmp_growth_russell.json.",
+      "recommendation": "Some Russell 2000 stocks may be too small/new for FMP coverage. Filter out uncovered tickers."
+    },
+    {
+      "factor": "SPX 2026-05-31 coverage",
+      "issue": "Only 10/476 SPX tickers have data at 2026-05-31. Most (364/476) have latest data at 2026-03-31 (Q1 2026).",
+      "recommendation": "Q2 2026 data is still being released. Most tickers have Q1 2026 data which is sufficient for scoring."
+    },
+    {
+      "factor": "fmp_price_target.json",
+      "issue": "Single snapshot per ticker with no date field. Cannot determine data freshness.",
+      "recommendation": "Add date field or fetch dated price target history."
+    },
+    {
+      "factor": "sp500_price_targets.json",
+      "issue": "3 fewer tickers (473) than ratios (476). Missing ERIE, L, NWS.",
+      "recommendation": "These may be recent additions to SPX. Verify if they should be included."
+    }
+  ],
+  "summary": {
+    "total_snapshots": 15,
+    "spx_files": 10,
+    "r2k_files": 5,
+    "spx_tickers": 476,
+    "r2k_tickers": 691,
+    "factors_with_2025_2026_coverage": 17,
+    "factors_without_2025_2026_coverage": 0,
+    "factors_with_low_coverage": 3,
+    "low_coverage_factors": ["eps_revision (35.1%)", "eps_dispersion (28.3%)", "num_analysts_eps (35.1%)"],
+    "critical_gaps": [
+      "russell_prices.json has NO 2025-2026 data (blocks R2K scoring)",
+      "Analyst coverage only 35% for SPX (known V0.4.0 issue)",
+      "R2K: 26% empty fundamental data, 43% empty analyst data"
+    ],
+    "data_quality_issues": [
+      "inventoryTurnover: 32.4% zero (structural for services companies)",
+      "dividendYieldPercentage: 18.1% zero (structural for non-dividend stocks)",
+      "PGR: 0 values for PE/PB in 2026-05-31 (possible data error)"
+    ],
+    "positive_findings": [
+      "All 17 ratio factors have direct fields in fmp_ratios_historical.json",
+      "All 476 SPX tickers have 2025-2026 ratio data",
+      "Quarter-end coverage is strong: 364-381 tickers per quarter-end date",
+      "fmp_key_metrics.json has 24 fields covering ROE/ROA/EV/FCF metrics",
+      "fmp_financial_growth.json has 18 growth fields",
+      "Three-statement data (balance/cashflow/income) all have 2025-2026 coverage"
+    ]
+  }
+}

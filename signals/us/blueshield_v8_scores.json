@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-30 04:31",
+  "timestamp": "2026-07-01 04:31",
   "model": "blueshield_v8",
   "version": "v8",
   "total": 4361,
@@ -55,19 +55,19 @@
     {
       "ticker": "AHCO",
       "price": 10.03,
-      "pred_rank": 0.7517,
-      "signal": "\ud83d\udfe2\ud83d\udfe2"
-    },
-    {
-      "ticker": "SPOK",
-      "price": 10.45,
-      "pred_rank": 0.7443,
+      "pred_rank": 0.7498,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {
       "ticker": "LBTYK",
       "price": 10.72,
       "pred_rank": 0.7436,
+      "signal": "\ud83d\udfe2\ud83d\udfe2"
+    },
+    {
+      "ticker": "SPOK",
+      "price": 10.45,
+      "pred_rank": 0.7423,
       "signal": "\ud83d\udfe2\ud83d\udfe2"
     },
     {

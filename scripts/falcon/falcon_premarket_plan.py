@@ -109,7 +109,7 @@ def run_scoring():
         if result.returncode == 0:
             # 找到最新的评分文件
             import glob
-            pattern = str(DATA_DIR / "falcon_v032_scored_*.json")
+            pattern = str(DATA_DIR / "falcon_v044_scored_*.json")
             files = sorted(glob.glob(pattern))
             if files:
                 print(f"  ✅ 评分完成: {Path(files[-1]).name}")
@@ -318,7 +318,7 @@ def generate_report(plan, gatekeeper_result):
     """生成Telegram报告。"""
     lines = []
     lines.append(f"🦅 **Falcon 盘前计划**")
-    lines.append(f"📅 {plan['date']} | 模型 V0.3.2")
+    lines.append(f"📅 {plan['date']} | 模型 V0.4.4")
     lines.append("")
     
     # 账户
@@ -364,7 +364,7 @@ def generate_report(plan, gatekeeper_result):
         lines.append("")
     
     # 配置
-    lines.append(f"⚙️ V0.3.2: 持有{HOLD_DAYS}天 | 止损{STOP_LOSS*100:.0f}% | Top{TOP_N} | VIX>{VIX_THRESHOLD}停买")
+    lines.append(f"⚙️ V0.4.4: 持有{HOLD_DAYS}天 | 止损{STOP_LOSS*100:.0f}% | Top{TOP_N} | VIX>{VIX_THRESHOLD}停买")
     lines.append(f"📁 计划文件: {PLAN_FILE.name}")
     
     return "\n".join(lines)
@@ -443,7 +443,7 @@ def main():
     # 6. 生成计划
     plan = {
         "date": now_et.strftime("%Y-%m-%d"),
-        "model": "falcon_v032",
+        "model": "falcon_v044",
         "timestamp": now_et.isoformat(),
         "account": account,
         "gatekeeper": gatekeeper_result,

@@ -1,24 +1,77 @@
 {
   "positions": {
     "APP": {
-      "entry_date": "2026-06-30",
       "entry_price": 502.45,
-      "qty": 34
+      "qty": 34,
+      "current_price": 557.61,
+      "unrealized_plpc": 0.10978,
+      "entry_date": "2026-06-30",
+      "score": 0,
+      "reason": ""
     },
     "AVGO": {
-      "entry_date": "2026-06-30",
       "entry_price": 376.996818,
-      "qty": 44
+      "qty": 44,
+      "current_price": 373.21,
+      "unrealized_plpc": -0.01004,
+      "entry_date": "2026-06-30",
+      "score": 0,
+      "reason": ""
+    },
+    "EQT": {
+      "entry_price": 52.75,
+      "qty": 24,
+      "current_price": 52.735,
+      "unrealized_plpc": -0.00028,
+      "entry_date": "2026-07-01T22:16:10.661890",
+      "score": 0.7202,
+      "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(74%)\uff0c\u5206\u6790\u5e08\u770b\u597d(70%)"
+    },
+    "FICO": {
+      "entry_price": 1205.35,
+      "qty": 1,
+      "current_price": 1203.2,
+      "unrealized_plpc": -0.00178,
+      "entry_date": "2026-07-01T22:16:10.891945",
+      "score": 0.7066,
+      "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(83%)"
+    },
+    "INTU": {
+      "entry_price": 272.0,
+      "qty": 16,
+      "current_price": 271.8725,
+      "unrealized_plpc": -0.00047,
+      "entry_date": "2026-07-01T22:16:10.384586",
+      "score": 0.815,
+      "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(88%)\uff0c\u73b0\u91d1\u6d41\u5065\u5eb7(89%)\uff0c\u5206\u6790\u5e08\u770b\u597d(97%)"
     },
     "NVDA": {
-      "entry_date": "2026-06-30",
       "entry_price": 194.06,
-      "qty": 48
+      "qty": 48,
+      "current_price": 195.975,
+      "unrealized_plpc": 0.00987,
+      "entry_date": "2026-06-30",
+      "score": 0,
+      "reason": ""
     },
     "PLTR": {
-      "entry_date": "2026-06-30",
       "entry_price": 116.51,
-      "qty": 82
+      "qty": 82,
+      "current_price": 125.565,
+      "unrealized_plpc": 0.07772,
+      "entry_date": "2026-06-30",
+      "score": 0,
+      "reason": ""
+    },
+    "TROW": {
+      "entry_price": 115.75,
+      "qty": 39,
+      "current_price": 115.665,
+      "unrealized_plpc": -0.00073,
+      "entry_date": "2026-07-01T22:16:11.312675",
+      "score": 0.6962,
+      "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(76%)"
     }
-  }
+  },
+  "synced_at": "2026-07-01T22:16:11.973965"
 }

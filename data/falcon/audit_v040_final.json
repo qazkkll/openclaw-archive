@@ -1,0 +1,336 @@
+{
+  "audit_metadata": {
+    "version": "V0.4.0",
+    "audit_date": "2026-07-01",
+    "auditor": "Hermes Agent (AUDIT-5)",
+    "data_file": "features_v04_1.parquet",
+    "results_file": "v040_fixed_validation_results.json",
+    "script": "scripts/falcon/v040_fixed_validation.py",
+    "independent_verification": true
+  },
+  "layer1_data_integrity": {
+    "pass": false,
+    "blockers": [
+      {
+        "id": "L1-B1",
+        "severity": "BLOCKER",
+        "finding": "Production scoring (falcon_score.py) loads features_v02.parquet, NOT features_v04_1.parquet. V0.4.0 validation uses new data but production scoring is not updated.",
+        "evidence": "falcon_score.py line 103: master = pd.read_parquet(DATA_DIR / 'features_v02.parquet')",
+        "impact": "Production scoring uses old data with 0% fundamental factor coverage for 2025-2026",
+        "recommendation": "Update falcon_score.py to use features_v04_1.parquet before deploying V0.4.0 to production"
+      },
+      {
+        "id": "L1-B2",
+        "severity": "BLOCKER",
+        "finding": "13 fundamental factors have 0% coverage in 2025-2026 data, including critical factors: grossProfitMargin, netProfitMargin, operatingProfitMargin, ebitdaMargin, debtToEquityRatio, eps_revision, revenue_revision, num_analysts_eps, eps_dispersion",
+        "evidence": "Year-by-year analysis shows these factors drop to 0% starting 2025",
+        "impact": "These factors are missing from recent data, but the validation script uses r_ prefix versions which have 99.7% coverage in 2025-2026",
+        "recommendation": "The r_ prefix versions are available and have good coverage. Confirm these are the correct factors being used in production."
+      }
+    ],
+    "warnings": [
+      {
+        "id": "L1-W1",
+        "severity": "WARNING",
+        "finding": "144 out of 156 columns (92.3%) have some missing values",
+        "evidence": "11 columns have >50% missing: eps_dispersion (71.7%), netProfitMargin_qoq (71.0%), fmp_covered (71.0%), etc.",
+        "impact": "Missing values may affect factor calculations for some tickers",
+        "recommendation": "Review if missing data is systematic (e.g., FMP coverage gaps) or data quality issues"
+      },
+      {
+        "id": "L1-W2",
+        "severity": "WARNING",
+        "finding": "vol_change column contains 23 infinite values",
+        "evidence": "np.isinf(df['vol_change']).sum() = 23",
+        "impact": "Infinite values may cause numerical issues in factor calculations",
+        "recommendation": "Replace inf values with NaN or clip to finite values"
+      },
+      {
+        "id": "L1-W3",
+        "severity": "WARNING",
+        "finding": "141 out of 156 columns (90.4%) have extreme values (z-score > 5)",
+        "evidence": "range_ratio: 6119 extreme values (0.50%), avg_body: 5680 (0.46%)",
+        "impact": "Extreme values may distort percentile rankings",
+        "recommendation": "Consider winsorization or capping extreme values before ranking"
+      }
+    ],
+    "passes": [
+      {
+        "id": "L1-P1",
+        "finding": "Data file exists and is readable",
+        "evidence": "Shape: 1,234,580 rows × 156 columns, 476 tickers"
+      },
+      {
+        "id": "L1-P2",
+        "finding": "Date range covers 2016-01-04 to 2026-06-26 (10.5 years)",
+        "evidence": "2,635 unique dates, full SPX universe coverage"
+      },
+      {
+        "id": "L1-P3",
+        "finding": "2025-2026 fundamental factor coverage: 98.9% (as reported)",
+        "evidence": "176,525 rows in 2025-2026, 476 unique tickers"
+      },
+      {
+        "id": "L1-P4",
+        "finding": "No duplicate ticker-date combinations",
+        "evidence": "df.duplicated(subset=['ticker', 'date']).sum() = 0"
+      },
+      {
+        "id": "L1-P5",
+        "finding": "No negative close prices",
+        "evidence": "(df['close'] < 0).sum() = 0"
+      }
+    ]
+  },
+  "layer2_feature_consistency": {
+    "pass": true,
+    "blockers": [],
+    "warnings": [
+      {
+        "id": "L2-W1",
+        "severity": "WARNING",
+        "finding": "r_ prefix factors are raw values, not percentile ranks. The script computes percentile ranks during scoring.",
+        "evidence": "r_priceToEarningsRatio range: [-89800, 93170], r_grossProfitMargin range: [-63.79, 11.13]",
+        "impact": "The naming convention (r_ prefix) may be misleading - r_ appears to mean 'ratio' or 'raw', not 'rank'",
+        "recommendation": "Document the naming convention clearly to avoid confusion"
+      },
+      {
+        "id": "L2-W2",
+        "severity": "WARNING",
+        "finding": "Some factors have very extreme raw values before ranking",
+        "evidence": "r_assetTurnover max: 17,768,461, r_dividendYieldPercentage max: 27,615",
+        "impact": "Extreme raw values may affect ranking if not properly handled",
+        "recommendation": "Verify that the ranking function handles extreme values correctly"
+      }
+    ],
+    "passes": [
+      {
+        "id": "L2-P1",
+        "finding": "All 39 scoring factors exist in the data",
+        "evidence": "20 fund_ratio factors + 19 fund_metric factors, all present in features_v04_1.parquet"
+      },
+      {
+        "id": "L2-P2",
+        "finding": "Scoring factor coverage in 2025-2026: 99.7% mean",
+        "evidence": "Min: 87.6%, Max: 100.0%, Mean: 99.7%"
+      },
+      {
+        "id": "L2-P3",
+        "finding": "No forward-looking columns detected",
+        "evidence": "No columns with names containing 'future', 'fwd', 'next', 'target', 'label'"
+      },
+      {
+        "id": "L2-P4",
+        "finding": "PIT consistency: Fundamental factors have data from 2016-01-04 for all tickers",
+        "evidence": "AAPL/grossProfitMargin first valid date: 2016-01-04, MSFT/grossProfitMargin first valid date: 2016-01-04"
+      },
+      {
+        "id": "L2-P5",
+        "finding": "Factor computation logic is correct (ret5 matches manual calculation)",
+        "evidence": "AAPL/ret5 consistency: max diff = 0.000000"
+      },
+      {
+        "id": "L2-P6",
+        "finding": "Cross-sectional ranking is properly computed per date",
+        "evidence": "Script uses scipy.stats.rankdata with method='average', computes percentile ranks [0,1]"
+      },
+      {
+        "id": "L2-P7",
+        "finding": "FLIP_FACTORS correctly identifies factors where lower is better",
+        "evidence": "14 factors correctly flipped: r_priceToEarningsRatio, r_debtToEquityRatio, m_netDebtToEBITDA, etc."
+      }
+    ]
+  },
+  "layer3_model_validity": {
+    "pass": false,
+    "blockers": [
+      {
+        "id": "L3-B1",
+        "severity": "BLOCKER",
+        "finding": "Rank Inversion test FAILED: only 42.1% of windows passed (8/19)",
+        "evidence": "11/19 windows have Top5% underperforming Bottom20%",
+        "impact": "Model cannot reliably distinguish good stocks from bad stocks",
+        "recommendation": "Do not use V0.4.0 for production scoring. Consider V0.3.1 which has better rank inversion performance."
+      },
+      {
+        "id": "L3-B2",
+        "severity": "BLOCKER",
+        "finding": "Model does NOT beat baseline (equal-weight top-10)",
+        "evidence": "Mean model Sharpe: 1.306, Mean baseline Sharpe: 1.486. Model beats baseline in only 6/19 windows.",
+        "impact": "Complex V0.4.0 model underperforms simple equal-weight strategy",
+        "recommendation": "Stick with V0.3.1 (simple ranking with fixed weights) which has WF Sharpe 1.431"
+      }
+    ],
+    "warnings": [
+      {
+        "id": "L3-W1",
+        "severity": "WARNING",
+        "finding": "High Sharpe volatility across windows (std=1.296)",
+        "evidence": "Sharpe range: -1.918 to 3.583, 3 windows with negative Sharpe",
+        "impact": "Performance is inconsistent across market regimes",
+        "recommendation": "Consider regime-adaptive strategies or reduce position sizing during high-volatility periods"
+      },
+      {
+        "id": "L3-W2",
+        "severity": "WARNING",
+        "finding": "MaxDD of -28.87% is within acceptable range but on the higher side",
+        "evidence": "Worst drawdown window: 2020-01-04 to 2020-07-04 (COVID crash)",
+        "impact": "Significant capital at risk during market stress",
+        "recommendation": "Consider tighter stop-loss or position limits during market stress"
+      },
+      {
+        "id": "L3-W3",
+        "severity": "WARNING",
+        "finding": "Sharpe std calculation has minor discrepancy",
+        "evidence": "Reported std: 1.296, Computed std (ddof=1): 1.331",
+        "impact": "Minor reporting issue, does not affect conclusions",
+        "recommendation": "Clarify whether std is population or sample std"
+      }
+    ],
+    "passes": [
+      {
+        "id": "L3-P1",
+        "finding": "Walk-Forward Sharpe of 1.306 exceeds minimum threshold of 1.0",
+        "evidence": "WF Sharpe: 1.306, Mean of window sharpes: 1.306 (verified)"
+      },
+      {
+        "id": "L3-P2",
+        "finding": "Win Rate of 60.8% is acceptable",
+        "evidence": "60.8% of trades are profitable"
+      },
+      {
+        "id": "L3-P3",
+        "finding": "CAGR of 23% is strong",
+        "evidence": "Annual compound growth rate: 23%"
+      },
+      {
+        "id": "L3-P4",
+        "finding": "All 19 Walk-Forward windows completed successfully",
+        "evidence": "failed_windows: 0, n_windows: 19"
+      },
+      {
+        "id": "L3-P5",
+        "finding": "Factor IC analysis shows most factors have statistically significant IC",
+        "evidence": "30 factors analyzed, all have |t-stat| > 3.0"
+      }
+    ]
+  },
+  "layer4_signal_production": {
+    "pass": false,
+    "blockers": [
+      {
+        "id": "L4-B1",
+        "severity": "BLOCKER",
+        "finding": "V0.4.0 weight configuration differs significantly from V0.3.1 production config",
+        "evidence": "V0.3.1: fund_ratio=0.70, analyst=0.20, fund_metric=0.10 | V0.4.0: fund_ratio=0.70, fund_metric=0.15, log_metric=0.15",
+        "impact": "V0.4.0 removes analyst factor (was 20% weight), adds log_metric (new)",
+        "recommendation": "Verify if removing analyst factor is intentional and beneficial"
+      }
+    ],
+    "warnings": [
+      {
+        "id": "L4-W1",
+        "severity": "WARNING",
+        "finding": "log_metric = log(fund_metric + 1) may have numerical issues",
+        "evidence": "fund_metric values can be negative (r_ prefix factors have negative values), log of negative+1 may be undefined",
+        "impact": "NaN values in log_metric could affect scoring",
+        "recommendation": "Add validation to ensure fund_metric > -1 before log transformation"
+      },
+      {
+        "id": "L4-W2",
+        "severity": "WARNING",
+        "finding": "Median fill for missing values may introduce bias",
+        "evidence": "Script uses median_by_date then global_median as fallback",
+        "impact": "Missing fundamental data is replaced with cross-sectional median, which may not be representative",
+        "recommendation": "Consider using forward-fill for time-series data or industry-specific medians"
+      }
+    ],
+    "passes": [
+      {
+        "id": "L4-P1",
+        "finding": "Scoring script exists and is functional",
+        "evidence": "falcon_score.py (626 lines) loads data, computes ranks, outputs scored JSON"
+      },
+      {
+        "id": "L4-P2",
+        "finding": "Output format is compatible with downstream trading scripts",
+        "evidence": "Scored JSON format matches alpaca_trade.py expectations"
+      },
+      {
+        "id": "L4-P3",
+        "finding": "Top-N selection logic is correct",
+        "evidence": "Script selects top_n=10 stocks by composite score"
+      }
+    ]
+  },
+  "layer5_cross_layer_consistency": {
+    "pass": false,
+    "blockers": [
+      {
+        "id": "L5-B1",
+        "severity": "BLOCKER",
+        "finding": "Data inconsistency: Production scoring uses features_v02.parquet, validation uses features_v04_1.parquet",
+        "evidence": "falcon_score.py loads features_v02, v040_fixed_validation.py loads features_v04_1",
+        "impact": "Production scoring has 0% fundamental factor coverage for 2025-2026, validation has 98.9%",
+        "recommendation": "Align data sources before deploying V0.4.0 to production"
+      },
+      {
+        "id": "L5-B2",
+        "severity": "BLOCKER",
+        "finding": "Rank Inversion failure indicates model cannot distinguish good from bad stocks",
+        "evidence": "42.1% pass rate (8/19 windows), Top5% underperforms Bottom20% in 11/19 windows",
+        "impact": "Even if WF Sharpe is good, the model's ranking ability is broken",
+        "recommendation": "Do not use V0.4.0 for production. V0.3.1 has better rank inversion performance."
+      }
+    ],
+    "warnings": [
+      {
+        "id": "L5-W1",
+        "severity": "WARNING",
+        "finding": "Model underperforms simple baseline strategy",
+        "evidence": "V0.4.0 WF Sharpe: 1.306, Baseline Sharpe: 1.486",
+        "impact": "Complex model adds no value over simple equal-weight strategy",
+        "recommendation": "Consider reverting to V0.3.1 which has WF Sharpe 1.431 and better rank inversion"
+      },
+      {
+        "id": "L5-W2",
+        "severity": "WARNING",
+        "finding": "V0.4.0 removes analyst factor which was 20% weight in V0.3.1",
+        "evidence": "V0.3.1: analyst=0.20, V0.4.0: analyst=0.0",
+        "impact": "Loss of analyst consensus information may reduce model performance",
+        "recommendation": "Evaluate if analyst factor contributes positively to ranking"
+      }
+    ],
+    "passes": [
+      {
+        "id": "L5-P1",
+        "finding": "Feature computation pipeline is consistent",
+        "evidence": "Cross-sectional ranking computed correctly per date, factor groups properly defined"
+      },
+      {
+        "id": "L5-P2",
+        "finding": "No evidence of data leakage in validation script",
+        "evidence": "No forward-looking columns, PIT consistency verified"
+      },
+      {
+        "id": "L5-P3",
+        "finding": "Backtest engine properly handles costs and stop-loss",
+        "evidence": "cost=0.001, stop_loss=-0.15 applied correctly in Walk-Forward"
+      }
+    ]
+  },
+  "overall_assessment": {
+    "status": "FAIL",
+    "summary": "V0.4.0 fails 3 out of 5 audit layers (Data Integrity, Model Validity, Signal Production, Cross-layer Consistency). Critical issues: (1) Rank Inversion failure (42.1% pass rate), (2) Model underperforms baseline, (3) Data source inconsistency between production and validation.",
+    "recommendation": "DO NOT deploy V0.4.0 to production. Revert to V0.3.1 (WF Sharpe=1.431, better rank inversion) until rank inversion issues are resolved.",
+    "blocker_count": 7,
+    "warning_count": 7,
+    "pass_count": 18,
+    "critical_findings": [
+      "Rank Inversion FAILED: 42.1% pass rate (8/19 windows)",
+      "Model underperforms baseline (1.306 vs 1.486 Sharpe)",
+      "Production scoring uses wrong data file (features_v02 vs features_v04_1)",
+      "13 fundamental factors have 0% coverage in 2025-2026"
+    ]
+  }
+}

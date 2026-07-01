@@ -1,0 +1,86 @@
+2026-07-01 13:51:07 [INFO] ============================================================
+2026-07-01 13:51:07 [INFO] T0.2 Russell 2000 Price Download (2025-2026)
+2026-07-01 13:51:07 [INFO] ============================================================
+2026-07-01 13:51:07 [INFO] Loading existing prices from russell_prices.json...
+2026-07-01 13:51:07 [INFO]   Loaded 691 tickers
+2026-07-01 13:51:07 [INFO]   Date range: 2023-09-19 ~ 2024-12-31
+2026-07-01 13:51:07 [INFO] Total tickers to download: 691
+2026-07-01 13:51:07 [INFO] 
+--- Batch 1/14 (50 tickers) ---
+2026-07-01 13:51:10 [INFO]   ✓ Got 38/50 tickers
+2026-07-01 13:51:11 [INFO] 
+--- Batch 2/14 (50 tickers) ---
+2026-07-01 13:51:12 [INFO]   ✓ Got 47/50 tickers
+2026-07-01 13:51:13 [INFO] 
+--- Batch 3/14 (50 tickers) ---
+2026-07-01 13:51:15 [INFO]   ✓ Got 37/50 tickers
+2026-07-01 13:51:16 [INFO] 
+--- Batch 4/14 (50 tickers) ---
+2026-07-01 13:51:17 [INFO]   ✓ Got 43/50 tickers
+2026-07-01 13:51:18 [INFO] 
+--- Batch 5/14 (50 tickers) ---
+2026-07-01 13:51:20 [INFO]   ✓ Got 41/50 tickers
+2026-07-01 13:51:21 [INFO] 
+--- Batch 6/14 (50 tickers) ---
+2026-07-01 13:51:23 [INFO]   ✓ Got 44/50 tickers
+2026-07-01 13:51:24 [INFO] 
+--- Batch 7/14 (50 tickers) ---
+2026-07-01 13:51:25 [INFO]   ✓ Got 40/50 tickers
+2026-07-01 13:51:26 [INFO] 
+--- Batch 8/14 (50 tickers) ---
+2026-07-01 13:51:28 [INFO]   ✓ Got 44/50 tickers
+2026-07-01 13:51:29 [INFO] 
+--- Batch 9/14 (50 tickers) ---
+2026-07-01 13:51:30 [INFO]   ✓ Got 42/50 tickers
+2026-07-01 13:51:31 [INFO] 
+--- Batch 10/14 (50 tickers) ---
+2026-07-01 13:51:33 [INFO]   ✓ Got 47/50 tickers
+2026-07-01 13:51:34 [INFO] 
+--- Batch 11/14 (50 tickers) ---
+2026-07-01 13:51:36 [INFO]   ✓ Got 41/50 tickers
+2026-07-01 13:51:37 [INFO] 
+--- Batch 12/14 (50 tickers) ---
+2026-07-01 13:51:38 [INFO]   ✓ Got 44/50 tickers
+2026-07-01 13:51:39 [INFO] 
+--- Batch 13/14 (50 tickers) ---
+2026-07-01 13:51:41 [INFO]   ✓ Got 45/50 tickers
+2026-07-01 13:51:42 [INFO] 
+--- Batch 14/14 (41 tickers) ---
+2026-07-01 13:51:44 [INFO]   ✓ Got 33/41 tickers
+2026-07-01 13:51:44 [INFO] 
+============================================================
+2026-07-01 13:51:44 [INFO] Step 3: Saving new data (2025-2026)
+2026-07-01 13:51:44 [INFO] ============================================================
+2026-07-01 13:51:45 [INFO]   Saved 586 tickers, 211794 records
+2026-07-01 13:51:45 [INFO]   File: /home/hermes/.hermes/openclaw-archive/data/fmp_premium/snapshots/russell_prices_2025_2026.json
+2026-07-01 13:51:45 [INFO] 
+============================================================
+2026-07-01 13:51:45 [INFO] Step 4: Merging with existing data
+2026-07-01 13:51:45 [INFO] ============================================================
+2026-07-01 13:51:45 [INFO]   Existing records: 432,046
+2026-07-01 13:51:45 [INFO]   New records added: 211,794
+2026-07-01 13:51:45 [INFO]   Records updated: 0
+2026-07-01 13:51:45 [INFO] 
+============================================================
+2026-07-01 13:51:45 [INFO] Step 5: Saving merged result
+2026-07-01 13:51:45 [INFO] ============================================================
+2026-07-01 13:51:47 [INFO]   Saved 691 tickers, 643,840 records
+2026-07-01 13:51:47 [INFO]   File: /home/hermes/.hermes/openclaw-archive/data/fmp_premium/snapshots/russell_prices_updated.json
+2026-07-01 13:51:47 [INFO]   Date range: 2022-01-03 ~ 2026-06-29
+2026-07-01 13:51:47 [WARNING] 
+⚠️ Failed to download 105 tickers:
+2026-07-01 13:51:47 [WARNING]   AATRL, ABL, AIC, ALLK, ANTE, APXI, AQNU, AQU, ATIP, AULT, AZPN, BAFYY, BCAN, BPT, BWCGF, CDMO, CFOK, CHIR, CKNQP, CLNNW
+2026-07-01 13:51:47 [WARNING]   CMXC, CN, COMSW, CORR, CPE, CSLMW, CYBR, CYTHW, DIAX, DMDV, DTCK, EACPW, EAST, EMRAF, EPOKY, ESCR, EVM, FAZE, FETM, FICVU
+2026-07-01 13:51:47 [WARNING]   FPAY, FRES, GENE, GLST, GPP, GTH, HRGLF, HRYU, HTSC, IMAB, IRRX, JOAN, JWSM, KCAL, KCGI, KMET, LATG, LAZY, LEXXW, LGST
+2026-07-01 13:51:47 [WARNING]   LRENY, MDALF, MLNK, MOHR, MPLN, MSVX, MWSNF, NDJI, NVTA, NWLI, NWTN, NWYF, NYMTL, OBNNF, PEGRW, PRETL, PSTX, RENB, RHCCF, RHDGF
+2026-07-01 13:51:47 [WARNING]   RPHM, RSTN, SACC, SCRMU, SEAS, SHLT, SMTSF, SPZI, SRCL, STCN, SYSX, TCBC, TGAN, TTCFQ, UUSAF, VCSA, VHAQ, VZIO, WDGJF, WMPN
+2026-07-01 13:51:47 [WARNING]   WOW, WRK, XSHLF, YY, ZENV
+2026-07-01 13:51:47 [INFO] 
+============================================================
+2026-07-01 13:51:47 [INFO] ✅ T0.2 Complete
+2026-07-01 13:51:47 [INFO] ============================================================
+2026-07-01 13:51:47 [INFO]   New data file: /home/hermes/.hermes/openclaw-archive/data/fmp_premium/snapshots/russell_prices_2025_2026.json
+2026-07-01 13:51:47 [INFO]   Merged file:   /home/hermes/.hermes/openclaw-archive/data/fmp_premium/snapshots/russell_prices_updated.json
+2026-07-01 13:51:47 [INFO]   Download log:  /home/hermes/.hermes/openclaw-archive/data/fmp_premium/snapshots/russell_download.log
+2026-07-01 13:51:47 [INFO]   Total tickers: 691
+2026-07-01 13:51:47 [INFO]   Total records: 643,840

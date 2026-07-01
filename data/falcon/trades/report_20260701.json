@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-07-01T22:16:05.365060",
+  "sells": [],
+  "buys": [
+    {
+      "symbol": "INTU",
+      "qty": 16,
+      "side": "BUY",
+      "price": 267.72,
+      "score": 0.815,
+      "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(88%)\uff0c\u73b0\u91d1\u6d41\u5065\u5eb7(89%)\uff0c\u5206\u6790\u5e08\u770b\u597d(97%)",
+      "order_id": "138acbda-ba39-48fa-bbc1-646423d08229",
+      "fund_ratio": 0.7389,
+      "analyst": 0.9659,
+      "fund_metric": 0
+    },
+    {
+      "symbol": "EQT",
+      "qty": 82,
+      "side": "BUY",
+      "price": 52.7,
+      "score": 0.7202,
+      "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(74%)\uff0c\u5206\u6790\u5e08\u770b\u597d(70%)",
+      "order_id": "1b71cc23-633a-4f95-81f0-44faeca50820",
+      "fund_ratio": 0.6951,
+      "analyst": 0.7038,
+      "fund_metric": 0
+    },
+    {
+      "symbol": "FICO",
+      "qty": 3,
+      "side": "BUY",
+      "price": 1182.79,
+      "score": 0.7066,
+      "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(83%)",
+      "order_id": "a3dd86fb-3d52-47d2-9460-1e8d458369b9",
+      "fund_ratio": 0.6733,
+      "analyst": 0.4787,
+      "fund_metric": 0
+    },
+    {
+      "symbol": "PTC",
+      "qty": 37,
+      "side": "BUY",
+      "price": 115.72,
+      "score": 0.7052,
+      "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(73%)\uff0c\u73b0\u91d1\u6d41\u5065\u5eb7(79%)",
+      "order_id": "179ad412-7234-406c-8359-f1aa45840321",
+      "fund_ratio": 0.6308,
+      "analyst": 0.6471,
+      "fund_metric": 0
+    },
+    {
+      "symbol": "TROW",
+      "qty": 39,
+      "side": "BUY",
+      "price": 110.27,
+      "score": 0.6962,
+      "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(76%)",
+      "order_id": "5b693aa1-968f-424d-b064-febfa05881f6",
+      "fund_ratio": 0.8141,
+      "analyst": 0.5322,
+      "fund_metric": 0
+    }
+  ],
+  "holds": [
+    {
+      "symbol": "APP",
+      "qty": 34,
+      "pnl_pct": 10.96,
+      "days_held": 1
+    },
+    {
+      "symbol": "AVGO",
+      "qty": 44,
+      "pnl_pct": -1.07,
+      "days_held": 1
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 48,
+      "pnl_pct": 0.98,
+      "days_held": 1
+    },
+    {
+      "symbol": "PLTR",
+      "qty": 82,
+      "pnl_pct": 7.7,
+      "days_held": 1
+    }
+  ],
+  "errors": [],
+  "account": {
+    "cash": 45722.48,
+    "equity": 100784.08,
+    "buying_power": 337062.4,
+    "position_count": 4
+  },
+  "gatekeeper": {
+    "verdict": "REDUCE",
+    "passed": 4,
+    "total": 5,
+    "action": "\u26a0\ufe0f 4/5\u901a\u8fc7, \u5efa\u8bae\u51cf\u534a\u4ed3\u4f4d",
+    "checks": [
+      {
+        "name": "\u5b8f\u89c2\u72b6\u6001",
+        "pass": "True",
+        "detail": "SPX(7493)>MA200(6939) | VIX(16.5)\u6b63\u5e38"
+      },
+      {
+        "name": "\u884c\u4e1a\u98ce\u5411",
+        "pass": false,
+        "detail": "XLF(+6.0%) | XLK(-4.1%) | XLE(-7.0%)"
+      },
+      {
+        "name": "\u4e8b\u4ef6\u98ce\u9669",
+        "pass": true,
+        "detail": "\u672a\u67657\u5929\u65e0\u63a8\u8350\u80a1\u8d22\u62a5"
+      },
+      {
+        "name": "\u6301\u4ed3\u96c6\u4e2d",
+        "pass": true,
+        "detail": "\u884c\u4e1a\u91cd\u53e0: Technology(\u63014/\u63a88)"
+      },
+      {
+        "name": "\u76ee\u6807\u4ef7\u7a7a\u95f4",
+        "pass": true,
+        "detail": "\u2705 APP(+38%), PLTR(+68%), NVDA(+65%), AVGO(+36%) | \u26a0\ufe0f TXN(-4%)"
+      }
+    ],
+    "picks": [
+      "APP",
+      "PLTR",
+      "NVDA",
+      "AVGO",
+      "TXN"
+    ],
+    "timestamp": "2026-07-01T22:16:10.133696"
+  }
+}

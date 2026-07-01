@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-07-01T14:07:04.857653-04:00",
+  "session": "market",
+  "alerts": [
+    {
+      "level": "L2",
+      "type": "portfolio_drawdown",
+      "ticker": "PORTFOLIO",
+      "message": "🟠 组合回撤4.6%（$77,128 / $73,761）",
+      "data": {
+        "pnl": 0.04564925371915513,
+        "value": 77127.8,
+        "cost": 73760.680004
+      }
+    }
+  ],
+  "vix_multiplier": 1.0436666488647461,
+  "portfolio": {
+    "APP": {
+      "entry_price": 502.45,
+      "shares": 34,
+      "hold_days": null
+    },
+    "AVGO": {
+      "entry_price": 376.996818,
+      "shares": 44,
+      "hold_days": null
+    },
+    "EQT": {
+      "entry_price": 52.750366,
+      "shares": 82,
+      "hold_days": null
+    },
+    "FICO": {
+      "entry_price": 1205.35,
+      "shares": 3,
+      "hold_days": null
+    },
+    "INTU": {
+      "entry_price": 272.0,
+      "shares": 16,
+      "hold_days": null
+    },
+    "NVDA": {
+      "entry_price": 194.06,
+      "shares": 48,
+      "hold_days": null
+    },
+    "PLTR": {
+      "entry_price": 116.51,
+      "shares": 82,
+      "hold_days": null
+    },
+    "PTC": {
+      "entry_price": 119.27,
+      "shares": 37,
+      "hold_days": null
+    },
+    "TROW": {
+      "entry_price": 115.75,
+      "shares": 39,
+      "hold_days": null
+    }
+  },
+  "prices": {
+    "MO": 71.925,
+    "NEM": 93.78,
+    "AJG": 243.685,
+    "INTU": 271.86,
+    "VICI": 26.48,
+    "EQT": 52.83,
+    "PTC": 120.815,
+    "AVGO": 369.99,
+    "PLTR": 127.6,
+    "APP": 573.32,
+    "NFLX": 74.14,
+    "FICO": 1220.735,
+    "NVDA": 198.44,
+    "TROW": 116.74
+  }
+}

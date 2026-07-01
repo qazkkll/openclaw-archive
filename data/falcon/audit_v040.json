@@ -1,0 +1,146 @@
+{
+  "version": "V0.4.0",
+  "audit_time": "2026-07-01T09:30:00",
+  "auditor": "AUDIT-1 (independent)",
+  "layer1_data": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "severity": "BLOCK",
+        "file": "data/falcon/features_v02.parquet",
+        "detail": "2025-2026年所有20个基本面因子覆盖率=0%。priceToEarningsRatio, priceToBookRatio, grossProfitMargin等在2025年后全部为NaN。"
+      },
+      {
+        "severity": "BLOCK",
+        "file": "data/falcon/training_data_v04.parquet",
+        "detail": "2025-2026年6个核心基本面因子(priceToEarningsRatio, priceToBookRatio, grossProfitMargin, netProfitMargin, currentRatio, quickRatio)覆盖率=0%。模型无法对2025-2026年股票评分。"
+      },
+      {
+        "severity": "WARNING",
+        "file": "data/falcon/features_v02.parquet",
+        "detail": "eps_dispersion缺失71.71%, fmp_covered/qoq系列缺失70.98%, eps_revision缺失64.91%, vwap缺失56.68%, beta缺失29.02%"
+      },
+      {
+        "severity": "PASS",
+        "file": "data/falcon/features_v02.parquet",
+        "detail": "行列数=1,234,580×80, 日期范围2016-01-04~2026-06-26, ticker数=476, 技术因子覆盖率>85%"
+      }
+    ],
+    "summary": "features_v02.parquet基本结构正确(476只SPX股票, 10年数据), 但2025-2026基本面因子完全缺失, 阻断近期评分能力。"
+  },
+  "layer2_features": {
+    "status": "PASS",
+    "findings": [
+      {
+        "severity": "PASS",
+        "detail": "评分因子(fund_ratio, fund_metric, combo)均由基本面比率交叉截面百分位排名生成, 不含前瞻收益。"
+      },
+      {
+        "severity": "PASS",
+        "detail": "前视偏差审计通过: fwd_ret_5d/10d/20d/30d仅作为训练标签, 未用于评分因子。"
+      },
+      {
+        "severity": "PASS",
+        "detail": "交叉截面排名按日期独立计算, 无时间泄漏。fund_ratio=20个基本面比率的百分位均值, fund_metric=7个质量指标的百分位均值。"
+      },
+      {
+        "severity": "INFO",
+        "detail": "V0.4权重: fund_ratio=0.70, fund_metric=0.15, combo=0.15(log1p)。V0.3.1权重: fund_ratio=0.70, fund_metric=0.30。差异在fund_metric被拆分为fund_metric+combo。"
+      }
+    ],
+    "summary": "评分逻辑无前视偏差, 因子构建方法合理。combo=log1p(fund_metric)是合理的非线性变换。"
+  },
+  "layer3_model": {
+    "status": "WARN",
+    "findings": [
+      {
+        "severity": "PASS",
+        "detail": "Walk-Forward配置: 6个月训练+6个月测试, 30天持有期, Top-10选股, 0.1%交易成本, -15%止损。"
+      },
+      {
+        "severity": "PASS",
+        "detail": "3次WF运行结果完全一致: Sharpe=1.851, 0标准差, 完美可复现。"
+      },
+      {
+        "severity": "PASS",
+        "detail": "Rank Inversion检查通过: 早期窗口平均Sharpe=2.07, 近期=1.659, 退化19.9%<50%阈值。"
+      },
+      {
+        "severity": "WARNING",
+        "detail": "18个WF窗口中3个失败(窗口15-17, 覆盖2024H2-2026H1), 因2025-2026基本面数据缺失。实际只基于15个窗口(2017-2024H1)。"
+      },
+      {
+        "severity": "WARNING",
+        "detail": "Sharpe 1.851来自15个窗口, 最近有效窗口截止2024-07-03。无法验证2024H2-2026的表现。"
+      },
+      {
+        "severity": "INFO",
+        "detail": "窗口1(W1, 2018H2) Sharpe=-1.143, 窗口10(W10, 2022H1) Sharpe=-1.618。两个负窗口占比13.3%<25%阈值, 可接受。"
+      }
+    ],
+    "summary": "模型在2017-2024H1期间表现稳定, Sharpe=1.851, 可复现。但最近1.5年(2024H2-2026)无有效验证。"
+  },
+  "layer4_signal": {
+    "status": "PASS",
+    "findings": [
+      {
+        "severity": "PASS",
+        "detail": "V0.4 vs V0.3.1逐窗口对比: V0.4赢9/15窗口(60%), V0.3.1赢6个。V0.4平均Sharpe 1.851 vs V0.3.1的1.742, 提升+6.3%。"
+      },
+      {
+        "severity": "PASS",
+        "detail": "最大回撤-30.28%(窗口6, 2020H1), 与市场一致(2020年3月COVID崩盘)。"
+      },
+      {
+        "severity": "PASS",
+        "detail": "60%平均胜率, 602笔交易, 统计显著性充足。"
+      },
+      {
+        "severity": "WARNING",
+        "detail": "报告声称'改善59.4%'是对比V0.3.1历史Sharpe=1.161, 但本次V0.3.1基准为1.742。实际改善仅+6.3%, 59.4%数字具有误导性。"
+      }
+    ],
+    "summary": "V0.4信号优于V0.3.1(逐窗口60%胜率), 但改善幅度被夸大(实际6.3%非59.4%)。"
+  },
+  "layer5_consistency": {
+    "status": "WARN",
+    "findings": [
+      {
+        "severity": "PASS",
+        "detail": "3次WF运行完全一致(CV=0.0, max_deviation=0.0), 确认代码无随机性, 结果确定性可复现。"
+      },
+      {
+        "severity": "PASS",
+        "detail": "跨窗口稳定性: within-run CV=0.937, 各窗口Sharpe从-1.618到5.329, 变异大但合理(反映不同市场环境)。"
+      },
+      {
+        "severity": "WARNING",
+        "detail": "数据不一致: features_v02.parquet(80列, 1,234,580行) vs training_data_v04.parquet(90列, 1,177,880行)。脚本加载的是后者, 但任务指定检查前者。两个文件结构不同。"
+      },
+      {
+        "severity": "WARNING",
+        "detail": "2025-2026数据真空: features_v02.parquet在2025-2026有176,525行(技术指标), 但所有基本面因子=0%。模型无法在此期间评分。"
+      }
+    ],
+    "summary": "结果确定性可复现, 但存在两个数据文件不一致的问题, 且近期数据真空影响实际可用性。"
+  },
+  "overall": {
+    "status": "warn",
+    "summary": "V0.4.0在2017-2024H1期间通过验证(Sharpe=1.851, 无前视偏差, 可复现), 但存在3个警告: (1)2025-2026基本面数据完全缺失导致1.5年无法评分; (2)改善幅度被夸大(实际6.3%非59.4%); (3)features_v02.parquet与training_data_v04.parquet结构不一致。无阻断级代码错误, 但数据问题限制了生产可用性。",
+    "blocking_issues": [],
+    "warnings": [
+      "2025-2026基本面因子覆盖率=0%, 模型无法对最近1.5年股票评分",
+      "改善幅度+59.4%基于历史V0.3.1 Sharpe=1.161, 实际本次V0.3.1基准为1.742, 真实改善仅+6.3%",
+      "features_v02.parquet(80列)与training_data_v04.parquet(90列)不一致, 脚本使用后者",
+      "3/18个WF窗口因数据质量失败, 有效验证期止于2024-07-03"
+    ],
+    "pass_items": [
+      "评分逻辑无前视偏差",
+      "3次WF运行完全一致(可复现)",
+      "Rank Inversion检查通过",
+      "逐窗口对比V0.4赢60%",
+      "476只SPX股票覆盖正确",
+      "交易成本/止损配置合理"
+    ]
+  }
+}

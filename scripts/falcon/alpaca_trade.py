@@ -76,7 +76,7 @@ def get_alpaca_client():
     return TradingClient(api_key=api_key, secret_key=secret_key, paper=True)
 
 
-def load_latest_signals(model_name="falcon_v031"):
+def load_latest_signals(model_name="falcon_v044"):
     """加载最新评分结果。支持 falcon/arrow/blueshield 三种模型。"""
     search_dirs = []
     
@@ -97,7 +97,7 @@ def load_latest_signals(model_name="falcon_v031"):
             return latest_file, data.get("picks", [])
     
     # 回退: 尝试所有模型
-    for fallback in ["falcon_v031", "arrow_v12", "blueshield_v10"]:
+    for fallback in ["falcon_v044", "arrow_v12", "blueshield_v10"]:
         if fallback == model_name:
             continue
         for d in search_dirs:
@@ -165,7 +165,7 @@ def cmd_status(client):
 
 
 # ── 命令: signals ──
-def cmd_signals(model_name="falcon_v031"):
+def cmd_signals(model_name="falcon_v044"):
     """查看今日信号。"""
     cfg = load_config()
     thresholds = cfg.get("signal_thresholds", {})
@@ -194,7 +194,7 @@ def cmd_signals(model_name="falcon_v031"):
 
 
 # ── 命令: execute ──
-def cmd_execute(client, model_name="falcon_v031", dry_run=False):
+def cmd_execute(client, model_name="falcon_v044", dry_run=False):
     """执行信号：买入🟢🟢信号的股票。"""
     from alpaca.trading.requests import MarketOrderRequest
     from alpaca.trading.enums import OrderSide, TimeInForce
@@ -377,7 +377,7 @@ def cmd_rebalance(client, hold_days=10, stop_loss_pct=-15.0, dry_run=False, keep
 
 
 # ── 命令: full ──
-def cmd_full(client, model_name="falcon_v031", hold_days=30, stop_loss_pct=-15.0, dry_run=False):
+def cmd_full(client, model_name="falcon_v044", hold_days=30, stop_loss_pct=-15.0, dry_run=False):
     """完整流程：先轮换卖出，再买入新信号。保留仍在🟢🟢的持仓。"""
     print("🔄 完整交易流程")
     print(f"   模型: {model_name} | 持有: {hold_days}天 | 止损: {stop_loss_pct}%")
@@ -440,7 +440,7 @@ def main():
     parser = argparse.ArgumentParser(description="Alpaca Paper Trading")
     parser.add_argument("command", choices=["status", "signals", "execute", "rebalance", "full", "history"],
                         help="执行命令")
-    parser.add_argument("--model", default="falcon_v031", help="模型名 (falcon_v031 / arrow_v12 / blueshield_v10)")
+    parser.add_argument("--model", default="falcon_v044", help="模型名 (falcon_v044 / arrow_v12 / blueshield_v10)")
     parser.add_argument("--hold-days", type=int, default=10, help="持有天数")
     parser.add_argument("--stop-loss", type=float, default=-15.0, help="止损百分比")
     parser.add_argument("--dry-run", action="store_true", help="模拟运行，不实际下单")

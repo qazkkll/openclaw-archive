@@ -7,12 +7,12 @@
     {
       "name": "宏观状态",
       "pass": "True",
-      "detail": "SPX(7440)>MA200(6930) | VIX(17.6)正常"
+      "detail": "SPX(7493)>MA200(6939) | VIX(16.5)正常"
     },
     {
       "name": "行业风向",
       "pass": false,
-      "detail": "XLK(-5.2%)"
+      "detail": "XLF(+6.0%) | XLK(-4.1%) | XLE(-7.0%)"
     },
     {
       "name": "事件风险",
@@ -22,18 +22,20 @@
     {
       "name": "持仓集中",
       "pass": true,
-      "detail": "当前空仓"
+      "detail": "行业重叠: Technology(持4/推8)"
     },
     {
       "name": "目标价空间",
       "pass": true,
-      "detail": "✅ APP(+38%), PLTR(+68%), NVDA(+65%)"
+      "detail": "✅ APP(+38%), PLTR(+68%), NVDA(+65%), AVGO(+36%) | ⚠️ TXN(-4%)"
     }
   ],
   "picks": [
     "APP",
     "PLTR",
-    "NVDA"
+    "NVDA",
+    "AVGO",
+    "TXN"
   ],
-  "timestamp": "2026-06-30T21:01:18.997266"
+  "timestamp": "2026-07-01T22:16:10.133696"
 }

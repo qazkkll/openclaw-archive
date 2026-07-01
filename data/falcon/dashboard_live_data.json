@@ -1,0 +1,408 @@
+{
+  "timestamp": "2026/07/02 03:00:30",
+  "alpaca": [
+    {
+      "sym": "APP",
+      "qty": 34,
+      "entry": 502.45,
+      "price": 568.76,
+      "pnl": 2254.54,
+      "pnl_pct": 13.2,
+      "market_val": 19337.84
+    },
+    {
+      "sym": "AVGO",
+      "qty": 44,
+      "entry": 377.0,
+      "price": 370.5,
+      "pnl": -285.86,
+      "pnl_pct": -1.72,
+      "market_val": 16302.0
+    },
+    {
+      "sym": "EQT",
+      "qty": 82,
+      "entry": 52.75,
+      "price": 52.63,
+      "pnl": -9.46,
+      "pnl_pct": -0.22,
+      "market_val": 4316.07
+    },
+    {
+      "sym": "FICO",
+      "qty": 3,
+      "entry": 1205.35,
+      "price": 1216.6,
+      "pnl": 33.75,
+      "pnl_pct": 0.93,
+      "market_val": 3649.8
+    },
+    {
+      "sym": "INTU",
+      "qty": 16,
+      "entry": 272.0,
+      "price": 269.44,
+      "pnl": -40.88,
+      "pnl_pct": -0.94,
+      "market_val": 4311.12
+    },
+    {
+      "sym": "NVDA",
+      "qty": 48,
+      "entry": 194.06,
+      "price": 198.5,
+      "pnl": 213.36,
+      "pnl_pct": 2.29,
+      "market_val": 9528.24
+    },
+    {
+      "sym": "PLTR",
+      "qty": 82,
+      "entry": 116.51,
+      "price": 127.32,
+      "pnl": 886.42,
+      "pnl_pct": 9.28,
+      "market_val": 10440.24
+    },
+    {
+      "sym": "PTC",
+      "qty": 37,
+      "entry": 119.27,
+      "price": 120.75,
+      "pnl": 54.76,
+      "pnl_pct": 1.24,
+      "market_val": 4467.75
+    },
+    {
+      "sym": "TROW",
+      "qty": 39,
+      "entry": 115.75,
+      "price": 116.21,
+      "pnl": 17.94,
+      "pnl_pct": 0.4,
+      "market_val": 4532.19
+    }
+  ],
+  "alpaca_cash": 24501.66,
+  "alpaca_equity": 101384.69,
+  "futu": [
+    {
+      "sym": "VSH",
+      "qty": 26,
+      "cost": 63.17,
+      "price": 50.69,
+      "val": 1317.94,
+      "pnl": -324.48,
+      "pnl_pct": -19.76
+    },
+    {
+      "sym": "ON",
+      "qty": 25,
+      "cost": 119.48,
+      "price": 95.61,
+      "val": 2390.25,
+      "pnl": -596.75,
+      "pnl_pct": -19.98
+    },
+    {
+      "sym": "NYXH",
+      "qty": 0,
+      "cost": 0.0,
+      "price": 1.76,
+      "val": 0.0,
+      "pnl": 136.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "sym": "NEM",
+      "qty": 22,
+      "cost": 94.81,
+      "price": 93.45,
+      "val": 2055.9,
+      "pnl": -29.92,
+      "pnl_pct": -1.43
+    },
+    {
+      "sym": "CSGP",
+      "qty": 70,
+      "cost": 30.68,
+      "price": 29.87,
+      "val": 2090.9,
+      "pnl": -56.35,
+      "pnl_pct": -2.62
+    },
+    {
+      "sym": "COHR",
+      "qty": 8,
+      "cost": 386.0,
+      "price": 371.11,
+      "val": 2968.88,
+      "pnl": -119.12,
+      "pnl_pct": -3.86
+    },
+    {
+      "sym": "AVGO",
+      "qty": 8,
+      "cost": 376.18,
+      "price": 370.46,
+      "val": 2963.68,
+      "pnl": -45.76,
+      "pnl_pct": -1.52
+    },
+    {
+      "sym": "AAOI",
+      "qty": 30,
+      "cost": 147.75,
+      "price": 138.25,
+      "val": 4147.65,
+      "pnl": -284.79,
+      "pnl_pct": -6.43
+    }
+  ],
+  "scores": {
+    "INTU": {
+      "score": 0.815,
+      "rank": 1.0,
+      "fr": 73.9,
+      "gc": 88.4,
+      "qoq": 86.2,
+      "cf": 88.8
+    },
+    "EQT": {
+      "score": 0.7202,
+      "rank": 0.9979,
+      "fr": 69.5,
+      "gc": 76.5,
+      "qoq": 79.4,
+      "cf": 63.8
+    },
+    "FICO": {
+      "score": 0.7066,
+      "rank": 0.9958,
+      "fr": 67.3,
+      "gc": 67.2,
+      "qoq": 72.2,
+      "cf": 83.3
+    },
+    "PTC": {
+      "score": 0.7052,
+      "rank": 0.9937,
+      "fr": 63.1,
+      "gc": 73.0,
+      "qoq": 78.2,
+      "cf": 79.2
+    },
+    "TROW": {
+      "score": 0.6962,
+      "rank": 0.9916,
+      "fr": 81.4,
+      "gc": 53.0,
+      "qoq": 54.7,
+      "cf": 76.2
+    },
+    "AJG": {
+      "score": 0.6958,
+      "rank": 0.9895,
+      "fr": 56.3,
+      "gc": 80.3,
+      "qoq": 93.9,
+      "cf": 62.6
+    },
+    "NEM": {
+      "score": 0.6927,
+      "rank": 0.9874,
+      "fr": 70.6,
+      "gc": 66.5,
+      "qoq": 73.8,
+      "cf": 63.1
+    },
+    "MO": {
+      "score": 0.6921,
+      "rank": 0.9853,
+      "fr": 71.9,
+      "gc": 50.5,
+      "qoq": 82.6,
+      "cf": 68.4
+    },
+    "NFLX": {
+      "score": 0.6906,
+      "rank": 0.9832,
+      "fr": 62.1,
+      "gc": 68.1,
+      "qoq": 82.1,
+      "cf": 73.9
+    },
+    "VICI": {
+      "score": 0.6897,
+      "rank": 0.9811,
+      "fr": 75.7,
+      "gc": 59.2,
+      "qoq": 70.1,
+      "cf": 60.3
+    }
+  },
+  "picks": [
+    {
+      "sym": "INTU",
+      "score": 0.815,
+      "close": 267.72,
+      "rank_pct": 1.0,
+      "signal": "🟢🟢",
+      "universe": "SPX",
+      "fund_ratio": 0.7389,
+      "growth_composite": 0.8842,
+      "qoq": 0.8624,
+      "cashflow": 0.8876,
+      "fund_growth": 0.8798,
+      "analyst": 0.9659,
+      "income": 0.7658
+    },
+    {
+      "sym": "EQT",
+      "score": 0.7202,
+      "close": 52.7,
+      "rank_pct": 0.9979,
+      "signal": "🟢🟢",
+      "universe": "SPX",
+      "fund_ratio": 0.6951,
+      "growth_composite": 0.7648,
+      "qoq": 0.7936,
+      "cashflow": 0.6383,
+      "fund_growth": 0.738,
+      "analyst": 0.7038,
+      "income": 0.9737
+    },
+    {
+      "sym": "FICO",
+      "score": 0.7066,
+      "close": 1182.79,
+      "rank_pct": 0.9958,
+      "signal": "🟢🟢",
+      "universe": "SPX",
+      "fund_ratio": 0.6733,
+      "growth_composite": 0.6722,
+      "qoq": 0.7216,
+      "cashflow": 0.8327,
+      "fund_growth": 0.6933,
+      "analyst": 0.4787,
+      "income": 0.9105
+    },
+    {
+      "sym": "PTC",
+      "score": 0.7052,
+      "close": 115.72,
+      "rank_pct": 0.9937,
+      "signal": "🟢🟢",
+      "universe": "SPX",
+      "fund_ratio": 0.6308,
+      "growth_composite": 0.7305,
+      "qoq": 0.782,
+      "cashflow": 0.7919,
+      "fund_growth": 0.7324,
+      "analyst": 0.6471,
+      "income": 0.8617
+    },
+    {
+      "sym": "TROW",
+      "score": 0.6962,
+      "close": 110.27,
+      "rank_pct": 0.9916,
+      "signal": "🟢🟢",
+      "universe": "SPX",
+      "fund_ratio": 0.8141,
+      "growth_composite": 0.5303,
+      "qoq": 0.5473,
+      "cashflow": 0.7625,
+      "fund_growth": 0.4723,
+      "analyst": 0.5322,
+      "income": 0.759
+    },
+    {
+      "sym": "AJG",
+      "score": 0.6958,
+      "close": 226.01,
+      "rank_pct": 0.9895,
+      "signal": "🟢🟢",
+      "universe": "SPX",
+      "fund_ratio": 0.5634,
+      "growth_composite": 0.8032,
+      "qoq": 0.9391,
+      "cashflow": 0.6257,
+      "fund_growth": 0.8021,
+      "analyst": 0.8012,
+      "income": 0.8111
+    },
+    {
+      "sym": "NEM",
+      "score": 0.6927,
+      "close": 96.13,
+      "rank_pct": 0.9874,
+      "signal": "🟢🟢",
+      "universe": "SPX",
+      "fund_ratio": 0.7057,
+      "growth_composite": 0.6648,
+      "qoq": 0.7379,
+      "cashflow": 0.6308,
+      "fund_growth": 0.6861,
+      "analyst": 0.4652,
+      "income": 0.9124
+    },
+    {
+      "sym": "MO",
+      "score": 0.6921,
+      "close": 73.79,
+      "rank_pct": 0.9853,
+      "signal": "🟢🟢",
+      "universe": "SPX",
+      "fund_ratio": 0.7188,
+      "growth_composite": 0.5047,
+      "qoq": 0.8256,
+      "cashflow": 0.6841,
+      "fund_growth": 0.5091,
+      "analyst": 0.3509,
+      "income": 0.7432
+    },
+    {
+      "sym": "NFLX",
+      "score": 0.6906,
+      "close": 73.81,
+      "rank_pct": 0.9832,
+      "signal": "🟢🟢",
+      "universe": "SPX",
+      "fund_ratio": 0.6207,
+      "growth_composite": 0.681,
+      "qoq": 0.8209,
+      "cashflow": 0.7389,
+      "fund_growth": 0.7763,
+      "analyst": 0.3888,
+      "income": 0.7867
+    },
+    {
+      "sym": "VICI",
+      "score": 0.6897,
+      "close": 27.21,
+      "rank_pct": 0.9811,
+      "signal": "🟢🟢",
+      "universe": "SPX",
+      "fund_ratio": 0.7569,
+      "growth_composite": 0.5918,
+      "qoq": 0.7012,
+      "cashflow": 0.6034,
+      "fund_growth": 0.5569,
+      "analyst": 0.57,
+      "income": 0.7682
+    }
+  ],
+  "regime": {
+    "regime": "bull",
+    "vix": 16.5,
+    "trend_pct": 0.0,
+    "position_pct": 1.0
+  },
+  "totals": {
+    "positions": 17,
+    "alpaca_pnl": 3124.57,
+    "futu_pnl": -1321.17,
+    "total_pnl": 1803.4
+  }
+}

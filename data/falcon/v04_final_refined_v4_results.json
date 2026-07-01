@@ -1,0 +1,2201 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-01T09:01:25.040602",
+    "task": "T5.13 Final Refinement V4: More Combo Factors + Advanced Techniques",
+    "config": {
+      "test_months": 6,
+      "hold_days": 30,
+      "top_n": 10,
+      "cost": 0.001,
+      "stop_loss": -0.15
+    },
+    "v4_changes": "Added ultra-fine weight search (\u00b10.01 around optimum) + rank-average ensemble",
+    "elapsed_seconds": 43.7
+  },
+  "results": {
+    "test1_combo_screening": {
+      "results": {
+        "baseline": {
+          "sharpe": 1.742,
+          "max_dd": -0.3052,
+          "cagr": 0.3427,
+          "win_rate": 0.641,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.075,
+            "early_avg_sharpe": 2.921,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "sqrt_fr": {
+          "sharpe": 1.736,
+          "max_dd": -0.2829,
+          "cagr": 0.3416,
+          "win_rate": 0.636,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.101,
+            "early_avg_sharpe": 2.739,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "qrt_fm": {
+          "sharpe": 1.732,
+          "max_dd": -0.2901,
+          "cagr": 0.3428,
+          "win_rate": 0.639,
+          "n_trades": 603,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.756,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "log_fr": {
+          "sharpe": 1.74,
+          "max_dd": -0.2829,
+          "cagr": 0.3421,
+          "win_rate": 0.638,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.101,
+            "early_avg_sharpe": 2.739,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "log_fm": {
+          "sharpe": 1.851,
+          "max_dd": -0.3028,
+          "cagr": 0.3634,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.219,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr_x_sqrt_fm": {
+          "sharpe": 1.736,
+          "max_dd": -0.2901,
+          "cagr": 0.3426,
+          "win_rate": 0.644,
+          "n_trades": 603,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.75,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fm_x_sqrt_fr": {
+          "sharpe": 1.815,
+          "max_dd": -0.3028,
+          "cagr": 0.3572,
+          "win_rate": 0.648,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.097,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr_squared": {
+          "sharpe": 1.684,
+          "max_dd": -0.2829,
+          "cagr": 0.3204,
+          "win_rate": 0.636,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.031,
+            "early_avg_sharpe": 2.78,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "sqrt_fm": {
+          "sharpe": 1.846,
+          "max_dd": -0.3028,
+          "cagr": 0.3629,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.219,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr_x_log_fm": {
+          "sharpe": 1.742,
+          "max_dd": -0.2901,
+          "cagr": 0.3466,
+          "win_rate": 0.642,
+          "n_trades": 603,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.756,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fm_x_log_fr": {
+          "sharpe": 1.753,
+          "max_dd": -0.3028,
+          "cagr": 0.3417,
+          "win_rate": 0.638,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.906,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "sqrt_fr_x_sqrt_fm": {
+          "sharpe": 1.759,
+          "max_dd": -0.3028,
+          "cagr": 0.3471,
+          "win_rate": 0.64,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.908,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        }
+      },
+      "best_combo": "log_fm",
+      "elapsed_seconds": 14.7
+    },
+    "test2_weight_finetuning": {
+      "results": {
+        "fr0.65_fm0.15_c0.20": {
+          "sharpe": 1.747,
+          "max_dd": -0.3052,
+          "cagr": 0.3499,
+          "win_rate": 0.643,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.075,
+            "early_avg_sharpe": 2.87,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.65_fm0.20_c0.15": {
+          "sharpe": 1.743,
+          "max_dd": -0.3066,
+          "cagr": 0.3434,
+          "win_rate": 0.641,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.075,
+            "early_avg_sharpe": 2.921,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.68_fm0.12_c0.20": {
+          "sharpe": 1.835,
+          "max_dd": -0.3028,
+          "cagr": 0.3604,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.166,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.68_fm0.20_c0.12": {
+          "sharpe": 1.773,
+          "max_dd": -0.3052,
+          "cagr": 0.3521,
+          "win_rate": 0.643,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.075,
+            "early_avg_sharpe": 2.999,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.70_fm0.12_c0.18": {
+          "sharpe": 1.779,
+          "max_dd": -0.3028,
+          "cagr": 0.3467,
+          "win_rate": 0.64,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.974,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.70_fm0.15_c0.15": {
+          "sharpe": 1.851,
+          "max_dd": -0.3028,
+          "cagr": 0.3634,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.219,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.70_fm0.18_c0.12": {
+          "sharpe": 1.811,
+          "max_dd": -0.3028,
+          "cagr": 0.3552,
+          "win_rate": 0.648,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.097,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.70_fm0.20_c0.10": {
+          "sharpe": 1.807,
+          "max_dd": -0.3028,
+          "cagr": 0.356,
+          "win_rate": 0.646,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.07,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.72_fm0.18_c0.10": {
+          "sharpe": 1.847,
+          "max_dd": -0.3028,
+          "cagr": 0.3624,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.214,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "fr0.75_fm0.15_c0.10": {
+          "sharpe": 1.738,
+          "max_dd": -0.2901,
+          "cagr": 0.3454,
+          "win_rate": 0.642,
+          "n_trades": 603,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.756,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.68_fm0.15_c0.17": {
+          "sharpe": 1.81,
+          "max_dd": -0.3028,
+          "cagr": 0.3565,
+          "win_rate": 0.646,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.07,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.68_fm0.16_c0.16": {
+          "sharpe": 1.807,
+          "max_dd": -0.3028,
+          "cagr": 0.356,
+          "win_rate": 0.646,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.07,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.68_fm0.17_c0.15": {
+          "sharpe": 1.789,
+          "max_dd": -0.3028,
+          "cagr": 0.3549,
+          "win_rate": 0.646,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 2.976,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.69_fm0.14_c0.17": {
+          "sharpe": 1.835,
+          "max_dd": -0.3028,
+          "cagr": 0.3604,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.166,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.69_fm0.15_c0.16": {
+          "sharpe": 1.811,
+          "max_dd": -0.3028,
+          "cagr": 0.3552,
+          "win_rate": 0.648,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.097,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.69_fm0.16_c0.15": {
+          "sharpe": 1.811,
+          "max_dd": -0.3028,
+          "cagr": 0.3552,
+          "win_rate": 0.648,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.097,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.69_fm0.17_c0.14": {
+          "sharpe": 1.81,
+          "max_dd": -0.3028,
+          "cagr": 0.3565,
+          "win_rate": 0.646,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.07,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.70_fm0.13_c0.17": {
+          "sharpe": 1.786,
+          "max_dd": -0.3028,
+          "cagr": 0.3488,
+          "win_rate": 0.641,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.962,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.70_fm0.14_c0.16": {
+          "sharpe": 1.847,
+          "max_dd": -0.3028,
+          "cagr": 0.3615,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.216,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.70_fm0.15_c0.15": {
+          "sharpe": 1.851,
+          "max_dd": -0.3028,
+          "cagr": 0.3634,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.219,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.70_fm0.16_c0.14": {
+          "sharpe": 1.835,
+          "max_dd": -0.3028,
+          "cagr": 0.3604,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.166,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.70_fm0.17_c0.13": {
+          "sharpe": 1.811,
+          "max_dd": -0.3028,
+          "cagr": 0.3552,
+          "win_rate": 0.648,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.097,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.71_fm0.13_c0.16": {
+          "sharpe": 1.769,
+          "max_dd": -0.3028,
+          "cagr": 0.3436,
+          "win_rate": 0.638,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.974,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.71_fm0.14_c0.15": {
+          "sharpe": 1.752,
+          "max_dd": -0.3028,
+          "cagr": 0.3422,
+          "win_rate": 0.638,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.838,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.71_fm0.15_c0.14": {
+          "sharpe": 1.786,
+          "max_dd": -0.3028,
+          "cagr": 0.3488,
+          "win_rate": 0.641,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.962,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.71_fm0.16_c0.13": {
+          "sharpe": 1.846,
+          "max_dd": -0.3028,
+          "cagr": 0.3622,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.212,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.72_fm0.13_c0.15": {
+          "sharpe": 1.753,
+          "max_dd": -0.3028,
+          "cagr": 0.3417,
+          "win_rate": 0.638,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.906,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.72_fm0.14_c0.14": {
+          "sharpe": 1.753,
+          "max_dd": -0.3028,
+          "cagr": 0.3417,
+          "win_rate": 0.638,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.906,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ultra_fr0.72_fm0.15_c0.13": {
+          "sharpe": 1.769,
+          "max_dd": -0.3028,
+          "cagr": 0.3436,
+          "win_rate": 0.638,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.974,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        }
+      },
+      "best_weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "combo": 0.15
+      },
+      "elapsed_seconds": 9.5
+    },
+    "test3_training_windows": {
+      "results": {
+        "5mo": {
+          "sharpe": 1.491,
+          "max_dd": -0.3583,
+          "cagr": 0.2788,
+          "win_rate": 0.605,
+          "n_trades": 641,
+          "n_windows": 16,
+          "rank_inversion": {
+            "passed": false,
+            "recent_avg_sharpe": 1.501,
+            "early_avg_sharpe": 3.192,
+            "negative_recent_windows": 0,
+            "reason": "Inversion detected"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "5.5mo": {
+          "sharpe": 1.712,
+          "max_dd": -0.2953,
+          "cagr": 0.3524,
+          "win_rate": 0.658,
+          "n_trades": 643,
+          "n_windows": 16,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.796,
+            "early_avg_sharpe": 3.089,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "6mo": {
+          "sharpe": 1.851,
+          "max_dd": -0.3028,
+          "cagr": 0.3634,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.219,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "6.5mo": {
+          "sharpe": 1.644,
+          "max_dd": -0.3638,
+          "cagr": 0.2982,
+          "win_rate": 0.628,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.667,
+            "early_avg_sharpe": 3.228,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "7mo": {
+          "sharpe": 1.642,
+          "max_dd": -0.3258,
+          "cagr": 0.3197,
+          "win_rate": 0.648,
+          "n_trades": 600,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.365,
+            "early_avg_sharpe": 2.618,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        }
+      },
+      "best_window": "6mo",
+      "elapsed_seconds": 6.6
+    },
+    "test4_ensemble": {
+      "results": {
+        "ensemble_5mo": {
+          "sharpe": 1.491,
+          "max_dd": -0.3583,
+          "cagr": 0.2788,
+          "win_rate": 0.605,
+          "n_trades": 641,
+          "n_windows": 16,
+          "rank_inversion": {
+            "passed": false,
+            "recent_avg_sharpe": 1.501,
+            "early_avg_sharpe": 3.192,
+            "negative_recent_windows": 0,
+            "reason": "Inversion detected"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_6mo": {
+          "sharpe": 1.851,
+          "max_dd": -0.3028,
+          "cagr": 0.3634,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.219,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_7mo": {
+          "sharpe": 1.642,
+          "max_dd": -0.3258,
+          "cagr": 0.3197,
+          "win_rate": 0.648,
+          "n_trades": 600,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 1.365,
+            "early_avg_sharpe": 2.618,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_w1": {
+          "sharpe": 1.747,
+          "max_dd": -0.3052,
+          "cagr": 0.3499,
+          "win_rate": 0.643,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.075,
+            "early_avg_sharpe": 2.87,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_w2": {
+          "sharpe": 1.851,
+          "max_dd": -0.3028,
+          "cagr": 0.3634,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.219,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_w3": {
+          "sharpe": 1.746,
+          "max_dd": -0.2901,
+          "cagr": 0.3478,
+          "win_rate": 0.645,
+          "n_trades": 603,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.04,
+            "early_avg_sharpe": 2.75,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        },
+        "ensemble_rank_avg": {
+          "sharpe": 1.851,
+          "max_dd": -0.3028,
+          "cagr": 0.3634,
+          "win_rate": 0.65,
+          "n_trades": 602,
+          "n_windows": 15,
+          "rank_inversion": {
+            "passed": true,
+            "recent_avg_sharpe": 2.081,
+            "early_avg_sharpe": 3.219,
+            "negative_recent_windows": 0,
+            "reason": "OK"
+          },
+          "warnings": [],
+          "status": "PASS"
+        }
+      },
+      "elapsed_seconds": 11.7
+    },
+    "test5_final_wf": {
+      "result": {
+        "sharpe": 1.851,
+        "max_dd": -0.3028,
+        "cagr": 0.3634,
+        "win_rate": 0.65,
+        "n_trades": 602,
+        "n_windows": 15,
+        "rank_inversion": {
+          "passed": true,
+          "recent_avg_sharpe": 2.081,
+          "early_avg_sharpe": 3.219,
+          "negative_recent_windows": 0,
+          "reason": "OK"
+        },
+        "warnings": [],
+        "status": "PASS"
+      },
+      "window_details": [
+        {
+          "index": 0,
+          "period": "2017-01-03 \u2192 2017-07-03",
+          "sharpe": 2.7,
+          "max_dd": -0.0426,
+          "cagr": 0.3344,
+          "win_rate": 0.775,
+          "n_trades": 40,
+          "n_days": 126
+        },
+        {
+          "index": 1,
+          "period": "2017-07-06 \u2192 2018-01-06",
+          "sharpe": 5.329,
+          "max_dd": -0.034,
+          "cagr": 0.7904,
+          "win_rate": 0.875,
+          "n_trades": 40,
+          "n_days": 128
+        },
+        {
+          "index": 2,
+          "period": "2018-01-03 \u2192 2018-07-03",
+          "sharpe": 1.628,
+          "max_dd": -0.0965,
+          "cagr": 0.3767,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_days": 126
+        },
+        {
+          "index": 3,
+          "period": "2018-07-06 \u2192 2019-01-06",
+          "sharpe": -1.143,
+          "max_dd": -0.2355,
+          "cagr": -0.2235,
+          "win_rate": 0.425,
+          "n_trades": 40,
+          "n_days": 126
+        },
+        {
+          "index": 4,
+          "period": "2019-01-03 \u2192 2019-07-03",
+          "sharpe": 3.717,
+          "max_dd": -0.0859,
+          "cagr": 0.8331,
+          "win_rate": 0.8,
+          "n_trades": 40,
+          "n_days": 126
+        },
+        {
+          "index": 5,
+          "period": "2019-07-06 \u2192 2020-01-06",
+          "sharpe": 1.858,
+          "max_dd": -0.0802,
+          "cagr": 0.3319,
+          "win_rate": 0.65,
+          "n_trades": 40,
+          "n_days": 127
+        },
+        {
+          "index": 6,
+          "period": "2020-01-03 \u2192 2020-07-03",
+          "sharpe": 0.404,
+          "max_dd": -0.3028,
+          "cagr": 0.0822,
+          "win_rate": 0.561,
+          "n_trades": 41,
+          "n_days": 126
+        },
+        {
+          "index": 7,
+          "period": "2020-07-05 \u2192 2021-01-05",
+          "sharpe": 2.23,
+          "max_dd": -0.0859,
+          "cagr": 0.5114,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 128
+        },
+        {
+          "index": 8,
+          "period": "2021-01-03 \u2192 2021-07-03",
+          "sharpe": 3.799,
+          "max_dd": -0.0433,
+          "cagr": 0.8721,
+          "win_rate": 0.825,
+          "n_trades": 40,
+          "n_days": 126
+        },
+        {
+          "index": 9,
+          "period": "2021-07-06 \u2192 2022-01-06",
+          "sharpe": 1.758,
+          "max_dd": -0.0587,
+          "cagr": 0.3789,
+          "win_rate": 0.7,
+          "n_trades": 40,
+          "n_days": 130
+        },
+        {
+          "index": 10,
+          "period": "2022-01-03 \u2192 2022-07-03",
+          "sharpe": -1.618,
+          "max_dd": -0.2256,
+          "cagr": -0.3673,
+          "win_rate": 0.4,
+          "n_trades": 40,
+          "n_days": 125
+        },
+        {
+          "index": 11,
+          "period": "2022-07-06 \u2192 2023-01-06",
+          "sharpe": 0.857,
+          "max_dd": -0.1762,
+          "cagr": 0.222,
+          "win_rate": 0.561,
+          "n_trades": 41,
+          "n_days": 129
+        },
+        {
+          "index": 12,
+          "period": "2023-01-03 \u2192 2023-07-03",
+          "sharpe": 2.068,
+          "max_dd": -0.0712,
+          "cagr": 0.481,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 125
+        },
+        {
+          "index": 13,
+          "period": "2023-07-06 \u2192 2024-01-06",
+          "sharpe": 1.539,
+          "max_dd": -0.1166,
+          "cagr": 0.2808,
+          "win_rate": 0.5,
+          "n_trades": 40,
+          "n_days": 128
+        },
+        {
+          "index": 14,
+          "period": "2024-01-03 \u2192 2024-07-03",
+          "sharpe": 2.636,
+          "max_dd": -0.0911,
+          "cagr": 0.5472,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 126
+        },
+        {
+          "index": 15,
+          "period": "2024-07-05 \u2192 2025-01-05",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.3333333333333333}"
+        },
+        {
+          "index": 16,
+          "period": "2025-01-03 \u2192 2025-07-03",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.3333333333333333}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'fund_ratio': 0.0, 'fund_metric': 0.0}"
+        },
+        {
+          "index": 17,
+          "period": "2025-07-06 \u2192 2026-01-06",
+          "error": "\u6570\u636e\u8d28\u91cf\u4e0d\u8fbe\u6807:\n  - \u4ee5\u4e0b\u5e74\u4efd\u56e0\u5b50\u8986\u76d6\u7387<80%: {2025: 0.3333333333333333, 2026: 0.3333333333333333}\n  - \u4ee5\u4e0b\u56e0\u5b50\u8986\u76d6\u7387<80%: {'fund_ratio': 0.0, 'fund_metric': 0.0}"
+        }
+      ],
+      "elapsed_seconds": 1.2
+    }
+  },
+  "candidates": [
+    {
+      "name": "combo_baseline",
+      "sharpe": 1.742,
+      "max_dd": -0.3052,
+      "cagr": 0.3427,
+      "win_rate": 0.641,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_sqrt_fr",
+      "sharpe": 1.736,
+      "max_dd": -0.2829,
+      "cagr": 0.3416,
+      "win_rate": 0.636,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_qrt_fm",
+      "sharpe": 1.732,
+      "max_dd": -0.2901,
+      "cagr": 0.3428,
+      "win_rate": 0.639,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_log_fr",
+      "sharpe": 1.74,
+      "max_dd": -0.2829,
+      "cagr": 0.3421,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_log_fm",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_fr_x_sqrt_fm",
+      "sharpe": 1.736,
+      "max_dd": -0.2901,
+      "cagr": 0.3426,
+      "win_rate": 0.644,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_fm_x_sqrt_fr",
+      "sharpe": 1.815,
+      "max_dd": -0.3028,
+      "cagr": 0.3572,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_fr_squared",
+      "sharpe": 1.684,
+      "max_dd": -0.2829,
+      "cagr": 0.3204,
+      "win_rate": 0.636,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_sqrt_fm",
+      "sharpe": 1.846,
+      "max_dd": -0.3028,
+      "cagr": 0.3629,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_fr_x_log_fm",
+      "sharpe": 1.742,
+      "max_dd": -0.2901,
+      "cagr": 0.3466,
+      "win_rate": 0.642,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_fm_x_log_fr",
+      "sharpe": 1.753,
+      "max_dd": -0.3028,
+      "cagr": 0.3417,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_sqrt_fr_x_sqrt_fm",
+      "sharpe": 1.759,
+      "max_dd": -0.3028,
+      "cagr": 0.3471,
+      "win_rate": 0.64,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "weight_fr0.65_fm0.15_c0.20",
+      "sharpe": 1.747,
+      "max_dd": -0.3052,
+      "cagr": 0.3499,
+      "win_rate": 0.643,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.65_fm0.20_c0.15",
+      "sharpe": 1.743,
+      "max_dd": -0.3066,
+      "cagr": 0.3434,
+      "win_rate": 0.641,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.68_fm0.12_c0.20",
+      "sharpe": 1.835,
+      "max_dd": -0.3028,
+      "cagr": 0.3604,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.68_fm0.20_c0.12",
+      "sharpe": 1.773,
+      "max_dd": -0.3052,
+      "cagr": 0.3521,
+      "win_rate": 0.643,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.70_fm0.12_c0.18",
+      "sharpe": 1.779,
+      "max_dd": -0.3028,
+      "cagr": 0.3467,
+      "win_rate": 0.64,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.70_fm0.15_c0.15",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.70_fm0.18_c0.12",
+      "sharpe": 1.811,
+      "max_dd": -0.3028,
+      "cagr": 0.3552,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.70_fm0.20_c0.10",
+      "sharpe": 1.807,
+      "max_dd": -0.3028,
+      "cagr": 0.356,
+      "win_rate": 0.646,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.72_fm0.18_c0.10",
+      "sharpe": 1.847,
+      "max_dd": -0.3028,
+      "cagr": 0.3624,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.75_fm0.15_c0.10",
+      "sharpe": 1.738,
+      "max_dd": -0.2901,
+      "cagr": 0.3454,
+      "win_rate": 0.642,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.68_fm0.15_c0.17",
+      "sharpe": 1.81,
+      "max_dd": -0.3028,
+      "cagr": 0.3565,
+      "win_rate": 0.646,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.68_fm0.16_c0.16",
+      "sharpe": 1.807,
+      "max_dd": -0.3028,
+      "cagr": 0.356,
+      "win_rate": 0.646,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.68_fm0.17_c0.15",
+      "sharpe": 1.789,
+      "max_dd": -0.3028,
+      "cagr": 0.3549,
+      "win_rate": 0.646,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.69_fm0.14_c0.17",
+      "sharpe": 1.835,
+      "max_dd": -0.3028,
+      "cagr": 0.3604,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.69_fm0.15_c0.16",
+      "sharpe": 1.811,
+      "max_dd": -0.3028,
+      "cagr": 0.3552,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.69_fm0.16_c0.15",
+      "sharpe": 1.811,
+      "max_dd": -0.3028,
+      "cagr": 0.3552,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.69_fm0.17_c0.14",
+      "sharpe": 1.81,
+      "max_dd": -0.3028,
+      "cagr": 0.3565,
+      "win_rate": 0.646,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.70_fm0.13_c0.17",
+      "sharpe": 1.786,
+      "max_dd": -0.3028,
+      "cagr": 0.3488,
+      "win_rate": 0.641,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.70_fm0.14_c0.16",
+      "sharpe": 1.847,
+      "max_dd": -0.3028,
+      "cagr": 0.3615,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.70_fm0.15_c0.15",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.70_fm0.16_c0.14",
+      "sharpe": 1.835,
+      "max_dd": -0.3028,
+      "cagr": 0.3604,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.70_fm0.17_c0.13",
+      "sharpe": 1.811,
+      "max_dd": -0.3028,
+      "cagr": 0.3552,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.71_fm0.13_c0.16",
+      "sharpe": 1.769,
+      "max_dd": -0.3028,
+      "cagr": 0.3436,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.71_fm0.14_c0.15",
+      "sharpe": 1.752,
+      "max_dd": -0.3028,
+      "cagr": 0.3422,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.71_fm0.15_c0.14",
+      "sharpe": 1.786,
+      "max_dd": -0.3028,
+      "cagr": 0.3488,
+      "win_rate": 0.641,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.71_fm0.16_c0.13",
+      "sharpe": 1.846,
+      "max_dd": -0.3028,
+      "cagr": 0.3622,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.72_fm0.13_c0.15",
+      "sharpe": 1.753,
+      "max_dd": -0.3028,
+      "cagr": 0.3417,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.72_fm0.14_c0.14",
+      "sharpe": 1.753,
+      "max_dd": -0.3028,
+      "cagr": 0.3417,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.72_fm0.15_c0.13",
+      "sharpe": 1.769,
+      "max_dd": -0.3028,
+      "cagr": 0.3436,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "window_5.5mo",
+      "sharpe": 1.712,
+      "max_dd": -0.2953,
+      "cagr": 0.3524,
+      "win_rate": 0.658,
+      "n_windows": 16,
+      "rank_inversion_passed": true,
+      "test": "window_tuning"
+    },
+    {
+      "name": "window_6mo",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "window_tuning"
+    },
+    {
+      "name": "window_6.5mo",
+      "sharpe": 1.644,
+      "max_dd": -0.3638,
+      "cagr": 0.2982,
+      "win_rate": 0.628,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "window_tuning"
+    },
+    {
+      "name": "window_7mo",
+      "sharpe": 1.642,
+      "max_dd": -0.3258,
+      "cagr": 0.3197,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "window_tuning"
+    },
+    {
+      "name": "ensemble_ensemble_6mo",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "ensemble_ensemble_7mo",
+      "sharpe": 1.642,
+      "max_dd": -0.3258,
+      "cagr": 0.3197,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "ensemble_ensemble_w1",
+      "sharpe": 1.747,
+      "max_dd": -0.3052,
+      "cagr": 0.3499,
+      "win_rate": 0.643,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "ensemble_ensemble_w2",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "ensemble_ensemble_w3",
+      "sharpe": 1.746,
+      "max_dd": -0.2901,
+      "cagr": 0.3478,
+      "win_rate": 0.645,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "ensemble_ensemble_rank_avg",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "final_best_config",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "final_wf"
+    }
+  ],
+  "passed_candidates": [
+    {
+      "name": "combo_log_fm",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "weight_fr0.70_fm0.15_c0.15",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.70_fm0.15_c0.15",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "window_6mo",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "window_tuning"
+    },
+    {
+      "name": "ensemble_ensemble_6mo",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "ensemble_ensemble_w2",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "ensemble_ensemble_rank_avg",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "final_best_config",
+      "sharpe": 1.851,
+      "max_dd": -0.3028,
+      "cagr": 0.3634,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "final_wf"
+    },
+    {
+      "name": "weight_fr0.72_fm0.18_c0.10",
+      "sharpe": 1.847,
+      "max_dd": -0.3028,
+      "cagr": 0.3624,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.70_fm0.14_c0.16",
+      "sharpe": 1.847,
+      "max_dd": -0.3028,
+      "cagr": 0.3615,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "combo_sqrt_fm",
+      "sharpe": 1.846,
+      "max_dd": -0.3028,
+      "cagr": 0.3629,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "weight_ultra_fr0.71_fm0.16_c0.13",
+      "sharpe": 1.846,
+      "max_dd": -0.3028,
+      "cagr": 0.3622,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.68_fm0.12_c0.20",
+      "sharpe": 1.835,
+      "max_dd": -0.3028,
+      "cagr": 0.3604,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.69_fm0.14_c0.17",
+      "sharpe": 1.835,
+      "max_dd": -0.3028,
+      "cagr": 0.3604,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.70_fm0.16_c0.14",
+      "sharpe": 1.835,
+      "max_dd": -0.3028,
+      "cagr": 0.3604,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "combo_fm_x_sqrt_fr",
+      "sharpe": 1.815,
+      "max_dd": -0.3028,
+      "cagr": 0.3572,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "weight_fr0.70_fm0.18_c0.12",
+      "sharpe": 1.811,
+      "max_dd": -0.3028,
+      "cagr": 0.3552,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.69_fm0.15_c0.16",
+      "sharpe": 1.811,
+      "max_dd": -0.3028,
+      "cagr": 0.3552,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.69_fm0.16_c0.15",
+      "sharpe": 1.811,
+      "max_dd": -0.3028,
+      "cagr": 0.3552,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.70_fm0.17_c0.13",
+      "sharpe": 1.811,
+      "max_dd": -0.3028,
+      "cagr": 0.3552,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.68_fm0.15_c0.17",
+      "sharpe": 1.81,
+      "max_dd": -0.3028,
+      "cagr": 0.3565,
+      "win_rate": 0.646,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.69_fm0.17_c0.14",
+      "sharpe": 1.81,
+      "max_dd": -0.3028,
+      "cagr": 0.3565,
+      "win_rate": 0.646,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.70_fm0.20_c0.10",
+      "sharpe": 1.807,
+      "max_dd": -0.3028,
+      "cagr": 0.356,
+      "win_rate": 0.646,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.68_fm0.16_c0.16",
+      "sharpe": 1.807,
+      "max_dd": -0.3028,
+      "cagr": 0.356,
+      "win_rate": 0.646,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.68_fm0.17_c0.15",
+      "sharpe": 1.789,
+      "max_dd": -0.3028,
+      "cagr": 0.3549,
+      "win_rate": 0.646,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.70_fm0.13_c0.17",
+      "sharpe": 1.786,
+      "max_dd": -0.3028,
+      "cagr": 0.3488,
+      "win_rate": 0.641,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.71_fm0.15_c0.14",
+      "sharpe": 1.786,
+      "max_dd": -0.3028,
+      "cagr": 0.3488,
+      "win_rate": 0.641,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.70_fm0.12_c0.18",
+      "sharpe": 1.779,
+      "max_dd": -0.3028,
+      "cagr": 0.3467,
+      "win_rate": 0.64,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.68_fm0.20_c0.12",
+      "sharpe": 1.773,
+      "max_dd": -0.3052,
+      "cagr": 0.3521,
+      "win_rate": 0.643,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.71_fm0.13_c0.16",
+      "sharpe": 1.769,
+      "max_dd": -0.3028,
+      "cagr": 0.3436,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.72_fm0.15_c0.13",
+      "sharpe": 1.769,
+      "max_dd": -0.3028,
+      "cagr": 0.3436,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "combo_sqrt_fr_x_sqrt_fm",
+      "sharpe": 1.759,
+      "max_dd": -0.3028,
+      "cagr": 0.3471,
+      "win_rate": 0.64,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_fm_x_log_fr",
+      "sharpe": 1.753,
+      "max_dd": -0.3028,
+      "cagr": 0.3417,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "weight_ultra_fr0.72_fm0.13_c0.15",
+      "sharpe": 1.753,
+      "max_dd": -0.3028,
+      "cagr": 0.3417,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.72_fm0.14_c0.14",
+      "sharpe": 1.753,
+      "max_dd": -0.3028,
+      "cagr": 0.3417,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_ultra_fr0.71_fm0.14_c0.15",
+      "sharpe": 1.752,
+      "max_dd": -0.3028,
+      "cagr": 0.3422,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "weight_fr0.65_fm0.15_c0.20",
+      "sharpe": 1.747,
+      "max_dd": -0.3052,
+      "cagr": 0.3499,
+      "win_rate": 0.643,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "ensemble_ensemble_w1",
+      "sharpe": 1.747,
+      "max_dd": -0.3052,
+      "cagr": 0.3499,
+      "win_rate": 0.643,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "ensemble_ensemble_w3",
+      "sharpe": 1.746,
+      "max_dd": -0.2901,
+      "cagr": 0.3478,
+      "win_rate": 0.645,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    },
+    {
+      "name": "weight_fr0.65_fm0.20_c0.15",
+      "sharpe": 1.743,
+      "max_dd": -0.3066,
+      "cagr": 0.3434,
+      "win_rate": 0.641,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "combo_baseline",
+      "sharpe": 1.742,
+      "max_dd": -0.3052,
+      "cagr": 0.3427,
+      "win_rate": 0.641,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_fr_x_log_fm",
+      "sharpe": 1.742,
+      "max_dd": -0.2901,
+      "cagr": 0.3466,
+      "win_rate": 0.642,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_log_fr",
+      "sharpe": 1.74,
+      "max_dd": -0.2829,
+      "cagr": 0.3421,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "weight_fr0.75_fm0.15_c0.10",
+      "sharpe": 1.738,
+      "max_dd": -0.2901,
+      "cagr": 0.3454,
+      "win_rate": 0.642,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "weight_tuning"
+    },
+    {
+      "name": "combo_sqrt_fr",
+      "sharpe": 1.736,
+      "max_dd": -0.2829,
+      "cagr": 0.3416,
+      "win_rate": 0.636,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_fr_x_sqrt_fm",
+      "sharpe": 1.736,
+      "max_dd": -0.2901,
+      "cagr": 0.3426,
+      "win_rate": 0.644,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "combo_qrt_fm",
+      "sharpe": 1.732,
+      "max_dd": -0.2901,
+      "cagr": 0.3428,
+      "win_rate": 0.639,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "window_5.5mo",
+      "sharpe": 1.712,
+      "max_dd": -0.2953,
+      "cagr": 0.3524,
+      "win_rate": 0.658,
+      "n_windows": 16,
+      "rank_inversion_passed": true,
+      "test": "window_tuning"
+    },
+    {
+      "name": "combo_fr_squared",
+      "sharpe": 1.684,
+      "max_dd": -0.2829,
+      "cagr": 0.3204,
+      "win_rate": 0.636,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "combo_screening"
+    },
+    {
+      "name": "window_6.5mo",
+      "sharpe": 1.644,
+      "max_dd": -0.3638,
+      "cagr": 0.2982,
+      "win_rate": 0.628,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "window_tuning"
+    },
+    {
+      "name": "window_7mo",
+      "sharpe": 1.642,
+      "max_dd": -0.3258,
+      "cagr": 0.3197,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "window_tuning"
+    },
+    {
+      "name": "ensemble_ensemble_7mo",
+      "sharpe": 1.642,
+      "max_dd": -0.3258,
+      "cagr": 0.3197,
+      "win_rate": 0.648,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "test": "ensemble"
+    }
+  ],
+  "failed_candidates": [],
+  "best_candidate": {
+    "name": "combo_log_fm",
+    "sharpe": 1.851,
+    "max_dd": -0.3028,
+    "cagr": 0.3634,
+    "win_rate": 0.65,
+    "n_windows": 15,
+    "rank_inversion_passed": true,
+    "test": "combo_screening"
+  },
+  "summary": {
+    "best_combo": "log_fm",
+    "best_weights": {
+      "fund_ratio": 0.7,
+      "fund_metric": 0.15,
+      "combo": 0.15
+    },
+    "best_window": "6mo",
+    "best_train_months": 6.0,
+    "best_sharpe": 1.851,
+    "best_rank_inversion": true,
+    "v031_baseline_sharpe": 1.161,
+    "improvement_pct": 59.4
+  }
+}

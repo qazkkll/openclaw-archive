@@ -1,45 +1,173 @@
 {
-  "timestamp": "2026-06-30T18:58:30.977999+00:00",
+  "timestamp": "2026-07-01T19:00:40.145525+00:00",
   "data": {
-    "PLTR": {
-      "prev_close": 115.66,
-      "last_close": 117.13,
-      "last_volume": 856067.0,
-      "avg_volume_20d": 1052674.05,
-      "last_high": 118.69,
-      "last_low": 114.66
-    },
-    "APP": {
-      "prev_close": 498.88,
-      "last_close": 515.29,
-      "last_volume": 93759.0,
-      "avg_volume_20d": 168434.85,
-      "last_high": 519.29,
-      "last_low": 493.49
+    "NEM": {
+      "prev_close": 93.355,
+      "last_close": 93.42,
+      "last_volume": 308158.0,
+      "avg_volume_20d": 456266.4,
+      "atr": 4.245714285714287,
+      "atr_pct": 0.04544759458054257,
+      "ma20": 99.68199999999999,
+      "above_ma20": false,
+      "consecutive_down": 0,
+      "analyst_target": null
     },
     "NVDA": {
-      "prev_close": 194.92,
-      "last_close": 198.89,
-      "last_volume": 4010677.0,
-      "avg_volume_20d": 4720426.85,
-      "last_high": 199.47,
-      "last_low": 195.11
+      "prev_close": 199.93,
+      "last_close": 198.37,
+      "last_volume": 3909901.0,
+      "avg_volume_20d": 4649122.55,
+      "atr": 6.172499999999999,
+      "atr_pct": 0.03111609618389877,
+      "ma20": 204.47799999999998,
+      "above_ma20": false,
+      "consecutive_down": 1,
+      "analyst_target": null
     },
     "AVGO": {
-      "prev_close": 372.3,
-      "last_close": 378.46,
-      "last_volume": 652348.0,
-      "avg_volume_20d": 1058033.55,
-      "last_high": 378.85,
-      "last_low": 370.74
+      "prev_close": 377.55,
+      "last_close": 370.16,
+      "last_volume": 439095.0,
+      "avg_volume_20d": 1026733.65,
+      "atr": 15.351428571428572,
+      "atr_pct": 0.04147241347371021,
+      "ma20": 390.19175,
+      "above_ma20": false,
+      "consecutive_down": 1,
+      "analyst_target": null
     },
-    "TXN": {
-      "prev_close": 285.54,
-      "last_close": 298.87,
-      "last_volume": 225960.0,
-      "avg_volume_20d": 421697.85,
-      "last_high": 298.96,
-      "last_low": 286.71
+    "APP": {
+      "prev_close": 515.035,
+      "last_close": 569.47,
+      "last_volume": 136864.0,
+      "avg_volume_20d": 172477.4,
+      "atr": 31.434285714285718,
+      "atr_pct": 0.055199195241690896,
+      "ma20": 506.6199999999999,
+      "above_ma20": true,
+      "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "AJG": {
+      "prev_close": 229.52,
+      "last_close": 243.2,
+      "last_volume": 87988.0,
+      "avg_volume_20d": 118757.1,
+      "atr": 6.347857142857143,
+      "atr_pct": 0.02610138627819549,
+      "ma20": 218.49275000000003,
+      "above_ma20": true,
+      "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "NFLX": {
+      "prev_close": 71.39,
+      "last_close": 74.23,
+      "last_volume": 2320096.0,
+      "avg_volume_20d": 3402502.0,
+      "atr": 2.6457142857142864,
+      "atr_pct": 0.035642116202536524,
+      "ma20": 77.451,
+      "above_ma20": false,
+      "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "VICI": {
+      "prev_close": 26.54,
+      "last_close": 26.435,
+      "last_volume": 348151.0,
+      "avg_volume_20d": 497345.85,
+      "atr": 0.5675,
+      "atr_pct": 0.021467751087573293,
+      "ma20": 27.283749999999998,
+      "above_ma20": false,
+      "consecutive_down": 3,
+      "analyst_target": null
+    },
+    "INTU": {
+      "prev_close": 260.89,
+      "last_close": 269.59,
+      "last_volume": 347439.0,
+      "avg_volume_20d": 376196.9,
+      "atr": 11.632857142857135,
+      "atr_pct": 0.043150180432720564,
+      "ma20": 277.11150000000004,
+      "above_ma20": false,
+      "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "MO": {
+      "prev_close": 71.94,
+      "last_close": 71.78,
+      "last_volume": 287622.0,
+      "avg_volume_20d": 438057.05,
+      "atr": 1.5871428571428592,
+      "atr_pct": 0.022111212832862347,
+      "ma20": 71.41024999999999,
+      "above_ma20": true,
+      "consecutive_down": 2,
+      "analyst_target": null
+    },
+    "EQT": {
+      "prev_close": 53.16,
+      "last_close": 52.65,
+      "last_volume": 356202.0,
+      "avg_volume_20d": 577140.4,
+      "atr": 1.3296428571428567,
+      "atr_pct": 0.025254375254375246,
+      "ma20": 52.294000000000004,
+      "above_ma20": true,
+      "consecutive_down": 1,
+      "analyst_target": null
+    },
+    "TROW": {
+      "prev_close": 113.655,
+      "last_close": 116.155,
+      "last_volume": 81265.0,
+      "avg_volume_20d": 111932.4,
+      "atr": 2.7424999999999997,
+      "atr_pct": 0.023610692609013814,
+      "ma20": 108.30550000000002,
+      "above_ma20": true,
+      "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "PTC": {
+      "prev_close": 113.62,
+      "last_close": 120.75,
+      "last_volume": 59497.0,
+      "avg_volume_20d": 116899.9,
+      "atr": 5.520714285714284,
+      "atr_pct": 0.04572020112392782,
+      "ma20": 121.85525,
+      "above_ma20": false,
+      "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "FICO": {
+      "prev_close": 1194.69,
+      "last_close": 1215.56,
+      "last_volume": 10988.0,
+      "avg_volume_20d": 18451.15,
+      "atr": 42.853214285714266,
+      "atr_pct": 0.03525388650968629,
+      "ma20": 1166.58875,
+      "above_ma20": true,
+      "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "PLTR": {
+      "prev_close": 116.64,
+      "last_close": 127.27,
+      "last_volume": 1681896.0,
+      "avg_volume_20d": 1106814.9,
+      "atr": 6.340000000000002,
+      "atr_pct": 0.049815353186139714,
+      "ma20": 126.68374999999999,
+      "above_ma20": true,
+      "consecutive_down": 0,
+      "analyst_target": null
     }
   }
 }

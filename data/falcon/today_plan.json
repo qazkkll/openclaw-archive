@@ -1,53 +1,55 @@
 {
-  "date": "2026-06-30",
-  "generated_at": "2026-06-30T21:00:00",
-  "model": "falcon_v032",
-  "data_as_of": "2026-06-26",
-  "data_note": "features_v02.parquet 1 trading day behind (Mon Jun 29 not yet in features file)",
-  "vix": 17.6,
-  "vix_threshold": 25,
-  "vix_skip": false,
-  "spx": 7440.4,
-  "spx_sma20": 7447.6,
-  "spx_trend": "DOWN",
-
-  "gatekeeper": {
-    "macro": {"status": "PASS", "detail": "VIX 17.6 < 25, SPX slightly below SMA20"},
-    "sector": {"status": "PASS", "detail": "XLV+5.6%, XLI+3.2%, XLU+3.7% strong; XLE-4.0%, XLC-2.1% weak"},
-    "earnings": {"status": "UNKNOWN", "detail": "earnings_calendar.json not found"},
-    "concentration": {"status": "PASS", "detail": "2 positions, well under cap"},
-    "price_target": {"status": "UNKNOWN", "detail": "No target data for Top10 stocks"},
-    "score": "3/5 PASS, 2/5 UNKNOWN -> EXECUTE (reduced confidence)"
+  "date": "2026-07-01",
+  "model": "falcon_v044",
+  "score_date": "2026-06-26",
+  "score_date_note": "评分基于2026-06-26收盘数据（数据更新未运行，跳过新鲜度检查）",
+  "market_regime": {
+    "regime": "bull",
+    "vix": 16.5,
+    "position_pct": 1.0
   },
-
+  "gatekeeper_verdict": "REDUCE",
+  "gatekeeper_passed": 4,
+  "gatekeeper_total": 5,
+  "failed_check": "行业风向: XLC(-7.1%)",
   "top10": [
-    {"rank": 1, "sym": "PLTR", "score": 0.5453, "signal": "yellow", "close": 112.93, "growth": 0.76, "cashflow": 0.82, "analyst": 0.84, "balance": 0.96},
-    {"rank": 2, "sym": "INTU", "score": 0.5322, "signal": "yellow", "close": 267.72, "growth": 0.78, "cashflow": 0.89, "analyst": 0.67, "balance": 0.77},
-    {"rank": 3, "sym": "NFLX", "score": 0.5319, "signal": "yellow", "close": 73.81, "growth": 0.76, "cashflow": 0.74, "analyst": 0.82, "balance": 0.82},
-    {"rank": 4, "sym": "NVDA", "score": 0.5278, "signal": "yellow", "close": 192.53, "growth": 0.85, "cashflow": 0.77, "analyst": 0.80, "balance": 0.67},
-    {"rank": 5, "sym": "MNST", "score": 0.5261, "signal": "yellow", "close": 96.38, "growth": 0.76, "cashflow": 0.71, "analyst": 0.72, "balance": 0.94},
-    {"rank": 6, "sym": "HUM", "score": 0.5244, "signal": "yellow", "close": 383.84, "growth": 0.86, "cashflow": 0.49, "analyst": 0.90, "balance": 0.64},
-    {"rank": 7, "sym": "APP", "score": 0.5239, "signal": "yellow", "close": 477.08, "growth": 0.70, "cashflow": 0.89, "analyst": 0.78, "balance": 0.85},
-    {"rank": 8, "sym": "CNC", "score": 0.5239, "signal": "yellow", "close": 65.73, "growth": 0.76, "cashflow": 0.56, "analyst": 0.79, "balance": 0.94},
-    {"rank": 9, "sym": "SYF", "score": 0.5168, "signal": "yellow", "close": 78.66, "growth": 0.67, "cashflow": 0.81, "analyst": 0.63, "balance": 0.89},
-    {"rank": 10, "sym": "TPL", "score": 0.5144, "signal": "yellow", "close": 395.79, "growth": 0.67, "cashflow": 0.71, "analyst": 0.54, "balance": 0.89}
+    {"rank": 1, "sym": "INTU", "score": 0.815, "signal": "🟢🟢", "fund_ratio": 0.74, "gc": 0.88, "qoq": 0.86, "cashflow": 0.89, "price": 267.72},
+    {"rank": 2, "sym": "EQT", "score": 0.720, "signal": "🟢🟢", "fund_ratio": 0.70, "gc": 0.76, "qoq": 0.79, "cashflow": 0.64, "price": 52.70},
+    {"rank": 3, "sym": "FICO", "score": 0.707, "signal": "🟢🟢", "fund_ratio": 0.67, "gc": 0.67, "qoq": 0.72, "cashflow": 0.83, "price": 1182.79},
+    {"rank": 4, "sym": "PTC", "score": 0.705, "signal": "🟢🟢", "fund_ratio": 0.63, "gc": 0.73, "qoq": 0.78, "cashflow": 0.79, "price": 115.72},
+    {"rank": 5, "sym": "TROW", "score": 0.696, "signal": "🟢🟢", "fund_ratio": 0.81, "gc": 0.53, "qoq": 0.55, "cashflow": 0.76, "price": 110.27},
+    {"rank": 6, "sym": "AJG", "score": 0.696, "signal": "🟢🟢", "fund_ratio": 0.56, "gc": 0.80, "qoq": 0.94, "cashflow": 0.63, "price": 226.01},
+    {"rank": 7, "sym": "NEM", "score": 0.693, "signal": "🟢🟢", "fund_ratio": 0.71, "gc": 0.66, "qoq": 0.74, "cashflow": 0.63, "price": 96.13},
+    {"rank": 8, "sym": "MO", "score": 0.692, "signal": "🟢🟢", "fund_ratio": 0.72, "gc": 0.50, "qoq": 0.83, "cashflow": 0.68, "price": 73.79},
+    {"rank": 9, "sym": "NFLX", "score": 0.691, "signal": "🟢🟢", "fund_ratio": 0.62, "gc": 0.68, "qoq": 0.82, "cashflow": 0.74, "price": 73.81},
+    {"rank": 10, "sym": "VICI", "score": 0.690, "signal": "🟢🟢", "fund_ratio": 0.76, "gc": 0.59, "qoq": 0.70, "cashflow": 0.60, "price": 27.21}
   ],
-
-  "plan": {
-    "buy": [],
-    "hold": [],
-    "sell": [],
-    "watch": ["PLTR","INTU","NFLX","NVDA","MNST","HUM","APP","CNC","SYF","TPL"],
-    "action": "WATCH - All signals are yellow (score < 0.55 threshold for green). No buy signals triggered. Data is 1 trading day stale (features_v02.parquet missing Jun 29). Recommend refreshing data before any trading decisions."
+  "current_positions": [
+    {"sym": "APP", "qty": 34, "entry": 502.45, "current": 524.00, "pnl_pct": 4.3},
+    {"sym": "AVGO", "qty": 44, "entry": 377.00, "current": 371.78, "pnl_pct": -1.4},
+    {"sym": "NVDA", "qty": 48, "entry": 194.06, "current": 195.72, "pnl_pct": 0.9},
+    {"sym": "PLTR", "qty": 82, "entry": 116.51, "current": 120.30, "pnl_pct": 3.3}
+  ],
+  "account": {
+    "cash": 45722.48,
+    "equity": 99155.96,
+    "position_count": 4
   },
-
+  "action_plan": {
+    "buy": ["INTU", "FICO", "PTC", "AJG", "NEM", "MO", "VICI"],
+    "buy_note": "REDUCE模式: 减半仓位(每只约$3,000, 正常$6,000). 排除EQT(目标价下行-22%)和TROW(目标价下行-6%). 排除NFLX(与NVDA/PLTR同属科技,避免集中)",
+    "hold": ["APP", "AVGO", "NVDA", "PLTR"],
+    "hold_note": "现有持仓不在新Top10中但均有正PnL或微亏, 不强制卖出",
+    "sell": [],
+    "skip": ["EQT", "TROW", "NFLX"],
+    "skip_note": "EQT/TROW目标价下行空间不足; NFLX科技集中"
+  },
   "notes": [
-    "All Top10 scored yellow (0.51-0.55), no green or double-green signals",
-    "VIX 17.6 is comfortable, no macro panic",
-    "SPX slightly below SMA20 (7440 vs 7448) - neutral/slightly bearish trend",
-    "Healthcare (XLV) and Industrials (XLI) showing relative strength",
-    "Only 2 current positions - capacity for new entries if signals strengthen",
-    "FMP API key expired (403) - price targets and earnings calendar unavailable",
-    "Data freshness issue: features_v02.parquet stops at Jun 26, needs update to include Jun 29"
-  ]
+    "Gatekeeper REDUCE: 行业风向未通过(XLC -7.1%), 建议减半仓位",
+    "VIX=16.5 bull市场, 正常执行但减量",
+    "新Top10与现有持仓(APP/AVGO/NVDA/PLTR)零重叠",
+    "INTU全面最强: 基本面0.74+成长0.88+QoQ0.86+现金流0.89",
+    "AJG QoQ=0.94最高, 但fund_ratio=0.56偏低"
+  ],
+  "timestamp": "2026-07-01T21:02:00Z"
 }

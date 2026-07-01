@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Falcon Data Inventory Dashboard</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; padding: 24px; }
+  .header { text-align: center; margin-bottom: 32px; }
+  .header h1 { font-size: 28px; color: #f1f5f9; margin-bottom: 8px; }
+  .header .subtitle { color: #94a3b8; font-size: 14px; }
+  .summary-cards { display: flex; gap: 16px; justify-content: center; margin-bottom: 32px; flex-wrap: wrap; }
+  .card { background: #1e293b; border-radius: 12px; padding: 20px 32px; text-align: center; min-width: 140px; border: 1px solid #334155; }
+  .card .num { font-size: 36px; font-weight: 700; }
+  .card .label { font-size: 13px; color: #94a3b8; margin-top: 4px; }
+  .card.total .num { color: #60a5fa; }
+  .card.passed .num { color: #34d399; }
+  .card.warning .num { color: #fbbf24; }
+  .card.failed .num { color: #f87171; }
+  .section { margin-bottom: 24px; }
+  .section h2 { font-size: 18px; color: #cbd5e1; margin-bottom: 12px; border-bottom: 1px solid #334155; padding-bottom: 8px; }
+  table { width: 100%; border-collapse: collapse; background: #1e293b; border-radius: 12px; overflow: hidden; }
+  th { background: #334155; color: #94a3b8; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; padding: 12px 16px; text-align: left; }
+  td { padding: 10px 16px; border-bottom: 1px solid #1e293b; font-size: 13px; }
+  tr:hover { background: #1e293b; }
+  tr:nth-child(even) { background: rgba(30,41,59,0.5); }
+  .status-passed { color: #34d399; font-weight: 600; }
+  .status-warning { color: #fbbf24; font-weight: 600; }
+  .status-failed { color: #f87171; font-weight: 600; }
+  .freq-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+  .freq-daily { background: #065f46; color: #6ee7b7; }
+  .freq-quarterly { background: #713f12; color: #fcd34d; }
+  .freq-irregular { background: #4c1d95; color: #c4b5fd; }
+  .size-col { font-family: 'SF Mono', Monaco, monospace; color: #94a3b8; }
+  .tickers-col { font-family: 'SF Mono', Monaco, monospace; }
+  .footer { text-align: center; margin-top: 32px; color: #475569; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🦅 Falcon Data Inventory</h1>
+  <div class="subtitle">Generated: 2026-07-01 19:35 CST &nbsp;|&nbsp; 20 data sources scanned</div>
+</div>
+
+<div class="summary-cards">
+  <div class="card total"><div class="num">20</div><div class="label">Total Sources</div></div>
+  <div class="card passed"><div class="num">18</div><div class="label">✅ Passed</div></div>
+  <div class="card warning"><div class="num">2</div><div class="label">⚠️ Warning</div></div>
+  <div class="card failed"><div class="num">0</div><div class="label">❌ Failed</div></div>
+</div>
+
+<div class="section">
+  <h2>📊 Core Data (Parquet)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Status</th>
+        <th>Name</th>
+        <th>Rows</th>
+        <th>Cols</th>
+        <th>Date Range</th>
+        <th>Size</th>
+        <th>Updated</th>
+        <th>Freq</th>
+        <th>Daily Update</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>features_v04_1.parquet</strong><br><span style="color:#64748b;font-size:11px">156-factor features matrix</span></td>
+        <td class="size-col">1,234,580</td>
+        <td>156</td>
+        <td>2016-01-04 ~ 2026-06-26</td>
+        <td class="size-col">381 MB</td>
+        <td>Jul 1 14:00</td>
+        <td><span class="freq-badge freq-daily">daily</span></td>
+        <td>✅</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>us_prices_daily.parquet</strong><br><span style="color:#64748b;font-size:11px">US daily OHLCV prices</span></td>
+        <td class="size-col">1,179,047</td>
+        <td>7</td>
+        <td>2016-07-05 ~ 2026-06-30</td>
+        <td class="size-col">40 MB</td>
+        <td>Jul 1 05:00</td>
+        <td><span class="freq-badge freq-daily">daily</span></td>
+        <td>✅</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>vix_10y.parquet</strong><br><span style="color:#64748b;font-size:11px">VIX volatility index</span></td>
+        <td class="size-col">2,512</td>
+        <td>6</td>
+        <td>2016-07-05 ~ 2026-06-30</td>
+        <td class="size-col">64 KB</td>
+        <td>Jul 1 05:00</td>
+        <td><span class="freq-badge freq-daily">daily</span></td>
+        <td>✅</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <h2>🏢 FMP Premium Snapshots (SPX 476)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Status</th>
+        <th>Name</th>
+        <th>Tickers</th>
+        <th>Size</th>
+        <th>Updated</th>
+        <th>Freq</th>
+        <th>Daily Update</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_balance_sheet.json</strong></td>
+        <td class="tickers-col">476</td>
+        <td class="size-col">4.7 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-quarterly">quarterly</span></td>
+        <td>—</td>
+        <td style="color:#64748b">Balance sheet fundamentals</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_cashflow.json</strong></td>
+        <td class="tickers-col">476</td>
+        <td class="size-col">3.2 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-quarterly">quarterly</span></td>
+        <td>—</td>
+        <td style="color:#64748b">Cash flow statements</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_income_stmt.json</strong></td>
+        <td class="tickers-col">476</td>
+        <td class="size-col">4.7 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-quarterly">quarterly</span></td>
+        <td>—</td>
+        <td style="color:#64748b">Income statements</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_financial_growth.json</strong></td>
+        <td class="tickers-col">476</td>
+        <td class="size-col">14.7 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-quarterly">quarterly</span></td>
+        <td>—</td>
+        <td style="color:#64748b">Financial growth metrics</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_key_metrics.json</strong></td>
+        <td class="tickers-col">476</td>
+        <td class="size-col">19.7 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-quarterly">quarterly</span></td>
+        <td>—</td>
+        <td style="color:#64748b">PE, PB, EV/EBITDA etc.</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_ratios_historical.json</strong></td>
+        <td class="tickers-col">476</td>
+        <td class="size-col">21.6 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-quarterly">quarterly</span></td>
+        <td>—</td>
+        <td style="color:#64748b">Historical ratio time series</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_insider.json</strong></td>
+        <td class="tickers-col">476</td>
+        <td class="size-col">43.0 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-irregular">irregular</span></td>
+        <td>✅</td>
+        <td style="color:#64748b">Insider transactions</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_price_target.json</strong></td>
+        <td class="tickers-col">476</td>
+        <td class="size-col">51 KB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-irregular">irregular</span></td>
+        <td>✅</td>
+        <td style="color:#64748b">Analyst price targets</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>analyst_historical.json</strong></td>
+        <td class="tickers-col">476</td>
+        <td class="size-col">4.9 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-irregular">irregular</span></td>
+        <td>✅</td>
+        <td style="color:#64748b">Analyst recommendation history</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>sp500_price_targets.json</strong></td>
+        <td class="tickers-col">476</td>
+        <td class="size-col">82 KB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-irregular">irregular</span></td>
+        <td>✅</td>
+        <td style="color:#64748b">SPX price targets</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <h2>📈 FMP Premium Snapshots (Russell)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Status</th>
+        <th>Name</th>
+        <th>Tickers</th>
+        <th>Size</th>
+        <th>Updated</th>
+        <th>Freq</th>
+        <th>Daily Update</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_analyst_russell.json</strong></td>
+        <td class="tickers-col">russell</td>
+        <td class="size-col">2.3 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-irregular">irregular</span></td>
+        <td>✅</td>
+        <td style="color:#64748b">Russell analyst coverage</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_growth_russell.json</strong></td>
+        <td class="tickers-col">russell</td>
+        <td class="size-col">7.8 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-quarterly">quarterly</span></td>
+        <td>—</td>
+        <td style="color:#64748b">Russell growth metrics</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_metrics_russell.json</strong></td>
+        <td class="tickers-col">russell</td>
+        <td class="size-col">12.2 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-quarterly">quarterly</span></td>
+        <td>—</td>
+        <td style="color:#64748b">Russell key metrics</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>fmp_ratios_russell.json</strong></td>
+        <td class="tickers-col">russell</td>
+        <td class="size-col">13.4 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-quarterly">quarterly</span></td>
+        <td>—</td>
+        <td style="color:#64748b">Russell financial ratios</td>
+      </tr>
+      <tr>
+        <td class="status-passed">✅</td>
+        <td><strong>russell_prices.json</strong></td>
+        <td class="tickers-col">russell</td>
+        <td class="size-col">48.8 MB</td>
+        <td>Jul 1 00:00</td>
+        <td><span class="freq-badge freq-daily">daily</span></td>
+        <td>✅</td>
+        <td style="color:#64748b">Russell price history</td>
+      </tr>
+      <tr>
+        <td class="status-warning">⚠️</td>
+        <td><strong>russell_prices_updated.json</strong></td>
+        <td class="tickers-col">russell</td>
+        <td class="size-col">104.9 MB</td>
+        <td>Jul 1 13:51</td>
+        <td><span class="freq-badge freq-daily">daily</span></td>
+        <td>✅</td>
+        <td style="color:#fbbf24">⚠️ Largest snapshot (105MB), may need cleanup</td>
+      </tr>
+      <tr>
+        <td class="status-warning">⚠️</td>
+        <td><strong>russell_prices_2025_2026.json</strong></td>
+        <td class="tickers-col">russell</td>
+        <td class="size-col">34.7 MB</td>
+        <td>Jul 1 13:51</td>
+        <td><span class="freq-badge freq-daily">daily</span></td>
+        <td>✅</td>
+        <td style="color:#fbbf24">⚠️ Subset of russell_prices_updated, consider dedup</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <h2>📋 Data Source Summary</h2>
+  <table>
+    <thead>
+      <tr><th>Category</th><th>Count</th><th>Total Size</th><th>Update Strategy</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Core Parquet</strong> (features, prices, VIX)</td>
+        <td>3</td>
+        <td class="size-col">~421 MB</td>
+        <td>Daily automated update</td>
+      </tr>
+      <tr>
+        <td><strong>FMP SPX 476</strong> (fundamentals + analyst)</td>
+        <td>10</td>
+        <td class="size-col">~117 MB</td>
+        <td>Quarterly + irregular (analyst/insider)</td>
+      </tr>
+      <tr>
+        <td><strong>FMP Russell</strong> (fundamentals + prices)</td>
+        <td>7</td>
+        <td class="size-col">~225 MB</td>
+        <td>Quarterly fundamentals, daily prices</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="footer">
+  Falcon Data Inventory &nbsp;|&nbsp; 20 data sources &nbsp;|&nbsp; Last scan: 2026-07-01 19:35 CST
+</div>
+
+</body>
+</html>

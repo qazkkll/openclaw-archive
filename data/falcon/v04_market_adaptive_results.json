@@ -1,0 +1,1273 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-01T07:45:08.081589",
+    "source": "FMP JSON + PIT indexing (same as V0.3.1)",
+    "v031_benchmark_sharpe": 1.161,
+    "params": {
+      "hold_days": 30,
+      "top_n": 10,
+      "cost": 0.001,
+      "stop_loss": -0.15
+    }
+  },
+  "results": [
+    {
+      "label": "A_v031_base_2yr",
+      "sharpe": 1.196,
+      "sharpe_std": 1.074,
+      "max_dd": -0.239,
+      "cagr": 0.2776,
+      "win_rate": 0.574,
+      "n_windows": 11,
+      "n_errors": 4,
+      "window_details": [
+        {
+          "index": 0,
+          "period": "2018-07-05 → 2019-01-05",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2018: 0.6947801254642788, 2019: 0.7064352856109907}\n  - 以下因子覆盖率<80%: {'analyst': 0.08592027816227249}"
+        },
+        {
+          "index": 1,
+          "period": "2019-01-05 → 2019-07-05",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2019: 0.7799023886161026}\n  - 以下因子覆盖率<80%: {'analyst': 0.34542981093530817}"
+        },
+        {
+          "index": 2,
+          "period": "2019-07-05 → 2020-01-05",
+          "error": "数据质量不达标:\n  - 以下因子覆盖率<80%: {'analyst': 0.7211925233121032}"
+        },
+        {
+          "index": 3,
+          "period": "2020-01-05 → 2020-07-05",
+          "error": "数据质量不达标:\n  - 以下因子覆盖率<80%: {'analyst': 0.7918631670404723}"
+        },
+        {
+          "index": 4,
+          "period": "2020-07-05 → 2021-01-05",
+          "sharpe": 1.231,
+          "max_dd": -0.1029,
+          "cagr": 0.3009,
+          "win_rate": 0.625,
+          "n_trades": 40,
+          "n_days": 128,
+          "baseline_sharpe": 1.337
+        },
+        {
+          "index": 5,
+          "period": "2021-01-05 → 2021-07-05",
+          "sharpe": 1.935,
+          "max_dd": -0.098,
+          "cagr": 0.4759,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_days": 125,
+          "baseline_sharpe": 1.873
+        },
+        {
+          "index": 6,
+          "period": "2021-07-05 → 2022-01-05",
+          "sharpe": 1.214,
+          "max_dd": -0.0872,
+          "cagr": 0.2665,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.255
+        },
+        {
+          "index": 7,
+          "period": "2022-01-05 → 2022-07-05",
+          "sharpe": -1.19,
+          "max_dd": -0.1969,
+          "cagr": -0.3291,
+          "win_rate": 0.325,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": -1.684
+        },
+        {
+          "index": 8,
+          "period": "2022-07-05 → 2023-01-05",
+          "sharpe": 0.574,
+          "max_dd": -0.1596,
+          "cagr": 0.122,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 0.424
+        },
+        {
+          "index": 9,
+          "period": "2023-01-05 → 2023-07-05",
+          "sharpe": 2.516,
+          "max_dd": -0.0789,
+          "cagr": 0.5963,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": 2.204
+        },
+        {
+          "index": 10,
+          "period": "2023-07-05 → 2024-01-05",
+          "sharpe": 1.149,
+          "max_dd": -0.1059,
+          "cagr": 0.1817,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.75
+        },
+        {
+          "index": 11,
+          "period": "2024-01-05 → 2024-07-05",
+          "sharpe": 3.027,
+          "max_dd": -0.084,
+          "cagr": 0.7364,
+          "win_rate": 0.7,
+          "n_trades": 40,
+          "n_days": 125,
+          "baseline_sharpe": 2.331
+        },
+        {
+          "index": 12,
+          "period": "2024-07-05 → 2025-01-05",
+          "sharpe": 1.428,
+          "max_dd": -0.1282,
+          "cagr": 0.3575,
+          "win_rate": 0.6,
+          "n_trades": 40,
+          "n_days": 127,
+          "baseline_sharpe": -0.252
+        },
+        {
+          "index": 13,
+          "period": "2025-01-05 → 2025-07-05",
+          "sharpe": 1.022,
+          "max_dd": -0.239,
+          "cagr": 0.3188,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 123,
+          "baseline_sharpe": 0.793
+        },
+        {
+          "index": 14,
+          "period": "2025-07-05 → 2026-01-05",
+          "sharpe": 0.253,
+          "max_dd": -0.1114,
+          "cagr": 0.0265,
+          "win_rate": 0.488,
+          "n_trades": 41,
+          "n_days": 127,
+          "baseline_sharpe": 0.623
+        }
+      ],
+      "rank_inversion_check": {
+        "recent_3_sharpes": [
+          1.428,
+          1.022,
+          0.253
+        ],
+        "recent_3_negative": 0,
+        "passed": true
+      },
+      "extreme_windows": 0,
+      "avg_baseline_sharpe": 0.969
+    },
+    {
+      "label": "B_v031_optim_2yr",
+      "sharpe": 1.239,
+      "sharpe_std": 1.239,
+      "max_dd": -0.2325,
+      "cagr": 0.2934,
+      "win_rate": 0.583,
+      "n_windows": 11,
+      "n_errors": 4,
+      "window_details": [
+        {
+          "index": 0,
+          "period": "2018-07-05 → 2019-01-05",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2018: 0.6947801254642788, 2019: 0.7064352856109907}\n  - 以下因子覆盖率<80%: {'analyst': 0.08592027816227249}"
+        },
+        {
+          "index": 1,
+          "period": "2019-01-05 → 2019-07-05",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2019: 0.7799023886161026}\n  - 以下因子覆盖率<80%: {'analyst': 0.34542981093530817}"
+        },
+        {
+          "index": 2,
+          "period": "2019-07-05 → 2020-01-05",
+          "error": "数据质量不达标:\n  - 以下因子覆盖率<80%: {'analyst': 0.7211925233121032}"
+        },
+        {
+          "index": 3,
+          "period": "2020-01-05 → 2020-07-05",
+          "error": "数据质量不达标:\n  - 以下因子覆盖率<80%: {'analyst': 0.7918631670404723}"
+        },
+        {
+          "index": 4,
+          "period": "2020-07-05 → 2021-01-05",
+          "sharpe": 1.364,
+          "max_dd": -0.1017,
+          "cagr": 0.3488,
+          "win_rate": 0.65,
+          "n_trades": 40,
+          "n_days": 128,
+          "baseline_sharpe": 1.337
+        },
+        {
+          "index": 5,
+          "period": "2021-01-05 → 2021-07-05",
+          "sharpe": 2.612,
+          "max_dd": -0.0745,
+          "cagr": 0.6937,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 125,
+          "baseline_sharpe": 1.873
+        },
+        {
+          "index": 6,
+          "period": "2021-07-05 → 2022-01-05",
+          "sharpe": 1.29,
+          "max_dd": -0.0833,
+          "cagr": 0.2864,
+          "win_rate": 0.6,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.255
+        },
+        {
+          "index": 7,
+          "period": "2022-01-05 → 2022-07-05",
+          "sharpe": -1.304,
+          "max_dd": -0.2045,
+          "cagr": -0.3347,
+          "win_rate": 0.325,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": -1.684
+        },
+        {
+          "index": 8,
+          "period": "2022-07-05 → 2023-01-05",
+          "sharpe": 0.335,
+          "max_dd": -0.1585,
+          "cagr": 0.054,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 0.424
+        },
+        {
+          "index": 9,
+          "period": "2023-01-05 → 2023-07-05",
+          "sharpe": 2.91,
+          "max_dd": -0.0745,
+          "cagr": 0.6815,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": 2.204
+        },
+        {
+          "index": 10,
+          "period": "2023-07-05 → 2024-01-05",
+          "sharpe": 1.149,
+          "max_dd": -0.1059,
+          "cagr": 0.1817,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.75
+        },
+        {
+          "index": 11,
+          "period": "2024-01-05 → 2024-07-05",
+          "sharpe": 3.058,
+          "max_dd": -0.0838,
+          "cagr": 0.7251,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_days": 125,
+          "baseline_sharpe": 2.331
+        },
+        {
+          "index": 12,
+          "period": "2024-07-05 → 2025-01-05",
+          "sharpe": 1.178,
+          "max_dd": -0.1295,
+          "cagr": 0.2766,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 127,
+          "baseline_sharpe": -0.252
+        },
+        {
+          "index": 13,
+          "period": "2025-01-05 → 2025-07-05",
+          "sharpe": 1.037,
+          "max_dd": -0.2325,
+          "cagr": 0.3253,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 123,
+          "baseline_sharpe": 0.793
+        },
+        {
+          "index": 14,
+          "period": "2025-07-05 → 2026-01-05",
+          "sharpe": -0.002,
+          "max_dd": -0.135,
+          "cagr": -0.0112,
+          "win_rate": 0.463,
+          "n_trades": 41,
+          "n_days": 127,
+          "baseline_sharpe": 0.623
+        }
+      ],
+      "rank_inversion_check": {
+        "recent_3_sharpes": [
+          1.178,
+          1.037,
+          -0.002
+        ],
+        "recent_3_negative": 1,
+        "passed": true
+      },
+      "extreme_windows": 0,
+      "avg_baseline_sharpe": 0.969
+    },
+    {
+      "label": "C_regime_2yr",
+      "sharpe": 1.232,
+      "sharpe_std": 1.155,
+      "max_dd": -0.2331,
+      "cagr": 0.2784,
+      "win_rate": 0.59,
+      "n_windows": 11,
+      "n_errors": 4,
+      "window_details": [
+        {
+          "index": 0,
+          "period": "2018-07-05 → 2019-01-05",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2018: 0.6947801254642788, 2019: 0.7064352856109907}\n  - 以下因子覆盖率<80%: {'analyst': 0.08592027816227249}"
+        },
+        {
+          "index": 1,
+          "period": "2019-01-05 → 2019-07-05",
+          "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2019: 0.7799023886161026}\n  - 以下因子覆盖率<80%: {'analyst': 0.34542981093530817}"
+        },
+        {
+          "index": 2,
+          "period": "2019-07-05 → 2020-01-05",
+          "error": "数据质量不达标:\n  - 以下因子覆盖率<80%: {'analyst': 0.7211925233121032}"
+        },
+        {
+          "index": 3,
+          "period": "2020-01-05 → 2020-07-05",
+          "error": "数据质量不达标:\n  - 以下因子覆盖率<80%: {'analyst': 0.7918631670404723}"
+        },
+        {
+          "index": 4,
+          "period": "2020-07-05 → 2021-01-05",
+          "sharpe": 1.489,
+          "max_dd": -0.1026,
+          "cagr": 0.387,
+          "win_rate": 0.65,
+          "n_trades": 40,
+          "n_days": 128,
+          "baseline_sharpe": 1.337,
+          "regime_dist": {
+            "bear": 0.508,
+            "range": 0.492
+          },
+          "eff_weights": {
+            "fund_ratio": 0.674,
+            "analyst": 0.251,
+            "fund_metric": 0.075
+          }
+        },
+        {
+          "index": 5,
+          "period": "2021-01-05 → 2021-07-05",
+          "sharpe": 2.612,
+          "max_dd": -0.0745,
+          "cagr": 0.6937,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 125,
+          "baseline_sharpe": 1.873,
+          "regime_dist": {
+            "bear": 0.104,
+            "range": 0.376,
+            "bull": 0.52
+          },
+          "eff_weights": {
+            "fund_ratio": 0.76,
+            "analyst": 0.184,
+            "fund_metric": 0.055
+          }
+        },
+        {
+          "index": 6,
+          "period": "2021-07-05 → 2022-01-05",
+          "sharpe": 1.065,
+          "max_dd": -0.0836,
+          "cagr": 0.2273,
+          "win_rate": 0.6,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.255,
+          "regime_dist": {
+            "bull": 0.76,
+            "range": 0.186,
+            "bear": 0.054
+          },
+          "eff_weights": {
+            "fund_ratio": 0.78,
+            "analyst": 0.167,
+            "fund_metric": 0.053
+          }
+        },
+        {
+          "index": 7,
+          "period": "2022-01-05 → 2022-07-05",
+          "sharpe": -1.154,
+          "max_dd": -0.2007,
+          "cagr": -0.323,
+          "win_rate": 0.325,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": -1.684,
+          "regime_dist": {
+            "bull": 0.105,
+            "range": 0.282,
+            "bear": 0.613
+          },
+          "eff_weights": {
+            "fund_ratio": 0.663,
+            "analyst": 0.256,
+            "fund_metric": 0.081
+          }
+        },
+        {
+          "index": 8,
+          "period": "2022-07-05 → 2023-01-05",
+          "sharpe": 0.044,
+          "max_dd": -0.1867,
+          "cagr": -0.0222,
+          "win_rate": 0.525,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 0.424,
+          "regime_dist": {
+            "bear": 0.426,
+            "range": 0.512,
+            "bull": 0.062
+          },
+          "eff_weights": {
+            "fund_ratio": 0.689,
+            "analyst": 0.24,
+            "fund_metric": 0.071
+          }
+        },
+        {
+          "index": 9,
+          "period": "2023-01-05 → 2023-07-05",
+          "sharpe": 1.928,
+          "max_dd": -0.074,
+          "cagr": 0.4298,
+          "win_rate": 0.75,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": 2.204,
+          "regime_dist": {
+            "range": 0.25,
+            "bull": 0.726,
+            "bear": 0.024
+          },
+          "eff_weights": {
+            "fund_ratio": 0.783,
+            "analyst": 0.166,
+            "fund_metric": 0.051
+          }
+        },
+        {
+          "index": 10,
+          "period": "2023-07-05 → 2024-01-05",
+          "sharpe": 1.245,
+          "max_dd": -0.1013,
+          "cagr": 0.212,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.75,
+          "regime_dist": {
+            "bull": 0.953,
+            "range": 0.047
+          },
+          "eff_weights": {
+            "fund_ratio": 0.798,
+            "analyst": 0.152,
+            "fund_metric": 0.05
+          }
+        },
+        {
+          "index": 11,
+          "period": "2024-01-05 → 2024-07-05",
+          "sharpe": 3.429,
+          "max_dd": -0.0757,
+          "cagr": 0.7935,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 125,
+          "baseline_sharpe": 2.331,
+          "regime_dist": {
+            "bull": 1.0
+          },
+          "eff_weights": {
+            "fund_ratio": 0.8,
+            "analyst": 0.15,
+            "fund_metric": 0.05
+          }
+        },
+        {
+          "index": 12,
+          "period": "2024-07-05 → 2025-01-05",
+          "sharpe": 1.148,
+          "max_dd": -0.1264,
+          "cagr": 0.2677,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 127,
+          "baseline_sharpe": -0.252,
+          "regime_dist": {
+            "bull": 0.803,
+            "range": 0.165,
+            "bear": 0.031
+          },
+          "eff_weights": {
+            "fund_ratio": 0.785,
+            "analyst": 0.163,
+            "fund_metric": 0.052
+          }
+        },
+        {
+          "index": 13,
+          "period": "2025-01-05 → 2025-07-05",
+          "sharpe": 0.891,
+          "max_dd": -0.2331,
+          "cagr": 0.2685,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 123,
+          "baseline_sharpe": 0.793,
+          "regime_dist": {
+            "bull": 0.593,
+            "range": 0.26,
+            "bear": 0.146
+          },
+          "eff_weights": {
+            "fund_ratio": 0.758,
+            "analyst": 0.185,
+            "fund_metric": 0.057
+          }
+        },
+        {
+          "index": 14,
+          "period": "2025-07-05 → 2026-01-05",
+          "sharpe": 0.856,
+          "max_dd": -0.1085,
+          "cagr": 0.1277,
+          "win_rate": 0.488,
+          "n_trades": 41,
+          "n_days": 127,
+          "baseline_sharpe": 0.623,
+          "regime_dist": {
+            "bull": 0.898,
+            "range": 0.087,
+            "bear": 0.016
+          },
+          "eff_weights": {
+            "fund_ratio": 0.793,
+            "analyst": 0.157,
+            "fund_metric": 0.051
+          }
+        }
+      ],
+      "rank_inversion_check": {
+        "recent_3_sharpes": [
+          1.148,
+          0.891,
+          0.856
+        ],
+        "recent_3_negative": 0,
+        "passed": true
+      },
+      "extreme_windows": 0,
+      "avg_baseline_sharpe": 0.969
+    },
+    {
+      "label": "D_v031_base_5yr",
+      "sharpe": 1.11,
+      "sharpe_std": 1.159,
+      "max_dd": -0.239,
+      "cagr": 0.253,
+      "win_rate": 0.557,
+      "n_windows": 9,
+      "n_errors": 0,
+      "window_details": [
+        {
+          "index": 0,
+          "period": "2021-07-05 → 2022-01-05",
+          "sharpe": 1.214,
+          "max_dd": -0.0872,
+          "cagr": 0.2665,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.255
+        },
+        {
+          "index": 1,
+          "period": "2022-01-05 → 2022-07-05",
+          "sharpe": -1.19,
+          "max_dd": -0.1969,
+          "cagr": -0.3291,
+          "win_rate": 0.325,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": -1.684
+        },
+        {
+          "index": 2,
+          "period": "2022-07-05 → 2023-01-05",
+          "sharpe": 0.574,
+          "max_dd": -0.1596,
+          "cagr": 0.122,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 0.424
+        },
+        {
+          "index": 3,
+          "period": "2023-01-05 → 2023-07-05",
+          "sharpe": 2.516,
+          "max_dd": -0.0789,
+          "cagr": 0.5963,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": 2.204
+        },
+        {
+          "index": 4,
+          "period": "2023-07-05 → 2024-01-05",
+          "sharpe": 1.149,
+          "max_dd": -0.1059,
+          "cagr": 0.1817,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.75
+        },
+        {
+          "index": 5,
+          "period": "2024-01-05 → 2024-07-05",
+          "sharpe": 3.027,
+          "max_dd": -0.084,
+          "cagr": 0.7364,
+          "win_rate": 0.7,
+          "n_trades": 40,
+          "n_days": 125,
+          "baseline_sharpe": 2.331
+        },
+        {
+          "index": 6,
+          "period": "2024-07-05 → 2025-01-05",
+          "sharpe": 1.428,
+          "max_dd": -0.1282,
+          "cagr": 0.3575,
+          "win_rate": 0.6,
+          "n_trades": 40,
+          "n_days": 127,
+          "baseline_sharpe": -0.252
+        },
+        {
+          "index": 7,
+          "period": "2025-01-05 → 2025-07-05",
+          "sharpe": 1.022,
+          "max_dd": -0.239,
+          "cagr": 0.3188,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 123,
+          "baseline_sharpe": 0.793
+        },
+        {
+          "index": 8,
+          "period": "2025-07-05 → 2026-01-05",
+          "sharpe": 0.253,
+          "max_dd": -0.1114,
+          "cagr": 0.0265,
+          "win_rate": 0.488,
+          "n_trades": 41,
+          "n_days": 127,
+          "baseline_sharpe": 0.623
+        }
+      ],
+      "rank_inversion_check": {
+        "recent_3_sharpes": [
+          1.428,
+          1.022,
+          0.253
+        ],
+        "recent_3_negative": 0,
+        "passed": true
+      },
+      "extreme_windows": 0,
+      "avg_baseline_sharpe": 0.827
+    },
+    {
+      "label": "E_v031_optim_5yr",
+      "sharpe": 1.072,
+      "sharpe_std": 1.279,
+      "max_dd": -0.2325,
+      "cagr": 0.2427,
+      "win_rate": 0.56,
+      "n_windows": 9,
+      "n_errors": 0,
+      "window_details": [
+        {
+          "index": 0,
+          "period": "2021-07-05 → 2022-01-05",
+          "sharpe": 1.29,
+          "max_dd": -0.0833,
+          "cagr": 0.2864,
+          "win_rate": 0.6,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.255
+        },
+        {
+          "index": 1,
+          "period": "2022-01-05 → 2022-07-05",
+          "sharpe": -1.304,
+          "max_dd": -0.2045,
+          "cagr": -0.3347,
+          "win_rate": 0.325,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": -1.684
+        },
+        {
+          "index": 2,
+          "period": "2022-07-05 → 2023-01-05",
+          "sharpe": 0.335,
+          "max_dd": -0.1585,
+          "cagr": 0.054,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 0.424
+        },
+        {
+          "index": 3,
+          "period": "2023-01-05 → 2023-07-05",
+          "sharpe": 2.91,
+          "max_dd": -0.0745,
+          "cagr": 0.6815,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": 2.204
+        },
+        {
+          "index": 4,
+          "period": "2023-07-05 → 2024-01-05",
+          "sharpe": 1.149,
+          "max_dd": -0.1059,
+          "cagr": 0.1817,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.75
+        },
+        {
+          "index": 5,
+          "period": "2024-01-05 → 2024-07-05",
+          "sharpe": 3.058,
+          "max_dd": -0.0838,
+          "cagr": 0.7251,
+          "win_rate": 0.675,
+          "n_trades": 40,
+          "n_days": 125,
+          "baseline_sharpe": 2.331
+        },
+        {
+          "index": 6,
+          "period": "2024-07-05 → 2025-01-05",
+          "sharpe": 1.178,
+          "max_dd": -0.1295,
+          "cagr": 0.2766,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 127,
+          "baseline_sharpe": -0.252
+        },
+        {
+          "index": 7,
+          "period": "2025-01-05 → 2025-07-05",
+          "sharpe": 1.037,
+          "max_dd": -0.2325,
+          "cagr": 0.3253,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 123,
+          "baseline_sharpe": 0.793
+        },
+        {
+          "index": 8,
+          "period": "2025-07-05 → 2026-01-05",
+          "sharpe": -0.002,
+          "max_dd": -0.135,
+          "cagr": -0.0112,
+          "win_rate": 0.463,
+          "n_trades": 41,
+          "n_days": 127,
+          "baseline_sharpe": 0.623
+        }
+      ],
+      "rank_inversion_check": {
+        "recent_3_sharpes": [
+          1.178,
+          1.037,
+          -0.002
+        ],
+        "recent_3_negative": 1,
+        "passed": true
+      },
+      "extreme_windows": 0,
+      "avg_baseline_sharpe": 0.827
+    },
+    {
+      "label": "F_regime_5yr",
+      "sharpe": 1.05,
+      "sharpe_std": 1.174,
+      "max_dd": -0.2331,
+      "cagr": 0.2201,
+      "win_rate": 0.568,
+      "n_windows": 9,
+      "n_errors": 0,
+      "window_details": [
+        {
+          "index": 0,
+          "period": "2021-07-05 → 2022-01-05",
+          "sharpe": 1.065,
+          "max_dd": -0.0836,
+          "cagr": 0.2273,
+          "win_rate": 0.6,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.255,
+          "regime_dist": {
+            "bull": 0.76,
+            "range": 0.186,
+            "bear": 0.054
+          },
+          "eff_weights": {
+            "fund_ratio": 0.78,
+            "analyst": 0.167,
+            "fund_metric": 0.053
+          }
+        },
+        {
+          "index": 1,
+          "period": "2022-01-05 → 2022-07-05",
+          "sharpe": -1.154,
+          "max_dd": -0.2007,
+          "cagr": -0.323,
+          "win_rate": 0.325,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": -1.684,
+          "regime_dist": {
+            "bull": 0.105,
+            "range": 0.282,
+            "bear": 0.613
+          },
+          "eff_weights": {
+            "fund_ratio": 0.663,
+            "analyst": 0.256,
+            "fund_metric": 0.081
+          }
+        },
+        {
+          "index": 2,
+          "period": "2022-07-05 → 2023-01-05",
+          "sharpe": 0.044,
+          "max_dd": -0.1867,
+          "cagr": -0.0222,
+          "win_rate": 0.525,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 0.424,
+          "regime_dist": {
+            "bear": 0.426,
+            "range": 0.512,
+            "bull": 0.062
+          },
+          "eff_weights": {
+            "fund_ratio": 0.689,
+            "analyst": 0.24,
+            "fund_metric": 0.071
+          }
+        },
+        {
+          "index": 3,
+          "period": "2023-01-05 → 2023-07-05",
+          "sharpe": 1.928,
+          "max_dd": -0.074,
+          "cagr": 0.4298,
+          "win_rate": 0.75,
+          "n_trades": 40,
+          "n_days": 124,
+          "baseline_sharpe": 2.204,
+          "regime_dist": {
+            "range": 0.25,
+            "bull": 0.726,
+            "bear": 0.024
+          },
+          "eff_weights": {
+            "fund_ratio": 0.783,
+            "analyst": 0.166,
+            "fund_metric": 0.051
+          }
+        },
+        {
+          "index": 4,
+          "period": "2023-07-05 → 2024-01-05",
+          "sharpe": 1.245,
+          "max_dd": -0.1013,
+          "cagr": 0.212,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 129,
+          "baseline_sharpe": 1.75,
+          "regime_dist": {
+            "bull": 0.953,
+            "range": 0.047
+          },
+          "eff_weights": {
+            "fund_ratio": 0.798,
+            "analyst": 0.152,
+            "fund_metric": 0.05
+          }
+        },
+        {
+          "index": 5,
+          "period": "2024-01-05 → 2024-07-05",
+          "sharpe": 3.429,
+          "max_dd": -0.0757,
+          "cagr": 0.7935,
+          "win_rate": 0.725,
+          "n_trades": 40,
+          "n_days": 125,
+          "baseline_sharpe": 2.331,
+          "regime_dist": {
+            "bull": 1.0
+          },
+          "eff_weights": {
+            "fund_ratio": 0.8,
+            "analyst": 0.15,
+            "fund_metric": 0.05
+          }
+        },
+        {
+          "index": 6,
+          "period": "2024-07-05 → 2025-01-05",
+          "sharpe": 1.148,
+          "max_dd": -0.1264,
+          "cagr": 0.2677,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 127,
+          "baseline_sharpe": -0.252,
+          "regime_dist": {
+            "bull": 0.803,
+            "range": 0.165,
+            "bear": 0.031
+          },
+          "eff_weights": {
+            "fund_ratio": 0.785,
+            "analyst": 0.163,
+            "fund_metric": 0.052
+          }
+        },
+        {
+          "index": 7,
+          "period": "2025-01-05 → 2025-07-05",
+          "sharpe": 0.891,
+          "max_dd": -0.2331,
+          "cagr": 0.2685,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 123,
+          "baseline_sharpe": 0.793,
+          "regime_dist": {
+            "bull": 0.593,
+            "range": 0.26,
+            "bear": 0.146
+          },
+          "eff_weights": {
+            "fund_ratio": 0.758,
+            "analyst": 0.185,
+            "fund_metric": 0.057
+          }
+        },
+        {
+          "index": 8,
+          "period": "2025-07-05 → 2026-01-05",
+          "sharpe": 0.856,
+          "max_dd": -0.1085,
+          "cagr": 0.1277,
+          "win_rate": 0.488,
+          "n_trades": 41,
+          "n_days": 127,
+          "baseline_sharpe": 0.623,
+          "regime_dist": {
+            "bull": 0.898,
+            "range": 0.087,
+            "bear": 0.016
+          },
+          "eff_weights": {
+            "fund_ratio": 0.793,
+            "analyst": 0.157,
+            "fund_metric": 0.051
+          }
+        }
+      ],
+      "rank_inversion_check": {
+        "recent_3_sharpes": [
+          1.148,
+          0.891,
+          0.856
+        ],
+        "recent_3_negative": 0,
+        "passed": true
+      },
+      "extreme_windows": 0,
+      "avg_baseline_sharpe": 0.827
+    },
+    {
+      "label": "G_v031_base_8yr",
+      "sharpe": 0.901,
+      "sharpe_std": 0.487,
+      "max_dd": -0.239,
+      "cagr": 0.2343,
+      "win_rate": 0.554,
+      "n_windows": 3,
+      "n_errors": 0,
+      "window_details": [
+        {
+          "index": 0,
+          "period": "2024-07-05 → 2025-01-05",
+          "sharpe": 1.428,
+          "max_dd": -0.1282,
+          "cagr": 0.3575,
+          "win_rate": 0.6,
+          "n_trades": 40,
+          "n_days": 127,
+          "baseline_sharpe": -0.252
+        },
+        {
+          "index": 1,
+          "period": "2025-01-05 → 2025-07-05",
+          "sharpe": 1.022,
+          "max_dd": -0.239,
+          "cagr": 0.3188,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 123,
+          "baseline_sharpe": 0.793
+        },
+        {
+          "index": 2,
+          "period": "2025-07-05 → 2026-01-05",
+          "sharpe": 0.253,
+          "max_dd": -0.1114,
+          "cagr": 0.0265,
+          "win_rate": 0.488,
+          "n_trades": 41,
+          "n_days": 127,
+          "baseline_sharpe": 0.623
+        }
+      ],
+      "rank_inversion_check": {
+        "recent_3_sharpes": [
+          1.428,
+          1.022,
+          0.253
+        ],
+        "recent_3_negative": 0,
+        "passed": true
+      },
+      "extreme_windows": 0,
+      "avg_baseline_sharpe": 0.388
+    },
+    {
+      "label": "H_v031_optim_8yr",
+      "sharpe": 0.738,
+      "sharpe_std": 0.526,
+      "max_dd": -0.2325,
+      "cagr": 0.1969,
+      "win_rate": 0.538,
+      "n_windows": 3,
+      "n_errors": 0,
+      "window_details": [
+        {
+          "index": 0,
+          "period": "2024-07-05 → 2025-01-05",
+          "sharpe": 1.178,
+          "max_dd": -0.1295,
+          "cagr": 0.2766,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 127,
+          "baseline_sharpe": -0.252
+        },
+        {
+          "index": 1,
+          "period": "2025-01-05 → 2025-07-05",
+          "sharpe": 1.037,
+          "max_dd": -0.2325,
+          "cagr": 0.3253,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 123,
+          "baseline_sharpe": 0.793
+        },
+        {
+          "index": 2,
+          "period": "2025-07-05 → 2026-01-05",
+          "sharpe": -0.002,
+          "max_dd": -0.135,
+          "cagr": -0.0112,
+          "win_rate": 0.463,
+          "n_trades": 41,
+          "n_days": 127,
+          "baseline_sharpe": 0.623
+        }
+      ],
+      "rank_inversion_check": {
+        "recent_3_sharpes": [
+          1.178,
+          1.037,
+          -0.002
+        ],
+        "recent_3_negative": 1,
+        "passed": true
+      },
+      "extreme_windows": 0,
+      "avg_baseline_sharpe": 0.388
+    },
+    {
+      "label": "I_regime_8yr",
+      "sharpe": 0.965,
+      "sharpe_std": 0.13,
+      "max_dd": -0.2331,
+      "cagr": 0.2213,
+      "win_rate": 0.538,
+      "n_windows": 3,
+      "n_errors": 0,
+      "window_details": [
+        {
+          "index": 0,
+          "period": "2024-07-05 → 2025-01-05",
+          "sharpe": 1.148,
+          "max_dd": -0.1264,
+          "cagr": 0.2677,
+          "win_rate": 0.575,
+          "n_trades": 40,
+          "n_days": 127,
+          "baseline_sharpe": -0.252,
+          "regime_dist": {
+            "bull": 0.803,
+            "range": 0.165,
+            "bear": 0.031
+          },
+          "eff_weights": {
+            "fund_ratio": 0.785,
+            "analyst": 0.163,
+            "fund_metric": 0.052
+          }
+        },
+        {
+          "index": 1,
+          "period": "2025-01-05 → 2025-07-05",
+          "sharpe": 0.891,
+          "max_dd": -0.2331,
+          "cagr": 0.2685,
+          "win_rate": 0.55,
+          "n_trades": 40,
+          "n_days": 123,
+          "baseline_sharpe": 0.793,
+          "regime_dist": {
+            "bull": 0.593,
+            "range": 0.26,
+            "bear": 0.146
+          },
+          "eff_weights": {
+            "fund_ratio": 0.758,
+            "analyst": 0.185,
+            "fund_metric": 0.057
+          }
+        },
+        {
+          "index": 2,
+          "period": "2025-07-05 → 2026-01-05",
+          "sharpe": 0.856,
+          "max_dd": -0.1085,
+          "cagr": 0.1277,
+          "win_rate": 0.488,
+          "n_trades": 41,
+          "n_days": 127,
+          "baseline_sharpe": 0.623,
+          "regime_dist": {
+            "bull": 0.898,
+            "range": 0.087,
+            "bear": 0.016
+          },
+          "eff_weights": {
+            "fund_ratio": 0.793,
+            "analyst": 0.157,
+            "fund_metric": 0.051
+          }
+        }
+      ],
+      "rank_inversion_check": {
+        "recent_3_sharpes": [
+          1.148,
+          0.891,
+          0.856
+        ],
+        "recent_3_negative": 0,
+        "passed": true
+      },
+      "extreme_windows": 0,
+      "avg_baseline_sharpe": 0.388
+    }
+  ],
+  "best_scheme": {
+    "label": "B_v031_optim_2yr",
+    "sharpe": 1.239,
+    "max_dd": -0.2325,
+    "cagr": 0.2934,
+    "win_rate": 0.583,
+    "ri_passed": true,
+    "beats_v031": true
+  }
+}

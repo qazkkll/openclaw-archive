@@ -1,0 +1,295 @@
+{
+  "audit_version": "AUDIT-7",
+  "target": "Falcon V0.4.4",
+  "timestamp": "2026-07-01",
+  "auditor": "Hermes Agent (independent)",
+
+  "summary": {
+    "overall": "WARN",
+    "blockers": 1,
+    "warnings": 4,
+    "pass": 12
+  },
+
+  "layer1_data_integrity": {
+    "status": "PASS_WITH_WARNINGS",
+    "checks": [
+      {
+        "item": "数据文件存在",
+        "result": "PASS",
+        "detail": "features_v04_1.parquet exists, 1,234,580 rows × 156 columns"
+      },
+      {
+        "item": "价格文件存在",
+        "result": "PASS",
+        "detail": "us_prices_daily.parquet referenced, loaded by v044 script"
+      },
+      {
+        "item": "时间范围",
+        "result": "PASS",
+        "detail": "2016-01-04 to 2026-06-26 (10+ years)"
+      },
+      {
+        "item": "Ticker覆盖",
+        "result": "PASS",
+        "detail": "代码列为'ticker'，V0.4.3/V0.4.4使用SPX universe"
+      },
+      {
+        "item": "fund_ratio覆盖率",
+        "result": "PASS",
+        "detail": "2017-2026均为100%，2016仅41%（训练窗口从2016-07开始，合理）"
+      },
+      {
+        "item": "growth_composite覆盖率",
+        "result": "WARN",
+        "detail": "2017=78.8%（<80%阈值），2016=31.3%。2017年growth_composite子因子覆盖率不足"
+      },
+      {
+        "item": "qoq覆盖率",
+        "result": "PASS",
+        "detail": "2017-2026均>99%"
+      },
+      {
+        "item": "cashflow覆盖率",
+        "result": "PASS",
+        "detail": "2017-2026均>86%"
+      },
+      {
+        "item": "缺失值处理",
+        "result": "PASS",
+        "detail": "截面排名时跳过NaN（rankdata只处理valid值），组级等权平均跳过缺失因子"
+      },
+      {
+        "item": "异常值",
+        "result": "PASS",
+        "detail": "使用percentile ranking天然处理异常值（rankdata将任何分布映射到[0,1]）"
+      }
+    ],
+    "warnings": [
+      {
+        "severity": "MEDIUM",
+        "message": "growth_composite在2017年覆盖率仅78.8%，低于80%阈值。但Walk-Forward窗口从2016-07开始训练到2017-01测试，该窗口已因覆盖率低被BacktestEngine拒绝（W3-W6 error），不影响最终结果"
+      }
+    ]
+  },
+
+  "layer2_feature_consistency": {
+    "status": "PASS_WITH_WARNINGS",
+    "checks": [
+      {
+        "item": "fund_ratio因子组定义",
+        "result": "PASS",
+        "detail": "20个r_前缀因子（估值+盈利能力+效率+杠杆），截面排名+flip逻辑正确"
+      },
+      {
+        "item": "growth_composite子因子定义",
+        "result": "PASS",
+        "detail": "fund_growth(15个g_因子) + analyst(4个a_因子) + income(6个i_因子)"
+      },
+      {
+        "item": "growth_composite子权重",
+        "result": "PASS",
+        "detail": "gc_baseline = 0.60×fund_growth + 0.25×analyst + 0.15×income，与V0.4.3一致"
+      },
+      {
+        "item": "qoq因子组定义",
+        "result": "PASS",
+        "detail": "4个r_*_qoq因子（环比变化），正确使用r_前缀版本"
+      },
+      {
+        "item": "cashflow因子组定义",
+        "result": "PASS",
+        "detail": "4个c_前缀因子：fcf_margin, capex_intensity, fcf_to_income, buyback_yield"
+      },
+      {
+        "item": "PIT一致性（点对时）",
+        "result": "PASS",
+        "detail": "所有因子使用点对时命名前缀(r_, g_, a_, c_, i_, b_, m_)，与原始raw列名分离。代码中EXCLUDE_COLS排除了raw列名，只使用PIT版本"
+      },
+      {
+        "item": "前视偏差检查",
+        "result": "PASS",
+        "detail": "截面排名按date逐日计算，不使用未来数据。Walk-Forward使用滚动窗口(train→test分离)，训练期不包含测试期。growth_composite variants的lambda函数只读取当日rank"
+      },
+      {
+        "item": "V0.4.4最终配置weight一致性",
+        "result": "WARN",
+        "detail": "任务描述声称'fund_ratio=0.45 + growth_composite=0.20 + qoq=0.20 + cashflow=0.15'，但实际最佳配置使用'gc_baseline'而非'growth_composite'。gc_baseline是growth_composite的一个变体名称，权重计算逻辑一致(0.60×fund_growth + 0.25×analyst + 0.15×income)，但命名不一致"
+      },
+      {
+        "item": "Rank Inversion实现",
+        "result": "BLOCKER",
+        "detail": "Rank Inversion检查并非真正的Top5% vs Bottom20%收益比较。check_rank_inversion()函数仅检查Sharpe退化（recent vs early窗口平均Sharpe），不检查分数最高组是否实际跑赢分数最低组。这是一个Sharpe稳定性检查，不是Rank Inversion检查。真正的RI应比较Top5%股票的前瞻收益 vs Bottom20%股票的前瞻收益。"
+      }
+    ],
+    "warnings": [
+      {
+        "severity": "LOW",
+        "message": "命名不一致：代码中使用'gc_baseline'作为growth_composite变体名，对外报告中可能混淆为'growth_composite'"
+      },
+      {
+        "severity": "HIGH",
+        "message": "Rank Inversion检查实现不正确：当前只检查Sharpe稳定性（recent vs early退化），未真正验证Top分数股票是否跑赢Bottom分数股票。这使得RI=PASS的结论不可靠"
+      }
+    ],
+    "blockers": [
+      {
+        "severity": "BLOCKER",
+        "message": "check_rank_inversion()函数（第329-358行）不是真正的Rank Inversion检查。它检查的是：(1)最近3个窗口负Sharpe数量<2，(2)近期Sharpe不低于早期的30%。这只能说明Sharpe没有严重退化，但不能证明模型分数的排序能力。真正的RI应为：对每个窗口计算Top5%股票的前瞻收益 vs Bottom20%股票的前瞻收益，如果Top>Bottom则PASS。建议：在独立审计中用实际价格数据重新验证RI。"
+      }
+    ]
+  },
+
+  "layer3_model_validity": {
+    "status": "PASS_WITH_WARNINGS",
+    "checks": [
+      {
+        "item": "Walk-Forward验证结构",
+        "result": "PASS",
+        "detail": "19个窗口，其中15个有效（4个因覆盖率低被拒绝），train=6个月, test=6个月, 滚动步进6个月，结构合理"
+      },
+      {
+        "item": "最终Sharpe",
+        "result": "PASS",
+        "detail": "WF Sharpe=2.122，15个窗口平均"
+      },
+      {
+        "item": "MaxDD",
+        "result": "PASS",
+        "detail": "MaxDD=-23.97%，在合理范围（2022年熊市窗口W11 Sharpe=-0.859）"
+      },
+      {
+        "item": "CAGR",
+        "result": "PASS",
+        "detail": "CAGR=42.3%，与高Sharpe一致"
+      },
+      {
+        "item": "Win Rate",
+        "result": "PASS",
+        "detail": "Win Rate=65.3%，合理"
+      },
+      {
+        "item": "窗口稳定性",
+        "result": "PASS",
+        "detail": "15个有效窗口中仅1个负Sharpe（W11: -0.859，2022年H1熊市），其余14个均为正。早期avg=3.348, 近期avg=1.836，退化率45%但在可接受范围"
+      },
+      {
+        "item": "与V0.4.3对比",
+        "result": "PASS",
+        "detail": "V0.4.3 Sharpe=2.007, V0.4.4 Sharpe=2.122, improvement=+5.7%。使用相同数据、相同backtest_engine、相同Walk-Forward参数，对比公正"
+      },
+      {
+        "item": "被拒绝窗口分析",
+        "result": "WARN",
+        "detail": "W3-W6（2018-2019）全部因覆盖率<80%被拒绝。这是数据问题而非模型问题，但减少了有效训练/测试样本"
+      },
+      {
+        "item": "过拟合风险",
+        "result": "WARN",
+        "detail": "Sharpe从早期3.35退化到近期1.84（-45%），虽未触发RI阈值，但退化趋势值得关注。V0.4.4在26个候选方案中选择最优，存在多重比较膨胀风险"
+      }
+    ],
+    "warnings": [
+      {
+        "severity": "MEDIUM",
+        "message": "早期窗口（2016-2018）Sharpe异常高（2.5-4.5），可能受低样本量或2017年牛市影响。近期窗口（2022-2025）Sharpe更现实（-0.86到2.88）"
+      },
+      {
+        "severity": "MEDIUM",
+        "message": "候选方案数量多（26个候选），选择最高Sharpe存在数据窥探(data snooping)风险。应考虑Bonferroni校正或使用保守估计"
+      }
+    ]
+  },
+
+  "layer4_signal_production": {
+    "status": "PASS",
+    "checks": [
+      {
+        "item": "评分逻辑",
+        "result": "PASS",
+        "detail": "截面百分位排名 → 因子组等权平均 → 外部权重组合(fund_ratio×0.45 + gc_baseline×0.20 + qoq×0.20 + cashflow×0.15)。逻辑清晰，无非线性变换"
+      },
+      {
+        "item": "权重配置",
+        "result": "PASS",
+        "detail": "fund_ratio=0.45, gc_baseline=0.20, qoq=0.20, cashflow=0.15，总和=1.00"
+      },
+      {
+        "item": "flip逻辑",
+        "result": "PASS",
+        "detail": "高数值不好的因子（PE、PB、债务比率等）在rank时翻转为1-rank，确保方向一致"
+      },
+      {
+        "item": "输出格式",
+        "result": "PASS",
+        "detail": "JSON格式输出，包含metadata、all_candidates、final_best、final_validation、comparison_with_v043"
+      }
+    ],
+    "warnings": []
+  },
+
+  "layer5_cross_layer_consistency": {
+    "status": "PASS_WITH_WARNINGS",
+    "checks": [
+      {
+        "item": "数据→特征链路",
+        "result": "PASS",
+        "detail": "features_v04_1.parquet包含所有PIT因子，代码通过FACTOR_GROUPS字典引用，列名完全匹配"
+      },
+      {
+        "item": "特征→模型链路",
+        "result": "PASS",
+        "detail": "截面排名计算使用compute_cross_sectional_ranks()，因子组聚合使用compute_group_ranks()，最终分数=Σ(weight_i × group_rank_i)"
+      },
+      {
+        "item": "模型→信号链路",
+        "result": "PASS",
+        "detail": "Walk-Forward直接使用排名结果选股(top_n=10)，持有30天调仓"
+      },
+      {
+        "item": "数据泄露检查",
+        "result": "PASS",
+        "detail": "Walk-Forward严格分离训练/测试期，截面排名仅用当日数据，无跨日信息泄露"
+      },
+      {
+        "item": "回测参数一致性",
+        "result": "PASS",
+        "detail": "train_years=0.5, test_months=6, hold_days=30, top_n=10, cost=0.001, stop_loss=-0.15，与配置声明一致"
+      }
+    ],
+    "warnings": [
+      {
+        "severity": "MEDIUM",
+        "message": "V0.4.4最终配置的4个外部因子组(fund_ratio, gc_baseline, qoq, cashflow)中，gc_baseline内部又包含3个子因子(fund_growth, analyst, income)。这意味着实际是7个底层因子组的组合，但外部只暴露4个权重。这种嵌套结构增加了调参复杂度，但也提供了更多灵活性"
+      }
+    ]
+  },
+
+  "key_findings": {
+    "critical": [
+      "Rank Inversion检查实现不正确：check_rank_inversion()只检查Sharpe退化稳定性，未真正验证Top分数股票跑赢Bottom分数股票。建议用实际价格数据独立验证。"
+    ],
+    "significant": [
+      "V0.4.4相比V0.4.3仅提升5.7%（Sharpe 2.007→2.122），改善幅度有限",
+      "26个候选方案中选最优存在数据窥探风险，早期窗口Sharpe异常高(2.5-4.5)",
+      "4个Walk-Forward窗口(W3-W6, 2018-2019)因数据覆盖率不足被拒绝，减少了有效样本",
+      "growth_composite在2017年覆盖率仅78.8%，略低于80%阈值"
+    ],
+    "positive": [
+      "Walk-Forward结构合理（15/19窗口有效），无过拟合迹象（近期Sharpe仍为正）",
+      "所有因子使用PIT命名前缀，无前视偏差",
+      "权重总和=1.00，配置自洽",
+      "使用percentile ranking天然处理异常值",
+      "与V0.4.3使用相同回测引擎和参数，对比公正"
+    ]
+  },
+
+  "verdict": {
+    "deploy_recommendation": "CONDITIONAL_PASS",
+    "conditions": [
+      "必须用实际价格数据独立验证Rank Inversion（Top5% vs Bottom20%收益比较）",
+      "验证通过后可部署，但建议在生产中监控近期窗口Sharpe退化趋势"
+    ],
+    "risk_level": "MEDIUM"
+  }
+}

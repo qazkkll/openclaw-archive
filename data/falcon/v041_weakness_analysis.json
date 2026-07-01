@@ -1,0 +1,1756 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-01T17:28:33.267985",
+    "task": "V0.4.1 Weakness Analysis",
+    "current_config": {
+      "fund_ratio": 0.7,
+      "growth_composite": 0.3,
+      "growth_sub_weights": {
+        "fund_growth": 0.5,
+        "analyst": 0.3,
+        "income": 0.2
+      },
+      "train_years": 0.5,
+      "test_months": 6,
+      "hold_days": 30,
+      "top_n": 10,
+      "cost": 0.001,
+      "stop_loss": -0.15
+    },
+    "features": "features_v04_1.parquet",
+    "pit_factors": 76,
+    "elapsed_seconds": 518.5
+  },
+  "analysis1_factor_effectiveness": {
+    "top_10_factors": [
+      {
+        "name": "m_grahamNumber",
+        "ic_mean": -0.034583,
+        "ic_std": 0.087815,
+        "icir": -0.393816,
+        "t_stat": -19.6553,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_fiveYRevenueGrowthPerShare",
+        "ic_mean": 0.041706,
+        "ic_std": 0.135414,
+        "icir": 0.307989,
+        "t_stat": 15.3717,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_tenYRevenueGrowthPerShare",
+        "ic_mean": 0.03728,
+        "ic_std": 0.151473,
+        "icir": 0.246119,
+        "t_stat": 12.2838,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_ebitdaMargin_qoq",
+        "ic_mean": 0.017451,
+        "ic_std": 0.070959,
+        "icir": 0.245935,
+        "t_stat": 12.1159,
+        "coverage": 0.9673,
+        "n_dates": 2427
+      },
+      {
+        "name": "g_ebitgrowth",
+        "ic_mean": 0.019058,
+        "ic_std": 0.07761,
+        "icir": 0.24556,
+        "t_stat": 12.2559,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_dividendPayoutRatio",
+        "ic_mean": -0.032767,
+        "ic_std": 0.137176,
+        "icir": -0.238871,
+        "t_stat": -11.922,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_assetGrowth",
+        "ic_mean": 0.019581,
+        "ic_std": 0.087369,
+        "icir": 0.224115,
+        "t_stat": 11.1856,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "b_cash_to_assets",
+        "ic_mean": 0.035545,
+        "ic_std": 0.161635,
+        "icir": 0.219908,
+        "t_stat": 10.9778,
+        "coverage": 0.9932,
+        "n_dates": 2492
+      },
+      {
+        "name": "g_operatingIncomeGrowth",
+        "ic_mean": 0.018602,
+        "ic_std": 0.085675,
+        "icir": 0.217128,
+        "t_stat": 10.8368,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_epsdilutedGrowth",
+        "ic_mean": 0.015787,
+        "ic_std": 0.073373,
+        "icir": 0.215163,
+        "t_stat": 10.7388,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      }
+    ],
+    "bottom_10_factors": [
+      {
+        "name": "g_inventoryGrowth",
+        "ic_mean": 0.002676,
+        "ic_std": 0.073829,
+        "icir": 0.036246,
+        "t_stat": 1.809,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "i_net_margin",
+        "ic_mean": -0.00333,
+        "ic_std": 0.093324,
+        "icir": -0.035678,
+        "t_stat": -1.7807,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_netProfitMargin",
+        "ic_mean": -0.003324,
+        "ic_std": 0.093263,
+        "icir": -0.035646,
+        "t_stat": -1.7791,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_debtToEquityRatio",
+        "ic_mean": -0.002419,
+        "ic_std": 0.077623,
+        "icir": -0.031166,
+        "t_stat": -1.5555,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "m_returnOnTangibleAssets",
+        "ic_mean": 0.004173,
+        "ic_std": 0.1433,
+        "icir": 0.029118,
+        "t_stat": 1.4533,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "i_gross_margin",
+        "ic_mean": -0.002388,
+        "ic_std": 0.115182,
+        "icir": -0.020729,
+        "t_stat": -1.0346,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_grossProfitMargin",
+        "ic_mean": -0.002257,
+        "ic_std": 0.11485,
+        "icir": -0.019656,
+        "t_stat": -0.981,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_enterpriseValueMultiple",
+        "ic_mean": -0.002512,
+        "ic_std": 0.153563,
+        "icir": -0.016358,
+        "t_stat": -0.8164,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "m_evToEBITDA",
+        "ic_mean": -0.002512,
+        "ic_std": 0.153563,
+        "icir": -0.016358,
+        "t_stat": -0.8164,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "b_debt_to_equity",
+        "ic_mean": 0.001229,
+        "ic_std": 0.083785,
+        "icir": 0.014674,
+        "t_stat": 0.7324,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      }
+    ],
+    "group_icir": {
+      "fund_ratio": {
+        "avg_icir": 0.1106,
+        "avg_ic": -0.0029,
+        "strong_count": 16,
+        "total_count": 20,
+        "top_factor": "r_dividendPayoutRatio"
+      },
+      "fund_metric": {
+        "avg_icir": 0.1232,
+        "avg_ic": 0.0019,
+        "strong_count": 17,
+        "total_count": 19,
+        "top_factor": "m_grahamNumber"
+      },
+      "fund_growth": {
+        "avg_icir": 0.1815,
+        "avg_ic": 0.018,
+        "strong_count": 14,
+        "total_count": 15,
+        "top_factor": "g_fiveYRevenueGrowthPerShare"
+      },
+      "analyst": {
+        "avg_icir": 0.1228,
+        "avg_ic": 0.0014,
+        "strong_count": 4,
+        "total_count": 4,
+        "top_factor": "a_eps_dispersion"
+      },
+      "balance": {
+        "avg_icir": 0.1391,
+        "avg_ic": 0.0004,
+        "strong_count": 3,
+        "total_count": 4,
+        "top_factor": "b_cash_to_assets"
+      },
+      "cashflow": {
+        "avg_icir": 0.1312,
+        "avg_ic": 0.002,
+        "strong_count": 4,
+        "total_count": 4,
+        "top_factor": "c_capex_intensity"
+      },
+      "income": {
+        "avg_icir": 0.087,
+        "avg_ic": -0.0007,
+        "strong_count": 4,
+        "total_count": 6,
+        "top_factor": "i_ebitda_margin"
+      },
+      "qoq": {
+        "avg_icir": 0.1917,
+        "avg_ic": 0.0144,
+        "strong_count": 4,
+        "total_count": 4,
+        "top_factor": "r_ebitdaMargin_qoq"
+      }
+    },
+    "correlations": {
+      "matrix": {
+        "fund_ratio": {
+          "fund_ratio": 1.0,
+          "fund_metric": -0.52,
+          "fund_growth": 1.0,
+          "analyst": 1.0,
+          "balance": -0.633,
+          "cashflow": 0.657,
+          "income": 0.742,
+          "qoq": 1.0
+        },
+        "fund_metric": {
+          "fund_ratio": -0.52,
+          "fund_metric": 1.0,
+          "fund_growth": -0.52,
+          "analyst": -0.52,
+          "balance": 0.962,
+          "cashflow": -0.961,
+          "income": -0.786,
+          "qoq": -0.52
+        },
+        "fund_growth": {
+          "fund_ratio": 1.0,
+          "fund_metric": -0.52,
+          "fund_growth": 1.0,
+          "analyst": 1.0,
+          "balance": -0.633,
+          "cashflow": 0.657,
+          "income": 0.742,
+          "qoq": 1.0
+        },
+        "analyst": {
+          "fund_ratio": 1.0,
+          "fund_metric": -0.52,
+          "fund_growth": 1.0,
+          "analyst": 1.0,
+          "balance": -0.633,
+          "cashflow": 0.657,
+          "income": 0.742,
+          "qoq": 1.0
+        },
+        "balance": {
+          "fund_ratio": -0.633,
+          "fund_metric": 0.962,
+          "fund_growth": -0.633,
+          "analyst": -0.633,
+          "balance": 1.0,
+          "cashflow": -0.995,
+          "income": -0.905,
+          "qoq": -0.633
+        },
+        "cashflow": {
+          "fund_ratio": 0.657,
+          "fund_metric": -0.961,
+          "fund_growth": 0.657,
+          "analyst": 0.657,
+          "balance": -0.995,
+          "cashflow": 1.0,
+          "income": 0.907,
+          "qoq": 0.657
+        },
+        "income": {
+          "fund_ratio": 0.742,
+          "fund_metric": -0.786,
+          "fund_growth": 0.742,
+          "analyst": 0.742,
+          "balance": -0.905,
+          "cashflow": 0.907,
+          "income": 1.0,
+          "qoq": 0.742
+        },
+        "qoq": {
+          "fund_ratio": 1.0,
+          "fund_metric": -0.52,
+          "fund_growth": 1.0,
+          "analyst": 1.0,
+          "balance": -0.633,
+          "cashflow": 0.657,
+          "income": 0.742,
+          "qoq": 1.0
+        }
+      },
+      "high_corr_pairs": [
+        {
+          "pair": "fund_ratio+fund_growth",
+          "corr": 1.0
+        },
+        {
+          "pair": "fund_ratio+analyst",
+          "corr": 1.0
+        },
+        {
+          "pair": "fund_ratio+qoq",
+          "corr": 1.0
+        },
+        {
+          "pair": "fund_growth+analyst",
+          "corr": 1.0
+        },
+        {
+          "pair": "fund_growth+qoq",
+          "corr": 1.0
+        },
+        {
+          "pair": "analyst+qoq",
+          "corr": 1.0
+        },
+        {
+          "pair": "balance+cashflow",
+          "corr": -0.995
+        },
+        {
+          "pair": "fund_metric+balance",
+          "corr": 0.962
+        },
+        {
+          "pair": "fund_metric+cashflow",
+          "corr": -0.961
+        },
+        {
+          "pair": "cashflow+income",
+          "corr": 0.907
+        },
+        {
+          "pair": "balance+income",
+          "corr": -0.905
+        },
+        {
+          "pair": "fund_metric+income",
+          "corr": -0.786
+        },
+        {
+          "pair": "fund_ratio+income",
+          "corr": 0.742
+        },
+        {
+          "pair": "fund_growth+income",
+          "corr": 0.742
+        },
+        {
+          "pair": "analyst+income",
+          "corr": 0.742
+        },
+        {
+          "pair": "income+qoq",
+          "corr": 0.742
+        },
+        {
+          "pair": "fund_ratio+cashflow",
+          "corr": 0.657
+        },
+        {
+          "pair": "fund_growth+cashflow",
+          "corr": 0.657
+        },
+        {
+          "pair": "analyst+cashflow",
+          "corr": 0.657
+        },
+        {
+          "pair": "cashflow+qoq",
+          "corr": 0.657
+        },
+        {
+          "pair": "fund_ratio+balance",
+          "corr": -0.633
+        },
+        {
+          "pair": "fund_growth+balance",
+          "corr": -0.633
+        },
+        {
+          "pair": "analyst+balance",
+          "corr": -0.633
+        },
+        {
+          "pair": "balance+qoq",
+          "corr": -0.633
+        },
+        {
+          "pair": "fund_ratio+fund_metric",
+          "corr": -0.52
+        },
+        {
+          "pair": "fund_metric+fund_growth",
+          "corr": -0.52
+        },
+        {
+          "pair": "fund_metric+analyst",
+          "corr": -0.52
+        },
+        {
+          "pair": "fund_metric+qoq",
+          "corr": -0.52
+        }
+      ]
+    },
+    "ic_results": [
+      {
+        "name": "m_grahamNumber",
+        "ic_mean": -0.034583,
+        "ic_std": 0.087815,
+        "icir": -0.393816,
+        "t_stat": -19.6553,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_fiveYRevenueGrowthPerShare",
+        "ic_mean": 0.041706,
+        "ic_std": 0.135414,
+        "icir": 0.307989,
+        "t_stat": 15.3717,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_tenYRevenueGrowthPerShare",
+        "ic_mean": 0.03728,
+        "ic_std": 0.151473,
+        "icir": 0.246119,
+        "t_stat": 12.2838,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_ebitdaMargin_qoq",
+        "ic_mean": 0.017451,
+        "ic_std": 0.070959,
+        "icir": 0.245935,
+        "t_stat": 12.1159,
+        "coverage": 0.9673,
+        "n_dates": 2427
+      },
+      {
+        "name": "g_ebitgrowth",
+        "ic_mean": 0.019058,
+        "ic_std": 0.07761,
+        "icir": 0.24556,
+        "t_stat": 12.2559,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_dividendPayoutRatio",
+        "ic_mean": -0.032767,
+        "ic_std": 0.137176,
+        "icir": -0.238871,
+        "t_stat": -11.922,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_assetGrowth",
+        "ic_mean": 0.019581,
+        "ic_std": 0.087369,
+        "icir": 0.224115,
+        "t_stat": 11.1856,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "b_cash_to_assets",
+        "ic_mean": 0.035545,
+        "ic_std": 0.161635,
+        "icir": 0.219908,
+        "t_stat": 10.9778,
+        "coverage": 0.9932,
+        "n_dates": 2492
+      },
+      {
+        "name": "g_operatingIncomeGrowth",
+        "ic_mean": 0.018602,
+        "ic_std": 0.085675,
+        "icir": 0.217128,
+        "t_stat": 10.8368,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_epsdilutedGrowth",
+        "ic_mean": 0.015787,
+        "ic_std": 0.073373,
+        "icir": 0.215163,
+        "t_stat": 10.7388,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "c_capex_intensity",
+        "ic_mean": -0.022798,
+        "ic_std": 0.105991,
+        "icir": -0.215094,
+        "t_stat": -10.7353,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "m_capexToRevenue",
+        "ic_mean": -0.022626,
+        "ic_std": 0.105719,
+        "icir": -0.214024,
+        "t_stat": -10.6819,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_revenueGrowth",
+        "ic_mean": 0.020732,
+        "ic_std": 0.097548,
+        "icir": 0.212536,
+        "t_stat": 10.6076,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_grossProfitGrowth",
+        "ic_mean": 0.019802,
+        "ic_std": 0.09399,
+        "icir": 0.210683,
+        "t_stat": 10.5152,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "a_eps_dispersion",
+        "ic_mean": 0.019786,
+        "ic_std": 0.096428,
+        "icir": 0.205189,
+        "t_stat": 9.1946,
+        "coverage": 0.8003,
+        "n_dates": 2008
+      },
+      {
+        "name": "g_netIncomeGrowth",
+        "ic_mean": 0.014648,
+        "ic_std": 0.074396,
+        "icir": 0.196894,
+        "t_stat": 9.827,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_threeYRevenueGrowthPerShare",
+        "ic_mean": 0.029812,
+        "ic_std": 0.151552,
+        "icir": 0.196715,
+        "t_stat": 9.818,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_freeCashFlowOperatingCashFlowRatio",
+        "ic_mean": 0.019306,
+        "ic_std": 0.098855,
+        "icir": 0.195301,
+        "t_stat": 9.7475,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_operatingProfitMargin_qoq",
+        "ic_mean": 0.015792,
+        "ic_std": 0.082562,
+        "icir": 0.191279,
+        "t_stat": 9.4233,
+        "coverage": 0.9673,
+        "n_dates": 2427
+      },
+      {
+        "name": "m_researchAndDevelopementToRevenue",
+        "ic_mean": 0.030652,
+        "ic_std": 0.164405,
+        "icir": 0.186444,
+        "t_stat": 9.3054,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_quickRatio",
+        "ic_mean": 0.02367,
+        "ic_std": 0.12734,
+        "icir": 0.185879,
+        "t_stat": 9.2772,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "m_netDebtToEBITDA",
+        "ic_mean": -0.021934,
+        "ic_std": 0.118876,
+        "icir": -0.184508,
+        "t_stat": -9.2088,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_netProfitMargin_qoq",
+        "ic_mean": 0.012843,
+        "ic_std": 0.072063,
+        "icir": 0.178213,
+        "t_stat": 8.7796,
+        "coverage": 0.9673,
+        "n_dates": 2427
+      },
+      {
+        "name": "r_receivablesTurnover",
+        "ic_mean": -0.015902,
+        "ic_std": 0.090135,
+        "icir": -0.176425,
+        "t_stat": -8.8053,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_assetTurnover",
+        "ic_mean": 0.021716,
+        "ic_std": 0.123596,
+        "icir": 0.175704,
+        "t_stat": 8.7694,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "m_cashConversionCycle",
+        "ic_mean": 0.015609,
+        "ic_std": 0.089696,
+        "icir": 0.174023,
+        "t_stat": 8.6855,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_dividendYieldPercentage",
+        "ic_mean": -0.030365,
+        "ic_std": 0.177816,
+        "icir": -0.170766,
+        "t_stat": -8.5229,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_currentRatio",
+        "ic_mean": 0.021671,
+        "ic_std": 0.128219,
+        "icir": 0.169013,
+        "t_stat": 8.4354,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_bookValueperShareGrowth",
+        "ic_mean": 0.014472,
+        "ic_std": 0.085778,
+        "icir": 0.168714,
+        "t_stat": 8.4205,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "b_equity_ratio",
+        "ic_mean": -0.015618,
+        "ic_std": 0.093903,
+        "icir": -0.16632,
+        "t_stat": -8.3027,
+        "coverage": 0.9932,
+        "n_dates": 2492
+      },
+      {
+        "name": "i_ebitda_margin",
+        "ic_mean": -0.017557,
+        "ic_std": 0.107643,
+        "icir": -0.163108,
+        "t_stat": -8.1407,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_ebitdaMargin",
+        "ic_mean": -0.017489,
+        "ic_std": 0.107359,
+        "icir": -0.1629,
+        "t_stat": -8.1303,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "b_net_debt_to_assets",
+        "ic_mean": -0.019632,
+        "ic_std": 0.126379,
+        "icir": -0.155339,
+        "t_stat": -7.7545,
+        "coverage": 0.9932,
+        "n_dates": 2492
+      },
+      {
+        "name": "m_returnOnEquity",
+        "ic_mean": 0.01482,
+        "ic_std": 0.095776,
+        "icir": 0.154731,
+        "t_stat": 7.7226,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "m_stockBasedCompensationToRevenue",
+        "ic_mean": 0.024885,
+        "ic_std": 0.163066,
+        "icir": 0.15261,
+        "t_stat": 7.6167,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_grossProfitMargin_qoq",
+        "ic_mean": 0.011638,
+        "ic_std": 0.076918,
+        "icir": 0.1513,
+        "t_stat": 7.4537,
+        "coverage": 0.9673,
+        "n_dates": 2427
+      },
+      {
+        "name": "a_num_analysts_eps",
+        "ic_mean": -0.013692,
+        "ic_std": 0.091075,
+        "icir": -0.150332,
+        "t_stat": -6.843,
+        "coverage": 0.8258,
+        "n_dates": 2072
+      },
+      {
+        "name": "c_buyback_yield",
+        "ic_mean": 0.01581,
+        "ic_std": 0.121536,
+        "icir": 0.130083,
+        "t_stat": 6.4924,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "m_evToFreeCashFlow",
+        "ic_mean": -0.012939,
+        "ic_std": 0.106167,
+        "icir": -0.121872,
+        "t_stat": -6.0826,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "g_receivablesGrowth",
+        "ic_mean": 0.008095,
+        "ic_std": 0.066994,
+        "icir": 0.120837,
+        "t_stat": 6.0309,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "c_fcf_to_income",
+        "ic_mean": 0.009519,
+        "ic_std": 0.079442,
+        "icir": 0.119825,
+        "t_stat": 5.9804,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "m_returnOnInvestedCapital",
+        "ic_mean": 0.014413,
+        "ic_std": 0.122907,
+        "icir": 0.117269,
+        "t_stat": 5.8529,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "m_returnOnCapitalEmployed",
+        "ic_mean": 0.014759,
+        "ic_std": 0.130292,
+        "icir": 0.113274,
+        "t_stat": 5.6535,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "i_gross_margin_delta",
+        "ic_mean": 0.011395,
+        "ic_std": 0.104578,
+        "icir": 0.108959,
+        "t_stat": 5.1534,
+        "coverage": 0.8916,
+        "n_dates": 2237
+      },
+      {
+        "name": "i_revenue_growth_yoy",
+        "ic_mean": 0.016186,
+        "ic_std": 0.155023,
+        "icir": 0.104412,
+        "t_stat": 4.9384,
+        "coverage": 0.8916,
+        "n_dates": 2237
+      },
+      {
+        "name": "r_priceToEarningsRatio",
+        "ic_mean": -0.013007,
+        "ic_std": 0.136162,
+        "icir": -0.095526,
+        "t_stat": -4.7677,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "i_operating_margin",
+        "ic_mean": -0.008665,
+        "ic_std": 0.097311,
+        "icir": -0.089047,
+        "t_stat": -4.4444,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_operatingProfitMargin",
+        "ic_mean": -0.008622,
+        "ic_std": 0.097075,
+        "icir": -0.088823,
+        "t_stat": -4.4331,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "r_financialLeverageRatio",
+        "ic_mean": 0.009182,
+        "ic_std": 0.103424,
+        "icir": 0.088781,
+        "t_stat": 4.4311,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      },
+      {
+        "name": "m_freeCashFlowYield",
+        "ic_mean": 0.008181,
+        "ic_std": 0.100839,
+        "icir": 0.081134,
+        "t_stat": 4.0494,
+        "coverage": 0.9928,
+        "n_dates": 2491
+      }
+    ]
+  },
+  "analysis2_weight_sensitivity": [
+    {
+      "fund_ratio": 0.5,
+      "growth_composite": 0.2,
+      "remainder": 0.3,
+      "sharpe": 1.729,
+      "max_dd": -0.3103,
+      "cagr": 0.3129,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.5,
+      "growth_composite": 0.3,
+      "remainder": 0.2,
+      "sharpe": 1.844,
+      "max_dd": -0.2131,
+      "cagr": 0.3645,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.5,
+      "growth_composite": 0.4,
+      "remainder": 0.1,
+      "sharpe": 1.805,
+      "max_dd": -0.3056,
+      "cagr": 0.3503,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.5,
+      "growth_composite": 0.5,
+      "remainder": 0.0,
+      "sharpe": 1.865,
+      "max_dd": -0.2823,
+      "cagr": 0.3665,
+      "ri_passed": false
+    },
+    {
+      "fund_ratio": 0.6,
+      "growth_composite": 0.1,
+      "remainder": 0.3,
+      "sharpe": 1.488,
+      "max_dd": -0.3101,
+      "cagr": 0.2598,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.6,
+      "growth_composite": 0.2,
+      "remainder": 0.2,
+      "sharpe": 1.776,
+      "max_dd": -0.2168,
+      "cagr": 0.3398,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.6,
+      "growth_composite": 0.3,
+      "remainder": 0.1,
+      "sharpe": 1.768,
+      "max_dd": -0.311,
+      "cagr": 0.3259,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.6,
+      "growth_composite": 0.4,
+      "remainder": 0.0,
+      "sharpe": 1.729,
+      "max_dd": -0.3091,
+      "cagr": 0.3357,
+      "ri_passed": false
+    },
+    {
+      "fund_ratio": 0.7,
+      "growth_composite": 0.1,
+      "remainder": 0.2,
+      "sharpe": 1.616,
+      "max_dd": -0.3179,
+      "cagr": 0.2853,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.7,
+      "growth_composite": 0.2,
+      "remainder": 0.1,
+      "sharpe": 1.747,
+      "max_dd": -0.3122,
+      "cagr": 0.3185,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.7,
+      "growth_composite": 0.3,
+      "remainder": 0.0,
+      "sharpe": 1.876,
+      "max_dd": -0.3221,
+      "cagr": 0.3446,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.8,
+      "growth_composite": 0.1,
+      "remainder": 0.1,
+      "sharpe": 1.491,
+      "max_dd": -0.3119,
+      "cagr": 0.2669,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.8,
+      "growth_composite": 0.2,
+      "remainder": 0.0,
+      "sharpe": 1.656,
+      "max_dd": -0.3067,
+      "cagr": 0.3061,
+      "ri_passed": true
+    },
+    {
+      "fund_ratio": 0.9,
+      "growth_composite": 0.1,
+      "remainder": 0.0,
+      "sharpe": 1.55,
+      "max_dd": -0.3117,
+      "cagr": 0.2792,
+      "ri_passed": true
+    }
+  ],
+  "analysis3_growth_sub_weights": [
+    {
+      "fund_growth": 0.5,
+      "analyst": 0.3,
+      "income": 0.2,
+      "sharpe": 1.876,
+      "max_dd": -0.3221,
+      "ri_passed": true
+    },
+    {
+      "fund_growth": 0.6,
+      "analyst": 0.25,
+      "income": 0.15,
+      "sharpe": 2.007,
+      "max_dd": -0.158,
+      "ri_passed": true
+    },
+    {
+      "fund_growth": 0.7,
+      "analyst": 0.2,
+      "income": 0.1,
+      "sharpe": 1.867,
+      "max_dd": -0.1774,
+      "ri_passed": true
+    },
+    {
+      "fund_growth": 0.4,
+      "analyst": 0.4,
+      "income": 0.2,
+      "sharpe": 1.758,
+      "max_dd": -0.3087,
+      "ri_passed": true
+    },
+    {
+      "fund_growth": 0.3,
+      "analyst": 0.5,
+      "income": 0.2,
+      "sharpe": 1.798,
+      "max_dd": -0.3043,
+      "ri_passed": true
+    },
+    {
+      "fund_growth": 0.6,
+      "analyst": 0.3,
+      "income": 0.1,
+      "sharpe": 1.914,
+      "max_dd": -0.1637,
+      "ri_passed": true
+    },
+    {
+      "fund_growth": 0.5,
+      "analyst": 0.4,
+      "income": 0.1,
+      "sharpe": 1.763,
+      "max_dd": -0.3087,
+      "ri_passed": true
+    },
+    {
+      "fund_growth": 0.7,
+      "analyst": 0.15,
+      "income": 0.15,
+      "sharpe": 1.788,
+      "max_dd": -0.1778,
+      "ri_passed": true
+    },
+    {
+      "fund_growth": 0.4,
+      "analyst": 0.3,
+      "income": 0.3,
+      "sharpe": 1.787,
+      "max_dd": -0.3169,
+      "ri_passed": true
+    },
+    {
+      "fund_growth": 0.55,
+      "analyst": 0.25,
+      "income": 0.2,
+      "sharpe": 1.98,
+      "max_dd": -0.1577,
+      "ri_passed": true
+    }
+  ],
+  "analysis4_training_windows": [
+    {
+      "months": 3,
+      "sharpe": 1.706,
+      "max_dd": -0.1562,
+      "cagr": 0.3615,
+      "win_rate": 0.62,
+      "n_windows": 15,
+      "ri_passed": false
+    },
+    {
+      "months": 6,
+      "sharpe": 1.876,
+      "max_dd": -0.3221,
+      "cagr": 0.3446,
+      "win_rate": 0.633,
+      "n_windows": 15,
+      "ri_passed": true
+    },
+    {
+      "months": 12,
+      "sharpe": 1.806,
+      "max_dd": -0.3221,
+      "cagr": 0.336,
+      "win_rate": 0.628,
+      "n_windows": 14,
+      "ri_passed": true
+    }
+  ],
+  "current_v041_result": {
+    "sharpe": 1.876,
+    "max_dd": -0.3221,
+    "cagr": 0.3446,
+    "win_rate": 0.633,
+    "n_trades": 603,
+    "n_windows": 15,
+    "rank_inversion": {
+      "passed": true,
+      "recent_avg_sharpe": 1.507,
+      "early_avg_sharpe": 3.101,
+      "negative_recent_windows": 0,
+      "reason": "OK"
+    },
+    "warnings": [],
+    "status": "PASS"
+  },
+  "current_v041_windows": [
+    {
+      "index": 0,
+      "period": "2016-07-04 → 2017-01-04",
+      "sharpe": 2.846,
+      "max_dd": -0.0602,
+      "cagr": 0.4645,
+      "win_rate": 0.7,
+      "n_trades": 40,
+      "n_days": 128,
+      "baseline_sharpe": 2.331
+    },
+    {
+      "index": 1,
+      "period": "2017-01-04 → 2017-07-04",
+      "sharpe": 2.289,
+      "max_dd": -0.0382,
+      "cagr": 0.2797,
+      "win_rate": 0.7,
+      "n_trades": 40,
+      "n_days": 125,
+      "baseline_sharpe": 3.255
+    },
+    {
+      "index": 2,
+      "period": "2017-07-04 → 2018-01-04",
+      "sharpe": 4.169,
+      "max_dd": -0.0477,
+      "cagr": 0.5859,
+      "win_rate": 0.825,
+      "n_trades": 40,
+      "n_days": 128,
+      "baseline_sharpe": 3.688
+    },
+    {
+      "index": 3,
+      "period": "2018-01-04 → 2018-07-04",
+      "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2018: 0.5129411764705882}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.49462254037417447}"
+    },
+    {
+      "index": 4,
+      "period": "2018-07-04 → 2019-01-04",
+      "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2018: 0.09451429929910495, 2019: 0.1475054229934924}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.09668596142400812}"
+    },
+    {
+      "index": 5,
+      "period": "2019-01-04 → 2019-07-04",
+      "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2019: 0.4354619870827659}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.44581071378851717}"
+    },
+    {
+      "index": 6,
+      "period": "2019-07-04 → 2020-01-04",
+      "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2019: 0.7281110562052746, 2020: 0.7542735042735043}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.7290797324255569}"
+    },
+    {
+      "index": 7,
+      "period": "2020-01-04 → 2020-07-04",
+      "sharpe": -0.262,
+      "max_dd": -0.3221,
+      "cagr": -0.1558,
+      "win_rate": 0.442,
+      "n_trades": 43,
+      "n_days": 125,
+      "baseline_sharpe": 0.93
+    },
+    {
+      "index": 8,
+      "period": "2020-07-04 → 2021-01-04",
+      "sharpe": 1.695,
+      "max_dd": -0.0932,
+      "cagr": 0.3249,
+      "win_rate": 0.675,
+      "n_trades": 40,
+      "n_days": 127,
+      "baseline_sharpe": 1.798
+    },
+    {
+      "index": 9,
+      "period": "2021-01-04 → 2021-07-04",
+      "sharpe": 3.472,
+      "max_dd": -0.0514,
+      "cagr": 0.9372,
+      "win_rate": 0.775,
+      "n_trades": 40,
+      "n_days": 126,
+      "baseline_sharpe": 1.906
+    },
+    {
+      "index": 10,
+      "period": "2021-07-04 → 2022-01-04",
+      "sharpe": 2.017,
+      "max_dd": -0.083,
+      "cagr": 0.4592,
+      "win_rate": 0.6,
+      "n_trades": 40,
+      "n_days": 128,
+      "baseline_sharpe": 1.101
+    },
+    {
+      "index": 11,
+      "period": "2022-01-04 → 2022-07-04",
+      "sharpe": 0.461,
+      "max_dd": -0.1545,
+      "cagr": 0.0961,
+      "win_rate": 0.5,
+      "n_trades": 40,
+      "n_days": 124,
+      "baseline_sharpe": -0.206
+    },
+    {
+      "index": 12,
+      "period": "2022-07-04 → 2023-01-04",
+      "sharpe": 1.96,
+      "max_dd": -0.155,
+      "cagr": 0.7203,
+      "win_rate": 0.7,
+      "n_trades": 40,
+      "n_days": 128,
+      "baseline_sharpe": 0.933
+    },
+    {
+      "index": 13,
+      "period": "2023-01-04 → 2023-07-04",
+      "sharpe": 1.238,
+      "max_dd": -0.0904,
+      "cagr": 0.2103,
+      "win_rate": 0.55,
+      "n_trades": 40,
+      "n_days": 124,
+      "baseline_sharpe": 2.766
+    },
+    {
+      "index": 14,
+      "period": "2023-07-04 → 2024-01-04",
+      "sharpe": 0.94,
+      "max_dd": -0.1532,
+      "cagr": 0.1485,
+      "win_rate": 0.575,
+      "n_trades": 40,
+      "n_days": 128,
+      "baseline_sharpe": 1.002
+    },
+    {
+      "index": 15,
+      "period": "2024-01-04 → 2024-07-04",
+      "sharpe": 2.787,
+      "max_dd": -0.0818,
+      "cagr": 0.4896,
+      "win_rate": 0.65,
+      "n_trades": 40,
+      "n_days": 125,
+      "baseline_sharpe": 2.966
+    },
+    {
+      "index": 16,
+      "period": "2024-07-04 → 2025-01-04",
+      "sharpe": 1.971,
+      "max_dd": -0.0706,
+      "cagr": 0.2608,
+      "win_rate": 0.6,
+      "n_trades": 40,
+      "n_days": 127,
+      "baseline_sharpe": 0.756
+    },
+    {
+      "index": 17,
+      "period": "2025-01-04 → 2025-07-04",
+      "sharpe": 0.285,
+      "max_dd": -0.1361,
+      "cagr": 0.0389,
+      "win_rate": 0.65,
+      "n_trades": 40,
+      "n_days": 123,
+      "baseline_sharpe": 0.437
+    },
+    {
+      "index": 18,
+      "period": "2025-07-04 → 2026-01-04",
+      "sharpe": 2.266,
+      "max_dd": -0.0442,
+      "cagr": 0.3087,
+      "win_rate": 0.55,
+      "n_trades": 40,
+      "n_days": 126,
+      "baseline_sharpe": 0.039
+    }
+  ],
+  "all_candidates": [
+    {
+      "name": "fr0.50_gc0.20",
+      "sharpe": 1.729,
+      "max_dd": -0.3103,
+      "cagr": 0.3129,
+      "win_rate": 0.633,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "growth_composite": 0.2,
+        "fund_metric": 0.3
+      }
+    },
+    {
+      "name": "fr0.50_gc0.30",
+      "sharpe": 1.844,
+      "max_dd": -0.2131,
+      "cagr": 0.3645,
+      "win_rate": 0.639,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "growth_composite": 0.3,
+        "fund_metric": 0.2
+      }
+    },
+    {
+      "name": "fr0.50_gc0.40",
+      "sharpe": 1.805,
+      "max_dd": -0.3056,
+      "cagr": 0.3503,
+      "win_rate": 0.633,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "growth_composite": 0.4,
+        "fund_metric": 0.1
+      }
+    },
+    {
+      "name": "fr0.50_gc0.50",
+      "sharpe": 1.865,
+      "max_dd": -0.2823,
+      "cagr": 0.3665,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.5,
+        "growth_composite": 0.5
+      }
+    },
+    {
+      "name": "fr0.60_gc0.10",
+      "sharpe": 1.488,
+      "max_dd": -0.3101,
+      "cagr": 0.2598,
+      "win_rate": 0.623,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "growth_composite": 0.1,
+        "fund_metric": 0.3
+      }
+    },
+    {
+      "name": "fr0.60_gc0.20",
+      "sharpe": 1.776,
+      "max_dd": -0.2168,
+      "cagr": 0.3398,
+      "win_rate": 0.636,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "growth_composite": 0.2,
+        "fund_metric": 0.2
+      }
+    },
+    {
+      "name": "fr0.60_gc0.30",
+      "sharpe": 1.768,
+      "max_dd": -0.311,
+      "cagr": 0.3259,
+      "win_rate": 0.641,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "growth_composite": 0.3,
+        "fund_metric": 0.1
+      }
+    },
+    {
+      "name": "fr0.60_gc0.40",
+      "sharpe": 1.729,
+      "max_dd": -0.3091,
+      "cagr": 0.3357,
+      "win_rate": 0.635,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.6,
+        "growth_composite": 0.4
+      }
+    },
+    {
+      "name": "fr0.70_gc0.10",
+      "sharpe": 1.616,
+      "max_dd": -0.3179,
+      "cagr": 0.2853,
+      "win_rate": 0.631,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.1,
+        "fund_metric": 0.2
+      }
+    },
+    {
+      "name": "fr0.70_gc0.20",
+      "sharpe": 1.747,
+      "max_dd": -0.3122,
+      "cagr": 0.3185,
+      "win_rate": 0.636,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.2,
+        "fund_metric": 0.1
+      }
+    },
+    {
+      "name": "fr0.70_gc0.30",
+      "sharpe": 1.876,
+      "max_dd": -0.3221,
+      "cagr": 0.3446,
+      "win_rate": 0.633,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fr0.80_gc0.10",
+      "sharpe": 1.491,
+      "max_dd": -0.3119,
+      "cagr": 0.2669,
+      "win_rate": 0.63,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "growth_composite": 0.1,
+        "fund_metric": 0.1
+      }
+    },
+    {
+      "name": "fr0.80_gc0.20",
+      "sharpe": 1.656,
+      "max_dd": -0.3067,
+      "cagr": 0.3061,
+      "win_rate": 0.636,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "growth_composite": 0.2
+      }
+    },
+    {
+      "name": "fr0.90_gc0.10",
+      "sharpe": 1.55,
+      "max_dd": -0.3117,
+      "cagr": 0.2792,
+      "win_rate": 0.632,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.9,
+        "growth_composite": 0.1
+      }
+    },
+    {
+      "name": "fg0.50_an0.30_inc0.20",
+      "sharpe": 1.876,
+      "max_dd": -0.3221,
+      "cagr": 0.3446,
+      "win_rate": 0.633,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fg0.60_an0.25_inc0.15",
+      "sharpe": 2.007,
+      "max_dd": -0.158,
+      "cagr": 0.404,
+      "win_rate": 0.657,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fg0.70_an0.20_inc0.10",
+      "sharpe": 1.867,
+      "max_dd": -0.1774,
+      "cagr": 0.3702,
+      "win_rate": 0.645,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fg0.40_an0.40_inc0.20",
+      "sharpe": 1.758,
+      "max_dd": -0.3087,
+      "cagr": 0.3283,
+      "win_rate": 0.632,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fg0.30_an0.50_inc0.20",
+      "sharpe": 1.798,
+      "max_dd": -0.3043,
+      "cagr": 0.3421,
+      "win_rate": 0.639,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fg0.60_an0.30_inc0.10",
+      "sharpe": 1.914,
+      "max_dd": -0.1637,
+      "cagr": 0.3902,
+      "win_rate": 0.65,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fg0.50_an0.40_inc0.10",
+      "sharpe": 1.763,
+      "max_dd": -0.3087,
+      "cagr": 0.3325,
+      "win_rate": 0.634,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fg0.70_an0.15_inc0.15",
+      "sharpe": 1.788,
+      "max_dd": -0.1778,
+      "cagr": 0.3494,
+      "win_rate": 0.642,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fg0.40_an0.30_inc0.30",
+      "sharpe": 1.787,
+      "max_dd": -0.3169,
+      "cagr": 0.3352,
+      "win_rate": 0.633,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fg0.55_an0.25_inc0.20",
+      "sharpe": 1.98,
+      "max_dd": -0.1577,
+      "cagr": 0.3919,
+      "win_rate": 0.652,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "window_3mo",
+      "sharpe": 1.706,
+      "max_dd": -0.1562,
+      "cagr": 0.3615,
+      "win_rate": 0.62,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "window_6mo",
+      "sharpe": 1.876,
+      "max_dd": -0.3221,
+      "cagr": 0.3446,
+      "win_rate": 0.633,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "window_12mo",
+      "sharpe": 1.806,
+      "max_dd": -0.3221,
+      "cagr": 0.336,
+      "win_rate": 0.628,
+      "n_windows": 14,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    }
+  ],
+  "final_best": {
+    "name": "fg0.60_an0.25_inc0.15",
+    "sharpe": 2.007,
+    "max_dd": -0.158,
+    "cagr": 0.404,
+    "win_rate": 0.657,
+    "n_windows": 15,
+    "rank_inversion_passed": true,
+    "weights": {
+      "fund_ratio": 0.7,
+      "growth_composite": 0.3
+    }
+  },
+  "recommendations": [
+    {
+      "type": "weight_sensitivity",
+      "severity": "MEDIUM",
+      "finding": "最优fund_ratio=0.7, growth_composite=0.3, Sharpe=1.876",
+      "recommendation": "建议从fund_ratio=0.70调整到0.7, growth_composite从0.30调整到0.3"
+    },
+    {
+      "type": "sub_weight",
+      "severity": "MEDIUM",
+      "finding": "最优子权重: fund_growth=0.6, analyst=0.25, income=0.15",
+      "recommendation": "调整growth_composite子权重从(0.5/0.3/0.2)到(0.6/0.25/0.15)"
+    },
+    {
+      "type": "training_window",
+      "severity": "LOW",
+      "finding": "最优训练窗口: 6个月 (Sharpe=1.876)",
+      "recommendation": "当前6个月可能不是最优, 建议测试6个月"
+    }
+  ]
+}

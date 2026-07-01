@@ -1,0 +1,2024 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-01T14:20:11.856467",
+    "task": "T0.4 V0.4.1 Optimization: New Features Re-Optimization",
+    "config": {
+      "train_years": 0.5,
+      "test_months": 6,
+      "hold_days": 30,
+      "top_n": 10,
+      "cost": 0.001,
+      "stop_loss": -0.15
+    },
+    "features": "features_v04_1.parquet",
+    "pit_factors": 76,
+    "factor_groups": {
+      "fund_ratio": 20,
+      "fund_metric": 19,
+      "fund_growth": 15,
+      "analyst": 4,
+      "balance": 4,
+      "cashflow": 4,
+      "income": 6,
+      "qoq": 4
+    },
+    "elapsed_seconds": 187.5
+  },
+  "all_candidates": [
+    {
+      "name": "v040_baseline",
+      "sharpe": 1.267,
+      "max_dd": -0.2887,
+      "cagr": 0.2218,
+      "win_rate": 0.609,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "log_metric": 0.15
+      }
+    },
+    {
+      "name": "solo_fund_ratio",
+      "sharpe": 1.232,
+      "max_dd": -0.2797,
+      "cagr": 0.2285,
+      "win_rate": 0.61,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 1.0
+      }
+    },
+    {
+      "name": "solo_fund_metric",
+      "sharpe": 1.368,
+      "max_dd": -0.3049,
+      "cagr": 0.2281,
+      "win_rate": 0.586,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_metric": 1.0
+      }
+    },
+    {
+      "name": "solo_fund_growth",
+      "sharpe": 1.416,
+      "max_dd": -0.2546,
+      "cagr": 0.3197,
+      "win_rate": 0.595,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_growth": 1.0
+      }
+    },
+    {
+      "name": "solo_analyst",
+      "sharpe": 1.087,
+      "max_dd": -0.1929,
+      "cagr": 0.2072,
+      "win_rate": 0.518,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "analyst": 1.0
+      }
+    },
+    {
+      "name": "solo_balance",
+      "sharpe": 1.277,
+      "max_dd": -0.297,
+      "cagr": 0.2823,
+      "win_rate": 0.581,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "balance": 1.0
+      }
+    },
+    {
+      "name": "solo_cashflow",
+      "sharpe": 1.231,
+      "max_dd": -0.2852,
+      "cagr": 0.229,
+      "win_rate": 0.575,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "cashflow": 1.0
+      }
+    },
+    {
+      "name": "solo_income",
+      "sharpe": 1.315,
+      "max_dd": -0.261,
+      "cagr": 0.2413,
+      "win_rate": 0.594,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "income": 1.0
+      }
+    },
+    {
+      "name": "solo_qoq",
+      "sharpe": 1.34,
+      "max_dd": -0.2267,
+      "cagr": 0.2589,
+      "win_rate": 0.61,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "qoq": 1.0
+      }
+    },
+    {
+      "name": "solo_quality_composite",
+      "sharpe": 1.532,
+      "max_dd": -0.3079,
+      "cagr": 0.2651,
+      "win_rate": 0.603,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "quality_composite": 1.0
+      }
+    },
+    {
+      "name": "solo_growth_composite",
+      "sharpe": 1.58,
+      "max_dd": -0.2767,
+      "cagr": 0.3169,
+      "win_rate": 0.6,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "growth_composite": 1.0
+      }
+    },
+    {
+      "name": "solo_safety_composite",
+      "sharpe": 1.295,
+      "max_dd": -0.3096,
+      "cagr": 0.2463,
+      "win_rate": 0.601,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "safety_composite": 1.0
+      }
+    },
+    {
+      "name": "fr1+fund_metric0",
+      "sharpe": 1.176,
+      "max_dd": -0.2898,
+      "cagr": 0.2008,
+      "win_rate": 0.6,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.3
+      }
+    },
+    {
+      "name": "fr1+fund_metric0",
+      "sharpe": 1.219,
+      "max_dd": -0.3081,
+      "cagr": 0.2106,
+      "win_rate": 0.597,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.4
+      }
+    },
+    {
+      "name": "fr0+fund_metric0",
+      "sharpe": 1.267,
+      "max_dd": -0.2911,
+      "cagr": 0.2169,
+      "win_rate": 0.603,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.5
+      }
+    },
+    {
+      "name": "fr1+fund_growth0",
+      "sharpe": 1.392,
+      "max_dd": -0.3231,
+      "cagr": 0.246,
+      "win_rate": 0.613,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_growth": 0.3
+      }
+    },
+    {
+      "name": "fr1+fund_growth0",
+      "sharpe": 1.443,
+      "max_dd": -0.3035,
+      "cagr": 0.2629,
+      "win_rate": 0.591,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_growth": 0.4
+      }
+    },
+    {
+      "name": "fr0+fund_growth0",
+      "sharpe": 1.355,
+      "max_dd": -0.3213,
+      "cagr": 0.2385,
+      "win_rate": 0.593,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_growth": 0.5
+      }
+    },
+    {
+      "name": "fr1+analyst0",
+      "sharpe": 1.481,
+      "max_dd": -0.2854,
+      "cagr": 0.2582,
+      "win_rate": 0.622,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "analyst": 0.3
+      }
+    },
+    {
+      "name": "fr1+analyst0",
+      "sharpe": 1.528,
+      "max_dd": -0.2784,
+      "cagr": 0.2589,
+      "win_rate": 0.62,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "analyst": 0.4
+      }
+    },
+    {
+      "name": "fr0+analyst0",
+      "sharpe": 1.505,
+      "max_dd": -0.2921,
+      "cagr": 0.2425,
+      "win_rate": 0.628,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "analyst": 0.5
+      }
+    },
+    {
+      "name": "fr1+balance0",
+      "sharpe": 1.292,
+      "max_dd": -0.3058,
+      "cagr": 0.253,
+      "win_rate": 0.595,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "balance": 0.3
+      }
+    },
+    {
+      "name": "fr1+balance0",
+      "sharpe": 1.291,
+      "max_dd": -0.306,
+      "cagr": 0.2465,
+      "win_rate": 0.597,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "balance": 0.4
+      }
+    },
+    {
+      "name": "fr0+balance0",
+      "sharpe": 1.295,
+      "max_dd": -0.2821,
+      "cagr": 0.2525,
+      "win_rate": 0.595,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "balance": 0.5
+      }
+    },
+    {
+      "name": "fr1+cashflow0",
+      "sharpe": 1.319,
+      "max_dd": -0.242,
+      "cagr": 0.2206,
+      "win_rate": 0.612,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "cashflow": 0.3
+      }
+    },
+    {
+      "name": "fr1+cashflow0",
+      "sharpe": 1.346,
+      "max_dd": -0.2536,
+      "cagr": 0.2082,
+      "win_rate": 0.624,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "cashflow": 0.4
+      }
+    },
+    {
+      "name": "fr0+cashflow0",
+      "sharpe": 1.471,
+      "max_dd": -0.2661,
+      "cagr": 0.2563,
+      "win_rate": 0.626,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "cashflow": 0.5
+      }
+    },
+    {
+      "name": "fr1+income0",
+      "sharpe": 1.35,
+      "max_dd": -0.2945,
+      "cagr": 0.2345,
+      "win_rate": 0.614,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "income": 0.3
+      }
+    },
+    {
+      "name": "fr1+income0",
+      "sharpe": 1.326,
+      "max_dd": -0.2707,
+      "cagr": 0.2378,
+      "win_rate": 0.609,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "income": 0.4
+      }
+    },
+    {
+      "name": "fr0+income0",
+      "sharpe": 1.389,
+      "max_dd": -0.2624,
+      "cagr": 0.2549,
+      "win_rate": 0.615,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "income": 0.5
+      }
+    },
+    {
+      "name": "fr1+qoq0",
+      "sharpe": 1.364,
+      "max_dd": -0.3083,
+      "cagr": 0.235,
+      "win_rate": 0.599,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "qoq": 0.3
+      }
+    },
+    {
+      "name": "fr1+qoq0",
+      "sharpe": 1.498,
+      "max_dd": -0.3075,
+      "cagr": 0.2654,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "qoq": 0.4
+      }
+    },
+    {
+      "name": "fr0+qoq0",
+      "sharpe": 1.386,
+      "max_dd": -0.3043,
+      "cagr": 0.2501,
+      "win_rate": 0.599,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "qoq": 0.5
+      }
+    },
+    {
+      "name": "fr1+quality_composite0",
+      "sharpe": 1.239,
+      "max_dd": -0.3127,
+      "cagr": 0.2171,
+      "win_rate": 0.603,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "quality_composite": 0.3
+      }
+    },
+    {
+      "name": "fr1+quality_composite0",
+      "sharpe": 1.312,
+      "max_dd": -0.3127,
+      "cagr": 0.2281,
+      "win_rate": 0.607,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "quality_composite": 0.4
+      }
+    },
+    {
+      "name": "fr0+quality_composite0",
+      "sharpe": 1.345,
+      "max_dd": -0.3023,
+      "cagr": 0.2349,
+      "win_rate": 0.6,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "quality_composite": 0.5
+      }
+    },
+    {
+      "name": "fr1+growth_composite0",
+      "sharpe": 1.876,
+      "max_dd": -0.3221,
+      "cagr": 0.3446,
+      "win_rate": 0.633,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "fr1+growth_composite0",
+      "sharpe": 1.729,
+      "max_dd": -0.3091,
+      "cagr": 0.3357,
+      "win_rate": 0.635,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.6,
+        "growth_composite": 0.4
+      }
+    },
+    {
+      "name": "fr0+growth_composite0",
+      "sharpe": 1.865,
+      "max_dd": -0.2823,
+      "cagr": 0.3665,
+      "win_rate": 0.638,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.5,
+        "growth_composite": 0.5
+      }
+    },
+    {
+      "name": "fr1+safety_composite0",
+      "sharpe": 1.411,
+      "max_dd": -0.2606,
+      "cagr": 0.2764,
+      "win_rate": 0.616,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "safety_composite": 0.3
+      }
+    },
+    {
+      "name": "fr1+safety_composite0",
+      "sharpe": 1.4,
+      "max_dd": -0.2452,
+      "cagr": 0.2681,
+      "win_rate": 0.604,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "safety_composite": 0.4
+      }
+    },
+    {
+      "name": "fr0+safety_composite0",
+      "sharpe": 1.393,
+      "max_dd": -0.2495,
+      "cagr": 0.279,
+      "win_rate": 0.603,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "safety_composite": 0.5
+      }
+    },
+    {
+      "name": "fr0.50+fm0.15+log_metric0.35",
+      "sharpe": 1.232,
+      "max_dd": -0.3081,
+      "cagr": 0.2145,
+      "win_rate": 0.603,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.15,
+        "log_metric": 0.35
+      }
+    },
+    {
+      "name": "fr0.50+fm0.20+log_metric0.30",
+      "sharpe": 1.232,
+      "max_dd": -0.3081,
+      "cagr": 0.2132,
+      "win_rate": 0.603,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.2,
+        "log_metric": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.10+log_metric0.30",
+      "sharpe": 1.234,
+      "max_dd": -0.2898,
+      "cagr": 0.2129,
+      "win_rate": 0.601,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.1,
+        "log_metric": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.15+log_metric0.25",
+      "sharpe": 1.232,
+      "max_dd": -0.2898,
+      "cagr": 0.2121,
+      "win_rate": 0.604,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.15,
+        "log_metric": 0.25
+      }
+    },
+    {
+      "name": "fr0.60+fm0.20+log_metric0.20",
+      "sharpe": 1.329,
+      "max_dd": -0.2898,
+      "cagr": 0.2293,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.2,
+        "log_metric": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.10+log_metric0.20",
+      "sharpe": 1.264,
+      "max_dd": -0.2956,
+      "cagr": 0.22,
+      "win_rate": 0.611,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.1,
+        "log_metric": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.15+log_metric0.15",
+      "sharpe": 1.267,
+      "max_dd": -0.2887,
+      "cagr": 0.2218,
+      "win_rate": 0.609,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "log_metric": 0.15
+      }
+    },
+    {
+      "name": "fr0.70+fm0.20+log_metric0.10",
+      "sharpe": 1.258,
+      "max_dd": -0.2898,
+      "cagr": 0.2193,
+      "win_rate": 0.609,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.2,
+        "log_metric": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.10+log_metric0.10",
+      "sharpe": 1.331,
+      "max_dd": -0.2965,
+      "cagr": 0.2428,
+      "win_rate": 0.614,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.1,
+        "log_metric": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.15+log_metric0.05",
+      "sharpe": 1.311,
+      "max_dd": -0.2965,
+      "cagr": 0.2382,
+      "win_rate": 0.614,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.15,
+        "log_metric": 0.05
+      }
+    },
+    {
+      "name": "fr0.50+fm0.15+log_growth0.35",
+      "sharpe": 1.416,
+      "max_dd": -0.3151,
+      "cagr": 0.2534,
+      "win_rate": 0.615,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.15,
+        "log_growth": 0.35
+      }
+    },
+    {
+      "name": "fr0.50+fm0.20+log_growth0.30",
+      "sharpe": 1.473,
+      "max_dd": -0.3244,
+      "cagr": 0.2674,
+      "win_rate": 0.615,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.2,
+        "log_growth": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.10+log_growth0.30",
+      "sharpe": 1.366,
+      "max_dd": -0.3209,
+      "cagr": 0.2519,
+      "win_rate": 0.614,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.1,
+        "log_growth": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.15+log_growth0.25",
+      "sharpe": 1.305,
+      "max_dd": -0.3105,
+      "cagr": 0.2404,
+      "win_rate": 0.611,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.15,
+        "log_growth": 0.25
+      }
+    },
+    {
+      "name": "fr0.60+fm0.20+log_growth0.20",
+      "sharpe": 1.451,
+      "max_dd": -0.2998,
+      "cagr": 0.2647,
+      "win_rate": 0.612,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.2,
+        "log_growth": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.10+log_growth0.20",
+      "sharpe": 1.317,
+      "max_dd": -0.3222,
+      "cagr": 0.24,
+      "win_rate": 0.613,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.1,
+        "log_growth": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.15+log_growth0.15",
+      "sharpe": 1.306,
+      "max_dd": -0.312,
+      "cagr": 0.2314,
+      "win_rate": 0.602,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "log_growth": 0.15
+      }
+    },
+    {
+      "name": "fr0.70+fm0.20+log_growth0.10",
+      "sharpe": 1.313,
+      "max_dd": -0.305,
+      "cagr": 0.23,
+      "win_rate": 0.606,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.2,
+        "log_growth": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.10+log_growth0.10",
+      "sharpe": 1.203,
+      "max_dd": -0.3125,
+      "cagr": 0.2192,
+      "win_rate": 0.603,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.1,
+        "log_growth": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.15+log_growth0.05",
+      "sharpe": 1.226,
+      "max_dd": -0.3127,
+      "cagr": 0.2202,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.15,
+        "log_growth": 0.05
+      }
+    },
+    {
+      "name": "fr0.50+fm0.15+sqrt_ratio0.35",
+      "sharpe": 1.337,
+      "max_dd": -0.2965,
+      "cagr": 0.2437,
+      "win_rate": 0.616,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.15,
+        "sqrt_ratio": 0.35
+      }
+    },
+    {
+      "name": "fr0.50+fm0.20+sqrt_ratio0.30",
+      "sharpe": 1.279,
+      "max_dd": -0.2965,
+      "cagr": 0.2269,
+      "win_rate": 0.609,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.2,
+        "sqrt_ratio": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.10+sqrt_ratio0.30",
+      "sharpe": 1.257,
+      "max_dd": -0.2949,
+      "cagr": 0.2268,
+      "win_rate": 0.608,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.1,
+        "sqrt_ratio": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.15+sqrt_ratio0.25",
+      "sharpe": 1.335,
+      "max_dd": -0.2965,
+      "cagr": 0.2448,
+      "win_rate": 0.616,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.15,
+        "sqrt_ratio": 0.25
+      }
+    },
+    {
+      "name": "fr0.60+fm0.20+sqrt_ratio0.20",
+      "sharpe": 1.278,
+      "max_dd": -0.2965,
+      "cagr": 0.2269,
+      "win_rate": 0.609,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.2,
+        "sqrt_ratio": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.10+sqrt_ratio0.20",
+      "sharpe": 1.27,
+      "max_dd": -0.2949,
+      "cagr": 0.229,
+      "win_rate": 0.608,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.1,
+        "sqrt_ratio": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.15+sqrt_ratio0.15",
+      "sharpe": 1.332,
+      "max_dd": -0.2965,
+      "cagr": 0.2452,
+      "win_rate": 0.617,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "sqrt_ratio": 0.15
+      }
+    },
+    {
+      "name": "fr0.70+fm0.20+sqrt_ratio0.10",
+      "sharpe": 1.304,
+      "max_dd": -0.2965,
+      "cagr": 0.2321,
+      "win_rate": 0.612,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.2,
+        "sqrt_ratio": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.10+sqrt_ratio0.10",
+      "sharpe": 1.273,
+      "max_dd": -0.2949,
+      "cagr": 0.2298,
+      "win_rate": 0.608,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.1,
+        "sqrt_ratio": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.15+sqrt_ratio0.05",
+      "sharpe": 1.342,
+      "max_dd": -0.2949,
+      "cagr": 0.2472,
+      "win_rate": 0.618,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.15,
+        "sqrt_ratio": 0.05
+      }
+    },
+    {
+      "name": "fr0.50+fm0.15+ratio_x_growth0.35",
+      "sharpe": 1.31,
+      "max_dd": -0.3196,
+      "cagr": 0.2387,
+      "win_rate": 0.607,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.15,
+        "ratio_x_growth": 0.35
+      }
+    },
+    {
+      "name": "fr0.50+fm0.20+ratio_x_growth0.30",
+      "sharpe": 1.331,
+      "max_dd": -0.3186,
+      "cagr": 0.2453,
+      "win_rate": 0.613,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.2,
+        "ratio_x_growth": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.10+ratio_x_growth0.30",
+      "sharpe": 1.369,
+      "max_dd": -0.3324,
+      "cagr": 0.2514,
+      "win_rate": 0.611,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.1,
+        "ratio_x_growth": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.15+ratio_x_growth0.25",
+      "sharpe": 1.314,
+      "max_dd": -0.318,
+      "cagr": 0.2367,
+      "win_rate": 0.607,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.15,
+        "ratio_x_growth": 0.25
+      }
+    },
+    {
+      "name": "fr0.60+fm0.20+ratio_x_growth0.20",
+      "sharpe": 1.352,
+      "max_dd": -0.3114,
+      "cagr": 0.2409,
+      "win_rate": 0.606,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.2,
+        "ratio_x_growth": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.10+ratio_x_growth0.20",
+      "sharpe": 1.333,
+      "max_dd": -0.321,
+      "cagr": 0.2422,
+      "win_rate": 0.615,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.1,
+        "ratio_x_growth": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.15+ratio_x_growth0.15",
+      "sharpe": 1.289,
+      "max_dd": -0.312,
+      "cagr": 0.2305,
+      "win_rate": 0.607,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "ratio_x_growth": 0.15
+      }
+    },
+    {
+      "name": "fr0.70+fm0.20+ratio_x_growth0.10",
+      "sharpe": 1.311,
+      "max_dd": -0.306,
+      "cagr": 0.2288,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.2,
+        "ratio_x_growth": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.10+ratio_x_growth0.10",
+      "sharpe": 1.191,
+      "max_dd": -0.3125,
+      "cagr": 0.2158,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.1,
+        "ratio_x_growth": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.15+ratio_x_growth0.05",
+      "sharpe": 1.232,
+      "max_dd": -0.3127,
+      "cagr": 0.221,
+      "win_rate": 0.604,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.15,
+        "ratio_x_growth": 0.05
+      }
+    },
+    {
+      "name": "fr0.50+fm0.15+metric_x_growth0.35",
+      "sharpe": 1.539,
+      "max_dd": -0.3178,
+      "cagr": 0.2789,
+      "win_rate": 0.616,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.15,
+        "metric_x_growth": 0.35
+      }
+    },
+    {
+      "name": "fr0.50+fm0.20+metric_x_growth0.30",
+      "sharpe": 1.571,
+      "max_dd": -0.3281,
+      "cagr": 0.292,
+      "win_rate": 0.62,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.2,
+        "metric_x_growth": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.10+metric_x_growth0.30",
+      "sharpe": 1.474,
+      "max_dd": -0.3305,
+      "cagr": 0.2753,
+      "win_rate": 0.611,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.1,
+        "metric_x_growth": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.15+metric_x_growth0.25",
+      "sharpe": 1.452,
+      "max_dd": -0.3159,
+      "cagr": 0.2734,
+      "win_rate": 0.611,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.15,
+        "metric_x_growth": 0.25
+      }
+    },
+    {
+      "name": "fr0.60+fm0.20+metric_x_growth0.20",
+      "sharpe": 1.4,
+      "max_dd": -0.3132,
+      "cagr": 0.2519,
+      "win_rate": 0.607,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.2,
+        "metric_x_growth": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.10+metric_x_growth0.20",
+      "sharpe": 1.374,
+      "max_dd": -0.3021,
+      "cagr": 0.2444,
+      "win_rate": 0.607,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.1,
+        "metric_x_growth": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.15+metric_x_growth0.15",
+      "sharpe": 1.329,
+      "max_dd": -0.3024,
+      "cagr": 0.2363,
+      "win_rate": 0.607,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "metric_x_growth": 0.15
+      }
+    },
+    {
+      "name": "fr0.70+fm0.20+metric_x_growth0.10",
+      "sharpe": 1.238,
+      "max_dd": -0.3238,
+      "cagr": 0.2151,
+      "win_rate": 0.603,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.2,
+        "metric_x_growth": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.10+metric_x_growth0.10",
+      "sharpe": 1.258,
+      "max_dd": -0.3127,
+      "cagr": 0.2245,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.1,
+        "metric_x_growth": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.15+metric_x_growth0.05",
+      "sharpe": 1.23,
+      "max_dd": -0.2965,
+      "cagr": 0.2218,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.15,
+        "metric_x_growth": 0.05
+      }
+    },
+    {
+      "name": "fr0.50+fm0.15+sqrt_ratio_x_log_metric0.35",
+      "sharpe": 1.348,
+      "max_dd": -0.2898,
+      "cagr": 0.2326,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.15,
+        "sqrt_ratio_x_log_metric": 0.35
+      }
+    },
+    {
+      "name": "fr0.50+fm0.20+sqrt_ratio_x_log_metric0.30",
+      "sharpe": 1.275,
+      "max_dd": -0.2898,
+      "cagr": 0.2272,
+      "win_rate": 0.599,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.2,
+        "sqrt_ratio_x_log_metric": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.10+sqrt_ratio_x_log_metric0.30",
+      "sharpe": 1.262,
+      "max_dd": -0.2898,
+      "cagr": 0.2224,
+      "win_rate": 0.611,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.1,
+        "sqrt_ratio_x_log_metric": 0.3
+      }
+    },
+    {
+      "name": "fr0.60+fm0.15+sqrt_ratio_x_log_metric0.25",
+      "sharpe": 1.2,
+      "max_dd": -0.2898,
+      "cagr": 0.206,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.15,
+        "sqrt_ratio_x_log_metric": 0.25
+      }
+    },
+    {
+      "name": "fr0.60+fm0.20+sqrt_ratio_x_log_metric0.20",
+      "sharpe": 1.221,
+      "max_dd": -0.2898,
+      "cagr": 0.2101,
+      "win_rate": 0.601,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.2,
+        "sqrt_ratio_x_log_metric": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.10+sqrt_ratio_x_log_metric0.20",
+      "sharpe": 1.308,
+      "max_dd": -0.2965,
+      "cagr": 0.2328,
+      "win_rate": 0.613,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.1,
+        "sqrt_ratio_x_log_metric": 0.2
+      }
+    },
+    {
+      "name": "fr0.70+fm0.15+sqrt_ratio_x_log_metric0.15",
+      "sharpe": 1.282,
+      "max_dd": -0.2965,
+      "cagr": 0.2249,
+      "win_rate": 0.612,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "sqrt_ratio_x_log_metric": 0.15
+      }
+    },
+    {
+      "name": "fr0.70+fm0.20+sqrt_ratio_x_log_metric0.10",
+      "sharpe": 1.267,
+      "max_dd": -0.2887,
+      "cagr": 0.2218,
+      "win_rate": 0.609,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.2,
+        "sqrt_ratio_x_log_metric": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.10+sqrt_ratio_x_log_metric0.10",
+      "sharpe": 1.348,
+      "max_dd": -0.2949,
+      "cagr": 0.2478,
+      "win_rate": 0.618,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.1,
+        "sqrt_ratio_x_log_metric": 0.1
+      }
+    },
+    {
+      "name": "fr0.80+fm0.15+sqrt_ratio_x_log_metric0.05",
+      "sharpe": 1.314,
+      "max_dd": -0.2965,
+      "cagr": 0.2386,
+      "win_rate": 0.614,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.8,
+        "fund_metric": 0.15,
+        "sqrt_ratio_x_log_metric": 0.05
+      }
+    },
+    {
+      "name": "window_3mo",
+      "sharpe": 1.706,
+      "max_dd": -0.1562,
+      "cagr": 0.3615,
+      "win_rate": 0.62,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "window_4mo",
+      "sharpe": 1.677,
+      "max_dd": -0.1751,
+      "cagr": 0.3114,
+      "win_rate": 0.618,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "window_5mo",
+      "sharpe": 1.586,
+      "max_dd": -0.1721,
+      "cagr": 0.2848,
+      "win_rate": 0.605,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "window_6mo",
+      "sharpe": 1.876,
+      "max_dd": -0.3221,
+      "cagr": 0.3446,
+      "win_rate": 0.633,
+      "n_windows": 15,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "window_7mo",
+      "sharpe": 1.57,
+      "max_dd": -0.2145,
+      "cagr": 0.3146,
+      "win_rate": 0.623,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "window_8mo",
+      "sharpe": 1.407,
+      "max_dd": -0.1994,
+      "cagr": 0.267,
+      "win_rate": 0.6,
+      "n_windows": 15,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.7,
+        "growth_composite": 0.3
+      }
+    },
+    {
+      "name": "multi_01",
+      "sharpe": 1.267,
+      "max_dd": -0.2887,
+      "cagr": 0.2218,
+      "win_rate": 0.609,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "log_metric": 0.15
+      }
+    },
+    {
+      "name": "multi_02",
+      "sharpe": 1.451,
+      "max_dd": -0.2998,
+      "cagr": 0.2647,
+      "win_rate": 0.612,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.6,
+        "fund_metric": 0.2,
+        "log_growth": 0.2
+      }
+    },
+    {
+      "name": "multi_03",
+      "sharpe": 1.329,
+      "max_dd": -0.3024,
+      "cagr": 0.2363,
+      "win_rate": 0.607,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "metric_x_growth": 0.15
+      }
+    },
+    {
+      "name": "multi_04",
+      "sharpe": 1.592,
+      "max_dd": -0.2954,
+      "cagr": 0.2857,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.4,
+        "fund_metric": 0.25,
+        "fund_growth": 0.2,
+        "analyst": 0.15
+      }
+    },
+    {
+      "name": "multi_05",
+      "sharpe": 1.62,
+      "max_dd": -0.2873,
+      "cagr": 0.288,
+      "win_rate": 0.605,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.35,
+        "fund_metric": 0.25,
+        "fund_growth": 0.25,
+        "analyst": 0.15
+      }
+    },
+    {
+      "name": "multi_06",
+      "sharpe": 1.614,
+      "max_dd": -0.2916,
+      "cagr": 0.2919,
+      "win_rate": 0.625,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.2,
+        "fund_growth": 0.15,
+        "analyst": 0.15
+      }
+    },
+    {
+      "name": "multi_07",
+      "sharpe": 1.487,
+      "max_dd": -0.2633,
+      "cagr": 0.3234,
+      "win_rate": 0.61,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.35,
+        "fund_metric": 0.2,
+        "fund_growth": 0.2,
+        "balance": 0.25
+      }
+    },
+    {
+      "name": "multi_08",
+      "sharpe": 1.431,
+      "max_dd": -0.2578,
+      "cagr": 0.3044,
+      "win_rate": 0.612,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.4,
+        "fund_metric": 0.2,
+        "fund_growth": 0.15,
+        "balance": 0.25
+      }
+    },
+    {
+      "name": "multi_09",
+      "sharpe": 1.781,
+      "max_dd": -0.2676,
+      "cagr": 0.3419,
+      "win_rate": 0.626,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.35,
+        "fund_metric": 0.2,
+        "fund_growth": 0.2,
+        "cashflow": 0.25
+      }
+    },
+    {
+      "name": "multi_10",
+      "sharpe": 1.583,
+      "max_dd": -0.2478,
+      "cagr": 0.3418,
+      "win_rate": 0.627,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.35,
+        "fund_metric": 0.2,
+        "fund_growth": 0.2,
+        "analyst": 0.1,
+        "balance": 0.15
+      }
+    },
+    {
+      "name": "multi_11",
+      "sharpe": 1.629,
+      "max_dd": -0.2467,
+      "cagr": 0.3574,
+      "win_rate": 0.635,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.4,
+        "fund_metric": 0.2,
+        "fund_growth": 0.15,
+        "analyst": 0.1,
+        "balance": 0.15
+      }
+    },
+    {
+      "name": "multi_12",
+      "sharpe": 1.493,
+      "max_dd": -0.2805,
+      "cagr": 0.2994,
+      "win_rate": 0.617,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.35,
+        "fund_metric": 0.2,
+        "fund_growth": 0.2,
+        "analyst": 0.1,
+        "cashflow": 0.15
+      }
+    },
+    {
+      "name": "multi_13",
+      "sharpe": 1.605,
+      "max_dd": -0.3029,
+      "cagr": 0.2894,
+      "win_rate": 0.61,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.3,
+        "fund_metric": 0.2,
+        "fund_growth": 0.2,
+        "income": 0.15,
+        "analyst": 0.15
+      }
+    },
+    {
+      "name": "multi_14",
+      "sharpe": 1.415,
+      "max_dd": -0.2472,
+      "cagr": 0.2988,
+      "win_rate": 0.602,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.25,
+        "fund_metric": 0.25,
+        "income": 0.2,
+        "balance": 0.15,
+        "cashflow": 0.15
+      }
+    },
+    {
+      "name": "multi_15",
+      "sharpe": 1.5,
+      "max_dd": -0.2972,
+      "cagr": 0.2753,
+      "win_rate": 0.61,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_growth": 0.3,
+        "analyst": 0.2,
+        "income": 0.2,
+        "fund_metric": 0.15,
+        "fund_ratio": 0.15
+      }
+    },
+    {
+      "name": "multi_16",
+      "sharpe": 1.386,
+      "max_dd": -0.2942,
+      "cagr": 0.2694,
+      "win_rate": 0.603,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.3,
+        "balance": 0.25,
+        "cashflow": 0.2,
+        "fund_metric": 0.15,
+        "fund_growth": 0.1
+      }
+    },
+    {
+      "name": "multi_17",
+      "sharpe": 1.313,
+      "max_dd": -0.2444,
+      "cagr": 0.281,
+      "win_rate": 0.615,
+      "n_windows": 19,
+      "rank_inversion_passed": false,
+      "weights": {
+        "fund_ratio": 0.3,
+        "fund_metric": 0.2,
+        "fund_growth": 0.15,
+        "analyst": 0.1,
+        "balance": 0.1,
+        "cashflow": 0.15
+      }
+    },
+    {
+      "name": "multi_18",
+      "sharpe": 1.659,
+      "max_dd": -0.2372,
+      "cagr": 0.3269,
+      "win_rate": 0.629,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.3,
+        "fund_metric": 0.2,
+        "fund_growth": 0.15,
+        "analyst": 0.1,
+        "income": 0.1,
+        "cashflow": 0.15
+      }
+    },
+    {
+      "name": "multi_19",
+      "sharpe": 1.744,
+      "max_dd": -0.2884,
+      "cagr": 0.3108,
+      "win_rate": 0.609,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.4,
+        "fund_metric": 0.2,
+        "income": 0.2,
+        "qoq": 0.2
+      }
+    },
+    {
+      "name": "multi_20",
+      "sharpe": 1.835,
+      "max_dd": -0.3072,
+      "cagr": 0.3363,
+      "win_rate": 0.613,
+      "n_windows": 19,
+      "rank_inversion_passed": true,
+      "weights": {
+        "fund_ratio": 0.5,
+        "fund_metric": 0.15,
+        "income": 0.2,
+        "qoq": 0.15
+      }
+    }
+  ],
+  "final_best": {
+    "name": "fr1+growth_composite0",
+    "sharpe": 1.876,
+    "max_dd": -0.3221,
+    "cagr": 0.3446,
+    "win_rate": 0.633,
+    "n_windows": 15,
+    "rank_inversion_passed": true,
+    "weights": {
+      "fund_ratio": 0.7,
+      "growth_composite": 0.3
+    }
+  },
+  "final_validation": {
+    "result": {
+      "sharpe": 1.876,
+      "max_dd": -0.3221,
+      "cagr": 0.3446,
+      "win_rate": 0.633,
+      "n_trades": 603,
+      "n_windows": 15,
+      "rank_inversion": {
+        "passed": true,
+        "recent_avg_sharpe": 1.507,
+        "early_avg_sharpe": 3.101,
+        "negative_recent_windows": 0,
+        "reason": "OK"
+      },
+      "warnings": [],
+      "status": "PASS"
+    },
+    "window_details": [
+      {
+        "index": 0,
+        "period": "2016-07-04 → 2017-01-04",
+        "sharpe": 2.846,
+        "max_dd": -0.0602,
+        "cagr": 0.4645,
+        "win_rate": 0.7,
+        "n_trades": 40,
+        "n_days": 128,
+        "baseline_sharpe": 2.331
+      },
+      {
+        "index": 1,
+        "period": "2017-01-04 → 2017-07-04",
+        "sharpe": 2.289,
+        "max_dd": -0.0382,
+        "cagr": 0.2797,
+        "win_rate": 0.7,
+        "n_trades": 40,
+        "n_days": 125,
+        "baseline_sharpe": 3.255
+      },
+      {
+        "index": 2,
+        "period": "2017-07-04 → 2018-01-04",
+        "sharpe": 4.169,
+        "max_dd": -0.0477,
+        "cagr": 0.5859,
+        "win_rate": 0.825,
+        "n_trades": 40,
+        "n_days": 128,
+        "baseline_sharpe": 3.688
+      },
+      {
+        "index": 3,
+        "period": "2018-01-04 → 2018-07-04",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2018: 0.5129411764705882}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.49462254037417447}"
+      },
+      {
+        "index": 4,
+        "period": "2018-07-04 → 2019-01-04",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2018: 0.09451429929910495, 2019: 0.1475054229934924}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.09668596142400812}"
+      },
+      {
+        "index": 5,
+        "period": "2019-01-04 → 2019-07-04",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2019: 0.4354619870827659}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.44581071378851717}"
+      },
+      {
+        "index": 6,
+        "period": "2019-07-04 → 2020-01-04",
+        "error": "数据质量不达标:\n  - 以下年份因子覆盖率<80%: {2019: 0.7281110562052746, 2020: 0.7542735042735043}\n  - 以下因子覆盖率<80%: {'growth_composite': 0.7290797324255569}"
+      },
+      {
+        "index": 7,
+        "period": "2020-01-04 → 2020-07-04",
+        "sharpe": -0.262,
+        "max_dd": -0.3221,
+        "cagr": -0.1558,
+        "win_rate": 0.442,
+        "n_trades": 43,
+        "n_days": 125,
+        "baseline_sharpe": 0.93
+      },
+      {
+        "index": 8,
+        "period": "2020-07-04 → 2021-01-04",
+        "sharpe": 1.695,
+        "max_dd": -0.0932,
+        "cagr": 0.3249,
+        "win_rate": 0.675,
+        "n_trades": 40,
+        "n_days": 127,
+        "baseline_sharpe": 1.798
+      },
+      {
+        "index": 9,
+        "period": "2021-01-04 → 2021-07-04",
+        "sharpe": 3.472,
+        "max_dd": -0.0514,
+        "cagr": 0.9372,
+        "win_rate": 0.775,
+        "n_trades": 40,
+        "n_days": 126,
+        "baseline_sharpe": 1.906
+      },
+      {
+        "index": 10,
+        "period": "2021-07-04 → 2022-01-04",
+        "sharpe": 2.017,
+        "max_dd": -0.083,
+        "cagr": 0.4592,
+        "win_rate": 0.6,
+        "n_trades": 40,
+        "n_days": 128,
+        "baseline_sharpe": 1.101
+      },
+      {
+        "index": 11,
+        "period": "2022-01-04 → 2022-07-04",
+        "sharpe": 0.461,
+        "max_dd": -0.1545,
+        "cagr": 0.0961,
+        "win_rate": 0.5,
+        "n_trades": 40,
+        "n_days": 124,
+        "baseline_sharpe": -0.206
+      },
+      {
+        "index": 12,
+        "period": "2022-07-04 → 2023-01-04",
+        "sharpe": 1.96,
+        "max_dd": -0.155,
+        "cagr": 0.7203,
+        "win_rate": 0.7,
+        "n_trades": 40,
+        "n_days": 128,
+        "baseline_sharpe": 0.933
+      },
+      {
+        "index": 13,
+        "period": "2023-01-04 → 2023-07-04",
+        "sharpe": 1.238,
+        "max_dd": -0.0904,
+        "cagr": 0.2103,
+        "win_rate": 0.55,
+        "n_trades": 40,
+        "n_days": 124,
+        "baseline_sharpe": 2.766
+      },
+      {
+        "index": 14,
+        "period": "2023-07-04 → 2024-01-04",
+        "sharpe": 0.94,
+        "max_dd": -0.1532,
+        "cagr": 0.1485,
+        "win_rate": 0.575,
+        "n_trades": 40,
+        "n_days": 128,
+        "baseline_sharpe": 1.002
+      },
+      {
+        "index": 15,
+        "period": "2024-01-04 → 2024-07-04",
+        "sharpe": 2.787,
+        "max_dd": -0.0818,
+        "cagr": 0.4896,
+        "win_rate": 0.65,
+        "n_trades": 40,
+        "n_days": 125,
+        "baseline_sharpe": 2.966
+      },
+      {
+        "index": 16,
+        "period": "2024-07-04 → 2025-01-04",
+        "sharpe": 1.971,
+        "max_dd": -0.0706,
+        "cagr": 0.2608,
+        "win_rate": 0.6,
+        "n_trades": 40,
+        "n_days": 127,
+        "baseline_sharpe": 0.756
+      },
+      {
+        "index": 17,
+        "period": "2025-01-04 → 2025-07-04",
+        "sharpe": 0.285,
+        "max_dd": -0.1361,
+        "cagr": 0.0389,
+        "win_rate": 0.65,
+        "n_trades": 40,
+        "n_days": 123,
+        "baseline_sharpe": 0.437
+      },
+      {
+        "index": 18,
+        "period": "2025-07-04 → 2026-01-04",
+        "sharpe": 2.266,
+        "max_dd": -0.0442,
+        "cagr": 0.3087,
+        "win_rate": 0.55,
+        "n_trades": 40,
+        "n_days": 126,
+        "baseline_sharpe": 0.039
+      }
+    ]
+  },
+  "comparison_with_v040": {
+    "v040_best_sharpe": 1.851,
+    "v040_best_weights": {
+      "fund_ratio": 0.7,
+      "fund_metric": 0.15,
+      "log_fm": 0.15
+    },
+    "v041_best_sharpe": 1.876,
+    "v041_best_weights": {
+      "fund_ratio": 0.7,
+      "growth_composite": 0.3
+    },
+    "improvement_pct": 1.4
+  }
+}

@@ -1,0 +1,788 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-01T16:17:41.166579",
+    "task": "V0.4.0 Fixed Validation (features_v04_1.parquet)",
+    "config": {
+      "weights": {
+        "fund_ratio": 0.7,
+        "fund_metric": 0.15,
+        "log_metric": 0.15
+      },
+      "train_years": 0.5,
+      "test_months": 6,
+      "hold_days": 30,
+      "top_n": 10,
+      "cost": 0.001,
+      "stop_loss": -0.15
+    },
+    "features_file": "features_v04_1.parquet",
+    "features_shape": [
+      1234580,
+      156
+    ],
+    "n_tickers": 476,
+    "date_range": [
+      "2016-01-04",
+      "2026-06-26"
+    ],
+    "factor_groups": {
+      "fund_ratio": 20,
+      "fund_metric": 19
+    },
+    "total_factors": 39,
+    "overall_coverage": 1.0,
+    "elapsed_seconds": 274.9
+  },
+  "coverage": {
+    "fund_ratio": {
+      "available": 20,
+      "total": 20,
+      "missing_cols": [],
+      "avg_coverage": 0.9458
+    },
+    "fund_metric": {
+      "available": 19,
+      "total": 19,
+      "missing_cols": [],
+      "avg_coverage": 0.9389
+    }
+  },
+  "post_fill_coverage": {
+    "fund_ratio": 1.0,
+    "fund_metric": 1.0
+  },
+  "rank_inversion_test": {
+    "windows": [
+      {
+        "window_idx": 0,
+        "period": "2016-07-04 → 2017-01-04",
+        "avg_top5_return": 0.02247148281313935,
+        "avg_bottom20_return": 0.02259701814919442,
+        "spread": -0.0001255353360550722,
+        "median_spread": 0.001626350066117915,
+        "passed": false,
+        "n_dates": 98,
+        "positive_spread_pct": 0.5816326530612245
+      },
+      {
+        "window_idx": 1,
+        "period": "2017-01-04 → 2017-07-04",
+        "avg_top5_return": 0.029825463848550022,
+        "avg_bottom20_return": 0.02912867595805083,
+        "spread": 0.0006967878904991925,
+        "median_spread": -0.0014187550043645919,
+        "passed": true,
+        "n_dates": 95,
+        "positive_spread_pct": 0.4105263157894737
+      },
+      {
+        "window_idx": 2,
+        "period": "2017-07-04 → 2018-01-04",
+        "avg_top5_return": 0.04174758937009202,
+        "avg_bottom20_return": 0.020361373162962666,
+        "spread": 0.021386216207129355,
+        "median_spread": 0.029672566747821722,
+        "passed": true,
+        "n_dates": 98,
+        "positive_spread_pct": 0.7653061224489796
+      },
+      {
+        "window_idx": 3,
+        "period": "2018-01-04 → 2018-07-04",
+        "avg_top5_return": 0.027387812079851675,
+        "avg_bottom20_return": 0.015636431782932923,
+        "spread": 0.011751380296918752,
+        "median_spread": 0.0077007288929067655,
+        "passed": true,
+        "n_dates": 95,
+        "positive_spread_pct": 0.631578947368421
+      },
+      {
+        "window_idx": 4,
+        "period": "2018-07-04 → 2019-01-04",
+        "avg_top5_return": -0.032874229065689105,
+        "avg_bottom20_return": -0.02069206079010109,
+        "spread": -0.012182168275588014,
+        "median_spread": -0.011006736548256194,
+        "passed": false,
+        "n_dates": 97,
+        "positive_spread_pct": 0.21649484536082475
+      },
+      {
+        "window_idx": 5,
+        "period": "2019-01-04 → 2019-07-04",
+        "avg_top5_return": 0.03198249076378833,
+        "avg_bottom20_return": 0.03956632258071264,
+        "spread": -0.007583831816924312,
+        "median_spread": -0.00878704783875612,
+        "passed": false,
+        "n_dates": 95,
+        "positive_spread_pct": 0.30526315789473685
+      },
+      {
+        "window_idx": 6,
+        "period": "2019-07-04 → 2020-01-04",
+        "avg_top5_return": 0.03289780576232634,
+        "avg_bottom20_return": 0.02131365515021628,
+        "spread": 0.011584150612110062,
+        "median_spread": 0.00810166029227219,
+        "passed": true,
+        "n_dates": 97,
+        "positive_spread_pct": 0.7628865979381443
+      },
+      {
+        "window_idx": 7,
+        "period": "2020-01-04 → 2020-07-04",
+        "avg_top5_return": -0.0010553632182895422,
+        "avg_bottom20_return": 0.010551757309571082,
+        "spread": -0.011607120527860625,
+        "median_spread": -0.018385624709656295,
+        "passed": false,
+        "n_dates": 95,
+        "positive_spread_pct": 0.4
+      },
+      {
+        "window_idx": 8,
+        "period": "2020-07-04 → 2021-01-04",
+        "avg_top5_return": 0.030538657997440162,
+        "avg_bottom20_return": 0.0915869874045516,
+        "spread": -0.06104832940711143,
+        "median_spread": -0.036128733483772865,
+        "passed": false,
+        "n_dates": 97,
+        "positive_spread_pct": 0.14432989690721648
+      },
+      {
+        "window_idx": 9,
+        "period": "2021-01-04 → 2021-07-04",
+        "avg_top5_return": 0.06544761603270782,
+        "avg_bottom20_return": 0.046466375021467214,
+        "spread": 0.01898124101124061,
+        "median_spread": 0.022649909159575696,
+        "passed": true,
+        "n_dates": 96,
+        "positive_spread_pct": 0.7708333333333334
+      },
+      {
+        "window_idx": 10,
+        "period": "2021-07-04 → 2022-01-04",
+        "avg_top5_return": 0.02902961407485926,
+        "avg_bottom20_return": 0.013262468020033101,
+        "spread": 0.01576714605482616,
+        "median_spread": 0.012844067572669338,
+        "passed": true,
+        "n_dates": 98,
+        "positive_spread_pct": 0.6428571428571429
+      },
+      {
+        "window_idx": 11,
+        "period": "2022-01-04 → 2022-07-04",
+        "avg_top5_return": 0.0054849627364909545,
+        "avg_bottom20_return": -0.05018023533622038,
+        "spread": 0.055665198072711336,
+        "median_spread": 0.05435667815275942,
+        "passed": true,
+        "n_dates": 94,
+        "positive_spread_pct": 0.9468085106382979
+      },
+      {
+        "window_idx": 12,
+        "period": "2022-07-04 → 2023-01-04",
+        "avg_top5_return": 0.042961352795472744,
+        "avg_bottom20_return": 0.007180593489472497,
+        "spread": 0.03578075930600025,
+        "median_spread": 0.028106005965289033,
+        "passed": true,
+        "n_dates": 98,
+        "positive_spread_pct": 0.8163265306122449
+      },
+      {
+        "window_idx": 13,
+        "period": "2023-01-04 → 2023-07-04",
+        "avg_top5_return": 0.006837388409852765,
+        "avg_bottom20_return": 0.030013389846996336,
+        "spread": -0.02317600143714357,
+        "median_spread": -0.022718377252373315,
+        "passed": false,
+        "n_dates": 94,
+        "positive_spread_pct": 0.0851063829787234
+      },
+      {
+        "window_idx": 14,
+        "period": "2023-07-04 → 2024-01-04",
+        "avg_top5_return": 0.013390749570001659,
+        "avg_bottom20_return": 0.014946337792103838,
+        "spread": -0.0015555882221021788,
+        "median_spread": -0.0021732016156325584,
+        "passed": false,
+        "n_dates": 98,
+        "positive_spread_pct": 0.41836734693877553
+      },
+      {
+        "window_idx": 15,
+        "period": "2024-01-04 → 2024-07-04",
+        "avg_top5_return": 0.030493161675029,
+        "avg_bottom20_return": 0.0364544909763882,
+        "spread": -0.005961329301359199,
+        "median_spread": -0.01194286117807914,
+        "passed": false,
+        "n_dates": 95,
+        "positive_spread_pct": 0.4421052631578947
+      },
+      {
+        "window_idx": 16,
+        "period": "2024-07-04 → 2025-01-04",
+        "avg_top5_return": 0.035438269591652555,
+        "avg_bottom20_return": 0.045810970838211944,
+        "spread": -0.010372701246559389,
+        "median_spread": -0.011594099657868354,
+        "passed": false,
+        "n_dates": 97,
+        "positive_spread_pct": 0.28865979381443296
+      },
+      {
+        "window_idx": 17,
+        "period": "2025-01-04 → 2025-07-04",
+        "avg_top5_return": 0.0055774501484620416,
+        "avg_bottom20_return": 0.0057773162644605,
+        "spread": -0.00019986611599845817,
+        "median_spread": -0.008374544646026206,
+        "passed": false,
+        "n_dates": 93,
+        "positive_spread_pct": 0.44086021505376344
+      },
+      {
+        "window_idx": 18,
+        "period": "2025-07-04 → 2026-01-04",
+        "avg_top5_return": 0.012636657960780248,
+        "avg_bottom20_return": 0.020620686311832098,
+        "spread": -0.00798402835105185,
+        "median_spread": -0.0008608676676090041,
+        "passed": false,
+        "n_dates": 96,
+        "positive_spread_pct": 0.4895833333333333
+      }
+    ],
+    "total_windows": 19,
+    "passed_windows": 8,
+    "pass_rate": 0.4211,
+    "overall_passed": false,
+    "avg_spread": 0.001569,
+    "median_spread": -0.0002,
+    "avg_positive_spread_pct": 0.5031
+  },
+  "walk_forward_result": {
+    "sharpe": 1.306,
+    "max_dd": -0.2887,
+    "cagr": 0.23,
+    "win_rate": 0.608,
+    "n_trades": 764,
+    "n_windows": 19,
+    "total_windows": 19,
+    "failed_windows": 0,
+    "sharpe_std": 1.296,
+    "sharpe_min": -1.918,
+    "sharpe_max": 3.583,
+    "status": "PASS"
+  },
+  "walk_forward_windows": [
+    {
+      "index": 0,
+      "period": "2016-07-04 → 2017-01-04",
+      "sharpe": 2.642,
+      "max_dd": -0.057,
+      "cagr": 0.436,
+      "win_rate": 0.625,
+      "n_trades": 40,
+      "n_days": 128,
+      "total_return": 0.2018,
+      "baseline_sharpe": 3.473,
+      "year": 2016
+    },
+    {
+      "index": 1,
+      "period": "2017-01-04 → 2017-07-04",
+      "sharpe": 2.657,
+      "max_dd": -0.0392,
+      "cagr": 0.334,
+      "win_rate": 0.75,
+      "n_trades": 40,
+      "n_days": 125,
+      "total_return": 0.1537,
+      "baseline_sharpe": 2.785,
+      "year": 2017
+    },
+    {
+      "index": 2,
+      "period": "2017-07-04 → 2018-01-04",
+      "sharpe": 3.583,
+      "max_dd": -0.0362,
+      "cagr": 0.4533,
+      "win_rate": 0.775,
+      "n_trades": 40,
+      "n_days": 128,
+      "total_return": 0.2091,
+      "baseline_sharpe": 4.395,
+      "year": 2017
+    },
+    {
+      "index": 3,
+      "period": "2018-01-04 → 2018-07-04",
+      "sharpe": 0.359,
+      "max_dd": -0.1129,
+      "cagr": 0.0512,
+      "win_rate": 0.5,
+      "n_trades": 40,
+      "n_days": 125,
+      "total_return": 0.0251,
+      "baseline_sharpe": 0.71,
+      "year": 2018
+    },
+    {
+      "index": 4,
+      "period": "2018-07-04 → 2019-01-04",
+      "sharpe": -1.918,
+      "max_dd": -0.2518,
+      "cagr": -0.3204,
+      "win_rate": 0.25,
+      "n_trades": 40,
+      "n_days": 127,
+      "total_return": -0.1769,
+      "baseline_sharpe": -1.592,
+      "year": 2018
+    },
+    {
+      "index": 5,
+      "period": "2019-01-04 → 2019-07-04",
+      "sharpe": 1.868,
+      "max_dd": -0.1011,
+      "cagr": 0.3151,
+      "win_rate": 0.675,
+      "n_trades": 40,
+      "n_days": 125,
+      "total_return": 0.1455,
+      "baseline_sharpe": 3.558,
+      "year": 2019
+    },
+    {
+      "index": 6,
+      "period": "2019-07-04 → 2020-01-04",
+      "sharpe": 1.266,
+      "max_dd": -0.1047,
+      "cagr": 0.1782,
+      "win_rate": 0.625,
+      "n_trades": 40,
+      "n_days": 127,
+      "total_return": 0.0861,
+      "baseline_sharpe": 0.305,
+      "year": 2019
+    },
+    {
+      "index": 7,
+      "period": "2020-01-04 → 2020-07-04",
+      "sharpe": -0.161,
+      "max_dd": -0.2887,
+      "cagr": -0.131,
+      "win_rate": 0.477,
+      "n_trades": 44,
+      "n_days": 125,
+      "total_return": -0.0673,
+      "baseline_sharpe": 0.281,
+      "year": 2020
+    },
+    {
+      "index": 8,
+      "period": "2020-07-04 → 2021-01-04",
+      "sharpe": 1.159,
+      "max_dd": -0.107,
+      "cagr": 0.2299,
+      "win_rate": 0.6,
+      "n_trades": 40,
+      "n_days": 127,
+      "total_return": 0.1099,
+      "baseline_sharpe": 1.101,
+      "year": 2020
+    },
+    {
+      "index": 9,
+      "period": "2021-01-04 → 2021-07-04",
+      "sharpe": 2.935,
+      "max_dd": -0.0612,
+      "cagr": 0.7743,
+      "win_rate": 0.75,
+      "n_trades": 40,
+      "n_days": 126,
+      "total_return": 0.332,
+      "baseline_sharpe": 2.988,
+      "year": 2021
+    },
+    {
+      "index": 10,
+      "period": "2021-07-04 → 2022-01-04",
+      "sharpe": 1.343,
+      "max_dd": -0.0941,
+      "cagr": 0.2801,
+      "win_rate": 0.575,
+      "n_trades": 40,
+      "n_days": 128,
+      "total_return": 0.1336,
+      "baseline_sharpe": 1.296,
+      "year": 2021
+    },
+    {
+      "index": 11,
+      "period": "2022-01-04 → 2022-07-04",
+      "sharpe": -1.075,
+      "max_dd": -0.2382,
+      "cagr": -0.2747,
+      "win_rate": 0.425,
+      "n_trades": 40,
+      "n_days": 124,
+      "total_return": -0.1462,
+      "baseline_sharpe": -0.851,
+      "year": 2022
+    },
+    {
+      "index": 12,
+      "period": "2022-07-04 → 2023-01-04",
+      "sharpe": 1.918,
+      "max_dd": -0.1617,
+      "cagr": 0.7102,
+      "win_rate": 0.675,
+      "n_trades": 40,
+      "n_days": 128,
+      "total_return": 0.3133,
+      "baseline_sharpe": 2.266,
+      "year": 2022
+    },
+    {
+      "index": 13,
+      "period": "2023-01-04 → 2023-07-04",
+      "sharpe": 1.996,
+      "max_dd": -0.0855,
+      "cagr": 0.4051,
+      "win_rate": 0.7,
+      "n_trades": 40,
+      "n_days": 124,
+      "total_return": 0.1822,
+      "baseline_sharpe": 1.748,
+      "year": 2023
+    },
+    {
+      "index": 14,
+      "period": "2023-07-04 → 2024-01-04",
+      "sharpe": 1.353,
+      "max_dd": -0.111,
+      "cagr": 0.2109,
+      "win_rate": 0.625,
+      "n_trades": 40,
+      "n_days": 128,
+      "total_return": 0.1021,
+      "baseline_sharpe": 1.814,
+      "year": 2023
+    },
+    {
+      "index": 15,
+      "period": "2024-01-04 → 2024-07-04",
+      "sharpe": 1.355,
+      "max_dd": -0.0813,
+      "cagr": 0.192,
+      "win_rate": 0.625,
+      "n_trades": 40,
+      "n_days": 125,
+      "total_return": 0.091,
+      "baseline_sharpe": 1.584,
+      "year": 2024
+    },
+    {
+      "index": 16,
+      "period": "2024-07-04 → 2025-01-04",
+      "sharpe": 1.397,
+      "max_dd": -0.1166,
+      "cagr": 0.1854,
+      "win_rate": 0.6,
+      "n_trades": 40,
+      "n_days": 127,
+      "total_return": 0.0895,
+      "baseline_sharpe": 1.678,
+      "year": 2024
+    },
+    {
+      "index": 17,
+      "period": "2025-01-04 → 2025-07-04",
+      "sharpe": 1.158,
+      "max_dd": -0.1175,
+      "cagr": 0.2293,
+      "win_rate": 0.725,
+      "n_trades": 40,
+      "n_days": 123,
+      "total_return": 0.106,
+      "baseline_sharpe": 0.509,
+      "year": 2025
+    },
+    {
+      "index": 18,
+      "period": "2025-07-04 → 2026-01-04",
+      "sharpe": 0.984,
+      "max_dd": -0.0577,
+      "cagr": 0.1109,
+      "win_rate": 0.575,
+      "n_trades": 40,
+      "n_days": 126,
+      "total_return": 0.054,
+      "baseline_sharpe": 0.186,
+      "year": 2025
+    }
+  ],
+  "factor_ic_analysis": [
+    {
+      "name": "m_grahamNumber",
+      "ic_mean": -0.031198,
+      "ic_std": 0.077536,
+      "icir": -0.4024,
+      "t_stat": -20.03,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_dividendPayoutRatio",
+      "ic_mean": -0.031914,
+      "ic_std": 0.136989,
+      "icir": -0.233,
+      "t_stat": -11.6,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_capexToRevenue",
+      "ic_mean": -0.02246,
+      "ic_std": 0.105691,
+      "icir": -0.2125,
+      "t_stat": -10.58,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_freeCashFlowOperatingCashFlowRatio",
+      "ic_mean": 0.019486,
+      "ic_std": 0.09878,
+      "icir": 0.1973,
+      "t_stat": 9.82,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_quickRatio",
+      "ic_mean": 0.024564,
+      "ic_std": 0.126946,
+      "icir": 0.1935,
+      "t_stat": 9.63,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_netDebtToEBITDA",
+      "ic_mean": -0.022774,
+      "ic_std": 0.118864,
+      "icir": -0.1916,
+      "t_stat": -9.54,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_researchAndDevelopementToRevenue",
+      "ic_mean": 0.030936,
+      "ic_std": 0.164755,
+      "icir": 0.1878,
+      "t_stat": 9.32,
+      "n_dates": 2463
+    },
+    {
+      "name": "r_assetTurnover",
+      "ic_mean": 0.022467,
+      "ic_std": 0.123763,
+      "icir": 0.1815,
+      "t_stat": 9.04,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_currentRatio",
+      "ic_mean": 0.022645,
+      "ic_std": 0.128318,
+      "icir": 0.1765,
+      "t_stat": 8.79,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_dividendYieldPercentage",
+      "ic_mean": -0.02929,
+      "ic_std": 0.177702,
+      "icir": -0.1648,
+      "t_stat": -8.21,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_cashConversionCycle",
+      "ic_mean": 0.014424,
+      "ic_std": 0.088683,
+      "icir": 0.1626,
+      "t_stat": 8.1,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_receivablesTurnover",
+      "ic_mean": -0.014423,
+      "ic_std": 0.089353,
+      "icir": -0.1614,
+      "t_stat": -8.04,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_returnOnEquity",
+      "ic_mean": 0.015368,
+      "ic_std": 0.095779,
+      "icir": 0.1605,
+      "t_stat": 7.99,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_stockBasedCompensationToRevenue",
+      "ic_mean": 0.025832,
+      "ic_std": 0.162778,
+      "icir": 0.1587,
+      "t_stat": 7.9,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_ebitdaMargin",
+      "ic_mean": -0.016327,
+      "ic_std": 0.106871,
+      "icir": -0.1528,
+      "t_stat": -7.61,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_evToFreeCashFlow",
+      "ic_mean": -0.01318,
+      "ic_std": 0.106211,
+      "icir": -0.1241,
+      "t_stat": -6.18,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_returnOnInvestedCapital",
+      "ic_mean": 0.015087,
+      "ic_std": 0.122845,
+      "icir": 0.1228,
+      "t_stat": 6.11,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_returnOnCapitalEmployed",
+      "ic_mean": 0.015464,
+      "ic_std": 0.130182,
+      "icir": 0.1188,
+      "t_stat": 5.91,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_priceToEarningsRatio",
+      "ic_mean": -0.013216,
+      "ic_std": 0.136306,
+      "icir": -0.097,
+      "t_stat": -4.83,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_operatingReturnOnAssets",
+      "ic_mean": 0.011462,
+      "ic_std": 0.137611,
+      "icir": 0.0833,
+      "t_stat": 4.15,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_freeCashFlowYield",
+      "ic_mean": 0.008071,
+      "ic_std": 0.100798,
+      "icir": 0.0801,
+      "t_stat": 3.99,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_operatingProfitMargin",
+      "ic_mean": -0.007665,
+      "ic_std": 0.096554,
+      "icir": -0.0794,
+      "t_stat": -3.95,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_returnOnAssets",
+      "ic_mean": 0.010747,
+      "ic_std": 0.137017,
+      "icir": 0.0784,
+      "t_stat": 3.91,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_priceToBookRatio",
+      "ic_mean": 0.012325,
+      "ic_std": 0.157719,
+      "icir": 0.0781,
+      "t_stat": 3.89,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_inventoryTurnover",
+      "ic_mean": -0.007875,
+      "ic_std": 0.103897,
+      "icir": -0.0758,
+      "t_stat": -3.77,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_capexToDepreciation",
+      "ic_mean": -0.0069,
+      "ic_std": 0.092349,
+      "icir": -0.0747,
+      "t_stat": -3.72,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_financialLeverageRatio",
+      "ic_mean": 0.007637,
+      "ic_std": 0.103323,
+      "icir": 0.0739,
+      "t_stat": 3.68,
+      "n_dates": 2479
+    },
+    {
+      "name": "m_evToSales",
+      "ic_mean": -0.012382,
+      "ic_std": 0.170121,
+      "icir": -0.0728,
+      "t_stat": -3.62,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_operatingCashFlowRatio",
+      "ic_mean": -0.007963,
+      "ic_std": 0.117743,
+      "icir": -0.0676,
+      "t_stat": -3.37,
+      "n_dates": 2479
+    },
+    {
+      "name": "r_priceToFreeCashFlowRatio",
+      "ic_mean": -0.007748,
+      "ic_std": 0.118087,
+      "icir": -0.0656,
+      "t_stat": -3.27,
+      "n_dates": 2479
+    }
+  ],
+  "summary": {
+    "rank_inversion_passed": false,
+    "rank_inversion_pass_rate": 0.4211,
+    "wf_sharpe": 1.306,
+    "wf_max_dd": -0.2887,
+    "wf_cagr": 0.23,
+    "wf_win_rate": 0.608,
+    "wf_failed_windows": 0
+  }
+}

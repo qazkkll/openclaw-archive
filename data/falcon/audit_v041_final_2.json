@@ -1,0 +1,260 @@
+{
+  "audit_metadata": {
+    "timestamp": "2026-07-01T16:15:00",
+    "auditor": "AUDIT-4 (independent second audit)",
+    "target": "Falcon V0.4.1 final_validation",
+    "first_audit_result": "conditional pass (0 blockers, 15 warnings)",
+    "independence": "no reliance on first audit conclusions"
+  },
+  "layer1_data_completeness": {
+    "pass": true,
+    "blockers": [],
+    "warnings": [
+      {
+        "id": "W1.1",
+        "severity": "INFO",
+        "detail": "eps_dispersion missing 71.7% (885332/1234580 rows). This column is not in any factor group used by V0.4.1, so impact is nil."
+      },
+      {
+        "id": "W1.2",
+        "severity": "INFO",
+        "detail": "fmp_covered missing 71.0%. Not in factor groups, no impact."
+      },
+      {
+        "id": "W1.3",
+        "severity": "INFO",
+        "detail": "netProfitMargin_qoq, grossProfitMargin_qoq, operatingProfitMargin_qoq, ebitdaMargin_qoq missing 71.0%. These ARE in the qoq factor group. However, these are QoQ delta columns that are only available when quarterly earnings data exists. Missing = no prior quarter data."
+      },
+      {
+        "id": "W1.4",
+        "severity": "INFO",
+        "detail": "vwap missing 56.7%. Not in factor groups, no impact."
+      },
+      {
+        "id": "W1.5",
+        "severity": "WARN",
+        "detail": "i_revenue_growth_yoy coverage 84.2% (2025) and 84.8% (2026). This is the lowest-coverage factor in V0.4.1's active factor set (income group). Below 90% threshold but above 70% reject line."
+      }
+    ],
+    "checks": {
+      "file_exists": true,
+      "date_range": "2016-01-04 to 2026-06-26 (10.5 years, 2635 unique dates)",
+      "ticker_count": 476,
+      "total_rows": 1234580,
+      "total_columns": 156,
+      "overall_missing_rate": "11.94%",
+      "year_distribution": {
+        "2016": 113795,
+        "2017": 114768,
+        "2018": 115329,
+        "2019": 117309,
+        "2020": 118900,
+        "2021": 119670,
+        "2022": 119334,
+        "2023": 118999,
+        "2024": 119951,
+        "2025": 119000,
+        "2026": 57525
+      },
+      "fundamental_2025_2026_coverage": "22/22 active factors at 93.7%-100%. Only i_revenue_growth_yoy at 84.2-84.8%",
+      "outlier_check": "r_priceToEarningsRatio: 0.2% >3sigma (normal for PE). g_revenueGrowth: 0.0% >3sigma. No extreme outliers.",
+      "prices_file": "us_prices_daily.parquet exists, 476 tickers, 2016-07-05 to 2026-06-30"
+    }
+  },
+  "layer2_feature_consistency": {
+    "pass": true,
+    "blockers": [],
+    "warnings": [
+      {
+        "id": "W2.1",
+        "severity": "INFO",
+        "detail": "Analyst fill method: median_per_date. Each date filled with its own cross-sectional median. NO temporal leakage because the fill is purely cross-sectional (no future data used)."
+      },
+      {
+        "id": "W2.2",
+        "severity": "INFO",
+        "detail": "FLIP_FACTORS: 21/21 factors present in data. All inversion logic correct (higher = worse for PE/PB/PS/Debt/Inventory/CapEx/Dispersion)."
+      },
+      {
+        "id": "W2.3",
+        "severity": "WARN",
+        "detail": "growth_composite definition: 0.5*fund_growth + 0.3*analyst + 0.2*income. This is a linear combination of percentile ranks (0-1 scale). The weighting is subjective but internally consistent."
+      },
+      {
+        "id": "W2.4",
+        "severity": "INFO",
+        "detail": "Cross-sectional ranks computed per date independently. No forward-looking information in rank computation."
+      },
+      {
+        "id": "W2.5",
+        "severity": "INFO",
+        "detail": "Factor groups verified: all 8 groups (fund_ratio/fund_metric/fund_growth/analyst/balance/cashflow/income/qoq) have 100% column coverage in the parquet."
+      }
+    ],
+    "pit_check": {
+      "method": "cross-sectional percentile rank per date",
+      "result": "PASS - each date's rank uses only that date's cross-sectional data",
+      "analyst_fill": "median_per_date - no temporal leakage"
+    },
+    "look_ahead_bias": {
+      "result": "NO look-ahead bias detected",
+      "details": [
+        "Analyst fill: cross-sectional median per date, no future data",
+        "Cross-sectional ranks: per-date independent computation",
+        "Walk-Forward: train_end -> test_start, no overlap in train/test",
+        "Rank Inversion: forward returns are intentional (predictive test)",
+        "Combo factors (growth_composite): computed from group ranks, no future data"
+      ]
+    }
+  },
+  "layer3_model_validity": {
+    "pass": true,
+    "blockers": [],
+    "warnings": [
+      {
+        "id": "W3.1",
+        "severity": "WARN",
+        "detail": "WF Sharpe 1.603 with std 1.293. High std means window-level performance varies significantly. Sharpe range: -1.587 to 4.169. This is acceptable for a multi-year backtest but indicates regime-dependent performance."
+      },
+      {
+        "id": "W3.2",
+        "severity": "WARN",
+        "detail": "MaxDD -31.07% is the worst among three models (V0.3.1: -29.08%, V0.4.0: -28.87%). V0.4.1 takes on more downside risk for higher Sharpe. Acceptable trade-off but worth noting."
+      },
+      {
+        "id": "W3.3",
+        "severity": "INFO",
+        "detail": "Rank Inversion: 63.2% pass rate (12/19 windows). Threshold is >60%. This is a marginal pass. Window 8 (2020-07 to 2021-01) has the worst spread (-0.0547), likely due to COVID recovery momentum favoring beaten-down stocks."
+      },
+      {
+        "id": "W3.4",
+        "severity": "INFO",
+        "detail": "Sharpe degradation: PASS (-13.5%). Recent windows (1.699) slightly outperform early windows (1.497). No degradation detected."
+      },
+      {
+        "id": "W3.5",
+        "severity": "INFO",
+        "detail": "V0.4.1 vs V0.3.1: Sharpe 1.603 vs 1.465 (+9.4%), RI 63.2% vs 42.1% (+50%), CAGR 28.9% vs 26.7% (+8.2%). V0.4.1 is strictly better on all metrics except MaxDD."
+      },
+      {
+        "id": "W3.6",
+        "severity": "INFO",
+        "detail": "V0.4.1 vs V0.4.0: Sharpe 1.603 vs 1.267 (+26.5%), RI 63.2% vs 47.4% (+33.3%). V0.4.1 is strictly better on all metrics except MaxDD."
+      }
+    ],
+    "walk_forward": {
+      "sharpe": 1.603,
+      "sharpe_std": 1.293,
+      "max_dd": -0.3107,
+      "cagr": 0.2888,
+      "win_rate": 0.617,
+      "n_windows": 19,
+      "failed_windows": 0,
+      "sharpe_min": -1.587,
+      "sharpe_max": 4.169
+    },
+    "rank_inversion": {
+      "pass_rate": "63.2% (12/19 windows)",
+      "threshold": "60%",
+      "avg_spread": 0.00284,
+      "verdict": "MARGINAL PASS",
+      "worst_window": "W8 (2020-07 to 2021-01): spread=-0.0547",
+      "note": "63.2% is above the 60% threshold but only by 3.2 percentage points. This is a thin margin."
+    },
+    "comparison": {
+      "V0.3.1": {"sharpe": 1.465, "max_dd": -0.2908, "ri_pass_rate": "42.1%", "ri_passed": false},
+      "V0.4.0": {"sharpe": 1.267, "max_dd": -0.2887, "ri_pass_rate": "47.4%", "ri_passed": false},
+      "V0.4.1": {"sharpe": 1.603, "max_dd": -0.3107, "ri_pass_rate": "63.2%", "ri_passed": true},
+      "verdict": "V0.4.1 is the only model that passes Rank Inversion. Higher Sharpe, higher CAGR, but also higher MaxDD."
+    }
+  },
+  "layer4_signal_production": {
+    "pass": true,
+    "blockers": [],
+    "warnings": [
+      {
+        "id": "W4.1",
+        "severity": "INFO",
+        "detail": "Scoring logic: V0.4.1 = 0.70*fund_ratio + 0.30*growth_composite. All weights sum to 1.00."
+      },
+      {
+        "id": "W4.2",
+        "severity": "INFO",
+        "detail": "growth_composite = 0.5*fund_growth + 0.3*analyst + 0.2*income. All weights sum to 1.00."
+      },
+      {
+        "id": "W4.3",
+        "severity": "INFO",
+        "detail": "Output format: final_validation_results.json contains metadata, models (3), comparison, best_model, best_score. All fields present and valid."
+      },
+      {
+        "id": "W4.4",
+        "severity": "INFO",
+        "detail": "Best model selection: scoring formula = Sharpe*0.4 + (1+MaxDD)*0.2 + RI_pass_rate*0.2 + RI_bonus*0.2, with degradation penalty. V0.4.1 scored 1.105 (highest)."
+      },
+      {
+        "id": "W4.5",
+        "severity": "INFO",
+        "detail": "Backtest engine: cost=0.1%, stop_loss=-15%, top_n=10, hold_days=30. Standard parameters."
+      }
+    ],
+    "weight_verification": {
+      "V0.4.1": {"fund_ratio": 0.70, "growth_composite": 0.30, "sum": 1.00},
+      "growth_composite": {"fund_growth": 0.50, "analyst": 0.30, "income": 0.20, "sum": 1.00}
+    }
+  },
+  "layer5_cross_layer_consistency": {
+    "pass": true,
+    "blockers": [],
+    "warnings": [
+      {
+        "id": "W5.1",
+        "severity": "INFO",
+        "detail": "Data->Features: All 86 factor columns (20+19+15+4+4+4+6+4) present in parquet. 21 FLIP_FACTORS all present. 0 missing factors."
+      },
+      {
+        "id": "W5.2",
+        "severity": "INFO",
+        "detail": "Features->Model: Walk-Forward windows are adjacent (not overlapping). Boundary dates (e.g., 2017-01-04) appear as the last day of one test window and first day of the next. This is standard practice and creates at most 1-day boundary overlap per window transition. Acceptable."
+      },
+      {
+        "id": "W5.3",
+        "severity": "INFO",
+        "detail": "Model->Signal: Best model selection formula is documented and reproducible. V0.4.1 correctly selected as highest-scoring."
+      },
+      {
+        "id": "W5.4",
+        "severity": "INFO",
+        "detail": "Pipeline integrity: features_v04_1.parquet -> final_validation.py -> final_validation_results.json. All files exist and are internally consistent."
+      },
+      {
+        "id": "W5.5",
+        "severity": "WARN",
+        "detail": "RI window boundary overlap: 18 out of 19 window transitions share a boundary date. This means 1 date per transition is counted in both windows' RI test. Impact: minimal (1/180 test dates per window = 0.6% overlap). Not a data leak but technically not pure OOS."
+      }
+    ],
+    "data_leakage_check": {
+      "result": "NO data leakage detected",
+      "details": [
+        "Analyst fill: cross-sectional only, no temporal leakage",
+        "Rank computation: per-date independent, no forward look",
+        "Walk-Forward: train/test non-overlapping",
+        "Boundary overlap: 1-date boundary shared between adjacent windows, minimal impact (<1%)"
+      ]
+    }
+  },
+  "summary": {
+    "total_blockers": 0,
+    "total_warnings": 5,
+    "total_info": 20,
+    "verdict": "CONDITIONAL PASS",
+    "verdict_detail": "V0.4.1 passes all 5 layers with 0 blockers. 5 warnings are all INFO-level or minor WARN-level. The Rank Inversion pass rate (63.2%) is above threshold (60%) but only marginally. MaxDD (-31.07%) is the highest among three models. All other metrics (Sharpe, CAGR, RI, degradation) are superior to V0.3.1 and V0.4.0.",
+    "first_audit_comparison": "First audit found 15 warnings, 0 blockers. This second audit found 5 warnings (reduced by consolidating INFO-level items) and 20 INFO-level items. Both audits agree: CONDITIONAL PASS. No new blockers discovered.",
+    "key_risks": [
+      "Rank Inversion margin is thin (63.2% vs 60% threshold)",
+      "MaxDD -31.07% is highest among compared models",
+      "WF Sharpe std 1.293 indicates high regime-dependency",
+      "1-date boundary overlap in WF windows (standard practice, minimal impact)"
+    ]
+  }
+}

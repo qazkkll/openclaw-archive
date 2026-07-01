@@ -1,109 +1,120 @@
 # ═══════════════════════════════════════════════════════════
-# 🦅 Falcon 交易系统 — 主配置文件
+# 🦅 Falcon 交易系统 — 主配置文件 (V0.4.4)
 # 所有脚本读这个文件，不硬编码。
 # ═══════════════════════════════════════════════════════════
 
 system:
   name: "Falcon"
-  version: "0.4.0"
+  version: "0.4.4"
   timezone: "US/Eastern"
   base_dir: "/home/hermes/.hermes/openclaw-archive"
 
-# ── 模型参数 ──
+# ── 模型层面 (选股逻辑) ──
 model:
-  name: "falcon_v031"
-  universe: "SPX"           # 标普500成分股
-  universe_size: 476        # 股票池大小
-  top_n: 5                  # 每次推荐几只
+  name: "falcon_v044"
+  universe: "SPX"
+  universe_size: 476
+  top_n: 10
+  hold_days: 30
+  stop_loss: -0.15
+  cost_per_trade: 0.001
 
-  weights:                  # 各因子的权重（加起来=100%）
-    fund_ratio: 0.70        # 财务比率 70%（PE/PB/利润率等）
-    analyst: 0.20           # 分析师修正 20%（预期上调还是下调）
-    fund_metric: 0.10       # 关键指标 10%（ROE/ROA等）
-    tech: 0.0               # 技术面 0%（已验证无增量）
-    sentiment: 0.0          # 情绪面 0%（等FinBERT数据补全后启用）
+  # V0.4.4 因子权重 (Walk-Forward验证通过, RI=68.4%)
+  weights:
+    fund_ratio: 0.45       # 财务比率 (20个价格比率等权平均)
+    growth_composite: 0.20 # 成长因子组合 (0.60*fund_growth + 0.25*analyst + 0.15*income)
+    qoq: 0.20             # 季度环比变化 (4个qoq因子)
+    cashflow: 0.15         # 现金流因子 (4个现金流指标)
+
+  # growth_composite 子权重
+  growth_composite_weights:
+    fund_growth: 0.60      # 15个增长指标
+    analyst: 0.25          # 4个分析师指标
+    income: 0.15           # 6个收入指标
 
   features:
-    fund_ratio: "FMP 财务比率 (20项): PE/PB/PS/利润率/周转率/负债率等"
-    fund_metric: "FMP 关键指标 (23项): 赚钱能力/估值/投资回报率等"
-    analyst: "FMP 分析师预期 (3项): 盈利修正/收入修正/预期分歧度"
-    tech: "技术指标 (9项): RSI/动量/波动率等"
-    sentiment: "FinBERT 新闻情绪 (待部署): AI读新闻判断正面/负面"
+    fund_ratio: "FMP 财务比率 (20项): PE/PB/PS/利润率/周转率/负债率等 → 等权平均"
+    growth_composite: "成长组合: 60%增长 + 25%分析师 + 15%收入"
+    qoq: "季度环比 (4项): 毛利率/净利率/营业利润率/EBITDA利润率环比变化"
+    cashflow: "现金流 (4项): FCF利润率/资本支出强度/FCF/收入比/回购收益率"
 
-# ── 交易参数 ──
-trading:
-  hold_days: 30             # 买了之后持有多少天
-  stop_loss: -0.15          # 止损线：亏15%就卖
-  cost_per_trade: 0.001     # 每笔交易成本 0.1%
-  bear_alloc: 0.50          # 熊市时只用50%的钱
+  # Walk-Forward 验证结果
+  validation:
+    wf_sharpe: 1.713
+    wf_maxdd: -24.2
+    wf_cagr: 34.0
+    wf_win_rate: 62.0
+    ri_pass_rate: 68.4  # 13/19 窗口通过
+    ri_windows_passed: 13
+    ri_windows_total: 19
 
-  entry:                    # 买入规则
-    strategy: "vwap_timing" # 用VWAP均价择时
-    vwap_trigger: 0.0       # 价格低于均价时买入
-    fallback_minutes: 60    # 60分钟内没触发就直接买
-    min_entry_score: 60     # 最低入场评分
+# ── 执行层面 (仓位管理 + 大盘感知) ──
+execution:
+  # 大盘感知 (VIX + 趋势)
+  market_awareness:
+    enabled: true
+    vix_source: "data/us/vix_10y.parquet"
+    # 市场状态定义
+    regimes:
+      bull:     { vix_max: 20, trend_min: 0.02, position_pct: 1.00 }
+      neutral:  { vix_range: [20, 25], position_pct: 0.75 }
+      bear:     { vix_min: 25, position_pct: 0.50 }
+      extreme_bear: { vix_min: 30, position_pct: 0.25 }
 
-  exit:                     # 卖出规则
-    strategy: "fixed_hold"  # 固定持有天数到期卖出
-    hold_days: 30
-    stop_loss: -0.15
-    trailing_stop: null     # 移动止损（未启用）
+  # 动态仓位策略
+  position_sizing:
+    strategy: "trend_dynamic"  # fixed / vix_only / trend_only / trend_dynamic
+    # 各策略仓位映射
+    strategies:
+      fixed:        1.00  # 100% 固定仓位
+      vix_only:     "根据VIX水平动态调整 (18→100%, 22→90%, 28→70%, 35→50%)"
+      trend_only:   "根据200日均线趋势调整"
+      trend_dynamic: "综合VIX+趋势 (推荐, MaxDD从-24%降至-17%)"
+
+  # 交易执行参数
+  trading:
+    max_position_pct: 0.10    # 单只最大仓位
+    max_total_exposure: 0.80  # 最大总仓位
+    min_order_value: 500      # 最小下单金额
+    order_timeout_minutes: 120
+    max_slippage_pct: 0.02
 
 # ── 数据源说明 ──
 data_sources:
-  fmp_fundamentals:
-    name: "FMP 财务数据"
-    cn: "公司财务报表数据（收入/利润/资产负债等）"
-    why: "判断公司赚不赚钱、财务健不健康"
-    url: "https://financialmodelingprep.com"
-    api_endpoint: "/stable/ratios, /stable/key-metrics, /stable/financial-growth"
-    cost: "$29/月 (Basic), $99/月 (Premium)"
-    current_plan: "Premium (通过闲鱼转售)"
-    refresh: "季度 (财报发布后)"
-    covers: "476只标普500, 20+23+18个财务指标"
+  features:
+    name: "V0.4.4 特征文件"
+    path: "data/falcon/features_v04_1.parquet"
+    rows: 1234580
+    columns: 156
+    coverage: "2025-2026 覆盖率 98.9%"
+    version: "V0.4.4"
+    update: "天频 (每日收盘后更新)"
 
-  fmp_analyst:
+  analyst:
     name: "FMP 分析师预期"
-    cn: "华尔街分析师对公司的盈利预测和修正"
-    why: "分析师上调预期=看好，下调=看空"
-    url: "https://financialmodelingprep.com"
-    api_endpoint: "/stable/analyst-estimates"
-    cost: "包含在Premium计划"
-    refresh: "每周"
-    covers: "476只标普500, 3个分析师指标"
+    path: "data/falcon/analyst_historical.json"
+    tickers: 476
+    coverage: "99% (2001至今)"
+    version: "V0.4.4"
+    update: "每周"
 
-  massive_market:
-    name: "Massive.io 市场数据"
-    cn: "股票价格和成交量历史"
-    why: "计算技术指标和VWAP均价"
-    url: "https://massive.io"
-    cost: "$0 (免费tier)"
-    refresh: "实时 / 日频"
+  fmp_ratios:
+    name: "FMP 财务比率"
+    path: "data/falcon/fmp_ratios_historical.json"
+    version: "V0.4.4"
+    update: "季度"
 
-  alpaca:
-    name: "Alpaca Markets"
-    cn: "美股交易和行情平台"
-    why: "Paper Trading模拟交易 + 实时行情"
-    url: "https://alpaca.markets"
-    cost: "$0 (Paper Trading免费)"
-    refresh: "实时快照 + 历史分钟K线"
+  vix:
+    name: "VIX 恐慌指数"
+    path: "data/us/vix_10y.parquet"
+    version: "V0.4.4"
+    update: "天频"
 
-  finbert:
-    name: "FinBERT 新闻情绪"
-    cn: "用AI读新闻判断市场情绪"
-    why: "恐慌时少买，贪婪时谨慎"
-    url: "本地HuggingFace模型"
-    cost: "$0 (本地推理)"
-    refresh: "每日"
-    status: "补全中 (2024年1月已完成)"
-
-  futu:
-    name: "Futu OpenD"
-    cn: "港股/A股/美股实盘交易平台"
-    why: "Paper Trading验证后切换到实盘"
-    url: "https://openapi.futunn.com"
-    cost: "$0 (已有账户)"
-    refresh: "实时"
+  prices:
+    name: "美股日线价格"
+    path: "data/falcon/us_prices_daily.parquet"
+    version: "V0.4.4"
+    update: "天频"
 
 # ── 路径 ──
 paths:
@@ -118,10 +129,10 @@ paths:
 
 # ── 自动任务时间表 (由Hermes agent cron管理) ──
 cron:
-  daily_scoring_and_trade: "30 21 * * 1-5"  # HKT 21:30 Mon-Fri = ET 9:30开盘
-  alert_checker: "*/3 * * * 1-5"            # 智能告警: 市场关闭静默, 盘中3分钟, L2/L3加频
-  daily_report: "30 4 * * 2-6"              # HKT 04:30 Tue-Sat = ET 16:30收盘后
-  daily_scoring_only: "30 5 * * 2-6"        # HKT 05:30 Tue-Sat = ET 17:30收盘后(仅评分)
-  data_check: "0 16 * * 1-5"               # HKT 16:00 Mon-Fri = ET 4:00AM(数据检查)
-  weekly_review: "0 12 * * 6"               # HKT 12:00 Sat
-  note: "所有通知通过Hermes cron deliver到Telegram, 不再用system crontab"
+  daily_scoring_and_trade: "30 21 * * 1-5"  # HKT 21:30 = ET 9:30开盘
+  alert_checker: "*/5 * * * 1-5"            # 智能告警: 5分钟
+  daily_report: "30 4 * * 2-6"              # HKT 04:30 = ET 16:30收盘后
+  premarket_plan: "0 21 * * 1-5"            # HKT 21:00 = ET 9:00盘前
+  data_check: "0 16 * * 1-5"               # HKT 16:00 = ET 4:00AM
+  weekly_review: "0 10 * * 6"              # HKT 10:00 周六
+  note: "所有通知通过Hermes cron deliver到Telegram"

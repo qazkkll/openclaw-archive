@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-07-01T20:25:24.672936",
+  "model_version": "V0.4.4",
+  "total_sources": 10,
+  "sources": {
+    "features_v04_1.parquet": {
+      "version": "V0.4.4",
+      "status": "✅ 生产",
+      "last_update": "2026-07-01",
+      "description": "V0.4.4特征文件，包含156列PIT因子",
+      "coverage": "2016-2026, 2017+覆盖率97%+"
+    },
+    "analyst_historical.json": {
+      "version": "V0.4.4",
+      "status": "✅ 已更新",
+      "last_update": "2026-07-01",
+      "description": "FMP分析师历史数据，476 tickers",
+      "coverage": "2001-2028, 99%覆盖"
+    },
+    "fmp_ratios_historical.json": {
+      "version": "V0.4.4",
+      "status": "✅ 生产",
+      "last_update": "2026-03-31",
+      "description": "FMP财务比率，476 tickers",
+      "coverage": "2016-2026"
+    },
+    "fmp_key_metrics.json": {
+      "version": "V0.4.4",
+      "status": "✅ 生产",
+      "last_update": "2026-03-31",
+      "description": "FMP关键指标，476 tickers",
+      "coverage": "2016-2026"
+    },
+    "fmp_financial_growth.json": {
+      "version": "V0.4.4",
+      "status": "✅ 生产",
+      "last_update": "2026-03-31",
+      "description": "FMP财务增长，476 tickers",
+      "coverage": "2016-2026"
+    },
+    "fmp_income_stmt.json": {
+      "version": "V0.4.4",
+      "status": "✅ 生产",
+      "last_update": "2026-03-31",
+      "description": "FMP收入报表，476 tickers",
+      "coverage": "2016-2026"
+    },
+    "fmp_balance_sheet.json": {
+      "version": "V0.4.4",
+      "status": "✅ 生产",
+      "last_update": "2026-03-31",
+      "description": "FMP资产负债表，476 tickers",
+      "coverage": "2016-2026"
+    },
+    "fmp_cashflow.json": {
+      "version": "V0.4.4",
+      "status": "✅ 生产",
+      "last_update": "2026-03-31",
+      "description": "FMP现金流量表，476 tickers",
+      "coverage": "2016-2026"
+    },
+    "vix_10y.parquet": {
+      "version": "V0.4.5",
+      "status": "✅ 生产",
+      "last_update": "2026-07-01",
+      "description": "VIX指数10年历史，用于大盘感知",
+      "coverage": "2016-2026"
+    },
+    "us_prices_daily.parquet": {
+      "version": "V0.4.4",
+      "status": "✅ 生产",
+      "last_update": "2026-07-01",
+      "description": "美股日线价格，476 tickers",
+      "coverage": "2016-2026"
+    }
+  }
+}
