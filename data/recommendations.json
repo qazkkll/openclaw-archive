@@ -796,11 +796,11 @@
     {
       "id": "R3766cce0",
       "timestamp": "2026-06-24T09:00:59.409199",
-      "status": "pending",
-      "outcome": null,
-      "outcome_date": null,
-      "actual_return": null,
-      "score": null,
+      "status": "scored",
+      "outcome": "correct",
+      "outcome_date": "2026-07-02",
+      "actual_return": "+4.47%",
+      "score": 1.0,
       "source": "morning",
       "market": "cn",
       "date": "20260624",
@@ -816,7 +816,14 @@
         "R006"
       ],
       "macro_context": "bear regime breadth=0.28 ret20=-9.5% 不建议新买入",
-      "rules_source": "agent_applied"
+      "rules_source": "agent_applied",
+      "scoring_detail": {
+        "base_price": 33.540000915527344,
+        "next_price": 35.040000915527344,
+        "next_date": "20260701",
+        "horizon_days": 5,
+        "threshold": 0.02
+      }
     },
     {
       "id": "R46c6872b",
@@ -1409,6 +1416,29 @@
         "R015"
       ],
       "macro_context": "bear regime",
+      "rules_source": "agent_applied"
+    },
+    {
+      "id": "Rcfcf1718",
+      "timestamp": "2026-07-02T08:02:02.901424",
+      "status": "scored",
+      "outcome": "上证-2.03% 深证-3.85% 创业板-5.71% 科创50-7.70%, 全线下跌尤其成长股暴跌, bearish方向完全正确",
+      "outcome_date": "2026-07-02",
+      "actual_return": null,
+      "score": 1.0,
+      "source": "morning",
+      "market": "cn",
+      "date": "20260702",
+      "target": "A股大盘",
+      "action": "hold",
+      "direction": "bearish",
+      "confidence": 0.75,
+      "reasoning": "bear regime: breadth=0.20(<0.3), ret20=-14.2%(<-8%). R011触发暂停bullish. R015: 15只GG信号14只RSI>70,全部为追涨陷阱. regime_advice=不建议新买入",
+      "rules_applied": [
+        "R011",
+        "R015"
+      ],
+      "macro_context": "bear regime breadth=0.20 ret20=-14.2%",
       "rules_source": "agent_applied"
     }
   ],

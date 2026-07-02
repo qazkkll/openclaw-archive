@@ -73,12 +73,23 @@ FACTOR_GROUPS = {
 
 # 需要翻转的因子 (越高越差)
 FLIP_FACTORS = {
+    # 估值（越低越好）
     'r_priceToEarningsRatio', 'r_priceToBookRatio', 'r_priceToSalesRatio',
     'r_priceToFreeCashFlowRatio', 'r_enterpriseValueMultiple',
-    'r_debtToEquityRatio', 'r_financialLeverageRatio', 'r_inventoryTurnover',
+    # 杠杆（越低越好）
+    'r_debtToEquityRatio', 'r_financialLeverageRatio',
+    # 周转（数据验证：IC=-0.008，越高收益越差）
+    'r_inventoryTurnover',
+    # 股息（数据验证：IC=-0.04，越高收益越差 → 成长股溢价）
+    'r_dividendYieldPercentage', 'r_dividendPayoutRatio',
+    # 资本开支（越低越好）
     'c_capex_intensity',
+    # 负债/应收/存货增长（越低越好）
     'g_debtGrowth', 'g_receivablesGrowth', 'g_inventoryGrowth',
-    'a_eps_dispersion',
+    # 分析师修正（数据验证：IC=-0.07/-0.06，越高收益越差 → 滞后指标）
+    'a_eps_revision', 'a_revenue_revision',
+    # 不翻：a_eps_dispersion（IC=+0.019，越高收益越好 → 分歧=机会）
+    # 不翻：g_assetGrowth（IC=+0.023，越高收益越好）
 }
 
 # V0.4.4 主权重

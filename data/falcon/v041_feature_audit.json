@@ -1,8 +1,8 @@
 {
   "version": "v0.4.1",
-  "generated_at": "2026-07-01T20:12:21.192487",
+  "generated_at": "2026-07-02T17:26:15.155607",
   "shape": [
-    1234580,
+    1236008,
     156
   ],
   "columns": [
@@ -166,7 +166,7 @@
   "n_tickers": 476,
   "date_range": [
     "2016-01-04",
-    "2026-06-26"
+    "2026-07-01"
   ],
   "years": [
     "2016",
@@ -1013,7 +1013,7 @@
       "avg_pit_coverage": 0.9891
     },
     "2026": {
-      "n_rows": 57525,
+      "n_rows": 58953,
       "n_tickers": 476,
       "pit_factor_coverage": {
         "a_eps_revision": 0.9979,
@@ -1051,7 +1051,7 @@
         "m_returnOnInvestedCapital": 1.0,
         "m_returnOnTangibleAssets": 1.0,
         "m_incomeQuality": 1.0,
-        "m_grahamNumber": 0.8756,
+        "m_grahamNumber": 0.8758,
         "m_cashConversionCycle": 1.0,
         "m_capexToRevenue": 1.0,
         "m_capexToDepreciation": 1.0,
@@ -1082,16 +1082,16 @@
         "b_net_debt_to_assets": 1.0,
         "b_equity_ratio": 1.0,
         "b_debt_to_equity": 0.9323,
-        "c_fcf_margin": 0.9987,
-        "c_capex_intensity": 0.9987,
-        "c_fcf_to_income": 0.9409,
+        "c_fcf_margin": 0.9986,
+        "c_capex_intensity": 0.9986,
+        "c_fcf_to_income": 0.9411,
         "i_gross_margin": 1.0,
         "i_operating_margin": 1.0,
         "i_net_margin": 1.0,
         "i_ebitda_margin": 1.0,
-        "i_revenue_growth_yoy": 0.8482,
-        "i_gross_margin_delta": 0.8482,
-        "c_buyback_yield": 0.7599
+        "i_revenue_growth_yoy": 0.8476,
+        "i_gross_margin_delta": 0.8476,
+        "c_buyback_yield": 0.7604
       },
       "avg_pit_coverage": 0.9894
     }
@@ -1146,7 +1146,7 @@
         "m_netDebtToEBITDA",
         "m_operatingReturnOnAssets"
       ],
-      "coverage_2025_2026": 0.9934
+      "coverage_2025_2026": 0.9935
     },
     "fund_growth (g_*)": {
       "n_factors": 15,
@@ -1197,7 +1197,7 @@
         "c_fcf_to_income",
         "c_buyback_yield"
       ],
-      "coverage_2025_2026": 0.923
+      "coverage_2025_2026": 0.9231
     },
     "income (i_*)": {
       "n_factors": 6,
@@ -1209,7 +1209,7 @@
         "i_revenue_growth_yoy",
         "i_gross_margin_delta"
       ],
-      "coverage_2025_2026": 0.9479
+      "coverage_2025_2026": 0.9478
     },
     "qoq (r_*_qoq)": {
       "n_factors": 4,
@@ -1228,7 +1228,7 @@
       80
     ],
     "v041_shape": [
-      1234580,
+      1236008,
       156
     ],
     "v02_date_range": [
@@ -1237,10 +1237,10 @@
     ],
     "v041_date_range": [
       "2016-01-04",
-      "2026-06-26"
+      "2026-07-01"
     ],
     "v02_2025_2026_fundamental_coverage": "0.0% (all NaN)",
     "v041_2025_2026_fundamental_coverage": "See coverage_by_year"
   },
-  "data_hash": "741f2d7bdbf2b7027d7f4027225a9af9"
+  "data_hash": "2a14c9c5faf302ddec42077f5a743654"
 }

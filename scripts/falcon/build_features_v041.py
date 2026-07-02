@@ -527,10 +527,61 @@ def main():
     print("=" * 60)
     t_total = time.time()
     
-    # 1. 加载 master (K线+技术指标)
-    print("📊 加载 master 数据 (features_v02.parquet)...")
-    master = pd.read_parquet(paths.features_v02)
-    master["date"] = master["date"].astype(str)
+    # 1. 加载 master — 用us_prices_daily做最新日期骨架，v02提供技术指标
+    print("📊 加载 master 数据...")
+    
+    # us_prices_daily 有最新日期(到Jul 1)，v02 可能停在旧日期
+    prices = pd.read_parquet(paths.us_prices_daily, columns=["date", "ticker", "open", "high", "low", "close", "volume"])
+    prices["date"] = prices["date"].astype(str)
+    price_max = prices["date"].max()
+    
+    v02 = pd.read_parquet(paths.features_v02)
+    v02["date"] = v02["date"].astype(str)
+    v02_max = v02["date"].max()
+    
+    print(f"  us_prices_daily: {prices['date'].min()} → {price_max} ({prices['ticker'].nunique()} tickers)")
+    print(f"  features_v02:    {v02['date'].min()} → {v02_max} ({v02['ticker'].nunique()} tickers)")
+    
+    if price_max > v02_max:
+        # 价格数据比v02新 — 用价格做骨架，v02的技术指标forward-fill
+        print(f"  📈 价格数据比v02新{len(set(prices[prices['date']>v02_max]['date'].unique()))}天，扩展骨架...")
+        
+        # v02的技术指标列(非OHLCV)
+        tech_cols = [c for c in v02.columns if c not in ["date", "ticker", "open", "high", "low", "close", "volume"]]
+        
+        # 取每个ticker在v02中最新一天的技术指标
+        v02_latest = v02.sort_values("date").groupby("ticker").last().reset_index()
+        
+        # 找出价格数据中有但v02中没有的新日期
+        new_dates = sorted(set(prices[prices["date"] > v02_max]["date"].unique()))
+        
+        # 为新日期创建行：OHLCV来自prices，技术指标用v02最新值forward-fill
+        new_rows = []
+        for d in new_dates:
+            day_prices = prices[prices["date"] == d]
+            for _, row in day_prices.iterrows():
+                ticker = row["ticker"]
+                new_row = {"date": d, "ticker": ticker, 
+                           "open": row["open"], "high": row["high"], 
+                           "low": row["low"], "close": row["close"], 
+                           "volume": row["volume"]}
+                # forward-fill技术指标
+                v02_row = v02_latest[v02_latest["ticker"] == ticker]
+                if not v02_row.empty:
+                    for c in tech_cols:
+                        new_row[c] = v02_row.iloc[0][c]
+                new_rows.append(new_row)
+        
+        if new_rows:
+            new_df = pd.DataFrame(new_rows)
+            master = pd.concat([v02, new_df], ignore_index=True)
+            master = master.sort_values(["date", "ticker"]).reset_index(drop=True)
+            print(f"  ✅ 扩展完成: {v02_max} → {price_max}, 新增{len(new_rows)}行")
+        else:
+            master = v02
+    else:
+        master = v02
+    
     print(f"  ✅ {master['ticker'].nunique()} tickers, {len(master)} rows")
     print(f"  📅 {master['date'].min()} → {master['date'].max()}")
     

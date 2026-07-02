@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-07-02T22:39:58.511834",
+  "config": {
+    "hold_days": 30,
+    "top_n": 10,
+    "train_window": 504,
+    "test_window": 126
+  },
+  "r2k_quality": {
+    "total": 691,
+    "full_coverage_4_4": 393,
+    "universe_size": 869
+  },
+  "results": {
+    "spx_only": {
+      "mode": "spx_only",
+      "trades": 126,
+      "win_rate": 0.6746031746031746,
+      "avg_top_return": 3.93506864918216,
+      "avg_ls_spread": 2.7492856231512373,
+      "sharpe_monthly": 0.4147932342192617,
+      "sharpe_annual": 1.4368859126071571,
+      "max_dd": -72.4608069996742,
+      "windows": 1
+    },
+    "r2k_only": {
+      "mode": "r2k_only",
+      "trades": 126,
+      "win_rate": 0.5555555555555556,
+      "avg_top_return": 2.718469306928889,
+      "avg_ls_spread": -5.099230705028791,
+      "sharpe_monthly": -0.14529435850092814,
+      "sharpe_annual": -0.5033144219534691,
+      "max_dd": -40.196694898792664,
+      "windows": 1
+    },
+    "merged": {
+      "mode": "merged",
+      "trades": 126,
+      "win_rate": 0.5793650793650794,
+      "avg_top_return": 2.62287434378733,
+      "avg_ls_spread": -2.118662844041528,
+      "sharpe_monthly": -0.09749025044038026,
+      "sharpe_annual": -0.33771613401070544,
+      "max_dd": -52.743260870102645,
+      "windows": 1
+    }
+  }
+}

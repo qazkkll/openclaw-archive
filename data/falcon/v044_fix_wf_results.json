@@ -1,0 +1,219 @@
+{
+  "version": "V0.4.4-fix",
+  "date": "2026-07-03",
+  "flip_fix": true,
+  "summary": {
+    "sharpe": 1.923,
+    "max_dd": -0.2352,
+    "cagr": 0.3902,
+    "win_rate": 0.637,
+    "n_trades": 721,
+    "n_windows": 18
+  },
+  "weights": {
+    "fund_ratio": 0.45,
+    "growth_composite": 0.2,
+    "qoq": 0.2,
+    "cashflow": 0.15
+  },
+  "flip_factors": [
+    "r_enterpriseValueMultiple",
+    "r_financialLeverageRatio",
+    "r_priceToBookRatio",
+    "g_receivablesGrowth",
+    "g_debtGrowth",
+    "r_inventoryTurnover",
+    "g_inventoryGrowth",
+    "r_priceToEarningsRatio",
+    "r_priceToSalesRatio",
+    "r_dividendPayoutRatio",
+    "r_priceToFreeCashFlowRatio",
+    "a_revenue_revision",
+    "r_debtToEquityRatio",
+    "a_eps_revision",
+    "c_capex_intensity",
+    "r_dividendYieldPercentage"
+  ],
+  "window_details": [
+    {
+      "index": 0,
+      "period": "2017-01-04 \u2192 2017-07-04",
+      "sharpe": 3.458,
+      "max_dd": -0.0284,
+      "cagr": 0.5311,
+      "win_rate": 0.75,
+      "n_trades": 40,
+      "n_days": 125
+    },
+    {
+      "index": 1,
+      "period": "2017-07-04 \u2192 2018-01-04",
+      "sharpe": 3.598,
+      "max_dd": -0.0519,
+      "cagr": 0.6157,
+      "win_rate": 0.75,
+      "n_trades": 40,
+      "n_days": 128
+    },
+    {
+      "index": 2,
+      "period": "2018-01-04 \u2192 2018-07-04",
+      "sharpe": 0.781,
+      "max_dd": -0.1158,
+      "cagr": 0.1556,
+      "win_rate": 0.6,
+      "n_trades": 40,
+      "n_days": 125
+    },
+    {
+      "index": 3,
+      "period": "2018-07-04 \u2192 2019-01-04",
+      "sharpe": -1.091,
+      "max_dd": -0.2352,
+      "cagr": -0.2202,
+      "win_rate": 0.4,
+      "n_trades": 40,
+      "n_days": 127
+    },
+    {
+      "index": 4,
+      "period": "2019-01-04 \u2192 2019-07-04",
+      "sharpe": 3.096,
+      "max_dd": -0.0765,
+      "cagr": 0.5103,
+      "win_rate": 0.675,
+      "n_trades": 40,
+      "n_days": 125
+    },
+    {
+      "index": 5,
+      "period": "2019-07-04 \u2192 2020-01-04",
+      "sharpe": 1.718,
+      "max_dd": -0.0696,
+      "cagr": 0.2737,
+      "win_rate": 0.625,
+      "n_trades": 40,
+      "n_days": 127
+    },
+    {
+      "index": 6,
+      "period": "2020-01-04 \u2192 2020-07-04",
+      "sharpe": 1.519,
+      "max_dd": -0.1857,
+      "cagr": 0.5162,
+      "win_rate": 0.7,
+      "n_trades": 40,
+      "n_days": 125
+    },
+    {
+      "index": 7,
+      "period": "2020-07-04 \u2192 2021-01-04",
+      "sharpe": 2.492,
+      "max_dd": -0.0968,
+      "cagr": 0.5523,
+      "win_rate": 0.675,
+      "n_trades": 40,
+      "n_days": 127
+    },
+    {
+      "index": 8,
+      "period": "2021-01-04 \u2192 2021-07-04",
+      "sharpe": 3.131,
+      "max_dd": -0.0622,
+      "cagr": 0.7856,
+      "win_rate": 0.725,
+      "n_trades": 40,
+      "n_days": 126
+    },
+    {
+      "index": 9,
+      "period": "2021-07-04 \u2192 2022-01-04",
+      "sharpe": 2.25,
+      "max_dd": -0.0657,
+      "cagr": 0.437,
+      "win_rate": 0.625,
+      "n_trades": 40,
+      "n_days": 128
+    },
+    {
+      "index": 10,
+      "period": "2022-01-04 \u2192 2022-07-04",
+      "sharpe": -0.572,
+      "max_dd": -0.1771,
+      "cagr": -0.1628,
+      "win_rate": 0.4,
+      "n_trades": 40,
+      "n_days": 124
+    },
+    {
+      "index": 11,
+      "period": "2022-07-04 \u2192 2023-01-04",
+      "sharpe": 0.721,
+      "max_dd": -0.1349,
+      "cagr": 0.1585,
+      "win_rate": 0.625,
+      "n_trades": 40,
+      "n_days": 128
+    },
+    {
+      "index": 12,
+      "period": "2023-01-04 \u2192 2023-07-04",
+      "sharpe": 3.598,
+      "max_dd": -0.0728,
+      "cagr": 0.8387,
+      "win_rate": 0.8,
+      "n_trades": 40,
+      "n_days": 124
+    },
+    {
+      "index": 13,
+      "period": "2023-07-04 \u2192 2024-01-04",
+      "sharpe": 1.793,
+      "max_dd": -0.1545,
+      "cagr": 0.3741,
+      "win_rate": 0.625,
+      "n_trades": 40,
+      "n_days": 128
+    },
+    {
+      "index": 14,
+      "period": "2024-01-04 \u2192 2024-07-04",
+      "sharpe": 3.439,
+      "max_dd": -0.0913,
+      "cagr": 0.8256,
+      "win_rate": 0.75,
+      "n_trades": 40,
+      "n_days": 125
+    },
+    {
+      "index": 15,
+      "period": "2024-07-04 \u2192 2025-01-04",
+      "sharpe": 1.705,
+      "max_dd": -0.1023,
+      "cagr": 0.3572,
+      "win_rate": 0.5,
+      "n_trades": 40,
+      "n_days": 127
+    },
+    {
+      "index": 16,
+      "period": "2025-01-04 \u2192 2025-07-04",
+      "sharpe": 0.425,
+      "max_dd": -0.2193,
+      "cagr": 0.0828,
+      "win_rate": 0.561,
+      "n_trades": 41,
+      "n_days": 123
+    },
+    {
+      "index": 17,
+      "period": "2025-07-04 \u2192 2026-01-04",
+      "sharpe": 2.552,
+      "max_dd": -0.0557,
+      "cagr": 0.3924,
+      "win_rate": 0.675,
+      "n_trades": 40,
+      "n_days": 126
+    }
+  ]
+}

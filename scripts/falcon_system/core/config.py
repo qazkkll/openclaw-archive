@@ -32,6 +32,7 @@ class ModelConfig:
     stop_loss: float = -0.15
     vix_threshold: float = 25.0
     buy_score_threshold: float = 0.55
+    broker_type: str = "alpaca"  # alpaca / futu
 
     # V0.4.4 因子权重 (Walk-Forward验证通过, RI=68.4%)
     weights: Dict[str, float] = field(default_factory=lambda: {
@@ -95,8 +96,28 @@ class DataConfig:
     fundamental_max_age_days: int = 90
 
 
+@dataclass
+class MonitorConfig:
+    """持仓监控配置"""
+    dedup_window_seconds: int = 600  # 异动去重窗口(秒)
+
+
+class FalconConfig:
+    """统一配置包装器，提供 .model / .trading / .monitor / .data / .execution 访问"""
+    def __init__(self):
+        self.model = ModelConfig()
+        self.trading = TradingConfig()
+        self.monitor = MonitorConfig()
+        self.data = DataConfig()
+        self.execution = ExecutionConfig()
+
+    def __getattr__(self, name):
+        """兼容直接访问 model 级属性 (如 CONFIG.version, CONFIG.weights)"""
+        return getattr(self.model, name)
+
+
 # 全局实例
-CONFIG = ModelConfig()
-EXEC_CONFIG = ExecutionConfig()
-TRADE_CONFIG = TradingConfig()
-DATA_CONFIG = DataConfig()
+CONFIG = FalconConfig()
+EXEC_CONFIG = CONFIG.execution
+TRADE_CONFIG = CONFIG.trading
+DATA_CONFIG = CONFIG.data

@@ -34,6 +34,10 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 
+# 新鲜度检查日志
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "utils"))
+from freshness_check_log import mark_batch
+
 # ─── Configuration ────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path("/home/hermes/.hermes/openclaw-archive")
 DATA_DIR = PROJECT_ROOT / "data"
@@ -1057,6 +1061,9 @@ def main():
             log.error(f"FMP fundamentals update failed: {e}")
             traceback.print_exc()
             results["fmp_fundamentals"] = f"FAILED: {e}"
+        # 标记FMP基本面已检查
+        mark_batch(["fmp_ratios", "fmp_key_metrics", "fmp_financial_growth",
+                     "fmp_income_stmt", "fmp_balance_sheet", "fmp_cashflow", "fmp_analyst"])
 
     # ── 6-8. FMP News, Earnings, Grades ──
     if run_news and api_key:
@@ -1083,6 +1090,8 @@ def main():
             log.error(f"FMP grades update failed: {e}")
             traceback.print_exc()
             results["fmp_grades"] = f"FAILED: {e}"
+        # 标记目标价已检查(从grades数据中获取)
+        mark_batch(["fmp_price_target"])
 
     # ── Summary ──
     elapsed = time.time() - t_start

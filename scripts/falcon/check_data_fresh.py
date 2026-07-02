@@ -49,7 +49,10 @@ def get_latest_expected_date():
 
 def check_price_freshness():
     """检查价格数据新鲜度。"""
-    parquet = DATA_DIR / 'features_v02.parquet'
+    parquet = DATA_DIR / 'features_v04_1.parquet'
+    if not parquet.exists():
+        # fallback to v02
+        parquet = DATA_DIR / 'features_v02.parquet'
     if not parquet.exists():
         return False, "❌ parquet不存在", -1, None
     

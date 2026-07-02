@@ -19,7 +19,7 @@ from abc import ABC, abstractmethod
 import pandas as pd
 import numpy as np
 
-from .config import CONFIG, DATA_DIR, PROJECT_ROOT
+from .config import CONFIG, DATA_CONFIG, DATA_DIR, PROJECT_ROOT
 
 
 # ════════════════════════════════════════════════════════════════
@@ -212,7 +212,7 @@ class DataManager:
     def _init_price_sources(self) -> List[PriceDataSource]:
         """初始化价格数据源(按优先级)"""
         sources = []
-        for source_name in CONFIG.data.price_sources:
+        for source_name in DATA_CONFIG.price_sources:
             if source_name == "yfinance":
                 sources.append(YFinancePriceSource())
             elif source_name == "fmp":
@@ -360,7 +360,7 @@ class DataManager:
         except:
             data_age_hours = age_hours
         
-        is_fresh = age_hours < CONFIG.data.price_max_age_hours
+        is_fresh = age_hours < DATA_CONFIG.price_max_age_hours
         
         return DataFreshness(
             source="features_v02.parquet",
@@ -404,7 +404,7 @@ class DataManager:
             except:
                 record_count = 0
             
-            max_age_hours = CONFIG.data.fundamental_max_age_days * 24
+            max_age_hours = DATA_CONFIG.fundamental_max_age_days * 24
             
             results[name] = DataFreshness(
                 source=fname,
