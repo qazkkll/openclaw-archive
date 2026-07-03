@@ -86,7 +86,7 @@ def load_trades(start_date, end_date):
 def load_scored_signals():
     """Load all scored signal files."""
     signals = []
-    pattern = str(DATA_DIR / "falcon_v031_scored_*.json")
+    pattern = str(DATA_DIR / "falcon_v046_scored_*.json")
     for f in sorted(glob.glob(pattern)):
         try:
             with open(f) as fh:

@@ -365,15 +365,15 @@ def load_portfolio() -> Dict[str, dict]:
 
 def load_signal(top_n: int = 5) -> List[dict]:
     """Load latest Falcon signal. 每次调用都读最新文件。"""
-    pattern = str(DATA_DIR / "falcon_scored_*.json")
+    pattern = str(DATA_DIR / "falcon_v046_scored_*.json")
     if not glob.glob(pattern):
-        pattern = str(DATA_DIR / "falcon_v031_scored_*.json")
+        pattern = str(DATA_DIR / "falcon_v046_scored_*.json")
     files = sorted(glob.glob(pattern))
     if not files:
         return []
     with open(files[-1]) as f:
         data = json.load(f)
-    picks = data.get("picks", [])
+    picks = data.get("top_n", data.get("picks", []))
     targets = []
     for p in picks[:top_n]:
         ticker = p.get("sym") or p.get("ticker", "")

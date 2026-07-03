@@ -136,7 +136,7 @@ def check_sector(picks):
         # 获取推荐股的行业
         sectors = set()
         for p in picks:
-            sym = p.get("sym", "")
+            sym = p.get("ticker", p.get("sym", ""))
             sector = TICKER_SECTOR.get(sym)
             if sector:
                 sectors.add(sector)
@@ -223,7 +223,7 @@ def check_events(picks):
             return result
 
         earnings = resp.json()
-        pick_syms = {p.get("sym", "") for p in picks}
+        pick_syms = {p.get("ticker", p.get("sym", "")) for p in picks}
 
         # 检查推荐股是否有财报
         upcoming_earnings = []
@@ -294,7 +294,7 @@ def check_concentration(picks):
         # 检查推荐股行业
         pick_sectors = {}
         for p in picks:
-            sym = p.get("sym", "")
+            sym = p.get("ticker", p.get("sym", ""))
             sector = TICKER_SECTOR.get(sym, "Unknown")
             pick_sectors[sector] = pick_sectors.get(sector, 0) + 1
 
@@ -361,7 +361,7 @@ def check_price_targets(picks):
         no_data = []
 
         for p in top_picks:
-            sym = p.get("sym", "")
+            sym = p.get("ticker", p.get("sym", ""))
             price = p.get("close", 0)
             pt = pt_map.get(sym, {})
             consensus = pt.get("target_consensus", 0) or pt.get("targetConsensus", 0)
@@ -405,14 +405,20 @@ def load_picks(picks_file=None):
     """加载最新评分结果。"""
     if picks_file:
         with open(picks_file) as f:
-            return json.load(f).get("picks", [])
+            data = json.load(f)
+        return data.get("top_n", data.get("picks", []))
 
-    pattern = str(DATA_DIR / "falcon_v031_scored_*.json")
+    pattern = str(DATA_DIR / "falcon_v046_scored_*.json")
     files = sorted(glob.glob(pattern))
+    if not files:
+        # 回退旧版
+        pattern = str(DATA_DIR / "falcon_v044_scored_*.json")
+        files = sorted(glob.glob(pattern))
     if not files:
         return []
     with open(files[-1]) as f:
-        return json.load(f).get("picks", [])
+        data = json.load(f)
+    return data.get("top_n", data.get("picks", []))
 
 
 def run_gatekeeper(picks_file=None, verbose=False):
@@ -489,7 +495,7 @@ def run_gatekeeper(picks_file=None, verbose=False):
             {"name": c["name"], "pass": c["pass"], "detail": c["detail"]}
             for c in checks
         ],
-        "picks": [p.get("sym", "") for p in picks[:5]],
+        "picks": [p.get("ticker", p.get("sym", "")) for p in picks[:5]],
         "timestamp": datetime.now().isoformat(),
     }
 

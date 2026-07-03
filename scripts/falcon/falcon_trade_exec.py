@@ -43,10 +43,10 @@ from falcon_gatekeeper import run_gatekeeper, GATEKEEPER_OUTPUT
 HOLD_DAYS = 30
 STOP_LOSS = -0.15
 TOP_N = 10
-BUY_SCORE_THRESHOLD = 0.55  # V0.4.4校准 (9因子组, 分数压缩到0.50-0.60)
+BUY_SCORE_THRESHOLD = 0.55  # V0.4.6校准 (IC加权, 分数压缩到0.50-0.60)
 # Gatekeeper: 买入前的强制检查
 GATEKEEPER_REQUIRED = True  # 硬性开关, 不可绕过
-# VIX过滤 (V0.4.4新增)
+# VIX过滤
 VIX_THRESHOLD = 25
 
 
@@ -65,20 +65,20 @@ def load_falcon_config():
 
 
 def load_latest_signals():
-    """加载最新评分结果。优先V0.4.4，回退V0.4.4。"""
-    # 优先找V0.4.4
-    pattern_v032 = str(DATA_DIR / "falcon_v044_scored_*.json")
-    files = sorted(glob.glob(pattern_v032))
+    """加载最新评分结果。优先V0.4.6。"""
+    # 优先找V0.4.6
+    pattern = str(DATA_DIR / "falcon_v046_scored_*.json")
+    files = sorted(glob.glob(pattern))
     if not files:
-        # 回退到V0.4.4
-        pattern_v031 = str(DATA_DIR / "falcon_v044_scored_*.json")
-        files = sorted(glob.glob(pattern_v031))
+        # 回退到V0.4.4 (旧版兼容)
+        pattern_old = str(DATA_DIR / "falcon_v044_scored_*.json")
+        files = sorted(glob.glob(pattern_old))
     if not files:
         return None, []
     latest = files[-1]
     with open(latest) as f:
         data = json.load(f)
-    return latest, data.get("picks", [])
+    return latest, data.get("top_n", data.get("picks", []))
 
 
 def load_positions():
@@ -219,7 +219,7 @@ def execute_trades(client, dry_run=False):
                     }
                     report["sells"].append(sell_record)
                     # 记录到日志
-                    append_journal({**sell_record, "timestamp": datetime.now().isoformat(), "model": "falcon_v044"})
+                    append_journal({**sell_record, "timestamp": datetime.now().isoformat(), "model": "falcon_v046"})
                     # 从持仓中移除
                     if sym in pos_data["positions"]:
                         del pos_data["positions"][sym]
@@ -328,7 +328,7 @@ def execute_trades(client, dry_run=False):
                     }
                     report["buys"].append(buy_record)
                     # 记录到日志
-                    append_journal({**buy_record, "timestamp": datetime.now().isoformat(), "model": "falcon_v044"})
+                    append_journal({**buy_record, "timestamp": datetime.now().isoformat(), "model": "falcon_v046"})
                     # 更新持仓记录
                     pos_data["positions"][sym] = {
                         "entry_date": datetime.now().isoformat(),
@@ -350,7 +350,7 @@ def format_telegram_report(report, signal_file):
     ts = report["timestamp"][:16]
     acct = report["account"]
 
-    lines.append(f"🦅 **Falcon V0.4.4 模拟盘日报**")
+    lines.append(f"🦅 **Falcon V0.4.6 模拟盘日报**")
     lines.append(f"📅 {ts}")
     lines.append(f"💰 账户: ${acct['equity']:,.0f} (现金${acct['cash']:,.0f})")
     lines.append("")
@@ -409,7 +409,7 @@ def format_telegram_report(report, signal_file):
         lines.append("")
 
     lines.append(f"📁 信号: {Path(signal_file).name if signal_file else '无'}")
-    lines.append(f"⚙️ V0.4.4: 持有{HOLD_DAYS}天 | 止损{STOP_LOSS*100:.0f}% | Top{TOP_N} | VIX>{VIX_THRESHOLD}停买")
+    lines.append(f"⚙️ V0.4.6: 持有{HOLD_DAYS}天 | 止损{STOP_LOSS*100:.0f}% | Top{TOP_N} | VIX>{VIX_THRESHOLD}停买")
 
     return "\n".join(lines)
 

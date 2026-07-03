@@ -192,7 +192,7 @@ def get_data_freshness():
     # === 复合因子 ===
 
     # === 评分输出 ===
-    scored_files = sorted(DATA_DIR.glob("falcon_v044_scored_*.json"))
+    scored_files = sorted(DATA_DIR.glob("falcon_v046_scored_*.json")) or sorted(DATA_DIR.glob("falcon_v045_scored_*.json")) or sorted(DATA_DIR.glob("falcon_v044_scored_*.json"))
     if scored_files:
         try:
             with open(scored_files[-1]) as f:
@@ -285,16 +285,18 @@ def get_factor_details(top_syms):
 def get_scores():
     """Load latest scored data + sub-factor details for top 10"""
     try:
-        scored_files = sorted(DATA_DIR.glob("falcon_v044_scored_*.json"))
+        scored_files = sorted(DATA_DIR.glob("falcon_v046_scored_*.json")) or sorted(DATA_DIR.glob("falcon_v045_scored_*.json")) or sorted(DATA_DIR.glob("falcon_v044_scored_*.json"))
         if not scored_files:
             return {}, [], {}, {}
         with open(scored_files[-1]) as f:
             data = json.load(f)
-        # Build sym -> score map from picks
+        # Build sym -> score map from picks (兼容V0.4.4和V0.4.5)
         scores = {}
         top_syms = []
-        for p in data.get("picks", []):
-            scores[p["sym"]] = {
+        picks_data = data.get("picks", data.get("top_n", []))
+        for p in picks_data:
+            sym = p.get("sym", p.get("ticker", ""))
+            scores[sym] = {
                 "score": p.get("score", 0),
                 "rank": p.get("rank_pct", 0),
                 "fr": round(p.get("fund_ratio", 0) * 100, 1),
@@ -302,9 +304,9 @@ def get_scores():
                 "qoq": round(p.get("qoq", 0) * 100, 1),
                 "cf": round(p.get("cashflow", 0) * 100, 1),
             }
-            top_syms.append(p["sym"])
-        picks = data.get("picks", [])
-        regime = data.get("market_regime", {})
+            top_syms.append(sym)
+        picks = picks_data
+        regime = data.get("market_regime", data.get("vix", {}))
         
         # Get sub-factor details for top 10
         factor_details = get_factor_details(top_syms[:10])

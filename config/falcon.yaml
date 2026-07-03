@@ -1,17 +1,17 @@
 # ═══════════════════════════════════════════════════════════
-# 🦅 Falcon 交易系统 — 主配置文件 (V0.4.4)
+# 🦅 Falcon 交易系统 — 主配置文件 (V0.4.6)
 # 所有脚本读这个文件，不硬编码。
 # ═══════════════════════════════════════════════════════════
 
 system:
   name: "Falcon"
-  version: "0.4.4"
+  version: "0.4.6"
   timezone: "US/Eastern"
   base_dir: "/home/hermes/.hermes/openclaw-archive"
 
 # ── 模型层面 (选股逻辑) ──
 model:
-  name: "falcon_v044"
+  name: "falcon_v046"
   universe: "SPX"
   universe_size: 476
   top_n: 10
@@ -19,12 +19,13 @@ model:
   stop_loss: -0.15
   cost_per_trade: 0.001
 
-  # V0.4.4 因子权重 (Walk-Forward验证通过, RI=68.4%)
+  # V0.4.6 因子权重 (IC加权, WF Sharpe=2.140)
+  # 顶层: 等权不变; 底层: IC^0.5加权(lookback=126天)
   weights:
-    fund_ratio: 0.45       # 财务比率 (20个价格比率等权平均)
+    fund_ratio: 0.45       # 财务比率 (20个因子, IC加权)
     growth_composite: 0.20 # 成长因子组合 (0.60*fund_growth + 0.25*analyst + 0.15*income)
-    qoq: 0.20             # 季度环比变化 (4个qoq因子)
-    cashflow: 0.15         # 现金流因子 (4个现金流指标)
+    qoq: 0.20             # 季度环比变化 (4个因子, IC加权)
+    cashflow: 0.15         # 现金流因子 (4个因子, IC加权)
 
   # growth_composite 子权重
   growth_composite_weights:
@@ -82,12 +83,12 @@ execution:
 # ── 数据源说明 ──
 data_sources:
   features:
-    name: "V0.4.4 特征文件"
+    name: "V0.4.6 特征文件"
     path: "data/falcon/features_v04_1.parquet"
     rows: 1234580
     columns: 156
     coverage: "2025-2026 覆盖率 98.9%"
-    version: "V0.4.4"
+    version: "V0.4.6"
     update: "天频 (每日收盘后更新)"
 
   analyst:
@@ -95,25 +96,25 @@ data_sources:
     path: "data/falcon/analyst_historical.json"
     tickers: 476
     coverage: "99% (2001至今)"
-    version: "V0.4.4"
+    version: "V0.4.6"
     update: "每周"
 
   fmp_ratios:
     name: "FMP 财务比率"
     path: "data/falcon/fmp_ratios_historical.json"
-    version: "V0.4.4"
+    version: "V0.4.6"
     update: "季度"
 
   vix:
     name: "VIX 恐慌指数"
     path: "data/us/vix_10y.parquet"
-    version: "V0.4.4"
+    version: "V0.4.6"
     update: "天频"
 
   prices:
     name: "美股日线价格"
     path: "data/falcon/us_prices_daily.parquet"
-    version: "V0.4.4"
+    version: "V0.4.6"
     update: "天频"
 
 # ── 路径 ──

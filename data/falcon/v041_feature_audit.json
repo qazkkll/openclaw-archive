@@ -1,8 +1,8 @@
 {
   "version": "v0.4.1",
-  "generated_at": "2026-07-02T17:26:15.155607",
+  "generated_at": "2026-07-03T16:28:45.027295",
   "shape": [
-    1236008,
+    1236484,
     156
   ],
   "columns": [
@@ -166,7 +166,7 @@
   "n_tickers": 476,
   "date_range": [
     "2016-01-04",
-    "2026-07-01"
+    "2026-07-02"
   ],
   "years": [
     "2016",
@@ -1013,7 +1013,7 @@
       "avg_pit_coverage": 0.9891
     },
     "2026": {
-      "n_rows": 58953,
+      "n_rows": 59429,
       "n_tickers": 476,
       "pit_factor_coverage": {
         "a_eps_revision": 0.9979,
@@ -1051,7 +1051,7 @@
         "m_returnOnInvestedCapital": 1.0,
         "m_returnOnTangibleAssets": 1.0,
         "m_incomeQuality": 1.0,
-        "m_grahamNumber": 0.8758,
+        "m_grahamNumber": 0.8759,
         "m_cashConversionCycle": 1.0,
         "m_capexToRevenue": 1.0,
         "m_capexToDepreciation": 1.0,
@@ -1089,9 +1089,9 @@
         "i_operating_margin": 1.0,
         "i_net_margin": 1.0,
         "i_ebitda_margin": 1.0,
-        "i_revenue_growth_yoy": 0.8476,
-        "i_gross_margin_delta": 0.8476,
-        "c_buyback_yield": 0.7604
+        "i_revenue_growth_yoy": 0.8474,
+        "i_gross_margin_delta": 0.8474,
+        "c_buyback_yield": 0.7606
       },
       "avg_pit_coverage": 0.9894
     }
@@ -1228,7 +1228,7 @@
       80
     ],
     "v041_shape": [
-      1236008,
+      1236484,
       156
     ],
     "v02_date_range": [
@@ -1237,10 +1237,10 @@
     ],
     "v041_date_range": [
       "2016-01-04",
-      "2026-07-01"
+      "2026-07-02"
     ],
     "v02_2025_2026_fundamental_coverage": "0.0% (all NaN)",
     "v041_2025_2026_fundamental_coverage": "See coverage_by_year"
   },
-  "data_hash": "2a14c9c5faf302ddec42077f5a743654"
+  "data_hash": "7eb1035e7c4bbe56f37de45a922751e5"
 }

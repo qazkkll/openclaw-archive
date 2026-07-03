@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-03T20:00:31.432837",
+    "range": "2021-07-06 \u2192 2026-07-02",
+    "frequency": "weekly",
+    "top_n": 10,
+    "hold_days": 7,
+    "ic_lookback": 252
+  },
+  "equal_weighted": {
+    "sharpe": 1.321,
+    "cagr": 0.3103,
+    "max_dd": -0.2522,
+    "win_rate": 0.621,
+    "total_return": 1.5749,
+    "n_weeks": 182,
+    "yearly": {
+      "2022": {
+        "cagr": 0.1174,
+        "total_return": 0.0571,
+        "sharpe": 0.52,
+        "max_dd": -0.1706,
+        "win_rate": 0.5,
+        "n_weeks": 26
+      },
+      "2023": {
+        "cagr": 0.4933,
+        "total_return": 0.4933,
+        "sharpe": 2.155,
+        "max_dd": -0.1554,
+        "win_rate": 0.692,
+        "n_weeks": 52
+      },
+      "2024": {
+        "cagr": 0.5698,
+        "total_return": 0.5562,
+        "sharpe": 2.139,
+        "max_dd": -0.1001,
+        "win_rate": 0.608,
+        "n_weeks": 51
+      },
+      "2025": {
+        "cagr": 0.0419,
+        "total_return": 0.0419,
+        "sharpe": 0.305,
+        "max_dd": -0.2409,
+        "win_rate": 0.615,
+        "n_weeks": 52
+      }
+    },
+    "windows": [
+      {
+        "window": 0,
+        "period": "2022-07-06 \u2192 2023-01-06",
+        "sharpe": 0.52,
+        "cagr": 0.1174,
+        "max_dd": -0.1706,
+        "win_rate": 0.5,
+        "n_weeks": 26
+      },
+      {
+        "window": 1,
+        "period": "2023-01-06 \u2192 2023-07-06",
+        "sharpe": 3.452,
+        "cagr": 0.7414,
+        "max_dd": -0.0571,
+        "win_rate": 0.731,
+        "n_weeks": 26
+      },
+      {
+        "window": 2,
+        "period": "2023-07-06 \u2192 2024-01-06",
+        "sharpe": 1.237,
+        "cagr": 0.2806,
+        "max_dd": -0.1554,
+        "win_rate": 0.654,
+        "n_weeks": 26
+      },
+      {
+        "window": 3,
+        "period": "2024-01-06 \u2192 2024-07-06",
+        "sharpe": 3.736,
+        "cagr": 0.7035,
+        "max_dd": -0.0843,
+        "win_rate": 0.76,
+        "n_weeks": 25
+      },
+      {
+        "window": 4,
+        "period": "2024-07-06 \u2192 2025-01-06",
+        "sharpe": 1.596,
+        "cagr": 0.488,
+        "max_dd": -0.1001,
+        "win_rate": 0.481,
+        "n_weeks": 27
+      },
+      {
+        "window": 5,
+        "period": "2025-01-06 \u2192 2025-07-06",
+        "sharpe": -0.308,
+        "cagr": -0.114,
+        "max_dd": -0.2409,
+        "win_rate": 0.56,
+        "n_weeks": 25
+      },
+      {
+        "window": 6,
+        "period": "2025-07-06 \u2192 2026-01-06",
+        "sharpe": 1.627,
+        "cagr": 0.1779,
+        "max_dd": -0.033,
+        "win_rate": 0.667,
+        "n_weeks": 27
+      }
+    ]
+  },
+  "ic_weighted": {
+    "sharpe": 1.528,
+    "cagr": 0.343,
+    "max_dd": -0.179,
+    "win_rate": 0.635,
+    "total_return": 1.7916,
+    "n_weeks": 181,
+    "yearly": {
+      "2022": {
+        "cagr": 0.2973,
+        "total_return": 0.1276,
+        "sharpe": 1.057,
+        "max_dd": -0.179,
+        "win_rate": 0.625,
+        "n_weeks": 24
+      },
+      "2023": {
+        "cagr": 0.55,
+        "total_return": 0.55,
+        "sharpe": 2.582,
+        "max_dd": -0.1251,
+        "win_rate": 0.692,
+        "n_weeks": 52
+      },
+      "2024": {
+        "cagr": 0.4152,
+        "total_return": 0.4058,
+        "sharpe": 1.804,
+        "max_dd": -0.0807,
+        "win_rate": 0.667,
+        "n_weeks": 51
+      },
+      "2025": {
+        "cagr": 0.1587,
+        "total_return": 0.1554,
+        "sharpe": 0.845,
+        "max_dd": -0.1611,
+        "win_rate": 0.569,
+        "n_weeks": 51
+      },
+      "2026": {
+        "cagr": -0.2528,
+        "total_return": -0.0167,
+        "sharpe": -2.689,
+        "max_dd": -0.0306,
+        "win_rate": 0.333,
+        "n_weeks": 3
+      }
+    },
+    "windows": [
+      {
+        "window": 0,
+        "period": "2022-07-20 \u2192 2023-01-20",
+        "sharpe": 1.538,
+        "cagr": 0.4793,
+        "max_dd": -0.179,
+        "win_rate": 0.654,
+        "n_weeks": 26
+      },
+      {
+        "window": 1,
+        "period": "2023-01-20 \u2192 2023-07-20",
+        "sharpe": 3.669,
+        "cagr": 0.7041,
+        "max_dd": -0.0413,
+        "win_rate": 0.769,
+        "n_weeks": 26
+      },
+      {
+        "window": 2,
+        "period": "2023-07-20 \u2192 2024-01-20",
+        "sharpe": 1.431,
+        "cagr": 0.2873,
+        "max_dd": -0.1251,
+        "win_rate": 0.615,
+        "n_weeks": 26
+      },
+      {
+        "window": 3,
+        "period": "2024-01-20 \u2192 2024-07-20",
+        "sharpe": 2.519,
+        "cagr": 0.3681,
+        "max_dd": -0.0807,
+        "win_rate": 0.68,
+        "n_weeks": 25
+      },
+      {
+        "window": 4,
+        "period": "2024-07-20 \u2192 2025-01-20",
+        "sharpe": 1.183,
+        "cagr": 0.3201,
+        "max_dd": -0.0579,
+        "win_rate": 0.615,
+        "n_weeks": 26
+      },
+      {
+        "window": 5,
+        "period": "2025-01-20 \u2192 2025-07-20",
+        "sharpe": 0.606,
+        "cagr": 0.1297,
+        "max_dd": -0.1611,
+        "win_rate": 0.6,
+        "n_weeks": 25
+      },
+      {
+        "window": 6,
+        "period": "2025-07-20 \u2192 2026-01-20",
+        "sharpe": 1.635,
+        "cagr": 0.1889,
+        "max_dd": -0.0556,
+        "win_rate": 0.519,
+        "n_weeks": 27
+      }
+    ]
+  },
+  "ic_weight_analysis": {
+    "fund_ratio": {
+      "ic_values": {
+        "r_priceToEarningsRatio": 0.02699,
+        "r_priceToBookRatio": -0.01455,
+        "r_priceToSalesRatio": -0.01353,
+        "r_priceToFreeCashFlowRatio": -0.00754,
+        "r_enterpriseValueMultiple": -0.03582,
+        "r_grossProfitMargin": 0.00141,
+        "r_netProfitMargin": -0.00999,
+        "r_operatingProfitMargin": -0.02046,
+        "r_ebitdaMargin": -0.03558,
+        "r_assetTurnover": -0.0229,
+        "r_inventoryTurnover": 0.08025,
+        "r_receivablesTurnover": -0.07567,
+        "r_debtToEquityRatio": -0.03598,
+        "r_currentRatio": 0.03138,
+        "r_quickRatio": 0.03918,
+        "r_financialLeverageRatio": -0.07387,
+        "r_freeCashFlowOperatingCashFlowRatio": 0.07142,
+        "r_operatingCashFlowRatio": -0.08271,
+        "r_dividendYieldPercentage": 0.00307,
+        "r_dividendPayoutRatio": 0.03371
+      },
+      "ic_weights": {
+        "r_priceToEarningsRatio": 0.0939,
+        "r_grossProfitMargin": 0.0049,
+        "r_inventoryTurnover": 0.2792,
+        "r_currentRatio": 0.1092,
+        "r_quickRatio": 0.1363,
+        "r_freeCashFlowOperatingCashFlowRatio": 0.2485,
+        "r_dividendYieldPercentage": 0.0107,
+        "r_dividendPayoutRatio": 0.1173
+      },
+      "n_positive": 8,
+      "n_total": 20
+    },
+    "fund_growth": {
+      "ic_values": {
+        "g_revenueGrowth": 0.0127,
+        "g_grossProfitGrowth": 0.00653,
+        "g_ebitgrowth": 0.02625,
+        "g_operatingIncomeGrowth": 0.03433,
+        "g_netIncomeGrowth": 0.00478,
+        "g_epsdilutedGrowth": 0.00738,
+        "g_freeCashFlowGrowth": 0.0193,
+        "g_tenYRevenueGrowthPerShare": 0.01329,
+        "g_fiveYRevenueGrowthPerShare": 0.05671,
+        "g_threeYRevenueGrowthPerShare": 0.02821,
+        "g_receivablesGrowth": 0.01669,
+        "g_inventoryGrowth": -0.08589,
+        "g_assetGrowth": 0.01105,
+        "g_bookValueperShareGrowth": 0.00727,
+        "g_debtGrowth": 0.00704
+      },
+      "ic_weights": {
+        "g_revenueGrowth": 0.0505,
+        "g_grossProfitGrowth": 0.026,
+        "g_ebitgrowth": 0.1044,
+        "g_operatingIncomeGrowth": 0.1365,
+        "g_netIncomeGrowth": 0.019,
+        "g_epsdilutedGrowth": 0.0293,
+        "g_freeCashFlowGrowth": 0.0767,
+        "g_tenYRevenueGrowthPerShare": 0.0528,
+        "g_fiveYRevenueGrowthPerShare": 0.2255,
+        "g_threeYRevenueGrowthPerShare": 0.1121,
+        "g_receivablesGrowth": 0.0664,
+        "g_assetGrowth": 0.0439,
+        "g_bookValueperShareGrowth": 0.0289,
+        "g_debtGrowth": 0.028
+      },
+      "n_positive": 14,
+      "n_total": 15
+    },
+    "analyst": {
+      "ic_values": {
+        "a_eps_revision": 0.01194,
+        "a_revenue_revision": 0.04874,
+        "a_eps_dispersion": -0.01708,
+        "a_num_analysts_eps": 0.00449
+      },
+      "ic_weights": {
+        "a_eps_revision": 0.1832,
+        "a_revenue_revision": 0.7479,
+        "a_num_analysts_eps": 0.0689
+      },
+      "n_positive": 3,
+      "n_total": 4
+    },
+    "income": {
+      "ic_values": {
+        "i_gross_margin": 0.00148,
+        "i_operating_margin": -0.02052,
+        "i_net_margin": -0.00988,
+        "i_ebitda_margin": -0.03546,
+        "i_revenue_growth_yoy": 0.02704,
+        "i_gross_margin_delta": -0.00675
+      },
+      "ic_weights": {
+        "i_gross_margin": 0.0519,
+        "i_revenue_growth_yoy": 0.9481
+      },
+      "n_positive": 2,
+      "n_total": 6
+    },
+    "qoq": {
+      "ic_values": {
+        "r_grossProfitMargin_qoq": 0.01762,
+        "r_netProfitMargin_qoq": 0.00092,
+        "r_operatingProfitMargin_qoq": 0.03624,
+        "r_ebitdaMargin_qoq": 0.02036
+      },
+      "ic_weights": {
+        "r_grossProfitMargin_qoq": 0.2345,
+        "r_netProfitMargin_qoq": 0.0122,
+        "r_operatingProfitMargin_qoq": 0.4822,
+        "r_ebitdaMargin_qoq": 0.271
+      },
+      "n_positive": 4,
+      "n_total": 4
+    },
+    "cashflow": {
+      "ic_values": {
+        "c_fcf_margin": 0.01805,
+        "c_capex_intensity": 0.06966,
+        "c_fcf_to_income": 0.0236,
+        "c_buyback_yield": -0.06667
+      },
+      "ic_weights": {
+        "c_fcf_margin": 0.1622,
+        "c_capex_intensity": 0.6258,
+        "c_fcf_to_income": 0.212
+      },
+      "n_positive": 3,
+      "n_total": 4
+    }
+  },
+  "winner": "IC\u52a0\u6743"
+}

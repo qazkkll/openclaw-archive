@@ -463,7 +463,7 @@ def gate3_scoring() -> Tuple[bool, Dict]:
     results = {}
     
     # ── Step 3.1: 运行评分 ──
-    print("\n📥 Step 3.1: 运行Falcon V0.4.4评分...")
+    print("\n📥 Step 3.1: 运行Falcon V0.4.6评分...")
     code, out = run(f"{PYTHON} scripts/falcon/falcon_score.py", timeout=120, label="Falcon评分")
     score_ok = code == 0
     print(f"  {'✅' if score_ok else '❌'} falcon_score.py (exit={code})")
@@ -485,7 +485,7 @@ def gate3_scoring() -> Tuple[bool, Dict]:
     
     # 找最新评分文件
     import glob
-    scored_files = sorted(glob.glob(str(FALCON / "falcon_v044_scored_*.json")))
+    scored_files = sorted(glob.glob(str(FALCON / "falcon_v046_scored_*.json")))
     if not scored_files:
         print(f"  {RED} 无评分输出文件!")
         return False, results

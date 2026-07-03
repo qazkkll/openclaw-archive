@@ -120,7 +120,7 @@ def find_signal_file(target_date: Optional[str] = None) -> Optional[Path]:
         date_str = dt.strftime("%Y%m%d")
 
     # Primary: Falcon scored
-    falcon_file = DATA_DIR / f"falcon_v031_scored_{date_str}.json"
+    falcon_file = DATA_DIR / f"falcon_v046_scored_{date_str}.json"
     if falcon_file.exists():
         return falcon_file
 
@@ -659,7 +659,7 @@ def run_backtest(args):
         # Find signal file for this date
         dt = datetime.strptime(d, "%Y-%m-%d")
         date_str = dt.strftime("%Y%m%d")
-        falcon_file = DATA_DIR / f"falcon_v031_scored_{date_str}.json"
+        falcon_file = DATA_DIR / f"falcon_v046_scored_{date_str}.json"
         if not falcon_file.exists():
             continue
 
