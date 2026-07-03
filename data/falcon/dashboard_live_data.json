@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026/07/04 00:25:39",
+  "timestamp": "2026/07/04 02:55:41",
   "alpaca": [
     {
       "sym": "APP",
@@ -210,7 +210,7 @@
       "ticker": "CNC",
       "score": 0.8275,
       "rank_pct": 1.0,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "signal": "🟢🟢",
       "close": 67.86,
       "fund_ratio": 0.8864,
       "growth_composite": 0.7965,
@@ -221,7 +221,7 @@
       "ticker": "HUM",
       "score": 0.8092,
       "rank_pct": 0.9965,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "signal": "🟢🟢",
       "close": 396.75,
       "fund_ratio": 0.8841,
       "growth_composite": 0.7786,
@@ -232,7 +232,7 @@
       "ticker": "MET",
       "score": 0.7496,
       "rank_pct": 0.9931,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "signal": "🟢🟢",
       "close": 90.06,
       "fund_ratio": 0.8733,
       "growth_composite": 0.4482,
@@ -243,7 +243,7 @@
       "ticker": "INTU",
       "score": 0.7417,
       "rank_pct": 0.9896,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "signal": "🟢🟢",
       "close": 275.35,
       "fund_ratio": 0.6829,
       "growth_composite": 0.6811,
@@ -254,7 +254,7 @@
       "ticker": "SYF",
       "score": 0.7414,
       "rank_pct": 0.9861,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "signal": "🟢🟢",
       "close": 76.33,
       "fund_ratio": 0.8499,
       "growth_composite": 0.6766,
@@ -265,7 +265,7 @@
       "ticker": "AJG",
       "score": 0.7365,
       "rank_pct": 0.9826,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "signal": "🟢🟢",
       "close": 252.44,
       "fund_ratio": 0.6203,
       "growth_composite": 0.8764,
@@ -276,7 +276,7 @@
       "ticker": "HST",
       "score": 0.7217,
       "rank_pct": 0.9792,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "signal": "🟢🟢",
       "close": 23.35,
       "fund_ratio": 0.7623,
       "growth_composite": 0.6686,
@@ -287,7 +287,7 @@
       "ticker": "BAC",
       "score": 0.7168,
       "rank_pct": 0.9757,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "signal": "🟢🟢",
       "close": 58.73,
       "fund_ratio": 0.6866,
       "growth_composite": 0.588,
@@ -298,7 +298,7 @@
       "ticker": "ACGL",
       "score": 0.7091,
       "rank_pct": 0.9722,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "signal": "🟢🟢",
       "close": 102.2,
       "fund_ratio": 0.7511,
       "growth_composite": 0.6723,
@@ -309,7 +309,7 @@
       "ticker": "MCK",
       "score": 0.7079,
       "rank_pct": 0.9688,
-      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "signal": "🟢🟢",
       "close": 786.3,
       "fund_ratio": 0.7508,
       "growth_composite": 0.4696,
@@ -332,158 +332,158 @@
   "freshness": {
     "items": [
       {
-        "name": "\u4ef7\u683c OHLCV / Price",
-        "status": "\ud83d\udd34",
+        "name": "价格 OHLCV / Price",
+        "status": "🔴",
         "latest": "2026-07-02",
         "age_days": 2,
-        "source": "\u65e5\u66f4"
+        "source": "日更"
       },
       {
-        "name": "VIX\u6ce2\u52a8\u7387 / VIX",
-        "status": "\ud83d\udd34",
+        "name": "VIX波动率 / VIX",
+        "status": "🔴",
         "latest": "2026-07-02",
         "age_days": 2,
-        "source": "\u65e5\u66f4"
+        "source": "日更"
       },
       {
-        "name": "SPX\u6307\u6570 / S&P 500",
-        "status": "\ud83d\udd34",
+        "name": "SPX指数 / S&P 500",
+        "status": "🔴",
         "latest": "2026-07-02",
         "age_days": 2,
-        "source": "\u65e5\u66f4"
+        "source": "日更"
       },
       {
-        "name": "\u677f\u5757ETF / Sector ETFs",
-        "status": "\ud83d\udd34",
+        "name": "板块ETF / Sector ETFs",
+        "status": "🔴",
         "latest": "2026-07-02",
         "age_days": 2,
-        "source": "\u65e5\u66f4"
+        "source": "日更"
       },
       {
-        "name": "\u7279\u5f81\u77e9\u9635 / Features",
-        "status": "\ud83d\udd34",
+        "name": "特征矩阵 / Features",
+        "status": "🔴",
         "latest": "2026-07-02",
         "age_days": 2,
-        "source": "\u65e5\u66f4"
+        "source": "日更"
       },
       {
-        "name": "\u8d22\u52a1\u6bd4\u7387 / Ratios",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(N/A)",
+        "name": "财务比率 / Ratios",
+        "status": "🔴",
+        "latest": "未检查(N/A)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "\u5173\u952e\u6307\u6807 / Key Metrics",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(N/A)",
+        "name": "关键指标 / Key Metrics",
+        "status": "🔴",
+        "latest": "未检查(N/A)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "\u589e\u957f\u7387 / Growth",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(N/A)",
+        "name": "增长率 / Growth",
+        "status": "🔴",
+        "latest": "未检查(N/A)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "\u6536\u5165\u62a5\u8868 / Income Stmt",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(2026-06-27)",
+        "name": "收入报表 / Income Stmt",
+        "status": "🔴",
+        "latest": "未检查(2026-06-27)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "\u8d44\u4ea7\u8d1f\u503a / Balance Sheet",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(2026-06-27)",
+        "name": "资产负债 / Balance Sheet",
+        "status": "🔴",
+        "latest": "未检查(2026-06-27)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "\u73b0\u91d1\u6d41 / Cashflow",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(2026-06-27)",
+        "name": "现金流 / Cashflow",
+        "status": "🔴",
+        "latest": "未检查(2026-06-27)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "\u5206\u6790\u5e08\u9884\u4f30 / Analyst Est",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(2026-07-03)",
+        "name": "分析师预估 / Analyst Est",
+        "status": "🔴",
+        "latest": "未检查(2026-07-03)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "\u76ee\u6807\u4ef7 / Price Target",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(2026-06-29)",
+        "name": "目标价 / Price Target",
+        "status": "🔴",
+        "latest": "未检查(2026-06-29)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "\u5206\u6790\u5e08\u8bc4\u7ea7 / Grades",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(2026-07-03)",
+        "name": "分析师评级 / Grades",
+        "status": "🔴",
+        "latest": "未检查(2026-07-03)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "R2K\u8d22\u52a1\u6bd4\u7387 / R2K Ratios",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(N/A)",
+        "name": "R2K财务比率 / R2K Ratios",
+        "status": "🔴",
+        "latest": "未检查(N/A)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "R2K\u5173\u952e\u6307\u6807 / R2K Metrics",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(N/A)",
+        "name": "R2K关键指标 / R2K Metrics",
+        "status": "🔴",
+        "latest": "未检查(N/A)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "R2K\u5206\u6790\u5e08 / R2K Analyst",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(2026-06-27)",
+        "name": "R2K分析师 / R2K Analyst",
+        "status": "🔴",
+        "latest": "未检查(2026-06-27)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "R2K\u589e\u957f\u7387 / R2K Growth",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(2026-06-27)",
+        "name": "R2K增长率 / R2K Growth",
+        "status": "🔴",
+        "latest": "未检查(2026-06-27)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "R2K\u4ef7\u683c / R2K Prices",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(N/A)",
+        "name": "R2K价格 / R2K Prices",
+        "status": "🔴",
+        "latest": "未检查(N/A)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "\u65b0\u95fb\u7f13\u5b58 / News",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(2026-07-03)",
+        "name": "新闻缓存 / News",
+        "status": "🔴",
+        "latest": "未检查(2026-07-03)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "\u76c8\u5229\u65e5\u5386 / Earnings Cal",
-        "status": "\ud83d\udd34",
-        "latest": "\u672a\u68c0\u67e5(2026-07-03)",
+        "name": "盈利日历 / Earnings Cal",
+        "status": "🔴",
+        "latest": "未检查(2026-07-03)",
         "age_days": -1,
-        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
+        "source": "季度(未检查)"
       },
       {
-        "name": "Falcon\u8bc4\u5206",
-        "status": "\ud83d\udd34",
+        "name": "Falcon评分",
+        "status": "🔴",
         "latest": "2026-07-02",
         "age_days": 2,
-        "source": "\u65e5\u66f4"
+        "source": "日更"
       }
     ],
     "summary": {
@@ -491,7 +491,7 @@
       "red": 22,
       "total": 22
     },
-    "overall": "\ud83d\udd34"
+    "overall": "🔴"
   },
   "factor_details": {
     "CNC": {
@@ -2990,8 +2990,5 @@
         "pctrank": 0.8298
       }
     }
-  },
-  "model_version": "V0.4.6",
-  "model_type": "IC Weighted (lookback=126, power=0.5)",
-  "last_audit": "2026-07-04T00:25:43.291194"
+  }
 }

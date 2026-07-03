@@ -1,30 +1,6 @@
 {
-  "timestamp": "2026-07-03T16:15:56.318740+00:00",
+  "timestamp": "2026-07-03T18:45:48.179298+00:00",
   "data": {
-    "EQT": {
-      "prev_close": 52.49,
-      "last_close": 52.6,
-      "last_volume": 478269.0,
-      "avg_volume_20d": 591946.9,
-      "atr": 1.2324999999999993,
-      "atr_pct": 0.023431558935361203,
-      "ma20": 52.19224999999999,
-      "above_ma20": true,
-      "consecutive_down": 0,
-      "analyst_target": null
-    },
-    "AVGO": {
-      "prev_close": 369.33,
-      "last_close": 360.5,
-      "last_volume": 720096.0,
-      "avg_volume_20d": 1015901.0,
-      "atr": 15.325357142857147,
-      "atr_pct": 0.04251139290667724,
-      "ma20": 384.24425,
-      "above_ma20": false,
-      "consecutive_down": 2,
-      "analyst_target": null
-    },
     "NVDA": {
       "prev_close": 197.54,
       "last_close": 194.51,
@@ -35,18 +11,6 @@
       "ma20": 203.419,
       "above_ma20": false,
       "consecutive_down": 2,
-      "analyst_target": null
-    },
-    "PTC": {
-      "prev_close": 119.8,
-      "last_close": 124.43,
-      "last_volume": 119665.0,
-      "avg_volume_20d": 122459.95,
-      "atr": 4.716785714285713,
-      "atr_pct": 0.03790714228309662,
-      "ma20": 121.04275,
-      "above_ma20": true,
-      "consecutive_down": 0,
       "analyst_target": null
     },
     "FICO": {
@@ -61,14 +25,14 @@
       "consecutive_down": 0,
       "analyst_target": null
     },
-    "INTU": {
-      "prev_close": 267.08,
-      "last_close": 275.36,
-      "last_volume": 308579.0,
-      "avg_volume_20d": 371985.3,
-      "atr": 11.593571428571424,
-      "atr_pct": 0.04210332447912342,
-      "ma20": 275.1815,
+    "EQT": {
+      "prev_close": 52.49,
+      "last_close": 52.6,
+      "last_volume": 478269.0,
+      "avg_volume_20d": 591946.9,
+      "atr": 1.2324999999999993,
+      "atr_pct": 0.023431558935361203,
+      "ma20": 52.19224999999999,
       "above_ma20": true,
       "consecutive_down": 0,
       "analyst_target": null
@@ -85,16 +49,28 @@
       "consecutive_down": 0,
       "analyst_target": null
     },
-    "PLTR": {
-      "prev_close": 125.75,
-      "last_close": 129.18,
-      "last_volume": 1824782.0,
-      "avg_volume_20d": 1178305.8,
-      "atr": 6.542142857142858,
-      "atr_pct": 0.05064362019773075,
-      "ma20": 125.95474999999996,
+    "INTU": {
+      "prev_close": 267.08,
+      "last_close": 275.36,
+      "last_volume": 308579.0,
+      "avg_volume_20d": 371985.3,
+      "atr": 11.593571428571424,
+      "atr_pct": 0.04210332447912342,
+      "ma20": 275.1815,
       "above_ma20": true,
       "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "AVGO": {
+      "prev_close": 369.33,
+      "last_close": 360.5,
+      "last_volume": 720096.0,
+      "avg_volume_20d": 1015901.0,
+      "atr": 15.325357142857147,
+      "atr_pct": 0.04251139290667724,
+      "ma20": 384.24425,
+      "above_ma20": false,
+      "consecutive_down": 2,
       "analyst_target": null
     },
     "APP": {
@@ -107,6 +83,30 @@
       "ma20": 504.201,
       "above_ma20": true,
       "consecutive_down": 1,
+      "analyst_target": null
+    },
+    "PLTR": {
+      "prev_close": 125.75,
+      "last_close": 129.18,
+      "last_volume": 1824782.0,
+      "avg_volume_20d": 1178305.8,
+      "atr": 6.542142857142858,
+      "atr_pct": 0.05064362019773075,
+      "ma20": 125.95474999999996,
+      "above_ma20": true,
+      "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "PTC": {
+      "prev_close": 119.8,
+      "last_close": 124.43,
+      "last_volume": 119665.0,
+      "avg_volume_20d": 122459.95,
+      "atr": 4.716785714285713,
+      "atr_pct": 0.03790714228309662,
+      "ma20": 121.04275,
+      "above_ma20": true,
+      "consecutive_down": 0,
       "analyst_target": null
     }
   }
