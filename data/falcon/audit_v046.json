@@ -1,0 +1,88 @@
+{
+  "version": "V0.4.6",
+  "time": "2026-07-04T00:23:54.681132",
+  "passed": 16,
+  "total": 16,
+  "checks": [
+    {
+      "name": "file:features_v04_1.parquet",
+      "status": "PASS",
+      "detail": "356.1MB"
+    },
+    {
+      "name": "file:us_prices_daily.parquet",
+      "status": "PASS",
+      "detail": "31.8MB"
+    },
+    {
+      "name": "file:factor_ic_weights.json",
+      "status": "PASS",
+      "detail": "0.0MB"
+    },
+    {
+      "name": "data:rows",
+      "status": "PASS",
+      "detail": "1,189,610"
+    },
+    {
+      "name": "data:tickers",
+      "status": "PASS",
+      "detail": "476"
+    },
+    {
+      "name": "data:years",
+      "status": "PASS",
+      "detail": "2016-06-06 to 2026-07-02"
+    },
+    {
+      "name": "data:cols",
+      "status": "PASS",
+      "detail": "125"
+    },
+    {
+      "name": "ic:factors",
+      "status": "PASS",
+      "detail": "53"
+    },
+    {
+      "name": "ic:positive",
+      "status": "PASS",
+      "detail": "28/53"
+    },
+    {
+      "name": "ic:lookback",
+      "status": "PASS",
+      "detail": "126"
+    },
+    {
+      "name": "coverage:pit_count",
+      "status": "PASS",
+      "detail": "76"
+    },
+    {
+      "name": "coverage:avg",
+      "status": "PASS",
+      "detail": "98.9%"
+    },
+    {
+      "name": "script:falcon_score.py",
+      "status": "PASS",
+      "detail": "v046 ref found"
+    },
+    {
+      "name": "script:falcon_trade_exec.py",
+      "status": "PASS",
+      "detail": "v046 ref found"
+    },
+    {
+      "name": "script:falcon_gatekeeper.py",
+      "status": "PASS",
+      "detail": "v046 ref found"
+    },
+    {
+      "name": "bt:sharpe",
+      "status": "PASS",
+      "detail": "2.185"
+    }
+  ]
+}

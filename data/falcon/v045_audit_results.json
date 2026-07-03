@@ -1,0 +1,442 @@
+{
+  "timestamp": "2026-07-03T12:31:48.669308",
+  "config": {
+    "version": "V0.4.5",
+    "total_factors": 44,
+    "main_weights": {
+      "fund_ratio": 0.4,
+      "growth_composite": 0.3,
+      "qoq": 0.15,
+      "cashflow": 0.15
+    },
+    "gc_weights": {
+      "fund_growth": 0.6,
+      "analyst": 0.4,
+      "income": 0.0
+    },
+    "factor_groups": {
+      "fund_ratio": [
+        "r_priceToEarningsRatio",
+        "r_priceToSalesRatio",
+        "r_priceToFreeCashFlowRatio",
+        "r_enterpriseValueMultiple",
+        "r_grossProfitMargin",
+        "r_netProfitMargin",
+        "r_operatingProfitMargin",
+        "r_ebitdaMargin",
+        "r_assetTurnover",
+        "r_debtToEquityRatio",
+        "r_currentRatio",
+        "r_quickRatio",
+        "r_freeCashFlowOperatingCashFlowRatio",
+        "r_operatingCashFlowRatio",
+        "r_dividendYieldPercentage",
+        "r_dividendPayoutRatio"
+      ],
+      "fund_growth": [
+        "g_revenueGrowth",
+        "g_grossProfitGrowth",
+        "g_ebitgrowth",
+        "g_operatingIncomeGrowth",
+        "g_netIncomeGrowth",
+        "g_epsdilutedGrowth",
+        "g_freeCashFlowGrowth",
+        "g_tenYRevenueGrowthPerShare",
+        "g_fiveYRevenueGrowthPerShare",
+        "g_threeYRevenueGrowthPerShare",
+        "g_assetGrowth",
+        "g_bookValueperShareGrowth"
+      ],
+      "analyst": [
+        "a_eps_revision",
+        "a_revenue_revision",
+        "a_eps_dispersion",
+        "a_num_analysts_eps"
+      ],
+      "income": [
+        "i_gross_margin",
+        "i_ebitda_margin",
+        "i_revenue_growth_yoy",
+        "i_gross_margin_delta"
+      ],
+      "qoq": [
+        "r_grossProfitMargin_qoq",
+        "r_netProfitMargin_qoq",
+        "r_operatingProfitMargin_qoq",
+        "r_ebitdaMargin_qoq"
+      ],
+      "cashflow": [
+        "c_fcf_margin",
+        "c_capex_intensity",
+        "c_fcf_to_income",
+        "c_buyback_yield"
+      ]
+    },
+    "flip_factors": [
+      "r_priceToSalesRatio",
+      "r_enterpriseValueMultiple",
+      "a_eps_revision",
+      "r_priceToEarningsRatio",
+      "r_dividendYieldPercentage",
+      "c_capex_intensity",
+      "r_debtToEquityRatio",
+      "a_revenue_revision",
+      "r_priceToFreeCashFlowRatio",
+      "r_dividendPayoutRatio"
+    ],
+    "removed_factors": [
+      "r_priceToBookRatio",
+      "r_inventoryTurnover",
+      "r_financialLeverageRatio",
+      "r_receivablesTurnover",
+      "i_net_margin",
+      "i_operating_margin",
+      "g_receivablesGrowth",
+      "g_inventoryGrowth",
+      "g_debtGrowth",
+      "c_operating_cashflow_ratio"
+    ]
+  },
+  "layers": {
+    "L1": {
+      "layer": "L1_data_integrity",
+      "status": "PASS",
+      "blockers": [],
+      "warnings": [
+        "因子 i_revenue_growth_yoy 覆盖率=72.5%<80%",
+        "因子 i_gross_margin_delta 覆盖率=72.5%<80%",
+        "因子 c_buyback_yield 覆盖率=65.7%<80%"
+      ],
+      "details": {
+        "date_range": {
+          "min": "2016-01-04",
+          "max": "2026-07-01",
+          "days": 3831
+        },
+        "n_tickers": 476,
+        "coverage": {
+          "r_priceToEarningsRatio": 0.9458,
+          "r_priceToSalesRatio": 0.9458,
+          "r_priceToFreeCashFlowRatio": 0.9458,
+          "r_enterpriseValueMultiple": 0.9458,
+          "r_grossProfitMargin": 0.9458,
+          "r_netProfitMargin": 0.9458,
+          "r_operatingProfitMargin": 0.9458,
+          "r_ebitdaMargin": 0.9458,
+          "r_assetTurnover": 0.9458,
+          "r_debtToEquityRatio": 0.9458,
+          "r_currentRatio": 0.9458,
+          "r_quickRatio": 0.9458,
+          "r_freeCashFlowOperatingCashFlowRatio": 0.9458,
+          "r_operatingCashFlowRatio": 0.9458,
+          "r_dividendYieldPercentage": 0.9458,
+          "r_dividendPayoutRatio": 0.9458,
+          "g_revenueGrowth": 0.9458,
+          "g_grossProfitGrowth": 0.9458,
+          "g_ebitgrowth": 0.9458,
+          "g_operatingIncomeGrowth": 0.9458,
+          "g_netIncomeGrowth": 0.9458,
+          "g_epsdilutedGrowth": 0.9458,
+          "g_freeCashFlowGrowth": 0.9458,
+          "g_tenYRevenueGrowthPerShare": 0.9458,
+          "g_fiveYRevenueGrowthPerShare": 0.9458,
+          "g_threeYRevenueGrowthPerShare": 0.9458,
+          "g_assetGrowth": 0.9458,
+          "g_bookValueperShareGrowth": 0.9458,
+          "a_eps_revision": 0.9904,
+          "a_revenue_revision": 0.9905,
+          "a_eps_dispersion": 0.9904,
+          "a_num_analysts_eps": 0.992,
+          "i_gross_margin": 0.945,
+          "i_ebitda_margin": 0.945,
+          "i_revenue_growth_yoy": 0.7251,
+          "i_gross_margin_delta": 0.7251,
+          "r_grossProfitMargin_qoq": 0.9215,
+          "r_netProfitMargin_qoq": 0.9218,
+          "r_operatingProfitMargin_qoq": 0.9216,
+          "r_ebitdaMargin_qoq": 0.9218,
+          "c_fcf_margin": 0.9443,
+          "c_capex_intensity": 0.9443,
+          "c_fcf_to_income": 0.8617,
+          "c_buyback_yield": 0.6572
+        },
+        "low_coverage_count": 3,
+        "factor_count": {
+          "expected": 44,
+          "actual": 44,
+          "match": true
+        },
+        "price_tickers": 476
+      }
+    },
+    "L2": {
+      "layer": "L2_feature_consistency",
+      "status": "PASS",
+      "blockers": [],
+      "warnings": [],
+      "details": {
+        "flip_validation": {
+          "r_priceToSalesRatio": {
+            "spearman_corr": -0.0201,
+            "p_value": 0.0,
+            "should_flip": true,
+            "is_flipped": true,
+            "correct": true
+          },
+          "r_enterpriseValueMultiple": {
+            "spearman_corr": -0.0132,
+            "p_value": 0.0,
+            "should_flip": true,
+            "is_flipped": true,
+            "correct": true
+          },
+          "a_eps_revision": {
+            "spearman_corr": -0.0537,
+            "p_value": 0.0,
+            "should_flip": true,
+            "is_flipped": true,
+            "correct": true
+          },
+          "r_priceToEarningsRatio": {
+            "spearman_corr": -0.0169,
+            "p_value": 0.0,
+            "should_flip": true,
+            "is_flipped": true,
+            "correct": true
+          },
+          "r_dividendYieldPercentage": {
+            "spearman_corr": -0.0195,
+            "p_value": 0.0,
+            "should_flip": true,
+            "is_flipped": true,
+            "correct": true
+          },
+          "c_capex_intensity": {
+            "spearman_corr": -0.0213,
+            "p_value": 0.0,
+            "should_flip": true,
+            "is_flipped": true,
+            "correct": true
+          },
+          "r_debtToEquityRatio": {
+            "spearman_corr": 0.0019,
+            "p_value": 0.0363,
+            "should_flip": "noise",
+            "is_flipped": true,
+            "correct": true
+          },
+          "a_revenue_revision": {
+            "spearman_corr": -0.0514,
+            "p_value": 0.0,
+            "should_flip": true,
+            "is_flipped": true,
+            "correct": true
+          },
+          "r_priceToFreeCashFlowRatio": {
+            "spearman_corr": -0.0145,
+            "p_value": 0.0,
+            "should_flip": true,
+            "is_flipped": true,
+            "correct": true
+          },
+          "r_dividendPayoutRatio": {
+            "spearman_corr": -0.0277,
+            "p_value": 0.0,
+            "should_flip": true,
+            "is_flipped": true,
+            "correct": true
+          }
+        },
+        "group_integrity": {
+          "fund_ratio": {
+            "expected": 16,
+            "actual": 16,
+            "missing": [],
+            "complete": true
+          },
+          "fund_growth": {
+            "expected": 12,
+            "actual": 12,
+            "missing": [],
+            "complete": true
+          },
+          "analyst": {
+            "expected": 4,
+            "actual": 4,
+            "missing": [],
+            "complete": true
+          },
+          "income": {
+            "expected": 4,
+            "actual": 4,
+            "missing": [],
+            "complete": true
+          },
+          "qoq": {
+            "expected": 4,
+            "actual": 4,
+            "missing": [],
+            "complete": true
+          },
+          "cashflow": {
+            "expected": 4,
+            "actual": 4,
+            "missing": [],
+            "complete": true
+          }
+        },
+        "removed_still_present": []
+      }
+    },
+    "L3": {
+      "layer": "L3_model_effectiveness",
+      "status": "PASS",
+      "blockers": [],
+      "warnings": [],
+      "details": {
+        "composite_ic": {
+          "ic_mean": 0.0473,
+          "ic_std": 0.1121,
+          "icir": 0.4218,
+          "t_stat": 20.65,
+          "ic_positive_pct": 0.6802,
+          "n_days": 2398
+        },
+        "group_ics": {
+          "fund_ratio": {
+            "ic_mean": 0.0269,
+            "ic_std": 0.1068,
+            "icir": 0.2522,
+            "ic_positive_pct": 0.6313,
+            "n_days": 2463,
+            "t_stat": 12.52
+          },
+          "fund_growth": {
+            "ic_mean": 0.0371,
+            "ic_std": 0.111,
+            "icir": 0.3347,
+            "ic_positive_pct": 0.6675,
+            "n_days": 2463,
+            "t_stat": 16.61
+          },
+          "analyst": {
+            "ic_mean": 0.0555,
+            "ic_std": 0.0962,
+            "icir": 0.5768,
+            "ic_positive_pct": 0.7145,
+            "n_days": 2483,
+            "t_stat": 28.74
+          },
+          "income": {
+            "ic_mean": 0.0027,
+            "ic_std": 0.1202,
+            "icir": 0.0225,
+            "ic_positive_pct": 0.5319,
+            "n_days": 2463,
+            "t_stat": 1.11
+          },
+          "qoq": {
+            "ic_mean": 0.0191,
+            "ic_std": 0.0808,
+            "icir": 0.2363,
+            "ic_positive_pct": 0.6222,
+            "n_days": 2398,
+            "t_stat": 11.57
+          },
+          "cashflow": {
+            "ic_mean": 0.02,
+            "ic_std": 0.0922,
+            "icir": 0.2166,
+            "ic_positive_pct": 0.5834,
+            "n_days": 2463,
+            "t_stat": 10.75
+          }
+        }
+      }
+    },
+    "L4": {
+      "layer": "L4_signal_production",
+      "status": "PASS",
+      "blockers": [],
+      "warnings": [
+        "评分有 1 个NaN值"
+      ],
+      "details": {
+        "score_distribution": {
+          "mean": 0.4988,
+          "std": 0.0898,
+          "min": 0.2581,
+          "max": 0.7699,
+          "median": 0.4988,
+          "q25": 0.441,
+          "q75": 0.5596
+        },
+        "signal_distribution": {
+          "🟢🟢": 24,
+          "🟢": 72,
+          "🟡": 139,
+          "🔴": 241
+        },
+        "top10": {
+          "tickers": [
+            "INTU",
+            "PTC",
+            "NVDA",
+            "MU",
+            "NFLX",
+            "EQT",
+            "FICO",
+            "NEM",
+            "BIIB",
+            "PLTR"
+          ],
+          "scores": [
+            0.7699,
+            0.76,
+            0.7521,
+            0.7417,
+            0.7387,
+            0.7251,
+            0.7216,
+            0.7205,
+            0.7135,
+            0.6975
+          ]
+        },
+        "nan_count": 1
+      }
+    },
+    "L5": {
+      "layer": "L5_cross_layer_consistency",
+      "status": "PASS",
+      "blockers": [],
+      "warnings": [],
+      "details": {
+        "version_in_code": true,
+        "main_weights_correct": true,
+        "gc_weights_correct": true,
+        "removed_in_features": [
+          "r_priceToBookRatio",
+          "r_inventoryTurnover",
+          "r_financialLeverageRatio",
+          "r_receivablesTurnover",
+          "i_net_margin",
+          "i_operating_margin",
+          "g_receivablesGrowth",
+          "g_inventoryGrowth",
+          "g_debtGrowth"
+        ],
+        "scored_version_correct": true,
+        "scored_weights_correct": true
+      }
+    }
+  },
+  "overall_status": "PASS",
+  "blockers": [],
+  "warnings": [
+    "因子 i_revenue_growth_yoy 覆盖率=72.5%<80%",
+    "因子 i_gross_margin_delta 覆盖率=72.5%<80%",
+    "因子 c_buyback_yield 覆盖率=65.7%<80%",
+    "评分有 1 个NaN值"
+  ]
+}

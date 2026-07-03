@@ -1,0 +1,27 @@
+/home/hermes/.hermes/openclaw-archive/scripts/falcon/compute_rolling_ic.py:37: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.3)
+  from scipy.stats import rankdata, spearmanr
+🦅 Falcon V0.4.6 IC权重计算
+==================================================
+📂 加载数据...
+Traceback (most recent call last):
+  File "/home/hermes/.hermes/openclaw-archive/scripts/falcon/compute_rolling_ic.py", line 245, in <module>
+    main()
+  File "/home/hermes/.hermes/openclaw-archive/scripts/falcon/compute_rolling_ic.py", line 184, in main
+    df, prices = load_data()
+                 ^^^^^^^^^^^
+  File "/home/hermes/.hermes/openclaw-archive/scripts/falcon/compute_rolling_ic.py", line 88, in load_data
+    df = pd.read_parquet(FEATURES_PATH)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hermes/.hermes/hermes-agent/venv/lib/python3.12/site-packages/pandas/io/parquet.py", line 669, in read_parquet
+    return impl.read(
+           ^^^^^^^^^^
+  File "/home/hermes/.hermes/hermes-agent/venv/lib/python3.12/site-packages/pandas/io/parquet.py", line 258, in read
+    path_or_handle, handles, filesystem = _get_path_or_handle(
+                                          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/hermes/.hermes/hermes-agent/venv/lib/python3.12/site-packages/pandas/io/parquet.py", line 141, in _get_path_or_handle
+    handles = get_handle(
+              ^^^^^^^^^^^
+  File "/home/hermes/.hermes/hermes-agent/venv/lib/python3.12/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hermes/.hermes/openclaw-archive/data/falcon/features_v04_1.parquet'

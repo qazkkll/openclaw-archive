@@ -26,3 +26,6 @@ data/us_quality_pool.json
 # 检查点（可重新生成）
 data/layer3_checkpoints/
 data/moneyflow_checkpoints/
+
+# Falcon parquet data files
+data/falcon/*.parquet

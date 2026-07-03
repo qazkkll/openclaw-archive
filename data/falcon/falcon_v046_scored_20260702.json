@@ -1,7 +1,7 @@
 {
   "version": "V0.4.6",
   "date": "2026-07-02",
-  "timestamp": "2026-07-03T20:58:03.567904",
+  "timestamp": "2026-07-03T23:39:05.702665",
   "config": {
     "weights": {
       "fund_ratio": 0.45,
@@ -37,133 +37,133 @@
   "top_n": [
     {
       "ticker": "CNC",
-      "score": 0.7802,
+      "score": 0.8275,
       "rank_pct": 1.0,
       "signal": "🟢🟢",
       "close": 67.86,
-      "fund_ratio": 0.8951,
-      "growth_composite": 0.5491,
-      "qoq": 0.9142,
+      "fund_ratio": 0.8864,
+      "growth_composite": 0.7965,
+      "qoq": 0.9229,
       "cashflow": 0.5649
     },
     {
       "ticker": "HUM",
-      "score": 0.7626,
+      "score": 0.8092,
       "rank_pct": 0.9965,
       "signal": "🟢🟢",
       "close": 396.75,
-      "fund_ratio": 0.8896,
-      "growth_composite": 0.5435,
-      "qoq": 0.8972,
+      "fund_ratio": 0.8841,
+      "growth_composite": 0.7786,
+      "qoq": 0.9075,
       "cashflow": 0.494
     },
     {
       "ticker": "MET",
-      "score": 0.7455,
-      "rank_pct": 0.993,
+      "score": 0.7496,
+      "rank_pct": 0.9931,
       "signal": "🟢🟢",
       "close": 90.06,
-      "fund_ratio": 0.8681,
-      "growth_composite": 0.4412,
-      "qoq": 0.8482,
+      "fund_ratio": 0.8733,
+      "growth_composite": 0.4482,
+      "qoq": 0.8502,
       "cashflow": 0.6461
     },
     {
-      "ticker": "SYF",
-      "score": 0.7445,
-      "rank_pct": 0.9895,
-      "signal": "🟢🟢",
-      "close": 76.33,
-      "fund_ratio": 0.8541,
-      "growth_composite": 0.6407,
-      "qoq": 0.5486,
-      "cashflow": 0.8152
-    },
-    {
       "ticker": "INTU",
-      "score": 0.7355,
-      "rank_pct": 0.9861,
+      "score": 0.7417,
+      "rank_pct": 0.9896,
       "signal": "🟢🟢",
       "close": 275.35,
-      "fund_ratio": 0.6807,
-      "growth_composite": 0.6719,
-      "qoq": 0.8081,
+      "fund_ratio": 0.6829,
+      "growth_composite": 0.6811,
+      "qoq": 0.8249,
       "cashflow": 0.8881
     },
     {
-      "ticker": "BAC",
-      "score": 0.7162,
-      "rank_pct": 0.9826,
+      "ticker": "SYF",
+      "score": 0.7414,
+      "rank_pct": 0.9861,
       "signal": "🟢🟢",
-      "close": 58.73,
-      "fund_ratio": 0.6995,
-      "growth_composite": 0.5535,
-      "qoq": 0.8616,
-      "cashflow": 0.7894
-    },
-    {
-      "ticker": "F",
-      "score": 0.7087,
-      "rank_pct": 0.9791,
-      "signal": "🟢🟢",
-      "close": 13.36,
-      "fund_ratio": 0.8859,
-      "growth_composite": 0.4251,
-      "qoq": 0.9811,
-      "cashflow": 0.1925
-    },
-    {
-      "ticker": "MCK",
-      "score": 0.7064,
-      "rank_pct": 0.9756,
-      "signal": "🟢🟢",
-      "close": 786.3,
-      "fund_ratio": 0.7617,
-      "growth_composite": 0.4336,
-      "qoq": 0.8325,
-      "cashflow": 0.7365
-    },
-    {
-      "ticker": "GL",
-      "score": 0.7062,
-      "rank_pct": 0.9721,
-      "signal": "🟢🟢",
-      "close": 180.49,
-      "fund_ratio": 0.7586,
-      "growth_composite": 0.6067,
-      "qoq": 0.6906,
-      "cashflow": 0.7024
+      "close": 76.33,
+      "fund_ratio": 0.8499,
+      "growth_composite": 0.6766,
+      "qoq": 0.5068,
+      "cashflow": 0.8152
     },
     {
       "ticker": "AJG",
-      "score": 0.7033,
-      "rank_pct": 0.9686,
+      "score": 0.7365,
+      "rank_pct": 0.9826,
       "signal": "🟢🟢",
       "close": 252.44,
-      "fund_ratio": 0.6237,
-      "growth_composite": 0.7015,
-      "qoq": 0.942,
+      "fund_ratio": 0.6203,
+      "growth_composite": 0.8764,
+      "qoq": 0.9409,
       "cashflow": 0.6262
+    },
+    {
+      "ticker": "HST",
+      "score": 0.7217,
+      "rank_pct": 0.9792,
+      "signal": "🟢🟢",
+      "close": 23.35,
+      "fund_ratio": 0.7623,
+      "growth_composite": 0.6686,
+      "qoq": 0.9311,
+      "cashflow": 0.3916
+    },
+    {
+      "ticker": "BAC",
+      "score": 0.7168,
+      "rank_pct": 0.9757,
+      "signal": "🟢🟢",
+      "close": 58.73,
+      "fund_ratio": 0.6866,
+      "growth_composite": 0.588,
+      "qoq": 0.8589,
+      "cashflow": 0.7894
+    },
+    {
+      "ticker": "ACGL",
+      "score": 0.7091,
+      "rank_pct": 0.9722,
+      "signal": "🟢🟢",
+      "close": 102.2,
+      "fund_ratio": 0.7511,
+      "growth_composite": 0.6723,
+      "qoq": 0.6263,
+      "cashflow": 0.7426
+    },
+    {
+      "ticker": "MCK",
+      "score": 0.7079,
+      "rank_pct": 0.9688,
+      "signal": "🟢🟢",
+      "close": 786.3,
+      "fund_ratio": 0.7508,
+      "growth_composite": 0.4696,
+      "qoq": 0.8286,
+      "cashflow": 0.7365
     }
   ],
   "ic_weight_summary": {
     "fund_ratio": {
-      "r_enterpriseValueMultiple": 0.2035,
-      "r_priceToEarningsRatio": 0.1934,
-      "r_priceToSalesRatio": 0.1866,
-      "r_priceToBookRatio": 0.1856,
-      "r_priceToFreeCashFlowRatio": 0.1643
+      "r_enterpriseValueMultiple": 0.201,
+      "r_priceToEarningsRatio": 0.1902,
+      "r_priceToSalesRatio": 0.1836,
+      "r_priceToBookRatio": 0.1775,
+      "r_priceToFreeCashFlowRatio": 0.1597
     },
     "fund_growth": {
-      "g_assetGrowth": 0.3854,
-      "g_bookValueperShareGrowth": 0.1905,
-      "g_operatingIncomeGrowth": 0.153,
-      "g_receivablesGrowth": 0.127,
-      "g_freeCashFlowGrowth": 0.1159
+      "g_assetGrowth": 0.3642,
+      "g_bookValueperShareGrowth": 0.1983,
+      "g_operatingIncomeGrowth": 0.1563,
+      "g_freeCashFlowGrowth": 0.1293,
+      "g_grossProfitGrowth": 0.0887
     },
     "analyst": {
-      "a_revenue_revision": 0.5476,
-      "a_eps_revision": 0.4524,
+      "a_eps_revision": 0.676,
+      "a_revenue_revision": 0.324,
       "a_eps_dispersion": 0.0,
       "a_num_analysts_eps": 0.0
     },
@@ -175,10 +175,10 @@
       "i_revenue_growth_yoy": 0.1667
     },
     "qoq": {
-      "r_grossProfitMargin_qoq": 0.5065,
-      "r_operatingProfitMargin_qoq": 0.4935,
-      "r_netProfitMargin_qoq": 0.0,
-      "r_ebitdaMargin_qoq": 0.0
+      "r_grossProfitMargin_qoq": 0.4277,
+      "r_operatingProfitMargin_qoq": 0.396,
+      "r_netProfitMargin_qoq": 0.094,
+      "r_ebitdaMargin_qoq": 0.0822
     },
     "cashflow": {
       "c_fcf_margin": 0.25,

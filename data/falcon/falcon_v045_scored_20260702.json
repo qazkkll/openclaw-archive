@@ -1,0 +1,90 @@
+{
+  "version": "V0.4.5",
+  "date": "2026-07-02",
+  "timestamp": "2026-07-03T16:29:06.221599",
+  "config": {
+    "weights": {
+      "fund_ratio": 0.4,
+      "growth_composite": 0.3,
+      "qoq": 0.15,
+      "cashflow": 0.15
+    },
+    "gc_weights": {
+      "fund_growth": 0.6,
+      "analyst": 0.4,
+      "income": 0.0
+    },
+    "factors": {
+      "fund_ratio": 16,
+      "fund_growth": 12,
+      "analyst": 4,
+      "income": 4,
+      "qoq": 4,
+      "cashflow": 4
+    },
+    "total_factors": 44
+  },
+  "vix": {
+    "regime": "bull",
+    "vix": 16.1,
+    "trend_pct": 0.0,
+    "position_pct": 1.0
+  },
+  "top_n": [
+    {
+      "ticker": "INTU",
+      "score": 0.7699,
+      "rank_pct": 1.0,
+      "signal": "🟢🟢",
+      "close": 275.35,
+      "fund_ratio": 0.79,
+      "growth_composite": 0.6376,
+      "qoq": 0.8624,
+      "cashflow": 0.8881
+    },
+    {
+      "ticker": "PTC",
+      "score": 0.76,
+      "rank_pct": 0.9979,
+      "signal": "🟢🟢",
+      "close": 124.55,
+      "fund_ratio": 0.7512,
+      "growth_composite": 0.7454,
+      "qoq": 0.782,
+      "cashflow": 0.7907
+    },
+    {
+      "ticker": "NVDA",
+      "score": 0.7521,
+      "rank_pct": 0.9958,
+      "signal": "🟢🟢",
+      "close": 194.83,
+      "fund_ratio": 0.7463,
+      "growth_composite": 0.8538,
+      "qoq": 0.5415,
+      "cashflow": 0.7749
+    },
+    {
+      "ticker": "MU",
+      "score": 0.7417,
+      "rank_pct": 0.9937,
+      "signal": "🟢🟢",
+      "close": 975.56,
+      "fund_ratio": 0.7945,
+      "growth_composite": 0.938,
+      "qoq": 0.5431,
+      "cashflow": 0.407
+    },
+    {
+      "ticker": "NFLX",
+      "score": 0.7387,
+      "rank_pct": 0.9916,
+      "signal": "🟢🟢",
+      "close": 77.65,
+      "fund_ratio": 0.7142,
+      "growth_composite": 0.7298,
+      "qoq": 0.8214,
+      "cashflow": 0.7389
+    }
+  ]
+}

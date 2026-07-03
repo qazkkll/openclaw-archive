@@ -1,556 +1,489 @@
 {
-  "timestamp": "2026/07/03 03:00:36",
+  "timestamp": "2026/07/04 00:25:39",
   "alpaca": [
     {
       "sym": "APP",
       "qty": 34,
       "entry": 502.45,
-      "price": 530.02,
-      "pnl": 937.38,
-      "pnl_pct": 5.49,
-      "market_val": 18020.68
+      "price": 527.06,
+      "pnl": 836.74,
+      "pnl_pct": 4.9,
+      "market_val": 17920.04
     },
     {
       "sym": "AVGO",
       "qty": 44,
       "entry": 377.0,
-      "price": 359.01,
-      "pnl": -791.42,
-      "pnl_pct": -4.77,
-      "market_val": 15796.44
+      "price": 360.45,
+      "pnl": -728.06,
+      "pnl_pct": -4.39,
+      "market_val": 15859.8
     },
     {
       "sym": "EQT",
       "qty": 82,
       "entry": 52.75,
-      "price": 52.34,
-      "pnl": -33.65,
-      "pnl_pct": -0.78,
-      "market_val": 4291.88
+      "price": 52.61,
+      "pnl": -11.51,
+      "pnl_pct": -0.27,
+      "market_val": 4314.02
     },
     {
       "sym": "FICO",
       "qty": 3,
       "entry": 1205.35,
-      "price": 1263.01,
-      "pnl": 172.98,
-      "pnl_pct": 4.78,
-      "market_val": 3789.03
+      "price": 1270.83,
+      "pnl": 196.44,
+      "pnl_pct": 5.43,
+      "market_val": 3812.49
     },
     {
       "sym": "INTU",
       "qty": 16,
       "entry": 272.0,
-      "price": 275.82,
-      "pnl": 61.2,
-      "pnl_pct": 1.41,
-      "market_val": 4413.2
+      "price": 275.35,
+      "pnl": 53.6,
+      "pnl_pct": 1.23,
+      "market_val": 4405.6
     },
     {
       "sym": "NVDA",
       "qty": 48,
       "entry": 194.06,
-      "price": 193.37,
-      "pnl": -33.12,
-      "pnl_pct": -0.36,
-      "market_val": 9281.76
+      "price": 194.83,
+      "pnl": 36.96,
+      "pnl_pct": 0.4,
+      "market_val": 9351.84
     },
     {
       "sym": "PLTR",
       "qty": 82,
       "entry": 116.51,
-      "price": 130.76,
-      "pnl": 1168.58,
-      "pnl_pct": 12.23,
-      "market_val": 10722.4
+      "price": 129.3,
+      "pnl": 1048.78,
+      "pnl_pct": 10.98,
+      "market_val": 10602.6
     },
     {
       "sym": "PTC",
       "qty": 37,
       "entry": 119.27,
-      "price": 124.78,
-      "pnl": 203.87,
-      "pnl_pct": 4.62,
-      "market_val": 4616.86
+      "price": 124.55,
+      "pnl": 195.36,
+      "pnl_pct": 4.43,
+      "market_val": 4608.35
     },
     {
       "sym": "TROW",
       "qty": 39,
       "entry": 115.75,
-      "price": 118.04,
-      "pnl": 89.31,
-      "pnl_pct": 1.98,
-      "market_val": 4603.56
+      "price": 118.55,
+      "pnl": 109.2,
+      "pnl_pct": 2.42,
+      "market_val": 4623.45
     }
   ],
   "alpaca_cash": 24501.65,
-  "alpaca_equity": 100012.18,
+  "alpaca_equity": 99999.84,
   "futu": [
-    {
-      "sym": "VSH",
-      "qty": 0,
-      "cost": 0.0,
-      "price": 45.92,
-      "val": 0.0,
-      "pnl": -417.56,
-      "pnl_pct": 0.0
-    },
     {
       "sym": "ON",
       "qty": 25,
       "cost": 119.48,
-      "price": 90.75,
-      "val": 2268.75,
-      "pnl": -718.25,
-      "pnl_pct": -24.05
+      "price": 91.22,
+      "val": 2280.5,
+      "pnl": -706.5,
+      "pnl_pct": -23.65
     },
     {
       "sym": "NEM",
       "qty": 22,
       "cost": 94.81,
-      "price": 96.65,
-      "val": 2126.32,
-      "pnl": 40.5,
-      "pnl_pct": 1.94
-    },
-    {
-      "sym": "CSGP",
-      "qty": 0,
-      "cost": 0.0,
-      "price": 30.17,
-      "val": 0.0,
-      "pnl": -37.09,
-      "pnl_pct": 0.0
+      "price": 97.04,
+      "val": 2134.88,
+      "pnl": 49.06,
+      "pnl_pct": 2.35
     },
     {
       "sym": "COHR",
       "qty": 12,
       "cost": 368.46,
-      "price": 332.3,
-      "val": 3987.6,
-      "pnl": -433.88,
-      "pnl_pct": -9.81
+      "price": 333.36,
+      "val": 4000.32,
+      "pnl": -421.16,
+      "pnl_pct": -9.53
     },
     {
       "sym": "AVGO",
       "qty": 8,
       "cost": 376.18,
-      "price": 358.91,
-      "val": 2871.28,
-      "pnl": -138.16,
-      "pnl_pct": -4.59
-    },
-    {
-      "sym": "AAOI",
-      "qty": 0,
-      "cost": 0.0,
-      "price": 115.58,
-      "val": 0.0,
-      "pnl": -991.14,
-      "pnl_pct": 0.0
+      "price": 360.45,
+      "val": 2883.6,
+      "pnl": -125.84,
+      "pnl_pct": -4.18
     }
   ],
   "scores": {
-    "INTU": {
-      "score": 0.7916,
+    "CNC": {
+      "score": 0.8275,
       "rank": 1.0,
-      "fr": 76.9,
-      "gc": 70.0,
-      "qoq": 86.2,
+      "fr": 88.6,
+      "gc": 79.7,
+      "qoq": 92.3,
+      "cf": 56.5
+    },
+    "HUM": {
+      "score": 0.8092,
+      "rank": 0.9965,
+      "fr": 88.4,
+      "gc": 77.9,
+      "qoq": 90.8,
+      "cf": 49.4
+    },
+    "MET": {
+      "score": 0.7496,
+      "rank": 0.9931,
+      "fr": 87.3,
+      "gc": 44.8,
+      "qoq": 85.0,
+      "cf": 64.6
+    },
+    "INTU": {
+      "score": 0.7417,
+      "rank": 0.9896,
+      "fr": 68.3,
+      "gc": 68.1,
+      "qoq": 82.5,
       "cf": 88.8
     },
-    "PTC": {
-      "score": 0.744,
-      "rank": 0.9979,
-      "fr": 71.0,
-      "gc": 74.7,
-      "qoq": 78.2,
-      "cf": 79.1
-    },
-    "EQT": {
-      "score": 0.7431,
-      "rank": 0.9958,
-      "fr": 73.4,
-      "gc": 79.1,
-      "qoq": 79.5,
-      "cf": 63.8
-    },
-    "FICO": {
-      "score": 0.7361,
-      "rank": 0.9937,
-      "fr": 75.3,
-      "gc": 64.0,
-      "qoq": 72.3,
-      "cf": 83.2
-    },
-    "NFLX": {
-      "score": 0.7354,
-      "rank": 0.9916,
-      "fr": 70.0,
-      "gc": 72.6,
-      "qoq": 82.1,
-      "cf": 73.9
-    },
-    "NEM": {
-      "score": 0.7209,
-      "rank": 0.9895,
-      "fr": 74.6,
-      "gc": 71.5,
-      "qoq": 73.8,
-      "cf": 63.1
-    },
-    "BIIB": {
-      "score": 0.7078,
-      "rank": 0.9874,
-      "fr": 67.3,
-      "gc": 65.9,
-      "qoq": 77.5,
-      "cf": 78.6
-    },
-    "NVDA": {
-      "score": 0.6969,
-      "rank": 0.9853,
-      "fr": 70.0,
-      "gc": 78.7,
-      "qoq": 54.1,
-      "cf": 77.5
+    "SYF": {
+      "score": 0.7414,
+      "rank": 0.9861,
+      "fr": 85.0,
+      "gc": 67.7,
+      "qoq": 50.7,
+      "cf": 81.5
     },
     "AJG": {
-      "score": 0.6906,
-      "rank": 0.9832,
-      "fr": 58.1,
-      "gc": 73.8,
-      "qoq": 93.9,
+      "score": 0.7365,
+      "rank": 0.9826,
+      "fr": 62.0,
+      "gc": 87.6,
+      "qoq": 94.1,
       "cf": 62.6
     },
-    "PLTR": {
-      "score": 0.6884,
-      "rank": 0.9811,
-      "fr": 64.6,
-      "gc": 70.3,
-      "qoq": 67.2,
-      "cf": 81.8
+    "HST": {
+      "score": 0.7217,
+      "rank": 0.9792,
+      "fr": 76.2,
+      "gc": 66.9,
+      "qoq": 93.1,
+      "cf": 39.2
+    },
+    "BAC": {
+      "score": 0.7168,
+      "rank": 0.9757,
+      "fr": 68.7,
+      "gc": 58.8,
+      "qoq": 85.9,
+      "cf": 78.9
+    },
+    "ACGL": {
+      "score": 0.7091,
+      "rank": 0.9722,
+      "fr": 75.1,
+      "gc": 67.2,
+      "qoq": 62.6,
+      "cf": 74.3
+    },
+    "MCK": {
+      "score": 0.7079,
+      "rank": 0.9688,
+      "fr": 75.1,
+      "gc": 47.0,
+      "qoq": 82.9,
+      "cf": 73.7
     }
   },
   "picks": [
     {
-      "sym": "INTU",
-      "score": 0.7916,
-      "close": 267.08,
+      "ticker": "CNC",
+      "score": 0.8275,
       "rank_pct": 1.0,
-      "signal": "🟢🟢",
-      "universe": "SPX",
-      "fund_ratio": 0.7686,
-      "growth_composite": 0.6999,
-      "qoq": 0.8624,
-      "cashflow": 0.8881,
-      "fund_growth": 0.8796,
-      "analyst": 0.229,
-      "income": 0.7658
+      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "close": 67.86,
+      "fund_ratio": 0.8864,
+      "growth_composite": 0.7965,
+      "qoq": 0.9229,
+      "cashflow": 0.5649
     },
     {
-      "sym": "PTC",
-      "score": 0.744,
-      "close": 119.78,
-      "rank_pct": 0.9979,
-      "signal": "🟢🟢",
-      "universe": "SPX",
-      "fund_ratio": 0.71,
-      "growth_composite": 0.7473,
-      "qoq": 0.782,
-      "cashflow": 0.7907,
-      "fund_growth": 0.7322,
-      "analyst": 0.715,
-      "income": 0.8614
+      "ticker": "HUM",
+      "score": 0.8092,
+      "rank_pct": 0.9965,
+      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "close": 396.75,
+      "fund_ratio": 0.8841,
+      "growth_composite": 0.7786,
+      "qoq": 0.9075,
+      "cashflow": 0.494
     },
     {
-      "sym": "EQT",
-      "score": 0.7431,
-      "close": 52.48,
-      "rank_pct": 0.9958,
-      "signal": "🟢🟢",
-      "universe": "SPX",
-      "fund_ratio": 0.734,
-      "growth_composite": 0.7907,
-      "qoq": 0.7946,
-      "cashflow": 0.6383,
-      "fund_growth": 0.7381,
-      "analyst": 0.8073,
-      "income": 0.9737
+      "ticker": "MET",
+      "score": 0.7496,
+      "rank_pct": 0.9931,
+      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "close": 90.06,
+      "fund_ratio": 0.8733,
+      "growth_composite": 0.4482,
+      "qoq": 0.8502,
+      "cashflow": 0.6461
     },
     {
-      "sym": "FICO",
-      "score": 0.7361,
-      "close": 1206.65,
-      "rank_pct": 0.9937,
-      "signal": "🟢🟢",
-      "universe": "SPX",
-      "fund_ratio": 0.7528,
-      "growth_composite": 0.6396,
-      "qoq": 0.7232,
-      "cashflow": 0.8322,
-      "fund_growth": 0.6933,
-      "analyst": 0.3479,
-      "income": 0.9109
+      "ticker": "INTU",
+      "score": 0.7417,
+      "rank_pct": 0.9896,
+      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "close": 275.35,
+      "fund_ratio": 0.6829,
+      "growth_composite": 0.6811,
+      "qoq": 0.8249,
+      "cashflow": 0.8881
     },
     {
-      "sym": "NFLX",
-      "score": 0.7354,
-      "close": 74.19,
-      "rank_pct": 0.9916,
-      "signal": "🟢🟢",
-      "universe": "SPX",
-      "fund_ratio": 0.7001,
-      "growth_composite": 0.726,
-      "qoq": 0.8214,
-      "cashflow": 0.7389,
-      "fund_growth": 0.7766,
-      "analyst": 0.5682,
-      "income": 0.7867
+      "ticker": "SYF",
+      "score": 0.7414,
+      "rank_pct": 0.9861,
+      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "close": 76.33,
+      "fund_ratio": 0.8499,
+      "growth_composite": 0.6766,
+      "qoq": 0.5068,
+      "cashflow": 0.8152
     },
     {
-      "sym": "NEM",
-      "score": 0.7209,
-      "close": 93.3,
-      "rank_pct": 0.9895,
-      "signal": "🟢🟢",
-      "universe": "SPX",
-      "fund_ratio": 0.7458,
-      "growth_composite": 0.7147,
-      "qoq": 0.7384,
-      "cashflow": 0.6313,
-      "fund_growth": 0.6866,
-      "analyst": 0.6633,
-      "income": 0.9127
+      "ticker": "AJG",
+      "score": 0.7365,
+      "rank_pct": 0.9826,
+      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "close": 252.44,
+      "fund_ratio": 0.6203,
+      "growth_composite": 0.8764,
+      "qoq": 0.9409,
+      "cashflow": 0.6262
     },
     {
-      "sym": "BIIB",
-      "score": 0.7078,
-      "close": 209.74,
-      "rank_pct": 0.9874,
-      "signal": "🟢🟢",
-      "universe": "SPX",
-      "fund_ratio": 0.6734,
-      "growth_composite": 0.6586,
-      "qoq": 0.7752,
-      "cashflow": 0.7865,
-      "fund_growth": 0.6415,
-      "analyst": 0.8395,
-      "income": 0.4259
+      "ticker": "HST",
+      "score": 0.7217,
+      "rank_pct": 0.9792,
+      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "close": 23.35,
+      "fund_ratio": 0.7623,
+      "growth_composite": 0.6686,
+      "qoq": 0.9311,
+      "cashflow": 0.3916
     },
     {
-      "sym": "NVDA",
-      "score": 0.6969,
-      "close": 197.58,
-      "rank_pct": 0.9853,
-      "signal": "🟢🟢",
-      "universe": "SPX",
-      "fund_ratio": 0.7002,
-      "growth_composite": 0.7866,
-      "qoq": 0.5415,
-      "cashflow": 0.7749,
-      "fund_growth": 0.7195,
-      "analyst": 0.8482,
-      "income": 0.9522
+      "ticker": "BAC",
+      "score": 0.7168,
+      "rank_pct": 0.9757,
+      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "close": 58.73,
+      "fund_ratio": 0.6866,
+      "growth_composite": 0.588,
+      "qoq": 0.8589,
+      "cashflow": 0.7894
     },
     {
-      "sym": "AJG",
-      "score": 0.6906,
-      "close": 239.67,
-      "rank_pct": 0.9832,
-      "signal": "🟢🟢",
-      "universe": "SPX",
-      "fund_ratio": 0.5806,
-      "growth_composite": 0.7381,
-      "qoq": 0.9391,
-      "cashflow": 0.6262,
-      "fund_growth": 0.8021,
-      "analyst": 0.5404,
-      "income": 0.8115
+      "ticker": "ACGL",
+      "score": 0.7091,
+      "rank_pct": 0.9722,
+      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "close": 102.2,
+      "fund_ratio": 0.7511,
+      "growth_composite": 0.6723,
+      "qoq": 0.6263,
+      "cashflow": 0.7426
     },
     {
-      "sym": "PLTR",
-      "score": 0.6884,
-      "close": 125.73,
-      "rank_pct": 0.9811,
-      "signal": "🟢🟢",
-      "universe": "SPX",
-      "fund_ratio": 0.6461,
-      "growth_composite": 0.7028,
-      "qoq": 0.6717,
-      "cashflow": 0.8185,
-      "fund_growth": 0.7518,
-      "analyst": 0.4522,
-      "income": 0.9246
+      "ticker": "MCK",
+      "score": 0.7079,
+      "rank_pct": 0.9688,
+      "signal": "\ud83d\udfe2\ud83d\udfe2",
+      "close": 786.3,
+      "fund_ratio": 0.7508,
+      "growth_composite": 0.4696,
+      "qoq": 0.8286,
+      "cashflow": 0.7365
     }
   ],
   "regime": {
     "regime": "bull",
-    "vix": 16.6,
+    "vix": 16.1,
     "trend_pct": 0.0,
     "position_pct": 1.0
   },
   "totals": {
-    "positions": 16,
-    "alpaca_pnl": 1775.13,
-    "futu_pnl": -2695.58,
-    "total_pnl": -920.45
+    "positions": 13,
+    "alpaca_pnl": 1737.51,
+    "futu_pnl": -1204.44,
+    "total_pnl": 533.07
   },
   "freshness": {
     "items": [
       {
-        "name": "价格 OHLCV / Price",
-        "status": "🔴",
-        "latest": "2026-07-01",
+        "name": "\u4ef7\u683c OHLCV / Price",
+        "status": "\ud83d\udd34",
+        "latest": "2026-07-02",
         "age_days": 2,
-        "source": "日更"
+        "source": "\u65e5\u66f4"
       },
       {
-        "name": "VIX波动率 / VIX",
-        "status": "🔴",
-        "latest": "2026-07-01",
+        "name": "VIX\u6ce2\u52a8\u7387 / VIX",
+        "status": "\ud83d\udd34",
+        "latest": "2026-07-02",
         "age_days": 2,
-        "source": "日更"
+        "source": "\u65e5\u66f4"
       },
       {
-        "name": "SPX指数 / S&P 500",
-        "status": "🔴",
-        "latest": "2026-07-01",
+        "name": "SPX\u6307\u6570 / S&P 500",
+        "status": "\ud83d\udd34",
+        "latest": "2026-07-02",
         "age_days": 2,
-        "source": "日更"
+        "source": "\u65e5\u66f4"
       },
       {
-        "name": "板块ETF / Sector ETFs",
-        "status": "🔴",
-        "latest": "2026-07-01",
+        "name": "\u677f\u5757ETF / Sector ETFs",
+        "status": "\ud83d\udd34",
+        "latest": "2026-07-02",
         "age_days": 2,
-        "source": "日更"
+        "source": "\u65e5\u66f4"
       },
       {
-        "name": "特征矩阵 / Features",
-        "status": "🔴",
-        "latest": "2026-07-01",
+        "name": "\u7279\u5f81\u77e9\u9635 / Features",
+        "status": "\ud83d\udd34",
+        "latest": "2026-07-02",
         "age_days": 2,
-        "source": "日更"
+        "source": "\u65e5\u66f4"
       },
       {
-        "name": "财务比率 / Ratios",
-        "status": "🔴",
-        "latest": "未检查(2026-07-02)",
+        "name": "\u8d22\u52a1\u6bd4\u7387 / Ratios",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(N/A)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "关键指标 / Key Metrics",
-        "status": "🔴",
-        "latest": "未检查(2026-07-02)",
+        "name": "\u5173\u952e\u6307\u6807 / Key Metrics",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(N/A)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "增长率 / Growth",
-        "status": "🔴",
-        "latest": "未检查(2026-07-02)",
+        "name": "\u589e\u957f\u7387 / Growth",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(N/A)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "收入报表 / Income Stmt",
-        "status": "🔴",
-        "latest": "未检查(2026-06-27)",
+        "name": "\u6536\u5165\u62a5\u8868 / Income Stmt",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(2026-06-27)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "资产负债 / Balance Sheet",
-        "status": "🔴",
-        "latest": "未检查(2026-06-27)",
+        "name": "\u8d44\u4ea7\u8d1f\u503a / Balance Sheet",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(2026-06-27)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "现金流 / Cashflow",
-        "status": "🔴",
-        "latest": "未检查(2026-06-27)",
+        "name": "\u73b0\u91d1\u6d41 / Cashflow",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(2026-06-27)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "分析师预估 / Analyst Est",
-        "status": "🔴",
-        "latest": "未检查(2026-07-02)",
+        "name": "\u5206\u6790\u5e08\u9884\u4f30 / Analyst Est",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(2026-07-03)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "目标价 / Price Target",
-        "status": "🔴",
-        "latest": "未检查(2026-06-29)",
+        "name": "\u76ee\u6807\u4ef7 / Price Target",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(2026-06-29)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "分析师评级 / Grades",
-        "status": "🔴",
-        "latest": "未检查(2026-07-02)",
+        "name": "\u5206\u6790\u5e08\u8bc4\u7ea7 / Grades",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(2026-07-03)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "R2K财务比率 / R2K Ratios",
-        "status": "🔴",
-        "latest": "未检查(2026-06-27)",
+        "name": "R2K\u8d22\u52a1\u6bd4\u7387 / R2K Ratios",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(N/A)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "R2K关键指标 / R2K Metrics",
-        "status": "🔴",
-        "latest": "未检查(2026-06-27)",
+        "name": "R2K\u5173\u952e\u6307\u6807 / R2K Metrics",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(N/A)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "R2K分析师 / R2K Analyst",
-        "status": "🔴",
-        "latest": "未检查(2026-06-27)",
+        "name": "R2K\u5206\u6790\u5e08 / R2K Analyst",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(2026-06-27)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "R2K增长率 / R2K Growth",
-        "status": "🔴",
-        "latest": "未检查(2026-06-27)",
+        "name": "R2K\u589e\u957f\u7387 / R2K Growth",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(2026-06-27)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "R2K价格 / R2K Prices",
-        "status": "🔴",
-        "latest": "未检查(2026-06-27)",
+        "name": "R2K\u4ef7\u683c / R2K Prices",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(N/A)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "新闻缓存 / News",
-        "status": "🔴",
-        "latest": "未检查(2026-07-02)",
+        "name": "\u65b0\u95fb\u7f13\u5b58 / News",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(2026-07-03)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "盈利日历 / Earnings Cal",
-        "status": "🔴",
-        "latest": "未检查(2026-07-02)",
+        "name": "\u76c8\u5229\u65e5\u5386 / Earnings Cal",
+        "status": "\ud83d\udd34",
+        "latest": "\u672a\u68c0\u67e5(2026-07-03)",
         "age_days": -1,
-        "source": "季度(未检查)"
+        "source": "\u5b63\u5ea6(\u672a\u68c0\u67e5)"
       },
       {
-        "name": "Falcon评分",
-        "status": "🔴",
-        "latest": "2026-07-01",
+        "name": "Falcon\u8bc4\u5206",
+        "status": "\ud83d\udd34",
+        "latest": "2026-07-02",
         "age_days": 2,
-        "source": "日更"
+        "source": "\u65e5\u66f4"
       }
     ],
     "summary": {
@@ -558,13 +491,763 @@
       "red": 22,
       "total": 22
     },
-    "overall": "🔴"
+    "overall": "\ud83d\udd34"
   },
   "factor_details": {
+    "CNC": {
+      "r_priceToEarningsRatio": {
+        "raw": 2.615,
+        "pctrank": 0.0525
+      },
+      "r_priceToBookRatio": {
+        "raw": 0.7519,
+        "pctrank": 0.0777
+      },
+      "r_priceToSalesRatio": {
+        "raw": 0.3226,
+        "pctrank": 0.0021
+      },
+      "r_priceToFreeCashFlowRatio": {
+        "raw": 4.7383,
+        "pctrank": 0.2185
+      },
+      "r_enterpriseValueMultiple": {
+        "raw": 4.3766,
+        "pctrank": 0.0231
+      },
+      "r_grossProfitMargin": {
+        "raw": 0.219,
+        "pctrank": 0.1618
+      },
+      "r_netProfitMargin": {
+        "raw": 0.0309,
+        "pctrank": 0.1134
+      },
+      "r_operatingProfitMargin": {
+        "raw": 0.0373,
+        "pctrank": 0.084
+      },
+      "r_ebitdaMargin": {
+        "raw": 0.0513,
+        "pctrank": 0.0567
+      },
+      "r_assetTurnover": {
+        "raw": 0.6153,
+        "pctrank": 0.9832
+      },
+      "r_inventoryTurnover": {
+        "raw": 0.0,
+        "pctrank": 0.1649
+      },
+      "r_receivablesTurnover": {
+        "raw": 2.571,
+        "pctrank": 0.7773
+      },
+      "r_debtToEquityRatio": {
+        "raw": 0.764,
+        "pctrank": 0.542
+      },
+      "r_currentRatio": {
+        "raw": 1.1235,
+        "pctrank": 0.4328
+      },
+      "r_quickRatio": {
+        "raw": 1.1235,
+        "pctrank": 0.5945
+      },
+      "r_financialLeverageRatio": {
+        "raw": 3.7884,
+        "pctrank": 0.7206
+      },
+      "r_freeCashFlowOperatingCashFlowRatio": {
+        "raw": 0.9444,
+        "pctrank": 0.729
+      },
+      "r_operatingCashFlowRatio": {
+        "raw": 0.0899,
+        "pctrank": 0.4013
+      },
+      "r_dividendYieldPercentage": {
+        "raw": 0.0,
+        "pctrank": 0.0903
+      },
+      "r_dividendPayoutRatio": {
+        "raw": 0.0,
+        "pctrank": 0.1155
+      },
+      "m_earningsYield": {
+        "raw": 0.0957,
+        "pctrank": 0.9979
+      },
+      "m_evToEBITDA": {
+        "raw": 4.3766,
+        "pctrank": 0.0231
+      },
+      "m_evToFreeCashFlow": {
+        "raw": 3.2992,
+        "pctrank": 0.2122
+      },
+      "m_evToSales": {
+        "raw": 0.2246,
+        "pctrank": 0.0084
+      },
+      "m_freeCashFlowYield": {
+        "raw": 0.211,
+        "pctrank": 1.0
+      },
+      "m_returnOnEquity": {
+        "raw": 0.0719,
+        "pctrank": 0.7689
+      },
+      "m_returnOnAssets": {
+        "raw": 0.019,
+        "pctrank": 0.5966
+      },
+      "m_returnOnCapitalEmployed": {
+        "raw": 0.0452,
+        "pctrank": 0.7059
+      },
+      "m_returnOnInvestedCapital": {
+        "raw": 0.0331,
+        "pctrank": 0.6744
+      },
+      "m_returnOnTangibleAssets": {
+        "raw": 0.0234,
+        "pctrank": 0.5336
+      },
+      "m_incomeQuality": {
+        "raw": 2.3392,
+        "pctrank": 0.8424
+      },
+      "m_grahamNumber": {
+        "raw": 55.392,
+        "pctrank": 0.737
+      },
+      "m_cashConversionCycle": {
+        "raw": -3.8321,
+        "pctrank": 0.2122
+      },
+      "m_capexToRevenue": {
+        "raw": 0.004,
+        "pctrank": 0.0924
+      },
+      "m_capexToDepreciation": {
+        "raw": 0.6667,
+        "pctrank": 0.437
+      },
+      "m_researchAndDevelopementToRevenue": {
+        "raw": 0.0,
+        "pctrank": 0.3288
+      },
+      "m_stockBasedCompensationToRevenue": {
+        "raw": 0.0013,
+        "pctrank": 0.271
+      },
+      "m_netDebtToEBITDA": {
+        "raw": -1.9091,
+        "pctrank": 0.0966
+      },
+      "m_operatingReturnOnAssets": {
+        "raw": 0.0234,
+        "pctrank": 0.5462
+      },
+      "g_revenueGrowth": {
+        "raw": 0.0044,
+        "pctrank": 0.5315
+      },
+      "g_grossProfitGrowth": {
+        "raw": 0.4494,
+        "pctrank": 0.8592
+      },
+      "g_ebitgrowth": {
+        "raw": 2.6459,
+        "pctrank": 0.9664
+      },
+      "g_operatingIncomeGrowth": {
+        "raw": 2.0693,
+        "pctrank": 0.9622
+      },
+      "g_netIncomeGrowth": {
+        "raw": 2.4009,
+        "pctrank": 0.9475
+      },
+      "g_epsdilutedGrowth": {
+        "raw": 2.3884,
+        "pctrank": 0.9496
+      },
+      "g_freeCashFlowGrowth": {
+        "raw": 14.1786,
+        "pctrank": 0.9874
+      },
+      "g_tenYRevenueGrowthPerShare": {
+        "raw": 2.6653,
+        "pctrank": 0.8109
+      },
+      "g_fiveYRevenueGrowthPerShare": {
+        "raw": 0.9697,
+        "pctrank": 0.792
+      },
+      "g_threeYRevenueGrowthPerShare": {
+        "raw": 0.4375,
+        "pctrank": 0.7668
+      },
+      "g_receivablesGrowth": {
+        "raw": 0.073,
+        "pctrank": 0.6786
+      },
+      "g_inventoryGrowth": {
+        "raw": 0.0,
+        "pctrank": 0.3803
+      },
+      "g_assetGrowth": {
+        "raw": 0.0452,
+        "pctrank": 0.8088
+      },
+      "g_bookValueperShareGrowth": {
+        "raw": 0.0712,
+        "pctrank": 0.855
+      },
+      "g_debtGrowth": {
+        "raw": -0.1281,
+        "pctrank": 0.1534
+      },
+      "a_eps_revision": {
+        "raw": -0.5234,
+        "pctrank": 0.0273
+      },
+      "a_revenue_revision": {
+        "raw": 0.0021,
+        "pctrank": 0.229
+      },
+      "a_eps_dispersion": {
+        "raw": 1.2467,
+        "pctrank": 0.9874
+      },
+      "a_num_analysts_eps": {
+        "raw": 11.0,
+        "pctrank": 0.5095
+      },
+      "r_grossProfitMargin_qoq": {
+        "raw": 0.443,
+        "pctrank": 0.8634
+      },
+      "r_netProfitMargin_qoq": {
+        "raw": 2.3948,
+        "pctrank": 0.9559
+      },
+      "r_operatingProfitMargin_qoq": {
+        "raw": 2.0646,
+        "pctrank": 0.9664
+      },
+      "r_ebitdaMargin_qoq": {
+        "raw": 3.4396,
+        "pctrank": 0.9853
+      }
+    },
+    "HUM": {
+      "r_priceToEarningsRatio": {
+        "raw": 4.4008,
+        "pctrank": 0.0546
+      },
+      "r_priceToBookRatio": {
+        "raw": 1.1229,
+        "pctrank": 0.1113
+      },
+      "r_priceToSalesRatio": {
+        "raw": 0.5262,
+        "pctrank": 0.0042
+      },
+      "r_priceToFreeCashFlowRatio": {
+        "raw": 18.4152,
+        "pctrank": 0.2437
+      },
+      "r_enterpriseValueMultiple": {
+        "raw": 15.2118,
+        "pctrank": 0.0294
+      },
+      "r_grossProfitMargin": {
+        "raw": 0.1498,
+        "pctrank": 0.0924
+      },
+      "r_netProfitMargin": {
+        "raw": 0.0299,
+        "pctrank": 0.105
+      },
+      "r_operatingProfitMargin": {
+        "raw": 0.0398,
+        "pctrank": 0.0903
+      },
+      "r_ebitdaMargin": {
+        "raw": 0.0496,
+        "pctrank": 0.0462
+      },
+      "r_assetTurnover": {
+        "raw": 0.7172,
+        "pctrank": 0.9874
+      },
+      "r_inventoryTurnover": {
+        "raw": 0.0,
+        "pctrank": 0.1649
+      },
+      "r_receivablesTurnover": {
+        "raw": 7.5983,
+        "pctrank": 0.9412
+      },
+      "r_debtToEquityRatio": {
+        "raw": 0.7531,
+        "pctrank": 0.5357
+      },
+      "r_currentRatio": {
+        "raw": 1.2639,
+        "pctrank": 0.5441
+      },
+      "r_quickRatio": {
+        "raw": 1.2639,
+        "pctrank": 0.6786
+      },
+      "r_financialLeverageRatio": {
+        "raw": 2.9752,
+        "pctrank": 0.6008
+      },
+      "r_freeCashFlowOperatingCashFlowRatio": {
+        "raw": 0.9035,
+        "pctrank": 0.6408
+      },
+      "r_operatingCashFlowRatio": {
+        "raw": 0.0583,
+        "pctrank": 0.3025
+      },
+      "r_dividendYieldPercentage": {
+        "raw": 0.5128,
+        "pctrank": 0.5798
+      },
+      "r_dividendPayoutRatio": {
+        "raw": 0.0902,
+        "pctrank": 0.2626
+      },
+      "m_earningsYield": {
+        "raw": 0.0568,
+        "pctrank": 0.9958
+      },
+      "m_evToEBITDA": {
+        "raw": 15.2118,
+        "pctrank": 0.0294
+      },
+      "m_evToFreeCashFlow": {
+        "raw": 26.3957,
+        "pctrank": 0.2584
+      },
+      "m_evToSales": {
+        "raw": 0.7543,
+        "pctrank": 0.0105
+      },
+      "m_freeCashFlowYield": {
+        "raw": 0.0543,
+        "pctrank": 0.9748
+      },
+      "m_returnOnEquity": {
+        "raw": 0.0638,
+        "pctrank": 0.7185
+      },
+      "m_returnOnAssets": {
+        "raw": 0.0215,
+        "pctrank": 0.6534
+      },
+      "m_returnOnCapitalEmployed": {
+        "raw": 0.0468,
+        "pctrank": 0.7185
+      },
+      "m_returnOnInvestedCapital": {
+        "raw": 0.0334,
+        "pctrank": 0.6786
+      },
+      "m_returnOnTangibleAssets": {
+        "raw": 0.0265,
+        "pctrank": 0.5714
+      },
+      "m_incomeQuality": {
+        "raw": 1.0591,
+        "pctrank": 0.4181
+      },
+      "m_grahamNumber": {
+        "raw": 185.0441,
+        "pctrank": 0.9858
+      },
+      "m_cashConversionCycle": {
+        "raw": -39.4793,
+        "pctrank": 0.105
+      },
+      "m_capexToRevenue": {
+        "raw": 0.0031,
+        "pctrank": 0.0819
+      },
+      "m_capexToDepreciation": {
+        "raw": 0.6237,
+        "pctrank": 0.395
+      },
+      "m_researchAndDevelopementToRevenue": {
+        "raw": 0.0,
+        "pctrank": 0.3288
+      },
+      "m_stockBasedCompensationToRevenue": {
+        "raw": 0.0013,
+        "pctrank": 0.2689
+      },
+      "m_netDebtToEBITDA": {
+        "raw": 4.5992,
+        "pctrank": 0.3761
+      },
+      "m_operatingReturnOnAssets": {
+        "raw": 0.0304,
+        "pctrank": 0.6618
+      },
+      "g_revenueGrowth": {
+        "raw": 0.2194,
+        "pctrank": 0.9391
+      },
+      "g_grossProfitGrowth": {
+        "raw": 0.5659,
+        "pctrank": 0.8761
+      },
+      "g_ebitgrowth": {
+        "raw": 3.0159,
+        "pctrank": 0.9769
+      },
+      "g_operatingIncomeGrowth": {
+        "raw": 2.5405,
+        "pctrank": 0.9664
+      },
+      "g_netIncomeGrowth": {
+        "raw": 2.4899,
+        "pctrank": 0.9496
+      },
+      "g_epsdilutedGrowth": {
+        "raw": 2.4871,
+        "pctrank": 0.9517
+      },
+      "g_freeCashFlowGrowth": {
+        "raw": 1.6111,
+        "pctrank": 0.8908
+      },
+      "g_tenYRevenueGrowthPerShare": {
+        "raw": 2.5614,
+        "pctrank": 0.7983
+      },
+      "g_fiveYRevenueGrowthPerShare": {
+        "raw": 1.0554,
+        "pctrank": 0.8235
+      },
+      "g_threeYRevenueGrowthPerShare": {
+        "raw": 0.5402,
+        "pctrank": 0.8508
+      },
+      "g_receivablesGrowth": {
+        "raw": 0.5957,
+        "pctrank": 0.9832
+      },
+      "g_inventoryGrowth": {
+        "raw": 0.0,
+        "pctrank": 0.3803
+      },
+      "g_assetGrowth": {
+        "raw": 0.1339,
+        "pctrank": 0.916
+      },
+      "g_bookValueperShareGrowth": {
+        "raw": 0.0513,
+        "pctrank": 0.7983
+      },
+      "g_debtGrowth": {
+        "raw": 0.0816,
+        "pctrank": 0.8592
+      },
+      "a_eps_revision": {
+        "raw": -0.2947,
+        "pctrank": 0.0735
+      },
+      "a_revenue_revision": {
+        "raw": 0.0302,
+        "pctrank": 0.3992
+      },
+      "a_eps_dispersion": {
+        "raw": 0.9627,
+        "pctrank": 0.979
+      },
+      "a_num_analysts_eps": {
+        "raw": 16.0,
+        "pctrank": 0.8676
+      },
+      "r_grossProfitMargin_qoq": {
+        "raw": 0.2842,
+        "pctrank": 0.8277
+      },
+      "r_netProfitMargin_qoq": {
+        "raw": 2.2219,
+        "pctrank": 0.9496
+      },
+      "r_operatingProfitMargin_qoq": {
+        "raw": 2.2633,
+        "pctrank": 0.9685
+      },
+      "r_ebitdaMargin_qoq": {
+        "raw": 3.3537,
+        "pctrank": 0.9811
+      }
+    },
+    "MET": {
+      "r_priceToEarningsRatio": {
+        "raw": 10.1029,
+        "pctrank": 0.1324
+      },
+      "r_priceToBookRatio": {
+        "raw": 1.6875,
+        "pctrank": 0.2269
+      },
+      "r_priceToSalesRatio": {
+        "raw": 2.4174,
+        "pctrank": 0.0588
+      },
+      "r_priceToFreeCashFlowRatio": {
+        "raw": 17.1602,
+        "pctrank": 0.2395
+      },
+      "r_enterpriseValueMultiple": {
+        "raw": 24.669,
+        "pctrank": 0.0588
+      },
+      "r_grossProfitMargin": {
+        "raw": 0.3724,
+        "pctrank": 0.3424
+      },
+      "r_netProfitMargin": {
+        "raw": 0.0621,
+        "pctrank": 0.2311
+      },
+      "r_operatingProfitMargin": {
+        "raw": 0.079,
+        "pctrank": 0.1891
+      },
+      "r_ebitdaMargin": {
+        "raw": 0.0929,
+        "pctrank": 0.1239
+      },
+      "r_assetTurnover": {
+        "raw": 0.0257,
+        "pctrank": 0.0672
+      },
+      "r_inventoryTurnover": {
+        "raw": 0.0,
+        "pctrank": 0.1649
+      },
+      "r_receivablesTurnover": {
+        "raw": 0.3789,
+        "pctrank": 0.0903
+      },
+      "r_debtToEquityRatio": {
+        "raw": 0.7426,
+        "pctrank": 0.5273
+      },
+      "r_currentRatio": {
+        "raw": 85.0081,
+        "pctrank": 0.9958
+      },
+      "r_quickRatio": {
+        "raw": 85.0081,
+        "pctrank": 0.9958
+      },
+      "r_financialLeverageRatio": {
+        "raw": 27.1999,
+        "pctrank": 0.9832
+      },
+      "r_freeCashFlowOperatingCashFlowRatio": {
+        "raw": 1.0,
+        "pctrank": 0.8761
+      },
+      "r_operatingCashFlowRatio": {
+        "raw": 3.1281,
+        "pctrank": 0.9937
+      },
+      "r_dividendYieldPercentage": {
+        "raw": 0.9044,
+        "pctrank": 0.8508
+      },
+      "r_dividendPayoutRatio": {
+        "raw": 0.3519,
+        "pctrank": 0.5399
+      },
+      "m_earningsYield": {
+        "raw": 0.0257,
+        "pctrank": 0.9202
+      },
+      "m_evToEBITDA": {
+        "raw": 24.669,
+        "pctrank": 0.0588
+      },
+      "m_evToFreeCashFlow": {
+        "raw": 16.2685,
+        "pctrank": 0.2332
+      },
+      "m_evToSales": {
+        "raw": 2.2918,
+        "pctrank": 0.0357
+      },
+      "m_freeCashFlowYield": {
+        "raw": 0.0583,
+        "pctrank": 0.979
+      },
+      "m_returnOnEquity": {
+        "raw": 0.0434,
+        "pctrank": 0.5567
+      },
+      "m_returnOnAssets": {
+        "raw": 0.0016,
+        "pctrank": 0.0714
+      },
+      "m_returnOnCapitalEmployed": {
+        "raw": 0.002,
+        "pctrank": 0.0567
+      },
+      "m_returnOnInvestedCapital": {
+        "raw": 0.0016,
+        "pctrank": 0.0609
+      },
+      "m_returnOnTangibleAssets": {
+        "raw": 0.0016,
+        "pctrank": 0.0672
+      },
+      "m_incomeQuality": {
+        "raw": 2.2675,
+        "pctrank": 0.8382
+      },
+      "m_grahamNumber": {
+        "raw": 41.3976,
+        "pctrank": 0.6043
+      },
+      "m_cashConversionCycle": {
+        "raw": 237.5039,
+        "pctrank": 0.9433
+      },
+      "m_capexToRevenue": {
+        "raw": 0.0,
+        "pctrank": 0.0242
+      },
+      "m_capexToDepreciation": {
+        "raw": 0.0,
+        "pctrank": 0.0368
+      },
+      "m_researchAndDevelopementToRevenue": {
+        "raw": 0.0,
+        "pctrank": 0.3288
+      },
+      "m_stockBasedCompensationToRevenue": {
+        "raw": 0.0,
+        "pctrank": 0.1345
+      },
+      "m_netDebtToEBITDA": {
+        "raw": -1.3521,
+        "pctrank": 0.1071
+      },
+      "m_operatingReturnOnAssets": {
+        "raw": 0.002,
+        "pctrank": 0.0588
+      },
+      "g_revenueGrowth": {
+        "raw": -0.199,
+        "pctrank": 0.0546
+      },
+      "g_grossProfitGrowth": {
+        "raw": -0.023,
+        "pctrank": 0.3529
+      },
+      "g_ebitgrowth": {
+        "raw": 0.2841,
+        "pctrank": 0.708
+      },
+      "g_operatingIncomeGrowth": {
+        "raw": 0.3491,
+        "pctrank": 0.7941
+      },
+      "g_netIncomeGrowth": {
+        "raw": 0.4648,
+        "pctrank": 0.7605
+      },
+      "g_epsdilutedGrowth": {
+        "raw": 0.4872,
+        "pctrank": 0.7626
+      },
+      "g_freeCashFlowGrowth": {
+        "raw": -0.6678,
+        "pctrank": 0.3025
+      },
+      "g_tenYRevenueGrowthPerShare": {
+        "raw": 0.7471,
+        "pctrank": 0.3235
+      },
+      "g_fiveYRevenueGrowthPerShare": {
+        "raw": 0.6511,
+        "pctrank": 0.6387
+      },
+      "g_threeYRevenueGrowthPerShare": {
+        "raw": 0.4623,
+        "pctrank": 0.7899
+      },
+      "g_receivablesGrowth": {
+        "raw": -0.0722,
+        "pctrank": 0.2332
+      },
+      "g_inventoryGrowth": {
+        "raw": 0.0,
+        "pctrank": 0.3803
+      },
+      "g_assetGrowth": {
+        "raw": -0.0026,
+        "pctrank": 0.3214
+      },
+      "g_bookValueperShareGrowth": {
+        "raw": -0.0196,
+        "pctrank": 0.2017
+      },
+      "g_debtGrowth": {
+        "raw": 0.0054,
+        "pctrank": 0.6555
+      },
+      "a_eps_revision": {
+        "raw": 0.0533,
+        "pctrank": 0.3908
+      },
+      "a_revenue_revision": {
+        "raw": 0.0145,
+        "pctrank": 0.3004
+      },
+      "a_eps_dispersion": {
+        "raw": 0.1224,
+        "pctrank": 0.6744
+      },
+      "a_num_analysts_eps": {
+        "raw": 10.0,
+        "pctrank": 0.4307
+      },
+      "r_grossProfitMargin_qoq": {
+        "raw": 0.2198,
+        "pctrank": 0.8046
+      },
+      "r_netProfitMargin_qoq": {
+        "raw": 0.8288,
+        "pctrank": 0.8445
+      },
+      "r_operatingProfitMargin_qoq": {
+        "raw": 0.6844,
+        "pctrank": 0.8929
+      },
+      "r_ebitdaMargin_qoq": {
+        "raw": 0.6032,
+        "pctrank": 0.8887
+      }
+    },
     "INTU": {
       "r_priceToEarningsRatio": {
         "raw": 8.75,
-        "pctrank": 0.1092
+        "pctrank": 0.1071
       },
       "r_priceToBookRatio": {
         "raw": 5.1978,
@@ -572,15 +1255,15 @@
       },
       "r_priceToSalesRatio": {
         "raw": 12.5293,
-        "pctrank": 0.5168
+        "pctrank": 0.5147
       },
       "r_priceToFreeCashFlowRatio": {
         "raw": 20.4786,
-        "pctrank": 0.2521
+        "pctrank": 0.25
       },
       "r_enterpriseValueMultiple": {
         "raw": 25.2935,
-        "pctrank": 0.0672
+        "pctrank": 0.0651
       },
       "r_grossProfitMargin": {
         "raw": 0.8445,
@@ -628,7 +1311,7 @@
       },
       "r_freeCashFlowOperatingCashFlowRatio": {
         "raw": 0.9879,
-        "pctrank": 0.8277
+        "pctrank": 0.8298
       },
       "r_operatingCashFlowRatio": {
         "raw": 0.4317,
@@ -644,11 +1327,11 @@
       },
       "m_earningsYield": {
         "raw": 0.0286,
-        "pctrank": 0.9391
+        "pctrank": 0.9412
       },
       "m_evToEBITDA": {
         "raw": 25.2935,
-        "pctrank": 0.0672
+        "pctrank": 0.0651
       },
       "m_evToFreeCashFlow": {
         "raw": 20.9024,
@@ -660,7 +1343,7 @@
       },
       "m_freeCashFlowYield": {
         "raw": 0.0488,
-        "pctrank": 0.9664
+        "pctrank": 0.9685
       },
       "m_returnOnEquity": {
         "raw": 0.1485,
@@ -744,7 +1427,7 @@
       },
       "g_freeCashFlowGrowth": {
         "raw": 2.4357,
-        "pctrank": 0.937
+        "pctrank": 0.9391
       },
       "g_tenYRevenueGrowthPerShare": {
         "raw": 2.4587,
@@ -776,15 +1459,15 @@
       },
       "g_debtGrowth": {
         "raw": -0.0842,
-        "pctrank": 0.208
+        "pctrank": 0.2101
       },
       "a_eps_revision": {
-        "raw": 2.5541,
-        "pctrank": 0.9874
+        "raw": 2.4119,
+        "pctrank": 0.9685
       },
       "a_revenue_revision": {
-        "raw": 0.9999,
-        "pctrank": 1.0
+        "raw": 0.8835,
+        "pctrank": 0.9958
       },
       "a_eps_dispersion": {
         "raw": 0.0024,
@@ -792,11 +1475,11 @@
       },
       "a_num_analysts_eps": {
         "raw": 17.0,
-        "pctrank": 0.8929
+        "pctrank": 0.8918
       },
       "r_grossProfitMargin_qoq": {
         "raw": 0.0702,
-        "pctrank": 0.6702
+        "pctrank": 0.6723
       },
       "r_netProfitMargin_qoq": {
         "raw": 1.4029,
@@ -811,1768 +1494,272 @@
         "pctrank": 0.9139
       }
     },
-    "PTC": {
+    "SYF": {
       "r_priceToEarningsRatio": {
-        "raw": 7.1531,
+        "raw": 7.4258,
         "pctrank": 0.0882
       },
       "r_priceToBookRatio": {
-        "raw": 4.3629,
-        "pctrank": 0.605
+        "raw": 1.4135,
+        "pctrank": 0.1555
       },
       "r_priceToSalesRatio": {
-        "raw": 21.7488,
-        "pctrank": 0.7374
+        "raw": 4.1567,
+        "pctrank": 0.1324
       },
       "r_priceToFreeCashFlowRatio": {
-        "raw": 52.9154,
-        "pctrank": 0.4139
+        "raw": 10.6688,
+        "pctrank": 0.229
       },
       "r_enterpriseValueMultiple": {
-        "raw": 22.7862,
-        "pctrank": 0.0504
+        "raw": 18.1259,
+        "pctrank": 0.0336
       },
       "r_grossProfitMargin": {
-        "raw": 0.8378,
-        "pctrank": 0.9328
+        "raw": 0.8272,
+        "pctrank": 0.9265
       },
       "r_netProfitMargin": {
-        "raw": 0.7629,
-        "pctrank": 0.9937
+        "raw": 0.1437,
+        "pctrank": 0.5693
       },
       "r_operatingProfitMargin": {
-        "raw": 0.382,
-        "pctrank": 0.8992
+        "raw": 0.1631,
+        "pctrank": 0.4454
       },
       "r_ebitdaMargin": {
-        "raw": 1.0079,
-        "pctrank": 0.9958
+        "raw": 0.1886,
+        "pctrank": 0.3529
       },
       "r_assetTurnover": {
-        "raw": 0.1184,
-        "pctrank": 0.4118
+        "raw": 0.0461,
+        "pctrank": 0.1345
       },
       "r_inventoryTurnover": {
         "raw": 0.0,
         "pctrank": 0.1649
       },
       "r_receivablesTurnover": {
-        "raw": 0.9081,
-        "pctrank": 0.1618
+        "raw": 0.0625,
+        "pctrank": 0.063
       },
       "r_debtToEquityRatio": {
-        "raw": 0.3578,
-        "pctrank": 0.2941
+        "raw": 0.997,
+        "pctrank": 0.6492
       },
       "r_currentRatio": {
-        "raw": 1.0599,
-        "pctrank": 0.3908
+        "raw": 1.3296,
+        "pctrank": 0.5672
       },
       "r_quickRatio": {
-        "raw": 1.0599,
-        "pctrank": 0.5546
+        "raw": 1.3296,
+        "pctrank": 0.7059
       },
       "r_financialLeverageRatio": {
-        "raw": 1.6936,
-        "pctrank": 0.2101
+        "raw": 7.374,
+        "pctrank": 0.8739
       },
       "r_freeCashFlowOperatingCashFlowRatio": {
-        "raw": 0.9917,
-        "pctrank": 0.834
+        "raw": 1.0,
+        "pctrank": 0.8761
       },
       "r_operatingCashFlowRatio": {
-        "raw": 0.2633,
-        "pctrank": 0.7962
+        "raw": 0.0263,
+        "pctrank": 0.1807
       },
       "r_dividendYieldPercentage": {
-        "raw": 0.0,
-        "pctrank": 0.0903
+        "raw": 0.5367,
+        "pctrank": 0.6155
       },
       "r_dividendPayoutRatio": {
-        "raw": 0.0,
-        "pctrank": 0.1155
+        "raw": 0.1553,
+        "pctrank": 0.3214
       },
       "m_earningsYield": {
-        "raw": 0.0351,
+        "raw": 0.0346,
         "pctrank": 0.9622
       },
       "m_evToEBITDA": {
-        "raw": 22.7862,
-        "pctrank": 0.0504
-      },
-      "m_evToFreeCashFlow": {
-        "raw": 55.8752,
-        "pctrank": 0.3718
-      },
-      "m_evToSales": {
-        "raw": 22.9653,
-        "pctrank": 0.7017
-      },
-      "m_freeCashFlowYield": {
-        "raw": 0.0189,
-        "pctrank": 0.8046
-      },
-      "m_returnOnEquity": {
-        "raw": 0.153,
-        "pctrank": 0.9244
-      },
-      "m_returnOnAssets": {
-        "raw": 0.0904,
-        "pctrank": 0.9853
-      },
-      "m_returnOnCapitalEmployed": {
-        "raw": 0.0556,
-        "pctrank": 0.8109
-      },
-      "m_returnOnInvestedCapital": {
-        "raw": 0.0521,
-        "pctrank": 0.855
-      },
-      "m_returnOnTangibleAssets": {
-        "raw": 0.2513,
-        "pctrank": 0.9979
-      },
-      "m_incomeQuality": {
-        "raw": 0.5433,
-        "pctrank": 0.2164
-      },
-      "m_grahamNumber": {
-        "raw": 60.6048,
-        "pctrank": 0.7725
-      },
-      "m_cashConversionCycle": {
-        "raw": 88.7503,
-        "pctrank": 0.7059
-      },
-      "m_capexToRevenue": {
-        "raw": 0.0034,
-        "pctrank": 0.0861
-      },
-      "m_capexToDepreciation": {
-        "raw": 0.0795,
-        "pctrank": 0.0861
-      },
-      "m_researchAndDevelopementToRevenue": {
-        "raw": 0.1603,
-        "pctrank": 0.9097
-      },
-      "m_stockBasedCompensationToRevenue": {
-        "raw": 0.0886,
-        "pctrank": 0.9601
-      },
-      "m_netDebtToEBITDA": {
-        "raw": 1.207,
-        "pctrank": 0.2101
-      },
-      "m_operatingReturnOnAssets": {
-        "raw": 0.0456,
-        "pctrank": 0.834
-      },
-      "g_revenueGrowth": {
-        "raw": 0.129,
-        "pctrank": 0.8613
-      },
-      "g_grossProfitGrowth": {
-        "raw": 0.1419,
-        "pctrank": 0.687
-      },
-      "g_ebitgrowth": {
-        "raw": 2.6793,
-        "pctrank": 0.9685
-      },
-      "g_operatingIncomeGrowth": {
-        "raw": 0.3377,
-        "pctrank": 0.7857
-      },
-      "g_netIncomeGrowth": {
-        "raw": 2.5475,
-        "pctrank": 0.9517
-      },
-      "g_epsdilutedGrowth": {
-        "raw": 2.5899,
-        "pctrank": 0.9538
-      },
-      "g_freeCashFlowGrowth": {
-        "raw": 0.1901,
-        "pctrank": 0.7143
-      },
-      "g_tenYRevenueGrowthPerShare": {
-        "raw": 1.7531,
-        "pctrank": 0.6996
-      },
-      "g_fiveYRevenueGrowthPerShare": {
-        "raw": 0.6568,
-        "pctrank": 0.6471
-      },
-      "g_threeYRevenueGrowthPerShare": {
-        "raw": 0.429,
-        "pctrank": 0.7563
-      },
-      "g_receivablesGrowth": {
-        "raw": 0.0601,
-        "pctrank": 0.6429
-      },
-      "g_inventoryGrowth": {
-        "raw": 0.0,
-        "pctrank": 0.3803
-      },
-      "g_assetGrowth": {
-        "raw": 0.0171,
-        "pctrank": 0.645
-      },
-      "g_bookValueperShareGrowth": {
-        "raw": 0.0143,
-        "pctrank": 0.5189
-      },
-      "g_debtGrowth": {
-        "raw": -0.1039,
-        "pctrank": 0.1828
-      },
-      "a_eps_revision": {
-        "raw": -0.1322,
-        "pctrank": 0.2589
-      },
-      "a_revenue_revision": {
-        "raw": -0.0621,
-        "pctrank": 0.2274
-      },
-      "a_eps_dispersion": {
-        "raw": 0.1937,
-        "pctrank": 0.8232
-      },
-      "a_num_analysts_eps": {
-        "raw": 11.0,
-        "pctrank": 0.5231
-      },
-      "r_grossProfitMargin_qoq": {
-        "raw": 0.0114,
-        "pctrank": 0.4769
-      },
-      "r_netProfitMargin_qoq": {
-        "raw": 2.1421,
-        "pctrank": 0.9454
-      },
-      "r_operatingProfitMargin_qoq": {
-        "raw": 0.1848,
-        "pctrank": 0.7395
-      },
-      "r_ebitdaMargin_qoq": {
-        "raw": 1.9153,
-        "pctrank": 0.9664
-      }
-    },
-    "EQT": {
-      "r_priceToEarningsRatio": {
-        "raw": 6.3896,
-        "pctrank": 0.0777
-      },
-      "r_priceToBookRatio": {
-        "raw": 1.5838,
-        "pctrank": 0.1996
-      },
-      "r_priceToSalesRatio": {
-        "raw": 11.7747,
-        "pctrank": 0.4916
-      },
-      "r_priceToFreeCashFlowRatio": {
-        "raw": 16.195,
-        "pctrank": 0.2395
-      },
-      "r_enterpriseValueMultiple": {
-        "raw": 16.4954,
+        "raw": 18.1259,
         "pctrank": 0.0336
       },
-      "r_grossProfitMargin": {
-        "raw": 0.9838,
+      "m_evToFreeCashFlow": {
+        "raw": 8.7765,
+        "pctrank": 0.2185
+      },
+      "m_evToSales": {
+        "raw": 3.4194,
+        "pctrank": 0.063
+      },
+      "m_freeCashFlowYield": {
+        "raw": 0.0937,
         "pctrank": 0.9895
       },
-      "r_netProfitMargin": {
-        "raw": 0.4599,
-        "pctrank": 0.9517
-      },
-      "r_operatingProfitMargin": {
-        "raw": 0.6026,
-        "pctrank": 0.979
-      },
-      "r_ebitdaMargin": {
-        "raw": 0.8106,
-        "pctrank": 0.9706
-      },
-      "r_assetTurnover": {
-        "raw": 0.081,
-        "pctrank": 0.2689
-      },
-      "r_inventoryTurnover": {
-        "raw": 0.0,
-        "pctrank": 0.1649
-      },
-      "r_receivablesTurnover": {
-        "raw": 3.5442,
-        "pctrank": 0.8634
-      },
-      "r_debtToEquityRatio": {
-        "raw": 0.2278,
-        "pctrank": 0.2038
-      },
-      "r_currentRatio": {
-        "raw": 0.658,
-        "pctrank": 0.1555
-      },
-      "r_quickRatio": {
-        "raw": 0.658,
-        "pctrank": 0.2584
-      },
-      "r_financialLeverageRatio": {
-        "raw": 1.6598,
-        "pctrank": 0.1954
-      },
-      "r_freeCashFlowOperatingCashFlowRatio": {
-        "raw": 0.8041,
-        "pctrank": 0.4832
-      },
-      "r_operatingCashFlowRatio": {
-        "raw": 1.2914,
-        "pctrank": 0.9748
-      },
-      "r_dividendYieldPercentage": {
-        "raw": 0.2591,
-        "pctrank": 0.3613
-      },
-      "r_dividendPayoutRatio": {
-        "raw": 0.0663,
-        "pctrank": 0.2479
-      },
-      "m_earningsYield": {
-        "raw": 0.0391,
-        "pctrank": 0.9727
-      },
-      "m_evToEBITDA": {
-        "raw": 16.4954,
-        "pctrank": 0.0336
-      },
-      "m_evToFreeCashFlow": {
-        "raw": 18.3911,
-        "pctrank": 0.2416
-      },
-      "m_evToSales": {
-        "raw": 13.3714,
-        "pctrank": 0.4286
-      },
-      "m_freeCashFlowYield": {
-        "raw": 0.0617,
-        "pctrank": 0.979
-      },
       "m_returnOnEquity": {
-        "raw": 0.0619,
-        "pctrank": 0.708
+        "raw": 0.0489,
+        "pctrank": 0.6345
       },
       "m_returnOnAssets": {
-        "raw": 0.0373,
-        "pctrank": 0.8424
+        "raw": 0.0066,
+        "pctrank": 0.208
       },
       "m_returnOnCapitalEmployed": {
-        "raw": 0.0518,
-        "pctrank": 0.7689
+        "raw": 0.0237,
+        "pctrank": 0.4412
       },
       "m_returnOnInvestedCapital": {
-        "raw": 0.04,
-        "pctrank": 0.7626
+        "raw": 0.0235,
+        "pctrank": 0.5315
       },
       "m_returnOnTangibleAssets": {
-        "raw": 0.0394,
-        "pctrank": 0.7038
+        "raw": 0.0068,
+        "pctrank": 0.1933
       },
       "m_incomeQuality": {
-        "raw": 1.966,
-        "pctrank": 0.7899
+        "raw": 2.7118,
+        "pctrank": 0.8718
       },
       "m_grahamNumber": {
-        "raw": 47.4058,
-        "pctrank": 0.6682
+        "raw": 50.4539,
+        "pctrank": 0.6967
       },
       "m_cashConversionCycle": {
-        "raw": -2295.4493,
-        "pctrank": 0.0063
+        "raw": 1440.1446,
+        "pctrank": 0.9958
       },
       "m_capexToRevenue": {
-        "raw": 0.1771,
-        "pctrank": 0.8803
+        "raw": 0.0,
+        "pctrank": 0.0242
       },
       "m_capexToDepreciation": {
-        "raw": 0.914,
-        "pctrank": 0.6218
+        "raw": 0.0,
+        "pctrank": 0.0368
       },
       "m_researchAndDevelopementToRevenue": {
         "raw": 0.0,
         "pctrank": 0.3288
       },
       "m_stockBasedCompensationToRevenue": {
-        "raw": 0.0055,
-        "pctrank": 0.4286
-      },
-      "m_netDebtToEBITDA": {
-        "raw": 1.9697,
-        "pctrank": 0.2437
-      },
-      "m_operatingReturnOnAssets": {
-        "raw": 0.0488,
-        "pctrank": 0.8655
-      },
-      "g_revenueGrowth": {
-        "raw": 0.4859,
-        "pctrank": 0.9916
-      },
-      "g_grossProfitGrowth": {
-        "raw": 2.1851,
-        "pctrank": 0.9622
-      },
-      "g_ebitgrowth": {
-        "raw": 0.9657,
-        "pctrank": 0.8592
-      },
-      "g_operatingIncomeGrowth": {
-        "raw": 1.2253,
-        "pctrank": 0.9307
-      },
-      "g_netIncomeGrowth": {
-        "raw": 1.295,
-        "pctrank": 0.8908
-      },
-      "g_epsdilutedGrowth": {
-        "raw": 1.3056,
-        "pctrank": 0.8929
-      },
-      "g_freeCashFlowGrowth": {
-        "raw": 3.7127,
-        "pctrank": 0.9517
-      },
-      "g_tenYRevenueGrowthPerShare": {
-        "raw": 0.9424,
-        "pctrank": 0.4244
-      },
-      "g_fiveYRevenueGrowthPerShare": {
-        "raw": 0.3235,
-        "pctrank": 0.334
-      },
-      "g_threeYRevenueGrowthPerShare": {
-        "raw": 0.0639,
-        "pctrank": 0.2311
-      },
-      "g_receivablesGrowth": {
-        "raw": -0.3583,
-        "pctrank": 0.0714
-      },
-      "g_inventoryGrowth": {
-        "raw": 0.0,
-        "pctrank": 0.3803
-      },
-      "g_assetGrowth": {
-        "raw": -0.0024,
-        "pctrank": 0.3298
-      },
-      "g_bookValueperShareGrowth": {
-        "raw": 0.0512,
-        "pctrank": 0.7962
-      },
-      "g_debtGrowth": {
-        "raw": -0.2665,
-        "pctrank": 0.0714
-      },
-      "a_eps_revision": {
-        "raw": -0.2481,
-        "pctrank": 0.1347
-      },
-      "a_revenue_revision": {
-        "raw": -0.0534,
-        "pctrank": 0.2842
-      },
-      "a_eps_dispersion": {
-        "raw": 0.6491,
-        "pctrank": 0.9558
-      },
-      "a_num_analysts_eps": {
-        "raw": 13.0,
-        "pctrank": 0.6922
-      },
-      "r_grossProfitMargin_qoq": {
-        "raw": 1.1436,
-        "pctrank": 0.9202
-      },
-      "r_netProfitMargin_qoq": {
-        "raw": 0.5445,
-        "pctrank": 0.8004
-      },
-      "r_operatingProfitMargin_qoq": {
-        "raw": 0.4977,
-        "pctrank": 0.8613
-      },
-      "r_ebitdaMargin_qoq": {
-        "raw": 0.0667,
-        "pctrank": 0.5966
-      }
-    },
-    "FICO": {
-      "r_priceToEarningsRatio": {
-        "raw": 23.8503,
-        "pctrank": 0.542
-      },
-      "r_priceToBookRatio": {
-        "raw": -12.0019,
-        "pctrank": 0.0504
-      },
-      "r_priceToSalesRatio": {
-        "raw": 36.4677,
-        "pctrank": 0.916
-      },
-      "r_priceToFreeCashFlowRatio": {
-        "raw": 113.0647,
-        "pctrank": 0.6723
-      },
-      "r_enterpriseValueMultiple": {
-        "raw": 70.8562,
-        "pctrank": 0.6324
-      },
-      "r_grossProfitMargin": {
-        "raw": 0.8681,
-        "pctrank": 0.9496
-      },
-      "r_netProfitMargin": {
-        "raw": 0.3823,
-        "pctrank": 0.9286
-      },
-      "r_operatingProfitMargin": {
-        "raw": 0.5819,
-        "pctrank": 0.9748
-      },
-      "r_ebitdaMargin": {
-        "raw": 0.5848,
-        "pctrank": 0.916
-      },
-      "r_assetTurnover": {
-        "raw": 0.3377,
-        "pctrank": 0.9013
-      },
-      "r_inventoryTurnover": {
-        "raw": 0.0,
-        "pctrank": 0.1649
-      },
-      "r_receivablesTurnover": {
-        "raw": 1.1157,
-        "pctrank": 0.229
-      },
-      "r_debtToEquityRatio": {
-        "raw": -1.7399,
-        "pctrank": 0.0588
-      },
-      "r_currentRatio": {
-        "raw": 2.2225,
-        "pctrank": 0.8067
-      },
-      "r_quickRatio": {
-        "raw": 2.2225,
-        "pctrank": 0.8803
-      },
-      "r_financialLeverageRatio": {
-        "raw": -0.9746,
-        "pctrank": 0.063
-      },
-      "r_freeCashFlowOperatingCashFlowRatio": {
-        "raw": 0.9988,
-        "pctrank": 0.8487
-      },
-      "r_operatingCashFlowRatio": {
-        "raw": 0.5511,
-        "pctrank": 0.9265
-      },
-      "r_dividendYieldPercentage": {
-        "raw": 0.0,
-        "pctrank": 0.0903
-      },
-      "r_dividendPayoutRatio": {
-        "raw": 0.0,
-        "pctrank": 0.1155
-      },
-      "m_earningsYield": {
-        "raw": 0.0105,
-        "pctrank": 0.5021
-      },
-      "m_evToEBITDA": {
-        "raw": 70.8562,
-        "pctrank": 0.6324
-      },
-      "m_evToFreeCashFlow": {
-        "raw": 128.4718,
-        "pctrank": 0.6597
-      },
-      "m_evToSales": {
-        "raw": 41.437,
-        "pctrank": 0.8992
-      },
-      "m_freeCashFlowYield": {
-        "raw": 0.0088,
-        "pctrank": 0.5462
-      },
-      "m_returnOnEquity": {
-        "raw": -0.1258,
-        "pctrank": 0.0441
-      },
-      "m_returnOnAssets": {
-        "raw": 0.1291,
-        "pctrank": 0.9895
-      },
-      "m_returnOnCapitalEmployed": {
-        "raw": 0.245,
-        "pctrank": 0.9958
-      },
-      "m_returnOnInvestedCapital": {
-        "raw": 0.182,
-        "pctrank": 0.9916
-      },
-      "m_returnOnTangibleAssets": {
-        "raw": 0.2088,
-        "pctrank": 0.9895
-      },
-      "m_incomeQuality": {
-        "raw": 0.8446,
-        "pctrank": 0.3256
-      },
-      "m_cashConversionCycle": {
-        "raw": 44.8106,
-        "pctrank": 0.5147
-      },
-      "m_capexToRevenue": {
-        "raw": 0.0004,
-        "pctrank": 0.0504
-      },
-      "m_capexToDepreciation": {
-        "raw": 0.0684,
-        "pctrank": 0.0798
-      },
-      "m_researchAndDevelopementToRevenue": {
-        "raw": 0.0779,
-        "pctrank": 0.8046
-      },
-      "m_stockBasedCompensationToRevenue": {
-        "raw": 0.0655,
-        "pctrank": 0.9349
-      },
-      "m_netDebtToEBITDA": {
-        "raw": 8.4975,
-        "pctrank": 0.5231
-      },
-      "m_operatingReturnOnAssets": {
-        "raw": 0.2063,
-        "pctrank": 0.9937
-      },
-      "g_revenueGrowth": {
-        "raw": 0.351,
-        "pctrank": 0.9769
-      },
-      "g_grossProfitGrowth": {
-        "raw": 0.4139,
-        "pctrank": 0.8466
-      },
-      "g_ebitgrowth": {
-        "raw": 0.7125,
-        "pctrank": 0.8298
-      },
-      "g_operatingIncomeGrowth": {
-        "raw": 0.7196,
-        "pctrank": 0.8866
-      },
-      "g_netIncomeGrowth": {
-        "raw": 0.6698,
-        "pctrank": 0.8088
-      },
-      "g_epsdilutedGrowth": {
-        "raw": 0.6853,
-        "pctrank": 0.813
-      },
-      "g_freeCashFlowGrowth": {
-        "raw": 0.2832,
-        "pctrank": 0.7437
-      },
-      "g_tenYRevenueGrowthPerShare": {
-        "raw": 3.4288,
-        "pctrank": 0.8739
-      },
-      "g_fiveYRevenueGrowthPerShare": {
-        "raw": 1.5696,
-        "pctrank": 0.9097
-      },
-      "g_threeYRevenueGrowthPerShare": {
-        "raw": 0.9335,
-        "pctrank": 0.9601
-      },
-      "g_receivablesGrowth": {
-        "raw": 0.2521,
-        "pctrank": 0.9139
-      },
-      "g_inventoryGrowth": {
-        "raw": 0.0,
-        "pctrank": 0.3803
-      },
-      "g_assetGrowth": {
-        "raw": 0.1047,
-        "pctrank": 0.9034
-      },
-      "g_bookValueperShareGrowth": {
-        "raw": -0.167,
-        "pctrank": 0.042
-      },
-      "g_debtGrowth": {
-        "raw": 0.1312,
-        "pctrank": 0.9013
-      },
-      "a_eps_revision": {
-        "raw": 0.0228,
-        "pctrank": 0.8
-      },
-      "a_revenue_revision": {
-        "raw": 0.015,
-        "pctrank": 0.8337
-      },
-      "a_eps_dispersion": {
-        "raw": 0.0963,
-        "pctrank": 0.5916
-      },
-      "a_num_analysts_eps": {
-        "raw": 10.0,
-        "pctrank": 0.4338
-      },
-      "r_grossProfitMargin_qoq": {
-        "raw": 0.0465,
-        "pctrank": 0.6113
-      },
-      "r_netProfitMargin_qoq": {
-        "raw": 0.236,
-        "pctrank": 0.6912
-      },
-      "r_operatingProfitMargin_qoq": {
-        "raw": 0.2728,
-        "pctrank": 0.7962
-      },
-      "r_ebitdaMargin_qoq": {
-        "raw": 0.2582,
-        "pctrank": 0.7941
-      }
-    },
-    "NFLX": {
-      "r_priceToEarningsRatio": {
-        "raw": 19.23,
-        "pctrank": 0.4076
-      },
-      "r_priceToBookRatio": {
-        "raw": 13.0443,
-        "pctrank": 0.8761
-      },
-      "r_priceToSalesRatio": {
-        "raw": 33.1452,
-        "pctrank": 0.895
-      },
-      "r_priceToFreeCashFlowRatio": {
-        "raw": 79.7046,
-        "pctrank": 0.5567
-      },
-      "r_enterpriseValueMultiple": {
-        "raw": 36.954,
-        "pctrank": 0.1849
-      },
-      "r_grossProfitMargin": {
-        "raw": 0.5193,
-        "pctrank": 0.5672
-      },
-      "r_netProfitMargin": {
-        "raw": 0.4313,
-        "pctrank": 0.9433
-      },
-      "r_operatingProfitMargin": {
-        "raw": 0.323,
-        "pctrank": 0.8298
-      },
-      "r_ebitdaMargin": {
-        "raw": 0.9082,
-        "pctrank": 0.9895
-      },
-      "r_assetTurnover": {
-        "raw": 0.2008,
-        "pctrank": 0.7395
-      },
-      "r_inventoryTurnover": {
-        "raw": 0.0,
-        "pctrank": 0.1649
-      },
-      "r_receivablesTurnover": {
-        "raw": 6.1135,
-        "pctrank": 0.9244
-      },
-      "r_debtToEquityRatio": {
-        "raw": 0.5379,
-        "pctrank": 0.3929
-      },
-      "r_currentRatio": {
-        "raw": 1.4072,
-        "pctrank": 0.6071
-      },
-      "r_quickRatio": {
-        "raw": 1.4072,
-        "pctrank": 0.7269
-      },
-      "r_financialLeverageRatio": {
-        "raw": 1.9603,
-        "pctrank": 0.3088
-      },
-      "r_freeCashFlowOperatingCashFlowRatio": {
-        "raw": 0.9629,
-        "pctrank": 0.7668
-      },
-      "r_operatingCashFlowRatio": {
-        "raw": 0.4361,
-        "pctrank": 0.8992
-      },
-      "r_dividendYieldPercentage": {
-        "raw": 0.0,
-        "pctrank": 0.0903
-      },
-      "r_dividendPayoutRatio": {
-        "raw": 0.0,
-        "pctrank": 0.1155
-      },
-      "m_earningsYield": {
-        "raw": 0.013,
-        "pctrank": 0.6429
-      },
-      "m_evToEBITDA": {
-        "raw": 36.954,
-        "pctrank": 0.1849
-      },
-      "m_evToFreeCashFlow": {
-        "raw": 80.7088,
-        "pctrank": 0.4685
-      },
-      "m_evToSales": {
-        "raw": 33.5629,
-        "pctrank": 0.8571
-      },
-      "m_freeCashFlowYield": {
-        "raw": 0.0125,
-        "pctrank": 0.6618
-      },
-      "m_returnOnEquity": {
-        "raw": 0.1697,
-        "pctrank": 0.9328
-      },
-      "m_returnOnAssets": {
-        "raw": 0.0866,
-        "pctrank": 0.9748
-      },
-      "m_returnOnCapitalEmployed": {
-        "raw": 0.0809,
-        "pctrank": 0.8929
-      },
-      "m_returnOnInvestedCapital": {
-        "raw": 0.0635,
-        "pctrank": 0.8971
-      },
-      "m_returnOnTangibleAssets": {
-        "raw": 0.0866,
-        "pctrank": 0.937
-      },
-      "m_incomeQuality": {
-        "raw": 1.0014,
-        "pctrank": 0.3866
-      },
-      "m_grahamNumber": {
-        "raw": 14.4042,
-        "pctrank": 0.1967
-      },
-      "m_cashConversionCycle": {
-        "raw": 1.0466,
-        "pctrank": 0.271
-      },
-      "m_capexToRevenue": {
-        "raw": 0.016,
-        "pctrank": 0.2563
-      },
-      "m_capexToDepreciation": {
-        "raw": 0.0454,
-        "pctrank": 0.0693
-      },
-      "m_researchAndDevelopementToRevenue": {
-        "raw": 0.0783,
-        "pctrank": 0.8088
-      },
-      "m_stockBasedCompensationToRevenue": {
-        "raw": 0.0115,
-        "pctrank": 0.6345
-      },
-      "m_netDebtToEBITDA": {
-        "raw": 0.4598,
-        "pctrank": 0.166
-      },
-      "m_operatingReturnOnAssets": {
-        "raw": 0.0679,
-        "pctrank": 0.9391
-      },
-      "g_revenueGrowth": {
-        "raw": 0.0165,
-        "pctrank": 0.5861
-      },
-      "g_grossProfitGrowth": {
-        "raw": 0.1508,
-        "pctrank": 0.7038
-      },
-      "g_ebitgrowth": {
-        "raw": 1.2681,
-        "pctrank": 0.9118
-      },
-      "g_operatingIncomeGrowth": {
-        "raw": 0.3383,
-        "pctrank": 0.7878
-      },
-      "g_netIncomeGrowth": {
-        "raw": 1.1843,
-        "pctrank": 0.8845
-      },
-      "g_epsdilutedGrowth": {
-        "raw": 1.1964,
-        "pctrank": 0.8803
-      },
-      "g_freeCashFlowGrowth": {
-        "raw": 1.7207,
-        "pctrank": 0.8971
-      },
-      "g_tenYRevenueGrowthPerShare": {
-        "raw": 5.3436,
-        "pctrank": 0.9433
-      },
-      "g_fiveYRevenueGrowthPerShare": {
-        "raw": 0.7949,
-        "pctrank": 0.729
-      },
-      "g_threeYRevenueGrowthPerShare": {
-        "raw": 0.5825,
-        "pctrank": 0.8845
-      },
-      "g_receivablesGrowth": {
-        "raw": -0.2244,
-        "pctrank": 0.1071
-      },
-      "g_inventoryGrowth": {
-        "raw": 0.0,
-        "pctrank": 0.3803
-      },
-      "g_assetGrowth": {
-        "raw": 0.0975,
-        "pctrank": 0.9013
-      },
-      "g_bookValueperShareGrowth": {
-        "raw": 0.1713,
-        "pctrank": 0.9412
-      },
-      "g_debtGrowth": {
-        "raw": 0.1576,
-        "pctrank": 0.9139
-      },
-      "a_eps_revision": {
-        "raw": -0.0622,
-        "pctrank": 0.4821
-      },
-      "a_revenue_revision": {
-        "raw": -0.0329,
-        "pctrank": 0.4295
-      },
-      "a_eps_dispersion": {
-        "raw": 0.038,
-        "pctrank": 0.2189
-      },
-      "a_num_analysts_eps": {
-        "raw": 23.0,
-        "pctrank": 0.9653
-      },
-      "r_grossProfitMargin_qoq": {
-        "raw": 0.1321,
-        "pctrank": 0.7395
-      },
-      "r_netProfitMargin_qoq": {
-        "raw": 1.1488,
-        "pctrank": 0.8887
-      },
-      "r_operatingProfitMargin_qoq": {
-        "raw": 0.3166,
-        "pctrank": 0.813
-      },
-      "r_ebitdaMargin_qoq": {
-        "raw": 0.3938,
-        "pctrank": 0.8445
-      }
-    },
-    "NEM": {
-      "r_priceToEarningsRatio": {
-        "raw": 8.9909,
-        "pctrank": 0.1113
-      },
-      "r_priceToBookRatio": {
-        "raw": 3.3629,
-        "pctrank": 0.5084
-      },
-      "r_priceToSalesRatio": {
-        "raw": 16.3513,
-        "pctrank": 0.6492
-      },
-      "r_priceToFreeCashFlowRatio": {
-        "raw": 37.3573,
-        "pctrank": 0.3319
-      },
-      "r_enterpriseValueMultiple": {
-        "raw": 20.8366,
-        "pctrank": 0.0441
-      },
-      "r_grossProfitMargin": {
-        "raw": 0.6244,
-        "pctrank": 0.6933
-      },
-      "r_netProfitMargin": {
-        "raw": 0.4541,
-        "pctrank": 0.9496
-      },
-      "r_operatingProfitMargin": {
-        "raw": 0.6063,
-        "pctrank": 0.9811
-      },
-      "r_ebitdaMargin": {
-        "raw": 0.7631,
-        "pctrank": 0.9622
-      },
-      "r_assetTurnover": {
-        "raw": 0.1246,
-        "pctrank": 0.4517
-      },
-      "r_inventoryTurnover": {
-        "raw": 0.9948,
-        "pctrank": 0.5756
-      },
-      "r_receivablesTurnover": {
-        "raw": 4.2884,
-        "pctrank": 0.8971
-      },
-      "r_debtToEquityRatio": {
-        "raw": 0.1584,
-        "pctrank": 0.1639
-      },
-      "r_currentRatio": {
-        "raw": 2.4428,
-        "pctrank": 0.8382
-      },
-      "r_quickRatio": {
-        "raw": 1.9524,
-        "pctrank": 0.8487
-      },
-      "r_financialLeverageRatio": {
-        "raw": 1.6512,
-        "pctrank": 0.1933
-      },
-      "r_freeCashFlowOperatingCashFlowRatio": {
-        "raw": 0.8306,
-        "pctrank": 0.5189
-      },
-      "r_operatingCashFlowRatio": {
-        "raw": 0.6843,
-        "pctrank": 0.9517
-      },
-      "r_dividendYieldPercentage": {
-        "raw": 0.2401,
-        "pctrank": 0.3382
-      },
-      "r_dividendPayoutRatio": {
-        "raw": 0.0865,
-        "pctrank": 0.2605
-      },
-      "m_earningsYield": {
-        "raw": 0.0278,
-        "pctrank": 0.9349
-      },
-      "m_evToEBITDA": {
-        "raw": 20.8366,
-        "pctrank": 0.0441
-      },
-      "m_evToFreeCashFlow": {
-        "raw": 36.3248,
-        "pctrank": 0.2983
-      },
-      "m_evToSales": {
-        "raw": 15.8994,
-        "pctrank": 0.5357
-      },
-      "m_freeCashFlowYield": {
-        "raw": 0.0268,
-        "pctrank": 0.8866
-      },
-      "m_returnOnEquity": {
-        "raw": 0.0934,
-        "pctrank": 0.8214
-      },
-      "m_returnOnAssets": {
-        "raw": 0.0566,
-        "pctrank": 0.9307
-      },
-      "m_returnOnCapitalEmployed": {
-        "raw": 0.0835,
-        "pctrank": 0.9013
-      },
-      "m_returnOnInvestedCapital": {
-        "raw": 0.0586,
-        "pctrank": 0.8718
-      },
-      "m_returnOnTangibleAssets": {
-        "raw": 0.0593,
-        "pctrank": 0.8529
-      },
-      "m_incomeQuality": {
-        "raw": 1.1373,
-        "pctrank": 0.479
-      },
-      "m_grahamNumber": {
-        "raw": 46.6636,
-        "pctrank": 0.6564
-      },
-      "m_cashConversionCycle": {
-        "raw": 83.8336,
-        "pctrank": 0.6681
-      },
-      "m_capexToRevenue": {
-        "raw": 0.0892,
-        "pctrank": 0.7983
-      },
-      "m_capexToDepreciation": {
-        "raw": 1.0142,
-        "pctrank": 0.6597
-      },
-      "m_researchAndDevelopementToRevenue": {
-        "raw": 0.0063,
-        "pctrank": 0.6681
-      },
-      "m_stockBasedCompensationToRevenue": {
         "raw": 0.0,
         "pctrank": 0.1345
       },
       "m_netDebtToEBITDA": {
-        "raw": -0.5922,
-        "pctrank": 0.1303
+        "raw": -3.9082,
+        "pctrank": 0.0567
       },
       "m_operatingReturnOnAssets": {
-        "raw": 0.0759,
-        "pctrank": 0.9517
-      },
-      "g_revenueGrowth": {
-        "raw": 0.0931,
-        "pctrank": 0.8088
-      },
-      "g_grossProfitGrowth": {
-        "raw": 0.1616,
-        "pctrank": 0.7143
-      },
-      "g_ebitgrowth": {
-        "raw": 0.3829,
-        "pctrank": 0.7605
-      },
-      "g_operatingIncomeGrowth": {
-        "raw": 0.1809,
-        "pctrank": 0.6891
-      },
-      "g_netIncomeGrowth": {
-        "raw": 1.5073,
-        "pctrank": 0.9139
-      },
-      "g_epsdilutedGrowth": {
-        "raw": 1.4793,
-        "pctrank": 0.9097
-      },
-      "g_freeCashFlowGrowth": {
-        "raw": -0.4624,
-        "pctrank": 0.3992
-      },
-      "g_tenYRevenueGrowthPerShare": {
-        "raw": 0.6942,
-        "pctrank": 0.3067
-      },
-      "g_fiveYRevenueGrowthPerShare": {
-        "raw": 0.8235,
-        "pctrank": 0.7374
-      },
-      "g_threeYRevenueGrowthPerShare": {
-        "raw": 0.9809,
-        "pctrank": 0.9643
-      },
-      "g_receivablesGrowth": {
-        "raw": -0.0401,
-        "pctrank": 0.3088
-      },
-      "g_inventoryGrowth": {
-        "raw": 0.0086,
-        "pctrank": 0.5819
-      },
-      "g_assetGrowth": {
-        "raw": 0.0096,
-        "pctrank": 0.5378
-      },
-      "g_bookValueperShareGrowth": {
-        "raw": 0.051,
-        "pctrank": 0.7941
-      },
-      "g_debtGrowth": {
-        "raw": -0.0315,
-        "pctrank": 0.3466
-      },
-      "a_eps_revision": {
-        "raw": -0.1495,
-        "pctrank": 0.2274
-      },
-      "a_revenue_revision": {
-        "raw": -0.0831,
-        "pctrank": 0.1537
-      },
-      "a_eps_dispersion": {
-        "raw": 0.2044,
-        "pctrank": 0.8316
-      },
-      "a_num_analysts_eps": {
-        "raw": 7.0,
-        "pctrank": 0.2027
-      },
-      "r_grossProfitMargin_qoq": {
-        "raw": 0.0626,
-        "pctrank": 0.6513
-      },
-      "r_netProfitMargin_qoq": {
-        "raw": 1.2937,
-        "pctrank": 0.9055
-      },
-      "r_operatingProfitMargin_qoq": {
-        "raw": 0.0802,
-        "pctrank": 0.6134
-      },
-      "r_ebitdaMargin_qoq": {
-        "raw": 0.2335,
-        "pctrank": 0.7836
-      }
-    },
-    "BIIB": {
-      "r_priceToEarningsRatio": {
-        "raw": 21.121,
-        "pctrank": 0.4643
-      },
-      "r_priceToBookRatio": {
-        "raw": 1.4468,
-        "pctrank": 0.1723
-      },
-      "r_priceToSalesRatio": {
-        "raw": 10.8912,
-        "pctrank": 0.4433
-      },
-      "r_priceToFreeCashFlowRatio": {
-        "raw": 38.7343,
-        "pctrank": 0.3361
-      },
-      "r_enterpriseValueMultiple": {
-        "raw": 54.4895,
-        "pctrank": 0.4202
-      },
-      "r_grossProfitMargin": {
-        "raw": 0.7332,
-        "pctrank": 0.8403
-      },
-      "r_netProfitMargin": {
-        "raw": 0.1289,
-        "pctrank": 0.5021
-      },
-      "r_operatingProfitMargin": {
-        "raw": 0.1604,
-        "pctrank": 0.4328
-      },
-      "r_ebitdaMargin": {
-        "raw": 0.2234,
-        "pctrank": 0.4538
-      },
-      "r_assetTurnover": {
-        "raw": 0.084,
-        "pctrank": 0.2815
-      },
-      "r_inventoryTurnover": {
-        "raw": 0.3391,
-        "pctrank": 0.355
-      },
-      "r_receivablesTurnover": {
-        "raw": 1.3839,
-        "pctrank": 0.3866
-      },
-      "r_debtToEquityRatio": {
-        "raw": 0.3518,
-        "pctrank": 0.2857
-      },
-      "r_currentRatio": {
-        "raw": 3.0646,
-        "pctrank": 0.8845
-      },
-      "r_quickRatio": {
-        "raw": 2.4147,
-        "pctrank": 0.8971
-      },
-      "r_financialLeverageRatio": {
-        "raw": 1.5807,
-        "pctrank": 0.1765
-      },
-      "r_freeCashFlowOperatingCashFlowRatio": {
-        "raw": 1.0793,
-        "pctrank": 0.9139
-      },
-      "r_operatingCashFlowRatio": {
-        "raw": 0.2152,
-        "pctrank": 0.7353
-      },
-      "r_dividendYieldPercentage": {
-        "raw": 0.0,
-        "pctrank": 0.0903
-      },
-      "r_dividendPayoutRatio": {
-        "raw": 0.0,
-        "pctrank": 0.1155
-      },
-      "m_earningsYield": {
-        "raw": 0.0118,
-        "pctrank": 0.5861
-      },
-      "m_evToEBITDA": {
-        "raw": 54.4895,
-        "pctrank": 0.4202
-      },
-      "m_evToFreeCashFlow": {
-        "raw": 43.2975,
-        "pctrank": 0.3361
-      },
-      "m_evToSales": {
-        "raw": 12.1743,
-        "pctrank": 0.3992
-      },
-      "m_freeCashFlowYield": {
-        "raw": 0.0258,
-        "pctrank": 0.8824
-      },
-      "m_returnOnEquity": {
-        "raw": 0.0171,
-        "pctrank": 0.2059
-      },
-      "m_returnOnAssets": {
-        "raw": 0.0108,
-        "pctrank": 0.3845
-      },
-      "m_returnOnCapitalEmployed": {
-        "raw": 0.015,
-        "pctrank": 0.2647
-      },
-      "m_returnOnInvestedCapital": {
-        "raw": 0.0127,
-        "pctrank": 0.2836
-      },
-      "m_returnOnTangibleAssets": {
-        "raw": 0.0229,
-        "pctrank": 0.521
-      },
-      "m_incomeQuality": {
-        "raw": 2.0203,
-        "pctrank": 0.8025
-      },
-      "m_grahamNumber": {
-        "raw": 78.6644,
-        "pctrank": 0.872
-      },
-      "m_cashConversionCycle": {
-        "raw": 281.5901,
-        "pctrank": 0.9601
-      },
-      "m_capexToRevenue": {
-        "raw": 0.0207,
-        "pctrank": 0.3361
-      },
-      "m_capexToDepreciation": {
-        "raw": 0.2505,
+        "raw": 0.0076,
         "pctrank": 0.1576
       },
-      "m_researchAndDevelopementToRevenue": {
-        "raw": 0.2313,
-        "pctrank": 0.9538
-      },
-      "m_stockBasedCompensationToRevenue": {
-        "raw": 0.0339,
-        "pctrank": 0.8508
-      },
-      "m_netDebtToEBITDA": {
-        "raw": 5.7428,
-        "pctrank": 0.4202
-      },
-      "m_operatingReturnOnAssets": {
-        "raw": 0.0135,
-        "pctrank": 0.3172
-      },
       "g_revenueGrowth": {
-        "raw": 0.0871,
-        "pctrank": 0.7962
-      },
-      "g_grossProfitGrowth": {
-        "raw": 0.019,
-        "pctrank": 0.4664
-      },
-      "g_ebitgrowth": {
-        "raw": 3.9066,
-        "pctrank": 0.979
-      },
-      "g_operatingIncomeGrowth": {
-        "raw": 7.9719,
-        "pctrank": 0.9937
-      },
-      "g_netIncomeGrowth": {
-        "raw": 7.5997,
-        "pctrank": 0.9874
-      },
-      "g_epsdilutedGrowth": {
-        "raw": 7.5152,
-        "pctrank": 0.9874
-      },
-      "g_freeCashFlowGrowth": {
-        "raw": 0.2533,
-        "pctrank": 0.7374
-      },
-      "g_tenYRevenueGrowthPerShare": {
-        "raw": 0.3513,
-        "pctrank": 0.166
-      },
-      "g_fiveYRevenueGrowthPerShare": {
-        "raw": -0.0509,
-        "pctrank": 0.0672
-      },
-      "g_threeYRevenueGrowthPerShare": {
-        "raw": -0.0131,
-        "pctrank": 0.1261
-      },
-      "g_receivablesGrowth": {
-        "raw": -0.041,
-        "pctrank": 0.3067
-      },
-      "g_inventoryGrowth": {
-        "raw": -0.1011,
-        "pctrank": 0.0525
-      },
-      "g_assetGrowth": {
-        "raw": 0.0015,
-        "pctrank": 0.3866
-      },
-      "g_bookValueperShareGrowth": {
-        "raw": 0.0182,
-        "pctrank": 0.5651
-      },
-      "g_debtGrowth": {
-        "raw": -0.0556,
-        "pctrank": 0.2773
-      },
-      "a_eps_revision": {
-        "raw": -0.1913,
-        "pctrank": 0.1895
-      },
-      "a_revenue_revision": {
-        "raw": -0.0436,
-        "pctrank": 0.3326
-      },
-      "a_eps_dispersion": {
-        "raw": 0.4645,
-        "pctrank": 0.9368
-      },
-      "a_num_analysts_eps": {
-        "raw": 21.0,
-        "pctrank": 0.9433
-      },
-      "r_grossProfitMargin_qoq": {
-        "raw": -0.0627,
-        "pctrank": 0.1702
-      },
-      "r_netProfitMargin_qoq": {
-        "raw": 7.071,
-        "pctrank": 0.9895
-      },
-      "r_operatingProfitMargin_qoq": {
-        "raw": 7.4134,
-        "pctrank": 0.9916
-      },
-      "r_ebitdaMargin_qoq": {
-        "raw": 1.3999,
-        "pctrank": 0.9496
-      }
-    },
-    "NVDA": {
-      "r_priceToEarningsRatio": {
-        "raw": 22.5635,
-        "pctrank": 0.5126
-      },
-      "r_priceToBookRatio": {
-        "raw": 26.912,
-        "pctrank": 0.9664
-      },
-      "r_priceToSalesRatio": {
-        "raw": 64.4562,
-        "pctrank": 0.9874
-      },
-      "r_priceToFreeCashFlowRatio": {
-        "raw": 108.2716,
-        "pctrank": 0.6597
-      },
-      "r_enterpriseValueMultiple": {
-        "raw": 74.3003,
-        "pctrank": 0.6639
-      },
-      "r_grossProfitMargin": {
-        "raw": 0.7493,
-        "pctrank": 0.855
-      },
-      "r_netProfitMargin": {
-        "raw": 0.7146,
-        "pctrank": 0.9895
-      },
-      "r_operatingProfitMargin": {
-        "raw": 0.656,
-        "pctrank": 0.9853
-      },
-      "r_ebitdaMargin": {
-        "raw": 0.8674,
-        "pctrank": 0.979
-      },
-      "r_assetTurnover": {
-        "raw": 0.3145,
-        "pctrank": 0.8887
-      },
-      "r_inventoryTurnover": {
-        "raw": 0.793,
-        "pctrank": 0.5105
-      },
-      "r_receivablesTurnover": {
-        "raw": 2.0048,
-        "pctrank": 0.6429
-      },
-      "r_debtToEquityRatio": {
-        "raw": 0.0656,
-        "pctrank": 0.1176
-      },
-      "r_currentRatio": {
-        "raw": 3.4408,
+        "raw": 0.1756,
         "pctrank": 0.9118
       },
-      "r_quickRatio": {
-        "raw": 2.8529,
-        "pctrank": 0.9181
-      },
-      "r_financialLeverageRatio": {
-        "raw": 1.3274,
-        "pctrank": 0.1029
-      },
-      "r_freeCashFlowOperatingCashFlowRatio": {
-        "raw": 0.9651,
-        "pctrank": 0.7689
-      },
-      "r_operatingCashFlowRatio": {
-        "raw": 1.1472,
-        "pctrank": 0.9727
-      },
-      "r_dividendYieldPercentage": {
-        "raw": 0.0046,
-        "pctrank": 0.1807
-      },
-      "r_dividendPayoutRatio": {
-        "raw": 0.0042,
-        "pctrank": 0.2059
-      },
-      "m_earningsYield": {
-        "raw": 0.0111,
-        "pctrank": 0.5378
-      },
-      "m_evToEBITDA": {
-        "raw": 74.3003,
-        "pctrank": 0.6639
-      },
-      "m_evToFreeCashFlow": {
-        "raw": 108.2629,
-        "pctrank": 0.6008
-      },
-      "m_evToSales": {
-        "raw": 64.451,
-        "pctrank": 0.9832
-      },
-      "m_freeCashFlowYield": {
-        "raw": 0.0092,
-        "pctrank": 0.5588
-      },
-      "m_returnOnEquity": {
-        "raw": 0.2984,
-        "pctrank": 0.9706
-      },
-      "m_returnOnAssets": {
-        "raw": 0.2248,
-        "pctrank": 1.0
-      },
-      "m_returnOnCapitalEmployed": {
-        "raw": 0.2483,
-        "pctrank": 0.9979
-      },
-      "m_returnOnInvestedCapital": {
-        "raw": 0.2058,
-        "pctrank": 0.9958
-      },
-      "m_returnOnTangibleAssets": {
-        "raw": 0.2477,
-        "pctrank": 0.9958
-      },
-      "m_incomeQuality": {
-        "raw": 0.8632,
-        "pctrank": 0.334
-      },
-      "m_grahamNumber": {
-        "raw": 20.8541,
-        "pctrank": 0.3128
-      },
-      "m_cashConversionCycle": {
-        "raw": 100.763,
-        "pctrank": 0.7563
-      },
-      "m_capexToRevenue": {
-        "raw": 0.0215,
-        "pctrank": 0.3403
-      },
-      "m_capexToDepreciation": {
-        "raw": 1.7623,
-        "pctrank": 0.8445
-      },
-      "m_researchAndDevelopementToRevenue": {
-        "raw": 0.0774,
-        "pctrank": 0.8025
-      },
-      "m_stockBasedCompensationToRevenue": {
-        "raw": 0.0236,
-        "pctrank": 0.7941
-      },
-      "m_netDebtToEBITDA": {
-        "raw": -0.006,
-        "pctrank": 0.1534
-      },
-      "m_operatingReturnOnAssets": {
-        "raw": 0.2296,
-        "pctrank": 0.9979
-      },
-      "g_revenueGrowth": {
-        "raw": 0.198,
-        "pctrank": 0.9265
-      },
       "g_grossProfitGrowth": {
-        "raw": 0.197,
-        "pctrank": 0.7626
+        "raw": 0.9715,
+        "pctrank": 0.9076
       },
       "g_ebitgrowth": {
-        "raw": 0.383,
-        "pctrank": 0.7626
+        "raw": -0.0399,
+        "pctrank": 0.4097
       },
       "g_operatingIncomeGrowth": {
-        "raw": 0.2085,
-        "pctrank": 0.7206
+        "raw": -0.0399,
+        "pctrank": 0.4118
       },
       "g_netIncomeGrowth": {
-        "raw": 0.3576,
-        "pctrank": 0.7101
+        "raw": 0.0719,
+        "pctrank": 0.5252
       },
       "g_epsdilutedGrowth": {
-        "raw": 0.358,
-        "pctrank": 0.7143
+        "raw": 0.1127,
+        "pctrank": 0.5588
       },
       "g_freeCashFlowGrowth": {
-        "raw": 0.392,
-        "pctrank": 0.7731
+        "raw": -0.1104,
+        "pctrank": 0.5861
       },
       "g_tenYRevenueGrowthPerShare": {
-        "raw": 54.3143,
-        "pctrank": 0.9958
+        "raw": 3.6377,
+        "pctrank": 0.8866
       },
       "g_fiveYRevenueGrowthPerShare": {
-        "raw": 13.7459,
-        "pctrank": 0.9937
+        "raw": 2.3097,
+        "pctrank": 0.9517
       },
       "g_threeYRevenueGrowthPerShare": {
-        "raw": 10.5415,
-        "pctrank": 1.0
+        "raw": 0.8069,
+        "pctrank": 0.9433
       },
       "g_receivablesGrowth": {
-        "raw": 0.0583,
-        "pctrank": 0.6324
+        "raw": 0.0,
+        "pctrank": 0.4286
       },
       "g_inventoryGrowth": {
-        "raw": 0.2053,
-        "pctrank": 0.9706
+        "raw": 0.0,
+        "pctrank": 0.3803
       },
       "g_assetGrowth": {
-        "raw": 0.2547,
-        "pctrank": 0.9706
+        "raw": 0.0202,
+        "pctrank": 0.6765
       },
       "g_bookValueperShareGrowth": {
-        "raw": 0.2437,
-        "pctrank": 0.9601
+        "raw": 0.0271,
+        "pctrank": 0.645
       },
       "g_debtGrowth": {
-        "raw": 0.1229,
-        "pctrank": 0.895
+        "raw": 0.0821,
+        "pctrank": 0.8613
       },
       "a_eps_revision": {
-        "raw": -0.1558,
-        "pctrank": 0.2211
+        "raw": -0.0449,
+        "pctrank": 0.1996
       },
       "a_revenue_revision": {
-        "raw": -0.1396,
-        "pctrank": 0.08
+        "raw": -0.0152,
+        "pctrank": 0.1618
       },
       "a_eps_dispersion": {
-        "raw": 0.1299,
-        "pctrank": 0.7074
+        "raw": 0.2255,
+        "pctrank": 0.8319
       },
       "a_num_analysts_eps": {
-        "raw": 26.0,
-        "pctrank": 0.9863
+        "raw": 11.0,
+        "pctrank": 0.5095
       },
       "r_grossProfitMargin_qoq": {
-        "raw": -0.0008,
-        "pctrank": 0.3782
+        "raw": 0.677,
+        "pctrank": 0.8908
       },
       "r_netProfitMargin_qoq": {
-        "raw": 0.1332,
-        "pctrank": 0.5966
+        "raw": -0.0882,
+        "pctrank": 0.3193
       },
       "r_operatingProfitMargin_qoq": {
-        "raw": 0.0088,
-        "pctrank": 0.4895
+        "raw": -0.1833,
+        "pctrank": 0.1996
       },
       "r_ebitdaMargin_qoq": {
-        "raw": 0.1524,
-        "pctrank": 0.7017
+        "raw": -0.1759,
+        "pctrank": 0.2038
       }
     },
     "AJG": {
       "r_priceToEarningsRatio": {
         "raw": 16.9203,
-        "pctrank": 0.3424
+        "pctrank": 0.3403
       },
       "r_priceToBookRatio": {
         "raw": 2.3422,
-        "pctrank": 0.3676
+        "pctrank": 0.3655
       },
       "r_priceToSalesRatio": {
         "raw": 11.7038,
-        "pctrank": 0.4874
+        "pctrank": 0.4853
       },
       "r_priceToFreeCashFlowRatio": {
         "raw": 60.4634,
-        "pctrank": 0.4643
+        "pctrank": 0.4622
       },
       "r_enterpriseValueMultiple": {
         "raw": 35.9824,
@@ -2624,7 +1811,7 @@
       },
       "r_freeCashFlowOperatingCashFlowRatio": {
         "raw": 0.9624,
-        "pctrank": 0.7647
+        "pctrank": 0.7668
       },
       "r_operatingCashFlowRatio": {
         "raw": 0.0242,
@@ -2640,7 +1827,7 @@
       },
       "m_earningsYield": {
         "raw": 0.0148,
-        "pctrank": 0.7038
+        "pctrank": 0.7059
       },
       "m_evToEBITDA": {
         "raw": 35.9824,
@@ -2652,11 +1839,11 @@
       },
       "m_evToSales": {
         "raw": 11.6462,
-        "pctrank": 0.3761
+        "pctrank": 0.3739
       },
       "m_freeCashFlowYield": {
         "raw": 0.0165,
-        "pctrank": 0.7542
+        "pctrank": 0.7563
       },
       "m_returnOnEquity": {
         "raw": 0.0346,
@@ -2748,7 +1935,7 @@
       },
       "g_fiveYRevenueGrowthPerShare": {
         "raw": 0.6665,
-        "pctrank": 0.6555
+        "pctrank": 0.6576
       },
       "g_threeYRevenueGrowthPerShare": {
         "raw": 0.4552,
@@ -2775,20 +1962,20 @@
         "pctrank": 0.0105
       },
       "a_eps_revision": {
-        "raw": -0.0816,
-        "pctrank": 0.4147
+        "raw": -0.3625,
+        "pctrank": 0.0546
       },
       "a_revenue_revision": {
-        "raw": -0.0156,
-        "pctrank": 0.6105
+        "raw": -0.1541,
+        "pctrank": 0.0483
       },
       "a_eps_dispersion": {
         "raw": 0.0734,
-        "pctrank": 0.4947
+        "pctrank": 0.4769
       },
       "a_num_analysts_eps": {
         "raw": 13.0,
-        "pctrank": 0.6922
+        "pctrank": 0.688
       },
       "r_grossProfitMargin_qoq": {
         "raw": 1.1698,
@@ -2807,255 +1994,1004 @@
         "pctrank": 0.9013
       }
     },
-    "PLTR": {
+    "HST": {
       "r_priceToEarningsRatio": {
-        "raw": 101.5833,
-        "pctrank": 0.9769
+        "raw": 6.7465,
+        "pctrank": 0.0819
       },
       "r_priceToBookRatio": {
-        "raw": 41.4425,
-        "pctrank": 0.9832
+        "raw": 1.9435,
+        "pctrank": 0.2836
       },
       "r_priceToSalesRatio": {
-        "raw": 214.4915,
-        "pctrank": 1.0
+        "raw": 8.0658,
+        "pctrank": 0.3256
       },
       "r_priceToFreeCashFlowRatio": {
-        "raw": 392.6769,
-        "pctrank": 0.9391
+        "raw": 60.3105,
+        "pctrank": 0.458
       },
       "r_enterpriseValueMultiple": {
-        "raw": 388.7745,
-        "pctrank": 0.9895
+        "raw": 22.4385,
+        "pctrank": 0.0462
       },
       "r_grossProfitMargin": {
-        "raw": 0.8678,
-        "pctrank": 0.9475
+        "raw": 0.0912,
+        "pctrank": 0.0378
       },
       "r_netProfitMargin": {
-        "raw": 0.5332,
-        "pctrank": 0.9643
+        "raw": 0.3003,
+        "pctrank": 0.8655
       },
       "r_operatingProfitMargin": {
-        "raw": 0.4618,
-        "pctrank": 0.9517
+        "raw": 0.1897,
+        "pctrank": 0.5378
       },
       "r_ebitdaMargin": {
-        "raw": 0.5484,
-        "pctrank": 0.9013
+        "raw": 0.4663,
+        "pctrank": 0.834
       },
       "r_assetTurnover": {
-        "raw": 0.1601,
-        "pctrank": 0.6176
+        "raw": 0.1251,
+        "pctrank": 0.4601
       },
       "r_inventoryTurnover": {
         "raw": 0.0,
         "pctrank": 0.1649
       },
       "r_receivablesTurnover": {
-        "raw": 1.1615,
-        "pctrank": 0.2521
+        "raw": 6.7695,
+        "pctrank": 0.9307
       },
       "r_debtToEquityRatio": {
-        "raw": 0.0251,
-        "pctrank": 0.0945
+        "raw": 0.8269,
+        "pctrank": 0.5777
       },
       "r_currentRatio": {
-        "raw": 6.9068,
-        "pctrank": 0.9685
+        "raw": 1.5605,
+        "pctrank": 0.6639
       },
       "r_quickRatio": {
-        "raw": 6.9068,
-        "pctrank": 0.9685
+        "raw": 1.5605,
+        "pctrank": 0.771
       },
       "r_financialLeverageRatio": {
-        "raw": 1.2071,
-        "pctrank": 0.0777
+        "raw": 1.9268,
+        "pctrank": 0.292
       },
       "r_freeCashFlowOperatingCashFlowRatio": {
-        "raw": 0.9918,
-        "pctrank": 0.8361
+        "raw": 0.6433,
+        "pctrank": 0.3361
       },
       "r_operatingCashFlowRatio": {
-        "raw": 0.6502,
-        "pctrank": 0.9454
+        "raw": 0.2743,
+        "pctrank": 0.8046
       },
       "r_dividendYieldPercentage": {
-        "raw": 0.0,
-        "pctrank": 0.0903
+        "raw": 1.8164,
+        "pctrank": 0.9853
       },
       "r_dividendPayoutRatio": {
-        "raw": 0.0,
-        "pctrank": 0.1155
+        "raw": 0.4879,
+        "pctrank": 0.6744
       },
       "m_earningsYield": {
-        "raw": 0.0025,
-        "pctrank": 0.0714
+        "raw": 0.0372,
+        "pctrank": 0.9706
       },
       "m_evToEBITDA": {
-        "raw": 388.7745,
-        "pctrank": 0.9895
+        "raw": 22.4385,
+        "pctrank": 0.0462
       },
       "m_evToFreeCashFlow": {
-        "raw": 390.3449,
-        "pctrank": 0.9286
+        "raw": 78.2286,
+        "pctrank": 0.4601
       },
       "m_evToSales": {
-        "raw": 213.2176,
-        "pctrank": 1.0
+        "raw": 10.4622,
+        "pctrank": 0.3193
       },
       "m_freeCashFlowYield": {
-        "raw": 0.0025,
-        "pctrank": 0.2794
+        "raw": 0.0166,
+        "pctrank": 0.7605
       },
       "m_returnOnEquity": {
-        "raw": 0.103,
-        "pctrank": 0.8424
+        "raw": 0.0724,
+        "pctrank": 0.7731
       },
       "m_returnOnAssets": {
-        "raw": 0.0854,
-        "pctrank": 0.9727
+        "raw": 0.0376,
+        "pctrank": 0.8445
       },
       "m_returnOnCapitalEmployed": {
-        "raw": 0.0855,
-        "pctrank": 0.9076
+        "raw": 0.0262,
+        "pctrank": 0.4727
       },
       "m_returnOnInvestedCapital": {
-        "raw": 0.0843,
-        "pctrank": 0.9412
+        "raw": 0.0234,
+        "pctrank": 0.5273
       },
       "m_returnOnTangibleAssets": {
-        "raw": 0.0854,
-        "pctrank": 0.9328
+        "raw": 0.0376,
+        "pctrank": 0.6912
       },
       "m_incomeQuality": {
-        "raw": 1.026,
-        "pctrank": 0.3992
+        "raw": 0.6923,
+        "pctrank": 0.2605
       },
       "m_grahamNumber": {
-        "raw": 5.374,
-        "pctrank": 0.0237
+        "raw": 12.5791,
+        "pctrank": 0.1422
       },
       "m_cashConversionCycle": {
-        "raw": 48.5764,
-        "pctrank": 0.5441
+        "raw": -1.5145,
+        "pctrank": 0.2227
       },
       "m_capexToRevenue": {
-        "raw": 0.0045,
-        "pctrank": 0.1029
-      },
-      "m_capexToDepreciation": {
-        "raw": 1.094,
-        "pctrank": 0.7017
-      },
-      "m_researchAndDevelopementToRevenue": {
-        "raw": 0.0986,
-        "pctrank": 0.8361
-      },
-      "m_stockBasedCompensationToRevenue": {
-        "raw": 0.1235,
-        "pctrank": 0.9727
-      },
-      "m_netDebtToEBITDA": {
-        "raw": -2.3227,
-        "pctrank": 0.084
-      },
-      "m_operatingReturnOnAssets": {
-        "raw": 0.079,
-        "pctrank": 0.9601
-      },
-      "g_revenueGrowth": {
-        "raw": 0.1605,
-        "pctrank": 0.8971
-      },
-      "g_grossProfitGrowth": {
-        "raw": 0.1897,
+        "raw": 0.0742,
         "pctrank": 0.7521
       },
-      "g_ebitgrowth": {
-        "raw": 0.43,
-        "pctrank": 0.7773
+      "m_capexToDepreciation": {
+        "raw": 0.6421,
+        "pctrank": 0.4055
       },
-      "g_operatingIncomeGrowth": {
-        "raw": 0.3104,
-        "pctrank": 0.7773
+      "m_researchAndDevelopementToRevenue": {
+        "raw": 0.0,
+        "pctrank": 0.3288
       },
-      "g_netIncomeGrowth": {
-        "raw": 0.4302,
-        "pctrank": 0.7458
+      "m_stockBasedCompensationToRevenue": {
+        "raw": 0.0036,
+        "pctrank": 0.3424
       },
-      "g_epsdilutedGrowth": {
-        "raw": 0.4167,
-        "pctrank": 0.7353
+      "m_netDebtToEBITDA": {
+        "raw": 5.1395,
+        "pctrank": 0.395
       },
-      "g_freeCashFlowGrowth": {
-        "raw": 0.1672,
-        "pctrank": 0.6996
+      "m_operatingReturnOnAssets": {
+        "raw": 0.0238,
+        "pctrank": 0.5504
       },
-      "g_tenYRevenueGrowthPerShare": {
-        "raw": 1.4155,
+      "g_revenueGrowth": {
+        "raw": 0.0262,
         "pctrank": 0.6366
       },
+      "g_grossProfitGrowth": {
+        "raw": 5.0,
+        "pctrank": 0.9811
+      },
+      "g_ebitgrowth": {
+        "raw": 1.8284,
+        "pctrank": 0.9538
+      },
+      "g_operatingIncomeGrowth": {
+        "raw": 0.625,
+        "pctrank": 0.8718
+      },
+      "g_netIncomeGrowth": {
+        "raw": 2.6593,
+        "pctrank": 0.9559
+      },
+      "g_epsdilutedGrowth": {
+        "raw": 2.7368,
+        "pctrank": 0.958
+      },
+      "g_freeCashFlowGrowth": {
+        "raw": -0.3696,
+        "pctrank": 0.4664
+      },
+      "g_tenYRevenueGrowthPerShare": {
+        "raw": 0.3298,
+        "pctrank": 0.1555
+      },
       "g_fiveYRevenueGrowthPerShare": {
-        "raw": 2.6397,
-        "pctrank": 0.9601
+        "raw": 3.1133,
+        "pctrank": 0.9727
       },
       "g_threeYRevenueGrowthPerShare": {
-        "raw": 1.7371,
-        "pctrank": 0.9874
+        "raw": 0.2271,
+        "pctrank": 0.521
       },
       "g_receivablesGrowth": {
-        "raw": 0.3488,
-        "pctrank": 0.9433
+        "raw": 0.5882,
+        "pctrank": 0.9811
       },
       "g_inventoryGrowth": {
         "raw": 0.0,
         "pctrank": 0.3803
       },
       "g_assetGrowth": {
-        "raw": 0.1459,
-        "pctrank": 0.9307
+        "raw": 0.008,
+        "pctrank": 0.5105
       },
       "g_bookValueperShareGrowth": {
-        "raw": 0.1393,
-        "pctrank": 0.9244
+        "raw": 0.0419,
+        "pctrank": 0.7584
       },
       "g_debtGrowth": {
-        "raw": -0.0757,
-        "pctrank": 0.2227
+        "raw": 0.0009,
+        "pctrank": 0.6197
       },
       "a_eps_revision": {
-        "raw": 0.237,
-        "pctrank": 0.9326
+        "raw": -0.0767,
+        "pctrank": 0.1786
       },
       "a_revenue_revision": {
-        "raw": 0.1739,
-        "pctrank": 0.9768
+        "raw": 0.0128,
+        "pctrank": 0.2836
       },
       "a_eps_dispersion": {
-        "raw": 0.2,
-        "pctrank": 0.8253
+        "raw": 0.0968,
+        "pctrank": 0.5735
       },
       "a_num_analysts_eps": {
-        "raw": 17.0,
-        "pctrank": 0.8929
+        "raw": 6.0,
+        "pctrank": 0.146
       },
       "r_grossProfitMargin_qoq": {
-        "raw": 0.0252,
-        "pctrank": 0.542
+        "raw": 4.8468,
+        "pctrank": 0.9811
       },
       "r_netProfitMargin_qoq": {
-        "raw": 0.2324,
-        "pctrank": 0.687
+        "raw": 2.5658,
+        "pctrank": 0.958
       },
       "r_operatingProfitMargin_qoq": {
-        "raw": 0.1292,
-        "pctrank": 0.6807
+        "raw": 0.5835,
+        "pctrank": 0.8761
       },
       "r_ebitdaMargin_qoq": {
-        "raw": 0.2278,
+        "raw": 0.8141,
+        "pctrank": 0.9055
+      }
+    },
+    "BAC": {
+      "r_priceToEarningsRatio": {
+        "raw": 10.8817,
+        "pctrank": 0.1555
+      },
+      "r_priceToBookRatio": {
+        "raw": 1.1765,
+        "pctrank": 0.1218
+      },
+      "r_priceToSalesRatio": {
+        "raw": 11.6852,
+        "pctrank": 0.4811
+      },
+      "r_priceToFreeCashFlowRatio": {
+        "raw": 8.4686,
+        "pctrank": 0.2248
+      },
+      "r_enterpriseValueMultiple": {
+        "raw": 44.9496,
+        "pctrank": 0.2962
+      },
+      "r_grossProfitMargin": {
+        "raw": 0.9558,
+        "pctrank": 0.9748
+      },
+      "r_netProfitMargin": {
+        "raw": 0.2836,
+        "pctrank": 0.8445
+      },
+      "r_operatingProfitMargin": {
+        "raw": 0.3437,
+        "pctrank": 0.8445
+      },
+      "r_ebitdaMargin": {
+        "raw": 0.3637,
+        "pctrank": 0.7206
+      },
+      "r_assetTurnover": {
+        "raw": 0.0087,
+        "pctrank": 0.0042
+      },
+      "r_inventoryTurnover": {
+        "raw": 0.0,
+        "pctrank": 0.1649
+      },
+      "r_receivablesTurnover": {
+        "raw": 0.3151,
+        "pctrank": 0.084
+      },
+      "r_debtToEquityRatio": {
+        "raw": 1.2758,
+        "pctrank": 0.7374
+      },
+      "r_currentRatio": {
+        "raw": 0.5363,
+        "pctrank": 0.1092
+      },
+      "r_quickRatio": {
+        "raw": 0.5363,
+        "pctrank": 0.1849
+      },
+      "r_financialLeverageRatio": {
+        "raw": 11.6281,
+        "pctrank": 0.9454
+      },
+      "r_freeCashFlowOperatingCashFlowRatio": {
+        "raw": 1.0,
+        "pctrank": 0.8761
+      },
+      "r_operatingCashFlowRatio": {
+        "raw": 0.0146,
+        "pctrank": 0.145
+      },
+      "r_dividendYieldPercentage": {
+        "raw": 0.7424,
+        "pctrank": 0.771
+      },
+      "r_dividendPayoutRatio": {
+        "raw": 0.3059,
+        "pctrank": 0.4958
+      },
+      "m_earningsYield": {
+        "raw": 0.0243,
+        "pctrank": 0.9013
+      },
+      "m_evToEBITDA": {
+        "raw": 44.9496,
+        "pctrank": 0.2962
+      },
+      "m_evToFreeCashFlow": {
+        "raw": 11.847,
+        "pctrank": 0.2206
+      },
+      "m_evToSales": {
+        "raw": 16.3468,
+        "pctrank": 0.5504
+      },
+      "m_freeCashFlowYield": {
+        "raw": 0.1181,
+        "pctrank": 0.9937
+      },
+      "m_returnOnEquity": {
+        "raw": 0.0285,
+        "pctrank": 0.3613
+      },
+      "m_returnOnAssets": {
+        "raw": 0.0025,
+        "pctrank": 0.0903
+      },
+      "m_returnOnCapitalEmployed": {
+        "raw": 0.0166,
+        "pctrank": 0.2899
+      },
+      "m_returnOnInvestedCapital": {
+        "raw": 0.0125,
+        "pctrank": 0.2773
+      },
+      "m_returnOnTangibleAssets": {
+        "raw": 0.0025,
+        "pctrank": 0.0882
+      },
+      "m_incomeQuality": {
+        "raw": 4.866,
+        "pctrank": 0.9475
+      },
+      "m_grahamNumber": {
+        "raw": 33.2106,
+        "pctrank": 0.5
+      },
+      "m_cashConversionCycle": {
+        "raw": 285.6561,
+        "pctrank": 0.9622
+      },
+      "m_capexToRevenue": {
+        "raw": 0.0,
+        "pctrank": 0.0242
+      },
+      "m_capexToDepreciation": {
+        "raw": 0.0,
+        "pctrank": 0.0368
+      },
+      "m_researchAndDevelopementToRevenue": {
+        "raw": 0.0667,
         "pctrank": 0.7773
+      },
+      "m_stockBasedCompensationToRevenue": {
+        "raw": 0.0341,
+        "pctrank": 0.8529
+      },
+      "m_netDebtToEBITDA": {
+        "raw": 12.8181,
+        "pctrank": 0.6933
+      },
+      "m_operatingReturnOnAssets": {
+        "raw": 0.003,
+        "pctrank": 0.0735
+      },
+      "g_revenueGrowth": {
+        "raw": -0.3908,
+        "pctrank": 0.0147
+      },
+      "g_grossProfitGrowth": {
+        "raw": -0.0314,
+        "pctrank": 0.3277
+      },
+      "g_ebitgrowth": {
+        "raw": -0.1633,
+        "pctrank": 0.2752
+      },
+      "g_operatingIncomeGrowth": {
+        "raw": -0.1633,
+        "pctrank": 0.25
+      },
+      "g_netIncomeGrowth": {
+        "raw": 0.1403,
+        "pctrank": 0.5882
+      },
+      "g_epsdilutedGrowth": {
+        "raw": 0.1443,
+        "pctrank": 0.5861
+      },
+      "g_freeCashFlowGrowth": {
+        "raw": 2.8204,
+        "pctrank": 0.9433
+      },
+      "g_tenYRevenueGrowthPerShare": {
+        "raw": 0.8558,
+        "pctrank": 0.3845
+      },
+      "g_fiveYRevenueGrowthPerShare": {
+        "raw": 0.5111,
+        "pctrank": 0.5252
+      },
+      "g_threeYRevenueGrowthPerShare": {
+        "raw": -0.1684,
+        "pctrank": 0.042
+      },
+      "g_receivablesGrowth": {
+        "raw": -0.0703,
+        "pctrank": 0.2395
+      },
+      "g_inventoryGrowth": {
+        "raw": 0.0,
+        "pctrank": 0.3803
+      },
+      "g_assetGrowth": {
+        "raw": 0.0252,
+        "pctrank": 0.7185
+      },
+      "g_bookValueperShareGrowth": {
+        "raw": 0.0064,
+        "pctrank": 0.4181
+      },
+      "g_debtGrowth": {
+        "raw": 0.0483,
+        "pctrank": 0.8004
+      },
+      "a_eps_revision": {
+        "raw": 0.0884,
+        "pctrank": 0.4748
+      },
+      "a_revenue_revision": {
+        "raw": 0.0115,
+        "pctrank": 0.2752
+      },
+      "a_eps_dispersion": {
+        "raw": 0.055,
+        "pctrank": 0.3508
+      },
+      "a_num_analysts_eps": {
+        "raw": 10.0,
+        "pctrank": 0.4307
+      },
+      "r_grossProfitMargin_qoq": {
+        "raw": 0.59,
+        "pctrank": 0.8824
+      },
+      "r_netProfitMargin_qoq": {
+        "raw": 0.8717,
+        "pctrank": 0.8487
+      },
+      "r_operatingProfitMargin_qoq": {
+        "raw": 0.3734,
+        "pctrank": 0.8403
+      },
+      "r_ebitdaMargin_qoq": {
+        "raw": 0.387,
+        "pctrank": 0.8382
+      }
+    },
+    "ACGL": {
+      "r_priceToEarningsRatio": {
+        "raw": 8.3325,
+        "pctrank": 0.1029
+      },
+      "r_priceToBookRatio": {
+        "raw": 1.4274,
+        "pctrank": 0.1639
+      },
+      "r_priceToSalesRatio": {
+        "raw": 7.9172,
+        "pctrank": 0.3151
+      },
+      "r_priceToFreeCashFlowRatio": {
+        "raw": 29.2603,
+        "pctrank": 0.2941
+      },
+      "r_enterpriseValueMultiple": {
+        "raw": 29.9853,
+        "pctrank": 0.1113
+      },
+      "r_grossProfitMargin": {
+        "raw": 0.521,
+        "pctrank": 0.5693
+      },
+      "r_netProfitMargin": {
+        "raw": 0.2401,
+        "pctrank": 0.7962
+      },
+      "r_operatingProfitMargin": {
+        "raw": 0.2626,
+        "pctrank": 0.7269
+      },
+      "r_ebitdaMargin": {
+        "raw": 0.2779,
+        "pctrank": 0.5819
+      },
+      "r_assetTurnover": {
+        "raw": 0.0535,
+        "pctrank": 0.1702
+      },
+      "r_inventoryTurnover": {
+        "raw": 0.0,
+        "pctrank": 0.1649
+      },
+      "r_receivablesTurnover": {
+        "raw": 0.2241,
+        "pctrank": 0.0777
+      },
+      "r_debtToEquityRatio": {
+        "raw": 0.1128,
+        "pctrank": 0.1429
+      },
+      "r_currentRatio": {
+        "raw": 0.6813,
+        "pctrank": 0.1702
+      },
+      "r_quickRatio": {
+        "raw": 0.6813,
+        "pctrank": 0.2815
+      },
+      "r_financialLeverageRatio": {
+        "raw": 3.3672,
+        "pctrank": 0.6618
+      },
+      "r_freeCashFlowOperatingCashFlowRatio": {
+        "raw": 0.9933,
+        "pctrank": 0.8424
+      },
+      "r_operatingCashFlowRatio": {
+        "raw": 0.0232,
+        "pctrank": 0.1618
+      },
+      "r_dividendYieldPercentage": {
+        "raw": 0.0434,
+        "pctrank": 0.2059
+      },
+      "r_dividendPayoutRatio": {
+        "raw": 0.0143,
+        "pctrank": 0.2164
+      },
+      "m_earningsYield": {
+        "raw": 0.0303,
+        "pctrank": 0.9496
+      },
+      "m_evToEBITDA": {
+        "raw": 29.9853,
+        "pctrank": 0.1113
+      },
+      "m_evToFreeCashFlow": {
+        "raw": 30.7984,
+        "pctrank": 0.271
+      },
+      "m_evToSales": {
+        "raw": 8.3334,
+        "pctrank": 0.2353
+      },
+      "m_freeCashFlowYield": {
+        "raw": 0.0342,
+        "pctrank": 0.9244
+      },
+      "m_returnOnEquity": {
+        "raw": 0.0433,
+        "pctrank": 0.5504
+      },
+      "m_returnOnAssets": {
+        "raw": 0.0129,
+        "pctrank": 0.4496
+      },
+      "m_returnOnCapitalEmployed": {
+        "raw": 0.0377,
+        "pctrank": 0.6155
+      },
+      "m_returnOnInvestedCapital": {
+        "raw": 0.0345,
+        "pctrank": 0.6996
+      },
+      "m_returnOnTangibleAssets": {
+        "raw": 0.0133,
+        "pctrank": 0.3424
+      },
+      "m_incomeQuality": {
+        "raw": 1.1347,
+        "pctrank": 0.4748
+      },
+      "m_grahamNumber": {
+        "raw": 66.3636,
+        "pctrank": 0.8175
+      },
+      "m_cashConversionCycle": {
+        "raw": 186.2378,
+        "pctrank": 0.9055
+      },
+      "m_capexToRevenue": {
+        "raw": 0.0018,
+        "pctrank": 0.0672
+      },
+      "m_capexToDepreciation": {
+        "raw": 0.2667,
+        "pctrank": 0.1702
+      },
+      "m_researchAndDevelopementToRevenue": {
+        "raw": 0.0,
+        "pctrank": 0.3288
+      },
+      "m_stockBasedCompensationToRevenue": {
+        "raw": 0.0188,
+        "pctrank": 0.7542
+      },
+      "m_netDebtToEBITDA": {
+        "raw": 1.4975,
+        "pctrank": 0.2269
+      },
+      "m_operatingReturnOnAssets": {
+        "raw": 0.0154,
+        "pctrank": 0.3761
+      },
+      "g_revenueGrowth": {
+        "raw": -0.1905,
+        "pctrank": 0.0651
+      },
+      "g_grossProfitGrowth": {
+        "raw": -0.0241,
+        "pctrank": 0.3508
+      },
+      "g_ebitgrowth": {
+        "raw": -0.1887,
+        "pctrank": 0.2479
+      },
+      "g_operatingIncomeGrowth": {
+        "raw": -0.1745,
+        "pctrank": 0.2332
+      },
+      "g_netIncomeGrowth": {
+        "raw": -0.1543,
+        "pctrank": 0.2878
+      },
+      "g_epsdilutedGrowth": {
+        "raw": -0.1403,
+        "pctrank": 0.3004
+      },
+      "g_freeCashFlowGrowth": {
+        "raw": -0.1529,
+        "pctrank": 0.5714
+      },
+      "g_tenYRevenueGrowthPerShare": {
+        "raw": 3.1462,
+        "pctrank": 0.8466
+      },
+      "g_fiveYRevenueGrowthPerShare": {
+        "raw": 1.1983,
+        "pctrank": 0.8592
+      },
+      "g_threeYRevenueGrowthPerShare": {
+        "raw": 0.4282,
+        "pctrank": 0.7542
+      },
+      "g_receivablesGrowth": {
+        "raw": 1.4341,
+        "pctrank": 0.9916
+      },
+      "g_inventoryGrowth": {
+        "raw": 0.0,
+        "pctrank": 0.3803
+      },
+      "g_assetGrowth": {
+        "raw": 0.2146,
+        "pctrank": 0.9643
+      },
+      "g_bookValueperShareGrowth": {
+        "raw": 0.0251,
+        "pctrank": 0.6282
+      },
+      "g_debtGrowth": {
+        "raw": 0.0,
+        "pctrank": 0.5819
+      },
+      "a_eps_revision": {
+        "raw": -0.0294,
+        "pctrank": 0.2227
+      },
+      "a_revenue_revision": {
+        "raw": -0.0366,
+        "pctrank": 0.1429
+      },
+      "a_eps_dispersion": {
+        "raw": 0.1179,
+        "pctrank": 0.6618
+      },
+      "a_num_analysts_eps": {
+        "raw": 12.0,
+        "pctrank": 0.5924
+      },
+      "r_grossProfitMargin_qoq": {
+        "raw": 0.2056,
+        "pctrank": 0.7899
+      },
+      "r_netProfitMargin_qoq": {
+        "raw": 0.0447,
+        "pctrank": 0.4937
+      },
+      "r_operatingProfitMargin_qoq": {
+        "raw": 0.0197,
+        "pctrank": 0.5147
+      },
+      "r_ebitdaMargin_qoq": {
+        "raw": -0.0046,
+        "pctrank": 0.4643
+      }
+    },
+    "MCK": {
+      "r_priceToEarningsRatio": {
+        "raw": 15.6996,
+        "pctrank": 0.3088
+      },
+      "r_priceToBookRatio": {
+        "raw": -48.6466,
+        "pctrank": 0.021
+      },
+      "r_priceToSalesRatio": {
+        "raw": 1.0973,
+        "pctrank": 0.0168
+      },
+      "r_priceToFreeCashFlowRatio": {
+        "raw": 31.9216,
+        "pctrank": 0.3025
+      },
+      "r_enterpriseValueMultiple": {
+        "raw": 48.8051,
+        "pctrank": 0.3487
+      },
+      "r_grossProfitMargin": {
+        "raw": 0.042,
+        "pctrank": 0.0126
+      },
+      "r_netProfitMargin": {
+        "raw": 0.0175,
+        "pctrank": 0.0777
+      },
+      "r_operatingProfitMargin": {
+        "raw": 0.0233,
+        "pctrank": 0.0525
+      },
+      "r_ebitdaMargin": {
+        "raw": 0.0235,
+        "pctrank": 0.0273
+      },
+      "r_assetTurnover": {
+        "raw": 1.1697,
+        "pctrank": 1.0
+      },
+      "r_inventoryTurnover": {
+        "raw": 3.8109,
+        "pctrank": 0.8613
+      },
+      "r_receivablesTurnover": {
+        "raw": 3.441,
+        "pctrank": 0.8571
+      },
+      "r_debtToEquityRatio": {
+        "raw": -3.9659,
+        "pctrank": 0.0399
+      },
+      "r_currentRatio": {
+        "raw": 0.8537,
+        "pctrank": 0.2584
+      },
+      "r_quickRatio": {
+        "raw": 0.4925,
+        "pctrank": 0.166
+      },
+      "r_financialLeverageRatio": {
+        "raw": -37.9019,
+        "pctrank": 0.0168
+      },
+      "r_freeCashFlowOperatingCashFlowRatio": {
+        "raw": 0.9676,
+        "pctrank": 0.7815
+      },
+      "r_operatingCashFlowRatio": {
+        "raw": 0.051,
+        "pctrank": 0.2752
+      },
+      "r_dividendYieldPercentage": {
+        "raw": 0.0956,
+        "pctrank": 0.2395
+      },
+      "r_dividendPayoutRatio": {
+        "raw": 0.06,
+        "pctrank": 0.2416
+      },
+      "m_earningsYield": {
+        "raw": 0.0159,
+        "pctrank": 0.7374
+      },
+      "m_evToEBITDA": {
+        "raw": 48.8051,
+        "pctrank": 0.3487
+      },
+      "m_evToFreeCashFlow": {
+        "raw": 33.3231,
+        "pctrank": 0.2794
+      },
+      "m_evToSales": {
+        "raw": 1.1454,
+        "pctrank": 0.0147
+      },
+      "m_freeCashFlowYield": {
+        "raw": 0.0313,
+        "pctrank": 0.916
+      },
+      "m_returnOnEquity": {
+        "raw": -0.7744,
+        "pctrank": 0.0147
+      },
+      "m_returnOnAssets": {
+        "raw": 0.0204,
+        "pctrank": 0.6324
+      },
+      "m_returnOnCapitalEmployed": {
+        "raw": 0.1469,
+        "pctrank": 0.9748
+      },
+      "m_returnOnInvestedCapital": {
+        "raw": 0.1164,
+        "pctrank": 0.9748
+      },
+      "m_returnOnTangibleAssets": {
+        "raw": 0.0251,
+        "pctrank": 0.5483
+      },
+      "m_incomeQuality": {
+        "raw": 2.0339,
+        "pctrank": 0.8067
+      },
+      "m_cashConversionCycle": {
+        "raw": -8.7377,
+        "pctrank": 0.1954
+      },
+      "m_capexToRevenue": {
+        "raw": 0.0012,
+        "pctrank": 0.0588
+      },
+      "m_capexToDepreciation": {
+        "raw": 0.5663,
+        "pctrank": 0.3571
+      },
+      "m_researchAndDevelopementToRevenue": {
+        "raw": 0.0,
+        "pctrank": 0.3288
+      },
+      "m_stockBasedCompensationToRevenue": {
+        "raw": 0.0,
+        "pctrank": 0.1345
+      },
+      "m_netDebtToEBITDA": {
+        "raw": 2.0527,
+        "pctrank": 0.25
+      },
+      "m_operatingReturnOnAssets": {
+        "raw": 0.027,
+        "pctrank": 0.6029
+      },
+      "g_revenueGrowth": {
+        "raw": -0.0929,
+        "pctrank": 0.1639
+      },
+      "g_grossProfitGrowth": {
+        "raw": 0.0974,
+        "pctrank": 0.6303
+      },
+      "g_ebitgrowth": {
+        "raw": 0.2471,
+        "pctrank": 0.6786
+      },
+      "g_operatingIncomeGrowth": {
+        "raw": 0.3885,
+        "pctrank": 0.8298
+      },
+      "g_netIncomeGrowth": {
+        "raw": 0.4182,
+        "pctrank": 0.7353
+      },
+      "g_epsdilutedGrowth": {
+        "raw": 0.4296,
+        "pctrank": 0.7479
+      },
+      "g_freeCashFlowGrowth": {
+        "raw": 1.9448,
+        "pctrank": 0.9118
+      },
+      "g_tenYRevenueGrowthPerShare": {
+        "raw": 2.8353,
+        "pctrank": 0.8214
+      },
+      "g_fiveYRevenueGrowthPerShare": {
+        "raw": 1.1176,
+        "pctrank": 0.8445
+      },
+      "g_threeYRevenueGrowthPerShare": {
+        "raw": 0.5668,
+        "pctrank": 0.8676
+      },
+      "g_receivablesGrowth": {
+        "raw": -0.0081,
+        "pctrank": 0.3929
+      },
+      "g_inventoryGrowth": {
+        "raw": -0.1057,
+        "pctrank": 0.0483
+      },
+      "g_assetGrowth": {
+        "raw": -0.0222,
+        "pctrank": 0.1555
+      },
+      "g_bookValueperShareGrowth": {
+        "raw": -7.5001,
+        "pctrank": 0.0021
+      },
+      "g_debtGrowth": {
+        "raw": -0.0012,
+        "pctrank": 0.5588
+      },
+      "a_eps_revision": {
+        "raw": -0.166,
+        "pctrank": 0.1134
+      },
+      "a_revenue_revision": {
+        "raw": 0.0262,
+        "pctrank": 0.3697
+      },
+      "a_eps_dispersion": {
+        "raw": 0.1163,
+        "pctrank": 0.6513
+      },
+      "a_num_analysts_eps": {
+        "raw": 10.0,
+        "pctrank": 0.4307
+      },
+      "r_grossProfitMargin_qoq": {
+        "raw": 0.2098,
+        "pctrank": 0.792
+      },
+      "r_netProfitMargin_qoq": {
+        "raw": 0.5635,
+        "pctrank": 0.8025
+      },
+      "r_operatingProfitMargin_qoq": {
+        "raw": 0.5307,
+        "pctrank": 0.8739
+      },
+      "r_ebitdaMargin_qoq": {
+        "raw": 0.3519,
+        "pctrank": 0.8298
       }
     }
-  }
+  },
+  "model_version": "V0.4.6",
+  "model_type": "IC Weighted (lookback=126, power=0.5)",
+  "last_audit": "2026-07-04T00:25:43.291194"
 }
