@@ -227,10 +227,24 @@ def run_postmarket(broker: BrokerInterface) -> str:
     alerts = monitor.check_all()
     
     if alerts:
-        lines.append(f"⚠️ **异动 ({len(alerts)}条)**")
-        for alert in alerts:
-            emoji = {"L1": "📈", "L2": "⚠️", "L3": "🛑"}.get(alert.level, "❓")
-            lines.append(f"  {emoji} {alert.message}")
+        l3 = [a for a in alerts if a.level == "L3"]
+        l2 = [a for a in alerts if a.level == "L2"]
+        l1 = [a for a in alerts if a.level == "L1"]
+        
+        if l3:
+            lines.append(f"🛑 **L3 紧急 ({len(l3)}条)**")
+            for alert in l3:
+                lines.append(f"  {alert.message}")
+                if alert.action_required:
+                    lines.append(f"  → {alert.action_required}")
+        if l2:
+            lines.append(f"⚠️ **L2 预警 ({len(l2)}条)**")
+            for alert in l2:
+                lines.append(f"  {alert.message}")
+        if l1:
+            lines.append(f"📈 **L1 信息 ({len(l1)}条)**")
+            for alert in l1:
+                lines.append(f"  {alert.message}")
     else:
         lines.append("✅ **无异动**")
     

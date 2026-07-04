@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-07-04T21:03:39.344685",
+  "tickers_with_data": 0,
+  "total_records": 0,
+  "cross_sectional_ic": {
+    "net_buy_count": {
+      "ic": NaN,
+      "n": 0,
+      "status": "too few"
+    },
+    "net_buy_value": {
+      "ic": NaN,
+      "n": 0,
+      "status": "too few"
+    },
+    "insider_buy_ratio": {
+      "ic": NaN,
+      "n": 0,
+      "status": "too few"
+    },
+    "cluster_buy": {
+      "ic": NaN,
+      "n": 0,
+      "status": "too few"
+    },
+    "ceo_cfo_buy": {
+      "ic": NaN,
+      "n": 0,
+      "status": "too few"
+    }
+  },
+  "time_series_ic": {
+    "net_buy_count": {
+      "mean_ic": NaN,
+      "icir": NaN,
+      "n_quarters": 0,
+      "status": "insufficient"
+    },
+    "net_buy_value": {
+      "mean_ic": NaN,
+      "icir": NaN,
+      "n_quarters": 0,
+      "status": "insufficient"
+    },
+    "insider_buy_ratio": {
+      "mean_ic": NaN,
+      "icir": NaN,
+      "n_quarters": 0,
+      "status": "insufficient"
+    },
+    "cluster_buy": {
+      "mean_ic": NaN,
+      "icir": NaN,
+      "n_quarters": 0,
+      "status": "insufficient"
+    },
+    "ceo_cfo_buy": {
+      "mean_ic": NaN,
+      "icir": NaN,
+      "n_quarters": 0,
+      "status": "insufficient"
+    }
+  }
+}

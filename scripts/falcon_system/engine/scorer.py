@@ -171,13 +171,21 @@ class ScoringResult:
 # ════════════════════════════════════════════════════════════════
 
 def get_pit(records: List[Dict], date: str) -> Dict:
-    """Point-in-Time查询：返回date之前最近的记录"""
+    """Point-in-Time查询：返回date之前最近的记录。
+    支持两种格式：
+    1. 带date字段的历史数据（PIT查询）
+    2. TTM格式（无date字段，直接返回唯一记录）
+    """
     if not records:
         return {}
+    # TTM格式：无date字段，直接返回最新记录
+    if "date" not in records[0]:
+        return records[0]
+    # 有date字段：PIT查询
     prior = [r for r in records if r.get("date", "") <= date]
     if not prior:
         return {}
-    return max(prior, key=lambda r: r["date"])
+    return max(prior, key=lambda r: r.get("date", ""))
 
 
 def get_pit_insider(records: List[Dict], date: str) -> Dict:
@@ -442,20 +450,24 @@ class ScoringEngine:
         else:
             factors["tech"] = 0.5
         
-        # FMP Ratios
+        # FMP Ratios (支持TTM格式: field -> fieldTTM)
         ratio_vals = {}
+        pit = get_pit(fundamentals.get("fmp_ratios_historical", {}).get(ticker, []), date)
         for f in RATIO_FIELDS:
-            pit = get_pit(fundamentals.get("fmp_ratios_historical", {}).get(ticker, []), date)
             v = pit.get(f)
+            if v is None:
+                v = pit.get(f + "TTM")
             if v is not None:
                 ratio_vals[f] = v
         factors["fund_ratio"] = np.mean(list(ratio_vals.values())) if ratio_vals else 0.5
         
-        # Key Metrics
+        # Key Metrics (支持TTM格式)
         metric_vals = {}
+        pit = get_pit(fundamentals.get("fmp_key_metrics", {}).get(ticker, []), date)
         for f in METRIC_FIELDS:
-            pit = get_pit(fundamentals.get("fmp_key_metrics", {}).get(ticker, []), date)
             v = pit.get(f)
+            if v is None:
+                v = pit.get(f + "TTM")
             if v is not None:
                 metric_vals[f] = v
         factors["fund_metric"] = np.mean(list(metric_vals.values())) if metric_vals else 0.5

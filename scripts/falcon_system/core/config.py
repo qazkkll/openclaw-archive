@@ -85,6 +85,8 @@ class TradingConfig:
     pnl_warn_threshold: float = -0.10
     price_move_alert: float = 0.03
     volume_spike_ratio: float = 3.0
+    atr_multiplier: float = 1.5
+    max_drop_pct: float = 0.05
 
 
 @dataclass
@@ -100,6 +102,9 @@ class DataConfig:
 class MonitorConfig:
     """持仓监控配置"""
     dedup_window_seconds: int = 600  # 异动去重窗口(秒)
+    l1_threshold: float = 0.05      # L1价格波动阈值(5%)
+    l2_threshold: float = 0.03      # L2价格波动阈值(3%)
+    volume_spike_ratio: float = 3.0 # 成交量异动倍数
 
 
 class FalconConfig:

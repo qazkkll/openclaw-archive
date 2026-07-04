@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-07-04T21:23:02.328949",
+  "configs": {
+    "V0.4.6": {
+      "weights": {
+        "fund_ratio": 0.45,
+        "gc": 0.2,
+        "qoq": 0.2,
+        "cf": 0.15,
+        "insider": 0.0
+      },
+      "hold_days": 21,
+      "top_n": 10
+    },
+    "V0.4.9_insider5": {
+      "weights": {
+        "fund_ratio": 0.43,
+        "gc": 0.19,
+        "qoq": 0.19,
+        "cf": 0.14,
+        "insider": 0.05
+      },
+      "hold_days": 21,
+      "top_n": 10
+    },
+    "V0.4.9_insider10": {
+      "weights": {
+        "fund_ratio": 0.41,
+        "gc": 0.18,
+        "qoq": 0.18,
+        "cf": 0.13,
+        "insider": 0.1
+      },
+      "hold_days": 21,
+      "top_n": 10
+    },
+    "V0.4.9_insider15": {
+      "weights": {
+        "fund_ratio": 0.38,
+        "gc": 0.17,
+        "qoq": 0.17,
+        "cf": 0.13,
+        "insider": 0.15
+      },
+      "hold_days": 21,
+      "top_n": 10
+    }
+  },
+  "results": {
+    "V0.4.6": {
+      "sharpe": 2.701,
+      "max_dd": -0.169,
+      "cagr": 0.6052,
+      "win_rate": 0.65,
+      "n_windows": 7,
+      "warnings": [],
+      "config": {
+        "weights": {
+          "fund_ratio": 0.45,
+          "gc": 0.2,
+          "qoq": 0.2,
+          "cf": 0.15,
+          "insider": 0.0
+        },
+        "hold_days": 21,
+        "top_n": 10
+      }
+    },
+    "V0.4.9_insider5": {
+      "sharpe": 2.727,
+      "max_dd": -0.169,
+      "cagr": 0.609,
+      "win_rate": 0.653,
+      "n_windows": 7,
+      "warnings": [],
+      "config": {
+        "weights": {
+          "fund_ratio": 0.43,
+          "gc": 0.19,
+          "qoq": 0.19,
+          "cf": 0.14,
+          "insider": 0.05
+        },
+        "hold_days": 21,
+        "top_n": 10
+      }
+    },
+    "V0.4.9_insider10": {
+      "sharpe": 2.763,
+      "max_dd": -0.169,
+      "cagr": 0.6129,
+      "win_rate": 0.652,
+      "n_windows": 7,
+      "warnings": [],
+      "config": {
+        "weights": {
+          "fund_ratio": 0.41,
+          "gc": 0.18,
+          "qoq": 0.18,
+          "cf": 0.13,
+          "insider": 0.1
+        },
+        "hold_days": 21,
+        "top_n": 10
+      }
+    },
+    "V0.4.9_insider15": {
+      "sharpe": 2.703,
+      "max_dd": -0.169,
+      "cagr": 0.6026,
+      "win_rate": 0.653,
+      "n_windows": 7,
+      "warnings": [],
+      "config": {
+        "weights": {
+          "fund_ratio": 0.38,
+          "gc": 0.17,
+          "qoq": 0.17,
+          "cf": 0.13,
+          "insider": 0.15
+        },
+        "hold_days": 21,
+        "top_n": 10
+      }
+    }
+  },
+  "best": "V0.4.9_insider10",
+  "baseline_sharpe": 2.701,
+  "improvement_pct": 2.295446131062562
+}

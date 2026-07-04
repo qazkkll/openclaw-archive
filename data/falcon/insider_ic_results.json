@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-07-04T21:09:29.288209",
+  "tickers_with_data": 86,
+  "total_records": 3068,
+  "time_series_ic": {
+    "net_buy_count": {
+      "mean_ic": -0.1077,
+      "std_ic": 0.123,
+      "icir": -0.876,
+      "t_stat": -2.32,
+      "n_quarters": 7,
+      "significant": "True",
+      "ics": [
+        0.0943,
+        -0.2484,
+        -0.1709,
+        0.0332,
+        -0.2144,
+        -0.055,
+        -0.1927
+      ],
+      "status": "\u2705"
+    },
+    "net_buy_value": {
+      "mean_ic": -0.1136,
+      "std_ic": 0.1233,
+      "icir": -0.921,
+      "t_stat": -2.44,
+      "n_quarters": 7,
+      "significant": "True",
+      "ics": [
+        -0.1364,
+        -0.1263,
+        -0.1928,
+        -0.0497,
+        -0.0851,
+        0.1149,
+        -0.3196
+      ],
+      "status": "\u2705"
+    },
+    "insider_buy_ratio": {
+      "mean_ic": 0.0449,
+      "std_ic": 0.1412,
+      "icir": 0.318,
+      "t_stat": 0.84,
+      "n_quarters": 7,
+      "significant": "False",
+      "ics": [
+        0.2322,
+        0.1089,
+        -0.0239,
+        0.126,
+        -0.2355,
+        0.1253,
+        -0.0185
+      ],
+      "status": "\u274c"
+    },
+    "cluster_buy": {
+      "mean_ic": 0.1042,
+      "std_ic": 0.0478,
+      "icir": 2.179,
+      "t_stat": 4.36,
+      "n_quarters": 4,
+      "significant": "True",
+      "ics": [
+        0.0336,
+        0.1666,
+        0.1194,
+        0.0974
+      ],
+      "status": "\u2705"
+    },
+    "ceo_cfo_buy": {
+      "mean_ic": 0.0013,
+      "std_ic": 0.1223,
+      "icir": 0.011,
+      "t_stat": 0.03,
+      "n_quarters": 7,
+      "significant": "False",
+      "ics": [
+        0.1185,
+        0.0616,
+        -0.159,
+        -0.0444,
+        -0.0041,
+        0.1901,
+        -0.1534
+      ],
+      "status": "\u274c"
+    }
+  }
+}

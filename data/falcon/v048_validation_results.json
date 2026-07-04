@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-04T20:21:31.061922",
+    "v048_config": {
+      "fund_ratio": 0.35,
+      "gc": 0.3,
+      "qoq": 0.2,
+      "cf": 0.15
+    },
+    "v048_hold_days": 14,
+    "v048_top_n": 12,
+    "v046_config": {
+      "fund_ratio": 0.45,
+      "gc": 0.2,
+      "qoq": 0.2,
+      "cf": 0.15
+    },
+    "v046_hold_days": 21,
+    "v046_top_n": 10
+  },
+  "v046_wf": {
+    "sharpe": 2.791,
+    "max_dd": -0.1629,
+    "cagr": 0.6455,
+    "win_rate": 0.664,
+    "windows": [
+      {
+        "index": 0,
+        "period": "2022-07-06 \u2192 2023-01-06",
+        "sharpe": 2.179,
+        "max_dd": -0.1629,
+        "cagr": 0.7099,
+        "win_rate": 0.7,
+        "n_trades": 60,
+        "n_days": 129
+      },
+      {
+        "index": 1,
+        "period": "2023-01-06 \u2192 2023-07-06",
+        "sharpe": 4.033,
+        "max_dd": -0.039,
+        "cagr": 0.9282,
+        "win_rate": 0.76,
+        "n_trades": 50,
+        "n_days": 124
+      },
+      {
+        "index": 2,
+        "period": "2023-07-06 \u2192 2024-01-06",
+        "sharpe": 2.786,
+        "max_dd": -0.1215,
+        "cagr": 0.5648,
+        "win_rate": 0.617,
+        "n_trades": 60,
+        "n_days": 128
+      },
+      {
+        "index": 3,
+        "period": "2024-01-06 \u2192 2024-07-06",
+        "sharpe": 3.709,
+        "max_dd": -0.0594,
+        "cagr": 0.7052,
+        "win_rate": 0.66,
+        "n_trades": 50,
+        "n_days": 124
+      },
+      {
+        "index": 4,
+        "period": "2024-07-06 \u2192 2025-01-06",
+        "sharpe": 3.639,
+        "max_dd": -0.0683,
+        "cagr": 0.9846,
+        "win_rate": 0.65,
+        "n_trades": 60,
+        "n_days": 127
+      },
+      {
+        "index": 5,
+        "period": "2025-01-06 \u2192 2025-07-06",
+        "sharpe": 1.122,
+        "max_dd": -0.11,
+        "cagr": 0.3095,
+        "win_rate": 0.577,
+        "n_trades": 52,
+        "n_days": 123
+      },
+      {
+        "index": 6,
+        "period": "2025-07-06 \u2192 2026-01-06",
+        "sharpe": 2.071,
+        "max_dd": -0.0428,
+        "cagr": 0.3165,
+        "win_rate": 0.683,
+        "n_trades": 60,
+        "n_days": 128
+      }
+    ],
+    "warnings": []
+  },
+  "v048_wf": {
+    "sharpe": 2.813,
+    "max_dd": -0.1586,
+    "cagr": 0.5954,
+    "win_rate": 0.627,
+    "windows": [
+      {
+        "index": 0,
+        "period": "2022-07-06 \u2192 2023-01-06",
+        "sharpe": 2.04,
+        "max_dd": -0.1586,
+        "cagr": 0.6711,
+        "win_rate": 0.62,
+        "n_trades": 108,
+        "n_days": 129
+      },
+      {
+        "index": 1,
+        "period": "2023-01-06 \u2192 2023-07-06",
+        "sharpe": 3.578,
+        "max_dd": -0.0487,
+        "cagr": 0.7419,
+        "win_rate": 0.677,
+        "n_trades": 96,
+        "n_days": 124
+      },
+      {
+        "index": 2,
+        "period": "2023-07-06 \u2192 2024-01-06",
+        "sharpe": 2.994,
+        "max_dd": -0.1025,
+        "cagr": 0.5647,
+        "win_rate": 0.63,
+        "n_trades": 108,
+        "n_days": 128
+      },
+      {
+        "index": 3,
+        "period": "2024-01-06 \u2192 2024-07-06",
+        "sharpe": 4.101,
+        "max_dd": -0.0522,
+        "cagr": 0.7122,
+        "win_rate": 0.688,
+        "n_trades": 96,
+        "n_days": 124
+      },
+      {
+        "index": 4,
+        "period": "2024-07-06 \u2192 2025-01-06",
+        "sharpe": 2.877,
+        "max_dd": -0.0784,
+        "cagr": 0.6993,
+        "win_rate": 0.648,
+        "n_trades": 108,
+        "n_days": 127
+      },
+      {
+        "index": 5,
+        "period": "2025-01-06 \u2192 2025-07-06",
+        "sharpe": 1.524,
+        "max_dd": -0.1314,
+        "cagr": 0.4043,
+        "win_rate": 0.567,
+        "n_trades": 97,
+        "n_days": 123
+      },
+      {
+        "index": 6,
+        "period": "2025-07-06 \u2192 2026-01-06",
+        "sharpe": 2.574,
+        "max_dd": -0.0493,
+        "cagr": 0.3741,
+        "win_rate": 0.556,
+        "n_trades": 108,
+        "n_days": 128
+      }
+    ],
+    "warnings": []
+  },
+  "delta_sharpe": 0.02200000000000024,
+  "delta_pct": 0.788247939806519,
+  "rank_inversion": {
+    "results": [
+      {
+        "entry": "2022-03-21",
+        "exit": "2022-12-02",
+        "top5_ret": 0.1014,
+        "bot20_ret": -0.044,
+        "spread": 0.1454,
+        "passed": true
+      },
+      {
+        "entry": "2022-12-05",
+        "exit": "2023-08-22",
+        "top5_ret": 0.1528,
+        "bot20_ret": 0.0131,
+        "spread": 0.1397,
+        "passed": true
+      },
+      {
+        "entry": "2023-08-23",
+        "exit": "2024-05-08",
+        "top5_ret": 0.2422,
+        "bot20_ret": 0.1562,
+        "spread": 0.086,
+        "passed": true
+      },
+      {
+        "entry": "2024-05-09",
+        "exit": "2025-01-27",
+        "top5_ret": 0.4812,
+        "bot20_ret": 0.0456,
+        "spread": 0.4356,
+        "passed": true
+      },
+      {
+        "entry": "2025-01-28",
+        "exit": "2025-10-13",
+        "top5_ret": 0.0953,
+        "bot20_ret": 0.0044,
+        "spread": 0.0909,
+        "passed": true
+      },
+      {
+        "entry": "2025-10-14",
+        "exit": "2026-07-01",
+        "top5_ret": 0.1619,
+        "bot20_ret": 0.0782,
+        "spread": 0.0837,
+        "passed": true
+      }
+    ],
+    "pass_rate": 1.0,
+    "passed": true
+  },
+  "checks": {
+    "Step 0: Data Quality": true,
+    "Step 1: Known-Answer": true,
+    "Step 2: Baseline (>5%)": false,
+    "Step 3: Window Review": true,
+    "Step 4: Rank Inversion (>60%)": true
+  },
+  "all_passed": false
+}

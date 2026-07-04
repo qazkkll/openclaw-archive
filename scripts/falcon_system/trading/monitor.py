@@ -38,7 +38,32 @@ class AlertClassifier:
     
     def __init__(self):
         self.config = CONFIG.monitor
-        self.dedup_cache = {}  # {symbol+type: expire_ts}
+        self.dedup_file = ALERT_DIR / "dedup_state.json"
+        self.dedup_cache = self._load_dedup()
+    
+    def _load_dedup(self) -> Dict[str, float]:
+        """从文件加载冷却状态"""
+        if self.dedup_file.exists():
+            try:
+                with open(self.dedup_file) as f:
+                    data = json.load(f)
+                # 清理过期条目
+                now = time.time()
+                return {k: v for k, v in data.items() if v > now}
+            except:
+                pass
+        return {}
+    
+    def _save_dedup(self):
+        """持久化冷却状态"""
+        # 只保存未过期的
+        now = time.time()
+        active = {k: v for k, v in self.dedup_cache.items() if v > now}
+        try:
+            with open(self.dedup_file, "w") as f:
+                json.dump(active, f)
+        except:
+            pass
     
     def classify(self, position: Position, 
                  prev_close: Optional[float] = None,
@@ -146,7 +171,7 @@ class AlertClassifier:
         return None
     
     def _should_alert(self, symbol: str, alert_type: str) -> bool:
-        """去重检查"""
+        """去重检查（文件持久化，跨调用生效）"""
         key = f"{symbol}:{alert_type}"
         now = time.time()
         
@@ -155,6 +180,7 @@ class AlertClassifier:
                 return False
         
         self.dedup_cache[key] = now + CONFIG.monitor.dedup_window_seconds
+        self._save_dedup()  # 立即持久化
         return True
     
     def _load_local_positions(self) -> Dict:
@@ -245,7 +271,7 @@ class PositionMonitor:
 # ════════════════════════════════════════════════════════════════
 
 def run_monitor_check() -> Tuple[List[Alert], str]:
-    """运行一次监控检查"""
+    """运行一次监控检查（L1/L2/L3分级报告）"""
     from .broker import get_broker
     
     broker = get_broker()
@@ -260,17 +286,40 @@ def run_monitor_check() -> Tuple[List[Alert], str]:
         "position_count": len(broker.get_positions()),
     })
     
-    # 生成报告
+    # 生成分级报告
     if not alerts:
         return alerts, "✅ 无异动"
+    
+    # 按级别分组
+    l3_alerts = [a for a in alerts if a.level == "L3"]
+    l2_alerts = [a for a in alerts if a.level == "L2"]
+    l1_alerts = [a for a in alerts if a.level == "L1"]
     
     lines = [f"🦅 **Falcon 异动检查** — {datetime.now().strftime('%H:%M')}"]
     lines.append("")
     
-    for alert in alerts:
-        emoji = {"L1": "📈", "L2": "⚠️", "L3": "🛑"}.get(alert.level, "❓")
-        lines.append(f"{emoji} {alert.message}")
-        if alert.action_required:
-            lines.append(f"   建议: {alert.action_required}")
+    # L3: 止损/紧急（需要立即行动）
+    if l3_alerts:
+        lines.append("🛑 **L3 紧急** — 需立即行动")
+        for alert in l3_alerts:
+            lines.append(f"  {alert.message}")
+            if alert.action_required:
+                lines.append(f"  → {alert.action_required}")
+        lines.append("")
+    
+    # L2: 预警（需关注）
+    if l2_alerts:
+        lines.append("⚠️ **L2 预警** — 需关注")
+        for alert in l2_alerts:
+            lines.append(f"  {alert.message}")
+            if alert.action_required:
+                lines.append(f"  → {alert.action_required}")
+        lines.append("")
+    
+    # L1: 信息（仅供参考）
+    if l1_alerts:
+        lines.append("📈 **L1 信息** — 仅供参考")
+        for alert in l1_alerts:
+            lines.append(f"  {alert.message}")
     
     return alerts, "\n".join(lines)

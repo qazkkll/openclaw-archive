@@ -3,9 +3,9 @@
     "APP": {
       "qty": 34,
       "avg_entry_price": 502.45,
-      "current_price": 565.1,
-      "unrealized_plpc": 0.12469,
-      "market_value": 19213.4,
+      "current_price": 527.06,
+      "unrealized_plpc": 0.04898,
+      "market_value": 17920.04,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "",
@@ -16,9 +16,9 @@
     "AVGO": {
       "qty": 44,
       "avg_entry_price": 376.996818,
-      "current_price": 368.86,
-      "unrealized_plpc": -0.02158,
-      "market_value": 16229.84,
+      "current_price": 360.45,
+      "unrealized_plpc": -0.04389,
+      "market_value": 15859.8,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "",
@@ -29,9 +29,9 @@
     "EQT": {
       "qty": 82,
       "avg_entry_price": 52.750366,
-      "current_price": 52.4951,
-      "unrealized_plpc": -0.00484,
-      "market_value": 4304.5982,
+      "current_price": 52.61,
+      "unrealized_plpc": -0.00266,
+      "market_value": 4314.02,
       "entry_date": "2026-07-01T22:16:10.661890",
       "score": 0.7202,
       "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(74%)\uff0c\u5206\u6790\u5e08\u770b\u597d(70%)",
@@ -42,9 +42,9 @@
     "FICO": {
       "qty": 3,
       "avg_entry_price": 1205.35,
-      "current_price": 1206.65,
-      "unrealized_plpc": 0.00108,
-      "market_value": 3619.95,
+      "current_price": 1270.83,
+      "unrealized_plpc": 0.05432,
+      "market_value": 3812.49,
       "entry_date": "2026-07-01T22:16:10.891945",
       "score": 0.7066,
       "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(83%)",
@@ -55,9 +55,9 @@
     "INTU": {
       "qty": 16,
       "avg_entry_price": 272.0,
-      "current_price": 267.85,
-      "unrealized_plpc": -0.01526,
-      "market_value": 4285.6,
+      "current_price": 275.35,
+      "unrealized_plpc": 0.01232,
+      "market_value": 4405.6,
       "entry_date": "2026-07-01T22:16:10.384586",
       "score": 0.815,
       "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(88%)\uff0c\u73b0\u91d1\u6d41\u5065\u5eb7(89%)\uff0c\u5206\u6790\u5e08\u770b\u597d(97%)",
@@ -68,9 +68,9 @@
     "NVDA": {
       "qty": 48,
       "avg_entry_price": 194.06,
-      "current_price": 197.15,
-      "unrealized_plpc": 0.01592,
-      "market_value": 9463.2,
+      "current_price": 194.83,
+      "unrealized_plpc": 0.00397,
+      "market_value": 9351.84,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "",
@@ -81,9 +81,9 @@
     "PLTR": {
       "qty": 82,
       "avg_entry_price": 116.51,
-      "current_price": 125.1,
-      "unrealized_plpc": 0.07373,
-      "market_value": 10258.2,
+      "current_price": 129.3,
+      "unrealized_plpc": 0.10978,
+      "market_value": 10602.6,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "",
@@ -94,9 +94,9 @@
     "PTC": {
       "qty": 37,
       "avg_entry_price": 119.27,
-      "current_price": 119.78,
-      "unrealized_plpc": 0.00428,
-      "market_value": 4431.86,
+      "current_price": 124.55,
+      "unrealized_plpc": 0.04427,
+      "market_value": 4608.35,
       "entry_date": "",
       "score": 0,
       "reason": "",
@@ -107,9 +107,9 @@
     "TROW": {
       "qty": 39,
       "avg_entry_price": 115.75,
-      "current_price": 116.11,
-      "unrealized_plpc": 0.00311,
-      "market_value": 4528.29,
+      "current_price": 118.55,
+      "unrealized_plpc": 0.02419,
+      "market_value": 4623.45,
       "entry_date": "2026-07-01T22:16:11.312675",
       "score": 0.6962,
       "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(76%)",
@@ -118,5 +118,5 @@
       "target_sell": null
     }
   },
-  "synced_at": "2026-07-02T04:31:50.682743"
+  "synced_at": "2026-07-04T04:30:45.648713"
 }

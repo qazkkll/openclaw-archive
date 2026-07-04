@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026/07/04 02:55:41",
+  "timestamp": "2026/07/05 02:55:49",
   "alpaca": [
     {
       "sym": "APP",
@@ -319,7 +319,7 @@
   ],
   "regime": {
     "regime": "bull",
-    "vix": 16.1,
+    "vix": 15.8,
     "trend_pct": 0.0,
     "position_pct": 1.0
   },
@@ -335,13 +335,13 @@
         "name": "价格 OHLCV / Price",
         "status": "🔴",
         "latest": "2026-07-02",
-        "age_days": 2,
+        "age_days": 3,
         "source": "日更"
       },
       {
         "name": "VIX波动率 / VIX",
         "status": "🔴",
-        "latest": "2026-07-02",
+        "latest": "2026-07-03",
         "age_days": 2,
         "source": "日更"
       },
@@ -349,41 +349,41 @@
         "name": "SPX指数 / S&P 500",
         "status": "🔴",
         "latest": "2026-07-02",
-        "age_days": 2,
+        "age_days": 3,
         "source": "日更"
       },
       {
         "name": "板块ETF / Sector ETFs",
         "status": "🔴",
         "latest": "2026-07-02",
-        "age_days": 2,
+        "age_days": 3,
         "source": "日更"
       },
       {
         "name": "特征矩阵 / Features",
         "status": "🔴",
         "latest": "2026-07-02",
-        "age_days": 2,
+        "age_days": 3,
         "source": "日更"
       },
       {
         "name": "财务比率 / Ratios",
         "status": "🔴",
-        "latest": "未检查(N/A)",
+        "latest": "未检查(2026-07-04)",
         "age_days": -1,
         "source": "季度(未检查)"
       },
       {
         "name": "关键指标 / Key Metrics",
         "status": "🔴",
-        "latest": "未检查(N/A)",
+        "latest": "未检查(2026-07-04)",
         "age_days": -1,
         "source": "季度(未检查)"
       },
       {
         "name": "增长率 / Growth",
         "status": "🔴",
-        "latest": "未检查(N/A)",
+        "latest": "未检查(2026-07-04)",
         "age_days": -1,
         "source": "季度(未检查)"
       },
@@ -411,7 +411,7 @@
       {
         "name": "分析师预估 / Analyst Est",
         "status": "🔴",
-        "latest": "未检查(2026-07-03)",
+        "latest": "未检查(2026-07-04)",
         "age_days": -1,
         "source": "季度(未检查)"
       },
@@ -425,7 +425,7 @@
       {
         "name": "分析师评级 / Grades",
         "status": "🔴",
-        "latest": "未检查(2026-07-03)",
+        "latest": "未检查(2026-07-04)",
         "age_days": -1,
         "source": "季度(未检查)"
       },
@@ -467,14 +467,14 @@
       {
         "name": "新闻缓存 / News",
         "status": "🔴",
-        "latest": "未检查(2026-07-03)",
+        "latest": "未检查(2026-07-04)",
         "age_days": -1,
         "source": "季度(未检查)"
       },
       {
         "name": "盈利日历 / Earnings Cal",
         "status": "🔴",
-        "latest": "未检查(2026-07-03)",
+        "latest": "未检查(2026-07-04)",
         "age_days": -1,
         "source": "季度(未检查)"
       },
@@ -482,7 +482,7 @@
         "name": "Falcon评分",
         "status": "🔴",
         "latest": "2026-07-02",
-        "age_days": 2,
+        "age_days": 3,
         "source": "日更"
       }
     ],
