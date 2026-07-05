@@ -252,7 +252,7 @@ def execute_trades(client, dry_run=False):
         p for p in picks
         if p.get("score", 0) >= BUY_SCORE_THRESHOLD
         and p.get("signal", "") == "🟢🟢"
-        and p["sym"] not in existing_syms
+        and p["ticker"] not in existing_syms
     ][:TOP_N]
 
     # VIX过滤: 市场恐慌时不买入
@@ -288,7 +288,7 @@ def execute_trades(client, dry_run=False):
                 print(f"   ✅ Gatekeeper: EXECUTE — 正常执行 ({gatekeeper_result.get('passed',0)}/{gatekeeper_result.get('total',5)})")
 
         for pick in buy_candidates:
-            sym = pick["sym"]
+            sym = pick["ticker"]
             price = pick.get("close", 0)
             if price <= 0:
                 report["errors"].append(f"{sym}价格异常({price})")
@@ -331,7 +331,7 @@ def execute_trades(client, dry_run=False):
                     append_journal({**buy_record, "timestamp": datetime.now().isoformat(), "model": "falcon_v046"})
                     # 更新持仓记录
                     pos_data["positions"][sym] = {
-                        "entry_date": datetime.now().isoformat(),
+                        "entry_date": datetime.now().strftime("%Y-%m-%d"),
                         "entry_price": price,
                         "qty": qty,
                         "score": pick.get("score", 0),

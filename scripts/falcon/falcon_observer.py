@@ -19,6 +19,7 @@ import json, os, sys, time, signal as sig, glob
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional, Dict, List, Any
+from trading_calendar import is_trading_day, next_trading_day
 
 # ── Broker Adapter (统一持仓接口) ──
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -766,6 +767,16 @@ def run_observer(test_mode: bool = False, once: bool = False):
     while running[0]:
         now_et = datetime.now(ET)
         session = get_session(now_et)
+
+        # ── 交易日历: 非交易日直接休眠 ──
+        today = now_et.date()
+        if not is_trading_day(today) and not once:
+            nxt = next_trading_day(today)
+            days_ahead = (nxt - today).days
+            print(f"  📅 非交易日 ({today}), 休眠{days_ahead}天, 下一交易日: {nxt}")
+            # 睡到下一个交易日的盘前 (最多睡1小时，循环检查)
+            time.sleep(min(3600, days_ahead * 86400))
+            continue
 
         if session == "closed" and not once:
             next_start = now_et.replace(hour=PREMARKET_START, minute=0, second=0, microsecond=0)

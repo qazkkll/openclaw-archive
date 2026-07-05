@@ -8,10 +8,11 @@
       "market_value": 17920.04,
       "entry_date": "2026-06-30",
       "score": 0,
-      "reason": "",
+      "reason": "pre-tracking entry",
       "target_buy": null,
       "stop_loss": null,
-      "target_sell": null
+      "target_sell": null,
+      "source": "manual"
     },
     "AVGO": {
       "qty": 44,
@@ -21,10 +22,11 @@
       "market_value": 15859.8,
       "entry_date": "2026-06-30",
       "score": 0,
-      "reason": "",
+      "reason": "pre-tracking entry",
       "target_buy": null,
       "stop_loss": null,
-      "target_sell": null
+      "target_sell": null,
+      "source": "manual"
     },
     "EQT": {
       "qty": 82,
@@ -32,7 +34,7 @@
       "current_price": 52.61,
       "unrealized_plpc": -0.00266,
       "market_value": 4314.02,
-      "entry_date": "2026-07-01T22:16:10.661890",
+      "entry_date": "2026-07-01",
       "score": 0.7202,
       "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(74%)\uff0c\u5206\u6790\u5e08\u770b\u597d(70%)",
       "target_buy": null,
@@ -45,7 +47,7 @@
       "current_price": 1270.83,
       "unrealized_plpc": 0.05432,
       "market_value": 3812.49,
-      "entry_date": "2026-07-01T22:16:10.891945",
+      "entry_date": "2026-07-01",
       "score": 0.7066,
       "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(83%)",
       "target_buy": null,
@@ -58,7 +60,7 @@
       "current_price": 275.35,
       "unrealized_plpc": 0.01232,
       "market_value": 4405.6,
-      "entry_date": "2026-07-01T22:16:10.384586",
+      "entry_date": "2026-07-01",
       "score": 0.815,
       "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(88%)\uff0c\u73b0\u91d1\u6d41\u5065\u5eb7(89%)\uff0c\u5206\u6790\u5e08\u770b\u597d(97%)",
       "target_buy": null,
@@ -73,10 +75,11 @@
       "market_value": 9351.84,
       "entry_date": "2026-06-30",
       "score": 0,
-      "reason": "",
+      "reason": "pre-tracking entry",
       "target_buy": null,
       "stop_loss": null,
-      "target_sell": null
+      "target_sell": null,
+      "source": "manual"
     },
     "PLTR": {
       "qty": 82,
@@ -86,10 +89,11 @@
       "market_value": 10602.6,
       "entry_date": "2026-06-30",
       "score": 0,
-      "reason": "",
+      "reason": "pre-tracking entry",
       "target_buy": null,
       "stop_loss": null,
-      "target_sell": null
+      "target_sell": null,
+      "source": "manual"
     },
     "PTC": {
       "qty": 37,
@@ -97,12 +101,13 @@
       "current_price": 124.55,
       "unrealized_plpc": 0.04427,
       "market_value": 4608.35,
-      "entry_date": "",
-      "score": 0,
-      "reason": "",
+      "entry_date": "2026-07-01",
+      "score": 0.7052,
+      "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(73%)\uff0c\u73b0\u91d1\u6d41\u5065\u5eb7(79%)",
       "target_buy": null,
       "stop_loss": null,
-      "target_sell": null
+      "target_sell": null,
+      "source": "manual"
     },
     "TROW": {
       "qty": 39,
@@ -110,7 +115,7 @@
       "current_price": 118.55,
       "unrealized_plpc": 0.02419,
       "market_value": 4623.45,
-      "entry_date": "2026-07-01T22:16:11.312675",
+      "entry_date": "2026-07-01",
       "score": 0.6962,
       "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(76%)",
       "target_buy": null,

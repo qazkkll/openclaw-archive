@@ -8,6 +8,12 @@ PYTHON=/home/hermes/.hermes/hermes-agent/venv/bin/python3
 LOG_DIR=data/falcon/logs
 mkdir -p "$LOG_DIR"
 
+# ── 交易日历检查: 非交易日直接退出 ──
+if ! $PYTHON -c "from trading_calendar import is_trading_day; exit(0 if is_trading_day() else 1)"; then
+    echo "📅 非交易日 ($(date '+%Y-%m-%d')), 跳过执行"
+    exit 0
+fi
+
 echo "🦅 Falcon V0.4.6 开盘执行 $(date '+%Y-%m-%d %H:%M')"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
