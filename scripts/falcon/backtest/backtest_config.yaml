@@ -1,0 +1,175 @@
+# ═══════════════════════════════════════════════════════════
+# Falcon统一回测框架 — 配置文件
+# ═══════════════════════════════════════════════════════════
+# 所有参数可替换，回测结果可复现。
+# 修改参数后重跑即可，无需改代码。
+
+# ── 数据源 ──
+data:
+  features_path: "data/falcon/features_v04_1.parquet"  # 与falcon_score.py一致
+  prices_path: "data/falcon/us_prices_daily.parquet"
+  ic_weights_path: "data/falcon/factor_ic_weights.json"
+  sector_map_path: "data/falcon/sector_map.json"       # 行业分类
+  vix_path: "data/falcon/us_prices_daily.parquet"      # VIX价格(从prices中取)
+
+# ── 日期范围 ──
+backtest:
+  years: 10                    # 默认10年(覆盖2016→今, 含2020新冠+2018熊市)
+  start_date: null             # 覆盖years, 精确指定起始日期(如"2016-01-01")
+  end_date: null               # 默认到最新数据
+
+# ── 评分逻辑(与falcon_score.py完全一致) ──
+scoring:
+  # 因子组定义 — 不要改, 除非模型迭代
+  factor_groups:
+    fund_ratio:
+      - r_priceToEarningsRatio
+      - r_priceToBookRatio
+      - r_priceToSalesRatio
+      - r_priceToFreeCashFlowRatio
+      - r_enterpriseValueMultiple
+      - r_grossProfitMargin
+      - r_netProfitMargin
+      - r_operatingProfitMargin
+      - r_ebitdaMargin
+      - r_assetTurnover
+      - r_inventoryTurnover
+      - r_receivablesTurnover
+      - r_debtToEquityRatio
+      - r_currentRatio
+      - r_quickRatio
+      - r_financialLeverageRatio
+      - r_freeCashFlowOperatingCashFlowRatio
+      - r_operatingCashFlowRatio
+      - r_dividendYieldPercentage
+      - r_dividendPayoutRatio
+    fund_growth:
+      - g_revenueGrowth
+      - g_grossProfitGrowth
+      - g_ebitgrowth
+      - g_operatingIncomeGrowth
+      - g_netIncomeGrowth
+      - g_epsdilutedGrowth
+      - g_freeCashFlowGrowth
+      - g_tenYRevenueGrowthPerShare
+      - g_fiveYRevenueGrowthPerShare
+      - g_threeYRevenueGrowthPerShare
+      - g_receivablesGrowth
+      - g_inventoryGrowth
+      - g_assetGrowth
+      - g_bookValueperShareGrowth
+      - g_debtGrowth
+    analyst:
+      - a_eps_revision
+      - a_revenue_revision
+      - a_eps_dispersion
+      - a_num_analysts_eps
+    income:
+      - i_gross_margin
+      - i_operating_margin
+      - i_net_margin
+      - i_ebitda_margin
+      - i_revenue_growth_yoy
+      - i_gross_margin_delta
+    qoq:
+      - r_grossProfitMargin_qoq
+      - r_netProfitMargin_qoq
+      - r_operatingProfitMargin_qoq
+      - r_ebitdaMargin_qoq
+    cashflow:
+      - c_fcf_margin
+      - c_capex_intensity
+      - c_fcf_to_income
+      - c_buyback_yield
+
+  # 翻转因子(数值越高=越差, rank需取反)
+  flip_factors:
+    - r_priceToEarningsRatio
+    - r_priceToBookRatio
+    - r_priceToSalesRatio
+    - r_priceToFreeCashFlowRatio
+    - r_enterpriseValueMultiple
+    - r_debtToEquityRatio
+    - r_financialLeverageRatio
+    - r_inventoryTurnover
+    - c_capex_intensity
+    - g_debtGrowth
+    - g_receivablesGrowth
+    - g_inventoryGrowth
+    - r_dividendYieldPercentage
+    - r_dividendPayoutRatio
+    - a_eps_revision
+    - a_revenue_revision
+
+  # 顶层权重 (V0.4.6)
+  top_weights:
+    fund_ratio: 0.45
+    growth_composite: 0.20
+    qoq: 0.20
+    cashflow: 0.15
+
+  # growth_composite子权重
+  gc_weights:
+    fund_growth: 0.60
+    analyst: 0.25
+    income: 0.15
+
+  # IC加权参数
+  ic:
+    lookback: 126          # 滚动IC回看天数
+    power: 0.5             # IC^power加权
+    source: "rolling"      # "rolling"(从数据计算) 或 "static"(读JSON文件)
+
+# ── 交易执行参数 ──
+trading:
+  hold_days: 30            # 持有天数
+  top_n: 10                # 选股数量
+  stop_loss: -0.15         # 止损线(-15%)
+  
+  # 成本模型: "futu_real" 或 "flat"
+  cost_model: "futu_real"
+  
+  # Futu真实成本参数 (2026-07实测)
+  futu:
+    commission_per_share: 0.0049    # 佣金/股
+    platform_fee_per_share: 0.005   # 平台费/股
+    min_commission: 0.99            # 最低佣金
+    min_platform_fee: 1.00          # 最低平台费
+    sec_fee_rate: 0.0000278         # SEC费(仅卖出)
+    finra_taf_rate: 0.000166        # FINRA TAF(仅卖出)
+    min_trade_value: 1.0            # 最低交易金额
+  
+  # 平坦成本(当cost_model="flat"时使用)
+  flat_cost_per_side: 0.002        # 0.2%单边(旧脚本的默认值)
+
+# ── Walk-Forward参数 ──
+walk_forward:
+  train_months: 12         # 训练窗口
+  test_months: 6           # 测试窗口
+  step_months: 6           # 步进
+  min_coverage: 0.80       # 数据覆盖率最低要求
+  
+  # OOS验证模式
+  oos_mode: "expanding"    # "expanding"(扩展训练集) 或 "rolling"(固定训练集)
+  oos_train_years: 3       # rolling模式下的训练窗口年数
+
+# ── 行业分散 ──
+sector_limit:
+  enabled: false           # 是否启用行业限制
+  max_per_sector: 3        # 每行业最多持仓数
+
+# ── VIX Regime过滤(执行层面) ──
+vix_filter:
+  enabled: false           # 回测中默认关闭(与生产分离)
+  thresholds:
+    extreme_bear: 30       # VIX>30 → 25%仓位
+    bear: 25               # VIX>25 → 50%仓位
+    neutral: 20            # VIX>20 → 75%仓位
+    bull: 20               # VIX<20 → 100%仓位
+
+# ── 输出 ──
+output:
+  save_results: true
+  results_path: "data/falcon/backtest_results/"
+  save_trades: true        # 保存每笔交易明细
+  save_equity_curve: true  # 保存日频净值曲线

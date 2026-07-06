@@ -3,8 +3,8 @@
     "APP": {
       "entry_price": 502.45,
       "qty": 34,
-      "current_price": 527.05,
-      "unrealized_plpc": 0.04896,
+      "current_price": 527.5,
+      "unrealized_plpc": 0.04986,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "pre-tracking entry",
@@ -13,22 +13,22 @@
     "AVGO": {
       "entry_price": 376.996818,
       "qty": 44,
-      "current_price": 363.35,
-      "unrealized_plpc": -0.0362,
+      "current_price": 365.7,
+      "unrealized_plpc": -0.02997,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "pre-tracking entry",
-      "highest_price": 365.81
+      "highest_price": 381.99
     },
     "EQT": {
       "entry_price": 52.750366,
       "qty": 82,
-      "current_price": 52.61,
-      "unrealized_plpc": -0.00266,
+      "current_price": 52.82,
+      "unrealized_plpc": 0.00132,
       "entry_date": "2026-07-01",
       "score": 0.7202,
       "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(74%)\uff0c\u5206\u6790\u5e08\u770b\u597d(70%)",
-      "highest_price": 52.61
+      "highest_price": 52.82
     },
     "FICO": {
       "entry_price": 1205.35,
@@ -53,32 +53,22 @@
     "NVDA": {
       "entry_price": 194.06,
       "qty": 48,
-      "current_price": 195.23,
-      "unrealized_plpc": 0.00603,
+      "current_price": 194.82,
+      "unrealized_plpc": 0.00392,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "pre-tracking entry",
-      "highest_price": 195.74
+      "highest_price": 196.6294
     },
     "PLTR": {
       "entry_price": 116.51,
       "qty": 82,
-      "current_price": 128.6,
-      "unrealized_plpc": 0.10377,
+      "current_price": 128.65,
+      "unrealized_plpc": 0.1042,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "pre-tracking entry",
-      "highest_price": 129.4
-    },
-    "PTC": {
-      "entry_price": 119.27,
-      "qty": 37,
-      "current_price": 124.43,
-      "unrealized_plpc": 0.04326,
-      "entry_date": "2026-07-01",
-      "score": 0.7052,
-      "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(73%)\uff0c\u73b0\u91d1\u6d41\u5065\u5eb7(79%)",
-      "highest_price": 124.43
+      "highest_price": 131.27
     },
     "TROW": {
       "entry_price": 115.75,
@@ -88,8 +78,28 @@
       "entry_date": "2026-07-01",
       "score": 0.6962,
       "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(76%)",
-      "highest_price": 118.0
+      "highest_price": 118.68
+    },
+    "MCK": {
+      "entry_price": 779.52,
+      "qty": 19,
+      "current_price": 777.75,
+      "unrealized_plpc": -0.002,
+      "entry_date": "2026-07-06",
+      "score": 0.708,
+      "reason": "V0.4.6 Top10, Healthcare\u5206\u6563, +20%\u4e0a\u884c\u7a7a\u95f4",
+      "highest_price": 779.97
+    },
+    "SYF": {
+      "entry_price": 77.1,
+      "qty": 195,
+      "current_price": 76.99,
+      "unrealized_plpc": -0.001,
+      "entry_date": "2026-07-06",
+      "score": 0.741,
+      "reason": "V0.4.6 Top5, Financial\u5206\u6563, +15%\u4e0a\u884c\u7a7a\u95f4",
+      "highest_price": 77.1
     }
   },
-  "synced_at": "2026-07-06T12:18:59.408196"
+  "synced_at": "2026-07-06T22:05:20.837874"
 }
