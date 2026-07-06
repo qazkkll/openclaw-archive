@@ -113,7 +113,7 @@ class ScoringEngine:
             weights = {}
             for col in available:
                 w = ic_weights.get(col, 0)
-                weights[col] = max(0, w) ** self.ic_power
+                weights[col] = max(0, w)  # 与falcon_score.py一致: raw IC, 不做power transform
             
             total = sum(weights.values())
             if total > 0:

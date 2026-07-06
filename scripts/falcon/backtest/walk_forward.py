@@ -91,9 +91,13 @@ class WalkForwardValidator:
 
         # 截取cutoff_date之前的daily IC (不含cutoff_date当天,
         # 因为rolling IC应基于历史而非未来)
+        # 额外减去hold_days天: 因为daily IC用了hold_days天前瞻收益,
+        # cutoff_date前hold_days天的IC会用到cutoff_date之后的价格
+        from datetime import timedelta
+        safe_cutoff = (pd.Timestamp(cutoff_date) - timedelta(days=self.engine.hold_days * 2)).strftime('%Y-%m-%d')
         filtered_daily_ic = {
             d: ic for d, ic in daily_ic.items()
-            if pd.Timestamp(d) < pd.Timestamp(cutoff_date)
+            if pd.Timestamp(d) < pd.Timestamp(safe_cutoff)
         }
 
         if not filtered_daily_ic:
