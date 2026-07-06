@@ -7,12 +7,22 @@
     {
       "name": "宏观状态",
       "pass": "True",
-      "detail": "SPX(7493)>MA200(6939) | VIX(16.5)正常"
+      "detail": "SPX(7483)>MA200(6943) | VIX(16.1)正常",
+      "data": {
+        "spx": 7483.240234375,
+        "ma200": 6942.908955078125,
+        "vix": 16.149999618530273
+      }
     },
     {
       "name": "行业风向",
-      "pass": false,
-      "detail": "XLF(+6.0%) | XLK(-4.1%) | XLE(-7.0%)"
+      "pass": true,
+      "detail": "XLV(+11.5%) | XLRE(+3.6%) | XLK(-7.9%)",
+      "data": {
+        "XLRE": 3.588891822225637,
+        "XLV": 11.461968149583402,
+        "XLK": -7.860503691256538
+      }
     },
     {
       "name": "事件风险",
@@ -22,20 +32,45 @@
     {
       "name": "持仓集中",
       "pass": true,
-      "detail": "行业重叠: Technology(持4/推8)"
+      "detail": "行业重叠: Financial Services(持1/推5), Technology(持7/推1)",
+      "data": {
+        "held": {
+          "Technology": 7,
+          "Energy": 1,
+          "Financial Services": 1
+        },
+        "picks": {
+          "Healthcare": 3,
+          "Financial Services": 5,
+          "Technology": 1,
+          "Real Estate": 1
+        }
+      }
     },
     {
       "name": "目标价空间",
-      "pass": true,
-      "detail": "✅ APP(+38%), PLTR(+68%), NVDA(+65%), AVGO(+36%) | ⚠️ TXN(-4%)"
+      "pass": false,
+      "detail": "INTU(+64%), SYF(+18%) | ⚠️ CNC(-12%), HUM(-25%), MET(+5%)",
+      "data": {
+        "good": [
+          "INTU(+64%)",
+          "SYF(+18%)"
+        ],
+        "below": [
+          "CNC(-12%)",
+          "HUM(-25%)",
+          "MET(+5%)"
+        ],
+        "no_data": []
+      }
     }
   ],
   "picks": [
-    "APP",
-    "PLTR",
-    "NVDA",
-    "AVGO",
-    "TXN"
+    "CNC",
+    "HUM",
+    "MET",
+    "INTU",
+    "SYF"
   ],
-  "timestamp": "2026-07-01T22:16:10.133696"
+  "timestamp": "2026-07-06T12:18:58.605581"
 }

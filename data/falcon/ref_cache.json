@@ -1,30 +1,6 @@
 {
-  "timestamp": "2026-07-05T18:46:02.702759+00:00",
+  "timestamp": "2026-07-05T23:46:09.046487+00:00",
   "data": {
-    "AVGO": {
-      "prev_close": 369.33,
-      "last_close": 360.5,
-      "last_volume": 720096.0,
-      "avg_volume_20d": 1015901.0,
-      "atr": 15.325357142857147,
-      "atr_pct": 0.04251139290667724,
-      "ma20": 384.24425,
-      "above_ma20": false,
-      "consecutive_down": 2,
-      "analyst_target": null
-    },
-    "NVDA": {
-      "prev_close": 197.54,
-      "last_close": 194.51,
-      "last_volume": 5880254.0,
-      "avg_volume_20d": 4814323.7,
-      "atr": 6.287142857142858,
-      "atr_pct": 0.03232298008916178,
-      "ma20": 203.419,
-      "above_ma20": false,
-      "consecutive_down": 2,
-      "analyst_target": null
-    },
     "FICO": {
       "prev_close": 1207.91,
       "last_close": 1270.41,
@@ -49,6 +25,18 @@
       "consecutive_down": 0,
       "analyst_target": null
     },
+    "NVDA": {
+      "prev_close": 197.54,
+      "last_close": 194.51,
+      "last_volume": 5880254.0,
+      "avg_volume_20d": 4814323.7,
+      "atr": 6.287142857142858,
+      "atr_pct": 0.03232298008916178,
+      "ma20": 203.419,
+      "above_ma20": false,
+      "consecutive_down": 2,
+      "analyst_target": null
+    },
     "TROW": {
       "prev_close": 116.11,
       "last_close": 118.505,
@@ -59,6 +47,18 @@
       "ma20": 109.027,
       "above_ma20": true,
       "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "AVGO": {
+      "prev_close": 369.33,
+      "last_close": 360.5,
+      "last_volume": 720096.0,
+      "avg_volume_20d": 1015901.0,
+      "atr": 15.325357142857147,
+      "atr_pct": 0.04251139290667724,
+      "ma20": 384.24425,
+      "above_ma20": false,
+      "consecutive_down": 2,
       "analyst_target": null
     },
     "EQT": {
@@ -85,18 +85,6 @@
       "consecutive_down": 0,
       "analyst_target": null
     },
-    "APP": {
-      "prev_close": 564.99,
-      "last_close": 526.905,
-      "last_volume": 170400.0,
-      "avg_volume_20d": 178188.95,
-      "atr": 33.45892857142858,
-      "atr_pct": 0.063500875056089,
-      "ma20": 504.201,
-      "above_ma20": true,
-      "consecutive_down": 1,
-      "analyst_target": null
-    },
     "PTC": {
       "prev_close": 119.8,
       "last_close": 124.43,
@@ -107,6 +95,18 @@
       "ma20": 121.04275,
       "above_ma20": true,
       "consecutive_down": 0,
+      "analyst_target": null
+    },
+    "APP": {
+      "prev_close": 564.99,
+      "last_close": 526.905,
+      "last_volume": 170400.0,
+      "avg_volume_20d": 178188.95,
+      "atr": 33.45892857142858,
+      "atr_pct": 0.063500875056089,
+      "ma20": 504.201,
+      "above_ma20": true,
+      "consecutive_down": 1,
       "analyst_target": null
     }
   }

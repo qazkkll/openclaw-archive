@@ -48,6 +48,9 @@ BUY_SCORE_THRESHOLD = 0.55  # V0.4.6校准 (IC加权, 分数压缩到0.50-0.60)
 GATEKEEPER_REQUIRED = True  # 硬性开关, 不可绕过
 # VIX过滤
 VIX_THRESHOLD = 25
+# W1: 追踪止损配置 (数据验证: 15%/10%在集中持仓中最优, Sharpe=0.319)
+TRAILING_STOP_ACTIVATION = 0.15   # 盈利≥15%时激活追踪止损
+TRAILING_STOP_DISTANCE = 0.10     # 从最高点回撤10%触发
 
 
 def load_falcon_config():
@@ -168,10 +171,13 @@ def execute_trades(client, dry_run=False):
         return report
 
     # ── 3. 止损/到期检查 ──
-    pos_data = load_positions()
+    # B1: 持仓统一来源 — broker API为主, positions.json存本地元数据
+    broker = get_broker()
+    broker_positions = broker.get_positions()  # Alpaca/Futu实时持仓
+    pos_data = load_positions()  # 本地元数据(entry_date, score, reason, highest_price)
     today = datetime.now().date()
 
-    for pos in positions:
+    for pos in broker_positions:
         sym = pos.symbol
         pnl_pct = float(pos.unrealized_plpc) * 100
         qty = int(pos.qty)
@@ -188,12 +194,36 @@ def execute_trades(client, dry_run=False):
         should_sell = False
         reason = ""
 
+        # W1: 追踪止损检查
+        # 更新最高价
+        highest = pos_info.get("highest_price", 0)
+        current_price = float(pos.current_price)
+        if current_price > highest:
+            highest = current_price
+            pos_data["positions"][sym]["highest_price"] = highest
+
+        # W3: 信号退化检测 — ❌ DISABLED: 数据验证显示退化后卖出损害收益
+        # 验证结果(20个评分日, 4236案例):
+        #   评分跌到<0.45: 7例, 14天均收益+2.65%, 跑赢对照组
+        #   退化卖出信号会导致负alpha, 不启用
+        W3_ENABLED = False
+        
         if pnl_pct <= STOP_LOSS * 100:
             should_sell = True
             reason = f"触发止损线({STOP_LOSS*100:.0f}%)，当前亏损{pnl_pct:+.1f}%"
         elif days_held >= HOLD_DAYS:
             should_sell = True
             reason = f"持有{days_held}天到期(规则:{HOLD_DAYS}天)，盈亏{pnl_pct:+.1f}%"
+        elif highest > 0 and pos_info.get("entry_price", 0) > 0:
+            # 追踪止损: 盈利≥10%后，从最高点回撤8%触发
+            entry_p = pos_info.get("entry_price", current_price)
+            profit_from_entry = (highest - entry_p) / entry_p
+            if profit_from_entry >= TRAILING_STOP_ACTIVATION:
+                trailing_stop_price = highest * (1 - TRAILING_STOP_DISTANCE)
+                if current_price <= trailing_stop_price:
+                    drawdown = (highest - current_price) / highest * 100
+                    should_sell = True
+                    reason = f"追踪止损触发: 最高${highest:.2f}→现${current_price:.2f}(回撤{drawdown:.1f}%)，盈利峰值{profit_from_entry:.0%}"
 
         if should_sell:
             if dry_run:
@@ -232,10 +262,14 @@ def execute_trades(client, dry_run=False):
             })
 
     # ── 4. 买入新信号 ──
-    # VIX检查: 如果评分时VIX>25, 跳过买入
+    # I2: VIX四档regime (替代单一VIX>25检查)
+    # 从falcon.yaml读取regime配置, 未配置则用默认值
     vix_skip = os.environ.get("FALCON_VIX_SKIP") == "1"
+    vix_value = None
+    vix_regime = "unknown"
+    position_pct = 1.0  # 默认满仓
+
     if not vix_skip and signal_file:
-        # 检查评分文件中的vix_skip标记
         try:
             with open(signal_file) as sf:
                 sig_data = json.load(sf)
@@ -243,7 +277,38 @@ def execute_trades(client, dry_run=False):
         except Exception:
             pass
 
-    existing_syms = {p.symbol for p in positions}
+    # 尝试获取当前VIX
+    try:
+        import yfinance as yf
+        vix_data = yf.download("^VIX", period="2d", progress=False)
+        if not vix_data.empty:
+            vix_value = float(vix_data["Close"].values.flatten()[-1])
+    except Exception:
+        pass
+
+    if vix_value is not None:
+        if vix_value < 20:
+            vix_regime = "bull"
+            position_pct = 1.00
+        elif vix_value < 25:
+            vix_regime = "neutral"
+            position_pct = 0.75
+        elif vix_value < 30:
+            vix_regime = "bear"
+            position_pct = 0.50
+        else:
+            vix_regime = "extreme_bear"
+            position_pct = 0.25
+        print(f"  📊 VIX={vix_value:.1f} → regime={vix_regime}, 仓位={position_pct:.0%}")
+
+    # VIX过滤: 极端恐慌时暂停买入
+    if vix_skip or vix_regime == "extreme_bear":
+        report["vix_skip"] = True
+        report["vix_regime"] = vix_regime
+        print(f"\n⚠️ VIX regime={vix_regime}，跳过买入（已有持仓继续持有）")
+        buy_candidates = []
+
+    existing_syms = {p.symbol for p in broker_positions}
     # 卖出的也要排除（可能还没结算）
     sold_syms = {s["symbol"] for s in report["sells"]}
     existing_syms = existing_syms | sold_syms
@@ -262,11 +327,14 @@ def execute_trades(client, dry_run=False):
         buy_candidates = []
 
     if buy_candidates:
-        # 计算可用资金
+        # 计算可用资金 (I2: VIX regime调整仓位)
         cash = float(account.cash)
-        # 如果有卖出，加上卖出的预估金额
-        available = cash * 0.95  # 留5%缓冲
-        per_stock = available / max(len(buy_candidates), 1)
+        available = cash * 0.95 * position_pct  # VIX regime影响总仓位
+
+        # W5: 按score加权分配(不再等权)
+        total_score = sum(p.get("score", BUY_SCORE_THRESHOLD) for p in buy_candidates)
+        if total_score <= 0:
+            total_score = len(buy_candidates) * BUY_SCORE_THRESHOLD
 
         # ── 4.1. Gatekeeper强制检查 (买入前门禁) ──
         # 硬性规则: 不通过不执行买入 (2026-06-29)
@@ -283,17 +351,52 @@ def execute_trades(client, dry_run=False):
                 print(f"   ⚠️ Gatekeeper: REDUCE — 减半仓位 ({gatekeeper_result.get('passed',0)}/{gatekeeper_result.get('total',5)})")
                 buy_candidates = buy_candidates[:max(1, len(buy_candidates) // 2)]
                 available = available * 0.5
-                per_stock = available / max(len(buy_candidates), 1)
+                # Filter out stocks with negative target price space (e.g. CNC -12%, HUM -25%)
+                # Access check 5 (target price) data from gatekeeper result
+                try:
+                    target_check = gatekeeper_result.get("checks", [{}])[4]
+                    below_target = [t.split("(")[0] for t in target_check.get("data", {}).get("below", [])]
+                    if below_target:
+                        before_count = len(buy_candidates)
+                        buy_candidates = [c for c in buy_candidates if c.get("ticker", c.get("sym", "")) not in below_target]
+                        removed = before_count - len(buy_candidates)
+                        if removed:
+                            print(f"   🚫 REDUCE过滤: 移除{removed}只目标价不足股票 {below_target}")
+                except (IndexError, KeyError):
+                    pass  # No target price data available, skip filter
+                # W5: per_stock now per-pick weighted, update total_score
+                total_score = sum(p.get("score", BUY_SCORE_THRESHOLD) for p in buy_candidates)
             else:
                 print(f"   ✅ Gatekeeper: EXECUTE — 正常执行 ({gatekeeper_result.get('passed',0)}/{gatekeeper_result.get('total',5)})")
 
         for pick in buy_candidates:
             sym = pick["ticker"]
-            price = pick.get("close", 0)
+            # B3: 用Alpaca实时价格, 不用评分文件的旧close
+            price = 0
+            try:
+                from alpaca.data.historical import StockHistoricalDataClient
+                from alpaca.data.requests import StockSnapshotRequest
+                from alpaca.data.enums import DataFeed
+                data_key = os.environ.get("APCA_API_KEY_ID", "")
+                data_secret = os.environ.get("APCA_API_SECRET_KEY", "")
+                data_client = StockHistoricalDataClient(data_key, data_secret)
+                req = StockSnapshotRequest(symbol_or_symbols=sym, feed=DataFeed.IEX)
+                snap = data_client.get_stock_snapshot(req)
+                if sym in snap and snap[sym].latest_trade:
+                    price = float(snap[sym].latest_trade.price)
+            except Exception as e:
+                print(f"  ⚠️ {sym} 实时价格获取失败: {e}, 回退到评分文件价")
+                price = pick.get("close", 0)
+            if price <= 0:
+                price = pick.get("close", 0)  # 最终回退
             if price <= 0:
                 report["errors"].append(f"{sym}价格异常({price})")
                 continue
 
+            # W5: 按score加权分配
+            score = pick.get("score", BUY_SCORE_THRESHOLD)
+            weight = score / total_score if total_score > 0 else 1.0 / max(len(buy_candidates), 1)
+            per_stock = available * weight
             qty = int(per_stock / price)
             if qty <= 0:
                 report["errors"].append(f"{sym}价格${price:.2f}太贵，买不起")
@@ -336,6 +439,7 @@ def execute_trades(client, dry_run=False):
                         "qty": qty,
                         "score": pick.get("score", 0),
                         "reason": reason,
+                        "highest_price": price,  # W1: 追踪止损初始化
                     }
                 except Exception as e:
                     report["errors"].append(f"买入{sym}失败: {e}")
@@ -403,9 +507,9 @@ def format_telegram_report(report, signal_file):
             lines.append(f"  • {e}")
         lines.append("")
 
-    # VIX跳过提示
+    # VIX过滤提示在报告中
     if report.get("vix_skip"):
-        lines.append(f"⚠️ **VIX > {VIX_THRESHOLD}**: 今日跳过买入（已有持仓继续持有）")
+        lines.append(f"⚠️ **VIX regime={report.get('vix_regime', '?')}**: 今日跳过买入（已有持仓继续持有）")
         lines.append("")
 
     lines.append(f"📁 信号: {Path(signal_file).name if signal_file else '无'}")
@@ -436,10 +540,106 @@ def format_position_report(client):
     return "\n".join(lines)
 
 
+def execute_stop_loss_only(client, dry_run=False):
+    """B2: 盘中止损检查 — 只检查止损/追踪止损, 不做买入。"""
+    report = {
+        "timestamp": datetime.now().isoformat(),
+        "sells": [],
+        "holds": [],
+        "errors": [],
+        "mode": "stop_loss_only",
+    }
+
+    broker = get_broker()
+    broker_positions = broker.get_positions()
+    pos_data = load_positions()
+    today = datetime.now().date()
+
+    for pos in broker_positions:
+        sym = pos.symbol
+        pnl_pct = float(pos.unrealized_plpc) * 100
+        qty = int(pos.qty)
+
+        pos_info = pos_data["positions"].get(sym, {})
+        entry_date_str = pos_info.get("entry_date")
+        if entry_date_str:
+            try:
+                entry_date = datetime.fromisoformat(entry_date_str).date()
+                days_held = (today - entry_date).days
+            except Exception:
+                days_held = 999
+        else:
+            days_held = 999
+
+        should_sell = False
+        reason = ""
+
+        # 更新最高价
+        highest = pos_info.get("highest_price", 0)
+        current_price = float(pos.current_price)
+        if current_price > highest:
+            highest = current_price
+            pos_data["positions"][sym]["highest_price"] = highest
+
+        # 硬止损
+        if pnl_pct <= STOP_LOSS * 100:
+            should_sell = True
+            reason = f"盘中止损触发({STOP_LOSS*100:.0f}%)，当前亏损{pnl_pct:+.1f}%"
+        # 追踪止损
+        elif highest > 0 and pos_info.get("entry_price", 0) > 0:
+            entry_p = pos_info.get("entry_price", current_price)
+            profit_from_entry = (highest - entry_p) / entry_p
+            if profit_from_entry >= TRAILING_STOP_ACTIVATION:
+                trailing_stop_price = highest * (1 - TRAILING_STOP_DISTANCE)
+                if current_price <= trailing_stop_price:
+                    drawdown = (highest - current_price) / highest * 100
+                    should_sell = True
+                    reason = f"盘中追踪止损: 最高${highest:.2f}→现${current_price:.2f}(回撤{drawdown:.1f}%)"
+
+        if should_sell:
+            if dry_run:
+                report["sells"].append({
+                    "symbol": sym, "qty": qty, "side": "SELL",
+                    "pnl_pct": round(pnl_pct, 2), "reason": reason, "dry_run": True,
+                })
+            else:
+                try:
+                    from alpaca.trading.requests import MarketOrderRequest
+                    from alpaca.trading.enums import OrderSide, TimeInForce
+                    order = MarketOrderRequest(
+                        symbol=sym, qty=qty,
+                        side=OrderSide.SELL, time_in_force=TimeInForce.DAY
+                    )
+                    submitted = client.submit_order(order_data=order)
+                    sell_record = {
+                        "symbol": sym, "qty": qty, "side": "SELL",
+                        "pnl_pct": round(pnl_pct, 2), "reason": reason,
+                        "order_id": str(submitted.id),
+                        "entry_price": pos_info.get("entry_price"),
+                        "exit_price": round(float(pos.current_price), 2),
+                    }
+                    report["sells"].append(sell_record)
+                    append_journal({**sell_record, "timestamp": datetime.now().isoformat(), "model": "falcon_v046"})
+                    if sym in pos_data["positions"]:
+                        del pos_data["positions"][sym]
+                except Exception as e:
+                    report["errors"].append(f"盘中止损卖出{sym}失败: {e}")
+        else:
+            report["holds"].append({
+                "symbol": sym, "qty": qty,
+                "pnl_pct": round(pnl_pct, 2), "days_held": days_held,
+            })
+
+    save_positions(pos_data)
+    return report
+
+
 def main():
     parser = argparse.ArgumentParser(description="Falcon 模拟盘交易执行")
     parser.add_argument("--dry-run", action="store_true", help="模拟运行，不实际下单")
     parser.add_argument("--report", action="store_true", help="只输出持仓报告")
+    parser.add_argument("--stop-loss-only", action="store_true",
+                        help="B2: 盘中止损模式 — 只检查止损/追踪止损, 不买入")
     args = parser.parse_args()
 
     load_falcon_config()
@@ -447,6 +647,18 @@ def main():
 
     if args.report:
         print(format_position_report(client))
+        return
+
+    # B2: 盘中止损模式
+    if args.stop_loss_only:
+        report = execute_stop_loss_only(client, dry_run=args.dry_run)
+        if report["sells"]:
+            tg_report = format_telegram_report(report, None)
+            print(tg_report)
+        elif report["errors"]:
+            print(f"⚠️ 盘中止损检查异常: {report['errors']}")
+        else:
+            print(f"✅ 盘中止损检查通过 ({len(report['holds'])}只持仓)")
         return
 
     # 执行交易
@@ -487,6 +699,10 @@ def main():
                 "entry_date": existing.get("entry_date", ""),
                 "score": existing.get("score", 0),
                 "reason": existing.get("reason", ""),
+                "highest_price": max(  # W1: 追踪止损 — 取历史最高
+                    existing.get("highest_price", 0),
+                    p.current_price
+                ),
             }
         with open(POSITIONS_FILE, "w") as f:
             json.dump(pos_backup, f, indent=2, default=str)

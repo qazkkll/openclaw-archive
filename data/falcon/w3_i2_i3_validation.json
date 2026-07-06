@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-07-06T07:20:17.424438",
+  "score_dates_count": 20,
+  "degradation_cases": 4236,
+  "conclusions": {
+    "W3": {
+      "status": "NEEDS_DATA",
+      "note": "见上方退化阈值分析"
+    },
+    "I2": {
+      "status": "NEEDS_DATA",
+      "note": "见上方VIX regime分析"
+    },
+    "I3": {
+      "status": "NEEDS_DATA",
+      "note": "见上方信号衰减曲线"
+    }
+  }
+}

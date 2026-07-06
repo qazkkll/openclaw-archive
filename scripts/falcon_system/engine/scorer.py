@@ -426,6 +426,10 @@ class ScoringEngine:
         # 按分数排序
         signals.sort(key=lambda s: s.score, reverse=True)
         
+        # B3修复: 用实时价格覆盖旧价格
+        # 因子计算需要历史数据(parquet), 但close价格必须是实时的
+        self._override_with_realtime_prices(signals)
+        
         elapsed = time.time() - t0
         
         return ScoringResult(
@@ -572,6 +576,55 @@ class ScoringEngine:
             return "🟡"
         else:
             return "🔴"
+    
+    def _override_with_realtime_prices(self, signals: List[Signal]) -> None:
+        """B3修复: 用实时价格覆盖parquet中的旧价格。
+        
+        因子计算需要parquet中的历史数据(技术指标等),
+        但signal.close必须是最新价格，否则目标买入/止损/卖出价全部错误。
+        
+        优先用yfinance(免费, 无API key), 失败则保留parquet价格。
+        """
+        if not signals:
+            return
+        
+        tickers = [s.ticker for s in signals]
+        ticker_to_signal = {s.ticker: s for s in signals}
+        
+        try:
+            import yfinance as yf
+            # 批量下载, period=1d获取最新价
+            data = yf.download(tickers, period="2d", progress=False, threads=True)
+            if data.empty:
+                print("⚠️ yfinance获取实时价格失败, 使用parquet价格")
+                return
+            
+            updated = 0
+            if isinstance(data.columns, pd.MultiIndex):
+                # 多个ticker
+                for ticker in tickers:
+                    try:
+                        prices = data["Close"][ticker].dropna()
+                        if len(prices) > 0:
+                            latest_price = float(prices.iloc[-1])
+                            if latest_price > 0:
+                                ticker_to_signal[ticker].close = latest_price
+                                updated += 1
+                    except (KeyError, IndexError):
+                        pass
+            else:
+                # 单个ticker
+                prices = data["Close"].dropna()
+                if len(prices) > 0 and len(tickers) == 1:
+                    ticker_to_signal[tickers[0]].close = float(prices.iloc[-1])
+                    updated = 1
+            
+            if updated > 0:
+                print(f"✅ 实时价格覆盖: {updated}/{len(tickers)}只")
+            else:
+                print("⚠️ 无价格更新, 使用parquet价格")
+        except Exception as e:
+            print(f"⚠️ 实时价格获取失败({e}), 使用parquet价格")
 
 
 # ════════════════════════════════════════════════════════════════
@@ -596,7 +649,8 @@ class Pricer:
             # 计算ATR
             atr = self._calculate_atr(ticker, master)
             if atr is None:
-                atr = current_price * 0.02  # 默认2%
+                # W2修复: ATR fallback从2%改为3%(更合理的波动率估计)
+                atr = current_price * 0.03
             
             # 找支撑位
             support = self._find_support(ticker, master)
@@ -613,10 +667,12 @@ class Pricer:
             if target_buy < max_drop:
                 target_buy = max_drop
             
-            # 止损价: 基于ATR
-            stop_loss = current_price - atr * 3
-            if stop_loss < current_price * (1 + CONFIG.model.stop_loss):
-                stop_loss = current_price * (1 + CONFIG.model.stop_loss)
+            # W2修复: 止损价 — 取ATR止损和固定-15%中更紧的(更高)那个
+            # 原逻辑: ATR止损可能只有-6%, 但被-15%兜底覆盖, 两套逻辑不一致
+            # 新逻辑: 止损 = max(ATR止损, 固定-15%止损), 即取亏损更小的
+            atr_stop = current_price - atr * 3
+            fixed_stop = current_price * (1 + CONFIG.model.stop_loss)  # -15%
+            stop_loss = max(atr_stop, fixed_stop)  # 取更高的(亏损更小的)
             
             # 目标卖出价: 风险收益比至少2:1
             risk = current_price - stop_loss

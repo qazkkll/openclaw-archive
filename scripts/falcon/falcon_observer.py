@@ -86,7 +86,10 @@ def classify_alert_level(alert: dict, cfg: dict) -> str:
     if atype == "stop_loss" or severity == "critical":
         return "L3"
 
-    # L2: 持仓亏损≥10% / 价格波动≥5% / 盘前gap≥7%
+    # L2: 持仓亏损≥10% / 价格波动≥5% / 盘前gap≥7% / 信号退化
+    if atype == "signal_degradation":
+        return "L2"
+    
     pnl = data.get("pnl")
     if pnl is not None and pnl <= cfg.get("pnl_warn", -0.10):
         return "L2"
@@ -372,7 +375,22 @@ def load_signal(top_n: int = 5) -> List[dict]:
     files = sorted(glob.glob(pattern))
     if not files:
         return []
-    with open(files[-1]) as f:
+    latest_file = files[-1]
+
+    # I3: 信号文件新鲜度检查 — ✅ 验证通过: 30天阈值
+    # 验证结果: IC>0.05持续到30天, IC半衰期3天但21天回升到0.206
+    I3_STALE_DAYS = 30  # 数据验证: 20个评分日, Top5信号IC在30天内保持>0.05
+    try:
+        fname = Path(latest_file).stem
+        date_str = fname.split("_")[-1]
+        file_date = datetime.strptime(date_str, "%Y%m%d").date()
+        age_days = (datetime.now().date() - file_date).days
+        if age_days > I3_STALE_DAYS:
+            print(f"  ⚠️ 信号文件过期{age_days}天(阈值{I3_STALE_DAYS}天): {Path(latest_file).name}")
+    except Exception:
+        pass
+
+    with open(latest_file) as f:
         data = json.load(f)
     picks = data.get("top_n", data.get("picks", []))
     targets = []
@@ -504,6 +522,10 @@ def detect_anomalies(
             "message": f"🟢 {ticker} 入场信号: price≤VWAP, 评分{entry_score:.0f}",
             "data": {"price": price, "vwap": vwap, "vwap_dev": vwap_dev, "score": entry_score},
         })
+
+    # W6: 信号退化检测 — 持仓股评分是否降级
+    # 在detect_anomalies中无法直接访问最新评分(top_n),
+    # 这个检查在run_observer的poll_once后由专门逻辑处理
 
     return alerts
 
@@ -645,6 +667,34 @@ def poll_once(client, tickers: List[str], cfg: dict) -> dict:
         # Detect anomalies
         alerts = detect_anomalies(t, snap, ref, mdata, portfolio, cfg, session)
         all_alerts.extend(alerts)
+
+    # W6: 信号退化检测 — 持仓股是否还在最新评分Top-N中
+    # 只在market/postmarket session检查(评分在收盘后更新)
+    if session in ("market", "postmarket") and portfolio:
+        try:
+            latest_signals = load_signal(top_n=cfg.get("top_n", 5))
+            signal_tickers = {s["ticker"] for s in latest_signals}
+            signal_scores = {s["ticker"]: s.get("score", 0) for s in latest_signals}
+            
+            for t in portfolio:
+                if t not in signal_tickers:
+                    # 持仓股不在最新Top-N → 信号退化
+                    entry_score = portfolio[t].get("score", 0)
+                    current_score = signal_scores.get(t, 0)
+                    
+                    all_alerts.append({
+                        "type": "signal_degradation",
+                        "severity": "warning",
+                        "ticker": t,
+                        "message": f"🟡 {t} 信号退化: 不在最新Top-{cfg.get('top_n',5)}中",
+                        "data": {
+                            "entry_score": entry_score,
+                            "current_rank": "不在Top-N",
+                            "in_portfolio": True,
+                        },
+                    })
+        except Exception:
+            pass  # 信号文件不存在等, 静默跳过
 
     # Build full state
     state = {

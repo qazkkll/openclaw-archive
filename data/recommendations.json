@@ -1440,6 +1440,78 @@
       ],
       "macro_context": "bear regime breadth=0.20 ret20=-14.2%",
       "rules_source": "agent_applied"
+    },
+    {
+      "id": "Rd71da7e6",
+      "timestamp": "2026-07-06T08:02:45.178909",
+      "status": "pending",
+      "outcome": null,
+      "outcome_date": null,
+      "actual_return": null,
+      "score": null,
+      "source": "morning",
+      "market": "cn",
+      "date": "20260706",
+      "target": "600396 HDLN",
+      "action": "buy",
+      "direction": "bullish",
+      "confidence": 0.55,
+      "reasoning": "GG rank#6 score100=31 RSI=52.4 neutral ret20=-7.69%. Fire power defense sector. Bear regime no new buy advised.",
+      "rules_applied": [
+        "R001",
+        "R004",
+        "R006"
+      ],
+      "macro_context": "bear regime breadth=0.2633 ret20=-11.1%",
+      "rules_source": "agent_applied"
+    },
+    {
+      "id": "R3c394b65",
+      "timestamp": "2026-07-06T08:02:45.196853",
+      "status": "pending",
+      "outcome": null,
+      "outcome_date": null,
+      "actual_return": null,
+      "score": null,
+      "source": "morning",
+      "market": "cn",
+      "date": "20260706",
+      "target": "300755 HZJH",
+      "action": "buy",
+      "direction": "bullish",
+      "confidence": 0.45,
+      "reasoning": "GG rank#7 score100=31 RSI=22.8 oversold ret20=-23.1%. Extreme oversold but bear regime oversold may continue.",
+      "rules_applied": [
+        "R001",
+        "R004",
+        "R006"
+      ],
+      "macro_context": "bear regime breadth=0.2633 ret20=-11.1%",
+      "rules_source": "agent_applied"
+    },
+    {
+      "id": "R378254a8",
+      "timestamp": "2026-07-06T08:02:45.214201",
+      "status": "pending",
+      "outcome": null,
+      "outcome_date": null,
+      "actual_return": null,
+      "score": null,
+      "source": "morning",
+      "market": "cn",
+      "date": "20260706",
+      "target": "603090 HSGF",
+      "action": "buy",
+      "direction": "bullish",
+      "confidence": 0.45,
+      "reasoning": "GG rank#8 score100=30 RSI=19.7 extreme oversold ret20=-17.7%. Special machinery under bear pressure.",
+      "rules_applied": [
+        "R001",
+        "R004",
+        "R006"
+      ],
+      "macro_context": "bear regime breadth=0.2633 ret20=-11.1%",
+      "rules_source": "agent_applied"
     }
   ],
   "lessons": [],

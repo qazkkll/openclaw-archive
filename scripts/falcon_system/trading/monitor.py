@@ -67,8 +67,13 @@ class AlertClassifier:
     
     def classify(self, position: Position, 
                  prev_close: Optional[float] = None,
-                 volume_ratio: Optional[float] = None) -> Optional[Alert]:
-        """判断是否有异动"""
+                 volume_ratio: Optional[float] = None,
+                 local_meta: Optional[Dict] = None) -> Optional[Alert]:
+        """判断是否有异动
+        
+        B1修复: local_meta由调用方传入(一次性从positions.json读取),
+        不再在classify内部重复读文件。
+        """
         symbol = position.symbol
         current_price = position.current_price
         entry_price = position.avg_entry_price
@@ -150,10 +155,8 @@ class AlertClassifier:
                     timestamp=datetime.now().isoformat(),
                 )
         
-        # 目标价到达 (L1)
-        local_data = self._load_local_positions()
-        pos_info = local_data.get(symbol, {})
-        target_sell = pos_info.get("target_sell")
+        # 目标价到达 (L1) — 用传入的元数据
+        target_sell = (local_meta or {}).get("target_sell")
         if target_sell and current_price >= target_sell:
             if self._should_alert(symbol, "target_hit"):
                 return Alert(
@@ -209,12 +212,16 @@ class PositionMonitor:
         self.state_file = DATA_DIR / "monitor_state.json"
     
     def check_all(self) -> List[Alert]:
-        """检查所有持仓"""
+        """检查所有持仓 — 从broker API获取实时数据"""
         positions = self.broker.get_positions()
         alerts = []
         
+        # B1修复: 一次性加载本地元数据(target_sell/stop_loss等)
+        # 持仓数据从broker API获取，本地文件只存元数据
+        local_metadata = self.classifier._load_local_positions()
+        
         for pos in positions:
-            alert = self.classifier.classify(pos)
+            alert = self.classifier.classify(pos, local_meta=local_metadata.get(pos.symbol, {}))
             if alert:
                 alerts.append(alert)
         

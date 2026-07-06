@@ -1,127 +1,95 @@
 {
   "positions": {
     "APP": {
+      "entry_price": 502.45,
       "qty": 34,
-      "avg_entry_price": 502.45,
-      "current_price": 527.06,
-      "unrealized_plpc": 0.04898,
-      "market_value": 17920.04,
+      "current_price": 527.05,
+      "unrealized_plpc": 0.04896,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "pre-tracking entry",
-      "target_buy": null,
-      "stop_loss": null,
-      "target_sell": null,
-      "source": "manual"
+      "highest_price": 529.98
     },
     "AVGO": {
+      "entry_price": 376.996818,
       "qty": 44,
-      "avg_entry_price": 376.996818,
-      "current_price": 360.45,
-      "unrealized_plpc": -0.04389,
-      "market_value": 15859.8,
+      "current_price": 363.35,
+      "unrealized_plpc": -0.0362,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "pre-tracking entry",
-      "target_buy": null,
-      "stop_loss": null,
-      "target_sell": null,
-      "source": "manual"
+      "highest_price": 365.81
     },
     "EQT": {
+      "entry_price": 52.750366,
       "qty": 82,
-      "avg_entry_price": 52.750366,
       "current_price": 52.61,
       "unrealized_plpc": -0.00266,
-      "market_value": 4314.02,
       "entry_date": "2026-07-01",
       "score": 0.7202,
       "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(74%)\uff0c\u5206\u6790\u5e08\u770b\u597d(70%)",
-      "target_buy": null,
-      "stop_loss": null,
-      "target_sell": null
+      "highest_price": 52.61
     },
     "FICO": {
+      "entry_price": 1205.35,
       "qty": 3,
-      "avg_entry_price": 1205.35,
-      "current_price": 1270.83,
-      "unrealized_plpc": 0.05432,
-      "market_value": 3812.49,
+      "current_price": 1290.0,
+      "unrealized_plpc": 0.07023,
       "entry_date": "2026-07-01",
       "score": 0.7066,
       "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(83%)",
-      "target_buy": null,
-      "stop_loss": null,
-      "target_sell": null
+      "highest_price": 1290.0
     },
     "INTU": {
+      "entry_price": 272.0,
       "qty": 16,
-      "avg_entry_price": 272.0,
-      "current_price": 275.35,
-      "unrealized_plpc": 0.01232,
-      "market_value": 4405.6,
+      "current_price": 275.0,
+      "unrealized_plpc": 0.01103,
       "entry_date": "2026-07-01",
       "score": 0.815,
       "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(88%)\uff0c\u73b0\u91d1\u6d41\u5065\u5eb7(89%)\uff0c\u5206\u6790\u5e08\u770b\u597d(97%)",
-      "target_buy": null,
-      "stop_loss": null,
-      "target_sell": null
+      "highest_price": 276.1
     },
     "NVDA": {
+      "entry_price": 194.06,
       "qty": 48,
-      "avg_entry_price": 194.06,
-      "current_price": 194.83,
-      "unrealized_plpc": 0.00397,
-      "market_value": 9351.84,
+      "current_price": 195.23,
+      "unrealized_plpc": 0.00603,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "pre-tracking entry",
-      "target_buy": null,
-      "stop_loss": null,
-      "target_sell": null,
-      "source": "manual"
+      "highest_price": 195.74
     },
     "PLTR": {
+      "entry_price": 116.51,
       "qty": 82,
-      "avg_entry_price": 116.51,
-      "current_price": 129.3,
-      "unrealized_plpc": 0.10978,
-      "market_value": 10602.6,
+      "current_price": 128.6,
+      "unrealized_plpc": 0.10377,
       "entry_date": "2026-06-30",
       "score": 0,
       "reason": "pre-tracking entry",
-      "target_buy": null,
-      "stop_loss": null,
-      "target_sell": null,
-      "source": "manual"
+      "highest_price": 129.4
     },
     "PTC": {
+      "entry_price": 119.27,
       "qty": 37,
-      "avg_entry_price": 119.27,
-      "current_price": 124.55,
-      "unrealized_plpc": 0.04427,
-      "market_value": 4608.35,
+      "current_price": 124.43,
+      "unrealized_plpc": 0.04326,
       "entry_date": "2026-07-01",
       "score": 0.7052,
       "reason": "[SPX] \u589e\u957f\u8d8b\u52bf\u5f3a(73%)\uff0c\u73b0\u91d1\u6d41\u5065\u5eb7(79%)",
-      "target_buy": null,
-      "stop_loss": null,
-      "target_sell": null,
-      "source": "manual"
+      "highest_price": 124.43
     },
     "TROW": {
+      "entry_price": 115.75,
       "qty": 39,
-      "avg_entry_price": 115.75,
-      "current_price": 118.55,
-      "unrealized_plpc": 0.02419,
-      "market_value": 4623.45,
+      "current_price": 118.0,
+      "unrealized_plpc": 0.01944,
       "entry_date": "2026-07-01",
       "score": 0.6962,
       "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(76%)",
-      "target_buy": null,
-      "stop_loss": null,
-      "target_sell": null
+      "highest_price": 118.0
     }
   },
-  "synced_at": "2026-07-04T04:30:45.648713"
+  "synced_at": "2026-07-06T12:18:59.408196"
 }

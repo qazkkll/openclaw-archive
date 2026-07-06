@@ -377,6 +377,38 @@ def main():
         print("❌ 评分失败")
         sys.exit(1)
     
+    # ── B3修复: 用实时价格覆盖parquet旧价格 ──
+    # 因子计算需要parquet中的历史数据(技术指标), 但close必须是最新价
+    print("\n📊 获取实时价格覆盖旧价格...")
+    try:
+        import yfinance as yf
+        all_tickers = result["ticker"].tolist()
+        rt_data = yf.download(all_tickers, period="2d", progress=False, threads=True)
+        if not rt_data.empty:
+            updated = 0
+            if isinstance(rt_data.columns, pd.MultiIndex):
+                for ticker in all_tickers:
+                    try:
+                        prices = rt_data["Close"][ticker].dropna()
+                        if len(prices) > 0:
+                            latest = float(prices.iloc[-1])
+                            if latest > 0:
+                                result.loc[result["ticker"] == ticker, "close"] = latest
+                                updated += 1
+                    except (KeyError, IndexError):
+                        pass
+            else:
+                if len(all_tickers) == 1:
+                    prices = rt_data["Close"].dropna()
+                    if len(prices) > 0:
+                        result.loc[result["ticker"] == all_tickers[0], "close"] = float(prices.iloc[-1])
+                        updated = 1
+            print(f"  ✅ 实时价格覆盖: {updated}/{len(all_tickers)}只")
+        else:
+            print("  ⚠️ yfinance返回空数据, 使用parquet价格")
+    except Exception as e:
+        print(f"  ⚠️ 实时价格获取失败({e}), 使用parquet价格")
+
     # ── 生成信号 ──
     result["signal"] = result.apply(
         lambda r: score_to_signal(r["falcon_score"], r["rank_pct"]), axis=1

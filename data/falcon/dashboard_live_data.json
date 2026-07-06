@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026/07/06 02:55:57",
+  "timestamp": "2026/07/06 12:16:01",
   "alpaca": [
     {
       "sym": "APP",
       "qty": 34,
       "entry": 502.45,
-      "price": 527.06,
-      "pnl": 836.74,
+      "price": 527.05,
+      "pnl": 836.4,
       "pnl_pct": 4.9,
-      "market_val": 17920.04
+      "market_val": 17919.7
     },
     {
       "sym": "AVGO",
       "qty": 44,
       "entry": 377.0,
-      "price": 360.45,
-      "pnl": -728.06,
-      "pnl_pct": -4.39,
-      "market_val": 15859.8
+      "price": 363.35,
+      "pnl": -600.46,
+      "pnl_pct": -3.62,
+      "market_val": 15987.4
     },
     {
       "sym": "EQT",
@@ -32,95 +32,95 @@
       "sym": "FICO",
       "qty": 3,
       "entry": 1205.35,
-      "price": 1270.83,
-      "pnl": 196.44,
-      "pnl_pct": 5.43,
-      "market_val": 3812.49
+      "price": 1290.0,
+      "pnl": 253.95,
+      "pnl_pct": 7.02,
+      "market_val": 3870.0
     },
     {
       "sym": "INTU",
       "qty": 16,
       "entry": 272.0,
-      "price": 275.35,
-      "pnl": 53.6,
-      "pnl_pct": 1.23,
-      "market_val": 4405.6
+      "price": 275.0,
+      "pnl": 48.0,
+      "pnl_pct": 1.1,
+      "market_val": 4400.0
     },
     {
       "sym": "NVDA",
       "qty": 48,
       "entry": 194.06,
-      "price": 194.83,
-      "pnl": 36.96,
-      "pnl_pct": 0.4,
-      "market_val": 9351.84
+      "price": 195.09,
+      "pnl": 49.44,
+      "pnl_pct": 0.53,
+      "market_val": 9364.32
     },
     {
       "sym": "PLTR",
       "qty": 82,
       "entry": 116.51,
-      "price": 129.3,
-      "pnl": 1048.78,
-      "pnl_pct": 10.98,
-      "market_val": 10602.6
+      "price": 128.6,
+      "pnl": 991.38,
+      "pnl_pct": 10.38,
+      "market_val": 10545.2
     },
     {
       "sym": "PTC",
       "qty": 37,
       "entry": 119.27,
-      "price": 124.55,
-      "pnl": 195.36,
-      "pnl_pct": 4.43,
-      "market_val": 4608.35
+      "price": 124.43,
+      "pnl": 190.92,
+      "pnl_pct": 4.33,
+      "market_val": 4603.91
     },
     {
       "sym": "TROW",
       "qty": 39,
       "entry": 115.75,
-      "price": 118.55,
-      "pnl": 109.2,
-      "pnl_pct": 2.42,
-      "market_val": 4623.45
+      "price": 118.0,
+      "pnl": 87.75,
+      "pnl_pct": 1.94,
+      "market_val": 4602.0
     }
   ],
   "alpaca_cash": 24501.65,
-  "alpaca_equity": 99999.84,
+  "alpaca_equity": 100108.2,
   "futu": [
     {
       "sym": "ON",
       "qty": 25,
       "cost": 119.48,
-      "price": 91.22,
-      "val": 2280.5,
-      "pnl": -706.5,
-      "pnl_pct": -23.65
+      "price": 92.3,
+      "val": 2307.5,
+      "pnl": -679.5,
+      "pnl_pct": -22.75
     },
     {
       "sym": "NEM",
       "qty": 22,
       "cost": 94.81,
-      "price": 97.04,
-      "val": 2134.88,
-      "pnl": 49.06,
-      "pnl_pct": 2.35
+      "price": 98.41,
+      "val": 2165.02,
+      "pnl": 79.2,
+      "pnl_pct": 3.8
     },
     {
       "sym": "COHR",
       "qty": 12,
       "cost": 368.46,
-      "price": 333.36,
-      "val": 4000.32,
-      "pnl": -421.16,
-      "pnl_pct": -9.53
+      "price": 338.0,
+      "val": 4056.0,
+      "pnl": -365.48,
+      "pnl_pct": -8.27
     },
     {
       "sym": "AVGO",
       "qty": 8,
       "cost": 376.18,
-      "price": 360.45,
-      "val": 2883.6,
-      "pnl": -125.84,
-      "pnl_pct": -4.18
+      "price": 363.69,
+      "val": 2909.52,
+      "pnl": -99.92,
+      "pnl_pct": -3.32
     }
   ],
   "scores": {
@@ -325,9 +325,9 @@
   },
   "totals": {
     "positions": 13,
-    "alpaca_pnl": 1737.51,
-    "futu_pnl": -1204.44,
-    "total_pnl": 533.07
+    "alpaca_pnl": 1845.87,
+    "futu_pnl": -1065.7,
+    "total_pnl": 780.17
   },
   "freshness": {
     "items": [

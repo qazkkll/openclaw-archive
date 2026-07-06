@@ -261,8 +261,11 @@ def run_gatekeeper_if_available() -> Dict:
         sys.path.insert(0, str(FALCON_DIR))
         from falcon_gatekeeper import run_gatekeeper
         return run_gatekeeper()
-    except:
-        return {"verdict": "EXECUTE", "passed": 5, "total": 5, "checks": []}
+    except Exception as e:
+        # B4修复: Gatekeeper不可用时默认SKIP，不放行
+        # 安全原则: 无法验证 → 不执行买入
+        print(f"  ⚠️ Gatekeeper加载失败: {e}")
+        return {"verdict": "SKIP", "passed": 0, "total": 5, "checks": [{"name": "gatekeeper_load", "pass": False, "detail": f"加载失败: {e}"}]}
 
 
 # ════════════════════════════════════════════════════════════════

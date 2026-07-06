@@ -24,6 +24,7 @@
 import json, sys, os, glob, argparse
 from datetime import datetime, timedelta
 from pathlib import Path
+from typing import Dict
 import numpy as np
 
 # ── 路径 ──
@@ -106,7 +107,7 @@ SECTOR_ETFS = {
     "Energy": "XLE", "Industrials": "XLI", "Materials": "XLB",
     "Real Estate": "XLRE", "Utilities": "XLU", "Communication": "XLC",
 }
-# Ticker → rough sector mapping (major ones)
+# Ticker → rough sector mapping (major ones, fallback cache)
 TICKER_SECTOR = {
     "AAPL": "Technology", "MSFT": "Technology", "NVDA": "Technology",
     "AVGO": "Technology", "META": "Communication", "GOOGL": "Communication",
@@ -125,6 +126,35 @@ TICKER_SECTOR = {
     "KO": "Consumer Staples", "ZTS": "Healthcare",
 }
 
+# I1: FMP sector缓存 (避免重复API调用)
+_sector_cache: Dict[str, str] = {}
+
+def get_sector(symbol: str) -> str:
+    """获取股票行业。优先硬编码, 否则查FMP API, 缓存结果。"""
+    if symbol in TICKER_SECTOR:
+        return TICKER_SECTOR[symbol]
+    if symbol in _sector_cache:
+        return _sector_cache[symbol]
+
+    # 从FMP查
+    try:
+        import requests
+        api_key = os.environ.get("FMP_API_KEY", "")
+        if not api_key:
+            return "Unknown"
+        url = f"https://financialmodelingprep.com/stable/profile?symbol={symbol}&apikey={api_key}"
+        resp = requests.get(url, timeout=5)
+        if resp.status_code == 200:
+            data = resp.json()
+            if data and len(data) > 0:
+                sector = data[0].get("sector", "Unknown")
+                if sector:
+                    _sector_cache[symbol] = sector
+                    return sector
+    except Exception:
+        pass
+    return "Unknown"
+
 
 def check_sector(picks):
     """检查推荐股所在行业近1个月相对强弱。"""
@@ -137,8 +167,8 @@ def check_sector(picks):
         sectors = set()
         for p in picks:
             sym = p.get("ticker", p.get("sym", ""))
-            sector = TICKER_SECTOR.get(sym)
-            if sector:
+            sector = get_sector(sym)
+            if sector and sector != "Unknown":
                 sectors.add(sector)
 
         if not sectors:
@@ -189,7 +219,7 @@ def check_sector(picks):
 
     except Exception as e:
         result["detail"] = f"行业检查异常: {e}"
-        result["pass"] = True  # 异常时放行
+        result["pass"] = False  # B4: 异常时阻断(安全优先)
 
     return result
 
@@ -254,7 +284,7 @@ def check_events(picks):
 
     except Exception as e:
         result["detail"] = f"事件检查异常: {e}"
-        result["pass"] = True  # 异常时放行
+        result["pass"] = False  # B4: 异常时阻断
 
     return result
 
@@ -288,14 +318,14 @@ def check_concentration(picks):
         # 检查持仓行业分布
         held_sectors = {}
         for sym in existing:
-            sector = TICKER_SECTOR.get(sym, "Unknown")
+            sector = get_sector(sym)
             held_sectors[sector] = held_sectors.get(sector, 0) + 1
 
         # 检查推荐股行业
         pick_sectors = {}
         for p in picks:
             sym = p.get("ticker", p.get("sym", ""))
-            sector = TICKER_SECTOR.get(sym, "Unknown")
+            sector = get_sector(sym)
             pick_sectors[sector] = pick_sectors.get(sector, 0) + 1
 
         # 找重叠行业
@@ -317,7 +347,7 @@ def check_concentration(picks):
 
     except Exception as e:
         result["detail"] = f"集中度检查异常: {e}"
-        result["pass"] = True
+        result["pass"] = False  # B4: 异常时阻断
 
     return result
 
@@ -376,16 +406,19 @@ def check_price_targets(picks):
                 no_data.append(sym)
 
         details = []
+        # Use check-level emoji (✅/❌) for pass/fail; per-stock uses neutral markers
+        # to avoid confusing ❌ ✅ prefix combination when check fails
         if good_target:
-            details.append(f"✅ {', '.join(good_target)}")
+            details.append(', '.join(good_target))
         if below_target:
             details.append(f"⚠️ {', '.join(below_target)}")
         if no_data:
             details.append(f"❓ {', '.join(no_data)}")
 
-        # 通过条件: 至少一半推荐股有≥15%上行空间
+        # W4: 通过条件: 至少一半推荐股有≥15%上行空间
+        # no_data不再算通过(无数据≠安全)
         total = len(top_picks)
-        passed = len(good_target) + len(no_data)  # 无数据的也算通过
+        passed = len(good_target)
         result["pass"] = passed >= total / 2
         result["score"] = 1 if result["pass"] else 0
         result["detail"] = " | ".join(details) if details else "无数据"
@@ -393,7 +426,7 @@ def check_price_targets(picks):
 
     except Exception as e:
         result["detail"] = f"目标价检查异常: {e}"
-        result["pass"] = True
+        result["pass"] = False  # B4: 异常时阻断
 
     return result
 
@@ -484,7 +517,7 @@ def run_gatekeeper(picks_file=None, verbose=False):
     # 输出推荐股
     print(f"\n📋 推荐股:")
     for i, p in enumerate(picks[:5], 1):
-        print(f"   {i}. {p.get('sym','?')} score={p.get('score',0):.4f}")
+        print(f"   {i}. {p.get('ticker', p.get('sym','?'))} score={p.get('score',0):.4f}")
 
     result = {
         "verdict": verdict,
@@ -492,7 +525,7 @@ def run_gatekeeper(picks_file=None, verbose=False):
         "total": total,
         "action": action,
         "checks": [
-            {"name": c["name"], "pass": c["pass"], "detail": c["detail"]}
+            {"name": c["name"], "pass": c["pass"], "detail": c["detail"], **({"data": c["data"]} if "data" in c else {})}
             for c in checks
         ],
         "picks": [p.get("ticker", p.get("sym", "")) for p in picks[:5]],

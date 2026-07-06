@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-07-06T12:18:41.900356",
+  "sells": [],
+  "buys": [
+    {
+      "symbol": "SYF",
+      "qty": 152,
+      "side": "BUY",
+      "price": 76.3,
+      "score": 0.7414,
+      "reason": "[SPX] \u73b0\u91d1\u6d41\u5065\u5eb7(82%)",
+      "dry_run": true,
+      "fund_ratio": 0.8499,
+      "analyst": 0,
+      "fund_metric": 0
+    }
+  ],
+  "holds": [
+    {
+      "symbol": "APP",
+      "qty": 34,
+      "pnl_pct": 4.9,
+      "days_held": 6
+    },
+    {
+      "symbol": "AVGO",
+      "qty": 44,
+      "pnl_pct": -3.62,
+      "days_held": 6
+    },
+    {
+      "symbol": "EQT",
+      "qty": 82,
+      "pnl_pct": -0.27,
+      "days_held": 5
+    },
+    {
+      "symbol": "FICO",
+      "qty": 3,
+      "pnl_pct": 7.02,
+      "days_held": 5
+    },
+    {
+      "symbol": "INTU",
+      "qty": 16,
+      "pnl_pct": 1.1,
+      "days_held": 5
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 48,
+      "pnl_pct": 0.55,
+      "days_held": 6
+    },
+    {
+      "symbol": "PLTR",
+      "qty": 82,
+      "pnl_pct": 10.38,
+      "days_held": 6
+    },
+    {
+      "symbol": "PTC",
+      "qty": 37,
+      "pnl_pct": 4.33,
+      "days_held": 5
+    },
+    {
+      "symbol": "TROW",
+      "qty": 39,
+      "pnl_pct": 1.94,
+      "days_held": 5
+    }
+  ],
+  "errors": [],
+  "account": {
+    "cash": 24501.65,
+    "equity": 100110.12,
+    "buying_power": 309710.32,
+    "position_count": 9
+  },
+  "gatekeeper": {
+    "verdict": "REDUCE",
+    "passed": 4,
+    "total": 5,
+    "action": "\u26a0\ufe0f 4/5\u901a\u8fc7, \u5efa\u8bae\u51cf\u534a\u4ed3\u4f4d",
+    "checks": [
+      {
+        "name": "\u5b8f\u89c2\u72b6\u6001",
+        "pass": "True",
+        "detail": "SPX(7483)>MA200(6943) | VIX(16.1)\u6b63\u5e38",
+        "data": {
+          "spx": 7483.240234375,
+          "ma200": 6942.908955078125,
+          "vix": 16.149999618530273
+        }
+      },
+      {
+        "name": "\u884c\u4e1a\u98ce\u5411",
+        "pass": true,
+        "detail": "XLV(+11.5%) | XLRE(+3.6%) | XLK(-7.9%)",
+        "data": {
+          "XLRE": 3.588891822225637,
+          "XLV": 11.461968149583402,
+          "XLK": -7.860503691256538
+        }
+      },
+      {
+        "name": "\u4e8b\u4ef6\u98ce\u9669",
+        "pass": true,
+        "detail": "\u672a\u67657\u5929\u65e0\u63a8\u8350\u80a1\u8d22\u62a5"
+      },
+      {
+        "name": "\u6301\u4ed3\u96c6\u4e2d",
+        "pass": true,
+        "detail": "\u884c\u4e1a\u91cd\u53e0: Financial Services(\u63011/\u63a85), Technology(\u63017/\u63a81)",
+        "data": {
+          "held": {
+            "Technology": 7,
+            "Energy": 1,
+            "Financial Services": 1
+          },
+          "picks": {
+            "Healthcare": 3,
+            "Financial Services": 5,
+            "Technology": 1,
+            "Real Estate": 1
+          }
+        }
+      },
+      {
+        "name": "\u76ee\u6807\u4ef7\u7a7a\u95f4",
+        "pass": false,
+        "detail": "INTU(+64%), SYF(+18%) | \u26a0\ufe0f CNC(-12%), HUM(-25%), MET(+5%)",
+        "data": {
+          "good": [
+            "INTU(+64%)",
+            "SYF(+18%)"
+          ],
+          "below": [
+            "CNC(-12%)",
+            "HUM(-25%)",
+            "MET(+5%)"
+          ],
+          "no_data": []
+        }
+      }
+    ],
+    "picks": [
+      "CNC",
+      "HUM",
+      "MET",
+      "INTU",
+      "SYF"
+    ],
+    "timestamp": "2026-07-06T12:18:58.605581"
+  }
+}
